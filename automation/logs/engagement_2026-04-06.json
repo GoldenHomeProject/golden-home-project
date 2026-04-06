@@ -1,0 +1,75 @@
+{
+  "date": "2026-04-06",
+  "agent": "engagement-monitor",
+  "metrics": {
+    "subscribers": 6710,
+    "total_views": 18688,
+    "total_videos": 110
+  },
+  "top_videos": [
+    {
+      "title": "My Kitchen Looks Like a Magazine Now \u2014 $34 Total #shorts #am",
+      "views": 231,
+      "likes": 0,
+      "comments": 4
+    },
+    {
+      "title": "I Used the Wrong Pantry Organizers for 3 Years #shorts #amaz",
+      "views": 113,
+      "likes": 0,
+      "comments": 2
+    },
+    {
+      "title": "Room by Room Ep 1: The Cabinet Nobody Looks In #shorts #amaz",
+      "views": 72,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Kitchen Products I Use Every Single Day (Honest Review) #sho",
+      "views": 72,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Dog Owners: These Amazon Products Will Change Your Life #sho",
+      "views": 69,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "I Transformed My Cluttered Kitchen Counter For $47 #shorts #",
+      "views": 59,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "5 Amazon Products That Actually Helped Me Sleep Better #shor",
+      "views": 53,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "The Golden Home Project All-Time Greatest Hits #shorts #amaz",
+      "views": 48,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "I Transformed My Entire Bathroom for $297 \u2014 Every Product Li",
+      "views": 1,
+      "likes": 0,
+      "comments": 4
+    },
+    {
+      "title": "I Transformed My Entire Kitchen for $148 \u2014 Every Product Lin",
+      "views": 1,
+      "likes": 0,
+      "comments": 4
+    }
+  ],
+  "comments_responded": 0,
+  "actions_taken": [
+    "Updated BUSINESS_BRAIN.md metrics"
+  ]
+}
