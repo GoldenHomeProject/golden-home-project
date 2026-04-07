@@ -18,7 +18,7 @@
 ## LIVE METRICS (update each week)
 | Metric | Value | Last Updated |
 |--------|-------|--------------|
-| YouTube subscribers | 6,710 | 2026-04-06 |
+| YouTube subscribers | 6,710 | 2026-04-07 |
 | YouTube total views | 18,688 | 2026-04-03 |
 | YouTube videos | 109 (incl. Kitchen + Bathroom Makeover long-forms) | 2026-04-05 |
 | YouTube daily poster | ✅ Working (Apr 1: v5m1cnIER4w, Apr 2: YKPHYXP5eqE) | 2026-04-02 |
