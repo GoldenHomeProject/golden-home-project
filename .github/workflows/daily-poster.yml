@@ -9,6 +9,11 @@ on:
   schedule:
     - cron: '0 17 * * *'
   workflow_dispatch:
+    inputs:
+      date:
+        description: 'Override date (YYYY-MM-DD) to post a missed day'
+        required: false
+        default: ''
 
 permissions:
   contents: write
@@ -48,10 +53,15 @@ jobs:
         env:
           AMAZON_ASSOCIATE_TAG: ${{ secrets.AMAZON_ASSOCIATE_TAG }}
         run: |
+          DATE_ARG=""
+          if [ -n "${{ github.event.inputs.date }}" ]; then
+            DATE_ARG="--date ${{ github.event.inputs.date }}"
+          fi
           python3 automation/github_daily_poster.py \
             --yt-token /tmp/yt_token.json \
             --meta-token /tmp/meta_tokens.json \
-            --associate-tag "$AMAZON_ASSOCIATE_TAG"
+            --associate-tag "$AMAZON_ASSOCIATE_TAG" \
+            $DATE_ARG
 
       - name: Commit posting log
         run: |
