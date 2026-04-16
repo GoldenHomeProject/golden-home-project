@@ -1,0 +1,75 @@
+{
+  "date": "2026-04-16",
+  "agent": "engagement-monitor",
+  "metrics": {
+    "subscribers": 6690,
+    "total_views": 19146,
+    "total_videos": 116
+  },
+  "top_videos": [
+    {
+      "title": "My Kitchen Looks Like a Magazine Now \u2014 $34 Total #shorts #am",
+      "views": 231,
+      "likes": 0,
+      "comments": 4
+    },
+    {
+      "title": "I Tested $25 vs $120 Air Purifiers. Here's the Truth. #short",
+      "views": 196,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "I Transformed My Entire Bathroom for $297 \u2014 Every Product Li",
+      "views": 81,
+      "likes": 0,
+      "comments": 4
+    },
+    {
+      "title": "Room by Room Ep 1: The Cabinet Nobody Looks In #shorts #amaz",
+      "views": 72,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "I Finally Made My Bedroom Feel Like a Hotel #shorts #amazonf",
+      "views": 70,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "My Bathroom Went From Rental to Spa for $52 #shorts #amazonf",
+      "views": 58,
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "title": "Room by Room Ep 2: The Junk Drawer Doesn't Have to Exist #sh",
+      "views": 45,
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "title": "The Shower Caddy I Wasted $40 On (And What I Use Now) #short",
+      "views": 17,
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "title": "I Transformed My Entire Kitchen for $148 \u2014 Every Product Lin",
+      "views": 5,
+      "likes": 0,
+      "comments": 4
+    },
+    {
+      "title": "My Nightstand Was a Disaster. $28 Fixed It. #shorts #amazonf",
+      "views": 1,
+      "likes": 0,
+      "comments": 1
+    }
+  ],
+  "comments_responded": 0,
+  "actions_taken": [
+    "Updated BUSINESS_BRAIN.md metrics"
+  ]
+}
