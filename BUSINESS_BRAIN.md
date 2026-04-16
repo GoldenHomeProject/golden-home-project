@@ -111,6 +111,27 @@
 
 ---
 
+## SESSION 2026-04-16 (evening, session 2) — Queue Refresh + Insights Infra + Permissions Blocker
+
+### Shipped
+- `social/post_queue.json` refreshed: cleared 2 stale already-posted items, added 5 fresh COSTAR-scripted captions. Cron at 22:00 UTC will publish `mamma_mia_pet_hair_v1` (pet owners angle, Mamma Mia 24-30%) instead of a duplicate of this morning's post.
+- `.github/workflows/ig-insights.yml` built + deployed + verified working. Pulls Meta Graph API data for posts in the last 14 days. Daily 03:00 UTC + manual dispatch.
+- First engagement snapshot committed at `automation/logs/ig_insights_2026-04-16.json`:
+  - Mamma Mia (18084608081580290): 0 likes, 0 comments, permalink `instagram.com/p/DXNBirLGKZO/`
+  - Eli & Elm (18165440092418254): 0 likes, 0 comments, permalink `instagram.com/p/DXNBrqnDglK/`
+
+### Blocker discovered (CRITICAL)
+- `/{media_id}/insights` API returns `OAuthException #10 ("Application does not have permission for this action")`
+- Root cause: Meta app is in Development mode. `instagram_business_manage_insights` requires Facebook App Review.
+- Impact: revenue feedback loop cannot use reach/impressions/saves/shares until App Review. `like_count` + `comments_count` + impact.com clicks are the only signals until then.
+- See `reference_meta_graph_dev_limits.md` memory for API-level detail.
+
+### Revenue implications
+- impact.com clicks are now the highest-signal metric in our stack until App Review clears. Pull them weekly for $-ROI decisions.
+- Adding direct brand tracking links to `links.html` is a likely high-ROI unlock: currently all IG clicks funnel through internal /products/post-XXX pages (Amazon 3-8%) instead of direct brand links (Mamma Mia 24-30%, Eli & Elm 20%).
+
+---
+
 ## STRATEGIC UPDATE (2026-04-16) — Pipeline Live, Revenue Lanes Opened
 
 ### Milestone: Automated Instagram Posting LIVE
