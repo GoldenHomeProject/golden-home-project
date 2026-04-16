@@ -261,7 +261,18 @@ def main():
     # Find today's entry
     entry = next((e for e in APRIL_CALENDAR if e["date"] == today), None)
     if not entry:
+        # Loud, machine-visible warning so gaps in the content calendar don't hide
+        # behind a silent green GitHub Actions run.
+        print(f"::warning title=No content scheduled::APRIL_CALENDAR has no entry for {today}. "
+              f"Calendar ends {APRIL_CALENDAR[-1]['date']}. Add new entries to extend posting.")
         print(f"  No content scheduled for {today}. Done.")
+        # Record the gap so engagement-monitor / humans can see the miss in repo.
+        log_path = LOGS_DIR / f"gh_post_{today}.json"
+        log_path.write_text(json.dumps({
+            "date": today,
+            "status": "no_content_scheduled",
+            "calendar_last_date": APRIL_CALENDAR[-1]["date"],
+        }, indent=2))
         sys.exit(0)
 
     # Find video index (1-based position in calendar)

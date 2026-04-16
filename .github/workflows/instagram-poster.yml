@@ -57,13 +57,13 @@ jobs:
           python3 << 'PYTHON'
           import os, json, time, requests, sys
           from pathlib import Path
-          from datetime import datetime
+          from datetime import datetime, timezone
 
           TOKEN = os.environ["META_ACCESS_TOKEN"]
           IG_ID = os.environ["IG_BUSINESS_ACCOUNT_ID"]
           GRAPH = "https://graph.facebook.com/v21.0"
 
-          # Mode A: manual dispatch with inputs
+          # Mode A: manual dispatch with inputs (already routed through env:)
           image_url = os.environ.get("IMAGE_URL", "").strip()
           caption   = os.environ.get("CAPTION", "").strip()
           media_type = os.environ.get("MEDIA_TYPE", "IMAGE").strip() or "IMAGE"
@@ -75,6 +75,7 @@ jobs:
           archived = []
           if archive_path.exists():
               archived = json.loads(archive_path.read_text())
+          archived_urls = {a.get("image_url") for a in archived if a.get("image_url")}
 
           used_queue = False
           if not image_url:
@@ -82,8 +83,14 @@ jobs:
                   print("No queue and no manual inputs — nothing to post.")
                   sys.exit(0)
               queue = json.loads(queue_path.read_text())
+              # Defense against stale queue entries (manual posts don't pop queue).
+              pruned = [q for q in queue if q.get("image_url") not in archived_urls]
+              if len(pruned) != len(queue):
+                  print(f"Pruned {len(queue) - len(pruned)} already-posted entries from queue.")
+                  queue = pruned
               if not queue:
-                  print("Queue empty — nothing to post.")
+                  print("Queue empty after dedupe — nothing to post.")
+                  queue_path.write_text(json.dumps(queue, indent=2))
                   sys.exit(0)
               next_post = queue.pop(0)
               image_url  = next_post["image_url"]
@@ -91,6 +98,11 @@ jobs:
               media_type = next_post.get("media_type", "IMAGE")
               used_queue = True
               print(f"Picked from queue: {next_post.get('name', 'unnamed')}")
+          else:
+              # Manual dispatch: refuse duplicate posts to protect algo trust.
+              if image_url in archived_urls:
+                  print("REFUSING: image_url already published. Aborting to prevent duplicate post.")
+                  sys.exit(0)
 
           print(f"Posting media_type={media_type}")
           print(f"Image URL: {image_url}")
@@ -144,7 +156,7 @@ jobs:
           # Step 4: archive
           archived.append({
               "media_id": media_id,
-              "posted_at": datetime.utcnow().isoformat() + "Z",
+              "posted_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
               "image_url": image_url,
               "caption": caption[:200],
               "media_type": media_type,

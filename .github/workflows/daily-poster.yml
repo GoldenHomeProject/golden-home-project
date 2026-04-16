@@ -52,10 +52,15 @@ jobs:
       - name: Post today's video
         env:
           AMAZON_ASSOCIATE_TAG: ${{ secrets.AMAZON_ASSOCIATE_TAG }}
+          DATE_OVERRIDE: ${{ github.event.inputs.date }}
         run: |
           DATE_ARG=""
-          if [ -n "${{ github.event.inputs.date }}" ]; then
-            DATE_ARG="--date ${{ github.event.inputs.date }}"
+          if [ -n "$DATE_OVERRIDE" ]; then
+            if ! printf '%s' "$DATE_OVERRIDE" | grep -Eq '^[0-9]{4}-[0-9]{2}-[0-9]{2}$'; then
+              echo "ERROR: --date must be YYYY-MM-DD; got: $DATE_OVERRIDE"
+              exit 1
+            fi
+            DATE_ARG="--date $DATE_OVERRIDE"
           fi
           python3 automation/github_daily_poster.py \
             --yt-token /tmp/yt_token.json \

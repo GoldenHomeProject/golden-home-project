@@ -139,34 +139,26 @@ jobs:
 
                   metrics = report["metrics"]
                   if metrics:
-                      # Update subscriber count
+                      # Atomic row update: rewrites value AND date in one pass per row.
+                      # Pattern matches "| Label | <value-cell> | <date-cell> |" regardless of old contents.
                       import re
-                      brain = re.sub(
-                          r'\| YouTube subscribers \| [\d,]+ \|',
-                          f'| YouTube subscribers | {metrics["subscribers"]:,} |',
-                          brain
-                      )
-                      brain = re.sub(
-                          r'\| YouTube total views \| [\d,]+ \|',
-                          f'| YouTube total views | {metrics["total_views"]:,} |',
-                          brain
-                      )
-                      brain = re.sub(
-                          r'\| YouTube videos \| [\d,]+ \|',
-                          f'| YouTube videos | {metrics["total_videos"]:,} |',
-                          brain
-                      )
-                      # Update date
-                      brain = re.sub(
-                          r'(\| YouTube subscribers \| [\d,]+ \|) .+ \|',
-                          f'\\1 {date_str} |',
-                          brain
-                      )
+                      def update_row(text, label, value):
+                          pattern = rf'(\| {re.escape(label)} \|)[^|]*\|[^|]*\|'
+                          return re.sub(pattern, rf'\1 {value} | {date_str} |', text)
 
-                      with open(brain_path, "w") as f:
-                          f.write(brain)
-                      report["actions_taken"].append("Updated BUSINESS_BRAIN.md metrics")
-                      print(f"\nUpdated BUSINESS_BRAIN.md with latest metrics")
+                      updated = brain
+                      updated = update_row(updated, "YouTube subscribers", f"{metrics['subscribers']:,}")
+                      updated = update_row(updated, "YouTube total views", f"{metrics['total_views']:,}")
+                      updated = update_row(updated, "YouTube videos", f"{metrics['total_videos']:,}")
+
+                      if updated != brain:
+                          with open(brain_path, "w") as f:
+                              f.write(updated)
+                          report["actions_taken"].append("Updated BUSINESS_BRAIN.md metrics")
+                          print(f"\nUpdated BUSINESS_BRAIN.md with latest metrics")
+                      else:
+                          report["actions_taken"].append("BUSINESS_BRAIN.md metrics already current")
+                          print(f"\nBUSINESS_BRAIN.md metrics already current (or labels missing)")
 
           except Exception as e:
               report["error"] = str(e)

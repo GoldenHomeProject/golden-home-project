@@ -76,7 +76,7 @@ jobs:
           - Each script should have 3-5 affiliate product links
 
           Save all work. Update BUSINESS_BRAIN.md content pipeline.
-          Commit to claude/ branch. NEVER commit to main.
+          The workflow commits your changes to main — do not manually branch or push.
           PROMPT
 
           # Use claude CLI if available, otherwise use API directly

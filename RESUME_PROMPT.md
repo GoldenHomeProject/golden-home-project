@@ -4,6 +4,38 @@ Paste the block below at the start of each Claude Code session. Everything above
 
 ---
 
+## LAST SESSION DELTA (2026-04-16 — Session 3, project review)
+
+**Full project review executed against working code. Goal: fix weaknesses, prevent future breakage, don't break anything that works.**
+
+**What shipped (Session 3):**
+- **`instagram-poster.yml` — duplicate-post defense** — added archive-URL dedupe: scheduled runs prune any queue entry whose `image_url` already appears in `posted_archive.json`; manual dispatches refuse to re-post a URL that has already been published. Also replaced deprecated `datetime.utcnow()` with `datetime.now(timezone.utc)` (Python 3.12 compat).
+- **`daily-poster.yml` — workflow injection fix** — `${{ github.event.inputs.date }}` was being interpolated directly into a bash `run:` block. Moved into `env: DATE_OVERRIDE` + regex-validated `^[0-9]{4}-[0-9]{2}-[0-9]{2}$` before use.
+- **`github_daily_poster.py` — silent-exit visibility** — calendar ended Apr 26 and the workflow was silently succeeding on any date past that. Now emits a GitHub Actions `::warning::` annotation and writes a `status:no_content_scheduled` log to `automation/logs/` so the gap is visible in the Actions UI.
+- **`content-generator.yml` — prompt contradiction fixed** — prompt told the agent "Commit to claude/ branch. NEVER commit to main" but the workflow itself commits to main. Rewrote to match reality.
+- **`engagement-monitor.yml` — regex brittleness fixed** — 4 separate regex calls were only updating 1 of 3 dates and would silently fail on any freeform trailing content. Replaced with atomic `update_row(label, value)` helper that rewrites value + date cells in one pass per row.
+- **`links.html` — Featured Partners section added** — new top-of-page cards route IG clicks straight to `mammamiacovers.sjv.io/WO4g63` (24-30%) and `eliandelm.sjv.io/E092ZX` (20%) instead of only Amazon-tagged internal pages. `rel="sponsored nofollow noopener"` for FTC + security hygiene.
+- **Deleted `index_old.html`** — confirmed zero references across HTML/MD/Python/YAML/JSON. Dead file gone.
+- **Validated all workflow YAML + all automation Python compiles.** No syntax regressions.
+
+**Current state:**
+- All 5 workflows parse clean; all 6 automation scripts compile clean
+- Queue dedupe is now the safety net even if queue gets stale again
+- `impact.com` click check + Meta App Review submission still outstanding from Session 2
+- No revenue work this session — pure hardening
+
+**What to do next (ranked by $ ROI):**
+1. **Check impact.com dashboard** for clicks on `mammamiacovers.sjv.io/WO4g63` + `eliandelm.sjv.io/E092ZX` — link-in-bio now routes to these directly
+2. **Submit Meta App Review** for `instagram_business_manage_insights` — still the biggest blocker on the revenue feedback loop
+3. **Produce 3 Reels this week** — watch time drives algorithm, static posts stuck at 0 engagement
+4. **Repurpose Kitchen Makeover long-form via OpusClip** → Shorts
+
+**New learnings worth saving to memory:**
+- GitHub Actions `run:` blocks must never template `${{ github.event.inputs.* }}` directly — always route through `env:` and validate. Pattern applied in `daily-poster.yml` fix.
+- When a workflow edits a markdown table, update value + date cells in a single atomic regex per row — separate-pass regexes silently desync.
+
+---
+
 ## LAST SESSION DELTA (2026-04-16 — Session 2, evening)
 
 **What shipped (Session 2):**
