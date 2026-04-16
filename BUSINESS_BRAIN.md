@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-04-03
+# Last updated: 2026-04-16
 # ============================================================
 
 ## BUSINESS IDENTITY
@@ -18,13 +18,14 @@
 ## LIVE METRICS (update each week)
 | Metric | Value | Last Updated |
 |--------|-------|--------------|
-| YouTube subscribers | 6,690 | 2026-04-15 |
-| YouTube total views | 19,147 | 2026-04-03 |
+| YouTube subscribers | 6,710 | 2026-04-07 |
+| YouTube total views | 18,688 | 2026-04-03 |
 | YouTube videos | 109 (incl. Kitchen + Bathroom Makeover long-forms) | 2026-04-05 |
 | YouTube daily poster | ✅ Working (Apr 1: v5m1cnIER4w, Apr 2: YKPHYXP5eqE) | 2026-04-02 |
 | YouTube OAuth token | ✅ Refreshed 2026-04-03 | 2026-04-03 |
 | Instagram followers | 0 | 2026-04-05 |
-| Instagram media count | 120 | 2026-04-05 |
+| Instagram media count | 122 (+2 today via Meta API) | 2026-04-16 |
+| Instagram auto-posting pipeline | ✅ LIVE — Meta Graph API workflow deployed | 2026-04-16 |
 | Facebook followers | 0 | 2026-03-31 |
 | Amazon affiliate revenue (MTD) | $0 confirmed | 2026-03-31 |
 | Active affiliate platforms | Amazon, Impact, CJ, Awin | 2026-03-31 |
@@ -77,6 +78,69 @@
 3. **"I tested a $35 BISSELL vs my old vacuum."** — comparison format, high engagement, BISSELL affiliate tie-in
 4. **"Epoxy countertop. $89. Same kitchen."** — ride TikTok's epoxy trend, transformation format
 5. **"5 things I use every morning. All under $25."** — daily utility format with multiple affiliate links
+
+---
+
+## STRATEGIC UPDATE (2026-04-13) — Research-Driven Improvements
+
+### Problem Identified
+120 IG posts, 2 followers, $0 revenue. The pipeline was broken: brands approved on impact.com but NO content created for them, NO tracking links used, NO coherent link-in-bio. Revenue requires: Brand -> Content -> Tracking Link -> Post -> Click -> Sale.
+
+### Pipeline Built (2026-04-13)
+1. Generated tracking links for ALL 8 active impact.com brands
+2. Created brand-specific HTML templates + 1080x1080 images for Mamma Mia + Eli and Elm
+3. Wrote optimized captions with tracking links
+4. Images hosted on GitHub: raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/
+5. Ready-to-post queue: social/ready_to_post.md
+
+### 2026 Research Findings Applied
+- **Reels-first strategy**: Static posts get minimal reach. Reels are 2-3x discovery. Must shift to 80% Reels.
+- **Hashtag strategy changed**: 3-5 hashtags max (not 20-30). Keywords in captions matter more.
+- **Micro-influencers win**: Accounts under 50K drive 60%+ of affiliate sales. Our size is actually an advantage in niche.
+- **Watch time is #1**: First 3 seconds must hook. 15-30 second Reels optimal for completion rate.
+- **Link-in-bio upgrade needed**: Current setup is basic. Beacons.ai or Stan Store for monetization-focused bio with multiple brand links.
+- **Content calendar**: Consistent daily posting builds algorithmic favor. Mix Reels (4/week) + Static brand posts (2/week) + Carousel (1/week).
+- **Native product tagging**: Instagram now supports affiliate product tags directly in Reels — direct purchase path.
+
+### Immediate Revenue Actions
+1. Post Mamma Mia + Eli and Elm static posts (ready in social/ready_to_post.md)
+2. Set up Beacons.ai link-in-bio with ALL brand tracking links
+3. Start creating 15-30 second Reels (transformation format) featuring brand products
+4. Enable native product tagging on IG for brand partnerships
+5. Cross-post Reels to YouTube Shorts + Facebook
+
+---
+
+## STRATEGIC UPDATE (2026-04-16) — Pipeline Live, Revenue Lanes Opened
+
+### Milestone: Automated Instagram Posting LIVE
+Built and deployed `.github/workflows/instagram-poster.yml` using Meta Graph API. Published two revenue-generating posts:
+- Mamma Mia Covers (24-30% commission) — media_id=18084608081580290
+- Eli & Elm (20% commission) — media_id=18165440092418254
+
+Both workflow runs returned 200 OK from Meta. First real posts from an automated pipeline end-to-end: content generation → HTML render → PNG hosting → public URL → Meta Graph API → live IG post.
+
+### 2026 AI Revenue Research Applied
+New agent spec: `automation/agents/ai_revenue_playbook.md` (COSTAR prompt framework, AI tool stack, Reel algorithm rules, revenue feedback loop, self-improvement loop).
+
+**Top-earning AI patterns adopted:**
+1. Faceless YouTube repurposing (existing 6,710 subs + OpusClip = 10x posting surface)
+2. AI Reel automation (Invideo AI / OpusClip) for higher cadence
+3. Email list capture via link-in-bio lead magnet ("The $100 Apartment Refresh Checklist")
+4. Multi-platform cut-down: 1 long-form → 10 shorts
+5. Owned-audience > borrowed-audience (email > social)
+
+### Next Execution Priorities (ranked by revenue ROI)
+1. **Post 3 Reels this week** (Mamma Mia transformation, kitchen makeover, sleep setup)
+2. **Set up Beacons.ai** with all 8 brand tracking links + email capture
+3. **Repurpose Kitchen Makeover long-form** into 10 YouTube Shorts (OpusClip free tier)
+4. **Schedule post_queue.json** daily at 10 AM + 6 PM ET (workflow cron already set)
+5. **Add Reel to post_queue.json** format (media_type=REELS branch already coded)
+
+### Revenue Accountability (new)
+- Daily check: posts shipped count, queue depth
+- Weekly check: impact.com click-through per brand, IG Insights per post
+- Monthly check: $ revenue, kill underperforming brands, double down on winners
 
 ---
 
@@ -135,6 +199,20 @@
 ---
 
 ## AGENT ROLES & RESPONSIBILITIES
+
+### Session Resume
+User pastes prompt from `/private/tmp/golden-home-project/RESUME_PROMPT.md` at start of each session.
+Agent configs live in `/private/tmp/golden-home-project/automation/agents/`.
+
+### Claude Code CLI (per-session, browser automation + full autonomy)
+| Agent | Config File | Primary Job | Authority |
+|-------|-------------|-------------|-----------|
+| CEO Orchestrator | `ceo_orchestrator.md` | Master coordinator — reads BUSINESS_BRAIN, prioritizes, delegates | ALL |
+| IG/FB Content Manager | `social_ig_fb.md` | Create & publish posts on Instagram + Facebook | POST content, manage captions |
+| Impact.com Affiliate Mgr | `affiliate_impact.md` | Check approvals, apply to brands, track commissions | APPLY to programs, JOIN brands |
+| Engagement & Community | `engagement_community.md` | Like, comment, follow on IG/FB/YT to grow followers | ENGAGE on all platforms |
+| Pinterest Growth | `pinterest_growth.md` | Pin affiliate content, manage boards | PIN content (needs account created by user) |
+
 ### Claude Code Web (3 slots — daily, full send authority)
 | Agent | Frequency | Primary Job | Authority |
 |-------|-----------|-------------|-----------|
