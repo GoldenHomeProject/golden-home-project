@@ -1,0 +1,129 @@
+name: GHP Instagram Insights Puller
+
+# Pulls engagement data for published Instagram posts via Meta Graph API.
+# Inputs flow through env vars (never interpolated directly into run scripts).
+
+on:
+  workflow_dispatch:
+    inputs:
+      media_ids:
+        description: 'Comma-separated IG media_ids (e.g. 18084608081580290,18165440092418254)'
+        required: true
+        type: string
+  schedule:
+    - cron: '0 3 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  pull-insights:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+      IG_BUSINESS_ACCOUNT_ID: ${{ secrets.IG_BUSINESS_ACCOUNT_ID }}
+      MEDIA_IDS_INPUT: ${{ inputs.media_ids }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Pull IG Insights
+        run: |
+          python3 << 'PYTHON'
+          import os, json, time, requests, sys
+          from pathlib import Path
+          from datetime import datetime, timezone, timedelta
+
+          TOKEN = os.environ["META_ACCESS_TOKEN"]
+          IG_ID = os.environ["IG_BUSINESS_ACCOUNT_ID"]
+          GRAPH = "https://graph.facebook.com/v21.0"
+
+          media_ids_input = (os.environ.get("MEDIA_IDS_INPUT") or "").strip()
+          archive_path = Path("social/posted_archive.json")
+          if media_ids_input:
+              media_ids = [m.strip() for m in media_ids_input.split(",") if m.strip()]
+          else:
+              if not archive_path.exists():
+                  print("No archive and no inputs - nothing to pull.")
+                  sys.exit(0)
+              archived = json.loads(archive_path.read_text())
+              cutoff = datetime.now(timezone.utc) - timedelta(days=14)
+              media_ids = []
+              for entry in archived:
+                  try:
+                      posted = datetime.fromisoformat(entry["posted_at"].replace("Z", "+00:00"))
+                  except Exception:
+                      continue
+                  if posted >= cutoff:
+                      media_ids.append(entry["media_id"])
+
+          if not media_ids:
+              print("No media_ids to query.")
+              sys.exit(0)
+
+          image_metrics = "impressions,reach,saved,likes,comments,shares,total_interactions,profile_visits,profile_activity,follows"
+          reel_metrics = "plays,reach,likes,comments,saves,shares,total_interactions,ig_reels_video_view_total_time,ig_reels_avg_watch_time"
+
+          results = []
+          for mid in media_ids:
+              entry = {"media_id": mid, "pulled_at": datetime.now(timezone.utc).isoformat()}
+              meta_r = requests.get(
+                  f"{GRAPH}/{mid}",
+                  params={
+                      "fields": "id,media_type,media_product_type,caption,timestamp,permalink,like_count,comments_count",
+                      "access_token": TOKEN,
+                  },
+                  timeout=30,
+              )
+              if meta_r.status_code != 200:
+                  entry["meta_error"] = meta_r.text[:400]
+                  results.append(entry)
+                  continue
+              meta = meta_r.json()
+              entry["meta"] = meta
+
+              media_type = meta.get("media_type", "IMAGE")
+              media_product_type = meta.get("media_product_type", "")
+              metrics = reel_metrics if (media_type == "VIDEO" and media_product_type == "REELS") else image_metrics
+
+              ins_r = requests.get(
+                  f"{GRAPH}/{mid}/insights",
+                  params={"metric": metrics, "access_token": TOKEN},
+                  timeout=30,
+              )
+              if ins_r.status_code == 200:
+                  entry["insights"] = ins_r.json()
+              else:
+                  entry["insights_error"] = ins_r.text[:400]
+              results.append(entry)
+              time.sleep(1)
+
+          date_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+          out_path = Path(f"automation/logs/ig_insights_{date_str}.json")
+          out_path.parent.mkdir(parents=True, exist_ok=True)
+          out_path.write_text(json.dumps(results, indent=2))
+          print(f"Wrote {out_path} ({len(results)} media).")
+
+          print("\n=== ENGAGEMENT SUMMARY ===")
+          for r in results:
+              m = r.get("meta", {})
+              ins = {item["name"]: item["values"][0].get("value") for item in r.get("insights", {}).get("data", [])}
+              print(f"{r['media_id']} {m.get('media_type')}/{m.get('media_product_type','')} likes={m.get('like_count')} reach={ins.get('reach')} impressions={ins.get('impressions')} saves={ins.get('saved') or ins.get('saves')} shares={ins.get('shares')} profile_visits={ins.get('profile_visits')}")
+          PYTHON
+
+      - name: Commit insights log
+        run: |
+          git config user.name "GHP Insights Bot"
+          git config user.email "goldenhomeprojectllc@gmail.com"
+          git add automation/logs/ig_insights_*.json || true
+          git diff --staged --quiet || git commit -m "IG insights: $(date -u +%Y-%m-%d)"
+          git push || true

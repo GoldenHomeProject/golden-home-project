@@ -1,20 +1,87 @@
 [
   {
-    "name": "mamma_mia_covers_v1",
+    "name": "mamma_mia_pet_hair_v1",
     "brand": "Mamma Mia Covers",
     "commission": "24-30%",
     "media_type": "IMAGE",
     "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/ig_mamma_mia_covers.png",
     "tracking_link": "https://mammamiacovers.sjv.io/WO4g63",
-    "caption": "My couch looked OLD. I fixed it for under $80. No new couch needed.\n\nHere's exactly what I used:\n1. Mamma Mia Sofa Cover — $39 (universal fit, 30+ colors)\n2. Mamma Mia Cushion Covers (set of 4) — $28\n3. Mamma Mia Armchair Cover — $24\n\nTotal: $91. Looks like a $2,000 couch now. The before and after is insane.\n\nLink in bio to shop Mamma Mia Covers.\n\n#sofamakeover #couchmakeover #homedecoronabudget #amazonfinds #livingroominspo"
+    "costar": {
+      "context": "IG static, pet owners scrolling evening, budget renters",
+      "objective": "Click link-in-bio to Mamma Mia Covers tracking link",
+      "style": "Confessional friend",
+      "tone": "Relieved + surprised",
+      "audience": "Pet owners 25-45 with couch destroyed by fur",
+      "response_format": "Hook (dollar + problem) / 3 products with prices / CTA"
+    },
+    "caption": "My couch was 90% dog hair. Gave up. Then I found this.\n\nMamma Mia Sofa Cover \u2014 $39. Machine washable, grips like a seatbelt, 30+ colors. Pulls off in 2 min, throws in the wash, looks brand new.\n\nAlso added:\n\u2022 Pet-proof armchair cover \u2014 $24\n\u2022 Cushion covers (4-pack) \u2014 $28\n\nTotal spent: $91. Dog still sheds. Couch still looks new. Link in bio.\n\n#petparent #couchprotector #petsofinstagram #homedecoronabudget #amazonfinds"
   },
   {
-    "name": "eli_and_elm_v1",
+    "name": "eli_and_elm_morning_pain_v1",
     "brand": "Eli and Elm",
     "commission": "20%",
     "media_type": "IMAGE",
     "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/ig_eli_and_elm.png",
     "tracking_link": "https://eliandelm.sjv.io/E092ZX",
-    "caption": "I was sleeping wrong for 30 years. This pillow changed everything.\n\nEli & Elm Side Sleeper Pillow — $99 (was $150). Adjustable fill, cooling cover, proper neck alignment for side sleepers. 4.8 stars from 2,400+ reviews. Made in USA.\n\nAlso grabbed their Weighted Blanket — $149. Cotton + bamboo blend, breathable and calming.\n\nWake up with neck pain? This is the fix. Link in bio.\n\n#sidesleeper #pillowreview #bettersleep #bedroommakeover #sleephacks"
+    "costar": {
+      "context": "IG static, side sleepers with chronic neck pain",
+      "objective": "Click to Eli & Elm tracking link",
+      "style": "Direct + evidence-led",
+      "tone": "Relief after years of pain",
+      "audience": "30-50 side sleepers waking with neck stiffness",
+      "response_format": "Problem state / product spec / price proof / CTA"
+    },
+    "caption": "Waking up with a stiff neck every morning? Your pillow is the reason.\n\nEli & Elm Side Sleeper Pillow \u2014 $99 (down from $150). Cut-out shoulder channel, adjustable fill, cooling cover. 4.8 stars from 2,400+ reviews. Made in USA. Back pain gone in under a week.\n\nPair with their cotton-bamboo Weighted Blanket \u2014 $149. Non-negotiable sleep upgrade.\n\nLink in bio for both.\n\n#sidesleeper #neckpainrelief #bettersleep #bedroomreset #sleepupgrade"
+  },
+  {
+    "name": "kitchen_gadgets_v1",
+    "brand": "Amazon (goldenhomep06-20)",
+    "commission": "3-8%",
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/ig_kitchen_gadgets.png",
+    "tracking_link": "https://www.goldenhomeproject.com/products/post-075.html",
+    "costar": {
+      "context": "IG static, apartment dwellers with small kitchens",
+      "objective": "Click link-in-bio \u2192 post-075 \u2192 5 Amazon affiliate links",
+      "style": "Relatable + functional",
+      "tone": "Everyday utility, no hype",
+      "audience": "Small-kitchen millennials + renters",
+      "response_format": "Hook (I use these daily) / 5 products / CTA"
+    },
+    "caption": "5 kitchen gadgets I use every single day. Tiny kitchen, no wasted space.\n\n1. Under-$30 espresso frother\n2. Magnetic knife strip \u2014 $18\n3. Collapsible silicone colander \u2014 $12\n4. Over-the-sink cutting board \u2014 $22\n5. 3-in-1 avocado tool \u2014 $9\n\nTotal: $91. Every item earns its counter space.\n\nFull list + Amazon links in bio.\n\n#smallkitchenhacks #kitchengadgets #amazonfinds #apartmentliving #homedecor"
+  },
+  {
+    "name": "mamma_mia_pristine_reveal_v1",
+    "brand": "Mamma Mia Covers",
+    "commission": "24-30%",
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/ig_mamma_mia_covers.png",
+    "tracking_link": "https://mammamiacovers.sjv.io/WO4g63",
+    "costar": {
+      "context": "IG static, upgrade-curious renters post-move",
+      "objective": "Click to Mamma Mia tracking link",
+      "style": "Before/after transformation",
+      "tone": "Surprised + satisfied",
+      "audience": "Renters + guests-coming-over anxiety",
+      "response_format": "Before state / reveal / social proof / CTA"
+    },
+    "caption": "Had guests coming in 3 days. My couch looked embarrassing. $91 later \u2014 problem solved.\n\n\u2022 Mamma Mia universal sofa cover \u2014 $39\n\u2022 Matching cushion covers (4) \u2014 $28\n\u2022 Armchair cover \u2014 $24\n\nThis is the 'I can't afford new furniture' hack that actually looks intentional. 30+ colors, universal fit, machine washable.\n\nLink in bio.\n\n#couchmakeover #renterhacks #smallbudgetbigideas #homedecoronabudget #amazonfinds"
+  },
+  {
+    "name": "eli_and_elm_weighted_blanket_v1",
+    "brand": "Eli and Elm",
+    "commission": "20%",
+    "media_type": "IMAGE",
+    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/ig_eli_and_elm.png",
+    "tracking_link": "https://eliandelm.sjv.io/E092ZX",
+    "costar": {
+      "context": "IG static, anxious sleepers browsing late-night",
+      "objective": "Click to Eli & Elm tracking link",
+      "style": "Honest reviewer",
+      "tone": "Calm + grounded",
+      "audience": "25-45 with sleep anxiety / racing-mind evenings",
+      "response_format": "Pain state / product / price / CTA"
+    },
+    "caption": "Used to lie awake for 45 minutes with my brain on fire. One change fixed it.\n\nEli & Elm Weighted Blanket \u2014 $149. Cotton + bamboo blend, breathable so you don't overheat. 15 lbs is the sweet spot for most adults.\n\nPair it with their Side Sleeper Pillow \u2014 $99. Made in USA. Both are worth every dollar.\n\nLink in bio.\n\n#weightedblanket #bettersleep #sleephack #bedroomreset #anxietyrelief"
   }
 ]
