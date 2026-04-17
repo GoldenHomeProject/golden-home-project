@@ -1,96 +1,109 @@
-"""Shared Anthropic API helper for all GHP agents.
+"""Shared Claude helper — uses the Claude Code CLI (subscription auth), NOT API tokens.
 
-Keeps every agent DRY: same retry logic, same model, same JSON extraction.
-Runs headless in GitHub Actions — no Claude CLI dependency.
+All agents import this. The CLI is installed by each workflow via:
+    npm install -g @anthropic-ai/claude-code
+and authenticates via CLAUDE_CODE_OAUTH_TOKEN env var (generated locally via
+`claude setup-token` and pasted into GitHub Secrets).
+
+Why CLI, not API:
+- Uses your Max subscription — no per-token billing
+- Same model access, same quality
+- Subject to subscription usage windows (5-hour rolling caps)
 
 Usage:
     from _claude_api import call_claude, call_claude_json
     text = call_claude("Write a 5-word slogan.")
-    data = call_claude_json(prompt, schema_hint="...", max_tokens=4096)
+    data = call_claude_json(prompt, system=SYSTEM_PROMPT)
 """
 import json
 import os
 import re
+import subprocess
 import time
-import urllib.error
-import urllib.request
-
-API_URL = "https://api.anthropic.com/v1/messages"
-DEFAULT_MODEL = "claude-sonnet-4-6"  # fast + cheap + smart enough for content
-DEFAULT_MAX_TOKENS = 4096
 
 
-def _get_key() -> str:
-    key = os.environ.get("ANTHROPIC_API_KEY")
-    if not key:
-        raise RuntimeError("ANTHROPIC_API_KEY not set")
-    return key
+DEFAULT_TIMEOUT = 300  # 5 min — long-form blog posts can run long
 
 
-def call_claude(prompt: str, *, model: str = DEFAULT_MODEL,
-                max_tokens: int = DEFAULT_MAX_TOKENS,
-                system: str | None = None,
-                retries: int = 3) -> str:
-    """Single-turn message → raw text response."""
-    headers = {
-        "x-api-key": _get_key(),
-        "anthropic-version": "2023-06-01",
-        "content-type": "application/json",
-    }
-    body: dict = {
-        "model": model,
-        "max_tokens": max_tokens,
-        "messages": [{"role": "user", "content": prompt}],
-    }
+def _check_auth():
+    if not os.environ.get("CLAUDE_CODE_OAUTH_TOKEN"):
+        raise RuntimeError(
+            "CLAUDE_CODE_OAUTH_TOKEN not set. "
+            "Run `claude setup-token` locally and add the value as a GitHub Secret."
+        )
+
+
+def call_claude(prompt: str, *, system: str | None = None,
+                timeout: int = DEFAULT_TIMEOUT, retries: int = 3,
+                max_tokens: int | None = None) -> str:
+    """Shell out to `claude --print`. Prompt via stdin to handle any content.
+
+    Retries on transient subscription-limit errors. Raises on permanent failures.
+    `max_tokens` is accepted for backward compat with the old API helper but
+    ignored — the CLI decides length based on the model's default.
+    """
+    _ = max_tokens  # accepted for backward compat, not applicable to the CLI
+    _check_auth()
+
+    cmd = ["claude", "--print"]
     if system:
-        body["system"] = system
+        cmd += ["--append-system-prompt", system]
 
     last_err = None
     for attempt in range(retries):
         try:
-            req = urllib.request.Request(
-                API_URL,
-                data=json.dumps(body).encode("utf-8"),
-                headers=headers,
-                method="POST",
+            result = subprocess.run(
+                cmd,
+                input=prompt,
+                capture_output=True,
+                text=True,
+                timeout=timeout,
             )
-            with urllib.request.urlopen(req, timeout=120) as resp:
-                data = json.loads(resp.read())
-            return data["content"][0]["text"]
-        except urllib.error.HTTPError as e:
-            last_err = f"HTTP {e.code}: {e.read().decode('utf-8', errors='replace')[:500]}"
-            # 429 / 529 → back off. Everything else → fail fast.
-            if e.code in (429, 529, 500, 502, 503):
+            if result.returncode == 0:
+                return result.stdout.strip()
+
+            err = (result.stderr or result.stdout or "").strip()
+            last_err = err
+            # Retry on transient: rate-limit-ish phrases, network hiccups.
+            if any(tok in err.lower() for tok in [
+                "rate limit", "usage limit", "timeout", "temporarily",
+                "connection", "retry",
+            ]):
                 time.sleep(2 ** attempt * 2)
                 continue
-            raise RuntimeError(last_err) from e
-        except Exception as e:
-            last_err = str(e)
+            raise RuntimeError(f"claude CLI failed (rc={result.returncode}): {err[:500]}")
+
+        except subprocess.TimeoutExpired:
+            last_err = f"timeout after {timeout}s"
             time.sleep(2 ** attempt)
-    raise RuntimeError(f"Claude API failed after {retries} retries: {last_err}")
+        except FileNotFoundError:
+            raise RuntimeError(
+                "`claude` CLI not found in PATH. Install via: npm install -g @anthropic-ai/claude-code"
+            )
+
+    raise RuntimeError(f"claude CLI failed after {retries} retries: {last_err}")
 
 
 def call_claude_json(prompt: str, **kwargs) -> dict | list:
-    """Wraps call_claude and extracts the first valid JSON block from the response.
+    """Extract the first valid JSON block from Claude's response.
 
-    Claude sometimes wraps JSON in ```json fences or adds preamble — handle both.
+    The CLI does not force JSON mode, so we ask in the prompt + parse defensively.
+    Handles both ```json fences and bare JSON.
     """
-    raw = call_claude(prompt, **kwargs)
+    # Nudge the model toward clean JSON — belt and suspenders
+    suffix = "\n\nRespond with ONLY valid JSON. No prose before or after. No markdown fences."
+    raw = call_claude(prompt.rstrip() + suffix, **kwargs)
 
-    # Try fenced first
+    # Strip fences if present
     fence_match = re.search(r"```(?:json)?\s*\n(.*?)\n```", raw, re.DOTALL)
-    if fence_match:
-        candidate = fence_match.group(1)
-    else:
-        # Find first { or [ and last matching close
-        start = min(
-            (i for i in [raw.find("{"), raw.find("[")] if i >= 0),
-            default=-1,
-        )
-        if start < 0:
-            raise ValueError(f"No JSON found in response: {raw[:200]}")
-        # Greedy — rely on json.loads to reject bad endings
-        candidate = raw[start:]
+    candidate = fence_match.group(1) if fence_match else raw
+
+    # Find first JSON-ish opener
+    opener_positions = [p for p in (candidate.find("{"), candidate.find("[")) if p >= 0]
+    if not opener_positions:
+        raise ValueError(f"No JSON found in response: {raw[:200]}")
+    start = min(opener_positions)
+    candidate = candidate[start:]
 
     # Try progressively shorter suffixes until one parses
     for end in range(len(candidate), 0, -1):

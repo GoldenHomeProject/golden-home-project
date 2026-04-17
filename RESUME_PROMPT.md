@@ -4,7 +4,43 @@ Paste the block below at the start of each Claude Code session. Everything above
 
 ---
 
-## LAST SESSION DELTA (2026-04-17 — Session 4, flywheel rebuild)
+## LAST SESSION DELTA (2026-04-17 — Session 5, subscription + free-services pivot)
+
+**Mandate:** Convert entire flywheel off paid API tokens. Use Max subscription for Claude calls + 100% free services for image/video/voice/music/captions generation.
+
+**What shipped (Session 5):**
+
+**Auth rewrite:**
+- `automation/_claude_api.py` — no longer hits Anthropic API. Shells out to `claude --print` CLI (`npm install -g @anthropic-ai/claude-code`) authenticated via `CLAUDE_CODE_OAUTH_TOKEN` env var. Retry backoff handles subscription-cap throttles.
+- All 5 Claude-using workflows (`trend-scout`, `content-generator`, `blog-writer`, `repurpose`, `ceo-review`) updated: now install Node 20 + Claude CLI, then run Python. Secret swapped `ANTHROPIC_API_KEY` → `CLAUDE_CODE_OAUTH_TOKEN`.
+
+**Reel producer upgrade:**
+- `automation/reel_producer.py` rewritten to use Pollinations.ai FLUX (free, no key, unlimited) for AI-generated production-quality scene backgrounds. Style keywords: "professional product photography, warm natural lighting, shallow depth of field, 8k, editorial home magazine style". Falls back to branded gradient if Pollinations fails. Ken Burns `zoompan` alternating zoom-in/zoom-out per scene. edge-tts Jenny voiceover. Pillow typography with drop shadow + gold accent bars + `@goldenhomeproject` watermark.
+
+**Secret flow:**
+- Claude OAuth token generated via automated `claude setup-token` + Chrome OAuth authorize flow. Stored in GitHub Secrets as `CLAUDE_CODE_OAUTH_TOKEN` (valid ~1 year).
+- `PEXELS_API_KEY` already exists in secrets — ready for Pexels B-roll integration.
+
+**Documentation:**
+- BUSINESS_BRAIN.md — new **ZERO-COST STACK** table at top documenting free-only services + required GitHub Secrets + deprecation of `ANTHROPIC_API_KEY`.
+
+**What to do next (priority order):**
+1. **Verify workflows run clean** — next Trend Scout at 05:00 UTC 2026-04-18 is the first run on new auth. If red, check logs for `CLAUDE_CODE_OAUTH_TOKEN not set` or CLI install failures.
+2. **Remove deprecated secret** — once 24h cycle succeeds, `gh secret delete ANTHROPIC_API_KEY`.
+3. **Add Pexels B-roll** to `reel_producer.py` — scene 1 hook + scene 5 CTA use real footage from Pexels Video API (free, key already provisioned), middle scenes stay AI. Biggest quality jump for zero extra cost.
+4. **Add Pixabay music bed** at -20dB under voiceover via `ffmpeg amix`. IG completion rate typically 2x with music.
+5. **Add burn-in captions via faster-whisper** — biggest engagement unlock (85% of Reels watched muted).
+6. **Submit Meta App Review** for `instagram_business_manage_insights` (still blocks reach/impressions/saves).
+7. **Monitor first CEO Review** Sunday 2026-04-19 10:00 UTC — should append to BUSINESS_BRAIN correctly on new auth.
+
+**New learnings worth memory:**
+- `claude setup-token` OAuth flow can be automated end-to-end with `expect` + Chrome extension (capture URL → authorize → grab code from callback URL → paste via stdin).
+- Subscription-auth pattern: Node install + `npm install -g @anthropic-ai/claude-code` + `CLAUDE_CODE_OAUTH_TOKEN` env = zero marginal cost per agent run.
+- Pollinations.ai FLUX is production-grade for social media scene backgrounds when combined with style keywords and Pillow typography overlay.
+
+---
+
+## SESSION 4 DELTA (2026-04-17 — flywheel rebuild)
 
 **Mandate:** Build a 24/7 content flywheel on GitHub Actions cloud. 6 new autonomous agents. Reels over static. AIDA + Grand Slam enforced. SEO blog added. Content repurposing multiplier. Compounding feedback loop.
 

@@ -8,7 +8,35 @@
 
 ---
 
-## FLYWHEEL ARCHITECTURE (2026-04-17 — Session 4 rebuild)
+## ZERO-COST STACK (2026-04-17 — Session 5 pivot)
+
+**Rule: the flywheel uses subscription + free services only. No per-call API billing.**
+
+| Layer | Primary (free) | Fallback / Notes |
+|---|---|---|
+| LLM (all agents) | Claude Code CLI via `CLAUDE_CODE_OAUTH_TOKEN` (Max subscription) | 5-hour rolling cap — retry logic handles throttle |
+| AI scene images | Pollinations.ai FLUX (no key, unlimited) | Hugging Face / Cloudflare Workers AI as future fallbacks |
+| Stock photo/video | Pexels API (key in `PEXELS_API_KEY`) — 200 req/hr, 20k/mo | Pixabay as future fallback |
+| Voiceover | edge-tts `en-US-JennyNeural` (no key) | Kokoro TTS / Piper as future fallbacks |
+| Background music | Pixabay Music (not yet wired) | — |
+| Captions (future) | faster-whisper (CPU, open source) | — |
+| Video assembly | ffmpeg Ken Burns + concat demuxer | — |
+| Runtime | GitHub Actions cloud (2000 free min/mo) | — |
+
+**Required GitHub Secrets** (all present as of 2026-04-17):
+- `CLAUDE_CODE_OAUTH_TOKEN` — from `claude setup-token`, 1 yr validity, drives every Claude-using agent
+- `AMAZON_ASSOCIATE_TAG` = `goldenhomep06-20`
+- `META_ACCESS_TOKEN` — IG Graph posting
+- `IG_BUSINESS_ACCOUNT_ID`
+- `PEXELS_API_KEY` — stock photo/video
+- `YT_TOKEN_JSON` — YouTube uploader
+
+**No longer used** (remove when convenient):
+- `ANTHROPIC_API_KEY` — superseded by `CLAUDE_CODE_OAUTH_TOKEN`
+
+---
+
+## FLYWHEEL ARCHITECTURE (2026-04-17 — Session 4 rebuild, Session 5 pivot)
 
 The business now runs as a **closed-loop content flywheel** on GitHub Actions cloud
 (runs 24/7, no local machine required). Six autonomous agents feed each other via
@@ -86,10 +114,19 @@ ceo_review.py         →  reads ALL above, writes BUSINESS_BRAIN ┘
 ### Shared helper
 
 `automation/_claude_api.py` — single module all agents import.
-- Direct Anthropic API calls via urllib (no SDK dependency)
-- Retry with exponential backoff for 429/5xx
+- Shells out to `claude --print` CLI (from `npm install -g @anthropic-ai/claude-code`)
+- Authenticates via `CLAUDE_CODE_OAUTH_TOKEN` env var (Max subscription, not API billing)
+- Retry with exponential backoff on subscription cap / timeout / network errors
 - JSON extraction handles fenced + unfenced responses
-- Uses `claude-sonnet-4-6` (fast, cheap, smart enough for content)
+- Every Claude-using workflow installs Node 20 + Claude CLI as pre-step
+
+### Image/video production (Reel Producer)
+
+- **AI scene backgrounds**: Pollinations.ai FLUX endpoint — free, no key, style-tuned prompts ("professional product photography, warm natural lighting, 8k, editorial home magazine style")
+- **Motion**: ffmpeg `zoompan` Ken Burns alternating zoom-in/zoom-out per scene
+- **Voiceover**: edge-tts `en-US-JennyNeural` at +5% rate
+- **Typography**: Pillow overlays with drop shadow, gold accent bars, `@goldenhomeproject` watermark
+- **Future upgrades (priority order)**: (1) Pexels B-roll on scenes 1+5 for realism, (2) Pixabay music bed at -20dB, (3) faster-whisper burn-in captions
 
 ### Revenue pipeline (where $ comes from)
 
