@@ -1,0 +1,127 @@
+{
+  "generated_at": "2026-04-17T20:26:00.620011Z",
+  "date": "2026-04-17",
+  "opportunities": [
+    {
+      "rank": 1,
+      "product_category": "couch covers",
+      "specific_product": "Mamma Mia waterproof stretch sofa cover",
+      "brand": "Mamma Mia Covers",
+      "target_price": "$47",
+      "transformation_hook": "Destroyed couch \u2192 showroom sofa for $47 (pet hair gone in 10 min)",
+      "before_state": "Faded, pet-hair-coated sofa with visible stains and worn armrests from years of use",
+      "after_state": "Smooth, fitted neutral-tone cover that makes the couch look brand new \u2014 no fur, no stains",
+      "buyer_intent_keywords": [
+        "couch cover for dogs",
+        "waterproof sofa cover pet hair",
+        "stretch sofa slipcover",
+        "couch protector cat hair"
+      ],
+      "scores": {
+        "trend": 8,
+        "transformation": 10,
+        "affiliate": 10,
+        "intent": 9
+      },
+      "composite_score": 37,
+      "why_now": "April shedding season + spring cleaning push sends pet owners searching for fast furniture fixes at peak annual volume."
+    },
+    {
+      "rank": 2,
+      "product_category": "outdoor patio furniture",
+      "specific_product": "Best Choice Products 4-piece wicker conversation set",
+      "brand": "Best Choice Products",
+      "target_price": "$289",
+      "transformation_hook": "Bare concrete patio \u2192 outdoor living room for $289",
+      "before_state": "Empty or mismatched plastic chairs on a bare patio with no cohesion or comfort",
+      "after_state": "Coordinated wicker seating with cushions \u2014 guest-ready backyard in one afternoon",
+      "buyer_intent_keywords": [
+        "patio furniture set under $300",
+        "outdoor conversation set spring",
+        "backyard seating cheap",
+        "patio makeover budget"
+      ],
+      "scores": {
+        "trend": 9,
+        "transformation": 9,
+        "affiliate": 9,
+        "intent": 8
+      },
+      "composite_score": 35,
+      "why_now": "Mid-April marks the single highest-traffic week of the year for outdoor furniture searches as homeowners prep for spring entertaining."
+    },
+    {
+      "rank": 3,
+      "product_category": "pantry organization",
+      "specific_product": "Stackable clear pantry bins with label set (40-piece)",
+      "brand": "Amazon generic",
+      "target_price": "$34",
+      "transformation_hook": "Chaotic pantry \u2192 Pinterest pantry for $34 in 45 minutes",
+      "before_state": "Overflowing shelves of loose bags, expired items buried in the back, nothing visible or accessible",
+      "after_state": "Fully categorized, labeled clear bins with clean sightlines and reclaimed shelf space",
+      "buyer_intent_keywords": [
+        "pantry organization bins clear",
+        "pantry makeover under $50",
+        "kitchen storage containers set",
+        "fridge and pantry organizer"
+      ],
+      "scores": {
+        "trend": 8,
+        "transformation": 9,
+        "affiliate": 9,
+        "intent": 8
+      },
+      "composite_score": 34,
+      "why_now": "Spring cleaning peaks in mid-April and pantry organization is the #1 most-searched home project in this seasonal window."
+    },
+    {
+      "rank": 4,
+      "product_category": "side sleeper pillow",
+      "specific_product": "Eli & Elm adjustable side sleeper pillow",
+      "brand": "Eli & Elm",
+      "target_price": "$79",
+      "transformation_hook": "3 years of neck pain \u2192 first pain-free morning for $79",
+      "before_state": "Flat, unsupportive pillow leaving neck stiff every morning, shoulder compressed against mattress",
+      "after_state": "Curved ergonomic fill supporting neck alignment \u2014 waking up pain-free and fully rested",
+      "buyer_intent_keywords": [
+        "best pillow for side sleepers",
+        "neck pain pillow side sleeper",
+        "adjustable cervical pillow",
+        "pillow for shoulder pain"
+      ],
+      "scores": {
+        "trend": 7,
+        "transformation": 7,
+        "affiliate": 9,
+        "intent": 9
+      },
+      "composite_score": 32,
+      "why_now": "Sleep wellness Reels continue to outperform in engagement and saves, and neck-pain testimonial hooks drive unusually high comment-to-click conversion."
+    },
+    {
+      "rank": 5,
+      "product_category": "kitchen prep tools",
+      "specific_product": "Syruvia herb stripper and stem separator set",
+      "brand": "Syruvia",
+      "target_price": "$22",
+      "transformation_hook": "20 minutes of herb prep \u2192 90 seconds flat with a $22 tool",
+      "before_state": "Messy cutting board, slow manual stripping of rosemary and thyme stems by hand",
+      "after_state": "Effortless herb stripping in seconds with clean results and a tidy prep station",
+      "buyer_intent_keywords": [
+        "herb stripper tool Amazon",
+        "kitchen gadgets under $25",
+        "Syruvia herb stripper",
+        "cooking prep tools spring"
+      ],
+      "scores": {
+        "trend": 7,
+        "transformation": 8,
+        "affiliate": 9,
+        "intent": 8
+      },
+      "composite_score": 32,
+      "why_now": "Spring garden harvests and outdoor cooking season create a seasonal spike in kitchen prep tool searches starting mid-April."
+    }
+  ],
+  "raw_signal_count": 0
+}
