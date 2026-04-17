@@ -3,8 +3,111 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-04-16
+# Last updated: 2026-04-17
 # ============================================================
+
+---
+
+## FLYWHEEL ARCHITECTURE (2026-04-17 — Session 4 rebuild)
+
+The business now runs as a **closed-loop content flywheel** on GitHub Actions cloud
+(runs 24/7, no local machine required). Six autonomous agents feed each other via
+git-committed JSON artifacts. Each stage informs the next; analytics feed back to
+the top for continuous improvement.
+
+```
+┌──────────────────────────────────────────────────────────────────┐
+│  S1: Research → S2: Create → S3: Blog → S5: Distribute → S6: CEO │
+│      ↑                                                      ↓    │
+│      └──────────────── feedback loop ──────────────────────┘    │
+└──────────────────────────────────────────────────────────────────┘
+```
+
+### Agent roster (all run on GitHub Actions cloud)
+
+| # | Agent | Workflow | Schedule (UTC) | Flywheel Stage | What it does |
+|---|-------|----------|----------------|----------------|--------------|
+| 1 | **Trend Scout** | `trend-scout.yml` | 05:00 daily | S1 Research | Scrapes Reddit + Claude-ranks top 5 product opportunities → `social/trend_feed.json` |
+| 2 | **Content Engine** | `content-generator.yml` | 06:00 daily | S2 Create | Consumes trend feed, produces 3 Reel scripts using **AIDA + Grand Slam Offer** → `automation/scripts/` + queue |
+| 3 | **Reel Producer** | `reel-producer.yml` | 07:00 daily | S2 Create | Renders scripts into 1080x1920 MP4s via Pillow+edge-tts+ffmpeg → `social/reels/`, queue `status: ready` |
+| 4 | **IG Poster** | `instagram-poster.yml` | 14:00 + 22:00 | S5 Distribute | Publishes next READY Reel from queue via Meta Graph API |
+| 5 | **Blog Writer** | `blog-writer.yml` | 08:00 Mon-Fri | S3 SEO | 1,800-2,400 word SEO posts with E-E-A-T + AIDA + Grand Slam → `blog/posts/` |
+| 6 | **Repurposer** | `repurpose.yml` | 09:00 Mondays | S5 Multiply | 1 blog post → 5 Reels + 5 Pins + 1 Email + 10 microcopy hooks |
+| 7 | **Engagement Monitor** | `engagement-monitor.yml` | 19:00 daily | S6 Measure | YouTube stats + BUSINESS_BRAIN auto-update |
+| 8 | **IG Insights** | `ig-insights.yml` | 03:00 daily | S6 Measure | like_count + comments_count per media_id (insights endpoint blocked until Meta App Review) |
+| 9 | **CEO Review** | `ceo-review.yml` | 10:00 Sundays | S6→S1 Feedback | Weekly analysis: what worked, what didn't, next week priorities → appends to this file |
+| 10 | **Daily YT Poster** | `daily-poster.yml` | 17:00 daily | S5 Distribute | (Legacy) YouTube Shorts from APRIL_CALENDAR |
+
+### Frameworks enforced by every content agent
+
+**AIDA** — Attention/Interest/Desire/Action per scene (Reels) or per section (Blog)
+- A: Specific $ amount in hook, ≤3s on screen
+- I: Relatable problem, first-person pain
+- D: Before→After transformation, value stacked
+- A: Single clear CTA (link in bio / "Check price on Amazon")
+
+**Hormozi Grand Slam Offer value equation** — embedded in every product mention
+- value = (Dream_Outcome × Perceived_Likelihood) / (Time_Delay × Effort)
+- Every product sold against this 4-term ratio, stated explicitly
+
+**E-E-A-T** (blog only) — Google 2026 SEO ranking signal
+- Experience: first-person "I tested", "I bought"
+- Expertise: specific numbers, measurements
+- Authoritativeness: brand names, model numbers
+- Trustworthiness: affiliate disclosure up top, honest tradeoffs
+
+**GHP voice rules** (non-negotiable, enforced via system prompt)
+- Banned: "amazing", "game-changer", "you won't believe", "we"
+- Required: specific $ amounts, first-person "I", skeptic-to-convert tone
+
+### Data flow (how agents talk to each other)
+
+```
+trend-scout.py        →  social/trend_feed.json         ────────┐
+                                                                 │
+content_engine.py     →  automation/scripts/reel-*.json         │
+                      →  social/post_queue.json (awaiting_video)│
+                                                                 │
+reel_producer.py      →  social/reels/reel-*.mp4                │
+                      →  social/post_queue.json (status=ready)  │
+                                                                 │
+instagram-poster.yml  →  social/posted_archive.json             │
+                                                                 │
+ig-insights.yml       →  automation/logs/ig_insights_*.json     │
+engagement-monitor.yml→  automation/logs/engagement_*.json      │
+                                                                 │
+blog_writer.py        →  blog/posts/*.html + *.md               │
+                                                                 │
+repurpose.py          →  automation/{pinterest,email,microcopy} │
+                                                                 │
+ceo_review.py         →  reads ALL above, writes BUSINESS_BRAIN ┘
+```
+
+### Shared helper
+
+`automation/_claude_api.py` — single module all agents import.
+- Direct Anthropic API calls via urllib (no SDK dependency)
+- Retry with exponential backoff for 429/5xx
+- JSON extraction handles fenced + unfenced responses
+- Uses `claude-sonnet-4-6` (fast, cheap, smart enough for content)
+
+### Revenue pipeline (where $ comes from)
+
+1. **Reel** posts to IG → hook captures attention → CTA drives to link-in-bio
+2. **Link-in-bio** (`links.html`) has Featured Partners section routing directly to:
+   - Mamma Mia Covers (24-30% commission)
+   - Eli & Elm (20% commission)
+   - Amazon category pages with `goldenhomep06-20` tag
+3. **Blog** drives long-tail organic traffic → Amazon affiliate links contextually
+4. **Email list** (future) → owned audience, 5-10x social CTR
+
+### Failure isolation
+
+Each workflow is independent. Reel Producer failing doesn't stop Blog Writer.
+IG Poster skips `awaiting_video` entries until Reel Producer catches up.
+No single point of failure — the flywheel keeps spinning.
+
+---
 
 ## BUSINESS IDENTITY
 - **Name**: Golden Home Project LLC

@@ -88,11 +88,21 @@ jobs:
               if len(pruned) != len(queue):
                   print(f"Pruned {len(queue) - len(pruned)} already-posted entries from queue.")
                   queue = pruned
-              if not queue:
-                  print("Queue empty after dedupe — nothing to post.")
+
+              # Skip entries that aren't ready yet (reel-producer hasn't filled video_url).
+              # Pop the first READY entry, leaving awaiting_video entries in place.
+              ready_idx = next(
+                  (i for i, q in enumerate(queue)
+                   if q.get("status", "ready") == "ready" and q.get("image_url")),
+                  None,
+              )
+              if ready_idx is None:
+                  not_ready = sum(1 for q in queue if q.get("status") == "awaiting_video")
+                  print(f"No ready entries in queue ({not_ready} awaiting video). Nothing to post.")
                   queue_path.write_text(json.dumps(queue, indent=2))
                   sys.exit(0)
-              next_post = queue.pop(0)
+
+              next_post = queue.pop(ready_idx)
               image_url  = next_post["image_url"]
               caption    = next_post["caption"]
               media_type = next_post.get("media_type", "IMAGE")

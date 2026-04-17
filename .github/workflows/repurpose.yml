@@ -1,0 +1,39 @@
+name: GHP Repurposer (Agent 5 — Flywheel S5)
+
+# Runs Mondays at 09:00 UTC
+# Takes latest blog post → 5 Reels + 5 Pins + 1 Email + 10 microcopy hooks
+# Content multiplier: 1 asset → 20 derivatives
+
+on:
+  schedule:
+    - cron: '0 9 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  repurpose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run repurposer
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python3 automation/repurpose.py
+
+      - name: Commit derivatives
+        run: |
+          git config user.name "GHP Repurposer"
+          git config user.email "goldenhomeprojectllc@gmail.com"
+          git add automation/scripts/ automation/pinterest/ automation/email/ automation/microcopy/ social/post_queue.json || true
+          git diff --staged --quiet || git commit -m "Repurpose: $(date -u +%Y-%m-%d)"
+          git push || true

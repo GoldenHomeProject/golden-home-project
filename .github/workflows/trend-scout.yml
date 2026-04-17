@@ -1,0 +1,39 @@
+name: GHP Trend Scout (Agent 1 — Flywheel S1)
+
+# Runs daily at 05:00 UTC (01:00 ET)
+# Scouts Reddit + lets Claude rank product opportunities
+# Output: social/trend_feed.json → consumed by content-generator.yml
+
+on:
+  schedule:
+    - cron: '0 5 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scout:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run trend scout
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python3 automation/trend_scout.py
+
+      - name: Commit trend feed
+        run: |
+          git config user.name "GHP Trend Bot"
+          git config user.email "goldenhomeprojectllc@gmail.com"
+          git add social/trend_feed.json automation/trends/ || true
+          git diff --staged --quiet || git commit -m "Trend scout: $(date -u +%Y-%m-%d)"
+          git push || true

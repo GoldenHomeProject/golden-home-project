@@ -1,0 +1,39 @@
+name: GHP CEO Review (Agent 6 — Flywheel S6/S8)
+
+# Runs Sundays at 10:00 UTC
+# Reads week's engagement + IG insights + posted archive + trend feeds
+# Claude (acting as CEO) writes a strategic review, appends to BUSINESS_BRAIN.md
+
+on:
+  schedule:
+    - cron: '0 10 * * 0'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run CEO review
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python3 automation/ceo_review.py
+
+      - name: Commit weekly review
+        run: |
+          git config user.name "GHP CEO Agent"
+          git config user.email "goldenhomeprojectllc@gmail.com"
+          git add BUSINESS_BRAIN.md automation/logs/ceo_review_*.md || true
+          git diff --staged --quiet || git commit -m "CEO review: week ending $(date -u +%Y-%m-%d)"
+          git push || true

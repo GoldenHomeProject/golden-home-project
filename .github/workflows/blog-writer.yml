@@ -1,0 +1,40 @@
+name: GHP Blog Writer (Agent 4 — Flywheel S3)
+
+# Runs 5x/week (Mon-Fri) at 08:00 UTC
+# Writes one 1,800-2,400 word SEO blog post per run
+# Target: 260 posts/year, compounding organic traffic
+# Based on highest-composite trend from social/trend_feed.json
+
+on:
+  schedule:
+    - cron: '0 8 * * 1-5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  write:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run blog writer
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python3 automation/blog_writer.py
+
+      - name: Commit new post + index
+        run: |
+          git config user.name "GHP Blog Writer"
+          git config user.email "goldenhomeprojectllc@gmail.com"
+          git add blog/ || true
+          git diff --staged --quiet || git commit -m "Blog post: $(date -u +%Y-%m-%d)"
+          git push || true

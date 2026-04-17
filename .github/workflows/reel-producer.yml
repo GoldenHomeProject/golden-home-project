@@ -1,0 +1,43 @@
+name: GHP Reel Producer (Agent 3 — Flywheel S2)
+
+# Runs daily at 07:00 UTC (03:00 ET), 1h after content-engine
+# Renders today's Reel scripts into 1080x1920 MP4s via Pillow + edge-tts + ffmpeg
+# Updates social/post_queue.json: status=ready, video_url=raw github URL
+
+on:
+  schedule:
+    - cron: '0 7 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  produce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg fonts-dejavu-core
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python deps
+        run: pip install Pillow edge-tts
+
+      - name: Render Reels
+        run: python3 automation/reel_producer.py
+
+      - name: Commit Reel MP4s and queue updates
+        run: |
+          git config user.name "GHP Reel Producer"
+          git config user.email "goldenhomeprojectllc@gmail.com"
+          git add social/reels/ social/post_queue.json || true
+          git diff --staged --quiet || git commit -m "Reel producer: $(date -u +%Y-%m-%d)"
+          git push || true

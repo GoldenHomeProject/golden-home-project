@@ -4,6 +4,53 @@ Paste the block below at the start of each Claude Code session. Everything above
 
 ---
 
+## LAST SESSION DELTA (2026-04-17 — Session 4, flywheel rebuild)
+
+**Mandate:** Build a 24/7 content flywheel on GitHub Actions cloud. 6 new autonomous agents. Reels over static. AIDA + Grand Slam enforced. SEO blog added. Content repurposing multiplier. Compounding feedback loop.
+
+**What shipped (Session 4):**
+
+**New agents (6) — all run on GitHub Actions, no local machine needed:**
+1. `trend-scout.yml` + `automation/trend_scout.py` — 05:00 UTC daily — scrapes Reddit + Claude ranks top 5 opportunities → `social/trend_feed.json`
+2. `content-generator.yml` + `automation/content_engine.py` (FULL REWRITE — was placeholder) — 06:00 UTC daily — consumes trend feed, produces 3 Reel scripts using AIDA + Grand Slam Offer system prompt → `automation/scripts/` + enqueues with `status: awaiting_video`
+3. `reel-producer.yml` + `automation/reel_producer.py` — 07:00 UTC daily — Pillow + edge-tts + ffmpeg render 1080x1920 MP4s → `social/reels/`, flips queue entries to `status: ready` with raw.githubusercontent video_url
+4. `blog-writer.yml` + `automation/blog_writer.py` — 08:00 UTC Mon-Fri — full E-E-A-T + AIDA + Grand Slam long-form SEO posts (1,800-2,400 words, schema.org Article + FAQPage JSON-LD, affiliate disclosure, product value-stack cards) → `blog/posts/` + regenerates `blog/index.html`
+5. `repurpose.yml` + `automation/repurpose.py` — 09:00 UTC Mondays — 1 blog post → 5 Reels + 5 Pinterest pins + 1 email + 10 microcopy hooks
+6. `ceo-review.yml` + `automation/ceo_review.py` — 10:00 UTC Sundays — reads week of logs/archive/trends → appends strategic review to BUSINESS_BRAIN.md
+
+**Shared infra:**
+- `automation/_claude_api.py` — single DRY helper all agents import. urllib-based Anthropic API calls, exponential backoff retry, robust JSON extraction. Uses `claude-sonnet-4-6`.
+
+**Existing agents upgraded:**
+- `instagram-poster.yml` — now skips `awaiting_video` entries, only publishes `status: ready` from queue (was blindly popping FIFO)
+
+**Website changes:**
+- `blog/index.html` — landing page live
+- `index.html` — Blog link added to main nav
+
+**Architecture documented in BUSINESS_BRAIN.md:**
+- New "FLYWHEEL ARCHITECTURE" section: agent roster table, data flow diagram, frameworks enforced (AIDA + Grand Slam + E-E-A-T + GHP voice rules), failure isolation philosophy
+
+**Validation:**
+- All 7 new Python modules parse clean (ast.parse)
+- All 10 workflow files pass yaml.safe_load
+- Committed and pushed
+
+**What to do next:**
+1. **Monitor first 24h cycle** — at 05:00 UTC 2026-04-18, Trend Scout fires. Then Content Engine at 06:00. Reel Producer at 07:00. IG Poster at 14:00. That's the first end-to-end flywheel run. Check the Actions tab for any red runs.
+2. **Submit Meta App Review** for `instagram_business_manage_insights` — still the biggest blocker on the revenue feedback loop (reach/impressions/saves/shares blocked in Dev mode)
+3. **Check impact.com** for any click data on `mammamiacovers.sjv.io/WO4g63` + `eliandelm.sjv.io/E092ZX` from the Featured Partners section added in Session 3
+4. **First CEO Review** fires Sunday 2026-04-19 10:00 UTC — check that it writes to BUSINESS_BRAIN correctly
+5. **Tune prompts based on first week's output** — if reels are landing flat, adjust AIDA weighting in `content_engine.py` SYSTEM_PROMPT
+
+**New learnings worth memory:**
+- GitHub Actions IS the 24/7 cloud agent runtime — runs regardless of user's laptop state
+- Shared `_claude_api.py` pattern is the right level of DRY (not a framework, just a helper)
+- Each agent commits its own output — no in-memory state across runs = maximum resilience
+- Agent failure isolation: IG Poster just skips entries it can't use, rather than crashing the whole pipeline
+
+---
+
 ## LAST SESSION DELTA (2026-04-16 — Session 3, project review)
 
 **Full project review executed against working code. Goal: fix weaknesses, prevent future breakage, don't break anything that works.**
