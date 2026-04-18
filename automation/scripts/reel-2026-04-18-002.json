@@ -1,0 +1,91 @@
+{
+  "created_at": "2026-04-18T07:07:55.658668Z",
+  "date": "2026-04-18",
+  "seq": 2,
+  "opportunity_rank": 2,
+  "product_category": "under-sink organizers",
+  "target_price": "$34",
+  "hook": "I spent $34 and my bathroom cabinet looks like a spa.",
+  "aida_breakdown": {
+    "attention": "Under-sink cabinet swings open to reveal total chaos \u2014 bottles falling, cords tangled, dead wasted space instantly recognizable",
+    "interest": "Daily morning frustration of digging for products, knocking everything over, starting the day already annoyed",
+    "desire": "Bamboo expandable organizer assembles in 5 minutes, pull-out drawer adds function, final reveal looks like a boutique hotel bathroom",
+    "action": "Product shot beside styled bathroom sink with bio arrow"
+  },
+  "value_equation": {
+    "dream_outcome": "Bathroom cabinet looks like a professionally organized spa for $34",
+    "perceived_likelihood": "Bamboo aesthetic reads premium, pull-out drawer shown on camera, specific 5-minute install time removes doubt",
+    "time_delay": "5 minutes to install, same-morning difference",
+    "effort_sacrifice": "No drilling, no tools, expands to fit cabinet width out of the box"
+  },
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Under-sink cabinet door swings open revealing chaos: random cleaning bottles, tangled hair dryer cord, products tipped over, zero organization. Harsh bathroom overhead lighting.",
+      "on_screen_text": "$34 FIXED THIS",
+      "voiceover": "$34 completely transformed my bathroom cabinet."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Close-up of the mess: expired products crammed together, tangled cord, a bottle tipped on its side. Person's hand reaches in and knocks three things over trying to grab one item.",
+      "on_screen_text": "COULDN'T FIND ANYTHING",
+      "voiceover": "I couldn't find one thing without pulling everything out."
+    },
+    {
+      "n": 3,
+      "duration_sec": 3,
+      "visual_prompt": "Morning routine: person rushing, opens cabinet, something falls to the floor, they visibly sigh. Wall clock shows 7:15 AM. Real, relatable frustration.",
+      "on_screen_text": "EVERY SINGLE MORNING",
+      "voiceover": "I was done with this every single morning."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Amazon box opened on bathroom floor. Bamboo expandable organizer unboxed. Person reads packaging, notices no tools required callout, looks genuinely pleased.",
+      "on_screen_text": "NO TOOLS. 5 MINUTES.",
+      "voiceover": "Assembled in 5 minutes. No tools. One Amazon box."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Hands expanding the bamboo frame to fit the cabinet width, sliding the pull-out drawer into position, placing products onto the tiered shelves. Clean, satisfying motion.",
+      "on_screen_text": "PULL-OUT DRAWER INCLUDED",
+      "voiceover": "The pull-out drawer was the thing I didn't know I needed."
+    },
+    {
+      "n": 6,
+      "duration_sec": 4,
+      "visual_prompt": "Final reveal: under-sink cabinet fully organized. Bamboo tiers with cleaning supplies, small labeled bins, pull-out drawer with cotton rounds. Everything visible. Looks like a boutique hotel bathroom.",
+      "on_screen_text": "LOOKS LIKE A SPA",
+      "voiceover": "Now it looks like I hired a professional organizer."
+    },
+    {
+      "n": 7,
+      "duration_sec": 3,
+      "visual_prompt": "Clean product shot of the bamboo organizer beside a styled bathroom sink with neutral accessories. Arrow pointing upward. Link in bio overlay.",
+      "on_screen_text": "LINK IN BIO",
+      "voiceover": "Everything linked in bio."
+    }
+  ],
+  "caption": "I spent $34 and my bathroom cabinet looks like a spa.\n\nBefore: bottles falling out every morning, tangled cords, couldn't find anything without pulling the whole thing apart.\n\nAfter: bamboo tiered shelves, pull-out drawer, everything visible and accessible. Took 5 minutes. No tools. One Amazon box.\n\nI was skeptical bamboo could look this good under a sink. I was wrong.\n\nLink in bio.\n\n#bathroomorganization #undersinkstorage #springcleaning2026 #homeorganization #bambooorganizer #cabinetorganizer #cleaningtiktok",
+  "hashtags": [
+    "#bathroomorganization",
+    "#undersinkstorage",
+    "#springcleaning2026",
+    "#homeorganization",
+    "#bambooorganizer",
+    "#cabinetorganizer",
+    "#cleaningtiktok"
+  ],
+  "affiliate_strategy": {
+    "primary_product": "Bamboo expandable under-sink organizer with pull-out drawer",
+    "amazon_search_url": "https://www.amazon.com/s?k=bamboo+expandable+under+sink+organizer+pull+out+drawer&tag=goldenhomep06-20",
+    "fallback_brands": [
+      "mDesign Bamboo Under Sink Organizer",
+      "Tatalife Under Sink Storage",
+      "Greenco Bamboo Shelf Organizer"
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "created_at": "2026-04-18T07:07:55.659047Z",
+  "date": "2026-04-18",
+  "seq": 3,
+  "opportunity_rank": 3,
+  "product_category": "pillows",
+  "target_price": "$89",
+  "hook": "I spent $89 on a pillow and my neck pain is gone.",
+  "aida_breakdown": {
+    "attention": "Person wakes up and immediately grabs their neck \u2014 instant universal recognition for side sleepers",
+    "interest": "Years of morning stiffness, flat yellowed pillow never replaced, every DIY workaround failing",
+    "desire": "Eli & Elm curved cutout cradles shoulder, adjustable fill dials in exact loft \u2014 first pain-free morning in years",
+    "action": "Product shot on styled white bed with bio arrow"
+  },
+  "value_equation": {
+    "dream_outcome": "Wake up without neck pain every morning as a side sleeper",
+    "perceived_likelihood": "Curved cutout shown on camera solving the exact shoulder-gap problem \u2014 specific engineering, not vague comfort claims",
+    "time_delay": "First night \u2014 noticeable difference same morning",
+    "effort_sacrifice": "No chiropractor, no complicated setup \u2014 unbox, adjust fill once, sleep"
+  },
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Person wakes up and immediately grabs the back of their neck, wincing. Morning light through bedroom window. Relatable and understated \u2014 not dramatized.",
+      "on_screen_text": "$89 ENDED MY NECK PAIN",
+      "voiceover": "I woke up with neck pain every single morning."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Close-up of a flat, yellowed, completely compressed pillow. Looks like it has been used for 5+ years and never replaced. Just sad.",
+      "on_screen_text": "THIS WAS MY PILLOW",
+      "voiceover": "I was sleeping on a flat pancake. For years."
+    },
+    {
+      "n": 3,
+      "duration_sec": 3,
+      "visual_prompt": "Person trying every workaround: stacking two pillows, rolling a towel and tucking it under neck, flipping pillow to the cold side. Nothing helps. Visible frustration.",
+      "on_screen_text": "TRIED EVERYTHING.",
+      "voiceover": "Stacked pillows. Rolled towels. Nothing worked."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Eli & Elm pillow unboxed. Clear close-up of the curved cutout channel designed for shoulder clearance. Person traces the ergonomic curve with one finger, visibly curious.",
+      "on_screen_text": "CURVED FOR SIDE SLEEPERS",
+      "voiceover": "Curved cutout means your shoulder has somewhere to go."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Hands unzipping the pillow cover, pulling out a small amount of fill, rezipping. Person tests loft by pressing down \u2014 looks deliberate. Customization feels satisfying.",
+      "on_screen_text": "ADJUST THE FILL",
+      "voiceover": "Adjust the fill until the loft feels right for you."
+    },
+    {
+      "n": 6,
+      "duration_sec": 4,
+      "visual_prompt": "Next morning: person wakes up slowly and stretches both arms \u2014 no neck grab. Looks genuinely surprised. Rolls shoulders experimentally. A small real smile. Not performative.",
+      "on_screen_text": "FIRST PAIN-FREE MORNING",
+      "voiceover": "First morning I woke up without grabbing my neck."
+    },
+    {
+      "n": 7,
+      "duration_sec": 3,
+      "visual_prompt": "Clean product shot of Eli & Elm pillow on a styled white bed with neutral linen. Arrow pointing upward. Link in bio overlay.",
+      "on_screen_text": "LINK IN BIO",
+      "voiceover": "Everything linked in bio."
+    }
+  ],
+  "caption": "I spent $89 on a pillow and my neck pain is gone.\n\nI woke up stiff every single morning for years. Tried stacking pillows, rolling towels under my neck, flipping to the cold side. Nothing fixed it.\n\nMy pillow was a flat, yellowed pancake I just kept not replacing.\n\nThe Eli & Elm side sleeper pillow has a curved cutout so your shoulder actually has somewhere to go. You adjust the fill until the loft is exactly right.\n\nFirst morning after: no neck grab. I was skeptical. I was wrong.\n\n$89 is the best sleep money I've ever spent.\n\nLink in bio.\n\n#sidesleeper #neckpainrelief #sleepbetter #pillowupgrade #springwellness2026 #adjustablepillow #sleepwellness",
+  "hashtags": [
+    "#sidesleeper",
+    "#neckpainrelief",
+    "#sleepbetter",
+    "#pillowupgrade",
+    "#springwellness2026",
+    "#adjustablepillow",
+    "#sleepwellness"
+  ],
+  "affiliate_strategy": {
+    "primary_product": "Eli & Elm side sleeper adjustable pillow",
+    "amazon_search_url": "https://www.amazon.com/s?k=Eli+%26+Elm+side+sleeper+adjustable+pillow&tag=goldenhomep06-20",
+    "fallback_brands": [
+      "Coop Home Goods Eden Pillow",
+      "Beckham Hotel Collection Gel Pillow",
+      "Purple Harmony Pillow"
+    ]
+  }
+}

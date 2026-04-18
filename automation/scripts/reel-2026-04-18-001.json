@@ -1,0 +1,91 @@
+{
+  "created_at": "2026-04-18T07:07:55.658137Z",
+  "date": "2026-04-18",
+  "seq": 1,
+  "opportunity_rank": 1,
+  "product_category": "couch covers",
+  "target_price": "$47",
+  "hook": "This $47 cover made my destroyed couch look new.",
+  "aida_breakdown": {
+    "attention": "Extreme close-up of pet-hair-covered, stained, scratched couch \u2014 immediately recognizable disaster state with $47 on-screen text",
+    "interest": "Owner exhausted from hiding the mess with blankets, reupholstery quotes at $500+ making the problem feel unsolvable",
+    "desire": "Mamma Mia cover unboxed, stretches on in one afternoon with no tools \u2014 final reveal looks like a completely different couch",
+    "action": "Product shot beside transformed couch with arrow pointing to bio"
+  },
+  "value_equation": {
+    "dream_outcome": "Couch looks like a $500+ reupholster for $47",
+    "perceived_likelihood": "Visible before/after, waterproof stretch fit confirmed on camera \u2014 no guessing required",
+    "time_delay": "One afternoon, no tools, no furniture moving",
+    "effort_sacrifice": "One Amazon box, stretches on by hand, fits most sofas"
+  },
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Extreme close-up of a worn sofa: visible pet hair clumps, a dark stain on the seat cushion, frayed armrest fabric. Natural window light. Uncomfortable to look at.",
+      "on_screen_text": "$47 FIXED THIS",
+      "voiceover": "My couch was genuinely embarrassing to look at."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Person sitting on the couch looking defeated, dog actively shedding beside them. Blankets draped haphazardly over the worst spots. Relatable domestic chaos.",
+      "on_screen_text": "TIRED OF HIDING IT",
+      "voiceover": "I was tired of covering it with blankets."
+    },
+    {
+      "n": 3,
+      "duration_sec": 3,
+      "visual_prompt": "Phone screen showing a furniture reupholstery quote: $550. Person's face reacts with wide eyes and a slow head shake. Quick cut.",
+      "on_screen_text": "REUPHOLSTERY: $550",
+      "voiceover": "Reupholstery quotes were $500. Not happening."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Amazon box opened on the living room floor. Mamma Mia Covers packaging visible. Person pulls out a soft neutral-toned stretch cover and looks skeptical, turning it over in their hands.",
+      "on_screen_text": "$47. I WAS SKEPTICAL.",
+      "voiceover": "I was skeptical. It looked too simple to work."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Hands stretching the cover over sofa cushions, tucking it into crevices. No tools. Smooth snug fit forming. Slightly time-lapse style \u2014 fast and satisfying.",
+      "on_screen_text": "STRETCHES ON PERFECTLY",
+      "voiceover": "One afternoon. No tools. It just stretches on."
+    },
+    {
+      "n": 6,
+      "duration_sec": 4,
+      "visual_prompt": "Final wide shot: couch fully covered in a clean fitted neutral tone. Single throw pillow placed on top. Bright clean room. Couch looks brand new.",
+      "on_screen_text": "LOOKS BRAND NEW",
+      "voiceover": "I was wrong. It looks like a completely different couch."
+    },
+    {
+      "n": 7,
+      "duration_sec": 3,
+      "visual_prompt": "Product shot of Mamma Mia cover packaging beside the transformed couch. On-screen arrow pointing upward toward bio text.",
+      "on_screen_text": "LINK IN BIO",
+      "voiceover": "Everything linked in bio."
+    }
+  ],
+  "caption": "This $47 cover made my destroyed couch look new.\n\nPet hair, stains, scratched armrests \u2014 I was embarrassed to have people over. Reupholstery quotes were $500+. Not happening.\n\nFound the Mamma Mia waterproof stretch cover on Amazon. I was skeptical. I was wrong.\n\nOne afternoon. No tools. Stretches on like it was custom-made.\n\nNow my couch looks like I spent real money on it.\n\nLink in bio.\n\n#couchcover #petproofhome #sofacover #springcleaning2026 #homerefresh #stretchsofa #dogmom",
+  "hashtags": [
+    "#couchcover",
+    "#petproofhome",
+    "#sofacover",
+    "#springcleaning2026",
+    "#homerefresh",
+    "#stretchsofa",
+    "#dogmom"
+  ],
+  "affiliate_strategy": {
+    "primary_product": "Mamma Mia waterproof stretch sofa cover",
+    "amazon_search_url": "https://www.amazon.com/s?k=Mamma+Mia+waterproof+stretch+sofa+cover&tag=goldenhomep06-20",
+    "fallback_brands": [
+      "Easy-Going Stretch Sofa Slipcover",
+      "Gorilla Grip Sofa Cover",
+      "SureFit Stretch Slipcover"
+    ]
+  }
+}
