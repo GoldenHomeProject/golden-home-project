@@ -1,33 +1,5 @@
 [
   {
-    "name": "reel_2026-04-18_001",
-    "status": "ready",
-    "script_path": "automation/scripts/reel-2026-04-18-001.json",
-    "media_type": "REELS",
-    "video_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-04-18-001.mp4",
-    "caption": "This $47 cover made my destroyed couch look new.\n\nPet hair, stains, scratched armrests \u2014 I was embarrassed to have people over. Reupholstery quotes were $500+. Not happening.\n\nFound the Mamma Mia waterproof stretch cover on Amazon. I was skeptical. I was wrong.\n\nOne afternoon. No tools. Stretches on like it was custom-made.\n\nNow my couch looks like I spent real money on it.\n\nLink in bio.\n\n#couchcover #petproofhome #sofacover #springcleaning2026 #homerefresh #stretchsofa #dogmom",
-    "hashtags": [
-      "#couchcover",
-      "#petproofhome",
-      "#sofacover",
-      "#springcleaning2026",
-      "#homerefresh",
-      "#stretchsofa",
-      "#dogmom"
-    ],
-    "affiliate": {
-      "primary_product": "Mamma Mia waterproof stretch sofa cover",
-      "amazon_search_url": "https://www.amazon.com/s?k=Mamma+Mia+waterproof+stretch+sofa+cover&tag=goldenhomep06-20",
-      "fallback_brands": [
-        "Easy-Going Stretch Sofa Slipcover",
-        "Gorilla Grip Sofa Cover",
-        "SureFit Stretch Slipcover"
-      ]
-    },
-    "hook": "This $47 cover made my destroyed couch look new.",
-    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-04-18-001.mp4"
-  },
-  {
     "name": "reel_2026-04-18_002",
     "status": "ready",
     "script_path": "automation/scripts/reel-2026-04-18-002.json",
