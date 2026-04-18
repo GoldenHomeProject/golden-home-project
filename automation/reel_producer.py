@@ -170,18 +170,25 @@ def ffmpeg_kenburns_scene(frame_path: Path, duration: float, out_path: Path,
                           zoom_in: bool = True):
     """Turn a static JPEG into a moving video clip via Ken Burns zoom."""
     frames = max(int(duration * 30), 30)
+    # ffmpeg's zoompan filter name is `zoompan`; its internal zoom variable is
+    # referenced as `z` (or `zoom`). Earlier version used bare `zoom='...'`
+    # which ffmpeg parsed as an unknown filter. Pix-fmt goes via -pix_fmt flag
+    # rather than trailing filter to avoid chain parser edge cases.
     if zoom_in:
-        zoom_expr = "zoom='min(zoom+0.0015,1.15)'"
+        z_expr = "min(zoom+0.0015,1.15)"
     else:
-        zoom_expr = "zoom='if(lte(zoom,1.0),1.15,max(1.001,zoom-0.0015))'"
+        z_expr = "if(lte(zoom,1.0),1.15,max(1.001,zoom-0.0015))"
+    vf = (
+        f"scale=2160:3840,"
+        f"zoompan=z='{z_expr}':d={frames}:s={WIDTH}x{HEIGHT}:fps=30"
+    )
     cmd = [
         "ffmpeg", "-y", "-loglevel", "error",
         "-loop", "1", "-i", str(frame_path),
-        "-vf",
-        f"scale=2160:3840,{zoom_expr}:d={frames}:s={WIDTH}x{HEIGHT}:fps=30,"
-        f"format=yuv420p",
+        "-vf", vf,
         "-t", f"{duration}",
         "-c:v", "libx264", "-preset", "medium", "-crf", "22",
+        "-pix_fmt", "yuv420p",
         str(out_path),
     ]
     subprocess.run(cmd, check=True)
