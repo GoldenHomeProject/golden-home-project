@@ -1,10 +1,10 @@
 [
   {
     "name": "reel_2026-04-18_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-04-18-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-04-18-001.mp4",
     "caption": "This $47 cover made my destroyed couch look new.\n\nPet hair, stains, scratched armrests \u2014 I was embarrassed to have people over. Reupholstery quotes were $500+. Not happening.\n\nFound the Mamma Mia waterproof stretch cover on Amazon. I was skeptical. I was wrong.\n\nOne afternoon. No tools. Stretches on like it was custom-made.\n\nNow my couch looks like I spent real money on it.\n\nLink in bio.\n\n#couchcover #petproofhome #sofacover #springcleaning2026 #homerefresh #stretchsofa #dogmom",
     "hashtags": [
       "#couchcover",
@@ -24,14 +24,15 @@
         "SureFit Stretch Slipcover"
       ]
     },
-    "hook": "This $47 cover made my destroyed couch look new."
+    "hook": "This $47 cover made my destroyed couch look new.",
+    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-04-18-001.mp4"
   },
   {
     "name": "reel_2026-04-18_002",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-04-18-002.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-04-18-002.mp4",
     "caption": "I spent $34 and my bathroom cabinet looks like a spa.\n\nBefore: bottles falling out every morning, tangled cords, couldn't find anything without pulling the whole thing apart.\n\nAfter: bamboo tiered shelves, pull-out drawer, everything visible and accessible. Took 5 minutes. No tools. One Amazon box.\n\nI was skeptical bamboo could look this good under a sink. I was wrong.\n\nLink in bio.\n\n#bathroomorganization #undersinkstorage #springcleaning2026 #homeorganization #bambooorganizer #cabinetorganizer #cleaningtiktok",
     "hashtags": [
       "#bathroomorganization",
@@ -51,14 +52,15 @@
         "Greenco Bamboo Shelf Organizer"
       ]
     },
-    "hook": "I spent $34 and my bathroom cabinet looks like a spa."
+    "hook": "I spent $34 and my bathroom cabinet looks like a spa.",
+    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-04-18-002.mp4"
   },
   {
     "name": "reel_2026-04-18_003",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-04-18-003.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-04-18-003.mp4",
     "caption": "I spent $89 on a pillow and my neck pain is gone.\n\nI woke up stiff every single morning for years. Tried stacking pillows, rolling towels under my neck, flipping to the cold side. Nothing fixed it.\n\nMy pillow was a flat, yellowed pancake I just kept not replacing.\n\nThe Eli & Elm side sleeper pillow has a curved cutout so your shoulder actually has somewhere to go. You adjust the fill until the loft is exactly right.\n\nFirst morning after: no neck grab. I was skeptical. I was wrong.\n\n$89 is the best sleep money I've ever spent.\n\nLink in bio.\n\n#sidesleeper #neckpainrelief #sleepbetter #pillowupgrade #springwellness2026 #adjustablepillow #sleepwellness",
     "hashtags": [
       "#sidesleeper",
@@ -78,6 +80,7 @@
         "Purple Harmony Pillow"
       ]
     },
-    "hook": "I spent $89 on a pillow and my neck pain is gone."
+    "hook": "I spent $89 on a pillow and my neck pain is gone.",
+    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-04-18-003.mp4"
   }
 ]
