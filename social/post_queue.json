@@ -57,10 +57,10 @@
   },
   {
     "name": "reel_2026-04-19_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-04-19-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-04-19-001.mp4",
     "caption": "$47 fixed my destroyed couch \u2014 and now pet hair wipes right off in one pass.\n\nI was embarrassed to have guests over. Fur on everything, stains on the armrest, fabric that looked 20 years old. I wasn't ready to buy a new couch.\n\nThis waterproof stretch cover took five minutes. No tools. No drama. I was skeptical it would actually hold up. I was wrong.\n\nLiquid beads off. Hair wipes off. It still looks this good three weeks later.\n\nEverything linked in bio.\n\n#couchcover #petproofcouch #sofaslipcover #dogmom #homehacks",
     "hashtags": [
       "#couchcover",
@@ -80,14 +80,15 @@
         "Easy-Going"
       ]
     },
-    "hook": "$47 fixed my destroyed couch. Pet hair wipes right off."
+    "hook": "$47 fixed my destroyed couch. Pet hair wipes right off.",
+    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-04-19-001.mp4"
   },
   {
     "name": "reel_2026-04-19_002",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-04-19-002.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-04-19-002.mp4",
     "caption": "My empty patio became a full outdoor living room for $329.\n\nI had one rusty folding chair out there for three years. Dead concrete. Completely wasted square footage. Every spring I said I'd fix it. Never did.\n\nOne delivery. One afternoon. Now it looks like something out of a home design account.\n\nFour-piece wicker set \u2014 two chairs, a loveseat, coffee table, cushions included. I was skeptical about a $329 patio set. I was completely wrong.\n\nEverything linked in bio.\n\n#patiofurniture #patiolife #outdoorliving #backyardmakeover #springpatio",
     "hashtags": [
       "#patiofurniture",
@@ -107,14 +108,15 @@
         "Threshold"
       ]
     },
-    "hook": "My empty patio became a full outdoor room for $329."
+    "hook": "My empty patio became a full outdoor room for $329.",
+    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-04-19-002.mp4"
   },
   {
     "name": "reel_2026-04-19_003",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-04-19-003.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-04-19-003.mp4",
     "caption": "$27 organizer turned my disgusting under-sink cabinet into something I'm actually proud of.\n\nI used to avoid opening that cabinet. Expired products, tangled cords, bottles falling over every time I reached in. I thought everyone's bathroom looked like that.\n\nThis 2-tier organizer with pull-out drawers slid in around the pipe in under five minutes. No tools. No drilling. No measuring.\n\nNow I open it just to look at it. That's where I'm at.\n\nSpring cleaning win. Everything linked in bio.\n\n#bathroomorganization #undersinkstorage #springcleaning #bathroomorganizer #homehacks",
     "hashtags": [
       "#bathroomorganization",
@@ -134,6 +136,7 @@
         "Kitsure"
       ]
     },
-    "hook": "$27 organizer turned my disgusting cabinet into something I'm proud of."
+    "hook": "$27 organizer turned my disgusting cabinet into something I'm proud of.",
+    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-04-19-003.mp4"
   }
 ]
