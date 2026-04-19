@@ -1,0 +1,84 @@
+{
+  "created_at": "2026-04-19T07:19:47.816186Z",
+  "date": "2026-04-19",
+  "seq": 3,
+  "opportunity_rank": 3,
+  "product_category": "under-sink bathroom organizer",
+  "target_price": "$27",
+  "hook": "$27 organizer turned my disgusting cabinet into something I'm proud of.",
+  "aida_breakdown": {
+    "attention": "Overhead reveal shot of chaotic under-sink cabinet. Price hits immediately \u2014 $27 feels impossibly cheap for the result.",
+    "interest": "Pan across expired products, tangled cords, damp cabinet floor. Owner admits they stopped opening it entirely.",
+    "desire": "Organizer slides in with no tools. Pull-out drawers shown. Beauty shot of the finished tiered system.",
+    "action": "Cabinet door closes on the organized interior. CTA overlay."
+  },
+  "value_equation": {
+    "dream_outcome": "Under-sink cabinet looks like a magazine bathroom \u2014 every product has a place, tiers visible, clean floor",
+    "perceived_likelihood": "$27 shown next to real cabinet before/after \u2014 no staging, same bathroom, same products just organized",
+    "time_delay": "Under five minutes to install",
+    "effort_sacrifice": "No tools, no drilling \u2014 slides directly onto existing cabinet posts, pull-out drawers included"
+  },
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Overhead shot looking straight down into an open under-sink cabinet. Bottles tipped over, a tangled hair dryer cord, an expired cleaning spray, a damp paper towel on the floor. Chaotic and gross.",
+      "on_screen_text": "$27 CHANGED THIS CABINET",
+      "voiceover": "A $27 organizer fixed my disgusting under-sink cabinet."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Slow pan across the inside of the cabinet at floor level. Expired product labels visible. A bottle of something has left a sticky ring on the wood floor. Hair ties scattered. Universal bathroom chaos.",
+      "on_screen_text": "THIS WAS MY REALITY",
+      "voiceover": "Expired products. Tangled cords. Damp floor. Every bathroom."
+    },
+    {
+      "n": 3,
+      "duration_sec": 3,
+      "visual_prompt": "Hand reaches under the sink and a bottle immediately falls over, knocking into three others. Owner pulls hand back. Slightly darkly comic \u2014 a very familiar moment.",
+      "on_screen_text": "CHAOS EVERY MORNING",
+      "voiceover": "I avoided opening it. That's how bad it got."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Two-tier chrome organizer being slid into the under-sink cabinet. It fits cleanly around the pipe. Pull-out bottom drawer demonstrated with a smooth open-and-close. No tools anywhere in frame.",
+      "on_screen_text": "SLIDES RIGHT IN. NO TOOLS.",
+      "voiceover": "This slides in under five minutes. No tools, no drilling."
+    },
+    {
+      "n": 5,
+      "duration_sec": 5,
+      "visual_prompt": "Beauty shot inside the finished cabinet. Top tier holds tall bottles standing upright. Pull-out bottom drawer holds smaller items sorted by type. Cabinet floor is clean. Soft bathroom lighting. Looks editorial.",
+      "on_screen_text": "LOOKS LIKE A MAGAZINE",
+      "voiceover": "Everything has a home. I actually open this cabinet now."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Cabinet door slowly swings closed. Last frame shows the clean closed cabinet under the sink \u2014 just a normal cabinet door, but the owner knows what's behind it. Satisfied hand-pat on the door.",
+      "on_screen_text": "LINK IN BIO",
+      "voiceover": "Everything linked in bio."
+    }
+  ],
+  "caption": "$27 organizer turned my disgusting under-sink cabinet into something I'm actually proud of.\n\nI used to avoid opening that cabinet. Expired products, tangled cords, bottles falling over every time I reached in. I thought everyone's bathroom looked like that.\n\nThis 2-tier organizer with pull-out drawers slid in around the pipe in under five minutes. No tools. No drilling. No measuring.\n\nNow I open it just to look at it. That's where I'm at.\n\nSpring cleaning win. Everything linked in bio.\n\n#bathroomorganization #undersinkstorage #springcleaning #bathroomorganizer #homehacks",
+  "hashtags": [
+    "#bathroomorganization",
+    "#undersinkstorage",
+    "#springcleaning",
+    "#bathroomorganizer",
+    "#homehacks",
+    "#cabinetorganizer",
+    "#cleanathome"
+  ],
+  "affiliate_strategy": {
+    "primary_product": "2-tier adjustable under-sink cabinet organizer with pull-out drawers",
+    "amazon_search_url": "https://www.amazon.com/s?k=2+tier+adjustable+under+sink+cabinet+organizer+pull+out+drawers&tag=goldenhomep06-20",
+    "fallback_brands": [
+      "SimpleHouseware",
+      "Dracelo",
+      "Kitsure"
+    ]
+  }
+}

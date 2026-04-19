@@ -1,0 +1,84 @@
+{
+  "created_at": "2026-04-19T07:19:47.815782Z",
+  "date": "2026-04-19",
+  "seq": 2,
+  "opportunity_rank": 2,
+  "product_category": "outdoor patio furniture",
+  "target_price": "$329",
+  "hook": "My empty patio became a full outdoor room for $329.",
+  "aida_breakdown": {
+    "attention": "Shot of bare concrete patio with one rusty chair \u2014 stark dead space. Price slam immediate.",
+    "interest": "Owner narrates years of avoiding the patio, wasted square footage, guests never going outside.",
+    "desire": "Time-lapse style reveal: boxes arriving, pieces laid out, set assembled \u2014 before/after same angle.",
+    "action": "Lifestyle shot of person relaxing with coffee on the finished set. CTA to link."
+  },
+  "value_equation": {
+    "dream_outcome": "Full styled outdoor lounge with cushioned seating and coffee table \u2014 looks like a $1,500 catalog set",
+    "perceived_likelihood": "$329 shown on screen next to the assembled 4-piece set in a real backyard \u2014 not a studio, not a showroom",
+    "time_delay": "One afternoon to unbox and set up",
+    "effort_sacrifice": "Ships complete, assembles with included hardware, no contractor or power tools needed"
+  },
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Wide shot of a plain concrete patio with a single rusted metal folding chair. No plants, no table, no color. Looks abandoned. Bright midday spring sun makes the emptiness starker.",
+      "on_screen_text": "$329. EMPTY TO OUTDOOR ROOM.",
+      "voiceover": "My sad patio became an outdoor living room for $329."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "POV shot standing at the back door looking out at the unused patio. The concrete is bare, door is slightly open. Feels like dead space everyone ignores. Relatable suburban home.",
+      "on_screen_text": "WASTED SPACE FOR YEARS",
+      "voiceover": "I looked at that empty concrete every single weekend."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Close-up of the single rusty folding chair \u2014 flaking paint, wobbly legs, clearly unusable. Person's hand touches it and it wobbles. Slightly humorous but painfully relatable.",
+      "on_screen_text": "ONE RUSTY CHAIR.",
+      "voiceover": "One sad chair. Nothing else. I was done ignoring it."
+    },
+    {
+      "n": 4,
+      "duration_sec": 5,
+      "visual_prompt": "Flat lay of all four pieces of the wicker set laid out on the patio next to their boxes. Two chairs, a loveseat, and a coffee table with cushions still in plastic. Feels like Christmas morning.",
+      "on_screen_text": "ONE BOX. FULL SET.",
+      "voiceover": "Everything came in one delivery. Set up in an afternoon."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Finished patio reveal at golden hour. Full 4-piece wicker conversation set with coordinating gray cushions, a small throw pillow, and a succulent on the coffee table. Styled but realistic.",
+      "on_screen_text": "LOOKS LIKE A CATALOG",
+      "voiceover": "Now it looks like a $1,500 set. It cost $329."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Person sitting in the loveseat holding a mug of coffee, legs crossed, relaxed. Morning light. They glance at camera and smile. The patio looks genuinely inviting.",
+      "on_screen_text": "LINK IN BIO",
+      "voiceover": "Everything linked in bio."
+    }
+  ],
+  "caption": "My empty patio became a full outdoor living room for $329.\n\nI had one rusty folding chair out there for three years. Dead concrete. Completely wasted square footage. Every spring I said I'd fix it. Never did.\n\nOne delivery. One afternoon. Now it looks like something out of a home design account.\n\nFour-piece wicker set \u2014 two chairs, a loveseat, coffee table, cushions included. I was skeptical about a $329 patio set. I was completely wrong.\n\nEverything linked in bio.\n\n#patiofurniture #patiolife #outdoorliving #backyardmakeover #springpatio",
+  "hashtags": [
+    "#patiofurniture",
+    "#patiolife",
+    "#outdoorliving",
+    "#backyardmakeover",
+    "#springpatio",
+    "#affordablehome",
+    "#outdoorroom"
+  ],
+  "affiliate_strategy": {
+    "primary_product": "Best Choice Products 4-piece outdoor wicker conversation set",
+    "amazon_search_url": "https://www.amazon.com/s?k=Best+Choice+Products+4+piece+outdoor+wicker+conversation+set&tag=goldenhomep06-20",
+    "fallback_brands": [
+      "Christopher Knight Home",
+      "Mainstays",
+      "Threshold"
+    ]
+  }
+}
