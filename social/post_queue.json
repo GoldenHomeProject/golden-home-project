@@ -85,10 +85,10 @@
   },
   {
     "name": "reel_2026-04-20_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-04-20-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-04-20-001.mp4",
     "caption": "I spent $47 and my destroyed sectional looks like a showroom sofa.\n\nMy dog had basically claimed the couch. Stains, fur, the works. I was throwing blankets over it every time someone came over.\n\nI tried the Mamma Mia waterproof stretch cover because it was $47 and I had nothing to lose. Ten minutes later I was standing there genuinely confused about why I waited so long.\n\nWaterproof. Fits sectionals. Machine washable. Zero pet hair showing.\n\nLink in bio \u2014 it's the first one listed.",
     "hashtags": [
       "#couchcoverfordogs",
@@ -108,14 +108,15 @@
         "Feandrea"
       ]
     },
-    "hook": "I spent $47 and my couch looks brand new."
+    "hook": "I spent $47 and my couch looks brand new.",
+    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-04-20-001.mp4"
   },
   {
     "name": "reel_2026-04-20_002",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-04-20-002.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-04-20-002.mp4",
     "caption": "I spent $32 and my chaotic under-sink cabinet looks like a spa.\n\nI was literally bracing every time I opened it. Bottles falling, products sticky and crushed, no idea what I even had under there.\n\nGot the stackable pull-out organizers from Amazon \u2014 no tools, no drilling, done in one afternoon. Every single product is visible now and I actually use what I own.\n\nThis is the kind of upgrade that sounds small until you're standing there wondering why you waited.\n\nLink in bio \u2014 first product listed.",
     "hashtags": [
       "#undersinkstorage",
@@ -135,14 +136,15 @@
         "Kitsure"
       ]
     },
-    "hook": "I spent $32 and my bathroom cabinet looks like a spa."
+    "hook": "I spent $32 and my bathroom cabinet looks like a spa.",
+    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-04-20-002.mp4"
   },
   {
     "name": "reel_2026-04-20_003",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-04-20-003.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-04-20-003.mp4",
     "caption": "I spent $89 on a pillow and my neck pain is gone.\n\nI'd been waking up stiff for three years. Tried different sleeping positions, a mattress topper, everything. My pillow was completely flat and I kept ignoring it because I didn't want to spend money on a pillow.\n\nGot the Eli & Elm side sleeper pillow. Adjustable fill so you set the loft yourself. Ergonomic cutout built for side sleepers. I was skeptical at $89.\n\nFirst morning I woke up and rolled my neck and nothing hurt. I actually laughed out loud.\n\nLink in bio. Worth every dollar.",
     "hashtags": [
       "#sidesleeperpillow",
@@ -162,6 +164,7 @@
         "Tempur-Pedic"
       ]
     },
-    "hook": "I spent $89 on a pillow and stopped waking up in pain."
+    "hook": "I spent $89 on a pillow and stopped waking up in pain.",
+    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-04-20-003.mp4"
   }
 ]
