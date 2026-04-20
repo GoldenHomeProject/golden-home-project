@@ -1,0 +1,84 @@
+{
+  "created_at": "2026-04-20T08:07:47.153556Z",
+  "date": "2026-04-20",
+  "seq": 1,
+  "opportunity_rank": 1,
+  "product_category": "couch covers",
+  "target_price": "$47",
+  "hook": "I spent $47 and my couch looks brand new.",
+  "aida_breakdown": {
+    "attention": "Creator stands next to a stained, pet-hair-covered sectional holding the $47 cover box with a defeated shrug \u2014 price overlaid bold on screen.",
+    "interest": "Extreme close-ups of embedded dog hair and deep stains; creator admits she was draping throw blankets over it before any guest arrived.",
+    "desire": "Fast-motion of stretch cover going on the sectional in under 10 minutes, ending on a wide reveal of a crisp, fitted sofa with zero pet hair visible.",
+    "action": "Creator faces camera, taps phone showing Instagram bio, points directly at lens."
+  },
+  "value_equation": {
+    "dream_outcome": "Sectional looks like a $1,200 showroom sofa with zero visible pet hair or stains.",
+    "perceived_likelihood": "$47 price shown on screen plus live before-and-after in the same video \u2014 no external claims needed.",
+    "time_delay": "10 minutes to install \u2014 same-afternoon result.",
+    "effort_sacrifice": "No tools, no landlord permission, no sewing \u2014 stretch-and-fit only."
+  },
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Wide shot of a badly stained sectional sofa covered in dog hair. Creator stands beside it, arms crossed, looking directly at camera with a resigned expression. Amazon box on the floor. Bold '$47 FIXED THIS COUCH' overlaid in white text.",
+      "on_screen_text": "$47 FIXED THIS COUCH",
+      "voiceover": "My couch was embarrassing me in front of guests."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Extreme close-up of cushion surface showing deep brown stains and thick clumps of dog fur matted into the fabric. Slow deliberate pan across the damage. Dim, unflattering light.",
+      "on_screen_text": "STAINS. DOG HAIR. EVERYWHERE.",
+      "voiceover": "I was hiding it with throw blankets for two years."
+    },
+    {
+      "n": 3,
+      "duration_sec": 3,
+      "visual_prompt": "Creator holding up the Mamma Mia cover packaging with a skeptical raised eyebrow. Price tag clearly visible. She mouths 'forty-seven dollars?' at the camera.",
+      "on_screen_text": "I WAS SKEPTICAL",
+      "voiceover": "I was skeptical. Forty-seven dollars felt too cheap."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Overhead fast-motion shot of hands stretching the grey fabric cover over sofa cushions. Material hugs each section tightly. No wrinkles. Clean, satisfying fit.",
+      "on_screen_text": "10 MINUTES. ZERO TOOLS.",
+      "voiceover": "It went on in ten minutes. No tools, no struggle."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Wide reveal shot of the fully covered sectional \u2014 crisp, smooth, perfectly fitted. Bright natural light. A dog sits on it but zero pet hair is visible. Creator stands to the side looking genuinely surprised.",
+      "on_screen_text": "LOOKS LIKE $1,200",
+      "voiceover": "I was wrong. It looks like a brand-new sofa."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Creator looks into camera, taps phone screen showing her Instagram bio page. Friendly, casual smile. Clean bright background.",
+      "on_screen_text": "LINK IN BIO",
+      "voiceover": "Everything is linked in my bio."
+    }
+  ],
+  "caption": "I spent $47 and my destroyed sectional looks like a showroom sofa.\n\nMy dog had basically claimed the couch. Stains, fur, the works. I was throwing blankets over it every time someone came over.\n\nI tried the Mamma Mia waterproof stretch cover because it was $47 and I had nothing to lose. Ten minutes later I was standing there genuinely confused about why I waited so long.\n\nWaterproof. Fits sectionals. Machine washable. Zero pet hair showing.\n\nLink in bio \u2014 it's the first one listed.",
+  "hashtags": [
+    "#couchcoverfordogs",
+    "#sofaslipcover",
+    "#pethaircleaning",
+    "#stretchsofacover",
+    "#springcleaning2026",
+    "#homerefresh",
+    "#dogmomhome"
+  ],
+  "affiliate_strategy": {
+    "primary_product": "Mamma Mia Waterproof Stretch Sofa Cover",
+    "amazon_search_url": "https://www.amazon.com/s?k=mamma+mia+waterproof+stretch+sofa+cover&tag=goldenhomep06-20",
+    "fallback_brands": [
+      "Gorilla Grip",
+      "Easy-Going",
+      "Feandrea"
+    ]
+  }
+}

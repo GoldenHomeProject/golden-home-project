@@ -1,0 +1,84 @@
+{
+  "created_at": "2026-04-20T08:07:47.154140Z",
+  "date": "2026-04-20",
+  "seq": 2,
+  "opportunity_rank": 2,
+  "product_category": "under-sink organizers",
+  "target_price": "$32",
+  "hook": "I spent $32 and my bathroom cabinet looks like a spa.",
+  "aida_breakdown": {
+    "attention": "Creator opens under-sink cabinet and a bottle nearly falls out \u2014 catches it, looks at camera deadpan with '$32 FIXED THIS' overlaid.",
+    "interest": "Slow pan of chaos inside: leaking products, fallen bottles, sticky residue, totally wasted vertical space. Creator says she avoided opening it.",
+    "desire": "Timelapse install of stackable pull-out organizers \u2014 reveal shows every product tiered, labeled, and instantly visible.",
+    "action": "Creator pulls out a drawer smoothly, smiles at camera, taps bio link on phone."
+  },
+  "value_equation": {
+    "dream_outcome": "Under-sink cabinet looks like a boutique hotel bathroom \u2014 tiered, labeled, nothing hiding or wasted.",
+    "perceived_likelihood": "$32 price shown on screen, install visible in real time with zero professional help.",
+    "time_delay": "One afternoon \u2014 fully organized before dinner.",
+    "effort_sacrifice": "No drilling, no tools, no contractor \u2014 just stacks and slides into place."
+  },
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Creator opens under-sink bathroom cabinet. A cleaning bottle immediately tips forward and nearly falls. She catches it and looks at the camera deadpan. Bold '$32 FIXED THIS CABINET' overlaid in white.",
+      "on_screen_text": "$32 FIXED THIS CABINET",
+      "voiceover": "Every time I opened this I braced for impact."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Slow deliberate pan inside the cluttered under-sink cabinet: fallen bottles, sticky leak rings, crushed boxes, completely wasted vertical space on sides and top. Dim unflattering light.",
+      "on_screen_text": "CHAOS EVERY MORNING",
+      "voiceover": "I could never find anything. Half my products went to waste."
+    },
+    {
+      "n": 3,
+      "duration_sec": 3,
+      "visual_prompt": "Creator holds up the stackable organizer box still in plastic wrap, raises a skeptical eyebrow at the camera. Price sticker visible: $32.",
+      "on_screen_text": "I WAS SKEPTICAL",
+      "voiceover": "I was skeptical it would actually fit in there. It did."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Fast-motion overhead shot of hands sliding pull-out drawers into the organizer frame, stacking two tiers, then placing upright labeled products into each drawer. Satisfying and clean.",
+      "on_screen_text": "ONE AFTERNOON. ZERO TOOLS.",
+      "voiceover": "No tools. No drilling. Just slides right into place."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Reveal of the fully organized under-sink cabinet: two tiered pull-out drawers, every bottle upright and visible, labels facing forward, zero wasted space. Creator slowly pulls one drawer out to show smooth action.",
+      "on_screen_text": "LOOKS LIKE A SPA",
+      "voiceover": "Now it looks like a boutique hotel bathroom. Thirty-two dollars."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Creator faces camera with a relaxed smile, taps phone showing Instagram bio. Clean bright bathroom visible in background.",
+      "on_screen_text": "LINK IN BIO",
+      "voiceover": "Everything is linked in my bio."
+    }
+  ],
+  "caption": "I spent $32 and my chaotic under-sink cabinet looks like a spa.\n\nI was literally bracing every time I opened it. Bottles falling, products sticky and crushed, no idea what I even had under there.\n\nGot the stackable pull-out organizers from Amazon \u2014 no tools, no drilling, done in one afternoon. Every single product is visible now and I actually use what I own.\n\nThis is the kind of upgrade that sounds small until you're standing there wondering why you waited.\n\nLink in bio \u2014 first product listed.",
+  "hashtags": [
+    "#undersinkstorage",
+    "#bathroomorganization",
+    "#springcleaning2026",
+    "#bathroomcabinetorganizer",
+    "#declutterwithme",
+    "#organizedhome",
+    "#cleanaholic"
+  ],
+  "affiliate_strategy": {
+    "primary_product": "Stackable Under-Sink Cabinet Organizer with Pull-Out Drawers",
+    "amazon_search_url": "https://www.amazon.com/s?k=stackable+under+sink+organizer+pull+out+drawers&tag=goldenhomep06-20",
+    "fallback_brands": [
+      "mDesign",
+      "SimpleHouseware",
+      "Kitsure"
+    ]
+  }
+}

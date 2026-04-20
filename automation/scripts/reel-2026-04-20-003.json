@@ -1,0 +1,84 @@
+{
+  "created_at": "2026-04-20T08:07:47.154676Z",
+  "date": "2026-04-20",
+  "seq": 3,
+  "opportunity_rank": 3,
+  "product_category": "pillows",
+  "target_price": "$89",
+  "hook": "I spent $89 on a pillow and stopped waking up in pain.",
+  "aida_breakdown": {
+    "attention": "Creator wakes up and immediately grabs her neck with a wince \u2014 '$89 ENDED MY NECK PAIN' overlaid bold on screen.",
+    "interest": "Creator holds up her old flat yellowed pillow, folds it in half and it stays flat \u2014 no spring-back. Admits she'd been waking up stiff for three years.",
+    "desire": "Unboxes Eli & Elm, shows adjustable fill and side-sleeper cutout, cuts to morning scene of creator waking up rolling her neck with zero wince.",
+    "action": "Creator sits on bed holding pillow, smiles at camera, taps bio link."
+  },
+  "value_equation": {
+    "dream_outcome": "Wake up with zero neck pain and feel genuinely rested \u2014 every single morning.",
+    "perceived_likelihood": "Adjustable fill shown on camera, side-sleeper-specific ergonomic cutout demonstrated, three-year personal pain timeline adds real credibility.",
+    "time_delay": "First night \u2014 creator reports change the very next morning.",
+    "effort_sacrifice": "One Amazon order, one swap from your old pillow \u2014 nothing else changes in your routine."
+  },
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Morning bedroom scene. Creator sits up in bed, immediately reaches to rub her neck and winces. Soft natural morning light. Bold '$89 ENDED MY NECK PAIN' overlaid in white.",
+      "on_screen_text": "$89 ENDED MY NECK PAIN",
+      "voiceover": "I woke up with neck pain every single morning."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Creator holds up a completely flat and yellowed pillow. She folds it in half \u2014 it stays folded with zero spring-back. She looks at it with a disgusted but relatable expression.",
+      "on_screen_text": "3 YEARS ON THIS THING",
+      "voiceover": "I'd had this pillow for three years. Basically cardboard."
+    },
+    {
+      "n": 3,
+      "duration_sec": 3,
+      "visual_prompt": "Creator holds the Eli & Elm box with a skeptical raised eyebrow at the camera. Price label visible: $89. She shrugs as if to say 'why not.'",
+      "on_screen_text": "I WAS SKEPTICAL",
+      "voiceover": "I was skeptical. Eighty-nine dollars for a pillow felt excessive."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Close-up of hands unzipping the pillow and pulling out fill to adjust loft. Side-profile shot clearly showing the ergonomic curved cutout designed for side sleepers. Creator nods approvingly.",
+      "on_screen_text": "ADJUSTABLE. SIDE SLEEPER CUT.",
+      "voiceover": "You control the fill. Built specifically for side sleepers."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Morning scene: Creator wakes up, sits up slowly, rolls her neck side to side with a genuinely surprised expression \u2014 no wince at all. Bright morning light. She looks at camera and shakes her head in disbelief.",
+      "on_screen_text": "WOKE UP WITH ZERO PAIN",
+      "voiceover": "First morning: zero neck pain. I was wrong about this one."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Creator sits on bed holding the pillow, relaxed genuine smile, taps phone showing Instagram bio. Clean bright bedroom background.",
+      "on_screen_text": "LINK IN BIO",
+      "voiceover": "Everything is linked in my bio."
+    }
+  ],
+  "caption": "I spent $89 on a pillow and my neck pain is gone.\n\nI'd been waking up stiff for three years. Tried different sleeping positions, a mattress topper, everything. My pillow was completely flat and I kept ignoring it because I didn't want to spend money on a pillow.\n\nGot the Eli & Elm side sleeper pillow. Adjustable fill so you set the loft yourself. Ergonomic cutout built for side sleepers. I was skeptical at $89.\n\nFirst morning I woke up and rolled my neck and nothing hurt. I actually laughed out loud.\n\nLink in bio. Worth every dollar.",
+  "hashtags": [
+    "#sidesleeperpillow",
+    "#neckpainrelief",
+    "#sleepwellness2026",
+    "#adjustablepillow",
+    "#eliandelm",
+    "#bettersleep",
+    "#sleephealth"
+  ],
+  "affiliate_strategy": {
+    "primary_product": "Eli & Elm Side Sleeper Adjustable Pillow",
+    "amazon_search_url": "https://www.amazon.com/s?k=eli+%26+elm+side+sleeper+adjustable+pillow&tag=goldenhomep06-20",
+    "fallback_brands": [
+      "Coop Home Goods",
+      "Purple",
+      "Tempur-Pedic"
+    ]
+  }
+}
