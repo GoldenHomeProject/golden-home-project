@@ -133,7 +133,7 @@ def render_html(post: dict, date_str: str, slug: str) -> str:
         body = sec["body_markdown"]
         # Minimal markdown → HTML (paragraphs only, the model is fine with that)
         body_html = "".join(f"<p>{p.strip()}</p>\n" for p in body.split("\n\n") if p.strip())
-        prod = sec.get("featured_product", {})
+        prod = sec.get("featured_product") or {}
         cta_url = amazon_url(prod.get("amazon_search", prod.get("name", "")))
         sections_html.append(f"""
 <section class="post-section">
