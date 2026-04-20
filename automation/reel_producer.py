@@ -307,17 +307,29 @@ def main():
         return
 
     print(f"[reel-producer] {len(candidates)} scripts to render")
+    failures = 0
+    attempted = 0
     for script_path in candidates:
         video_path = REEL_DIR / f"{script_path.stem}.mp4"
         if video_path.exists():
             print(f"  {video_path.name} already exists, skipping")
             continue
+        attempted += 1
         try:
             out = produce_reel(script_path)
             if out:
                 update_queue(script_path, out)
+            else:
+                failures += 1
+                print(f"  produce_reel returned None for {script_path.name}")
         except Exception as e:
+            failures += 1
             print(f"  ERROR producing {script_path.name}: {e}")
+
+    if failures:
+        print(f"[reel-producer] FAIL: {failures}/{attempted} reels failed to render")
+        sys.exit(1)
+    print(f"[reel-producer] OK: {attempted} reels rendered")
 
 
 if __name__ == "__main__":
