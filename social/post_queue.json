@@ -1,33 +1,5 @@
 [
   {
-    "name": "reel_2026-04-19_003",
-    "status": "ready",
-    "script_path": "automation/scripts/reel-2026-04-19-003.json",
-    "media_type": "REELS",
-    "video_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-04-19-003.mp4",
-    "caption": "$27 organizer turned my disgusting under-sink cabinet into something I'm actually proud of.\n\nI used to avoid opening that cabinet. Expired products, tangled cords, bottles falling over every time I reached in. I thought everyone's bathroom looked like that.\n\nThis 2-tier organizer with pull-out drawers slid in around the pipe in under five minutes. No tools. No drilling. No measuring.\n\nNow I open it just to look at it. That's where I'm at.\n\nSpring cleaning win. Everything linked in bio.\n\n#bathroomorganization #undersinkstorage #springcleaning #bathroomorganizer #homehacks",
-    "hashtags": [
-      "#bathroomorganization",
-      "#undersinkstorage",
-      "#springcleaning",
-      "#bathroomorganizer",
-      "#homehacks",
-      "#cabinetorganizer",
-      "#cleanathome"
-    ],
-    "affiliate": {
-      "primary_product": "2-tier adjustable under-sink cabinet organizer with pull-out drawers",
-      "amazon_search_url": "https://www.amazon.com/s?k=2+tier+adjustable+under+sink+cabinet+organizer+pull+out+drawers&tag=goldenhomep06-20",
-      "fallback_brands": [
-        "SimpleHouseware",
-        "Dracelo",
-        "Kitsure"
-      ]
-    },
-    "hook": "$27 organizer turned my disgusting cabinet into something I'm proud of.",
-    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-04-19-003.mp4"
-  },
-  {
     "name": "reel_2026-04-20_001",
     "status": "ready",
     "script_path": "automation/scripts/reel-2026-04-20-001.json",
