@@ -1,33 +1,5 @@
 [
   {
-    "name": "reel_2026-04-20_001",
-    "status": "ready",
-    "script_path": "automation/scripts/reel-2026-04-20-001.json",
-    "media_type": "REELS",
-    "video_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-04-20-001.mp4",
-    "caption": "I spent $47 and my destroyed sectional looks like a showroom sofa.\n\nMy dog had basically claimed the couch. Stains, fur, the works. I was throwing blankets over it every time someone came over.\n\nI tried the Mamma Mia waterproof stretch cover because it was $47 and I had nothing to lose. Ten minutes later I was standing there genuinely confused about why I waited so long.\n\nWaterproof. Fits sectionals. Machine washable. Zero pet hair showing.\n\nLink in bio \u2014 it's the first one listed.",
-    "hashtags": [
-      "#couchcoverfordogs",
-      "#sofaslipcover",
-      "#pethaircleaning",
-      "#stretchsofacover",
-      "#springcleaning2026",
-      "#homerefresh",
-      "#dogmomhome"
-    ],
-    "affiliate": {
-      "primary_product": "Mamma Mia Waterproof Stretch Sofa Cover",
-      "amazon_search_url": "https://www.amazon.com/s?k=mamma+mia+waterproof+stretch+sofa+cover&tag=goldenhomep06-20",
-      "fallback_brands": [
-        "Gorilla Grip",
-        "Easy-Going",
-        "Feandrea"
-      ]
-    },
-    "hook": "I spent $47 and my couch looks brand new.",
-    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-04-20-001.mp4"
-  },
-  {
     "name": "reel_2026-04-20_002",
     "status": "ready",
     "script_path": "automation/scripts/reel-2026-04-20-002.json",
