@@ -36,6 +36,60 @@
 
 ---
 
+## AGENT COORDINATION PROTOCOL (2026-04-20)
+
+**Rule: every autonomous agent — cloud workflows AND claude.ai web routines — reads this file at start and appends a log entry at end.**
+
+This enables the 13 agents (10 cloud workflows + 3 web routines) to coordinate
+without stepping on each other's work. BUSINESS_BRAIN.md is the central brain;
+`AGENT_LOG.md` is the shared action journal.
+
+### Contract (MUST follow)
+
+1. **At start of every run** — read `BUSINESS_BRAIN.md` top-to-bottom and `AGENT_LOG.md` (last 50 entries). Use this context to decide what to do. Do NOT duplicate work another agent logged in the last 24h.
+
+2. **During the run** — if you send an email, post content, change a status, or make any external-facing change, note it mentally for the log entry.
+
+3. **At end of every run** — append ONE entry to `AGENT_LOG.md` in this exact format:
+
+   ```
+   ## <UTC timestamp ISO8601> — <AGENT_NAME>
+   **Ran:** <short 1-line summary>
+   **Changed:** <files committed OR "none">
+   **External actions:** <emails sent / posts published / comments made / "none">
+   **Next agent hint:** <one sentence of what the next agent reading this should know>
+   ```
+
+4. **Commit directly to `main`** with message `Agent log: <AGENT_NAME> <date>`. Do NOT create a `claude/` branch or open a PR — those never get merged and get lost. Push immediately.
+
+5. **If you update BUSINESS_BRAIN.md** (e.g., new affiliate partner, metric change, strategy pivot), commit that in the SAME commit as the log entry so they're atomic.
+
+### Why this matters
+
+- The 3 web routines (Email Monitor 8am, Strategy 9am, Affiliate Optimizer 10am) run in sequence and each one should build on what the previous one logged.
+- The cloud CEO Review can read `AGENT_LOG.md` to understand what happened across the day before issuing its strategic report.
+- No agent should ever "do nothing because unclear" — the log makes context explicit.
+
+### Current agent roster reporting to this protocol
+
+| Agent | Lives on | Schedule | Responsibilities |
+|---|---|---|---|
+| Email Monitor | claude.ai web routine | Daily 8:00 ET | Gmail triage, brand deal accept/decline, affiliate replies |
+| Strategy & Outreach | claude.ai web routine | Daily 9:00 ET | Trend research (YT/TikTok/Pinterest), 1 outreach email/day |
+| Affiliate Optimizer | claude.ai web routine | Daily 10:00 ET | Amazon/Impact/CJ/Awin dashboard check, commission tracking |
+| Trend Scout | cloud `trend-scout.yml` | Daily 05:00 UTC | Reddit product opportunity scan |
+| Content Engine | cloud `content-generator.yml` | Daily 06:00 UTC | 3 Reel scripts/day |
+| Reel Producer | cloud `reel-producer.yml` | Daily 07:00 UTC | Render MP4s |
+| Blog Writer | cloud `blog-writer.yml` | Mon 10:00 UTC | Long-form SEO post |
+| Repurposer | cloud `repurpose.yml` | Mon 09:00 UTC | Multi-platform derivatives |
+| IG Insights | cloud `ig-insights.yml` | Daily 05:30 UTC | Instagram metrics pull |
+| IG Poster | cloud `instagram-poster.yml` | 14:00 + 22:00 UTC | Publish from queue |
+| Engagement Monitor | cloud `engagement-monitor.yml` | Daily | YouTube comment replies |
+| Daily Poster (YT) | cloud `daily-poster.yml` | Daily | YouTube Short upload |
+| CEO Review | cloud `ceo-review.yml` | Weekly Sun | Strategic synthesis |
+
+---
+
 ## FLYWHEEL ARCHITECTURE (2026-04-17 — Session 4 rebuild, Session 5 pivot)
 
 The business now runs as a **closed-loop content flywheel** on GitHub Actions cloud
