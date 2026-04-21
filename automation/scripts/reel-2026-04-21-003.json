@@ -1,0 +1,84 @@
+{
+  "created_at": "2026-04-21T07:51:48.139987Z",
+  "date": "2026-04-21",
+  "seq": 3,
+  "opportunity_rank": 3,
+  "product_category": "kitchen tool set",
+  "target_price": "$54",
+  "hook": "$54 replaced my junk drawer with a chef's kitchen",
+  "aida_breakdown": {
+    "attention": "Cinematic reveal of a clean counter with matching knives on a magnetic strip. Dollar amount on screen immediately \u2014 viewers assume this setup costs far more.",
+    "interest": "Junk drawer yanked open: dull mismatched knives, random broken tools, total chaos. Creator visibly struggles to cut a tomato with a dull blade. 'I was using the same dull knives for eight years.'",
+    "desire": "Unboxing the Syruvia bundle. Magnetic strip mounted on wall with adhesive. Matching tools lined up. Counter cleared. Creator slices a tomato effortlessly \u2014 paper-thin, clean cut. 'I was skeptical about a $54 knife set. I was wrong.'",
+    "action": "Amazon listing shown on phone. Single CTA on screen and voiceover."
+  },
+  "value_equation": {
+    "dream_outcome": "Kitchen looks professional \u2014 matching tools on magnetic strip, counter completely clear, food prep time cut in half",
+    "perceived_likelihood": "'I was skeptical' framing combined with a specific $54 price signals a real purchase decision, not a sponsored talking point",
+    "time_delay": "Same-day setup, under 30 minutes from unboxing to mounted magnetic strip with tools in place",
+    "effort_sacrifice": "No custom cabinetry, no contractor, no measuring \u2014 adhesive magnetic strip mounts to any wall, one box ships to your door"
+  },
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Cinematic wide reveal: a clean, uncluttered kitchen counter with a sleek magnetic knife strip mounted on the wall. Matching Syruvia knives arranged in a clean row. Bright natural window light from the side.",
+      "on_screen_text": "$54. CHEF'S KITCHEN.",
+      "voiceover": "Fifty-four dollars turned my kitchen into this."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "A cluttered kitchen junk drawer pulled fully open: dull mismatched knives with different handle colors, a broken peeler, tangled kitchen tools, random batteries. Dark and chaotic.",
+      "on_screen_text": "MY KITCHEN WAS THIS",
+      "voiceover": "I was using the same dull knives for eight years."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Hands attempting to slice a ripe tomato with a cheap dull knife. The tomato squishes and tears instead of cutting cleanly. Visible frustration on the cook's face. Messy cutting board.",
+      "on_screen_text": "PREP TOOK FOREVER",
+      "voiceover": "Cooking took twice as long and it wasn't even safe."
+    },
+    {
+      "n": 4,
+      "duration_sec": 5,
+      "visual_prompt": "Satisfying unboxing on a clean kitchen counter: Syruvia knives and gadgets laid out neatly. Hands peeling adhesive backing off a magnetic strip and pressing it to the wall. Tools placed onto the strip one by one with a soft magnetic click.",
+      "on_screen_text": "ONE BOX. FULL SETUP.",
+      "voiceover": "I was skeptical about a $54 knife set. I was wrong."
+    },
+    {
+      "n": 5,
+      "duration_sec": 5,
+      "visual_prompt": "Full kitchen reveal: countertop completely clear. Magnetic strip holds matching Syruvia knives in a neat row on the wall. Creator slices a tomato effortlessly \u2014 the blade glides through cleanly, paper-thin cuts. Looks professional.",
+      "on_screen_text": "COUNTER CLEAR. PREP FAST.",
+      "voiceover": "Counter clear, prep cut in half, kitchen looks professional."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Phone screen displaying the Syruvia knife and kitchen gadget bundle Amazon listing. The $54 price is clearly visible. Clean white product photography background.",
+      "on_screen_text": "LINK IN BIO. $54.",
+      "voiceover": "Everything linked in bio. Fifty-four dollars."
+    }
+  ],
+  "caption": "$54 replaced my junk drawer chaos with an actual chef's setup \u2014 and I've never cooked faster.\n\nI was using the same dull knives for years and just accepted it as normal. Prep took forever. The drawer was a disaster every time I opened it.\n\nOne Syruvia bundle later: matching tools, magnetic strip on the wall, counter completely clear. Tomatoes actually slice clean now.\n\nLink in bio.\n\n#kitchenorganization #knifesetamazon #kitchengadgets #syruvia #chefknifeathome",
+  "hashtags": [
+    "#kitchenknifeset",
+    "#amazonkitchengadgets",
+    "#magneticknifestrip",
+    "#kitchenmakeover",
+    "#knifesetunder60",
+    "#homecookenergy",
+    "#kitchentoolset"
+  ],
+  "affiliate_strategy": {
+    "primary_product": "Syruvia professional knife and kitchen gadget bundle",
+    "amazon_search_url": "https://www.amazon.com/s?k=Syruvia+knife+kitchen+gadget+bundle&tag=goldenhomep06-20",
+    "fallback_brands": [
+      "Cuisinart 15-Piece Knife Block Set",
+      "Farberware Edgekeeper Pro Knife Set",
+      "Chicago Cutlery Fusion 18-Piece Set"
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "created_at": "2026-04-21T07:51:48.139482Z",
+  "date": "2026-04-21",
+  "seq": 2,
+  "opportunity_rank": 2,
+  "product_category": "pantry organization",
+  "target_price": "$38",
+  "hook": "$38 turned my disaster pantry into a Pinterest board",
+  "aida_breakdown": {
+    "attention": "Fast cut into a chaotic pantry \u2014 boxes sideways, cans falling, total mess. Dollar amount on screen within two seconds.",
+    "interest": "Hand pulls an expired can from the back of a crammed shelf. Box falls off when the pantry door opens. Creator admits they were tired of reorganizing the same shelf every week.",
+    "desire": "Time-lapse of clear bins dropping into place, lazy susan spinning into position, everything labeled and grouped. Full reveal of a magazine-worthy pantry. Creator notes they stopped buying duplicates.",
+    "action": "Amazon shipping box opened on counter. Single CTA delivered on screen and verbally."
+  },
+  "value_equation": {
+    "dream_outcome": "Pantry looks like a Pinterest photo \u2014 every item visible, grouped by category, rotating turntable so nothing ever gets buried again",
+    "perceived_likelihood": "Specific $38 price with 'one Amazon box' framing makes the barrier feel trivially low; time-lapse shows real work, not a staged set",
+    "time_delay": "One afternoon, roughly one hour of actual organizing",
+    "effort_sacrifice": "No drilling, no custom shelving \u2014 bins stack in place and the lazy susan sits on any existing shelf"
+  },
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Fast zoom into a chaotic pantry shelf: cereal boxes sideways, soup cans stacked and falling, a chip bag dangling off the edge. Harsh overhead kitchen light. Overwhelming mess.",
+      "on_screen_text": "$38 PANTRY MAKEOVER",
+      "voiceover": "I spent $38 and my pantry looks like a magazine."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Close-up of a hand reaching into the back of a deep, crammed pantry shelf and pulling out a dusty can. The expiration date reads two years ago. More expired cans visible behind it.",
+      "on_screen_text": "EXPIRED FOOD, EVERY TIME",
+      "voiceover": "I kept buying things I already owned, buried in back."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Pantry door swings open in slow motion. A box of pasta slides off the packed edge of a shelf and hits the floor. Person picks it up with a tired, resigned expression.",
+      "on_screen_text": "SAME MESS EVERY WEEK",
+      "voiceover": "I was tired of reorganizing the same shelf every week."
+    },
+    {
+      "n": 4,
+      "duration_sec": 5,
+      "visual_prompt": "Satisfying time-lapse: clear stackable bins placed on shelves one by one and filled with snacks, cans, and dry goods. A lazy susan turntable set into a corner shelf and spun effortlessly. Simple label stickers applied.",
+      "on_screen_text": "1 HOUR. COMPLETELY DIFFERENT.",
+      "voiceover": "One hour later it looked like someone else's pantry."
+    },
+    {
+      "n": 5,
+      "duration_sec": 5,
+      "visual_prompt": "Wide reveal of the fully organized pantry: clear bins labeled by category, lazy susan spinning to show every spice bottle visible from the front. Bright, clean, symmetrical. Looks like a lifestyle magazine spread.",
+      "on_screen_text": "SEE EVERYTHING INSTANTLY",
+      "voiceover": "Every item visible. Nothing expires. Nothing gets buried."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Amazon shipping box opened on a clean kitchen counter. Clear stackable bins and a round lazy susan turntable sit neatly inside. The $38 price tag is visible on the packing slip.",
+      "on_screen_text": "LINK IN BIO. $38.",
+      "voiceover": "One Amazon box. Everything linked in bio."
+    }
+  ],
+  "caption": "$38 turned my disaster pantry into a Pinterest board \u2014 not exaggerating.\n\nI was finding food expired two years ago every time I cleaned. Boxes falling whenever I opened the door. I reorganized that same shelf every few weeks and it never lasted.\n\nOne afternoon, one Amazon box of clear bins and a lazy susan. The whole thing took about an hour. I haven't bought a duplicate item since because I can actually see what I own.\n\nLink in bio.\n\n#pantryorganization #pantrymakeover #lazysusan #clearpantrybins #springcleaning",
+  "hashtags": [
+    "#pantryorganizationideas",
+    "#clearpantrycontainers",
+    "#lazysusanpantry",
+    "#pantrymakeoverideas",
+    "#kitchenorganization",
+    "#springcleaningmotivation",
+    "#organizedpantry"
+  ],
+  "affiliate_strategy": {
+    "primary_product": "Clear stackable pantry bins and lazy susan turntable set",
+    "amazon_search_url": "https://www.amazon.com/s?k=clear+stackable+pantry+bins+lazy+susan+set&tag=goldenhomep06-20",
+    "fallback_brands": [
+      "iDesign Linus Pantry Bins",
+      "SimpleHouseware Stackable Shelf Organizer",
+      "mDesign Kitchen Storage Set"
+    ]
+  }
+}
