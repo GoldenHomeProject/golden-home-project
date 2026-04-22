@@ -1,0 +1,5 @@
+banned opener (matches /^\s*\$\d+\s+turned\s+my/)
+too many hashtags: 7 (max 5)
+no falsifiable detail (needs dimension / review count / % / piece count)
+
+Reviewed: 2026-04-21T11:21:12.660123+00:00

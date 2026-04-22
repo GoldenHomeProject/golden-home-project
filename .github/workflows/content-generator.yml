@@ -39,10 +39,13 @@ jobs:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
         run: python3 automation/content_engine.py
 
+      - name: Run content quality gate (rejects off-brand scripts)
+        run: python3 automation/content_quality_gate.py
+
       - name: Commit scripts and queue updates
         run: |
           git config user.name "GHP Content Engine"
           git config user.email "goldenhomeprojectllc@gmail.com"
-          git add automation/scripts/ social/post_queue.json || true
+          git add automation/scripts/ social/post_queue.json automation/content-review-queue/ AGENT_LOG.md || true
           git diff --staged --quiet || git commit -m "Content engine: $(date -u +%Y-%m-%d)"
           git push || true

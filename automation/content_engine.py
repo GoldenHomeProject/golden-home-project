@@ -22,6 +22,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 from _claude_api import call_claude_json
+from agent_log import append_log_entry
 
 ROOT = Path(__file__).resolve().parent.parent
 SCRIPT_DIR = ROOT / "automation" / "scripts"
@@ -36,34 +37,99 @@ DAILY_SCRIPT_COUNT = 3
 
 AIDA_GRANDSLAM_SYSTEM = """You are the Content Engine for Golden Home Project LLC.
 
-Every script you produce MUST satisfy BOTH frameworks simultaneously:
+Before writing anything, you MUST follow the canonical brand voice in docs/BRAND_VOICE.md.
+The rules below are a summary — the doc is the source of truth. If there's any conflict,
+the doc wins.
 
-AIDA structure (scene-by-scene):
-- Scene 1 (Attention): HOOK. Specific $ amount + surprising claim. <=3 seconds.
-- Scenes 2-3 (Interest): the PROBLEM. Relatable pain. "I was tired of..."
-- Scenes 4-5 (Desire): the TRANSFORMATION. Before → after. Value stacked.
-- Scene 6 (Action): single CTA. "Everything linked in bio."
+## Structure (AIDA applied to mobile Reels)
+- Scene 1 (Attention): HOOK. One of the 8 hook categories from BRAND_VOICE.md
+  (Confession / Confrontation / Sensory / Before-after / Question /
+   Story fragment / Micro-insight / Wrong-until-proven-right). <= 3 seconds.
+  The hook NEVER contains a price or the product name.
+- Scenes 2-3 (Interest): the problem. 2-3 sensory beats, no product yet.
+- Scenes 4-5 (Desire): the TURN — product named here for the first time,
+  with ONE specific falsifiable detail (dimensions / material / review count).
+- Scene 6 (Action): quiet CTA. "Link in bio" style — never "RUN don't walk".
 
-Grand Slam Offer value equation (Hormozi):
+## Grand Slam Offer value equation (Hormozi)
 value = (Dream_Outcome × Perceived_Likelihood) / (Time_Delay × Effort)
-- Dream outcome: crystal clear ("kitchen looks $10k renovated")
-- Perceived likelihood: specific $ + social proof words
-- Time delay: "5 minutes", "one afternoon", "same day"
-- Effort: "no tools", "no landlord permission", "one Amazon box"
+- Dream outcome: concrete sensory image, not adjectives
+- Perceived likelihood: specific detail + one piece of social proof
+- Time delay: "5 minutes", "one afternoon" — only if true
+- Effort: "no tools", "no drilling" — only if true
 
-GHP voice rules (non-negotiable):
-- NEVER say "amazing", "game-changer", "you won't believe"
-- Always specific dollar amounts in the hook
-- Use "I" not "we" — personal, not corporate
-- Skeptic-to-convert tone: "I was skeptical. I was wrong."
-- Conversational, not salesy — like texting a friend
+## BANNED OPENERS — auto-reject if the caption's first 40 chars match any of these
+- "I spent $X and..."     - "$X turned my..."
+- "$X made my..."         - "$X fixed my..."
+- "I tested..."           - "You NEED this..."
+- "GAME CHANGER"          - "Stop scrolling..."
+- "POV:"                  - Any price-first line
 
-Posting rules:
+## Voice rules (non-negotiable)
+- Ban words: amazing, game-changer, game changer, you won't believe, insane,
+  literal, literally, life-changing, must-have, viral, obsessed.
+- Admit things. Say "I was wrong" out loud when true.
+- Specific over superlative. "Tomatoes actually slice clean" beats "amazing knife".
+- One problem per post. Never list 5 products.
+- No emoji in the hook line. Max 1 exclamation mark in the whole caption.
+- Conversational, like texting a friend who asked for a recommendation.
+
+## Caption structure (180–220 words max)
+HOOK (one of 8 categories, no banned opener, no price, no product name)
+BEAT 1 — problem, sensory, no product yet (price may appear here, line 3+)
+TURN — product named with ONE falsifiable detail
+RESULT — 1-2 concrete outcomes, not adjectives
+QUIET CTA — one line
+3–5 strategic hashtags (never more). No #amazonfinds, #homedecor, #homehacks,
+#gamechanger, #musthave, #viral.
+
+## Posting rules
 - Reels only (REELS media_type), 20-30 seconds total
 - 5-7 scenes, each 3-5 seconds
 - On-screen text MUST be readable on mobile (big, short lines)
 - Voiceover = casual speech, <12 words per scene
 """
+
+
+# Hook category rotation — Content Engine picks categories that have been
+# used the LEAST over the last 7 days of scripts, to force voice variety.
+HOOK_CATEGORIES = [
+    "confession",
+    "confrontation",
+    "sensory",
+    "before_after",
+    "question",
+    "story_fragment",
+    "micro_insight",
+    "wrong_until_right",
+]
+
+
+def recent_hook_categories(days: int = 7) -> dict[str, int]:
+    """Count hook categories used in the last N days of script files."""
+    from collections import Counter
+    counts = Counter({c: 0 for c in HOOK_CATEGORIES})
+    if not SCRIPT_DIR.exists():
+        return dict(counts)
+    cutoff = datetime.now(timezone.utc).timestamp() - days * 86400
+    for f in SCRIPT_DIR.glob("reel-*.json"):
+        if f.stat().st_mtime < cutoff:
+            continue
+        try:
+            data = json.loads(f.read_text())
+            cat = data.get("hook_category")
+            if cat in counts:
+                counts[cat] += 1
+        except Exception:
+            continue
+    return dict(counts)
+
+
+def pick_under_used_categories(n: int) -> list[str]:
+    """Return N hook categories, biased toward the least-used in the last 7 days."""
+    counts = recent_hook_categories()
+    ranked = sorted(HOOK_CATEGORIES, key=lambda c: counts.get(c, 0))
+    return ranked[:n]
 
 
 def load_trends() -> list[dict]:
@@ -79,54 +145,71 @@ def generate_scripts(opportunities: list[dict], n: int = DAILY_SCRIPT_COUNT) -> 
         return []
 
     top = opportunities[:n]
-    prompt = f"""Using the AIDA + Grand Slam frameworks from your system prompt,
-produce {len(top)} Reel production scripts — one per opportunity below.
+    assigned_categories = pick_under_used_categories(len(top))
+    category_defs = {
+        "confession": "vulnerable, human admission. e.g. 'I avoided opening that cabinet for two years.'",
+        "confrontation": "calls out received wisdom. e.g. 'Everyone says just buy a new couch. That's not the answer.'",
+        "sensory": "puts reader IN the room with sensory detail (smell, sound, touch, light), NO price.",
+        "before_after": "cinematic jump in time. e.g. 'Three weeks ago this drawer was crushed granola bars.'",
+        "question": "genuine Socratic question the reader has silently wondered.",
+        "story_fragment": "unresolved narrative fragment. e.g. 'My dog sat on the new cover and stared at me like I'd betrayed him.'",
+        "micro_insight": "one sharp observation, uncommon truth. e.g. 'The reason your counters never stay clean is that nothing on them has a home.'",
+        "wrong_until_right": "admit a mistake. e.g. 'I had the wrong pillow for a decade and didn't know it.'",
+    }
 
-OPPORTUNITIES:
-{json.dumps(top, indent=2)}
+    per_opp = []
+    for i, opp in enumerate(top):
+        per_opp.append({
+            "opportunity": opp,
+            "assigned_hook_category": assigned_categories[i],
+            "category_definition": category_defs[assigned_categories[i]],
+        })
 
-For EACH opportunity, return ONE script object. Total output: JSON array of {len(top)} objects.
+    prompt = f"""Produce {len(top)} Reel production scripts — one per opportunity below.
 
-Schema:
-[
-  {{
-    "opportunity_rank": 1,
-    "product_category": "from input",
-    "target_price": "$XX",
-    "hook": "one sentence <= 12 words, specific $, mobile-optimized",
-    "aida_breakdown": {{
-      "attention": "hook scene description",
-      "interest": "problem setup",
-      "desire": "transformation scene",
-      "action": "CTA scene"
-    }},
-    "value_equation": {{
-      "dream_outcome": "string",
-      "perceived_likelihood": "string (why believable)",
-      "time_delay": "string (how fast)",
-      "effort_sacrifice": "string (minimal work)"
-    }},
-    "scenes": [
-      {{
-        "n": 1,
-        "duration_sec": 3,
-        "visual_prompt": "detailed image description for generation",
-        "on_screen_text": "MAX 6 WORDS",
-        "voiceover": "conversational line, <12 words"
-      }}
-      // 5-7 scenes total
-    ],
-    "caption": "IG caption, hook repeated + 3-5 hashtags, <=2200 chars",
-    "hashtags": ["5-7 niche hashtags, no generic spam"],
-    "affiliate_strategy": {{
-      "primary_product": "name",
-      "amazon_search_url": "https://www.amazon.com/s?k=<encoded>&tag={AMAZON_TAG}",
-      "fallback_brands": ["Mamma Mia / Eli & Elm / Best Choice if fit"]
-    }}
+You MUST follow the brand voice in docs/BRAND_VOICE.md (summarized in your system prompt).
+
+For each opportunity, I have ASSIGNED a hook category. Use that category for the hook.
+Do NOT use banned openers. Do NOT put price or product name in the hook.
+
+OPPORTUNITIES_WITH_HOOK_ASSIGNMENT:
+{json.dumps(per_opp, indent=2)}
+
+Return a JSON array of {len(top)} script objects. Schema per object:
+
+{{
+  "opportunity_rank": 1,
+  "hook_category": "confession | confrontation | sensory | before_after | question | story_fragment | micro_insight | wrong_until_right",
+  "product_category": "from input",
+  "target_price": "$XX",
+  "hook": "one sentence <= 14 words. NO price, NO product name, NO banned openers. Must match assigned hook category.",
+  "aida_breakdown": {{
+    "attention": "hook scene description",
+    "interest": "problem setup (sensory, no product yet)",
+    "desire": "TURN — product named with ONE falsifiable detail",
+    "action": "quiet CTA"
+  }},
+  "value_equation": {{
+    "dream_outcome": "concrete sensory image, not adjectives",
+    "perceived_likelihood": "specific detail + one social proof element",
+    "time_delay": "only if truthfully fast",
+    "effort_sacrifice": "only if truthfully low"
+  }},
+  "scenes": [
+    {{"n": 1, "duration_sec": 3, "visual_prompt": "...", "on_screen_text": "MAX 6 WORDS", "voiceover": "<12 words"}}
+    // 5-7 scenes total
+  ],
+  "caption": "180-220 words. Structure: HOOK -> BEAT 1 (problem, sensory) -> TURN (product named with falsifiable detail) -> RESULT (concrete) -> QUIET CTA -> 3-5 hashtags. Price appears no earlier than line 3. No banned openers. Max 1 exclamation mark. No emoji in hook line.",
+  "hashtags": ["3-5 hashtags only. Priority: 1 branded, 1 niche <500k posts, 1 trending, optional 1-2 more. BANNED: #amazonfinds #homedecor #homehacks #gamechanger #musthave #viral"],
+  "specific_falsifiable_detail": "the one concrete detail used in the TURN (e.g. '4.8 stars from 2,400 reviews', 'cotton/bamboo 15lb', 'fits up to 110in sectional')",
+  "affiliate_strategy": {{
+    "primary_product": "name",
+    "amazon_search_url": "https://www.amazon.com/s?k=<encoded>&tag={AMAZON_TAG}",
+    "fallback_brands": ["up to 3"]
   }}
-]
+}}
 
-Output STRICT JSON only. No prose, no fences."""
+Output STRICT JSON array only. No prose, no fences."""
 
     return call_claude_json(
         prompt,
@@ -185,12 +268,27 @@ def main():
         print(f"[content-engine] Claude generation failed: {e}")
         return
 
+    written = []
     for i, script in enumerate(scripts, start=1):
         path = persist_script(script, date_str, i)
         enqueue_for_posting(script, path, date_str, i)
+        written.append((path.name, script))
         print(f"  Wrote {path.name} — hook: {script.get('hook', '')[:80]}")
 
     print(f"[content-engine] {len(scripts)} scripts queued, awaiting video production.")
+
+    # Per AGENT COORDINATION PROTOCOL — append to the shared log
+    hook_summary = " | ".join(
+        f"{w[1].get('hook_category', '?')}: {w[1].get('hook', '')[:50]}"
+        for w in written
+    ) or "no scripts generated"
+    append_log_entry(
+        agent="Content Engine",
+        ran=f"Generated {len(written)} Reel scripts from {len(opps)} trend opportunities",
+        changed=f"automation/scripts/reel-{date_str}-*.json, social/post_queue.json",
+        external="none",
+        hint=f"Quality Gate should review before Reel Producer renders. Hooks: {hook_summary}",
+    )
 
 
 if __name__ == "__main__":

@@ -18,6 +18,7 @@ from urllib import request
 
 sys.path.insert(0, str(Path(__file__).parent))
 from _claude_api import call_claude_json
+from agent_log import append_log_entry
 
 ROOT = Path(__file__).resolve().parent.parent
 TREND_DIR = ROOT / "automation" / "trends"
@@ -144,6 +145,19 @@ def main():
     if opportunities:
         for o in opportunities[:3]:
             print(f"  #{o.get('rank')}: {o.get('transformation_hook')}")
+
+    # Per AGENT COORDINATION PROTOCOL — append to the shared log
+    top_hooks = ", ".join(
+        (o.get("transformation_hook") or o.get("product_category", "?"))[:40]
+        for o in opportunities[:3]
+    ) or "no opportunities ranked"
+    append_log_entry(
+        agent="Trend Scout",
+        ran=f"Scanned {len(signals)} subreddits ({sum(len(v) for v in signals.values())} posts), ranked {len(opportunities)} opportunities",
+        changed=f"{history_path.relative_to(ROOT)}, {latest_path.relative_to(ROOT)}",
+        external="none",
+        hint=f"Content Engine: today's top-3 opportunities are: {top_hooks}",
+    )
 
 
 if __name__ == "__main__":

@@ -26,6 +26,9 @@ from urllib import request, parse
 
 from PIL import Image, ImageDraw, ImageFont
 
+sys.path.insert(0, str(Path(__file__).parent))
+from agent_log import append_log_entry
+
 ROOT = Path(__file__).resolve().parent.parent
 SCRIPT_DIR = ROOT / "automation" / "scripts"
 REEL_DIR = ROOT / "social" / "reels"
@@ -325,6 +328,16 @@ def main():
         except Exception as e:
             failures += 1
             print(f"  ERROR producing {script_path.name}: {e}")
+
+    # Per AGENT COORDINATION PROTOCOL — log before the possible sys.exit
+    rendered = attempted - failures
+    append_log_entry(
+        agent="Reel Producer",
+        ran=f"Rendered {rendered}/{attempted} MP4s for {today}" + (f" ({failures} failed)" if failures else ""),
+        changed=f"social/reels/reel-{today}-*.mp4, social/post_queue.json" if rendered else "none",
+        external="none",
+        hint=f"IG Poster has {rendered} new Reels ready for 14:00 + 22:00 UTC slots" if rendered else "No new Reels today — IG Poster should use backlog",
+    )
 
     if failures:
         print(f"[reel-producer] FAIL: {failures}/{attempted} reels failed to render")

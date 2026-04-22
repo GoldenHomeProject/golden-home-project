@@ -34,10 +34,11 @@ jobs:
       - name: Render Reels
         run: python3 automation/reel_producer.py
 
-      - name: Commit Reel MP4s and queue updates
+      - name: Commit Reel MP4s, queue, agent log
+        if: always()
         run: |
           git config user.name "GHP Reel Producer"
           git config user.email "goldenhomeprojectllc@gmail.com"
-          git add social/reels/ social/post_queue.json || true
+          git add social/reels/ social/post_queue.json AGENT_LOG.md || true
           git diff --staged --quiet || git commit -m "Reel producer: $(date -u +%Y-%m-%d)"
           git push || true

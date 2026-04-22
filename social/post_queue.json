@@ -5,15 +5,12 @@
     "script_path": "automation/scripts/reel-2026-04-20-002.json",
     "media_type": "REELS",
     "video_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-04-20-002.mp4",
-    "caption": "I spent $32 and my chaotic under-sink cabinet looks like a spa.\n\nI was literally bracing every time I opened it. Bottles falling, products sticky and crushed, no idea what I even had under there.\n\nGot the stackable pull-out organizers from Amazon \u2014 no tools, no drilling, done in one afternoon. Every single product is visible now and I actually use what I own.\n\nThis is the kind of upgrade that sounds small until you're standing there wondering why you waited.\n\nLink in bio \u2014 first product listed.",
+    "caption": "Everyone says \"just declutter.\" That's not the problem.\n\nThe problem is that nothing under your sink has a defined space, so when you put something back it just goes wherever \u2014 and the chaos resets within a week. Willpower doesn't beat geometry.\n\nStackable pull-out drawers \u2014 $32, BPA-free plastic, around 2,400 reviews at 4.6 stars. Took one afternoon to install. No screws, no brackets.\n\nI've opened it every day for three weeks without bracing. The whole cabinet is visible in one glance.\n\nSearch \"stackable under sink pull out drawer\" on Amazon \u2014 link in bio. [affiliate]\n\n#kitchenorganization #undersinkstorage #organizedhome #apartmentliving",
     "hashtags": [
+      "#kitchenorganization",
       "#undersinkstorage",
-      "#bathroomorganization",
-      "#springcleaning2026",
-      "#bathroomcabinetorganizer",
-      "#declutterwithme",
       "#organizedhome",
-      "#cleanaholic"
+      "#apartmentliving"
     ],
     "affiliate": {
       "primary_product": "Stackable Under-Sink Cabinet Organizer with Pull-Out Drawers",
@@ -24,7 +21,7 @@
         "Kitsure"
       ]
     },
-    "hook": "I spent $32 and my bathroom cabinet looks like a spa.",
+    "hook": "Everyone says \"just declutter.\" That's not the problem.",
     "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-04-20-002.mp4"
   },
   {
@@ -33,15 +30,12 @@
     "script_path": "automation/scripts/reel-2026-04-20-003.json",
     "media_type": "REELS",
     "video_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-04-20-003.mp4",
-    "caption": "I spent $89 on a pillow and my neck pain is gone.\n\nI'd been waking up stiff for three years. Tried different sleeping positions, a mattress topper, everything. My pillow was completely flat and I kept ignoring it because I didn't want to spend money on a pillow.\n\nGot the Eli & Elm side sleeper pillow. Adjustable fill so you set the loft yourself. Ergonomic cutout built for side sleepers. I was skeptical at $89.\n\nFirst morning I woke up and rolled my neck and nothing hurt. I actually laughed out loud.\n\nLink in bio. Worth every dollar.",
+    "caption": "I had the wrong pillow for a decade and didn't know it.\n\nStiff neck every morning. Rolled shoulder by lunch. I blamed my mattress. I blamed stress. I stacked two pillows, then one folded in half, then a towel roll under my neck. None of it fixed it because a flat pancake pillow plus a tower of other pillows is still the wrong height for a side sleeper.\n\nThe Eli & Elm side sleeper pillow \u2014 $89, adjustable shredded latex fill, curved cutout for your shoulder. 4.8 stars from over 2,400 reviews.\n\nFirst morning I rolled my neck and nothing pulled. I actually laughed.\n\nSearch \"eli and elm side sleeper pillow\" on Amazon \u2014 link in bio. [affiliate]\n\n#sidesleeper #neckpainrelief #eliandelm #bettersleep",
     "hashtags": [
-      "#sidesleeperpillow",
+      "#sidesleeper",
       "#neckpainrelief",
-      "#sleepwellness2026",
-      "#adjustablepillow",
       "#eliandelm",
-      "#bettersleep",
-      "#sleephealth"
+      "#bettersleep"
     ],
     "affiliate": {
       "primary_product": "Eli & Elm Side Sleeper Adjustable Pillow",
@@ -52,91 +46,7 @@
         "Tempur-Pedic"
       ]
     },
-    "hook": "I spent $89 on a pillow and stopped waking up in pain.",
+    "hook": "I had the wrong pillow for a decade and didn't know it.",
     "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-04-20-003.mp4"
-  },
-  {
-    "name": "reel_2026-04-21_001",
-    "status": "ready",
-    "script_path": "automation/scripts/reel-2026-04-21-001.json",
-    "media_type": "REELS",
-    "video_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-04-21-001.mp4",
-    "caption": "$47 made my ruined couch look brand new \u2014 and I was not expecting that.\n\nMy dog destroyed it. Guests were visibly avoiding sitting on it. I ordered this Mamma Mia waterproof stretch cover completely skeptical it would do anything useful.\n\nIt went on in 3 minutes. No tools. No help. And my sofa looks like it came from a furniture store.\n\nWaterproof, machine washable, fits sectionals and standard sofas. Link in bio.\n\n#couchcover #sofacover #petfurniture #springcleaning #dogmom",
-    "hashtags": [
-      "#couchcoverfordogs",
-      "#sofaslipcover",
-      "#waterproofcouchcover",
-      "#pethaircouchcover",
-      "#stretchsofacover",
-      "#dogmomlife",
-      "#homeglow"
-    ],
-    "affiliate": {
-      "primary_product": "Mamma Mia waterproof stretch sofa cover",
-      "amazon_search_url": "https://www.amazon.com/s?k=Mamma+Mia+waterproof+stretch+sofa+cover&tag=goldenhomep06-20",
-      "fallback_brands": [
-        "Gorilla Grip Sofa Cover",
-        "Easy-Going Stretch Sofa Slipcover",
-        "Subrtex Stretch Sofa Cover"
-      ]
-    },
-    "hook": "$47 made my ruined couch look brand new",
-    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-04-21-001.mp4"
-  },
-  {
-    "name": "reel_2026-04-21_002",
-    "status": "ready",
-    "script_path": "automation/scripts/reel-2026-04-21-002.json",
-    "media_type": "REELS",
-    "video_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-04-21-002.mp4",
-    "caption": "$38 turned my disaster pantry into a Pinterest board \u2014 not exaggerating.\n\nI was finding food expired two years ago every time I cleaned. Boxes falling whenever I opened the door. I reorganized that same shelf every few weeks and it never lasted.\n\nOne afternoon, one Amazon box of clear bins and a lazy susan. The whole thing took about an hour. I haven't bought a duplicate item since because I can actually see what I own.\n\nLink in bio.\n\n#pantryorganization #pantrymakeover #lazysusan #clearpantrybins #springcleaning",
-    "hashtags": [
-      "#pantryorganizationideas",
-      "#clearpantrycontainers",
-      "#lazysusanpantry",
-      "#pantrymakeoverideas",
-      "#kitchenorganization",
-      "#springcleaningmotivation",
-      "#organizedpantry"
-    ],
-    "affiliate": {
-      "primary_product": "Clear stackable pantry bins and lazy susan turntable set",
-      "amazon_search_url": "https://www.amazon.com/s?k=clear+stackable+pantry+bins+lazy+susan+set&tag=goldenhomep06-20",
-      "fallback_brands": [
-        "iDesign Linus Pantry Bins",
-        "SimpleHouseware Stackable Shelf Organizer",
-        "mDesign Kitchen Storage Set"
-      ]
-    },
-    "hook": "$38 turned my disaster pantry into a Pinterest board",
-    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-04-21-002.mp4"
-  },
-  {
-    "name": "reel_2026-04-21_003",
-    "status": "ready",
-    "script_path": "automation/scripts/reel-2026-04-21-003.json",
-    "media_type": "REELS",
-    "video_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-04-21-003.mp4",
-    "caption": "$54 replaced my junk drawer chaos with an actual chef's setup \u2014 and I've never cooked faster.\n\nI was using the same dull knives for years and just accepted it as normal. Prep took forever. The drawer was a disaster every time I opened it.\n\nOne Syruvia bundle later: matching tools, magnetic strip on the wall, counter completely clear. Tomatoes actually slice clean now.\n\nLink in bio.\n\n#kitchenorganization #knifesetamazon #kitchengadgets #syruvia #chefknifeathome",
-    "hashtags": [
-      "#kitchenknifeset",
-      "#amazonkitchengadgets",
-      "#magneticknifestrip",
-      "#kitchenmakeover",
-      "#knifesetunder60",
-      "#homecookenergy",
-      "#kitchentoolset"
-    ],
-    "affiliate": {
-      "primary_product": "Syruvia professional knife and kitchen gadget bundle",
-      "amazon_search_url": "https://www.amazon.com/s?k=Syruvia+knife+kitchen+gadget+bundle&tag=goldenhomep06-20",
-      "fallback_brands": [
-        "Cuisinart 15-Piece Knife Block Set",
-        "Farberware Edgekeeper Pro Knife Set",
-        "Chicago Cutlery Fusion 18-Piece Set"
-      ]
-    },
-    "hook": "$54 replaced my junk drawer with a chef's kitchen",
-    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-04-21-003.mp4"
   }
 ]

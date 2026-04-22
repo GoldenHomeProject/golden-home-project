@@ -60,9 +60,15 @@ without stepping on each other's work. BUSINESS_BRAIN.md is the central brain;
    **Next agent hint:** <one sentence of what the next agent reading this should know>
    ```
 
-4. **Commit directly to `main`** with message `Agent log: <AGENT_NAME> <date>`. Do NOT create a `claude/` branch or open a PR — those never get merged and get lost. Push immediately.
+4. **Commit directly to `main`** with message `Agent log: <AGENT_NAME> <date>`. Do NOT create a `claude/` branch or open a PR — those never get merged and get lost.
 
-5. **If you update BUSINESS_BRAIN.md** (e.g., new affiliate partner, metric change, strategy pivot), commit that in the SAME commit as the log entry so they're atomic.
+5. **HOW TO PUSH (web routines):** The Claude Code web sandbox has NO `git push` credentials. Do NOT attempt `git push` — it will fail and you will burn the timeout. Instead: use the GitHub MCP tool `push_files` (or `create_or_update_file`) to commit ALL changed files in ONE call to branch `main`. Include `AGENT_LOG.md` plus any other modified files together. If the first call errors, retry ONCE with a 5-second backoff. If it still fails, STOP and write the log entry to a local file as a stub — do NOT loop retry until timeout.
+
+6. **If you update BUSINESS_BRAIN.md** (e.g., new affiliate partner, metric change, strategy pivot), commit that in the SAME commit as the log entry so they're atomic.
+
+### Brand voice (MANDATORY for any agent producing content)
+
+Every caption, email, comment, script, or external-facing text MUST follow `docs/BRAND_VOICE.md`. This is non-negotiable — the formulaic "I spent $X and..." openers killed engagement (8 consecutive posts at zero likes, zero comments). If you're writing copy and haven't read `docs/BRAND_VOICE.md` this run, stop and read it now.
 
 ### Why this matters
 

@@ -1,0 +1,5 @@
+banned opener (matches /^\s*\$\d+\s+made\s+my/)
+too many hashtags: 7 (max 5)
+product 'Mamma Mia waterproof stretch sofa cover' named in line 3 (must be line 3+)
+
+Reviewed: 2026-04-21T11:21:12.659157+00:00
