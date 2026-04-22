@@ -1,32 +1,5 @@
 [
   {
-    "name": "reel_2026-04-20_002",
-    "status": "ready",
-    "script_path": "automation/scripts/reel-2026-04-20-002.json",
-    "media_type": "REELS",
-    "video_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-04-20-002.mp4",
-    "caption": "Everyone says \"just declutter.\" That's not the problem.\n\nThe problem is that nothing under your sink has a defined space, so when you put something back it just goes wherever \u2014 and the chaos resets within a week. Willpower doesn't beat geometry.\n\nStackable pull-out drawers \u2014 $32, BPA-free plastic, around 2,400 reviews at 4.6 stars. Took one afternoon to install. No screws, no brackets.\n\nI've opened it every day for three weeks without bracing. The whole cabinet is visible in one glance.\n\nComment LINK and I'll send the product page straight to your DMs. [affiliate \u2014 I earn if you buy via my link]\n\n#undersinkorganization #kitchenorganization #amazonhomefinds #organizedhome #apartmentliving",
-    "hashtags": [
-      "#undersinkorganization",
-      "#kitchenorganization",
-      "#amazonhomefinds",
-      "#organizedhome",
-      "#apartmentliving"
-    ],
-    "affiliate": {
-      "primary_product": "Stackable Under-Sink Cabinet Organizer with Pull-Out Drawers",
-      "amazon_search_url": "https://www.amazon.com/s?k=stackable+under+sink+organizer+pull+out+drawers&tag=goldenhomep06-20",
-      "fallback_brands": [
-        "mDesign",
-        "SimpleHouseware",
-        "Kitsure"
-      ],
-      "dm_keyword": "LINK"
-    },
-    "hook": "Everyone says \"just declutter.\" That's not the problem.",
-    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-04-20-002.mp4"
-  },
-  {
     "name": "reel_2026-04-20_003",
     "status": "ready",
     "script_path": "automation/scripts/reel-2026-04-20-003.json",
