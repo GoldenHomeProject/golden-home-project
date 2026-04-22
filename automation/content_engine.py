@@ -49,7 +49,10 @@ the doc wins.
 - Scenes 2-3 (Interest): the problem. 2-3 sensory beats, no product yet.
 - Scenes 4-5 (Desire): the TURN — product named here for the first time,
   with ONE specific falsifiable detail (dimensions / material / review count).
-- Scene 6 (Action): quiet CTA. "Link in bio" style — never "RUN don't walk".
+- Scene 6 (Action): comment-to-DM CTA. ALWAYS format as:
+  "Comment [KEYWORD] and I'll DM you the product link."
+  KEYWORD is a single ALL-CAPS word tied to the product (LINK, PILLOW, COVER, etc.).
+  Never "link in bio" alone. Never "RUN don't walk". This CTA is mandatory.
 
 ## Grand Slam Offer value equation (Hormozi)
 value = (Dream_Outcome × Perceived_Likelihood) / (Time_Delay × Effort)
@@ -79,9 +82,10 @@ HOOK (one of 8 categories, no banned opener, no price, no product name)
 BEAT 1 — problem, sensory, no product yet (price may appear here, line 3+)
 TURN — product named with ONE falsifiable detail
 RESULT — 1-2 concrete outcomes, not adjectives
-QUIET CTA — one line
-3–5 strategic hashtags (never more). No #amazonfinds, #homedecor, #homehacks,
-#gamechanger, #musthave, #viral.
+DM CTA — "Comment [KEYWORD] and I'll DM you the product link. [affiliate — I earn if you buy via my link]"
+3–5 strategic hashtags. Allowed Amazon-family discovery tags (use ONE per post, rotate):
+#amazonhomefinds, #amazonhomehacks, #amazonmusthaves, #amazongadgets.
+Banned (no discovery value): #gamechanger, #musthave, #viral, #fyp, #trending.
 
 ## Posting rules
 - Reels only (REELS media_type), 20-30 seconds total

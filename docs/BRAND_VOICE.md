@@ -2,7 +2,7 @@
 
 **Status:** Canonical. Every agent producing content reads this. Non-compliant drafts are rejected by the content quality gate before they reach production.
 
-**Last rev:** 2026-04-21 (Session 6 — after 8 consecutive zero-engagement posts forced a content rebuild)
+**Last rev:** 2026-04-22 (Session 7 — Revenue research against 811K-follower peer @amandabhome forced CTA + hashtag reconciliation. See `docs/REVENUE_RESEARCH_2026-04-21.md`.)
 
 ---
 
@@ -75,7 +75,8 @@ Rotate the opener. The same repo should not ship two consecutive posts using the
 - **No emoji in the hook line.** Emoji allowed sparingly in BEAT 1 / RESULT.
 - **No ALL CAPS except a single standalone word for emphasis** (max one per post).
 - **No exclamation marks** except one at most, and not in the hook.
-- **CTAs:** allowed — "link in bio", "search [exact product] on Amazon", "DM me 'cover' for the link". Banned — "RUN don't walk", "you NEED this", "don't sleep on this".
+- **CTAs (REQUIRED pattern):** every caption MUST use a **comment-keyword → DM** CTA. Format: `Comment [KEYWORD] and I'll DM you the product link. [affiliate — I earn if you buy via my link]`. Keyword is a single ALL-CAPS word related to the product (LINK, PILLOW, COVER, SINK, etc.). **Why:** evidence from @amandabhome (811K followers, 25.3K likes/post) — comment-to-DM funnel captures engagement (comments boost algo) AND conversion (direct DM click-through), while "link in bio" leaks both. Auto-reply should be set up in Meta Business Suite → Automated Responses → Keyword auto-reply.
+- **CTAs BANNED:** "link in bio" alone, "RUN don't walk", "you NEED this", "don't sleep on this", any "swipe up", "tap here".
 
 ---
 
@@ -95,7 +96,9 @@ Rotate the opener. The same repo should not ship two consecutive posts using the
 4. Optional: **one problem tag** (#neckpainrelief, #petfurniture)
 5. Optional: **one lifestyle tag** that matches audience (#renterfriendly, #apartmentliving)
 
-**Banned hashtags (overused, fill-in noise):** #amazonfinds, #homedecor (unqualified), #homehacks, #gamechanger, #musthave, #viral.
+**Banned hashtags (true fill-in noise, no discovery value):** #gamechanger, #musthave, #viral, #fyp, #trending.
+
+**UN-banned as of Session 7 (2026-04-22):** #amazonhomefinds, #amazonhomehacks, #amazonmusthaves, #amazongadgets, #homedecor. Evidence from @amandabhome shows these ARE where Amazon-intent buyers search. Use up to ONE Amazon-family discovery tag per post (rotate through them) + niche + trending + optional problem + optional lifestyle.
 
 ---
 

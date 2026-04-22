@@ -43,8 +43,7 @@ BANNED_OPENERS = [
 ]
 
 BANNED_HASHTAGS = {
-    "#amazonfinds", "#homedecor", "#homehacks", "#gamechanger",
-    "#musthave", "#viral", "#trending", "#fyp",
+    "#gamechanger", "#musthave", "#viral", "#trending", "#fyp",
 }
 
 BANNED_HYPE_WORDS = [
@@ -58,6 +57,12 @@ FALSIFIABLE_PATTERN = re.compile(
     r"|\b\d+[,.]?\d*\s*(reviews?|ratings?|stars?)\b"
     r"|\b\d+%\b"
     r"|\b\d+\s*piece\b)",
+    re.IGNORECASE,
+)
+
+# Session 7: comment-to-DM CTA is mandatory (see docs/BRAND_VOICE.md + docs/REVENUE_RESEARCH_2026-04-21.md)
+DM_CTA_PATTERN = re.compile(
+    r"\bcomment\s+[A-Z]{3,}\b.*\b(dm|message|send)\b",
     re.IGNORECASE,
 )
 
@@ -123,6 +128,10 @@ def check_script(script_path: Path) -> tuple[bool, list[str]]:
     for pattern in BANNED_HYPE_WORDS:
         if re.search(pattern, caption, re.IGNORECASE):
             reasons.append(f"banned hype word (matches /{pattern}/)")
+
+    # 9. Missing comment-to-DM CTA (required for revenue funnel)
+    if not DM_CTA_PATTERN.search(caption):
+        reasons.append("missing comment-to-DM CTA ('comment KEYWORD and I'll DM you ...')")
 
     return len(reasons) == 0, reasons
 
