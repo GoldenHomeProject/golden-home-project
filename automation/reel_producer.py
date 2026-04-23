@@ -34,6 +34,17 @@ SCRIPT_DIR = ROOT / "automation" / "scripts"
 REEL_DIR = ROOT / "social" / "reels"
 REEL_DIR.mkdir(parents=True, exist_ok=True)
 QUEUE_PATH = ROOT / "social" / "post_queue.json"
+MUSIC_DIR = ROOT / "social" / "music"
+
+# Music bed mapping — pick a track based on content mood.
+# night_owl = chill, atmospheric — bedroom / sleep / bathroom / pillow
+# day_bird  = soft uplifting — kitchen / organizing / before-after / pets / tech
+MUSIC_MOOD_KEYWORDS = {
+    "night_owl.mp3": ("pillow", "sleep", "bedroom", "bathroom", "night", "neck", "side sleeper"),
+}
+MUSIC_DEFAULT = "day_bird.mp3"
+# -22 dB below voiceover. Math: 10^(-22/20) ≈ 0.08
+MUSIC_GAIN = 0.08
 
 RAW_URL_BASE = "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main"
 
@@ -197,24 +208,63 @@ def ffmpeg_kenburns_scene(frame_path: Path, duration: float, out_path: Path,
     subprocess.run(cmd, check=True)
 
 
+def pick_music_bed(script: dict) -> Path | None:
+    """Pick a music bed based on script content mood. Returns None if none found."""
+    if not MUSIC_DIR.exists():
+        return None
+    haystack = " ".join([
+        script.get("hook", ""),
+        script.get("caption", ""),
+        (script.get("affiliate_strategy") or {}).get("primary_product", ""),
+    ]).lower()
+    for filename, keywords in MUSIC_MOOD_KEYWORDS.items():
+        if any(k in haystack for k in keywords):
+            p = MUSIC_DIR / filename
+            if p.exists():
+                return p
+    default = MUSIC_DIR / MUSIC_DEFAULT
+    return default if default.exists() else None
+
+
 def ffmpeg_concat_with_audio(clip_paths: list[Path], audio_path: Path,
-                             out_path: Path):
-    """Concat per-scene MP4s, mix in voiceover track."""
+                             out_path: Path, music_path: Path | None = None):
+    """Concat per-scene MP4s, mix voiceover + optional music bed."""
     concat_list = out_path.parent / f"{out_path.stem}_concat.txt"
     concat_list.write_text(
         "\n".join(f"file '{p.absolute()}'" for p in clip_paths)
     )
 
-    cmd = [
-        "ffmpeg", "-y", "-loglevel", "error",
-        "-f", "concat", "-safe", "0", "-i", str(concat_list),
-        "-i", str(audio_path),
-        "-c:v", "libx264", "-preset", "medium", "-crf", "22", "-pix_fmt", "yuv420p",
-        "-c:a", "aac", "-b:a", "160k",
-        "-shortest",
-        "-movflags", "+faststart",
-        str(out_path),
-    ]
+    if music_path and music_path.exists():
+        # Voice at full volume, music at MUSIC_GAIN, 0.5s fade on music ends.
+        filter_complex = (
+            f"[2:a]volume={MUSIC_GAIN},afade=t=in:st=0:d=0.3,afade=t=out:st=25:d=1.5[mbed];"
+            f"[1:a][mbed]amix=inputs=2:duration=first:dropout_transition=0:normalize=0,"
+            f"alimiter=limit=0.95[aout]"
+        )
+        cmd = [
+            "ffmpeg", "-y", "-loglevel", "error",
+            "-f", "concat", "-safe", "0", "-i", str(concat_list),
+            "-i", str(audio_path),
+            "-stream_loop", "-1", "-i", str(music_path),
+            "-filter_complex", filter_complex,
+            "-map", "0:v", "-map", "[aout]",
+            "-c:v", "libx264", "-preset", "medium", "-crf", "22", "-pix_fmt", "yuv420p",
+            "-c:a", "aac", "-b:a", "160k",
+            "-shortest",
+            "-movflags", "+faststart",
+            str(out_path),
+        ]
+    else:
+        cmd = [
+            "ffmpeg", "-y", "-loglevel", "error",
+            "-f", "concat", "-safe", "0", "-i", str(concat_list),
+            "-i", str(audio_path),
+            "-c:v", "libx264", "-preset", "medium", "-crf", "22", "-pix_fmt", "yuv420p",
+            "-c:a", "aac", "-b:a", "160k",
+            "-shortest",
+            "-movflags", "+faststart",
+            str(out_path),
+        ]
     subprocess.run(cmd, check=True)
     concat_list.unlink(missing_ok=True)
 
@@ -270,7 +320,11 @@ def produce_reel(script_path: Path) -> Path | None:
         ], check=True)
 
     out_path = REEL_DIR / f"{stem}.mp4"
-    ffmpeg_concat_with_audio(scene_clips, audio_path, out_path)
+    music_path = pick_music_bed(script)
+    if music_path:
+        print(f"    music bed: {music_path.name}")
+    ffmpeg_concat_with_audio(scene_clips, audio_path, out_path,
+                             music_path=music_path)
 
     # Cleanup
     for f in work_dir.iterdir():
