@@ -73,12 +73,16 @@
     "#cleanaholic"
   ],
   "affiliate_strategy": {
-    "primary_product": "Stackable Under-Sink Cabinet Organizer with Pull-Out Drawers",
+    "primary_product": "Simple Houseware Stackable 2-Tier Sliding Basket Organizer Drawer, Chrome",
+    "amazon_asin": "B01M0TS64K",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B01M0TS64K?tag=goldenhomep06-20",
     "amazon_search_url": "https://www.amazon.com/s?k=stackable+under+sink+organizer+pull+out+drawers&tag=goldenhomep06-20",
     "fallback_brands": [
       "mDesign",
       "SimpleHouseware",
       "Kitsure"
-    ]
+    ],
+    "dm_keyword": "LINK",
+    "meta_automation": "Comment to message - LINK → DM affiliate funnel (live 2026-04-23)"
   }
 }

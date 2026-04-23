@@ -73,12 +73,16 @@
     "#sleephealth"
   ],
   "affiliate_strategy": {
-    "primary_product": "Eli & Elm Side Sleeper Adjustable Pillow",
+    "primary_product": "Eli & Elm Ergonomic Side Sleeper Pillow, U-Shape Contoured, Latex Fill, Queen",
+    "amazon_asin": "B07YL7VD32",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B07YL7VD32?tag=goldenhomep06-20",
     "amazon_search_url": "https://www.amazon.com/s?k=eli+%26+elm+side+sleeper+adjustable+pillow&tag=goldenhomep06-20",
     "fallback_brands": [
       "Coop Home Goods",
       "Purple",
       "Tempur-Pedic"
-    ]
+    ],
+    "dm_keyword": "PILLOW",
+    "meta_automation": "Comment to message - PILLOW → Eli & Elm DM funnel (live 2026-04-23)"
   }
 }
