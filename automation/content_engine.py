@@ -207,8 +207,10 @@ Return a JSON array of {len(top)} script objects. Schema per object:
   "hashtags": ["3-5 hashtags only. Priority: 1 branded, 1 niche <500k posts, 1 trending, optional 1-2 more. BANNED: #amazonfinds #homedecor #homehacks #gamechanger #musthave #viral"],
   "specific_falsifiable_detail": "the one concrete detail used in the TURN (e.g. '4.8 stars from 2,400 reviews', 'cotton/bamboo 15lb', 'fits up to 110in sectional')",
   "affiliate_strategy": {{
-    "primary_product": "name",
-    "amazon_search_url": "https://www.amazon.com/s?k=<encoded>&tag={AMAZON_TAG}",
+    "primary_product": "specific brand + product name (e.g. 'Eli & Elm Side Sleeper Pillow' — NOT a category)",
+    "amazon_asin": null,
+    "amazon_affiliate_url": null,
+    "asin_pending": true,
     "fallback_brands": ["up to 3"]
   }}
 }}
@@ -241,15 +243,22 @@ def enqueue_for_posting(script: dict, script_path: Path, date_str: str, seq: int
     if QUEUE_PATH.exists():
         queue = json.loads(QUEUE_PATH.read_text())
 
+    affiliate = script.get("affiliate_strategy", {}) or {}
+    # ASIN must be filled in by the pre-ship Chrome lookup step (fill_asins.py)
+    # before the producer renders a video. Until then the queue entry is gated
+    # at "awaiting_asin" so the reel-producer + poster skip it.
+    asin_ready = bool(affiliate.get("amazon_asin"))
+    initial_status = "awaiting_video" if asin_ready else "awaiting_asin"
+
     entry = {
         "name": f"reel_{date_str}_{seq:03d}",
-        "status": "awaiting_video",  # reel-producer flips to "ready"
+        "status": initial_status,
         "script_path": str(script_path.relative_to(ROOT)),
         "media_type": "REELS",
         "video_url": None,  # filled by reel-producer after MP4 is committed
         "caption": script.get("caption", ""),
         "hashtags": script.get("hashtags", []),
-        "affiliate": script.get("affiliate_strategy", {}),
+        "affiliate": affiliate,
         "hook": script.get("hook", ""),
     }
     queue.append(entry)
