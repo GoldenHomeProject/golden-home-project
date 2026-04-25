@@ -92,6 +92,28 @@ Banned (no discovery value): #gamechanger, #musthave, #viral, #fyp, #trending.
 - 5-7 scenes, each 3-5 seconds
 - On-screen text MUST be readable on mobile (big, short lines)
 - Voiceover = casual speech, <12 words per scene
+
+## Product naming rules — CRITICAL (anti-hallucination)
+Affiliate revenue depends on the product actually existing on Amazon under
+the brand we name. The Content Engine has previously hallucinated brand names
+("Mamma Mia" sofa cover — that brand does not exist; the real seller is
+Paulato by GA.I.CO). That cost us trust and shipped 3 reels with broken
+affiliate funnels. Do not let it happen again.
+
+When you fill `affiliate_strategy.primary_product`:
+- ONLY use a brand name if you are highly confident that brand sells this
+  product on amazon.com under that exact name. If you are not sure, OMIT
+  the brand entirely and write a generic descriptor that a human can
+  resolve to a real ASIN later (e.g. "stretch sofa slipcover for 4-seat
+  couch, jacquard pattern" — NOT "Mamma Mia sofa cover").
+- Prefer brands you have seen referenced in the trend opportunity input.
+  If the input names a brand, use that brand verbatim.
+- NEVER invent a brand to sound premium. Generic > fake-branded.
+- `fallback_brands` should ONLY contain brands you are confident exist on
+  Amazon in this category. Empty list is acceptable. Better empty than wrong.
+- If you reference a review count or star rating in the script's
+  `specific_falsifiable_detail`, that detail must be plausible for a real
+  Amazon listing in the category — not invented.
 """
 
 
@@ -207,11 +229,11 @@ Return a JSON array of {len(top)} script objects. Schema per object:
   "hashtags": ["3-5 hashtags only. Priority: 1 branded, 1 niche <500k posts, 1 trending, optional 1-2 more. BANNED: #amazonfinds #homedecor #homehacks #gamechanger #musthave #viral"],
   "specific_falsifiable_detail": "the one concrete detail used in the TURN (e.g. '4.8 stars from 2,400 reviews', 'cotton/bamboo 15lb', 'fits up to 110in sectional')",
   "affiliate_strategy": {{
-    "primary_product": "specific brand + product name (e.g. 'Eli & Elm Side Sleeper Pillow' — NOT a category)",
+    "primary_product": "Product name — brand ONLY if you are confident it exists on Amazon under that exact name. If unsure, write a generic descriptor (e.g. 'stretch jacquard sofa slipcover, 4-seat'). NEVER invent a brand. NOT a category.",
     "amazon_asin": null,
     "amazon_affiliate_url": null,
     "asin_pending": true,
-    "fallback_brands": ["up to 3"]
+    "fallback_brands": ["0-3 brands you are confident exist on Amazon in this category — empty list OK; do not pad"]
   }}
 }}
 
