@@ -4,6 +4,28 @@ Paste the block below at the start of each Claude Code session. Everything above
 
 ---
 
+## LAST SESSION DELTA (2026-04-25 — Session 9, dead-ASIN revenue fix)
+
+**The headline:** Amazon Associates last-30 days was 902 clicks / 0 orders / 0% conversion. Chrome-driven verification of all 221 ASINs on goldenhomeproject.com found **182 dead (82%)**. The legacy product-page generator had hallucinated ASINs in long sequential runs (B0CJR0KWLP→B0CJR9KWLP, B0CKR0JNWP→B0CKR9JNWP, B0CLWN5RPJ→B0CLWN9RPJ, B0CMJN0PKR→B0CMJN9PKR). Most clicks landed on Amazon "Page Not Found".
+
+**Fixed (commit f12d583):** `automation/fix_dead_asin_links.py` rewrote 449 dead `/dp/{ASIN}` hrefs across 59 product pages into Amazon search URLs `https://www.amazon.com/s?k={alt_text}&tag=goldenhomep06-20`. Same affiliate tag, lands on real listings, drops 24h cookie. Allowed under Associates Operating Agreement.
+
+**Other shipped today:**
+- YouTube OAuth re-auth completed (Chrome-driven), token rotated into GitHub secret YT_TOKEN_JSON, daily-poster ran clean (run 24943535756, posted Short xcukxkl8YSc + IG Reel 17935518204212410).
+- Brand-hallucination guard added to `automation/content_engine.py` (commit 0f70f7e) — prompts now forbid invented brands, "Mamma Mia" sofa-cover incident cited.
+- Two new feedback memories: drive OAuth via Chrome, Chrome MCP is always available.
+- Project memory: GHP dead-ASIN incident.
+
+**Pending (high-EV revenue):**
+- #41 Add Impact + CJ networks (Wayfair / Pottery Barn / Lowe's; 5–15% vs Amazon's 3–4%)
+- #40 Wire Facebook Page posting into daily-poster
+- #43 Re-check Amazon clicks/orders ~7 days from now to measure dead-link-fix uplift
+- #33 Fix YT OAuth 7-day expiry permanently (verification submission, multi-week async)
+
+**Channel mix (corrected per user):** Instagram, Facebook, YouTube, Amazon, our website (goldenhomeproject.com), Impact, CJ. NOT Pinterest.
+
+---
+
 ## LAST SESSION DELTA (2026-04-17 — Session 5, subscription + free-services pivot)
 
 **Mandate:** Convert entire flywheel off paid API tokens. Use Max subscription for Claude calls + 100% free services for image/video/voice/music/captions generation.
