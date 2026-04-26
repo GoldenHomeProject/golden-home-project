@@ -30,9 +30,24 @@ SCRIPT_DIR.mkdir(parents=True, exist_ok=True)
 SOCIAL_DIR = ROOT / "social"
 TREND_FEED = SOCIAL_DIR / "trend_feed.json"
 QUEUE_PATH = SOCIAL_DIR / "post_queue.json"
+DM_REGISTRY_PATH = SOCIAL_DIR / "dm_keyword_registry.json"
 
 AMAZON_TAG = "goldenhomep06-20"
 DAILY_SCRIPT_COUNT = 3
+
+
+def load_live_dm_entries() -> list[dict]:
+    """Return registry entries with status='live' — the ONLY products the
+    content engine is allowed to ship, because only these have a working
+    comment-to-DM Meta automation behind them."""
+    if not DM_REGISTRY_PATH.exists():
+        return []
+    reg = json.loads(DM_REGISTRY_PATH.read_text())
+    return [e for e in reg.get("entries", []) if e.get("status") == "live"]
+
+
+def affiliate_url_for(asin: str) -> str:
+    return f"https://www.amazon.com/dp/{asin}?tag={AMAZON_TAG}"
 
 
 AIDA_GRANDSLAM_SYSTEM = """You are the Content Engine for Golden Home Project LLC.
@@ -183,6 +198,11 @@ def generate_scripts(opportunities: list[dict], n: int = DAILY_SCRIPT_COUNT) -> 
         "wrong_until_right": "admit a mistake. e.g. 'I had the wrong pillow for a decade and didn't know it.'",
     }
 
+    live_dm = load_live_dm_entries()
+    if not live_dm:
+        print("[content-engine] dm_keyword_registry has no live entries — refusing to ship.")
+        return []
+
     per_opp = []
     for i, opp in enumerate(top):
         per_opp.append({
@@ -200,6 +220,15 @@ Do NOT use banned openers. Do NOT put price or product name in the hook.
 
 OPPORTUNITIES_WITH_HOOK_ASSIGNMENT:
 {json.dumps(per_opp, indent=2)}
+
+LIVE_DM_KEYWORDS — you MUST select one keyword per script from this list. Each keyword
+has a Meta Business Suite comment-to-DM automation behind it that DMs the matching ASIN
+to commenters. If you invent a keyword that's not on this list, the entire DM funnel
+silently fails for that reel and we earn $0 from it. Pick the entry whose `categories`
+or `product_name` best matches the opportunity. If no entry fits, pick the closest one
+and reframe the script to fit that product — DO NOT invent a new keyword.
+
+{json.dumps(live_dm, indent=2)}
 
 Return a JSON array of {len(top)} script objects. Schema per object:
 
@@ -225,25 +254,47 @@ Return a JSON array of {len(top)} script objects. Schema per object:
     {{"n": 1, "duration_sec": 3, "visual_prompt": "...", "on_screen_text": "MAX 6 WORDS", "voiceover": "<12 words"}}
     // 5-7 scenes total
   ],
-  "caption": "180-220 words. Structure: HOOK -> BEAT 1 (problem, sensory) -> TURN (product named with falsifiable detail) -> RESULT (concrete) -> QUIET CTA -> 3-5 hashtags. Price appears no earlier than line 3. No banned openers. Max 1 exclamation mark. No emoji in hook line.",
+  "caption": "180-220 words. Structure: HOOK -> BEAT 1 (problem, sensory) -> TURN (product named with falsifiable detail) -> RESULT (concrete) -> DM CTA -> 3-5 hashtags. Price appears no earlier than line 3. No banned openers. Max 1 exclamation mark. No emoji in hook line. The DM CTA MUST be the literal sentence: 'Comment <KEYWORD> and I'll DM you the link.' where <KEYWORD> is the EXACT keyword you selected from LIVE_DM_KEYWORDS (uppercase, no quotes). Then on the next line: 'Amazon affiliate — I earn a small commission at no extra cost to you.'",
   "hashtags": ["3-5 hashtags only. Priority: 1 branded, 1 niche <500k posts, 1 trending, optional 1-2 more. BANNED: #amazonfinds #homedecor #homehacks #gamechanger #musthave #viral"],
   "specific_falsifiable_detail": "the one concrete detail used in the TURN (e.g. '4.8 stars from 2,400 reviews', 'cotton/bamboo 15lb', 'fits up to 110in sectional')",
   "affiliate_strategy": {{
-    "primary_product": "Product name — brand ONLY if you are confident it exists on Amazon under that exact name. If unsure, write a generic descriptor (e.g. 'stretch jacquard sofa slipcover, 4-seat'). NEVER invent a brand. NOT a category.",
-    "amazon_asin": null,
-    "amazon_affiliate_url": null,
-    "asin_pending": true,
-    "fallback_brands": ["0-3 brands you are confident exist on Amazon in this category — empty list OK; do not pad"]
+    "primary_product": "Product name from the SELECTED LIVE_DM_KEYWORDS entry's product_name (you may shorten/rephrase but DO NOT swap to a different product). NEVER invent a brand.",
+    "dm_keyword": "the EXACT keyword from LIVE_DM_KEYWORDS you selected (uppercase, must match an entry)",
+    "amazon_asin": "the ASIN from the SELECTED LIVE_DM_KEYWORDS entry — copy it verbatim",
+    "fallback_brands": []
   }}
 }}
 
 Output STRICT JSON array only. No prose, no fences."""
 
-    return call_claude_json(
+    raw = call_claude_json(
         prompt,
         system=AIDA_GRANDSLAM_SYSTEM,
         max_tokens=6000,
     )
+
+    # Enforce the registry: any script whose dm_keyword isn't a live entry
+    # gets rewritten to use the registry's canonical ASIN + product_name, and
+    # the affiliate_url is locked in. This guarantees every shipped reel has
+    # a working comment-to-DM funnel.
+    by_kw = {e["keyword"]: e for e in live_dm}
+    safe = []
+    for script in raw or []:
+        aff = script.get("affiliate_strategy") or {}
+        kw = (aff.get("dm_keyword") or "").upper().strip()
+        entry = by_kw.get(kw)
+        if not entry:
+            print(f"[content-engine] DROPPING script — dm_keyword {kw!r} not in live registry")
+            continue
+        # Lock to canonical registry values — never trust LLM ASIN
+        aff["dm_keyword"] = entry["keyword"]
+        aff["amazon_asin"] = entry["asin"]
+        aff["amazon_affiliate_url"] = affiliate_url_for(entry["asin"])
+        aff["asin_pending"] = False
+        aff["primary_product"] = entry["product_name"]
+        script["affiliate_strategy"] = aff
+        safe.append(script)
+    return safe
 
 
 def persist_script(script: dict, date_str: str, seq: int) -> Path:

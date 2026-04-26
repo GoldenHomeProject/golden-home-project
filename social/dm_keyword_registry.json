@@ -1,0 +1,89 @@
+{
+  "_doc": "Live Meta comment-to-DM automations for @golden_home_project. Content engine MUST pick a keyword from `entries` whose status='live' when generating a reel — using a keyword whose automation isn't live silently drops the entire DM funnel. Add a new entry only after creating the matching automation in Meta Business Suite (https://business.facebook.com/latest/inbox/automated_responses?asset_id=973754055831729&business_id=1580899273211540). Verify ASIN is alive on amazon.com BEFORE adding (use Chrome /dp/<ASIN> + check title not 'Page Not Found'). Tag = goldenhomep06-20.",
+  "tag": "goldenhomep06-20",
+  "ig_business_account_id": "973754055831729",
+  "fb_business_id": "1580899273211540",
+  "verified_at": "2026-04-25",
+  "entries": [
+    {
+      "keyword": "LINK",
+      "asin": "B01M0TS64K",
+      "product_name": "Simple Houseware 2-Tier Sliding Basket Organizer (chrome, under-sink)",
+      "categories": ["organization", "kitchen", "bathroom", "under-sink", "storage"],
+      "status": "live",
+      "added_at": "2026-04-23"
+    },
+    {
+      "keyword": "PILLOW",
+      "asin": "B07YL7VD32",
+      "product_name": "Eli & Elm Side Sleeper Pillow (U-shape, latex, queen)",
+      "categories": ["bedroom", "sleep", "pillow", "neck-pain"],
+      "status": "live",
+      "added_at": "2026-04-23"
+    },
+    {
+      "keyword": "COVER",
+      "asin": "B0B4SPP3ZN",
+      "product_name": "Paulato by GA.I.CO. Stretch Sofa Cover (jacquard, waterproof)",
+      "categories": ["living-room", "couch", "sofa", "pet"],
+      "status": "pending_meta_automation",
+      "added_at": "2026-04-25"
+    },
+    {
+      "keyword": "KETTLE",
+      "asin": "B08PP48979",
+      "product_name": "Cosori Electric Kettle (no plastic contact, wide-mouth)",
+      "categories": ["kitchen", "appliance", "tea", "coffee"],
+      "status": "pending_meta_automation",
+      "added_at": "2026-04-25"
+    },
+    {
+      "keyword": "NIGHTLIGHT",
+      "asin": "B08RRRX5P5",
+      "product_name": "LED Motion Sensor Plug-In Night Light",
+      "categories": ["lighting", "bedroom", "hallway", "tech"],
+      "status": "pending_meta_automation",
+      "added_at": "2026-04-25"
+    },
+    {
+      "keyword": "SPONGE",
+      "asin": "B07ZL2BFMP",
+      "product_name": "Scrub Daddy Sponge (dye-free, scratch-free)",
+      "categories": ["kitchen", "cleaning", "dishes"],
+      "status": "pending_meta_automation",
+      "added_at": "2026-04-25"
+    },
+    {
+      "keyword": "STRIP",
+      "asin": "B099S9DXT7",
+      "product_name": "Govee RGBIC LED Strip Lights (32.8ft, smart, bedroom)",
+      "categories": ["lighting", "bedroom", "tech", "smart-home"],
+      "status": "pending_meta_automation",
+      "added_at": "2026-04-25"
+    },
+    {
+      "keyword": "VACUUM",
+      "asin": "B099NTSWD9",
+      "product_name": "FoodSaver VS2150 Vacuum Sealing System",
+      "categories": ["kitchen", "appliance", "food-storage"],
+      "status": "pending_meta_automation",
+      "added_at": "2026-04-25"
+    },
+    {
+      "keyword": "PASTE",
+      "asin": "B00DU5SRIY",
+      "product_name": "Stardrops The Pink Stuff Cleaning Paste (multi-purpose)",
+      "categories": ["cleaning", "kitchen", "bathroom"],
+      "status": "pending_meta_automation",
+      "added_at": "2026-04-25"
+    },
+    {
+      "keyword": "ROLLER",
+      "asin": "B00BAGTNAQ",
+      "product_name": "ChomChom Roller Pet Hair Remover (reusable lint roller)",
+      "categories": ["pet", "cleaning", "living-room"],
+      "status": "pending_meta_automation",
+      "added_at": "2026-04-25"
+    }
+  ]
+}
