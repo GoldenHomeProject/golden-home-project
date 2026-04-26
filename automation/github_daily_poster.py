@@ -91,6 +91,7 @@ APRIL_CALENDAR = [
 ]
 
 PAGES_BASE = "https://goldenhomeproject.com/videos/transformation"
+FB_PAGE_ID = "973754055831729"
 
 
 def amazon(asin, tag):
@@ -198,6 +199,28 @@ def post_yt_short(video_path, title, description, pin_comment, yt_token):
     if "id" in cr.json():
         print(f"  [YT Comment] ✓ Affiliate links pinned")
     return video_id
+
+
+def post_fb_page_video(video_index, title, description, meta_tokens):
+    """Post the daily reel as a video to the FB Page via Graph API.
+    Uses file_url since GitHub Pages already hosts the .mp4 publicly."""
+    token = meta_tokens["page_access_token"]
+    video_url = f"{PAGES_BASE}/trans_{video_index:03d}.mp4"
+    api = "https://graph.facebook.com/v21.0"
+
+    resp = requests.post(f"{api}/{FB_PAGE_ID}/videos", data={
+        "file_url": video_url,
+        "title": title[:255],
+        "description": description,
+        "access_token": token,
+    }, timeout=120)
+    result = resp.json()
+    if "id" in result:
+        post_id = result["id"]
+        print(f"  [FB] ✓ Video published: https://facebook.com/{post_id}")
+        return post_id
+    print(f"  [FB] ✗ {result}")
+    return None
 
 
 def post_ig_reel(video_index, caption, meta_tokens):
@@ -313,8 +336,11 @@ def main():
         )
         ig_id = post_ig_reel(video_index, ig_caption, meta_tokens)
 
+    print(f"\n  Posting to Facebook Page...")
+    fb_id = post_fb_page_video(video_index, title, description, meta_tokens)
+
     log = {"date": today, "title": title, "youtube": yt_id, "instagram": ig_id,
-           "video": f"trans_{video_index:03d}.mp4"}
+           "facebook": fb_id, "video": f"trans_{video_index:03d}.mp4"}
     log_path = LOGS_DIR / f"gh_post_{today}.json"
     with open(log_path, "w") as f:
         json.dump(log, f, indent=2)
@@ -322,6 +348,7 @@ def main():
     print(f"\n  Log saved: {log_path}")
     print(f"  YouTube: {'✓ ' + yt_id if yt_id else '✗ failed'}")
     print(f"  Instagram: {'✓' if ig_id else 'skipped' if not is_saturday else '✗ failed'}")
+    print(f"  Facebook: {'✓ ' + fb_id if fb_id else '✗ failed'}")
 
 
 if __name__ == "__main__":
