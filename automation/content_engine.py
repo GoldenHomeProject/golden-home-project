@@ -271,9 +271,8 @@ Output STRICT JSON array only. No prose, no fences."""
         prompt,
         system=AIDA_GRANDSLAM_SYSTEM,
         max_tokens=6000,
-        max_turns=3,   # cap agentic loop; pure JSON gen needs ≥2 turns (CLI counts the first response as turn 1)
-        retries=2,     # 2x240s + sleep ≈ 8min ceiling, fits in 20min workflow cap
-        timeout=240,   # 4min per attempt; if it can't write 3 scripts in 4min, the SDK is stalled
+        retries=1,     # fail loud; the 3x300s default was burning the entire 15-min workflow cap silently
+        timeout=600,   # 10min per attempt — ample for 3-script JSON without agentic-loop blowup
     )
 
     # Enforce the registry: any script whose dm_keyword isn't a live entry
