@@ -88,6 +88,54 @@ APRIL_CALENDAR = [
      "products": [{"asin": "B07FFXVDXG", "name": "Velvet Non-Slip Hangers (50-pack)", "price": "$19.99"},
                   {"asin": "B07X5JQPZM", "name": "Closet Shelf Dividers (6-pack)", "price": "$14.99"},
                   {"asin": "B08DC11C79", "name": "Hanging Closet Accessory Organizer", "price": "$16.99"}]},
+    # ── Extension: 2026-04-27 → 2026-05-10. Reuses trans_001..trans_014 with
+    # fresh hooks, products locked to verified-alive ASINs from the DM registry
+    # (LINK / PILLOW / COVER / KETTLE / NIGHTLIGHT / SPONGE / STRIP / VACUUM /
+    # PASTE / ROLLER) so every post drives the comment-to-DM funnel. After this
+    # window, the cloud Content Engine + Reel Producer should be refilling
+    # social/post_queue.json and the poster should switch to consuming that.
+    {"date": "2026-04-27", "title": "The Under-Sink Cabinet I Avoided For 4 Years — $32 Fixed It",
+     "video": 1,
+     "products": [{"asin": "B01M0TS64K", "name": "Simple Houseware 2-Tier Sliding Basket Organizer", "price": "$31.99"}]},
+    {"date": "2026-04-28", "title": "I Stopped Sleeping Wrong After I Bought This Pillow", "ig": True,
+     "video": 2,
+     "products": [{"asin": "B07YL7VD32", "name": "Eli & Elm Side Sleeper Pillow", "price": "$99.00"}]},
+    {"date": "2026-04-29", "title": "My Couch Looked 10 Years Old. $39 Made It Look New.",
+     "video": 3,
+     "products": [{"asin": "B0B4SPP3ZN", "name": "Paulato Stretch Sofa Cover (waterproof)", "price": "$39.99"}]},
+    {"date": "2026-04-30", "title": "I Replaced My Plastic Kettle After Reading This",
+     "video": 4,
+     "products": [{"asin": "B08PP48979", "name": "Cosori Electric Kettle (no plastic contact)", "price": "$39.99"}]},
+    {"date": "2026-05-01", "title": "The Hallway Light That Turns Itself On — Saved Our Toes",
+     "video": 5,
+     "products": [{"asin": "B08RRRX5P5", "name": "LED Motion Sensor Plug-In Night Light", "price": "$12.99"}]},
+    {"date": "2026-05-02", "title": "I Tested Every Sponge. Only One Survived.", "ig": True,
+     "video": 6,
+     "products": [{"asin": "B07ZL2BFMP", "name": "Scrub Daddy Sponge", "price": "$4.49"}]},
+    {"date": "2026-05-03", "title": "These LED Strips Made My Bedroom Feel Like a Hotel Suite",
+     "video": 7,
+     "products": [{"asin": "B099S9DXT7", "name": "Govee RGBIC LED Strip Lights (32.8ft)", "price": "$39.99"}]},
+    {"date": "2026-05-04", "title": "Freezer Burn Cost Me $400 Last Year. Not Anymore.",
+     "video": 8,
+     "products": [{"asin": "B099NTSWD9", "name": "FoodSaver VS2150 Vacuum Sealing System", "price": "$129.99"}]},
+    {"date": "2026-05-05", "title": "The $5 Paste That Cleaned My Stovetop in 30 Seconds",
+     "video": 9,
+     "products": [{"asin": "B00DU5SRIY", "name": "Stardrops The Pink Stuff Cleaning Paste", "price": "$5.97"}]},
+    {"date": "2026-05-06", "title": "Pet Hair Was Everywhere — One Roller Fixed It", "ig": True,
+     "video": 10,
+     "products": [{"asin": "B00BAGTNAQ", "name": "ChomChom Pet Hair Roller", "price": "$24.95"}]},
+    {"date": "2026-05-07", "title": "The Under-Sink Reorg That Doubled My Storage",
+     "video": 11,
+     "products": [{"asin": "B01M0TS64K", "name": "Simple Houseware 2-Tier Sliding Basket Organizer", "price": "$31.99"}]},
+    {"date": "2026-05-08", "title": "Side Sleepers: This Is The Pillow That Fixed My Neck",
+     "video": 12,
+     "products": [{"asin": "B07YL7VD32", "name": "Eli & Elm Side Sleeper Pillow", "price": "$99.00"}]},
+    {"date": "2026-05-09", "title": "Why Pet Owners Are Ditching Their Old Sofa Covers", "ig": True,
+     "video": 13,
+     "products": [{"asin": "B0B4SPP3ZN", "name": "Paulato Stretch Sofa Cover (waterproof)", "price": "$39.99"}]},
+    {"date": "2026-05-10", "title": "The Kitchen Swap I Should've Made Years Ago",
+     "video": 14,
+     "products": [{"asin": "B08PP48979", "name": "Cosori Electric Kettle (no plastic contact)", "price": "$39.99"}]},
 ]
 
 PAGES_BASE = "https://goldenhomeproject.com/videos/transformation"
@@ -298,8 +346,9 @@ def main():
         }, indent=2))
         sys.exit(0)
 
-    # Find video index (1-based position in calendar)
-    video_index = APRIL_CALENDAR.index(entry) + 1
+    # Video index: explicit `video:` key wins (recycle existing trans_NNN.mp4),
+    # else fall back to 1-based position in calendar (legacy mapping).
+    video_index = entry.get("video") or (APRIL_CALENDAR.index(entry) + 1)
     video_path = VIDEOS_DIR / f"trans_{video_index:03d}.mp4"
 
     title    = entry["title"]

@@ -35,17 +35,22 @@ def _check_auth():
 
 def call_claude(prompt: str, *, system: str | None = None,
                 timeout: int = DEFAULT_TIMEOUT, retries: int = 3,
-                max_tokens: int | None = None) -> str:
+                max_tokens: int | None = None,
+                max_turns: int | None = None) -> str:
     """Shell out to `claude --print`. Prompt via stdin to handle any content.
 
     Retries on transient subscription-limit errors. Raises on permanent failures.
     `max_tokens` is accepted for backward compat with the old API helper but
     ignored — the CLI decides length based on the model's default.
+    `max_turns` caps the agentic-loop iterations. Pass max_turns=1 for pure
+    one-shot text/JSON generation (skips tool-use loops, much faster).
     """
     _ = max_tokens  # accepted for backward compat, not applicable to the CLI
     _check_auth()
 
     cmd = ["claude", "--print"]
+    if max_turns is not None:
+        cmd += ["--max-turns", str(max_turns)]
     if system:
         cmd += ["--append-system-prompt", system]
 
