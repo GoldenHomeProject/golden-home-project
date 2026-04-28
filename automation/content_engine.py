@@ -1,27 +1,32 @@
 """GHP Content Engine — Agent 2 of the flywheel.
 
-Reads social/trend_feed.json, produces 3 Reel scripts per day using
-AIDA structure + Hormozi Grand Slam Offer value equation + GHP COSTAR voice.
+Generates 3 Reel scripts per day from a hand-crafted copy library
+(social/copy_library.json). Replaces the prior LLM-driven generator —
+the Claude Code CLI was unreliable for batch JSON gen and burned
+subscription minutes silently. The template approach is deterministic,
+free, and ships predictable Madison-Ave-quality copy.
 
 Outputs per script:
 - automation/scripts/reel-<date>-NNN.json — full production spec
 - Appended to social/post_queue.json — ready for instagram-poster.yml
 
-Each script is structured as 5-7 scenes (1080x1920 Reel format), each with:
-- visual prompt (for future image gen)
-- on-screen text (large, mobile-readable)
-- voiceover line (conversational, <12 words)
-- scene duration (seconds)
+Selection rules:
+- Only DM keywords with status='live' in dm_keyword_registry.json are eligible
+  (otherwise the comment-to-DM funnel silently fails and we earn $0)
+- Variants are picked to (a) maximize hook-category diversity over the last
+  7 days of shipped scripts and (b) avoid back-to-back use of the same variant
 
-The reel-producer agent consumes these to render actual MP4s.
+The reel-producer agent consumes these script JSONs to render actual MP4s.
 """
+import hashlib
 import json
+import random
 import sys
+from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from _claude_api import call_claude_json
 from agent_log import append_log_entry
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -31,6 +36,7 @@ SOCIAL_DIR = ROOT / "social"
 TREND_FEED = SOCIAL_DIR / "trend_feed.json"
 QUEUE_PATH = SOCIAL_DIR / "post_queue.json"
 DM_REGISTRY_PATH = SOCIAL_DIR / "dm_keyword_registry.json"
+COPY_LIBRARY_PATH = SOCIAL_DIR / "copy_library.json"
 
 AMAZON_TAG = "goldenhomep06-20"
 DAILY_SCRIPT_COUNT = 3
@@ -50,87 +56,8 @@ def affiliate_url_for(asin: str) -> str:
     return f"https://www.amazon.com/dp/{asin}?tag={AMAZON_TAG}"
 
 
-AIDA_GRANDSLAM_SYSTEM = """You are the Content Engine for Golden Home Project LLC.
-
-Before writing anything, you MUST follow the canonical brand voice in docs/BRAND_VOICE.md.
-The rules below are a summary — the doc is the source of truth. If there's any conflict,
-the doc wins.
-
-## Structure (AIDA applied to mobile Reels)
-- Scene 1 (Attention): HOOK. One of the 8 hook categories from BRAND_VOICE.md
-  (Confession / Confrontation / Sensory / Before-after / Question /
-   Story fragment / Micro-insight / Wrong-until-proven-right). <= 3 seconds.
-  The hook NEVER contains a price or the product name.
-- Scenes 2-3 (Interest): the problem. 2-3 sensory beats, no product yet.
-- Scenes 4-5 (Desire): the TURN — product named here for the first time,
-  with ONE specific falsifiable detail (dimensions / material / review count).
-- Scene 6 (Action): comment-to-DM CTA. ALWAYS format as:
-  "Comment [KEYWORD] and I'll DM you the product link."
-  KEYWORD is a single ALL-CAPS word tied to the product (LINK, PILLOW, COVER, etc.).
-  Never "link in bio" alone. Never "RUN don't walk". This CTA is mandatory.
-
-## Grand Slam Offer value equation (Hormozi)
-value = (Dream_Outcome × Perceived_Likelihood) / (Time_Delay × Effort)
-- Dream outcome: concrete sensory image, not adjectives
-- Perceived likelihood: specific detail + one piece of social proof
-- Time delay: "5 minutes", "one afternoon" — only if true
-- Effort: "no tools", "no drilling" — only if true
-
-## BANNED OPENERS — auto-reject if the caption's first 40 chars match any of these
-- "I spent $X and..."     - "$X turned my..."
-- "$X made my..."         - "$X fixed my..."
-- "I tested..."           - "You NEED this..."
-- "GAME CHANGER"          - "Stop scrolling..."
-- "POV:"                  - Any price-first line
-
-## Voice rules (non-negotiable)
-- Ban words: amazing, game-changer, game changer, you won't believe, insane,
-  literal, literally, life-changing, must-have, viral, obsessed.
-- Admit things. Say "I was wrong" out loud when true.
-- Specific over superlative. "Tomatoes actually slice clean" beats "amazing knife".
-- One problem per post. Never list 5 products.
-- No emoji in the hook line. Max 1 exclamation mark in the whole caption.
-- Conversational, like texting a friend who asked for a recommendation.
-
-## Caption structure (180–220 words max)
-HOOK (one of 8 categories, no banned opener, no price, no product name)
-BEAT 1 — problem, sensory, no product yet (price may appear here, line 3+)
-TURN — product named with ONE falsifiable detail
-RESULT — 1-2 concrete outcomes, not adjectives
-DM CTA — "Comment [KEYWORD] and I'll DM you the product link. [affiliate — I earn if you buy via my link]"
-3–5 strategic hashtags. Allowed Amazon-family discovery tags (use ONE per post, rotate):
-#amazonhomefinds, #amazonhomehacks, #amazonmusthaves, #amazongadgets.
-Banned (no discovery value): #gamechanger, #musthave, #viral, #fyp, #trending.
-
-## Posting rules
-- Reels only (REELS media_type), 20-30 seconds total
-- 5-7 scenes, each 3-5 seconds
-- On-screen text MUST be readable on mobile (big, short lines)
-- Voiceover = casual speech, <12 words per scene
-
-## Product naming rules — CRITICAL (anti-hallucination)
-Affiliate revenue depends on the product actually existing on Amazon under
-the brand we name. The Content Engine has previously hallucinated brand names
-("Mamma Mia" sofa cover — that brand does not exist; the real seller is
-Paulato by GA.I.CO). That cost us trust and shipped 3 reels with broken
-affiliate funnels. Do not let it happen again.
-
-When you fill `affiliate_strategy.primary_product`:
-- ONLY use a brand name if you are highly confident that brand sells this
-  product on amazon.com under that exact name. If you are not sure, OMIT
-  the brand entirely and write a generic descriptor that a human can
-  resolve to a real ASIN later (e.g. "stretch sofa slipcover for 4-seat
-  couch, jacquard pattern" — NOT "Mamma Mia sofa cover").
-- Prefer brands you have seen referenced in the trend opportunity input.
-  If the input names a brand, use that brand verbatim.
-- NEVER invent a brand to sound premium. Generic > fake-branded.
-- `fallback_brands` should ONLY contain brands you are confident exist on
-  Amazon in this category. Empty list is acceptable. Better empty than wrong.
-- If you reference a review count or star rating in the script's
-  `specific_falsifiable_detail`, that detail must be plausible for a real
-  Amazon listing in the category — not invented.
-"""
-
+# Voice and structure rules formerly enforced via LLM system prompt now live in
+# docs/BRAND_VOICE.md and are baked into copy_library.json hand-crafted variants.
 
 # Hook category rotation — Content Engine picks categories that have been
 # used the LEAST over the last 7 days of scripts, to force voice variety.
@@ -181,122 +108,171 @@ def load_trends() -> list[dict]:
     return feed.get("opportunities", [])
 
 
-def generate_scripts(opportunities: list[dict], n: int = DAILY_SCRIPT_COUNT) -> list[dict]:
-    if not opportunities:
-        return []
+def load_copy_library() -> dict:
+    if not COPY_LIBRARY_PATH.exists():
+        raise RuntimeError(
+            f"copy_library.json not found at {COPY_LIBRARY_PATH}. "
+            "The content engine needs hand-crafted variants per live DM keyword."
+        )
+    return json.loads(COPY_LIBRARY_PATH.read_text())
 
-    top = opportunities[:n]
-    assigned_categories = pick_under_used_categories(len(top))
-    category_defs = {
-        "confession": "vulnerable, human admission. e.g. 'I avoided opening that cabinet for two years.'",
-        "confrontation": "calls out received wisdom. e.g. 'Everyone says just buy a new couch. That's not the answer.'",
-        "sensory": "puts reader IN the room with sensory detail (smell, sound, touch, light), NO price.",
-        "before_after": "cinematic jump in time. e.g. 'Three weeks ago this drawer was crushed granola bars.'",
-        "question": "genuine Socratic question the reader has silently wondered.",
-        "story_fragment": "unresolved narrative fragment. e.g. 'My dog sat on the new cover and stared at me like I'd betrayed him.'",
-        "micro_insight": "one sharp observation, uncommon truth. e.g. 'The reason your counters never stay clean is that nothing on them has a home.'",
-        "wrong_until_right": "admit a mistake. e.g. 'I had the wrong pillow for a decade and didn't know it.'",
-    }
+
+def recently_used_variant_ids(days: int = 7) -> set:
+    """Hash each shipped variant by (dm_keyword + hook + first scene voiceover)
+    so we can avoid shipping the same variant twice in a 7-day window."""
+    used = set()
+    if not SCRIPT_DIR.exists():
+        return used
+    cutoff = datetime.now(timezone.utc).timestamp() - days * 86400
+    for f in SCRIPT_DIR.glob("reel-*.json"):
+        if f.stat().st_mtime < cutoff:
+            continue
+        try:
+            data = json.loads(f.read_text())
+            kw = (data.get("affiliate_strategy") or {}).get("dm_keyword", "")
+            hook = data.get("hook", "")
+            used.add(_variant_id(kw, hook))
+        except Exception:
+            continue
+    return used
+
+
+def _variant_id(keyword: str, hook: str) -> str:
+    return hashlib.md5(f"{keyword}|{hook}".encode()).hexdigest()[:12]
+
+
+def _build_caption(variant: dict, keyword: str, hashtags: list[str]) -> str:
+    """Assemble the IG caption from variant components. Follows the AIDA
+    structure mandated by docs/BRAND_VOICE.md: HOOK -> BEAT 1 -> TURN ->
+    RESULT -> DM CTA -> hashtags."""
+    parts = [
+        variant["hook"],
+        "",
+        variant["beat1"],
+        "",
+        variant["turn"],
+        "",
+        variant["result"],
+        "",
+        f"Comment {keyword} and I'll DM you the link.",
+        "Amazon affiliate — I earn a small commission at no extra cost to you.",
+        "",
+        " ".join(hashtags),
+    ]
+    return "\n".join(parts).strip()
+
+
+def _pick_hashtags(library: dict, registry_entry: dict, max_tags: int = 4) -> list[str]:
+    pools = library.get("hashtag_pools", {})
+    seen = []
+    for cat in registry_entry.get("categories", []):
+        for tag in pools.get(cat, []):
+            if tag not in seen:
+                seen.append(tag)
+            if len(seen) >= max_tags:
+                return seen
+    # Top up with default pool
+    for tag in pools.get("_default", []):
+        if tag not in seen:
+            seen.append(tag)
+        if len(seen) >= max_tags:
+            break
+    return seen[:max_tags] if seen else ["#amazonhomefinds"]
+
+
+def generate_scripts(opportunities: list[dict], n: int = DAILY_SCRIPT_COUNT) -> list[dict]:
+    """Pick N variants from copy_library.json, balanced across hook categories
+    and avoiding 7-day repetition. opportunities is accepted for backward compat
+    with the workflow but is now informational only — variants live in the
+    library, not the trend feed."""
+    library = load_copy_library()
+    variants_by_kw = library.get("variants", {})
 
     live_dm = load_live_dm_entries()
     if not live_dm:
         print("[content-engine] dm_keyword_registry has no live entries — refusing to ship.")
         return []
 
-    per_opp = []
-    for i, opp in enumerate(top):
-        per_opp.append({
-            "opportunity": opp,
-            "assigned_hook_category": assigned_categories[i],
-            "category_definition": category_defs[assigned_categories[i]],
-        })
-
-    prompt = f"""Produce {len(top)} Reel production scripts — one per opportunity below.
-
-You MUST follow the brand voice in docs/BRAND_VOICE.md (summarized in your system prompt).
-
-For each opportunity, I have ASSIGNED a hook category. Use that category for the hook.
-Do NOT use banned openers. Do NOT put price or product name in the hook.
-
-OPPORTUNITIES_WITH_HOOK_ASSIGNMENT:
-{json.dumps(per_opp, indent=2)}
-
-LIVE_DM_KEYWORDS — you MUST select one keyword per script from this list. Each keyword
-has a Meta Business Suite comment-to-DM automation behind it that DMs the matching ASIN
-to commenters. If you invent a keyword that's not on this list, the entire DM funnel
-silently fails for that reel and we earn $0 from it. Pick the entry whose `categories`
-or `product_name` best matches the opportunity. If no entry fits, pick the closest one
-and reframe the script to fit that product — DO NOT invent a new keyword.
-
-{json.dumps(live_dm, indent=2)}
-
-Return a JSON array of {len(top)} script objects. Schema per object:
-
-{{
-  "opportunity_rank": 1,
-  "hook_category": "confession | confrontation | sensory | before_after | question | story_fragment | micro_insight | wrong_until_right",
-  "product_category": "from input",
-  "target_price": "$XX",
-  "hook": "one sentence <= 14 words. NO price, NO product name, NO banned openers. Must match assigned hook category.",
-  "aida_breakdown": {{
-    "attention": "hook scene description",
-    "interest": "problem setup (sensory, no product yet)",
-    "desire": "TURN — product named with ONE falsifiable detail",
-    "action": "quiet CTA"
-  }},
-  "value_equation": {{
-    "dream_outcome": "concrete sensory image, not adjectives",
-    "perceived_likelihood": "specific detail + one social proof element",
-    "time_delay": "only if truthfully fast",
-    "effort_sacrifice": "only if truthfully low"
-  }},
-  "scenes": [
-    {{"n": 1, "duration_sec": 3, "visual_prompt": "...", "on_screen_text": "MAX 6 WORDS", "voiceover": "<12 words"}}
-    // 5-7 scenes total
-  ],
-  "caption": "180-220 words. Structure: HOOK -> BEAT 1 (problem, sensory) -> TURN (product named with falsifiable detail) -> RESULT (concrete) -> DM CTA -> 3-5 hashtags. Price appears no earlier than line 3. No banned openers. Max 1 exclamation mark. No emoji in hook line. The DM CTA MUST be the literal sentence: 'Comment <KEYWORD> and I'll DM you the link.' where <KEYWORD> is the EXACT keyword you selected from LIVE_DM_KEYWORDS (uppercase, no quotes). Then on the next line: 'Amazon affiliate — I earn a small commission at no extra cost to you.'",
-  "hashtags": ["3-5 hashtags only. Priority: 1 branded, 1 niche <500k posts, 1 trending, optional 1-2 more. BANNED: #amazonfinds #homedecor #homehacks #gamechanger #musthave #viral"],
-  "specific_falsifiable_detail": "the one concrete detail used in the TURN (e.g. '4.8 stars from 2,400 reviews', 'cotton/bamboo 15lb', 'fits up to 110in sectional')",
-  "affiliate_strategy": {{
-    "primary_product": "Product name from the SELECTED LIVE_DM_KEYWORDS entry's product_name (you may shorten/rephrase but DO NOT swap to a different product). NEVER invent a brand.",
-    "dm_keyword": "the EXACT keyword from LIVE_DM_KEYWORDS you selected (uppercase, must match an entry)",
-    "amazon_asin": "the ASIN from the SELECTED LIVE_DM_KEYWORDS entry — copy it verbatim",
-    "fallback_brands": []
-  }}
-}}
-
-Output STRICT JSON array only. No prose, no fences."""
-
-    raw = call_claude_json(
-        prompt,
-        system=AIDA_GRANDSLAM_SYSTEM,
-        max_tokens=6000,
-        retries=1,     # fail loud; the 3x300s default was burning the entire 15-min workflow cap silently
-        timeout=600,   # 10min per attempt — ample for 3-script JSON without agentic-loop blowup
-    )
-
-    # Enforce the registry: any script whose dm_keyword isn't a live entry
-    # gets rewritten to use the registry's canonical ASIN + product_name, and
-    # the affiliate_url is locked in. This guarantees every shipped reel has
-    # a working comment-to-DM funnel.
     by_kw = {e["keyword"]: e for e in live_dm}
-    safe = []
-    for script in raw or []:
-        aff = script.get("affiliate_strategy") or {}
-        kw = (aff.get("dm_keyword") or "").upper().strip()
-        entry = by_kw.get(kw)
-        if not entry:
-            print(f"[content-engine] DROPPING script — dm_keyword {kw!r} not in live registry")
+    used = recently_used_variant_ids(days=7)
+
+    # Build the candidate pool: (keyword, variant) tuples for every live keyword
+    # that has at least one library variant.
+    pool = []
+    for kw, entries in variants_by_kw.items():
+        if kw not in by_kw:
             continue
-        # Lock to canonical registry values — never trust LLM ASIN
-        aff["dm_keyword"] = entry["keyword"]
-        aff["amazon_asin"] = entry["asin"]
-        aff["amazon_affiliate_url"] = affiliate_url_for(entry["asin"])
-        aff["asin_pending"] = False
-        aff["primary_product"] = entry["product_name"]
-        script["affiliate_strategy"] = aff
-        safe.append(script)
-    return safe
+        for variant in entries:
+            vid = _variant_id(kw, variant["hook"])
+            if vid in used:
+                continue
+            pool.append((kw, variant))
+
+    if not pool:
+        print("[content-engine] No fresh variants available — falling back to oldest used variants.")
+        for kw, entries in variants_by_kw.items():
+            if kw not in by_kw:
+                continue
+            for variant in entries:
+                pool.append((kw, variant))
+
+    if not pool:
+        print("[content-engine] copy_library.json has no variants for any live DM keyword. Cannot ship.")
+        return []
+
+    # Diversify: prefer variants whose hook category is least-used in the last 7 days,
+    # and rotate across distinct DM keywords so we don't ship 3 PILLOW reels in one day.
+    hook_counts = recent_hook_categories(days=7)
+    random.shuffle(pool)  # tiebreak randomness
+    pool.sort(key=lambda kv: hook_counts.get(kv[1].get("hook_category", ""), 0))
+
+    picked = []
+    used_kws = []
+    for kw, variant in pool:
+        if len(picked) >= n:
+            break
+        # Avoid back-to-back same keyword in this batch (allow if pool exhausted)
+        if used_kws.count(kw) >= max(1, n // max(1, len(by_kw))):
+            continue
+        picked.append((kw, variant))
+        used_kws.append(kw)
+
+    # If we still need more (e.g. only one live keyword), drop the diversity rule
+    if len(picked) < n:
+        for kw, variant in pool:
+            if len(picked) >= n:
+                break
+            if any(p[0] == kw and p[1]["hook"] == variant["hook"] for p in picked):
+                continue
+            picked.append((kw, variant))
+
+    scripts = []
+    for kw, variant in picked:
+        entry = by_kw[kw]
+        hashtags = _pick_hashtags(library, entry)
+        caption = _build_caption(variant, kw, hashtags)
+        scripts.append({
+            "hook_category": variant["hook_category"],
+            "hook": variant["hook"],
+            "scenes": variant["scenes"],
+            "caption": caption,
+            "hashtags": hashtags,
+            "specific_falsifiable_detail": variant.get("turn", "")[:200],
+            "affiliate_strategy": {
+                "primary_product": entry["product_name"],
+                "dm_keyword": entry["keyword"],
+                "amazon_asin": entry["asin"],
+                "amazon_affiliate_url": affiliate_url_for(entry["asin"]),
+                "asin_pending": False,
+                "fallback_brands": [],
+            },
+        })
+    return scripts
+
+
+# Compatibility stub — keeps the legacy structured arg shape from the prior
+# LLM-driven path. Anything that called generate_scripts() with opportunities
+# still works; the args are now informational.
 
 
 def persist_script(script: dict, date_str: str, seq: int) -> Path:
