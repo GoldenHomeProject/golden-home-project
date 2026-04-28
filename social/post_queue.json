@@ -1,10 +1,10 @@
 [
   {
     "name": "reel_2026-04-28_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-04-28-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-04-28-001.mp4",
     "caption": "Picture this: it is 4am, your neck won't turn left, and the alarm is in 90 minutes.\n\nYou stare at the ceiling. Your shoulder is numb. The pillow under your head is somehow both too high and too low. You flip it. Cold side, sure, but the angle is still wrong.\n\nAn adjustable side sleeper pillow with a shoulder cutout fixes the angle problem. Eli & Elm \u2014 latex-fiber fill you can add or remove, U-shape that lets your shoulder rest naturally.\n\nSame bed, same room, same body. The only thing that changed was the pillow. The 4am stare-at-the-ceiling routine just stopped.\n\nComment PILLOW and I'll DM you the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #sleepbetter #sidesleeper #bedroomupgrade",
     "hashtags": [
       "#amazonhomefinds",
@@ -20,14 +20,15 @@
       "asin_pending": false,
       "fallback_brands": []
     },
-    "hook": "Picture this: it is 4am, your neck won't turn left, and the alarm is in 90 minutes."
+    "hook": "Picture this: it is 4am, your neck won't turn left, and the alarm is in 90 minutes.",
+    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-04-28-001.mp4"
   },
   {
     "name": "reel_2026-04-28_003",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-04-28-003.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-04-28-003.mp4",
     "caption": "I spent ten years thinking my mattress was the problem.\n\nI bought a $1,400 mattress to fix my neck pain. Didn't help. Bought a topper. Didn't help. Saw a chiropractor twice a month for two years. Helped, but the pain came back every time.\n\nTurns out it was the pillow. Specifically the wrong pillow for a side sleeper. The Eli & Elm has a shoulder cutout that lets your shoulder drop into the bed instead of crushing it.\n\nThree weeks of using it and the chronic stiffness is just gone. Saved myself another mattress.\n\nComment PILLOW and I'll DM you the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #sleepbetter #sidesleeper #bedroomupgrade",
     "hashtags": [
       "#amazonhomefinds",
@@ -43,7 +44,8 @@
       "asin_pending": false,
       "fallback_brands": []
     },
-    "hook": "I spent ten years thinking my mattress was the problem."
+    "hook": "I spent ten years thinking my mattress was the problem.",
+    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-04-28-003.mp4"
   },
   {
     "name": "reel_2026-04-28_001",
