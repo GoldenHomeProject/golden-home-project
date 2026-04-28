@@ -1,61 +1,61 @@
 {
-  "created_at": "2026-04-28T03:09:53.086898Z",
+  "created_at": "2026-04-28T08:23:50.892790Z",
   "date": "2026-04-28",
   "seq": 3,
-  "hook_category": "confession",
-  "hook": "I spent ten years thinking my mattress was the problem.",
+  "hook_category": "confrontation",
+  "hook": "Stop blaming your mattress for your neck pain.",
   "scenes": [
     {
       "n": 1,
       "duration_sec": 3,
-      "visual_prompt": "person looking exasperated at expensive mattress",
-      "on_screen_text": "10 YEARS, WRONG SUSPECT",
-      "voiceover": "I thought my mattress was the problem."
+      "visual_prompt": "person blaming mattress, gesturing at bed",
+      "on_screen_text": "STOP BLAMING THE MATTRESS",
+      "voiceover": "Stop blaming your mattress for your neck pain."
     },
     {
       "n": 2,
       "duration_sec": 4,
-      "visual_prompt": "stack of receipts: mattress, topper, chiropractor bills",
-      "on_screen_text": "$1,400 MATTRESS. DIDN'T HELP.",
-      "voiceover": "Mattress, topper, chiropractor \u2014 none of it worked."
+      "visual_prompt": "stack of receipts for mattress, topper, chiropractor",
+      "on_screen_text": "TRIED EVERYTHING. NOTHING WORKED.",
+      "voiceover": "Mattress, topper, chiropractor \u2014 pain came back."
     },
     {
       "n": 3,
       "duration_sec": 4,
-      "visual_prompt": "person rubbing sore shoulder, side sleeper position",
-      "on_screen_text": "SHOULDER GETS CRUSHED",
-      "voiceover": "Side sleepers crush their shoulder all night."
+      "visual_prompt": "regular pillow shape, unchanged design for decades",
+      "on_screen_text": "PILLOW = UNCHANGED VARIABLE",
+      "voiceover": "The variable nobody changes is the pillow."
     },
     {
       "n": 4,
       "duration_sec": 5,
-      "visual_prompt": "Eli & Elm pillow showing U-shape cutout for shoulder",
-      "on_screen_text": "SHOULDER CUTOUT",
-      "voiceover": "Eli & Elm has a cutout for your shoulder."
+      "visual_prompt": "Eli & Elm pillow with U-shape and shoulder cutout, adjustable fill visible",
+      "on_screen_text": "ADJUSTABLE U-SHAPE PILLOW",
+      "voiceover": "Modern side sleeper pillow with shoulder cutout."
     },
     {
       "n": 5,
       "duration_sec": 4,
-      "visual_prompt": "demonstration showing shoulder dropping into mattress beside pillow",
-      "on_screen_text": "SHOULDER DROPS IN",
-      "voiceover": "Your shoulder drops in instead of getting crushed."
+      "visual_prompt": "cost comparison: pillow vs new mattress",
+      "on_screen_text": "FRACTION OF A MATTRESS",
+      "voiceover": "Cost a fraction of a new mattress."
     },
     {
       "n": 6,
       "duration_sec": 4,
-      "visual_prompt": "person sleeping peacefully, no neck strain",
+      "visual_prompt": "morning, person stretches comfortably without pain",
       "on_screen_text": "COMMENT PILLOW",
       "voiceover": "Comment PILLOW and I'll DM you the link."
     }
   ],
-  "caption": "I spent ten years thinking my mattress was the problem.\n\nI bought a $1,400 mattress to fix my neck pain. Didn't help. Bought a topper. Didn't help. Saw a chiropractor twice a month for two years. Helped, but the pain came back every time.\n\nTurns out it was the pillow. Specifically the wrong pillow for a side sleeper. The Eli & Elm has a shoulder cutout that lets your shoulder drop into the bed instead of crushing it.\n\nThree weeks of using it and the chronic stiffness is just gone. Saved myself another mattress.\n\nComment PILLOW and I'll DM you the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #sleepbetter #sidesleeper #bedroomupgrade",
+  "caption": "Stop blaming your mattress for your neck pain.\n\nBought a fancy mattress. Bought a foam topper. Saw the chiro. The pain came back every time. The variable nobody changes is the pillow \u2014 same shape we've used for 70 years.\n\nA modern side sleeper pillow with a shoulder cutout actually addresses the geometry problem. Eli & Elm \u2014 adjustable latex-fiber fill, cooling cover, U-shape designed for the 74% of people who sleep on their side.\n\nFirst week and the morning stiffness is just gone. Cost a fraction of a new mattress and fixed what the mattress couldn't.\n\nComment PILLOW and I'll DM you the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #sleepbetter #sidesleeper #bedroomupgrade",
   "hashtags": [
     "#amazonhomefinds",
     "#sleepbetter",
     "#sidesleeper",
     "#bedroomupgrade"
   ],
-  "specific_falsifiable_detail": "Turns out it was the pillow. Specifically the wrong pillow for a side sleeper. The Eli & Elm has a shoulder cutout that lets your shoulder drop into the bed instead of crushing it.",
+  "specific_falsifiable_detail": "A modern side sleeper pillow with a shoulder cutout actually addresses the geometry problem. Eli & Elm \u2014 adjustable latex-fiber fill, cooling cover, U-shape designed for the 74% of people who sleep on",
   "affiliate_strategy": {
     "primary_product": "Eli & Elm Side Sleeper Pillow (U-shape, latex, queen)",
     "dm_keyword": "PILLOW",
