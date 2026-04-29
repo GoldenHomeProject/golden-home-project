@@ -100,11 +100,16 @@ APRIL_CALENDAR = [
     {"date": "2026-04-28", "title": "I Stopped Sleeping Wrong After I Bought This Pillow", "ig": True,
      "video": 2,
      "products": [{"asin": "B07YL7VD32", "name": "Eli & Elm Side Sleeper Pillow", "price": "$99.00"}]},
-    # 2026-04-29: First DM-funnel reel using the new template engine + manual
+    {"date": "2026-04-29", "title": "My Couch Looked 10 Years Old. $39 Made It Look New.",
+     "video": 3,
+     "products": [{"asin": "B0B4SPP3ZN", "name": "Paulato Stretch Sofa Cover (waterproof)", "price": "$39.99"}]},
+    # 2026-04-30: First DM-funnel reel using the new template engine + manual
     # render pipeline (Pexels b-roll + Amazon product shots + edge-tts + ffmpeg).
-    # ig=True so it ships to IG today (not just Saturday). caption_override
-    # carries the "Comment LINK" CTA so the funnel actually fires.
-    {"date": "2026-04-29",
+    # ig=True so it ships to IG (not just Saturday). caption_override carries the
+    # "Comment LINK" CTA so the funnel actually fires.
+    # Originally scheduled for 2026-04-29 but the cron there ran on the prior
+    # commit before this entry landed; shifted to next slot to avoid double-post.
+    {"date": "2026-04-30",
      "title": "I Had Four Years Of Bottles Falling On My Feet Every Morning",
      "ig": True,
      "video_file": "reel_2026-04-29_LINK.mp4",
@@ -122,9 +127,6 @@ APRIL_CALENDAR = [
          "#amazonhomefinds #kitchenorganization #smallspacesolutions #undersinkstorage"
      ),
      "products": [{"asin": "B01M0TS64K", "name": "Simple Houseware 2-Tier Sliding Basket Organizer", "price": "$31.99"}]},
-    {"date": "2026-04-30", "title": "I Replaced My Plastic Kettle After Reading This",
-     "video": 4,
-     "products": [{"asin": "B08PP48979", "name": "Cosori Electric Kettle (no plastic contact)", "price": "$39.99"}]},
     {"date": "2026-05-01", "title": "The Hallway Light That Turns Itself On — Saved Our Toes",
      "video": 5,
      "products": [{"asin": "B08RRRX5P5", "name": "LED Motion Sensor Plug-In Night Light", "price": "$12.99"}]},
