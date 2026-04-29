@@ -16,3 +16,18 @@ Thumbs.db
 # Editor files
 .vscode/
 .idea/
+
+# Reel render scratch — final outputs ship to videos/transformation/.
+# Per-reel work dirs hold large raw Pexels b-roll, Amazon image dumps, TTS,
+# and intermediate scene clips that shouldn't be in git.
+automation/reels/*/pex_*.mp4
+automation/reels/*/amz_*.jpg
+automation/reels/*/vo_*.mp3
+automation/reels/*/thumb_*.jpg
+automation/reels/*/preview_*.jpg
+automation/reels/*/text_*.png
+automation/reels/*/scene_*.mp4
+automation/reels/*/reel_v*.mp4
+automation/reels/*/reel_*_v*.mp4
+automation/reels/*/concat.txt
+automation/reels/*/page.html

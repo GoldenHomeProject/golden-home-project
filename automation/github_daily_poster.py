@@ -100,9 +100,28 @@ APRIL_CALENDAR = [
     {"date": "2026-04-28", "title": "I Stopped Sleeping Wrong After I Bought This Pillow", "ig": True,
      "video": 2,
      "products": [{"asin": "B07YL7VD32", "name": "Eli & Elm Side Sleeper Pillow", "price": "$99.00"}]},
-    {"date": "2026-04-29", "title": "My Couch Looked 10 Years Old. $39 Made It Look New.",
-     "video": 3,
-     "products": [{"asin": "B0B4SPP3ZN", "name": "Paulato Stretch Sofa Cover (waterproof)", "price": "$39.99"}]},
+    # 2026-04-29: First DM-funnel reel using the new template engine + manual
+    # render pipeline (Pexels b-roll + Amazon product shots + edge-tts + ffmpeg).
+    # ig=True so it ships to IG today (not just Saturday). caption_override
+    # carries the "Comment LINK" CTA so the funnel actually fires.
+    {"date": "2026-04-29",
+     "title": "I Had Four Years Of Bottles Falling On My Feet Every Morning",
+     "ig": True,
+     "video_file": "reel_2026-04-29_LINK.mp4",
+     "caption_override": (
+         "I had four years of bottles falling on my feet every morning.\n\n"
+         "The cabinet under the kitchen sink was the place things went to die. "
+         "Sponges, dish soap, an entire bottle of expensive olive oil I forgot I owned. "
+         "Every morning I reached for paper towels and knocked over six things.\n\n"
+         "I got a Simple Houseware 2-tier sliding basket — chrome wire, holds 18 lbs per shelf, "
+         "and the front rack slides out independently of the back.\n\n"
+         "Now I see everything. Sliding the front out doesn't disturb the back row. "
+         "Haven't dropped a bottle in three weeks.\n\n"
+         "Comment LINK and I'll DM you the link.\n"
+         "Amazon affiliate — I earn a small commission at no extra cost to you.\n\n"
+         "#amazonhomefinds #kitchenorganization #smallspacesolutions #undersinkstorage"
+     ),
+     "products": [{"asin": "B01M0TS64K", "name": "Simple Houseware 2-Tier Sliding Basket Organizer", "price": "$31.99"}]},
     {"date": "2026-04-30", "title": "I Replaced My Plastic Kettle After Reading This",
      "video": 4,
      "products": [{"asin": "B08PP48979", "name": "Cosori Electric Kettle (no plastic contact)", "price": "$39.99"}]},
@@ -249,11 +268,12 @@ def post_yt_short(video_path, title, description, pin_comment, yt_token):
     return video_id
 
 
-def post_fb_page_video(video_index, title, description, meta_tokens):
+def post_fb_page_video(video_file, title, description, meta_tokens):
     """Post the daily reel as a video to the FB Page via Graph API.
-    Uses file_url since GitHub Pages already hosts the .mp4 publicly."""
+    Uses file_url since GitHub Pages already hosts the .mp4 publicly.
+    `video_file` is the bare filename (e.g. trans_003.mp4 or reel_2026-04-29_LINK.mp4)."""
     token = meta_tokens["page_access_token"]
-    video_url = f"{PAGES_BASE}/trans_{video_index:03d}.mp4"
+    video_url = f"{PAGES_BASE}/{video_file}"
     api = "https://graph.facebook.com/v21.0"
 
     resp = requests.post(f"{api}/{FB_PAGE_ID}/videos", data={
@@ -271,10 +291,10 @@ def post_fb_page_video(video_index, title, description, meta_tokens):
     return None
 
 
-def post_ig_reel(video_index, caption, meta_tokens):
+def post_ig_reel(video_file, caption, meta_tokens):
     token = meta_tokens["page_access_token"]
     ig_id = meta_tokens["ig_business_account_id"]
-    video_url = f"{PAGES_BASE}/trans_{video_index:03d}.mp4"
+    video_url = f"{PAGES_BASE}/{video_file}"
     api = "https://graph.facebook.com/v19.0"
 
     resp = requests.post(f"{api}/{ig_id}/media", data={
@@ -346,17 +366,23 @@ def main():
         }, indent=2))
         sys.exit(0)
 
-    # Video index: explicit `video:` key wins (recycle existing trans_NNN.mp4),
-    # else fall back to 1-based position in calendar (legacy mapping).
-    video_index = entry.get("video") or (APRIL_CALENDAR.index(entry) + 1)
-    video_path = VIDEOS_DIR / f"trans_{video_index:03d}.mp4"
+    # Video resolution priority:
+    #   1. explicit `video_file` key (any filename, e.g. reel_YYYY-MM-DD_KW.mp4)
+    #   2. explicit `video:` integer (recycle existing trans_NNN.mp4)
+    #   3. fall back to 1-based position in calendar (legacy mapping)
+    if entry.get("video_file"):
+        video_file = entry["video_file"]
+    else:
+        video_index = entry.get("video") or (APRIL_CALENDAR.index(entry) + 1)
+        video_file = f"trans_{video_index:03d}.mp4"
+    video_path = VIDEOS_DIR / video_file
 
     title    = entry["title"]
     products = entry.get("products", [])
     tag      = args.associate_tag
 
     print(f"  Title:   {title}")
-    print(f"  Video:   trans_{video_index:03d}.mp4")
+    print(f"  Video:   {video_file}")
     print(f"  Products: {len(products)}")
 
     if not video_path.exists():
@@ -367,29 +393,37 @@ def main():
     with open(args.meta_token) as f:
         meta_tokens = json.load(f)
 
-    description  = build_description(title, products, tag)
-    pin_comment  = build_pin_comment(products, tag)
-    yt_title     = f"{title} #shorts #amazonfinds #homedecor"
+    # caption_override lets DM-funnel reels ship their hand-crafted captions
+    # (with "Comment KEYWORD..." CTA) instead of the legacy product-list description.
+    caption_override = entry.get("caption_override")
+    description = caption_override or build_description(title, products, tag)
+    pin_comment = build_pin_comment(products, tag)
+    yt_title    = f"{title} #shorts #amazonfinds #homedecor"
 
     print(f"\n  Uploading to YouTube...")
     yt_id = post_yt_short(str(video_path), yt_title, description, pin_comment, yt_token)
 
+    # IG ships when entry opts in (`ig: True`). Saturday weekly cadence is the
+    # default for the legacy calendar; DM-funnel reels override and post any day.
     ig_id = None
-    if is_saturday and entry.get("ig"):
-        print(f"\n  Posting to Instagram (Saturday)...")
-        ig_caption = (
-            f"{title} 🏠✨\n\n"
-            + "\n".join(f"{i+1}️⃣ {p['name']} — {p['price']}" for i, p in enumerate(products))
-            + "\n\nAll links in bio — goldenhomeproject.com 🔗\n\n"
-            + "#amazonfinds #homedecor #homeorganization #roomtransformation"
-        )
-        ig_id = post_ig_reel(video_index, ig_caption, meta_tokens)
+    if entry.get("ig") and (is_saturday or caption_override):
+        print(f"\n  Posting to Instagram...")
+        if caption_override:
+            ig_caption = caption_override
+        else:
+            ig_caption = (
+                f"{title} 🏠✨\n\n"
+                + "\n".join(f"{i+1}️⃣ {p['name']} — {p['price']}" for i, p in enumerate(products))
+                + "\n\nAll links in bio — goldenhomeproject.com 🔗\n\n"
+                + "#amazonfinds #homedecor #homeorganization #roomtransformation"
+            )
+        ig_id = post_ig_reel(video_file, ig_caption, meta_tokens)
 
     print(f"\n  Posting to Facebook Page...")
-    fb_id = post_fb_page_video(video_index, title, description, meta_tokens)
+    fb_id = post_fb_page_video(video_file, title, description, meta_tokens)
 
     log = {"date": today, "title": title, "youtube": yt_id, "instagram": ig_id,
-           "facebook": fb_id, "video": f"trans_{video_index:03d}.mp4"}
+           "facebook": fb_id, "video": video_file}
     log_path = LOGS_DIR / f"gh_post_{today}.json"
     with open(log_path, "w") as f:
         json.dump(log, f, indent=2)
