@@ -47,10 +47,10 @@
   },
   {
     "name": "reel_2026-04-29_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-04-29-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-04-29-001.mp4",
     "caption": "I had four years of bottles falling on my feet every morning.\n\nThe cabinet under the kitchen sink was the place things went to die. Sponges, dish soap, an entire bottle of expensive olive oil I forgot I owned. Every morning I reached for paper towels and knocked over six things.\n\nI got a Simple Houseware 2-tier sliding basket \u2014 chrome wire, holds 18 lbs per shelf, and the front rack slides out independently of the back.\n\nNow I see everything. Sliding the front out doesn't disturb the back row. Haven't dropped a bottle in three weeks.\n\nComment LINK and I'll DM you the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #kitchenorganization #smallspacesolutions #undersinkstorage",
     "hashtags": [
       "#amazonhomefinds",
@@ -66,6 +66,7 @@
       "asin_pending": false,
       "fallback_brands": []
     },
-    "hook": "I had four years of bottles falling on my feet every morning."
+    "hook": "I had four years of bottles falling on my feet every morning.",
+    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-04-29-001.mp4"
   }
 ]
