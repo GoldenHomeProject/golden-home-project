@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-04-29T08:15:01.555657Z",
+  "date": "2026-04-29",
+  "seq": 3,
+  "hook_category": "micro_insight",
+  "hook": "Most pillows are designed for back sleepers. 74% of us sleep on our sides.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "infographic showing side vs back sleeper percentages",
+      "on_screen_text": "74% SLEEP ON SIDES",
+      "voiceover": "74% of us sleep on our sides."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "anatomical diagram of bent spine on standard pillow",
+      "on_screen_text": "SPINE BENT 30\u00b0",
+      "voiceover": "Standard pillows bend your spine 30 degrees."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "person waking up with twisted neck",
+      "on_screen_text": "WAKE UP TWISTED",
+      "voiceover": "You wake up feeling twisted."
+    },
+    {
+      "n": 4,
+      "duration_sec": 5,
+      "visual_prompt": "Eli & Elm pillow with shoulder cutout, U-shape",
+      "on_screen_text": "U-SHAPE + SHOULDER CUTOUT",
+      "voiceover": "U-shape pillow keeps your spine straight."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "side view of person sleeping with straight spine alignment",
+      "on_screen_text": "SPINE STRAIGHT ALL NIGHT",
+      "voiceover": "Spine stays straight. Adjustable fill for your shoulder."
+    },
+    {
+      "n": 6,
+      "duration_sec": 4,
+      "visual_prompt": "morning, person stretches happily without pain",
+      "on_screen_text": "COMMENT PILLOW",
+      "voiceover": "Comment PILLOW and I'll DM you the link."
+    }
+  ],
+  "caption": "Most pillows are designed for back sleepers. 74% of us sleep on our sides.\n\nStandard pillows put your spine at a 30 degree angle when you sleep on your side. That's why you wake up feeling like someone twisted your neck while you were out.\n\nA side sleeper pillow keeps your spine straight. Eli & Elm uses a U-shape with a shoulder cutout and adjustable latex-fiber fill so you can dial in the height for your shoulder width.\n\nSpine stays straight all night. Wake up the same way you fell asleep \u2014 relaxed, not crooked.\n\nComment PILLOW and I'll DM you the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #sleepbetter #sidesleeper #bedroomupgrade",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#sleepbetter",
+    "#sidesleeper",
+    "#bedroomupgrade"
+  ],
+  "specific_falsifiable_detail": "A side sleeper pillow keeps your spine straight. Eli & Elm uses a U-shape with a shoulder cutout and adjustable latex-fiber fill so you can dial in the height for your shoulder width.",
+  "affiliate_strategy": {
+    "primary_product": "Eli & Elm Side Sleeper Pillow (U-shape, latex, queen)",
+    "dm_keyword": "PILLOW",
+    "amazon_asin": "B07YL7VD32",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B07YL7VD32?tag=goldenhomep06-20",
+    "asin_pending": false,
+    "fallback_brands": []
+  }
+}
