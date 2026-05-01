@@ -1,8 +1,9 @@
 """GHP Reel Producer — renders 1080x1920 MP4 Reels from scripts.
 
 All services used are FREE:
-- Pollinations.ai (FLUX model) for AI scene backgrounds — no API key, no rate limit
-- edge-tts for neural voiceover — no key
+- Pexels Photo API (PEXELS_API_KEY) for REAL photos matching visual_prompt — preferred
+- Pollinations.ai FLUX as fallback only when Pexels returns no match
+- edge-tts en-US-AvaMultilingualNeural for natural voiceover — no key
 - ffmpeg for Ken Burns motion, text overlay, and assembly — bundled on runner
 - Pillow for on-screen text composition
 
@@ -10,10 +11,10 @@ Output per script:
 - social/reels/reel-<date>-NNN.mp4 (committed → IG fetches via raw.githubusercontent URL)
 - Updates social/post_queue.json entry: status → "ready", video_url → raw URL
 
-Quality upgrade over v1 (which used dark bg + gold text):
-- Real AI-generated photorealistic scene backgrounds based on visual_prompt
-- Ken Burns slow zoom on each scene (looks like cinematic video)
-- Gradient vignette + typography overlay for readability
+2026-04-30 quality pivot — faceless-but-real per CEO mandate:
+- Pexels real photos preferred over AI-generated (algos downrank AI imagery)
+- AvaMultilingualNeural voice replaces JennyNeural (more natural cadence)
+- Pollinations stays as last-resort fallback so renders never fail
 """
 import asyncio
 import json
@@ -67,10 +68,76 @@ def find_font(size: int) -> ImageFont.FreeTypeFont:
     return ImageFont.load_default()
 
 
-def pollinations_url(prompt: str) -> str:
-    """Pollinations.ai FLUX endpoint — free, no auth, reliable.
+PEXELS_API_KEY = os.environ.get("PEXELS_API_KEY", "").strip()
 
-    Style keywords keep the aesthetic consistent across reels.
+
+def _short_query(prompt: str) -> str:
+    """Pexels search works better with 2–4 nouns, not full sentences.
+
+    Strip filler like 'first-person POV', 'close-up of', 'person', etc.,
+    keep the concrete object/scene words.
+    """
+    p = prompt.lower()
+    for cue in (
+        "first-person pov", "close-up of", "tight close-up of", "shot of",
+        "view of", "image of", "photo of", "picture of",
+    ):
+        p = p.replace(cue, " ")
+    # Keep first 5 words after cleanup; Pexels prefers short queries.
+    words = [w for w in p.replace(",", " ").split() if w and len(w) > 2]
+    return " ".join(words[:5]).strip()
+
+
+def fetch_pexels_photo(prompt: str, out_path: Path) -> bool:
+    """Search Pexels for a real portrait-orientation photo matching the prompt.
+
+    Free key, 200 req/hr, 20k/mo — already in PEXELS_API_KEY secret.
+    Returns False on miss or API failure so caller can fall back.
+    """
+    if not PEXELS_API_KEY:
+        return False
+    query = _short_query(prompt)
+    if not query:
+        return False
+    enc = parse.quote(query)
+    url = (
+        f"https://api.pexels.com/v1/search?query={enc}"
+        f"&per_page=5&orientation=portrait&size=large"
+    )
+    req = request.Request(url, headers={"Authorization": PEXELS_API_KEY})
+    try:
+        with request.urlopen(req, timeout=20) as r:
+            data = json.loads(r.read())
+    except Exception as e:
+        print(f"    pexels search failed: {e}")
+        return False
+    photos = data.get("photos", []) or []
+    if not photos:
+        return False
+    # Prefer the largest available (`original` if present, else `large2x`/`large`).
+    src = photos[0].get("src", {}) or {}
+    img_url = src.get("original") or src.get("large2x") or src.get("large")
+    if not img_url:
+        return False
+    img_req = request.Request(img_url, headers={"User-Agent": "GHP-ReelProducer/1.0"})
+    try:
+        with request.urlopen(img_req, timeout=30) as r:
+            img_bytes = r.read()
+        if len(img_bytes) < 5000:
+            raise ValueError(f"Pexels image too small ({len(img_bytes)} bytes)")
+        out_path.write_bytes(img_bytes)
+        print(f"    pexels hit: query='{query}' photographer={photos[0].get('photographer','?')}")
+        return True
+    except Exception as e:
+        print(f"    pexels download failed: {e}")
+        return False
+
+
+def pollinations_url(prompt: str) -> str:
+    """Pollinations.ai FLUX endpoint — free, no auth. FALLBACK ONLY.
+
+    Used only when Pexels returns no match. AI-generated imagery is
+    algorithmically downranked on IG/YT, so Pexels real photos are preferred.
     """
     styled = (
         f"{prompt}, professional product photography, warm natural lighting, "
@@ -85,7 +152,13 @@ def pollinations_url(prompt: str) -> str:
 
 
 def fetch_scene_bg(prompt: str, out_path: Path) -> bool:
-    """Download AI-generated background. Returns False if all retries fail."""
+    """Try Pexels real photo first; fall back to Pollinations AI on miss.
+
+    Returns False only if both sources fail across all retries — caller then
+    uses fallback_bg() branded gradient so a render never crashes.
+    """
+    if fetch_pexels_photo(prompt, out_path):
+        return True
     url = pollinations_url(prompt)
     req = request.Request(url, headers={"User-Agent": "GHP-ReelProducer/1.0"})
     for attempt in range(3):
@@ -95,6 +168,7 @@ def fetch_scene_bg(prompt: str, out_path: Path) -> bool:
             if len(data) < 5000:
                 raise ValueError(f"Response too small ({len(data)} bytes)")
             out_path.write_bytes(data)
+            print(f"    pollinations fallback used")
             return True
         except Exception as e:
             print(f"    pollinations attempt {attempt+1} failed: {e}")
@@ -173,9 +247,12 @@ def compose_scene_frame(bg_path: Path, on_screen_text: str, out_path: Path,
 
 
 async def render_voiceover(text: str, out_path: Path):
+    """Use AvaMultilingualNeural — natural cadence, the same voice the manual
+    LINK reel pipeline picked. JennyNeural sounded synthetic and may be a
+    contributor to the 0-engagement streak."""
     import edge_tts
     communicate = edge_tts.Communicate(
-        text, "en-US-JennyNeural", rate="+5%", pitch="+0Hz"
+        text, "en-US-AvaMultilingualNeural", rate="+5%", pitch="+0Hz"
     )
     await communicate.save(str(out_path))
 
