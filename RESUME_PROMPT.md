@@ -4,6 +4,33 @@ Paste the block below at the start of each Claude Code session. Everything above
 
 ---
 
+## LAST SESSION DELTA (2026-04-30 → 05-01 — Session 11, faceless-but-real pivot)
+
+**The headline:** Diagnosed why the dead-link fix (Session 9) hasn't moved revenue. Amazon Associates last 30d still $0.00 / 0 orders. Every IG post since 2026-04-16 at 0 likes / 0 comments (15+ day streak). YT 6,690 subs but median <50 views per Short. Root cause: AI-generated Pollinations backgrounds + JennyNeural robotic VO = exactly the pattern IG/YT downrank. The flywheel was producing algorithmically-rejected content at scale.
+
+**CEO mandate (2026-04-30):** "Be faceless but real, a real person. Get more users, more followers, engagement, engage with others. Generate revenue. Automate it."
+
+**What shipped this session:**
+- `STRATEGY_2026-04-30.md` — three strategic paths documented (A: pause auto + manual only / B: SEO blog primary / C: creator partnership)
+- `automation/reel_producer.py` (commit 26b7061): Pexels real photos preferred, Pollinations AI demoted to fallback; voiceover JennyNeural → AvaMultilingualNeural (matches manual LINK reel pipeline). Effective next 07:00 UTC cron run.
+- Memory: `project_ghp_2026-04-30_diagnosis.md` so next session doesn't relitigate
+- IG engagement (manual, this session): 9 follows on top organizing creators (foreverhomejune19, savourygirll, torilanaee, kate_cleanhome, kaylagresh ✓, mikayla.mcneany, maddycorbin ✓, miyaeva ✓, victoriaxlightfoot ✓), 3 thoughtful comments on viral reels (verified posted)
+- LINK DM funnel verified live in Meta Business Suite — config returns `amazon.com/dp/B01M0TS64K?tag=goldenhomep06-20` with FTC disclosure
+
+**Pending — high EV next session:**
+- #45 LINK reel ships today (2026-04-30 17:00 UTC scheduled) — verify it actually went live and watch first 24h funnel data
+- #43 Re-check Amazon clicks/orders ~2 days from now (7 days post-fix = 2026-05-02)
+- #46 Activate 6 pending Meta DM automations — DEFERRED until matching reels are scheduled in same session (avoid building funnels for content that doesn't exist)
+- #47 Reroute Eli & Elm + Mamma Mia DM funnel responses to Impact links (5-7x commission per sale) when those keywords go live
+- Verify 2026-05-01 reel-producer run actually used Pexels (check log for "pexels hit:" string)
+- If Pexels swap shows lift in views, extend to videos endpoint (real motion > Ken Burns on still)
+
+**Anti-patterns observed:**
+- Premature funnel activation (Meta DM automations for keywords with no reels = theater)
+- Brand voice fix from Session 6 didn't take — copy_library.json captions are clean but visual quality still rejected. Lesson: text content was never the bottleneck; visual quality was.
+
+---
+
 ## LAST SESSION DELTA (2026-04-25 — Session 9, dead-ASIN revenue fix)
 
 **The headline:** Amazon Associates last-30 days was 902 clicks / 0 orders / 0% conversion. Chrome-driven verification of all 221 ASINs on goldenhomeproject.com found **182 dead (82%)**. The legacy product-page generator had hallucinated ASINs in long sequential runs (B0CJR0KWLP→B0CJR9KWLP, B0CKR0JNWP→B0CKR9JNWP, B0CLWN5RPJ→B0CLWN9RPJ, B0CMJN0PKR→B0CMJN9PKR). Most clicks landed on Amazon "Page Not Found".
