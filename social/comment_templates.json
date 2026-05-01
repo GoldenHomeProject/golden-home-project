@@ -1,0 +1,43 @@
+{
+  "_doc": "Comment templates for daily engagement agent. Pick one matching the reel's content. Substitute {{detail}} with a specific moment/object from the reel. NEVER mention Golden Home Project, our products, or our affiliate. Comments are pure value-add to the niche conversation.",
+  "version": "2026-04-30",
+  "categories": {
+    "undersink_organization": [
+      "the {{detail}} is genius — never thought of using vertical depth like that",
+      "ok but how does the front rack handle the cabinet door clearance? always my issue",
+      "the chrome wire ones hold so much more than the plastic stackables — good call"
+    ],
+    "kitchen_organization": [
+      "the {{detail}} swap is the move. spice drawer is the chaos zone in every house",
+      "people sleep on lazy susans for cabinets — full game changer",
+      "love that you didn't decant everything into matching jars. real-life organizing"
+    ],
+    "pantry_organization": [
+      "the {{detail}} bin labeling is so clean. what brand are those?",
+      "shelf risers are the most underrated $8 you can spend",
+      "the way you grouped {{detail}} together makes so much sense — going to redo mine"
+    ],
+    "bathroom_organization": [
+      "those {{detail}} drawer dividers are killing it. amazon or container store?",
+      "the over-the-door rack for hair tools is exactly what i needed to see today",
+      "the way you angled {{detail}} so you can grab one-handed — chef's kiss"
+    ],
+    "general_decluttering": [
+      "the {{detail}} reveal genuinely gasped. how long did this take?",
+      "the 'one in, one out' rule changed my life too",
+      "before/afters like this convince me to spend my Saturday on the closet again"
+    ],
+    "amazon_finds": [
+      "ok the {{detail}} is going on my list. been looking for that exact thing",
+      "the price point on this is wild for what it does",
+      "saved this for my next prime day haul"
+    ]
+  },
+  "rules": [
+    "NEVER mention @golden_home_project unprompted",
+    "NEVER mention any of our affiliate keywords (LINK, COVER, PILLOW, etc.)",
+    "NEVER use more than 2 sentences",
+    "NEVER use generic emojis-only comments",
+    "Always reference a specific {{detail}} from the actual reel — proves you watched"
+  ]
+}
