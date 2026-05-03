@@ -3,7 +3,7 @@
   "tag": "goldenhomep06-20",
   "ig_business_account_id": "973754055831729",
   "fb_business_id": "1580899273211540",
-  "verified_at": "2026-04-25",
+  "verified_at": "2026-05-02",
   "entries": [
     {
       "keyword": "LINK",
@@ -39,11 +39,12 @@
     },
     {
       "keyword": "NIGHTLIGHT",
-      "asin": "B08RRRX5P5",
-      "product_name": "LED Motion Sensor Plug-In Night Light",
+      "asin": "B09CSS6YL4",
+      "product_name": "LED Motion Sensor Night Light Plug-In (2-Pack, Cool White)",
       "categories": ["lighting", "bedroom", "hallway", "tech"],
       "status": "pending_meta_automation",
-      "added_at": "2026-04-25"
+      "added_at": "2026-04-25",
+      "notes": "Original B08RRRX5P5 silently redirects to B09CSS6YL4; updated 2026-05-02 to preserve affiliate tag integrity"
     },
     {
       "keyword": "SPONGE",
