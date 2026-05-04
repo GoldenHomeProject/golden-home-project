@@ -21,10 +21,26 @@ The reel-producer agent consumes these script JSONs to render actual MP4s.
 import hashlib
 import json
 import random
+import re
 import sys
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
+from typing import Optional
+
+# Dead opener patterns — STRATEGY_2026-04-30.md confirmed 15+ consecutive posts
+# at 0 likes/comments using these. Hard-block at script-generation time so
+# no future regression can ship them. Match is case-insensitive on .lower().
+DEAD_HOOK_PATTERNS = [
+    re.compile(r"^\s*\$\d"),                    # "$47 fixed my couch..."
+    re.compile(r"^\s*i\s+spent\s+\$?\d"),       # "I spent $89 on a pillow..."
+    re.compile(r"^\s*i\s+spent\s+(only\s+)?\$"),# "I spent only $X..."
+]
+
+
+def _is_dead_hook(hook: str) -> bool:
+    h = hook.lower()
+    return any(p.match(h) for p in DEAD_HOOK_PATTERNS)
 
 sys.path.insert(0, str(Path(__file__).parent))
 from agent_log import append_log_entry
@@ -141,7 +157,22 @@ def _variant_id(keyword: str, hook: str) -> str:
     return hashlib.md5(f"{keyword}|{hook}".encode()).hexdigest()[:12]
 
 
-def _build_caption(variant: dict, keyword: str, hashtags: list[str]) -> str:
+def _disclosure_for(registry_entry: dict) -> str:
+    """Return the FTC affiliate disclosure line matching this keyword's
+    actual destination. Keywords rerouted to Impact direct merchants must
+    NOT claim to be Amazon affiliate links — that's both inaccurate and
+    weakens FTC compliance.
+    """
+    network = (registry_entry or {}).get("affiliate_network", "amazon").lower()
+    if network == "impact":
+        return "Affiliate link — I earn a small commission at no extra cost to you."
+    if network == "cj":
+        return "Affiliate link — I earn a small commission at no extra cost to you."
+    # default: Amazon Associates
+    return "Amazon affiliate — I earn a small commission at no extra cost to you."
+
+
+def _build_caption(variant: dict, keyword: str, hashtags: list[str], registry_entry: Optional[dict] = None) -> str:
     """Assemble the IG caption from variant components. Follows the AIDA
     structure mandated by docs/BRAND_VOICE.md: HOOK -> BEAT 1 -> TURN ->
     RESULT -> DM CTA -> hashtags."""
@@ -155,7 +186,7 @@ def _build_caption(variant: dict, keyword: str, hashtags: list[str]) -> str:
         variant["result"],
         "",
         f"Comment {keyword} and I'll DM you the link.",
-        "Amazon affiliate — I earn a small commission at no extra cost to you.",
+        _disclosure_for(registry_entry or {}),
         "",
         " ".join(hashtags),
     ]
@@ -199,14 +230,20 @@ def generate_scripts(opportunities: list[dict], n: int = DAILY_SCRIPT_COUNT) -> 
     # Build the candidate pool: (keyword, variant) tuples for every live keyword
     # that has at least one library variant.
     pool = []
+    blocked_dead = 0
     for kw, entries in variants_by_kw.items():
         if kw not in by_kw:
             continue
         for variant in entries:
+            if _is_dead_hook(variant.get("hook", "")):
+                blocked_dead += 1
+                continue
             vid = _variant_id(kw, variant["hook"])
             if vid in used:
                 continue
             pool.append((kw, variant))
+    if blocked_dead:
+        print(f"[content-engine] Hard-blocked {blocked_dead} variant(s) matching dead hook patterns ($X / 'I spent $X').")
 
     if not pool:
         print("[content-engine] No fresh variants available — falling back to oldest used variants.")
@@ -214,6 +251,8 @@ def generate_scripts(opportunities: list[dict], n: int = DAILY_SCRIPT_COUNT) -> 
             if kw not in by_kw:
                 continue
             for variant in entries:
+                if _is_dead_hook(variant.get("hook", "")):
+                    continue  # never resurface dead patterns even in fallback
                 pool.append((kw, variant))
 
     if not pool:
@@ -250,7 +289,7 @@ def generate_scripts(opportunities: list[dict], n: int = DAILY_SCRIPT_COUNT) -> 
     for kw, variant in picked:
         entry = by_kw[kw]
         hashtags = _pick_hashtags(library, entry)
-        caption = _build_caption(variant, kw, hashtags)
+        caption = _build_caption(variant, kw, hashtags, registry_entry=entry)
         scripts.append({
             "hook_category": variant["hook_category"],
             "hook": variant["hook"],

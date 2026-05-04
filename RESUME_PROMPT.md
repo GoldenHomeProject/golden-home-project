@@ -4,6 +4,34 @@ Paste the block below at the start of each Claude Code session. Everything above
 
 ---
 
+## LAST SESSION DELTA (2026-05-03 — Session 12, Amazon-channel-broken / Impact-reroute begins)
+
+**The headline:** Amazon Associates `goldenhomep06-20` Mar 31 → Apr 29 2026: **521 clicks / 0 orders / $0.00 / 0% conversion**. The dead-link "fix" from Session 9 (search URLs) prevented "Page Not Found" but did not produce revenue — search→cart conversion is structurally ~10x lower than PDP→cart. Amazon as a channel is broken at this traffic quality. Pivot: reroute every keyword whose merchant has a direct/Impact/CJ program paying ≥5% to that program.
+
+**Reroutes shipped this session (live in Meta DM auto-replies):**
+- PILLOW → Eli & Elm Impact `https://eliandelm.sjv.io/E092ZX` (~6.7x payout per click vs Amazon)
+- COVER → Mamma Mia Impact `https://mammamiacovers.sjv.io/WO4g63` (~7-10x payout per click vs Amazon)
+- Both verified via URL transition (save success); registry updated with `affiliate_network: "impact"` + `affiliate_url` + reroute provenance
+
+**Other shipped this session:**
+- All 8 previously-pending Meta DM automations confirmed live (10/10 keywords now active in `dm_keyword_registry.json`)
+- `content_engine.py`: hard-block guard `_is_dead_hook()` rejecting dead opener patterns ("$X" / "I spent $X") — smoke-tested 6/6. Prevents regression to the empirically-dead caption format that produced the 15-day 0-engagement streak.
+- `social/AFFILIATE_REROUTE_ROADMAP_2026-05-03.md` — concrete next-merchant signup checklist (Govee 5-15%, FoodSaver up to 10%, Pink Stuff TBD, Cosori 5%) with exact sign-up URLs
+- `social/PATH_C_OUTREACH_2026-05-03.md` — 3 ranked partner candidates from engagement_log (@gemmamgoldsmith, @torilanaee, @homeatmerlingardens) + 2 A/B DM templates
+- Memory: `project_ghp_dead_asin_incident.md` updated with the 521→0 finding and structural-conversion reasoning (informs all future channel decisions)
+- Tasks #43, #46, #47 closed; #55 (CEO affiliate signups), #56 (CEO Path C outreach), #57 (dead-pattern guard, complete) created
+
+**Pending — high EV next session (CEO actions blocking Claude):**
+- **#55** — Sign up for Govee + FoodSaver + Pink Stuff affiliate programs (~5 min each via Chrome). Paste links → Claude swaps them into Meta DM automations same way as PILLOW/COVER.
+- **#56** — Send Path C outreach to 3 candidates (~10 min). If 1/3 says yes, unlocks shared revenue on a 50k+ audience.
+- **#48** — STILL pending: pick Path A/B/C in `STRATEGY_2026-04-30.md`. Reroute work + content guard + outreach prep are all path-agnostic; deeper algorithmic-rejection problem cannot be fixed without this call.
+
+**Anti-patterns observed:**
+- Meta Business Suite contenteditable PM fields require `document.execCommand('selectAll')` + `('delete')` + `('insertText', false, body)` to fire React-compatible input events. Direct DOM mutation alone gets restored from React state. cmd+a / Backspace via OS-level keyboard also unreliable in this DOM. Save success is detectable via URL transition (loss of `automation_id` query param).
+- The right-side Meta preview pane is a stale render — trust `pm.textContent.length` and `pm.innerText`, not the visual preview.
+
+---
+
 ## LAST SESSION DELTA (2026-04-30 → 05-01 — Session 11, faceless-but-real pivot)
 
 **The headline:** Diagnosed why the dead-link fix (Session 9) hasn't moved revenue. Amazon Associates last 30d still $0.00 / 0 orders. Every IG post since 2026-04-16 at 0 likes / 0 comments (15+ day streak). YT 6,690 subs but median <50 views per Short. Root cause: AI-generated Pollinations backgrounds + JennyNeural robotic VO = exactly the pattern IG/YT downrank. The flywheel was producing algorithmically-rejected content at scale.

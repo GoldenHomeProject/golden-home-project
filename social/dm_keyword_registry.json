@@ -3,7 +3,7 @@
   "tag": "goldenhomep06-20",
   "ig_business_account_id": "973754055831729",
   "fb_business_id": "1580899273211540",
-  "verified_at": "2026-05-02",
+  "verified_at": "2026-05-03",
   "entries": [
     {
       "keyword": "LINK",
@@ -19,31 +19,42 @@
       "product_name": "Eli & Elm Side Sleeper Pillow (U-shape, latex, queen)",
       "categories": ["bedroom", "sleep", "pillow", "neck-pain"],
       "status": "live",
-      "added_at": "2026-04-23"
+      "added_at": "2026-04-23",
+      "affiliate_network": "impact",
+      "affiliate_url": "https://eliandelm.sjv.io/E092ZX",
+      "rerouted_from_amazon_at": "2026-05-03",
+      "reroute_reason": "Impact direct merchant pays 20% vs Amazon 3% — same product, ~6x payout per conversion"
     },
     {
       "keyword": "COVER",
       "asin": "B0B4SPP3ZN",
-      "product_name": "Paulato by GA.I.CO. Stretch Sofa Cover (jacquard, waterproof)",
+      "product_name": "Mamma Mia Stretch Waterproof Sofa Cover (jacquard) — replaces Paulato",
       "categories": ["living-room", "couch", "sofa", "pet"],
-      "status": "pending_meta_automation",
-      "added_at": "2026-04-25"
+      "status": "live",
+      "added_at": "2026-04-25",
+      "activated_at": "2026-05-03",
+      "affiliate_network": "impact",
+      "affiliate_url": "https://mammamiacovers.sjv.io/WO4g63",
+      "rerouted_from_amazon_at": "2026-05-03",
+      "reroute_reason": "Impact direct merchant pays 20-30% vs Amazon 3% — same category, ~7x payout per conversion"
     },
     {
       "keyword": "KETTLE",
       "asin": "B08PP48979",
       "product_name": "Cosori Electric Kettle (no plastic contact, wide-mouth)",
       "categories": ["kitchen", "appliance", "tea", "coffee"],
-      "status": "pending_meta_automation",
-      "added_at": "2026-04-25"
+      "status": "live",
+      "added_at": "2026-04-25",
+      "activated_at": "2026-05-03"
     },
     {
       "keyword": "NIGHTLIGHT",
       "asin": "B09CSS6YL4",
       "product_name": "LED Motion Sensor Night Light Plug-In (2-Pack, Cool White)",
       "categories": ["lighting", "bedroom", "hallway", "tech"],
-      "status": "pending_meta_automation",
+      "status": "live",
       "added_at": "2026-04-25",
+      "activated_at": "2026-05-03",
       "notes": "Original B08RRRX5P5 silently redirects to B09CSS6YL4; updated 2026-05-02 to preserve affiliate tag integrity"
     },
     {
@@ -51,40 +62,45 @@
       "asin": "B07ZL2BFMP",
       "product_name": "Scrub Daddy Sponge (dye-free, scratch-free)",
       "categories": ["kitchen", "cleaning", "dishes"],
-      "status": "pending_meta_automation",
-      "added_at": "2026-04-25"
+      "status": "live",
+      "added_at": "2026-04-25",
+      "activated_at": "2026-05-03"
     },
     {
       "keyword": "STRIP",
       "asin": "B099S9DXT7",
       "product_name": "Govee RGBIC LED Strip Lights (32.8ft, smart, bedroom)",
       "categories": ["lighting", "bedroom", "tech", "smart-home"],
-      "status": "pending_meta_automation",
-      "added_at": "2026-04-25"
+      "status": "live",
+      "added_at": "2026-04-25",
+      "activated_at": "2026-05-03"
     },
     {
       "keyword": "VACUUM",
       "asin": "B099NTSWD9",
       "product_name": "FoodSaver VS2150 Vacuum Sealing System",
       "categories": ["kitchen", "appliance", "food-storage"],
-      "status": "pending_meta_automation",
-      "added_at": "2026-04-25"
+      "status": "live",
+      "added_at": "2026-04-25",
+      "activated_at": "2026-05-03"
     },
     {
       "keyword": "PASTE",
       "asin": "B00DU5SRIY",
       "product_name": "Stardrops The Pink Stuff Cleaning Paste (multi-purpose)",
       "categories": ["cleaning", "kitchen", "bathroom"],
-      "status": "pending_meta_automation",
-      "added_at": "2026-04-25"
+      "status": "live",
+      "added_at": "2026-04-25",
+      "activated_at": "2026-05-03"
     },
     {
       "keyword": "ROLLER",
       "asin": "B00BAGTNAQ",
       "product_name": "ChomChom Roller Pet Hair Remover (reusable lint roller)",
       "categories": ["pet", "cleaning", "living-room"],
-      "status": "pending_meta_automation",
-      "added_at": "2026-04-25"
+      "status": "live",
+      "added_at": "2026-04-25",
+      "activated_at": "2026-05-03"
     }
   ]
 }
