@@ -1,0 +1,77 @@
+{
+  "_doc": "Path B (zero-spend SEO) post tracker. Per CLAUDE_GHP_CEO.md: 1 post/week max, kill criterion = 8 posts (~60 days) with $0 in revenue triggers Path C honest pivot. Track only revenue and one leading indicator (organic clicks). Verify ranking via free Google Search Console once site is verified there.",
+  "kill_criterion": "8 posts published with cumulative $0 affiliate revenue → Path C pivot",
+  "cycle_started_at": "2026-05-04",
+  "posts": [
+    {
+      "id": "2026-04-23-mamma-mia-waterproof-stretch-sofa-cover-review",
+      "published_at": "2026-04-23",
+      "target_keyword": "mamma mia waterproof stretch sofa cover review",
+      "url": "https://goldenhomeproject.com/blog/posts/2026-04-23-mamma-mia-waterproof-stretch-sofa-cover-review.html",
+      "offer": "COVER",
+      "affiliate_link": "https://mammamiacovers.sjv.io/WO4g63",
+      "affiliate_link_destination": "https://www.amazon.com/stores/MammaMiaCovers",
+      "expected_commission_rate_pct": 3,
+      "audited_2026-05-04": "rerouted from Amazon search URL to Impact Maas storefront link"
+    },
+    {
+      "id": "2026-04-27-i-spent-54-to-fix-my-pet-destroyed-couch-cover",
+      "published_at": "2026-04-27",
+      "target_keyword": "fix pet destroyed couch cover",
+      "url": "https://goldenhomeproject.com/blog/posts/2026-04-27-i-spent-54-to-fix-my-pet-destroyed-couch-cover.html",
+      "offer": "COVER",
+      "affiliate_link": "https://mammamiacovers.sjv.io/WO4g63",
+      "expected_commission_rate_pct": 3,
+      "audited_2026-05-04": "rerouted"
+    },
+    {
+      "id": "2026-04-28-waterproof-stretch-sofa-cover-dog-proof-review",
+      "published_at": "2026-04-28",
+      "target_keyword": "waterproof stretch sofa cover dog proof",
+      "url": "https://goldenhomeproject.com/blog/posts/2026-04-28-waterproof-stretch-sofa-cover-dog-proof-review.html",
+      "offer": "COVER",
+      "affiliate_link": "https://mammamiacovers.sjv.io/WO4g63",
+      "expected_commission_rate_pct": 3,
+      "audited_2026-05-04": "rerouted"
+    },
+    {
+      "id": "2026-04-29-couch-cover-for-pet-hair-waterproof-stretch-sofa",
+      "published_at": "2026-04-29",
+      "target_keyword": "couch cover for pet hair",
+      "url": "https://goldenhomeproject.com/blog/posts/2026-04-29-couch-cover-for-pet-hair-waterproof-stretch-sofa.html",
+      "offer": "COVER",
+      "affiliate_link": "https://mammamiacovers.sjv.io/WO4g63",
+      "expected_commission_rate_pct": 3,
+      "audited_2026-05-04": "rerouted"
+    },
+    {
+      "id": "2026-04-30-couch-cover-pet-hair-waterproof-stretch-sofa-cover",
+      "published_at": "2026-04-30",
+      "target_keyword": "couch cover pet hair waterproof",
+      "url": "https://goldenhomeproject.com/blog/posts/2026-04-30-couch-cover-pet-hair-waterproof-stretch-sofa-cover.html",
+      "offer": "COVER",
+      "affiliate_link": "https://mammamiacovers.sjv.io/WO4g63",
+      "expected_commission_rate_pct": 3,
+      "audited_2026-05-04": "rerouted"
+    },
+    {
+      "id": "2026-05-01-mamma-mia-waterproof-stretch-sofa-cover-review-pets",
+      "published_at": "2026-05-01",
+      "target_keyword": "mamma mia waterproof stretch sofa cover review pets",
+      "url": "https://goldenhomeproject.com/blog/posts/2026-05-01-mamma-mia-waterproof-stretch-sofa-cover-review-pets.html",
+      "offer": "COVER",
+      "affiliate_link": "https://mammamiacovers.sjv.io/WO4g63",
+      "expected_commission_rate_pct": 3,
+      "audited_2026-05-04": "rerouted"
+    }
+  ],
+  "next_post_planned": {
+    "target_keyword": "best couch cover for cat claws",
+    "offer": "COVER",
+    "affiliate_link": "https://mammamiacovers.sjv.io/WO4g63",
+    "rationale": "DuckDuckGo SERP check 2026-05-04: top 10 is small/mid affiliate sites (bestreviews #1, then catster/coveradvice/aypurr/etc.) — no Tier-1 media wall. Stretch jacquard genuinely fits the query. Will be week 2 of Path B if revenue still $0 after 7 days.",
+    "scheduled_for": "2026-05-11"
+  },
+  "revenue_to_date_usd": 0,
+  "post_count_to_kill_criterion": "6 of 8"
+}

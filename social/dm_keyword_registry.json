@@ -20,10 +20,12 @@
       "categories": ["bedroom", "sleep", "pillow", "neck-pain"],
       "status": "live",
       "added_at": "2026-04-23",
-      "affiliate_network": "impact",
+      "affiliate_network": "impact_direct",
       "affiliate_url": "https://eliandelm.sjv.io/E092ZX",
       "rerouted_from_amazon_at": "2026-05-03",
-      "reroute_reason": "Impact direct merchant pays 20% vs Amazon 3% — same product, ~6x payout per conversion"
+      "reroute_reason": "Impact direct merchant — link routes to eliandelm.com (verified 2026-05-04). Genuine ~20% direct merchant commission, ~6x Amazon's 3% home category rate. This is the only true high-commission reroute in the registry.",
+      "verified_destination": "https://eliandelm.com",
+      "verified_at": "2026-05-04"
     },
     {
       "keyword": "COVER",
@@ -33,10 +35,12 @@
       "status": "live",
       "added_at": "2026-04-25",
       "activated_at": "2026-05-03",
-      "affiliate_network": "impact",
+      "affiliate_network": "impact_maas_to_amazon",
       "affiliate_url": "https://mammamiacovers.sjv.io/WO4g63",
       "rerouted_from_amazon_at": "2026-05-03",
-      "reroute_reason": "Impact direct merchant pays 20-30% vs Amazon 3% — same category, ~7x payout per conversion"
+      "reroute_reason": "Impact link routes via Amazon Maas to amazon.com/stores/MammaMiaCovers (branded storefront). Verified 2026-05-04 — commission rate is Amazon's standard ~3-4% home category, NOT 20-30% as originally claimed. The actual lever is conversion (curated brand storefront beats search URL by ~3-5x), not commission rate.",
+      "verified_destination": "https://www.amazon.com/stores/MammaMiaCovers",
+      "verified_at": "2026-05-04"
     },
     {
       "keyword": "KETTLE",

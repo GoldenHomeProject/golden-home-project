@@ -97,7 +97,7 @@ The cover isn't a permanent renovation. It's a cost-effective rescue that works 
 
 At $54 for an estimated 18–24 months of useful life, you're paying roughly **$2.25–$3.00 per month** to have a couch you're not apologizing for or hiding from guests.
 
-[Check current price on Amazon →](https://www.amazon.com/s?k=Mamma+Mia+waterproof+stretch+sofa+cover+pet+dogs)
+[Check current price on Amazon →](https://mammamiacovers.sjv.io/WO4g63)
 
 ## Colors, Aesthetics, and the One Thing I Would Actually Change
 

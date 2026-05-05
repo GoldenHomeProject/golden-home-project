@@ -71,7 +71,7 @@ The trickiest step was getting the armrest panels to lie flat — they bunched s
 
 Honest reaction: it looked better than I expected, and I expected very little. The Dark Gray is a true charcoal — not the washed-out gray that often photographs darker than it appears. The fabric has a subtle texture that reads as "tailored" rather than "covered up." From 6 feet away — the distance a guest sees your sofa when they walk through your front door — it looks like a clean, intentional design choice.
 
-[Check current price on Amazon →](https://www.amazon.com/s?k=Mamma+Mia+waterproof+stretch+sofa+cover)
+[Check current price on Amazon →](https://mammamiacovers.sjv.io/WO4g63)
 
 ## Six Weeks of Daily Dog Use: What Held Up and What Didn't
 
@@ -120,7 +120,7 @@ At $47, the math changes entirely:
 
 The $47 cover is not a permanent solution. But it's the *right* solution for the stage of pet ownership I'm currently in. That's the honest framing I wish someone had given me three slipcover purchases ago.
 
-[Check current price on Amazon →](https://www.amazon.com/s?k=Mamma+Mia+Covers+waterproof+stretch+sofa+slipcover)
+[Check current price on Amazon →](https://mammamiacovers.sjv.io/WO4g63)
 
 ## FAQ
 
