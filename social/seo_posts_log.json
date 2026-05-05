@@ -63,15 +63,35 @@
       "affiliate_link": "https://mammamiacovers.sjv.io/WO4g63",
       "expected_commission_rate_pct": 3,
       "audited_2026-05-04": "rerouted"
+    },
+    {
+      "id": "2026-05-05-49-dollar-couch-cover-pet-damage-mamma-mia",
+      "published_at": "2026-05-05",
+      "target_keyword": "$49 couch cover pet damage",
+      "url": "https://goldenhomeproject.com/blog/posts/2026-05-05-49-dollar-couch-cover-pet-damage-mamma-mia.html",
+      "offer": "COVER",
+      "affiliate_link": "https://mammamiacovers.sjv.io/WO4g63",
+      "expected_commission_rate_pct": 3,
+      "discovered_at_audit_2026-05-05": true
     }
   ],
+  "infrastructure": {
+    "gsc_property": "https://goldenhomeproject.com/",
+    "gsc_verified_at": "2026-05-05",
+    "gsc_verification_method": "HTML file (google601199e8acd17495.html)",
+    "sitemap_url": "https://goldenhomeproject.com/sitemap.xml",
+    "sitemap_submitted_at": "2026-05-05",
+    "sitemap_initial_status": "Couldn't fetch (transient — Google retries on own schedule)",
+    "robots_txt": "https://goldenhomeproject.com/robots.txt"
+  },
+  "cadence_violation_2026-05-05": "7 posts published in 12 days violates CEO rule #1 (1 post/week max). All 7 target near-identical 'waterproof stretch sofa cover' keyword cluster — diminishing return per post. NEXT ACTION = stop posting, wait for GSC indexing + organic clicks, monitor Amazon Associates daily for first conversion. Do NOT publish week-2 post until at least 2026-05-12 AND only if first 7 have produced organic impressions.",
   "next_post_planned": {
     "target_keyword": "best couch cover for cat claws",
     "offer": "COVER",
     "affiliate_link": "https://mammamiacovers.sjv.io/WO4g63",
-    "rationale": "DuckDuckGo SERP check 2026-05-04: top 10 is small/mid affiliate sites (bestreviews #1, then catster/coveradvice/aypurr/etc.) — no Tier-1 media wall. Stretch jacquard genuinely fits the query. Will be week 2 of Path B if revenue still $0 after 7 days.",
-    "scheduled_for": "2026-05-11"
+    "rationale": "DuckDuckGo SERP check 2026-05-04: top 10 is small/mid affiliate sites (bestreviews #1, then catster/coveradvice/aypurr/etc.) — no Tier-1 media wall. Stretch jacquard genuinely fits the query. Hold until 2026-05-12 minimum to respect cadence and let existing 7 posts get crawled.",
+    "scheduled_for": "2026-05-12_or_later"
   },
   "revenue_to_date_usd": 0,
-  "post_count_to_kill_criterion": "6 of 8"
+  "post_count_to_kill_criterion": "7 of 8"
 }

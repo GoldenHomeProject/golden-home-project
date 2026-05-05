@@ -4,6 +4,36 @@ Paste the block below at the start of each Claude Code session. Everything above
 
 ---
 
+## LAST SESSION DELTA (2026-05-05 — Session 14, GSC live + sitemap submitted)
+
+**MANDATORY FIRST READ: `CLAUDE_GHP_CEO.md`**. Sole goal = first dollar. Zero spend. Path B selected, kill criterion = 8 posts → $0 = Path C.
+
+**Headline:** Path B is now measurable. Google Search Console verified for `https://goldenhomeproject.com/`, sitemap.xml + robots.txt deployed and submitted. We can now see organic impressions/clicks/queries for free instead of guessing.
+
+**What shipped this session (commits 803b7e4 + a91dd47, pushed):**
+- `google601199e8acd17495.html` — GSC HTML verification file → ✅ Ownership verified
+- `sitemap.xml` (9 URLs: root + links + 7 buy-intent COVER posts) + `robots.txt` pointing to it
+- Submitted sitemap in GSC at `/sitemap.xml`. Initial status "Couldn't fetch" (transient — Google retries; sitemap returns HTTP 200, valid XML)
+- `social/seo_posts_log.json` truthed up: discovered un-logged 7th post (`2026-05-05-49-dollar-couch-cover-pet-damage-mamma-mia.html`) live but missing from log. Added it. Added `infrastructure` block (GSC + sitemap state). Added `cadence_violation_2026-05-05` flag — we've shipped 7 posts in 12 days (CEO rule = 1/week max). 7 of 8 toward kill criterion.
+
+**End-of-session check (per CLAUDE_GHP_CEO.md):**
+1. Did revenue change? **No.** Lifetime $0.
+2. Did a leading indicator change measurably? **Yes — for the first time.** GSC was the only free path to *measure* organic search demand. We were flying blind before; we now have impressions/clicks/queries reporting. Sitemap submission tells Google about all 9 URLs at once vs hoping for accidental discovery.
+3. What did this session accomplish? Made Path B observable. Without GSC we couldn't honor the kill criterion — 8 posts × $0 is meaningless if we can't see *why* (zero impressions = no demand vs lots of impressions + zero clicks = wrong title vs lots of clicks + zero conversions = wrong offer). Now those three failure modes are distinguishable. Real CEO sign-off: yes — this is exactly the measurement infrastructure that makes the kill criterion enforceable.
+
+**The hard CEO call surfaced this session (do not skip next session):**
+We are 7 of 8 posts toward the kill criterion in just 12 days. The cluster is one keyword family (waterproof stretch sofa cover for pets). Posting #8 next week is **not** the next Path B post — it's the trigger of the kill condition if revenue is still $0 by 2026-05-12. Honest read: do NOT publish #8 if zero impressions land in GSC by then. Evaluate Path C instead.
+
+**Pending — next session:**
+- **#63** — Wait for GSC indexing. Check Performance panel daily for first impression. Check Amazon Associates daily for first conversion on the 7 live posts.
+- **#33** — YouTube OAuth 7-day expiry (deferred per CEO prompt — not revenue-blocking)
+- **#21** — Meta App Review for IG insights (deferred per CEO prompt — not revenue-blocking)
+
+**Anti-patterns observed this session:**
+- Almost wrote post #8 ("best couch cover for cat claws") immediately. Caught by the cadence-violation count: 7 in 12 days isn't "Path B weekly cadence" — it's the same spray-and-pray pattern in slower clothing. Wait > write when the cluster has 7 near-duplicates 0–12 days old.
+
+---
+
 ## LAST SESSION DELTA (2026-05-04/05 — Session 13, CEO prompt v2 + COVER link rewire)
 
 **MANDATORY FIRST READ for any GHP session: `CLAUDE_GHP_CEO.md`** — the new operating prompt. Sole goal = first dollar. Zero spend (Path A closed). Path B (weekly SEO posts) selected. Kill criterion = 8 posts → $0 = Path C honest pivot.
