@@ -81,9 +81,21 @@
     "gsc_verification_method": "HTML file (google601199e8acd17495.html)",
     "sitemap_url": "https://goldenhomeproject.com/sitemap.xml",
     "sitemap_submitted_at": "2026-05-05",
-    "sitemap_initial_status": "Couldn't fetch (transient — Google retries on own schedule)",
+    "sitemap_status_2026-05-06": "Success — 9 pages discovered, last read 2026-05-05",
     "robots_txt": "https://goldenhomeproject.com/robots.txt"
   },
+  "daily_snapshots": [
+    {
+      "date": "2026-05-06",
+      "gsc_performance": "Processing data, please check again in a day or so",
+      "gsc_page_indexing": "Processing data, please check again in a day or so",
+      "amazon_associates_mtd_clicks": 6,
+      "amazon_associates_mtd_orders": 0,
+      "amazon_associates_mtd_earnings_usd": 0,
+      "amazon_associates_conversion_rate_pct": 0,
+      "interpretation": "Amazon clicks collapsed ~99% from April (~521) to May (6 in 5 days). IG 0-engagement streak has cut top-of-funnel traffic to a trickle. Yesterday's CTA reroute (Amazon search → Impact storefront) cannot be meaningfully tested at this volume. GSC has no data yet — verified <24h ago. Hold per CEO prompt; do not write post #8."
+    }
+  ],
   "cadence_violation_2026-05-05": "7 posts published in 12 days violates CEO rule #1 (1 post/week max). All 7 target near-identical 'waterproof stretch sofa cover' keyword cluster — diminishing return per post. NEXT ACTION = stop posting, wait for GSC indexing + organic clicks, monitor Amazon Associates daily for first conversion. Do NOT publish week-2 post until at least 2026-05-12 AND only if first 7 have produced organic impressions.",
   "next_post_planned": {
     "target_keyword": "best couch cover for cat claws",
