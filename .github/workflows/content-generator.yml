@@ -6,8 +6,10 @@ name: GHP Content Engine (Agent 2 — Flywheel S2)
 # Outputs: automation/scripts/reel-<date>-NNN.json + queue entries
 
 on:
-  schedule:
-    - cron: '0 6 * * *'
+  # Cron disabled 2026-05-06 per CLAUDE_GHP_CEO.md.
+  # Reel scripts have produced $0 across 902+ Amazon clicks. Stop generating until offer/audience pivot.
+  # schedule:
+  #   - cron: '0 6 * * *'
   workflow_dispatch:
 
 permissions:

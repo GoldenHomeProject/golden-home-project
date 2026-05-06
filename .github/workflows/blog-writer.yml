@@ -6,8 +6,11 @@ name: GHP Blog Writer (Agent 4 — Flywheel S3)
 # Based on highest-composite trend from social/trend_feed.json
 
 on:
-  schedule:
-    - cron: '0 8 * * 1-5'
+  # Cron disabled 2026-05-06 per CLAUDE_GHP_CEO.md rule #1 (1 post/week max).
+  # Auto-published 8th near-duplicate COVER post 2026-05-06, hitting kill criterion threshold.
+  # Re-enable only after Path B/C decision is made and a non-duplicate cluster is selected.
+  # schedule:
+  #   - cron: '0 8 * * 1-5'
   workflow_dispatch:
 
 permissions:
