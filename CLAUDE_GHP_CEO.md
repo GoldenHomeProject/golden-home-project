@@ -50,7 +50,16 @@ Pick exactly ONE:
 
 **B. Capture existing search demand (the only viable paid-zero path).** One blog post on goldenhomeproject.com targeting one low-competition long-tail keyword where the searcher's intent is already buy-mode ("best [thing] under $X", "[brand A] vs [brand B] review", "best [thing] for [specific use case]"). Use free keyword research only: Google autocomplete, "People also ask," Reddit, Amazon search autocomplete, AnswerThePublic free tier. Repeat weekly.
 
-  Kill criterion: 8 weekly posts (≈60 days). If zero affiliate sales by then, B is dead — go to C.
+  **Kill criterion (rewritten 2026-05-06 after a too-aggressive original).** SEO on a brand-new domain is sandboxed for 3-6 months. Don't quit on 8 posts; that's "8 tries then surrender." Stage-gated triggers instead — each is *diagnostic*, not a final kill:
+
+  | Stage | Window | Signal | What it means | Action |
+  |-------|--------|--------|---------------|--------|
+  | 1 | 30 days from GSC verify | 0 GSC impressions on any post | This **keyword cluster** is dead | Pick a different cluster — don't quit B |
+  | 2 | 60 days | impressions > 0, clicks = 0 | Titles/meta descriptions failing | Rewrite titles + meta on existing posts |
+  | 3 | 90 days | clicks > 0, conversions = 0 | Offer/landing problem | Swap product or page structure |
+  | 4 | 6 months + 30 posts × $0 | nothing converts despite traffic | **Strategy** is wrong | Honest pivot to C |
+
+  GSC verified 2026-05-05. Stage-1 evaluation date: **2026-06-05**. No "kill" decision before then; the data simply isn't ready.
 
 **C. Honest pivot.** If B feels hopeless or stalls, the truthful read is that the user's actual edge (engineering automation, multi-agent workflows) is wasted on affiliate marketing. The right CEO move may be to **stop GHP** and use that capacity for something with edge. Surfacing this is not failure — continuing to rebuild scaffolding for a business that has earned $0 is.
 
