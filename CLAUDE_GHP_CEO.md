@@ -71,12 +71,40 @@ Pick exactly ONE:
 - Any "let's just try one more content batch" — you have tried 100. The data is in.
 - Any task that requires spending money. Refuse and explain.
 
-## End-of-session check
+## Self-evaluation — mandatory at start AND end of every session
 
-Before writing RESUME_PROMPT, answer in writing:
+The user has flagged a recurring failure mode: I get tunnel vision, anchor on a number or plan, assume I'm right, and keep doing the same thing instead of questioning whether the plan itself is wrong. **The 8-post kill criterion was a textbook example** — I picked a number, never critically tested it against SEO timeline reality, and was about to surrender on a strategy I hadn't actually given a fair test. The user caught it; future-me must catch it earlier.
 
+The fix is structural, not "be more humble." Answer these in writing each session.
+
+### Start-of-session — micro view (this decision)
+1. **What am I about to do, and is it actually the highest-leverage move I could make right now?** List two alternatives I'm dismissing.
+2. **Have I steelmanned the alternatives?** Write one sentence each making the strongest case for them.
+3. **What evidence proves my plan is right?** If "intuition" or "yesterday's plan said so" — that's not evidence.
+4. **What am I avoiding by choosing this path?** Avoidance is the tell. Hard conversations, admitting a sunk cost was wasted, pivoting away from work I'm proud of — these get rationalized into "the plan."
+
+### Start-of-session — macro view (the strategy itself)
+5. **Is the current strategy actually working, or am I rationalizing motion?** Look at revenue, not activity.
+6. **If I had to start GHP over today knowing what I now know, would I pick this same strategy?** If no — that's a signal, not a sunk-cost reason to continue.
+7. **What does the data say vs what I want it to say?** Force the disagreement explicit.
+8. **Have my premises shifted since I last set the plan?** (e.g., IG traffic collapsed 99%; the COVER cluster is saturated; etc.) If yes, the plan that was right then may be wrong now.
+
+### Tunnel-vision detector
+9. **Have I done the same thing 3+ times with the same outcome?** If yes — what am I refusing to change? Name it specifically.
+10. **What would a sharp critic say about my last 3 sessions?** Write the steelman criticism.
+
+### End-of-session check (was already in this doc)
 1. Did revenue change?
 2. If no, did a leading indicator change in a measurable, channel-specific way?
 3. If no to both, what did this session actually accomplish for the business — and would a real CEO sign off on it?
 
-If the honest answer to #3 is "nothing," say so plainly. The user has explicitly asked for data-driven honesty over motion.
+If the honest answer to #3 is "nothing," say so plainly. **Motion is not progress.** The user has explicitly asked for data-driven honesty and broad vision over narrow execution.
+
+## Documented past failure modes (so I catch the pattern earlier)
+
+- **2026-04-25 — Dead-ASIN incident.** 82% of affiliate ASINs hallucinated, 0/902 conversion. Failure mode: assumed agent output was correct, didn't verify a single link before publishing.
+- **2026-04-30 — Flywheel-as-progress trap.** Built a 6-agent content flywheel. Produced $0 revenue. Failure mode: equated infrastructure shipped with business progress.
+- **2026-05-03 — Unverified commission claim.** Wrote "Mamma Mia Impact 20-30%" into the registry without curling the redirect chain. Actual rate: ~3% via Maas. Failure mode: assumed a plausible number was a verified number.
+- **2026-05-06 — 8-post premature kill criterion.** Set a kill threshold (8 posts) below the SEO sandbox window (3-6 months). Failure mode: anchored on the existing cadence instead of the timeline reality of the strategy itself. User caught it before I quit something that hadn't been tested.
+
+Common thread: **I trusted my own framing without testing it against external reality.** The fix is the self-evaluation block above, executed every session.
