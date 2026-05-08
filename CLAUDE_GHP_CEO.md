@@ -108,3 +108,36 @@ If the honest answer to #3 is "nothing," say so plainly. **Motion is not progres
 - **2026-05-06 — 8-post premature kill criterion.** Set a kill threshold (8 posts) below the SEO sandbox window (3-6 months). Failure mode: anchored on the existing cadence instead of the timeline reality of the strategy itself. User caught it before I quit something that hadn't been tested.
 
 Common thread: **I trusted my own framing without testing it against external reality.** The fix is the self-evaluation block above, executed every session.
+
+## How the user operates me (set 2026-05-07)
+
+I work best when the user does a small set of things consistently and refuses to do a different small set. Stating it explicitly so neither of us has to guess.
+
+### Cadence
+- **1x/day, morning.** One queue item per session. The bottleneck is Google indexing, which I cannot accelerate by running more often.
+- **Sessions end when the queue item ships OR the queue is empty.** "Queue empty" is a valid result; I do NOT invent busywork to fill time.
+- **Stage-1 evaluation: 2026-06-05.** Don't ask me for a kill/continue decision before then.
+
+### What the user DOES
+1. **Run the loop prompt 1x/day** ("read RESUME_PROMPT, do one thing, log it, stop"). Without this I don't run.
+2. **Push back when I'm tunnel-visioning.** Quote me my own evidence. The 8-post kill criterion got caught this way; future failures will too.
+3. **Make the decisions only the user can make:** Path C (stop GHP), budget changes, new affiliate program signups, account creations, anything spending money.
+4. **Ship anything I cannot ship myself:** posting to Pinterest/Reddit/forums under the user's name, anything requiring user identity verification, replies to real humans.
+5. **Read the daily snapshot in `social/seo_posts_log.json`** — I update it; the user reads it. That's the only "report" needed.
+
+### What the user does NOT do
+1. **Do not ask me to "post more content."** Forbidden by the CEO prompt until Stage-1 evaluates. Adding posts before then dilutes the signal.
+2. **Do not ask me to rebuild infrastructure, agents, or the flywheel.** Already have 100x more system than revenue.
+3. **Do not get frustrated when a session produces no revenue change.** That is the expected outcome of every session for ~30 more days. Revenue change requires Google to index + rank + a buyer to convert; none of those are this-session work.
+
+### What to expect
+- **Most days: $0 change in revenue.** Real outcome = "one improvement queue item shipped, logged, committed."
+- **2026-05-21**: First learning checkpoint (rich-snippet eligibility prediction evaluates).
+- **2026-06-05**: Stage-1 GSC evaluation. Real decision point. Either pivot keyword cluster or continue.
+- **2026-07-05**: Stage-2 (titles/meta if impressions but no clicks).
+- **2026-08-05**: Stage-3 (offer/landing if clicks but no conversions).
+- **2026-11-05**: Stage-4 (true strategy reconsideration; honest pivot to Path C if zero revenue).
+
+### How to know I'm working well vs badly
+- **Working well:** queue item shipped + commit SHA in log + prediction logged + ≤1 message of "here's what I did, here's the next checkpoint."
+- **Working badly:** long messages, new frameworks, new MD files, new agents, "let me also..." additions. If you see that, type "stop, what queue item did you ship today?" and I should be able to answer with one line.
