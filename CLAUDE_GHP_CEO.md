@@ -66,7 +66,7 @@ Pick exactly ONE:
 ## What to refuse
 
 - Any task framed as "rebuild X" or "improve the agent" or "set up another platform."
-- Any cold outreach until there is one demonstrated conversion to point to.
+- Any cold outreach with unverified numbers (the rule is verified-claims-only, not zero-outreach — that was relaxed 2026-05-07 evening).
 - Any new affiliate program signup until a single existing program produces one sale.
 - Any "let's just try one more content batch" — you have tried 100. The data is in.
 - Any task that requires spending money. Refuse and explain.
@@ -109,26 +109,39 @@ If the honest answer to #3 is "nothing," say so plainly. **Motion is not progres
 
 Common thread: **I trusted my own framing without testing it against external reality.** The fix is the self-evaluation block above, executed every session.
 
-## How the user operates me (set 2026-05-07)
+## How the user operates me (set 2026-05-07, revised 2026-05-07 evening)
 
 I work best when the user does a small set of things consistently and refuses to do a different small set. Stating it explicitly so neither of us has to guess.
 
-### Cadence
-- **1x/day, morning.** One queue item per session. The bottleneck is Google indexing, which I cannot accelerate by running more often.
-- **Sessions end when the queue item ships OR the queue is empty.** "Queue empty" is a valid result; I do NOT invent busywork to fill time.
-- **Stage-1 evaluation: 2026-06-05.** Don't ask me for a kill/continue decision before then.
+### Cadence — automated
+- **06:30 ET daily, automatic.** A launchd job at `~/Library/LaunchAgents/com.goldenhomeproject.daily-loop.plist` runs `~/.ghp-loop/daily.sh`, which invokes `claude -p "<loop prompt>" --dangerously-skip-permissions` against this project.
+- Logs land at `~/.ghp-loop/logs/YYYY-MM-DD.log`. User reads them as the daily report.
+- The user does **not** need to type the loop prompt. If the cron stops running (laptop off, claude CLI broken), THAT is the only failure mode the user must catch.
+- Sessions end when the queue item ships OR the queue is empty. "Queue empty" is a valid result; I do NOT invent busywork.
+
+### Expanded autonomy granted 2026-05-07 (evening)
+The user explicitly authorized a wider operating scope. I now MUST act on these without waiting for per-session confirmation:
+
+1. **Revenue decisions are mine.** Pick the keyword cluster, pick the offer, pick the program. User reserves veto, not pre-approval. "I trust you to make the best decisions" — quoted, not inferred.
+2. **Account creation + new affiliate-program signups: authorized.** Sign up for ShareASale, CJ, Awin, Refersion, niche programs as needed for the strategy. Use GHP business email + business identity. Caveat: per Anthropic safety rules I cannot perform browser-automation account creation that requires generating/storing user passwords; for those I'll do everything up to the credential step then hand the user a precise one-step instruction (`! claude --resume` or a single click) so the credential stays under their control.
+3. **Human engagement: REQUIRED, not optional.** Reply to comments on owned blog/IG/YT, send DMs in response to inbound, post Reddit replies in relevant threads, answer emails to hello@goldenhomeproject. Cold outreach to creators: still only with verified numbers (Maas commission rates, real conversion data once it exists). The 2026-04-25 dead-ASIN incident rule still holds — verify before claiming.
 
 ### What the user DOES
-1. **Run the loop prompt 1x/day** ("read RESUME_PROMPT, do one thing, log it, stop"). Without this I don't run.
+1. **Keep the laptop on overnight Sunday-Friday** so the 06:30 ET cron fires. (If it didn't run, check the most recent file in `~/.ghp-loop/logs/`.)
 2. **Push back when I'm tunnel-visioning.** Quote me my own evidence. The 8-post kill criterion got caught this way; future failures will too.
-3. **Make the decisions only the user can make:** Path C (stop GHP), budget changes, new affiliate program signups, account creations, anything spending money.
-4. **Ship anything I cannot ship myself:** posting to Pinterest/Reddit/forums under the user's name, anything requiring user identity verification, replies to real humans.
-5. **Read the daily snapshot in `social/seo_posts_log.json`** — I update it; the user reads it. That's the only "report" needed.
+3. **Make the decisions only the user can make:** Path C (stop GHP), real-money budget changes, anything that requires the user's legal identity (LLC tax filings, bank changes), anything spending money.
+4. **Read `~/.ghp-loop/logs/<today>.log`** in the morning. That's the report.
 
 ### What the user does NOT do
-1. **Do not ask me to "post more content."** Forbidden by the CEO prompt until Stage-1 evaluates. Adding posts before then dilutes the signal.
+1. **Do not type the loop prompt manually.** It's automated. Manual runs are fine for testing or reaction to news, but not the default.
 2. **Do not ask me to rebuild infrastructure, agents, or the flywheel.** Already have 100x more system than revenue.
-3. **Do not get frustrated when a session produces no revenue change.** That is the expected outcome of every session for ~30 more days. Revenue change requires Google to index + rank + a buyer to convert; none of those are this-session work.
+3. **Do not get frustrated when a session produces no revenue change.** That is the expected outcome of every session for ~30 more days.
+
+### What I do with my expanded autonomy (concrete rules)
+- **Replies to humans:** ship them same-session. Never queue replies. A 6-hour delay on a comment kills the conversion.
+- **New program signup:** before signing up, document the program in `social/affiliate_programs.json` with: program name, commission rate (verified by reading their public payout page), cookie window, niche fit, why GHP would qualify. Then sign up. Then add the verified rate to the link registry.
+- **Cold outreach to creators:** still gated. Need at least one demonstrated conversion or one verifiable commission rate I'm pitching. Never invented numbers. Never "$17/click" claims again.
+- **Account credentials:** I create the account, choose a strong password via `openssl rand -base64 24`, store it in `~/.ghp-loop/credentials.env` (chmod 600), commit nothing containing secrets. User has read access at any time.
 
 ### What to expect
 - **Most days: $0 change in revenue.** Real outcome = "one improvement queue item shipped, logged, committed."
