@@ -1,0 +1,75 @@
+{
+  "date": "2026-05-10",
+  "agent": "engagement-monitor",
+  "metrics": {
+    "subscribers": 6690,
+    "total_views": 20043,
+    "total_videos": 129
+  },
+  "top_videos": [
+    {
+      "title": "I Had Four Years Of Bottles Falling On My Feet Every Morning",
+      "views": 171,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "The Hallway Light That Turns Itself On \u2014 Saved Our Toes #sho",
+      "views": 107,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "My Couch Looked 10 Years Old. $39 Made It Look New. #shorts ",
+      "views": 13,
+      "likes": 1,
+      "comments": 1
+    },
+    {
+      "title": "I Stopped Sleeping Wrong After I Bought This Pillow #shorts ",
+      "views": 11,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "These LED Strips Made My Bedroom Feel Like a Hotel Suite #sh",
+      "views": 3,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Room by Room Ep 4: The Bedroom Closet That Finally Makes Sen",
+      "views": 3,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "The Under-Sink Cabinet I Avoided For 4 Years \u2014 $32 Fixed It ",
+      "views": 2,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "The $5 Paste That Cleaned My Stovetop in 30 Seconds #shorts ",
+      "views": 0,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Freezer Burn Cost Me $400 Last Year. Not Anymore. #shorts #a",
+      "views": 0,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "I Tested Every Sponge. Only One Survived. #shorts #amazonfin",
+      "views": 0,
+      "likes": 0,
+      "comments": 1
+    }
+  ],
+  "comments_responded": 0,
+  "actions_taken": [
+    "Updated BUSINESS_BRAIN.md metrics"
+  ]
+}
