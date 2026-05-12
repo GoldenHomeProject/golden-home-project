@@ -65,13 +65,34 @@ Output format: STRICT JSON — no prose, no fences."""
 
 
 def pick_topic() -> dict | None:
-    """Pull the highest-composite opportunity from today's trend feed."""
+    """Pull the highest-composite opportunity from today's trend feed.
+
+    Hard rule (2026-05-11, CEO directive + GSC sandbox protection):
+    skip any topic whose product_category, specific_product, or keyword
+    matches the existing COVER cluster (sofa/couch/slipcover/furniture
+    cover). The 8 COVER posts published 2026-04-22→05-06 are the only
+    primary signal for the 2026-06-05 Stage-1 GSC evaluation; adding
+    another COVER post before then pollutes that test. Non-COVER topics
+    pass through normally.
+    """
     if not TREND_FEED.exists():
         print("[blog-writer] No trend feed available.")
         return None
     feed = json.loads(TREND_FEED.read_text())
     opps = feed.get("opportunities", [])
-    return opps[0] if opps else None
+
+    cover_terms = ("cover", "slipcover", "couch", "sofa", "loveseat", "sectional")
+    for opp in opps:
+        haystack = " ".join(
+            str(opp.get(k, "")).lower()
+            for k in ("product_category", "specific_product", "keyword", "title", "topic")
+        )
+        if any(term in haystack for term in cover_terms):
+            print(f"[blog-writer] SKIPPING COVER-cluster topic until 2026-06-05: {haystack[:80]}")
+            continue
+        return opp
+    print("[blog-writer] No non-COVER opportunities available today.")
+    return None
 
 
 def slugify(s: str) -> str:

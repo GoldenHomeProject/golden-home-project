@@ -163,8 +163,21 @@ PAGES_BASE = "https://goldenhomeproject.com/videos/transformation"
 FB_PAGE_ID = "973754055831729"
 
 
-def amazon(asin, tag):
-    return f"https://www.amazon.com/dp/{asin}?tag={tag}"
+def amazon(asin, tag, channel=None, date=None):
+    """Build Amazon affiliate URL with per-channel ascsubtag for attribution.
+
+    `channel` examples: "yt" (YouTube), "ig" (Instagram), "fb" (Facebook).
+    Subtag format: ghp-<channel>-YYYYMMDD. When ANY revenue arrives in the
+    Amazon Associates earnings report, we can read this subtag to know which
+    channel produced it. Per CLAUDE_GHP_CEO.md parallel-tracks rule (2026-05-11):
+    a piece of content that ships without a unique subtag does NOT count toward
+    the parallel-channel test.
+    """
+    url = f"https://www.amazon.com/dp/{asin}?tag={tag}"
+    if channel:
+        d = (date or datetime.now().strftime("%Y%m%d")).replace("-", "")
+        url += f"&ascsubtag=ghp-{channel}-{d}"
+    return url
 
 
 def today_str():
@@ -192,11 +205,11 @@ def refresh_yt_token(token_path):
     raise RuntimeError(f"Token refresh failed: {result}")
 
 
-def build_description(title, products, tag):
+def build_description(title, products, tag, channel="yt"):
     lines = [title, "", "🔥 SHOP THESE PRODUCTS:"]
     for i, p in enumerate(products):
         lines.append(f"#{i+1} {p['name']} — {p['price']}")
-        lines.append(f"   ➡️ {amazon(p['asin'], tag)}")
+        lines.append(f"   ➡️ {amazon(p['asin'], tag, channel=channel)}")
     lines += [
         "", "Everything is linked above. Ships fast from Amazon.",
         "🏠 More home finds: goldenhomeproject.com",
@@ -207,12 +220,12 @@ def build_description(title, products, tag):
     return "\n".join(lines)
 
 
-def build_pin_comment(products, tag):
+def build_pin_comment(products, tag, channel="yt"):
     lines = ["📌 SHOP ALL PRODUCTS — Amazon links:\n"]
     symbols = "①②③④⑤"
     for i, p in enumerate(products[:5]):
         lines.append(f"{symbols[i]} {p['name']} — {p['price']}")
-        lines.append(f"   🛒 {amazon(p['asin'], tag)}")
+        lines.append(f"   🛒 {amazon(p['asin'], tag, channel=channel)}")
     lines += ["", "🏠 goldenhomeproject.com",
               "⚠️ Amazon Associate — qualifying purchases earn commission."]
     return "\n".join(lines)
@@ -398,8 +411,8 @@ def main():
     # caption_override lets DM-funnel reels ship their hand-crafted captions
     # (with "Comment KEYWORD..." CTA) instead of the legacy product-list description.
     caption_override = entry.get("caption_override")
-    description = caption_override or build_description(title, products, tag)
-    pin_comment = build_pin_comment(products, tag)
+    description = caption_override or build_description(title, products, tag, channel="yt")
+    pin_comment = build_pin_comment(products, tag, channel="yt")
     yt_title    = f"{title} #shorts #amazonfinds #homedecor"
 
     print(f"\n  Uploading to YouTube...")

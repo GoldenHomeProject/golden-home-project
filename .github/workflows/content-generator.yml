@@ -6,10 +6,12 @@ name: GHP Content Engine (Agent 2 — Flywheel S2)
 # Outputs: automation/scripts/reel-<date>-NNN.json + queue entries
 
 on:
-  # Cron disabled 2026-05-06 per CLAUDE_GHP_CEO.md.
-  # Reel scripts have produced $0 across 902+ Amazon clicks. Stop generating until offer/audience pivot.
-  # schedule:
-  #   - cron: '0 6 * * *'
+  # Re-enabled 2026-05-11 per CEO directive (parallel tracks + per-channel attribution).
+  # Per-channel kill: if 14 days post-resume produce $0 attributed revenue AND no leading-indicator
+  # delta (IG comments+saves, YT watch-time, click-through to /links.html), this cron pauses again
+  # and the channel is logged as dead in learnings_log.jsonl.
+  schedule:
+    - cron: '0 6 * * *'
   workflow_dispatch:
 
 permissions:

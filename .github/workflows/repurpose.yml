@@ -5,10 +5,10 @@ name: GHP Repurposer (Agent 5 — Flywheel S5)
 # Content multiplier: 1 asset → 20 derivatives
 
 on:
-  # Cron disabled 2026-05-06 per CLAUDE_GHP_CEO.md.
-  # Multiplying $0-revenue content into more $0-revenue content. Pause until source content earns.
-  # schedule:
-  #   - cron: '0 9 * * 1'
+  # Re-enabled 2026-05-11 per CEO directive. Each derivative inherits its origin's ascsubtag
+  # so we can attribute attribution from Pin/email/reel back to the source blog post.
+  schedule:
+    - cron: '0 9 * * 1'
   workflow_dispatch:
 
 permissions:

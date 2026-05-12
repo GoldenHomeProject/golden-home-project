@@ -6,10 +6,12 @@ name: GHP Daily YouTube Poster
 # NO Claude API needed — pure Python + YouTube Data API
 
 on:
-  # Cron disabled 2026-05-06 per CLAUDE_GHP_CEO.md.
-  # YouTube channel capped at 222 views; daily auto-post produces zero conversion. Stop spending compute.
-  # schedule:
-  #   - cron: '0 17 * * *'
+  # Re-enabled 2026-05-11 per CEO directive (parallel tracks).
+  # Each post carries ascsubtag=ghp-yt-YYYYMMDD on the affiliate link in the description for
+  # attribution. 14-day kill: if 0 clicks bearing this subtag arrive in Amazon Associates
+  # earnings report, this cron pauses again.
+  schedule:
+    - cron: '0 17 * * *'
   workflow_dispatch:
     inputs:
       date:

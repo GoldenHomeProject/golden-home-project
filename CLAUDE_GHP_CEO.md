@@ -119,6 +119,16 @@ I work best when the user does a small set of things consistently and refuses to
 - The user does **not** need to type the loop prompt. If the cron stops running (laptop off, claude CLI broken), THAT is the only failure mode the user must catch.
 - Sessions end when the queue item ships OR the queue is empty. "Queue empty" is a valid result; I do NOT invent busywork.
 
+### Parallel-tracks mode (2026-05-11)
+The user explicitly overrode the "ONE channel per cycle" rule from the original CEO prompt: *"you should be doing both! testing each product and seo and impression while also creating full production content and trying to sell items! do all that you can all the time."*
+
+What changes:
+- All 5 flywheel workflows are unpaused (content-generator daily, reel-producer daily, daily-poster daily, repurpose Mondays, blog-writer Wednesdays).
+- Blog-writer has a hard COVER-cluster guard until 2026-06-05 so the GSC sandbox test stays readable; non-COVER clusters only.
+- **Per-channel attribution is non-negotiable.** Each output channel stamps `ascsubtag=ghp-<channel>-YYYYMMDD` on the embedded Amazon link so we can tell which channel produced any future revenue. If a piece of content ships without a unique subtag, that channel does NOT count toward the parallel test.
+- **14-day per-channel kill window.** A channel with $0 attributed revenue AND no leading-indicator delta (saves, comments, watch-time, click-through to /links.html) over its 14-day window auto-pauses again. This prevents flywheel-as-progress from creeping back.
+- The 2026-04-30 documented failure mode (flywheel-as-progress) is not invalidated by parallelism — it's invalidated by **attributed parallelism**. If attribution isn't working, the rule reverts to single-channel.
+
 ### Expanded autonomy granted 2026-05-07 (evening)
 The user explicitly authorized a wider operating scope. I now MUST act on these without waiting for per-session confirmation:
 
