@@ -20,12 +20,12 @@ Each item is a concrete on-page or research task that compounds when traffic eve
 
 ### Medium leverage
 - [ ] **Table-of-Contents block + jump-link anchors** on long posts. Increases dwell time signal; helps featured-snippet eligibility for "how do I..." queries within the post.
-- [ ] **Comparison table** added to at least one pillar post: Mamma Mia vs SureFit vs RHF (the actual competitors per Good Housekeeping list). Tables get featured-snippet treatment in SERP ~3x more than prose.
+- [x] ~~**Comparison table** added to at least one pillar post: Mamma Mia vs SureFit vs RHF (the actual competitors per Good Housekeeping list). Tables get featured-snippet treatment in SERP ~3x more than prose.~~ **[done 2026-05-12 PENDING_SHA]** — Inserted 6-row spec comparison table into the 2026-04-23 pillar post (stretch axis, waterproof layer, anchor system, construction, machine washable, price). Mamma Mia column reflects 6-week hands-on testing; SureFit + RHF columns sourced from public Amazon listings (SureFit Stretch Pique 94/6 poly-spandex bi-elastic; RHF Reversible Pet Cover not advertised waterproof). Source caption attributes manufacturer claims explicitly per the 2026-05-03 unverified-claim rule. Bumped schema dateModified to 2026-05-12 (honest — content materially changed) and added visible "Updated 2026-05-12" line. Validated: all 3 JSON-LD blocks parse, table renders with mobile fallback CSS, affiliate link preserved.
 - [ ] **FAQ rotation:** current 6 questions are near-duplicates across all 8 posts. Diversify to 8-10 unique questions per post by mining "People Also Ask" boxes. Each unique question is a separate search-eligible snippet.
 - [ ] **Last-modified dates** in schema + visible body. "Updated 2026-XX-XX" beats "Published 2026-04-23" for evergreen review intent.
 
 ### Low-but-easy
-- [ ] **Canonical URL tags** explicitly set per post (rel="canonical"). Cluster has near-duplicate content; explicit canonicals prevent Google picking the wrong one.
+- [x] ~~**Canonical URL tags** explicitly set per post (rel="canonical"). Cluster has near-duplicate content; explicit canonicals prevent Google picking the wrong one.~~ **[N/A 2026-05-12]** — Verified all 8 COVER posts already carry self-referential `<link rel="canonical" href="https://goldenhomeproject.com/blog/posts/...">` tags (line 8 of each file). Likely set during the original post template or schema-injection commits. Second occurrence of the 2026-05-11 alt-text pattern: past-me wrote a queue item without verifying actual DOM state. Logging again so the failure mode stays visible.
 - [ ] **Schema validation pass:** run all 8 posts through schema.org validator, fix any warnings. (Already JSON-valid; this is markup-validity check.)
 - [ ] **Mobile viewport / preload hints** in `<head>` for Core Web Vitals.
 
