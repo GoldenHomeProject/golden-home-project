@@ -24,10 +24,67 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 # ── Paths (relative to repo root in GitHub Actions checkout)
-REPO_ROOT  = Path(__file__).parent.parent
-VIDEOS_DIR = REPO_ROOT / "videos" / "transformation"
-LOGS_DIR   = Path(__file__).parent / "logs"
+REPO_ROOT   = Path(__file__).parent.parent
+VIDEOS_DIR  = REPO_ROOT / "videos" / "transformation"
+REELS_DIR   = REPO_ROOT / "social" / "reels"
+SCRIPTS_DIR = REPO_ROOT / "automation" / "scripts"
+LOGS_DIR    = Path(__file__).parent / "logs"
 LOGS_DIR.mkdir(exist_ok=True)
+
+
+def pick_dynamic_entry(date_str):
+    """Build a daily-poster entry from today's reel-producer output.
+
+    Looks for `automation/scripts/reel-<date>-NNN.json` produced by the
+    content-engine; if a matching MP4 exists in `social/reels/`, returns
+    an entry shape compatible with APRIL_CALENDAR. Returns None if no
+    fresh content for `date_str` is available.
+
+    This fixes the 2026-05-12 bug where the cloud cron returned
+    "no_content_scheduled" because APRIL_CALENDAR was hard-coded through
+    2026-05-10. With this function, parallel-channel attribution
+    (prediction #8) becomes testable on the YT side because every reel
+    the flywheel renders is now eligible to post.
+    """
+    if not SCRIPTS_DIR.exists():
+        return None
+    candidates = sorted(SCRIPTS_DIR.glob(f"reel-{date_str}-*.json"), reverse=True)
+    for script_path in candidates:
+        try:
+            data = json.loads(script_path.read_text())
+        except (json.JSONDecodeError, OSError):
+            continue
+        seq = data.get("seq") or script_path.stem.split("-")[-1]
+        if isinstance(seq, int):
+            seq = f"{seq:03d}"
+        video_path = REELS_DIR / f"reel-{date_str}-{seq}.mp4"
+        if not video_path.exists():
+            continue
+        aff = data.get("affiliate_strategy") or {}
+        asin = aff.get("amazon_asin")
+        if not asin:
+            # Without an ASIN we cannot attribute revenue, so skip rather than
+            # post an unattributed reel that would degrade prediction #8.
+            print(f"  [dynamic] {script_path.name} has no amazon_asin — skipping")
+            continue
+        title = (data.get("hook") or data.get("title") or "").strip().rstrip(".")
+        if not title:
+            continue
+        return {
+            "date": date_str,
+            "title": title[:95],
+            "video_file": video_path.name,
+            "video_dir": "reels",  # signals main() to look in REELS_DIR, not VIDEOS_DIR
+            "products": [{
+                "asin": asin,
+                "name": aff.get("primary_product") or "Amazon Find",
+                "price": aff.get("price", ""),
+            }],
+            "ig": True,  # ship to IG every day, not just Saturday, when content is fresh
+            "caption_override": data.get("caption", "").strip() or None,
+            "source": str(script_path.relative_to(REPO_ROOT)),
+        }
+    return None
 
 # Content calendar (April 2026)
 APRIL_CALENDAR = [
@@ -160,7 +217,18 @@ APRIL_CALENDAR = [
 ]
 
 PAGES_BASE = "https://goldenhomeproject.com/videos/transformation"
+PAGES_REELS_BASE = "https://goldenhomeproject.com/social/reels"
 FB_PAGE_ID = "973754055831729"
+
+
+def pages_video_url(video_file, video_dir=None):
+    """Resolve the public GitHub Pages URL for a daily-poster video.
+
+    `video_dir == "reels"` -> social/reels/<file> (dynamic reel-producer output).
+    Anything else -> videos/transformation/<file> (legacy APRIL_CALENDAR videos).
+    """
+    base = PAGES_REELS_BASE if video_dir == "reels" else PAGES_BASE
+    return f"{base}/{video_file}"
 
 
 def amazon(asin, tag, channel=None, date=None):
@@ -283,12 +351,13 @@ def post_yt_short(video_path, title, description, pin_comment, yt_token):
     return video_id
 
 
-def post_fb_page_video(video_file, title, description, meta_tokens):
+def post_fb_page_video(video_file, title, description, meta_tokens, video_dir=None):
     """Post the daily reel as a video to the FB Page via Graph API.
     Uses file_url since GitHub Pages already hosts the .mp4 publicly.
-    `video_file` is the bare filename (e.g. trans_003.mp4 or reel_2026-04-29_LINK.mp4)."""
+    `video_file` is the bare filename (e.g. trans_003.mp4 or reel_2026-04-29_LINK.mp4).
+    `video_dir == "reels"` routes the file_url at social/reels/ for dynamic reel-producer output."""
     token = meta_tokens["page_access_token"]
-    video_url = f"{PAGES_BASE}/{video_file}"
+    video_url = pages_video_url(video_file, video_dir=video_dir)
     api = "https://graph.facebook.com/v21.0"
 
     resp = requests.post(f"{api}/{FB_PAGE_ID}/videos", data={
@@ -306,10 +375,10 @@ def post_fb_page_video(video_file, title, description, meta_tokens):
     return None
 
 
-def post_ig_reel(video_file, caption, meta_tokens):
+def post_ig_reel(video_file, caption, meta_tokens, video_dir=None):
     token = meta_tokens["page_access_token"]
     ig_id = meta_tokens["ig_business_account_id"]
-    video_url = f"{PAGES_BASE}/{video_file}"
+    video_url = pages_video_url(video_file, video_dir=video_dir)
     api = "https://graph.facebook.com/v19.0"
 
     resp = requests.post(f"{api}/{ig_id}/media", data={
@@ -364,20 +433,31 @@ def main():
     print(f"GHP DAILY POSTER (GitHub Actions) — {today}")
     print(f"{'='*60}")
 
-    # Find today's entry
+    # Find today's entry.
+    # Priority: (1) APRIL_CALENDAR static entry, (2) dynamic reel-producer output
+    # under automation/scripts/reel-<date>-NNN.json + social/reels/<...>.mp4.
+    # The dynamic fallback fixes the 2026-05-12 "no_content_scheduled" bug — see
+    # social/improvement_queue.md TOP PRIORITY 2026-05-13 — and keeps the YT half
+    # of prediction #8 (parallel-channel attribution) testable.
     entry = next((e for e in APRIL_CALENDAR if e["date"] == today), None)
+    source = "calendar"
     if not entry:
-        # Loud, machine-visible warning so gaps in the content calendar don't hide
+        entry = pick_dynamic_entry(today)
+        source = "reel_producer" if entry else None
+    if not entry:
+        # Loud, machine-visible warning so gaps in the content pipeline don't hide
         # behind a silent green GitHub Actions run.
-        print(f"::warning title=No content scheduled::APRIL_CALENDAR has no entry for {today}. "
-              f"Calendar ends {APRIL_CALENDAR[-1]['date']}. Add new entries to extend posting.")
-        print(f"  No content scheduled for {today}. Done.")
+        print(f"::warning title=No content available::No APRIL_CALENDAR entry and no "
+              f"reel-producer output found for {today}. Calendar ends "
+              f"{APRIL_CALENDAR[-1]['date']}; checked automation/scripts/reel-{today}-*.json.")
+        print(f"  No content available for {today}. Done.")
         # Record the gap so engagement-monitor / humans can see the miss in repo.
         log_path = LOGS_DIR / f"gh_post_{today}.json"
         log_path.write_text(json.dumps({
             "date": today,
-            "status": "no_content_scheduled",
+            "status": "no_content_available",
             "calendar_last_date": APRIL_CALENDAR[-1]["date"],
+            "checked_dynamic_path": f"automation/scripts/reel-{today}-*.json",
         }, indent=2))
         sys.exit(0)
 
@@ -390,7 +470,8 @@ def main():
     else:
         video_index = entry.get("video") or (APRIL_CALENDAR.index(entry) + 1)
         video_file = f"trans_{video_index:03d}.mp4"
-    video_path = VIDEOS_DIR / video_file
+    video_dir = entry.get("video_dir")  # "reels" for dynamic entries; None = legacy
+    video_path = (REELS_DIR if video_dir == "reels" else VIDEOS_DIR) / video_file
 
     title    = entry["title"]
     products = entry.get("products", [])
@@ -432,13 +513,13 @@ def main():
                 + "\n\nAll links in bio — goldenhomeproject.com 🔗\n\n"
                 + "#amazonfinds #homedecor #homeorganization #roomtransformation"
             )
-        ig_id = post_ig_reel(video_file, ig_caption, meta_tokens)
+        ig_id = post_ig_reel(video_file, ig_caption, meta_tokens, video_dir=video_dir)
 
     print(f"\n  Posting to Facebook Page...")
-    fb_id = post_fb_page_video(video_file, title, description, meta_tokens)
+    fb_id = post_fb_page_video(video_file, title, description, meta_tokens, video_dir=video_dir)
 
     log = {"date": today, "title": title, "youtube": yt_id, "instagram": ig_id,
-           "facebook": fb_id, "video": video_file}
+           "facebook": fb_id, "video": video_file, "source": source}
     log_path = LOGS_DIR / f"gh_post_{today}.json"
     with open(log_path, "w") as f:
         json.dump(log, f, indent=2)
