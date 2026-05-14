@@ -53,9 +53,10 @@ BANNED_HYPE_WORDS = [
 ]
 
 FALSIFIABLE_PATTERN = re.compile(
-    r"(\b\d+\s*(in|inch|inches|lb|lbs|oz|ml|ft|feet|cm|mm|year|yr|month|day|hour|minute|star|review)s?\b"
+    r"(\b\d+\s*(in|inch|inches|lb|lbs|oz|ml|ft|feet|cm|mm|year|yr|month|day|hour|minute|star|review|degree|deg|tier)s?\b"
     r"|\b\d+[,.]?\d*\s*(reviews?|ratings?|stars?)\b"
-    r"|\b\d+%\b"
+    r"|\b\d+%"                  # BUG-FIX 2026-05-13: dropped trailing \b — '%' is non-word so '\b' before whitespace never fires; killed every percent-bearing caption for 3+ weeks
+    r"|\$\d+(?!\s+(turned|made|fixed|spent))"  # $-amount as falsifiable detail, NOT as banned opener
     r"|\b\d+\s*piece\b)",
     re.IGNORECASE,
 )
