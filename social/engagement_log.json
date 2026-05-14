@@ -1,39 +1,312 @@
 {
   "_doc": "Daily engagement actions taken via Chrome MCP per automation/agents/daily_engagement_chrome.md. Append-only. Summary updated at top each session.",
   "summary": {
-    "lifetime_follows": 10,
-    "lifetime_likes": 9,
+    "lifetime_follows": 11,
+    "lifetime_likes": 20,
     "lifetime_comments": 5,
-    "last_session": "2026-04-30",
+    "last_session": "2026-05-14",
     "blocked_at": null
   },
   "actions": [
-    {"date": "2026-04-30", "action": "follow", "target_handle": "@foreverhomejune19", "target_reel_url": null, "result": "success", "note": "161K-like undersink reel — viral"},
-    {"date": "2026-04-30", "action": "like", "target_handle": "@foreverhomejune19", "target_reel_url": null, "result": "success"},
-    {"date": "2026-04-30", "action": "comment", "target_handle": "@foreverhomejune19", "target_reel_url": null, "result": "success", "note": "thoughtful 2-sentence comment on undersink reel"},
-    {"date": "2026-04-30", "action": "follow", "target_handle": "@savourygirll", "target_reel_url": null, "result": "success", "note": "106K-like fridgescaping verified creator"},
-    {"date": "2026-04-30", "action": "like", "target_handle": "@savourygirll", "target_reel_url": null, "result": "success"},
-    {"date": "2026-04-30", "action": "comment", "target_handle": "@savourygirll", "target_reel_url": null, "result": "success"},
-    {"date": "2026-04-30", "action": "follow", "target_handle": "@torilanaee", "target_reel_url": null, "result": "success", "note": "192K followers, RESTOCK→DM funnel peer"},
-    {"date": "2026-04-30", "action": "like", "target_handle": "@torilanaee", "target_reel_url": null, "result": "success"},
-    {"date": "2026-04-30", "action": "comment", "target_handle": "@torilanaee", "target_reel_url": null, "result": "success"},
-    {"date": "2026-04-30", "action": "follow", "target_handle": "@kate_cleanhome", "target_reel_url": null, "result": "success", "note": "verified, clean home niche"},
-    {"date": "2026-04-30", "action": "follow", "target_handle": "@kaylagresh", "target_reel_url": null, "result": "success", "note": "verified, suggested by torilanaee"},
-    {"date": "2026-04-30", "action": "follow", "target_handle": "@mikayla.mcneany", "target_reel_url": null, "result": "success"},
-    {"date": "2026-04-30", "action": "follow", "target_handle": "@maddycorbin", "target_reel_url": null, "result": "success", "note": "verified"},
-    {"date": "2026-04-30", "action": "follow", "target_handle": "@miyaeva", "target_reel_url": null, "result": "success", "note": "verified"},
-    {"date": "2026-04-30", "action": "follow", "target_handle": "@victoriaxlightfoot", "target_reel_url": null, "result": "success", "note": "verified"},
-    {"date": "2026-04-30", "action": "like", "target_handle": "@homeatmerlingardens", "target_reel_url": "https://www.instagram.com/p/DQTbIGxCFa9/", "result": "success", "note": "262-like undersink/bathroom reel, vonhaus.uk sponsorship"},
-    {"date": "2026-04-30", "action": "like", "target_handle": "@gemmamgoldsmith", "target_reel_url": "https://www.instagram.com/p/C9MMqdXqqUl/", "result": "success", "note": "46.4K-like verified undersink reel, runs same Link comment-to-DM funnel as us"},
-    {"date": "2026-04-30", "action": "comment", "target_handle": "@gemmamgoldsmith", "target_reel_url": "https://www.instagram.com/p/C9MMqdXqqUl/", "comment_text": "the fact that it still looks tidy a year later is the real selling point. most undersink hacks fall apart by month three", "result": "success"},
-    {"date": "2026-04-30", "action": "follow", "target_handle": "@gemmamgoldsmith", "target_reel_url": null, "result": "success", "note": "verified, niche-perfect, 46K+ likes/post, runs Link funnel — last follow slot today"},
-    {"date": "2026-04-30", "action": "like", "target_handle": "@sc_lovemyhome", "target_reel_url": "https://www.instagram.com/p/C5dEXA_rz66/", "result": "success"},
-    {"date": "2026-04-30", "action": "like", "target_handle": "@kubra.motherhood1", "target_reel_url": "https://www.instagram.com/p/DPRMvZ9DnkN/", "result": "success"},
-    {"date": "2026-04-30", "action": "like", "target_handle": "@fionadeeayewhy", "target_reel_url": "https://www.instagram.com/p/DUiWUt8DALr/", "result": "success", "note": "13.7K-like IKEA undersink hack"},
-    {"date": "2026-04-30", "action": "comment", "target_handle": "@fionadeeayewhy", "target_reel_url": "https://www.instagram.com/p/DUiWUt8DALr/", "comment_text": "the size-down for a tiny bathroom is so smart. iron-on edge band tape from the same aisle holds up to splashes better than silicone if anyone wants to seal the cut", "result": "success"},
-    {"date": "2026-04-30", "action": "like", "target_handle": "@idlivesimply", "target_reel_url": "https://www.instagram.com/p/B4XnbVJF9Jv/", "result": "success"},
-    {"date": "2026-04-30", "action": "like", "target_handle": "@at_sadieshome", "target_reel_url": "https://www.instagram.com/p/C87dKEoqlVD/", "result": "success"},
-    {"date": "2026-04-30", "action": "like", "target_handle": "@thriftstorefindsus", "target_reel_url": "https://www.instagram.com/p/DQHeD-Cicmr/", "result": "success"},
-    {"date": "2026-04-30", "action": "like", "target_handle": "@amandahomeandlifestyle_", "target_reel_url": "https://www.instagram.com/p/CnxDLG2LqWJ/", "result": "success"}
+    {
+      "date": "2026-04-30",
+      "action": "follow",
+      "target_handle": "@foreverhomejune19",
+      "target_reel_url": null,
+      "result": "success",
+      "note": "161K-like undersink reel \u2014 viral"
+    },
+    {
+      "date": "2026-04-30",
+      "action": "like",
+      "target_handle": "@foreverhomejune19",
+      "target_reel_url": null,
+      "result": "success"
+    },
+    {
+      "date": "2026-04-30",
+      "action": "comment",
+      "target_handle": "@foreverhomejune19",
+      "target_reel_url": null,
+      "result": "success",
+      "note": "thoughtful 2-sentence comment on undersink reel"
+    },
+    {
+      "date": "2026-04-30",
+      "action": "follow",
+      "target_handle": "@savourygirll",
+      "target_reel_url": null,
+      "result": "success",
+      "note": "106K-like fridgescaping verified creator"
+    },
+    {
+      "date": "2026-04-30",
+      "action": "like",
+      "target_handle": "@savourygirll",
+      "target_reel_url": null,
+      "result": "success"
+    },
+    {
+      "date": "2026-04-30",
+      "action": "comment",
+      "target_handle": "@savourygirll",
+      "target_reel_url": null,
+      "result": "success"
+    },
+    {
+      "date": "2026-04-30",
+      "action": "follow",
+      "target_handle": "@torilanaee",
+      "target_reel_url": null,
+      "result": "success",
+      "note": "192K followers, RESTOCK\u2192DM funnel peer"
+    },
+    {
+      "date": "2026-04-30",
+      "action": "like",
+      "target_handle": "@torilanaee",
+      "target_reel_url": null,
+      "result": "success"
+    },
+    {
+      "date": "2026-04-30",
+      "action": "comment",
+      "target_handle": "@torilanaee",
+      "target_reel_url": null,
+      "result": "success"
+    },
+    {
+      "date": "2026-04-30",
+      "action": "follow",
+      "target_handle": "@kate_cleanhome",
+      "target_reel_url": null,
+      "result": "success",
+      "note": "verified, clean home niche"
+    },
+    {
+      "date": "2026-04-30",
+      "action": "follow",
+      "target_handle": "@kaylagresh",
+      "target_reel_url": null,
+      "result": "success",
+      "note": "verified, suggested by torilanaee"
+    },
+    {
+      "date": "2026-04-30",
+      "action": "follow",
+      "target_handle": "@mikayla.mcneany",
+      "target_reel_url": null,
+      "result": "success"
+    },
+    {
+      "date": "2026-04-30",
+      "action": "follow",
+      "target_handle": "@maddycorbin",
+      "target_reel_url": null,
+      "result": "success",
+      "note": "verified"
+    },
+    {
+      "date": "2026-04-30",
+      "action": "follow",
+      "target_handle": "@miyaeva",
+      "target_reel_url": null,
+      "result": "success",
+      "note": "verified"
+    },
+    {
+      "date": "2026-04-30",
+      "action": "follow",
+      "target_handle": "@victoriaxlightfoot",
+      "target_reel_url": null,
+      "result": "success",
+      "note": "verified"
+    },
+    {
+      "date": "2026-04-30",
+      "action": "like",
+      "target_handle": "@homeatmerlingardens",
+      "target_reel_url": "https://www.instagram.com/p/DQTbIGxCFa9/",
+      "result": "success",
+      "note": "262-like undersink/bathroom reel, vonhaus.uk sponsorship"
+    },
+    {
+      "date": "2026-04-30",
+      "action": "like",
+      "target_handle": "@gemmamgoldsmith",
+      "target_reel_url": "https://www.instagram.com/p/C9MMqdXqqUl/",
+      "result": "success",
+      "note": "46.4K-like verified undersink reel, runs same Link comment-to-DM funnel as us"
+    },
+    {
+      "date": "2026-04-30",
+      "action": "comment",
+      "target_handle": "@gemmamgoldsmith",
+      "target_reel_url": "https://www.instagram.com/p/C9MMqdXqqUl/",
+      "comment_text": "the fact that it still looks tidy a year later is the real selling point. most undersink hacks fall apart by month three",
+      "result": "success"
+    },
+    {
+      "date": "2026-04-30",
+      "action": "follow",
+      "target_handle": "@gemmamgoldsmith",
+      "target_reel_url": null,
+      "result": "success",
+      "note": "verified, niche-perfect, 46K+ likes/post, runs Link funnel \u2014 last follow slot today"
+    },
+    {
+      "date": "2026-04-30",
+      "action": "like",
+      "target_handle": "@sc_lovemyhome",
+      "target_reel_url": "https://www.instagram.com/p/C5dEXA_rz66/",
+      "result": "success"
+    },
+    {
+      "date": "2026-04-30",
+      "action": "like",
+      "target_handle": "@kubra.motherhood1",
+      "target_reel_url": "https://www.instagram.com/p/DPRMvZ9DnkN/",
+      "result": "success"
+    },
+    {
+      "date": "2026-04-30",
+      "action": "like",
+      "target_handle": "@fionadeeayewhy",
+      "target_reel_url": "https://www.instagram.com/p/DUiWUt8DALr/",
+      "result": "success",
+      "note": "13.7K-like IKEA undersink hack"
+    },
+    {
+      "date": "2026-04-30",
+      "action": "comment",
+      "target_handle": "@fionadeeayewhy",
+      "target_reel_url": "https://www.instagram.com/p/DUiWUt8DALr/",
+      "comment_text": "the size-down for a tiny bathroom is so smart. iron-on edge band tape from the same aisle holds up to splashes better than silicone if anyone wants to seal the cut",
+      "result": "success"
+    },
+    {
+      "date": "2026-04-30",
+      "action": "like",
+      "target_handle": "@idlivesimply",
+      "target_reel_url": "https://www.instagram.com/p/B4XnbVJF9Jv/",
+      "result": "success"
+    },
+    {
+      "date": "2026-04-30",
+      "action": "like",
+      "target_handle": "@at_sadieshome",
+      "target_reel_url": "https://www.instagram.com/p/C87dKEoqlVD/",
+      "result": "success"
+    },
+    {
+      "date": "2026-04-30",
+      "action": "like",
+      "target_handle": "@thriftstorefindsus",
+      "target_reel_url": "https://www.instagram.com/p/DQHeD-Cicmr/",
+      "result": "success"
+    },
+    {
+      "date": "2026-04-30",
+      "action": "like",
+      "target_handle": "@amandahomeandlifestyle_",
+      "target_reel_url": "https://www.instagram.com/p/CnxDLG2LqWJ/",
+      "result": "success"
+    },
+    {
+      "date": "2026-05-14",
+      "action": "like",
+      "target_handle": "@moonsleep.co",
+      "target_reel_url": "https://www.instagram.com/p/DVrZkyRCbMw/",
+      "result": "success",
+      "note": "2.6M-like body pillow reel, #sidesleeper"
+    },
+    {
+      "date": "2026-05-14",
+      "action": "like",
+      "target_handle": "@andreja.elena",
+      "target_reel_url": "https://www.instagram.com/p/CqG6h53pyai/",
+      "result": "success",
+      "note": "verified Amazon Bedroom Find sidesleeperpillow"
+    },
+    {
+      "date": "2026-05-14",
+      "action": "like",
+      "target_handle": "@themaddiehaven",
+      "target_reel_url": "https://www.instagram.com/p/DVJ1IkCkYRL/",
+      "result": "success",
+      "note": "Coop Sleep Goods side+stomach sleeper pillow, comment-SHOP DM funnel"
+    },
+    {
+      "date": "2026-05-14",
+      "action": "like",
+      "target_handle": "@glowwithava",
+      "target_reel_url": "https://www.instagram.com/p/DMVOb-Jpcuj/",
+      "result": "success",
+      "note": "verified, side sleeper pillow, comment-Sleep DM funnel"
+    },
+    {
+      "date": "2026-05-14",
+      "action": "like",
+      "target_handle": "@goodvibesfinderr",
+      "target_reel_url": "https://www.instagram.com/p/DWTmVutAKg8/",
+      "result": "success",
+      "note": "62-like body pillow #sleepbetter \u2014 small reciprocity target"
+    },
+    {
+      "date": "2026-05-14",
+      "action": "like",
+      "target_handle": "@lifetipsfromus",
+      "target_reel_url": "https://www.instagram.com/p/Cr04v_psnnu/",
+      "result": "success",
+      "note": "verified 425K likes Amazon Storefront Bedroom Favorites \u2014 same comment-Links funnel"
+    },
+    {
+      "date": "2026-05-14",
+      "action": "like",
+      "target_handle": "@viralcoolproducts",
+      "target_reel_url": "https://www.instagram.com/p/DTbJ_leCXQj/",
+      "result": "success",
+      "note": "ergonomic side sleeper pillow comment-Sleep funnel"
+    },
+    {
+      "date": "2026-05-14",
+      "action": "like",
+      "target_handle": "@sleepyheadnz",
+      "target_reel_url": "https://www.instagram.com/p/DWSxC2MGWPS/",
+      "result": "success",
+      "note": "tiny 5-like carousel \u2014 6th liker high reciprocity signal"
+    },
+    {
+      "date": "2026-05-14",
+      "action": "like",
+      "target_handle": "@eliandelm",
+      "target_reel_url": "https://www.instagram.com/p/DTsX5tmD5-C/",
+      "result": "success",
+      "note": "our PILLOW DM funnel brand (Impact 20% commission). 11->12 likes"
+    },
+    {
+      "date": "2026-05-14",
+      "action": "follow",
+      "target_handle": "@eliandelm",
+      "target_reel_url": null,
+      "result": "success",
+      "note": "strategic follow \u2014 our affiliate partner brand"
+    },
+    {
+      "date": "2026-05-14",
+      "action": "like",
+      "target_handle": "@shopdulvo",
+      "target_reel_url": "https://www.instagram.com/p/DXxPHzRyn4O/",
+      "result": "success",
+      "note": "pillow speaker #sidesleeper #pillowspeaker"
+    },
+    {
+      "date": "2026-05-14",
+      "action": "like",
+      "target_handle": "@anadovada",
+      "target_reel_url": "https://www.instagram.com/p/DQH5ZG6krYB/",
+      "result": "success",
+      "note": "reviewing Eli & Elm side sleeper pillow \u2014 same product we promote"
+    }
   ]
 }
