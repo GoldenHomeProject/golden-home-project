@@ -162,11 +162,15 @@ def _disclosure_for(registry_entry: dict) -> str:
     actual destination. Keywords rerouted to Impact direct merchants must
     NOT claim to be Amazon affiliate links — that's both inaccurate and
     weakens FTC compliance.
+
+    BUG-FIX 2026-05-14: the registry uses subnet-qualified network names
+    ("impact_direct", "impact_maas_to_amazon"); the prior exact-match
+    against "impact" silently fell through to the Amazon default, so
+    every Impact-rerouted reel for 3+ weeks claimed "Amazon affiliate"
+    when the link actually pays via Impact. Now matches by prefix.
     """
     network = (registry_entry or {}).get("affiliate_network", "amazon").lower()
-    if network == "impact":
-        return "Affiliate link — I earn a small commission at no extra cost to you."
-    if network == "cj":
+    if network.startswith("impact") or network.startswith("cj") or network.startswith("shareasale") or network.startswith("awin"):
         return "Affiliate link — I earn a small commission at no extra cost to you."
     # default: Amazon Associates
     return "Amazon affiliate — I earn a small commission at no extra cost to you."
@@ -304,6 +308,15 @@ def generate_scripts(opportunities: list[dict], n: int = DAILY_SCRIPT_COUNT) -> 
                 "amazon_affiliate_url": affiliate_url_for(entry["asin"]),
                 "asin_pending": False,
                 "fallback_brands": [],
+                # BUG-FIX 2026-05-14: stamp the registry's true affiliate
+                # network onto every script. Downstream (DM automation,
+                # attribution stamp, future per-channel routing) needs to
+                # know whether this is Amazon (3-4%) or Impact (~20%); the
+                # caption disclosure now also keys off this. Defaults to
+                # "amazon" for back-compat with entries that pre-date the
+                # 2026-05-03 reroutes.
+                "affiliate_network": entry.get("affiliate_network", "amazon"),
+                "affiliate_url": entry.get("affiliate_url"),
             },
         })
     return scripts

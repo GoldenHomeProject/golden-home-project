@@ -67,6 +67,28 @@ DM_CTA_PATTERN = re.compile(
     re.IGNORECASE,
 )
 
+# ASIN -> canonical brand substring(s) the primary_product MUST contain.
+# Independent second source of truth so that an inconsistent edit to
+# dm_keyword_registry.json (ASIN swapped without matching product_name swap)
+# is caught BEFORE the reel goes live. Born of the 2026-04-25 dead-ASIN
+# incident (0/902 conversion when 82% of agent-generated ASINs were
+# hallucinated). Match is case-insensitive; "any of these substrings present"
+# in primary_product. Keep this list short and only add an ASIN once its
+# Amazon listing has been manually verified — adding an unverified ASIN here
+# defeats the point of the second source of truth.
+ASIN_CANONICAL_PRODUCT = {
+    "B01M0TS64K": ["simple houseware", "sliding basket"],
+    "B07YL7VD32": ["eli & elm", "eli and elm"],
+    "B0B4SPP3ZN": ["mamma mia"],
+    "B08PP48979": ["cosori"],
+    "B09CSS6YL4": ["motion sensor night light", "led motion sensor"],
+    "B07ZL2BFMP": ["scrub daddy"],
+    "B099S9DXT7": ["govee"],
+    "B099NTSWD9": ["foodsaver"],
+    "B00DU5SRIY": ["pink stuff", "stardrops"],
+    "B00BAGTNAQ": ["chomchom", "chom chom"],
+}
+
 
 def first_n_chars(text: str, n: int = 40) -> str:
     return text.strip()[:n].lower()
@@ -81,9 +103,25 @@ def check_script(script_path: Path) -> tuple[bool, list[str]]:
 
     caption = data.get("caption", "")
     hashtags = data.get("hashtags", [])
-    primary_product = (data.get("affiliate_strategy") or {}).get("primary_product", "")
+    affiliate = data.get("affiliate_strategy") or {}
+    primary_product = affiliate.get("primary_product", "")
+    asin = (affiliate.get("amazon_asin") or "").strip().upper()
 
     reasons: list[str] = []
+
+    # 0. ASIN-to-product canonical match (added 2026-05-14, post 2026-04-25 dead-ASIN incident).
+    # If the ASIN is in our verified catalog, primary_product MUST contain one of
+    # the canonical brand substrings. Catches the failure mode where registry edits
+    # leave ASIN and product_name out of sync. Unknown ASINs are NOT auto-rejected
+    # (the catalog is opt-in, not exhaustive) — they just bypass this check.
+    if asin and asin in ASIN_CANONICAL_PRODUCT:
+        expected_any = ASIN_CANONICAL_PRODUCT[asin]
+        haystack = primary_product.lower()
+        if not any(needle.lower() in haystack for needle in expected_any):
+            reasons.append(
+                f"ASIN/product mismatch: ASIN {asin} expects one of {expected_any} "
+                f"in primary_product, got '{primary_product}'"
+            )
 
     # 1. Banned openers
     head = first_n_chars(caption, 60)
