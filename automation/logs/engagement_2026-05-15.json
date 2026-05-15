@@ -1,0 +1,77 @@
+{
+  "date": "2026-05-15",
+  "agent": "engagement-monitor",
+  "metrics": {
+    "subscribers": 6690,
+    "total_views": 20045,
+    "total_videos": 132
+  },
+  "top_videos": [
+    {
+      "title": "I Had Four Years Of Bottles Falling On My Feet Every Morning",
+      "views": 172,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "The Hallway Light That Turns Itself On \u2014 Saved Our Toes #sho",
+      "views": 107,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "I spent ten years thinking my mattress was the problem #shor",
+      "views": 88,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Most pillows are designed for back sleepers. 74% of us sleep",
+      "views": 66,
+      "likes": 1,
+      "comments": 1
+    },
+    {
+      "title": "I spent ten years thinking my mattress was the problem #shor",
+      "views": 20,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "My Couch Looked 10 Years Old. $39 Made It Look New. #shorts ",
+      "views": 13,
+      "likes": 1,
+      "comments": 1
+    },
+    {
+      "title": "These LED Strips Made My Bedroom Feel Like a Hotel Suite #sh",
+      "views": 3,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Freezer Burn Cost Me $400 Last Year. Not Anymore. #shorts #a",
+      "views": 1,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "The $5 Paste That Cleaned My Stovetop in 30 Seconds #shorts ",
+      "views": 0,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "I Tested Every Sponge. Only One Survived. #shorts #amazonfin",
+      "views": 0,
+      "likes": 0,
+      "comments": 1
+    }
+  ],
+  "comments_responded": 0,
+  "actions_taken": [
+    "New comment on video: \ud83d\udccc SHOP ALL PRODUCTS \u2014 Amazon links:<br><br>\u2460 Eli &",
+    "New comment on video: \ud83d\udccc SHOP ALL PRODUCTS \u2014 Amazon links:<br><br>\u2460 Eli &",
+    "Updated BUSINESS_BRAIN.md metrics"
+  ]
+}
