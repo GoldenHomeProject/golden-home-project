@@ -102,7 +102,11 @@ Return STRICT JSON (no prose, no fences) matching this schema:
   ... (5 total, ranked by composite_score DESC)
 ]"""
 
-    return call_claude_json(prompt, max_tokens=4096)
+    # max_turns=1 forces one-shot JSON (no agentic tool-use loop). timeout=180
+    # so 3 retries (~9min) fit inside the workflow's 10-min job cap; without
+    # this, default 300s × 3 = 15min would always exceed the cap. Cancelled
+    # 2026-05-15 run at 22m15s motivated this cap.
+    return call_claude_json(prompt, max_tokens=4096, max_turns=1, timeout=180)
 
 
 def main():
