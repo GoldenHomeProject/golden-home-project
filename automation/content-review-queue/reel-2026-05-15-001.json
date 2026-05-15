@@ -1,0 +1,69 @@
+{
+  "created_at": "2026-05-15T08:37:31.861296Z",
+  "date": "2026-05-15",
+  "seq": 1,
+  "hook_category": "micro_insight",
+  "hook": "The reason your cabinets stay messy is that nothing has a home.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "messy cabinet with stuff piled at the front and unknown void at back",
+      "on_screen_text": "NOTHING HAS A HOME",
+      "voiceover": "Your cabinets are messy because nothing has a home."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "person pulling everything out to reach back of cabinet",
+      "on_screen_text": "DEPTH IS THE PROBLEM",
+      "voiceover": "The real problem is depth, not size."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "back of cabinet revealed full of forgotten items",
+      "on_screen_text": "BACK ROW = INVISIBLE",
+      "voiceover": "If you can't reach the back, the back is invisible."
+    },
+    {
+      "n": 4,
+      "duration_sec": 5,
+      "visual_prompt": "Simple Houseware chrome 2-tier sliding basket installed",
+      "on_screen_text": "FRONT TIER SLIDES OUT",
+      "voiceover": "Sliding basket fixes the depth problem."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "front shelf slides forward revealing back shelf still in place",
+      "on_screen_text": "BACK ROW VISIBLE",
+      "voiceover": "Back row is always one motion away."
+    },
+    {
+      "n": 6,
+      "duration_sec": 4,
+      "visual_prompt": "fully organized cabinet, everything labeled",
+      "on_screen_text": "COMMENT LINK",
+      "voiceover": "Comment LINK and I'll DM you the link."
+    }
+  ],
+  "caption": "The reason your cabinets stay messy is that nothing has a home.\n\nContainers don't fix this. Bigger cabinets don't fix this. The problem is depth \u2014 when you can't reach the back without removing the front, the back becomes invisible.\n\nA sliding basket organizer fixes the depth problem. Simple Houseware's chrome 2-tier model \u2014 each shelf pulls forward independently, so the back row is always one motion away.\n\nStopped buying duplicates of stuff I already owned. The cabinet became a system instead of a graveyard.\n\nComment LINK and I'll DM you the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #kitchenorganization #smallspacesolutions #undersinkstorage",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#kitchenorganization",
+    "#smallspacesolutions",
+    "#undersinkstorage"
+  ],
+  "specific_falsifiable_detail": "A sliding basket organizer fixes the depth problem. Simple Houseware's chrome 2-tier model \u2014 each shelf pulls forward independently, so the back row is always one motion away.",
+  "affiliate_strategy": {
+    "primary_product": "Simple Houseware 2-Tier Sliding Basket Organizer (chrome, under-sink)",
+    "dm_keyword": "LINK",
+    "amazon_asin": "B01M0TS64K",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B01M0TS64K?tag=goldenhomep06-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": null
+  }
+}
