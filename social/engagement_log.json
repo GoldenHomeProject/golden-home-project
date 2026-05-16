@@ -1,10 +1,10 @@
 {
   "_doc": "Daily engagement actions taken via Chrome MCP per automation/agents/daily_engagement_chrome.md. Append-only. Summary updated at top each session.",
   "summary": {
-    "lifetime_follows": 11,
-    "lifetime_likes": 20,
+    "lifetime_follows": 12,
+    "lifetime_likes": 31,
     "lifetime_comments": 5,
-    "last_session": "2026-05-14",
+    "last_session": "2026-05-15",
     "blocked_at": null
   },
   "actions": [
@@ -307,6 +307,113 @@
       "target_reel_url": "https://www.instagram.com/p/DQH5ZG6krYB/",
       "result": "success",
       "note": "reviewing Eli & Elm side sleeper pillow \u2014 same product we promote"
+    },
+    {
+      "timestamp": "2026-05-16T00:51:35.504524Z",
+      "action": "like",
+      "username": "moonsleep.co",
+      "post_url": "https://www.instagram.com/p/DX8MFzUN5kR/",
+      "hashtag": "#sidesleeper",
+      "session": "2026-05-15",
+      "note": "verified body pillow brand, 265K likes"
+    },
+    {
+      "timestamp": "2026-05-16T00:51:35.504524Z",
+      "action": "like",
+      "username": "kaomisleep",
+      "post_url": "https://www.instagram.com/p/DVjJ-0dgrni/",
+      "hashtag": "#sidesleeper",
+      "session": "2026-05-15",
+      "note": "verified, 1M likes, runs Comment-LINK funnel (competitor mechanic)"
+    },
+    {
+      "timestamp": "2026-05-16T00:51:35.504524Z",
+      "action": "like",
+      "username": "youngnagisa",
+      "post_url": "https://www.instagram.com/p/DKfkdRMSx8y/",
+      "hashtag": "#bedroomupgrade",
+      "session": "2026-05-15",
+      "note": "verified, bed frame, 55.8K likes"
+    },
+    {
+      "timestamp": "2026-05-16T00:51:35.504524Z",
+      "action": "like",
+      "username": "nataliedoef",
+      "post_url": "https://www.instagram.com/p/CgAarw9ALxm/",
+      "hashtag": "#bedroomupgrade",
+      "session": "2026-05-15",
+      "note": "rattan IKEA hack, 185K likes"
+    },
+    {
+      "timestamp": "2026-05-16T00:51:35.504524Z",
+      "action": "like",
+      "username": "samanthanic_home",
+      "post_url": "https://www.instagram.com/p/DNO_d8fAUhz/",
+      "hashtag": "#bedroomupgrade",
+      "session": "2026-05-15",
+      "note": "room transformation, 319K likes, Wayfair commented"
+    },
+    {
+      "timestamp": "2026-05-16T00:51:35.504524Z",
+      "action": "like",
+      "username": "pickhive",
+      "post_url": "https://www.instagram.com/p/DU3EpqRjUCw/",
+      "hashtag": "#bedroomupgrade",
+      "session": "2026-05-15",
+      "note": "PEER SIZE \u2014 6.6K likes, headboard upgrade, comment-to-DM funnel"
+    },
+    {
+      "timestamp": "2026-05-16T00:51:35.504524Z",
+      "action": "like",
+      "username": "andyyyen",
+      "post_url": "https://www.instagram.com/p/DOC4XBFkT6V/",
+      "hashtag": "#bedroomupgrade",
+      "session": "2026-05-15",
+      "note": "loft bedroom upgrade, 39.1K likes"
+    },
+    {
+      "timestamp": "2026-05-16T00:51:35.504524Z",
+      "action": "like",
+      "username": "m_decoration_interieur",
+      "post_url": "https://www.instagram.com/p/DEkT8AouAwK/",
+      "hashtag": "#bedroomupgrade",
+      "session": "2026-05-15",
+      "note": "smart bulbs, 5,068 likes (peer size)"
+    },
+    {
+      "timestamp": "2026-05-16T00:51:35.504524Z",
+      "action": "like",
+      "username": "the.elm.house",
+      "post_url": "https://www.instagram.com/p/DLPva4jxq4O/",
+      "hashtag": "#bedroomupgrade",
+      "session": "2026-05-15",
+      "note": "verified, 154K likes, LTK + Comment-FAN funnel (LTK affiliate model)"
+    },
+    {
+      "timestamp": "2026-05-16T00:51:35.504524Z",
+      "action": "like",
+      "username": "adairs",
+      "post_url": "https://www.instagram.com/p/DXvY0k1FE8N/",
+      "hashtag": "#bedroomupgrade",
+      "session": "2026-05-15",
+      "note": "verified AU bedding brand, 6,809 likes"
+    },
+    {
+      "timestamp": "2026-05-16T00:51:35.504524Z",
+      "action": "like",
+      "username": "ilaydaserifi",
+      "post_url": "https://www.instagram.com/p/DRXEKpJCJt3/",
+      "hashtag": "#bedroomupgrade",
+      "session": "2026-05-15",
+      "note": "makeup vanity, 17.2K likes (adjacent niche)"
+    },
+    {
+      "timestamp": "2026-05-16T00:51:35.504524Z",
+      "action": "follow",
+      "username": "pickhive",
+      "profile_url": "https://www.instagram.com/pickhive/",
+      "session": "2026-05-15",
+      "note": "51.7K followers, only follows 17, comment-to-DM funnel competitor in our exact niche \u2014 study their LinkTree mechanic"
     }
   ]
 }
