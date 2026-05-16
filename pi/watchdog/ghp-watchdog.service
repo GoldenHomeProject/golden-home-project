@@ -1,0 +1,22 @@
+[Unit]
+Description=GHP uptime watchdog (goldenhomeproject.com, Meta Graph, ntfy)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/home/ianmcwherter/ghp-watchdog/ghp-watchdog.sh
+Restart=on-failure
+RestartSec=30
+# Hardening — read NTFY topic via the existing env file, no shell environment leakage.
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=full
+ProtectHome=read-only
+ReadWritePaths=/home/ianmcwherter/ghp-watchdog
+# Stream stdout/stderr into journald (`journalctl --user -u ghp-watchdog -f`).
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=default.target

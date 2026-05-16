@@ -1,0 +1,13 @@
+[Unit]
+Description=GHP daily CEO loop (Pi port of Mac launchd com.goldenhomeproject.daily-loop)
+After=network-online.target
+Wants=network-online.target
+ConditionPathExists=/home/GoldenHomeProject/golden-home-project/CLAUDE_GHP_CEO.md
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/GoldenHomeProject/golden-home-project
+ExecStart=/home/GoldenHomeProject/golden-home-project/pi/daily-loop/daily-loop.sh
+StandardOutput=journal
+StandardError=journal
+TimeoutStartSec=45min

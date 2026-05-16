@@ -1,0 +1,10 @@
+[Unit]
+Description=Daily 06:30 trigger for GHP CEO loop (Pi)
+
+[Timer]
+OnCalendar=*-*-* 06:30:00
+Persistent=true
+Unit=ghp-daily-loop.service
+
+[Install]
+WantedBy=timers.target

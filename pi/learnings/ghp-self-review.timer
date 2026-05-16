@@ -1,0 +1,14 @@
+[Unit]
+Description=Trigger GHP weekly self-review (Mon 11:00 local — after Alexa skill 10:00 run)
+
+[Timer]
+# Existing claude-skill self-review runs Mon 10:00. We run after so the
+# Pi's compute isn't fighting itself; also gives Actions logs a full week
+# to accumulate (since the Mon morning daily-poster run will be the most
+# recent failure-prone job).
+OnCalendar=Mon *-*-* 11:00:00
+Persistent=true
+Unit=ghp-self-review.service
+
+[Install]
+WantedBy=timers.target

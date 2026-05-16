@@ -1,0 +1,13 @@
+[Unit]
+Description=GHP weekly self-review (Claude proposes patches from Actions+watchdog logs)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/GoldenHomeProject/golden-home-project
+ExecStart=/home/GoldenHomeProject/golden-home-project/pi/learnings/self-review.sh
+StandardOutput=journal
+StandardError=journal
+# Long timeout — claude -p can sit for minutes.
+TimeoutStartSec=20min
