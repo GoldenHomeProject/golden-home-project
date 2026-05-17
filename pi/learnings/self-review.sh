@@ -18,9 +18,19 @@
 
 set -u
 
+# Auth: gh token lives encrypted in `pass`, not plaintext on disk. Export as
+# GH_TOKEN so gh skips its config file entirely. Git uses credential helper
+# git-credential-ghp-pass which reads the same entry.
+if command -v pass >/dev/null 2>&1; then
+  GH_TOKEN=$(pass show ghp/github_token 2>/dev/null) || true
+  export GH_TOKEN
+fi
+
 REPO_DIR="${GHP_REPO_DIR:-$HOME/golden-home-project}"
 ENV_FILE="${ENV_FILE:-$HOME/claude-skill/config/env}"
 DATE=$(date +%Y-%m-%d)
+# Suffix branch with epoch when same-day re-run already pushed — prevents
+# `branch already exists on remote` collisions during ad-hoc dry-runs.
 BRANCH="learnings/$DATE"
 PROPOSALS_REL="pi/learnings/proposals"
 JOURNAL_REL="pi/learnings/journal.jsonl"
@@ -34,6 +44,12 @@ touch "$JOURNAL_REL"
 git fetch --quiet origin main
 git checkout --quiet main
 git reset --hard --quiet origin/main
+
+# If today's branch already exists on remote (re-run), append epoch suffix.
+if git ls-remote --exit-code --heads origin "$BRANCH" >/dev/null 2>&1; then
+  BRANCH="learnings/$DATE-$(date +%s)"
+  OUT_REL="$PROPOSALS_REL/$DATE-$(date +%H%M%S).md"
+fi
 
 # --- Source 1: GitHub Actions failed runs in the last 7 days ----------------
 ACTIONS_LOG=""

@@ -74,8 +74,27 @@ set_state() {
 
 echo "[ghp-watchdog] starting — interval ${INTERVAL}s, fail threshold $FAIL_THRESHOLD, ${#TARGETS[@]} targets"
 
+# Self-rotation: once the JSONL passes ~20MB, truncate to the last ~10MB so we
+# never need an external logrotate config. The self-review loop reads the tail
+# anyway, so older history is not useful. Tradeoff: a hard kill mid-rotate
+# could lose ~10MB of trailing log; acceptable.
+ROTATE_BYTES="${GHP_WATCHDOG_ROTATE_BYTES:-20000000}"
+KEEP_BYTES="${GHP_WATCHDOG_KEEP_BYTES:-10000000}"
+rotate_if_needed() {
+  local size
+  size=$(stat -c%s "$LOG_FILE" 2>/dev/null || echo 0)
+  if [ "$size" -gt "$ROTATE_BYTES" ]; then
+    tail -c "$KEEP_BYTES" "$LOG_FILE" > "$LOG_FILE.tmp" && mv "$LOG_FILE.tmp" "$LOG_FILE"
+    echo "[ghp-watchdog] rotated $LOG_FILE: $size → $(stat -c%s "$LOG_FILE") bytes"
+  fi
+}
+ROTATE_EVERY=720  # check every 720 cycles ~= every 12h at 60s interval
+cycle=0
+
 while true; do
   ts=$(date -Iseconds)
+  if [ $((cycle % ROTATE_EVERY)) -eq 0 ]; then rotate_if_needed; fi
+  cycle=$((cycle + 1))
   for entry in "${TARGETS[@]}"; do
     IFS='|' read -r label url regex <<< "$entry"
     result=$(check_one "$label" "$url" "$regex")

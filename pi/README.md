@@ -55,6 +55,17 @@ bash pi/learnings/install.sh
 - **No secrets on disk in plaintext.** The single shared secret is the
   `NTFY_TOPIC` value, which already exists in `~/claude-skill/config/env` and
   is read-only from these scripts. Never overwritten.
+- **GitHub token lives in `pass`, not gh's config.** Encrypted under a Pi-local
+  passphraseless GPG key (`ghp-pass`). Self-review.sh exports `GH_TOKEN=$(pass
+  show ghp/github_token)` at runtime so `gh` skips its config entirely. Git uses
+  a tiny credential helper at `~/.local/bin/git-credential-ghp-pass` that reads
+  the same entry. `~/.config/gh/hosts.yml` is empty (`{}`). Bootstrap (one-time):
+  ```bash
+  # On Pi:
+  gpg --batch --generate-key /tmp/gpg-batch   # passphraseless ed25519
+  pass init <fingerprint>
+  echo "<token>" | pass insert -e ghp/github_token
+  ```
 - **Subscription + free tools only.** All LLM calls go through `claude -p` (the
   CLI on the Max subscription), never the Anthropic API.
 
