@@ -4,9 +4,10 @@
     "lifetime_follows": 12,
     "lifetime_likes": 31,
     "lifetime_comments": 5,
-    "last_session": "2026-05-16-evening",
+    "last_session": "2026-05-16-evening-niche",
     "blocked_at": null,
-    "last_updated": "2026-05-17T02:28:16.364267Z"
+    "last_updated": "2026-05-17T02:37:39.116154Z",
+    "total_actions": 70
   },
   "actions": [
     {
@@ -492,6 +493,102 @@
       "our_reply": "all 5 are listed in the caption ⬇️ — those $16 shower steamers turned my mornings into a Westin lobby. which one fits your bathroom vibe?",
       "session": "2026-05-16-evening",
       "note": "hotel-vibe analogy for shower steamers"
+    },
+    {
+      "timestamp": "2026-05-17T02:37:39.116154Z",
+      "action": "like",
+      "target": "neutral_homebody",
+      "post_url": "https://www.instagram.com/p/DUODbkbEe8i/",
+      "post_caption": "POV: proof a rental can still feel like home",
+      "session": "2026-05-16-evening-niche",
+      "note": "verified 398K, organic modern + Japandi, LTK funnel; warm-list target"
+    },
+    {
+      "timestamp": "2026-05-17T02:37:39.116154Z",
+      "action": "like",
+      "target": "neutral_homebody",
+      "post_url": "https://www.instagram.com/p/DJzCk1ORABb/",
+      "post_caption": "Layering warmth and simplicity — minimal bedroom",
+      "session": "2026-05-16-evening-niche",
+      "note": "second like to signal sustained interest"
+    },
+    {
+      "timestamp": "2026-05-17T02:37:39.116154Z",
+      "action": "follow",
+      "target": "neutral_homebody",
+      "session": "2026-05-16-evening-niche",
+      "note": "exact niche match; uses LTK (proof for task #72 research)"
+    },
+    {
+      "timestamp": "2026-05-17T02:37:39.116154Z",
+      "action": "like",
+      "target": "valeriedesigned",
+      "post_url": "https://www.instagram.com/p/DXZbOZmDg60/",
+      "post_caption": "a little home tour — #hometour #organicmodern #curated #warmminimalism",
+      "session": "2026-05-16-evening-niche",
+      "note": "verified, 33K likes"
+    },
+    {
+      "timestamp": "2026-05-17T02:37:39.116154Z",
+      "action": "follow",
+      "target": "valeriedesigned",
+      "session": "2026-05-16-evening-niche",
+      "note": "verified, organic modern hometours"
+    },
+    {
+      "timestamp": "2026-05-17T02:37:39.116154Z",
+      "action": "like",
+      "target": "theforagedabode",
+      "post_url": "https://www.instagram.com/p/DTDN9NbgQ8l/",
+      "post_caption": "If this is your vibe follow along for more neutral + earthy inspo",
+      "session": "2026-05-16-evening-niche",
+      "note": "verified, 81.5K likes, LTK funnel (LinkDM *133*)"
+    },
+    {
+      "timestamp": "2026-05-17T02:37:39.116154Z",
+      "action": "follow",
+      "target": "theforagedabode",
+      "session": "2026-05-16-evening-niche",
+      "note": "verified, neutral/earthy decor"
+    },
+    {
+      "timestamp": "2026-05-17T02:37:39.116154Z",
+      "action": "like",
+      "target": "sagephillipshome",
+      "post_url": "https://www.instagram.com/p/DUtCMyYEVvs/",
+      "post_caption": "brown bedding is the move — POV: you discovered the power of brown",
+      "session": "2026-05-16-evening-niche",
+      "note": "verified, 153K likes, comment-SHOP funnel; cluster overlap (neutral_homebody, theforagedabode, donnadelaine_home in comments)"
+    },
+    {
+      "timestamp": "2026-05-17T02:37:39.116154Z",
+      "action": "follow",
+      "target": "sagephillipshome",
+      "session": "2026-05-16-evening-niche",
+      "note": "verified, organic modern cluster"
+    },
+    {
+      "timestamp": "2026-05-17T02:37:39.116154Z",
+      "action": "like",
+      "target": "neutral_homebody x thepopmaison",
+      "post_url": "https://www.instagram.com/p/DXzHQT9xAqO/",
+      "post_caption": "oatmeal-toned accent chairs from @thepopmaison — discount code Vandy10",
+      "session": "2026-05-16-evening-niche",
+      "note": "collab post; brand discoverability"
+    },
+    {
+      "timestamp": "2026-05-17T02:37:39.116154Z",
+      "action": "follow",
+      "target": "thepopmaison",
+      "session": "2026-05-16-evening-niche",
+      "note": "23.1K furniture brand; collab partner pathway (sponsored content opportunity)"
+    },
+    {
+      "timestamp": "2026-05-17T02:37:39.116154Z",
+      "action": "follow",
+      "target": "jotitup",
+      "session": "2026-05-16-evening-niche",
+      "note": "Judith Lato verified 25K, Affordable Home Decor + DIY Moody/Earthy/Modern/Neutral; followed by donnadelaine_home + valeriedesigned + theforagedabode (cluster validation)"
     }
   ]
 }
