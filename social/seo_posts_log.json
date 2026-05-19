@@ -94,6 +94,18 @@
       "amazon_associates_mtd_earnings_usd": 0,
       "amazon_associates_conversion_rate_pct": 0,
       "interpretation": "Amazon clicks collapsed ~99% from April (~521) to May (6 in 5 days). IG 0-engagement streak has cut top-of-funnel traffic to a trickle. Yesterday's CTA reroute (Amazon search → Impact storefront) cannot be meaningfully tested at this volume. GSC has no data yet — verified <24h ago. Hold per CEO prompt; do not write post #8."
+    },
+    {
+      "date": "2026-05-19",
+      "queue_item_shipped": "schema validation pass",
+      "queue_item_obsoleted": "brand discoverability test (DMOZ-likes) — 4th audit-first catch",
+      "errors_fixed": 8,
+      "warnings_fixed": 8,
+      "warnings_remaining": 8,
+      "warnings_remaining_kind": "Article.publisher.logo (no logo asset exists; deliberately skipped)",
+      "prediction_logged": 18,
+      "prediction_eval_date": "2026-05-21",
+      "interpretation": "First Google-required field-level fix in the schema stack. Every prior on-page polish prediction (5, 6, 10, 12, 14, 16) staked null on the assumption that Google was evaluating the schema and sandbox-suppressing the result. Today's finding flips that prior: Google's Review rich snippet was silently ineligible on every post because Product.review.reviewRating was missing. Prediction #18 stakes whether the 2026-05-21 eval flips eligibility, which would invalidate the 'sandbox dominates' framing of the prior 6 stakes."
     }
   ],
   "cadence_violation_2026-05-05": "7 posts published in 12 days violates CEO rule #1 (1 post/week max). All 7 target near-identical 'waterproof stretch sofa cover' keyword cluster — diminishing return per post. NEXT ACTION = stop posting, wait for GSC indexing + organic clicks, monitor Amazon Associates daily for first conversion. Do NOT publish week-2 post until at least 2026-05-12 AND only if first 7 have produced organic impressions.",
