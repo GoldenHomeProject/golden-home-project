@@ -146,5 +146,12 @@
     "caption": "I spent ten years thinking my mattress was the problem.",
     "media_type": "REELS",
     "note": "Posted by daily-poster.yml in run 25921663799; push of log file rejected \u2014 backfilled manually"
+  },
+  {
+    "media_id": "18011408003888734",
+    "posted_at": "2026-05-21T11:30:01.019838Z",
+    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-05-21-001.mp4",
+    "caption": "I had the wrong pillow for 10 years and didn't know it.\n\nWoke up stiff every morning. Tried stacking two pillows. Tried rolling a towel under my neck. Switched sides. Bought a memory foam block that t",
+    "media_type": "REELS"
   }
 ]
