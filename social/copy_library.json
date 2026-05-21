@@ -52,7 +52,7 @@
         "hook_category": "micro_insight",
         "hook": "The reason your cabinets stay messy is that nothing has a home.",
         "beat1": "Containers don't fix this. Bigger cabinets don't fix this. The problem is depth — when you can't reach the back without removing the front, the back becomes invisible.",
-        "turn": "A sliding basket organizer fixes the depth problem. Simple Houseware's chrome 2-tier model — each shelf pulls forward independently, so the back row is always one motion away.",
+        "turn": "A sliding basket organizer fixes the depth problem. Simple Houseware's chrome 2-tier model holds 18 lbs per shelf — each tier pulls forward independently, so the back row is always one motion away.",
         "result": "Stopped buying duplicates of stuff I already owned. The cabinet became a system instead of a graveyard.",
         "scenes": [
           {"n": 1, "duration_sec": 3, "visual_prompt": "messy cabinet with stuff piled at the front and unknown void at back", "on_screen_text": "NOTHING HAS A HOME", "voiceover": "Your cabinets are messy because nothing has a home."},
@@ -82,7 +82,7 @@
     "PILLOW": [
       {
         "hook_category": "wrong_until_right",
-        "hook": "I had the wrong pillow for a decade and didn't know it.",
+        "hook": "I had the wrong pillow for 10 years and didn't know it.",
         "beat1": "Woke up stiff every morning. Tried stacking two pillows. Tried rolling a towel under my neck. Switched sides. Bought a memory foam block that turned my head into a sweat puddle.",
         "turn": "Then I tried the Eli & Elm side sleeper pillow — U-shape cutout for your shoulder, latex-and-fiber blend you can adjust, and a cooling cover that actually stays cool.",
         "result": "First night I slept through. The morning crick is gone. My partner stole it the second night and I had to order another one.",
