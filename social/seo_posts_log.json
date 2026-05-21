@@ -106,6 +106,18 @@
       "prediction_logged": 18,
       "prediction_eval_date": "2026-05-21",
       "interpretation": "First Google-required field-level fix in the schema stack. Every prior on-page polish prediction (5, 6, 10, 12, 14, 16) staked null on the assumption that Google was evaluating the schema and sandbox-suppressing the result. Today's finding flips that prior: Google's Review rich snippet was silently ineligible on every post because Product.review.reviewRating was missing. Prediction #18 stakes whether the 2026-05-21 eval flips eligibility, which would invalidate the 'sandbox dominates' framing of the prior 6 stakes."
+    },
+    {
+      "date": "2026-05-21",
+      "queue_state": "empty (all items shipped or marked N/A as of 64bd336 on 2026-05-20)",
+      "session_work": "first learning checkpoint — evaluated predictions #1 and #18 (both eval_date=2026-05-21)",
+      "structural_verification_live": "curl'd all 8 COVER URLs against goldenhomeproject.com: HTTP 200, every post serves exactly 3 application/ld+json blocks (Product+Review, FAQPage, Article); every post serves exactly 1 reviewRating + 1 ratingValue + 1 bestRating in production HTML. ddcf945 fix is deployed.",
+      "evaluation_outcome": "Both predictions marked PENDING_USER_GSC_PULL with re_eval_date 2026-05-26. Reason: 2-day window between fix (2026-05-19) and eval (2026-05-21) is below Google's documented Rich Results re-evaluation latency (7-21 days). Resolving on partial data today would be the same tunnel-vision failure mode the CEO prompt guards against. User GSC dashboard pull (Enhancements > Products) required to confirm eligibility count; tentative leaning is null hypothesis holds.",
+      "user_action_required": "When convenient, open Search Console > Enhancements > Products on goldenhomeproject.com property. If >=1 of the 8 COVER posts shows as 'eligible' for Product rich result, that confirms prediction #1 and falsifies prediction #18 — and invalidates the 'sandbox dominates' framing of predictions 5/6/10/12/14/16. If 0 eligible, both predictions resolve as expected and the sandbox prior holds. Either result is informative; report whichever you see.",
+      "queue_exhausted": true,
+      "no_busywork_added": true,
+      "next_checkpoint": "2026-05-25 — prediction #8 (14-day per-channel kill window for re-enabled IG/YT/FB flywheel). 2026-05-26 — re-eval of predictions #1 and #18 inside Google's 7-day re-evaluation window. 2026-06-05 — Stage-1 GSC evaluation (cluster impressions vs zero).",
+      "interpretation": "Queue is empty by design (64bd336 marked the 8th polish item N/A). Honest read: the experiment is in its waiting phase. Today's work is the evaluation framework operating as designed — not motion, not new infrastructure. The self-eval block (micro+macro+tunnel-vision) ran clean: the discipline of refusing to invent a new queue item with the queue empty is the discipline the 2026-04-30 flywheel-as-progress failure mode demanded. No new prediction logged today because there is no new staking surface — predictions follow ships, not idle days."
     }
   ],
   "cadence_violation_2026-05-05": "7 posts published in 12 days violates CEO rule #1 (1 post/week max). All 7 target near-identical 'waterproof stretch sofa cover' keyword cluster — diminishing return per post. NEXT ACTION = stop posting, wait for GSC indexing + organic clicks, monitor Amazon Associates daily for first conversion. Do NOT publish week-2 post until at least 2026-05-12 AND only if first 7 have produced organic impressions.",
