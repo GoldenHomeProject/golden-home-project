@@ -1,0 +1,9 @@
+[Unit]
+Description=GHP daily engagement-target list generator (Graph API only)
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 %h/golden-home-project/pi/engagement-targets/engagement-targets.py
+StandardOutput=journal
+StandardError=journal

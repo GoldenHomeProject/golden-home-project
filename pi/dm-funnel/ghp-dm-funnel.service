@@ -1,0 +1,9 @@
+[Unit]
+Description=GHP DM funnel audit (catches comments Meta automation missed)
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 %h/golden-home-project/pi/dm-funnel/dm-funnel.py
+StandardOutput=journal
+StandardError=journal
