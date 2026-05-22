@@ -135,21 +135,28 @@ def load_copy_library() -> dict:
 
 def recently_used_variant_ids(days: int = 7) -> set:
     """Hash each shipped variant by (dm_keyword + hook + first scene voiceover)
-    so we can avoid shipping the same variant twice in a 7-day window."""
+    so we can avoid shipping the same variant twice in a 7-day window.
+
+    Scans BOTH automation/scripts/ (shipped) and automation/content-review-queue/
+    (quality-gate rejected). Counting rejects as "used" prevents the doom loop
+    where a bad variant gets re-picked every day because rejection moves the
+    script out of SCRIPT_DIR (incident 2026-05-21: LINK[3] + PILLOW[0])."""
     used = set()
-    if not SCRIPT_DIR.exists():
-        return used
     cutoff = datetime.now(timezone.utc).timestamp() - days * 86400
-    for f in SCRIPT_DIR.glob("reel-*.json"):
-        if f.stat().st_mtime < cutoff:
+    review_queue = ROOT / "automation" / "content-review-queue"
+    for d in (SCRIPT_DIR, review_queue):
+        if not d.exists():
             continue
-        try:
-            data = json.loads(f.read_text())
-            kw = (data.get("affiliate_strategy") or {}).get("dm_keyword", "")
-            hook = data.get("hook", "")
-            used.add(_variant_id(kw, hook))
-        except Exception:
-            continue
+        for f in d.glob("reel-*.json"):
+            if f.stat().st_mtime < cutoff:
+                continue
+            try:
+                data = json.loads(f.read_text())
+                kw = (data.get("affiliate_strategy") or {}).get("dm_keyword", "")
+                hook = data.get("hook", "")
+                used.add(_variant_id(kw, hook))
+            except Exception:
+                continue
     return used
 
 
