@@ -1,31 +1,5 @@
 [
   {
-    "name": "reel_2026-05-22_001",
-    "status": "ready",
-    "script_path": "automation/scripts/reel-2026-05-22-001.json",
-    "media_type": "REELS",
-    "video_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-05-22-001.mp4",
-    "caption": "Three weeks ago this cabinet was where things went to die.\n\nOpen the door, hold your breath, hope you don't knock anything over. Sponges from a Costco run. Three half-empty bottles of the same cleaner. A measuring cup I lost track of in 2023.\n\nI added a Simple Houseware 2-tier chrome sliding basket. Holds 18 lbs per shelf. Sets directly on the cabinet floor \u2014 no installation.\n\nNow everything has a row. The system tells me when I'm out of something because the slot is empty, not buried.\n\nComment LINK and I'll DM you the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #kitchenorganization #smallspacesolutions #undersinkstorage",
-    "hashtags": [
-      "#amazonhomefinds",
-      "#kitchenorganization",
-      "#smallspacesolutions",
-      "#undersinkstorage"
-    ],
-    "affiliate": {
-      "primary_product": "Simple Houseware 2-Tier Sliding Basket Organizer (chrome, under-sink)",
-      "dm_keyword": "LINK",
-      "amazon_asin": "B01M0TS64K",
-      "amazon_affiliate_url": "https://www.amazon.com/dp/B01M0TS64K?tag=goldenhomep06-20",
-      "asin_pending": false,
-      "fallback_brands": [],
-      "affiliate_network": "amazon",
-      "affiliate_url": null
-    },
-    "hook": "Three weeks ago this cabinet was where things went to die.",
-    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-05-22-001.mp4"
-  },
-  {
     "name": "reel_2026-05-22_002",
     "status": "ready",
     "script_path": "automation/scripts/reel-2026-05-22-002.json",
