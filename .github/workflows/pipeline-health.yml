@@ -1,0 +1,99 @@
+name: Pipeline Health Watchdog
+
+# Runs every 6h. If social/posted_archive.json has no new entry within 36h,
+# opens a GitHub issue (which emails repo owner) so the pipeline self-alerts
+# instead of waiting for the user to ask "are you still posting?".
+#
+# Origin: 2026-05-21 doom-loop incident — quality gate silently rejected every
+# variant for 4 days because rejects weren't counted as "used". Root cause fixed
+# in content_engine.py; this workflow is the observability so a future stall
+# pages the user immediately.
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check last posted entry
+        id: check
+        run: |
+          python3 <<'PY'
+          import json, os
+          from datetime import datetime, timezone, timedelta
+
+          archive = json.load(open("social/posted_archive.json"))
+          out_path = os.environ["GITHUB_OUTPUT"]
+
+          if not archive:
+              with open(out_path, "a") as f:
+                  f.write("stale=true\nlatest_ts=NONE\nage_hours=999\n")
+              raise SystemExit(0)
+
+          latest = max(archive, key=lambda e: e.get("posted_at", ""))
+          ts = latest.get("posted_at", "")
+          ts_clean = ts.replace("Z", "+00:00")
+          try:
+              dt = datetime.fromisoformat(ts_clean)
+          except ValueError:
+              with open(out_path, "a") as f:
+                  f.write("stale=true\nlatest_ts=unparseable\nage_hours=999\n")
+              raise SystemExit(0)
+
+          now = datetime.now(timezone.utc)
+          age = now - dt
+          stale = age > timedelta(hours=36)
+          age_h = int(age.total_seconds() / 3600)
+          print(f"Latest: {ts}  age={age_h}h  stale={stale}")
+
+          # ts is from our own posted_archive.json (we wrote it), but sanitize
+          # to alphanumerics + standard ISO chars anyway for safety.
+          safe_ts = "".join(c for c in ts if c.isalnum() or c in ":-+.TZ")[:40]
+
+          with open(out_path, "a") as f:
+              f.write(f"stale={'true' if stale else 'false'}\n")
+              f.write(f"latest_ts={safe_ts}\n")
+              f.write(f"age_hours={age_h}\n")
+          PY
+
+      - name: Open stale-pipeline issue
+        if: steps.check.outputs.stale == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          AGE_HOURS: ${{ steps.check.outputs.age_hours }}
+          LATEST_TS: ${{ steps.check.outputs.latest_ts }}
+        run: |
+          set -euo pipefail
+          # Don't spam — only open if no open issue with same title exists
+          EXISTING=$(gh issue list --state open --search 'in:title "Content pipeline stale"' --json number --jq 'length')
+          if [ "$EXISTING" != "0" ]; then
+            echo "Existing stale-pipeline issue open — skipping."
+            exit 0
+          fi
+          TITLE="[watchdog] Content pipeline stale (no post in ${AGE_HOURS}h)"
+          BODY=$(printf '%s\n' \
+            "Pipeline health watchdog detected no new entry in social/posted_archive.json within 36h." \
+            "" \
+            "- Latest posted_at: ${LATEST_TS}" \
+            "- Age: ${AGE_HOURS} hours" \
+            "- Workflow: pipeline-health.yml" \
+            "" \
+            "Likely causes:" \
+            "- content-generator failing silently (check Actions tab)" \
+            "- quality gate rejecting 100% (check automation/content-review-queue/ for new .reasons.txt)" \
+            "- reel-producer failing (ffmpeg / Pexels API)" \
+            "- instagram-poster queue empty AND no manual dispatch" \
+            "" \
+            "Auto-close: resolve manually after pipeline resumes.")
+          gh issue create --title "$TITLE" --body "$BODY" --label "watchdog,pipeline"
