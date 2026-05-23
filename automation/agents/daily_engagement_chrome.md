@@ -38,6 +38,15 @@
 
 ## Procedure (per session)
 
+### Step 0 — Check Message Requests folder + Activity panel (MANDATORY)
+
+Before any outbound engagement, check inbound that the default UI hides:
+
+1. Open `https://www.instagram.com/direct/inbox/` → click **Requests** (top-right of inbox header). DMs from accounts we don't follow land here, NOT in main inbox. Tori (torilanaee) sat 3 weeks unread because main inbox was empty.
+2. Open the Activity panel (heart icon top-right). Reply to any new comments on our posts before going outbound — replying lifts the original comment in the algorithm.
+3. **DM attachment caveat:** on web, DMs with reels/posts/images attached render as "Unsupported message". Note the sender + accept, then either (a) reply asking what they sent, or (b) open IG on mobile to view the attachment. Do NOT ignore "unsupported" DMs.
+4. Accepting a DM request also makes it visible to future sessions — leaving it pending hides it.
+
 ### Step 1 — Discover targets
 1. Open `https://www.instagram.com/explore/tags/<hashtag>/` for one of the niche hashtags
 2. Scroll once, identify 3–5 reels with: high view count, comments enabled, creator in size sweet spot

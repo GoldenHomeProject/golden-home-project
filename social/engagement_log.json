@@ -1,13 +1,14 @@
 {
   "_doc": "Daily engagement actions taken via Chrome MCP per automation/agents/daily_engagement_chrome.md. Append-only. Summary updated at top each session.",
   "summary": {
-    "lifetime_follows": 12,
-    "lifetime_likes": 31,
-    "lifetime_comments": 5,
-    "last_session": "2026-05-16-evening-niche",
+    "lifetime_follows": 14,
+    "lifetime_likes": 33,
+    "lifetime_comments": 7,
+    "last_session": "2026-05-23-midday-chrome",
     "blocked_at": null,
-    "last_updated": "2026-05-17T02:37:39.116154Z",
-    "total_actions": 70
+    "last_updated": "2026-05-23T15:15:00Z",
+    "total_actions": 78,
+    "lifetime_dms": 2
   },
   "actions": [
     {
@@ -16,7 +17,7 @@
       "target_handle": "@foreverhomejune19",
       "target_reel_url": null,
       "result": "success",
-      "note": "161K-like undersink reel — viral"
+      "note": "161K-like undersink reel \u2014 viral"
     },
     {
       "date": "2026-04-30",
@@ -61,7 +62,7 @@
       "target_handle": "@torilanaee",
       "target_reel_url": null,
       "result": "success",
-      "note": "192K followers, RESTOCK→DM funnel peer"
+      "note": "192K followers, RESTOCK\u2192DM funnel peer"
     },
     {
       "date": "2026-04-30",
@@ -154,7 +155,7 @@
       "target_handle": "@gemmamgoldsmith",
       "target_reel_url": null,
       "result": "success",
-      "note": "verified, niche-perfect, 46K+ likes/post, runs Link funnel — last follow slot today"
+      "note": "verified, niche-perfect, 46K+ likes/post, runs Link funnel \u2014 last follow slot today"
     },
     {
       "date": "2026-04-30",
@@ -252,7 +253,7 @@
       "target_handle": "@goodvibesfinderr",
       "target_reel_url": "https://www.instagram.com/p/DWTmVutAKg8/",
       "result": "success",
-      "note": "62-like body pillow #sleepbetter — small reciprocity target"
+      "note": "62-like body pillow #sleepbetter \u2014 small reciprocity target"
     },
     {
       "date": "2026-05-14",
@@ -260,7 +261,7 @@
       "target_handle": "@lifetipsfromus",
       "target_reel_url": "https://www.instagram.com/p/Cr04v_psnnu/",
       "result": "success",
-      "note": "verified 425K likes Amazon Storefront Bedroom Favorites — same comment-Links funnel"
+      "note": "verified 425K likes Amazon Storefront Bedroom Favorites \u2014 same comment-Links funnel"
     },
     {
       "date": "2026-05-14",
@@ -276,7 +277,7 @@
       "target_handle": "@sleepyheadnz",
       "target_reel_url": "https://www.instagram.com/p/DWSxC2MGWPS/",
       "result": "success",
-      "note": "tiny 5-like carousel — 6th liker high reciprocity signal"
+      "note": "tiny 5-like carousel \u2014 6th liker high reciprocity signal"
     },
     {
       "date": "2026-05-14",
@@ -292,7 +293,7 @@
       "target_handle": "@eliandelm",
       "target_reel_url": null,
       "result": "success",
-      "note": "strategic follow — our affiliate partner brand"
+      "note": "strategic follow \u2014 our affiliate partner brand"
     },
     {
       "date": "2026-05-14",
@@ -308,7 +309,7 @@
       "target_handle": "@anadovada",
       "target_reel_url": "https://www.instagram.com/p/DQH5ZG6krYB/",
       "result": "success",
-      "note": "reviewing Eli & Elm side sleeper pillow — same product we promote"
+      "note": "reviewing Eli & Elm side sleeper pillow \u2014 same product we promote"
     },
     {
       "timestamp": "2026-05-16T00:51:35.504524Z",
@@ -362,7 +363,7 @@
       "post_url": "https://www.instagram.com/p/DU3EpqRjUCw/",
       "hashtag": "#bedroomupgrade",
       "session": "2026-05-15",
-      "note": "PEER SIZE — 6.6K likes, headboard upgrade, comment-to-DM funnel"
+      "note": "PEER SIZE \u2014 6.6K likes, headboard upgrade, comment-to-DM funnel"
     },
     {
       "timestamp": "2026-05-16T00:51:35.504524Z",
@@ -415,7 +416,7 @@
       "username": "pickhive",
       "profile_url": "https://www.instagram.com/pickhive/",
       "session": "2026-05-15",
-      "note": "51.7K followers, only follows 17, comment-to-DM funnel competitor in our exact niche — study their LinkTree mechanic"
+      "note": "51.7K followers, only follows 17, comment-to-DM funnel competitor in our exact niche \u2014 study their LinkTree mechanic"
     },
     {
       "timestamp": "2026-05-17T02:28:16.364267Z",
@@ -423,8 +424,8 @@
       "username": "neutral_homebody",
       "post_caption": "My Nightstand Was a Disaster. $28 Fixed It",
       "post_date": "2026-04-11",
-      "their_comment": "Beautiful 😍",
-      "our_reply": "thank you 🙌 that 3-tier station replaced like four wall plugs for me. what's the worst offender on your nightstand right now?",
+      "their_comment": "Beautiful \ud83d\ude0d",
+      "our_reply": "thank you \ud83d\ude4c that 3-tier station replaced like four wall plugs for me. what's the worst offender on your nightstand right now?",
       "session": "2026-05-16-evening",
       "note": "warm inbound, 4w old, open-ended question to re-engage"
     },
@@ -434,8 +435,8 @@
       "username": "mental._community",
       "post_caption": "Things My Therapist Told Me to Buy",
       "post_date": "2026-03-29",
-      "their_comment": "SeNd mE thiS pOst ✨🌟⚡",
-      "our_reply": "all 5 are in the caption ⬆️ the HappyLight is the one that surprised me — sunrise sim got me out of bed 30min earlier. which one were you eyeing?",
+      "their_comment": "SeNd mE thiS pOst \u2728\ud83c\udf1f\u26a1",
+      "our_reply": "all 5 are in the caption \u2b06\ufe0f the HappyLight is the one that surprised me \u2014 sunrise sim got me out of bed 30min earlier. which one were you eyeing?",
       "session": "2026-05-16-evening",
       "note": "outside 24h DM window; replied publicly with product reference + question"
     },
@@ -446,7 +447,7 @@
       "post_caption": "Things My Therapist Told Me to Buy",
       "post_date": "2026-03-29",
       "their_comment": "Send me this post",
-      "our_reply": "caption has all 5 ⬆️ the YnM weighted blanket is the one I keep gifting — what kind of self-care purchase actually moved the needle for you?",
+      "our_reply": "caption has all 5 \u2b06\ufe0f the YnM weighted blanket is the one I keep gifting \u2014 what kind of self-care purchase actually moved the needle for you?",
       "session": "2026-05-16-evening",
       "note": "Stage 1 warm inbound, public reply outside DM window"
     },
@@ -457,9 +458,9 @@
       "post_caption": "Things My Therapist Told Me to Buy",
       "post_date": "2026-03-29",
       "their_comment": "Send me this post",
-      "our_reply": "all 5 picks are pinned in the caption ⬆️ — the Five Minute Journal is the cheapest unlock if you're new to it. which one are you grabbing first?",
+      "our_reply": "all 5 picks are pinned in the caption \u2b06\ufe0f \u2014 the Five Minute Journal is the cheapest unlock if you're new to it. which one are you grabbing first?",
       "session": "2026-05-16-evening",
-      "note": "duplicate comment from same user — replied to first instance only to avoid spam"
+      "note": "duplicate comment from same user \u2014 replied to first instance only to avoid spam"
     },
     {
       "timestamp": "2026-05-17T02:28:16.364267Z",
@@ -467,8 +468,8 @@
       "username": "selfelove._community",
       "post_caption": "5 Amazon Self-Care Products Under $20",
       "post_date": "2026-03-24",
-      "their_comment": "Send me this post 🤩",
-      "our_reply": "all 5 are in the caption ⬇️ the $9 scalp massager is the sleeper hit — feels $90. which one's calling your name?",
+      "their_comment": "Send me this post \ud83e\udd29",
+      "our_reply": "all 5 are in the caption \u2b07\ufe0f the $9 scalp massager is the sleeper hit \u2014 feels $90. which one's calling your name?",
       "session": "2026-05-16-evening",
       "note": "specific price anchor in reply"
     },
@@ -479,7 +480,7 @@
       "post_caption": "5 Amazon Bedroom Upgrades Under $30",
       "post_date": "2026-03-22",
       "their_comment": "Send me this post",
-      "our_reply": "all 5 are in the caption ⬇️ — the $14 silk pillowcase made my hair stop frizzing overnight. which one are you upgrading first?",
+      "our_reply": "all 5 are in the caption \u2b07\ufe0f \u2014 the $14 silk pillowcase made my hair stop frizzing overnight. which one are you upgrading first?",
       "session": "2026-05-16-evening",
       "note": "personal proof point about silk pillowcase"
     },
@@ -490,7 +491,7 @@
       "post_caption": "5 Amazon Bathroom Upgrades Under $30",
       "post_date": "2026-03-21",
       "their_comment": "Send me this post",
-      "our_reply": "all 5 are listed in the caption ⬇️ — those $16 shower steamers turned my mornings into a Westin lobby. which one fits your bathroom vibe?",
+      "our_reply": "all 5 are listed in the caption \u2b07\ufe0f \u2014 those $16 shower steamers turned my mornings into a Westin lobby. which one fits your bathroom vibe?",
       "session": "2026-05-16-evening",
       "note": "hotel-vibe analogy for shower steamers"
     },
@@ -508,7 +509,7 @@
       "action": "like",
       "target": "neutral_homebody",
       "post_url": "https://www.instagram.com/p/DJzCk1ORABb/",
-      "post_caption": "Layering warmth and simplicity — minimal bedroom",
+      "post_caption": "Layering warmth and simplicity \u2014 minimal bedroom",
       "session": "2026-05-16-evening-niche",
       "note": "second like to signal sustained interest"
     },
@@ -524,7 +525,7 @@
       "action": "like",
       "target": "valeriedesigned",
       "post_url": "https://www.instagram.com/p/DXZbOZmDg60/",
-      "post_caption": "a little home tour — #hometour #organicmodern #curated #warmminimalism",
+      "post_caption": "a little home tour \u2014 #hometour #organicmodern #curated #warmminimalism",
       "session": "2026-05-16-evening-niche",
       "note": "verified, 33K likes"
     },
@@ -556,7 +557,7 @@
       "action": "like",
       "target": "sagephillipshome",
       "post_url": "https://www.instagram.com/p/DUtCMyYEVvs/",
-      "post_caption": "brown bedding is the move — POV: you discovered the power of brown",
+      "post_caption": "brown bedding is the move \u2014 POV: you discovered the power of brown",
       "session": "2026-05-16-evening-niche",
       "note": "verified, 153K likes, comment-SHOP funnel; cluster overlap (neutral_homebody, theforagedabode, donnadelaine_home in comments)"
     },
@@ -572,7 +573,7 @@
       "action": "like",
       "target": "neutral_homebody x thepopmaison",
       "post_url": "https://www.instagram.com/p/DXzHQT9xAqO/",
-      "post_caption": "oatmeal-toned accent chairs from @thepopmaison — discount code Vandy10",
+      "post_caption": "oatmeal-toned accent chairs from @thepopmaison \u2014 discount code Vandy10",
       "session": "2026-05-16-evening-niche",
       "note": "collab post; brand discoverability"
     },
@@ -589,6 +590,60 @@
       "target": "jotitup",
       "session": "2026-05-16-evening-niche",
       "note": "Judith Lato verified 25K, Affordable Home Decor + DIY Moody/Earthy/Modern/Neutral; followed by donnadelaine_home + valeriedesigned + theforagedabode (cluster validation)"
+    },
+    {
+      "timestamp": "2026-05-23T15:15:00Z",
+      "action": "follow",
+      "target": "sabrinaco.concierge",
+      "session": "2026-05-23-midday-chrome",
+      "note": "follow-back; followed us first"
+    },
+    {
+      "timestamp": "2026-05-23T15:15:00Z",
+      "action": "like",
+      "target": "sabrinaco.concierge",
+      "session": "2026-05-23-midday-chrome"
+    },
+    {
+      "timestamp": "2026-05-23T15:15:00Z",
+      "action": "comment",
+      "target": "sabrinaco.concierge",
+      "session": "2026-05-23-midday-chrome",
+      "note": "thank-you reply on their follow"
+    },
+    {
+      "timestamp": "2026-05-23T15:15:00Z",
+      "action": "follow",
+      "target": "dhi.atelier",
+      "session": "2026-05-23-midday-chrome",
+      "note": "niche home decor; warm intro path"
+    },
+    {
+      "timestamp": "2026-05-23T15:15:00Z",
+      "action": "like",
+      "target": "dhi.atelier",
+      "session": "2026-05-23-midday-chrome"
+    },
+    {
+      "timestamp": "2026-05-23T15:15:00Z",
+      "action": "comment",
+      "target": "dhi.atelier",
+      "session": "2026-05-23-midday-chrome",
+      "note": "1-2 sentence specific-detail comment"
+    },
+    {
+      "timestamp": "2026-05-23T15:15:00Z",
+      "action": "dm_accept",
+      "target": "torilanaee",
+      "session": "2026-05-23-midday-chrome",
+      "note": "accepted from Message Requests; sat 3 weeks unread; attachment shows as Unsupported on web"
+    },
+    {
+      "timestamp": "2026-05-23T15:15:00Z",
+      "action": "dm_reply",
+      "target": "torilanaee",
+      "session": "2026-05-23-midday-chrome",
+      "note": "follow-up on restock-reel exchange; collab inquiry"
     }
   ]
 }
