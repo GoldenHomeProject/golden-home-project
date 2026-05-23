@@ -1,0 +1,76 @@
+{
+  "date": "2026-05-23",
+  "agent": "engagement-monitor",
+  "metrics": {
+    "subscribers": 6690,
+    "total_views": 20284,
+    "total_videos": 135
+  },
+  "top_videos": [
+    {
+      "title": "The reason your cabinets stay messy is that nothing has a ho",
+      "views": 95,
+      "likes": 1,
+      "comments": 1
+    },
+    {
+      "title": "I spent ten years thinking my mattress was the problem #shor",
+      "views": 77,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Most pillows are designed for back sleepers. 74% of us sleep",
+      "views": 76,
+      "likes": 1,
+      "comments": 1
+    },
+    {
+      "title": "Stop blaming your mattress for your neck pain #shorts #amazo",
+      "views": 58,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "I spent ten years thinking my mattress was the problem #shor",
+      "views": 27,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "These LED Strips Made My Bedroom Feel Like a Hotel Suite #sh",
+      "views": 3,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Freezer Burn Cost Me $400 Last Year. Not Anymore. #shorts #a",
+      "views": 1,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "The reason your cabinets stay messy is that nothing has a ho",
+      "views": 0,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "The $5 Paste That Cleaned My Stovetop in 30 Seconds #shorts ",
+      "views": 0,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "I Tested Every Sponge. Only One Survived. #shorts #amazonfin",
+      "views": 0,
+      "likes": 0,
+      "comments": 1
+    }
+  ],
+  "comments_responded": 0,
+  "actions_taken": [
+    "New comment on video: \ud83d\udccc SHOP ALL PRODUCTS \u2014 Amazon links:<br><br>\u2460 Simpl",
+    "Updated BUSINESS_BRAIN.md metrics"
+  ]
+}
