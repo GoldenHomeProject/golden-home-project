@@ -1,31 +1,5 @@
 [
   {
-    "name": "reel_2026-05-23_002",
-    "status": "ready",
-    "script_path": "automation/scripts/reel-2026-05-23-002.json",
-    "media_type": "REELS",
-    "video_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-05-23-002.mp4",
-    "caption": "I avoided opening this cabinet for two whole years.\n\nEvery time I opened it I had to do a Tetris move just to grab dish soap. The wasted vertical space mocked me. There was room for two of everything if I could just get to it.\n\nThe Simple Houseware 2-tier sliding basket fixed it in 4 minutes \u2014 no tools, no drilling, just sets on the cabinet floor. Each tier slides independently.\n\nDoubled my usable storage without buying a single new container. The cabinet went from chaos to a system in one afternoon.\n\nComment LINK and I'll DM you the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #kitchenorganization #smallspacesolutions #undersinkstorage",
-    "hashtags": [
-      "#amazonhomefinds",
-      "#kitchenorganization",
-      "#smallspacesolutions",
-      "#undersinkstorage"
-    ],
-    "affiliate": {
-      "primary_product": "Simple Houseware 2-Tier Sliding Basket Organizer (chrome, under-sink)",
-      "dm_keyword": "LINK",
-      "amazon_asin": "B01M0TS64K",
-      "amazon_affiliate_url": "https://www.amazon.com/dp/B01M0TS64K?tag=goldenhomep06-20",
-      "asin_pending": false,
-      "fallback_brands": [],
-      "affiliate_network": "amazon",
-      "affiliate_url": null
-    },
-    "hook": "I avoided opening this cabinet for two whole years.",
-    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-05-23-002.mp4"
-  },
-  {
     "name": "reel_2026-05-23_003",
     "status": "ready",
     "script_path": "automation/scripts/reel-2026-05-23-003.json",
