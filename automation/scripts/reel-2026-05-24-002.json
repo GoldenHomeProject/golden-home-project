@@ -1,0 +1,69 @@
+{
+  "created_at": "2026-05-24T08:15:14.688960Z",
+  "date": "2026-05-24",
+  "seq": 2,
+  "hook_category": "wrong_until_right",
+  "hook": "I had the wrong pillow for 10 years and didn't know it.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "person waking up rubbing stiff neck, frustrated",
+      "on_screen_text": "STIFF EVERY MORNING",
+      "voiceover": "I had the wrong pillow for a decade."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "stack of two pillows on bed, towel rolled up next to it",
+      "on_screen_text": "TRIED STACKING. TRIED TOWELS.",
+      "voiceover": "Stacked two pillows. Rolled towels under my neck."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "memory foam pillow with sweat stain",
+      "on_screen_text": "MEMORY FOAM = SWEAT PUDDLE",
+      "voiceover": "Memory foam turned my head into a sweat puddle."
+    },
+    {
+      "n": 4,
+      "duration_sec": 5,
+      "visual_prompt": "Eli & Elm pillow with U-shape cutout for shoulder, cooling cover",
+      "on_screen_text": "U-SHAPE FOR SIDE SLEEPERS",
+      "voiceover": "Then I tried a U-shape side sleeper pillow."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "person sleeping peacefully on side, pillow contouring perfectly",
+      "on_screen_text": "SLEPT THROUGH FIRST NIGHT",
+      "voiceover": "Slept through the first night. Crick is gone."
+    },
+    {
+      "n": 6,
+      "duration_sec": 4,
+      "visual_prompt": "second pillow being unboxed, partner had stolen the first",
+      "on_screen_text": "COMMENT PILLOW",
+      "voiceover": "Comment PILLOW and I'll DM you the link."
+    }
+  ],
+  "caption": "I had the wrong pillow for 10 years and didn't know it.\n\nWoke up stiff every morning. Tried stacking two pillows. Tried rolling a towel under my neck. Switched sides. Bought a memory foam block that turned my head into a sweat puddle.\n\nThen I tried the Eli & Elm side sleeper pillow \u2014 U-shape cutout for your shoulder, latex-and-fiber blend you can adjust, and a cooling cover that actually stays cool.\n\nFirst night I slept through. The morning crick is gone. My partner stole it the second night and I had to order another one.\n\nComment PILLOW and I'll DM you the link.\nAffiliate link \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #sleepbetter #sidesleeper #bedroomupgrade",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#sleepbetter",
+    "#sidesleeper",
+    "#bedroomupgrade"
+  ],
+  "specific_falsifiable_detail": "Then I tried the Eli & Elm side sleeper pillow \u2014 U-shape cutout for your shoulder, latex-and-fiber blend you can adjust, and a cooling cover that actually stays cool.",
+  "affiliate_strategy": {
+    "primary_product": "Eli & Elm Side Sleeper Pillow (U-shape, latex, queen)",
+    "dm_keyword": "PILLOW",
+    "amazon_asin": "B07YL7VD32",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B07YL7VD32?tag=goldenhomep06-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "impact_direct",
+    "affiliate_url": "https://eliandelm.sjv.io/E092ZX"
+  }
+}
