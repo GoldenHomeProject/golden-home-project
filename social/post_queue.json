@@ -79,10 +79,10 @@
   },
   {
     "name": "reel_2026-05-25_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-05-25-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-05-25-001.mp4",
     "caption": "The reason your cabinets stay messy is that nothing has a home.\n\nContainers don't fix this. Bigger cabinets don't fix this. The problem is depth \u2014 when you can't reach the back without removing the front, the back becomes invisible.\n\nA sliding basket organizer fixes the depth problem. Simple Houseware's chrome 2-tier model holds 18 lbs per shelf \u2014 each tier pulls forward independently, so the back row is always one motion away.\n\nStopped buying duplicates of stuff I already owned. The cabinet became a system instead of a graveyard.\n\nComment LINK and I'll DM you the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #kitchenorganization #smallspacesolutions #undersinkstorage",
     "hashtags": [
       "#amazonhomefinds",
@@ -100,14 +100,15 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "The reason your cabinets stay messy is that nothing has a home."
+    "hook": "The reason your cabinets stay messy is that nothing has a home.",
+    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-05-25-001.mp4"
   },
   {
     "name": "reel_2026-05-25_002",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-05-25-002.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-05-25-002.mp4",
     "caption": "Most pillows are designed for back sleepers. 74% of us sleep on our sides.\n\nStandard pillows put your spine at a 30 degree angle when you sleep on your side. That's why you wake up feeling like someone twisted your neck while you were out.\n\nA side sleeper pillow keeps your spine straight. Eli & Elm uses a U-shape with a shoulder cutout and adjustable latex-fiber fill so you can dial in the height for your shoulder width.\n\nSpine stays straight all night. Wake up the same way you fell asleep \u2014 relaxed, not crooked.\n\nComment PILLOW and I'll DM you the link.\nAffiliate link \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #sleepbetter #sidesleeper #bedroomupgrade",
     "hashtags": [
       "#amazonhomefinds",
@@ -125,14 +126,15 @@
       "affiliate_network": "impact_direct",
       "affiliate_url": "https://eliandelm.sjv.io/E092ZX"
     },
-    "hook": "Most pillows are designed for back sleepers. 74% of us sleep on our sides."
+    "hook": "Most pillows are designed for back sleepers. 74% of us sleep on our sides.",
+    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-05-25-002.mp4"
   },
   {
     "name": "reel_2026-05-25_003",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-05-25-003.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-05-25-003.mp4",
     "caption": "I spent ten years thinking my mattress was the problem.\n\nI bought a $1,400 mattress to fix my neck pain. Didn't help. Bought a topper. Didn't help. Saw a chiropractor twice a month for two years. Helped, but the pain came back every time.\n\nTurns out it was the pillow. Specifically the wrong pillow for a side sleeper. The Eli & Elm has a shoulder cutout that lets your shoulder drop into the bed instead of crushing it.\n\nThree weeks of using it and the chronic stiffness is just gone. Saved myself another mattress.\n\nComment PILLOW and I'll DM you the link.\nAffiliate link \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #sleepbetter #sidesleeper #bedroomupgrade",
     "hashtags": [
       "#amazonhomefinds",
@@ -150,6 +152,7 @@
       "affiliate_network": "impact_direct",
       "affiliate_url": "https://eliandelm.sjv.io/E092ZX"
     },
-    "hook": "I spent ten years thinking my mattress was the problem."
+    "hook": "I spent ten years thinking my mattress was the problem.",
+    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-05-25-003.mp4"
   }
 ]
