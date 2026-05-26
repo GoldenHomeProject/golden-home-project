@@ -1,0 +1,13 @@
+[Unit]
+Description=GHP engagement sweep 3x daily
+
+[Timer]
+OnCalendar=*-*-* 13:30:00 UTC
+OnCalendar=*-*-* 18:30:00 UTC
+OnCalendar=*-*-* 23:30:00 UTC
+Persistent=true
+RandomizedDelaySec=600
+Unit=ghp-engagement.service
+
+[Install]
+WantedBy=timers.target
