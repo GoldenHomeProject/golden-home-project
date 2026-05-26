@@ -1,0 +1,77 @@
+[
+  {
+    "media_id": "18096749459128249",
+    "pulled_at": "2026-05-26T06:37:50.275679+00:00",
+    "meta_error": "{\"error\":{\"message\":\"(#10) Insufficient permissions to access this data\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Aatx1e_gpSnEvwP5aSSghix\"}}"
+  },
+  {
+    "media_id": "18082955282420922",
+    "pulled_at": "2026-05-26T06:37:50.818483+00:00",
+    "meta_error": "{\"error\":{\"message\":\"(#10) Insufficient permissions to access this data\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A68TRMVwt__V_W8ddwQaZkt\"}}"
+  },
+  {
+    "media_id": "18078009968642398",
+    "pulled_at": "2026-05-26T06:37:51.169254+00:00",
+    "meta_error": "{\"error\":{\"message\":\"(#10) Insufficient permissions to access this data\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Ad1A4MPXusnhkScH2Ah01Ok\"}}"
+  },
+  {
+    "media_id": "18073627850287612",
+    "pulled_at": "2026-05-26T06:37:51.529076+00:00",
+    "meta_error": "{\"error\":{\"message\":\"(#10) Insufficient permissions to access this data\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AmHvjsqiqXNY5xQgJSF-l75\"}}"
+  },
+  {
+    "media_id": "18011408003888734",
+    "pulled_at": "2026-05-26T06:37:51.823171+00:00",
+    "meta_error": "{\"error\":{\"message\":\"(#10) Insufficient permissions to access this data\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Azvxq6oulEtLkpfQVk9FORO\"}}"
+  },
+  {
+    "media_id": "18084743819265037",
+    "pulled_at": "2026-05-26T06:37:52.146353+00:00",
+    "meta_error": "{\"error\":{\"message\":\"(#10) Insufficient permissions to access this data\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AIfQR_Iy2ZzLaDeuHtsulix\"}}"
+  },
+  {
+    "media_id": "18585131581061778",
+    "pulled_at": "2026-05-26T06:37:52.473830+00:00",
+    "meta_error": "{\"error\":{\"message\":\"(#10) Insufficient permissions to access this data\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Aj08eJTmq1QWqREIwzgYgMM\"}}"
+  },
+  {
+    "media_id": "17889257958532718",
+    "pulled_at": "2026-05-26T06:37:52.782580+00:00",
+    "meta_error": "{\"error\":{\"message\":\"(#10) Insufficient permissions to access this data\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AHYrIU7nW7Ex_A9DKXxVLMe\"}}"
+  },
+  {
+    "media_id": "18056040800722840",
+    "pulled_at": "2026-05-26T06:37:53.090410+00:00",
+    "meta_error": "{\"error\":{\"message\":\"(#10) Insufficient permissions to access this data\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AnwtuIERkjc4u5LopzcbBov\"}}"
+  },
+  {
+    "media_id": "18108965360496152",
+    "pulled_at": "2026-05-26T06:37:53.393950+00:00",
+    "meta_error": "{\"error\":{\"message\":\"(#10) Insufficient permissions to access this data\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AK4QkGqMQJqCU4ZGBymuyiC\"}}"
+  },
+  {
+    "media_id": "18097205756175278",
+    "pulled_at": "2026-05-26T06:37:53.704888+00:00",
+    "meta_error": "{\"error\":{\"message\":\"(#10) Insufficient permissions to access this data\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ACmkovQ7IOX763EXts6NiyN\"}}"
+  },
+  {
+    "media_id": "18099230512883796",
+    "pulled_at": "2026-05-26T06:37:54.033471+00:00",
+    "meta_error": "{\"error\":{\"message\":\"(#10) Insufficient permissions to access this data\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AKjss2-xK01_nCfAyOkXc5x\"}}"
+  },
+  {
+    "media_id": "18105064988478438",
+    "pulled_at": "2026-05-26T06:37:54.345249+00:00",
+    "meta_error": "{\"error\":{\"message\":\"(#10) Insufficient permissions to access this data\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A6WPrJkDpJ62pe-MJ1cidED\"}}"
+  },
+  {
+    "media_id": "17989746005992201",
+    "pulled_at": "2026-05-26T06:37:54.661556+00:00",
+    "meta_error": "{\"error\":{\"message\":\"(#10) Insufficient permissions to access this data\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AierlQ_Lid-fZ8F6BIeYr4j\"}}"
+  },
+  {
+    "media_id": "18117766345684687",
+    "pulled_at": "2026-05-26T06:37:54.972064+00:00",
+    "meta_error": "{\"error\":{\"message\":\"(#10) Insufficient permissions to access this data\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AJNVJwpuzEzj78dwCNBB3Ia\"}}"
+  }
+]
