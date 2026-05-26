@@ -28,6 +28,7 @@ import datetime as dt
 import json
 import os
 import random
+import re
 import sys
 import time
 from pathlib import Path
@@ -109,59 +110,127 @@ def detect_action_block(page) -> bool:
     bl = body.lower()
     return any(n in bl for n in needles)
 
+HANDLE_RE = re.compile(r"^[a-z0-9._]{2,30}$")
+
+def _parse_notifications_text(text: str) -> list[dict]:
+    """
+    Parse the notifications page innerText. IG renders rows like:
+        <handle>
+        <action>. <ago>
+    Returns list of {handle, action, ago} dicts in display order (newest first).
+    """
+    lines = [ln.strip() for ln in text.split("\n") if ln.strip()]
+    out = []
+    i = 0
+    while i < len(lines) - 1:
+        h = lines[i]
+        nxt = lines[i + 1]
+        if HANDLE_RE.match(h) and any(
+            kw in nxt.lower() for kw in
+            ("liked your", "started following", "commented", "mentioned",
+             "replied", "tagged", "shared", "posted a thread")
+        ):
+            out.append({"handle": h, "action": nxt})
+            i += 2
+        else:
+            i += 1
+    return out
+
+def _parse_inbox_text(text: str) -> list[str]:
+    """
+    Thread list innerText looks like:
+        Messages
+        <handle1>
+        <preview snippet>  ·  <ago>
+        <handle2>
+        ...
+    Return unique handle list in display order.
+    """
+    lines = [ln.strip() for ln in text.split("\n") if ln.strip()]
+    seen, out = set(), []
+    for ln in lines:
+        if HANDLE_RE.match(ln) and ln not in seen and ln not in (
+            "messages", "primary", "general", "requests"
+        ):
+            seen.add(ln)
+            out.append(ln)
+    return out
+
+def _known_handles(data: dict) -> set[str]:
+    """All handles we've ever logged a follow/like/comment/dm against."""
+    s = set()
+    for a in data.get("actions", []):
+        t = (a.get("target") or "").lstrip("@").lower()
+        if t:
+            s.add(t)
+    return s
+
 def step0_inbox_sweep(page, data: dict, session: str, dry: bool) -> dict:
     """
-    Step 0 from daily_engagement_chrome.md:
-      - Open Requests folder, list pending request senders
-      - Open Activity panel, list new comment/reply targets on OUR posts
-    NO outbound actions. NO accepts. Just observe + log so a human (or future
-    --full run) can act.
+    Step 0: surface inbound engagement we haven't reciprocated yet.
+      - Requests folder: pending senders we haven't accepted
+      - Inbox: recent threads (already-accepted DMs)
+      - Notifications: likes/follows/comments on OUR content
+    All passive — no outbound actions, no accepts. Output is the warm-prospect
+    list a human (or --full mode) can act on.
     """
-    found = {"requests": [], "activity": []}
+    found = {"requests": [], "inbox": [], "notifications": []}
 
     # --- Requests folder ---
     page.goto("https://www.instagram.com/direct/requests/", wait_until="domcontentloaded")
-    jitter(3, 5)
+    page.wait_for_timeout(7000)
     if detect_login_wall(page):
         return {"error": "login_wall_at_requests"}
     try:
-        # Request rows are <a href="/direct/t/..."> within the inbox list.
-        # Capture sender handles from aria-labels / text. Tolerant scrape.
-        anchors = page.locator("a[href*='/direct/t/']").all()
-        for a in anchors[:25]:
-            txt = (a.inner_text(timeout=1500) or "").strip().split("\n")[0]
-            if txt and len(txt) < 50:
-                found["requests"].append(txt)
+        tl = page.locator("[aria-label='Thread list']").first
+        txt = tl.inner_text(timeout=4000)
+        found["requests"] = _parse_inbox_text(txt)
     except Exception as e:
         found["requests_error"] = str(e)
 
-    # --- Activity / Notifications ---
-    page.goto("https://www.instagram.com/", wait_until="domcontentloaded")
-    jitter(2, 4)
-    # Click the heart-shaped notifications button if present
+    # --- Main inbox ---
+    page.goto("https://www.instagram.com/direct/inbox/", wait_until="domcontentloaded")
+    page.wait_for_timeout(7000)
     try:
-        page.locator("svg[aria-label='Notifications']").first.click(timeout=3000)
-        jitter(2, 4)
-        # Each activity row usually contains an <a> with /<handle>/ format
-        rows = page.locator("div[role='dialog'] a[href^='/']").all()
-        seen = set()
-        for r in rows[:30]:
-            href = r.get_attribute("href") or ""
-            handle = href.strip("/").split("/")[0]
-            if handle and handle not in seen and "/" not in handle:
-                seen.add(handle)
-                found["activity"].append(handle)
+        tl = page.locator("[aria-label='Thread list']").first
+        txt = tl.inner_text(timeout=4000)
+        found["inbox"] = _parse_inbox_text(txt)
     except Exception as e:
-        found["activity_error"] = str(e)
+        found["inbox_error"] = str(e)
+
+    # --- Notifications page ---
+    page.goto("https://www.instagram.com/notifications/", wait_until="domcontentloaded")
+    page.wait_for_timeout(7000)
+    try:
+        body = page.locator("body").inner_text(timeout=4000)
+        found["notifications"] = _parse_notifications_text(body)
+    except Exception as e:
+        found["notifications_error"] = str(e)
+
+    # Identify untapped warm prospects (engaged with us, not yet logged)
+    known = _known_handles(data)
+    notif_handles = [n["handle"] for n in found["notifications"]]
+    untapped = [h for h in notif_handles + found["inbox"] + found["requests"]
+                if h.lower() not in known]
+    # dedupe preserve order
+    seen, untapped_unique = set(), []
+    for h in untapped:
+        if h not in seen:
+            seen.add(h)
+            untapped_unique.append(h)
 
     log_action(
         data, session, "inbox_sweep", target="self",
         requests_count=len(found["requests"]),
-        activity_count=len(found["activity"]),
-        requests=found["requests"][:10],
-        activity=found["activity"][:10],
+        inbox_count=len(found["inbox"]),
+        notifications_count=len(found["notifications"]),
+        requests=found["requests"][:20],
+        inbox=found["inbox"][:20],
+        notifications=found["notifications"][:30],
+        untapped_warm=untapped_unique[:20],
         dry_run=dry,
     )
+    found["untapped_warm"] = untapped_unique
     return found
 
 # ---------- main ----------
@@ -220,11 +289,17 @@ def main() -> int:
 
             found = step0_inbox_sweep(page, data, session, args.dry_run)
             print(f"[engagement] requests={len(found.get('requests', []))} "
-                  f"activity={len(found.get('activity', []))}")
+                  f"inbox={len(found.get('inbox', []))} "
+                  f"notifications={len(found.get('notifications', []))} "
+                  f"untapped_warm={len(found.get('untapped_warm', []))}")
             for h in found.get("requests", [])[:10]:
                 print(f"  REQUEST: {h}")
-            for h in found.get("activity", [])[:10]:
-                print(f"  ACTIVITY: {h}")
+            for h in found.get("inbox", [])[:10]:
+                print(f"  INBOX: {h}")
+            for n in found.get("notifications", [])[:15]:
+                print(f"  NOTIF: {n['handle']} — {n['action']}")
+            for h in found.get("untapped_warm", [])[:10]:
+                print(f"  ⚡ UNTAPPED: {h}")
 
             if args.inbox_only:
                 print("[engagement] inbox-only mode — done.")
