@@ -146,6 +146,28 @@
       "next_checkpoint": "2026-05-25 (tomorrow) — first real evaluative day in 4 days: predictions #8 and #11 both close 14-day windows."
     },
     {
+      "date": "2026-05-26",
+      "queue_state": "queue exhausted, ending — 0 open items in social/improvement_queue.md (17 closed)",
+      "evals_due_today": "#1 and #18 re-eval (both re_eval_date=2026-05-26, 7 days post-ddcf945 schema fix — now inside Google's documented 7-21d Rich Results re-evaluation window)",
+      "session_action": "evaluation-only session; queue empty by design since 64bd336 (2026-05-20); refused to invent infrastructure work per CEO prompt rule #1",
+      "inbound_check": "Gmail to:hello@goldenhomeproject is:unread newer_than:3d returned 0 threads — no human-reply obligation triggered",
+      "structural_verification_live_2026-05-26": "curl'd all 8 COVER URLs (2026-04-23, -04-27, -04-28, -04-29, -04-30, -05-01, -05-05, -05-06): HTTP 200 on every post, reviewRating + ratingValue both present exactly once per post. Schema fix (ddcf945, 2026-05-19) remains deployed 7 days later; no regressions.",
+      "self_eval_micro": "Plan: re-eval #1 + #18, check inbound, log snapshot, commit. Alternatives dismissed: (a) invent a queue item — violates CEO rule #1 and explicit user instruction 'Do not invent busywork'; (b) skip the re-eval since 'still PENDING_USER' — but today crosses Google's 7-day re-eval latency floor and is the date past-me committed to. Not avoiding anything substantive — the staking-design flaw (PENDING_USER × 3) is already documented in 5/25 meta-lesson.",
+      "self_eval_macro": "Strategy: still in the GSC sandbox waiting window; no zero-spend lever can accelerate it. Revenue: $0 lifetime, unchanged. Premise shift since last session: nothing material — the 5/25 reading of upstream content-pipeline fragility (5-day reel-producer doom loop, 2-day IG ig_id null) is unchanged.",
+      "self_eval_tunnel_vision": "Same outcome 3+ times: queue-exhausted-no-ship is now 4 sessions (5/22, 5/23, 5/24, today) interleaved with the 5/25 eval session. The pattern is correct behavior, not avoidance — the bottleneck is GSC indexing latency the assistant cannot move. Sharp-critic catch: I am consolidating the next 3 user-pull burdens (#1, #18, Stage-1 cluster impressions) into a single 2026-06-05 dashboard read to honor the 5/25 meta-lesson about not burning user attention on serial polls.",
+      "prediction_1_reeval": {
+        "result": "STILL_PENDING_USER_GSC_PULL — final re_eval_date bumped to 2026-06-05 (Stage-1) to consolidate the dashboard read",
+        "rationale": "Re-evaluating every 5 days on the same dashboard surface burns user attention without changing signal. Stage-1 already requires a GSC pull on 2026-06-05; fold the Rich Results check into that single user action."
+      },
+      "prediction_18_reeval": {
+        "result": "STILL_PENDING_USER_GSC_PULL — final re_eval_date bumped to 2026-06-05 (Stage-1) to consolidate the dashboard read",
+        "asymmetric_question_unchanged": "If GSC 2026-06-05 shows ≥1 eligible URL, the 'sandbox dominates over on-page' framing of predictions 5/6/10/12/14/16 needs to update significantly — those predictions staked null on changes Google was silently rejecting. If 0 eligible, the sandbox prior holds across the cluster."
+      },
+      "queue_action": "no new queue items added — there is no fresh competitive teardown or traffic data that would ground a new item per queue rule.",
+      "next_checkpoint": "2026-05-28 — eval of #13 (Impact-disclosure prefix-match correctness over a 14-day shipping window). 2026-06-05 — Stage-1 GSC eval (cluster impressions vs zero) AND final re-eval of #1 + #18 (consolidated user GSC pull).",
+      "interpretation": "Re-eval today moved the calendar across the 7-day floor but did not produce a final verdict because the user GSC pull is the only data source that can. Consolidating the 3 pending user pulls into one 2026-06-05 read is the design fix the 5/25 meta-lesson called for. Honest read: 5 idle-by-design days since 5/20 ship (64bd336), interleaved with 2 evaluation sessions (5/25, today). That is the experiment running, not motion."
+    },
+    {
       "date": "2026-05-25",
       "queue_state": "empty (all queue items shipped or marked N/A as of 64bd336)",
       "evals_due_today": "#8 (14-day IG/YT/FB attribution kill window) and #11 (YT dynamic-poster ≥7/13 successful days)",
