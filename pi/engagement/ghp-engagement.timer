@@ -2,11 +2,13 @@
 Description=GHP engagement sweep 3x daily
 
 [Timer]
+# Human-pattern frequency: morning + evening US peak only, NOT 3x/day.
+# 13:30 UTC = 09:30 ET (morning coffee check)
+# 23:30 UTC = 19:30 ET (evening peak)
 OnCalendar=*-*-* 13:30:00 UTC
-OnCalendar=*-*-* 18:30:00 UTC
 OnCalendar=*-*-* 23:30:00 UTC
 Persistent=true
-RandomizedDelaySec=600
+RandomizedDelaySec=900
 Unit=ghp-engagement.service
 
 [Install]
