@@ -1,0 +1,14 @@
+[Unit]
+Description=GHP daily strategy brief — once per day
+
+[Timer]
+# Human-pattern frequency: 1x/day at the morning US window.
+# 14:00 UTC = 10:00 ET (post-coffee, before peak posting hours).
+# Read-only briefing — does NOT take outbound actions.
+OnCalendar=*-*-* 14:00:00 UTC
+Persistent=true
+RandomizedDelaySec=900
+Unit=ghp-daily-strategy.service
+
+[Install]
+WantedBy=timers.target

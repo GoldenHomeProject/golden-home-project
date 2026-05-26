@@ -1,0 +1,12 @@
+[Unit]
+Description=GHP daily strategy brief (claude -p)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/golden-home-project
+ExecStart=/bin/bash %h/golden-home-project/pi/strategy/daily-strategy.sh
+StandardOutput=append:%h/.ghp-strategy/runs/last.log
+StandardError=append:%h/.ghp-strategy/runs/last.log
+TimeoutStartSec=600
