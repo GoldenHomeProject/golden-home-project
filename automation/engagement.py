@@ -39,6 +39,12 @@ PROFILE_DIR = Path.home() / ".config" / "ghp-chromium"
 CHROMIUM_BIN = "/usr/bin/chromium"
 
 DAILY_CAPS = {"follow": 10, "like": 30, "comment": 5}
+# Per-sweep ceilings — must be < daily caps since we run 2x/day
+PER_SWEEP_CAPS = {"follow": 3, "like": 6, "comment": 1}
+
+# Skip patterns (paid-promo bots etc. — see feedback_ig_promo_bot_pattern.md)
+SKIP_SUFFIXES = ("._community",)
+SKIP_KEYWORDS = ("giveaway", "promo", "alltypes")
 
 # ---------- log helpers ----------
 
@@ -184,6 +190,119 @@ def _known_handles(data: dict) -> set[str]:
             s.add(t)
     return s
 
+def _should_skip_handle(handle: str) -> str | None:
+    """Return reason string if handle should be skipped, else None."""
+    h = handle.lower()
+    if any(h.endswith(s) for s in SKIP_SUFFIXES):
+        return "skip_suffix"
+    if any(k in h for k in SKIP_KEYWORDS):
+        return "skip_keyword"
+    return None
+
+def follow_back(page, handle: str, data: dict, session: str, dry: bool) -> str:
+    """
+    Navigate to /<handle>/ and click Follow if button visible and we're not
+    already following. Returns: 'followed' | 'already_following' | 'skipped' |
+    'blocked' | 'not_found' | 'error:<msg>'.
+    Logs the outcome to engagement_log.json.
+    """
+    reason = _should_skip_handle(handle)
+    if reason:
+        log_action(data, session, "follow_skip", target=handle, reason=reason)
+        return "skipped"
+
+    url = f"https://www.instagram.com/{handle}/"
+    try:
+        page.goto(url, wait_until="domcontentloaded", timeout=20000)
+    except Exception as e:
+        log_action(data, session, "follow_error", target=handle, reason=f"goto: {e}")
+        return f"error:goto"
+    page.wait_for_timeout(random.randint(3500, 6000))
+
+    if detect_action_block(page):
+        log_action(data, session, "abort", target=handle, reason="action_block_on_profile")
+        return "blocked"
+
+    # Profile not found pages return /accounts/login or /404
+    if "/accounts/login" in page.url or "Page Not Found" in (page.title() or ""):
+        log_action(data, session, "follow_skip", target=handle, reason="not_found")
+        return "not_found"
+
+    # Check current state via the action button on the profile header
+    try:
+        following_btn = page.get_by_role("button", name="Following", exact=True)
+        requested_btn = page.get_by_role("button", name="Requested", exact=True)
+        if following_btn.count() > 0 or requested_btn.count() > 0:
+            log_action(data, session, "follow_skip", target=handle, reason="already_following")
+            return "already_following"
+
+        follow_btn = page.get_by_role("button", name="Follow", exact=True).first
+        if follow_btn.count() == 0:
+            log_action(data, session, "follow_skip", target=handle, reason="no_follow_button")
+            return "error:no_button"
+
+        if dry:
+            log_action(data, session, "follow_dry", target=handle, reason="dry_run_only")
+            return "followed"  # treat as success for dry-run counting
+
+        follow_btn.click(timeout=5000)
+        page.wait_for_timeout(random.randint(2000, 4000))
+
+        # Verify state change
+        if detect_action_block(page):
+            log_action(data, session, "abort", target=handle, reason="action_block_after_click")
+            return "blocked"
+
+        now_following = (
+            page.get_by_role("button", name="Following", exact=True).count() > 0
+            or page.get_by_role("button", name="Requested", exact=True).count() > 0
+        )
+        if now_following:
+            log_action(data, session, "follow", target=handle, reason="follow_back_untapped_warm")
+            return "followed"
+        log_action(data, session, "follow_error", target=handle, reason="no_state_change")
+        return "error:no_state_change"
+    except Exception as e:
+        log_action(data, session, "follow_error", target=handle, reason=str(e)[:200])
+        return f"error:{type(e).__name__}"
+
+def outbound_follow_round(page, data: dict, session: str, candidates: list[str],
+                          dry: bool) -> dict:
+    """
+    Run follow-back on up to PER_SWEEP_CAPS['follow'] candidates, respecting
+    today's remaining daily cap. Returns summary dict.
+    """
+    today = dt.date.today().strftime("%Y-%m-%d")
+    used = today_counts(data, today)
+    daily_left = max(0, DAILY_CAPS["follow"] - used["follow"])
+    budget = min(PER_SWEEP_CAPS["follow"], daily_left)
+
+    summary = {"attempted": 0, "followed": 0, "skipped": 0,
+               "errors": 0, "blocked": False, "results": []}
+    if budget <= 0:
+        summary["note"] = "no_budget_left_today"
+        return summary
+
+    for handle in candidates[:budget * 3]:  # iterate up to 3x budget to find skippables
+        if summary["followed"] >= budget:
+            break
+        summary["attempted"] += 1
+        result = follow_back(page, handle, data, session, dry)
+        summary["results"].append({"handle": handle, "result": result})
+        if result == "followed":
+            summary["followed"] += 1
+            jitter(60, 120)  # human-pattern pause between follows
+        elif result == "blocked":
+            summary["blocked"] = True
+            break
+        elif result.startswith("error"):
+            summary["errors"] += 1
+            jitter(5, 15)
+        else:
+            summary["skipped"] += 1
+            jitter(5, 15)
+    return summary
+
 def step0_inbox_sweep(page, data: dict, session: str, dry: bool) -> dict:
     """
     Step 0: surface inbound engagement we haven't reciprocated yet.
@@ -324,12 +443,22 @@ def main() -> int:
                 print("[engagement] inbox-only mode — done.")
                 return 0
 
-            # Outbound (--full) is intentionally NOT implemented yet.
-            # Smoke-test Step 0 for 5 clean days first per the Pi plan,
-            # then add discover→engage in a follow-up commit.
-            print("FATAL: --full mode not yet implemented. Re-run with --inbox-only.",
-                  file=sys.stderr)
-            return 5
+            # --- --full mode: follow-back top untapped_warm prospects ---
+            candidates = found.get("untapped_warm", [])
+            if not candidates:
+                print("[engagement] full mode — no untapped_warm candidates, nothing to do.")
+                return 0
+            summary = outbound_follow_round(page, data, session, candidates, args.dry_run)
+            print(f"[engagement] follow_round attempted={summary['attempted']} "
+                  f"followed={summary['followed']} skipped={summary['skipped']} "
+                  f"errors={summary['errors']} blocked={summary['blocked']}")
+            for r in summary["results"]:
+                print(f"  FOLLOW: {r['handle']} → {r['result']}")
+            if summary["blocked"]:
+                data.setdefault("summary", {})["blocked_at"] = dt.datetime.utcnow().isoformat()
+                save_log(data)
+                return 4
+            return 0
 
         finally:
             ctx.close()
