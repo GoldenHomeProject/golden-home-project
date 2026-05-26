@@ -111,6 +111,27 @@ def detect_action_block(page) -> bool:
     return any(n in bl for n in needles)
 
 HANDLE_RE = re.compile(r"^[a-z0-9._]{2,30}$")
+AGE_RE = re.compile(r"^\d{1,3}(s|m|h|d|w|mo|y)$|^[A-Z][a-z]{2} \d{1,2}$|^\d{1,2} [A-Z][a-z]{2}$")
+OWN_HANDLE = "golden_home_project"
+UI_WORDS = {
+    "messages", "primary", "general", "requests", "notifications",
+    "this month", "today", "yesterday", "earlier", "this week",
+    "following", "see all", "view all", "more", "search", "explore",
+    "reels", "home", "profile", "inbox", "activity", "settings",
+}
+
+def _is_real_handle(s: str) -> bool:
+    if not HANDLE_RE.match(s):
+        return False
+    sl = s.lower()
+    if sl == OWN_HANDLE or sl in UI_WORDS:
+        return False
+    if AGE_RE.match(s):
+        return False
+    # require at least one letter and not look like a duration
+    if not re.search(r"[a-z]", s):
+        return False
+    return True
 
 def _parse_notifications_text(text: str) -> list[dict]:
     """
@@ -125,7 +146,7 @@ def _parse_notifications_text(text: str) -> list[dict]:
     while i < len(lines) - 1:
         h = lines[i]
         nxt = lines[i + 1]
-        if HANDLE_RE.match(h) and any(
+        if _is_real_handle(h) and any(
             kw in nxt.lower() for kw in
             ("liked your", "started following", "commented", "mentioned",
              "replied", "tagged", "shared", "posted a thread")
@@ -149,9 +170,7 @@ def _parse_inbox_text(text: str) -> list[str]:
     lines = [ln.strip() for ln in text.split("\n") if ln.strip()]
     seen, out = set(), []
     for ln in lines:
-        if HANDLE_RE.match(ln) and ln not in seen and ln not in (
-            "messages", "primary", "general", "requests"
-        ):
+        if _is_real_handle(ln) and ln not in seen:
             seen.add(ln)
             out.append(ln)
     return out
