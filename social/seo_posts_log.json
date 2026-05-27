@@ -192,6 +192,18 @@
       },
       "queue_action": "no new queue items added. The 5-day doom loop is already fixed (5/21 commits). The IG ig_id null on 5/23–5/24 may warrant investigation, but Instagram Graph API failures are typically token/quota issues that resolve themselves; only worth queueing if it persists past 2026-05-28.",
       "next_checkpoint": "2026-05-26 — re-eval of #1 and #18 inside Google's 7-day Rich Results window (now actually inside the window since ddcf945 was 2026-05-19, 7 days = 2026-05-26). 2026-05-28 — eval of #13 (disclosure prefix-match). 2026-06-05 — Stage-1 GSC eval (cluster impressions vs zero)."
+    },
+    {
+      "date": "2026-05-27",
+      "queue_state": "queue exhausted, ending — 0 open items in social/improvement_queue.md (17 closed)",
+      "evals_due_today": "none — next: 2026-05-28 (#13 Impact-disclosure prefix-match, 14-day shipping window), 2026-06-05 (Stage-1 GSC cluster impressions + consolidated #1/#18 final re-eval)",
+      "session_action": "no ship; refused to invent busywork per queue rule + CEO prompt rule #1 + explicit user instruction in today's loop prompt",
+      "inbound_check": "Gmail to:hello@goldenhomeproject is:unread newer_than:3d returned 0 threads — no human-reply obligation triggered",
+      "self_eval_micro": "Plan: log queue-exhausted snapshot + stop. Alternatives dismissed: (a) invent a queue item — directly violates user instruction; (b) pull GSC myself — dashboard is user-only and the 5/25 meta-lesson warned against serial polls. Not avoiding anything substantive — the hard call (Path C / domain-not-cluster pivot) is gated on 2026-06-05 Stage-1 by design.",
+      "self_eval_macro": "Strategy: still in GSC sandbox waiting window; no zero-spend lever can accelerate it. Revenue: $0 lifetime, unchanged. Premise shift since 5/26: none material; schema fix still live, no new upstream bugs surfaced overnight.",
+      "self_eval_tunnel_vision": "5th idle-by-design session in 6 days (5/22, 5/23, 5/24, 5/26 eval-only, today). The repetition IS the correct action because the bottleneck is GSC indexing latency, not motion. Sharp-critic catch this turn: snapshots themselves could become motion if they bloat — kept this one tight on the 5/22-5/24 template.",
+      "queue_action": "no new queue items added — no fresh competitive teardown or traffic data has arrived that would ground a new item per queue rule.",
+      "next_checkpoint": "2026-05-28 (tomorrow) — eval of #13 (Impact-disclosure prefix-match): assistant-verifiable from automation/scripts/reel-*.json + caption greps without user data pull. 2026-06-05 — Stage-1 GSC cluster impressions + consolidated final re-eval of #1 + #18 (single user dashboard pull resolves three predictions)."
     }
   ],
   "cadence_violation_2026-05-05": "7 posts published in 12 days violates CEO rule #1 (1 post/week max). All 7 target near-identical 'waterproof stretch sofa cover' keyword cluster — diminishing return per post. NEXT ACTION = stop posting, wait for GSC indexing + organic clicks, monitor Amazon Associates daily for first conversion. Do NOT publish week-2 post until at least 2026-05-12 AND only if first 7 have produced organic impressions.",
