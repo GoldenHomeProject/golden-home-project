@@ -7,6 +7,7 @@ Type=oneshot
 WorkingDirectory=%h/golden-home-project
 ExecStartPre=/usr/bin/git -C %h/golden-home-project pull --quiet
 ExecStart=/usr/bin/xvfb-run -a %h/.ghp-engagement/venv/bin/python automation/engagement.py --full
+ExecStartPost=/bin/bash -c 'cd %h/golden-home-project && if ! git diff --quiet social/engagement_log.json; then git -c user.name="GHP Pi Bot" -c user.email="goldenhomeprojectllc@gmail.com" add social/engagement_log.json && git commit -m "engagement: Pi sweep $(date -u +%%Y-%%m-%%dT%%H:%%MZ)" --quiet && git push --quiet origin main; fi'
 StandardOutput=append:%h/.ghp-engagement/runs/last.log
 StandardError=append:%h/.ghp-engagement/runs/last.log
 TimeoutStartSec=600

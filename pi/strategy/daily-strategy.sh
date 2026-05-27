@@ -42,20 +42,19 @@ try:
     data = json.load(open("social/engagement_log.json"))
 except Exception:
     print("(empty)"); raise SystemExit
-sessions = data.get("sessions", []) if isinstance(data, dict) else data
+# Real schema: {"_doc":..., "summary":..., "actions":[{timestamp, action, target, ...}, ...]}
+actions = data.get("actions", []) if isinstance(data, dict) else (data if isinstance(data, list) else [])
 cutoff = dt.datetime.utcnow() - dt.timedelta(hours=36)
 recent = []
-for s in sessions[-20:]:
-    actions = s.get("actions", []) if isinstance(s, dict) else []
-    for a in actions:
-        ts = a.get("timestamp", "")
-        try:
-            t = dt.datetime.fromisoformat(ts.replace("Z",""))
-        except Exception:
-            continue
-        if t >= cutoff:
-            recent.append(f"  {ts}  {a.get('action','?')}  {a.get('target','')}  {a.get('detail','')}")
-print("\n".join(recent[-50:]) or "(none in window)")
+for a in actions:
+    ts = a.get("timestamp", "")
+    try:
+        t = dt.datetime.fromisoformat(ts.replace("Z",""))
+    except Exception:
+        continue
+    if t >= cutoff:
+        recent.append(f"  {ts}  {a.get('action','?')}  {a.get('target','')}  {a.get('reason','')}")
+print("\n".join(recent[-80:]) or "(none in window)")
 PY
 )
 fi
@@ -67,14 +66,15 @@ try:
     data = json.load(open("social/engagement_log.json"))
 except Exception:
     print("?"); raise SystemExit
-sessions = data.get("sessions", []) if isinstance(data, dict) else data
-for s in reversed(sessions[-10:]):
-    if not isinstance(s, dict): continue
-    for a in s.get("actions", []):
-        if a.get("action") == "inbox_sweep":
-            uw = a.get("untapped_warm", [])
-            if isinstance(uw, list):
-                print(len(uw)); raise SystemExit
+actions = data.get("actions", []) if isinstance(data, dict) else (data if isinstance(data, list) else [])
+# Most-recent inbox_sweep wins
+for a in reversed(actions):
+    if a.get("action") == "inbox_sweep":
+        uw = a.get("untapped_warm", a.get("untapped", []))
+        if isinstance(uw, list):
+            print(len(uw)); raise SystemExit
+        if isinstance(uw, int):
+            print(uw); raise SystemExit
 print(0)
 PY
 )
