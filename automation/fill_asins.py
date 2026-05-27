@@ -25,7 +25,6 @@ import json
 import re
 import sys
 from pathlib import Path
-from urllib import parse
 
 ROOT = Path(__file__).resolve().parent.parent
 SCRIPT_DIR = ROOT / "automation" / "scripts"
@@ -38,8 +37,12 @@ def affiliate_url(asin: str) -> str:
     return f"https://www.amazon.com/dp/{asin}?tag={AMAZON_TAG}"
 
 
-def search_url(product: str) -> str:
-    return f"https://www.amazon.com/s?k={parse.quote_plus(product)}"
+# search_url() removed 2026-05-27. Amazon search URLs do NOT pay this
+# Associates account — only /dp/<ASIN>?tag= URLs do. If you need to look up
+# an ASIN, use Chrome to search amazon.com manually OR let the automated
+# asin_discoverer.py find + verify one for you. See:
+#   automation/asin_discoverer.py
+#   ~/.claude/projects/.../feedback_ghp_no_search_urls.md
 
 
 def iter_pending() -> list[tuple[Path, dict]]:
@@ -67,9 +70,13 @@ def cmd_list() -> int:
         product = (data.get("affiliate_strategy") or {}).get("primary_product") or "?"
         print(f"  {path.name}")
         print(f"    product: {product}")
-        print(f"    search:  {search_url(product)}")
+        print(f"    once you have an ASIN, the link will be:")
+        print(f"      https://www.amazon.com/dp/<ASIN>?tag={AMAZON_TAG}")
         print()
     print("Run: python automation/fill_asins.py set <reel-file.json> <ASIN>")
+    print()
+    print("Tip: asin_discoverer.py runs daily and auto-fills the vetted pool")
+    print("     in social/dm_keyword_registry.json. Check there first.")
     return 0
 
 

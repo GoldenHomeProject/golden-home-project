@@ -1,52 +1,80 @@
-"""Remediate dead-ASIN affiliate links in products/*.html.
+"""DISABLED 2026-05-27 — DO NOT RUN.
 
-Background: a Chrome verification of the 221 unique ASINs on goldenhomeproject.com
-returned 182 dead (82%) — they 404 on Amazon. This explains the 0/902 (0%)
-conversion rate on Amazon Associates: most clicks land on "Page Not Found".
+Historical context (kept for the record):
+This script was the April 2026 remediation for the dead-ASIN incident on
+goldenhomeproject.com — 182 of 221 ASINs were 404, killing Associates
+conversion. The fix at the time rewrote dead /dp/<ASIN>?tag= hrefs to
+Amazon SEARCH URLs (`/s?k=...&tag=`) keyed off the product's alt text.
 
-Fix: replace every dead /dp/{ASIN}?tag=goldenhomep06-20 link with an Amazon
-SEARCH url keyed off the product's `alt` text — same affiliate tag, lands on
-real live listings, drops the 24h cookie, and any qualifying purchase still
-earns commission. Allowed under Amazon Associates Operating Agreement
-(search-result destinations with a valid tag are explicitly permitted).
+That fix was WRONG. User correction on 2026-05-26:
+    "you ccant use search urls, you have to use the actually affilate links
+     form our account or we dont get credit for the sale"
 
-Also rewrites the matching <img src=...{ASIN}.jpg...> to '' so the existing
-onerror display:none kicks in cleanly (no flash of broken image).
+Amazon Associates does NOT credit conversions on search-URL clicks for the
+goldenhomep06-20 account — only direct /dp/<ASIN>?tag= or affiliate-network
+short links (sjv.io, amzn.to) pay. This script's entire output is therefore
+revenue-zero.
 
-Usage:
-    python automation/fix_dead_asin_links.py        # dry run, prints summary
-    python automation/fix_dead_asin_links.py --apply # writes changes
+What to use instead:
+- `automation/asin_discoverer.py` — auto-discovers + verifies real ASINs
+  from Trend Scout opportunities, writes to dm_keyword_registry.json vetted[]
+- `automation/blog_writer.py` — only emits CTAs for ASINs that are in the
+  registry; never falls back to search URLs
+- For one-off dead-link audits, write a NEW script that replaces dead
+  hrefs with the closest matching vetted[]-pool ASIN, not a search URL
+
+See: ~/.claude/projects/.../feedback_ghp_no_search_urls.md
 """
 from __future__ import annotations
 
-import argparse
-import pathlib
-import re
 import sys
-from urllib.parse import quote_plus
+
+def _refuse_to_run() -> int:
+    print(
+        "REFUSING TO RUN: fix_dead_asin_links.py was disabled 2026-05-27.\n"
+        "\n"
+        "Its remediation strategy (rewrite dead ASINs to Amazon /s?k= search\n"
+        "URLs) does not pay this Associates account. See module docstring and\n"
+        "feedback_ghp_no_search_urls.md for the full context.\n"
+        "\n"
+        "Use automation/asin_discoverer.py to grow the vetted ASIN pool and\n"
+        "write a new remediation that rewrites dead links to vetted-pool ASINs.\n",
+        file=sys.stderr,
+    )
+    return 2
+
+
+if __name__ == "__main__":
+    sys.exit(_refuse_to_run())
+
+
+# Everything below is preserved as dead reference code so the original
+# (search-URL-emitting) implementation is recoverable if we ever need to
+# audit what was historically generated. It is unreachable.
+import argparse  # noqa: E402
+import pathlib  # noqa: E402
+import re  # noqa: E402
+from urllib.parse import quote_plus  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 PROD = ROOT / "products"
 DEAD_FILE = pathlib.Path("/tmp/ghp_dead_asins.txt")
 TAG = "goldenhomep06-20"
 
-# Regex captures: <a href="https://www.amazon.com/dp/{ASIN}?tag=...">
 HREF_RE = re.compile(
     r'(href="https://www\.amazon\.com/dp/)([A-Z0-9]{10})(\?tag=' + re.escape(TAG) + r'")'
 )
-# Regex captures: <img src="https://m.media-amazon.com/images/P/{ASIN}.01...
 IMG_RE = re.compile(
     r'(src="https://m\.media-amazon\.com/images/P/)([A-Z0-9]{10})(\.01\._SCLZZZZZZZ_SX300_\.jpg")'
 )
-# Find alt= for a given ASIN: alt="Product Name" appears on the same image tag
-# We'll build asin -> product name map per file by scanning <img> tags.
 IMG_FULL_RE = re.compile(
     r'<img[^>]+P/([A-Z0-9]{10})\.01[^>]+alt="([^"]+)"',
     re.DOTALL,
 )
 
 
-def search_url(product_name: str) -> str:
+def search_url(product_name: str) -> str:  # noqa: F811
+    # Retained for reference only — emits a URL that DOES NOT PAY this account.
     return f'https://www.amazon.com/s?k={quote_plus(product_name)}&tag={TAG}'
 
 
@@ -123,5 +151,6 @@ def main() -> int:
 
 APPLY = False
 
-if __name__ == "__main__":
-    sys.exit(main())
+# Original entry point (now unreachable — see top-of-file refusal):
+# if __name__ == "__main__":
+#     sys.exit(main())

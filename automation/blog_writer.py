@@ -146,13 +146,26 @@ DM_REGISTRY_PATH = ROOT / "social" / "dm_keyword_registry.json"
 
 
 def _load_live_registry() -> list[dict]:
-    """Return registry entries with status='live'. Single source of truth for
-    products this account is paid to promote."""
+    """Return entries[] with status='live' PLUS the vetted[] pool — both are
+    payable affiliate destinations for blog use.
+
+    Why both:
+    - entries[status='live'] = ASIN + Meta DM automation wired. These have the
+      highest conversion path (DM funnel) AND blog use.
+    - vetted[] = ASIN verified live in Chrome but no Meta automation yet. These
+      are safe for blog/SEO/IG-caption use right now (no DM funnel dependency),
+      and become entries[] later once the user wires the Meta automation.
+
+    Live entries rank first so lookup_registry_product() prefers them on ties —
+    higher-conversion path wins when both could serve the query.
+    """
     try:
         reg = json.loads(DM_REGISTRY_PATH.read_text())
     except Exception:
         return []
-    return [e for e in reg.get("entries", []) if e.get("status") == "live"]
+    live = [e for e in reg.get("entries", []) if e.get("status") == "live"]
+    vetted = list(reg.get("vetted", []))
+    return live + vetted
 
 
 def _registry_url(entry: dict) -> str:
@@ -194,11 +207,13 @@ def lookup_registry_product(query: str) -> dict | None:
         cats = [c.lower() for c in e.get("categories", [])]
         if any(c in q or q in c for c in cats):
             return e
-    # Token overlap on primary_product
+    # Token overlap on product_name (entries[] use `product_name`, not
+    # `primary_product` — prior code used the wrong field which silently
+    # broke this fallback for the entire project lifetime).
     q_tokens = set(re.findall(r"[a-z0-9]+", q))
     best, best_score = None, 0
     for e in live:
-        p = (e.get("primary_product", "") or "").lower()
+        p = (e.get("product_name", "") or "").lower()
         p_tokens = set(re.findall(r"[a-z0-9]+", p))
         score = len(q_tokens & p_tokens)
         if score > best_score:

@@ -1,0 +1,73 @@
+name: GHP ASIN Discoverer (Agent 1.5 — Flywheel S1+)
+
+# Runs automatically after every Trend Scout run, plus manually.
+# For each new product opportunity from Trend Scout, headlessly browses
+# amazon.com to find + verify a real /dp/ASIN, then appends to the
+# `vetted[]` pool in social/dm_keyword_registry.json so Blog Writer
+# can ship monetized content for trending products without manual ASIN
+# lookups.
+#
+# Why workflow_run instead of cron: this agent only needs to run when
+# trend_feed.json actually changed. Coupling to Trend Scout completion
+# means we run at most 1x/day and only when there's fresh input.
+#
+# SECURITY: No untrusted user input is ever expanded into a run: command.
+# Only github.event.workflow_run.conclusion is referenced (in `if:` only),
+# which is a controlled enum from GitHub's own webhook payload.
+
+on:
+  workflow_run:
+    workflows: ["GHP Trend Scout (Agent 1 — Flywheel S1)"]
+    types:
+      - completed
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    # Only run if Trend Scout succeeded (we need fresh trend_feed.json)
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Playwright + Chromium
+        run: |
+          pip install --upgrade pip
+          pip install playwright
+          playwright install --with-deps chromium
+
+      - name: Pull latest trend_feed.json
+        run: git pull --rebase origin main
+
+      - name: Run ASIN Discoverer
+        run: python automation/asin_discoverer.py
+
+      - name: Commit registry updates
+        run: |
+          git config user.name "GHP ASIN Discoverer Bot"
+          git config user.email "goldenhomeprojectllc@gmail.com"
+          if git diff --quiet social/dm_keyword_registry.json; then
+            echo "No registry changes — nothing to commit."
+            exit 0
+          fi
+          git add social/dm_keyword_registry.json
+          STAMP=$(date -u +%Y-%m-%dT%H:%MZ)
+          git commit -m "asin-discoverer: vetted ASIN(s) ${STAMP}"
+          # Retry push once if remote moved (engagement bot pushes frequently)
+          for attempt in 1 2 3; do
+            git pull --rebase origin main && git push origin main && break
+            echo "push attempt ${attempt} failed; retrying"
+            sleep 5
+          done
