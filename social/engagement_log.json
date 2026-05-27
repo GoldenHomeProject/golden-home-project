@@ -1,13 +1,13 @@
 {
   "_doc": "Daily engagement actions taken via Chrome MCP per automation/agents/daily_engagement_chrome.md. Append-only. Summary updated at top each session.",
   "summary": {
-    "lifetime_follows": 17,
+    "lifetime_follows": 19,
     "lifetime_likes": 33,
     "lifetime_comments": 7,
-    "last_session": "2026-05-27-0136-pi",
+    "last_session": "2026-05-27-1334-pi",
     "blocked_at": null,
-    "last_updated": "2026-05-27T01:41:10Z",
-    "total_actions": 86,
+    "last_updated": "2026-05-27T13:40:08Z",
+    "total_actions": 96,
     "lifetime_dms": 2
   },
   "actions": [
@@ -846,6 +846,215 @@
       "target": "lindley__kay",
       "session": "2026-05-27-0136-pi",
       "reason": "follow_back_untapped_warm"
+    },
+    {
+      "timestamp": "2026-05-27T13:34:41Z",
+      "action": "inbox_sweep",
+      "target": "self",
+      "session": "2026-05-27-1334-pi",
+      "requests_count": 0,
+      "inbox_count": 0,
+      "notifications_count": 56,
+      "requests": [],
+      "inbox": [],
+      "notifications": [
+        {
+          "handle": "dhi.atelier",
+          "action": "replied to your comment on dhi.atelier's post: @golden_home_project Glad you liked it \u2764\ufe0f 2d"
+        },
+        {
+          "handle": "padtoscano",
+          "action": "liked your reel. 2d"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 4d"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 4d"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 4d"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 4d"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 4d"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 4d"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 4d"
+        },
+        {
+          "handle": "sabrinaco.concierge",
+          "action": "started following you. 4d"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "fionadeeayewhy",
+          "action": "liked your comment: the size-down for a tiny bathroom is so smart. iron-on edge band tape from the ...\u00a0more 01 May"
+        },
+        {
+          "handle": "fionadeeayewhy",
+          "action": "replied to your comment on fionadeeayewhy's post: @golden_home_project oh brilliant advice I will get some of this!! 01 May"
+        }
+      ],
+      "untapped_warm": [
+        "kiwi.living_1234",
+        "houseofhammer5",
+        "weird__designs",
+        "cabellhouse",
+        "that_wild_katt",
+        "weluv._.t",
+        "mh.magazines",
+        "selfelove._community",
+        "froggy_in_spaceland",
+        "its_naved_32_______"
+      ],
+      "dry_run": false
+    },
+    {
+      "timestamp": "2026-05-27T13:34:46Z",
+      "action": "follow_skip",
+      "target": "kiwi.living_1234",
+      "session": "2026-05-27-1334-pi",
+      "reason": "no_follow_button"
+    },
+    {
+      "timestamp": "2026-05-27T13:35:03Z",
+      "action": "follow_error",
+      "target": "houseofhammer5",
+      "session": "2026-05-27-1334-pi",
+      "reason": "no_state_change"
+    },
+    {
+      "timestamp": "2026-05-27T13:35:21Z",
+      "action": "follow_error",
+      "target": "weird__designs",
+      "session": "2026-05-27-1334-pi",
+      "reason": "no_state_change"
+    },
+    {
+      "timestamp": "2026-05-27T13:35:42Z",
+      "action": "follow",
+      "target": "cabellhouse",
+      "session": "2026-05-27-1334-pi",
+      "reason": "follow_back_untapped_warm"
+    },
+    {
+      "timestamp": "2026-05-27T13:37:36Z",
+      "action": "follow",
+      "target": "that_wild_katt",
+      "session": "2026-05-27-1334-pi",
+      "reason": "follow_back_untapped_warm"
+    },
+    {
+      "timestamp": "2026-05-27T13:39:16Z",
+      "action": "follow_error",
+      "target": "weluv._.t",
+      "session": "2026-05-27-1334-pi",
+      "reason": "no_state_change"
+    },
+    {
+      "timestamp": "2026-05-27T13:39:38Z",
+      "action": "follow_error",
+      "target": "mh.magazines",
+      "session": "2026-05-27-1334-pi",
+      "reason": "no_state_change"
+    },
+    {
+      "timestamp": "2026-05-27T13:39:49Z",
+      "action": "follow_skip",
+      "target": "selfelove._community",
+      "session": "2026-05-27-1334-pi",
+      "reason": "skip_suffix"
+    },
+    {
+      "timestamp": "2026-05-27T13:40:08Z",
+      "action": "follow_error",
+      "target": "froggy_in_spaceland",
+      "session": "2026-05-27-1334-pi",
+      "reason": "no_state_change"
     }
   ]
 }
