@@ -4,10 +4,10 @@
     "lifetime_follows": 19,
     "lifetime_likes": 33,
     "lifetime_comments": 7,
-    "last_session": "2026-05-27-1334-pi",
+    "last_session": "2026-05-27-2332-pi",
     "blocked_at": null,
-    "last_updated": "2026-05-27T13:40:08Z",
-    "total_actions": 96,
+    "last_updated": "2026-05-27T23:33:12Z",
+    "total_actions": 98,
     "lifetime_dms": 2
   },
   "actions": [
@@ -1054,6 +1054,150 @@
       "action": "follow_error",
       "target": "froggy_in_spaceland",
       "session": "2026-05-27-1334-pi",
+      "reason": "no_state_change"
+    },
+    {
+      "timestamp": "2026-05-27T23:33:03Z",
+      "action": "inbox_sweep",
+      "target": "self",
+      "session": "2026-05-27-2332-pi",
+      "requests_count": 0,
+      "inbox_count": 0,
+      "notifications_count": 58,
+      "requests": [],
+      "inbox": [],
+      "notifications": [
+        {
+          "handle": "padtoscano",
+          "action": "liked your reel. 9h"
+        },
+        {
+          "handle": "padtoscano",
+          "action": "started following you. 9h"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "replied to your comment on dhi.atelier's post: @golden_home_project Glad you liked it \u2764\ufe0f 2d"
+        },
+        {
+          "handle": "padtoscano",
+          "action": "liked your reel. 2d"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 4d"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 4d"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 4d"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 4d"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 4d"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 4d"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 4d"
+        },
+        {
+          "handle": "sabrinaco.concierge",
+          "action": "started following you. 4d"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        }
+      ],
+      "untapped_warm": [
+        "its_naved_32_______"
+      ],
+      "dry_run": false
+    },
+    {
+      "timestamp": "2026-05-27T23:33:12Z",
+      "action": "follow_error",
+      "target": "its_naved_32_______",
+      "session": "2026-05-27-2332-pi",
       "reason": "no_state_change"
     }
   ]
