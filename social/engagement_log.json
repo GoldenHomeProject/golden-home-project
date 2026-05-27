@@ -1,13 +1,13 @@
 {
   "_doc": "Daily engagement actions taken via Chrome MCP per automation/agents/daily_engagement_chrome.md. Append-only. Summary updated at top each session.",
   "summary": {
-    "lifetime_follows": 14,
+    "lifetime_follows": 17,
     "lifetime_likes": 33,
     "lifetime_comments": 7,
-    "last_session": "2026-05-23-midday-chrome",
+    "last_session": "2026-05-27-0136-pi",
     "blocked_at": null,
-    "last_updated": "2026-05-23T15:15:00Z",
-    "total_actions": 78,
+    "last_updated": "2026-05-27T01:41:10Z",
+    "total_actions": 86,
     "lifetime_dms": 2
   },
   "actions": [
@@ -644,6 +644,208 @@
       "target": "torilanaee",
       "session": "2026-05-23-midday-chrome",
       "note": "follow-up on restock-reel exchange; collab inquiry"
+    },
+    {
+      "timestamp": "2026-05-27T01:36:55Z",
+      "action": "inbox_sweep",
+      "target": "self",
+      "session": "2026-05-27-0136-pi",
+      "requests_count": 0,
+      "inbox_count": 0,
+      "notifications_count": 56,
+      "requests": [],
+      "inbox": [],
+      "notifications": [
+        {
+          "handle": "dhi.atelier",
+          "action": "replied to your comment on dhi.atelier's post: @golden_home_project Glad you liked it \u2764\ufe0f 1d"
+        },
+        {
+          "handle": "padtoscano",
+          "action": "liked your reel. 2d"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 3d"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 3d"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 3d"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 3d"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 3d"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 3d"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 3d"
+        },
+        {
+          "handle": "sabrinaco.concierge",
+          "action": "started following you. 3d"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "fionadeeayewhy",
+          "action": "liked your comment: the size-down for a tiny bathroom is so smart. iron-on edge band tape from the ...\u00a0more 01 May"
+        },
+        {
+          "handle": "fionadeeayewhy",
+          "action": "replied to your comment on fionadeeayewhy's post: @golden_home_project oh brilliant advice I will get some of this!! 01 May"
+        }
+      ],
+      "untapped_warm": [
+        "padtoscano",
+        "dra.daniela.slindvain",
+        "fionadeeayewhy",
+        "msfran_kay",
+        "florianexxxx",
+        "interiorbydnd",
+        "lindley__kay",
+        "kiwi.living_1234",
+        "houseofhammer5",
+        "weird__designs",
+        "cabellhouse",
+        "that_wild_katt",
+        "weluv._.t",
+        "mh.magazines",
+        "selfelove._community",
+        "froggy_in_spaceland",
+        "its_naved_32_______"
+      ],
+      "dry_run": false
+    },
+    {
+      "timestamp": "2026-05-27T01:37:04Z",
+      "action": "follow_error",
+      "target": "padtoscano",
+      "session": "2026-05-27-0136-pi",
+      "reason": "no_state_change"
+    },
+    {
+      "timestamp": "2026-05-27T01:37:27Z",
+      "action": "follow",
+      "target": "dra.daniela.slindvain",
+      "session": "2026-05-27-0136-pi",
+      "reason": "follow_back_untapped_warm"
+    },
+    {
+      "timestamp": "2026-05-27T01:38:52Z",
+      "action": "follow_error",
+      "target": "fionadeeayewhy",
+      "session": "2026-05-27-0136-pi",
+      "reason": "no_state_change"
+    },
+    {
+      "timestamp": "2026-05-27T01:39:09Z",
+      "action": "follow",
+      "target": "msfran_kay",
+      "session": "2026-05-27-0136-pi",
+      "reason": "follow_back_untapped_warm"
+    },
+    {
+      "timestamp": "2026-05-27T01:40:40Z",
+      "action": "follow_skip",
+      "target": "florianexxxx",
+      "session": "2026-05-27-0136-pi",
+      "reason": "no_follow_button"
+    },
+    {
+      "timestamp": "2026-05-27T01:40:54Z",
+      "action": "follow_skip",
+      "target": "interiorbydnd",
+      "session": "2026-05-27-0136-pi",
+      "reason": "no_follow_button"
+    },
+    {
+      "timestamp": "2026-05-27T01:41:10Z",
+      "action": "follow",
+      "target": "lindley__kay",
+      "session": "2026-05-27-0136-pi",
+      "reason": "follow_back_untapped_warm"
     }
   ]
 }
