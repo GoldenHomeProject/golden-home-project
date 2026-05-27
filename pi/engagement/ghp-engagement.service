@@ -1,12 +1,12 @@
 [Unit]
-Description=GHP Instagram engagement sweep (inbox-only)
+Description=GHP Instagram engagement sweep (full — follow-back enabled)
 After=network-online.target
 
 [Service]
 Type=oneshot
 WorkingDirectory=%h/golden-home-project
 ExecStartPre=/usr/bin/git -C %h/golden-home-project pull --quiet
-ExecStart=/usr/bin/xvfb-run -a %h/.ghp-engagement/venv/bin/python automation/engagement.py --inbox-only
+ExecStart=/usr/bin/xvfb-run -a %h/.ghp-engagement/venv/bin/python automation/engagement.py --full
 StandardOutput=append:%h/.ghp-engagement/runs/last.log
 StandardError=append:%h/.ghp-engagement/runs/last.log
 TimeoutStartSec=600
