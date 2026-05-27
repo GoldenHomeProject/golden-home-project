@@ -106,5 +106,41 @@
       "added_at": "2026-04-25",
       "activated_at": "2026-05-03"
     }
+  ],
+  "_vetted_doc": "Verified-live Amazon ASINs cleared for blog/SEO/IG-caption use but NOT yet wired to a Meta comment-to-DM automation. Promote to `entries` (with a unique keyword) only AFTER creating the matching Meta Business Suite automation. Always use https://www.amazon.com/dp/<ASIN>?tag=goldenhomep06-20 — never search URLs.",
+  "vetted": [
+    {
+      "asin": "B0D176VGXZ",
+      "product_name": "PXRACK Expandable Under-Sink Organizer with 2 Pull-Out Drawers",
+      "categories": ["organization", "bathroom", "kitchen", "under-sink", "storage"],
+      "affiliate_url": "https://www.amazon.com/dp/B0D176VGXZ?tag=goldenhomep06-20",
+      "verified_at": "2026-05-26",
+      "verified_stars": "4.7",
+      "verified_reviews": 1773,
+      "verified_price": "$46.99",
+      "used_in": ["blog/posts/2026-05-20-under-sink-organizer-bathroom-pull-out-drawers.html"]
+    },
+    {
+      "asin": "B0B3WSZ3QP",
+      "product_name": "Set of 4 Non-Skid 10-Inch Lazy Susan Turntable Organizers",
+      "categories": ["organization", "kitchen", "bathroom", "cabinet", "lazy-susan", "storage"],
+      "affiliate_url": "https://www.amazon.com/dp/B0B3WSZ3QP?tag=goldenhomep06-20",
+      "verified_at": "2026-05-26",
+      "verified_stars": "4.7",
+      "verified_reviews": 6190,
+      "verified_price": "$24.99",
+      "used_in": ["blog/posts/2026-05-20-under-sink-organizer-bathroom-pull-out-drawers.html"]
+    },
+    {
+      "asin": "B0BXSMJK86",
+      "product_name": "BAGAIL Non-Adhesive Non-Slip Shelf Liner 12\" x 10FT (black)",
+      "categories": ["organization", "kitchen", "bathroom", "shelf-liner", "drawer-liner"],
+      "affiliate_url": "https://www.amazon.com/dp/B0BXSMJK86?tag=goldenhomep06-20",
+      "verified_at": "2026-05-26",
+      "verified_stars": "4.7",
+      "verified_reviews": 2556,
+      "verified_price": "$7.99",
+      "used_in": ["blog/posts/2026-05-20-under-sink-organizer-bathroom-pull-out-drawers.html"]
+    }
   ]
 }
