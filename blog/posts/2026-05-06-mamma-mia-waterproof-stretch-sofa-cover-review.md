@@ -85,7 +85,7 @@ The total 2-year cost of Option C is $47 to $94. The 2-year cost of Option A is 
 
 I am also being transparent about one thing: Mamma Mia Covers offers an affiliate commission, which means I earn a percentage when you buy through my link. I think that is worth knowing. I also think it is worth knowing I purchased this cover before any affiliate relationship existed — specifically because I wanted an uninfluenced first test. The $47 came out of my own pocket, the dogs are real, and the before photo is my actual sofa.
 
-**[Check current price on Amazon →](https://www.amazon.com/s?k=Mamma+Mia+waterproof+stretch+sofa+cover)**
+**[Check current price →](https://mammamiacovers.sjv.io/WO4g63)**
 
 ## FAQ
 

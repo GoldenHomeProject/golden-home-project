@@ -168,7 +168,7 @@ jobs:
               "media_id": media_id,
               "posted_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
               "image_url": image_url,
-              "caption": caption[:200],
+              "caption": caption,
               "media_type": media_type,
           })
           archive_path.write_text(json.dumps(archived, indent=2))

@@ -142,9 +142,80 @@ Return STRICT JSON matching this exact schema:
     return call_claude_json(prompt, system=SYSTEM_PROMPT, max_tokens=8000)
 
 
+DM_REGISTRY_PATH = ROOT / "social" / "dm_keyword_registry.json"
+
+
+def _load_live_registry() -> list[dict]:
+    """Return registry entries with status='live'. Single source of truth for
+    products this account is paid to promote."""
+    try:
+        reg = json.loads(DM_REGISTRY_PATH.read_text())
+    except Exception:
+        return []
+    return [e for e in reg.get("entries", []) if e.get("status") == "live"]
+
+
+def _registry_url(entry: dict) -> str:
+    """Return the affiliate URL we are actually paid on for this registry entry.
+
+    Priority: Impact Radius / network short link (`affiliate_url`) > Amazon
+    /dp/ASIN with our tag. Never returns a search URL — those do not pay this
+    account (per feedback_ghp_no_search_urls.md 2026-05-26).
+    """
+    aff = entry.get("affiliate_url")
+    if aff and "/s?k=" not in aff:
+        return aff
+    asin = entry.get("asin")
+    if asin:
+        return f"https://www.amazon.com/dp/{asin}?tag={AMAZON_TAG}"
+    raise ValueError(f"registry entry has no payable URL: keyword={entry.get('keyword')}")
+
+
+def lookup_registry_product(query: str) -> dict | None:
+    """Best-effort match a free-text product query against the live registry.
+
+    Match order: exact keyword (case-insensitive) > category contains > token
+    overlap in primary_product field. Returns None if nothing matches — caller
+    MUST refuse to ship an affiliate CTA when this happens. Do not fall back
+    to a generic search URL: those do not pay this account.
+    """
+    live = _load_live_registry()
+    if not live:
+        return None
+    q = (query or "").lower().strip()
+    if not q:
+        return None
+    # Exact keyword
+    for e in live:
+        if e.get("keyword", "").lower() == q:
+            return e
+    # Category
+    for e in live:
+        cats = [c.lower() for c in e.get("categories", [])]
+        if any(c in q or q in c for c in cats):
+            return e
+    # Token overlap on primary_product
+    q_tokens = set(re.findall(r"[a-z0-9]+", q))
+    best, best_score = None, 0
+    for e in live:
+        p = (e.get("primary_product", "") or "").lower()
+        p_tokens = set(re.findall(r"[a-z0-9]+", p))
+        score = len(q_tokens & p_tokens)
+        if score > best_score:
+            best, best_score = e, score
+    return best if best_score >= 2 else None
+
+
 def amazon_url(query: str) -> str:
-    from urllib.parse import quote_plus
-    return f"https://www.amazon.com/s?k={quote_plus(query)}&tag={AMAZON_TAG}"
+    """Deprecated shim — kept only so callers don't crash. Resolves via the
+    live registry. Raises if no match (do NOT silently fall back to search)."""
+    entry = lookup_registry_product(query)
+    if not entry:
+        raise ValueError(
+            f"No live registry entry matches {query!r}. Add ASIN + Meta automation "
+            "before shipping a CTA for this topic. Search URLs are NOT a fallback."
+        )
+    return _registry_url(entry)
 
 
 def render_html(post: dict, date_str: str, slug: str) -> str:
@@ -155,7 +226,30 @@ def render_html(post: dict, date_str: str, slug: str) -> str:
         # Minimal markdown → HTML (paragraphs only, the model is fine with that)
         body_html = "".join(f"<p>{p.strip()}</p>\n" for p in body.split("\n\n") if p.strip())
         prod = sec.get("featured_product") or {}
-        cta_url = amazon_url(prod.get("amazon_search", prod.get("name", "")))
+        # Affiliate CTA only when the topic maps to a live registry entry.
+        # Search URLs do NOT pay this account — never fall back to one.
+        registry_entry = lookup_registry_product(
+            prod.get("amazon_search") or prod.get("name") or sec.get("h2", "")
+        )
+        if registry_entry:
+            cta_url = _registry_url(registry_entry)
+            cta_html = (
+                f'<a class="cta" href="{cta_url}" rel="sponsored nofollow noopener" target="_blank">\n'
+                f'      Check current price &rarr;\n'
+                f'    </a>'
+            )
+        else:
+            # No payable link — emit a clear in-page note instead of a fake CTA.
+            print(
+                f"[blog_writer] no registry match for section {sec.get('h2','?')!r} "
+                f"product={prod.get('name','?')!r} — shipping without affiliate CTA",
+                file=sys.stderr,
+            )
+            cta_html = (
+                '<p class="cta-disabled"><em>We&rsquo;re still vetting a product '
+                'we trust enough to link here. <a href="/blog/">Browse other Golden '
+                'Home Project picks</a>.</em></p>'
+            )
         sections_html.append(f"""
 <section class="post-section">
   <h2>{sec['h2']}</h2>
@@ -169,9 +263,7 @@ def render_html(post: dict, date_str: str, slug: str) -> str:
       <li><strong>Speed:</strong> {prod.get('how_fast', '')}</li>
       <li><strong>Effort:</strong> {prod.get('how_little_effort', '')}</li>
     </ul>
-    <a class="cta" href="{cta_url}" rel="sponsored nofollow noopener" target="_blank">
-      Check current price on Amazon &rarr;
-    </a>
+    {cta_html}
   </div>
 </section>""")
 
