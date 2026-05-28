@@ -481,3 +481,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** social/dm_keyword_registry.json
 **External actions:** amazon.com search + /dp/ navigation (playwright headless)
 **Next agent hint:** Blog Writer can now ship monetized posts about: Amazon Basics Slim Velvet Non-Slip Space Saving Su
+
+## 2026-05-28T01:56:04Z — ASIN Discoverer
+**Ran:** No new ASINs; refreshed 30 Movers & Shakers items
+**Changed:** automation/trends/movers_shakers_latest.json
+**External actions:** amazon.com /gp/movers-and-shakers (playwright headless)
+**Next agent hint:** Trend Scout will read the refreshed Movers cache on next run.
