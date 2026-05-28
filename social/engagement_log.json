@@ -4,10 +4,10 @@
     "lifetime_follows": 19,
     "lifetime_likes": 33,
     "lifetime_comments": 7,
-    "last_session": "2026-05-28-1334-pi",
+    "last_session": "2026-05-28-2330-pi",
     "blocked_at": null,
-    "last_updated": "2026-05-28T13:35:17Z",
-    "total_actions": 99,
+    "last_updated": "2026-05-28T23:30:36Z",
+    "total_actions": 100,
     "lifetime_dms": 2
   },
   "actions": [
@@ -1218,6 +1218,141 @@
         {
           "handle": "padtoscano",
           "action": "started following you. 23h"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "replied to your comment on dhi.atelier's post: @golden_home_project Glad you liked it \u2764\ufe0f 3d"
+        },
+        {
+          "handle": "padtoscano",
+          "action": "liked your reel. 3d"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 5d"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 5d"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 5d"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 5d"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 5d"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 5d"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 5d"
+        },
+        {
+          "handle": "sabrinaco.concierge",
+          "action": "started following you. 5d"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        }
+      ],
+      "untapped_warm": [],
+      "dry_run": false
+    },
+    {
+      "timestamp": "2026-05-28T23:30:36Z",
+      "action": "inbox_sweep",
+      "target": "self",
+      "session": "2026-05-28-2330-pi",
+      "requests_count": 0,
+      "inbox_count": 0,
+      "notifications_count": 58,
+      "requests": [],
+      "inbox": [],
+      "notifications": [
+        {
+          "handle": "padtoscano",
+          "action": "liked your reel. 1d"
+        },
+        {
+          "handle": "padtoscano",
+          "action": "started following you. 1d"
         },
         {
           "handle": "dhi.atelier",
