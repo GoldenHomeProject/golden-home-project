@@ -4,7 +4,10 @@ Runs daily. Pulls signals from public sources and asks Claude to rank the top 5
 product opportunities for transformation content.
 
 Sources (2026-05-27 expansion):
-  - Reddit JSON (5 home subs)               — GH Actions, public JSON, no auth
+  - Reddit JSON (5 home subs)               — Pi-side stdlib fetch, cached
+                                                JSON consumed here. Reddit
+                                                started 403'ing GH Actions
+                                                runner IPs 2026-05-27.
   - Google Trends daily RSS (US)            — GH Actions, public XML, no auth
   - Pinterest publisher board RSS feeds     — GH Actions, public XML, no auth
   - Amazon Movers & Shakers (Home & Kitchen) — Pi-side via Playwright, cached
@@ -37,14 +40,6 @@ TREND_DIR.mkdir(parents=True, exist_ok=True)
 SOCIAL_DIR = ROOT / "social"
 SOCIAL_DIR.mkdir(exist_ok=True)
 
-REDDIT_SUBS = [
-    "BuyItForLife",
-    "HomeImprovement",
-    "DiWHY",
-    "organization",
-    "HomeDecorating",
-]
-
 # Pinterest publisher boards with public RSS feeds. These are mainstream
 # home/lifestyle media — what they're pinning is a strong indicator of what
 # aesthetics are about to surface on consumer Pinterest. If any of these 404
@@ -63,26 +58,37 @@ UA_BROWSER = (
 )
 
 
-def fetch_reddit_top(sub: str, limit: int = 10) -> list[dict]:
-    """Pull top posts of the day from a sub. Public JSON, no auth."""
-    url = f"https://www.reddit.com/r/{sub}/top.json?t=day&limit={limit}"
-    req = request.Request(url, headers={"User-Agent": "GHP-TrendScout/1.0"})
+def load_reddit_cache() -> dict:
+    """Load the Pi-written Reddit snapshot, if present + fresh.
+
+    The Pi ASIN discoverer refreshes automation/trends/reddit_latest.json
+    each run (~06:00 UTC). Trend Scout used to fetch Reddit directly from
+    GH Actions but Reddit started 403'ing runner IPs (2026-05-27); the Pi's
+    residential IP still works. Stale > 36h -> we return {} so Claude isn't
+    fed yesterday's "top of day" thread.
+
+    Returns {sub_name: [post, ...], ...} (the inner dict, NOT the wrapper
+    with fetched_at — to keep the downstream signal shape identical to the
+    old in-process fetcher).
+    """
+    path = TREND_DIR / "reddit_latest.json"
+    if not path.exists():
+        return {}
     try:
-        with request.urlopen(req, timeout=15) as r:
-            data = json.loads(r.read())
-        posts = []
-        for child in data.get("data", {}).get("children", []):
-            p = child.get("data", {})
-            posts.append({
-                "title": p.get("title", "")[:200],
-                "score": p.get("score", 0),
-                "num_comments": p.get("num_comments", 0),
-                "url": f"https://reddit.com{p.get('permalink', '')}",
-            })
-        return posts
+        data = json.loads(path.read_text())
     except Exception as e:
-        print(f"  Reddit /r/{sub} failed: {e}")
-        return []
+        print(f"  Reddit cache parse failed: {e}")
+        return {}
+    fetched_at = data.get("fetched_at", "")
+    try:
+        ts = datetime.fromisoformat(fetched_at.replace("Z", "+00:00"))
+        age_h = (datetime.now(timezone.utc) - ts).total_seconds() / 3600
+        if age_h > 36:
+            print(f"  Reddit cache stale ({age_h:.1f}h old) — skipping")
+            return {}
+    except Exception:
+        pass
+    return data.get("subs", {})
 
 
 def fetch_google_trends_daily() -> list[dict]:
@@ -249,15 +255,12 @@ def main():
     # 1. Gather raw signals — multi-source as of 2026-05-27
     signals: dict = {}
 
-    # Reddit (5 subs, public JSON)
-    reddit_signals = {}
-    for sub in REDDIT_SUBS:
-        posts = fetch_reddit_top(sub)
-        if posts:
-            reddit_signals[sub] = posts
-            print(f"  /r/{sub}: {len(posts)} posts")
+    # Reddit — read Pi-cached snapshot (Reddit 403s GH Actions runner IPs)
+    reddit_signals = load_reddit_cache()
     if reddit_signals:
         signals["reddit"] = reddit_signals
+        total = sum(len(v) for v in reddit_signals.values())
+        print(f"  reddit: {len(reddit_signals)} subs, {total} posts (Pi cache)")
 
     # Google Trends daily RSS (US-wide, noisy)
     gt = fetch_google_trends_daily()
@@ -338,7 +341,7 @@ def main():
             f"ranked {len(opportunities)} opportunities"
         ),
         changed=f"{history_path.relative_to(ROOT)}, {latest_path.relative_to(ROOT)}",
-        external="reddit + google_trends + pinterest_rss + amazon_movers_cache",
+        external="reddit_pi_cache + google_trends + pinterest_rss + amazon_movers_pi_cache",
         hint=f"Content Engine: today's top-3 opportunities are: {top_hooks}",
     )
 

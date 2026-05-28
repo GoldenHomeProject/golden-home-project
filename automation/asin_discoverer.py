@@ -36,7 +36,20 @@ ROOT = Path(__file__).resolve().parent.parent
 REGISTRY_PATH = ROOT / "social" / "dm_keyword_registry.json"
 TREND_FEED = ROOT / "social" / "trend_feed.json"
 MOVERS_CACHE = ROOT / "automation" / "trends" / "movers_shakers_latest.json"
+REDDIT_CACHE = ROOT / "automation" / "trends" / "reddit_latest.json"
 AMAZON_TAG = "goldenhomep06-20"
+
+# Subreddits the Pi-side Reddit fetcher samples. Trend Scout used to fetch
+# these directly from GH Actions, but Reddit started 403'ing GH runner IPs
+# (2026-05-27). The Pi has a residential IP that still works. We write the
+# cache here and Trend Scout reads it on its next morning run.
+REDDIT_SUBS = [
+    "BuyItForLife",
+    "HomeImprovement",
+    "DiWHY",
+    "organization",
+    "HomeDecorating",
+]
 
 # Amazon Best Sellers nodes we sample each Pi run. Trend Scout reads the
 # cached output the next morning. We keep this short to be a good citizen on
@@ -60,30 +73,67 @@ UA = (
 )
 
 
-def existing_coverage(reg: dict) -> tuple[set, set, set]:
-    """Return (lowercased product-name tokens, categories, asins) already in
-    the registry — used to skip opportunities we've already covered."""
-    tokens: set[str] = set()
+# Glue words that accumulate noise but don't disambiguate products. Numeric
+# tokens (sizes, pack counts) are also dropped via str.isdigit() below.
+_COVERAGE_STOPWORDS = {
+    "a", "an", "and", "or", "the", "of", "in", "on", "for", "with",
+    "to", "by", "no", "non", "from", "at", "as", "is",
+    "pack", "set", "size", "piece", "pieces", "pc", "pcs",
+}
+
+
+def _meaningful_tokens(text: str) -> set[str]:
+    """Lowercase word tokens, minus stopwords and pure-digit tokens."""
+    return {
+        t for t in re.findall(r"\w+", (text or "").lower())
+        if t and not t.isdigit() and t not in _COVERAGE_STOPWORDS
+    }
+
+
+def existing_coverage(reg: dict) -> tuple[list[set[str]], set[str], set[str]]:
+    """Return (per-product token sets, lowercased categories, asins) already
+    in the registry — used to skip opportunities we've already covered.
+
+    Per-product (not unioned) so opportunity_is_covered can require that an
+    opportunity match a SINGLE existing product substantially, not just hit
+    a couple glue words spread across several unrelated products. The prior
+    union approach false-positived 2 of 5 opps on 2026-05-27 (outdoor patio
+    set caught on {'4','set'}; throw pillow covers caught on words drawn
+    from sofa cover + hangers + pillow — three unrelated entries)."""
+    per_product: list[set[str]] = []
     cats: set[str] = set()
     asins: set[str] = set()
     pool = list(reg.get("entries", [])) + list(reg.get("vetted", []))
     for e in pool:
-        name = (e.get("product_name") or "").lower()
-        tokens |= set(re.findall(r"\w+", name))
+        toks = _meaningful_tokens(e.get("product_name") or "")
         if e.get("keyword"):
-            tokens.add(e["keyword"].lower())
+            kw = e["keyword"].lower()
+            if kw not in _COVERAGE_STOPWORDS and not kw.isdigit():
+                toks.add(kw)
+        if toks:
+            per_product.append(toks)
         cats |= set(c.lower() for c in (e.get("categories") or []))
         if e.get("asin"):
             asins.add(e["asin"])
-    return tokens, cats, asins
+    return per_product, cats, asins
 
 
-def opportunity_is_covered(opp: dict, tokens: set, cats: set) -> bool:
-    name = (opp.get("specific_product") or opp.get("product_category") or "").lower()
-    opp_tokens = set(re.findall(r"\w+", name))
-    # >=2 token overlap with any existing product name -> already covered
-    if len(opp_tokens & tokens) >= 2:
-        return True
+def opportunity_is_covered(
+    opp: dict, per_product: list[set[str]], cats: set[str]
+) -> bool:
+    """Covered iff the opportunity overlaps substantially with ONE existing
+    product (Jaccard-ish >= 0.5 on meaningful tokens AND >=2 token overlap)
+    OR the opportunity's category exactly matches an existing category."""
+    opp_toks = _meaningful_tokens(
+        (opp.get("specific_product") or "") + " " + (opp.get("product_category") or "")
+    )
+    for prod_toks in per_product:
+        overlap = opp_toks & prod_toks
+        if len(overlap) < 2:
+            continue
+        denom = min(len(opp_toks), len(prod_toks))
+        if denom and len(overlap) / denom >= 0.5:
+            return True
     opp_cat = (opp.get("product_category") or "").lower().strip()
     if opp_cat and opp_cat in cats:
         return True
@@ -110,6 +160,45 @@ def parse_stars(text: str) -> float:
         return 0.0
     m = re.match(r"\s*([\d.]+)", text)
     return float(m.group(1)) if m else 0.0
+
+
+def fetch_reddit_for_cache(subs: list[str], per_sub: int = 10) -> dict:
+    """Pull /r/<sub>/top.json?t=day from each sub via stdlib urllib. Reddit
+    started returning 403 to GH Actions runner IPs (2026-05-27) so Trend
+    Scout can no longer fetch this directly; we mirror its old fetcher here
+    on the Pi (residential IP works) and write a cache file Trend Scout
+    reads on its next morning run.
+
+    Returns the same shape Trend Scout previously built in-process:
+        {fetched_at, subs: {sub: [{title, score, num_comments, url}, ...]}}
+    """
+    from urllib import request as _req
+    out: dict[str, list[dict]] = {}
+    for sub in subs:
+        url = f"https://www.reddit.com/r/{sub}/top.json?t=day&limit={per_sub}"
+        req = _req.Request(url, headers={"User-Agent": "GHP-TrendScout/1.0 (Pi)"})
+        try:
+            with _req.urlopen(req, timeout=15) as r:
+                data = json.loads(r.read())
+        except Exception as e:
+            print(f"  [reddit] /r/{sub} failed: {e}")
+            continue
+        posts = []
+        for child in data.get("data", {}).get("children", []):
+            p = child.get("data", {})
+            posts.append({
+                "title": (p.get("title") or "")[:200],
+                "score": p.get("score", 0),
+                "num_comments": p.get("num_comments", 0),
+                "url": f"https://reddit.com{p.get('permalink', '')}",
+            })
+        if posts:
+            out[sub] = posts
+            print(f"  [reddit] /r/{sub}: {len(posts)} posts")
+    return {
+        "fetched_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+        "subs": out,
+    }
 
 
 def search_amazon(page, query: str) -> Optional[dict]:
@@ -466,16 +555,41 @@ def main() -> int:
         MOVERS_CACHE.write_text(json.dumps(ms, indent=2) + "\n")
         print(f"[asin-discoverer] Wrote {len(ms['items'])} movers items -> {MOVERS_CACHE.relative_to(ROOT)}")
 
+    # Refresh Reddit cache for Trend Scout (Pi's residential IP works; GH
+    # Actions runner IPs now 403). stdlib only — no playwright needed for
+    # Reddit's public JSON.
+    print("[asin-discoverer] Refreshing Reddit cache for Trend Scout...")
+    reddit_cache = fetch_reddit_for_cache(REDDIT_SUBS)
+    reddit_post_count = sum(len(v) for v in reddit_cache.get("subs", {}).values())
+    if reddit_post_count:
+        REDDIT_CACHE.parent.mkdir(parents=True, exist_ok=True)
+        REDDIT_CACHE.write_text(json.dumps(reddit_cache, indent=2) + "\n")
+        print(f"[asin-discoverer] Wrote {reddit_post_count} reddit posts -> {REDDIT_CACHE.relative_to(ROOT)}")
+    else:
+        print("[asin-discoverer] Reddit returned no posts — leaving prior cache (if any) untouched")
+
+    movers_count = len(ms["items"]) if (ms and ms.get("items")) else 0
+
     if not discovered:
         print("[asin-discoverer] No new ASINs verified this run.")
-        # Still useful to log if we refreshed the movers cache
-        if ms and ms.get("items"):
+        # Still useful to log if we refreshed any caches
+        if movers_count or reddit_post_count:
+            cache_parts = []
+            if movers_count:
+                cache_parts.append(str(MOVERS_CACHE.relative_to(ROOT)))
+            if reddit_post_count:
+                cache_parts.append(str(REDDIT_CACHE.relative_to(ROOT)))
+            ran_parts = []
+            if movers_count:
+                ran_parts.append(f"{movers_count} Movers items")
+            if reddit_post_count:
+                ran_parts.append(f"{reddit_post_count} Reddit posts")
             append_log_entry(
                 agent="ASIN Discoverer",
-                ran=f"No new ASINs; refreshed {len(ms['items'])} Movers & Shakers items",
-                changed=str(MOVERS_CACHE.relative_to(ROOT)),
-                external="amazon.com /gp/movers-and-shakers (playwright headless)",
-                hint="Trend Scout will read the refreshed Movers cache on next run.",
+                ran=f"No new ASINs; refreshed " + " + ".join(ran_parts),
+                changed=", ".join(cache_parts),
+                external="amazon.com bestsellers (playwright) + reddit.com top.json (stdlib)",
+                hint="Trend Scout will read refreshed caches on next run.",
             )
         return 0
 
@@ -486,18 +600,25 @@ def main() -> int:
         f"(pool now {len(reg['vetted'])}/{MAX_VETTED_POOL})."
     )
 
+    changed_parts = ["social/dm_keyword_registry.json"]
+    if movers_count:
+        changed_parts.append(str(MOVERS_CACHE.relative_to(ROOT)))
+    if reddit_post_count:
+        changed_parts.append(str(REDDIT_CACHE.relative_to(ROOT)))
+    ran_suffix = ""
+    if movers_count:
+        ran_suffix += f", refreshed {movers_count} Movers items"
+    if reddit_post_count:
+        ran_suffix += f", refreshed {reddit_post_count} Reddit posts"
+
     append_log_entry(
         agent="ASIN Discoverer",
         ran=(
             f"Scanned {len(opportunities)} trend opportunities, "
-            f"verified {len(discovered)} new ASIN(s)"
-            + (f", refreshed {len(ms['items'])} Movers items" if (ms and ms.get('items')) else "")
+            f"verified {len(discovered)} new ASIN(s)" + ran_suffix
         ),
-        changed=(
-            "social/dm_keyword_registry.json"
-            + (f", {MOVERS_CACHE.relative_to(ROOT)}" if (ms and ms.get("items")) else "")
-        ),
-        external="amazon.com search + /dp/ navigation + Movers & Shakers (playwright headless)",
+        changed=", ".join(changed_parts),
+        external="amazon.com search + /dp/ + bestsellers (playwright) + reddit.com top.json (stdlib)",
         hint=(
             "Blog Writer can now ship monetized posts about: "
             + ", ".join(d["product_name"][:50] for d in discovered)

@@ -15,7 +15,7 @@ ExecStartPre=/usr/bin/git -C %h/golden-home-project pull --quiet --rebase origin
 ExecStart=/usr/bin/xvfb-run -a %h/.ghp-asin-discoverer/venv/bin/python automation/asin_discoverer.py
 # Commit + push only if the registry actually changed. Retry push 3x to absorb
 # the engagement bot's frequent commits.
-ExecStartPost=/bin/bash -c 'cd %h/golden-home-project && git add -- social/dm_keyword_registry.json automation/trends/movers_shakers_latest.json 2>/dev/null; if ! git diff --staged --quiet; then git -c user.name="GHP ASIN Discoverer Bot" -c user.email="goldenhomeprojectllc@gmail.com" commit -m "asin-discoverer: vetted ASIN(s) + Movers cache $(date -u +%%Y-%%m-%%dT%%H:%%MZ)" --quiet && for i in 1 2 3; do git pull --rebase --quiet origin main && git push --quiet origin main && break; sleep 5; done; fi'
+ExecStartPost=/bin/bash -c 'cd %h/golden-home-project && git add -- social/dm_keyword_registry.json automation/trends/movers_shakers_latest.json automation/trends/reddit_latest.json 2>/dev/null; if ! git diff --staged --quiet; then git -c user.name="GHP ASIN Discoverer Bot" -c user.email="goldenhomeprojectllc@gmail.com" commit -m "asin-discoverer: vetted ASIN(s) + Movers + Reddit caches $(date -u +%%Y-%%m-%%dT%%H:%%MZ)" --quiet && for i in 1 2 3; do git pull --rebase --quiet origin main && git push --quiet origin main && break; sleep 5; done; fi'
 StandardOutput=append:%h/.ghp-asin-discoverer/runs/last.log
 StandardError=append:%h/.ghp-asin-discoverer/runs/last.log
 TimeoutStartSec=900
