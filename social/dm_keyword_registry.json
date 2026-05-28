@@ -229,6 +229,40 @@
       "verified_price": "$36.84",
       "discovered_from_trend": "Stackable closet shelf dividers and velvet hangers bundle",
       "discovery_source": "asin_discoverer_auto"
+    },
+    {
+      "asin": "B085XVFQ62",
+      "product_name": "Vongrasig 5 Piece Patio Furniture Sets, Outdoor Patio Set Sectional Sofa, All-Weather PE Rattan Outdoor Couch with Ottoman, Glass Table for ",
+      "categories": [
+        "outdoor patio furniture",
+        "outdoor",
+        "patio",
+        "small"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B085XVFQ62?tag=goldenhomep06-20",
+      "verified_at": "2026-05-28",
+      "verified_stars": "4.1",
+      "verified_reviews": 2187,
+      "verified_price": "$251.08",
+      "discovered_from_trend": "Best Choice Products 4-piece cushioned outdoor patio conversation set",
+      "discovery_source": "asin_discoverer_auto"
+    },
+    {
+      "asin": "B0CVVVNB9L",
+      "product_name": "MIULEE Boho Farmhouse Sage Green Throw Pillow Covers 18x18 Inch Set of 4 Mordern Nordic Cushion Covers Soft Corduroy Spring Home Decor for C",
+      "categories": [
+        "boho throw pillow covers",
+        "boho",
+        "fringe",
+        "maximalist"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0CVVVNB9L?tag=goldenhomep06-20",
+      "verified_at": "2026-05-28",
+      "verified_stars": "4.6",
+      "verified_reviews": 3203,
+      "verified_price": "$16.98",
+      "discovered_from_trend": "Woven fringe throw pillow cover set (4-pack, earthy tones)",
+      "discovery_source": "asin_discoverer_auto"
     }
   ]
 }
