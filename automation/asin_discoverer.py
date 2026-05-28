@@ -129,8 +129,19 @@ def search_amazon(page, query: str) -> Optional[dict]:
         stars_el = card.query_selector('.a-icon-alt')
         stars = parse_stars(stars_el.inner_text() if stars_el else "")
 
-        reviews_el = card.query_selector('a span.a-size-base.s-underline-text')
-        reviews = parse_review_count(reviews_el.inner_text() if reviews_el else "")
+        # Review count: 2026-05-27 Amazon SERP exposes the EXACT count in the
+        # aria-label of the ratings link ("6,192 ratings"). The visible
+        # inner_text is rounded ("6.1K"), and the older `a span.a-size-base.
+        # s-underline-text` selector matches nothing on the current DOM, which
+        # is what caused the first Pi run to reject every result. Prefer the
+        # aria-label; fall back to the rounded inner_text only if missing.
+        reviews = 0
+        ratings_link = card.query_selector('a[aria-label*="ratings"]')
+        if ratings_link:
+            aria = ratings_link.get_attribute("aria-label") or ""
+            reviews = parse_review_count(aria)
+            if not reviews:
+                reviews = parse_review_count(ratings_link.inner_text())
 
         price_el = card.query_selector('.a-price .a-offscreen')
         price = price_el.inner_text().strip() if price_el else ""
