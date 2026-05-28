@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T02:03:45.353643Z",
+  "generated_at": "2026-05-28T08:40:43.302500Z",
   "date": "2026-05-28",
   "opportunities": [
     {
@@ -8,125 +8,131 @@
       "specific_product": "Mamma Mia waterproof stretch sofa cover",
       "brand": "Mamma Mia Covers",
       "target_price": "$47",
-      "transformation_hook": "Transform your pet-ruined couch in 5 min for $47",
-      "before_state": "Worn, pet-hair-covered sofa with visible stains, scratches, and faded fabric",
-      "after_state": "Fresh, like-new sofa with a clean waterproof stretch cover that fits perfectly and repels pet hair",
+      "transformation_hook": "Covered a $1,200 pet-ruined couch for $47 \u2014 looks brand new",
+      "before_state": "Sagging, pet-hair-covered sofa with visible stains and worn armrests that embarrasses guests",
+      "after_state": "Sleek, taut, fresh-looking couch that appears professionally reupholstered with zero visible damage",
       "buyer_intent_keywords": [
-        "couch cover for dogs",
-        "sofa slipcover pet hair",
+        "couch cover for pet hair",
         "waterproof sofa cover",
-        "stretch couch protector",
-        "sofa cover large sectional"
+        "couch makeover cheap",
+        "stretch sofa cover dogs",
+        "furniture cover pet hair"
       ],
       "scores": {
         "trend": 7,
         "transformation": 10,
-        "affiliate": 9,
+        "affiliate": 10,
         "intent": 9
       },
-      "composite_score": 35,
-      "why_now": "Apartment Therapy's 2026 small-space makeover wave plus summer hosting season (HGTV beachy tablescape content) are driving sofa refresh searches at the exact moment people are hosting guests."
+      "composite_score": 36,
+      "why_now": "Memorial Day through summer is peak home-refresh season and active HomeDecorating 'Finished moving in' posts (261 upvotes) signal mass home-setup purchasing intent this week."
     },
     {
       "rank": 2,
-      "product_category": "kitchen cabinet organizers",
-      "specific_product": "Lazy Susan turntable + tiered shelf cabinet organizer set",
+      "product_category": "outdoor mosquito control",
+      "specific_product": "Thermacell patio shield mosquito repeller or solar mosquito zapper",
       "brand": "Amazon generic",
-      "target_price": "$28",
-      "transformation_hook": "Chaotic kitchen cabinets organized in 10 min for $28",
-      "before_state": "Crammed cabinet with items toppling out, stacked mismatched lids, and zero visibility",
-      "after_state": "Pristine organized cabinet with spinning turntable, tiered shelving, and every item instantly findable",
+      "target_price": "$35",
+      "transformation_hook": "Reclaimed our abandoned patio for $35 \u2014 zero mosquitoes all summer",
+      "before_state": "Unused patio furniture collecting dust because mosquitoes make evenings outside unbearable",
+      "after_state": "Fully lit outdoor entertaining area used every evening with no bites and no smoke",
       "buyer_intent_keywords": [
-        "kitchen cabinet organizer",
-        "lazy susan turntable cabinet",
-        "pot lid organizer",
-        "cabinet shelf organizer",
-        "under sink organizer kitchen"
+        "mosquito free patio ideas",
+        "outdoor mosquito repeller",
+        "best patio mosquito control",
+        "mosquito zapper outdoor",
+        "how to keep mosquitoes away patio"
+      ],
+      "scores": {
+        "trend": 9,
+        "transformation": 8,
+        "affiliate": 8,
+        "intent": 9
+      },
+      "composite_score": 34,
+      "why_now": "Late May outdoor season peak with an active r/HomeImprovement thread (78 comments) of people right now asking for affordable alternatives to screened porches they cannot afford."
+    },
+    {
+      "rank": 3,
+      "product_category": "countertop water filter",
+      "specific_product": "ZeroWater 10-cup pitcher with TDS meter included",
+      "brand": "Amazon generic",
+      "target_price": "$40",
+      "transformation_hook": "Skipped the $10K whole-house system \u2014 this $40 filter does the job",
+      "before_state": "Family drinking unfiltered tap water or burning money on single-use plastic bottles weekly",
+      "after_state": "Clean filtered water on demand with TDS meter confirming near-zero dissolved solids",
+      "buyer_intent_keywords": [
+        "water filter pitcher best 2026",
+        "cheap alternative whole house water filter",
+        "countertop water purifier home",
+        "ZeroWater vs Brita",
+        "best water filter under $50"
+      ],
+      "scores": {
+        "trend": 8,
+        "transformation": 7,
+        "affiliate": 9,
+        "intent": 9
+      },
+      "composite_score": 33,
+      "why_now": "A viral r/HomeImprovement thread (329 comments, 262 upvotes) about a $10K water system quote is driving mass search this week for affordable DIY alternatives."
+    },
+    {
+      "rank": 4,
+      "product_category": "bath towels",
+      "specific_product": "100% Turkish cotton bath towel set (6-piece)",
+      "brand": "Amazon generic",
+      "target_price": "$45",
+      "transformation_hook": "Replaced scratchy $8 towels with hotel-quality ones for $45 \u2014 life changed",
+      "before_state": "Bathroom stocked with thin, rough towels that scratch skin, feel damp, and look dingy",
+      "after_state": "Plush, absorbent towels that get softer every wash and make the bathroom feel like a spa",
+      "buyer_intent_keywords": [
+        "best bath towels that get softer",
+        "hotel quality bath towels Amazon",
+        "Turkish cotton towels affordable",
+        "soft bath towels that last",
+        "BIFL bath towels"
+      ],
+      "scores": {
+        "trend": 7,
+        "transformation": 8,
+        "affiliate": 9,
+        "intent": 8
+      },
+      "composite_score": 32,
+      "why_now": "A r/BuyItForLife post asking specifically for towels that soften with washing generated 168 comments of active purchase research, signaling buyers in decision mode right now."
+    },
+    {
+      "rank": 5,
+      "product_category": "kids closet organizer",
+      "specific_product": "Modular hanging closet organizer with shelves, rods, and labeled bins",
+      "brand": "Amazon generic",
+      "target_price": "$38",
+      "transformation_hook": "Transformed a chaotic kids closet into Pinterest-worthy storage for $38",
+      "before_state": "Overflowing kids closet with clothes piled on the floor, lost toys, and no visible system",
+      "after_state": "Color-coded, labeled closet with hanging sections, cubbies, and bins \u2014 everything visible and reachable",
+      "buyer_intent_keywords": [
+        "kids closet organizer system",
+        "children room organization ideas",
+        "small kids closet makeover",
+        "girls bedroom closet ideas",
+        "kids closet under $50"
       ],
       "scores": {
         "trend": 7,
         "transformation": 9,
-        "affiliate": 10,
-        "intent": 8
-      },
-      "composite_score": 34,
-      "why_now": "Real Simple is actively publishing greasy cabinet cleaning and organization tips this week, signaling audiences are in active home-reset mode entering summer."
-    },
-    {
-      "rank": 3,
-      "product_category": "outdoor patio furniture",
-      "specific_product": "Best Choice Products 4-piece cushioned outdoor patio conversation set",
-      "brand": "Best Choice Products",
-      "target_price": "$229",
-      "transformation_hook": "Bare concrete patio to summer entertaining zone for $229",
-      "before_state": "Empty or dated patio with mismatched plastic chairs, no cohesion, and zero curb appeal",
-      "after_state": "Styled outdoor lounge with cushioned seating, side table, and a space guests actually want to stay in",
-      "buyer_intent_keywords": [
-        "outdoor patio furniture set",
-        "patio furniture under $300",
-        "small patio conversation set",
-        "outdoor seating clearance",
-        "porch furniture set 4 piece"
-      ],
-      "scores": {
-        "trend": 8,
-        "transformation": 9,
         "affiliate": 8,
-        "intent": 8
-      },
-      "composite_score": 33,
-      "why_now": "HGTV Rock the Block S7 exterior and pool episodes airing now paired with late-May timing make patio transformations the highest-urgency seasonal buy of the week."
-    },
-    {
-      "rank": 4,
-      "product_category": "boho throw pillow covers",
-      "specific_product": "Woven fringe throw pillow cover set (4-pack, earthy tones)",
-      "brand": "Amazon generic",
-      "target_price": "$34",
-      "transformation_hook": "Upgrade your whole living room to boho chic for $34",
-      "before_state": "Plain, deflated sofa with mismatched or bare pillow inserts and no visual interest",
-      "after_state": "Layered, textured boho living room with fringed pillows in terracotta and sage that look straight from HGTV",
-      "buyer_intent_keywords": [
-        "boho throw pillow covers",
-        "fringe decorative pillows",
-        "maximalist living room pillows",
-        "bohemian couch pillow set",
-        "terracotta throw pillows 2026"
-      ],
-      "scores": {
-        "trend": 8,
-        "transformation": 8,
-        "affiliate": 9,
         "intent": 7
       },
-      "composite_score": 32,
-      "why_now": "Both HGTV and Apartment Therapy are simultaneously publishing maximalist fringed accent content naming this the defining home aesthetic of 2026, creating a discovery-to-purchase pipeline right now."
-    },
-    {
-      "rank": 5,
-      "product_category": "side sleeper pillows",
-      "specific_product": "Eli & Elm adjustable side sleeper pillow with cutout design",
-      "brand": "Eli & Elm",
-      "target_price": "$79",
-      "transformation_hook": "Wake up neck-pain-free starting tonight for $79",
-      "before_state": "Flat unsupportive pillow causing morning neck stiffness and interrupted sleep for side sleepers",
-      "after_state": "Perfectly aligned spine and shoulders every night with zero neck pain and deeper sleep",
-      "buyer_intent_keywords": [
-        "best pillow for side sleepers",
-        "side sleeper neck pain pillow",
-        "adjustable pillow firmness",
-        "pillow for shoulder pain side sleeper",
-        "Eli Elm pillow review"
-      ],
-      "scores": {
-        "trend": 6,
-        "transformation": 8,
-        "affiliate": 8,
-        "intent": 9
-      },
       "composite_score": 31,
-      "why_now": "HGTV Smart Home 2026 sleep-tech content and the summer bedroom refresh push from BHG are surfacing sleep-quality products to home audiences already in buying mode."
+      "why_now": "HGTV Pinterest published '21 ways to organize your kid's closet' this week alongside a viral HomeDecorating 'Daughter's Room' post (414 upvotes), signaling a content wave cresting now."
     }
   ],
-  "raw_signal_count": 17
+  "raw_signal_count": 147,
+  "sources_used": [
+    "amazon_movers_shakers",
+    "google_trends_daily_us",
+    "pinterest",
+    "reddit"
+  ]
 }
