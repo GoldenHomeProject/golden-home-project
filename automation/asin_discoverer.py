@@ -38,12 +38,14 @@ TREND_FEED = ROOT / "social" / "trend_feed.json"
 MOVERS_CACHE = ROOT / "automation" / "trends" / "movers_shakers_latest.json"
 AMAZON_TAG = "goldenhomep06-20"
 
-# Amazon Best Sellers / Movers & Shakers nodes we sample each Pi run. Trend
-# Scout reads the cached output the next morning. We keep this short to be a
-# good citizen on Amazon traffic.
+# Amazon Best Sellers nodes we sample each Pi run. Trend Scout reads the
+# cached output the next morning. We keep this short to be a good citizen on
+# Amazon traffic. The /movers-and-shakers/ pages have a different layout that
+# our card selector doesn't match — left for a future selector pass; the
+# /bestsellers/ pages give plenty of signal in the meantime.
 MOVERS_NODES = [
-    ("home_kitchen",         "https://www.amazon.com/gp/movers-and-shakers/home-garden/"),
-    ("home_storage",         "https://www.amazon.com/gp/bestsellers/home-garden/3733551/"),
+    ("home_storage",  "https://www.amazon.com/gp/bestsellers/home-garden/3733551/"),
+    ("kitchen",       "https://www.amazon.com/gp/bestsellers/kitchen/"),
 ]
 
 MAX_NEW_PER_RUN = 5
@@ -284,9 +286,20 @@ def fetch_movers_shakers(page, nodes: list[tuple[str, str]]) -> dict:
 
         time.sleep(2)  # courtesy pause between nodes
 
+    # Dedupe by (node, asin) — selector matches both the outer card and an
+    # inner data-asin element, producing two rows per product.
+    seen: set[tuple[str, str]] = set()
+    deduped: list[dict] = []
+    for it in out_items:
+        key = (it["node"], it["asin"])
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(it)
+
     return {
         "fetched_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
-        "items": out_items,
+        "items": deduped,
     }
 
 
