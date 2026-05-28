@@ -355,15 +355,14 @@ def main() -> int:
     if not candidates:
         print(
             f"[asin-discoverer] All {len(opportunities)} trend opportunities "
-            "already covered by registry."
+            "already covered — running Movers & Shakers harvest only."
         )
-        return 0
-
-    candidates = candidates[:MAX_NEW_PER_RUN]
-    print(
-        f"[asin-discoverer] {len(candidates)} candidate opportunit{'y' if len(candidates) == 1 else 'ies'} "
-        f"to discover (capped at {MAX_NEW_PER_RUN})"
-    )
+    else:
+        candidates = candidates[:MAX_NEW_PER_RUN]
+        print(
+            f"[asin-discoverer] {len(candidates)} candidate opportunit{'y' if len(candidates) == 1 else 'ies'} "
+            f"to discover (capped at {MAX_NEW_PER_RUN})"
+        )
 
     # Import lazily so importing this module elsewhere doesn't require playwright
     try:
