@@ -295,11 +295,25 @@ def main():
         opportunities = []
 
     # 3. Persist — daily history + latest pointer
+    # Count actual content items, not top-level container lengths — sources
+    # have nested structures (reddit/pinterest are dict-of-lists, movers is
+    # dict-with-items-list, google_trends is a flat list).
+    def _count_items(v) -> int:
+        if isinstance(v, list):
+            return len(v)
+        if isinstance(v, dict):
+            if "items" in v and isinstance(v["items"], list):
+                return len(v["items"])
+            return sum(_count_items(x) for x in v.values())
+        return 0
+    raw_signal_count = sum(_count_items(v) for v in signals.values())
+
     feed = {
         "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "date": date_str,
         "opportunities": opportunities,
-        "raw_signal_count": sum(len(v) for v in signals.values()),
+        "raw_signal_count": raw_signal_count,
+        "sources_used": sorted(signals.keys()),
     }
     history_path = TREND_DIR / f"{date_str}.json"
     latest_path = SOCIAL_DIR / "trend_feed.json"
@@ -320,7 +334,7 @@ def main():
     append_log_entry(
         agent="Trend Scout",
         ran=(
-            f"Scanned {len(signals)} sources ({src_summary}), "
+            f"Scanned {len(signals)} sources ({src_summary}) -> {raw_signal_count} items, "
             f"ranked {len(opportunities)} opportunities"
         ),
         changed=f"{history_path.relative_to(ROOT)}, {latest_path.relative_to(ROOT)}",
