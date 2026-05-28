@@ -1,5 +1,5 @@
 {
-  "_doc": "Live Meta comment-to-DM automations for @golden_home_project. Content engine MUST pick a keyword from `entries` whose status='live' when generating a reel — using a keyword whose automation isn't live silently drops the entire DM funnel. Add a new entry only after creating the matching automation in Meta Business Suite (https://business.facebook.com/latest/inbox/automated_responses?asset_id=973754055831729&business_id=1580899273211540). Verify ASIN is alive on amazon.com BEFORE adding (use Chrome /dp/<ASIN> + check title not 'Page Not Found'). Tag = goldenhomep06-20.",
+  "_doc": "Live Meta comment-to-DM automations for @golden_home_project. Content engine MUST pick a keyword from `entries` whose status='live' when generating a reel \u2014 using a keyword whose automation isn't live silently drops the entire DM funnel. Add a new entry only after creating the matching automation in Meta Business Suite (https://business.facebook.com/latest/inbox/automated_responses?asset_id=973754055831729&business_id=1580899273211540). Verify ASIN is alive on amazon.com BEFORE adding (use Chrome /dp/<ASIN> + check title not 'Page Not Found'). Tag = goldenhomep06-20.",
   "tag": "goldenhomep06-20",
   "ig_business_account_id": "973754055831729",
   "fb_business_id": "1580899273211540",
@@ -9,7 +9,13 @@
       "keyword": "LINK",
       "asin": "B01M0TS64K",
       "product_name": "Simple Houseware 2-Tier Sliding Basket Organizer (chrome, under-sink)",
-      "categories": ["organization", "kitchen", "bathroom", "under-sink", "storage"],
+      "categories": [
+        "organization",
+        "kitchen",
+        "bathroom",
+        "under-sink",
+        "storage"
+      ],
       "status": "live",
       "added_at": "2026-04-23"
     },
@@ -17,28 +23,38 @@
       "keyword": "PILLOW",
       "asin": "B07YL7VD32",
       "product_name": "Eli & Elm Side Sleeper Pillow (U-shape, latex, queen)",
-      "categories": ["bedroom", "sleep", "pillow", "neck-pain"],
+      "categories": [
+        "bedroom",
+        "sleep",
+        "pillow",
+        "neck-pain"
+      ],
       "status": "live",
       "added_at": "2026-04-23",
       "affiliate_network": "impact_direct",
       "affiliate_url": "https://eliandelm.sjv.io/E092ZX",
       "rerouted_from_amazon_at": "2026-05-03",
-      "reroute_reason": "Impact direct merchant — link routes to eliandelm.com (verified 2026-05-04). Genuine ~20% direct merchant commission, ~6x Amazon's 3% home category rate. This is the only true high-commission reroute in the registry.",
+      "reroute_reason": "Impact direct merchant \u2014 link routes to eliandelm.com (verified 2026-05-04). Genuine ~20% direct merchant commission, ~6x Amazon's 3% home category rate. This is the only true high-commission reroute in the registry.",
       "verified_destination": "https://eliandelm.com",
       "verified_at": "2026-05-04"
     },
     {
       "keyword": "COVER",
       "asin": "B0B4SPP3ZN",
-      "product_name": "Mamma Mia Stretch Waterproof Sofa Cover (jacquard) — replaces Paulato",
-      "categories": ["living-room", "couch", "sofa", "pet"],
+      "product_name": "Mamma Mia Stretch Waterproof Sofa Cover (jacquard) \u2014 replaces Paulato",
+      "categories": [
+        "living-room",
+        "couch",
+        "sofa",
+        "pet"
+      ],
       "status": "live",
       "added_at": "2026-04-25",
       "activated_at": "2026-05-03",
       "affiliate_network": "impact_maas_to_amazon",
       "affiliate_url": "https://mammamiacovers.sjv.io/WO4g63",
       "rerouted_from_amazon_at": "2026-05-03",
-      "reroute_reason": "Impact link routes via Amazon Maas to amazon.com/stores/MammaMiaCovers (branded storefront). Verified 2026-05-04 — commission rate is Amazon's standard ~3-4% home category, NOT 20-30% as originally claimed. The actual lever is conversion (curated brand storefront beats search URL by ~3-5x), not commission rate.",
+      "reroute_reason": "Impact link routes via Amazon Maas to amazon.com/stores/MammaMiaCovers (branded storefront). Verified 2026-05-04 \u2014 commission rate is Amazon's standard ~3-4% home category, NOT 20-30% as originally claimed. The actual lever is conversion (curated brand storefront beats search URL by ~3-5x), not commission rate.",
       "verified_destination": "https://www.amazon.com/stores/MammaMiaCovers",
       "verified_at": "2026-05-04"
     },
@@ -46,7 +62,12 @@
       "keyword": "KETTLE",
       "asin": "B08PP48979",
       "product_name": "Cosori Electric Kettle (no plastic contact, wide-mouth)",
-      "categories": ["kitchen", "appliance", "tea", "coffee"],
+      "categories": [
+        "kitchen",
+        "appliance",
+        "tea",
+        "coffee"
+      ],
       "status": "live",
       "added_at": "2026-04-25",
       "activated_at": "2026-05-03"
@@ -55,7 +76,12 @@
       "keyword": "NIGHTLIGHT",
       "asin": "B09CSS6YL4",
       "product_name": "LED Motion Sensor Night Light Plug-In (2-Pack, Cool White)",
-      "categories": ["lighting", "bedroom", "hallway", "tech"],
+      "categories": [
+        "lighting",
+        "bedroom",
+        "hallway",
+        "tech"
+      ],
       "status": "live",
       "added_at": "2026-04-25",
       "activated_at": "2026-05-03",
@@ -65,7 +91,11 @@
       "keyword": "SPONGE",
       "asin": "B07ZL2BFMP",
       "product_name": "Scrub Daddy Sponge (dye-free, scratch-free)",
-      "categories": ["kitchen", "cleaning", "dishes"],
+      "categories": [
+        "kitchen",
+        "cleaning",
+        "dishes"
+      ],
       "status": "live",
       "added_at": "2026-04-25",
       "activated_at": "2026-05-03"
@@ -74,7 +104,12 @@
       "keyword": "STRIP",
       "asin": "B099S9DXT7",
       "product_name": "Govee RGBIC LED Strip Lights (32.8ft, smart, bedroom)",
-      "categories": ["lighting", "bedroom", "tech", "smart-home"],
+      "categories": [
+        "lighting",
+        "bedroom",
+        "tech",
+        "smart-home"
+      ],
       "status": "live",
       "added_at": "2026-04-25",
       "activated_at": "2026-05-03"
@@ -83,7 +118,11 @@
       "keyword": "VACUUM",
       "asin": "B099NTSWD9",
       "product_name": "FoodSaver VS2150 Vacuum Sealing System",
-      "categories": ["kitchen", "appliance", "food-storage"],
+      "categories": [
+        "kitchen",
+        "appliance",
+        "food-storage"
+      ],
       "status": "live",
       "added_at": "2026-04-25",
       "activated_at": "2026-05-03"
@@ -92,7 +131,11 @@
       "keyword": "PASTE",
       "asin": "B00DU5SRIY",
       "product_name": "Stardrops The Pink Stuff Cleaning Paste (multi-purpose)",
-      "categories": ["cleaning", "kitchen", "bathroom"],
+      "categories": [
+        "cleaning",
+        "kitchen",
+        "bathroom"
+      ],
       "status": "live",
       "added_at": "2026-04-25",
       "activated_at": "2026-05-03"
@@ -101,46 +144,91 @@
       "keyword": "ROLLER",
       "asin": "B00BAGTNAQ",
       "product_name": "ChomChom Roller Pet Hair Remover (reusable lint roller)",
-      "categories": ["pet", "cleaning", "living-room"],
+      "categories": [
+        "pet",
+        "cleaning",
+        "living-room"
+      ],
       "status": "live",
       "added_at": "2026-04-25",
       "activated_at": "2026-05-03"
     }
   ],
-  "_vetted_doc": "Verified-live Amazon ASINs cleared for blog/SEO/IG-caption use but NOT yet wired to a Meta comment-to-DM automation. Promote to `entries` (with a unique keyword) only AFTER creating the matching Meta Business Suite automation. Always use https://www.amazon.com/dp/<ASIN>?tag=goldenhomep06-20 — never search URLs.",
+  "_vetted_doc": "Verified-live Amazon ASINs cleared for blog/SEO/IG-caption use but NOT yet wired to a Meta comment-to-DM automation. Promote to `entries` (with a unique keyword) only AFTER creating the matching Meta Business Suite automation. Always use https://www.amazon.com/dp/<ASIN>?tag=goldenhomep06-20 \u2014 never search URLs.",
   "vetted": [
     {
       "asin": "B0D176VGXZ",
       "product_name": "PXRACK Expandable Under-Sink Organizer with 2 Pull-Out Drawers",
-      "categories": ["organization", "bathroom", "kitchen", "under-sink", "storage"],
+      "categories": [
+        "organization",
+        "bathroom",
+        "kitchen",
+        "under-sink",
+        "storage"
+      ],
       "affiliate_url": "https://www.amazon.com/dp/B0D176VGXZ?tag=goldenhomep06-20",
       "verified_at": "2026-05-26",
       "verified_stars": "4.7",
       "verified_reviews": 1773,
       "verified_price": "$46.99",
-      "used_in": ["blog/posts/2026-05-20-under-sink-organizer-bathroom-pull-out-drawers.html"]
+      "used_in": [
+        "blog/posts/2026-05-20-under-sink-organizer-bathroom-pull-out-drawers.html"
+      ]
     },
     {
       "asin": "B0B3WSZ3QP",
       "product_name": "Set of 4 Non-Skid 10-Inch Lazy Susan Turntable Organizers",
-      "categories": ["organization", "kitchen", "bathroom", "cabinet", "lazy-susan", "storage"],
+      "categories": [
+        "organization",
+        "kitchen",
+        "bathroom",
+        "cabinet",
+        "lazy-susan",
+        "storage"
+      ],
       "affiliate_url": "https://www.amazon.com/dp/B0B3WSZ3QP?tag=goldenhomep06-20",
       "verified_at": "2026-05-26",
       "verified_stars": "4.7",
       "verified_reviews": 6190,
       "verified_price": "$24.99",
-      "used_in": ["blog/posts/2026-05-20-under-sink-organizer-bathroom-pull-out-drawers.html"]
+      "used_in": [
+        "blog/posts/2026-05-20-under-sink-organizer-bathroom-pull-out-drawers.html"
+      ]
     },
     {
       "asin": "B0BXSMJK86",
       "product_name": "BAGAIL Non-Adhesive Non-Slip Shelf Liner 12\" x 10FT (black)",
-      "categories": ["organization", "kitchen", "bathroom", "shelf-liner", "drawer-liner"],
+      "categories": [
+        "organization",
+        "kitchen",
+        "bathroom",
+        "shelf-liner",
+        "drawer-liner"
+      ],
       "affiliate_url": "https://www.amazon.com/dp/B0BXSMJK86?tag=goldenhomep06-20",
       "verified_at": "2026-05-26",
       "verified_stars": "4.7",
       "verified_reviews": 2556,
       "verified_price": "$7.99",
-      "used_in": ["blog/posts/2026-05-20-under-sink-organizer-bathroom-pull-out-drawers.html"]
+      "used_in": [
+        "blog/posts/2026-05-20-under-sink-organizer-bathroom-pull-out-drawers.html"
+      ]
+    },
+    {
+      "asin": "B07Y39ZXV7",
+      "product_name": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers for Closet Organization, Ivory/Rose Gold, 100-Pack",
+      "categories": [
+        "closet organization",
+        "closet",
+        "velvet"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B07Y39ZXV7?tag=goldenhomep06-20",
+      "verified_at": "2026-05-28",
+      "verified_stars": "4.8",
+      "verified_reviews": 231174,
+      "verified_price": "$36.84",
+      "discovered_from_trend": "Stackable closet shelf dividers and velvet hangers bundle",
+      "discovery_source": "asin_discoverer_auto"
     }
   ]
 }
