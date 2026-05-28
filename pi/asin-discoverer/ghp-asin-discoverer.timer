@@ -1,0 +1,14 @@
+[Unit]
+Description=GHP ASIN Discoverer — daily after Trend Scout
+
+[Timer]
+# Trend Scout runs on GH Actions at 05:00 UTC and typically commits within
+# 3-5 minutes. 06:00 UTC + up to 30 min jitter gives the commit time to land
+# and varies our outbound pattern so Amazon doesn't see a clockwork hit.
+OnCalendar=*-*-* 06:00:00 UTC
+Persistent=true
+RandomizedDelaySec=1800
+Unit=ghp-asin-discoverer.service
+
+[Install]
+WantedBy=timers.target

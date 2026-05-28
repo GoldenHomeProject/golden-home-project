@@ -1,0 +1,21 @@
+[Unit]
+Description=GHP ASIN Discoverer (Agent 1.5 — Pi port)
+# Why: GitHub Actions runner IPs get bot-blocked by Amazon. The Pi has a
+# residential IP that Amazon has never challenged. Trend Scout still runs
+# in GH Actions (no browser needed); the discoverer reads its output here.
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/golden-home-project
+# Pull fresh trend_feed.json from main before discovery. Quiet on success.
+ExecStartPre=/usr/bin/git -C %h/golden-home-project pull --quiet --rebase origin main
+# xvfb-run gives Playwright a display even when no one is logged into the desktop.
+ExecStart=/usr/bin/xvfb-run -a %h/.ghp-asin-discoverer/venv/bin/python automation/asin_discoverer.py
+# Commit + push only if the registry actually changed. Retry push 3x to absorb
+# the engagement bot's frequent commits.
+ExecStartPost=/bin/bash -c 'cd %h/golden-home-project && if ! git diff --quiet social/dm_keyword_registry.json; then git -c user.name="GHP ASIN Discoverer Bot" -c user.email="goldenhomeprojectllc@gmail.com" add social/dm_keyword_registry.json && git commit -m "asin-discoverer: vetted ASIN(s) $(date -u +%%Y-%%m-%%dT%%H:%%MZ)" --quiet && for i in 1 2 3; do git pull --rebase --quiet origin main && git push --quiet origin main && break; sleep 5; done; fi'
+StandardOutput=append:%h/.ghp-asin-discoverer/runs/last.log
+StandardError=append:%h/.ghp-asin-discoverer/runs/last.log
+TimeoutStartSec=900
