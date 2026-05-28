@@ -35,7 +35,16 @@ from agent_log import append_log_entry  # noqa: E402
 ROOT = Path(__file__).resolve().parent.parent
 REGISTRY_PATH = ROOT / "social" / "dm_keyword_registry.json"
 TREND_FEED = ROOT / "social" / "trend_feed.json"
+MOVERS_CACHE = ROOT / "automation" / "trends" / "movers_shakers_latest.json"
 AMAZON_TAG = "goldenhomep06-20"
+
+# Amazon Best Sellers / Movers & Shakers nodes we sample each Pi run. Trend
+# Scout reads the cached output the next morning. We keep this short to be a
+# good citizen on Amazon traffic.
+MOVERS_NODES = [
+    ("home_kitchen",         "https://www.amazon.com/gp/movers-and-shakers/home-garden/"),
+    ("home_storage",         "https://www.amazon.com/gp/bestsellers/home-garden/3733551/"),
+]
 
 MAX_NEW_PER_RUN = 5
 MAX_VETTED_POOL = 30
@@ -216,6 +225,71 @@ def verify_dp(page, asin: str) -> Optional[dict]:
     }
 
 
+def fetch_movers_shakers(page, nodes: list[tuple[str, str]]) -> dict:
+    """Harvest Amazon Movers & Shakers / Best Sellers pages for trend signal.
+    Runs on the Pi (where Amazon doesn't bot-block us). Writes JSON consumed
+    by Trend Scout on its next run.
+
+    Conservative: any failure on a node logs + skips, never crashes the run.
+    Returns dict ready to be JSON-dumped: {fetched_at, items: [...]}
+    """
+    out_items: list[dict] = []
+    for label, url in nodes:
+        try:
+            page.goto(url, timeout=30000, wait_until="domcontentloaded")
+            # Best Sellers + Movers pages both expose product cards with
+            # data-asin under .zg-grid-general-faceout or .a-carousel-card.
+            # We try a broader selector that matches both layouts.
+            page.wait_for_selector("[id^='gridItemRoot'], .zg-grid-general-faceout, .a-carousel-card", timeout=15000)
+        except Exception as e:
+            print(f"  [movers] {label}: page load failed — {e}")
+            continue
+
+        try:
+            cards = page.query_selector_all("[id^='gridItemRoot'], .zg-grid-general-faceout")
+            for card in cards[:30]:
+                asin = ""
+                # Movers pages put data-asin on the inner card div
+                inner = card.query_selector("[data-asin]")
+                if inner:
+                    asin = inner.get_attribute("data-asin") or ""
+                if not asin or len(asin) != 10:
+                    # fallback: parse from product link href
+                    a = card.query_selector("a[href*='/dp/']")
+                    href = a.get_attribute("href") if a else ""
+                    if href:
+                        import re as _re
+                        m = _re.search(r"/dp/([A-Z0-9]{10})", href)
+                        if m:
+                            asin = m.group(1)
+                if not asin:
+                    continue
+                title_el = card.query_selector("[class*='_p13n-zg-list-grid_'], div._cDEzb_p13n-sc-css-line-clamp_, .a-link-normal span div, h3")
+                title = title_el.inner_text().strip() if title_el else ""
+                if not title:
+                    # fallback: aria-label on the product link often holds the title
+                    a = card.query_selector("a[aria-label]")
+                    title = (a.get_attribute("aria-label") or "").strip() if a else ""
+                rank_el = card.query_selector(".zg-bdg-text, .zg-badge-text")
+                rank = (rank_el.inner_text().strip() if rank_el else "").lstrip("#")
+                out_items.append({
+                    "node": label,
+                    "rank": rank,
+                    "asin": asin,
+                    "title": title[:160],
+                })
+        except Exception as e:
+            print(f"  [movers] {label}: parse failed — {e}")
+            continue
+
+        time.sleep(2)  # courtesy pause between nodes
+
+    return {
+        "fetched_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+        "items": out_items,
+    }
+
+
 def build_vetted_entry(opp: dict, search_hit: dict, dp_verified: dict) -> dict:
     """Compose the JSON entry we will append to vetted[]."""
     categories: list[str] = []
@@ -363,10 +437,34 @@ def main() -> int:
 
             time.sleep(3)
 
+        # Free side-product: refresh the Movers & Shakers cache that Trend
+        # Scout reads on its next morning run. We do this AFTER discovery so
+        # discovery itself never gets blocked by a flaky Movers page.
+        print("[asin-discoverer] Harvesting Amazon Movers & Shakers for Trend Scout...")
+        try:
+            ms = fetch_movers_shakers(page, MOVERS_NODES)
+        except Exception as e:
+            print(f"  [movers] harvest exception: {e}")
+            ms = None
+
         browser.close()
+
+    if ms and ms.get("items"):
+        MOVERS_CACHE.parent.mkdir(parents=True, exist_ok=True)
+        MOVERS_CACHE.write_text(json.dumps(ms, indent=2) + "\n")
+        print(f"[asin-discoverer] Wrote {len(ms['items'])} movers items -> {MOVERS_CACHE.relative_to(ROOT)}")
 
     if not discovered:
         print("[asin-discoverer] No new ASINs verified this run.")
+        # Still useful to log if we refreshed the movers cache
+        if ms and ms.get("items"):
+            append_log_entry(
+                agent="ASIN Discoverer",
+                ran=f"No new ASINs; refreshed {len(ms['items'])} Movers & Shakers items",
+                changed=str(MOVERS_CACHE.relative_to(ROOT)),
+                external="amazon.com /gp/movers-and-shakers (playwright headless)",
+                hint="Trend Scout will read the refreshed Movers cache on next run.",
+            )
         return 0
 
     reg["vetted"].extend(discovered)
@@ -381,9 +479,13 @@ def main() -> int:
         ran=(
             f"Scanned {len(opportunities)} trend opportunities, "
             f"verified {len(discovered)} new ASIN(s)"
+            + (f", refreshed {len(ms['items'])} Movers items" if (ms and ms.get('items')) else "")
         ),
-        changed="social/dm_keyword_registry.json",
-        external="amazon.com search + /dp/ navigation (playwright headless)",
+        changed=(
+            "social/dm_keyword_registry.json"
+            + (f", {MOVERS_CACHE.relative_to(ROOT)}" if (ms and ms.get("items")) else "")
+        ),
+        external="amazon.com search + /dp/ navigation + Movers & Shakers (playwright headless)",
         hint=(
             "Blog Writer can now ship monetized posts about: "
             + ", ".join(d["product_name"][:50] for d in discovered)
