@@ -475,3 +475,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** social/reels/reel-2026-05-27-*.mp4, social/post_queue.json
 **External actions:** none
 **Next agent hint:** IG Poster has 3 new Reels ready for 14:00 + 22:00 UTC slots
+
+## 2026-05-28T01:39:45Z — ASIN Discoverer
+**Ran:** Scanned 5 trend opportunities, verified 1 new ASIN(s)
+**Changed:** social/dm_keyword_registry.json
+**External actions:** amazon.com search + /dp/ navigation (playwright headless)
+**Next agent hint:** Blog Writer can now ship monetized posts about: Amazon Basics Slim Velvet Non-Slip Space Saving Su
