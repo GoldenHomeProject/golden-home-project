@@ -535,3 +535,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** social/carousels/2026-05-29-B07YL7VD32/slide-1.png, social/carousels/2026-05-29-B07YL7VD32/slide-2.png, social/carousels/2026-05-29-B07YL7VD32/slide-3.png, social/carousels/2026-05-29-B07YL7VD32/slide-4.png, social/carousels/2026-05-29-B07YL7VD32/slide-5.png, social/post_queue.json
 **External actions:** Pexels (4 photos) + Claude CLI (slide content)
 **Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B07YL7VD32 carousel.
+
+## 2026-05-29T06:14:33Z — ASIN Discoverer
+**Ran:** Scanned 5 trend opportunities, verified 4 new ASIN(s), refreshed 30 Movers items
+**Changed:** social/dm_keyword_registry.json, automation/trends/movers_shakers_latest.json
+**External actions:** amazon.com search + /dp/ + bestsellers (playwright) + reddit.com top.json (stdlib)
+**Next agent hint:** Blog Writer can now ship monetized posts about: Solar Bug Zapper Outdoor, 4500V Solar Mosquito Zap, Brita Large Water Filter Pitcher for Tap and Drink, American Soft Linen Luxury 4 Piece Bath Towel Set,, 5FT Small Closet System, Baby Closet Organizer Sys
