@@ -228,6 +228,8 @@ No single point of failure — the flywheel keeps spinning.
 | Instagram auto-posting pipeline | ✅ LIVE — Meta Graph API workflow deployed | 2026-04-16 |
 | Facebook followers | 0 | 2026-03-31 |
 | Amazon affiliate revenue (MTD) | $0 confirmed | 2026-03-31 |
+| Amazon affiliate revenue (last 30d, Apr 28–May 27) | $0 / 62 clicks / 0 orders | 2026-05-29 |
+| **Click trend** | **902 (Mar) → 62 (Apr-May) = -93%** | **2026-05-29** |
 | Active affiliate platforms | Amazon, Impact, CJ, Awin | 2026-03-31 |
 
 ---
