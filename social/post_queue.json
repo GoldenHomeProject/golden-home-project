@@ -177,5 +177,21 @@
     },
     "hook": "Most pillows are designed for back sleepers. 74% of us sleep on our sides.",
     "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-05-28-003.mp4"
+  },
+  {
+    "id": "carousel-2026-05-29-B01M0TS64K",
+    "media_type": "CAROUSEL_ALBUM",
+    "image_urls": [
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-05-29-B01M0TS64K/slide-1.png",
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-05-29-B01M0TS64K/slide-2.png",
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-05-29-B01M0TS64K/slide-3.png",
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-05-29-B01M0TS64K/slide-4.png",
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-05-29-B01M0TS64K/slide-5.png"
+    ],
+    "caption": "Your under-sink cabinet is probably wasting half its space.\n\nSave this for later \u2014 these three tips will help you reclaim it. Tip 3 is the one that actually sticks long-term.\n\nComment LINK or DM me LINK for the exact organizer I use.\n\n#homeorganization #undersinkorganizer #kitchenorganization #bathroomstorage #homeorganizationtips",
+    "asin": "B01M0TS64K",
+    "keyword": "LINK",
+    "queued_at": "2026-05-29T04:45:41.109284Z",
+    "source": "carousel_generator"
   }
 ]

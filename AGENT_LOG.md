@@ -523,3 +523,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** social/reels/reel-2026-05-28-*.mp4, social/post_queue.json
 **External actions:** none
 **Next agent hint:** IG Poster has 3 new Reels ready for 14:00 + 22:00 UTC slots
+
+## 2026-05-29T04:45:41Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B01M0TS64K (Simple Houseware 2-Tier Sliding Basket O)
+**Changed:** social/carousels/2026-05-29-B01M0TS64K/slide-1.png, social/carousels/2026-05-29-B01M0TS64K/slide-2.png, social/carousels/2026-05-29-B01M0TS64K/slide-3.png, social/carousels/2026-05-29-B01M0TS64K/slide-4.png, social/carousels/2026-05-29-B01M0TS64K/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B01M0TS64K carousel.
