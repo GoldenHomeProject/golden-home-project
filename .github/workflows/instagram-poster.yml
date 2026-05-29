@@ -8,21 +8,24 @@ on:
   workflow_dispatch:
     inputs:
       image_url:
-        description: 'Public image URL (raw.githubusercontent.com)'
-        required: true
+        description: 'Public image URL — leave blank to pop next from post_queue.json'
+        required: false
+        default: ''
         type: string
       caption:
-        description: 'Instagram caption (keywords front-loaded, 3-5 hashtags)'
-        required: true
+        description: 'Instagram caption — leave blank when using queue'
+        required: false
+        default: ''
         type: string
       media_type:
-        description: 'IMAGE or REELS'
+        description: 'IMAGE, REELS, or CAROUSEL_ALBUM (queue mode only)'
         required: false
         default: 'IMAGE'
         type: choice
         options:
           - IMAGE
           - REELS
+          - CAROUSEL_ALBUM
   schedule:
     # 2026-05-29 CADENCE CUT: was 2x/day (14:00 + 22:00 UTC).
     # Dropped 14:00 UTC slot — posting 2x/day of 0-engagement content was
