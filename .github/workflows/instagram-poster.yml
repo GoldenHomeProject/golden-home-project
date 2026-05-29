@@ -84,6 +84,9 @@ jobs:
               archived = json.loads(archive_path.read_text())
           archived_urls = {a.get("image_url") for a in archived if a.get("image_url")}
 
+          # Carousel-aware: image_urls (plural) for CAROUSEL_ALBUM,
+          # image_url (singular) for IMAGE/REELS.
+          image_urls: list[str] = []
           used_queue = False
           if not image_url:
               if not queue_path.exists():
@@ -91,16 +94,24 @@ jobs:
                   sys.exit(0)
               queue = json.loads(queue_path.read_text())
               # Defense against stale queue entries (manual posts don't pop queue).
-              pruned = [q for q in queue if q.get("image_url") not in archived_urls]
+              pruned = []
+              for q in queue:
+                  iurl = q.get("image_url")
+                  iurls = q.get("image_urls") or []
+                  if iurl and iurl in archived_urls:
+                      continue
+                  if iurls and any(u in archived_urls for u in iurls):
+                      continue
+                  pruned.append(q)
               if len(pruned) != len(queue):
                   print(f"Pruned {len(queue) - len(pruned)} already-posted entries from queue.")
                   queue = pruned
 
-              # Skip entries that aren't ready yet (reel-producer hasn't filled video_url).
-              # Pop the first READY entry, leaving awaiting_video entries in place.
+              # READY = has image_url OR image_urls AND not awaiting_video
               ready_idx = next(
                   (i for i, q in enumerate(queue)
-                   if q.get("status", "ready") == "ready" and q.get("image_url")),
+                   if q.get("status", "ready") == "ready" and
+                      (q.get("image_url") or q.get("image_urls"))),
                   None,
               )
               if ready_idx is None:
@@ -110,11 +121,12 @@ jobs:
                   sys.exit(0)
 
               next_post = queue.pop(ready_idx)
-              image_url  = next_post["image_url"]
+              image_url  = next_post.get("image_url", "") or ""
+              image_urls = next_post.get("image_urls") or []
               caption    = next_post["caption"]
               media_type = next_post.get("media_type", "IMAGE")
               used_queue = True
-              print(f"Picked from queue: {next_post.get('name', 'unnamed')}")
+              print(f"Picked from queue: {next_post.get('name', next_post.get('id', 'unnamed'))}")
           else:
               # Manual dispatch: refuse duplicate posts to protect algo trust.
               if image_url in archived_urls:
@@ -122,62 +134,108 @@ jobs:
                   sys.exit(0)
 
           print(f"Posting media_type={media_type}")
-          print(f"Image URL: {image_url}")
+          if media_type == "CAROUSEL_ALBUM":
+              print(f"Carousel children: {len(image_urls)}")
+          else:
+              print(f"Image URL: {image_url}")
           print(f"Caption length: {len(caption)} chars")
 
-          # Step 1: create media container
-          create_url = f"{GRAPH}/{IG_ID}/media"
-          params = {
-              "image_url": image_url,
-              "caption": caption,
-              "access_token": TOKEN,
-          }
-          if media_type == "REELS":
-              params["media_type"] = "REELS"
-              params["video_url"] = params.pop("image_url")
+          # ---- Helpers ----
+          def poll_until_finished(cid: str, label: str = "") -> None:
+              for attempt in range(30):
+                  status_r = requests.get(
+                      f"{GRAPH}/{cid}",
+                      params={"fields": "status_code", "access_token": TOKEN},
+                      timeout=30,
+                  )
+                  status = status_r.json().get("status_code", "UNKNOWN")
+                  print(f"  {label} attempt {attempt+1}: status={status}")
+                  if status == "FINISHED":
+                      return
+                  if status in ("ERROR", "EXPIRED"):
+                      print(f"Container failed: {status_r.text}")
+                      sys.exit(1)
+                  time.sleep(5)
 
-          r = requests.post(create_url, data=params, timeout=60)
-          print(f"Create status: {r.status_code}")
-          print(r.text[:500])
-          r.raise_for_status()
-          container_id = r.json()["id"]
-
-          # Step 2: poll until FINISHED (Reels need processing time)
-          for attempt in range(30):
-              status_r = requests.get(
-                  f"{GRAPH}/{container_id}",
-                  params={"fields": "status_code", "access_token": TOKEN},
-                  timeout=30,
-              )
-              status = status_r.json().get("status_code", "UNKNOWN")
-              print(f"  attempt {attempt+1}: status={status}")
-              if status == "FINISHED":
-                  break
-              if status in ("ERROR", "EXPIRED"):
-                  print(f"Container failed: {status_r.text}")
+          # ---- Build container(s) ----
+          if media_type == "CAROUSEL_ALBUM":
+              # Meta carousel flow:
+              # 1) one is_carousel_item container per child image
+              # 2) one parent container with media_type=CAROUSEL, children=ids
+              # 3) media_publish on the parent
+              if len(image_urls) < 2 or len(image_urls) > 10:
+                  print(f"ERROR: CAROUSEL_ALBUM requires 2-10 images, got {len(image_urls)}")
                   sys.exit(1)
-              time.sleep(5)
+              child_ids: list[str] = []
+              for i, child_url in enumerate(image_urls):
+                  cr = requests.post(
+                      f"{GRAPH}/{IG_ID}/media",
+                      data={
+                          "image_url": child_url,
+                          "is_carousel_item": "true",
+                          "access_token": TOKEN,
+                      },
+                      timeout=60,
+                  )
+                  print(f"Child {i+1}/{len(image_urls)} create: {cr.status_code} {cr.text[:200]}")
+                  cr.raise_for_status()
+                  child_ids.append(cr.json()["id"])
+              # Parent container
+              parent_r = requests.post(
+                  f"{GRAPH}/{IG_ID}/media",
+                  data={
+                      "caption": caption,
+                      "media_type": "CAROUSEL",
+                      "children": ",".join(child_ids),
+                      "access_token": TOKEN,
+                  },
+                  timeout=60,
+              )
+              print(f"Parent create: {parent_r.status_code} {parent_r.text[:300]}")
+              parent_r.raise_for_status()
+              container_id = parent_r.json()["id"]
+              poll_until_finished(container_id, "parent")
+          else:
+              # IMAGE / REELS
+              params = {
+                  "image_url": image_url,
+                  "caption": caption,
+                  "access_token": TOKEN,
+              }
+              if media_type == "REELS":
+                  params["media_type"] = "REELS"
+                  params["video_url"] = params.pop("image_url")
+              r = requests.post(f"{GRAPH}/{IG_ID}/media", data=params, timeout=60)
+              print(f"Create status: {r.status_code} {r.text[:300]}")
+              r.raise_for_status()
+              container_id = r.json()["id"]
+              poll_until_finished(container_id, "single")
 
-          # Step 3: publish
+          # ---- Publish ----
           publish_url = f"{GRAPH}/{IG_ID}/media_publish"
           pub_r = requests.post(
               publish_url,
               data={"creation_id": container_id, "access_token": TOKEN},
               timeout=60,
           )
-          print(f"Publish status: {pub_r.status_code}")
-          print(pub_r.text[:500])
+          print(f"Publish status: {pub_r.status_code} {pub_r.text[:300]}")
           pub_r.raise_for_status()
           media_id = pub_r.json()["id"]
 
-          # Step 4: archive
-          archived.append({
+          # ---- Archive ----
+          archive_entry: dict = {
               "media_id": media_id,
               "posted_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
-              "image_url": image_url,
               "caption": caption,
               "media_type": media_type,
-          })
+          }
+          if media_type == "CAROUSEL_ALBUM":
+              archive_entry["image_urls"] = image_urls
+              # also record first slide in image_url so dedupe checks work
+              archive_entry["image_url"] = image_urls[0]
+          else:
+              archive_entry["image_url"] = image_url
+          archived.append(archive_entry)
           archive_path.write_text(json.dumps(archived, indent=2))
 
           if used_queue:
