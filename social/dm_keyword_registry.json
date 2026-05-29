@@ -263,6 +263,74 @@
       "verified_price": "$16.98",
       "discovered_from_trend": "Woven fringe throw pillow cover set (4-pack, earthy tones)",
       "discovery_source": "asin_discoverer_auto"
+    },
+    {
+      "asin": "B0CXDJG5QM",
+      "product_name": "Solar Bug Zapper Outdoor, 4500V Solar Mosquito Zapper Outdoor Waterproof, 1/2 Acre Coverage Rechargeable Electric Fly Zapper, Cordless Porta",
+      "categories": [
+        "outdoor mosquito control",
+        "mosquito",
+        "outdoor",
+        "best"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0CXDJG5QM?tag=goldenhomep06-20",
+      "verified_at": "2026-05-29",
+      "verified_stars": "4.4",
+      "verified_reviews": 483,
+      "verified_price": "$79.99",
+      "discovered_from_trend": "Thermacell patio shield mosquito repeller or solar mosquito zapper",
+      "discovery_source": "asin_discoverer_auto"
+    },
+    {
+      "asin": "B01FXN3E74",
+      "product_name": "Brita Large Water Filter Pitcher for Tap and Drinking Water, Includes 1 Standard Filter, BPA-Free, Lasts Two Months, 10-Cup Capacity, Bright",
+      "categories": [
+        "countertop water filter",
+        "water",
+        "cheap",
+        "countertop"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B01FXN3E74?tag=goldenhomep06-20",
+      "verified_at": "2026-05-29",
+      "verified_stars": "4.6",
+      "verified_reviews": 59611,
+      "verified_price": "$28.49",
+      "discovered_from_trend": "ZeroWater 10-cup pitcher with TDS meter included",
+      "discovery_source": "asin_discoverer_auto"
+    },
+    {
+      "asin": "B08CYBPMJC",
+      "product_name": "American Soft Linen Luxury 4 Piece Bath Towel Set, 600 GSM 100% Cotton Turkish Bath Towels for Bathroom, 27x54 in Large Bathroom Shower Towe",
+      "categories": [
+        "bath towels",
+        "best",
+        "hotel",
+        "turkish"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B08CYBPMJC?tag=goldenhomep06-20",
+      "verified_at": "2026-05-29",
+      "verified_stars": "4.4",
+      "verified_reviews": 79026,
+      "verified_price": "$39.99",
+      "discovered_from_trend": "100% Turkish cotton bath towel set (6-piece)",
+      "discovery_source": "asin_discoverer_auto"
+    },
+    {
+      "asin": "B0F8Q1Y3Z4",
+      "product_name": "5FT Small Closet System, Baby Closet Organizer System with Wooden Drawers, 60 Inches Walk In Closet System With 5 Hanging Rods and 3 Reversi",
+      "categories": [
+        "kids closet organizer",
+        "kids",
+        "children",
+        "small"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0F8Q1Y3Z4?tag=goldenhomep06-20",
+      "verified_at": "2026-05-29",
+      "verified_stars": "4.4",
+      "verified_reviews": 124,
+      "verified_price": "$179.99",
+      "discovered_from_trend": "Modular hanging closet organizer with shelves, rods, and labeled bins",
+      "discovery_source": "asin_discoverer_auto"
     }
   ]
 }
