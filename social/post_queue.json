@@ -1,5 +1,21 @@
 [
   {
+    "id": "carousel-2026-05-29-B07YL7VD32",
+    "media_type": "CAROUSEL_ALBUM",
+    "image_urls": [
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-05-29-B07YL7VD32/slide-1.png",
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-05-29-B07YL7VD32/slide-2.png",
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-05-29-B07YL7VD32/slide-3.png",
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-05-29-B07YL7VD32/slide-4.png",
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-05-29-B07YL7VD32/slide-5.png"
+    ],
+    "caption": "Side sleepers: you don't have a sleep problem \u2014 you have a pillow problem.\n\nSave this post. The tips in this carousel work regardless of what you sleep on \u2014 but if you want a pillow that handles the hardest part (shoulder cutout, proper loft, latex fill that holds its shape all night), this is the one.\n\nComment PILLOW or DM me PILLOW and I'll send you the link.\n\n#sidesleeperlife #bedroomorganization #sleepbetter #neckpainrelief #homeorganization",
+    "asin": "B07YL7VD32",
+    "keyword": "PILLOW",
+    "queued_at": "2026-05-29T04:49:25.742463Z",
+    "source": "carousel_generator"
+  },
+  {
     "name": "reel_2026-05-26_001",
     "status": "awaiting_video",
     "script_path": "automation/scripts/reel-2026-05-26-001.json",
@@ -177,37 +193,5 @@
     },
     "hook": "Most pillows are designed for back sleepers. 74% of us sleep on our sides.",
     "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-05-28-003.mp4"
-  },
-  {
-    "id": "carousel-2026-05-29-B01M0TS64K",
-    "media_type": "CAROUSEL_ALBUM",
-    "image_urls": [
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-05-29-B01M0TS64K/slide-1.png",
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-05-29-B01M0TS64K/slide-2.png",
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-05-29-B01M0TS64K/slide-3.png",
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-05-29-B01M0TS64K/slide-4.png",
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-05-29-B01M0TS64K/slide-5.png"
-    ],
-    "caption": "Your under-sink cabinet is probably wasting half its space.\n\nSave this for later \u2014 these three tips will help you reclaim it. Tip 3 is the one that actually sticks long-term.\n\nComment LINK or DM me LINK for the exact organizer I use.\n\n#homeorganization #undersinkorganizer #kitchenorganization #bathroomstorage #homeorganizationtips",
-    "asin": "B01M0TS64K",
-    "keyword": "LINK",
-    "queued_at": "2026-05-29T04:45:41.109284Z",
-    "source": "carousel_generator"
-  },
-  {
-    "id": "carousel-2026-05-29-B07YL7VD32",
-    "media_type": "CAROUSEL_ALBUM",
-    "image_urls": [
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-05-29-B07YL7VD32/slide-1.png",
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-05-29-B07YL7VD32/slide-2.png",
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-05-29-B07YL7VD32/slide-3.png",
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-05-29-B07YL7VD32/slide-4.png",
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-05-29-B07YL7VD32/slide-5.png"
-    ],
-    "caption": "Side sleepers: you don't have a sleep problem \u2014 you have a pillow problem.\n\nSave this post. The tips in this carousel work regardless of what you sleep on \u2014 but if you want a pillow that handles the hardest part (shoulder cutout, proper loft, latex fill that holds its shape all night), this is the one.\n\nComment PILLOW or DM me PILLOW and I'll send you the link.\n\n#sidesleeperlife #bedroomorganization #sleepbetter #neckpainrelief #homeorganization",
-    "asin": "B07YL7VD32",
-    "keyword": "PILLOW",
-    "queued_at": "2026-05-29T04:49:25.742463Z",
-    "source": "carousel_generator"
   }
 ]
