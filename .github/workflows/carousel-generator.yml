@@ -53,10 +53,18 @@ jobs:
         run: |
           git config user.name "GHP Carousel Bot"
           git config user.email "goldenhomeprojectllc@gmail.com"
-          git add social/carousels social/post_queue.json social/agent_log.md || true
+          # agent_log.py self-commits AGENT_LOG.md, so we don't add it here.
+          # Independent adds so one missing path doesn't block the rest.
+          git add social/carousels 2>/dev/null || true
+          git add social/post_queue.json 2>/dev/null || true
           git diff --staged --quiet || git commit -m "carousel: $(date -u +%Y-%m-%d) generated"
-          # Engagement-bot races: 3x retry
+          # Engagement-bot races: stash unstaged, rebase, pop, push, 3x retry.
           for i in 1 2 3; do
-            git pull --rebase --quiet origin main && git push --quiet origin main && break
+            git stash --include-untracked --quiet || true
+            if git pull --rebase --quiet origin main && git push --quiet origin main; then
+              git stash pop --quiet 2>/dev/null || true
+              break
+            fi
+            git stash pop --quiet 2>/dev/null || true
             sleep 5
           done

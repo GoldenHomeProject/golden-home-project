@@ -107,6 +107,11 @@ def fetch_pexels(query: str, out_path: Path) -> bool:
     if not PEXELS_API_KEY:
         print(f"  [pexels] no API key; skipping query '{query}'")
         return False
+    # Pexels expects the raw API key as Authorization header value (NOT
+    # 'Bearer xxx'). Print a fingerprint so 403s are debuggable without
+    # leaking the key.
+    print(f"  [pexels] key fingerprint: len={len(PEXELS_API_KEY)} "
+          f"head={PEXELS_API_KEY[:4]} tail={PEXELS_API_KEY[-4:]}")
     enc = parse.quote(query)
     url = (
         f"https://api.pexels.com/v1/search?query={enc}"
