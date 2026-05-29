@@ -4,11 +4,11 @@
     "lifetime_follows": 19,
     "lifetime_likes": 33,
     "lifetime_comments": 7,
-    "last_session": "2026-05-28-2330-pi",
+    "last_session": "outreach-2026-05-29T0405Z",
     "blocked_at": null,
-    "last_updated": "2026-05-28T23:30:36Z",
-    "total_actions": 100,
-    "lifetime_dms": 2
+    "last_updated": "2026-05-29T04:06:36Z",
+    "total_actions": 101,
+    "lifetime_dms": 3
   },
   "actions": [
     {
@@ -1469,6 +1469,15 @@
       ],
       "untapped_warm": [],
       "dry_run": false
+    },
+    {
+      "timestamp": "2026-05-29T04:06:36Z",
+      "action": "dm_sent",
+      "target": "organizedbyellis",
+      "session": "outreach-2026-05-29T0405Z",
+      "body_chars": 766,
+      "thread_url": "https://www.instagram.com/organizedbyellis/",
+      "template_tag": "path_c_v2_affiliate_split"
     }
   ]
 }
