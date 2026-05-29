@@ -24,8 +24,15 @@ on:
           - IMAGE
           - REELS
   schedule:
-    # Runs at 10 AM ET and 6 PM ET daily (peak engagement windows)
-    - cron: '0 14,22 * * *'
+    # 2026-05-29 CADENCE CUT: was 2x/day (14:00 + 22:00 UTC).
+    # Dropped 14:00 UTC slot — posting 2x/day of 0-engagement content was
+    # actively damaging the algo profile (last 30d Associates clicks
+    # collapsed 902→62 = -93%; IG inbound likes per post ≈ 0). Halving
+    # the volume halves the algo-poison rate without killing the posting
+    # habit. 22:00 UTC = 6PM ET (highest US engagement window).
+    # KILL CRITERION: if inbound likes per post still ≤1 after 14 days
+    # (2026-06-12 review), drop to 3x/week.
+    - cron: '0 22 * * *'
 
 permissions:
   contents: write
