@@ -117,7 +117,18 @@ def fetch_pexels(query: str, out_path: Path) -> bool:
         f"https://api.pexels.com/v1/search?query={enc}"
         f"&per_page=5&orientation=portrait&size=large"
     )
-    req = request.Request(url, headers={"Authorization": PEXELS_API_KEY})
+    # Pexels 403s the default Python-urllib User-Agent. Verified 2026-05-29
+    # by running the same key from Mac curl (200) vs Python urllib (403).
+    # A browser UA round-trips fine.
+    BROWSER_UA = (
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/131.0.0.0 Safari/537.36"
+    )
+    req = request.Request(url, headers={
+        "Authorization": PEXELS_API_KEY,
+        "User-Agent": BROWSER_UA,
+    })
     try:
         with request.urlopen(req, timeout=20) as r:
             data = json.loads(r.read())
