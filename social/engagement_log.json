@@ -4,11 +4,12 @@
     "lifetime_follows": 19,
     "lifetime_likes": 33,
     "lifetime_comments": 7,
-    "last_session": "2026-05-29-1334-pi",
+    "last_session": "comments-2026-05-29T2222Z",
     "blocked_at": null,
-    "last_updated": "2026-05-29T13:34:40Z",
-    "total_actions": 102,
-    "lifetime_dms": 3
+    "last_updated": "2026-05-29T22:23:28Z",
+    "total_actions": 105,
+    "lifetime_dms": 3,
+    "lifetime_comments_outbound": 2
   },
   "actions": [
     {
@@ -1613,6 +1614,31 @@
       ],
       "untapped_warm": [],
       "dry_run": false
+    },
+    {
+      "timestamp": "2026-05-29T22:20:28Z",
+      "action": "comment_error",
+      "target": "thehomeedit",
+      "session": "comments-2026-05-29T2219Z",
+      "reason": "post_click: Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"a[href*='/p/']\").nth(1)\n    - locator resolved to <a role=\"link\" tabindex=\"0\" href=\"/cleashearer/p/DY3IIzqCRuf/\" class=\"x1i10hfl xjbqb8w x1ejq31n x18oe1m7 x1sy0etr xstzfhl x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk xt0psk2 x3ct3a4 xdj266r x14z9mp xat24cr x1lziwak xexx8yu xyri2b x18d9i69 x1c1uobl x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz _a6hd\">\u2026</a>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"x1qjc9v5 x9f619 x78zum5 xdt5ytf x1iyjqo2 xl56j7k\">\u2026</div> from <div class=\"x1n2onr6 xzkaem6\">\u2026</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 \u00d7 waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"x1qjc9v5 x9f619 x78zum5 xdt5ytf x1iyjqo2 xl56j7k\">\u2026</div> from <div class=\"x1n2onr6 xzkaem6\">\u2026</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    57 \u00d7 waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div class=\"x1qjc9v5 x9f619 x78zum5 xdt5ytf x1iyjqo2 xl56j7k\">\u2026</div> from <div class=\"x1n2onr6 xzkaem6\">\u2026</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n"
+    },
+    {
+      "timestamp": "2026-05-29T22:22:09Z",
+      "action": "comment_posted",
+      "target": "simplyspaced",
+      "session": "comments-2026-05-29T2219Z",
+      "post_url": "https://www.instagram.com/p/DX0Sn8rFhqf/",
+      "text": "The \"after\" looking effortless is the whole illusion \u2014 there's always 3 donate bags out of frame. What's your reset cadence on a space like this?",
+      "caption_seen": "don't be fooled"
+    },
+    {
+      "timestamp": "2026-05-29T22:23:28Z",
+      "action": "comment_posted",
+      "target": "lifeinjeneral",
+      "session": "comments-2026-05-29T2222Z",
+      "post_url": "https://www.instagram.com/p/DXxZ5xikkF5/?img_index=1",
+      "text": "Baby girl already so loved \u2014 what a sweet shower!! One tip from organizing tons of nurseries: drawer dividers for those tiny socks and onesies will save your sanity in month two \ud83e\udd0d",
+      "caption_seen": "This will forever be one of the best days of my life !! Feeling so grateful baby girl is already so loved as we await her arrival soon!! \ud83e\udd79\ud83d\udc95 #babyshower"
     }
   ]
 }
