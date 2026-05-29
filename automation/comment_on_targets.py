@@ -197,22 +197,35 @@ def comment_on_latest(handle: str, niche_hint: str, session: str, data: dict) ->
             return f"error:goto"
         jitter(3, 5)
 
-        # Click the first post tile (skip pinned by index — pinned typically first 1-3)
+        # Get post href and navigate directly — clicking the tile fails
+        # because IG renders a hover overlay div that intercepts pointer
+        # events on the post grid. Direct navigation bypasses that.
+        # Also: pinned posts appear FIRST in DOM order — skip them by
+        # taking the 4th post if there are enough (max 3 pins on IG).
         try:
-            # Posts are <a href="/p/...">
-            posts = page.locator("a[href*='/p/']").all()
-            if not posts:
+            hrefs = page.eval_on_selector_all(
+                "a[href*='/p/']",
+                "els => Array.from(new Set(els.map(e => e.getAttribute('href')))).slice(0, 8)",
+            )
+            if not hrefs:
                 ctx.close()
                 log_action(data, session, "comment_error", handle, reason="no_posts_on_profile")
                 return "no_posts"
-            # pick the 2nd post link to skip a likely pinned one
-            target = posts[1] if len(posts) > 1 else posts[0]
-            target.click()
+            # IG allows up to 3 pinned. Skip them by picking index 3 (4th post)
+            # if the profile has 4+, else the last available (still likely fresher
+            # than a pin if the account barely posts).
+            picked_idx = 3 if len(hrefs) >= 4 else len(hrefs) - 1
+            picked = hrefs[picked_idx]
+            post_url_full = (
+                "https://www.instagram.com" + picked
+                if picked.startswith("/") else picked
+            )
+            page.goto(post_url_full, wait_until="domcontentloaded", timeout=20000)
             jitter(3, 5)
         except Exception as e:
             ctx.close()
-            log_action(data, session, "comment_error", handle, reason=f"post_click: {e}")
-            return "post_click_failed"
+            log_action(data, session, "comment_error", handle, reason=f"post_nav: {e}")
+            return "post_nav_failed"
 
         post_url = page.url
         if "/p/" not in post_url:
