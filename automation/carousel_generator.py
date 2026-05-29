@@ -107,11 +107,11 @@ def fetch_pexels(query: str, out_path: Path) -> bool:
     if not PEXELS_API_KEY:
         print(f"  [pexels] no API key; skipping query '{query}'")
         return False
-    # Pexels expects the raw API key as Authorization header value (NOT
-    # 'Bearer xxx'). Print a fingerprint so 403s are debuggable without
-    # leaking the key.
-    print(f"  [pexels] key fingerprint: len={len(PEXELS_API_KEY)} "
-          f"head={PEXELS_API_KEY[:4]} tail={PEXELS_API_KEY[-4:]}")
+    # Non-reversible key indicator so 403s are debuggable without leaking
+    # any substring of the secret.
+    import hashlib
+    key_id = hashlib.sha256(PEXELS_API_KEY.encode()).hexdigest()[:8]
+    print(f"  [pexels] key sha256[:8]={key_id} present=True")
     enc = parse.quote(query)
     url = (
         f"https://api.pexels.com/v1/search?query={enc}"
@@ -163,80 +163,130 @@ def _wrap(draw: ImageDraw.ImageDraw, text: str, font, max_w: int) -> list[str]:
     return lines
 
 
+# Slide palette — picked per slide_num so each carousel scrolls with
+# visual rhythm rather than 5 identical backgrounds. Earthy organizing-
+# niche tones (terracotta, sage, deep teal, warm clay, cream).
+_PALETTE = [
+    (193, 92, 60),    # 1: terracotta — hook
+    (90, 110, 80),    # 2: sage
+    (28, 65, 50),     # 3: deep teal
+    (164, 109, 67),   # 4: warm clay
+    (44, 44, 44),     # 5: charcoal — CTA
+]
+
+
+def _vgrad(top: tuple[int, int, int], bottom: tuple[int, int, int]) -> Image.Image:
+    """Vertical 2-color gradient at canvas size."""
+    img = Image.new("RGB", (CANVAS_W, CANVAS_H), top)
+    px = img.load()
+    for y in range(CANVAS_H):
+        t = y / (CANVAS_H - 1)
+        r = int(top[0] * (1 - t) + bottom[0] * t)
+        g = int(top[1] * (1 - t) + bottom[1] * t)
+        b = int(top[2] * (1 - t) + bottom[2] * t)
+        for x in range(CANVAS_W):
+            px[x, y] = (r, g, b)
+    return img
+
+
 def compose_slide(
     bg_path: Path | None, text: str, slide_num: int, total: int,
     *, brand_block: bool = False,
 ) -> Image.Image:
-    """One 1080x1350 carousel slide. If brand_block=True we skip the photo
-    background and render a solid brand color (used for CTA slide).
-    Text sits in the bottom 40% with a translucent dark band for legibility.
+    """One 1080x1350 carousel slide.
+
+    Two design paths:
+      A) Photo path (bg_path present) — Pexels stock photo with a dark
+         translucent band over the lower 55% holding the text.
+      B) Type-driven path (no photo) — full-bleed gradient with bold
+         centered typography. Used as intentional design, NOT as a broken
+         fallback. The carousel scrolls through a 5-color palette
+         (terracotta → sage → teal → clay → charcoal) so each slide
+         has its own visual identity.
+
+    The CTA slide (brand_block=True) always uses path B with the charcoal
+    color (palette[4]) so the close-out feels like a final card, not a
+    photo.
     """
-    canvas = Image.new("RGB", (CANVAS_W, CANVAS_H), (245, 240, 232))  # warm cream
-    if brand_block:
-        # solid brand color
-        canvas = Image.new("RGB", (CANVAS_W, CANVAS_H), (28, 65, 50))  # deep teal
-    elif bg_path and bg_path.exists():
+    has_photo = bool(bg_path and bg_path.exists())
+    palette_color = _PALETTE[(slide_num - 1) % len(_PALETTE)]
+    canvas: Image.Image
+
+    if has_photo and not brand_block:
+        canvas = Image.new("RGB", (CANVAS_W, CANVAS_H), palette_color)
         bg = Image.open(bg_path).convert("RGB")
-        # cover-fit into canvas
         bw, bh = bg.size
         scale = max(CANVAS_W / bw, CANVAS_H / bh)
         nw, nh = int(bw * scale), int(bh * scale)
         bg = bg.resize((nw, nh), Image.LANCZOS)
         ox, oy = (nw - CANVAS_W) // 2, (nh - CANVAS_H) // 2
         bg = bg.crop((ox, oy, ox + CANVAS_W, oy + CANVAS_H))
-        # slight blur + darken for text contrast
         bg = bg.filter(ImageFilter.GaussianBlur(radius=2))
         canvas.paste(bg)
+        text_color = (255, 255, 255, 245)
+        # translucent band in lower 55%
+        band_top = int(CANVAS_H * 0.45)
+        overlay = Image.new("RGBA", (CANVAS_W, CANVAS_H - band_top), (0, 0, 0, 180))
+        canvas.paste(overlay, (0, band_top), overlay)
+        text_y_start = band_top + 60
+        text_area_h = CANVAS_H - band_top - 120
+    else:
+        # Type-driven: gradient from palette color (top) to a slightly
+        # deeper version (bottom). Looks intentional, not failed.
+        bottom = tuple(max(0, int(c * 0.65)) for c in palette_color)
+        canvas = _vgrad(palette_color, bottom)  # type: ignore[arg-type]
+        text_color = (255, 250, 240, 250)  # warm cream text
+        # subtle decorative accent: a thin horizontal line above the text
+        text_y_start = 320
+        text_area_h = CANVAS_H - text_y_start - 220
 
     draw = ImageDraw.Draw(canvas, "RGBA")
 
-    # Text band — dark translucent overlay on the lower 40% (or full
-    # canvas for brand_block CTA slide where there's no photo).
-    if brand_block:
-        band_top = 0
-    else:
-        band_top = int(CANVAS_H * 0.55)
-        draw.rectangle(
-            [0, band_top, CANVAS_W, CANVAS_H],
-            fill=(0, 0, 0, 175),
-        )
-
-    # Slide counter (top-right corner)
+    # Slide counter (top-right) — small chip
     counter = f"{slide_num}/{total}"
-    cf = _font(28)
+    cf = _font(28, bold=True)
     cw = draw.textbbox((0, 0), counter, font=cf)[2]
     draw.rectangle(
-        [CANVAS_W - cw - 50, 30, CANVAS_W - 30, 75],
-        fill=(0, 0, 0, 160),
+        [CANVAS_W - cw - 60, 40, CANVAS_W - 30, 85],
+        fill=(0, 0, 0, 140),
     )
     draw.text(
-        (CANVAS_W - cw - 40, 38), counter, font=cf, fill=(255, 255, 255, 230),
+        (CANVAS_W - cw - 45, 47), counter, font=cf, fill=(255, 255, 255, 230),
     )
 
-    # Body text — wrapped, centered vertically inside the band
+    # Type-driven slides get a decorative accent line above the text block
+    if not has_photo:
+        line_y = text_y_start - 50
+        line_w = 120
+        line_x = (CANVAS_W - line_w) // 2
+        draw.rectangle(
+            [line_x, line_y, line_x + line_w, line_y + 6],
+            fill=(255, 250, 240, 200),
+        )
+
+    # Body text — wrapped + centered vertically inside the text area
     body_font_size = 60 if len(text) > 80 else 72
     bf = _font(body_font_size, bold=True)
-    margin = 80
+    margin = 90
     max_w = CANVAS_W - 2 * margin
     lines = _wrap(draw, text, bf, max_w)
-    # vertical center inside band
-    band_h = CANVAS_H - band_top
     line_h = int(body_font_size * 1.25)
     total_h = line_h * len(lines)
-    y = band_top + (band_h - total_h) // 2
+    y = text_y_start + max(0, (text_area_h - total_h) // 2)
     for ln in lines:
         bbox = draw.textbbox((0, 0), ln, font=bf)
         w = bbox[2] - bbox[0]
         x = (CANVAS_W - w) // 2
-        # subtle shadow for legibility
-        draw.text((x + 2, y + 2), ln, font=bf, fill=(0, 0, 0, 200))
-        draw.text((x, y), ln, font=bf, fill=(255, 255, 255, 245))
+        # subtle shadow for legibility (stronger when photo, lighter on grad)
+        shadow_alpha = 200 if has_photo else 90
+        draw.text((x + 2, y + 2), ln, font=bf, fill=(0, 0, 0, shadow_alpha))
+        draw.text((x, y), ln, font=bf, fill=text_color)
         y += line_h
 
     # Brand watermark bottom-left (always)
-    wf = _font(26)
+    wf = _font(28)
     draw.text(
-        (50, CANVAS_H - 65), "@golden_home_project",
+        (60, CANVAS_H - 70), "@golden_home_project",
         font=wf, fill=(255, 255, 255, 200),
     )
 
