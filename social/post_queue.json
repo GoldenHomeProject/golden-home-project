@@ -75,32 +75,6 @@
     "hook": "I had four years of bottles falling on my feet every morning."
   },
   {
-    "name": "reel_2026-05-28_001",
-    "status": "ready",
-    "script_path": "automation/scripts/reel-2026-05-28-001.json",
-    "media_type": "REELS",
-    "video_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-05-28-001.mp4",
-    "caption": "Stop blaming your mattress for your neck pain.\n\nBought a fancy mattress. Bought a foam topper. Saw the chiro. The pain came back every time. The variable nobody changes is the pillow \u2014 same shape we've used for 70 years.\n\nA modern side sleeper pillow with a shoulder cutout actually addresses the geometry problem. Eli & Elm \u2014 adjustable latex-fiber fill, cooling cover, U-shape designed for the 74% of people who sleep on their side.\n\nFirst week and the morning stiffness is just gone. Cost a fraction of a new mattress and fixed what the mattress couldn't.\n\nComment PILLOW and I'll DM you the link.\nAffiliate link \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #sleepbetter #sidesleeper #bedroomupgrade",
-    "hashtags": [
-      "#amazonhomefinds",
-      "#sleepbetter",
-      "#sidesleeper",
-      "#bedroomupgrade"
-    ],
-    "affiliate": {
-      "primary_product": "Eli & Elm Side Sleeper Pillow (U-shape, latex, queen)",
-      "dm_keyword": "PILLOW",
-      "amazon_asin": "B07YL7VD32",
-      "amazon_affiliate_url": "https://www.amazon.com/dp/B07YL7VD32?tag=goldenhomep06-20",
-      "asin_pending": false,
-      "fallback_brands": [],
-      "affiliate_network": "impact_direct",
-      "affiliate_url": "https://eliandelm.sjv.io/E092ZX"
-    },
-    "hook": "Stop blaming your mattress for your neck pain.",
-    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-05-28-001.mp4"
-  },
-  {
     "name": "reel_2026-05-28_002",
     "status": "ready",
     "script_path": "automation/scripts/reel-2026-05-28-002.json",
