@@ -1,0 +1,13 @@
+[Unit]
+Description=GHP Comment Bot — daily sweep at 14:00 UTC (10am ET, US morning peak)
+# 2 comments/day. Conservative until we have 5-day data on quality + spam-flag risk.
+# Bump to 3-4/day after 5 clean days if zero action-blocks logged.
+
+[Timer]
+OnCalendar=*-*-* 14:00:00 UTC
+RandomizedDelaySec=600
+Persistent=true
+Unit=ghp-comment-bot.service
+
+[Install]
+WantedBy=timers.target

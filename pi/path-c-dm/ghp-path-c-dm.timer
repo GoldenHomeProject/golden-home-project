@@ -1,0 +1,13 @@
+[Unit]
+Description=GHP Path C DM — 18:00 UTC daily (2pm ET, US afternoon)
+# 1 DM/day max. send_ig_dm.py has its own 14-day re-DM guard so
+# triggering twice on the same day is no-op for the same target.
+
+[Timer]
+OnCalendar=*-*-* 18:00:00 UTC
+RandomizedDelaySec=900
+Persistent=true
+Unit=ghp-path-c-dm.service
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,19 @@
+[Unit]
+Description=GHP Comment Bot — 2 thoughtful comments per day on big organizing accounts
+# Goal: surface @golden_home_project to organizing-niche audiences via
+# big-account comment sections. Uses the persistent Chromium profile
+# (~/.config/ghp-chromium), same as engagement.py + send_ig_dm.py.
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/golden-home-project
+ExecStartPre=/usr/bin/git -C %h/golden-home-project pull --quiet --rebase origin main
+ExecStart=/usr/bin/xvfb-run -a %h/.ghp-engagement/venv/bin/python automation/comment_on_targets.py --max 2
+# Commit + push only if engagement_log actually changed.
+# Stash-pop wrapper around rebase to survive race with other Pi bots.
+ExecStartPost=/bin/bash -c 'cd %h/golden-home-project && git add social/engagement_log.json 2>/dev/null || true; if ! git diff --staged --quiet; then git -c user.name="GHP Pi Bot" -c user.email="goldenhomeprojectllc@gmail.com" commit -m "comment-bot: sweep $(date -u +%%Y-%%m-%%dT%%H:%%MZ)" --quiet && for i in 1 2 3; do git stash --include-untracked --quiet 2>/dev/null || true; if git pull --rebase --quiet origin main && git push --quiet origin main; then git stash pop --quiet 2>/dev/null || true; break; fi; git stash pop --quiet 2>/dev/null || true; sleep 5; done; fi'
+StandardOutput=append:%h/.ghp-comment-bot/runs/last.log
+StandardError=append:%h/.ghp-comment-bot/runs/last.log
+TimeoutStartSec=900

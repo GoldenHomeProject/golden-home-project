@@ -1,0 +1,19 @@
+[Unit]
+Description=GHP Path C — daily creator-outreach DM (1/day from queue)
+# Pops the highest-priority un-DMed creator from
+# strategy/path_c_dm_queue.json and ships via send_ig_dm.py.
+# Goal: 1 cold DM per day until the 5-target queue is exhausted, then
+# evaluate replies before adding more targets.
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/golden-home-project
+ExecStartPre=/usr/bin/git -C %h/golden-home-project pull --quiet --rebase origin main
+ExecStart=/usr/bin/xvfb-run -a %h/.ghp-engagement/venv/bin/python automation/path_c_send_next.py
+# Commit + push log update with retry on race.
+ExecStartPost=/bin/bash -c 'cd %h/golden-home-project && git add social/engagement_log.json 2>/dev/null || true; if ! git diff --staged --quiet; then git -c user.name="GHP Pi Bot" -c user.email="goldenhomeprojectllc@gmail.com" commit -m "path-c: DM $(date -u +%%Y-%%m-%%dT%%H:%%MZ)" --quiet && for i in 1 2 3; do git stash --include-untracked --quiet 2>/dev/null || true; if git pull --rebase --quiet origin main && git push --quiet origin main; then git stash pop --quiet 2>/dev/null || true; break; fi; git stash pop --quiet 2>/dev/null || true; sleep 5; done; fi'
+StandardOutput=append:%h/.ghp-path-c/runs/last.log
+StandardError=append:%h/.ghp-path-c/runs/last.log
+TimeoutStartSec=600
