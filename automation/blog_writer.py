@@ -21,6 +21,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 from _claude_api import call_claude, call_claude_json
+from affiliate_links import build_affiliate_url
 
 ROOT = Path(__file__).resolve().parent.parent
 BLOG_DIR = ROOT / "blog"
@@ -64,16 +65,61 @@ Voice:
 Output format: STRICT JSON — no prose, no fences."""
 
 
+_STOPWORDS = {
+    "the", "a", "an", "and", "or", "for", "to", "of", "in", "on", "with",
+    "review", "best", "i", "my", "how", "dollar", "spent", "fix", "this",
+    "that", "your", "you", "it", "is", "are", "2026", "2025",
+}
+
+
+def _topic_tokens(text: str) -> set[str]:
+    return {t for t in re.findall(r"[a-z0-9]+", text.lower())
+            if t not in _STOPWORDS and len(t) > 2}
+
+
+def _published_topic_token_sets() -> list[set[str]]:
+    """Token-set per already-published post slug, stopwords stripped, so a new
+    opportunity can be checked for near-duplication before we spend a Claude
+    generation on it."""
+    sets = []
+    for p in POSTS_DIR.glob("*.html"):
+        m = re.match(r"\d{4}-\d{2}-\d{2}-(.+)", p.stem)
+        if m:
+            sets.append(_topic_tokens(m.group(1).replace("-", " ")))
+    return sets
+
+
+def _is_near_duplicate(opp: dict) -> bool:
+    """True if this opportunity's keyword cluster substantially overlaps an
+    already-published post. Guards against the 8-near-identical-sofa-cover
+    failure (2026-04→05) recurring on ANY topic, not just the COVER cluster."""
+    cand = _topic_tokens(" ".join(
+        str(opp.get(k, "")) for k in
+        ("specific_product", "product_category", "keyword", "title", "topic")
+    ))
+    if len(cand) < 2:
+        return False
+    for existing in _published_topic_token_sets():
+        if not existing:
+            continue
+        overlap = len(cand & existing)
+        # Jaccard over the smaller set: >=0.6 shared meaningful tokens = dupe.
+        if overlap >= 2 and overlap / min(len(cand), len(existing)) >= 0.6:
+            return True
+    return False
+
+
 def pick_topic() -> dict | None:
     """Pull the highest-composite opportunity from today's trend feed.
 
-    Hard rule (2026-05-11, CEO directive + GSC sandbox protection):
-    skip any topic whose product_category, specific_product, or keyword
-    matches the existing COVER cluster (sofa/couch/slipcover/furniture
-    cover). The 8 COVER posts published 2026-04-22→05-06 are the only
-    primary signal for the 2026-06-05 Stage-1 GSC evaluation; adding
-    another COVER post before then pollutes that test. Non-COVER topics
-    pass through normally.
+    Two guards, in order:
+    1. COVER-cluster hardblock (2026-05-11, CEO directive + GSC sandbox
+       protection): skip any topic matching the sofa/couch/slipcover cluster.
+       The 8 COVER posts published 2026-04-22→05-06 are the only primary signal
+       for the 2026-06-05 Stage-1 GSC evaluation; another COVER post pollutes it.
+    2. General near-duplicate guard: skip any topic that substantially overlaps
+       an already-published post (any cluster). Stops the duplicate-content
+       self-sabotage that split ranking signal across the sofa posts.
     """
     if not TREND_FEED.exists():
         print("[blog-writer] No trend feed available.")
@@ -90,8 +136,11 @@ def pick_topic() -> dict | None:
         if any(term in haystack for term in cover_terms):
             print(f"[blog-writer] SKIPPING COVER-cluster topic until 2026-06-05: {haystack[:80]}")
             continue
+        if _is_near_duplicate(opp):
+            print(f"[blog-writer] SKIPPING near-duplicate of existing post: {haystack[:80]}")
+            continue
         return opp
-    print("[blog-writer] No non-COVER opportunities available today.")
+    print("[blog-writer] No fresh non-COVER opportunities available today.")
     return None
 
 
@@ -172,15 +221,20 @@ def _registry_url(entry: dict) -> str:
     """Return the affiliate URL we are actually paid on for this registry entry.
 
     Priority: Impact Radius / network short link (`affiliate_url`) > Amazon
-    /dp/ASIN with our tag. Never returns a search URL — those do not pay this
-    account (per feedback_ghp_no_search_urls.md 2026-05-26).
+    /dp/ASIN with our tag + blog-channel ascsubtag. Never returns a search URL —
+    those do not pay this account (per feedback_ghp_no_search_urls.md 2026-05-26).
+
+    The /dp/ path routes through build_affiliate_url so every Amazon blog click
+    is stamped ascsubtag=blog — the only way the Associates report can tell blog
+    traffic apart from pinterest/instagram. Network short links (sjv.io) can't
+    carry ascsubtag (Amazon-specific), so they pass through unchanged.
     """
     aff = entry.get("affiliate_url")
     if aff and "/s?k=" not in aff:
         return aff
     asin = entry.get("asin")
     if asin:
-        return f"https://www.amazon.com/dp/{asin}?tag={AMAZON_TAG}"
+        return build_affiliate_url(asin, "blog")
     raise ValueError(f"registry entry has no payable URL: keyword={entry.get('keyword')}")
 
 
