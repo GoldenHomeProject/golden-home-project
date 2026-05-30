@@ -261,10 +261,10 @@
   },
   {
     "name": "reel_2026-05-30_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-05-30-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-05-30-001.mp4",
     "caption": "Three weeks ago this cabinet was where things went to die.\n\nOpen the door, hold your breath, hope you don't knock anything over. Sponges from a Costco run. Three half-empty bottles of the same cleaner. A measuring cup I lost track of in 2023.\n\nI added a Simple Houseware 2-tier chrome sliding basket. Holds 18 lbs per shelf. Sets directly on the cabinet floor \u2014 no installation.\n\nNow everything has a row. The system tells me when I'm out of something because the slot is empty, not buried.\n\nComment LINK and I'll DM you the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #kitchenorganization #smallspacesolutions #undersinkstorage",
     "hashtags": [
       "#amazonhomefinds",
@@ -282,14 +282,15 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "Three weeks ago this cabinet was where things went to die."
+    "hook": "Three weeks ago this cabinet was where things went to die.",
+    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-05-30-001.mp4"
   },
   {
     "name": "reel_2026-05-30_002",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-05-30-002.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-05-30-002.mp4",
     "caption": "Most pillows are designed for back sleepers. 74% of us sleep on our sides.\n\nStandard pillows put your spine at a 30 degree angle when you sleep on your side. That's why you wake up feeling like someone twisted your neck while you were out.\n\nA side sleeper pillow keeps your spine straight. Eli & Elm uses a U-shape with a shoulder cutout and adjustable latex-fiber fill so you can dial in the height for your shoulder width.\n\nSpine stays straight all night. Wake up the same way you fell asleep \u2014 relaxed, not crooked.\n\nComment PILLOW and I'll DM you the link.\nAffiliate link \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #sleepbetter #sidesleeper #bedroomupgrade",
     "hashtags": [
       "#amazonhomefinds",
@@ -307,14 +308,15 @@
       "affiliate_network": "impact_direct",
       "affiliate_url": "https://eliandelm.sjv.io/E092ZX"
     },
-    "hook": "Most pillows are designed for back sleepers. 74% of us sleep on our sides."
+    "hook": "Most pillows are designed for back sleepers. 74% of us sleep on our sides.",
+    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-05-30-002.mp4"
   },
   {
     "name": "reel_2026-05-30_003",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-05-30-003.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-05-30-003.mp4",
     "caption": "I had four years of bottles falling on my feet every morning.\n\nThe cabinet under the kitchen sink was the place things went to die. Sponges, dish soap, an entire bottle of expensive olive oil I forgot I owned. Every morning I reached for paper towels and knocked over six things.\n\nI got a Simple Houseware 2-tier sliding basket \u2014 chrome wire, holds 18 lbs per shelf, and the front rack slides out independently of the back.\n\nNow I see everything. Sliding the front out doesn't disturb the back row. Haven't dropped a bottle in three weeks.\n\nComment LINK and I'll DM you the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #kitchenorganization #smallspacesolutions #undersinkstorage",
     "hashtags": [
       "#amazonhomefinds",
@@ -332,7 +334,8 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "I had four years of bottles falling on my feet every morning."
+    "hook": "I had four years of bottles falling on my feet every morning.",
+    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-05-30-003.mp4"
   },
   {
     "id": "carousel-2026-05-30-B08PP48979",
