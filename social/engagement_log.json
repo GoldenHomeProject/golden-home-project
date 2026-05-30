@@ -4,12 +4,12 @@
     "lifetime_follows": 19,
     "lifetime_likes": 33,
     "lifetime_comments": 7,
-    "last_session": "2026-05-30-1335-pi",
+    "last_session": "comments-2026-05-30T1410Z",
     "blocked_at": null,
-    "last_updated": "2026-05-30T13:36:22Z",
-    "total_actions": 108,
+    "last_updated": "2026-05-30T14:12:21Z",
+    "total_actions": 110,
     "lifetime_dms": 3,
-    "lifetime_comments_outbound": 2
+    "lifetime_comments_outbound": 4
   },
   "actions": [
     {
@@ -1918,6 +1918,24 @@
       "target": "el_cracksito2013",
       "session": "2026-05-30-1335-pi",
       "reason": "no_follow_button"
+    },
+    {
+      "timestamp": "2026-05-30T14:10:47Z",
+      "action": "comment_posted",
+      "target": "cindyology",
+      "session": "comments-2026-05-30T1410Z",
+      "post_url": "https://www.instagram.com/cindyology/p/DVZIGnoD_KC/",
+      "text": "The drawer dividers are the unsung hero here \u2014 most people skip them and wonder why their cabinets revert in a week. Did you label the back of each bin too, or just the fronts?",
+      "caption_seen": ""
+    },
+    {
+      "timestamp": "2026-05-30T14:12:21Z",
+      "action": "comment_posted",
+      "target": "neatmethod",
+      "session": "comments-2026-05-30T1410Z",
+      "post_url": "https://www.instagram.com/neatmethod/p/DY42gTgFqXq/",
+      "text": "The empty caption makes it hard to reference a specific detail \u2014 without seeing the post content (image or caption), any comment I write risks sounding generic or off-topic, which is exactly the spam-",
+      "caption_seen": ""
     }
   ]
 }
