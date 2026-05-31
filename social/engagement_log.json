@@ -4,11 +4,11 @@
     "lifetime_follows": 19,
     "lifetime_likes": 33,
     "lifetime_comments": 7,
-    "last_session": "comments-2026-05-31T1401Z",
+    "last_session": "2026-05-31-2335-pi",
     "blocked_at": null,
-    "last_updated": "2026-05-31T14:04:26Z",
-    "total_actions": 113,
-    "lifetime_dms": 3,
+    "last_updated": "2026-05-31T23:35:40Z",
+    "total_actions": 115,
+    "lifetime_dms": 4,
     "lifetime_comments_outbound": 6
   },
   "actions": [
@@ -2089,6 +2089,148 @@
       "post_url": "https://www.instagram.com/organizedbyellis/p/DYk9RTugQAc/",
       "text": "what's your move when a client wants to keep everything \"just in case\"? that's still the wall i hit most often on pantry jobs",
       "caption_seen": ""
+    },
+    {
+      "timestamp": "2026-05-31T18:09:14Z",
+      "action": "dm_error",
+      "target": "simplyspaced",
+      "session": "outreach-2026-05-31T1808Z",
+      "reason": "no_message_btn: Locator.wait_for: Timeout 8000ms exceeded.\nCall log:\n  - waiting for get_by_role(\"button\", name=re.compile(r\"^Message$\", re.IGNORECASE)).first to be visible\n"
+    },
+    {
+      "timestamp": "2026-05-31T23:35:40Z",
+      "action": "inbox_sweep",
+      "target": "self",
+      "session": "2026-05-31-2335-pi",
+      "requests_count": 0,
+      "inbox_count": 0,
+      "notifications_count": 59,
+      "requests": [],
+      "inbox": [],
+      "notifications": [
+        {
+          "handle": "el_cracksito2013",
+          "action": "started following you. 1d"
+        },
+        {
+          "handle": "padtoscano",
+          "action": "liked your reel. 4d"
+        },
+        {
+          "handle": "padtoscano",
+          "action": "started following you. 4d"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "replied to your comment on dhi.atelier's post: @golden_home_project Glad you liked it \u2764\ufe0f 6d"
+        },
+        {
+          "handle": "padtoscano",
+          "action": "liked your reel. 6d"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "sabrinaco.concierge",
+          "action": "started following you. 23 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        }
+      ],
+      "untapped_warm": [],
+      "dry_run": false
     }
   ]
 }
