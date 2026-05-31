@@ -31,3 +31,6 @@ automation/reels/*/reel_v*.mp4
 automation/reels/*/reel_*_v*.mp4
 automation/reels/*/concat.txt
 automation/reels/*/page.html
+
+# macOS AppleDouble files from scp
+._*

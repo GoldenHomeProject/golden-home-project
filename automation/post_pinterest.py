@@ -36,7 +36,9 @@ QUEUE_PATH = REPO_ROOT / "social" / "pinterest_queue.json"
 LOG_PATH = REPO_ROOT / "social" / "pinterest_post_log.json"
 PROFILE_DIR = Path.home() / ".config" / "ghp-chromium"
 CHROMIUM_BIN = "/usr/bin/chromium"
-PIN_BUILDER_URL = "https://www.pinterest.com/pin-creation-tool/"
+# Use /pin-builder/ — /pin-creation-tool/ renders a different layout that
+# lacks the title field and publish button (board-dropdown-save-button count 0).
+PIN_BUILDER_URL = "https://www.pinterest.com/pin-builder/"
 
 # Pinterest tolerates more posting than IG, but a brand-new account should
 # ramp slowly to avoid spam flags. Keep this low for the first weeks.
@@ -76,8 +78,9 @@ def posted_today(log: dict) -> int:
 
 
 def detect_login_wall(page) -> bool:
-    return "/login" in page.url or "/business/" in page.url or \
-        page.locator("input[name='id'], input#email").count() > 0
+    # Only trust a URL-based redirect. The pin builder shows an inline email
+    # field even when logged in, so element-presence checks false-positive.
+    return "/login" in page.url or "/signup" in page.url
 
 
 def detect_block(page) -> bool:
@@ -129,8 +132,18 @@ def publish_pin(pin: dict, dry: bool) -> str:
             return f"upload_failed:{e}"
         jitter(3, 6)
 
+        # First-run onboarding tour ("Great Pins made easy") overlays the
+        # builder and silently swallows the publish click. Dismiss it.
+        try:
+            if page.get_by_text("Great Pins made easy").count():
+                page.keyboard.press("Escape")
+                jitter(1, 2)
+        except Exception:
+            pass
+
         # --- title / description / link fields ---
-        # Selectors are best-effort; verify on first --dry run.
+        # IDs carry a per-draft UUID suffix (pin-draft-title-<uuid>), so match
+        # by prefix. Description is a contenteditable div, not a textarea.
         def fill(selectors: list[str], value: str) -> bool:
             for sel in selectors:
                 try:
@@ -143,15 +156,16 @@ def publish_pin(pin: dict, dry: bool) -> str:
                     continue
             return False
 
-        fill(["textarea#pin-draft-title", "textarea[placeholder*='title' i]",
-              "input[placeholder*='title' i]"], pin["title"])
+        fill(["textarea[id^='pin-draft-title']", "textarea[placeholder*='title' i]"],
+             pin["title"])
         jitter(0.5, 1.2)
-        fill(["div[role='textbox'][aria-label*='description' i]",
-              "textarea[placeholder*='description' i]",
-              "[data-test-id='pin-draft-description'] textarea"], pin["description"])
+        fill(["div[contenteditable='true'][aria-label*='Pin is' i]",
+              "div[contenteditable='true'][aria-label*='Tell everyone' i]",
+              "div[contenteditable='true']"], pin["description"])
         jitter(0.5, 1.2)
-        fill(["textarea#pin-draft-link", "input[placeholder*='link' i]",
-              "input[aria-label*='destination' i]"], pin["link"])
+        fill(["textarea[id^='pin-draft-link']",
+              "textarea[placeholder*='destination' i]",
+              "input[placeholder*='link' i]"], pin["link"])
         jitter(1, 2)
 
         if dry:
@@ -159,19 +173,30 @@ def publish_pin(pin: dict, dry: bool) -> str:
             ctx.close()
             return "dry_run_ok"
 
-        # --- publish button ---
-        published = False
-        for sel in ["[data-test-id='board-dropdown-save-button']",
-                    "button:has-text('Publish')", "button:has-text('Save')"]:
+        # --- publish to the target board ---
+        # The red "Publish" button (board-dropdown-save-button) publishes to the
+        # board shown in the dropdown. Switch boards first only when the
+        # pre-selected one isn't our target (clicking a board row selects it and
+        # closes the dropdown), then click the main Publish button.
+        board = pin["board"]
+        save_btn = page.locator("[data-test-id='board-dropdown-save-button']").first
+        select_btn = page.locator("[data-test-id='board-dropdown-select-button']").first
+        try:
+            current = select_btn.inner_text(timeout=2000)
+        except Exception:
+            current = ""
+        if board not in current:
             try:
-                btn = page.locator(sel).first
-                if btn.count() and btn.is_visible(timeout=2000):
-                    btn.click()
-                    published = True
-                    break
+                select_btn.click()
+                jitter(1.5, 2.5)
+                page.locator(f"[data-test-id='board-row-{board}']").first.click()
+                jitter(2, 3)
             except Exception:
-                continue
-        if not published:
+                ctx.close()
+                return f"board_select_failed:{board}"
+        try:
+            save_btn.click(timeout=8000)
+        except Exception:
             ctx.close()
             return "no_publish_button"
         jitter(4, 7)
@@ -181,7 +206,23 @@ def publish_pin(pin: dict, dry: bool) -> str:
             ctx.close()
             return "blocked_after_publish"
 
-        log_event("pin_published", pin["id"], board=pin["board"], link=pin["link"])
+        # Confirm the publish landed instead of trusting the click. On success
+        # Pinterest shows a "You created a Pin!" modal with a "See your Pin" CTA.
+        confirmed = False
+        try:
+            page.wait_for_selector(
+                "text=/you created a pin|see your pin|your pin has been/i",
+                timeout=12000)
+            confirmed = True
+        except Exception:
+            confirmed = False
+
+        if not confirmed:
+            log_event("publish_unconfirmed", pin["id"], board=board, link=pin["link"])
+            ctx.close()
+            return "publish_unconfirmed"
+
+        log_event("pin_published", pin["id"], board=board, link=pin["link"])
         ctx.close()
         return "published"
 
@@ -222,6 +263,11 @@ def main() -> int:
             return 1
         elif result.startswith("blocked"):
             print("  -> stopping: Pinterest flagged activity. Back off and investigate.")
+            return 1
+        elif result == "publish_unconfirmed":
+            print("  -> stopping: clicked publish but saw no success toast. "
+                  "Pin left pending; verify the account before re-running to "
+                  "avoid a double-post.")
             return 1
     print(f"[pinterest] {done} pin(s) {'(dry)' if args.dry else 'published'}; "
           f"{len(pending) - (done if not args.dry else 0)} pending.")

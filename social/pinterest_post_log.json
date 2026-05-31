@@ -1,0 +1,26 @@
+{
+  "events": [
+    {
+      "ts": "2026-05-31T02:40:49Z",
+      "action": "pin_published",
+      "pin_id": "pin-2026-05-30-B01M0TS64K",
+      "board": "Under-Sink Organization",
+      "link": "https://www.amazon.com/dp/B01M0TS64K?tag=goldenhomep06-20&ascsubtag=pinterest",
+      "note": "first verified live pin (manual confirm via _created)"
+    },
+    {
+      "ts": "2026-05-31T02:45:43Z",
+      "action": "pin_published",
+      "pin_id": "pin-2026-05-30-B07YL7VD32",
+      "board": "Home Organization Finds",
+      "note": "published via board-switch probe; verified modal You created a Pin"
+    },
+    {
+      "ts": "2026-05-31T02:49:50Z",
+      "action": "pin_published",
+      "pin_id": "pin-2026-05-30-B0B4SPP3ZN",
+      "board": "Home Organization Finds",
+      "link": "https://www.amazon.com/dp/B0B4SPP3ZN?tag=goldenhomep06-20&ascsubtag=pinterest"
+    }
+  ]
+}
