@@ -4,10 +4,10 @@
     "lifetime_follows": 19,
     "lifetime_likes": 33,
     "lifetime_comments": 7,
-    "last_session": "comments-2026-05-30T1410Z",
+    "last_session": "2026-05-31-1339-pi",
     "blocked_at": null,
-    "last_updated": "2026-05-30T14:12:21Z",
-    "total_actions": 110,
+    "last_updated": "2026-05-31T13:39:59Z",
+    "total_actions": 111,
     "lifetime_dms": 3,
     "lifetime_comments_outbound": 4
   },
@@ -1936,6 +1936,141 @@
       "post_url": "https://www.instagram.com/neatmethod/p/DY42gTgFqXq/",
       "text": "The empty caption makes it hard to reference a specific detail \u2014 without seeing the post content (image or caption), any comment I write risks sounding generic or off-topic, which is exactly the spam-",
       "caption_seen": ""
+    },
+    {
+      "timestamp": "2026-05-31T13:39:59Z",
+      "action": "inbox_sweep",
+      "target": "self",
+      "session": "2026-05-31-1339-pi",
+      "requests_count": 0,
+      "inbox_count": 0,
+      "notifications_count": 59,
+      "requests": [],
+      "inbox": [],
+      "notifications": [
+        {
+          "handle": "el_cracksito2013",
+          "action": "started following you. 1d"
+        },
+        {
+          "handle": "padtoscano",
+          "action": "liked your reel. 3d"
+        },
+        {
+          "handle": "padtoscano",
+          "action": "started following you. 3d"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "replied to your comment on dhi.atelier's post: @golden_home_project Glad you liked it \u2764\ufe0f 6d"
+        },
+        {
+          "handle": "padtoscano",
+          "action": "liked your reel. 6d"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "sabrinaco.concierge",
+          "action": "started following you. 23 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        }
+      ],
+      "untapped_warm": [],
+      "dry_run": false
     }
   ]
 }
