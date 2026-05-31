@@ -619,3 +619,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** automation/trends/movers_shakers_latest.json
 **External actions:** amazon.com bestsellers (playwright) + reddit.com top.json (stdlib)
 **Next agent hint:** Trend Scout will read refreshed caches on next run.
+
+## 2026-05-31T08:12:53Z — Trend Scout
+**Ran:** Scanned 3 sources (google_trends_daily_us, pinterest, amazon_movers_shakers) -> 115 items, ranked 5 opportunities
+**Changed:** automation/trends/2026-05-31.json, social/trend_feed.json
+**External actions:** reddit_pi_cache + google_trends + pinterest_rss + amazon_movers_pi_cache
+**Next agent hint:** Content Engine: today's top-3 opportunities are: I spent $67 to make my pet-destroyed cou, Turned my bare concrete slab into an out, This $79 pillow ended 3 years of waking
