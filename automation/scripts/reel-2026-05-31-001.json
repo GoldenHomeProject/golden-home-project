@@ -1,0 +1,69 @@
+{
+  "created_at": "2026-05-31T08:33:22.134544Z",
+  "date": "2026-05-31",
+  "seq": 1,
+  "hook_category": "confession",
+  "hook": "I avoided opening this cabinet for two whole years.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "person reluctantly opening under-sink cabinet, grimacing at mess",
+      "on_screen_text": "AVOIDED FOR 2 YEARS",
+      "voiceover": "I avoided opening this cabinet for two years."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "tight close-up of cluttered shelves, items stacked",
+      "on_screen_text": "WASTED VERTICAL SPACE",
+      "voiceover": "Wasted vertical space everywhere."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "hand reaching past items to grab one bottle in back",
+      "on_screen_text": "TETRIS EVERY TIME",
+      "voiceover": "Had to play Tetris just to grab dish soap."
+    },
+    {
+      "n": 4,
+      "duration_sec": 5,
+      "visual_prompt": "Simple Houseware sliding basket installed, items neatly arranged on two tiers",
+      "on_screen_text": "4 MINUTES, NO TOOLS",
+      "voiceover": "Sliding basket fixed it in four minutes. No tools."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "both tiers slide out smoothly, all items immediately visible",
+      "on_screen_text": "DOUBLED MY STORAGE",
+      "voiceover": "Doubled my storage with what I already owned."
+    },
+    {
+      "n": 6,
+      "duration_sec": 4,
+      "visual_prompt": "satisfied person calmly grabbing exactly what they need",
+      "on_screen_text": "COMMENT LINK",
+      "voiceover": "Comment LINK and I'll DM you the link."
+    }
+  ],
+  "caption": "I avoided opening this cabinet for two whole years.\n\nEvery time I opened it I had to do a Tetris move just to grab dish soap. The wasted vertical space mocked me. There was room for two of everything if I could just get to it.\n\nThe Simple Houseware 2-tier sliding basket fixed it in 4 minutes \u2014 no tools, no drilling, just sets on the cabinet floor. Each tier slides independently.\n\nDoubled my usable storage without buying a single new container. The cabinet went from chaos to a system in one afternoon.\n\nComment LINK and I'll DM you the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #kitchenorganization #smallspacesolutions #undersinkstorage",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#kitchenorganization",
+    "#smallspacesolutions",
+    "#undersinkstorage"
+  ],
+  "specific_falsifiable_detail": "The Simple Houseware 2-tier sliding basket fixed it in 4 minutes \u2014 no tools, no drilling, just sets on the cabinet floor. Each tier slides independently.",
+  "affiliate_strategy": {
+    "primary_product": "Simple Houseware 2-Tier Sliding Basket Organizer (chrome, under-sink)",
+    "dm_keyword": "LINK",
+    "amazon_asin": "B01M0TS64K",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B01M0TS64K?tag=goldenhomep06-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": null
+  }
+}
