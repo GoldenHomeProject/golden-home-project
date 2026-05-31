@@ -163,11 +163,16 @@ def parse_stars(text: str) -> float:
 
 
 def fetch_reddit_for_cache(subs: list[str], per_sub: int = 10) -> dict:
-    """Pull /r/<sub>/top.json?t=day from each sub via stdlib urllib. Reddit
-    started returning 403 to GH Actions runner IPs (2026-05-27) so Trend
-    Scout can no longer fetch this directly; we mirror its old fetcher here
-    on the Pi (residential IP works) and write a cache file Trend Scout
-    reads on its next morning run.
+    """Pull /r/<sub>/top.json?t=day from each sub via stdlib urllib.
+
+    NOTE (2026-05-31): Reddit now blocks this *and* GH Actions IPs at the
+    network level — the .json API 403s regardless of User-Agent, and even the
+    old.reddit HTML returns an empty #siteTable (200 but no posts) to this Pi's
+    IP. There is no free, agent-only workaround (the official API needs an
+    OAuth app the owner must register). This function is left in place because
+    (a) IP blocks can lift, and (b) callers already degrade gracefully — on
+    zero posts we keep the prior cache and Trend Scout falls back to Amazon
+    Movers & Shakers, which is a stronger buyer-intent signal anyway.
 
     Returns the same shape Trend Scout previously built in-process:
         {fetched_at, subs: {sub: [{title, score, num_comments, url}, ...]}}
@@ -205,11 +210,21 @@ def search_amazon(page, query: str) -> Optional[dict]:
     """Search Amazon, return top organic non-sponsored result meeting thresholds.
     Returns dict {asin, title, stars, reviews, price} or None."""
     url = "https://www.amazon.com/s?k=" + query.replace(" ", "+")
-    try:
-        page.goto(url, timeout=30000, wait_until="domcontentloaded")
-        page.wait_for_selector('[data-component-type="s-search-result"]', timeout=15000)
-    except Exception as e:
-        print(f"    search failed: {e}")
+    # Amazon's SERP occasionally first-paints slowly or flashes a brief
+    # interstitial; a single 15s wait_for_selector raced and failed ~2/3 of
+    # runs even though the results were about to load. Retry once with a
+    # reload and a longer wait before giving up.
+    results_ready = False
+    for attempt in (1, 2):
+        try:
+            page.goto(url, timeout=30000, wait_until="domcontentloaded")
+            page.wait_for_selector('[data-component-type="s-search-result"]', timeout=25000)
+            results_ready = True
+            break
+        except Exception as e:
+            print(f"    search attempt {attempt} failed: {e}")
+            time.sleep(4)
+    if not results_ready:
         return None
 
     cards = page.query_selector_all('[data-component-type="s-search-result"][data-asin]')
@@ -555,10 +570,11 @@ def main() -> int:
         MOVERS_CACHE.write_text(json.dumps(ms, indent=2) + "\n")
         print(f"[asin-discoverer] Wrote {len(ms['items'])} movers items -> {MOVERS_CACHE.relative_to(ROOT)}")
 
-    # Refresh Reddit cache for Trend Scout (Pi's residential IP works; GH
-    # Actions runner IPs now 403). stdlib only — no playwright needed for
-    # Reddit's public JSON.
-    print("[asin-discoverer] Refreshing Reddit cache for Trend Scout...")
+    # Refresh Reddit cache for Trend Scout. Best-effort only: Reddit blocks
+    # this IP at the network level (see fetch_reddit_for_cache docstring), so
+    # this usually returns 0 posts and we keep the prior cache. Movers &
+    # Shakers above is the load-bearing trend signal.
+    print("[asin-discoverer] Refreshing Reddit cache for Trend Scout (best-effort)...")
     reddit_cache = fetch_reddit_for_cache(REDDIT_SUBS)
     reddit_post_count = sum(len(v) for v in reddit_cache.get("subs", {}).values())
     if reddit_post_count:
