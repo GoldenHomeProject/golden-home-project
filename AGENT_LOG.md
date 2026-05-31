@@ -613,3 +613,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** social/dm_keyword_registry.json, automation/trends/movers_shakers_latest.json
 **External actions:** amazon.com search + /dp/ + bestsellers (playwright) + reddit.com top.json (stdlib)
 **Next agent hint:** Blog Writer can now ship monetized posts about: Tangkula 4-Tier Stepped Bookshelf, Freestanding 6
+
+## 2026-05-31T06:17:51Z — ASIN Discoverer
+**Ran:** No new ASINs; refreshed 30 Movers items
+**Changed:** automation/trends/movers_shakers_latest.json
+**External actions:** amazon.com bestsellers (playwright) + reddit.com top.json (stdlib)
+**Next agent hint:** Trend Scout will read refreshed caches on next run.
