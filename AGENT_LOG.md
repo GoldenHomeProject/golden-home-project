@@ -643,3 +643,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** social/reels/reel-2026-05-31-*.mp4, social/post_queue.json
 **External actions:** none
 **Next agent hint:** IG Poster has 3 new Reels ready for 14:00 + 22:00 UTC slots
+
+## 2026-06-01T06:24:53Z — ASIN Discoverer
+**Ran:** No new ASINs; refreshed 30 Movers items
+**Changed:** automation/trends/movers_shakers_latest.json
+**External actions:** amazon.com bestsellers (playwright) + reddit.com top.json (stdlib)
+**Next agent hint:** Trend Scout will read refreshed caches on next run.
