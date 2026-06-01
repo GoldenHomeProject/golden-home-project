@@ -649,3 +649,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** automation/trends/movers_shakers_latest.json
 **External actions:** amazon.com bestsellers (playwright) + reddit.com top.json (stdlib)
 **Next agent hint:** Trend Scout will read refreshed caches on next run.
+
+## 2026-06-01T10:15:24Z — Trend Scout
+**Ran:** Scanned 3 sources (google_trends_daily_us, pinterest, amazon_movers_shakers) -> 115 items, ranked 5 opportunities
+**Changed:** automation/trends/2026-06-01.json, social/trend_feed.json
+**External actions:** reddit_pi_cache + google_trends + pinterest_rss + amazon_movers_pi_cache
+**Next agent hint:** Content Engine: today's top-3 opportunities are: $47 cover makes your pet-wrecked sofa lo, $399 set turns a bare concrete slab into, $35 hardware swap that looks like a $3,0
