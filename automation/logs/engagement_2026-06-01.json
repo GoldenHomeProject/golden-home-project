@@ -1,0 +1,76 @@
+{
+  "date": "2026-06-01",
+  "agent": "engagement-monitor",
+  "metrics": {
+    "subscribers": 6690,
+    "total_views": 20592,
+    "total_videos": 142
+  },
+  "top_videos": [
+    {
+      "title": "Three weeks ago this cabinet was where things went to die #s",
+      "views": 90,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "I avoided opening this cabinet for two whole years #shorts #",
+      "views": 69,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Most pillows are designed for back sleepers. 74% of us sleep",
+      "views": 28,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "I spent ten years thinking my mattress was the problem #shor",
+      "views": 12,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Buying more containers will never fix your under-sink cabine",
+      "views": 3,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "I had four years of bottles falling on my feet every morning",
+      "views": 2,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "The reason your cabinets stay messy is that nothing has a ho",
+      "views": 0,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "DriveMail Voice \u2014 OAuth Verification Side-by-Side Scope Demo",
+      "views": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "title": "DriveMail Voice \u2014 OAuth Consent + Scope Usage Demo (re-submi",
+      "views": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "title": "DriveMail Voice \u2014 OAuth verification demo v2 (drivemail-voic",
+      "views": 0,
+      "likes": 0,
+      "comments": 0
+    }
+  ],
+  "comments_responded": 0,
+  "actions_taken": [
+    "New comment on video: \ud83d\udccc SHOP ALL PRODUCTS \u2014 Amazon links:<br><br>\u2460 Simpl",
+    "Updated BUSINESS_BRAIN.md metrics"
+  ]
+}
