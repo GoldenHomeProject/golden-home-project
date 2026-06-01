@@ -394,5 +394,80 @@
     "keyword": "NIGHTLIGHT",
     "queued_at": "2026-05-31T09:43:18.317754Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_2026-06-01_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-06-01-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Three weeks ago this cabinet was where things went to die.\n\nOpen the door, hold your breath, hope you don't knock anything over. Sponges from a Costco run. Three half-empty bottles of the same cleaner. A measuring cup I lost track of in 2023.\n\nI added a Simple Houseware 2-tier chrome sliding basket. Holds 18 lbs per shelf. Sets directly on the cabinet floor \u2014 no installation.\n\nNow everything has a row. The system tells me when I'm out of something because the slot is empty, not buried.\n\nComment LINK and I'll DM you the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #kitchenorganization #smallspacesolutions #undersinkstorage",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#kitchenorganization",
+      "#smallspacesolutions",
+      "#undersinkstorage"
+    ],
+    "affiliate": {
+      "primary_product": "Simple Houseware 2-Tier Sliding Basket Organizer (chrome, under-sink)",
+      "dm_keyword": "LINK",
+      "amazon_asin": "B01M0TS64K",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01M0TS64K?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Three weeks ago this cabinet was where things went to die."
+  },
+  {
+    "name": "reel_2026-06-01_002",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-06-01-002.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "I spent ten years thinking my mattress was the problem.\n\nI bought a $1,400 mattress to fix my neck pain. Didn't help. Bought a topper. Didn't help. Saw a chiropractor twice a month for two years. Helped, but the pain came back every time.\n\nTurns out it was the pillow. Specifically the wrong pillow for a side sleeper. The Eli & Elm has a shoulder cutout that lets your shoulder drop into the bed instead of crushing it.\n\nThree weeks of using it and the chronic stiffness is just gone. Saved myself another mattress.\n\nComment PILLOW and I'll DM you the link.\nAffiliate link \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #sleepbetter #sidesleeper #bedroomupgrade",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#sleepbetter",
+      "#sidesleeper",
+      "#bedroomupgrade"
+    ],
+    "affiliate": {
+      "primary_product": "Eli & Elm Side Sleeper Pillow (U-shape, latex, queen)",
+      "dm_keyword": "PILLOW",
+      "amazon_asin": "B07YL7VD32",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B07YL7VD32?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "impact_direct",
+      "affiliate_url": "https://eliandelm.sjv.io/E092ZX"
+    },
+    "hook": "I spent ten years thinking my mattress was the problem."
+  },
+  {
+    "name": "reel_2026-06-01_003",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-06-01-003.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "The reason your cabinets stay messy is that nothing has a home.\n\nContainers don't fix this. Bigger cabinets don't fix this. The problem is depth \u2014 when you can't reach the back without removing the front, the back becomes invisible.\n\nA sliding basket organizer fixes the depth problem. Simple Houseware's chrome 2-tier model holds 18 lbs per shelf \u2014 each tier pulls forward independently, so the back row is always one motion away.\n\nStopped buying duplicates of stuff I already owned. The cabinet became a system instead of a graveyard.\n\nComment LINK and I'll DM you the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #kitchenorganization #smallspacesolutions #undersinkstorage",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#kitchenorganization",
+      "#smallspacesolutions",
+      "#undersinkstorage"
+    ],
+    "affiliate": {
+      "primary_product": "Simple Houseware 2-Tier Sliding Basket Organizer (chrome, under-sink)",
+      "dm_keyword": "LINK",
+      "amazon_asin": "B01M0TS64K",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01M0TS64K?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "The reason your cabinets stay messy is that nothing has a home."
   }
 ]

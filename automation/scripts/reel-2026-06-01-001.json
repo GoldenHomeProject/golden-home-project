@@ -1,0 +1,69 @@
+{
+  "created_at": "2026-06-01T11:06:59.763506Z",
+  "date": "2026-06-01",
+  "seq": 1,
+  "hook_category": "before_after",
+  "hook": "Three weeks ago this cabinet was where things went to die.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "before/after split \u2014 chaotic vs organized under-sink",
+      "on_screen_text": "3 WEEKS AGO",
+      "voiceover": "Three weeks ago, this cabinet was chaos."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "lost half-used cleaning supplies in cluttered cabinet",
+      "on_screen_text": "STUFF I FORGOT I OWNED",
+      "voiceover": "Bottles I'd forgotten I owned."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "person counting duplicate bottles of same cleaner",
+      "on_screen_text": "THREE OF THE SAME THING",
+      "voiceover": "Three half-empty bottles of the same cleaner."
+    },
+    {
+      "n": 4,
+      "duration_sec": 5,
+      "visual_prompt": "Simple Houseware 2-tier chrome sliding basket, organized cleaning supplies on each tier",
+      "on_screen_text": "2-TIER SLIDING BASKET",
+      "voiceover": "Added a 2-tier sliding basket. 18 lbs per shelf."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "everything has a labeled row, neatly arranged",
+      "on_screen_text": "EVERYTHING HAS A ROW",
+      "voiceover": "Now everything has a row."
+    },
+    {
+      "n": 6,
+      "duration_sec": 4,
+      "visual_prompt": "empty slot showing what's run out",
+      "on_screen_text": "COMMENT LINK",
+      "voiceover": "Comment LINK and I'll DM you the link."
+    }
+  ],
+  "caption": "Three weeks ago this cabinet was where things went to die.\n\nOpen the door, hold your breath, hope you don't knock anything over. Sponges from a Costco run. Three half-empty bottles of the same cleaner. A measuring cup I lost track of in 2023.\n\nI added a Simple Houseware 2-tier chrome sliding basket. Holds 18 lbs per shelf. Sets directly on the cabinet floor \u2014 no installation.\n\nNow everything has a row. The system tells me when I'm out of something because the slot is empty, not buried.\n\nComment LINK and I'll DM you the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #kitchenorganization #smallspacesolutions #undersinkstorage",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#kitchenorganization",
+    "#smallspacesolutions",
+    "#undersinkstorage"
+  ],
+  "specific_falsifiable_detail": "I added a Simple Houseware 2-tier chrome sliding basket. Holds 18 lbs per shelf. Sets directly on the cabinet floor \u2014 no installation.",
+  "affiliate_strategy": {
+    "primary_product": "Simple Houseware 2-Tier Sliding Basket Organizer (chrome, under-sink)",
+    "dm_keyword": "LINK",
+    "amazon_asin": "B01M0TS64K",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B01M0TS64K?tag=goldenhomep06-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": null
+  }
+}
