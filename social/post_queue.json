@@ -462,5 +462,80 @@
     "keyword": "SPONGE",
     "queued_at": "2026-06-01T12:30:14.915334Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_2026-06-02_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-06-02-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "I had four years of bottles falling on my feet every morning.\n\nThe cabinet under the kitchen sink was the place things went to die. Sponges, dish soap, an entire bottle of expensive olive oil I forgot I owned. Every morning I reached for paper towels and knocked over six things.\n\nI got a Simple Houseware 2-tier sliding basket \u2014 chrome wire, holds 18 lbs per shelf, and the front rack slides out independently of the back.\n\nNow I see everything. Sliding the front out doesn't disturb the back row. Haven't dropped a bottle in three weeks.\n\nComment LINK and I'll DM you the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #kitchenorganization #smallspacesolutions #undersinkstorage",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#kitchenorganization",
+      "#smallspacesolutions",
+      "#undersinkstorage"
+    ],
+    "affiliate": {
+      "primary_product": "Simple Houseware 2-Tier Sliding Basket Organizer (chrome, under-sink)",
+      "dm_keyword": "LINK",
+      "amazon_asin": "B01M0TS64K",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01M0TS64K?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "I had four years of bottles falling on my feet every morning."
+  },
+  {
+    "name": "reel_2026-06-02_002",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-06-02-002.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "I had the wrong pillow for 10 years and didn't know it.\n\nWoke up stiff every morning. Tried stacking two pillows. Tried rolling a towel under my neck. Switched sides. Bought a memory foam block that turned my head into a sweat puddle.\n\nThen I tried the Eli & Elm side sleeper pillow \u2014 U-shape cutout for your shoulder, latex-and-fiber blend you can adjust, and a cooling cover that actually stays cool.\n\nFirst night I slept through. The morning crick is gone. My partner stole it the second night and I had to order another one.\n\nComment PILLOW and I'll DM you the link.\nAffiliate link \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #sleepbetter #sidesleeper #bedroomupgrade",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#sleepbetter",
+      "#sidesleeper",
+      "#bedroomupgrade"
+    ],
+    "affiliate": {
+      "primary_product": "Eli & Elm Side Sleeper Pillow (U-shape, latex, queen)",
+      "dm_keyword": "PILLOW",
+      "amazon_asin": "B07YL7VD32",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B07YL7VD32?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "impact_direct",
+      "affiliate_url": "https://eliandelm.sjv.io/E092ZX"
+    },
+    "hook": "I had the wrong pillow for 10 years and didn't know it."
+  },
+  {
+    "name": "reel_2026-06-02_003",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-06-02-003.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Buying more containers will never fix your under-sink cabinet.\n\nI tried clear bins. I tried stackable trays. I tried labeling everything. None of it solved the actual problem \u2014 that anything past the front 6 inches is functionally lost.\n\nWhat worked was a Simple Houseware 2-tier sliding basket. Chrome wire, 18 lbs per shelf, and the front rack slides independently to expose the back.\n\nI threw out two bins of duplicate cleaners I'd bought because I forgot the first ones existed. The cabinet finally works.\n\nComment LINK and I'll DM you the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #kitchenorganization #smallspacesolutions #undersinkstorage",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#kitchenorganization",
+      "#smallspacesolutions",
+      "#undersinkstorage"
+    ],
+    "affiliate": {
+      "primary_product": "Simple Houseware 2-Tier Sliding Basket Organizer (chrome, under-sink)",
+      "dm_keyword": "LINK",
+      "amazon_asin": "B01M0TS64K",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01M0TS64K?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Buying more containers will never fix your under-sink cabinet."
   }
 ]
