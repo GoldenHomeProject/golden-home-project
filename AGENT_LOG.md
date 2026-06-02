@@ -673,3 +673,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** social/reels/reel-2026-06-01-*.mp4, social/post_queue.json
 **External actions:** none
 **Next agent hint:** IG Poster has 3 new Reels ready for 14:00 + 22:00 UTC slots
+
+## 2026-06-02T09:04:40Z — Trend Scout
+**Ran:** Scanned 3 sources (google_trends_daily_us, pinterest, amazon_movers_shakers) -> 115 items, ranked 5 opportunities
+**Changed:** automation/trends/2026-06-02.json, social/trend_feed.json
+**External actions:** reddit_pi_cache + google_trends + pinterest_rss + amazon_movers_pi_cache
+**Next agent hint:** Content Engine: today's top-3 opportunities are: $47 cover hides a destroyed rental sofa , $129 bench hides patio chaos and doubles, $69 pillow set: flat beige couch → bohem
