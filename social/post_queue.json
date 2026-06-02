@@ -537,5 +537,21 @@
       "affiliate_url": null
     },
     "hook": "Buying more containers will never fix your under-sink cabinet."
+  },
+  {
+    "id": "carousel-2026-06-02-B099S9DXT7",
+    "media_type": "CAROUSEL_ALBUM",
+    "image_urls": [
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-02-B099S9DXT7/slide-1.png",
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-02-B099S9DXT7/slide-2.png",
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-02-B099S9DXT7/slide-3.png",
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-02-B099S9DXT7/slide-4.png",
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-02-B099S9DXT7/slide-5.png"
+    ],
+    "caption": "Turn any bedroom into a five-star hotel room for under $30.\n\nSave this for later \u2014 smart LED strip lights change the entire feel of a room without touching a single fixture. RGBIC strips run multiple colors simultaneously, sync to music, and schedule themselves to match your daily routine.\n\nComment STRIP or DM me STRIP for the direct Amazon link. \u2728\n\n#bedroomdecor #ledlighting #smarthome #homeorganization #bedroomlighting",
+    "asin": "B099S9DXT7",
+    "keyword": "STRIP",
+    "queued_at": "2026-06-02T11:13:10.439558Z",
+    "source": "carousel_generator"
   }
 ]

@@ -685,3 +685,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** automation/scripts/reel-2026-06-02-*.json, social/post_queue.json
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: wrong_until_right: I had four years of bottles falling on my feet eve | wrong_until_right: I had the wrong pillow for 10 years and didn't kno | confrontation: Buying more containers will never fix your under-s
+
+## 2026-06-02T11:13:10Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B099S9DXT7 (Govee RGBIC LED Strip Lights (32.8ft, sm)
+**Changed:** social/carousels/2026-06-02-B099S9DXT7/slide-1.png, social/carousels/2026-06-02-B099S9DXT7/slide-2.png, social/carousels/2026-06-02-B099S9DXT7/slide-3.png, social/carousels/2026-06-02-B099S9DXT7/slide-4.png, social/carousels/2026-06-02-B099S9DXT7/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B099S9DXT7 carousel.
