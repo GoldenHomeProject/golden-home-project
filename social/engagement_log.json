@@ -4,11 +4,11 @@
     "lifetime_follows": 19,
     "lifetime_likes": 33,
     "lifetime_comments": 7,
-    "last_session": "2026-06-02-1339-pi",
+    "last_session": "2026-06-02-2335-pi",
     "blocked_at": null,
-    "last_updated": "2026-06-02T13:39:53Z",
-    "total_actions": 119,
-    "lifetime_dms": 5,
+    "last_updated": "2026-06-02T23:35:46Z",
+    "total_actions": 121,
+    "lifetime_dms": 6,
     "lifetime_comments_outbound": 6
   },
   "actions": [
@@ -2527,6 +2527,148 @@
         {
           "handle": "padtoscano",
           "action": "started following you. 5d"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "replied to your comment on dhi.atelier's post: @golden_home_project Glad you liked it \u2764\ufe0f 25 May"
+        },
+        {
+          "handle": "padtoscano",
+          "action": "liked your reel. 24 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "sabrinaco.concierge",
+          "action": "started following you. 23 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        }
+      ],
+      "untapped_warm": [],
+      "dry_run": false
+    },
+    {
+      "timestamp": "2026-06-02T18:12:37Z",
+      "action": "dm_error",
+      "target": "shiragill",
+      "session": "outreach-2026-06-02T1812Z",
+      "reason": "msg_click: Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for get_by_role(\"button\", name=re.compile(r\"^Message$\", re.IGNORECASE)).first\n    - locator resolved to <div tabindex=\"0\" role=\"button\" class=\"x1i10hfl xjqpnuy xc5r6h4 xqeqjp1 x1phubyo x972fbf x10w94by x1qhh985 x14e42zd xdl72j9 x2lah0s x3ct3a4 xdj266r x14z9mp xat24cr x1lziwak x2lwn1j xeuugli xexx8yu x18d9i69 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x1q0g3np x1lku1pv x1a2a7pz x6s0dn4 xjyslct x1ejq31n x18oe1m7 x1sy0etr xstzfhl x9f619 x1ypdohk x78zum5 x1f6kntn xwhw2v2 xl56j7k x17ydfre x1n2onr6 x2b8uid xlyipyv x87ps6o x14atkfc x5c86q x18br7mf x1i0vuye x6nl9eh x1a5l9x9 x7vuprf x1mg3h75 xn3w4p2 x106a9eq x1xnnf8n\u2026>Message</div>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"x6s0dn4 x78zum5 x5yr21d xl56j7k xh8yej3\">\u2026</div> from <div class=\"x1n2onr6 xzkaem6\">\u2026</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <div class=\"x6s0dn4 x78zum5 x5yr21d xl56j7k xh8yej3\">\u2026</div> from <div class=\"x1n2onr6 xzkaem6\">\u2026</div> subtree intercepts pointer events\n  2 \u00d7 retrying click action\n      - waiting 100ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"x1qjc9v5 x9f619 x78zum5 xdt5ytf x1iyjqo2 xl56j7k\">\u2026</div> from <div class=\"x1n2onr6 xzkaem6\">\u2026</div> subtree intercepts pointer events\n  12 \u00d7 retrying click action\n       - waiting 500ms\n       - waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div class=\"wbloks_1 wbloks_93 wbloks_91\" data-bloks-name=\"bk.components.Collection\">\u2026</div> from <div class=\"x1n2onr6 xzkaem6\">\u2026</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n       - waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div class=\"wbloks_1 wbloks_93 wbloks_91\" data-bloks-name=\"bk.components.Collection\">\u2026</div> from <div class=\"x1n2onr6 xzkaem6\">\u2026</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n       - waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div class=\"x1qjc9v5 x9f619 x78zum5 xdt5ytf x1iyjqo2 xl56j7k\">\u2026</div> from <div class=\"x1n2onr6 xzkaem6\">\u2026</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n       - waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <div class=\"x1qjc9v5 x9f619 x78zum5 xdt5ytf x1iyjqo2 xl56j7k\">\u2026</div> from <div class=\"x1n2onr6 xzkaem6\">\u2026</div> subtree intercepts pointer events\n  2 \u00d7 retrying click action\n      - waiting 500ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"wbloks_1 wbloks_93 wbloks_91\" data-bloks-name=\"bk.components.Collection\">\u2026</div> from <div class=\"x1n2onr6 xzkaem6\">\u2026</div> subtree intercepts pointer events\n  - retrying click action\n    - waiting 500ms\n"
+    },
+    {
+      "timestamp": "2026-06-02T23:35:46Z",
+      "action": "inbox_sweep",
+      "target": "self",
+      "session": "2026-06-02-2335-pi",
+      "requests_count": 0,
+      "inbox_count": 0,
+      "notifications_count": 58,
+      "requests": [],
+      "inbox": [],
+      "notifications": [
+        {
+          "handle": "padtoscano",
+          "action": "liked your reel. 6d"
+        },
+        {
+          "handle": "padtoscano",
+          "action": "started following you. 6d"
         },
         {
           "handle": "dhi.atelier",
