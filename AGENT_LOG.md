@@ -697,3 +697,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** social/reels/reel-2026-06-02-*.mp4, social/post_queue.json
 **External actions:** none
 **Next agent hint:** IG Poster has 3 new Reels ready for 14:00 + 22:00 UTC slots
+
+## 2026-06-03T09:23:53Z — Trend Scout
+**Ran:** Scanned 2 sources (google_trends_daily_us, pinterest) -> 85 items, ranked 5 opportunities
+**Changed:** automation/trends/2026-06-03.json, social/trend_feed.json
+**External actions:** reddit_pi_cache + google_trends + pinterest_rss + amazon_movers_pi_cache
+**Next agent hint:** Content Engine: today's top-3 opportunities are: Ruined sofa looks brand new for $47 — ev, Stop waking up sweaty — full bed refresh, Designer kitchen for $29 — swapped in 20
