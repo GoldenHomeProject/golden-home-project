@@ -179,7 +179,7 @@ APRIL_CALENDAR = [
          "and the front rack slides out independently of the back.\n\n"
          "Now I see everything. Sliding the front out doesn't disturb the back row. "
          "Haven't dropped a bottle in three weeks.\n\n"
-         "Comment LINK and I'll DM you the link.\n"
+         "Comment LINK and I'll reply with the link.\n"
          "Amazon affiliate — I earn a small commission at no extra cost to you.\n\n"
          "#amazonhomefinds #kitchenorganization #smallspacesolutions #undersinkstorage"
      ),
