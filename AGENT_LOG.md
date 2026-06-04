@@ -715,3 +715,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** social/carousels/2026-06-03-B099NTSWD9/slide-1.png, social/carousels/2026-06-03-B099NTSWD9/slide-2.png, social/carousels/2026-06-03-B099NTSWD9/slide-3.png, social/carousels/2026-06-03-B099NTSWD9/slide-4.png, social/carousels/2026-06-03-B099NTSWD9/slide-5.png, social/post_queue.json
 **External actions:** Pexels (4 photos) + Claude CLI (slide content)
 **Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B099NTSWD9 carousel.
+
+## 2026-06-04T08:46:12Z — Trend Scout
+**Ran:** Scanned 2 sources (google_trends_daily_us, pinterest) -> 85 items, ranked 5 opportunities
+**Changed:** automation/trends/2026-06-04.json, social/trend_feed.json
+**External actions:** reddit_pi_cache + google_trends + pinterest_rss + amazon_movers_pi_cache
+**Next agent hint:** Content Engine: today's top-3 opportunities are: Pet-destroyed couch → brand-new look for, $29 peel-and-stick wallpaper made my bat, Bare concrete balcony → bohemian outdoor
