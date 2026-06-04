@@ -690,5 +690,21 @@
       "affiliate_url": null
     },
     "hook": "The reason your cabinets stay messy is that nothing has a home."
+  },
+  {
+    "id": "carousel-2026-06-04-B00DU5SRIY",
+    "media_type": "CAROUSEL_ALBUM",
+    "image_urls": [
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-04-B00DU5SRIY/slide-1.png",
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-04-B00DU5SRIY/slide-2.png",
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-04-B00DU5SRIY/slide-3.png",
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-04-B00DU5SRIY/slide-4.png",
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-04-B00DU5SRIY/slide-5.png"
+    ],
+    "caption": "The cleaning paste I wish I found years ago.\n\nSave this for later \u2014 these tips work on almost every surface in your home, with or without the product. One jar handles oven grease, soap scum, grout, rust, and hard water stains without harsh chemicals.\n\nComment PASTE or DM me PASTE for the link.\n\n#cleaningtips #homecleaning #bathroomcleaning #kitchencleaning #cleaninghacks",
+    "asin": "B00DU5SRIY",
+    "keyword": "PASTE",
+    "queued_at": "2026-06-04T10:34:34.776468Z",
+    "source": "carousel_generator"
   }
 ]
