@@ -489,10 +489,12 @@ def main():
     with open(args.meta_token) as f:
         meta_tokens = json.load(f)
 
-    # caption_override lets DM-funnel reels ship their hand-crafted captions
-    # (with "Comment KEYWORD..." CTA) instead of the legacy product-list description.
+    # caption_override is the IG-only "Comment KEYWORD for the links" CTA (the DM funnel).
+    # YouTube and Facebook have NO DM funnel, so their description must ALWAYS carry the
+    # actual affiliate links — never let the IG CTA replace them there. IG still uses
+    # caption_override for its own caption below.
     caption_override = entry.get("caption_override")
-    description = caption_override or build_description(title, products, tag, channel="yt")
+    description = build_description(title, products, tag, channel="yt")
     pin_comment = build_pin_comment(products, tag, channel="yt")
     yt_title    = f"{title} #shorts #amazonfinds #homedecor"
 
