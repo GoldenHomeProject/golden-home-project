@@ -561,6 +561,52 @@
           }
         ]
       }
+    ],
+    "TOWELS": [
+      {
+        "hook_category": "wrong_until_right",
+        "hook": "My home had been a low-grade mess for longer than I want to admit.",
+        "beat1": "I kept meaning to deal with it and kept not dealing with it. Things piled up, I could never find what I needed, and every time I opened it I just shut it again.",
+        "turn": "Then I found a hotel towels sitting at 4.4 stars across 79,026 reviews, and it finally gave everything a place.",
+        "result": "It runs about $39.99 and it's the first thing in a while that just worked. The home actually stays sorted now.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "first-person POV of a cluttered home, things spilling out",
+            "on_screen_text": "THIS WAS EVERY DAY",
+            "voiceover": "My home had been a mess for longer than I'll admit."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "close-up of disorganized items in the home",
+            "on_screen_text": "COULD NEVER FIND ANYTHING",
+            "voiceover": "I kept meaning to deal with it and kept not dealing with it."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "person shutting a door/drawer in frustration",
+            "on_screen_text": "SO I GAVE UP",
+            "voiceover": "Every time I opened it I just shut it again."
+          },
+          {
+            "n": 4,
+            "duration_sec": 5,
+            "visual_prompt": "the towels in use, everything organized and visible",
+            "on_screen_text": "THEN THIS",
+            "voiceover": "Then I found a towels that finally gave everything a place."
+          },
+          {
+            "n": 5,
+            "duration_sec": 4,
+            "visual_prompt": "satisfying final shot of the tidy home",
+            "on_screen_text": "STAYS SORTED NOW",
+            "voiceover": "The home actually stays sorted now."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {

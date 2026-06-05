@@ -171,6 +171,26 @@
       "keyword": "HANGERS",
       "status": "live",
       "promoted_at": "2026-06-05T01:53:05Z"
+    },
+    {
+      "asin": "B08CYBPMJC",
+      "product_name": "American Soft Linen Luxury 4 Piece Bath Towel Set, 600 GSM 100% Cotton Turkish Bath Towels for Bathroom, 27x54 in Large Bathroom Shower Towe",
+      "categories": [
+        "bath towels",
+        "best",
+        "hotel",
+        "turkish"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B08CYBPMJC?tag=goldenhomep06-20",
+      "verified_at": "2026-05-29",
+      "verified_stars": "4.4",
+      "verified_reviews": 79026,
+      "verified_price": "$39.99",
+      "discovered_from_trend": "100% Turkish cotton bath towel set (6-piece)",
+      "discovery_source": "asin_discoverer_auto",
+      "keyword": "TOWELS",
+      "status": "live",
+      "promoted_at": "2026-06-05T12:20:02Z"
     }
   ],
   "_vetted_doc": "Verified-live Amazon ASINs cleared for blog/SEO/IG-caption use but NOT yet wired to a Meta comment-to-DM automation. Promote to `entries` (with a unique keyword) only AFTER creating the matching Meta Business Suite automation. Always use https://www.amazon.com/dp/<ASIN>?tag=goldenhomep06-20 \u2014 never search URLs.",
@@ -299,23 +319,6 @@
       "verified_reviews": 59611,
       "verified_price": "$28.49",
       "discovered_from_trend": "ZeroWater 10-cup pitcher with TDS meter included",
-      "discovery_source": "asin_discoverer_auto"
-    },
-    {
-      "asin": "B08CYBPMJC",
-      "product_name": "American Soft Linen Luxury 4 Piece Bath Towel Set, 600 GSM 100% Cotton Turkish Bath Towels for Bathroom, 27x54 in Large Bathroom Shower Towe",
-      "categories": [
-        "bath towels",
-        "best",
-        "hotel",
-        "turkish"
-      ],
-      "affiliate_url": "https://www.amazon.com/dp/B08CYBPMJC?tag=goldenhomep06-20",
-      "verified_at": "2026-05-29",
-      "verified_stars": "4.4",
-      "verified_reviews": 79026,
-      "verified_price": "$39.99",
-      "discovered_from_trend": "100% Turkish cotton bath towel set (6-piece)",
       "discovery_source": "asin_discoverer_auto"
     },
     {
