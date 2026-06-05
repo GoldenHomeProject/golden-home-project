@@ -3,7 +3,7 @@
 All services used are FREE:
 - Pexels Photo API (PEXELS_API_KEY) for REAL photos matching visual_prompt — preferred
 - Pollinations.ai FLUX as fallback only when Pexels returns no match
-- edge-tts en-US-AvaMultilingualNeural for natural voiceover — no key
+- edge-tts en-US-AvaNeural for natural voiceover — no key
 - ffmpeg for Ken Burns motion, text overlay, and assembly — bundled on runner
 - Pillow for on-screen text composition
 
@@ -13,7 +13,7 @@ Output per script:
 
 2026-04-30 quality pivot — faceless-but-real per CEO mandate:
 - Pexels real photos preferred over AI-generated (algos downrank AI imagery)
-- AvaMultilingualNeural voice replaces JennyNeural (more natural cadence)
+- AvaNeural voice replaces JennyNeural (more natural cadence)
 - Pollinations stays as last-resort fallback so renders never fail
 """
 import asyncio
@@ -247,12 +247,14 @@ def compose_scene_frame(bg_path: Path, on_screen_text: str, out_path: Path,
 
 
 async def render_voiceover(text: str, out_path: Path):
-    """Use AvaMultilingualNeural — natural cadence, the same voice the manual
-    LINK reel pipeline picked. JennyNeural sounded synthetic and may be a
-    contributor to the 0-engagement streak."""
+    """Use en-US-AvaNeural (English-LOCKED), NOT AvaMultilingualNeural.
+    The multilingual model drifts into non-English phonetics on brand names and
+    abbreviations (e.g. 'Govee', 'Eli & Elm', 'lbs'), producing audible Spanish/
+    Italian-sounding fragments mid-voiceover (caught 2026-06-04 on a live reel).
+    AvaNeural is the same Ava speaker, English only — keep it locked."""
     import edge_tts
     communicate = edge_tts.Communicate(
-        text, "en-US-AvaMultilingualNeural", rate="+5%", pitch="+0Hz"
+        text, "en-US-AvaNeural", rate="+5%", pitch="+0Hz"
     )
     await communicate.save(str(out_path))
 
