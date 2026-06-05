@@ -152,6 +152,25 @@
       "status": "live",
       "added_at": "2026-04-25",
       "activated_at": "2026-05-03"
+    },
+    {
+      "asin": "B07Y39ZXV7",
+      "product_name": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers for Closet Organization, Ivory/Rose Gold, 100-Pack",
+      "categories": [
+        "closet organization",
+        "closet",
+        "velvet"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B07Y39ZXV7?tag=goldenhomep06-20",
+      "verified_at": "2026-05-28",
+      "verified_stars": "4.8",
+      "verified_reviews": 231174,
+      "verified_price": "$36.84",
+      "discovered_from_trend": "Stackable closet shelf dividers and velvet hangers bundle",
+      "discovery_source": "asin_discoverer_auto",
+      "keyword": "HANGERS",
+      "status": "live",
+      "promoted_at": "2026-06-05T01:53:05Z"
     }
   ],
   "_vetted_doc": "Verified-live Amazon ASINs cleared for blog/SEO/IG-caption use but NOT yet wired to a Meta comment-to-DM automation. Promote to `entries` (with a unique keyword) only AFTER creating the matching Meta Business Suite automation. Always use https://www.amazon.com/dp/<ASIN>?tag=goldenhomep06-20 \u2014 never search URLs.",
@@ -213,22 +232,6 @@
       "used_in": [
         "blog/posts/2026-05-20-under-sink-organizer-bathroom-pull-out-drawers.html"
       ]
-    },
-    {
-      "asin": "B07Y39ZXV7",
-      "product_name": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers for Closet Organization, Ivory/Rose Gold, 100-Pack",
-      "categories": [
-        "closet organization",
-        "closet",
-        "velvet"
-      ],
-      "affiliate_url": "https://www.amazon.com/dp/B07Y39ZXV7?tag=goldenhomep06-20",
-      "verified_at": "2026-05-28",
-      "verified_stars": "4.8",
-      "verified_reviews": 231174,
-      "verified_price": "$36.84",
-      "discovered_from_trend": "Stackable closet shelf dividers and velvet hangers bundle",
-      "discovery_source": "asin_discoverer_auto"
     },
     {
       "asin": "B085XVFQ62",

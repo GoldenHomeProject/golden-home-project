@@ -1,5 +1,5 @@
 {
-  "_doc": "Hand-crafted reel script variants per DM keyword. Replaces the LLM-driven content engine — the Claude Code CLI was unreliable for batch JSON gen and burning subscription minutes. Each entry follows AIDA + Grand Slam Offer structure, no banned openers, no banned voice words, includes the literal 'Comment <KEYWORD>' CTA. The Content Engine selects variants in rotation, locks affiliate metadata to dm_keyword_registry.json, and ships. Add more variants per keyword as the funnel proves out — minimum 5 per live keyword to allow 5-day rotation without repetition.",
+  "_doc": "Hand-crafted reel script variants per DM keyword. Replaces the LLM-driven content engine \u2014 the Claude Code CLI was unreliable for batch JSON gen and burning subscription minutes. Each entry follows AIDA + Grand Slam Offer structure, no banned openers, no banned voice words, includes the literal 'Comment <KEYWORD>' CTA. The Content Engine selects variants in rotation, locks affiliate metadata to dm_keyword_registry.json, and ships. Add more variants per keyword as the funnel proves out \u2014 minimum 5 per live keyword to allow 5-day rotation without repetition.",
   "version": "2026-04-27",
   "variants": {
     "LINK": [
@@ -7,75 +7,255 @@
         "hook_category": "wrong_until_right",
         "hook": "I had four years of bottles falling on my feet every morning.",
         "beat1": "The cabinet under the kitchen sink was the place things went to die. Sponges, dish soap, an entire bottle of expensive olive oil I forgot I owned. Every morning I reached for paper towels and knocked over six things.",
-        "turn": "I got a Simple Houseware 2-tier sliding basket — chrome wire, holds 18 lbs per shelf, and the front rack slides out independently of the back.",
+        "turn": "I got a Simple Houseware 2-tier sliding basket \u2014 chrome wire, holds 18 lbs per shelf, and the front rack slides out independently of the back.",
         "result": "Now I see everything. Sliding the front out doesn't disturb the back row. Haven't dropped a bottle in three weeks.",
         "scenes": [
-          {"n": 1, "duration_sec": 3, "visual_prompt": "first-person POV opening cluttered under-sink cabinet, bottles fall out", "on_screen_text": "FOUR YEARS OF THIS", "voiceover": "I had four years of bottles falling on my feet."},
-          {"n": 2, "duration_sec": 4, "visual_prompt": "close-up of disorganized cleaning supplies, sponges piled, bottle on its side", "on_screen_text": "EVERYTHING JUST FELL", "voiceover": "Reach for paper towels, knock over six things."},
-          {"n": 3, "duration_sec": 4, "visual_prompt": "frustrated person closing cabinet door quickly", "on_screen_text": "I GAVE UP TRYING", "voiceover": "I'd given up. Just kept the door shut."},
-          {"n": 4, "duration_sec": 5, "visual_prompt": "Simple Houseware chrome 2-tier sliding basket organizer installed under sink, organized", "on_screen_text": "$32 SLIDING ORGANIZER", "voiceover": "Then I got a 2-tier sliding basket. Chrome, 18 lb shelves."},
-          {"n": 5, "duration_sec": 4, "visual_prompt": "front basket slides forward smoothly while back row stays still, all items visible", "on_screen_text": "FRONT SLIDES OUT", "voiceover": "The front pulls out without disturbing the back row."},
-          {"n": 6, "duration_sec": 4, "visual_prompt": "person calmly grabbing item from organized cabinet, smiling", "on_screen_text": "COMMENT LINK", "voiceover": "Haven't dropped a bottle in three weeks."}
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "first-person POV opening cluttered under-sink cabinet, bottles fall out",
+            "on_screen_text": "FOUR YEARS OF THIS",
+            "voiceover": "I had four years of bottles falling on my feet."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "close-up of disorganized cleaning supplies, sponges piled, bottle on its side",
+            "on_screen_text": "EVERYTHING JUST FELL",
+            "voiceover": "Reach for paper towels, knock over six things."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "frustrated person closing cabinet door quickly",
+            "on_screen_text": "I GAVE UP TRYING",
+            "voiceover": "I'd given up. Just kept the door shut."
+          },
+          {
+            "n": 4,
+            "duration_sec": 5,
+            "visual_prompt": "Simple Houseware chrome 2-tier sliding basket organizer installed under sink, organized",
+            "on_screen_text": "$32 SLIDING ORGANIZER",
+            "voiceover": "Then I got a 2-tier sliding basket. Chrome, 18 lb shelves."
+          },
+          {
+            "n": 5,
+            "duration_sec": 4,
+            "visual_prompt": "front basket slides forward smoothly while back row stays still, all items visible",
+            "on_screen_text": "FRONT SLIDES OUT",
+            "voiceover": "The front pulls out without disturbing the back row."
+          },
+          {
+            "n": 6,
+            "duration_sec": 4,
+            "visual_prompt": "person calmly grabbing item from organized cabinet, smiling",
+            "on_screen_text": "COMMENT LINK",
+            "voiceover": "Haven't dropped a bottle in three weeks."
+          }
         ]
       },
       {
         "hook_category": "confession",
         "hook": "I avoided opening this cabinet for two whole years.",
         "beat1": "Every time I opened it I had to do a Tetris move just to grab dish soap. The wasted vertical space mocked me. There was room for two of everything if I could just get to it.",
-        "turn": "The Simple Houseware 2-tier sliding basket fixed it in 4 minutes — no tools, no drilling, just sets on the cabinet floor. Each tier slides independently.",
+        "turn": "The Simple Houseware 2-tier sliding basket fixed it in 4 minutes \u2014 no tools, no drilling, just sets on the cabinet floor. Each tier slides independently.",
         "result": "Doubled my usable storage without buying a single new container. The cabinet went from chaos to a system in one afternoon.",
         "scenes": [
-          {"n": 1, "duration_sec": 3, "visual_prompt": "person reluctantly opening under-sink cabinet, grimacing at mess", "on_screen_text": "AVOIDED FOR 2 YEARS", "voiceover": "I avoided opening this cabinet for two years."},
-          {"n": 2, "duration_sec": 4, "visual_prompt": "tight close-up of cluttered shelves, items stacked", "on_screen_text": "WASTED VERTICAL SPACE", "voiceover": "Wasted vertical space everywhere."},
-          {"n": 3, "duration_sec": 4, "visual_prompt": "hand reaching past items to grab one bottle in back", "on_screen_text": "TETRIS EVERY TIME", "voiceover": "Had to play Tetris just to grab dish soap."},
-          {"n": 4, "duration_sec": 5, "visual_prompt": "Simple Houseware sliding basket installed, items neatly arranged on two tiers", "on_screen_text": "4 MINUTES, NO TOOLS", "voiceover": "Sliding basket fixed it in four minutes. No tools."},
-          {"n": 5, "duration_sec": 4, "visual_prompt": "both tiers slide out smoothly, all items immediately visible", "on_screen_text": "DOUBLED MY STORAGE", "voiceover": "Doubled my storage with what I already owned."},
-          {"n": 6, "duration_sec": 4, "visual_prompt": "satisfied person calmly grabbing exactly what they need", "on_screen_text": "COMMENT LINK", "voiceover": "Comment LINK and I'll DM you the link."}
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "person reluctantly opening under-sink cabinet, grimacing at mess",
+            "on_screen_text": "AVOIDED FOR 2 YEARS",
+            "voiceover": "I avoided opening this cabinet for two years."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "tight close-up of cluttered shelves, items stacked",
+            "on_screen_text": "WASTED VERTICAL SPACE",
+            "voiceover": "Wasted vertical space everywhere."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "hand reaching past items to grab one bottle in back",
+            "on_screen_text": "TETRIS EVERY TIME",
+            "voiceover": "Had to play Tetris just to grab dish soap."
+          },
+          {
+            "n": 4,
+            "duration_sec": 5,
+            "visual_prompt": "Simple Houseware sliding basket installed, items neatly arranged on two tiers",
+            "on_screen_text": "4 MINUTES, NO TOOLS",
+            "voiceover": "Sliding basket fixed it in four minutes. No tools."
+          },
+          {
+            "n": 5,
+            "duration_sec": 4,
+            "visual_prompt": "both tiers slide out smoothly, all items immediately visible",
+            "on_screen_text": "DOUBLED MY STORAGE",
+            "voiceover": "Doubled my storage with what I already owned."
+          },
+          {
+            "n": 6,
+            "duration_sec": 4,
+            "visual_prompt": "satisfied person calmly grabbing exactly what they need",
+            "on_screen_text": "COMMENT LINK",
+            "voiceover": "Comment LINK and I'll DM you the link."
+          }
         ]
       },
       {
         "hook_category": "before_after",
         "hook": "Three weeks ago this cabinet was where things went to die.",
         "beat1": "Open the door, hold your breath, hope you don't knock anything over. Sponges from a Costco run. Three half-empty bottles of the same cleaner. A measuring cup I lost track of in 2023.",
-        "turn": "I added a Simple Houseware 2-tier chrome sliding basket. Holds 18 lbs per shelf. Sets directly on the cabinet floor — no installation.",
+        "turn": "I added a Simple Houseware 2-tier chrome sliding basket. Holds 18 lbs per shelf. Sets directly on the cabinet floor \u2014 no installation.",
         "result": "Now everything has a row. The system tells me when I'm out of something because the slot is empty, not buried.",
         "scenes": [
-          {"n": 1, "duration_sec": 3, "visual_prompt": "before/after split — chaotic vs organized under-sink", "on_screen_text": "3 WEEKS AGO", "voiceover": "Three weeks ago, this cabinet was chaos."},
-          {"n": 2, "duration_sec": 4, "visual_prompt": "lost half-used cleaning supplies in cluttered cabinet", "on_screen_text": "STUFF I FORGOT I OWNED", "voiceover": "Bottles I'd forgotten I owned."},
-          {"n": 3, "duration_sec": 4, "visual_prompt": "person counting duplicate bottles of same cleaner", "on_screen_text": "THREE OF THE SAME THING", "voiceover": "Three half-empty bottles of the same cleaner."},
-          {"n": 4, "duration_sec": 5, "visual_prompt": "Simple Houseware 2-tier chrome sliding basket, organized cleaning supplies on each tier", "on_screen_text": "2-TIER SLIDING BASKET", "voiceover": "Added a 2-tier sliding basket. 18 lbs per shelf."},
-          {"n": 5, "duration_sec": 4, "visual_prompt": "everything has a labeled row, neatly arranged", "on_screen_text": "EVERYTHING HAS A ROW", "voiceover": "Now everything has a row."},
-          {"n": 6, "duration_sec": 4, "visual_prompt": "empty slot showing what's run out", "on_screen_text": "COMMENT LINK", "voiceover": "Comment LINK and I'll DM you the link."}
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "before/after split \u2014 chaotic vs organized under-sink",
+            "on_screen_text": "3 WEEKS AGO",
+            "voiceover": "Three weeks ago, this cabinet was chaos."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "lost half-used cleaning supplies in cluttered cabinet",
+            "on_screen_text": "STUFF I FORGOT I OWNED",
+            "voiceover": "Bottles I'd forgotten I owned."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "person counting duplicate bottles of same cleaner",
+            "on_screen_text": "THREE OF THE SAME THING",
+            "voiceover": "Three half-empty bottles of the same cleaner."
+          },
+          {
+            "n": 4,
+            "duration_sec": 5,
+            "visual_prompt": "Simple Houseware 2-tier chrome sliding basket, organized cleaning supplies on each tier",
+            "on_screen_text": "2-TIER SLIDING BASKET",
+            "voiceover": "Added a 2-tier sliding basket. 18 lbs per shelf."
+          },
+          {
+            "n": 5,
+            "duration_sec": 4,
+            "visual_prompt": "everything has a labeled row, neatly arranged",
+            "on_screen_text": "EVERYTHING HAS A ROW",
+            "voiceover": "Now everything has a row."
+          },
+          {
+            "n": 6,
+            "duration_sec": 4,
+            "visual_prompt": "empty slot showing what's run out",
+            "on_screen_text": "COMMENT LINK",
+            "voiceover": "Comment LINK and I'll DM you the link."
+          }
         ]
       },
       {
         "hook_category": "micro_insight",
         "hook": "The reason your cabinets stay messy is that nothing has a home.",
-        "beat1": "Containers don't fix this. Bigger cabinets don't fix this. The problem is depth — when you can't reach the back without removing the front, the back becomes invisible.",
-        "turn": "A sliding basket organizer fixes the depth problem. Simple Houseware's chrome 2-tier model holds 18 lbs per shelf — each tier pulls forward independently, so the back row is always one motion away.",
+        "beat1": "Containers don't fix this. Bigger cabinets don't fix this. The problem is depth \u2014 when you can't reach the back without removing the front, the back becomes invisible.",
+        "turn": "A sliding basket organizer fixes the depth problem. Simple Houseware's chrome 2-tier model holds 18 lbs per shelf \u2014 each tier pulls forward independently, so the back row is always one motion away.",
         "result": "Stopped buying duplicates of stuff I already owned. The cabinet became a system instead of a graveyard.",
         "scenes": [
-          {"n": 1, "duration_sec": 3, "visual_prompt": "messy cabinet with stuff piled at the front and unknown void at back", "on_screen_text": "NOTHING HAS A HOME", "voiceover": "Your cabinets are messy because nothing has a home."},
-          {"n": 2, "duration_sec": 4, "visual_prompt": "person pulling everything out to reach back of cabinet", "on_screen_text": "DEPTH IS THE PROBLEM", "voiceover": "The real problem is depth, not size."},
-          {"n": 3, "duration_sec": 4, "visual_prompt": "back of cabinet revealed full of forgotten items", "on_screen_text": "BACK ROW = INVISIBLE", "voiceover": "If you can't reach the back, the back is invisible."},
-          {"n": 4, "duration_sec": 5, "visual_prompt": "Simple Houseware chrome 2-tier sliding basket installed", "on_screen_text": "FRONT TIER SLIDES OUT", "voiceover": "Sliding basket fixes the depth problem."},
-          {"n": 5, "duration_sec": 4, "visual_prompt": "front shelf slides forward revealing back shelf still in place", "on_screen_text": "BACK ROW VISIBLE", "voiceover": "Back row is always one motion away."},
-          {"n": 6, "duration_sec": 4, "visual_prompt": "fully organized cabinet, everything labeled", "on_screen_text": "COMMENT LINK", "voiceover": "Comment LINK and I'll DM you the link."}
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "messy cabinet with stuff piled at the front and unknown void at back",
+            "on_screen_text": "NOTHING HAS A HOME",
+            "voiceover": "Your cabinets are messy because nothing has a home."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "person pulling everything out to reach back of cabinet",
+            "on_screen_text": "DEPTH IS THE PROBLEM",
+            "voiceover": "The real problem is depth, not size."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "back of cabinet revealed full of forgotten items",
+            "on_screen_text": "BACK ROW = INVISIBLE",
+            "voiceover": "If you can't reach the back, the back is invisible."
+          },
+          {
+            "n": 4,
+            "duration_sec": 5,
+            "visual_prompt": "Simple Houseware chrome 2-tier sliding basket installed",
+            "on_screen_text": "FRONT TIER SLIDES OUT",
+            "voiceover": "Sliding basket fixes the depth problem."
+          },
+          {
+            "n": 5,
+            "duration_sec": 4,
+            "visual_prompt": "front shelf slides forward revealing back shelf still in place",
+            "on_screen_text": "BACK ROW VISIBLE",
+            "voiceover": "Back row is always one motion away."
+          },
+          {
+            "n": 6,
+            "duration_sec": 4,
+            "visual_prompt": "fully organized cabinet, everything labeled",
+            "on_screen_text": "COMMENT LINK",
+            "voiceover": "Comment LINK and I'll DM you the link."
+          }
         ]
       },
       {
         "hook_category": "confrontation",
         "hook": "Buying more containers will never fix your under-sink cabinet.",
-        "beat1": "I tried clear bins. I tried stackable trays. I tried labeling everything. None of it solved the actual problem — that anything past the front 6 inches is functionally lost.",
+        "beat1": "I tried clear bins. I tried stackable trays. I tried labeling everything. None of it solved the actual problem \u2014 that anything past the front 6 inches is functionally lost.",
         "turn": "What worked was a Simple Houseware 2-tier sliding basket. Chrome wire, 18 lbs per shelf, and the front rack slides independently to expose the back.",
         "result": "I threw out two bins of duplicate cleaners I'd bought because I forgot the first ones existed. The cabinet finally works.",
         "scenes": [
-          {"n": 1, "duration_sec": 3, "visual_prompt": "shopping for storage containers at a store", "on_screen_text": "CONTAINERS WON'T FIX IT", "voiceover": "More containers won't fix your cabinet."},
-          {"n": 2, "duration_sec": 4, "visual_prompt": "stacked clear bins still cluttered, hard to access", "on_screen_text": "CLEAR BINS DIDN'T HELP", "voiceover": "Clear bins, stackable trays — none of it worked."},
-          {"n": 3, "duration_sec": 4, "visual_prompt": "items at back of cabinet collecting dust, forgotten", "on_screen_text": "ANYTHING PAST 6 INCHES = LOST", "voiceover": "Anything past the front six inches is lost."},
-          {"n": 4, "duration_sec": 5, "visual_prompt": "Simple Houseware sliding basket installed, organized", "on_screen_text": "SLIDING BASKET WORKED", "voiceover": "What worked was a 2-tier sliding basket."},
-          {"n": 5, "duration_sec": 4, "visual_prompt": "person throwing out duplicate cleaning supplies", "on_screen_text": "FOUND DUPLICATES OF EVERYTHING", "voiceover": "Found two bins of duplicate cleaners."},
-          {"n": 6, "duration_sec": 4, "visual_prompt": "clean organized cabinet finally working", "on_screen_text": "COMMENT LINK", "voiceover": "Comment LINK and I'll DM you the link."}
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "shopping for storage containers at a store",
+            "on_screen_text": "CONTAINERS WON'T FIX IT",
+            "voiceover": "More containers won't fix your cabinet."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "stacked clear bins still cluttered, hard to access",
+            "on_screen_text": "CLEAR BINS DIDN'T HELP",
+            "voiceover": "Clear bins, stackable trays \u2014 none of it worked."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "items at back of cabinet collecting dust, forgotten",
+            "on_screen_text": "ANYTHING PAST 6 INCHES = LOST",
+            "voiceover": "Anything past the front six inches is lost."
+          },
+          {
+            "n": 4,
+            "duration_sec": 5,
+            "visual_prompt": "Simple Houseware sliding basket installed, organized",
+            "on_screen_text": "SLIDING BASKET WORKED",
+            "voiceover": "What worked was a 2-tier sliding basket."
+          },
+          {
+            "n": 5,
+            "duration_sec": 4,
+            "visual_prompt": "person throwing out duplicate cleaning supplies",
+            "on_screen_text": "FOUND DUPLICATES OF EVERYTHING",
+            "voiceover": "Found two bins of duplicate cleaners."
+          },
+          {
+            "n": 6,
+            "duration_sec": 4,
+            "visual_prompt": "clean organized cabinet finally working",
+            "on_screen_text": "COMMENT LINK",
+            "voiceover": "Comment LINK and I'll DM you the link."
+          }
         ]
       }
     ],
@@ -84,15 +264,51 @@
         "hook_category": "wrong_until_right",
         "hook": "I had the wrong pillow for 10 years and didn't know it.",
         "beat1": "Woke up stiff every morning. Tried stacking two pillows. Tried rolling a towel under my neck. Switched sides. Bought a memory foam block that turned my head into a sweat puddle.",
-        "turn": "Then I tried the Eli & Elm side sleeper pillow — U-shape cutout for your shoulder, latex-and-fiber blend you can adjust, and a cooling cover that actually stays cool.",
+        "turn": "Then I tried the Eli & Elm side sleeper pillow \u2014 U-shape cutout for your shoulder, latex-and-fiber blend you can adjust, and a cooling cover that actually stays cool.",
         "result": "First night I slept through. The morning crick is gone. My partner stole it the second night and I had to order another one.",
         "scenes": [
-          {"n": 1, "duration_sec": 3, "visual_prompt": "person waking up rubbing stiff neck, frustrated", "on_screen_text": "STIFF EVERY MORNING", "voiceover": "I had the wrong pillow for a decade."},
-          {"n": 2, "duration_sec": 4, "visual_prompt": "stack of two pillows on bed, towel rolled up next to it", "on_screen_text": "TRIED STACKING. TRIED TOWELS.", "voiceover": "Stacked two pillows. Rolled towels under my neck."},
-          {"n": 3, "duration_sec": 4, "visual_prompt": "memory foam pillow with sweat stain", "on_screen_text": "MEMORY FOAM = SWEAT PUDDLE", "voiceover": "Memory foam turned my head into a sweat puddle."},
-          {"n": 4, "duration_sec": 5, "visual_prompt": "Eli & Elm pillow with U-shape cutout for shoulder, cooling cover", "on_screen_text": "U-SHAPE FOR SIDE SLEEPERS", "voiceover": "Then I tried a U-shape side sleeper pillow."},
-          {"n": 5, "duration_sec": 4, "visual_prompt": "person sleeping peacefully on side, pillow contouring perfectly", "on_screen_text": "SLEPT THROUGH FIRST NIGHT", "voiceover": "Slept through the first night. Crick is gone."},
-          {"n": 6, "duration_sec": 4, "visual_prompt": "second pillow being unboxed, partner had stolen the first", "on_screen_text": "COMMENT PILLOW", "voiceover": "Comment PILLOW and I'll DM you the link."}
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "person waking up rubbing stiff neck, frustrated",
+            "on_screen_text": "STIFF EVERY MORNING",
+            "voiceover": "I had the wrong pillow for a decade."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "stack of two pillows on bed, towel rolled up next to it",
+            "on_screen_text": "TRIED STACKING. TRIED TOWELS.",
+            "voiceover": "Stacked two pillows. Rolled towels under my neck."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "memory foam pillow with sweat stain",
+            "on_screen_text": "MEMORY FOAM = SWEAT PUDDLE",
+            "voiceover": "Memory foam turned my head into a sweat puddle."
+          },
+          {
+            "n": 4,
+            "duration_sec": 5,
+            "visual_prompt": "Eli & Elm pillow with U-shape cutout for shoulder, cooling cover",
+            "on_screen_text": "U-SHAPE FOR SIDE SLEEPERS",
+            "voiceover": "Then I tried a U-shape side sleeper pillow."
+          },
+          {
+            "n": 5,
+            "duration_sec": 4,
+            "visual_prompt": "person sleeping peacefully on side, pillow contouring perfectly",
+            "on_screen_text": "SLEPT THROUGH FIRST NIGHT",
+            "voiceover": "Slept through the first night. Crick is gone."
+          },
+          {
+            "n": 6,
+            "duration_sec": 4,
+            "visual_prompt": "second pillow being unboxed, partner had stolen the first",
+            "on_screen_text": "COMMENT PILLOW",
+            "voiceover": "Comment PILLOW and I'll DM you the link."
+          }
         ]
       },
       {
@@ -102,27 +318,99 @@
         "turn": "Turns out it was the pillow. Specifically the wrong pillow for a side sleeper. The Eli & Elm has a shoulder cutout that lets your shoulder drop into the bed instead of crushing it.",
         "result": "Three weeks of using it and the chronic stiffness is just gone. Saved myself another mattress.",
         "scenes": [
-          {"n": 1, "duration_sec": 3, "visual_prompt": "person looking exasperated at expensive mattress", "on_screen_text": "10 YEARS, WRONG SUSPECT", "voiceover": "I thought my mattress was the problem."},
-          {"n": 2, "duration_sec": 4, "visual_prompt": "stack of receipts: mattress, topper, chiropractor bills", "on_screen_text": "$1,400 MATTRESS. DIDN'T HELP.", "voiceover": "Mattress, topper, chiropractor — none of it worked."},
-          {"n": 3, "duration_sec": 4, "visual_prompt": "person rubbing sore shoulder, side sleeper position", "on_screen_text": "SHOULDER GETS CRUSHED", "voiceover": "Side sleepers crush their shoulder all night."},
-          {"n": 4, "duration_sec": 5, "visual_prompt": "Eli & Elm pillow showing U-shape cutout for shoulder", "on_screen_text": "SHOULDER CUTOUT", "voiceover": "Eli & Elm has a cutout for your shoulder."},
-          {"n": 5, "duration_sec": 4, "visual_prompt": "demonstration showing shoulder dropping into mattress beside pillow", "on_screen_text": "SHOULDER DROPS IN", "voiceover": "Your shoulder drops in instead of getting crushed."},
-          {"n": 6, "duration_sec": 4, "visual_prompt": "person sleeping peacefully, no neck strain", "on_screen_text": "COMMENT PILLOW", "voiceover": "Comment PILLOW and I'll DM you the link."}
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "person looking exasperated at expensive mattress",
+            "on_screen_text": "10 YEARS, WRONG SUSPECT",
+            "voiceover": "I thought my mattress was the problem."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "stack of receipts: mattress, topper, chiropractor bills",
+            "on_screen_text": "$1,400 MATTRESS. DIDN'T HELP.",
+            "voiceover": "Mattress, topper, chiropractor \u2014 none of it worked."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "person rubbing sore shoulder, side sleeper position",
+            "on_screen_text": "SHOULDER GETS CRUSHED",
+            "voiceover": "Side sleepers crush their shoulder all night."
+          },
+          {
+            "n": 4,
+            "duration_sec": 5,
+            "visual_prompt": "Eli & Elm pillow showing U-shape cutout for shoulder",
+            "on_screen_text": "SHOULDER CUTOUT",
+            "voiceover": "Eli & Elm has a cutout for your shoulder."
+          },
+          {
+            "n": 5,
+            "duration_sec": 4,
+            "visual_prompt": "demonstration showing shoulder dropping into mattress beside pillow",
+            "on_screen_text": "SHOULDER DROPS IN",
+            "voiceover": "Your shoulder drops in instead of getting crushed."
+          },
+          {
+            "n": 6,
+            "duration_sec": 4,
+            "visual_prompt": "person sleeping peacefully, no neck strain",
+            "on_screen_text": "COMMENT PILLOW",
+            "voiceover": "Comment PILLOW and I'll DM you the link."
+          }
         ]
       },
       {
         "hook_category": "sensory",
         "hook": "Picture this: it is 4am, your neck won't turn left, and the alarm is in 90 minutes.",
         "beat1": "You stare at the ceiling. Your shoulder is numb. The pillow under your head is somehow both too high and too low. You flip it. Cold side, sure, but the angle is still wrong.",
-        "turn": "An adjustable side sleeper pillow with a shoulder cutout fixes the angle problem. Eli & Elm — latex-fiber fill you can add or remove, U-shape that lets your shoulder rest naturally.",
+        "turn": "An adjustable side sleeper pillow with a shoulder cutout fixes the angle problem. Eli & Elm \u2014 latex-fiber fill you can add or remove, U-shape that lets your shoulder rest naturally.",
         "result": "Same bed, same room, same body. The only thing that changed was the pillow. The 4am stare-at-the-ceiling routine just stopped.",
         "scenes": [
-          {"n": 1, "duration_sec": 3, "visual_prompt": "dark bedroom, 4am clock, person staring at ceiling", "on_screen_text": "4 AM. NECK WON'T TURN.", "voiceover": "It's 4am and your neck won't turn left."},
-          {"n": 2, "duration_sec": 4, "visual_prompt": "person flipping pillow trying to find right angle", "on_screen_text": "FLIPPING. FLIPPING. NOPE.", "voiceover": "You flip the pillow. Cold side. Wrong angle."},
-          {"n": 3, "duration_sec": 4, "visual_prompt": "shoulder visibly compressed under regular pillow", "on_screen_text": "SHOULDER GOES NUMB", "voiceover": "Your shoulder goes numb by 5am."},
-          {"n": 4, "duration_sec": 5, "visual_prompt": "Eli & Elm adjustable U-shape pillow, latex fiber fill visible", "on_screen_text": "ADJUSTABLE LATEX FILL", "voiceover": "Adjustable U-shape pillow with shoulder cutout."},
-          {"n": 5, "duration_sec": 4, "visual_prompt": "shoulder resting naturally beside pillow cutout", "on_screen_text": "SHOULDER RESTS RIGHT", "voiceover": "Shoulder rests naturally instead of compressing."},
-          {"n": 6, "duration_sec": 4, "visual_prompt": "morning light, person waking calm without pain", "on_screen_text": "COMMENT PILLOW", "voiceover": "Comment PILLOW and I'll DM you the link."}
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "dark bedroom, 4am clock, person staring at ceiling",
+            "on_screen_text": "4 AM. NECK WON'T TURN.",
+            "voiceover": "It's 4am and your neck won't turn left."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "person flipping pillow trying to find right angle",
+            "on_screen_text": "FLIPPING. FLIPPING. NOPE.",
+            "voiceover": "You flip the pillow. Cold side. Wrong angle."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "shoulder visibly compressed under regular pillow",
+            "on_screen_text": "SHOULDER GOES NUMB",
+            "voiceover": "Your shoulder goes numb by 5am."
+          },
+          {
+            "n": 4,
+            "duration_sec": 5,
+            "visual_prompt": "Eli & Elm adjustable U-shape pillow, latex fiber fill visible",
+            "on_screen_text": "ADJUSTABLE LATEX FILL",
+            "voiceover": "Adjustable U-shape pillow with shoulder cutout."
+          },
+          {
+            "n": 5,
+            "duration_sec": 4,
+            "visual_prompt": "shoulder resting naturally beside pillow cutout",
+            "on_screen_text": "SHOULDER RESTS RIGHT",
+            "voiceover": "Shoulder rests naturally instead of compressing."
+          },
+          {
+            "n": 6,
+            "duration_sec": 4,
+            "visual_prompt": "morning light, person waking calm without pain",
+            "on_screen_text": "COMMENT PILLOW",
+            "voiceover": "Comment PILLOW and I'll DM you the link."
+          }
         ]
       },
       {
@@ -130,43 +418,219 @@
         "hook": "Most pillows are designed for back sleepers. 74% of us sleep on our sides.",
         "beat1": "Standard pillows put your spine at a 30 degree angle when you sleep on your side. That's why you wake up feeling like someone twisted your neck while you were out.",
         "turn": "A side sleeper pillow keeps your spine straight. Eli & Elm uses a U-shape with a shoulder cutout and adjustable latex-fiber fill so you can dial in the height for your shoulder width.",
-        "result": "Spine stays straight all night. Wake up the same way you fell asleep — relaxed, not crooked.",
+        "result": "Spine stays straight all night. Wake up the same way you fell asleep \u2014 relaxed, not crooked.",
         "scenes": [
-          {"n": 1, "duration_sec": 3, "visual_prompt": "infographic showing side vs back sleeper percentages", "on_screen_text": "74% SLEEP ON SIDES", "voiceover": "74% of us sleep on our sides."},
-          {"n": 2, "duration_sec": 4, "visual_prompt": "anatomical diagram of bent spine on standard pillow", "on_screen_text": "SPINE BENT 30°", "voiceover": "Standard pillows bend your spine 30 degrees."},
-          {"n": 3, "duration_sec": 4, "visual_prompt": "person waking up with twisted neck", "on_screen_text": "WAKE UP TWISTED", "voiceover": "You wake up feeling twisted."},
-          {"n": 4, "duration_sec": 5, "visual_prompt": "Eli & Elm pillow with shoulder cutout, U-shape", "on_screen_text": "U-SHAPE + SHOULDER CUTOUT", "voiceover": "U-shape pillow keeps your spine straight."},
-          {"n": 5, "duration_sec": 4, "visual_prompt": "side view of person sleeping with straight spine alignment", "on_screen_text": "SPINE STRAIGHT ALL NIGHT", "voiceover": "Spine stays straight. Adjustable fill for your shoulder."},
-          {"n": 6, "duration_sec": 4, "visual_prompt": "morning, person stretches happily without pain", "on_screen_text": "COMMENT PILLOW", "voiceover": "Comment PILLOW and I'll DM you the link."}
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "infographic showing side vs back sleeper percentages",
+            "on_screen_text": "74% SLEEP ON SIDES",
+            "voiceover": "74% of us sleep on our sides."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "anatomical diagram of bent spine on standard pillow",
+            "on_screen_text": "SPINE BENT 30\u00b0",
+            "voiceover": "Standard pillows bend your spine 30 degrees."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "person waking up with twisted neck",
+            "on_screen_text": "WAKE UP TWISTED",
+            "voiceover": "You wake up feeling twisted."
+          },
+          {
+            "n": 4,
+            "duration_sec": 5,
+            "visual_prompt": "Eli & Elm pillow with shoulder cutout, U-shape",
+            "on_screen_text": "U-SHAPE + SHOULDER CUTOUT",
+            "voiceover": "U-shape pillow keeps your spine straight."
+          },
+          {
+            "n": 5,
+            "duration_sec": 4,
+            "visual_prompt": "side view of person sleeping with straight spine alignment",
+            "on_screen_text": "SPINE STRAIGHT ALL NIGHT",
+            "voiceover": "Spine stays straight. Adjustable fill for your shoulder."
+          },
+          {
+            "n": 6,
+            "duration_sec": 4,
+            "visual_prompt": "morning, person stretches happily without pain",
+            "on_screen_text": "COMMENT PILLOW",
+            "voiceover": "Comment PILLOW and I'll DM you the link."
+          }
         ]
       },
       {
         "hook_category": "confrontation",
         "hook": "Stop blaming your mattress for your neck pain.",
-        "beat1": "Bought a fancy mattress. Bought a foam topper. Saw the chiro. The pain came back every time. The variable nobody changes is the pillow — same shape we've used for 70 years.",
-        "turn": "A modern side sleeper pillow with a shoulder cutout actually addresses the geometry problem. Eli & Elm — adjustable latex-fiber fill, cooling cover, U-shape designed for the 74% of people who sleep on their side.",
+        "beat1": "Bought a fancy mattress. Bought a foam topper. Saw the chiro. The pain came back every time. The variable nobody changes is the pillow \u2014 same shape we've used for 70 years.",
+        "turn": "A modern side sleeper pillow with a shoulder cutout actually addresses the geometry problem. Eli & Elm \u2014 adjustable latex-fiber fill, cooling cover, U-shape designed for the 74% of people who sleep on their side.",
         "result": "First week and the morning stiffness is just gone. Cost a fraction of a new mattress and fixed what the mattress couldn't.",
         "scenes": [
-          {"n": 1, "duration_sec": 3, "visual_prompt": "person blaming mattress, gesturing at bed", "on_screen_text": "STOP BLAMING THE MATTRESS", "voiceover": "Stop blaming your mattress for your neck pain."},
-          {"n": 2, "duration_sec": 4, "visual_prompt": "stack of receipts for mattress, topper, chiropractor", "on_screen_text": "TRIED EVERYTHING. NOTHING WORKED.", "voiceover": "Mattress, topper, chiropractor — pain came back."},
-          {"n": 3, "duration_sec": 4, "visual_prompt": "regular pillow shape, unchanged design for decades", "on_screen_text": "PILLOW = UNCHANGED VARIABLE", "voiceover": "The variable nobody changes is the pillow."},
-          {"n": 4, "duration_sec": 5, "visual_prompt": "Eli & Elm pillow with U-shape and shoulder cutout, adjustable fill visible", "on_screen_text": "ADJUSTABLE U-SHAPE PILLOW", "voiceover": "Modern side sleeper pillow with shoulder cutout."},
-          {"n": 5, "duration_sec": 4, "visual_prompt": "cost comparison: pillow vs new mattress", "on_screen_text": "FRACTION OF A MATTRESS", "voiceover": "Cost a fraction of a new mattress."},
-          {"n": 6, "duration_sec": 4, "visual_prompt": "morning, person stretches comfortably without pain", "on_screen_text": "COMMENT PILLOW", "voiceover": "Comment PILLOW and I'll DM you the link."}
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "person blaming mattress, gesturing at bed",
+            "on_screen_text": "STOP BLAMING THE MATTRESS",
+            "voiceover": "Stop blaming your mattress for your neck pain."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "stack of receipts for mattress, topper, chiropractor",
+            "on_screen_text": "TRIED EVERYTHING. NOTHING WORKED.",
+            "voiceover": "Mattress, topper, chiropractor \u2014 pain came back."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "regular pillow shape, unchanged design for decades",
+            "on_screen_text": "PILLOW = UNCHANGED VARIABLE",
+            "voiceover": "The variable nobody changes is the pillow."
+          },
+          {
+            "n": 4,
+            "duration_sec": 5,
+            "visual_prompt": "Eli & Elm pillow with U-shape and shoulder cutout, adjustable fill visible",
+            "on_screen_text": "ADJUSTABLE U-SHAPE PILLOW",
+            "voiceover": "Modern side sleeper pillow with shoulder cutout."
+          },
+          {
+            "n": 5,
+            "duration_sec": 4,
+            "visual_prompt": "cost comparison: pillow vs new mattress",
+            "on_screen_text": "FRACTION OF A MATTRESS",
+            "voiceover": "Cost a fraction of a new mattress."
+          },
+          {
+            "n": 6,
+            "duration_sec": 4,
+            "visual_prompt": "morning, person stretches comfortably without pain",
+            "on_screen_text": "COMMENT PILLOW",
+            "voiceover": "Comment PILLOW and I'll DM you the link."
+          }
+        ]
+      }
+    ],
+    "HANGERS": [
+      {
+        "hook_category": "wrong_until_right",
+        "hook": "My closet had been a low-grade mess for longer than I want to admit.",
+        "beat1": "I kept meaning to deal with it and kept not dealing with it. Things piled up, I could never find what I needed, and every time I opened it I just shut it again.",
+        "turn": "Then I found a closet hangers sitting at 4.8 stars across 231,174 reviews, and it finally gave everything a place.",
+        "result": "It runs about $36.84 and it's the first thing in a while that just worked. The closet actually stays sorted now.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "first-person POV of a cluttered closet, things spilling out",
+            "on_screen_text": "THIS WAS EVERY DAY",
+            "voiceover": "My closet had been a mess for longer than I'll admit."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "close-up of disorganized items in the closet",
+            "on_screen_text": "COULD NEVER FIND ANYTHING",
+            "voiceover": "I kept meaning to deal with it and kept not dealing with it."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "person shutting a door/drawer in frustration",
+            "on_screen_text": "SO I GAVE UP",
+            "voiceover": "Every time I opened it I just shut it again."
+          },
+          {
+            "n": 4,
+            "duration_sec": 5,
+            "visual_prompt": "the hangers in use, everything organized and visible",
+            "on_screen_text": "THEN THIS",
+            "voiceover": "Then I found a hangers that finally gave everything a place."
+          },
+          {
+            "n": 5,
+            "duration_sec": 4,
+            "visual_prompt": "satisfying final shot of the tidy closet",
+            "on_screen_text": "STAYS SORTED NOW",
+            "voiceover": "The closet actually stays sorted now."
+          }
         ]
       }
     ]
   },
   "hashtag_pools": {
-    "organization": ["#amazonhomefinds", "#kitchenorganization", "#smallspacesolutions", "#undersinkstorage", "#homehacks2026"],
-    "kitchen": ["#amazonhomefinds", "#kitchenupgrade", "#smallkitchenstorage", "#kitchenorganization", "#countertopcleanup"],
-    "bathroom": ["#amazonhomefinds", "#bathroomstorage", "#smallbathroom", "#cabinetorganization", "#rentalfriendly"],
-    "bedroom": ["#amazonhomefinds", "#sleepbetter", "#sidesleeper", "#bedroomupgrade", "#neckpainrelief"],
-    "sleep": ["#sidesleeper", "#neckpainrelief", "#sleepbetter", "#bedroomupgrade", "#amazonhomefinds"],
-    "pillow": ["#sidesleeper", "#neckpainrelief", "#sleepbetter", "#pillowupgrade", "#amazonhomefinds"],
-    "neck-pain": ["#neckpainrelief", "#sidesleeper", "#sleepbetter", "#chronicpainfix", "#amazonhomefinds"],
-    "under-sink": ["#undersinkstorage", "#kitchenorganization", "#smallspacesolutions", "#amazonhomefinds", "#cabinetorganization"],
-    "storage": ["#smallspacesolutions", "#homestorage", "#cabinetorganization", "#amazonhomefinds", "#homehacks2026"],
-    "_default": ["#amazonhomefinds", "#homehacks2026", "#smallspacesolutions"]
+    "organization": [
+      "#amazonhomefinds",
+      "#kitchenorganization",
+      "#smallspacesolutions",
+      "#undersinkstorage",
+      "#homehacks2026"
+    ],
+    "kitchen": [
+      "#amazonhomefinds",
+      "#kitchenupgrade",
+      "#smallkitchenstorage",
+      "#kitchenorganization",
+      "#countertopcleanup"
+    ],
+    "bathroom": [
+      "#amazonhomefinds",
+      "#bathroomstorage",
+      "#smallbathroom",
+      "#cabinetorganization",
+      "#rentalfriendly"
+    ],
+    "bedroom": [
+      "#amazonhomefinds",
+      "#sleepbetter",
+      "#sidesleeper",
+      "#bedroomupgrade",
+      "#neckpainrelief"
+    ],
+    "sleep": [
+      "#sidesleeper",
+      "#neckpainrelief",
+      "#sleepbetter",
+      "#bedroomupgrade",
+      "#amazonhomefinds"
+    ],
+    "pillow": [
+      "#sidesleeper",
+      "#neckpainrelief",
+      "#sleepbetter",
+      "#pillowupgrade",
+      "#amazonhomefinds"
+    ],
+    "neck-pain": [
+      "#neckpainrelief",
+      "#sidesleeper",
+      "#sleepbetter",
+      "#chronicpainfix",
+      "#amazonhomefinds"
+    ],
+    "under-sink": [
+      "#undersinkstorage",
+      "#kitchenorganization",
+      "#smallspacesolutions",
+      "#amazonhomefinds",
+      "#cabinetorganization"
+    ],
+    "storage": [
+      "#smallspacesolutions",
+      "#homestorage",
+      "#cabinetorganization",
+      "#amazonhomefinds",
+      "#homehacks2026"
+    ],
+    "_default": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ]
   }
 }
