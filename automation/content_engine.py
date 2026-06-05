@@ -196,7 +196,7 @@ def _build_caption(variant: dict, keyword: str, hashtags: list[str], registry_en
         "",
         variant["result"],
         "",
-        f"Comment {keyword} and I'll DM you the link.",
+        f"Comment {keyword} and I'll reply with the link.",
         _disclosure_for(registry_entry or {}),
         "",
         " ".join(hashtags),

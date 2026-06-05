@@ -63,7 +63,7 @@ FALSIFIABLE_PATTERN = re.compile(
 
 # Session 7: comment-to-DM CTA is mandatory (see docs/BRAND_VOICE.md + docs/REVENUE_RESEARCH_2026-04-21.md)
 DM_CTA_PATTERN = re.compile(
-    r"\bcomment\s+[A-Z]{3,}\b.*\b(dm|message|send)\b",
+    r"\bcomment\s+[A-Z]{3,}\b.*\b(dm|message|send|reply)\b",
     re.IGNORECASE,
 )
 

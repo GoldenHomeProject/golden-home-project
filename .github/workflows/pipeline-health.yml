@@ -81,6 +81,10 @@ jobs:
             echo "Existing stale-pipeline issue open — skipping."
             exit 0
           fi
+          # Labels must exist or `gh issue create --label` hard-fails the run
+          # (this exact crash spammed failure emails 2026-06-04). Create idempotently.
+          gh label create watchdog --color BFD4F2 --description "Pipeline self-alert" 2>/dev/null || true
+          gh label create pipeline --color D4C5F9 --description "Content pipeline" 2>/dev/null || true
           TITLE="[watchdog] Content pipeline stale (no post in ${AGE_HOURS}h)"
           BODY=$(printf '%s\n' \
             "Pipeline health watchdog detected no new entry in social/posted_archive.json within 36h." \
