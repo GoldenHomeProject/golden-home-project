@@ -700,10 +700,10 @@
   },
   {
     "name": "reel_2026-06-06_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-06-06-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-06-06-001.mp4",
     "caption": "My home had been a low-grade mess for longer than I want to admit.\n\nI kept meaning to deal with it and kept not dealing with it. Things piled up, I could never find what I needed, and every time I opened it I just shut it again.\n\nThen I found a hotel towels sitting at 4.4 stars across 79,026 reviews, and it finally gave everything a place.\n\nIt runs about $39.99 and it's the first thing in a while that just worked. The home actually stays sorted now.\n\nComment TOWELS and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -720,7 +720,8 @@
       "affiliate_network": "amazon",
       "affiliate_url": "https://www.amazon.com/dp/B08CYBPMJC?tag=goldenhomep06-20"
     },
-    "hook": "My home had been a low-grade mess for longer than I want to admit."
+    "hook": "My home had been a low-grade mess for longer than I want to admit.",
+    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-06-06-001.mp4"
   },
   {
     "id": "carousel-2026-06-06-B07Y39ZXV7",
