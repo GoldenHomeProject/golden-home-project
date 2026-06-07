@@ -150,22 +150,6 @@
     "hook": "I had four years of bottles falling on my feet every morning."
   },
   {
-    "id": "carousel-2026-05-30-B08PP48979",
-    "media_type": "CAROUSEL_ALBUM",
-    "image_urls": [
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-05-30-B08PP48979/slide-1.png",
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-05-30-B08PP48979/slide-2.png",
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-05-30-B08PP48979/slide-3.png",
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-05-30-B08PP48979/slide-4.png",
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-05-30-B08PP48979/slide-5.png"
-    ],
-    "caption": "Most kettles let plastic touch your boiling water. Here's how to fix that.\n\nSave this for later \u2014 it's one of those small swaps that adds up every single morning. If your kettle has plastic parts that contact the water, you're heating them every day. A stainless interior and wide-mouth design makes it easier to clean and keeps your water cleaner long-term. \u2615\n\nComment KETTLE or DM me KETTLE for the link.\n\n#kitchenorganization #homekitchen #teakettle #coffeeroutine #cleankitchen",
-    "asin": "B08PP48979",
-    "keyword": "KETTLE",
-    "queued_at": "2026-05-30T09:10:16.954172Z",
-    "source": "carousel_generator"
-  },
-  {
     "name": "reel_2026-05-31_001",
     "status": "ready",
     "script_path": "automation/scripts/reel-2026-05-31-001.json",
