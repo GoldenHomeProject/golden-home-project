@@ -1,0 +1,75 @@
+{
+  "date": "2026-06-07",
+  "agent": "engagement-monitor",
+  "metrics": {
+    "subscribers": 6690,
+    "total_views": 20630,
+    "total_videos": 145
+  },
+  "top_videos": [
+    {
+      "title": "I avoided opening this cabinet for two whole years #shorts #",
+      "views": 69,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Most pillows are designed for back sleepers. 74% of us sleep",
+      "views": 31,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "My home had been a low-grade mess for longer than I want to ",
+      "views": 13,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "The reason your cabinets stay messy is that nothing has a ho",
+      "views": 11,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Buying more containers will never fix your under-sink cabine",
+      "views": 7,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Buying more containers will never fix your under-sink cabine",
+      "views": 6,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "I had four years of bottles falling on my feet every morning",
+      "views": 3,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "The reason your cabinets stay messy is that nothing has a ho",
+      "views": 0,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "DriveMail Voice \u2014 OAuth Verification Side-by-Side Scope Demo",
+      "views": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "title": "DriveMail Voice \u2014 OAuth Consent + Scope Usage Demo (re-submi",
+      "views": 0,
+      "likes": 0,
+      "comments": 0
+    }
+  ],
+  "comments_responded": 0,
+  "actions_taken": [
+    "Updated BUSINESS_BRAIN.md metrics"
+  ]
+}
