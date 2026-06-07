@@ -736,5 +736,21 @@
       "affiliate_url": "https://www.amazon.com/dp/B01FXN3E74?tag=goldenhomep06-20"
     },
     "hook": "My home had been a low-grade mess for longer than I want to admit."
+  },
+  {
+    "id": "carousel-2026-06-07-B08CYBPMJC",
+    "media_type": "CAROUSEL_ALBUM",
+    "image_urls": [
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-07-B08CYBPMJC/slide-1.png",
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-07-B08CYBPMJC/slide-2.png",
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-07-B08CYBPMJC/slide-3.png",
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-07-B08CYBPMJC/slide-4.png",
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-07-B08CYBPMJC/slide-5.png"
+    ],
+    "caption": "Your towels are making your bathroom feel cheaper than it is. Save this.\n\nIf your towels scratch, sag, or look flat after a few washes, the issue is GSM and fiber quality \u2014 not your laundry routine. 600 GSM Turkish cotton is the hotel standard for a reason: thicker, more absorbent, and gets softer the more you wash it. \u2728 These come in a full 4-piece set and are the easiest upgrade you can make to your bathroom.\n\nComment TOWELS or DM me TOWELS for the link.\n\n#bathroomorganization #homeupgrade #bathroomdecor #towels #homeorganization",
+    "asin": "B08CYBPMJC",
+    "keyword": "TOWELS",
+    "queued_at": "2026-06-07T09:56:50.811417Z",
+    "source": "carousel_generator"
   }
 ]
