@@ -712,5 +712,29 @@
     "keyword": "HANGERS",
     "queued_at": "2026-06-06T09:19:02.153462Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_2026-06-07_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-06-07-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "My home had been a low-grade mess for longer than I want to admit.\n\nI kept meaning to deal with it and kept not dealing with it. Things piled up, I could never find what I needed, and every time I opened it I just shut it again.\n\nThen I found a water pitcher sitting at 4.6 stars across 59,611 reviews, and it finally gave everything a place.\n\nIt runs about $28.49 and it's the first thing in a while that just worked. The home actually stays sorted now.\n\nComment PITCHER and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Brita Large Water Filter Pitcher for Tap and Drinking Water, Includes 1 Standard Filter, BPA-Free, Lasts Two Months, 10-Cup Capacity, Bright",
+      "dm_keyword": "PITCHER",
+      "amazon_asin": "B01FXN3E74",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01FXN3E74?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B01FXN3E74?tag=goldenhomep06-20"
+    },
+    "hook": "My home had been a low-grade mess for longer than I want to admit."
   }
 ]
