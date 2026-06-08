@@ -26,11 +26,18 @@ DEFAULT_TIMEOUT = 300  # 5 min — long-form blog posts can run long
 
 
 def _check_auth():
-    if not os.environ.get("CLAUDE_CODE_OAUTH_TOKEN"):
-        raise RuntimeError(
-            "CLAUDE_CODE_OAUTH_TOKEN not set. "
-            "Run `claude setup-token` locally and add the value as a GitHub Secret."
-        )
+    # GitHub Actions authenticates the CLI via the CLAUDE_CODE_OAUTH_TOKEN secret.
+    # On the Pi (and local dev) the CLI is already logged in via stored
+    # subscription credentials (~/.claude/.credentials.json) — no env token
+    # needed there. Accept either so the same code runs in both places.
+    if os.environ.get("CLAUDE_CODE_OAUTH_TOKEN"):
+        return
+    if os.path.exists(os.path.expanduser("~/.claude/.credentials.json")):
+        return
+    raise RuntimeError(
+        "No Claude auth: set CLAUDE_CODE_OAUTH_TOKEN (CI) or log in the CLI "
+        "via `claude setup-token` / `claude login` (local/Pi)."
+    )
 
 
 def call_claude(prompt: str, *, system: str | None = None,
