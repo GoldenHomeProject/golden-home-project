@@ -51,8 +51,9 @@
     "image_path": "social/pinterest/pin-2026-05-30-B08PP48979.png",
     "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/pinterest/pin-2026-05-30-B08PP48979.png",
     "queued_at": "2026-05-30T03:50:25.303124Z",
-    "posted": false,
-    "source": "pinterest_pipeline"
+    "posted": true,
+    "source": "pinterest_pipeline",
+    "posted_at": "2026-06-07T23:25:23Z"
   },
   {
     "id": "pin-2026-05-30-B09CSS6YL4",
@@ -64,8 +65,9 @@
     "image_path": "social/pinterest/pin-2026-05-30-B09CSS6YL4.png",
     "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/pinterest/pin-2026-05-30-B09CSS6YL4.png",
     "queued_at": "2026-05-30T03:50:25.628109Z",
-    "posted": false,
-    "source": "pinterest_pipeline"
+    "posted": true,
+    "source": "pinterest_pipeline",
+    "posted_at": "2026-06-07T23:26:13Z"
   },
   {
     "id": "pin-2026-05-30-B07ZL2BFMP",
@@ -129,6 +131,58 @@
     "image_path": "social/pinterest/pin-2026-05-30-B00BAGTNAQ.png",
     "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/pinterest/pin-2026-05-30-B00BAGTNAQ.png",
     "queued_at": "2026-05-30T03:50:27.270488Z",
+    "posted": false,
+    "source": "pinterest_pipeline"
+  },
+  {
+    "id": "pin-2026-06-08-B07Y39ZXV7",
+    "asin": "B07Y39ZXV7",
+    "board": "Closet Organization Ideas",
+    "title": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Cloth\u2026: Closet Organization",
+    "description": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Cloth\u2026 is the closet organization upgrade I wish I'd found sooner. 4.8\u2605 from 231,174 reviews \u00b7 $36.84. Tap through for the full breakdown and where to get it. Amazon affiliate \u2014 I may earn a small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B07Y39ZXV7?tag=goldenhomep06-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-06-08-B07Y39ZXV7.png",
+    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/pinterest/pin-2026-06-08-B07Y39ZXV7.png",
+    "queued_at": "2026-06-08T01:43:16.782502Z",
+    "posted": false,
+    "source": "pinterest_pipeline"
+  },
+  {
+    "id": "pin-2026-06-08-B08CYBPMJC",
+    "asin": "B08CYBPMJC",
+    "board": "Bathroom Storage Ideas",
+    "title": "American Soft Linen Luxury 4 Piece Bath Towel Set: Bathroom Storage",
+    "description": "American Soft Linen Luxury 4 Piece Bath Towel Set is the bathroom storage upgrade I wish I'd found sooner. 4.4\u2605 from 79,026 reviews \u00b7 $39.99. Tap through for the full breakdown and where to get it. Amazon affiliate \u2014 I may earn a small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B08CYBPMJC?tag=goldenhomep06-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-06-08-B08CYBPMJC.png",
+    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/pinterest/pin-2026-06-08-B08CYBPMJC.png",
+    "queued_at": "2026-06-08T01:43:17.132810Z",
+    "posted": false,
+    "source": "pinterest_pipeline"
+  },
+  {
+    "id": "pin-2026-06-08-B01FXN3E74",
+    "asin": "B01FXN3E74",
+    "board": "Home Organization Finds",
+    "title": "Brita Large Water Filter Pitcher for Tap and Drinking Water: Home Organization",
+    "description": "Brita Large Water Filter Pitcher for Tap and Drinking Water is the home organization upgrade I wish I'd found sooner. 4.6\u2605 from 59,611 reviews \u00b7 $28.49. Tap through for the full breakdown and where to get it. Amazon affiliate \u2014 I may earn a small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B01FXN3E74?tag=goldenhomep06-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-06-08-B01FXN3E74.png",
+    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/pinterest/pin-2026-06-08-B01FXN3E74.png",
+    "queued_at": "2026-06-08T01:43:17.489270Z",
+    "posted": false,
+    "source": "pinterest_pipeline"
+  },
+  {
+    "id": "pin-2026-06-08-B0B3WSZ3QP",
+    "asin": "B0B3WSZ3QP",
+    "board": "Kitchen Organization Ideas",
+    "title": "Set of 4 Non-Skid 10-Inch Lazy Susan Turntable Organizers: Kitchen Organization",
+    "description": "Set of 4 Non-Skid 10-Inch Lazy Susan Turntable Organizers is the kitchen organization upgrade I wish I'd found sooner. 4.7\u2605 from 6,190 reviews \u00b7 $24.99. Tap through for the full breakdown and where to get it. Amazon affiliate \u2014 I may earn a small commission at no extra cost to you.",
+    "link": "https://goldenhomeproject.com/blog/posts/2026-05-20-under-sink-organizer-bathroom-pull-out-drawers.html",
+    "image_path": "social/pinterest/pin-2026-06-08-B0B3WSZ3QP.png",
+    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/pinterest/pin-2026-06-08-B0B3WSZ3QP.png",
+    "queued_at": "2026-06-08T01:43:17.847288Z",
     "posted": false,
     "source": "pinterest_pipeline"
   }
