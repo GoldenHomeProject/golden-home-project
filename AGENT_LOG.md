@@ -835,3 +835,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** automation/scripts/reel-2026-06-08-*.json, social/post_queue.json
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: wrong_until_right: My kitchen had been a low-grade mess for longer th
+
+## 2026-06-08T11:50:13Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B01FXN3E74 (Brita Large Water Filter Pitcher for Tap)
+**Changed:** social/carousels/2026-06-08-B01FXN3E74/slide-1.png, social/carousels/2026-06-08-B01FXN3E74/slide-2.png, social/carousels/2026-06-08-B01FXN3E74/slide-3.png, social/carousels/2026-06-08-B01FXN3E74/slide-4.png, social/carousels/2026-06-08-B01FXN3E74/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B01FXN3E74 carousel.

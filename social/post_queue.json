@@ -761,5 +761,21 @@
       "affiliate_url": "https://www.amazon.com/dp/B0B3WSZ3QP?tag=goldenhomep06-20"
     },
     "hook": "My kitchen had been a low-grade mess for longer than I want to admit."
+  },
+  {
+    "id": "carousel-2026-06-08-B01FXN3E74",
+    "media_type": "CAROUSEL_ALBUM",
+    "image_urls": [
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-08-B01FXN3E74/slide-1.png",
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-08-B01FXN3E74/slide-2.png",
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-08-B01FXN3E74/slide-3.png",
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-08-B01FXN3E74/slide-4.png",
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-08-B01FXN3E74/slide-5.png"
+    ],
+    "caption": "Clean filtered water at home costs less than one week of plastic bottles.\n\nSave this for later \u2014 it's the simplest kitchen upgrade you'll make this year. A 10-cup pitcher sits right on your counter, filters chlorine and bad taste from tap water, and one filter lasts a full two months. BPA-free, no installation, no plumber. \ud83d\udca7\n\nComment PITCHER or DM me PITCHER for the link.\n\n#WaterFilter #KitchenOrganization #HomeOrganizing #HealthyHome #CountertopOrganization",
+    "asin": "B01FXN3E74",
+    "keyword": "PITCHER",
+    "queued_at": "2026-06-08T11:50:13.832079Z",
+    "source": "carousel_generator"
   }
 ]
