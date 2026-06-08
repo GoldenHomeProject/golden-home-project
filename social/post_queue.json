@@ -736,5 +736,30 @@
     "keyword": "TOWELS",
     "queued_at": "2026-06-07T09:56:50.811417Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_2026-06-08_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-06-08-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "My kitchen had been a low-grade mess for longer than I want to admit.\n\nI kept meaning to deal with it and kept not dealing with it. Things piled up, I could never find what I needed, and every time I opened it I just shut it again.\n\nThen I found a lazy-susan turntable sitting at 4.7 stars across 6,190 reviews, and it finally gave everything a place.\n\nIt runs about $24.99 and it's the first thing in a while that just worked. The kitchen actually stays sorted now.\n\nComment TURNTABLE and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #kitchenorganization #smallspacesolutions #undersinkstorage",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#kitchenorganization",
+      "#smallspacesolutions",
+      "#undersinkstorage"
+    ],
+    "affiliate": {
+      "primary_product": "Set of 4 Non-Skid 10-Inch Lazy Susan Turntable Organizers",
+      "dm_keyword": "TURNTABLE",
+      "amazon_asin": "B0B3WSZ3QP",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B0B3WSZ3QP?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B0B3WSZ3QP?tag=goldenhomep06-20"
+    },
+    "hook": "My kitchen had been a low-grade mess for longer than I want to admit."
   }
 ]
