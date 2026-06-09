@@ -859,3 +859,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** automation/scripts/reel-2026-06-09-*.json, social/post_queue.json
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: wrong_until_right: My home had been a low-grade mess for longer than
+
+## 2026-06-09T10:28:21Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B0B3WSZ3QP (Set of 4 Non-Skid 10-Inch Lazy Susan Tur)
+**Changed:** social/carousels/2026-06-09-B0B3WSZ3QP/slide-1.png, social/carousels/2026-06-09-B0B3WSZ3QP/slide-2.png, social/carousels/2026-06-09-B0B3WSZ3QP/slide-3.png, social/carousels/2026-06-09-B0B3WSZ3QP/slide-4.png, social/carousels/2026-06-09-B0B3WSZ3QP/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B0B3WSZ3QP carousel.

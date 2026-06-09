@@ -776,5 +776,21 @@
       "affiliate_url": "https://www.amazon.com/dp/B0CVVVNB9L?tag=goldenhomep06-20"
     },
     "hook": "My home had been a low-grade mess for longer than I want to admit."
+  },
+  {
+    "id": "carousel-2026-06-09-B0B3WSZ3QP",
+    "media_type": "CAROUSEL_ALBUM",
+    "image_urls": [
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-09-B0B3WSZ3QP/slide-1.png",
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-09-B0B3WSZ3QP/slide-2.png",
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-09-B0B3WSZ3QP/slide-3.png",
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-09-B0B3WSZ3QP/slide-4.png",
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-09-B0B3WSZ3QP/slide-5.png"
+    ],
+    "caption": "The back of your cabinet shouldn't be a graveyard for forgotten things.\n\nSave this post \u2014 these three tips work whether or not you buy anything. The lazy susan method is one of the simplest cabinet upgrades you can make, and having a set of four means you can fix every problem spot at once: pantry, fridge, under the sink, bathroom shelves.\n\nComment TURNTABLE or DM me TURNTABLE for the link.\n\n#homeorganization #kitchenorganization #cabinetorganization #pantryorganization #organizationhacks",
+    "asin": "B0B3WSZ3QP",
+    "keyword": "TURNTABLE",
+    "queued_at": "2026-06-09T10:28:21.487680Z",
+    "source": "carousel_generator"
   }
 ]
