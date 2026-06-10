@@ -767,5 +767,30 @@
     "keyword": "TURNTABLE",
     "queued_at": "2026-06-09T10:28:21.487680Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_2026-06-10_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-06-10-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "My kitchen had been a low-grade mess for longer than I want to admit.\n\nI kept meaning to deal with it and kept not dealing with it. Things piled up, I could never find what I needed, and every time I opened it I just shut it again.\n\nThen I found a shelf-liner liner sitting at 4.7 stars across 2,556 reviews, and it finally gave everything a place.\n\nIt runs about $7.99 and it's the first thing in a while that just worked. The kitchen actually stays sorted now.\n\nComment LINER and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #kitchenorganization #smallspacesolutions #undersinkstorage",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#kitchenorganization",
+      "#smallspacesolutions",
+      "#undersinkstorage"
+    ],
+    "affiliate": {
+      "primary_product": "BAGAIL Non-Adhesive Non-Slip Shelf Liner 12\" x 10FT (black)",
+      "dm_keyword": "LINER",
+      "amazon_asin": "B0BXSMJK86",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B0BXSMJK86?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B0BXSMJK86?tag=goldenhomep06-20"
+    },
+    "hook": "My kitchen had been a low-grade mess for longer than I want to admit."
   }
 ]
