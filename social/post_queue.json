@@ -150,32 +150,6 @@
     "hook": "I had four years of bottles falling on my feet every morning."
   },
   {
-    "name": "reel_2026-05-31_003",
-    "status": "ready",
-    "script_path": "automation/scripts/reel-2026-05-31-003.json",
-    "media_type": "REELS",
-    "video_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-05-31-003.mp4",
-    "caption": "Buying more containers will never fix your under-sink cabinet.\n\nI tried clear bins. I tried stackable trays. I tried labeling everything. None of it solved the actual problem \u2014 that anything past the front 6 inches is functionally lost.\n\nWhat worked was a Simple Houseware 2-tier sliding basket. Chrome wire, 18 lbs per shelf, and the front rack slides independently to expose the back.\n\nI threw out two bins of duplicate cleaners I'd bought because I forgot the first ones existed. The cabinet finally works.\n\nComment LINK and I'll DM you the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #kitchenorganization #smallspacesolutions #undersinkstorage",
-    "hashtags": [
-      "#amazonhomefinds",
-      "#kitchenorganization",
-      "#smallspacesolutions",
-      "#undersinkstorage"
-    ],
-    "affiliate": {
-      "primary_product": "Simple Houseware 2-Tier Sliding Basket Organizer (chrome, under-sink)",
-      "dm_keyword": "LINK",
-      "amazon_asin": "B01M0TS64K",
-      "amazon_affiliate_url": "https://www.amazon.com/dp/B01M0TS64K?tag=goldenhomep06-20",
-      "asin_pending": false,
-      "fallback_brands": [],
-      "affiliate_network": "amazon",
-      "affiliate_url": null
-    },
-    "hook": "Buying more containers will never fix your under-sink cabinet.",
-    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-05-31-003.mp4"
-  },
-  {
     "id": "carousel-2026-05-31-B09CSS6YL4",
     "media_type": "CAROUSEL_ALBUM",
     "image_urls": [
