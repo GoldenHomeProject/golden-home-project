@@ -276,6 +276,26 @@
       "keyword": "LINER",
       "status": "live",
       "promoted_at": "2026-06-09T12:20:01Z"
+    },
+    {
+      "asin": "B085XVFQ62",
+      "product_name": "Vongrasig 5 Piece Patio Furniture Sets, Outdoor Patio Set Sectional Sofa, All-Weather PE Rattan Outdoor Couch with Ottoman, Glass Table for ",
+      "categories": [
+        "outdoor patio furniture",
+        "outdoor",
+        "patio",
+        "small"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B085XVFQ62?tag=goldenhomep06-20",
+      "verified_at": "2026-05-28",
+      "verified_stars": "4.1",
+      "verified_reviews": 2187,
+      "verified_price": "$251.08",
+      "discovered_from_trend": "Best Choice Products 4-piece cushioned outdoor patio conversation set",
+      "discovery_source": "asin_discoverer_auto",
+      "keyword": "PATIO",
+      "status": "live",
+      "promoted_at": "2026-06-10T12:20:01Z"
     }
   ],
   "_vetted_doc": "Verified-live Amazon ASINs cleared for blog/SEO/IG-caption use but NOT yet wired to a Meta comment-to-DM automation. Promote to `entries` (with a unique keyword) only AFTER creating the matching Meta Business Suite automation. Always use https://www.amazon.com/dp/<ASIN>?tag=goldenhomep06-20 \u2014 never search URLs.",
@@ -298,23 +318,6 @@
       "used_in": [
         "blog/posts/2026-05-20-under-sink-organizer-bathroom-pull-out-drawers.html"
       ]
-    },
-    {
-      "asin": "B085XVFQ62",
-      "product_name": "Vongrasig 5 Piece Patio Furniture Sets, Outdoor Patio Set Sectional Sofa, All-Weather PE Rattan Outdoor Couch with Ottoman, Glass Table for ",
-      "categories": [
-        "outdoor patio furniture",
-        "outdoor",
-        "patio",
-        "small"
-      ],
-      "affiliate_url": "https://www.amazon.com/dp/B085XVFQ62?tag=goldenhomep06-20",
-      "verified_at": "2026-05-28",
-      "verified_stars": "4.1",
-      "verified_reviews": 2187,
-      "verified_price": "$251.08",
-      "discovered_from_trend": "Best Choice Products 4-piece cushioned outdoor patio conversation set",
-      "discovery_source": "asin_discoverer_auto"
     },
     {
       "asin": "B0CXDJG5QM",
