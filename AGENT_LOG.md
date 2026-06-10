@@ -883,3 +883,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** automation/scripts/reel-2026-06-10-*.json, social/post_queue.json
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: wrong_until_right: My kitchen had been a low-grade mess for longer th
+
+## 2026-06-10T10:49:24Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B0CVVVNB9L (MIULEE Boho Farmhouse Sage Green Throw P)
+**Changed:** social/carousels/2026-06-10-B0CVVVNB9L/slide-1.png, social/carousels/2026-06-10-B0CVVVNB9L/slide-2.png, social/carousels/2026-06-10-B0CVVVNB9L/slide-3.png, social/carousels/2026-06-10-B0CVVVNB9L/slide-4.png, social/carousels/2026-06-10-B0CVVVNB9L/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B0CVVVNB9L carousel.

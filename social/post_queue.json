@@ -792,5 +792,21 @@
       "affiliate_url": "https://www.amazon.com/dp/B0BXSMJK86?tag=goldenhomep06-20"
     },
     "hook": "My kitchen had been a low-grade mess for longer than I want to admit."
+  },
+  {
+    "id": "carousel-2026-06-10-B0CVVVNB9L",
+    "media_type": "CAROUSEL_ALBUM",
+    "image_urls": [
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-10-B0CVVVNB9L/slide-1.png",
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-10-B0CVVVNB9L/slide-2.png",
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-10-B0CVVVNB9L/slide-3.png",
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-10-B0CVVVNB9L/slide-4.png",
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-10-B0CVVVNB9L/slide-5.png"
+    ],
+    "caption": "Four pillow covers that make a boring sofa look styled on purpose.\n\nSave this for later \u2014 sage green boho covers in corduroy are the fastest living room refresh that doesn't involve painting or buying new furniture. The fringe detail and muted farmhouse palette layer into almost any existing color scheme. \u2728\n\nComment THROW or DM me THROW for the direct link.\n\n#homedecor #bohohome #throwpillows #livingroomdecor #farmhousedecor",
+    "asin": "B0CVVVNB9L",
+    "keyword": "THROW",
+    "queued_at": "2026-06-10T10:49:24.541291Z",
+    "source": "carousel_generator"
   }
 ]
