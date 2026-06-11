@@ -371,6 +371,11 @@ def main() -> int:
         if made >= args.max:
             break
         asin = entry["asin"]
+        # Hard gate: only ASIN-verified products may become pins (April 2026
+        # dead-ASIN incident). status="live" is set by the verification flow.
+        if entry.get("status") != "live":
+            print(f"  [skip] {asin} status={entry.get('status')!r} — not ASIN-verified")
+            continue
         if not args.force and already_queued(asin, queue):
             continue
         board, board_q = board_for(entry)

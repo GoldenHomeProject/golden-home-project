@@ -311,30 +311,15 @@
         "storage"
       ],
       "affiliate_url": "https://www.amazon.com/dp/B0D176VGXZ?tag=goldenhomep06-20",
-      "verified_at": "2026-05-26",
+      "verified_at": "2026-06-11",
       "verified_stars": "4.7",
       "verified_reviews": 1773,
       "verified_price": "$46.99",
       "used_in": [
         "blog/posts/2026-05-20-under-sink-organizer-bathroom-pull-out-drawers.html"
-      ]
-    },
-    {
-      "asin": "B0CXDJG5QM",
-      "product_name": "Solar Bug Zapper Outdoor, 4500V Solar Mosquito Zapper Outdoor Waterproof, 1/2 Acre Coverage Rechargeable Electric Fly Zapper, Cordless Porta",
-      "categories": [
-        "outdoor mosquito control",
-        "mosquito",
-        "outdoor",
-        "best"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0CXDJG5QM?tag=goldenhomep06-20",
-      "verified_at": "2026-05-29",
-      "verified_stars": "4.4",
-      "verified_reviews": 483,
-      "verified_price": "$79.99",
-      "discovered_from_trend": "Thermacell patio shield mosquito repeller or solar mosquito zapper",
-      "discovery_source": "asin_discoverer_auto"
+      "status": "live",
+      "verified_method": "logged-in browser same-origin fetch (title+stock match)"
     },
     {
       "asin": "B0F8Q1Y3Z4",
@@ -346,12 +331,14 @@
         "small"
       ],
       "affiliate_url": "https://www.amazon.com/dp/B0F8Q1Y3Z4?tag=goldenhomep06-20",
-      "verified_at": "2026-05-29",
+      "verified_at": "2026-06-11",
       "verified_stars": "4.4",
       "verified_reviews": 124,
       "verified_price": "$179.99",
       "discovered_from_trend": "Modular hanging closet organizer with shelves, rods, and labeled bins",
-      "discovery_source": "asin_discoverer_auto"
+      "discovery_source": "asin_discoverer_auto",
+      "status": "live",
+      "verified_method": "logged-in browser same-origin fetch (title+stock match)"
     },
     {
       "asin": "B07WFXL22R",
@@ -363,12 +350,33 @@
         "open"
       ],
       "affiliate_url": "https://www.amazon.com/dp/B07WFXL22R?tag=goldenhomep06-20",
-      "verified_at": "2026-05-31",
+      "verified_at": "2026-06-11",
       "verified_stars": "4.5",
       "verified_reviews": 438,
       "verified_price": "$119.99",
       "discovered_from_trend": "Best Choice Products 5-shelf open bookcase room divider",
-      "discovery_source": "asin_discoverer_auto"
+      "discovery_source": "asin_discoverer_auto",
+      "status": "live",
+      "verified_method": "logged-in browser same-origin fetch (title+stock match)"
+    },
+    {
+      "asin": "B0CXDJG5QM",
+      "product_name": "Solar Bug Zapper Outdoor, 4500V Solar Mosquito Zapper Outdoor Waterproof, 1/2 Acre Coverage Rechargeable Electric Fly Zapper, Cordless Porta",
+      "categories": [
+        "outdoor mosquito control",
+        "mosquito",
+        "outdoor",
+        "best"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0CXDJG5QM?tag=goldenhomep06-20",
+      "verified_at": "2026-06-11",
+      "verified_stars": "4.4",
+      "verified_reviews": 483,
+      "verified_price": "$69.99",
+      "discovered_from_trend": "Thermacell patio shield mosquito repeller or solar mosquito zapper",
+      "discovery_source": "asin_discoverer_auto",
+      "status": "live",
+      "verified_method": "logged-in browser same-origin fetch (title+stock match)"
     }
   ]
 }
