@@ -21,6 +21,12 @@ status Completed; Pinterest URL added to Associates site list; 4 vetted ASINs ve
 live + registry curated (org products first); generator hard-skips unverified ASINs;
 board descriptions set + Outdoor & Patio board created. June: 14 clicks/0 orders.
 
+## DONE 2026-06-11 evening (channel audit): June blog posts had ZERO affiliate links ->
+retrofitted with verified products (B088WYYH85 blanket, B09W2F2L4C wallpaper) + pick_topic
+now prefers payable topics. Presenter reels: full-frame 9:16 + burned-in captions (smoke-
+tested). YT audit: daily poster DEAD since Apr 5; Ian s REAL footage (4,147-view decor
+Short, 2,635-view pond video) beats AI content 30-50x.
+
 ## Next session, in order
 1. Claim goldenhomeproject.com on Pinterest. Web /settings/claimed-accounts hard-errors
    for this account; use Pinterest MOBILE APP (Settings -> Claimed accounts) or Pi
@@ -29,7 +35,14 @@ board descriptions set + Outdoor & Patio board created. June: 14 clicks/0 orders
    system, bookshelf queued first). If impressions still ZERO by ~6/18 -> account
    likely spam-flagged -> plan fresh account with claimed domain from day 1.
 3. Consider Associates bonus-offer banner (expires 6/21) - owner decision, has terms.
-4. Do NOT add new infra. Quality, claim, measurement only.
+4. Investigate the dead YouTube poster (no upload since Apr 5) - where does
+   reel_producer actually publish? Fix or kill it.
+5. Repurpose Ian s EXISTING real footage (lake house build / room decor videos on the
+   channel) into Shorts with affiliate links - authentic visuals, zero new filming.
+   Highest-organic-reach asset GHP has access to.
+6. Reel quality next step: overlay product photo cards while each product is named;
+   18-30s scripts.
+7. Do NOT add new infra. Quality, claim, measurement only.
 
 Constraints: never hallucinate ASINs (verify /dp/ liveness via logged-in browser), affiliate
 links only /dp/ASIN?tag=goldenhomep06-20&ascsubtag=<channel>, FTC disclosure, en-US-AvaNeural,
