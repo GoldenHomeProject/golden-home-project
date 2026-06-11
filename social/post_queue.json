@@ -150,22 +150,6 @@
     "hook": "I had four years of bottles falling on my feet every morning."
   },
   {
-    "id": "carousel-2026-05-31-B09CSS6YL4",
-    "media_type": "CAROUSEL_ALBUM",
-    "image_urls": [
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-05-31-B09CSS6YL4/slide-1.png",
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-05-31-B09CSS6YL4/slide-2.png",
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-05-31-B09CSS6YL4/slide-3.png",
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-05-31-B09CSS6YL4/slide-4.png",
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-05-31-B09CSS6YL4/slide-5.png"
-    ],
-    "caption": "The one plug-in upgrade that makes your home safer after dark.\n\nSave this for later \u2014 this is the small fix that solves the most overlooked problem in any home. The right night lights in the right spots mean no more fumbling, no partner woken up, and no blinding overhead lights disrupting your sleep at 2 a.m. \u2728\n\nComment NIGHTLIGHT or DM me NIGHTLIGHT for the link.\n\n#homeorganization #nightlight #bedroomdecor #hallwaydecor #homelighting",
-    "asin": "B09CSS6YL4",
-    "keyword": "NIGHTLIGHT",
-    "queued_at": "2026-05-31T09:43:18.317754Z",
-    "source": "carousel_generator"
-  },
-  {
     "name": "reel_2026-06-01_001",
     "status": "ready",
     "script_path": "automation/scripts/reel-2026-06-01-001.json",
