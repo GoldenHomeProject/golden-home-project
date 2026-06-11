@@ -34,6 +34,13 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 QUEUE_PATH = REPO_ROOT / "social" / "pinterest_queue.json"
 LOG_PATH = REPO_ROOT / "social" / "pinterest_post_log.json"
+# Out-of-repo ledger of everything ever published. The repo copies of the
+# queue/log get clobbered by the daily-loop/daily-strategy `git reset --hard
+# origin/main` (see reflog 2026-06-07..10), which wiped posted=True flags and
+# made this poster re-publish the same 4 pins ~28 times. The ledger lives
+# outside the repo so no git operation can erase it; it is the source of
+# truth for "already posted" and for the daily cap.
+LEDGER_PATH = Path.home() / ".ghp-engagement" / "pinterest_posted_ledger.json"
 PROFILE_DIR = Path.home() / ".config" / "ghp-chromium"
 CHROMIUM_BIN = "/usr/bin/chromium"
 # Use /pin-builder/ — /pin-creation-tool/ renders a different layout that
@@ -71,10 +78,51 @@ def jitter(lo: float, hi: float) -> None:
     time.sleep(random.uniform(lo, hi))
 
 
+def load_ledger() -> dict:
+    return load_json(LEDGER_PATH, {"posted": []})
+
+
+def ledger_record(pin: dict) -> None:
+    led = load_ledger()
+    led["posted"].append({
+        "ts": dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "pin_id": pin["id"],
+        "asin": pin.get("asin", ""),
+    })
+    LEDGER_PATH.parent.mkdir(parents=True, exist_ok=True)
+    LEDGER_PATH.write_text(json.dumps(led, indent=2))
+
+
+def git_sync_state() -> None:
+    """Best-effort: commit+push the queue/log so posted flags survive the
+    daily `git reset --hard origin/main` jobs. The ledger protects against
+    duplicates even when this fails (offline, push race, rebase conflict)."""
+    import subprocess
+    def run(*args):
+        return subprocess.run(["git", "-C", str(REPO_ROOT), *args],
+                              capture_output=True, text=True, timeout=120)
+    try:
+        run("add", str(QUEUE_PATH), str(LOG_PATH))
+        c = run("commit", "-m", "pinterest: persist posted state [poster]")
+        if c.returncode != 0:
+            return  # nothing to commit
+        run("pull", "--rebase", "--autostash", "--quiet", "origin", "main")
+        p = run("push", "--quiet", "origin", "main")
+        if p.returncode != 0:
+            print(f"[pinterest] state push failed (ledger still protects): {p.stderr.strip()[:200]}")
+    except Exception as e:
+        print(f"[pinterest] git_sync_state error (non-fatal): {e}")
+
+
 def posted_today(log: dict) -> int:
+    # Count from BOTH the repo log and the out-of-repo ledger; the repo log
+    # gets wiped by the daily reset jobs, which used to break the daily cap.
     today = dt.datetime.utcnow().strftime("%Y-%m-%d")
-    return sum(1 for e in log.get("events", [])
-               if e.get("action") == "pin_published" and e.get("ts", "").startswith(today))
+    from_log = sum(1 for e in log.get("events", [])
+                   if e.get("action") == "pin_published" and e.get("ts", "").startswith(today))
+    from_ledger = sum(1 for e in load_ledger().get("posted", [])
+                      if e.get("ts", "").startswith(today))
+    return max(from_log, from_ledger)
 
 
 def detect_login_wall(page) -> bool:
@@ -238,7 +286,13 @@ def main() -> int:
     queue = load_json(QUEUE_PATH, [])
     log = load_json(LOG_PATH, {"events": []})
     remaining = max(0, args.max - posted_today(log))
-    pending = [p for p in queue if not p.get("posted")]
+    led = load_ledger()
+    led_ids = {e.get("pin_id") for e in led.get("posted", [])}
+    led_asins = {e.get("asin") for e in led.get("posted", []) if e.get("asin")}
+    pending = [p for p in queue
+               if not p.get("posted")
+               and p["id"] not in led_ids
+               and p.get("asin") not in led_asins]
     if not pending:
         print("[pinterest] queue empty — nothing to post. Run pinterest_pipeline.py to refill.")
         return 0
@@ -251,9 +305,11 @@ def main() -> int:
         result = publish_pin(pin, args.dry)
         print(f"[pinterest] {pin['id']}: {result}")
         if result in ("published",):
+            ledger_record(pin)  # FIRST: durable, git-proof record
             pin["posted"] = True
             pin["posted_at"] = dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
             save_queue(queue)
+            git_sync_state()
             done += 1
             jitter(20, 45)  # space out real posts
         elif result == "dry_run_ok":
@@ -265,9 +321,18 @@ def main() -> int:
             print("  -> stopping: Pinterest flagged activity. Back off and investigate.")
             return 1
         elif result == "publish_unconfirmed":
+            # The click went through; the toast just wasn't seen. Assume it
+            # IS live: a skipped pin costs one slot, a re-post costs another
+            # spam-pattern duplicate on the account (the 2026-06 incident).
+            ledger_record(pin)
+            pin["posted"] = True
+            pin["posted_at"] = dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+            pin["unconfirmed"] = True
+            save_queue(queue)
+            git_sync_state()
             print("  -> stopping: clicked publish but saw no success toast. "
-                  "Pin left pending; verify the account before re-running to "
-                  "avoid a double-post.")
+                  "Marked posted (unconfirmed) to prevent duplicate re-posts; "
+                  "verify on the profile.")
             return 1
     print(f"[pinterest] {done} pin(s) {'(dry)' if args.dry else 'published'}; "
           f"{len(pending) - (done if not args.dry else 0)} pending.")

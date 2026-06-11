@@ -79,8 +79,9 @@
     "image_path": "social/pinterest/pin-2026-05-30-B07ZL2BFMP.png",
     "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/pinterest/pin-2026-05-30-B07ZL2BFMP.png",
     "queued_at": "2026-05-30T03:50:25.946181Z",
-    "posted": false,
-    "source": "pinterest_pipeline"
+    "posted": true,
+    "source": "pinterest_pipeline",
+    "posted_at": "2026-06-10T23:25:25Z"
   },
   {
     "id": "pin-2026-05-30-B099S9DXT7",
@@ -92,47 +93,9 @@
     "image_path": "social/pinterest/pin-2026-05-30-B099S9DXT7.png",
     "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/pinterest/pin-2026-05-30-B099S9DXT7.png",
     "queued_at": "2026-05-30T03:50:26.268880Z",
-    "posted": false,
-    "source": "pinterest_pipeline"
-  },
-  {
-    "id": "pin-2026-05-30-B099NTSWD9",
-    "asin": "B099NTSWD9",
-    "board": "Kitchen Organization Ideas",
-    "title": "FoodSaver VS2150 Vacuum Sealing System: Kitchen Organization",
-    "description": "FoodSaver VS2150 Vacuum Sealing System is the kitchen organization upgrade I wish I'd found sooner. Tap through for the full breakdown and where to get it. Amazon affiliate \u2014 I may earn a small commission at no extra cost to you.",
-    "link": "https://www.amazon.com/dp/B099NTSWD9?tag=goldenhomep06-20&ascsubtag=pinterest",
-    "image_path": "social/pinterest/pin-2026-05-30-B099NTSWD9.png",
-    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/pinterest/pin-2026-05-30-B099NTSWD9.png",
-    "queued_at": "2026-05-30T03:50:26.594643Z",
-    "posted": false,
-    "source": "pinterest_pipeline"
-  },
-  {
-    "id": "pin-2026-05-30-B00DU5SRIY",
-    "asin": "B00DU5SRIY",
-    "board": "Kitchen Organization Ideas",
-    "title": "Stardrops The Pink Stuff Cleaning Paste: Kitchen Organization",
-    "description": "Stardrops The Pink Stuff Cleaning Paste is the kitchen organization upgrade I wish I'd found sooner. Tap through for the full breakdown and where to get it. Amazon affiliate \u2014 I may earn a small commission at no extra cost to you.",
-    "link": "https://www.amazon.com/dp/B00DU5SRIY?tag=goldenhomep06-20&ascsubtag=pinterest",
-    "image_path": "social/pinterest/pin-2026-05-30-B00DU5SRIY.png",
-    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/pinterest/pin-2026-05-30-B00DU5SRIY.png",
-    "queued_at": "2026-05-30T03:50:26.920764Z",
-    "posted": false,
-    "source": "pinterest_pipeline"
-  },
-  {
-    "id": "pin-2026-05-30-B00BAGTNAQ",
-    "asin": "B00BAGTNAQ",
-    "board": "Home Organization Finds",
-    "title": "ChomChom Roller Pet Hair Remover: Home Organization",
-    "description": "ChomChom Roller Pet Hair Remover is the home organization upgrade I wish I'd found sooner. Tap through for the full breakdown and where to get it. Amazon affiliate \u2014 I may earn a small commission at no extra cost to you.",
-    "link": "https://www.amazon.com/dp/B00BAGTNAQ?tag=goldenhomep06-20&ascsubtag=pinterest",
-    "image_path": "social/pinterest/pin-2026-05-30-B00BAGTNAQ.png",
-    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/pinterest/pin-2026-05-30-B00BAGTNAQ.png",
-    "queued_at": "2026-05-30T03:50:27.270488Z",
-    "posted": false,
-    "source": "pinterest_pipeline"
+    "posted": true,
+    "source": "pinterest_pipeline",
+    "posted_at": "2026-06-10T23:26:24Z"
   },
   {
     "id": "pin-2026-06-08-B07Y39ZXV7",

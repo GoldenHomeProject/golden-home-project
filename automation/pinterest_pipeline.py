@@ -411,6 +411,25 @@ def main() -> int:
     QUEUE_PATH.write_text(json.dumps(queue, indent=2))
     print(f"[pinterest] generated {made} new pin(s); queue now {len(queue)} total -> {QUEUE_PATH.relative_to(ROOT)}")
 
+    # Commit+push the queue right away: the 06:30 ghp-daily-loop and the
+    # ~10:13 ghp-daily-strategy jobs `git reset --hard origin/main`, which
+    # silently deleted freshly generated (uncommitted) queue entries.
+    if made:
+        import subprocess
+        def _git(*a):
+            return subprocess.run(["git", "-C", str(ROOT), *a],
+                                  capture_output=True, text=True, timeout=120)
+        try:
+            _git("add", str(QUEUE_PATH))
+            c = _git("commit", "-m", f"pinterest: queue +{made} pin(s) [generator]")
+            if c.returncode == 0:
+                _git("pull", "--rebase", "--autostash", "--quiet", "origin", "main")
+                p = _git("push", "--quiet", "origin", "main")
+                if p.returncode != 0:
+                    print(f"[pinterest] queue push failed: {p.stderr.strip()[:200]}")
+        except Exception as e:
+            print(f"[pinterest] queue git sync error (non-fatal): {e}")
+
     if made:
         append_log_entry(
             agent="Pinterest Pipeline",
