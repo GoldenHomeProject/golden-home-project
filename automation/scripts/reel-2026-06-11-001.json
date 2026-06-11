@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-06-11T10:03:18.810937Z",
+  "date": "2026-06-11",
+  "seq": 1,
+  "hook_category": "wrong_until_right",
+  "hook": "My patio had been a low-grade mess for longer than I want to admit.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "first-person POV of a cluttered patio, things spilling out",
+      "on_screen_text": "THIS WAS EVERY DAY",
+      "voiceover": "My patio had been a mess for longer than I'll admit."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "close-up of disorganized items in the patio",
+      "on_screen_text": "COULD NEVER FIND ANYTHING",
+      "voiceover": "I kept meaning to deal with it and kept not dealing with it."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "person shutting a door/drawer in frustration",
+      "on_screen_text": "SO I GAVE UP",
+      "voiceover": "Every time I opened it I just shut it again."
+    },
+    {
+      "n": 4,
+      "duration_sec": 5,
+      "visual_prompt": "the patio in use, everything organized and visible",
+      "on_screen_text": "THEN THIS",
+      "voiceover": "Then I found a patio that finally gave everything a place."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "satisfying final shot of the tidy patio",
+      "on_screen_text": "STAYS SORTED NOW",
+      "voiceover": "The patio actually stays sorted now."
+    }
+  ],
+  "caption": "My patio had been a low-grade mess for longer than I want to admit.\n\nI kept meaning to deal with it and kept not dealing with it. Things piled up, I could never find what I needed, and every time I opened it I just shut it again.\n\nThen I found a patio patio sitting at 4.1 stars across 2,187 reviews, and it finally gave everything a place.\n\nIt runs about $251.08 and it's the first thing in a while that just worked. The patio actually stays sorted now.\n\nComment PATIO and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "Then I found a patio patio sitting at 4.1 stars across 2,187 reviews, and it finally gave everything a place.",
+  "affiliate_strategy": {
+    "primary_product": "Vongrasig 5 Piece Patio Furniture Sets, Outdoor Patio Set Sectional Sofa, All-Weather PE Rattan Outdoor Couch with Ottoman, Glass Table for ",
+    "dm_keyword": "PATIO",
+    "amazon_asin": "B085XVFQ62",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B085XVFQ62?tag=goldenhomep06-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": "https://www.amazon.com/dp/B085XVFQ62?tag=goldenhomep06-20"
+  }
+}
