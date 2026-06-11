@@ -148,5 +148,57 @@
     "queued_at": "2026-06-08T01:43:17.847288Z",
     "posted": false,
     "source": "pinterest_pipeline"
+  },
+  {
+    "id": "pin-2026-06-11-B099NTSWD9",
+    "asin": "B099NTSWD9",
+    "board": "Kitchen Organization Ideas",
+    "title": "Vacuum Sealer for Kitchen Food Storage & Meal Prep Organization",
+    "description": "Keep your fridge, freezer, and pantry organized with the FoodSaver VS2150 vacuum sealing system. Seals bags airtight to prevent freezer burn, extend freshness up to 5x longer, and cut food waste \u2014 perfect for meal prep, bulk buys, and sous vide. Compact countertop design fits small kitchens. Tap to see it on Amazon. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B099NTSWD9?tag=goldenhomep06-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-06-11-B099NTSWD9.png",
+    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/pinterest/pin-2026-06-11-B099NTSWD9.png",
+    "queued_at": "2026-06-11T10:10:13.609607Z",
+    "posted": false,
+    "source": "pinterest_pipeline"
+  },
+  {
+    "id": "pin-2026-06-11-B00DU5SRIY",
+    "asin": "B00DU5SRIY",
+    "board": "Kitchen Organization Ideas",
+    "title": "Pink Stuff Cleaning Paste: Multi-Surface Kitchen & Bathroom Cleaner",
+    "description": "The Pink Stuff cleaning paste tackles tough kitchen and bathroom messes \u2014 burnt-on stovetop grease, stained sinks, soap-scummy tubs, and grimy grout. A little dab on a damp sponge lifts cooked-on residue from pots, oven racks, and glass cooktops without harsh fumes. Great for stainless steel, ceramic, tile, and chrome fixtures too. Tap through for current price and reviews. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B00DU5SRIY?tag=goldenhomep06-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-06-11-B00DU5SRIY.png",
+    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/pinterest/pin-2026-06-11-B00DU5SRIY.png",
+    "queued_at": "2026-06-11T10:10:23.806129Z",
+    "posted": false,
+    "source": "pinterest_pipeline"
+  },
+  {
+    "id": "pin-2026-06-11-B00BAGTNAQ",
+    "asin": "B00BAGTNAQ",
+    "board": "Home Organization Finds",
+    "title": "Reusable Pet Hair Remover Roller for Couches, Carpets & Car Seats",
+    "description": "Keep your living room fur-free without buying sticky refills. The ChomChom Roller picks up dog and cat hair from couches, rugs, bedding, blankets, and car seats \u2014 just roll back and forth, empty the built-in compartment, and reuse forever. A small, mighty addition to any pet-friendly home cleaning routine. Tap to see why it has hundreds of thousands of reviews. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B00BAGTNAQ?tag=goldenhomep06-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-06-11-B00BAGTNAQ.png",
+    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/pinterest/pin-2026-06-11-B00BAGTNAQ.png",
+    "queued_at": "2026-06-11T10:10:34.157177Z",
+    "posted": false,
+    "source": "pinterest_pipeline"
+  },
+  {
+    "id": "pin-2026-06-11-B0CVVVNB9L",
+    "asin": "B0CVVVNB9L",
+    "board": "Home Organization Finds",
+    "title": "Sage Green Boho Throw Pillow Covers 18x18 Set of 4 \u2014 Farmhouse Corduroy Cushion Covers",
+    "description": "Refresh your couch or bed with these MIULEE sage green throw pillow covers in a soft corduroy texture \u2014 18x18 inches, set of 4, easy zipper closure. The modern Nordic farmhouse look layers beautifully with boho, fringe, and maximalist decor for spring and year-round styling. Mix with neutrals or bold patterns for an instant living room glow-up. Tap to see colors and reviews. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B0CVVVNB9L?tag=goldenhomep06-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-06-11-B0CVVVNB9L.png",
+    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/pinterest/pin-2026-06-11-B0CVVVNB9L.png",
+    "queued_at": "2026-06-11T10:10:45.232655Z",
+    "posted": false,
+    "source": "pinterest_pipeline"
   }
 ]
