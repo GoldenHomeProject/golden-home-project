@@ -109,10 +109,20 @@ def _is_near_duplicate(opp: dict) -> bool:
     return False
 
 
+def _has_payable_product(opp: dict) -> bool:
+    """True when some field of the opportunity maps to a live registry ASIN —
+    i.e. the post would ship with a real affiliate CTA instead of cta-disabled."""
+    for k in ("specific_product", "keyword", "product_category", "title", "topic"):
+        q = str(opp.get(k, "")).strip()
+        if q and lookup_registry_product(q):
+            return True
+    return False
+
+
 def pick_topic() -> dict | None:
     """Pull the highest-composite opportunity from today's trend feed.
 
-    Two guards, in order:
+    Guards, in order:
     1. COVER-cluster hardblock (2026-05-11, CEO directive + GSC sandbox
        protection): skip any topic matching the sofa/couch/slipcover cluster.
        The 8 COVER posts published 2026-04-22→05-06 are the only primary signal
@@ -120,6 +130,10 @@ def pick_topic() -> dict | None:
     2. General near-duplicate guard: skip any topic that substantially overlaps
        an already-published post (any cluster). Stops the duplicate-content
        self-sabotage that split ranking signal across the sofa posts.
+    3. Monetization preference (2026-06-11, after the 6/03 + 6/10 posts shipped
+       with ZERO affiliate links): first pass only accepts topics that map to a
+       live registry ASIN; an unmonetized topic is used only when nothing
+       payable is available, so the weekly cadence never silently goes dark.
     """
     if not TREND_FEED.exists():
         print("[blog-writer] No trend feed available.")
@@ -128,18 +142,30 @@ def pick_topic() -> dict | None:
     opps = feed.get("opportunities", [])
 
     cover_terms = ("cover", "slipcover", "couch", "sofa", "loveseat", "sectional")
-    for opp in opps:
+
+    def _eligible(opp):
         haystack = " ".join(
             str(opp.get(k, "")).lower()
             for k in ("product_category", "specific_product", "keyword", "title", "topic")
         )
         if any(term in haystack for term in cover_terms):
             print(f"[blog-writer] SKIPPING COVER-cluster topic until 2026-06-05: {haystack[:80]}")
-            continue
+            return False
         if _is_near_duplicate(opp):
             print(f"[blog-writer] SKIPPING near-duplicate of existing post: {haystack[:80]}")
-            continue
-        return opp
+            return False
+        return True
+
+    eligible = [o for o in opps if _eligible(o)]
+    for opp in eligible:
+        if _has_payable_product(opp):
+            return opp
+        print("[blog-writer] deferring topic with no live registry ASIN "
+              f"(would ship unmonetized): {str(opp.get('keyword') or opp.get('topic') or '')[:60]}")
+    if eligible:
+        print("[blog-writer] WARNING: no payable topic available — shipping "
+              "best unmonetized topic to keep weekly cadence. Grow the vetted pool!")
+        return eligible[0]
     print("[blog-writer] No fresh non-COVER opportunities available today.")
     return None
 

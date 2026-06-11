@@ -377,6 +377,44 @@
       "discovery_source": "asin_discoverer_auto",
       "status": "live",
       "verified_method": "logged-in browser same-origin fetch (title+stock match)"
+    },
+    {
+      "asin": "B088WYYH85",
+      "product_name": "Bedsure Cooling Waffle Queen Blanket (rayon from bamboo)",
+      "categories": [
+        "bedroom",
+        "bedding",
+        "cooling"
+      ],
+      "status": "live",
+      "verified_at": "2026-06-11",
+      "verified_price": "$39.99",
+      "verified_stars": "4.5",
+      "verified_reviews": "24159",
+      "verified_method": "logged-in browser same-origin fetch",
+      "affiliate_url": "https://www.amazon.com/dp/B088WYYH85?tag=goldenhomep06-20",
+      "used_in": [
+        "blog/posts/2026-06-03-best-bamboo-cooling-quilt-summer-bedding-hot-sleepers.html"
+      ]
+    },
+    {
+      "asin": "B09W2F2L4C",
+      "product_name": "Sevalo Wood Peel and Stick Wallpaper (light wood grain contact paper)",
+      "categories": [
+        "diy",
+        "wallpaper",
+        "renter-friendly"
+      ],
+      "status": "live",
+      "verified_at": "2026-06-11",
+      "verified_price": "$7.99",
+      "verified_stars": "4.3",
+      "verified_reviews": "7172",
+      "verified_method": "logged-in browser same-origin fetch",
+      "affiliate_url": "https://www.amazon.com/dp/B09W2F2L4C?tag=goldenhomep06-20",
+      "used_in": [
+        "blog/posts/2026-06-10-faux-wood-peel-and-stick-wallpaper-bathroom-makeover.html"
+      ]
     }
   ]
 }
