@@ -16,20 +16,20 @@ project_ghp_2026-06-11_pinterest_dup_incident + project_ghp_ceo_prompt first.
 - Competitor data (social/competitive_intel.jsonl): all 7 winning home-org accounts have
   CLAIMED domains; views track pin volume + keywords, not followers.
 
+## DONE 2026-06-11 PM (owner-approved): 26 dup pins deleted (7 clean remain); tax
+status Completed; Pinterest URL added to Associates site list; 4 vetted ASINs verified
+live + registry curated (org products first); generator hard-skips unverified ASINs;
+board descriptions set + Outdoor & Patio board created. June: 14 clicks/0 orders.
+
 ## Next session, in order
-1. If owner approved: delete the ~26 duplicate template pins on @goldenhomeprojectllc
-   (keep 1 per product). Bulk-select via board organize, or Pi Playwright.
-2. Claim goldenhomeproject.com on Pinterest. Web /settings/claimed-accounts hard-errors;
-   use Pinterest MOBILE APP (Settings → Claimed accounts) or retry from Pi Chromium. Then
-   add the p:domain_verify meta tag to the site head (we control the repo) and verify.
-3. Check Pinterest analytics (analytics.pinterest.com). Photo pins started ~6/12;
-   if impressions still ZERO by ~6/18 with clean photo pins → account likely flagged →
-   plan fresh account with claimed domain from day 1 (account creation is authorized).
-4. Amazon Associates housekeeping (needs goldenhomeprojectllc@gmail.com login): confirm
-   tax info complete; add Pinterest profile to the Associates sites list (direct /dp/
-   pins are a ToS risk otherwise). Blog-linked pins avoid this entirely - blog_url_for
-   already prefers blog when a post exists.
-5. Do NOT add new infra. Pinterest hygiene + claim + measurement only.
+1. Claim goldenhomeproject.com on Pinterest. Web /settings/claimed-accounts hard-errors
+   for this account; use Pinterest MOBILE APP (Settings -> Claimed accounts) or Pi
+   Chromium. Then add the p:domain_verify meta tag to the site head and verify.
+2. Check Pinterest analytics. Photo pins post 2/day from 6/11 (under-sink, closet
+   system, bookshelf queued first). If impressions still ZERO by ~6/18 -> account
+   likely spam-flagged -> plan fresh account with claimed domain from day 1.
+3. Consider Associates bonus-offer banner (expires 6/21) - owner decision, has terms.
+4. Do NOT add new infra. Quality, claim, measurement only.
 
 Constraints: never hallucinate ASINs (verify /dp/ liveness via logged-in browser), affiliate
 links only /dp/ASIN?tag=goldenhomep06-20&ascsubtag=<channel>, FTC disclosure, en-US-AvaNeural,
