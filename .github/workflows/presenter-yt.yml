@@ -1,0 +1,50 @@
+name: Presenter Reel to YouTube
+
+on:
+  push:
+    paths:
+      - "social/reels/presenter/reel-*.json"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: presenter-yt
+  cancel-in-progress: false
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Google API libraries
+        run: pip install --quiet google-auth google-auth-oauthlib google-api-python-client
+
+      - name: Write YouTube token
+        env:
+          YT_TOKEN_JSON: ${{ secrets.YT_TOKEN_JSON }}
+        run: |
+          mkdir -p automation/logs
+          echo "$YT_TOKEN_JSON" > automation/logs/yt_token.json
+
+      - name: Upload newest presenter reel
+        run: python3 automation/presenter_yt_upload.py
+
+      - name: Cleanup credentials
+        if: always()
+        run: rm -f automation/logs/yt_token.json
+
+      - name: Commit marker and remove uploaded binary
+        run: |
+          git config user.name "GHP Bot"
+          git config user.email "goldenhomeprojectllc@gmail.com"
+          git pull --rebase --autostash --quiet || true
+          git add -A social/reels/presenter automation/logs/posting_log.json || true
+          git diff --staged --quiet || git commit -m "presenter reel: YouTube upload marker"
+          git push || true
