@@ -28,9 +28,8 @@ tested). YT audit: daily poster DEAD since Apr 5; Ian s REAL footage (4,147-view
 Short, 2,635-view pond video) beats AI content 30-50x.
 
 ## Next session, in order
-1. Claim goldenhomeproject.com on Pinterest. Web /settings/claimed-accounts hard-errors
-   for this account; use Pinterest MOBILE APP (Settings -> Claimed accounts) or Pi
-   Chromium. Then add the p:domain_verify meta tag to the site head and verify.
+1. DONE 6/11: goldenhomeproject.com CLAIMED on Pinterest (Settings -> Link to
+   Pinterest -> Websites -> Claim; meta tag in index.html + blog/index.html).
 2. Check Pinterest analytics. Photo pins post 2/day from 6/11 (under-sink, closet
    system, bookshelf queued first). If impressions still ZERO by ~6/18 -> account
    likely spam-flagged -> plan fresh account with claimed domain from day 1.
