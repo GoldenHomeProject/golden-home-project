@@ -27,6 +27,11 @@ now prefers payable topics. Presenter reels: full-frame 9:16 + burned-in caption
 tested). YT audit: daily poster DEAD since Apr 5; Ian s REAL footage (4,147-view decor
 Short, 2,635-view pond video) beats AI content 30-50x.
 
+## DONE 6/11 late: shoppable reels — real listing photos for all 23 products in
+social/product_images/, PiP product card + price chip in composite (smoke-tested),
+lifelike persona prompt, 10 registry prices backfilled. First production render
+tonight 23:00 — VERIFY the output video + IG post next session, not just the cron.
+
 ## Next session, in order
 1. DONE 6/11: goldenhomeproject.com CLAIMED on Pinterest (Settings -> Link to
    Pinterest -> Websites -> Claim; meta tag in index.html + blog/index.html).
