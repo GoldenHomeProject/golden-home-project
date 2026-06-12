@@ -4,10 +4,10 @@
     "lifetime_follows": 19,
     "lifetime_likes": 33,
     "lifetime_comments": 7,
-    "last_session": "2026-06-12-1345-pi",
+    "last_session": "comments-2026-06-12T1403Z",
     "blocked_at": null,
-    "last_updated": "2026-06-12T13:45:54Z",
-    "total_actions": 145,
+    "last_updated": "2026-06-12T14:10:06Z",
+    "total_actions": 151,
     "lifetime_dms": 8,
     "lifetime_comments_outbound": 10
   },
@@ -4892,6 +4892,48 @@
       "notifications": [],
       "untapped_warm": [],
       "dry_run": false
+    },
+    {
+      "timestamp": "2026-06-12T14:03:25Z",
+      "action": "comment_error",
+      "target": "organizedbyellis",
+      "session": "comments-2026-06-12T1403Z",
+      "reason": "no_posts_on_profile"
+    },
+    {
+      "timestamp": "2026-06-12T14:04:33Z",
+      "action": "comment_error",
+      "target": "iheartorganizing",
+      "session": "comments-2026-06-12T1403Z",
+      "reason": "no_posts_on_profile"
+    },
+    {
+      "timestamp": "2026-06-12T14:05:34Z",
+      "action": "comment_error",
+      "target": "neatmethod",
+      "session": "comments-2026-06-12T1403Z",
+      "reason": "no_posts_on_profile"
+    },
+    {
+      "timestamp": "2026-06-12T14:07:06Z",
+      "action": "comment_error",
+      "target": "cindyology",
+      "session": "comments-2026-06-12T1403Z",
+      "reason": "no_posts_on_profile"
+    },
+    {
+      "timestamp": "2026-06-12T14:08:41Z",
+      "action": "comment_error",
+      "target": "shiragill",
+      "session": "comments-2026-06-12T1403Z",
+      "reason": "no_posts_on_profile"
+    },
+    {
+      "timestamp": "2026-06-12T14:10:06Z",
+      "action": "comment_error",
+      "target": "thehomeedit",
+      "session": "comments-2026-06-12T1403Z",
+      "reason": "no_posts_on_profile"
     }
   ]
 }
