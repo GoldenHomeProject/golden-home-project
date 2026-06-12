@@ -943,3 +943,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** social/pinterest_queue.json
 **External actions:** Pexels (backgrounds) + Claude CLI (pin copy)
 **Next agent hint:** post_pinterest.py (Pi) drains pinterest_queue.json once a Pinterest business account is logged into the Pi Chromium profile.
+
+## 2026-06-12T10:57:48Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B085XVFQ62 (Vongrasig 5 Piece Patio Furniture Sets, )
+**Changed:** social/carousels/2026-06-12-B085XVFQ62/slide-1.png, social/carousels/2026-06-12-B085XVFQ62/slide-2.png, social/carousels/2026-06-12-B085XVFQ62/slide-3.png, social/carousels/2026-06-12-B085XVFQ62/slide-4.png, social/carousels/2026-06-12-B085XVFQ62/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B085XVFQ62 carousel.
