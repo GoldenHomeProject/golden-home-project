@@ -169,6 +169,42 @@ def main() -> int:
                f"likely Meta token/API issue.", "high")
         return 1
 
+    # Queue the reel for YouTube Shorts: commit video + metadata to the repo;
+    # the presenter-yt GitHub Action uploads with the YT_TOKEN_JSON secret
+    # (the Pi has no YouTube token). Non-fatal — IG publish already succeeded.
+    try:
+        import shutil
+        post_meta = json.loads((PRES / "out" / "reel_auto_final.post.json").read_text())
+        d = datetime.date.today().isoformat()
+        qdir = REPO / "social" / "reels" / "presenter"
+        qdir.mkdir(parents=True, exist_ok=True)
+        vname = f"reel-{d}.mp4"
+        shutil.copy(final, qdir / vname)
+        lines = [post_meta.get("hook", "").strip(), ""]
+        for prod in post_meta.get("products", []):
+            url = str(prod.get("url", "")).replace("ascsubtag=instagram", "ascsubtag=youtube")
+            lines.append(f"{prod.get('slot', '')}. {prod.get('product_name', '')}\n{url}")
+        lines += ["", "As an Amazon Associate, Golden Home Project earns from "
+                      "qualifying purchases. #ad #affiliate"]
+        (qdir / f"reel-{d}.json").write_text(json.dumps({
+            "video": vname,
+            "title": post_meta.get("hook", "Golden Home Project finds")[:95],
+            "description": "\n".join(lines),
+            "privacy": "public",
+        }, indent=1))
+        def _git(*a):
+            return subprocess.run(["git", "-C", str(REPO), *a],
+                                  capture_output=True, text=True, timeout=180)
+        _git("add", str(qdir))
+        c = _git("commit", "-m", f"presenter reel {d}: queue for YouTube upload")
+        if c.returncode == 0:
+            _git("pull", "--rebase", "--autostash", "--quiet", "origin", "main")
+            pushed = _git("push", "--quiet", "origin", "main")
+            log(f"[yt] queued {vname} for YouTube "
+                f"({'push ok' if pushed.returncode == 0 else 'PUSH FAILED'})")
+    except Exception as exc:
+        log(f"[yt] queue failed (non-fatal): {exc}")
+
     STATE.write_text(str((idx + 1) % len(rot)))
     reset_streak()
     log(f"[ok] published {entry['name']}; next idx={(idx + 1) % len(rot)}")
