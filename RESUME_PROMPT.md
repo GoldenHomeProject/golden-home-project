@@ -39,8 +39,11 @@ tonight 23:00 — VERIFY the output video + IG post next session, not just the c
    system, bookshelf queued first). If impressions still ZERO by ~6/18 -> account
    likely spam-flagged -> plan fresh account with claimed domain from day 1.
 3. Consider Associates bonus-offer banner (expires 6/21) - owner decision, has terms.
-4. Investigate the dead YouTube poster (no upload since Apr 5) - where does
-   reel_producer actually publish? Fix or kill it.
+4. RESOLVED 6/11: YT poster was never dead - it posts daily to the dedicated
+   @goldenhomeproject channel (I audited the wrong/personal channel). NEW: nightly
+   presenter reels now ALSO go to YouTube Shorts via presenter-yt.yml (end-to-end
+   test passed). Next: check @goldenhomeproject Shorts view counts - if ~0/Short,
+   the AI-reel format needs the real-footage pivot even on YT.
 5. Repurpose Ian s EXISTING real footage (lake house build / room decor videos on the
    channel) into Shorts with affiliate links - authentic visuals, zero new filming.
    Highest-organic-reach asset GHP has access to.
