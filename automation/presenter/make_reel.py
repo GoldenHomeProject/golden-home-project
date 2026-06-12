@@ -21,9 +21,12 @@ LTX_SPACE = "multimodalart/ltx2-audio-to-video"
 PROMPT = ("A friendly young woman presenter looking directly at the camera and speaking, "
           "lips in sync with her words, calm steady upright posture, shoulders square to camera, "
           "minimal subtle head movement, natural eye blinking, relaxed natural expression, "
-          "well-proportioned neck and shoulders, photorealistic portrait")
+          "well-proportioned neck and shoulders, natural skin texture with visible pores and "
+          "subtle imperfections, soft natural window light, candid vlog style as if shot on a "
+          "smartphone front camera, photorealistic")
 NEG = ("elongated neck, long neck, stretched neck, tilted head, distorted anatomy, warped, "
-       "deformed, low quality, worst quality, blurry mouth, frozen, static")
+       "deformed, low quality, worst quality, blurry mouth, frozen, static, "
+       "airbrushed skin, plastic skin, beauty filter, studio glamour, doll-like")
 
 # Recurring face, varied wardrobe/lighting/background. Canonical persona + FLUX Kontext edits.
 DEFAULT_VARIANTS = [
@@ -92,34 +95,76 @@ def _drawtext_escape(s: str) -> str:
              .replace(":", "\\:").replace(",", "\\,"))
 
 
-def composite(in_mp4: Path, out_mp4: Path, script_text: str = ""):
+def composite(in_mp4: Path, out_mp4: Path, script_text: str = "",
+              products: list[dict] | None = None):
     """Full-frame 9:16 composite (2026-06-11 quality pass).
 
-    The old layout letterboxed the square render inside a blurred copy of
-    itself — content filled ~35% of the frame and there were no captions,
-    so muted viewers (most of them) got nothing. Now: center-crop the
-    square persona to fill 1080x1920 (face is centered, the crop is safe)
-    and burn in evenly-timed caption chunks from the voiceover script.
+    - Center-crop the square persona render to fill 1080x1920 (face is
+      centered, the crop is safe). The old blurred-letterbox layout filled
+      only ~35% of the frame.
+    - Burn in evenly-timed caption chunks from the voiceover script so
+      muted viewers (most of them) can follow.
+    - NEW: overlay REAL product photo cards (Amazon listing images from
+      golden-home-project/social/product_images/) with name + price,
+      sequentially during the middle of the reel — the video now shows
+      the actual items being recommended.
+    products: [{"image": "/abs/path.jpg", "name": "...", "price": "$.."}]
     """
-    vf = "scale=1920:1920:flags=lanczos,crop=1080:1920:(in_w-1080)/2:0"
+    dur = _probe_duration(in_mp4) or 10.0
+    base = "scale=1920:1920:flags=lanczos,crop=1080:1920:(in_w-1080)/2:0"
     if script_text:
-        dur = _probe_duration(in_mp4) or 10.0
         chunks = _caption_chunks(script_text)
         if chunks:
             per = dur / len(chunks)
             for i, chunk in enumerate(chunks):
                 t0, t1 = i * per, (i + 1) * per
-                vf += (
+                base += (
                     f",drawtext=fontfile={_CAPTION_FONT}:text='{_drawtext_escape(chunk)}'"
                     f":fontsize=62:fontcolor=white:borderw=4:bordercolor=black"
                     f":box=1:boxcolor=black@0.35:boxborderw=18"
                     f":x=(w-text_w)/2:y=h-440"
                     f":enable='between(t,{t0:.2f},{t1:.2f})'"
                 )
-    sh(["ffmpeg", "-y", "-i", str(in_mp4), "-vf", vf,
-        "-c:v", "libx264", "-pix_fmt", "yuv420p",
-        "-c:a", "aac", "-shortest", str(out_mp4)],
-       stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+
+    products = [p for p in (products or []) if Path(p.get("image", "")).exists()][:3]
+    if not products:
+        sh(["ffmpeg", "-y", "-i", str(in_mp4), "-vf", base,
+            "-c:v", "libx264", "-pix_fmt", "yuv420p",
+            "-c:a", "aac", "-shortest", str(out_mp4)],
+           stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        return
+
+    # Product cards: one after another across the middle of the reel, as a
+    # picture-in-picture in the LOWER-RIGHT (over the shoulder) — the face
+    # owns the center of a full-frame talking head and must stay visible;
+    # captions own the bottom band and already name each product.
+    t0 = 0.14 * dur
+    span = 0.78 * dur - t0
+    per = span / len(products)
+    CARD, CX, CY = 380, 668, 980  # right edge 1048, bottom 1360 (captions start ~1462)
+    cmd = ["ffmpeg", "-y", "-i", str(in_mp4)]
+    for p in products:
+        cmd += ["-i", p["image"]]
+    fc = f"[0:v]{base}[b0];"
+    cur = "b0"
+    for i, p in enumerate(products):
+        w0, w1 = t0 + i * per, t0 + (i + 1) * per
+        fc += (f"[{i+1}:v]scale={CARD-20}:{CARD-20}:force_original_aspect_ratio=decrease,"
+               f"pad={CARD}:{CARD}:(ow-iw)/2:(oh-ih)/2:white[p{i}];")
+        fc += (f"[{cur}][p{i}]overlay={CX}:{CY}:enable='between(t,{w0:.2f},{w1:.2f})'[c{i}];")
+        cur = f"c{i}"
+        price = _drawtext_escape(str(p.get("price", "")))
+        if price:
+            fc += (f"[{cur}]drawtext=fontfile={_CAPTION_FONT}:text='{price}'"
+                   f":fontsize=48:fontcolor=white:box=1:boxcolor=0x1B7F4D@0.95:boxborderw=12"
+                   f":x={CX}+({CARD}-text_w)/2:y={CY + CARD - 30}"
+                   f":enable='between(t,{w0:.2f},{w1:.2f})'[d{i}];")
+            cur = f"d{i}"
+    fc = fc.rstrip(";")
+    cmd += ["-filter_complex", fc, "-map", f"[{cur}]", "-map", "0:a",
+            "-c:v", "libx264", "-pix_fmt", "yuv420p", "-c:a", "aac",
+            "-shortest", str(out_mp4)]
+    sh(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
 
 def main() -> int:
@@ -150,7 +195,9 @@ def main() -> int:
         gfpgan(raw, head)
 
     final = OUT / f"{args.name}_final.mp4"
-    composite(head, final, script.read_text().strip())
+    products_file = OUT / "products_for_video.json"
+    products = json.loads(products_file.read_text()) if products_file.exists() else None
+    composite(head, final, script.read_text().strip(), products)
 
     meta = OUT / f"{args.name}_meta.json"
     meta.write_text(json.dumps(
