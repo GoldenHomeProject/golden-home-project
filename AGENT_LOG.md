@@ -919,3 +919,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** social/carousels/2026-06-11-B0BXSMJK86/slide-1.png, social/carousels/2026-06-11-B0BXSMJK86/slide-2.png, social/carousels/2026-06-11-B0BXSMJK86/slide-3.png, social/carousels/2026-06-11-B0BXSMJK86/slide-4.png, social/carousels/2026-06-11-B0BXSMJK86/slide-5.png, social/post_queue.json
 **External actions:** Pexels (4 photos) + Claude CLI (slide content)
 **Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B0BXSMJK86 carousel.
+
+## 2026-06-12T06:24:10Z — ASIN Discoverer
+**Ran:** Scanned 5 trend opportunities, verified 4 new ASIN(s), refreshed 30 Movers items
+**Changed:** social/dm_keyword_registry.json, automation/trends/movers_shakers_latest.json
+**External actions:** amazon.com search + /dp/ + bestsellers (playwright) + reddit.com top.json (stdlib)
+**Next agent hint:** Blog Writer can now ship monetized posts about: ROSGONIA Sage Green Twin/Twin XL Comforter Set for, Brightech Ambience Pro Solar Powered Outdoor Strin, Umite Chef Kitchen Cooking Utensils Set, 33 pcs No, VASAGLE Shoe Storage Bench with Cushion, 3-Tier En
