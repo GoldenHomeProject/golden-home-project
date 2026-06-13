@@ -949,3 +949,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** social/carousels/2026-06-12-B085XVFQ62/slide-1.png, social/carousels/2026-06-12-B085XVFQ62/slide-2.png, social/carousels/2026-06-12-B085XVFQ62/slide-3.png, social/carousels/2026-06-12-B085XVFQ62/slide-4.png, social/carousels/2026-06-12-B085XVFQ62/slide-5.png, social/post_queue.json
 **External actions:** Pexels (4 photos) + Claude CLI (slide content)
 **Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B085XVFQ62 carousel.
+
+## 2026-06-13T06:22:02Z — ASIN Discoverer
+**Ran:** Scanned 5 trend opportunities, verified 2 new ASIN(s), refreshed 30 Movers items
+**Changed:** social/dm_keyword_registry.json, automation/trends/movers_shakers_latest.json
+**External actions:** amazon.com search + /dp/ + bestsellers (playwright) + reddit.com top.json (stdlib)
+**Next agent hint:** Blog Writer can now ship monetized posts about: STICKGOO Thicker Design Peel and Stick, Self Adhes, COCHIE 4th of July Decorations Stars Set of 4, Red
