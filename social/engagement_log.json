@@ -4,12 +4,12 @@
     "lifetime_follows": 19,
     "lifetime_likes": 33,
     "lifetime_comments": 7,
-    "last_session": "2026-06-13-1342-pi",
+    "last_session": "comments-2026-06-13T1405Z",
     "blocked_at": null,
-    "last_updated": "2026-06-13T13:42:39Z",
-    "total_actions": 153,
+    "last_updated": "2026-06-13T14:07:26Z",
+    "total_actions": 155,
     "lifetime_dms": 8,
-    "lifetime_comments_outbound": 10
+    "lifetime_comments_outbound": 12
   },
   "actions": [
     {
@@ -5204,6 +5204,24 @@
       ],
       "untapped_warm": [],
       "dry_run": false
+    },
+    {
+      "timestamp": "2026-06-13T14:05:54Z",
+      "action": "comment_posted",
+      "target": "thehomeedit",
+      "session": "comments-2026-06-13T1405Z",
+      "post_url": "https://www.instagram.com/thehomeedit/p/DZIbCV6v5JQ/",
+      "text": "Pantry zones by snack-grabber height is the move \u2014 kid stuff at their eye level cuts the \"mom where's the\u2026\" by half. Do you relabel seasonally or set it and forget?",
+      "caption_seen": ""
+    },
+    {
+      "timestamp": "2026-06-13T14:07:26Z",
+      "action": "comment_posted",
+      "target": "neatmethod",
+      "session": "comments-2026-06-13T1405Z",
+      "post_url": "https://www.instagram.com/neatmethod/p/DZM-m4GlV9J/",
+      "text": "Love that you called out drawer dividers before bins \u2014 people skip that step and end up rebuying twice. Do you have a go-to brand for adjustable ones, or do you cut your own?",
+      "caption_seen": ""
     }
   ]
 }
