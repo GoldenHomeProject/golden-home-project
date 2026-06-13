@@ -150,32 +150,6 @@
     "hook": "I had four years of bottles falling on my feet every morning."
   },
   {
-    "name": "reel_2026-06-01_002",
-    "status": "ready",
-    "script_path": "automation/scripts/reel-2026-06-01-002.json",
-    "media_type": "REELS",
-    "video_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-06-01-002.mp4",
-    "caption": "I spent ten years thinking my mattress was the problem.\n\nI bought a $1,400 mattress to fix my neck pain. Didn't help. Bought a topper. Didn't help. Saw a chiropractor twice a month for two years. Helped, but the pain came back every time.\n\nTurns out it was the pillow. Specifically the wrong pillow for a side sleeper. The Eli & Elm has a shoulder cutout that lets your shoulder drop into the bed instead of crushing it.\n\nThree weeks of using it and the chronic stiffness is just gone. Saved myself another mattress.\n\nComment PILLOW and I'll DM you the link.\nAffiliate link \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #sleepbetter #sidesleeper #bedroomupgrade",
-    "hashtags": [
-      "#amazonhomefinds",
-      "#sleepbetter",
-      "#sidesleeper",
-      "#bedroomupgrade"
-    ],
-    "affiliate": {
-      "primary_product": "Eli & Elm Side Sleeper Pillow (U-shape, latex, queen)",
-      "dm_keyword": "PILLOW",
-      "amazon_asin": "B07YL7VD32",
-      "amazon_affiliate_url": "https://www.amazon.com/dp/B07YL7VD32?tag=goldenhomep06-20",
-      "asin_pending": false,
-      "fallback_brands": [],
-      "affiliate_network": "impact_direct",
-      "affiliate_url": "https://eliandelm.sjv.io/E092ZX"
-    },
-    "hook": "I spent ten years thinking my mattress was the problem.",
-    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-06-01-002.mp4"
-  },
-  {
     "name": "reel_2026-06-01_003",
     "status": "ready",
     "script_path": "automation/scripts/reel-2026-06-01-003.json",
