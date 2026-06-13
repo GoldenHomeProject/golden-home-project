@@ -502,6 +502,39 @@
       "verified_price": "$89.99",
       "discovered_from_trend": "Best Choice Products entryway bench with shoe cubby and wall hooks",
       "discovery_source": "asin_discoverer_auto"
+    },
+    {
+      "asin": "B0BFVSKX3M",
+      "product_name": "STICKGOO Thicker Design Peel and Stick, Self Adhesive Stick On Tile Backsplash for Kitchen and Bathroom, Beige & White, 12\u201d\u00d712\u201d, 10 Sheets",
+      "categories": [
+        "peel-and-stick backsplash tiles",
+        "peel",
+        "removable"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0BFVSKX3M?tag=goldenhomep06-20",
+      "verified_at": "2026-06-13",
+      "verified_stars": "4.4",
+      "verified_reviews": 4491,
+      "verified_price": "$32.99",
+      "discovered_from_trend": "peel-and-stick subway or arabesque tile sheets",
+      "discovery_source": "asin_discoverer_auto"
+    },
+    {
+      "asin": "B0DZH3LX6Q",
+      "product_name": "COCHIE 4th of July Decorations Stars Set of 4, Red White Blue Decor, Patriotic Memorial Day Star Tiered Tray Decor, Labor Day Fourth of July",
+      "categories": [
+        "americana/patriotic home decor",
+        "4th",
+        "americana",
+        "patriotic"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0DZH3LX6Q?tag=goldenhomep06-20",
+      "verified_at": "2026-06-13",
+      "verified_stars": "4.6",
+      "verified_reviews": 173,
+      "verified_price": "$13.99",
+      "discovered_from_trend": "patriotic throw pillow covers + star-spangled wreath bundle",
+      "discovery_source": "asin_discoverer_auto"
     }
   ]
 }
