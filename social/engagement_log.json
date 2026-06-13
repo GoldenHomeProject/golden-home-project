@@ -4,10 +4,10 @@
     "lifetime_follows": 19,
     "lifetime_likes": 33,
     "lifetime_comments": 7,
-    "last_session": "2026-06-12-2334-pi",
+    "last_session": "2026-06-13-1342-pi",
     "blocked_at": null,
-    "last_updated": "2026-06-12T23:34:36Z",
-    "total_actions": 152,
+    "last_updated": "2026-06-13T13:42:39Z",
+    "total_actions": 153,
     "lifetime_dms": 8,
     "lifetime_comments_outbound": 10
   },
@@ -4949,6 +4949,141 @@
         {
           "handle": "rhodyentrepreneur",
           "action": "liked your comment: Slow design is such a beautiful approach! Taking the time to restore and thrift...\u00a0more 2d"
+        },
+        {
+          "handle": "thesundaygirledit",
+          "action": "liked your comment: YES this is the best decorating advice! Buy what you love and it will always wo...\u00a0more 3d"
+        },
+        {
+          "handle": "padtoscano",
+          "action": "liked your reel. 27 May"
+        },
+        {
+          "handle": "padtoscano",
+          "action": "started following you. 27 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "replied to your comment on dhi.atelier's post: @golden_home_project Glad you liked it \u2764\ufe0f 25 May"
+        },
+        {
+          "handle": "padtoscano",
+          "action": "liked your reel. 24 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "sabrinaco.concierge",
+          "action": "started following you. 23 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        }
+      ],
+      "untapped_warm": [],
+      "dry_run": false
+    },
+    {
+      "timestamp": "2026-06-13T13:42:39Z",
+      "action": "inbox_sweep",
+      "target": "self",
+      "session": "2026-06-13-1342-pi",
+      "requests_count": 0,
+      "inbox_count": 0,
+      "notifications_count": 55,
+      "requests": [],
+      "inbox": [],
+      "notifications": [
+        {
+          "handle": "rhodyentrepreneur",
+          "action": "liked your comment: Slow design is such a beautiful approach! Taking the time to restore and thrift...\u00a0more 3d"
         },
         {
           "handle": "thesundaygirledit",
