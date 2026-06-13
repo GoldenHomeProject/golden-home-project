@@ -252,5 +252,57 @@
     "queued_at": "2026-06-12T10:12:21.697765Z",
     "posted": false,
     "source": "pinterest_pipeline"
+  },
+  {
+    "id": "pin-2026-06-13-B07WFXL22R",
+    "asin": "B07WFXL22R",
+    "board": "Home Storage Solutions",
+    "title": "4-Tier Ladder Bookshelf for Small Spaces & Studio Room Dividers",
+    "description": "This 4-tier stepped bookshelf doubles as a freestanding room divider for studios, open layouts, and small apartments. Six cubes give you display space for books, plants, and bins, while the anti-tipping kit keeps the 64\" tall frame stable against the wall. The modern wooden ladder design opens up sightlines instead of blocking them \u2014 ideal for splitting a bedroom-office or zoning a living area. Tap through for dimensions and finish options. Amazon affiliate \u2014 small commission at no extra cost to",
+    "link": "https://www.amazon.com/dp/B07WFXL22R?tag=goldenhomep06-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-06-13-B07WFXL22R.png",
+    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/pinterest/pin-2026-06-13-B07WFXL22R.png",
+    "queued_at": "2026-06-13T10:10:16.213651Z",
+    "posted": false,
+    "source": "pinterest_pipeline"
+  },
+  {
+    "id": "pin-2026-06-13-B0CXDJG5QM",
+    "asin": "B0CXDJG5QM",
+    "board": "Outdoor & Patio",
+    "title": "Solar Bug Zapper for Outdoor Patio \u2014 4500V Cordless Mosquito Zapper",
+    "description": "Keep your patio, deck, or backyard mosquito-free with this solar-powered outdoor bug zapper. 4500V grid covers up to 1/2 acre, waterproof build handles rain, and the rechargeable battery means no cords or outlets needed. Hang it near the porch, fire pit, or campsite for hands-off mosquito and fly control all summer. Tap to see photos, runtime, and current price. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B0CXDJG5QM?tag=goldenhomep06-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-06-13-B0CXDJG5QM.png",
+    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/pinterest/pin-2026-06-13-B0CXDJG5QM.png",
+    "queued_at": "2026-06-13T10:10:29.962851Z",
+    "posted": false,
+    "source": "pinterest_pipeline"
+  },
+  {
+    "id": "pin-2026-06-13-B088WYYH85",
+    "asin": "B088WYYH85",
+    "board": "Home Organization Finds",
+    "title": "Cooling Waffle Blanket for Hot Sleepers \u2014 Queen Bamboo Bedroom Bedding",
+    "description": "Cooling waffle blanket for hot sleepers, made from breathable rayon from bamboo with a lightweight queen-size weave that keeps bedroom bedding airy through summer nights. The textured waffle knit drapes well as a top layer, sofa throw, or guest room refresh, and washes up soft. Tap through for current color options and sizing. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://goldenhomeproject.com/blog/posts/2026-06-03-best-bamboo-cooling-quilt-summer-bedding-hot-sleepers.html",
+    "image_path": "social/pinterest/pin-2026-06-13-B088WYYH85.png",
+    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/pinterest/pin-2026-06-13-B088WYYH85.png",
+    "queued_at": "2026-06-13T10:10:39.377832Z",
+    "posted": false,
+    "source": "pinterest_pipeline"
+  },
+  {
+    "id": "pin-2026-06-13-B09W2F2L4C",
+    "asin": "B09W2F2L4C",
+    "board": "Home Organization Finds",
+    "title": "Peel and Stick Wood Wallpaper for Renters - Removable Light Wood Grain Contact Paper",
+    "description": "Peel and stick wood wallpaper is the easiest renter-friendly upgrade for shelves, drawers, cabinets, and accent walls. This light wood grain contact paper from Sevalo applies without tools, repositions easily, and leaves no sticky residue when you peel it off. Great for DIY kitchen refreshes, bookshelf backers, and dorm decor. Tap to see sizes and color options. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://goldenhomeproject.com/blog/posts/2026-06-10-faux-wood-peel-and-stick-wallpaper-bathroom-makeover.html",
+    "image_path": "social/pinterest/pin-2026-06-13-B09W2F2L4C.png",
+    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/pinterest/pin-2026-06-13-B09W2F2L4C.png",
+    "queued_at": "2026-06-13T10:10:49.507812Z",
+    "posted": false,
+    "source": "pinterest_pipeline"
   }
 ]
