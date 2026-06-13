@@ -1,0 +1,76 @@
+{
+  "date": "2026-06-13",
+  "agent": "engagement-monitor",
+  "metrics": {
+    "subscribers": 6670,
+    "total_views": 20665,
+    "total_videos": 150
+  },
+  "top_videos": [
+    {
+      "title": "My home had been a low-grade mess for longer than I want to ",
+      "views": 29,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "3 kitchen upgrades that pull their weight on the counter \u2615\ud83d\udd0c ",
+      "views": 26,
+      "likes": 0,
+      "comments": 0
+    },
+    {
+      "title": "My home had been a low-grade mess for longer than I want to ",
+      "views": 13,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "The reason your cabinets stay messy is that nothing has a ho",
+      "views": 11,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Buying more containers will never fix your under-sink cabine",
+      "views": 7,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "My kitchen had been a low-grade mess for longer than I want ",
+      "views": 2,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "My kitchen had been a low-grade mess for longer than I want ",
+      "views": 2,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "The reason your cabinets stay messy is that nothing has a ho",
+      "views": 1,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "My home had been a low-grade mess for longer than I want to ",
+      "views": 0,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Your bedroom called \u2014 it wants these 3 upgrades \ud83d\udecf\ufe0f\u2728 #Shorts",
+      "views": 0,
+      "likes": 0,
+      "comments": 0
+    }
+  ],
+  "comments_responded": 0,
+  "actions_taken": [
+    "New comment on video: \ud83d\udccc SHOP ALL PRODUCTS \u2014 Amazon links:<br><br>\u2460 Ameri",
+    "Updated BUSINESS_BRAIN.md metrics"
+  ]
+}
