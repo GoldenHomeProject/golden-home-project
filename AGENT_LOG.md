@@ -985,3 +985,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** social/pinterest_queue.json
 **External actions:** Pexels (backgrounds) + Claude CLI (pin copy)
 **Next agent hint:** post_pinterest.py (Pi) drains pinterest_queue.json once a Pinterest business account is logged into the Pi Chromium profile.
+
+## 2026-06-14T06:12:37Z — ASIN Discoverer
+**Ran:** Scanned 5 trend opportunities, verified 2 new ASIN(s), refreshed 30 Movers items
+**Changed:** social/dm_keyword_registry.json, automation/trends/movers_shakers_latest.json
+**External actions:** amazon.com search + /dp/ + bestsellers (playwright) + reddit.com top.json (stdlib)
+**Next agent hint:** Blog Writer can now ship monetized posts about: Floating Shelves for Bedside Shelf, Stick On Acces, DAPU Pure Linen Sheets Set, 100% French Linen from
