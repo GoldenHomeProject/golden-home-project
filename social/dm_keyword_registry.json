@@ -535,6 +535,40 @@
       "verified_price": "$13.99",
       "discovered_from_trend": "patriotic throw pillow covers + star-spangled wreath bundle",
       "discovery_source": "asin_discoverer_auto"
+    },
+    {
+      "asin": "B0FVW1TNH8",
+      "product_name": "Floating Shelves for Bedside Shelf, Stick On Accessories Organizer, Dorm Room Essentials, Wall Mount Self, Cute Room Decor Aesthetic, Girls ",
+      "categories": [
+        "dorm room bedding and decor",
+        "cute",
+        "college",
+        "dorm"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0FVW1TNH8?tag=goldenhomep06-20",
+      "verified_at": "2026-06-14",
+      "verified_stars": "4.6",
+      "verified_reviews": 227,
+      "verified_price": "$26.99",
+      "discovered_from_trend": "Colorful twin XL bedding set with coordinating storage and LED strip lights",
+      "discovery_source": "asin_discoverer_auto"
+    },
+    {
+      "asin": "B073WD5KPX",
+      "product_name": "DAPU Pure Linen Sheets Set, 100% French Linen from Normandy, Breathable and Durable for Hot Sleepers, 4 Pcs Queen Size Sheets Set - 1 Flat S",
+      "categories": [
+        "linen bedding",
+        "linen",
+        "cooling",
+        "breathable"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B073WD5KPX?tag=goldenhomep06-20",
+      "verified_at": "2026-06-14",
+      "verified_stars": "4.3",
+      "verified_reviews": 3385,
+      "verified_price": "$129.59",
+      "discovered_from_trend": "Breathable linen duvet cover set \u2014 queen or king",
+      "discovery_source": "asin_discoverer_auto"
     }
   ]
 }
