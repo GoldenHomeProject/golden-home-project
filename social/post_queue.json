@@ -150,22 +150,6 @@
     "hook": "I had four years of bottles falling on my feet every morning."
   },
   {
-    "id": "carousel-2026-06-01-B07ZL2BFMP",
-    "media_type": "CAROUSEL_ALBUM",
-    "image_urls": [
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-01-B07ZL2BFMP/slide-1.png",
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-01-B07ZL2BFMP/slide-2.png",
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-01-B07ZL2BFMP/slide-3.png",
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-01-B07ZL2BFMP/slide-4.png",
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-01-B07ZL2BFMP/slide-5.png"
-    ],
-    "caption": "The reason your nonstick pans are failing isn't the pan \u2014 it's the sponge.\n\nSave this for later. Most kitchen sponges are too abrasive for coated cookware and transfer dye onto grout and silicone. One swap fixes both problems. \u2728\n\nComment SPONGE or DM me SPONGE for the link to the exact one I use.\n\n#kitchenorganization #cleankitchen #dishwashingtips #homecleaning #kitchentips",
-    "asin": "B07ZL2BFMP",
-    "keyword": "SPONGE",
-    "queued_at": "2026-06-01T12:30:14.915334Z",
-    "source": "carousel_generator"
-  },
-  {
     "name": "reel_2026-06-02_001",
     "status": "ready",
     "script_path": "automation/scripts/reel-2026-06-02-001.json",
