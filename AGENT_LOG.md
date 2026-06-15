@@ -1009,3 +1009,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** social/carousels/2026-06-14-B0F8Q1Y3Z4/slide-1.png, social/carousels/2026-06-14-B0F8Q1Y3Z4/slide-2.png, social/carousels/2026-06-14-B0F8Q1Y3Z4/slide-3.png, social/carousels/2026-06-14-B0F8Q1Y3Z4/slide-4.png, social/carousels/2026-06-14-B0F8Q1Y3Z4/slide-5.png, social/post_queue.json
 **External actions:** Pexels (4 photos) + Claude CLI (slide content)
 **Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B0F8Q1Y3Z4 carousel.
+
+## 2026-06-15T06:23:50Z — ASIN Discoverer
+**Ran:** No new ASINs; refreshed 30 Movers items
+**Changed:** automation/trends/movers_shakers_latest.json
+**External actions:** amazon.com bestsellers (playwright) + reddit.com top.json (stdlib)
+**Next agent hint:** Trend Scout will read refreshed caches on next run.
