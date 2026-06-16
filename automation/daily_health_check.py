@@ -143,6 +143,10 @@ def main() -> int:
     print(digest)
     print("\n".join(lines))
 
+    # Notify the owner ONLY when something is broken. Healthy days stay silent —
+    # the digest still lands in social/daily_health.log as the self-monitoring
+    # record, but no phone push when all channels are fresh (owner's call 6/16:
+    # "only email if something is broken or you have a question").
     if stale:
         ntfy(
             f"⚠️ GHP: {len(stale)} channel(s) STALE",
@@ -150,11 +154,9 @@ def main() -> int:
                 f"• {c['name']}: {c['detail']}" for c in stale)
             + "\n\nA pipeline is silently failing — check the Pi.",
             "high", "warning")
+        print("[health] STALE — owner notified via ntfy")
     else:
-        ntfy(
-            "✅ GHP daily: all 4 channels fresh",
-            "\n".join(f"• {c['name']}: {c['detail']}" for c in checks),
-            "low", "white_check_mark")
+        print("[health] all fresh — no notification (silent on green)")
     return 1 if stale else 0
 
 
