@@ -1,3 +1,7 @@
+## MONITORING (built 6/16): daily output check pushes ntfy digest 08:00 ET (Pi) + GitHub 6h
+## backstop. Checks Pinterest/Reels/YouTube/Blog ARTIFACT freshness, not cron exit. Read
+## social/daily_health.log FIRST each session. See reference_ghp_daily_health_check memory.
+
 ## STATUS 2026-06-16: still $0 revenue. Clicks 91/30d (recovered from 62 trough), 0 orders.
 ## Reels healthy (IG+YT+FB daily). Pinterest was SELF-BROKEN 6 days (missing-board bug from
 ## incomplete 6/11 fix); now self-heals to catch-all board, 6 boards created, backlog drains
