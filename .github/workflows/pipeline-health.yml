@@ -55,16 +55,48 @@ jobs:
           age = now - dt
           stale = age > timedelta(hours=36)
           age_h = int(age.total_seconds() / 3600)
-          print(f"Latest: {ts}  age={age_h}h  stale={stale}")
+          print(f"Reels/IG latest: {ts}  age={age_h}h  stale={stale}")
+
+          # --- Pinterest: a SEPARATE log the original check ignored. Pinterest
+          # was dark 6 days (2026-06-10..16) behind a missing-board bug while
+          # reels kept posting, so a reels-only watchdog stayed green. Pinterest
+          # posts from the Pi and commits this log, so if the Pi is down the
+          # committed log goes stale even while GitHub-side reels are fresh —
+          # the only Pi-independent way to catch a Pinterest stall.
+          pin_stale, pin_reason = False, ""
+          try:
+              plog = json.load(open("social/pinterest_post_log.json"))
+              evs = [e for e in plog.get("events", []) if e.get("action") == "pin_published"]
+              if evs:
+                  pts = max(e.get("ts", "") for e in evs)
+                  pdt = datetime.fromisoformat(pts.replace("Z", "+00:00"))
+                  page_h = int((now - pdt).total_seconds() / 3600)
+                  pin_stale = (now - pdt) > timedelta(hours=56)  # cron 2/day, allow a UTC-cap quiet day
+                  print(f"Pinterest latest: {pts}  age={page_h}h  stale={pin_stale}")
+                  if pin_stale:
+                      pin_reason = f"Pinterest: no pin published in {page_h}h"
+              else:
+                  pin_stale, pin_reason = True, "Pinterest: log has zero published events"
+          except Exception as e:
+              pin_stale, pin_reason = True, f"Pinterest: log unreadable ({type(e).__name__})"
+
+          reasons = []
+          if stale:
+              reasons.append(f"Reels/IG: no post in {age_h}h")
+          if pin_reason:
+              reasons.append(pin_reason)
+          combined_stale = stale or pin_stale
 
           # ts is from our own posted_archive.json (we wrote it), but sanitize
           # to alphanumerics + standard ISO chars anyway for safety.
           safe_ts = "".join(c for c in ts if c.isalnum() or c in ":-+.TZ")[:40]
+          safe_reason = "".join(c for c in "; ".join(reasons) if c.isalnum() or c in " :;.,()/-")[:200]
 
           with open(out_path, "a") as f:
-              f.write(f"stale={'true' if stale else 'false'}\n")
+              f.write(f"stale={'true' if combined_stale else 'false'}\n")
               f.write(f"latest_ts={safe_ts}\n")
               f.write(f"age_hours={age_h}\n")
+              f.write(f"reason={safe_reason}\n")
           PY
 
       - name: Open stale-pipeline issue
@@ -73,6 +105,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           AGE_HOURS: ${{ steps.check.outputs.age_hours }}
           LATEST_TS: ${{ steps.check.outputs.latest_ts }}
+          REASON: ${{ steps.check.outputs.reason }}
         run: |
           set -euo pipefail
           # Don't spam — only open if no open issue with same title exists
@@ -85,19 +118,20 @@ jobs:
           # (this exact crash spammed failure emails 2026-06-04). Create idempotently.
           gh label create watchdog --color BFD4F2 --description "Pipeline self-alert" 2>/dev/null || true
           gh label create pipeline --color D4C5F9 --description "Content pipeline" 2>/dev/null || true
-          TITLE="[watchdog] Content pipeline stale (no post in ${AGE_HOURS}h)"
+          TITLE="[watchdog] Content pipeline stale: ${REASON:-no fresh posts}"
           BODY=$(printf '%s\n' \
-            "Pipeline health watchdog detected no new entry in social/posted_archive.json within 36h." \
+            "Pipeline health watchdog detected a stale revenue channel." \
             "" \
-            "- Latest posted_at: ${LATEST_TS}" \
-            "- Age: ${AGE_HOURS} hours" \
-            "- Workflow: pipeline-health.yml" \
+            "WHAT IS STALE: ${REASON:-unknown}" \
+            "" \
+            "- Reels/IG latest posted_at: ${LATEST_TS} (age ${AGE_HOURS}h)" \
+            "- Checks: social/posted_archive.json (reels/IG, 36h) + social/pinterest_post_log.json (Pinterest, 56h)" \
+            "- Workflow: pipeline-health.yml (runs every 6h)" \
             "" \
             "Likely causes:" \
-            "- content-generator failing silently (check Actions tab)" \
-            "- quality gate rejecting 100% (check automation/content-review-queue/ for new .reasons.txt)" \
-            "- reel-producer failing (ffmpeg / Pexels API)" \
-            "- instagram-poster queue empty AND no manual dispatch" \
+            "- Pinterest: missing-board / poster login wall / queue empty (check social/pinterest_cron.log on the Pi)" \
+            "- Reels: content-generator or reel-producer failing (check Actions tab)" \
+            "- Pi down: BOTH Pinterest commits and the Pi daily ntfy check would also stop" \
             "" \
-            "Auto-close: resolve manually after pipeline resumes.")
+            "Auto-close: resolve manually after the pipeline resumes.")
           gh issue create --title "$TITLE" --body "$BODY" --label "watchdog,pipeline"

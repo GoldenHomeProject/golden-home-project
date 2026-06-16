@@ -1,0 +1,13 @@
+[Unit]
+Description=GHP daily output verification (per-channel freshness -> ntfy push)
+After=network-online.target
+Wants=network-online.target
+ConditionPathExists=/home/GoldenHomeProject/golden-home-project/automation/daily_health_check.py
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/GoldenHomeProject/golden-home-project
+ExecStart=/usr/bin/python3 /home/GoldenHomeProject/golden-home-project/automation/daily_health_check.py
+StandardOutput=journal
+StandardError=journal
+TimeoutStartSec=5min

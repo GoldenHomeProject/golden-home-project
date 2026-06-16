@@ -1,0 +1,10 @@
+[Unit]
+Description=Daily 08:00 ET GHP output verification (catches silent pipeline failures)
+
+[Timer]
+OnCalendar=*-*-* 08:00:00
+Persistent=true
+Unit=ghp-health.service
+
+[Install]
+WantedBy=timers.target
