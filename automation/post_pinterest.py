@@ -226,6 +226,11 @@ def publish_pin(pin: dict, dry: bool) -> str:
         # board shown in the dropdown. Switch boards first only when the
         # pre-selected one isn't our target (clicking a board row selects it and
         # closes the dropdown), then click the main Publish button.
+        # A pin's target board may not exist on the account yet (the generator's
+        # BOARD_MAP can name boards we never created — this stranded 6 days of
+        # pins, 2026-06-10..16). A missing board must NEVER block a post: fall
+        # back to the always-present catch-all board instead of failing.
+        FALLBACK_BOARD = "Home Organization Finds"
         board = pin["board"]
         save_btn = page.locator("[data-test-id='board-dropdown-save-button']").first
         select_btn = page.locator("[data-test-id='board-dropdown-select-button']").first
@@ -233,15 +238,27 @@ def publish_pin(pin: dict, dry: bool) -> str:
             current = select_btn.inner_text(timeout=2000)
         except Exception:
             current = ""
+
+        def _pick_board(target: str) -> None:
+            select_btn.click()
+            jitter(1.5, 2.5)
+            row = page.locator(f"[data-test-id='board-row-{target}']").first
+            row.wait_for(state="visible", timeout=4000)
+            row.click()
+            jitter(2, 3)
+
         if board not in current:
             try:
-                select_btn.click()
-                jitter(1.5, 2.5)
-                page.locator(f"[data-test-id='board-row-{board}']").first.click()
-                jitter(2, 3)
+                _pick_board(board)
             except Exception:
-                ctx.close()
-                return f"board_select_failed:{board}"
+                log_event("board_fallback", pin["id"], wanted=board, used=FALLBACK_BOARD)
+                try:
+                    page.keyboard.press("Escape")  # close the half-open dropdown
+                    jitter(0.5, 1.0)
+                    _pick_board(FALLBACK_BOARD)
+                except Exception:
+                    ctx.close()
+                    return f"board_select_failed:{board}"
         try:
             save_btn.click(timeout=8000)
         except Exception:
