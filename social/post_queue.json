@@ -1290,5 +1290,21 @@
       "affiliate_url": "https://www.amazon.com/dp/B0BXSMJK86?tag=goldenhomep06-20"
     },
     "hook": "My kitchen had been a low-grade mess for longer than I want to admit."
+  },
+  {
+    "id": "carousel-2026-06-18-B09W2F2L4C",
+    "media_type": "CAROUSEL_ALBUM",
+    "image_urls": [
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-18-B09W2F2L4C/slide-1.png",
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-18-B09W2F2L4C/slide-2.png",
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-18-B09W2F2L4C/slide-3.png",
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-18-B09W2F2L4C/slide-4.png",
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-18-B09W2F2L4C/slide-5.png"
+    ],
+    "caption": "Your rental walls don't have to look plain \u2014 here's the fix.\n\nSave this for later. Peel-and-stick wood wallpaper is one of the easiest renter-friendly upgrades you can make \u2014 no tools, no damage, no landlord sign-off needed. The whole look comes down to choosing one with real embossed texture so it actually catches light instead of reading flat like a sticker.\n\nComment LINK or DM me LINK for the exact product.\n\n#renterfriendly #diywallpaper #homedecor #accentwall #homeorganization",
+    "asin": "B09W2F2L4C",
+    "keyword": "LINK",
+    "queued_at": "2026-06-18T11:06:03.673985Z",
+    "source": "carousel_generator"
   }
 ]
