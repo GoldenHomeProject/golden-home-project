@@ -1,3 +1,8 @@
+## TEARDOWN 6/18: clicks +80% (62->112/30d) but $0 (volume+conversion wall, not traffic). Winners
+## use ROUNDUPS+comparison tables+buyer-intent, not single-product pins. Shipped first roundup
+## (blog/posts/2026-06-18-best-kitchen-organizers...). TOP MOVE = Amazon Influencer shoppable
+## video (faceless unlock, not set up). AI renders may cap conversion. See competitive-teardown memory.
+
 ## MONITORING (built 6/16): daily output check pushes ntfy digest 08:00 ET (Pi) + GitHub 6h
 ## backstop. Checks Pinterest/Reels/YouTube/Blog ARTIFACT freshness, not cron exit. Read
 ## social/daily_health.log FIRST each session. See reference_ghp_daily_health_check memory.
