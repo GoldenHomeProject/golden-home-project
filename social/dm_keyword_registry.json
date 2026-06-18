@@ -603,6 +603,56 @@
       "verified_price": "$118.48",
       "discovered_from_trend": "Best Choice Products 3-piece outdoor bistro set with cushions",
       "discovery_source": "asin_discoverer_auto"
+    },
+    {
+      "asin": "B09SZ9T4MV",
+      "product_name": "EUDELE Mesh Shower Caddy Portable for College Dorm Room Essentials, Shower Caddy Dorm with 8-Pocket Large Capacity for Beach, Swimming, Gym,",
+      "categories": [
+        "dorm and small bedroom organization",
+        "dorm",
+        "college",
+        "under"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B09SZ9T4MV?tag=goldenhomep06-20",
+      "verified_at": "2026-06-18",
+      "verified_stars": "4.6",
+      "verified_reviews": 7425,
+      "verified_price": "$8.99",
+      "discovered_from_trend": "Under-bed rolling storage drawers with lid set of 2",
+      "discovery_source": "asin_discoverer_auto"
+    },
+    {
+      "asin": "B0DXKRFFGM",
+      "product_name": "Dehumidifier, 95OZ Dehumidifier for Home 1000 Sq.Ft - Quiet with Auto Shut Off & Relaxing 7 Color Ambient Light,Ideal for Livingroom, Bedroo",
+      "categories": [
+        "dehumidifier",
+        "best",
+        "basement"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0DXKRFFGM?tag=goldenhomep06-20",
+      "verified_at": "2026-06-18",
+      "verified_stars": "4.3",
+      "verified_reviews": 4416,
+      "verified_price": "$59.39",
+      "discovered_from_trend": "Midea 20-pint portable dehumidifier with continuous drain hose",
+      "discovery_source": "asin_discoverer_auto"
+    },
+    {
+      "asin": "B07QLQ3QP4",
+      "product_name": "Air Wick Plug in Scented Oil Starter Kit, 2 Warmers + 6 Refills, Lavender & Chamomile, Eco Friendly, Essential Oils, Air Freshener",
+      "categories": [
+        "home fragrance diffuser",
+        "how",
+        "best",
+        "house"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B07QLQ3QP4?tag=goldenhomep06-20",
+      "verified_at": "2026-06-18",
+      "verified_stars": "4.5",
+      "verified_reviews": 37720,
+      "verified_price": "$16.99",
+      "discovered_from_trend": "InnoGear 500ml ultrasonic essential oil diffuser with timer",
+      "discovery_source": "asin_discoverer_auto"
     }
   ]
 }
