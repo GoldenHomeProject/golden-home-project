@@ -1,0 +1,69 @@
+{
+  "created_at": "2026-06-18T10:03:46.111833Z",
+  "date": "2026-06-18",
+  "seq": 1,
+  "hook_category": "sensory",
+  "hook": "Picture this: it is 4am, your neck won't turn left, and the alarm is in 90 minutes.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "dark bedroom, 4am clock, person staring at ceiling",
+      "on_screen_text": "4 AM. NECK WON'T TURN.",
+      "voiceover": "It's 4am and your neck won't turn left."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "person flipping pillow trying to find right angle",
+      "on_screen_text": "FLIPPING. FLIPPING. NOPE.",
+      "voiceover": "You flip the pillow. Cold side. Wrong angle."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "shoulder visibly compressed under regular pillow",
+      "on_screen_text": "SHOULDER GOES NUMB",
+      "voiceover": "Your shoulder goes numb by 5am."
+    },
+    {
+      "n": 4,
+      "duration_sec": 5,
+      "visual_prompt": "Eli & Elm adjustable U-shape pillow, latex fiber fill visible",
+      "on_screen_text": "ADJUSTABLE LATEX FILL",
+      "voiceover": "Adjustable U-shape pillow with shoulder cutout."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "shoulder resting naturally beside pillow cutout",
+      "on_screen_text": "SHOULDER RESTS RIGHT",
+      "voiceover": "Shoulder rests naturally instead of compressing."
+    },
+    {
+      "n": 6,
+      "duration_sec": 4,
+      "visual_prompt": "morning light, person waking calm without pain",
+      "on_screen_text": "COMMENT PILLOW",
+      "voiceover": "Comment PILLOW and I'll DM you the link."
+    }
+  ],
+  "caption": "Picture this: it is 4am, your neck won't turn left, and the alarm is in 90 minutes.\n\nYou stare at the ceiling. Your shoulder is numb. The pillow under your head is somehow both too high and too low. You flip it. Cold side, sure, but the angle is still wrong.\n\nAn adjustable side sleeper pillow with a shoulder cutout fixes the angle problem. Eli & Elm \u2014 latex-fiber fill you can add or remove, U-shape that lets your shoulder rest naturally.\n\nSame bed, same room, same body. The only thing that changed was the pillow. The 4am stare-at-the-ceiling routine just stopped.\n\nComment PILLOW and I'll reply with the link.\nAffiliate link \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #sleepbetter #sidesleeper #bedroomupgrade",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#sleepbetter",
+    "#sidesleeper",
+    "#bedroomupgrade"
+  ],
+  "specific_falsifiable_detail": "An adjustable side sleeper pillow with a shoulder cutout fixes the angle problem. Eli & Elm \u2014 latex-fiber fill you can add or remove, U-shape that lets your shoulder rest naturally.",
+  "affiliate_strategy": {
+    "primary_product": "Eli & Elm Side Sleeper Pillow (U-shape, latex, queen)",
+    "dm_keyword": "PILLOW",
+    "amazon_asin": "B07YL7VD32",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B07YL7VD32?tag=goldenhomep06-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "impact_direct",
+    "affiliate_url": "https://eliandelm.sjv.io/E092ZX"
+  }
+}
