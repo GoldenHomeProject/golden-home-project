@@ -22,7 +22,10 @@ from pathlib import Path
 REPO = Path.home() / "golden-home-project"
 LEDGER = Path.home() / ".ghp-engagement" / "pinterest_posted_ledger.json"
 ENV_FILE = Path.home() / "claude-skill" / "config" / "env"
-DIGEST_LOG = REPO / "social" / "daily_health.log"
+# Out of the repo on purpose: the 06:30 ghp-daily-loop runs `git reset --hard
+# origin/main`, which wiped uncommitted appends to a repo-path log (history
+# never accumulated). Same reset-proof pattern as the Pinterest ledger.
+DIGEST_LOG = Path.home() / ".ghp-engagement" / "daily_health.log"
 
 NOW = datetime.now(timezone.utc)
 
