@@ -310,5 +310,44 @@
     "queued_at": "2026-06-13T10:10:49.507812Z",
     "posted": false,
     "source": "pinterest_pipeline"
+  },
+  {
+    "id": "pin-roundup-ru-kitchen-cabinets",
+    "asin": "RU-KITCHEN-CABINETS",
+    "board": "Kitchen Organization Ideas",
+    "title": "7 Kitchen Cabinet Organizing Ideas That Actually Work",
+    "description": "Tired of digging through deep cabinets? These kitchen cabinet and pantry organizers actually earn their space - real picks, real prices, compared. #kitchenorganization #homeorganization #amazonfinds",
+    "link": "https://goldenhomeproject.com/blog/posts/2026-06-18-best-kitchen-organizers-cabinet-under-sink-pantry.html",
+    "image_path": "social/pinterest/pin-roundup-ru-kitchen-cabinets.png",
+    "image_url": "",
+    "queued_at": "2026-06-19",
+    "source": "roundup_pins",
+    "posted": false
+  },
+  {
+    "id": "pin-roundup-ru-kitchen-small",
+    "asin": "RU-KITCHEN-SMALL",
+    "board": "Home Organization Finds",
+    "title": "Small Kitchen Storage Ideas Under $50 That Actually Fit",
+    "description": "Small kitchen? These under-$50 storage finds reclaim cabinet, drawer and pantry space without a remodel. Budget to splurge, compared side by side. #smallkitchen #kitchenstorage #organizationideas",
+    "link": "https://goldenhomeproject.com/blog/posts/2026-06-18-best-kitchen-organizers-cabinet-under-sink-pantry.html",
+    "image_path": "social/pinterest/pin-roundup-ru-kitchen-small.png",
+    "image_url": "",
+    "queued_at": "2026-06-19",
+    "source": "roundup_pins",
+    "posted": false
+  },
+  {
+    "id": "pin-roundup-ru-kitchen-undersink",
+    "asin": "RU-KITCHEN-UNDERSINK",
+    "board": "Under-Sink Organization",
+    "title": "Under-Sink Organization Ideas to Reclaim That Dead Space",
+    "description": "The under-sink cabinet is the most wasted space in the kitchen. These organizers work around the pipes and turn it into real storage. #undersinkorganization #kitchenhacks #homeorganizing",
+    "link": "https://goldenhomeproject.com/blog/posts/2026-06-18-best-kitchen-organizers-cabinet-under-sink-pantry.html",
+    "image_path": "social/pinterest/pin-roundup-ru-kitchen-undersink.png",
+    "image_url": "",
+    "queued_at": "2026-06-19",
+    "source": "roundup_pins",
+    "posted": false
   }
 ]
