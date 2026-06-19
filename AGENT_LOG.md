@@ -1123,3 +1123,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** social/carousels/2026-06-18-B09W2F2L4C/slide-1.png, social/carousels/2026-06-18-B09W2F2L4C/slide-2.png, social/carousels/2026-06-18-B09W2F2L4C/slide-3.png, social/carousels/2026-06-18-B09W2F2L4C/slide-4.png, social/carousels/2026-06-18-B09W2F2L4C/slide-5.png, social/post_queue.json
 **External actions:** Pexels (4 photos) + Claude CLI (slide content)
 **Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B09W2F2L4C carousel.
+
+## 2026-06-19T06:02:48Z — ASIN Discoverer
+**Ran:** Scanned 5 trend opportunities, verified 3 new ASIN(s), refreshed 30 Movers items
+**Changed:** social/dm_keyword_registry.json, automation/trends/movers_shakers_latest.json
+**External actions:** amazon.com search + /dp/ + bestsellers (playwright) + reddit.com top.json (stdlib)
+**Next agent hint:** Blog Writer can now ship monetized posts about: 4th of July Table Decorations 3 PCS, Fourth of Jul, Airtight Food Storage Containers with Lids, Vtopma, Ravinte 30 Pack | 5 Inch Cabinet Pulls Matte Black
