@@ -339,7 +339,8 @@
         "blog/posts/2026-05-20-under-sink-organizer-bathroom-pull-out-drawers.html"
       ],
       "status": "live",
-      "verified_method": "logged-in browser same-origin fetch (title+stock match)"
+      "verified_method": "logged-in browser same-origin fetch (title+stock match)",
+      "keyword": "UNDERSINK"
     },
     {
       "asin": "B0F8Q1Y3Z4",

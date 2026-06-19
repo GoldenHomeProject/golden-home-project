@@ -1,0 +1,45 @@
+{
+ "_doc": "Presenter-reel rotation for the Pi orchestrator. Each run advances one entry (counter in .reel_rotation_state) on successful publish. Trios are LIVE registry keywords only (verified ASINs + working DM funnel); no product repeats in consecutive posts. If variant_verified=false the orchestrator falls back to the proven tee_daylight variant so an unverified outfit can never auto-post a bad render \u2014 flip to true only after a clean LTX-2 verification render.",
+ "rotation": [
+  {
+   "name": "kitchen_clean",
+   "script": "out/scripts/A_kitchen_clean.txt",
+   "keywords": "SPONGE,PASTE,LINK",
+   "variant": "out/variants/tee_daylight.png",
+   "variant_verified": true,
+   "hook": "Three kitchen finds under $20 that actually earn their counter space \ud83e\uddfd\ud83e\uddf4"
+  },
+  {
+   "name": "bedroom_sleep",
+   "script": "out/scripts/B_bedroom_sleep.txt",
+   "keywords": "PILLOW,STRIP,NIGHTLIGHT",
+   "variant": "out/variants/blazer_evening.png",
+   "variant_verified": true,
+   "hook": "Your bedroom called \u2014 it wants these 3 upgrades \ud83d\udecf\ufe0f\u2728"
+  },
+  {
+   "name": "kitchen_upgrades",
+   "script": "out/scripts/C_kitchen_upgrades.txt",
+   "keywords": "KETTLE,VACUUM,LINK",
+   "variant": "out/variants/denim_studio.png",
+   "variant_verified": false,
+   "hook": "3 kitchen upgrades that pull their weight on the counter \u2615\ud83d\udd0c"
+  },
+  {
+   "name": "living_pet",
+   "script": "out/scripts/D_living_pet.txt",
+   "keywords": "COVER,ROLLER,NIGHTLIGHT",
+   "variant": "out/persona.png",
+   "variant_verified": false,
+   "hook": "Pet on the couch? These 3 finds save your living room \ud83d\udc3e\ud83d\udecb\ufe0f"
+  },
+  {
+   "name": "kitchen_organizers_roundup",
+   "script": "out/scripts/kitchen_organizers_roundup.txt",
+   "keywords": "UNDERSINK,TURNTABLE,LINER",
+   "variant": "out/variants/tee_daylight.png",
+   "variant_verified": true,
+   "hook": "3 kitchen organizers actually worth buying \u2014 full comparison on our blog \ud83d\uddc4\ufe0f"
+  }
+ ]
+}
