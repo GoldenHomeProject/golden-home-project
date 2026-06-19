@@ -654,6 +654,56 @@
       "verified_price": "$16.99",
       "discovered_from_trend": "InnoGear 500ml ultrasonic essential oil diffuser with timer",
       "discovery_source": "asin_discoverer_auto"
+    },
+    {
+      "asin": "B0F1CGK144",
+      "product_name": "4th of July Table Decorations 3 PCS, Fourth of July Red White Blue Wooden Star Decor Centerpiece for Indoor Home, 250th Anniversary Memorial",
+      "categories": [
+        "patriotic/americana home decor",
+        "4th",
+        "americana",
+        "patriotic"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0F1CGK144?tag=goldenhomep06-20",
+      "verified_at": "2026-06-19",
+      "verified_stars": "4.8",
+      "verified_reviews": 242,
+      "verified_price": "$13.89",
+      "discovered_from_trend": "4th of July throw pillow covers and star bunting set",
+      "discovery_source": "asin_discoverer_auto"
+    },
+    {
+      "asin": "B08ZK5WDWN",
+      "product_name": "Airtight Food Storage Containers with Lids, Vtopmart 24 pcs Plastic Kitchen and Pantry Organization Canisters for Cereal, Dry Food, Flour an",
+      "categories": [
+        "pantry/kitchen organization",
+        "pantry",
+        "airtight"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B08ZK5WDWN?tag=goldenhomep06-20",
+      "verified_at": "2026-06-19",
+      "verified_stars": "4.7",
+      "verified_reviews": 27718,
+      "verified_price": "$30.99",
+      "discovered_from_trend": "Airtight pantry storage containers with chalkboard label set",
+      "discovery_source": "asin_discoverer_auto"
+    },
+    {
+      "asin": "B07SPXKNXN",
+      "product_name": "Ravinte 30 Pack | 5 Inch Cabinet Pulls Matte Black Stainless Steel Kitchen Drawer Pulls Cabinet Handles 5 InchLength, 3 Inch Hole Center",
+      "categories": [
+        "cabinet hardware/drawer pulls",
+        "matte",
+        "kitchen",
+        "modern"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B07SPXKNXN?tag=goldenhomep06-20",
+      "verified_at": "2026-06-19",
+      "verified_stars": "4.7",
+      "verified_reviews": 38040,
+      "verified_price": "$26.99",
+      "discovered_from_trend": "Matte black cabinet handles 25-pack",
+      "discovery_source": "asin_discoverer_auto"
     }
   ]
 }
