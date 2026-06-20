@@ -1431,5 +1431,21 @@
       "affiliate_url": "https://www.amazon.com/dp/B0CVVVNB9L?tag=goldenhomep06-20"
     },
     "hook": "My home had been a low-grade mess for longer than I want to admit."
+  },
+  {
+    "id": "carousel-2026-06-20-B075NS8YXG",
+    "media_type": "CAROUSEL_ALBUM",
+    "image_urls": [
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-20-B075NS8YXG/slide-1.png",
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-20-B075NS8YXG/slide-2.png",
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-20-B075NS8YXG/slide-3.png",
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-20-B075NS8YXG/slide-4.png",
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-20-B075NS8YXG/slide-5.png"
+    ],
+    "caption": "Your patio is one string light setup away from feeling like an outdoor venue.\n\nSave this \u2014 these three tips will change how you light your backyard this summer. \u2728\n\nComment LINK or DM me LINK for the Amazon link to these solar string lights.\n\n#outdoorlighting #patiodecor #backyardliving #stringlights #outdoorliving",
+    "asin": "B075NS8YXG",
+    "keyword": "LINK",
+    "queued_at": "2026-06-20T09:58:40.648221Z",
+    "source": "carousel_generator"
   }
 ]

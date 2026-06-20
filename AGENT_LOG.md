@@ -1171,3 +1171,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** automation/scripts/reel-2026-06-20-*.json, social/post_queue.json
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: before_after: Three weeks ago this cabinet was where things went | micro_insight: Most pillows are designed for back sleepers. 74% o | wrong_until_right: My home had been a low-grade mess for longer than
+
+## 2026-06-20T09:58:40Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B075NS8YXG (Brightech Ambience Pro Solar Powered Out)
+**Changed:** social/carousels/2026-06-20-B075NS8YXG/slide-1.png, social/carousels/2026-06-20-B075NS8YXG/slide-2.png, social/carousels/2026-06-20-B075NS8YXG/slide-3.png, social/carousels/2026-06-20-B075NS8YXG/slide-4.png, social/carousels/2026-06-20-B075NS8YXG/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B075NS8YXG carousel.
