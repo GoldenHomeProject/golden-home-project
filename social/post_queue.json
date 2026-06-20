@@ -225,22 +225,6 @@
     "hook": "I avoided opening this cabinet for two whole years."
   },
   {
-    "id": "carousel-2026-06-03-B099NTSWD9",
-    "media_type": "CAROUSEL_ALBUM",
-    "image_urls": [
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-03-B099NTSWD9/slide-1.png",
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-03-B099NTSWD9/slide-2.png",
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-03-B099NTSWD9/slide-3.png",
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-03-B099NTSWD9/slide-4.png",
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-03-B099NTSWD9/slide-5.png"
-    ],
-    "caption": "Your groceries are going bad 3x faster than they should.\n\nSave this for later. These tips cut food waste starting today \u2014 most don't require any new tools. But if you want the one that makes slide 4 actually effortless, comment VACUUM or DM me VACUUM for the link.\n\n#kitchenorganization #foodstorage #homeorganization #kitchenhacks #organizationtips",
-    "asin": "B099NTSWD9",
-    "keyword": "VACUUM",
-    "queued_at": "2026-06-03T11:52:01.354349Z",
-    "source": "carousel_generator"
-  },
-  {
     "name": "reel_2026-06-04_001",
     "status": "ready",
     "script_path": "automation/scripts/reel-2026-06-04-001.json",
