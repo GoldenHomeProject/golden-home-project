@@ -706,6 +706,22 @@
       "verified_price": "$26.99",
       "discovered_from_trend": "Matte black cabinet handles 25-pack",
       "discovery_source": "asin_discoverer_auto"
+    },
+    {
+      "asin": "B0B715XDG1",
+      "product_name": "FifthQuarter Key Holder Wall Mount: Key and Mail Holder for Wall with 6 Hooks and Storage Drawer, Easy Installation Key Rack for Entryway Ho",
+      "categories": [
+        "entryway wall organizer",
+        "entryway",
+        "mudroom"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0B715XDG1?tag=goldenhomep06-20",
+      "verified_at": "2026-06-20",
+      "verified_stars": "4.8",
+      "verified_reviews": 4083,
+      "verified_price": "$19.99",
+      "discovered_from_trend": "Wall-mounted entryway organizer with hooks, shelf, and mail compartment",
+      "discovery_source": "asin_discoverer_auto"
     }
   ]
 }
