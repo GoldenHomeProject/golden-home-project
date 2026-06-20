@@ -185,12 +185,13 @@
       "verified_at": "2026-05-28",
       "verified_stars": "4.8",
       "verified_reviews": 231174,
-      "verified_price": "$36.84",
+      "verified_price": "$39.99",
       "discovered_from_trend": "Stackable closet shelf dividers and velvet hangers bundle",
       "discovery_source": "asin_discoverer_auto",
       "keyword": "HANGERS",
       "status": "live",
-      "promoted_at": "2026-06-05T01:53:05Z"
+      "promoted_at": "2026-06-05T01:53:05Z",
+      "price_verified_at": "2026-06-19"
     },
     {
       "asin": "B08CYBPMJC",
@@ -268,12 +269,13 @@
       "verified_at": "2026-05-28",
       "verified_stars": "4.6",
       "verified_reviews": 3203,
-      "verified_price": "$16.98",
+      "verified_price": "$16.99",
       "discovered_from_trend": "Woven fringe throw pillow cover set (4-pack, earthy tones)",
       "discovery_source": "asin_discoverer_auto",
       "keyword": "THROW",
       "status": "live",
-      "promoted_at": "2026-06-08T12:20:01Z"
+      "promoted_at": "2026-06-08T12:20:01Z",
+      "price_verified_at": "2026-06-19"
     },
     {
       "asin": "B0BXSMJK86",
