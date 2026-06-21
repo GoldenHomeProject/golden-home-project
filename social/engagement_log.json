@@ -4,11 +4,11 @@
     "lifetime_follows": 19,
     "lifetime_likes": 33,
     "lifetime_comments": 7,
-    "last_session": "2026-06-21-1338-pi",
+    "last_session": "2026-06-21-2332-pi",
     "blocked_at": null,
-    "last_updated": "2026-06-21T13:38:53Z",
-    "total_actions": 220,
-    "lifetime_dms": 11,
+    "last_updated": "2026-06-21T23:33:15Z",
+    "total_actions": 222,
+    "lifetime_dms": 12,
     "lifetime_comments_outbound": 12
   },
   "actions": [
@@ -7650,6 +7650,148 @@
         {
           "handle": "neatmethod",
           "action": "mentioned you in a comment: @golden_home_project Hi! We designed our own Drawer Dividers \u2764\ufe0f You can find them on our website! 3d"
+        },
+        {
+          "handle": "rhodyentrepreneur",
+          "action": "liked your comment: Slow design is such a beautiful approach! Taking the time to restore and thrift...\u00a0more 09 Jun"
+        },
+        {
+          "handle": "thesundaygirledit",
+          "action": "liked your comment: YES this is the best decorating advice! Buy what you love and it will always wo...\u00a0more 09 Jun"
+        },
+        {
+          "handle": "padtoscano",
+          "action": "liked your reel. 27 May"
+        },
+        {
+          "handle": "padtoscano",
+          "action": "started following you. 27 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "replied to your comment on dhi.atelier's post: @golden_home_project Glad you liked it \u2764\ufe0f 25 May"
+        },
+        {
+          "handle": "padtoscano",
+          "action": "liked your reel. 24 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "sabrinaco.concierge",
+          "action": "started following you. 23 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        }
+      ],
+      "untapped_warm": [],
+      "dry_run": false
+    },
+    {
+      "timestamp": "2026-06-21T18:10:03Z",
+      "action": "dm_error",
+      "target": "lifeinjeneral",
+      "session": "outreach-2026-06-21T1809Z",
+      "reason": "no_message_btn: Locator.wait_for: Timeout 8000ms exceeded.\nCall log:\n  - waiting for get_by_role(\"button\", name=re.compile(r\"^Message$\", re.IGNORECASE)).first to be visible\n"
+    },
+    {
+      "timestamp": "2026-06-21T23:33:15Z",
+      "action": "inbox_sweep",
+      "target": "self",
+      "session": "2026-06-21-2332-pi",
+      "requests_count": 0,
+      "inbox_count": 0,
+      "notifications_count": 56,
+      "requests": [],
+      "inbox": [],
+      "notifications": [
+        {
+          "handle": "neatmethod",
+          "action": "mentioned you in a comment: @golden_home_project Hi! We designed our own Drawer Dividers \u2764\ufe0f You can find them on our website! 4d"
         },
         {
           "handle": "rhodyentrepreneur",
