@@ -722,6 +722,57 @@
       "verified_price": "$19.99",
       "discovered_from_trend": "Wall-mounted entryway organizer with hooks, shelf, and mail compartment",
       "discovery_source": "asin_discoverer_auto"
+    },
+    {
+      "asin": "1612435688",
+      "product_name": "Goodnight Dorm Room: All the Advice I Wish I Got Before Going to College",
+      "categories": [
+        "college dorm bedding and decor bundle",
+        "college",
+        "dorm",
+        "twin"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/1612435688?tag=goldenhomep06-20",
+      "verified_at": "2026-06-21",
+      "verified_stars": "4.4",
+      "verified_reviews": 664,
+      "verified_price": "$14.95",
+      "discovered_from_trend": "twin XL reversible comforter set with storage cubes and desk organizer",
+      "discovery_source": "asin_discoverer_auto"
+    },
+    {
+      "asin": "B0CD1X9B1J",
+      "product_name": "DOLLFIO Floating Shelves, 3 Sets Wall Shelves, Wooden Floating Shelves for Wall D\u00e9cor, Wall Mounted Floating Bathroom Shelf for Storage, Flo",
+      "categories": [
+        "shelf and bookcase organizers",
+        "shelf",
+        "how",
+        "decorative"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0CD1X9B1J?tag=goldenhomep06-20",
+      "verified_at": "2026-06-21",
+      "verified_stars": "4.5",
+      "verified_reviews": 2656,
+      "verified_price": "$15.99",
+      "discovered_from_trend": "decorative woven storage baskets plus riser set for shelf styling",
+      "discovery_source": "asin_discoverer_auto"
+    },
+    {
+      "asin": "B0F1MSZ34H",
+      "product_name": "Coat Rack Freestanding, Coat Stand with 3 Shelves and 7 Hooks, Hall Tree Free Standing, Clothes Rack Stand Organizer, Industrial Style, Rust",
+      "categories": [
+        "entryway and mudroom organizers",
+        "entryway",
+        "wall",
+        "mudroom"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0F1MSZ34H?tag=goldenhomep06-20",
+      "verified_at": "2026-06-21",
+      "verified_stars": "4.5",
+      "verified_reviews": 357,
+      "verified_price": "$39.99",
+      "discovered_from_trend": "wall-mounted coat rack with shoe bench and storage cubbies combo",
+      "discovery_source": "asin_discoverer_auto"
     }
   ]
 }
