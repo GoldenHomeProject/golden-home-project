@@ -1177,3 +1177,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** social/carousels/2026-06-20-B075NS8YXG/slide-1.png, social/carousels/2026-06-20-B075NS8YXG/slide-2.png, social/carousels/2026-06-20-B075NS8YXG/slide-3.png, social/carousels/2026-06-20-B075NS8YXG/slide-4.png, social/carousels/2026-06-20-B075NS8YXG/slide-5.png, social/post_queue.json
 **External actions:** Pexels (4 photos) + Claude CLI (slide content)
 **Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B075NS8YXG carousel.
+
+## 2026-06-21T06:15:19Z — ASIN Discoverer
+**Ran:** Scanned 5 trend opportunities, verified 3 new ASIN(s), refreshed 30 Movers items
+**Changed:** social/dm_keyword_registry.json, automation/trends/movers_shakers_latest.json
+**External actions:** amazon.com search + /dp/ + bestsellers (playwright) + reddit.com top.json (stdlib)
+**Next agent hint:** Blog Writer can now ship monetized posts about: Goodnight Dorm Room: All the Advice I Wish I Got B, DOLLFIO Floating Shelves, 3 Sets Wall Shelves, Woo, Coat Rack Freestanding, Coat Stand with 3 Shelves
