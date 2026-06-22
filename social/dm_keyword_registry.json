@@ -773,6 +773,57 @@
       "verified_price": "$39.99",
       "discovered_from_trend": "wall-mounted coat rack with shoe bench and storage cubbies combo",
       "discovery_source": "asin_discoverer_auto"
+    },
+    {
+      "asin": "B07T4N63TK",
+      "product_name": "15.7\" X 118\" Black Silk Wallpaper Embossed Self Adhesive Peel and Stick Wallpaper Contact Paper Removable Waterproof Kitchen Vinyl Wrap Cabi",
+      "categories": [
+        "peel-and-stick wallpaper",
+        "peel",
+        "removable",
+        "temporary"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B07T4N63TK?tag=goldenhomep06-20",
+      "verified_at": "2026-06-22",
+      "verified_stars": "4.3",
+      "verified_reviews": 11916,
+      "verified_price": "$5.99",
+      "discovered_from_trend": "NuWallpaper removable peel-and-stick accent wall panel",
+      "discovery_source": "asin_discoverer_auto"
+    },
+    {
+      "asin": "B08LDD8HBW",
+      "product_name": "Love's cabin Quilts for Queen Bed Blue Bedspreads - Soft Bed Summer Lightweight Bedspread Comforter - Modern Style Coin Pattern Coverlet for",
+      "categories": [
+        "lightweight summer quilts",
+        "lightweight",
+        "thin",
+        "cooling"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B08LDD8HBW?tag=goldenhomep06-20",
+      "verified_at": "2026-06-22",
+      "verified_stars": "4.6",
+      "verified_reviews": 21521,
+      "verified_price": "$27.98",
+      "discovered_from_trend": "Bedsure lightweight cooling quilt twin/full",
+      "discovery_source": "asin_discoverer_auto"
+    },
+    {
+      "asin": "B0FDWLX8QP",
+      "product_name": "8 Pack Extra Large Heavy Duty Moving Bags, Clear Storage Bins with Lids, Reinforced Handles & Heavy-Duty Zippers Moving Boxes Storage Bags T",
+      "categories": [
+        "closet and pantry organization bins",
+        "summer",
+        "pantry",
+        "clear"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0FDWLX8QP?tag=goldenhomep06-20",
+      "verified_at": "2026-06-22",
+      "verified_stars": "4.8",
+      "verified_reviews": 2854,
+      "verified_price": "$32.99",
+      "discovered_from_trend": "mDesign plastic storage bin set with label inserts",
+      "discovery_source": "asin_discoverer_auto"
     }
   ]
 }
