@@ -1219,3 +1219,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** automation/scripts/reel-2026-06-22-*.json, social/post_queue.json
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: before_after: Three weeks ago this cabinet was where things went | sensory: Picture this: it is 4am, your neck won't turn left | wrong_until_right: My patio had been a low-grade mess for longer than
+
+## 2026-06-22T12:43:42Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B0F29FLLJZ (VASAGLE Shoe Storage Bench with Cushion,)
+**Changed:** social/carousels/2026-06-22-B0F29FLLJZ/slide-1.png, social/carousels/2026-06-22-B0F29FLLJZ/slide-2.png, social/carousels/2026-06-22-B0F29FLLJZ/slide-3.png, social/carousels/2026-06-22-B0F29FLLJZ/slide-4.png, social/carousels/2026-06-22-B0F29FLLJZ/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B0F29FLLJZ carousel.
