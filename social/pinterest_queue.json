@@ -289,8 +289,9 @@
     "image_path": "social/pinterest/pin-2026-06-13-B0CXDJG5QM.png",
     "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/pinterest/pin-2026-06-13-B0CXDJG5QM.png",
     "queued_at": "2026-06-13T10:10:29.962851Z",
-    "posted": false,
-    "source": "pinterest_pipeline"
+    "posted": true,
+    "source": "pinterest_pipeline",
+    "posted_at": "2026-06-22T23:25:31Z"
   },
   {
     "id": "pin-2026-06-13-B088WYYH85",
