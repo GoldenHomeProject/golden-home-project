@@ -1499,10 +1499,10 @@
   },
   {
     "name": "reel_2026-06-22_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-06-22-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-06-22-001.mp4",
     "caption": "Three weeks ago this cabinet was where things went to die.\n\nOpen the door, hold your breath, hope you don't knock anything over. Sponges from a Costco run. Three half-empty bottles of the same cleaner. A measuring cup I lost track of in 2023.\n\nI added a Simple Houseware 2-tier chrome sliding basket. Holds 18 lbs per shelf. Sets directly on the cabinet floor \u2014 no installation.\n\nNow everything has a row. The system tells me when I'm out of something because the slot is empty, not buried.\n\nComment LINK and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #kitchenorganization #smallspacesolutions #undersinkstorage",
     "hashtags": [
       "#amazonhomefinds",
@@ -1520,14 +1520,15 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "Three weeks ago this cabinet was where things went to die."
+    "hook": "Three weeks ago this cabinet was where things went to die.",
+    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-06-22-001.mp4"
   },
   {
     "name": "reel_2026-06-22_002",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-06-22-002.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-06-22-002.mp4",
     "caption": "Picture this: it is 4am, your neck won't turn left, and the alarm is in 90 minutes.\n\nYou stare at the ceiling. Your shoulder is numb. The pillow under your head is somehow both too high and too low. You flip it. Cold side, sure, but the angle is still wrong.\n\nAn adjustable side sleeper pillow with a shoulder cutout fixes the angle problem. Eli & Elm \u2014 latex-fiber fill you can add or remove, U-shape that lets your shoulder rest naturally.\n\nSame bed, same room, same body. The only thing that changed was the pillow. The 4am stare-at-the-ceiling routine just stopped.\n\nComment PILLOW and I'll reply with the link.\nAffiliate link \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #sleepbetter #sidesleeper #bedroomupgrade",
     "hashtags": [
       "#amazonhomefinds",
@@ -1545,14 +1546,15 @@
       "affiliate_network": "impact_direct",
       "affiliate_url": "https://eliandelm.sjv.io/E092ZX"
     },
-    "hook": "Picture this: it is 4am, your neck won't turn left, and the alarm is in 90 minutes."
+    "hook": "Picture this: it is 4am, your neck won't turn left, and the alarm is in 90 minutes.",
+    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-06-22-002.mp4"
   },
   {
     "name": "reel_2026-06-22_003",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-06-22-003.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-06-22-003.mp4",
     "caption": "My patio had been a low-grade mess for longer than I want to admit.\n\nI kept meaning to deal with it and kept not dealing with it. Things piled up, I could never find what I needed, and every time I opened it I just shut it again.\n\nThen I found a patio patio sitting at 4.1 stars across 2,187 reviews, and it finally gave everything a place.\n\nIt runs about $251.08 and it's the first thing in a while that just worked. The patio actually stays sorted now.\n\nComment PATIO and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -1569,7 +1571,8 @@
       "affiliate_network": "amazon",
       "affiliate_url": "https://www.amazon.com/dp/B085XVFQ62?tag=goldenhomep06-20"
     },
-    "hook": "My patio had been a low-grade mess for longer than I want to admit."
+    "hook": "My patio had been a low-grade mess for longer than I want to admit.",
+    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-06-22-003.mp4"
   },
   {
     "id": "carousel-2026-06-22-B0F29FLLJZ",
