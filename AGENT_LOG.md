@@ -1201,3 +1201,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** social/carousels/2026-06-21-B08573DQ39/slide-1.png, social/carousels/2026-06-21-B08573DQ39/slide-2.png, social/carousels/2026-06-21-B08573DQ39/slide-3.png, social/carousels/2026-06-21-B08573DQ39/slide-4.png, social/carousels/2026-06-21-B08573DQ39/slide-5.png, social/post_queue.json
 **External actions:** Pexels (4 photos) + Claude CLI (slide content)
 **Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B08573DQ39 carousel.
+
+## 2026-06-22T06:09:36Z — ASIN Discoverer
+**Ran:** Scanned 5 trend opportunities, verified 3 new ASIN(s), refreshed 30 Movers items
+**Changed:** social/dm_keyword_registry.json, automation/trends/movers_shakers_latest.json
+**External actions:** amazon.com search + /dp/ + bestsellers (playwright) + reddit.com top.json (stdlib)
+**Next agent hint:** Blog Writer can now ship monetized posts about: 15.7" X 118" Black Silk Wallpaper Embossed Self Ad, Love's cabin Quilts for Queen Bed Blue Bedspreads , 8 Pack Extra Large Heavy Duty Moving Bags, Clear S
