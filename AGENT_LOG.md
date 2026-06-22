@@ -1207,3 +1207,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** social/dm_keyword_registry.json, automation/trends/movers_shakers_latest.json
 **External actions:** amazon.com search + /dp/ + bestsellers (playwright) + reddit.com top.json (stdlib)
 **Next agent hint:** Blog Writer can now ship monetized posts about: 15.7" X 118" Black Silk Wallpaper Embossed Self Ad, Love's cabin Quilts for Queen Bed Blue Bedspreads , 8 Pack Extra Large Heavy Duty Moving Bags, Clear S
+
+## 2026-06-22T10:35:22Z — Trend Scout
+**Ran:** Scanned 3 sources (google_trends_daily_us, pinterest, amazon_movers_shakers) -> 115 items, ranked 5 opportunities
+**Changed:** automation/trends/2026-06-22.json, social/trend_feed.json
+**External actions:** reddit_pi_cache + google_trends + pinterest_rss + amazon_movers_pi_cache
+**Next agent hint:** Content Engine: today's top-3 opportunities are: I spent $52 to make my ruined couch look, My bathroom went from builder-grade to m, This $32 hardware swap makes my kitchen
