@@ -824,6 +824,23 @@
       "verified_price": "$32.99",
       "discovered_from_trend": "mDesign plastic storage bin set with label inserts",
       "discovery_source": "asin_discoverer_auto"
+    },
+    {
+      "asin": "B08RJC5B74",
+      "product_name": "Closet Organizers and Storage,College Dorm Room Essentials,Pack of 6 Multifunctional Organizer Magic Space Saving Hangers with 9 Holes Stora",
+      "categories": [
+        "dorm room storage and organization",
+        "dorm",
+        "college",
+        "cube"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B08RJC5B74?tag=goldenhomep06-20",
+      "verified_at": "2026-06-23",
+      "verified_stars": "4.0",
+      "verified_reviews": 8799,
+      "verified_price": "$13.99",
+      "discovered_from_trend": "collapsible cube storage organizer with fabric bins (6-cube)",
+      "discovery_source": "asin_discoverer_auto"
     }
   ]
 }
