@@ -317,8 +317,9 @@
     "image_path": "social/pinterest/pin-2026-06-13-B09W2F2L4C.png",
     "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/pinterest/pin-2026-06-13-B09W2F2L4C.png",
     "queued_at": "2026-06-13T10:10:49.507812Z",
-    "posted": false,
-    "source": "pinterest_pipeline"
+    "posted": true,
+    "source": "pinterest_pipeline",
+    "posted_at": "2026-06-23T23:25:28Z"
   },
   {
     "id": "pin-roundup-ru-kitchen-cabinets",
