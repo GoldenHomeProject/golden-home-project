@@ -1261,3 +1261,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** social/reels/reel-2026-06-23-*.mp4, social/post_queue.json
 **External actions:** none
 **Next agent hint:** IG Poster has 3 new Reels ready for 14:00 + 22:00 UTC slots
+
+## 2026-06-24T08:20:40Z — Trend Scout
+**Ran:** Scanned 3 sources (google_trends_daily_us, pinterest, amazon_movers_shakers) -> 115 items, ranked 5 opportunities
+**Changed:** automation/trends/2026-06-24.json, social/trend_feed.json
+**External actions:** reddit_pi_cache + google_trends + pinterest_rss + amazon_movers_pi_cache
+**Next agent hint:** Content Engine: today's top-3 opportunities are: Pet-destroyed couch → $49 waterproof fix, Exploding junk drawer → zero-clutter sys, Scratched mismatched utensils → full mat
