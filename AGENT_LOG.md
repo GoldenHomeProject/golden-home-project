@@ -1273,3 +1273,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** automation/scripts/reel-2026-06-24-*.json, social/post_queue.json
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: confession: I avoided opening this cabinet for two whole years | confrontation: Stop blaming your mattress for your neck pain. | wrong_until_right: My home had been a low-grade mess for longer than
+
+## 2026-06-24T10:15:05Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B0DZH3LX6Q (COCHIE 4th of July Decorations Stars Set)
+**Changed:** social/carousels/2026-06-24-B0DZH3LX6Q/slide-1.png, social/carousels/2026-06-24-B0DZH3LX6Q/slide-2.png, social/carousels/2026-06-24-B0DZH3LX6Q/slide-3.png, social/carousels/2026-06-24-B0DZH3LX6Q/slide-4.png, social/carousels/2026-06-24-B0DZH3LX6Q/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B0DZH3LX6Q carousel.
