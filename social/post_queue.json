@@ -249,22 +249,6 @@
     "hook": "My closet had been a low-grade mess for longer than I want to admit."
   },
   {
-    "id": "carousel-2026-06-05-B00BAGTNAQ",
-    "media_type": "CAROUSEL_ALBUM",
-    "image_urls": [
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-05-B00BAGTNAQ/slide-1.png",
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-05-B00BAGTNAQ/slide-2.png",
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-05-B00BAGTNAQ/slide-3.png",
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-05-B00BAGTNAQ/slide-4.png",
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-05-B00BAGTNAQ/slide-5.png"
-    ],
-    "caption": "Pet hair doesn't have to win. Three tricks that actually keep it under control.\n\nSave this for later \u2014 you'll want it next time you're staring at a fur-covered couch cushion or your favorite dark sweater. Most people give up halfway through because they're using the wrong method for the surface. The last tip is the one that changed everything, and it's nearly impossible to do without the right tool.\n\nComment ROLLER or DM me ROLLER for the link.\n\n#homeorganization #petowner #cleaningtips #livingroomdecor #homecleaning",
-    "asin": "B00BAGTNAQ",
-    "keyword": "ROLLER",
-    "queued_at": "2026-06-05T10:41:56.078371Z",
-    "source": "carousel_generator"
-  },
-  {
     "name": "reel_2026-06-06_001",
     "status": "ready",
     "script_path": "automation/scripts/reel-2026-06-06-001.json",
