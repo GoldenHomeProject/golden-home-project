@@ -360,6 +360,7 @@
     "image_url": "",
     "queued_at": "2026-06-19",
     "source": "roundup_pins",
-    "posted": false
+    "posted": true,
+    "posted_at": "2026-06-25T13:40:30Z"
   }
 ]
