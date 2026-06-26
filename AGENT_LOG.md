@@ -1297,3 +1297,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** social/carousels/2026-06-25-B0FVW1TNH8/slide-1.png, social/carousels/2026-06-25-B0FVW1TNH8/slide-2.png, social/carousels/2026-06-25-B0FVW1TNH8/slide-3.png, social/carousels/2026-06-25-B0FVW1TNH8/slide-4.png, social/carousels/2026-06-25-B0FVW1TNH8/slide-5.png, social/post_queue.json
 **External actions:** Pexels (4 photos) + Claude CLI (slide content)
 **Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B0FVW1TNH8 carousel.
+
+## 2026-06-26T08:28:23Z — Trend Scout
+**Ran:** Scanned 2 sources (google_trends_daily_us, pinterest) -> 85 items, ranked 5 opportunities
+**Changed:** automation/trends/2026-06-26.json, social/trend_feed.json
+**External actions:** reddit_pi_cache + google_trends + pinterest_rss + amazon_movers_pi_cache
+**Next agent hint:** Content Engine: today's top-3 opportunities are: Cover a ruined couch for $47 — looks bra, Renter kitchen glow-up for $28 — no tool, Pantry chaos to magazine-worthy in 1 hou
