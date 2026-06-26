@@ -1309,3 +1309,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** automation/scripts/reel-2026-06-26-*.json, social/post_queue.json
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: before_after: Three weeks ago this cabinet was where things went | sensory: Picture this: it is 4am, your neck won't turn left | wrong_until_right: My kitchen had been a low-grade mess for longer th
+
+## 2026-06-26T10:14:42Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B073WD5KPX (DAPU Pure Linen Sheets Set, 100% French )
+**Changed:** social/carousels/2026-06-26-B073WD5KPX/slide-1.png, social/carousels/2026-06-26-B073WD5KPX/slide-2.png, social/carousels/2026-06-26-B073WD5KPX/slide-3.png, social/carousels/2026-06-26-B073WD5KPX/slide-4.png, social/carousels/2026-06-26-B073WD5KPX/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B073WD5KPX carousel.
