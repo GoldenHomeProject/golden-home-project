@@ -1339,3 +1339,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** social/carousels/2026-06-27-B0FFS5RBLC/slide-1.png, social/carousels/2026-06-27-B0FFS5RBLC/slide-2.png, social/carousels/2026-06-27-B0FFS5RBLC/slide-3.png, social/carousels/2026-06-27-B0FFS5RBLC/slide-4.png, social/carousels/2026-06-27-B0FFS5RBLC/slide-5.png, social/post_queue.json
 **External actions:** Pexels (4 photos) + Claude CLI (slide content)
 **Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B0FFS5RBLC carousel.
+
+## 2026-06-27T09:27:28Z — Reel Producer
+**Ran:** Rendered 3/3 MP4s for 2026-06-27
+**Changed:** social/reels/reel-2026-06-27-*.mp4, social/post_queue.json
+**External actions:** none
+**Next agent hint:** IG Poster has 3 new Reels ready for 14:00 + 22:00 UTC slots

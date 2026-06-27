@@ -1851,10 +1851,10 @@
   },
   {
     "name": "reel_2026-06-27_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-06-27-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-06-27-001.mp4",
     "caption": "Stop blaming your mattress for your neck pain.\n\nBought a fancy mattress. Bought a foam topper. Saw the chiro. The pain came back every time. The variable nobody changes is the pillow \u2014 same shape we've used for 70 years.\n\nA modern side sleeper pillow with a shoulder cutout actually addresses the geometry problem. Eli & Elm \u2014 adjustable latex-fiber fill, cooling cover, U-shape designed for the 74% of people who sleep on their side.\n\nFirst week and the morning stiffness is just gone. Cost a fraction of a new mattress and fixed what the mattress couldn't.\n\nComment PILLOW and I'll reply with the link.\nAffiliate link \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #sleepbetter #sidesleeper #bedroomupgrade",
     "hashtags": [
       "#amazonhomefinds",
@@ -1872,14 +1872,15 @@
       "affiliate_network": "impact_direct",
       "affiliate_url": "https://eliandelm.sjv.io/E092ZX"
     },
-    "hook": "Stop blaming your mattress for your neck pain."
+    "hook": "Stop blaming your mattress for your neck pain.",
+    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-06-27-001.mp4"
   },
   {
     "name": "reel_2026-06-27_002",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-06-27-002.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-06-27-002.mp4",
     "caption": "Buying more containers will never fix your under-sink cabinet.\n\nI tried clear bins. I tried stackable trays. I tried labeling everything. None of it solved the actual problem \u2014 that anything past the front 6 inches is functionally lost.\n\nWhat worked was a Simple Houseware 2-tier sliding basket. Chrome wire, 18 lbs per shelf, and the front rack slides independently to expose the back.\n\nI threw out two bins of duplicate cleaners I'd bought because I forgot the first ones existed. The cabinet finally works.\n\nComment LINK and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #kitchenorganization #smallspacesolutions #undersinkstorage",
     "hashtags": [
       "#amazonhomefinds",
@@ -1897,14 +1898,15 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "Buying more containers will never fix your under-sink cabinet."
+    "hook": "Buying more containers will never fix your under-sink cabinet.",
+    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-06-27-002.mp4"
   },
   {
     "name": "reel_2026-06-27_003",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-06-27-003.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-06-27-003.mp4",
     "caption": "My closet had been a low-grade mess for longer than I want to admit.\n\nI kept meaning to deal with it and kept not dealing with it. Things piled up, I could never find what I needed, and every time I opened it I just shut it again.\n\nThen I found a closet hangers sitting at 4.8 stars across 231,174 reviews, and it finally gave everything a place.\n\nIt runs about $36.84 and it's the first thing in a while that just worked. The closet actually stays sorted now.\n\nComment HANGERS and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -1921,7 +1923,8 @@
       "affiliate_network": "amazon",
       "affiliate_url": "https://www.amazon.com/dp/B07Y39ZXV7?tag=goldenhomep06-20"
     },
-    "hook": "My closet had been a low-grade mess for longer than I want to admit."
+    "hook": "My closet had been a low-grade mess for longer than I want to admit.",
+    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-06-27-003.mp4"
   },
   {
     "id": "carousel-2026-06-27-B0FFS5RBLC",
