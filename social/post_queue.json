@@ -249,22 +249,6 @@
     "hook": "My closet had been a low-grade mess for longer than I want to admit."
   },
   {
-    "id": "carousel-2026-06-06-B07Y39ZXV7",
-    "media_type": "CAROUSEL_ALBUM",
-    "image_urls": [
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-06-B07Y39ZXV7/slide-1.png",
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-06-B07Y39ZXV7/slide-2.png",
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-06-B07Y39ZXV7/slide-3.png",
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-06-B07Y39ZXV7/slide-4.png",
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-06-B07Y39ZXV7/slide-5.png"
-    ],
-    "caption": "The one closet swap that makes every other organization tip actually work.\n\nSave this for later \u2014 most closets aren't cramped because of too many clothes. They're cramped because bulky mismatched hangers eat rod space. Slim velvet hangers fix that without a single donation bag.\n\nComment HANGERS or DM me HANGERS for the direct Amazon link. \u2709\ufe0f\n\n#closetorganization #closetorganizing #homeorganization #organizeyourhome #closetstorage",
-    "asin": "B07Y39ZXV7",
-    "keyword": "HANGERS",
-    "queued_at": "2026-06-06T09:19:02.153462Z",
-    "source": "carousel_generator"
-  },
-  {
     "name": "reel_2026-06-07_001",
     "status": "awaiting_video",
     "script_path": "automation/scripts/reel-2026-06-07-001.json",
