@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-06-28T08:39:20.823928Z",
+  "date": "2026-06-28",
+  "seq": 3,
+  "hook_category": "wrong_until_right",
+  "hook": "My closet had been a low-grade mess for longer than I want to admit.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "first-person POV of a cluttered closet, things spilling out",
+      "on_screen_text": "THIS WAS EVERY DAY",
+      "voiceover": "My closet had been a mess for longer than I'll admit."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "close-up of disorganized items in the closet",
+      "on_screen_text": "COULD NEVER FIND ANYTHING",
+      "voiceover": "I kept meaning to deal with it and kept not dealing with it."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "person shutting a door/drawer in frustration",
+      "on_screen_text": "SO I GAVE UP",
+      "voiceover": "Every time I opened it I just shut it again."
+    },
+    {
+      "n": 4,
+      "duration_sec": 5,
+      "visual_prompt": "the hangers in use, everything organized and visible",
+      "on_screen_text": "THEN THIS",
+      "voiceover": "Then I found a hangers that finally gave everything a place."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "satisfying final shot of the tidy closet",
+      "on_screen_text": "STAYS SORTED NOW",
+      "voiceover": "The closet actually stays sorted now."
+    }
+  ],
+  "caption": "My closet had been a low-grade mess for longer than I want to admit.\n\nI kept meaning to deal with it and kept not dealing with it. Things piled up, I could never find what I needed, and every time I opened it I just shut it again.\n\nThen I found a closet hangers sitting at 4.8 stars across 231,174 reviews, and it finally gave everything a place.\n\nIt runs about $36.84 and it's the first thing in a while that just worked. The closet actually stays sorted now.\n\nComment HANGERS and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "Then I found a closet hangers sitting at 4.8 stars across 231,174 reviews, and it finally gave everything a place.",
+  "affiliate_strategy": {
+    "primary_product": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers for Closet Organization, Ivory/Rose Gold, 100-Pack",
+    "dm_keyword": "HANGERS",
+    "amazon_asin": "B07Y39ZXV7",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B07Y39ZXV7?tag=goldenhomep06-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": "https://www.amazon.com/dp/B07Y39ZXV7?tag=goldenhomep06-20"
+  }
+}
