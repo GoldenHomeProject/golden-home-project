@@ -1363,3 +1363,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** social/carousels/2026-06-28-B0G1Y5BNZL/slide-1.png, social/carousels/2026-06-28-B0G1Y5BNZL/slide-2.png, social/carousels/2026-06-28-B0G1Y5BNZL/slide-3.png, social/carousels/2026-06-28-B0G1Y5BNZL/slide-4.png, social/carousels/2026-06-28-B0G1Y5BNZL/slide-5.png, social/post_queue.json
 **External actions:** Pexels (4 photos) + Claude CLI (slide content)
 **Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B0G1Y5BNZL carousel.
+
+## 2026-06-29T09:24:57Z — Trend Scout
+**Ran:** Scanned 2 sources (google_trends_daily_us, pinterest) -> 83 items, ranked 5 opportunities
+**Changed:** automation/trends/2026-06-29.json, social/trend_feed.json
+**External actions:** reddit_pi_cache + google_trends + pinterest_rss + amazon_movers_pi_cache
+**Next agent hint:** Content Engine: today's top-3 opportunities are: Destroyed couch → showroom sofa in 5 min, Ugly rental kitchen → real tile look for, Bare concrete patio → outdoor living roo
