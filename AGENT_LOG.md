@@ -1393,3 +1393,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** automation/scripts/reel-2026-06-30-*.json, social/post_queue.json
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: sensory: Picture this: it is 4am, your neck won't turn left | micro_insight: The reason your cabinets stay messy is that nothin | wrong_until_right: My home had been a low-grade mess for longer than
+
+## 2026-06-30T10:25:12Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B0DXKRFFGM (Dehumidifier, 95OZ Dehumidifier for Home)
+**Changed:** social/carousels/2026-06-30-B0DXKRFFGM/slide-1.png, social/carousels/2026-06-30-B0DXKRFFGM/slide-2.png, social/carousels/2026-06-30-B0DXKRFFGM/slide-3.png, social/carousels/2026-06-30-B0DXKRFFGM/slide-4.png, social/carousels/2026-06-30-B0DXKRFFGM/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B0DXKRFFGM carousel.
