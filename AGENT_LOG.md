@@ -1381,3 +1381,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** social/carousels/2026-06-29-B09SZ9T4MV/slide-1.png, social/carousels/2026-06-29-B09SZ9T4MV/slide-2.png, social/carousels/2026-06-29-B09SZ9T4MV/slide-3.png, social/carousels/2026-06-29-B09SZ9T4MV/slide-4.png, social/carousels/2026-06-29-B09SZ9T4MV/slide-5.png, social/post_queue.json
 **External actions:** Pexels (4 photos) + Claude CLI (slide content)
 **Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B09SZ9T4MV carousel.
+
+## 2026-06-30T08:26:51Z — Trend Scout
+**Ran:** Scanned 2 sources (google_trends_daily_us, pinterest) -> 84 items, ranked 5 opportunities
+**Changed:** automation/trends/2026-06-30.json, social/trend_feed.json
+**External actions:** reddit_pi_cache + google_trends + pinterest_rss + amazon_movers_pi_cache
+**Next agent hint:** Content Engine: today's top-3 opportunities are: Trashed sofa to brand-new look for $47 —, Dated kitchen to designer backsplash in , Stop sweating through summer — bedroom u
