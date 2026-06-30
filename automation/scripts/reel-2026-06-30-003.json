@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-06-30T08:54:54.094190Z",
+  "date": "2026-06-30",
+  "seq": 3,
+  "hook_category": "wrong_until_right",
+  "hook": "My home had been a low-grade mess for longer than I want to admit.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "first-person POV of a cluttered home, things spilling out",
+      "on_screen_text": "THIS WAS EVERY DAY",
+      "voiceover": "My home had been a mess for longer than I'll admit."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "close-up of disorganized items in the home",
+      "on_screen_text": "COULD NEVER FIND ANYTHING",
+      "voiceover": "I kept meaning to deal with it and kept not dealing with it."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "person shutting a door/drawer in frustration",
+      "on_screen_text": "SO I GAVE UP",
+      "voiceover": "Every time I opened it I just shut it again."
+    },
+    {
+      "n": 4,
+      "duration_sec": 5,
+      "visual_prompt": "the throw in use, everything organized and visible",
+      "on_screen_text": "THEN THIS",
+      "voiceover": "Then I found a throw that finally gave everything a place."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "satisfying final shot of the tidy home",
+      "on_screen_text": "STAYS SORTED NOW",
+      "voiceover": "The home actually stays sorted now."
+    }
+  ],
+  "caption": "My home had been a low-grade mess for longer than I want to admit.\n\nI kept meaning to deal with it and kept not dealing with it. Things piled up, I could never find what I needed, and every time I opened it I just shut it again.\n\nThen I found a boho throw sitting at 4.6 stars across 3,203 reviews, and it finally gave everything a place.\n\nIt runs about $16.98 and it's the first thing in a while that just worked. The home actually stays sorted now.\n\nComment THROW and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "Then I found a boho throw sitting at 4.6 stars across 3,203 reviews, and it finally gave everything a place.",
+  "affiliate_strategy": {
+    "primary_product": "MIULEE Boho Farmhouse Sage Green Throw Pillow Covers 18x18 Inch Set of 4 Mordern Nordic Cushion Covers Soft Corduroy Spring Home Decor for C",
+    "dm_keyword": "THROW",
+    "amazon_asin": "B0CVVVNB9L",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B0CVVVNB9L?tag=goldenhomep06-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": "https://www.amazon.com/dp/B0CVVVNB9L?tag=goldenhomep06-20"
+  }
+}
