@@ -1417,3 +1417,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** automation/scripts/reel-2026-07-01-*.json, social/post_queue.json
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: sensory: Picture this: it is 4am, your neck won't turn left | before_after: Three weeks ago this cabinet was where things went | wrong_until_right: My patio had been a low-grade mess for longer than
+
+## 2026-07-01T10:38:01Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B07QLQ3QP4 (Air Wick Plug in Scented Oil Starter Kit)
+**Changed:** social/carousels/2026-07-01-B07QLQ3QP4/slide-1.png, social/carousels/2026-07-01-B07QLQ3QP4/slide-2.png, social/carousels/2026-07-01-B07QLQ3QP4/slide-3.png, social/carousels/2026-07-01-B07QLQ3QP4/slide-4.png, social/carousels/2026-07-01-B07QLQ3QP4/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B07QLQ3QP4 carousel.
