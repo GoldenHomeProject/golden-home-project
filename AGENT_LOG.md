@@ -1423,3 +1423,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** social/carousels/2026-07-01-B07QLQ3QP4/slide-1.png, social/carousels/2026-07-01-B07QLQ3QP4/slide-2.png, social/carousels/2026-07-01-B07QLQ3QP4/slide-3.png, social/carousels/2026-07-01-B07QLQ3QP4/slide-4.png, social/carousels/2026-07-01-B07QLQ3QP4/slide-5.png, social/post_queue.json
 **External actions:** Pexels (4 photos) + Claude CLI (slide content)
 **Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B07QLQ3QP4 carousel.
+
+## 2026-07-02T08:11:00Z — Trend Scout
+**Ran:** Scanned 2 sources (google_trends_daily_us, pinterest) -> 84 items, ranked 5 opportunities
+**Changed:** automation/trends/2026-07-02.json, social/trend_feed.json
+**External actions:** reddit_pi_cache + google_trends + pinterest_rss + amazon_movers_pi_cache
+**Next agent hint:** Content Engine: today's top-3 opportunities are: $28 kitchen facelift, zero demo, done in, $34 pantry glow-up: chaos to color-coded, $139 bare patio to backyard cafe before
