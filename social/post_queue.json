@@ -2372,5 +2372,21 @@
       "affiliate_url": "https://www.amazon.com/dp/B085XVFQ62?tag=goldenhomep06-20"
     },
     "hook": "My patio had been a low-grade mess for longer than I want to admit."
+  },
+  {
+    "id": "carousel-2026-07-04-B08ZK5WDWN",
+    "media_type": "CAROUSEL_ALBUM",
+    "image_urls": [
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-07-04-B08ZK5WDWN/slide-1.png",
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-07-04-B08ZK5WDWN/slide-2.png",
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-07-04-B08ZK5WDWN/slide-3.png",
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-07-04-B08ZK5WDWN/slide-4.png",
+      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-07-04-B08ZK5WDWN/slide-5.png"
+    ],
+    "caption": "Your pantry can look like this by Sunday night.\n\nIf your shelves are a graveyard of half-open bags and mismatched Tupperware, save this post before you scroll away. These 24-piece airtight canisters are the reset button: same shape, stackable, and they actually keep cereal and flour fresh instead of stale.\n\nComment LINK or DM me LINK for the link.\n\n#pantryorganization #kitchenorganization #airtightcontainers #organizedpantry #homeorganizing",
+    "asin": "B08ZK5WDWN",
+    "keyword": "LINK",
+    "queued_at": "2026-07-04T09:13:28.374533Z",
+    "source": "carousel_generator"
   }
 ]
