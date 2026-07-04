@@ -58,7 +58,7 @@ CANVAS_W, CANVAS_H = 1080, 1350  # IG portrait 4:5
 PEXELS_API_KEY = os.environ.get("PEXELS_API_KEY", "").strip()
 
 # raw.githubusercontent.com prefix the IG poster uses. Filled at queue time.
-RAW_GH_BASE = "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main"
+RAW_GH_BASE = "https://goldenhomeproject.com"
 
 
 def _font(size: int, bold: bool = False) -> ImageFont.FreeTypeFont | ImageFont.ImageFont:

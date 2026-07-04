@@ -124,7 +124,7 @@ REGISTRY_PATH = SOCIAL / "dm_keyword_registry.json"
 PINS_DIR = SOCIAL / "pinterest"
 QUEUE_PATH = SOCIAL / "pinterest_queue.json"
 SITE = "https://goldenhomeproject.com"
-RAW_GH_BASE = "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main"
+RAW_GH_BASE = "https://goldenhomeproject.com"
 
 # Pinterest standard pin is 2:3 (1000x1500).
 PIN_W, PIN_H = 1000, 1500

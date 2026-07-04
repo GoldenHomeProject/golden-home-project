@@ -47,7 +47,7 @@ MUSIC_DEFAULT = "day_bird.mp3"
 # -22 dB below voiceover. Math: 10^(-22/20) ≈ 0.08
 MUSIC_GAIN = 0.08
 
-RAW_URL_BASE = "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main"
+RAW_URL_BASE = "https://goldenhomeproject.com"
 
 WIDTH, HEIGHT = 1080, 1920
 ACCENT_COLOR = (212, 167, 69)
