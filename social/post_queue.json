@@ -2298,5 +2298,79 @@
     "keyword": "LINK",
     "queued_at": "2026-07-02T09:53:07.729372Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_2026-07-04_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-07-04-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "I avoided opening this cabinet for two whole years.\n\nEvery time I opened it I had to do a Tetris move just to grab dish soap. The wasted vertical space mocked me. There was room for two of everything if I could just get to it.\n\nThe Simple Houseware 2-tier sliding basket fixed it in 4 minutes \u2014 no tools, no drilling, just sets on the cabinet floor. Each tier slides independently.\n\nDoubled my usable storage without buying a single new container. The cabinet went from chaos to a system in one afternoon.\n\nComment LINK and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #kitchenorganization #smallspacesolutions #undersinkstorage",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#kitchenorganization",
+      "#smallspacesolutions",
+      "#undersinkstorage"
+    ],
+    "affiliate": {
+      "primary_product": "Simple Houseware 2-Tier Sliding Basket Organizer (chrome, under-sink)",
+      "dm_keyword": "LINK",
+      "amazon_asin": "B01M0TS64K",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01M0TS64K?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "I avoided opening this cabinet for two whole years."
+  },
+  {
+    "name": "reel_2026-07-04_002",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-07-04-002.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "I spent ten years thinking my mattress was the problem.\n\nI bought a $1,400 mattress to fix my neck pain. Didn't help. Bought a topper. Didn't help. Saw a chiropractor twice a month for two years. Helped, but the pain came back every time.\n\nTurns out it was the pillow. Specifically the wrong pillow for a side sleeper. The Eli & Elm has a shoulder cutout that lets your shoulder drop into the bed instead of crushing it.\n\nThree weeks of using it and the chronic stiffness is just gone. Saved myself another mattress.\n\nComment PILLOW and I'll reply with the link.\nAffiliate link \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #sleepbetter #sidesleeper #bedroomupgrade",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#sleepbetter",
+      "#sidesleeper",
+      "#bedroomupgrade"
+    ],
+    "affiliate": {
+      "primary_product": "Eli & Elm Side Sleeper Pillow (U-shape, latex, queen)",
+      "dm_keyword": "PILLOW",
+      "amazon_asin": "B07YL7VD32",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B07YL7VD32?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "impact_direct",
+      "affiliate_url": "https://eliandelm.sjv.io/E092ZX"
+    },
+    "hook": "I spent ten years thinking my mattress was the problem."
+  },
+  {
+    "name": "reel_2026-07-04_003",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-07-04-003.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "My patio had been a low-grade mess for longer than I want to admit.\n\nI kept meaning to deal with it and kept not dealing with it. Things piled up, I could never find what I needed, and every time I opened it I just shut it again.\n\nThen I found a patio patio sitting at 4.1 stars across 2,187 reviews, and it finally gave everything a place.\n\nIt runs about $251.08 and it's the first thing in a while that just worked. The patio actually stays sorted now.\n\nComment PATIO and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Vongrasig 5 Piece Patio Furniture Sets, Outdoor Patio Set Sectional Sofa, All-Weather PE Rattan Outdoor Couch with Ottoman, Glass Table for ",
+      "dm_keyword": "PATIO",
+      "amazon_asin": "B085XVFQ62",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B085XVFQ62?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B085XVFQ62?tag=goldenhomep06-20"
+    },
+    "hook": "My patio had been a low-grade mess for longer than I want to admit."
   }
 ]
