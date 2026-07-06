@@ -79,7 +79,7 @@ def call_claude(prompt: str, *, system: str | None = None,
             # Retry on transient: rate-limit-ish phrases, network hiccups.
             if any(tok in err.lower() for tok in [
                 "rate limit", "usage limit", "timeout", "temporarily",
-                "connection", "retry",
+                "connection", "retry", "max turns",
             ]):
                 time.sleep(2 ** attempt * 2)
                 continue

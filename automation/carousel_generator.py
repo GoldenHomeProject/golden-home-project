@@ -364,7 +364,9 @@ Return STRICT JSON:
   "caption": "<full caption with hashtags>",
   "pexels_queries": ["<q1>", "<q2>", "<q3>", "<q4>"]
 }}"""
-    return call_claude_json(prompt, max_tokens=2048, max_turns=1, timeout=180)
+    # max_turns=3 (not 1): the CLI intermittently needs an extra turn before
+    # emitting the JSON and rc=1's with "Reached max turns" — this gives headroom.
+    return call_claude_json(prompt, max_tokens=2048, max_turns=3, timeout=180)
 
 
 def main() -> int:
