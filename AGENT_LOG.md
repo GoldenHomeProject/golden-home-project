@@ -1489,3 +1489,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** social/reels/reel-2026-07-05-*.mp4, social/post_queue.json
 **External actions:** none
 **Next agent hint:** IG Poster has 3 new Reels ready for 14:00 + 22:00 UTC slots
+
+## 2026-07-06T02:42:30Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B07SPXKNXN (Ravinte 30 Pack | 5 Inch Cabinet Pulls M)
+**Changed:** social/carousels/2026-07-06-B07SPXKNXN/slide-1.png, social/carousels/2026-07-06-B07SPXKNXN/slide-2.png, social/carousels/2026-07-06-B07SPXKNXN/slide-3.png, social/carousels/2026-07-06-B07SPXKNXN/slide-4.png, social/carousels/2026-07-06-B07SPXKNXN/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B07SPXKNXN carousel.
