@@ -1543,3 +1543,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** automation/scripts/reel-2026-07-08-*.json, social/post_queue.json
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: confrontation: Stop blaming your mattress for your neck pain. | confrontation: Buying more containers will never fix your under-s | wrong_until_right: My home had been a low-grade mess for longer than
+
+## 2026-07-08T12:08:31Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B0CD1X9B1J (DOLLFIO Floating Shelves, 3 Sets Wall Sh)
+**Changed:** social/carousels/2026-07-08-B0CD1X9B1J/slide-1.png, social/carousels/2026-07-08-B0CD1X9B1J/slide-2.png, social/carousels/2026-07-08-B0CD1X9B1J/slide-3.png, social/carousels/2026-07-08-B0CD1X9B1J/slide-4.png, social/carousels/2026-07-08-B0CD1X9B1J/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B0CD1X9B1J carousel.
