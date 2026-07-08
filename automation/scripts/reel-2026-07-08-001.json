@@ -1,0 +1,69 @@
+{
+  "created_at": "2026-07-08T11:59:19.538354Z",
+  "date": "2026-07-08",
+  "seq": 1,
+  "hook_category": "confrontation",
+  "hook": "Stop blaming your mattress for your neck pain.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "person blaming mattress, gesturing at bed",
+      "on_screen_text": "STOP BLAMING THE MATTRESS",
+      "voiceover": "Stop blaming your mattress for your neck pain."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "stack of receipts for mattress, topper, chiropractor",
+      "on_screen_text": "TRIED EVERYTHING. NOTHING WORKED.",
+      "voiceover": "Mattress, topper, chiropractor \u2014 pain came back."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "regular pillow shape, unchanged design for decades",
+      "on_screen_text": "PILLOW = UNCHANGED VARIABLE",
+      "voiceover": "The variable nobody changes is the pillow."
+    },
+    {
+      "n": 4,
+      "duration_sec": 5,
+      "visual_prompt": "Eli & Elm pillow with U-shape and shoulder cutout, adjustable fill visible",
+      "on_screen_text": "ADJUSTABLE U-SHAPE PILLOW",
+      "voiceover": "Modern side sleeper pillow with shoulder cutout."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "cost comparison: pillow vs new mattress",
+      "on_screen_text": "FRACTION OF A MATTRESS",
+      "voiceover": "Cost a fraction of a new mattress."
+    },
+    {
+      "n": 6,
+      "duration_sec": 4,
+      "visual_prompt": "morning, person stretches comfortably without pain",
+      "on_screen_text": "COMMENT PILLOW",
+      "voiceover": "Comment PILLOW and I'll DM you the link."
+    }
+  ],
+  "caption": "Stop blaming your mattress for your neck pain.\n\nBought a fancy mattress. Bought a foam topper. Saw the chiro. The pain came back every time. The variable nobody changes is the pillow \u2014 same shape we've used for 70 years.\n\nA modern side sleeper pillow with a shoulder cutout actually addresses the geometry problem. Eli & Elm \u2014 adjustable latex-fiber fill, cooling cover, U-shape designed for the 74% of people who sleep on their side.\n\nFirst week and the morning stiffness is just gone. Cost a fraction of a new mattress and fixed what the mattress couldn't.\n\nComment PILLOW and I'll reply with the link.\nAffiliate link \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #sleepbetter #sidesleeper #bedroomupgrade",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#sleepbetter",
+    "#sidesleeper",
+    "#bedroomupgrade"
+  ],
+  "specific_falsifiable_detail": "A modern side sleeper pillow with a shoulder cutout actually addresses the geometry problem. Eli & Elm \u2014 adjustable latex-fiber fill, cooling cover, U-shape designed for the 74% of people who sleep on",
+  "affiliate_strategy": {
+    "primary_product": "Eli & Elm Side Sleeper Pillow (U-shape, latex, queen)",
+    "dm_keyword": "PILLOW",
+    "amazon_asin": "B07YL7VD32",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B07YL7VD32?tag=goldenhomep06-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "impact_direct",
+    "affiliate_url": "https://eliandelm.sjv.io/E092ZX"
+  }
+}
