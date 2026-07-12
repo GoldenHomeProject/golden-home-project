@@ -1621,3 +1621,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** automation/scripts/reel-2026-07-12-*.json, social/post_queue.json
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: confrontation: Stop blaming your mattress for your neck pain. | before_after: Three weeks ago this cabinet was where things went | wrong_until_right: My patio had been a low-grade mess for longer than
+
+## 2026-07-12T11:35:13Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B0FDWLX8QP (8 Pack Extra Large Heavy Duty Moving Bag)
+**Changed:** social/carousels/2026-07-12-B0FDWLX8QP/slide-1.png, social/carousels/2026-07-12-B0FDWLX8QP/slide-2.png, social/carousels/2026-07-12-B0FDWLX8QP/slide-3.png, social/carousels/2026-07-12-B0FDWLX8QP/slide-4.png, social/carousels/2026-07-12-B0FDWLX8QP/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B0FDWLX8QP carousel.
