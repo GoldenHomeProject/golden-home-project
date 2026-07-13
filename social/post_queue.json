@@ -371,22 +371,6 @@
     "hook": "My home had been a low-grade mess for longer than I want to admit."
   },
   {
-    "id": "carousel-2026-06-13-B0D176VGXZ",
-    "media_type": "CAROUSEL_ALBUM",
-    "image_urls": [
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-13-B0D176VGXZ/slide-1.png",
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-13-B0D176VGXZ/slide-2.png",
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-13-B0D176VGXZ/slide-3.png",
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-13-B0D176VGXZ/slide-4.png",
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-13-B0D176VGXZ/slide-5.png"
-    ],
-    "caption": "Under-sink storage doesn't have to be a black hole.\n\nSave this for later \u2014 these tips work whether or not you upgrade your organizer. But if you're ready to stop getting on your knees every time you need something from the back of the cabinet, the PXRACK expandable organizer fits around your pipes, adjusts to your cabinet width, and has two pull-out drawers so everything rolls forward to you.\n\nComment LINK or DM me LINK for the link. \u2728\n\n#homeorganization #undersinkstorage #bathroomorganization #kitchenorganization #organizationtips",
-    "asin": "B0D176VGXZ",
-    "keyword": "LINK",
-    "queued_at": "2026-06-13T09:51:25.895732Z",
-    "source": "carousel_generator"
-  },
-  {
     "name": "reel_2026-06-14_001",
     "status": "awaiting_video",
     "script_path": "automation/scripts/reel-2026-06-14-001.json",
