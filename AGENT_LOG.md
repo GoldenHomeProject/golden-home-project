@@ -1687,3 +1687,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** automation/scripts/reel-2026-07-16-*.json, social/post_queue.json
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: confession: I spent ten years thinking my mattress was the pro | before_after: Three weeks ago this cabinet was where things went | wrong_until_right: My kitchen had been a low-grade mess for longer th
+
+## 2026-07-16T12:11:19Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B07YL7VD32 (Eli & Elm Side Sleeper Pillow (U-shape, )
+**Changed:** social/carousels/2026-07-16-B07YL7VD32/slide-1.png, social/carousels/2026-07-16-B07YL7VD32/slide-2.png, social/carousels/2026-07-16-B07YL7VD32/slide-3.png, social/carousels/2026-07-16-B07YL7VD32/slide-4.png, social/carousels/2026-07-16-B07YL7VD32/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B07YL7VD32 carousel.
