@@ -1,0 +1,62 @@
+{
+  "created_at": "2026-07-16T11:56:04.809545Z",
+  "date": "2026-07-16",
+  "seq": 3,
+  "hook_category": "wrong_until_right",
+  "hook": "My kitchen had been a low-grade mess for longer than I want to admit.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "first-person POV of a cluttered kitchen, things spilling out",
+      "on_screen_text": "THIS WAS EVERY DAY",
+      "voiceover": "My kitchen had been a mess for longer than I'll admit."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "close-up of disorganized items in the kitchen",
+      "on_screen_text": "COULD NEVER FIND ANYTHING",
+      "voiceover": "I kept meaning to deal with it and kept not dealing with it."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "person shutting a door/drawer in frustration",
+      "on_screen_text": "SO I GAVE UP",
+      "voiceover": "Every time I opened it I just shut it again."
+    },
+    {
+      "n": 4,
+      "duration_sec": 5,
+      "visual_prompt": "the turntable in use, everything organized and visible",
+      "on_screen_text": "THEN THIS",
+      "voiceover": "Then I found a turntable that finally gave everything a place."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "satisfying final shot of the tidy kitchen",
+      "on_screen_text": "STAYS SORTED NOW",
+      "voiceover": "The kitchen actually stays sorted now."
+    }
+  ],
+  "caption": "My kitchen had been a low-grade mess for longer than I want to admit.\n\nI kept meaning to deal with it and kept not dealing with it. Things piled up, I could never find what I needed, and every time I opened it I just shut it again.\n\nThen I found a lazy-susan turntable sitting at 4.7 stars across 6,190 reviews, and it finally gave everything a place.\n\nIt runs about $24.99 and it's the first thing in a while that just worked. The kitchen actually stays sorted now.\n\nComment TURNTABLE and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #kitchenorganization #smallspacesolutions #undersinkstorage",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#kitchenorganization",
+    "#smallspacesolutions",
+    "#undersinkstorage"
+  ],
+  "specific_falsifiable_detail": "Then I found a lazy-susan turntable sitting at 4.7 stars across 6,190 reviews, and it finally gave everything a place.",
+  "affiliate_strategy": {
+    "primary_product": "Set of 4 Non-Skid 10-Inch Lazy Susan Turntable Organizers",
+    "dm_keyword": "TURNTABLE",
+    "amazon_asin": "B0B3WSZ3QP",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B0B3WSZ3QP?tag=goldenhomep06-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": "https://www.amazon.com/dp/B0B3WSZ3QP?tag=goldenhomep06-20"
+  }
+}
