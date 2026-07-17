@@ -1693,3 +1693,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** social/carousels/2026-07-16-B07YL7VD32/slide-1.png, social/carousels/2026-07-16-B07YL7VD32/slide-2.png, social/carousels/2026-07-16-B07YL7VD32/slide-3.png, social/carousels/2026-07-16-B07YL7VD32/slide-4.png, social/carousels/2026-07-16-B07YL7VD32/slide-5.png, social/post_queue.json
 **External actions:** Pexels (4 photos) + Claude CLI (slide content)
 **Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B07YL7VD32 carousel.
+
+## 2026-07-17T11:03:15Z — Trend Scout
+**Ran:** Scanned 2 sources (google_trends_daily_us, pinterest) -> 85 items, ranked 5 opportunities
+**Changed:** automation/trends/2026-07-17.json, social/trend_feed.json
+**External actions:** reddit_pi_cache + google_trends + pinterest_rss + amazon_movers_pi_cache
+**Next agent hint:** Content Engine: today's top-3 opportunities are: Bare dorm desk to $34 glam vanity corner, $45 stretch cover turns a pet-hair couch, $89 LED mirror swap makes a dated bathro
