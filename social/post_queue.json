@@ -3129,5 +3129,79 @@
     "keyword": "PILLOW",
     "queued_at": "2026-07-16T12:11:19.901165Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_2026-07-17_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-07-17-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Stop blaming your mattress for your neck pain.\n\nBought a fancy mattress. Bought a foam topper. Saw the chiro. The pain came back every time. The variable nobody changes is the pillow \u2014 same shape we've used for 70 years.\n\nA modern side sleeper pillow with a shoulder cutout actually addresses the geometry problem. Eli & Elm \u2014 adjustable latex-fiber fill, cooling cover, U-shape designed for the 74% of people who sleep on their side.\n\nFirst week and the morning stiffness is just gone. Cost a fraction of a new mattress and fixed what the mattress couldn't.\n\nComment PILLOW and I'll reply with the link.\nAffiliate link \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #sleepbetter #sidesleeper #bedroomupgrade",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#sleepbetter",
+      "#sidesleeper",
+      "#bedroomupgrade"
+    ],
+    "affiliate": {
+      "primary_product": "Eli & Elm Side Sleeper Pillow (U-shape, latex, queen)",
+      "dm_keyword": "PILLOW",
+      "amazon_asin": "B07YL7VD32",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B07YL7VD32?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "impact_direct",
+      "affiliate_url": "https://eliandelm.sjv.io/E092ZX"
+    },
+    "hook": "Stop blaming your mattress for your neck pain."
+  },
+  {
+    "name": "reel_2026-07-17_002",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-07-17-002.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Buying more containers will never fix your under-sink cabinet.\n\nI tried clear bins. I tried stackable trays. I tried labeling everything. None of it solved the actual problem \u2014 that anything past the front 6 inches is functionally lost.\n\nWhat worked was a Simple Houseware 2-tier sliding basket. Chrome wire, 18 lbs per shelf, and the front rack slides independently to expose the back.\n\nI threw out two bins of duplicate cleaners I'd bought because I forgot the first ones existed. The cabinet finally works.\n\nComment LINK and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #kitchenorganization #smallspacesolutions #undersinkstorage",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#kitchenorganization",
+      "#smallspacesolutions",
+      "#undersinkstorage"
+    ],
+    "affiliate": {
+      "primary_product": "Simple Houseware 2-Tier Sliding Basket Organizer (chrome, under-sink)",
+      "dm_keyword": "LINK",
+      "amazon_asin": "B01M0TS64K",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01M0TS64K?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Buying more containers will never fix your under-sink cabinet."
+  },
+  {
+    "name": "reel_2026-07-17_003",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-07-17-003.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "My home had been a low-grade mess for longer than I want to admit.\n\nI kept meaning to deal with it and kept not dealing with it. Things piled up, I could never find what I needed, and every time I opened it I just shut it again.\n\nThen I found a water pitcher sitting at 4.6 stars across 59,611 reviews, and it finally gave everything a place.\n\nIt runs about $28.49 and it's the first thing in a while that just worked. The home actually stays sorted now.\n\nComment PITCHER and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Brita Large Water Filter Pitcher for Tap and Drinking Water, Includes 1 Standard Filter, BPA-Free, Lasts Two Months, 10-Cup Capacity, Bright",
+      "dm_keyword": "PITCHER",
+      "amazon_asin": "B01FXN3E74",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01FXN3E74?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B01FXN3E74?tag=goldenhomep06-20"
+    },
+    "hook": "My home had been a low-grade mess for longer than I want to admit."
   }
 ]
