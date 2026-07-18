@@ -1723,3 +1723,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** automation/scripts/reel-2026-07-18-*.json, social/post_queue.json
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: micro_insight: Most pillows are designed for back sleepers. 74% o | micro_insight: The reason your cabinets stay messy is that nothin | wrong_until_right: My closet had been a low-grade mess for longer tha
+
+## 2026-07-18T10:51:00Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B08PP48979 (Cosori Electric Kettle (no plastic conta)
+**Changed:** social/carousels/2026-07-18-B08PP48979/slide-1.png, social/carousels/2026-07-18-B08PP48979/slide-2.png, social/carousels/2026-07-18-B08PP48979/slide-3.png, social/carousels/2026-07-18-B08PP48979/slide-4.png, social/carousels/2026-07-18-B08PP48979/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B08PP48979 carousel.
