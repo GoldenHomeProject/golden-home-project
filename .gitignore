@@ -34,3 +34,10 @@ automation/reels/*/page.html
 
 # macOS AppleDouble files from scp
 ._*
+
+# GHP broll working intermediates (final reel committed under automation/reels/)
+automation/broll_assets/seg_*.mp4
+automation/broll_assets/ov_*.png
+automation/broll_assets/reel_silent.mp4
+automation/broll_assets/concat.txt
+automation/broll_assets/vo.*
