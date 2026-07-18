@@ -445,22 +445,6 @@
     "hook": "My closet had been a low-grade mess for longer than I want to admit."
   },
   {
-    "id": "carousel-2026-06-15-B07WFXL22R",
-    "media_type": "CAROUSEL_ALBUM",
-    "image_urls": [
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-15-B07WFXL22R/slide-1.png",
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-15-B07WFXL22R/slide-2.png",
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-15-B07WFXL22R/slide-3.png",
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-15-B07WFXL22R/slide-4.png",
-      "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/carousels/2026-06-15-B07WFXL22R/slide-5.png"
-    ],
-    "caption": "Your studio doesn't need more space \u2014 it needs a smarter divider.\n\nSave this for later. A 64-inch ladder bookshelf can split an open-plan studio into a defined living area and workspace, give you six cubes of accessible storage, and look like intentional decor \u2014 all without a single screw in the wall. It's the rare piece of furniture that solves three problems at once.\n\nComment LINK or DM me LINK and I'll send you the direct link.\n\n#homeorganization #smallspaceliving #studioapartment #shelforganization #roomdivider",
-    "asin": "B07WFXL22R",
-    "keyword": "LINK",
-    "queued_at": "2026-06-15T12:58:29.562785Z",
-    "source": "carousel_generator"
-  },
-  {
     "name": "reel_2026-06-16_001",
     "status": "ready",
     "script_path": "automation/scripts/reel-2026-06-16-001.json",
