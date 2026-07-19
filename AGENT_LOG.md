@@ -1729,3 +1729,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** social/carousels/2026-07-18-B08PP48979/slide-1.png, social/carousels/2026-07-18-B08PP48979/slide-2.png, social/carousels/2026-07-18-B08PP48979/slide-3.png, social/carousels/2026-07-18-B08PP48979/slide-4.png, social/carousels/2026-07-18-B08PP48979/slide-5.png, social/post_queue.json
 **External actions:** Pexels (4 photos) + Claude CLI (slide content)
 **Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B08PP48979 carousel.
+
+## 2026-07-19T07:25:16Z — Trend Scout
+**Ran:** Scanned 2 sources (google_trends_daily_us, pinterest) -> 85 items, ranked 5 opportunities
+**Changed:** automation/trends/2026-07-19.json, social/trend_feed.json
+**External actions:** reddit_pi_cache + google_trends + pinterest_rss + amazon_movers_pi_cache
+**Next agent hint:** Content Engine: today's top-3 opportunities are: Turned this $39 dorm bed into a hotel su, Hid the pet-hair couch under a $52 stret, Swapped to $44 cooling sheets mid-heatwa
