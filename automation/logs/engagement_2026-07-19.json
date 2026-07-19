@@ -1,0 +1,75 @@
+{
+  "date": "2026-07-19",
+  "agent": "engagement-monitor",
+  "metrics": {
+    "subscribers": 6670,
+    "total_views": 20898,
+    "total_videos": 172
+  },
+  "top_videos": [
+    {
+      "title": "My kitchen had been a low-grade mess for longer than I want ",
+      "views": 29,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "My home had been a low-grade mess for longer than I want to ",
+      "views": 13,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "My closet had been a low-grade mess for longer than I want t",
+      "views": 4,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "My kitchen had been a low-grade mess for longer than I want ",
+      "views": 3,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "My closet had been a low-grade mess for longer than I want t",
+      "views": 1,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "My patio had been a low-grade mess for longer than I want to",
+      "views": 1,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "My patio had been a low-grade mess for longer than I want to",
+      "views": 1,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "My patio had been a low-grade mess for longer than I want to",
+      "views": 1,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "My home had been a low-grade mess for longer than I want to ",
+      "views": 0,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Pet on the couch? These 3 finds save your living room \ud83d\udc3e\ud83d\udecb\ufe0f #S",
+      "views": 0,
+      "likes": 0,
+      "comments": 0
+    }
+  ],
+  "comments_responded": 0,
+  "actions_taken": [
+    "Updated BUSINESS_BRAIN.md metrics"
+  ]
+}
