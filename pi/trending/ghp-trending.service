@@ -1,0 +1,26 @@
+[Unit]
+Description=GHP Daily Trending Roundup (fresh best-seller content every day)
+# Why: GitHub Actions runner IPs get bot-blocked by Amazon; the Pi's residential IP
+# is not challenged. Scrapes Amazon Best Sellers live, keeps the cheap high-rating
+# winners, EXCLUDES recently-featured ASINs (fresh products daily), and publishes a
+# dated buyer-intent roundup post. Fixes the "$0 from recycling the same evergreen
+# products" problem (see feedback_ghp_trending_not_evergreen).
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/golden-home-project
+# Pull fresh main before generating so we build on the latest queue/history.
+ExecStartPre=/usr/bin/git -C %h/golden-home-project pull --quiet --rebase origin main
+# xvfb-run gives Playwright a display even with no desktop session logged in.
+ExecStart=/usr/bin/xvfb-run -a %h/.ghp-trending/venv/bin/python automation/trending_daily.py
+# Commit + push only the trending artifacts, if anything changed. Retry to absorb
+# the engagement/IG bots' frequent commits to main.
+ExecStartPost=/bin/bash -c 'shopt -s nullglob; cd %h/golden-home-project && git add -- blog/posts/*trending*best-sellers.html blog/index.html social/trending_picks_*.json social/trending_featured_history.json 2>/dev/null || true; if ! git diff --staged --quiet; then git -c user.name="GHP Trending Bot" -c user.email="goldenhomeprojectllc@gmail.com" commit -m "trending: daily best-seller roundup $(date -u +%%Y-%%m-%%d)" --quiet && for i in 1 2 3 4 5; do git pull --rebase --quiet origin main && git push --quiet origin main && break; sleep 5; done; fi'
+StandardOutput=append:%h/.ghp-trending/runs/last.log
+StandardError=append:%h/.ghp-trending/runs/last.log
+TimeoutStartSec=900
+
+[Install]
+WantedBy=default.target
