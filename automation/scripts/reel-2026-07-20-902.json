@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-07-20T15:35:37.371147Z",
+  "date": "2026-07-20",
+  "seq": 902,
+  "source": "repurpose",
+  "hook": "The dorm move-in mistake that costs you 45 minutes",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Time-lapse of a family unpacking a closet and desk first, boxes piling up on the floor behind them",
+      "on_screen_text": "Mistake #1: unpacking closet first",
+      "voiceover": "Here's the sequencing mistake I see almost every family make on move-in day."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Frustrated family standing in a room full of open boxes with nowhere left to put the overflow",
+      "on_screen_text": "45 min in: nowhere to put anything",
+      "voiceover": "They unpack the closet and desk first, then realize there's no room for the overflow."
+    },
+    {
+      "n": 3,
+      "duration_sec": 3,
+      "visual_prompt": "Two rigid under-bed bins being slid under a twin XL frame before anything else is unpacked",
+      "on_screen_text": "Do this FIRST",
+      "voiceover": "Under-bed storage goes in before a single box gets opened, or you do the room twice."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Close-up of a soft-sided fabric bin with a mesh top window, hand unzipping to reveal shoes inside",
+      "on_screen_text": "2-pack, ~$32",
+      "voiceover": "I added a set of fabric bins with mesh windows on top, so you can see what's inside without unzipping."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Four bins total lined up, then slid under the bed together",
+      "on_screen_text": "4 bins = 3 boxes gone",
+      "voiceover": "Between four bins total, we stored what would've been three full boxes of overflow."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Tape measure showing the gap between the floor and the underside of a dorm bed frame",
+      "on_screen_text": "Measure first: needs 6 inches",
+      "voiceover": "If your school's frame sits lower than 6 inches, measure before you buy rigid bins."
+    },
+    {
+      "n": 7,
+      "duration_sec": 3,
+      "visual_prompt": "Wide shot of a completely clear dorm room floor, one-hour mark clock overlay",
+      "on_screen_text": "Floor clear. 1 hour in.",
+      "voiceover": "Do storage first and the floor stays clear the whole move-in."
+    }
+  ],
+  "caption": "Do this before you unpack a single box. The bins I used (and the one measurement that saves you a return) are on the blog.",
+  "hashtags": [
+    "#dormstorage",
+    "#underbedstorage",
+    "#dormorganization",
+    "#collegemoveinday",
+    "#twinxlbedding",
+    "#dormhacks"
+  ]
+}

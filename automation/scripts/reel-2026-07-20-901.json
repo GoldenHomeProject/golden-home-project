@@ -1,0 +1,68 @@
+{
+  "created_at": "2026-07-20T15:35:37.370879Z",
+  "date": "2026-07-20",
+  "seq": 901,
+  "source": "repurpose",
+  "hook": "I spent $89 on a dorm chair. Worth it?",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Static wide shot of a bare cinderblock dorm room, twin XL mattress still in plastic wrap, 11 cardboard boxes stacked by the door",
+      "on_screen_text": "4 hours. 11 boxes. 0 shelves.",
+      "voiceover": "This was my sister's dorm room last August."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Hands unboxing a folding velvet desk chair and two rigid storage bins from one shipping box",
+      "on_screen_text": "$89 for BOTH",
+      "voiceover": "I found one set that's a velvet desk chair AND under-bed bins for $89 shipped."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Close-up of blush velvet fabric texture on the folding X-frame chair, then chair unfolding flat for transport",
+      "on_screen_text": "Not a classroom leftover",
+      "voiceover": "It's real velvet, folds flat, and actually looks like furniture instead of a plastic desk chair."
+    },
+    {
+      "n": 4,
+      "duration_sec": 3,
+      "visual_prompt": "Sister sitting in the chair at the dorm desk, timer overlay showing 20 minutes",
+      "on_screen_text": "20-min test: fine, not all-day",
+      "voiceover": "Padding held up for setup logistics, but I wouldn't call it an ergonomic chair for six-hour study sessions."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Overhead shot sliding two rigid bins under a twin XL bed frame, tape measure showing 2 inches of clearance",
+      "on_screen_text": "2 inches to spare",
+      "voiceover": "Both bins slid right under the bed and swallowed winter clothes, extra bedding, and a box of shoes."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up on the bin zipper being pulled, slight fraying visible at the pull tab",
+      "on_screen_text": "Honest flaw: zippers",
+      "voiceover": "These are the weak point long-term \u2014 I'd expect 1 to 2 years of daily use, not five."
+    },
+    {
+      "n": 7,
+      "duration_sec": 3,
+      "visual_prompt": "Final wide shot of the finished desk corner with chair and clear floor",
+      "on_screen_text": "$89. One trip. Done.",
+      "voiceover": "For a chair and hidden storage in one box, that's a trade I'd make again."
+    }
+  ],
+  "caption": "The $89 combo that did more work than everything else in the car. Full breakdown (plus the exact links) on the blog \u2014 I go through what I'd skip too.",
+  "hashtags": [
+    "#dormmovein",
+    "#dormessentials",
+    "#collegedormideas",
+    "#dormstorage",
+    "#twinxlbedding",
+    "#backtocollege2026",
+    "#dormonabudget"
+  ]
+}

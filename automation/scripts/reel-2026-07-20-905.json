@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-07-20T15:35:37.371642Z",
+  "date": "2026-07-20",
+  "seq": 905,
+  "source": "repurpose",
+  "hook": "The full dorm move-in cost: $89 vs $208",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Flat lay of all five products: chair, bins, lamp, curtains, diffuser laid out on a dorm bed",
+      "on_screen_text": "5 items. 2 budgets.",
+      "voiceover": "Here's every dollar I spent turning a bare dorm into a livable room."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Chair and under-bed bins highlighted first with a price tag graphic",
+      "on_screen_text": "$89 \u2014 chair + bins",
+      "voiceover": "The core: a folding velvet chair and under-bed bins for $89, the single highest-impact buy."
+    },
+    {
+      "n": 3,
+      "duration_sec": 3,
+      "visual_prompt": "Extra fabric bins, lamp, curtains, and diffuser added one by one with running total ticking up",
+      "on_screen_text": "+$32, +$25, +$40, +$22",
+      "voiceover": "Add extra bins, a desk lamp, curtains with string lights, and a diffuser."
+    },
+    {
+      "n": 4,
+      "duration_sec": 3,
+      "visual_prompt": "Small ultrasonic diffuser running on a nightstand with a soft LED glow, mist visible",
+      "on_screen_text": "$22 \u2014 smells like home",
+      "voiceover": "The diffuser was the last $22, and it's the one thing that changed how the room felt in ten minutes."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Calculator graphic landing on $208 total with a checkmark",
+      "on_screen_text": "$208 total. All in.",
+      "voiceover": "Added up, that's $208 if you go all-in."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Split screen: $89 core setup on the left, full $208 setup on the right",
+      "on_screen_text": "Tight budget? Just get the $89 set.",
+      "voiceover": "Tighter budget? The $89 chair and bin set alone is the one I'd buy first."
+    },
+    {
+      "n": 7,
+      "duration_sec": 3,
+      "visual_prompt": "Final wide shot of the completed dorm room, all five items visible and in use",
+      "on_screen_text": "This is what $208 actually looks like",
+      "voiceover": "No influencer prices, no guesswork \u2014 this is the real breakdown before August."
+    }
+  ],
+  "caption": "$89 or $208 \u2014 here's exactly where every dollar went and which one to skip if you're tight on budget. Full breakdown on the blog.",
+  "hashtags": [
+    "#dormbudget",
+    "#collegemoveinday",
+    "#dormessentials",
+    "#backtocollege2026",
+    "#dormonabudget",
+    "#twinxlbedding"
+  ]
+}

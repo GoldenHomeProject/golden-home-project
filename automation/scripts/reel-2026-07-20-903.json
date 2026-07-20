@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-07-20T15:35:37.371308Z",
+  "date": "2026-07-20",
+  "seq": 903,
+  "source": "repurpose",
+  "hook": "My desk lamp fix cost $25 and fixed everything",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Dim dorm desk corner with one harsh overhead fluorescent light and an outlet awkwardly placed behind a monitor",
+      "on_screen_text": "1 dim light. 1 bad outlet.",
+      "voiceover": "Dorm desks are almost always undersized and under-lit \u2014 this one had one dim overhead light."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Unboxing a black LED desk lamp with a built-in organizer base at the foot of the bed",
+      "on_screen_text": "~$25",
+      "voiceover": "I added an LED desk lamp with a built-in organizer base instead of fighting the layout."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Hand clicking through three color temperature settings on the lamp base, warm to cool light change visible on the desk",
+      "on_screen_text": "3 color temps, 5 brightness levels",
+      "voiceover": "Warm setting for night reading, cool setting for daytime focus \u2014 not a gimmick once you're up at 1am."
+    },
+    {
+      "n": 4,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of the four small compartments in the lamp base holding pens, a phone, and a USB drive",
+      "on_screen_text": "4 compartments. Not for hoarders.",
+      "voiceover": "It won't replace a full desk organizer if you own a lot of stationery, but it holds the essentials."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Wide shot of the desk corner now with lamp, organizer base, and the folding velvet chair pulled up",
+      "on_screen_text": "Before: avoided. After: used daily.",
+      "voiceover": "Paired with the folding velvet chair, this corner went from a place I avoided to a place I actually sit."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Split screen: eyes looking tired under blue-white light vs relaxed under warm light",
+      "on_screen_text": "2 hrs less eye strain",
+      "voiceover": "The difference in how tired my eyes felt after two hours of studying was noticeable."
+    }
+  ],
+  "caption": "The $25 lamp that fixed a desk corner I was ready to give up on. Full walkthrough (and what it doesn't fix) on the blog.",
+  "hashtags": [
+    "#dormdesksetup",
+    "#dormlighting",
+    "#collegeessentials",
+    "#studydeskaesthetic",
+    "#dormonabudget"
+  ]
+}

@@ -3450,5 +3450,90 @@
     "keyword": "KETTLE",
     "queued_at": "2026-07-20T09:50:24.535246Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_repurpose_2026-07-20_901",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-07-20-901.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "The $89 combo that did more work than everything else in the car. Full breakdown (plus the exact links) on the blog \u2014 I go through what I'd skip too.",
+    "hashtags": [
+      "#dormmovein",
+      "#dormessentials",
+      "#collegedormideas",
+      "#dormstorage",
+      "#twinxlbedding",
+      "#backtocollege2026",
+      "#dormonabudget"
+    ],
+    "hook": "I spent $89 on a dorm chair. Worth it?"
+  },
+  {
+    "name": "reel_repurpose_2026-07-20_902",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-07-20-902.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Do this before you unpack a single box. The bins I used (and the one measurement that saves you a return) are on the blog.",
+    "hashtags": [
+      "#dormstorage",
+      "#underbedstorage",
+      "#dormorganization",
+      "#collegemoveinday",
+      "#twinxlbedding",
+      "#dormhacks"
+    ],
+    "hook": "The dorm move-in mistake that costs you 45 minutes"
+  },
+  {
+    "name": "reel_repurpose_2026-07-20_903",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-07-20-903.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "The $25 lamp that fixed a desk corner I was ready to give up on. Full walkthrough (and what it doesn't fix) on the blog.",
+    "hashtags": [
+      "#dormdesksetup",
+      "#dormlighting",
+      "#collegeessentials",
+      "#studydeskaesthetic",
+      "#dormonabudget"
+    ],
+    "hook": "My desk lamp fix cost $25 and fixed everything"
+  },
+  {
+    "name": "reel_repurpose_2026-07-20_904",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-07-20-904.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "$40 and 15 minutes is all it took to stop this room from looking like a waiting room. Details + the handbook check you need to make first, on the blog.",
+    "hashtags": [
+      "#dormdecor",
+      "#blackoutcurtains",
+      "#dormwindow",
+      "#collegedormideas",
+      "#dormstringlights",
+      "#nodrilldecor"
+    ],
+    "hook": "$40 killed the 'institution' look in my sister's dorm"
+  },
+  {
+    "name": "reel_repurpose_2026-07-20_905",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-07-20-905.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "$89 or $208 \u2014 here's exactly where every dollar went and which one to skip if you're tight on budget. Full breakdown on the blog.",
+    "hashtags": [
+      "#dormbudget",
+      "#collegemoveinday",
+      "#dormessentials",
+      "#backtocollege2026",
+      "#dormonabudget",
+      "#twinxlbedding"
+    ],
+    "hook": "The full dorm move-in cost: $89 vs $208"
   }
 ]
