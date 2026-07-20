@@ -144,7 +144,7 @@ jobs:
           print(f"Caption length: {len(caption)} chars")
 
           # ---- Helpers ----
-          def poll_until_finished(cid: str, label: str = "") -> None:
+          def poll_until_finished(cid: str, label: str = "") -> bool:
               for attempt in range(30):
                   status_r = requests.get(
                       f"{GRAPH}/{cid}",
@@ -154,11 +154,33 @@ jobs:
                   status = status_r.json().get("status_code", "UNKNOWN")
                   print(f"  {label} attempt {attempt+1}: status={status}")
                   if status == "FINISHED":
-                      return
+                      return True
                   if status in ("ERROR", "EXPIRED"):
                       print(f"Container failed: {status_r.text}")
-                      sys.exit(1)
+                      return False
                   time.sleep(5)
+              print(f"  {label}: container never finished (timeout)")
+              return False
+
+          def skip_bad_item() -> None:
+              # A single unpublishable item must NOT block the queue or spam daily
+              # failure emails. Pop it (already done), park it in failed_posts.json
+              # for later inspection, persist the queue, and exit clean. The queue
+              # keeps flowing; the health-check layer still surfaces staleness.
+              print("::warning::Skipping unpublishable item (Meta container error) — queue advances")
+              if used_queue:
+                  failed_path = Path("social/failed_posts.json")
+                  failed = json.loads(failed_path.read_text()) if failed_path.exists() else []
+                  failed.append({
+                      "image_url": image_url,
+                      "image_urls": image_urls,
+                      "caption": caption[:300],
+                      "media_type": media_type,
+                      "failed_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+                  })
+                  failed_path.write_text(json.dumps(failed, indent=2))
+                  queue_path.write_text(json.dumps(queue, indent=2))
+              sys.exit(0)
 
           # ---- Build container(s) ----
           if media_type == "CAROUSEL_ALBUM":
@@ -197,7 +219,8 @@ jobs:
               print(f"Parent create: {parent_r.status_code} {parent_r.text[:300]}")
               parent_r.raise_for_status()
               container_id = parent_r.json()["id"]
-              poll_until_finished(container_id, "parent")
+              if not poll_until_finished(container_id, "parent"):
+                  skip_bad_item()
           else:
               # IMAGE / REELS
               params = {
@@ -212,7 +235,8 @@ jobs:
               print(f"Create status: {r.status_code} {r.text[:300]}")
               r.raise_for_status()
               container_id = r.json()["id"]
-              poll_until_finished(container_id, "single")
+              if not poll_until_finished(container_id, "single"):
+                  skip_bad_item()
 
           # ---- Publish ----
           publish_url = f"{GRAPH}/{IG_ID}/media_publish"
@@ -248,9 +272,10 @@ jobs:
           PYTHON
 
       - name: Commit archive + queue updates
+        if: always()
         run: |
           git config user.name "GHP Instagram Bot"
           git config user.email "goldenhomeprojectllc@gmail.com"
-          git add social/post_queue.json social/posted_archive.json || true
+          git add social/post_queue.json social/posted_archive.json social/failed_posts.json || true
           git diff --staged --quiet || git commit -m "IG post: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
           git push || true
