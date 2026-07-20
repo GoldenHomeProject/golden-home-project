@@ -1,0 +1,13 @@
+{
+  "captured_at": "2026-07-20",
+  "source": "Amazon Best Sellers — Kitchen & Dining (live, logged-in browser pull)",
+  "note": "Pivot away from evergreen storage organizers (0 sales) toward proven-demand best-sellers. All ASINs verified live on the Best Sellers grid at capture time.",
+  "picks": [
+    {"asin": "B085DTZQNZ", "name": "Owala FreeSip Insulated Water Bottle, 24 oz", "price": "$29.97", "rating": 4.7, "reviews": 130364, "bsr_rank": 1, "category": "drinkware"},
+    {"asin": "B0CP9YB3Q4", "name": "Stanley Quencher H2.0 Tumbler, 30 oz", "price": "$23.95", "rating": 4.7, "reviews": 202123, "bsr_rank": 3, "category": "drinkware"},
+    {"asin": "B0113UZJE2", "name": "Etekcity Digital Food Kitchen Scale, 11 lb", "price": "$10.99", "rating": 4.6, "reviews": 175707, "bsr_rank": 2, "category": "gadget"},
+    {"asin": "B00S93EQUK", "name": "Alpha Grillers Instant-Read Meat Thermometer", "price": "$12.31", "rating": 4.8, "reviews": 90474, "bsr_rank": 7, "category": "gadget"},
+    {"asin": "B07YP2VH4B", "name": "KitchenAid Classic Multifunction Can Opener", "price": "$7.99", "rating": 4.6, "reviews": 91067, "bsr_rank": 5, "category": "gadget"},
+    {"asin": "B07PZF3QS3", "name": "KitchenAid All-Purpose Kitchen Shears", "price": "$7.59", "rating": 4.8, "reviews": 71941, "bsr_rank": 8, "category": "gadget"}
+  ]
+}
