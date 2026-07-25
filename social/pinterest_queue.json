@@ -467,5 +467,18 @@
     "queued_at": "2026-07-25T10:10:31.885106Z",
     "posted": false,
     "source": "pinterest_pipeline"
+  },
+  {
+    "id": "pin-2026-07-25-B07QLQ3QP4",
+    "asin": "B07QLQ3QP4",
+    "board": "Home Organization Finds",
+    "title": "Home Fragrance Diffuser Plug In Starter Kit \u2014 Lavender & Chamomile Air Freshener",
+    "description": "Keep every room smelling fresh with this Air Wick plug-in scented oil kit \u2014 2 warmers + 6 lavender & chamomile refills included. Made with essential oils and an eco-friendly formula, it delivers calming, long-lasting fragrance in bedrooms, bathrooms, or living spaces with adjustable scent intensity. Only $16.99 on Amazon \u2014 tap through to shop. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B07QLQ3QP4?tag=goldenhomep06-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-07-25-B07QLQ3QP4.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-07-25-B07QLQ3QP4.png",
+    "queued_at": "2026-07-25T13:50:46.224269Z",
+    "posted": false,
+    "source": "pinterest_pipeline"
   }
 ]
