@@ -28,6 +28,7 @@ import argparse
 import json
 import re
 import sys
+import unicodedata
 from datetime import date, datetime, timezone
 from pathlib import Path
 
@@ -42,13 +43,19 @@ AFFIL_TAG = "goldenhomep06-20"
 # theme varies across the week without repeating.
 CATEGORY_ROTATION = [
     ("Kitchen",          "kitchen",   "https://www.amazon.com/gp/bestsellers/kitchen/"),
-    ("Home Storage",     "home",      "https://www.amazon.com/gp/bestsellers/home-garden/3733551/"),
-    ("Kitchen Gadget",   "kitchen",   "https://www.amazon.com/gp/bestsellers/kitchen/2402456011/"),
+    ("Home Storage",     "home",      "https://www.amazon.com/gp/bestsellers/home-garden/3610841/"),
+    ("Home Décor",       "home",      "https://www.amazon.com/gp/bestsellers/home-garden/1063278/"),
     ("Home",             "home",      "https://www.amazon.com/gp/bestsellers/home-garden/"),
     ("Coffee & Tea",     "kitchen",   "https://www.amazon.com/gp/bestsellers/kitchen/13400711/"),
-    ("Bed & Bath",       "home",      "https://www.amazon.com/gp/bestsellers/home-garden/1063252/"),
-    ("Cleaning",         "home",      "https://www.amazon.com/gp/bestsellers/hpc/3760931/"),
+    ("Bath",             "home",      "https://www.amazon.com/gp/bestsellers/home-garden/1063236/"),
+    ("Cleaning",         "home",      "https://www.amazon.com/gp/bestsellers/home-garden/10802561/"),
 ]
+# Node IDs above were READ off Amazon's own Best Sellers nav on 2026-07-25, not guessed.
+# The old "Kitchen Gadget" node (kitchen/2402456011) returned exactly 1 item and was
+# replaced with the verified Home Décor chart.
+# The previous "Cleaning" node (hpc/3760931) was a Health & Personal Care chart: it served
+# creatine, eye drops and acne wash for a post headlined "Cleaning Best-Sellers".
+# Storage (3610841), Bath (1063236) and Cleaning (10802561) are the verified home nodes.
 
 # Proven-demand filter — the profile that actually converts (cheap, high-rating,
 # low-return impulse buys with real review depth).
@@ -57,6 +64,47 @@ MIN_RATING = 4.5
 MIN_REVIEWS = 5000
 PICKS_PER_POST = 6
 FRESH_WINDOW_DAYS = 21          # don't re-feature an ASIN within this many days
+
+# Commodity/consumable exclusion. Amazon's Cleaning + Grocery charts are dominated by
+# single-use staples (toilet paper, paper plates, trash bags). They top the charts because
+# everyone rebuys them on Subscribe & Save -- NOT because anyone clicks a blog to find
+# them. A $6.99 pack at ~3% is ~$0.21 and zero buyer intent from content, so they crowd
+# out the actual earners. Added 2026-07-25 after the first live run published toilet paper.
+COMMODITY_BLOCK = re.compile(
+    r"\b("
+    r"toilet paper|bath tissue|paper towel|paper plate|paper bowl|napkin|facial tissue|"
+    r"trash bag|garbage bag|storage bag|sandwich bag|freezer bag|ziploc|"
+    r"aluminum foil|plastic wrap|parchment paper|"
+    r"laundry detergent|fabric softener|dryer sheet|dish soap|dishwasher pod|"
+    r"disinfecting wipe|cleaning wipe|makeup remover|micellar|facial wipe|baby wipe|"
+    r"flushable wipe|wet wipe|prep pad|alcohol pad|cotton round|disposable towel|"
+    r"diaper|tampon|pad liner|toothpaste|deodorant|shampoo|conditioner|body wash|"
+    r"battery|batteries|k-cup|coffee pod|bottled water|"
+    r"refill pack|value pack of|count pack"
+    r")e?s?\b",          # e?s? so "paper towels"/"paper plates"/"wipes" match too
+    re.I,
+)
+
+# Off-brand exclusion. The "Cleaning" node (hpc/3760931) actually serves Amazon's
+# Health & Personal Care chart, so a run on 2026-07-25 proposed creatine powder,
+# LUMIFY eye drops and The Ordinary toner under a "Cleaning Best-Sellers" headline.
+# GHP is a HOME brand: supplements, medicine and skincare don't belong on it at any
+# price, and health claims are a compliance problem we have no reason to take on.
+OFF_BRAND_BLOCK = re.compile(
+    r"\b("
+    r"creatine|magnesium|melatonin|collagen|probiotic|vitamin|supplement|multivitamin|"
+    r"protein powder|pre-?workout|electrolyte|ashwagandha|fish oil|biotin|"
+    r"eye drop|nasal|allergy relief|ibuprofen|acetaminophen|antacid|laxative|"
+    r"serum|retinol|hyaluronic|glycolic|salicylic|niacinamide|toner pad|"
+    r"moisturizer|sunscreen|acne|wrinkle|lash|mascara|foundation|concealer"
+    r")e?s?\b",
+    re.I,
+)
+
+# Amazon titles front-load the product and back-load marketing ("...Batteries Included",
+# "...like parchment paper"). Matching the whole string blocked a legitimate kitchen scale
+# for mentioning its batteries, so only judge the product-name portion.
+TITLE_HEAD_CHARS = 60
 
 # In-page extractor (proven live 2026-07-20): one structured record per grid card.
 EXTRACT_JS = r"""
@@ -137,6 +185,13 @@ def qualify(items: list[dict]) -> list[dict]:
             continue
         if (it.get("reviews") or 0) < MIN_REVIEWS:
             continue
+        head = (it.get("title") or "")[:TITLE_HEAD_CHARS]
+        if COMMODITY_BLOCK.search(head):
+            print(f"  [skip] {a} commodity/consumable — {head}")
+            continue
+        if OFF_BRAND_BLOCK.search(head):
+            print(f"  [skip] {a} off-brand (health/beauty) — {head}")
+            continue
         seen.add(a)
         it["price_val"] = pv
         out.append(it)
@@ -154,7 +209,53 @@ def load_history() -> dict:
     return {}
 
 
-def pick_fresh(qualified: list[dict], history: dict, today: date) -> list[dict]:
+def _slugify(label: str) -> str:
+    """ASCII-safe URL slug. 'Home Décor' must not become /posts/...home-décor... —
+    non-ASCII in a path gets percent-encoded and breaks shares and analytics."""
+    folded = unicodedata.normalize("NFKD", label).encode("ascii", "ignore").decode()
+    return re.sub(r"-{2,}", "-", re.sub(r"[^a-z0-9]+", "-", folded.lower())).strip("-")
+
+
+_STOPWORDS = {
+    "the", "and", "for", "with", "pack", "set", "count", "inch", "large", "small", "clear",
+    "black", "white", "home", "heavy", "duty", "extra", "premium", "upgrade", "pcs", "piece",
+}
+
+
+def _type_key(title: str) -> set[str]:
+    """Significant words of a title, used to detect 'same kind of thing'."""
+    words = re.findall(r"[a-z]+", (title or "").lower())
+    return {w for w in words if len(w) > 3 and w not in _STOPWORDS}
+
+
+def _varied(candidates: list[dict], limit: int) -> list[dict]:
+    """Take `limit` picks, skipping near-duplicates of what's already chosen.
+
+    Amazon category charts cluster hard: the Bath chart's top 6 were five shower
+    curtains/liners. A roundup of one product type six times is not a roundup and gives a
+    reader nothing to buy. Two shared significant words == same kind of product; fall back
+    to the strict order if variety can't fill the post.
+    """
+    picks, keys = [], []
+    for c in candidates:
+        k = _type_key(c.get("title", ""))
+        if any(len(k & prev) >= 2 for prev in keys):
+            continue
+        picks.append(c)
+        keys.append(k)
+        if len(picks) >= limit:
+            break
+    if len(picks) < limit:                      # variety guard starved the post → relax it
+        for c in candidates:
+            if c not in picks:
+                picks.append(c)
+            if len(picks) >= limit:
+                break
+    return picks[:limit]
+
+
+def pick_fresh(qualified: list[dict], history: dict, today: date,
+               primary_label: str | None = None) -> list[dict]:
     def recent(asin):
         d = history.get(asin)
         if not d:
@@ -164,7 +265,12 @@ def pick_fresh(qualified: list[dict], history: dict, today: date) -> list[dict]:
         except ValueError:
             return False
     fresh = [q for q in qualified if not recent(q["asin"])]
-    picks = fresh[:PICKS_PER_POST]
+    # Category coherence: we scrape a neighbour node too, purely for pool depth, but the
+    # headline names ONE category. Exhaust the primary node before borrowing, or the post
+    # ends up like 2026-07-25 -- a "Cleaning" roundup listing tumblers and makeup wipes.
+    if primary_label:
+        fresh.sort(key=lambda q: 0 if q.get("cat_label") == primary_label else 1)
+    picks = _varied(fresh, PICKS_PER_POST)
     if len(picks) < PICKS_PER_POST:            # not enough new ones → backfill w/ oldest-featured
         backfill = [q for q in qualified if q not in picks]
         picks += backfill[: PICKS_PER_POST - len(picks)]
@@ -225,7 +331,7 @@ def build_post(picks: list[dict], today: date, cat_label: str) -> tuple[str, str
     subtag = f"blog-trending-{today.strftime('%Y%m%d')}"
     n = len(picks)
     title = f"{n} {cat_label} Best-Sellers Everyone's Buying Right Now (Under ${int(MAX_PRICE)})"
-    slug = f"{ymd}-trending-{cat_label.lower().replace(' & ','-').replace(' ','-')}-best-sellers"
+    slug = f"{ymd}-trending-{_slugify(cat_label)}-best-sellers"
     url = f"https://goldenhomeproject.com/blog/posts/{slug}.html"
     desc = (f"The {cat_label.lower()} products actually topping Amazon's charts this week — "
             f"proven-demand picks under ${int(MAX_PRICE)}, each with thousands of reviews.")
@@ -394,8 +500,11 @@ def main() -> int:
         print(f"[trending] {len(qualified)} passed the ${int(MIN_PRICE)}-${int(MAX_PRICE)} / "
               f"{MIN_RATING}star / {MIN_REVIEWS}+reviews filter")
         history = load_history()
-        picks = pick_fresh(qualified, history, today)
-        cat_label = (picks[0].get("cat_label") if picks else None) or cat_label
+        picks = pick_fresh(qualified, history, today, primary_label=cat_label)
+        # Headline follows the MAJORITY category of what we actually picked, not pick #1.
+        labels = [p.get("cat_label") for p in picks if p.get("cat_label")]
+        if labels:
+            cat_label = max(set(labels), key=labels.count)
 
     if len(picks) < 3:
         print(f"[trending] only {len(picks)} qualifying picks — not enough for a post. Aborting cleanly.")
