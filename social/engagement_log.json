@@ -4,10 +4,10 @@
     "lifetime_follows": 20,
     "lifetime_likes": 33,
     "lifetime_comments": 7,
-    "last_session": "2026-07-17-2333-pi",
+    "last_session": "2026-07-25-1344-pi",
     "blocked_at": null,
-    "last_updated": "2026-07-17T23:33:59Z",
-    "total_actions": 420,
+    "last_updated": "2026-07-25T13:45:39Z",
+    "total_actions": 423,
     "lifetime_dms": 18,
     "lifetime_comments_outbound": 12
   },
@@ -14423,6 +14423,158 @@
       ],
       "untapped_warm": [],
       "dry_run": false
+    },
+    {
+      "timestamp": "2026-07-25T13:45:10Z",
+      "action": "inbox_sweep",
+      "target": "self",
+      "session": "2026-07-25-1344-pi",
+      "requests_count": 0,
+      "inbox_count": 0,
+      "notifications_count": 57,
+      "requests": [],
+      "inbox": [],
+      "notifications": [
+        {
+          "handle": "pakhli_manua",
+          "action": "liked your reel. 18 Jul"
+        },
+        {
+          "handle": "bhushan.kolap",
+          "action": "started following you. 15 Jul"
+        },
+        {
+          "handle": "kishu_patel_1204_",
+          "action": "liked your reel. 15 Jul"
+        },
+        {
+          "handle": "imhorro_r",
+          "action": "liked your reel. 12 Jul"
+        },
+        {
+          "handle": "neatmethod",
+          "action": "mentioned you in a comment: @golden_home_project Hi! We designed our own Drawer Dividers \u2764\ufe0f You can find them on our website! 17 Jun"
+        },
+        {
+          "handle": "rhodyentrepreneur",
+          "action": "liked your comment: Slow design is such a beautiful approach! Taking the time to restore and thrift...\u00a0more 09 Jun"
+        },
+        {
+          "handle": "thesundaygirledit",
+          "action": "liked your comment: YES this is the best decorating advice! Buy what you love and it will always wo...\u00a0more 09 Jun"
+        },
+        {
+          "handle": "padtoscano",
+          "action": "liked your reel. 27 May"
+        },
+        {
+          "handle": "padtoscano",
+          "action": "started following you. 27 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "replied to your comment on dhi.atelier's post: @golden_home_project Glad you liked it \u2764\ufe0f 25 May"
+        },
+        {
+          "handle": "padtoscano",
+          "action": "liked your reel. 24 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "sabrinaco.concierge",
+          "action": "started following you. 23 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        }
+      ],
+      "untapped_warm": [
+        "pakhli_manua",
+        "mentalhealth.fams"
+      ],
+      "dry_run": false
+    },
+    {
+      "timestamp": "2026-07-25T13:45:18Z",
+      "action": "follow_error",
+      "target": "pakhli_manua",
+      "session": "2026-07-25-1344-pi",
+      "reason": "no_state_change"
+    },
+    {
+      "timestamp": "2026-07-25T13:45:39Z",
+      "action": "follow_error",
+      "target": "mentalhealth.fams",
+      "session": "2026-07-25-1344-pi",
+      "reason": "no_state_change"
     }
   ]
 }
