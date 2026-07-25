@@ -9,6 +9,7 @@ After=network-online.target
 Wants=network-online.target
 
 [Service]
+EnvironmentFile=-%h/.ghp-secrets/claude.env
 Type=oneshot
 WorkingDirectory=%h/golden-home-project
 # Pull fresh main before generating so we build on the latest queue/history.
