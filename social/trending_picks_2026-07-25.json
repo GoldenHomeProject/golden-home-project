@@ -5,52 +5,52 @@
   "post": "blog/posts/2026-07-25-trending-cleaning-best-sellers.html",
   "picks": [
     {
-      "asin": "B07BGLT25K",
-      "name": "Scott ComfortPlus Toilet Paper",
-      "price": "$6.99",
-      "rating": 4.6,
-      "reviews": 144200,
-      "rank": 1
-    },
-    {
-      "asin": "B0C2CY22B8",
-      "name": "Amazon Basics Everyday Disposable Paper Plates",
-      "price": "$5.97",
+      "asin": "B07P5K7DQP",
+      "name": "Pure Encapsulations Magnesium",
+      "price": "$27.00",
       "rating": 4.7,
-      "reviews": 58047,
-      "rank": 2
+      "reviews": 49931,
+      "rank": 7
     },
     {
-      "asin": "B0DF8RSVJK",
-      "name": "Scott Paper Towels",
-      "price": "$6.84",
-      "rating": 4.6,
-      "reviews": 45029,
-      "rank": 3
-    },
-    {
-      "asin": "B0CQVWT2NH",
-      "name": "HydroJug Traveler 40oz",
-      "price": "$33.99",
-      "rating": 4.6,
-      "reviews": 19441,
-      "rank": 3
-    },
-    {
-      "asin": "B00U2VQZDS",
-      "name": "Neutrogena Makeup Remover Micellar Wipes for Face Daily Gently Removes",
-      "price": "$9.97",
-      "rating": 4.8,
-      "reviews": 120667,
-      "rank": 6
-    },
-    {
-      "asin": "B0DF472VMZ",
-      "name": "Owala SmoothSip Slider Insulated Stainless Steel Coffee Tumbler",
+      "asin": "B09RTVD1GF",
+      "name": "Energizer AA Batteries Alkaline Power",
       "price": "$19.99",
+      "rating": 4.8,
+      "reviews": 77700,
+      "rank": 8
+    },
+    {
+      "asin": "B0D8J2ZB8P",
+      "name": "POWCAN 26 oz Insulated Water Bottle with 2-in-1 Straw and Spout Lid",
+      "price": "$14.98",
       "rating": 4.6,
-      "reviews": 13691,
-      "rank": 6
+      "reviews": 11371,
+      "rank": 8
+    },
+    {
+      "asin": "B00NTCH52W",
+      "name": "Amazon Basics 20-Pack AA Alkaline Batteries",
+      "price": "$9.99",
+      "rating": 4.7,
+      "reviews": 947740,
+      "rank": 9
+    },
+    {
+      "asin": "B00C91Q86I",
+      "name": "Affresh Washing Machine Cleaner",
+      "price": "$11.98",
+      "rating": 4.7,
+      "reviews": 292492,
+      "rank": 10
+    },
+    {
+      "asin": "B07WMQP4SF",
+      "name": "Homaxy 100% Cotton Waffle Weave Kitchen Dish Cloths 6-Pack",
+      "price": "$8.98",
+      "rating": 4.6,
+      "reviews": 31222,
+      "rank": 10
     }
   ]
 }
