@@ -2,9 +2,11 @@
 Description=GHP Daily Trending Roundup — fire once per morning
 
 [Timer]
-# 11:10 UTC = ~7:10 AM ET. Fresh post lands before the US morning. Best-seller
-# charts update hourly, so exact timing is not critical.
-OnCalendar=*-*-* 11:10:00
+# 07:10 in the Pi's LOCAL time (America/New_York) = ~7:10 AM ET, so the fresh post
+# lands before the US morning. NOTE: systemd OnCalendar is local time unless a zone
+# is given -- an earlier "11:10 UTC" here actually fired at 11:10 AM ET, four hours
+# late. Best-seller charts update hourly, so exact timing is not critical.
+OnCalendar=*-*-* 07:10:00
 RandomizedDelaySec=600
 Persistent=true
 

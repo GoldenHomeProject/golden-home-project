@@ -423,6 +423,12 @@ def build_vetted_entry(opp: dict, search_hit: dict, dp_verified: dict) -> dict:
         "asin": search_hit["asin"],
         "product_name": dp_verified["title"],
         "categories": categories,
+        # This entry only exists because the /dp/<ASIN> fetch above CONFIRMED the listing
+        # is live (title + price + stars parsed). Downstream consumers gate on
+        # status == "live" (pinterest_pipeline.py, post-dead-ASIN-incident); omitting it
+        # made every auto-discovered product invisible and starved the Pinterest queue
+        # for ~29 days. Verified here == live here.
+        "status": "live",
         "affiliate_url": (
             f"https://www.amazon.com/dp/{search_hit['asin']}?tag={AMAZON_TAG}"
         ),

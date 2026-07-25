@@ -446,7 +446,7 @@
   },
   {
     "name": "reel_2026-06-16_002",
-    "status": "ready",
+    "status": "posted",
     "script_path": "automation/scripts/reel-2026-06-16-002.json",
     "media_type": "REELS",
     "video_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-06-16-002.mp4",
@@ -468,7 +468,16 @@
       "affiliate_url": null
     },
     "hook": "Buying more containers will never fix your under-sink cabinet.",
-    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-06-16-002.mp4"
+    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-06-16-002.mp4",
+    "posted_at": "2026-07-24T23:08:39Z",
+    "posted_media_ids": [
+      "18095595215019449",
+      "18063373211740305",
+      "18110992469058210",
+      "18099472732957681",
+      "18130778470554791",
+      "18122603191697557"
+    ]
   },
   {
     "name": "reel_2026-06-16_003",

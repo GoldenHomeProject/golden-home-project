@@ -276,6 +276,26 @@ jobs:
         run: |
           git config user.name "GHP Instagram Bot"
           git config user.email "goldenhomeprojectllc@gmail.com"
-          git add social/post_queue.json social/posted_archive.json social/failed_posts.json || true
-          git diff --staged --quiet || git commit -m "IG post: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
-          git push || true
+          # Stage each file INDEPENDENTLY. `git add a b c` aborts the ENTIRE add when any
+          # one pathspec matches nothing -- social/failed_posts.json usually doesn't exist,
+          # so nothing was ever staged, the queue never advanced, and the poster republished
+          # the SAME reel every night 2026-07-18..07-24 while every run reported success.
+          for f in social/post_queue.json social/posted_archive.json social/failed_posts.json; do
+            if [ -f "$f" ]; then git add "$f"; fi
+          done
+          if git diff --staged --quiet; then
+            echo "[commit] no queue/archive change to record"
+            exit 0
+          fi
+          git commit -m "IG post: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          # Retry with rebase: the Pi + other Actions bots push to main constantly, and a
+          # bare `git push || true` silently drops the state we just recorded.
+          for i in 1 2 3 4 5; do
+            if git pull --rebase --quiet origin main && git push --quiet origin main; then
+              echo "[commit] queue state pushed"
+              exit 0
+            fi
+            sleep 5
+          done
+          echo "[commit] PUSH FAILED after 5 tries — queue state NOT persisted"
+          exit 1
