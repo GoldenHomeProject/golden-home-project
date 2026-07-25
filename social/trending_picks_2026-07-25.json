@@ -5,52 +5,52 @@
   "post": "blog/posts/2026-07-25-trending-cleaning-best-sellers.html",
   "picks": [
     {
-      "asin": "B07P5K7DQP",
-      "name": "Pure Encapsulations Magnesium",
-      "price": "$27.00",
-      "rating": 4.7,
-      "reviews": 49931,
-      "rank": 7
-    },
-    {
-      "asin": "B09RTVD1GF",
-      "name": "Energizer AA Batteries Alkaline Power",
-      "price": "$19.99",
+      "asin": "B00W5D1MDE",
+      "name": "Clorox Toilet Bowl Cleaner Clinging Bleach Gel",
+      "price": "$5.24",
       "rating": 4.8,
-      "reviews": 77700,
-      "rank": 8
+      "reviews": 43939,
+      "rank": 11
     },
     {
-      "asin": "B0D8J2ZB8P",
-      "name": "POWCAN 26 oz Insulated Water Bottle with 2-in-1 Straw and Spout Lid",
-      "price": "$14.98",
-      "rating": 4.6,
-      "reviews": 11371,
-      "rank": 8
+      "asin": "B000ST1DZO",
+      "name": "Drano Max Gel Drain Clog Remover & Cleaner",
+      "price": "$5.17",
+      "rating": 4.5,
+      "reviews": 75822,
+      "rank": 20
     },
     {
-      "asin": "B00NTCH52W",
-      "name": "Amazon Basics 20-Pack AA Alkaline Batteries",
-      "price": "$9.99",
+      "asin": "B000ARPVIY",
+      "name": "Bona Hardwood Floor Cleaner Refill",
+      "price": "$17.96",
       "rating": 4.7,
-      "reviews": 947740,
-      "rank": 9
+      "reviews": 49746,
+      "rank": 24
     },
     {
-      "asin": "B00C91Q86I",
-      "name": "Affresh Washing Machine Cleaner",
-      "price": "$11.98",
-      "rating": 4.7,
-      "reviews": 292492,
-      "rank": 10
+      "asin": "B09SYYRBVP",
+      "name": "kelamayi Upgrade Broom and Dustpan Set",
+      "price": "$18.83",
+      "rating": 4.5,
+      "reviews": 51102,
+      "rank": 25
     },
     {
-      "asin": "B07WMQP4SF",
-      "name": "Homaxy 100% Cotton Waffle Weave Kitchen Dish Cloths 6-Pack",
-      "price": "$8.98",
+      "asin": "B00SXC85IQ",
+      "name": "Affresh Dishwasher Cleaner",
+      "price": "$8.97",
       "rating": 4.6,
-      "reviews": 31222,
-      "rank": 10
+      "reviews": 80163,
+      "rank": 27
+    },
+    {
+      "asin": "B0C31T4GZZ",
+      "name": "Febreze Plug In Air Freshener",
+      "price": "$12.94",
+      "rating": 4.7,
+      "reviews": 41355,
+      "rank": 28
     }
   ]
 }
