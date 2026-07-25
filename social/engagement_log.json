@@ -4,12 +4,12 @@
     "lifetime_follows": 20,
     "lifetime_likes": 33,
     "lifetime_comments": 7,
-    "last_session": "2026-07-25-1344-pi",
+    "last_session": "comments-2026-07-25T1408Z",
     "blocked_at": null,
-    "last_updated": "2026-07-25T13:45:39Z",
-    "total_actions": 423,
+    "last_updated": "2026-07-25T14:11:06Z",
+    "total_actions": 425,
     "lifetime_dms": 18,
-    "lifetime_comments_outbound": 12
+    "lifetime_comments_outbound": 14
   },
   "actions": [
     {
@@ -14575,6 +14575,24 @@
       "target": "mentalhealth.fams",
       "session": "2026-07-25-1344-pi",
       "reason": "no_state_change"
+    },
+    {
+      "timestamp": "2026-07-25T14:09:26Z",
+      "action": "comment_posted",
+      "target": "lifeinjeneral",
+      "session": "comments-2026-07-25T1408Z",
+      "post_url": "https://www.instagram.com/lifeinjeneral/p/DXxZ5xikkF5/",
+      "text": "The caption came through empty/truncated and I can't fetch the post. Can you paste the caption text (or a few key details about what the post covers)?",
+      "caption_seen": ""
+    },
+    {
+      "timestamp": "2026-07-25T14:11:06Z",
+      "action": "comment_posted",
+      "target": "horderly",
+      "session": "comments-2026-07-25T1408Z",
+      "post_url": "https://www.instagram.com/horderly/p/Da5ordLFEJA/",
+      "text": "I can't access the post \u2014 the caption was also truncated in your message. Can you paste the full caption (or at least a few key sentences from it) so I can reference a specific detail in the comment?",
+      "caption_seen": ""
     }
   ]
 }
