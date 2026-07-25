@@ -4,11 +4,11 @@
     "lifetime_follows": 20,
     "lifetime_likes": 33,
     "lifetime_comments": 7,
-    "last_session": "comments-2026-07-25T1408Z",
+    "last_session": "outreach-2026-07-25T1813Z",
     "blocked_at": null,
-    "last_updated": "2026-07-25T14:11:06Z",
-    "total_actions": 425,
-    "lifetime_dms": 18,
+    "last_updated": "2026-07-25T18:14:35Z",
+    "total_actions": 426,
+    "lifetime_dms": 19,
     "lifetime_comments_outbound": 14
   },
   "actions": [
@@ -14593,6 +14593,15 @@
       "post_url": "https://www.instagram.com/horderly/p/Da5ordLFEJA/",
       "text": "I can't access the post \u2014 the caption was also truncated in your message. Can you paste the full caption (or at least a few key sentences from it) so I can reference a specific detail in the comment?",
       "caption_seen": ""
+    },
+    {
+      "timestamp": "2026-07-25T18:14:35Z",
+      "action": "dm_sent",
+      "target": "simplyspaced",
+      "session": "outreach-2026-07-25T1813Z",
+      "body_chars": 774,
+      "thread_url": "https://www.instagram.com/simplyspaced/",
+      "template_tag": "path_c_v2_affiliate_split"
     }
   ]
 }
