@@ -4,12 +4,12 @@
     "lifetime_follows": 20,
     "lifetime_likes": 33,
     "lifetime_comments": 7,
-    "last_session": "2026-07-26-1333-pi",
+    "last_session": "comments-2026-07-26T1409Z",
     "blocked_at": null,
-    "last_updated": "2026-07-26T13:33:57Z",
-    "total_actions": 428,
+    "last_updated": "2026-07-26T14:12:51Z",
+    "total_actions": 430,
     "lifetime_dms": 19,
-    "lifetime_comments_outbound": 14
+    "lifetime_comments_outbound": 16
   },
   "actions": [
     {
@@ -14872,6 +14872,24 @@
       ],
       "untapped_warm": [],
       "dry_run": false
+    },
+    {
+      "timestamp": "2026-07-26T14:10:42Z",
+      "action": "comment_posted",
+      "target": "neatmethod",
+      "session": "comments-2026-07-26T1409Z",
+      "post_url": "https://www.instagram.com/neatmethod/p/DbJYDQdR7jT/",
+      "text": "I don't have permission to fetch the Instagram URL, and the caption text in your prompt came through empty/truncated \u2014 I can't see any actual detail from this specific post to reference.",
+      "caption_seen": ""
+    },
+    {
+      "timestamp": "2026-07-26T14:12:51Z",
+      "action": "comment_posted",
+      "target": "breathing.room.home",
+      "session": "comments-2026-07-26T1409Z",
+      "post_url": "https://www.instagram.com/breathing.room.home/p/Da0oAHYmnX1/",
+      "text": "I don't have the caption text \u2014 it came through empty/truncated, and I don't have permission to fetch the Instagram post directly to pull the real content.",
+      "caption_seen": ""
     }
   ]
 }
