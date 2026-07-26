@@ -4,11 +4,11 @@
     "lifetime_follows": 20,
     "lifetime_likes": 33,
     "lifetime_comments": 7,
-    "last_session": "comments-2026-07-26T1409Z",
+    "last_session": "outreach-2026-07-26T1809Z",
     "blocked_at": null,
-    "last_updated": "2026-07-26T14:12:51Z",
-    "total_actions": 430,
-    "lifetime_dms": 19,
+    "last_updated": "2026-07-26T18:10:35Z",
+    "total_actions": 431,
+    "lifetime_dms": 20,
     "lifetime_comments_outbound": 16
   },
   "actions": [
@@ -14890,6 +14890,15 @@
       "post_url": "https://www.instagram.com/breathing.room.home/p/Da0oAHYmnX1/",
       "text": "I don't have the caption text \u2014 it came through empty/truncated, and I don't have permission to fetch the Instagram post directly to pull the real content.",
       "caption_seen": ""
+    },
+    {
+      "timestamp": "2026-07-26T18:10:35Z",
+      "action": "dm_sent",
+      "target": "iheartorganizing",
+      "session": "outreach-2026-07-26T1809Z",
+      "body_chars": 870,
+      "thread_url": "https://www.instagram.com/iheartorganizing/",
+      "template_tag": "path_c_v2_affiliate_split"
     }
   ]
 }
