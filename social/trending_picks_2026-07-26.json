@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-07-26",
+  "category": "Kitchen",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/2026-07-26-trending-kitchen-best-sellers.html",
+  "picks": [
+    {
+      "asin": "B0H1YJM5W8",
+      "name": "STANLEY Quencher ProTour Flip Straw Tumbler with Leakproof Lid 30 oz",
+      "price": "$30.00",
+      "rating": 4.7,
+      "reviews": 18930,
+      "rank": 11
+    },
+    {
+      "asin": "B0B6PLG6G2",
+      "name": "125Pcs 8 Inch Square Air Fryer Liners Disposable for 5-8QT",
+      "price": "$9.97",
+      "rating": 4.6,
+      "reviews": 32930,
+      "rank": 13
+    },
+    {
+      "asin": "B0C3QZ7SNF",
+      "name": "Cisily Sponge Holder for Kitchen Sink",
+      "price": "$12.59",
+      "rating": 4.6,
+      "reviews": 14001,
+      "rank": 14
+    },
+    {
+      "asin": "B06X9NQ8GX",
+      "name": "Amazon Basics Digital Kitchen Scale with LCD Display",
+      "price": "$12.59",
+      "rating": 4.7,
+      "reviews": 117589,
+      "rank": 15
+    },
+    {
+      "asin": "B0B2P4P2R4",
+      "name": "Socomi Pink Cheesecloth Table Runner Summer Boho Rustic Gauze Dusty Pi",
+      "price": "$6.99",
+      "rating": 4.8,
+      "reviews": 7339,
+      "rank": 16
+    },
+    {
+      "asin": "B0CJF94M8J",
+      "name": "TrendPlain 16oz/470ml Glass Olive Oil Sprayer for Cooking",
+      "price": "$8.99",
+      "rating": 4.6,
+      "reviews": 43734,
+      "rank": 17
+    }
+  ]
+}
