@@ -1,0 +1,327 @@
+{
+  "generated_at": "2026-07-26T20:27:16.763364+00:00",
+  "note": "Real search queries from Google/Amazon autocomplete. Consumed by blog_writer.pick_topic(). Regenerate weekly.",
+  "keywords": [
+    {
+      "query": "best drawer organizer for baby clothes",
+      "score": 42.0,
+      "source": "google",
+      "rank": 0,
+      "seed": "drawer organizer",
+      "slug": "best-drawer-organizer-for-baby-clothes",
+      "used": "2026-07-26"
+    },
+    {
+      "query": "best lazy susan turntable for dining table",
+      "score": 42.0,
+      "source": "google",
+      "rank": 0,
+      "seed": "lazy susan turntable",
+      "slug": "best-lazy-susan-turntable-for-dining-table"
+    },
+    {
+      "query": "best shoe rack for closet",
+      "score": 42.0,
+      "source": "google",
+      "rank": 0,
+      "seed": "shoe rack for closet",
+      "slug": "best-shoe-rack-for-closet"
+    },
+    {
+      "query": "best under sink organizer kitchen",
+      "score": 41.0,
+      "source": "google",
+      "rank": 1,
+      "seed": "under sink organizer",
+      "slug": "best-under-sink-organizer-kitchen"
+    },
+    {
+      "query": "best kitchen cabinet organizers for pots and pans",
+      "score": 41.0,
+      "source": "google",
+      "rank": 1,
+      "seed": "kitchen cabinet organizer",
+      "slug": "best-kitchen-cabinet-organizers-for-pots-and-pans"
+    },
+    {
+      "query": "best shower caddy for college",
+      "score": 41.0,
+      "source": "google",
+      "rank": 1,
+      "seed": "shower caddy",
+      "slug": "best-shower-caddy-for-college"
+    },
+    {
+      "query": "best over the door organizer for nursery",
+      "score": 41.0,
+      "source": "google",
+      "rank": 1,
+      "seed": "over the door organizer",
+      "slug": "best-over-the-door-organizer-for-nursery"
+    },
+    {
+      "query": "best shoe rack for closet floor",
+      "score": 41.0,
+      "source": "google",
+      "rank": 1,
+      "seed": "shoe rack for closet",
+      "slug": "best-shoe-rack-for-closet-floor"
+    },
+    {
+      "query": "best under sink organizer bathroom",
+      "score": 40.0,
+      "source": "google",
+      "rank": 2,
+      "seed": "under sink organizer",
+      "slug": "best-under-sink-organizer-bathroom"
+    },
+    {
+      "query": "best closet organizer for small closet",
+      "score": 40.0,
+      "source": "google",
+      "rank": 2,
+      "seed": "closet organizer",
+      "slug": "best-closet-organizer-for-small-closet"
+    },
+    {
+      "query": "best drawer organizer for clothes",
+      "score": 40.0,
+      "source": "google",
+      "rank": 2,
+      "seed": "drawer organizer",
+      "slug": "best-drawer-organizer-for-clothes"
+    },
+    {
+      "query": "best shower caddy for dorms",
+      "score": 40.0,
+      "source": "google",
+      "rank": 2,
+      "seed": "shower caddy",
+      "slug": "best-shower-caddy-for-dorms"
+    },
+    {
+      "query": "best lazy susan turntable for cabinet",
+      "score": 40.0,
+      "source": "google",
+      "rank": 2,
+      "seed": "lazy susan turntable",
+      "slug": "best-lazy-susan-turntable-for-cabinet"
+    },
+    {
+      "query": "best over the door organizer for cruise",
+      "score": 40.0,
+      "source": "google",
+      "rank": 2,
+      "seed": "over the door organizer",
+      "slug": "best-over-the-door-organizer-for-cruise"
+    },
+    {
+      "query": "best shoe rack for closet door",
+      "score": 40.0,
+      "source": "google",
+      "rank": 2,
+      "seed": "shoe rack for closet",
+      "slug": "best-shoe-rack-for-closet-door"
+    },
+    {
+      "query": "best under sink organizer",
+      "score": 39.0,
+      "source": "google",
+      "rank": 0,
+      "seed": "under sink organizer",
+      "slug": "best-under-sink-organizer"
+    },
+    {
+      "query": "best closet organizer for sliding doors",
+      "score": 39.0,
+      "source": "google",
+      "rank": 3,
+      "seed": "closet organizer",
+      "slug": "best-closet-organizer-for-sliding-doors"
+    },
+    {
+      "query": "best drawer organizer for kitchen utensils",
+      "score": 39.0,
+      "source": "google",
+      "rank": 3,
+      "seed": "drawer organizer",
+      "slug": "best-drawer-organizer-for-kitchen-utensils"
+    },
+    {
+      "query": "best shower caddy for camp",
+      "score": 38.0,
+      "source": "google",
+      "rank": 4,
+      "seed": "shower caddy",
+      "slug": "best-shower-caddy-for-camp"
+    },
+    {
+      "query": "best shoe organizer for closet",
+      "score": 38.0,
+      "source": "google",
+      "rank": 4,
+      "seed": "shoe rack for closet",
+      "slug": "best-shoe-organizer-for-closet"
+    },
+    {
+      "query": "best drawer organizer for kitchen",
+      "score": 37.0,
+      "source": "google",
+      "rank": 5,
+      "seed": "drawer organizer",
+      "slug": "best-drawer-organizer-for-kitchen"
+    },
+    {
+      "query": "best shower caddy for handheld shower head",
+      "score": 37.0,
+      "source": "google",
+      "rank": 5,
+      "seed": "shower caddy",
+      "slug": "best-shower-caddy-for-handheld-shower-head"
+    },
+    {
+      "query": "best over the door organizer for baby",
+      "score": 37.0,
+      "source": "google",
+      "rank": 5,
+      "seed": "over the door organizer",
+      "slug": "best-over-the-door-organizer-for-baby"
+    },
+    {
+      "query": "best shoe storage for closet",
+      "score": 37.0,
+      "source": "google",
+      "rank": 5,
+      "seed": "shoe rack for closet",
+      "slug": "best-shoe-storage-for-closet"
+    },
+    {
+      "query": "under sink organizer for bathroom",
+      "score": 36.0,
+      "source": "google",
+      "rank": 0,
+      "seed": "under sink organizer",
+      "slug": "under-sink-organizer-for-bathroom"
+    },
+    {
+      "query": "best closet organizers for small spaces",
+      "score": 36.0,
+      "source": "google",
+      "rank": 6,
+      "seed": "closet organizer",
+      "slug": "best-closet-organizers-for-small-spaces"
+    },
+    {
+      "query": "best over the door organizer for bathroom",
+      "score": 36.0,
+      "source": "google",
+      "rank": 6,
+      "seed": "over the door organizer",
+      "slug": "best-over-the-door-organizer-for-bathroom"
+    },
+    {
+      "query": "best shoe holder for closet",
+      "score": 36.0,
+      "source": "google",
+      "rank": 6,
+      "seed": "shoe rack for closet",
+      "slug": "best-shoe-holder-for-closet"
+    },
+    {
+      "query": "shoe rack for under closet",
+      "score": 36.0,
+      "source": "google",
+      "rank": 0,
+      "seed": "shoe rack for closet",
+      "slug": "shoe-rack-for-under-closet"
+    },
+    {
+      "query": "under sink organizer for corner sink",
+      "score": 35.0,
+      "source": "google",
+      "rank": 1,
+      "seed": "under sink organizer",
+      "slug": "under-sink-organizer-for-corner-sink"
+    },
+    {
+      "query": "best drawer organizer for underwear",
+      "score": 35.0,
+      "source": "google",
+      "rank": 7,
+      "seed": "drawer organizer",
+      "slug": "best-drawer-organizer-for-underwear"
+    },
+    {
+      "query": "best over the door organizer for clothes",
+      "score": 35.0,
+      "source": "google",
+      "rank": 7,
+      "seed": "over the door organizer",
+      "slug": "best-over-the-door-organizer-for-clothes"
+    },
+    {
+      "query": "best shoe shelves for closet",
+      "score": 35.0,
+      "source": "google",
+      "rank": 7,
+      "seed": "shoe rack for closet",
+      "slug": "best-shoe-shelves-for-closet"
+    },
+    {
+      "query": "shoe rack for cupboard under stairs",
+      "score": 35.0,
+      "source": "google",
+      "rank": 1,
+      "seed": "shoe rack for closet",
+      "slug": "shoe-rack-for-cupboard-under-stairs"
+    },
+    {
+      "query": "best under bed storage bins",
+      "score": 35.0,
+      "source": "google",
+      "rank": 7,
+      "seed": "under bed storage",
+      "slug": "best-under-bed-storage-bins"
+    },
+    {
+      "query": "under sink organizer for corner cabinet",
+      "score": 34.0,
+      "source": "google",
+      "rank": 2,
+      "seed": "under sink organizer",
+      "slug": "under-sink-organizer-for-corner-cabinet"
+    },
+    {
+      "query": "best closet organizer for kids",
+      "score": 34.0,
+      "source": "google",
+      "rank": 8,
+      "seed": "closet organizer",
+      "slug": "best-closet-organizer-for-kids"
+    },
+    {
+      "query": "best drawer organizer for socks and underwear",
+      "score": 34.0,
+      "source": "google",
+      "rank": 8,
+      "seed": "drawer organizer",
+      "slug": "best-drawer-organizer-for-socks-and-underwear"
+    },
+    {
+      "query": "best shower caddy for college dorm",
+      "score": 34.0,
+      "source": "google",
+      "rank": 8,
+      "seed": "shower caddy",
+      "slug": "best-shower-caddy-for-college-dorm"
+    },
+    {
+      "query": "best over the door organizer",
+      "score": 34.0,
+      "source": "google",
+      "rank": 0,
+      "seed": "over the door organizer",
+      "slug": "best-over-the-door-organizer"
+    }
+  ]
+}

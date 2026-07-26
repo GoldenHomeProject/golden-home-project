@@ -119,6 +119,64 @@ def _has_payable_product(opp: dict) -> bool:
     return False
 
 
+KEYWORD_QUEUE = ROOT / "social" / "keyword_queue.json"
+
+
+def pick_keyword_topic() -> dict | None:
+    """Take the best untargeted query from the search-demand queue.
+
+    Why this outranks the trend feed (2026-07-26): Search Console showed 108
+    impressions / 8 clicks over 90 days at average position 36.9, and 12 of the 14
+    queries we appeared for were people typing the brand name. Trend-fed topics
+    describe what is *popular*; they do not correspond to anything anyone searches,
+    so the posts never rank and never earn. Queue entries come from Google/Amazon
+    autocomplete via automation/keyword_research.py — every one is a phrase a real
+    person typed.
+    """
+    if not KEYWORD_QUEUE.exists():
+        return None
+    try:
+        data = json.loads(KEYWORD_QUEUE.read_text())
+    except json.JSONDecodeError:
+        print("[blog-writer] keyword_queue.json is unreadable — falling back to trends")
+        return None
+
+    published = _published_topic_token_sets()
+    for kw in data.get("keywords", []):
+        if kw.get("used"):
+            continue
+        query = kw.get("query", "")
+        tokens = _topic_tokens(query)
+        # Same near-duplicate guard the trend path uses: two posts on the same
+        # thing split their own ranking signal.
+        if any(len(tokens & prev) >= max(2, len(tokens) - 1) for prev in published):
+            continue
+        return {
+            "target_keyword": query,
+            "keyword": query,
+            "topic": query,
+            "product_category": kw.get("seed", ""),
+            "specific_product": kw.get("seed", ""),
+            "source": f"search-demand/{kw.get('source', '?')}",
+            "demand_score": kw.get("score"),
+        }
+    return None
+
+
+def mark_keyword_used(query: str) -> None:
+    """Burn the keyword so tomorrow's run targets a different query."""
+    if not KEYWORD_QUEUE.exists():
+        return
+    try:
+        data = json.loads(KEYWORD_QUEUE.read_text())
+    except json.JSONDecodeError:
+        return
+    for kw in data.get("keywords", []):
+        if kw.get("query") == query:
+            kw["used"] = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    KEYWORD_QUEUE.write_text(json.dumps(data, indent=2) + "\n")
+
+
 def pick_topic() -> dict | None:
     """Pull the highest-composite opportunity from today's trend feed.
 
@@ -135,6 +193,15 @@ def pick_topic() -> dict | None:
        live registry ASIN; an unmonetized topic is used only when nothing
        payable is available, so the weekly cadence never silently goes dark.
     """
+    # Search demand wins over trend chatter — a post that targets a real query can
+    # rank; a post about a popular thing nobody searches cannot.
+    kw_topic = pick_keyword_topic()
+    if kw_topic:
+        print(f"[blog-writer] SEARCH-DEMAND topic: {kw_topic['target_keyword']!r} "
+              f"(score {kw_topic.get('demand_score')})")
+        return kw_topic
+    print("[blog-writer] keyword queue empty/exhausted — falling back to trend feed")
+
     if not TREND_FEED.exists():
         print("[blog-writer] No trend feed available.")
         return None
@@ -178,9 +245,34 @@ def slugify(s: str) -> str:
 
 def generate_post(opportunity: dict) -> dict:
     """Returns structured post object ready to render."""
+    target = (opportunity.get("target_keyword") or "").strip()
+    keyword_rule = ""
+    if target:
+        keyword_rule = f"""
+CRITICAL — SEARCH TARGET: this post exists to rank for the exact query "{target}".
+That phrase is a real query pulled from Google autocomplete, not a theme.
+- Use "{target}" verbatim in the title, in the meta_description, and in the first
+  40 words of the intro. Put it in the keywords array first.
+- The slug must be the phrase, hyphenated.
+- Answer THAT question specifically. A searcher typing "{target}" wants a short list
+  of concrete picks with a reason for each, not a general essay about the category.
+- Include a comparison section that contrasts the picks on the dimension the query
+  implies (size, room, price, use case) so the page beats a generic listicle.
+"""
     prompt = f"""Write a full long-form SEO blog post based on this product opportunity:
 
 {json.dumps(opportunity, indent=2)}
+{keyword_rule}
+HONESTY RULE — NON-NEGOTIABLE:
+Nobody at this site physically handled these products. NEVER claim first-hand testing,
+ownership, or personal results. Banned phrasings: "I tested", "I tried", "I bought",
+"I've used this for X months", "in my home", "after 3 weeks of use", "I measured",
+and any invented anecdote about using the product.
+Write from what is genuinely verifiable instead: star ratings, review counts, listed
+dimensions and materials, price, and what reviewers repeatedly report. Say "I compared",
+"I looked at what owners report", "reviewers consistently mention". A specific,
+well-researched comparison is more persuasive than a fake story, and fabricated
+experience is both dishonest and penalized by search engines.
 
 Return STRICT JSON matching this exact schema:
 {{
@@ -554,6 +646,8 @@ def main():
         + f"\n\n{post['conclusion']}\n"
     )
     regenerate_index()
+    if topic.get("target_keyword"):
+        mark_keyword_used(topic["target_keyword"])
 
     print(f"[blog-writer] ✓ {html_path.name} + markdown + index regenerated")
 
