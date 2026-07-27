@@ -1,0 +1,60 @@
+{
+  "created_at": "2026-07-27T12:14:23.208580Z",
+  "date": "2026-07-27",
+  "seq": 905,
+  "source": "repurpose",
+  "hook": "$15.99 vs $28.99: the baby bins that are actually worth it",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Split screen: tiny 12-bin set on one side, large rigid storage cubes on the other, both on a table",
+      "on_screen_text": "$15.99 vs $28.99",
+      "voiceover": "These two are opposite ends of the price range, and they solve completely different problems."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Twelve small low-profile bins filling a shallow single drawer with socks, mittens, and pacifiers sorted",
+      "on_screen_text": "GRTXIN \u2014 $15.99 \u2014 12 mini bins",
+      "voiceover": "GRTXIN's 12-pack is built for a shallow drawer too small for full-size dividers, socks and pacifiers only."
+    },
+    {
+      "n": 3,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of thin fabric bin material stretching slightly under folded pants",
+      "on_screen_text": "Thinner fabric \u2014 lightweight items only",
+      "voiceover": "The tradeoff is thinner fabric than the pricier sets, so it's better for light items than anything with weight."
+    },
+    {
+      "n": 4,
+      "duration_sec": 3,
+      "visual_prompt": "Rigid-sided storage cubes filled with bulky folded sleep sacks and fleece pajamas, staying perfectly square",
+      "on_screen_text": "Simple Houseware \u2014 $28.99 \u2014 bulky items",
+      "voiceover": "Simple Houseware's cubes are for swaddles and sleep sacks that don't compress down flat."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Reinforced bottom panel of a cube shown staying square and structured when fully loaded",
+      "on_screen_text": "Reinforced base stays square when full",
+      "voiceover": "The reinforced bottom keeps it square even loaded, unlike softer bins that collapse inward."
+    },
+    {
+      "n": 6,
+      "duration_sec": 4,
+      "visual_prompt": "Both organizers shown side by side one final time with price tags overlaid",
+      "on_screen_text": "Buy by problem, not price",
+      "voiceover": "So don't buy the pricier one by default. Buy GRTXIN for a shallow drawer, Simple Houseware only if bulky items are actually your problem."
+    }
+  ],
+  "caption": "Not every baby organizer solves the same problem. GRTXIN's mini bins ($15.99, 12-pack) are the cheapest way to add structure to a shallow drawer. Simple Houseware's storage cubes ($28.99) are the only pick built for bulky swaddles and sleep sacks that won't fold flat. I compared both against 3 other picks \u2014 full breakdown linked in bio.",
+  "hashtags": [
+    "#budgetbabyfinds",
+    "#nurseryorganization",
+    "#babyclothesstorage",
+    "#swaddlestorage",
+    "#momhacks",
+    "#babydresserorganization"
+  ]
+}

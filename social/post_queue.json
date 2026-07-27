@@ -4067,5 +4067,91 @@
     "keyword": "LINK",
     "queued_at": "2026-07-27T10:33:15.523403Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_repurpose_2026-07-27_901",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-07-27-901.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "I went looking for the best drawer organizer for baby clothes after my newborn's tidy three-drawer dresser turned into a chaotic pile of loose onesies and mismatched socks by month three. Compared 5 picks \u2014 $15.99 to $28.99 \u2014 on drawer depth, adjustability, material, and whether the folds actually hold up. Full comparison + FAQ linked in bio.",
+    "hashtags": [
+      "#babyclothesorganization",
+      "#nurseryorganization",
+      "#drawerorganizer",
+      "#newmomhacks",
+      "#nurserysetup",
+      "#babyregistry",
+      "#momlifehacks"
+    ],
+    "hook": "I ranked 5 baby drawer organizers, $15.99 to $28.99"
+  },
+  {
+    "name": "reel_repurpose_2026-07-27_902",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-07-27-902.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "The mDesign Fabric Drawer Organizer Bins are my best overall pick for baby clothes, and it's not close. Six bins, twenty one ninety nine, no assembly, maps directly onto onesies, socks, bibs, hats, and pajamas. The one thing to know before you buy: it fits 3-6 month clothes better than bulkier newborn sleepers. Full comparison against 4 other picks is linked in bio.",
+    "hashtags": [
+      "#mdesignorganizer",
+      "#babydresserorganization",
+      "#nurseryhacks",
+      "#newbornessentials",
+      "#babyclothesstorage",
+      "#momhacks"
+    ],
+    "hook": "$21.99 fixed the drawer I almost bought a new dresser for"
+  },
+  {
+    "name": "reel_repurpose_2026-07-27_903",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-07-27-903.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "If your baby's dresser is a hand-me-down or just an odd size, the Delamu Foldable Drawer Dividers ($19.99) are the pick \u2014 8 panels that expand into 8 to 15 compartments to match your drawer exactly. They resize as your baby grows out of the newborn stage. Full 5-way comparison linked in bio.",
+    "hashtags": [
+      "#delamu",
+      "#drawerdividers",
+      "#babynursery",
+      "#adjustableorganizer",
+      "#nurseryorganization",
+      "#babyclothesstorage"
+    ],
+    "hook": "Hand-me-down dresser? Fixed bins won't fit it"
+  },
+  {
+    "name": "reel_repurpose_2026-07-27_904",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-07-27-904.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "The YOULERBU Bamboo Drawer Dividers ($25.99) are the only organizer on my list rigid enough for a deep nursery dresser \u2014 the kind with 8-10 inch drawers where small baby clothes usually sink and disappear. Highest rated of the 5 I compared, but you need at least 6 inches of drawer depth for it to sit flush. Full breakdown linked in bio.",
+    "hashtags": [
+      "#bambooorganizer",
+      "#nurserydresser",
+      "#deepdraw erdivider",
+      "#babynurserydecor",
+      "#woodnurseryfurniture",
+      "#organizedbaby"
+    ],
+    "hook": "8-inch deep drawer? Only 1 of 5 organizers didn't sag"
+  },
+  {
+    "name": "reel_repurpose_2026-07-27_905",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-07-27-905.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Not every baby organizer solves the same problem. GRTXIN's mini bins ($15.99, 12-pack) are the cheapest way to add structure to a shallow drawer. Simple Houseware's storage cubes ($28.99) are the only pick built for bulky swaddles and sleep sacks that won't fold flat. I compared both against 3 other picks \u2014 full breakdown linked in bio.",
+    "hashtags": [
+      "#budgetbabyfinds",
+      "#nurseryorganization",
+      "#babyclothesstorage",
+      "#swaddlestorage",
+      "#momhacks",
+      "#babydresserorganization"
+    ],
+    "hook": "$15.99 vs $28.99: the baby bins that are actually worth it"
   }
 ]

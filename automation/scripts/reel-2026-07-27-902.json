@@ -1,0 +1,60 @@
+{
+  "created_at": "2026-07-27T12:14:23.208084Z",
+  "date": "2026-07-27",
+  "seq": 902,
+  "source": "repurpose",
+  "hook": "$21.99 fixed the drawer I almost bought a new dresser for",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Frustrated parent staring into a jumbled drawer of baby clothes, hand hovering over the mess",
+      "on_screen_text": "Almost bought a bigger dresser",
+      "voiceover": "I almost bought a whole new dresser before I realized the problem wasn't size, it was that nothing had a lane."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Unboxing six soft fabric bins, no tools or instructions visible",
+      "on_screen_text": "6 bins. No assembly.",
+      "voiceover": "This is the mDesign fabric bin set, six bins, twenty one ninety nine, nothing to build."
+    },
+    {
+      "n": 3,
+      "duration_sec": 3,
+      "visual_prompt": "Hands placing bins labeled by category into drawer: onesies, socks, bibs, hats, pajamas, catch-all",
+      "on_screen_text": "Onesies. Socks. Bibs. Hats. Pajamas.",
+      "voiceover": "Five bins for the five things every baby wardrobe splits into, plus a catch-all."
+    },
+    {
+      "n": 4,
+      "duration_sec": 3,
+      "visual_prompt": "One-handed grab test at night, dim lighting, reaching into open-top bin without looking",
+      "on_screen_text": "One-handed 2am test: passed",
+      "voiceover": "Open tops mean a one-handed grab during a middle of the night change actually works."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of a half-empty bin staying upright and square instead of collapsing sideways",
+      "on_screen_text": "Doesn't slump when half-full",
+      "voiceover": "Unlike cheaper collapsible bins, these hold their shape even half empty."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Text overlay on screen showing star rating and review count graphic",
+      "on_screen_text": "4.6 stars, one catch",
+      "voiceover": "One catch reviewers flag: it runs a little small for bulky 0 to 3 month sleepers. Fits best at 3 to 6 months."
+    }
+  ],
+  "caption": "The mDesign Fabric Drawer Organizer Bins are my best overall pick for baby clothes, and it's not close. Six bins, twenty one ninety nine, no assembly, maps directly onto onesies, socks, bibs, hats, and pajamas. The one thing to know before you buy: it fits 3-6 month clothes better than bulkier newborn sleepers. Full comparison against 4 other picks is linked in bio.",
+  "hashtags": [
+    "#mdesignorganizer",
+    "#babydresserorganization",
+    "#nurseryhacks",
+    "#newbornessentials",
+    "#babyclothesstorage",
+    "#momhacks"
+  ]
+}

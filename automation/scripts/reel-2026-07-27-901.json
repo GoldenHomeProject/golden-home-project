@@ -1,0 +1,68 @@
+{
+  "created_at": "2026-07-27T12:14:23.207782Z",
+  "date": "2026-07-27",
+  "seq": 901,
+  "source": "repurpose",
+  "hook": "I ranked 5 baby drawer organizers, $15.99 to $28.99",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Overflowing dresser drawer, loose onesies and mismatched socks spilling out, phone camera POV looking down",
+      "on_screen_text": "My baby's drawer by month 3",
+      "voiceover": "In March this drawer held her entire wardrobe. By June it was a disaster."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Five drawer organizer boxes lined up on a table, hand sliding into frame to open each one",
+      "on_screen_text": "I compared 5 organizers",
+      "voiceover": "So I looked at the five organizers parents actually rate well and lined them up."
+    },
+    {
+      "n": 3,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up hands placing soft fabric bins into a standard dresser drawer, no tools",
+      "on_screen_text": "mDesign \u2014 $21.99 \u2014 Best Overall",
+      "voiceover": "mDesign's fabric bins need zero assembly, six bins, drops straight in."
+    },
+    {
+      "n": 4,
+      "duration_sec": 3,
+      "visual_prompt": "Hands expanding foldable plastic-coated divider panels to fit an oddly-sized hand-me-down drawer",
+      "on_screen_text": "Delamu \u2014 $19.99 \u2014 Adjustable",
+      "voiceover": "Delamu's dividers expand from 8 to 15 compartments if your dresser is a weird size."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Bamboo wood dividers slotted into a deep 8-inch drawer, sitting flush against wood dresser furniture",
+      "on_screen_text": "YOULERBU \u2014 $25.99 \u2014 4.7 stars",
+      "voiceover": "YOULERBU's bamboo panels are the only ones rigid enough not to sag in a deep drawer."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Twelve tiny bins in a shallow drawer holding socks, mittens, and pacifiers",
+      "on_screen_text": "GRTXIN \u2014 $15.99 \u2014 Budget pick",
+      "voiceover": "GRTXIN's mini bins are the cheapest way to add structure to a shallow drawer."
+    },
+    {
+      "n": 7,
+      "duration_sec": 4,
+      "visual_prompt": "Large rigid storage cubes holding folded swaddle blankets and sleep sacks, cube staying square when full",
+      "on_screen_text": "Simple Houseware \u2014 $28.99 \u2014 Bulky items",
+      "voiceover": "And Simple Houseware's cubes are for the swaddles nothing else holds. Full breakdown's on the blog."
+    }
+  ],
+  "caption": "I went looking for the best drawer organizer for baby clothes after my newborn's tidy three-drawer dresser turned into a chaotic pile of loose onesies and mismatched socks by month three. Compared 5 picks \u2014 $15.99 to $28.99 \u2014 on drawer depth, adjustability, material, and whether the folds actually hold up. Full comparison + FAQ linked in bio.",
+  "hashtags": [
+    "#babyclothesorganization",
+    "#nurseryorganization",
+    "#drawerorganizer",
+    "#newmomhacks",
+    "#nurserysetup",
+    "#babyregistry",
+    "#momlifehacks"
+  ]
+}

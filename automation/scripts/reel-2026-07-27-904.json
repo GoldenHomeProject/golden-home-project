@@ -1,0 +1,60 @@
+{
+  "created_at": "2026-07-27T12:14:23.208440Z",
+  "date": "2026-07-27",
+  "seq": 904,
+  "source": "repurpose",
+  "hook": "8-inch deep drawer? Only 1 of 5 organizers didn't sag",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Small baby socks and bodysuits sinking to the bottom of a deep 8-10 inch adult-sized dresser drawer",
+      "on_screen_text": "Deep drawers hide small clothes",
+      "voiceover": "Deep dressers built for adult clothes are actually the hardest to organize for a baby."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Fabric and foam divider sagging and bending in a deep drawer next to a rigid wood divider standing straight",
+      "on_screen_text": "Fabric dividers sag past 6 inches",
+      "voiceover": "Fabric and foam dividers work at 4 inches deep, but they sag once you go past 6."
+    },
+    {
+      "n": 3,
+      "duration_sec": 3,
+      "visual_prompt": "Solid bamboo wood divider panels slotting together into a grid inside a deep drawer, staying rigid",
+      "on_screen_text": "YOULERBU \u2014 $25.99 \u2014 solid bamboo",
+      "voiceover": "YOULERBU's bamboo panels slot into a grid and stay rigid even at full depth."
+    },
+    {
+      "n": 4,
+      "duration_sec": 3,
+      "visual_prompt": "Bamboo dresser dividers next to matching stained-wood nursery furniture, visual color match",
+      "on_screen_text": "Matches wood nursery furniture",
+      "voiceover": "It's also the only pick that actually matches stained wood furniture instead of looking like a plastic bin."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Folded swaddle blankets stacked against a bamboo divider without it bowing",
+      "on_screen_text": "Holds folded swaddles without bowing",
+      "voiceover": "Strong enough to divide heavier stacked swaddle blankets too."
+    },
+    {
+      "n": 6,
+      "duration_sec": 4,
+      "visual_prompt": "Text graphic showing 4.7 star rating, then a divider panel sticking up above a shallow drawer's rim",
+      "on_screen_text": "4.7 stars \u2014 needs 6\"+ drawer depth",
+      "voiceover": "Highest rated pick on the list, but only works if your drawer's at least six inches deep."
+    }
+  ],
+  "caption": "The YOULERBU Bamboo Drawer Dividers ($25.99) are the only organizer on my list rigid enough for a deep nursery dresser \u2014 the kind with 8-10 inch drawers where small baby clothes usually sink and disappear. Highest rated of the 5 I compared, but you need at least 6 inches of drawer depth for it to sit flush. Full breakdown linked in bio.",
+  "hashtags": [
+    "#bambooorganizer",
+    "#nurserydresser",
+    "#deepdraw erdivider",
+    "#babynurserydecor",
+    "#woodnurseryfurniture",
+    "#organizedbaby"
+  ]
+}
