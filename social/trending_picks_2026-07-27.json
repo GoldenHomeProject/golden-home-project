@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-07-27",
+  "category": "Home Storage",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/2026-07-27-trending-home-storage-best-sellers.html",
+  "picks": [
+    {
+      "asin": "B00FXNAAW2",
+      "name": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers",
+      "price": "$20.69",
+      "rating": 4.8,
+      "reviews": 234760,
+      "rank": 2
+    },
+    {
+      "asin": "B0DGF616XN",
+      "name": "6 Pack Extra Heavy Duty Large Moving Bags with Strong Zipper & Comfort",
+      "price": "$23.98",
+      "rating": 4.8,
+      "reviews": 11261,
+      "rank": 3
+    },
+    {
+      "asin": "B08KXKVT4K",
+      "name": "Vtopmart 25 PCS Clear Plastic Drawer Organizers Set",
+      "price": "$18.99",
+      "rating": 4.7,
+      "reviews": 48962,
+      "rank": 9
+    },
+    {
+      "asin": "B0BNL5MBMY",
+      "name": "pickpiff 13LB Strong Stick-on Hooks for Coat & Towel",
+      "price": "$9.99",
+      "rating": 4.5,
+      "reviews": 6507,
+      "rank": 13
+    },
+    {
+      "asin": "B09SZ9T4MV",
+      "name": "EUDELE Mesh Shower Caddy Portable for College Dorm Room Essentials",
+      "price": "$8.54",
+      "rating": 4.6,
+      "reviews": 7579,
+      "rank": 16
+    },
+    {
+      "asin": "B07712H557",
+      "name": "Command General Purpose Variety Kit",
+      "price": "$14.84",
+      "rating": 4.7,
+      "reviews": 11549,
+      "rank": 18
+    }
+  ]
+}
