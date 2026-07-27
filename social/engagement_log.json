@@ -4,11 +4,11 @@
     "lifetime_follows": 20,
     "lifetime_likes": 33,
     "lifetime_comments": 7,
-    "last_session": "2026-07-27-1338-pi",
+    "last_session": "outreach-2026-07-27T1801Z",
     "blocked_at": null,
-    "last_updated": "2026-07-27T13:39:27Z",
-    "total_actions": 433,
-    "lifetime_dms": 20,
+    "last_updated": "2026-07-27T18:02:18Z",
+    "total_actions": 434,
+    "lifetime_dms": 21,
     "lifetime_comments_outbound": 16
   },
   "actions": [
@@ -15169,6 +15169,15 @@
       ],
       "untapped_warm": [],
       "dry_run": false
+    },
+    {
+      "timestamp": "2026-07-27T18:02:18Z",
+      "action": "dm_sent",
+      "target": "shiragill",
+      "session": "outreach-2026-07-27T1801Z",
+      "body_chars": 787,
+      "thread_url": "https://www.instagram.com/shiragill/",
+      "template_tag": "path_c_v2_affiliate_split"
     }
   ]
 }
