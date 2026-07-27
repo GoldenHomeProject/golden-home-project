@@ -1921,3 +1921,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** social/pinterest_queue.json
 **External actions:** Pexels (backgrounds) + Claude CLI (pin copy)
 **Next agent hint:** post_pinterest.py (Pi) drains pinterest_queue.json once a Pinterest business account is logged into the Pi Chromium profile.
+
+## 2026-07-27T10:33:15Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B01M0TS64K (Simple Houseware 2-Tier Sliding Basket O)
+**Changed:** social/carousels/2026-07-27-B01M0TS64K/slide-1.png, social/carousels/2026-07-27-B01M0TS64K/slide-2.png, social/carousels/2026-07-27-B01M0TS64K/slide-3.png, social/carousels/2026-07-27-B01M0TS64K/slide-4.png, social/carousels/2026-07-27-B01M0TS64K/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B01M0TS64K carousel.
