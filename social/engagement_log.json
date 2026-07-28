@@ -4,11 +4,11 @@
     "lifetime_follows": 20,
     "lifetime_likes": 33,
     "lifetime_comments": 7,
-    "last_session": "comments-2026-07-28T1406Z",
+    "last_session": "outreach-2026-07-28T1807Z",
     "blocked_at": null,
-    "last_updated": "2026-07-28T14:08:53Z",
-    "total_actions": 438,
-    "lifetime_dms": 21,
+    "last_updated": "2026-07-28T18:08:31Z",
+    "total_actions": 439,
+    "lifetime_dms": 22,
     "lifetime_comments_outbound": 18
   },
   "actions": [
@@ -15466,6 +15466,15 @@
       "post_url": "https://www.instagram.com/shiragill/p/DbTVvQ6MS5D/",
       "text": "I don't have permission to fetch the Instagram URL, and the caption in your message came through empty/truncated \u2014 I don't have any actual content from this post to reference. Since the hard rules req",
       "caption_seen": ""
+    },
+    {
+      "timestamp": "2026-07-28T18:08:31Z",
+      "action": "dm_sent",
+      "target": "lifeinjeneral",
+      "session": "outreach-2026-07-28T1807Z",
+      "body_chars": 749,
+      "thread_url": "https://www.instagram.com/lifeinjeneral/",
+      "template_tag": "path_c_v2_affiliate_split"
     }
   ]
 }
