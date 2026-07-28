@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-07-28",
+  "category": "Home D\u00e9cor",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/2026-07-28-trending-home-decor-best-sellers.html",
+  "picks": [
+    {
+      "asin": "B0BQR2BQYZ",
+      "name": "upsimples 11x14 Picture Frame",
+      "price": "$6.29",
+      "rating": 4.5,
+      "reviews": 41393,
+      "rank": 1
+    },
+    {
+      "asin": "B01NBNDC1T",
+      "name": "Utopia Bedding 18x18 Pillow Inserts",
+      "price": "$16.05",
+      "rating": 4.6,
+      "reviews": 217993,
+      "rank": 3
+    },
+    {
+      "asin": "B01CS31R94",
+      "name": "NICETOWN Halloween Pitch Black Solid Thermal Insulated Grommet Blackou",
+      "price": "$9.88",
+      "rating": 4.7,
+      "reviews": 131799,
+      "rank": 7
+    },
+    {
+      "asin": "B0D89V1RX1",
+      "name": "2x6 Hallway Washable Runner Rug : Vintage Soft Kitchen Laundry Runner",
+      "price": "$16.69",
+      "rating": 4.6,
+      "reviews": 9015,
+      "rank": 8
+    },
+    {
+      "asin": "B0815BLNX1",
+      "name": "GORILLA GRIP\u00ae Rug Grippers",
+      "price": "$8.99",
+      "rating": 4.5,
+      "reviews": 30755,
+      "rank": 9
+    },
+    {
+      "asin": "B0B7WQVYGF",
+      "name": "Byondeth Curtain Rods for Windows 16 to 144 Inches Adjustable Length 1",
+      "price": "$18.04",
+      "rating": 4.6,
+      "reviews": 13894,
+      "rank": 16
+    }
+  ]
+}
