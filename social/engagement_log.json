@@ -4,11 +4,11 @@
     "lifetime_follows": 20,
     "lifetime_likes": 33,
     "lifetime_comments": 7,
-    "last_session": "comments-2026-07-29T1403Z",
+    "last_session": "outreach-2026-07-29T1811Z",
     "blocked_at": null,
-    "last_updated": "2026-07-29T14:06:29Z",
-    "total_actions": 443,
-    "lifetime_dms": 22,
+    "last_updated": "2026-07-29T18:12:38Z",
+    "total_actions": 444,
+    "lifetime_dms": 23,
     "lifetime_comments_outbound": 20
   },
   "actions": [
@@ -15763,6 +15763,15 @@
       "post_url": "https://www.instagram.com/iheartorganizing/p/B5By96PFDM0/",
       "text": "I heart organizing your closet with acrylic bins is genius, but does the label placement hold up once bottles get shuffled around during actual use, or do you resticker often?",
       "caption_seen": ""
+    },
+    {
+      "timestamp": "2026-07-29T18:12:38Z",
+      "action": "dm_sent",
+      "target": "breathing.room.home",
+      "session": "outreach-2026-07-29T1811Z",
+      "body_chars": 734,
+      "thread_url": "https://www.instagram.com/breathing.room.home/",
+      "template_tag": "path_c_v2_affiliate_split"
     }
   ]
 }
