@@ -1963,3 +1963,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** automation/trends/2026-07-29.json, social/trend_feed.json
 **External actions:** reddit_pi_cache + google_trends + pinterest_rss + amazon_movers_pi_cache
 **Next agent hint:** Content Engine: today's top-3 opportunities are: no opportunities ranked
+
+## 2026-07-29T09:33:14Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B09CSS6YL4 (LED Motion Sensor Night Light Plug-In (2)
+**Changed:** social/carousels/2026-07-29-B09CSS6YL4/slide-1.png, social/carousels/2026-07-29-B09CSS6YL4/slide-2.png, social/carousels/2026-07-29-B09CSS6YL4/slide-3.png, social/carousels/2026-07-29-B09CSS6YL4/slide-4.png, social/carousels/2026-07-29-B09CSS6YL4/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B09CSS6YL4 carousel.
