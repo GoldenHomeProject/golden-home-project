@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-07-29",
+  "category": "Home",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/2026-07-29-trending-home-best-sellers.html",
+  "picks": [
+    {
+      "asin": "B01M16WBW1",
+      "name": "Queen Size 4 Piece Sheet Set",
+      "price": "$21.24",
+      "rating": 4.5,
+      "reviews": 449003,
+      "rank": 1
+    },
+    {
+      "asin": "B00E4GACB8",
+      "name": "Terro",
+      "price": "$9.58",
+      "rating": 4.6,
+      "reviews": 159954,
+      "rank": 3
+    },
+    {
+      "asin": "B0C3FTCYZL",
+      "name": "Zevo Flying Insect Trap Refill Cartridges for Fruit Flies & Gnats",
+      "price": "$14.97",
+      "rating": 4.8,
+      "reviews": 34540,
+      "rank": 5
+    },
+    {
+      "asin": "B08QRFZ6TH",
+      "name": "Barossa Design Premium Shower Curtain Liner Standard Size",
+      "price": "$8.49",
+      "rating": 4.5,
+      "reviews": 98735,
+      "rank": 8
+    },
+    {
+      "asin": "B0B1CNJL7N",
+      "name": "upsimples 8x10 Picture Frame",
+      "price": "$5.39",
+      "rating": 4.5,
+      "reviews": 41433,
+      "rank": 9
+    },
+    {
+      "asin": "B0D97YVVQ2",
+      "name": "PlayHot Portable Handheld Turbo Fan",
+      "price": "$16.98",
+      "rating": 4.5,
+      "reviews": 9638,
+      "rank": 12
+    }
+  ]
+}
