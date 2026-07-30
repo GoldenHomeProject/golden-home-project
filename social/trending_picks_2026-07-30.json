@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-07-30",
+  "category": "Bath",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/2026-07-30-trending-bath-best-sellers.html",
+  "picks": [
+    {
+      "asin": "B08CRPWQHB",
+      "name": "BigFoot Clear Shower Curtain",
+      "price": "$9.99",
+      "rating": 4.5,
+      "reviews": 58361,
+      "rank": 2
+    },
+    {
+      "asin": "B01HI1W1V4",
+      "name": "Etekcity Digital Body Weight Bathroom Scale",
+      "price": "$19.88",
+      "rating": 4.7,
+      "reviews": 348951,
+      "rank": 14
+    },
+    {
+      "asin": "B00R55CIRQ",
+      "name": "Clorox Corner Toilet Bowl Brush with Under Rim Scrubber",
+      "price": "$8.99",
+      "rating": 4.6,
+      "reviews": 5539,
+      "rank": 18
+    },
+    {
+      "asin": "B0F24MHHFD",
+      "name": "dancemoon JustHang Shower Squeegee with Built-in Hook",
+      "price": "$19.79",
+      "rating": 4.8,
+      "reviews": 7595,
+      "rank": 24
+    },
+    {
+      "asin": "B0D1BZJSX4",
+      "name": "YASONIC Shower Caddy Adhesive",
+      "price": "$16.97",
+      "rating": 4.7,
+      "reviews": 7768,
+      "rank": 25
+    },
+    {
+      "asin": "B0BHSFZNFY",
+      "name": "Hargiis Non Slip Bathtub Mat",
+      "price": "$17.99",
+      "rating": 4.6,
+      "reviews": 17164,
+      "rank": 32
+    }
+  ]
+}
