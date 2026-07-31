@@ -1,24 +1,18 @@
 name: GHP Blog Writer (Agent 4 — Flywheel S3)
 
-# Runs 5x/week (Mon-Fri) at 08:00 UTC
+# Manual-only. Scheduled runs happen on the Pi (see note below).
 # Writes one 1,800-2,400 word SEO blog post per run
 # Target: 260 posts/year, compounding organic traffic
 # Based on highest-composite trend from social/trend_feed.json
 
+# NOTE 2026-07-30: the SEO writer runs DAILY on the Pi (cron 07:15), not here.
+# The Pi can verify Amazon listings (Actions runner IPs are bot-walled) and owns the
+# keyword queue. The old 1x/week schedule protected a GSC test dated 2026-06-05 and
+# was leaving 39 real queries unused while the non-ranking trending engine posted
+# daily. The `schedule:` key is REMOVED, not commented out: leaving the key present
+# with no cron entries under it is invalid and made every push fail with
+# "No jobs were run" (run 30601995023). Manual runs still work via workflow_dispatch.
 on:
-  # Re-enabled 2026-05-11 per CEO directive (parallel tracks).
-  # Cadence reduced from 5x/week to 1x/week (Wednesday) — keeps the 6/5 GSC sandbox test
-  # on the existing 8 COVER posts readable. 1 post/week into non-COVER clusters
-  # (drawn from social/RESEARCH_fallback_clusters.md) widens the bet without polluting the
-  # primary signal. Hard rule (enforced in scripts/blog_writer.py downstream of this trigger):
-  # NEVER publish another COVER-cluster post until the 6/5 evaluation.
-  schedule:
-    # DISABLED 2026-07-30: the SEO writer now runs DAILY on the Pi, where it can
-    # verify Amazon listings (Actions IPs are bot-walled) and where the keyword
-    # queue lives. The 1x/week cap existed to protect a GSC test dated 2026-06-05,
-    # which passed two months ago; it was leaving 39 real queries unused while the
-    # non-ranking trending engine posted daily. Manual runs still work.
-    # - cron: '0 8 * * 3'
   workflow_dispatch:
 
 permissions:
