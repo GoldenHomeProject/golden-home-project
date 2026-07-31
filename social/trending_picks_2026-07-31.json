@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-07-31",
+  "category": "Bath",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/2026-07-31-trending-bath-best-sellers.html",
+  "picks": [
+    {
+      "asin": "B081YQBPSS",
+      "name": "Titanker Shower Curtain Hooks Rings",
+      "price": "$6.99",
+      "rating": 4.6,
+      "reviews": 62668,
+      "rank": 4
+    },
+    {
+      "asin": "B010S5VXKC",
+      "name": "Amazon Basics Fast Drying Cotton Washcloths for Bathroom",
+      "price": "$16.55",
+      "rating": 4.6,
+      "reviews": 75347,
+      "rank": 21
+    },
+    {
+      "asin": "B00P7VW2H6",
+      "name": "Clorox Toilet Plunger with Hideaway Holder Caddy Heavy-Duty Compact De",
+      "price": "$13.97",
+      "rating": 4.5,
+      "reviews": 18207,
+      "rank": 23
+    },
+    {
+      "asin": "B01N1UX8RW",
+      "name": "RENPHO Smart Scale for Body Weight",
+      "price": "$19.99",
+      "rating": 4.6,
+      "reviews": 337117,
+      "rank": 26
+    },
+    {
+      "asin": "B08WPQ12XX",
+      "name": "AquaCare 8-mode High Pressure Handheld Shower Head with 2-mode Power W",
+      "price": "$29.94",
+      "rating": 4.6,
+      "reviews": 49943,
+      "rank": 34
+    },
+    {
+      "asin": "B0C1DWC251",
+      "name": "Swiffer PowerMop Mopping Kit for Floor Cleaning",
+      "price": "$26.94",
+      "rating": 4.5,
+      "reviews": 45699,
+      "rank": 24
+    }
+  ]
+}
