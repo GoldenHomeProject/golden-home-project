@@ -555,8 +555,9 @@
     "image_path": "social/pinterest/pin-2026-07-27-1612435688.png",
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-07-27-1612435688.png",
     "queued_at": "2026-07-27T10:10:19.196121Z",
-    "posted": false,
-    "source": "pinterest_pipeline"
+    "posted": true,
+    "source": "pinterest_pipeline",
+    "posted_at": "2026-07-31T23:25:33Z"
   },
   {
     "id": "pin-2026-07-27-B0CD1X9B1J",
