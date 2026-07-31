@@ -243,6 +243,39 @@ def slugify(s: str) -> str:
     return s.strip("-")[:70]
 
 
+def _vetted_pool_prompt(opportunity: dict) -> str:
+    """Offer Claude the products we can actually be PAID on, ranked by relevance.
+
+    Every section whose product isn't in the registry ships a "still vetting"
+    placeholder and earns nothing — 3 posts carried those as of 2026-07-30, and the
+    Pi-side resolver can only backfill slowly because Amazon throttles /s?k= hard.
+    Surfacing the payable pool up front means most sections monetize at generation
+    time. It is a preference, not a cage: a genuinely better product may still be
+    named, because recommending a worse item for a commission is how you lose the
+    reader and the ranking.
+    """
+    pool = _load_live_registry()
+    if not pool:
+        return ""
+    want = {w for w in re.findall(r"[a-z]+", str(opportunity).lower()) if len(w) > 3}
+    def rel(e):
+        hay = f"{e.get('product_name','')} {' '.join(e.get('categories') or [])}".lower()
+        return -len({w for w in re.findall(r'[a-z]+', hay) if len(w) > 3} & want)
+    top = sorted(pool, key=rel)[:14]
+    lines = []
+    for e in top:
+        price = e.get("verified_price") or "?"
+        stars = e.get("verified_stars") or "?"
+        revs = e.get("verified_reviews") or "?"
+        lines.append(f"- {e.get('product_name','')[:90]} — {price}, {stars}star, {revs} reviews")
+    return (
+        "PAYABLE PRODUCT POOL (verified live on Amazon; we earn a commission on these).\n"
+        "PREFER these for featured_product whenever one genuinely fits the query — a\n"
+        "section featuring anything else currently earns $0. Use the exact product name\n"
+        "as written so it can be linked automatically:\n" + "\n".join(lines) + "\n"
+    )
+
+
 def generate_post(opportunity: dict) -> dict:
     """Returns structured post object ready to render."""
     target = (opportunity.get("target_keyword") or "").strip()
@@ -263,6 +296,7 @@ That phrase is a real query pulled from Google autocomplete, not a theme.
 
 {json.dumps(opportunity, indent=2)}
 {keyword_rule}
+{_vetted_pool_prompt(opportunity)}
 HONESTY RULE — NON-NEGOTIABLE:
 Nobody at this site physically handled these products. NEVER claim first-hand testing,
 ownership, or personal results. Banned phrasings: "I tested", "I tried", "I bought",

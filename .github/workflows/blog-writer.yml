@@ -13,7 +13,12 @@ on:
   # primary signal. Hard rule (enforced in scripts/blog_writer.py downstream of this trigger):
   # NEVER publish another COVER-cluster post until the 6/5 evaluation.
   schedule:
-    - cron: '0 8 * * 3'
+    # DISABLED 2026-07-30: the SEO writer now runs DAILY on the Pi, where it can
+    # verify Amazon listings (Actions IPs are bot-walled) and where the keyword
+    # queue lives. The 1x/week cap existed to protect a GSC test dated 2026-06-05,
+    # which passed two months ago; it was leaving 39 real queries unused while the
+    # non-ranking trending engine posted daily. Manual runs still work.
+    # - cron: '0 8 * * 3'
   workflow_dispatch:
 
 permissions:
