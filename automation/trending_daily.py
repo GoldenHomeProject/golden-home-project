@@ -6,10 +6,10 @@ covers) → $0 sales. The real demand is whatever is actually topping Amazon's c
 today (cheap drinkware + high-use gadgets). This scrapes Amazon Best Sellers LIVE
 (public pages; the Pi's residential IP is not bot-blocked, unlike GH Actions runners),
 keeps only the proven-demand winners, EXCLUDES anything featured recently so every day
-is genuinely new, and publishes a dated buyer-intent roundup post.
+is genuinely new, and REFRESHES one evergreen per-category page (see EVERGREEN).
 
 Pipeline:  scrape best-sellers -> filter -> de-dupe vs featured history -> pick N
-           -> generate dated roundup HTML + update blog index + write picks JSON
+           -> refresh the category's evergreen page + blog index + picks JSON
            -> record featured history.  (systemd ExecStartPost commits + pushes.)
 
 Run modes:
@@ -46,10 +46,35 @@ CATEGORY_ROTATION = [
     ("Home Storage",     "home",      "https://www.amazon.com/gp/bestsellers/home-garden/3610841/"),
     ("Home Décor",       "home",      "https://www.amazon.com/gp/bestsellers/home-garden/1063278/"),
     ("Home",             "home",      "https://www.amazon.com/gp/bestsellers/home-garden/"),
-    ("Coffee & Tea",     "kitchen",   "https://www.amazon.com/gp/bestsellers/kitchen/13400711/"),
+    # Coffee & Tea REMOVED 2026-07-31: the node yields 0 picks under the $5-35 /
+    # 4.5star / 5k-review filter — coffee gear is either consumable pods and beans
+    # (commodity-blocked, ~$0.20 commission) or machines well over $35. A category
+    # that cannot fill an honest page should not have one.
     ("Bath",             "home",      "https://www.amazon.com/gp/bestsellers/home-garden/1063236/"),
     ("Cleaning",         "home",      "https://www.amazon.com/gp/bestsellers/home-garden/10802561/"),
 ]
+# EVERGREEN consolidation (2026-07-31). Until now this script minted a NEW dated URL
+# every single day — 11 near-identical "Best-Sellers Everyone's Buying Right Now" pages
+# that targeted no search query and split the domain's ranking signal. Search Console
+# showed the result: 108 impressions / 8 clicks in 90 days at average position 36.9,
+# across just 14 queries, 12 of them brand-name lookups. Templated daily URLs are also
+# precisely the pattern Google's scaled-content-abuse policy describes, so the bloat was
+# plausibly suppressing the whole domain.
+#
+# Now each category owns ONE permanent URL that targets a REAL head query (every phrase
+# below was confirmed to appear verbatim in Google autocomplete on 2026-07-31) and gets
+# REFRESHED daily with live best-seller data. One page compounds authority, freshness
+# and internal links instead of thirty pages competing with each other — and the daily
+# refresh still gives Pinterest/social something new to post.
+EVERGREEN = {
+    "Kitchen":      ("best-kitchen-gadgets",               "best kitchen gadgets"),
+    "Home Storage": ("best-storage-bins",                  "best storage bins"),
+    "Home Décor":   ("best-home-decor-finds",              "best home decor finds"),
+    "Home":         ("best-home-organization-products",    "best home organization products"),
+    "Bath":         ("best-bathroom-essentials",           "best bathroom essentials"),
+    "Cleaning":     ("best-cleaning-supplies",             "best cleaning supplies"),
+}
+
 # Node IDs above were READ off Amazon's own Best Sellers nav on 2026-07-25, not guessed.
 # The old "Kitchen Gadget" node (kitchen/2402456011) returned exactly 1 item and was
 # replaced with the verified Home Décor chart.
@@ -63,7 +88,8 @@ MIN_PRICE, MAX_PRICE = 5.0, 35.0
 MIN_RATING = 4.5
 MIN_REVIEWS = 5000
 PICKS_PER_POST = 6
-FRESH_WINDOW_DAYS = 21          # don't re-feature an ASIN within this many days
+FRESH_WINDOW_DAYS = 21          # legacy: only consulted if EVERGREEN_IGNORE_HISTORY is False
+EVERGREEN_IGNORE_HISTORY = True  # see pick_fresh() — evergreen pages must show today's truth
 
 # Commodity/consumable exclusion. Amazon's Cleaning + Grocery charts are dominated by
 # single-use staples (toilet paper, paper plates, trash bags). They top the charts because
@@ -80,7 +106,7 @@ COMMODITY_BLOCK = re.compile(
     r"flushable wipe|wet wipe|prep pad|alcohol pad|cotton round|disposable towel|"
     r"diaper|tampon|pad liner|toothpaste|deodorant|shampoo|conditioner|body wash|"
     r"battery|batteries|k-cup|coffee pod|bottled water|"
-    r"refill pack|value pack of|count pack"
+    r"refill|refills|value pack of|count pack"
     r")e?s?\b",          # e?s? so "paper towels"/"paper plates"/"wipes" match too
     re.I,
 )
@@ -264,7 +290,15 @@ def pick_fresh(qualified: list[dict], history: dict, today: date,
             return (today - date.fromisoformat(d)).days < FRESH_WINDOW_DAYS
         except ValueError:
             return False
-    fresh = [q for q in qualified if not recent(q["asin"])]
+    # The 21-day "don't re-feature" rule existed for the old model, where every day
+    # minted a NEW url and repeating a product made the new page look recycled. An
+    # evergreen page is the opposite: "best cleaning supplies" must list what is
+    # genuinely selling best TODAY, and the true answer often is the same product as
+    # last week. Enforcing novelty here starved whole categories — Cleaning and
+    # Coffee & Tea returned 0 eligible picks because their charts had been consumed.
+    # History is still recorded; it just no longer vetoes a pick.
+    fresh = list(qualified) if EVERGREEN_IGNORE_HISTORY else [
+        q for q in qualified if not recent(q["asin"])]
     # Category coherence: we scrape a neighbour node too, purely for pool depth, but the
     # headline names ONE category. Exhaust the primary node before borrowing, or the post
     # ends up like 2026-07-25 -- a "Cleaning" roundup listing tumblers and makeup wipes.
@@ -330,11 +364,14 @@ def build_post(picks: list[dict], today: date, cat_label: str) -> tuple[str, str
     ymd = today.isoformat()
     subtag = f"blog-trending-{today.strftime('%Y%m%d')}"
     n = len(picks)
-    title = f"{n} {cat_label} Best-Sellers Everyone's Buying Right Now (Under ${int(MAX_PRICE)})"
-    slug = f"{ymd}-trending-{_slugify(cat_label)}-best-sellers"
+    slug, target_query = EVERGREEN.get(
+        cat_label, (f"best-{_slugify(cat_label)}-finds", f"best {cat_label.lower()} finds"))
     url = f"https://goldenhomeproject.com/blog/posts/{slug}.html"
-    desc = (f"The {cat_label.lower()} products actually topping Amazon's charts this week — "
-            f"proven-demand picks under ${int(MAX_PRICE)}, each with thousands of reviews.")
+    headline = target_query.title().replace(" And ", " and ")
+    title = (f"{headline}: {n} Picks Under ${int(MAX_PRICE)} "
+             f"(Updated {today.strftime('%B %Y')})")
+    desc = (f"The {target_query} on Amazon right now — {n} picks under ${int(MAX_PRICE)}, "
+            f"each with thousands of reviews. Updated {today.strftime('%B %-d, %Y')}.")
 
     def afurl(a):
         return f"https://www.amazon.com/dp/{a}?tag={AFFIL_TAG}&ascsubtag={subtag}"
@@ -359,8 +396,18 @@ def build_post(picks: list[dict], today: date, cat_label: str) -> tuple[str, str
     </div>'''
         for i, p in enumerate(picks))
 
+    # Evergreen pages keep their ORIGINAL publish date and only move dateModified.
+    # Re-stamping datePublished every refresh would claim the page is new each day,
+    # which is both untrue and a pattern search engines discount.
+    first_published = ymd
+    existing = BLOG_POSTS / f"{slug}.html"
+    if existing.exists():
+        m = re.search(r'"datePublished":\s*"(\d{4}-\d{2}-\d{2})"', existing.read_text())
+        if m:
+            first_published = m.group(1)
+
     schema_article = json.dumps({"@context": "https://schema.org", "@type": "Article",
-        "headline": title, "datePublished": ymd, "dateModified": ymd,
+        "headline": title, "datePublished": first_published, "dateModified": ymd,
         "author": {"@type": "Organization", "name": "Golden Home Project"},
         "publisher": {"@type": "Organization", "name": "Golden Home Project LLC"},
         "mainEntityOfPage": url, "description": desc})
@@ -476,12 +523,19 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--from-json", help="generate from an existing picks JSON (skip scrape)")
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--category", help="override the day-of-year rotation "
+                    "(used to build every evergreen page in one sitting instead of "
+                    "waiting a week for the rotation to come around)")
     ap.add_argument("--date", help="override date YYYY-MM-DD (test)")
     args = ap.parse_args()
 
     today = date.fromisoformat(args.date) if args.date else datetime.now(timezone.utc).date()
     # rotate category by day-of-year so the theme cycles through the week
     cat_label, _, _ = CATEGORY_ROTATION[today.toordinal() % len(CATEGORY_ROTATION)]
+    if getattr(args, "category", None):
+        for c in CATEGORY_ROTATION:
+            if c[0].lower() == args.category.lower():
+                cat_label = c[0]
 
     if args.from_json:
         data = json.loads(Path(args.from_json).read_text())
@@ -493,6 +547,14 @@ def main() -> int:
     else:
         # scrape today's category + a couple of neighbors for a deeper pool
         idx = today.toordinal() % len(CATEGORY_ROTATION)
+        if args.category:
+            match = [i for i, c in enumerate(CATEGORY_ROTATION)
+                     if c[0].lower() == args.category.lower()]
+            if not match:
+                print(f"[trending] unknown category {args.category!r}; "
+                      f"choose from: {', '.join(c[0] for c in CATEGORY_ROTATION)}")
+                return 1
+            idx = match[0]
         nodes = [CATEGORY_ROTATION[idx], CATEGORY_ROTATION[(idx + 1) % len(CATEGORY_ROTATION)]]
         raw = scrape_bestsellers(nodes)
         print(f"[trending] scraped {len(raw)} raw items")
@@ -501,10 +563,17 @@ def main() -> int:
               f"{MIN_RATING}star / {MIN_REVIEWS}+reviews filter")
         history = load_history()
         picks = pick_fresh(qualified, history, today, primary_label=cat_label)
-        # Headline follows the MAJORITY category of what we actually picked, not pick #1.
-        labels = [p.get("cat_label") for p in picks if p.get("cat_label")]
-        if labels:
-            cat_label = max(set(labels), key=labels.count)
+        # The label is PINNED to the primary category. It used to follow the majority
+        # of picks, which was harmless when the label only shaped a headline — but the
+        # label now selects the evergreen FILENAME, so a "Cleaning" run whose picks
+        # skewed to the neighbour node overwrote best-kitchen-gadgets.html and left the
+        # cleaning page stale forever. Borrowed picks are fine; a borrowed identity is not.
+        primary = [p for p in picks if p.get("cat_label") == cat_label]
+        if len(primary) < 3:
+            print(f"[trending] only {len(primary)} of {len(picks)} picks are genuinely "
+                  f"{cat_label} — refusing to publish a mislabelled page. "
+                  f"Widen the filter or check the {cat_label} node.")
+            return 0
 
     if len(picks) < 3:
         print(f"[trending] only {len(picks)} qualifying picks — not enough for a post. Aborting cleanly.")
