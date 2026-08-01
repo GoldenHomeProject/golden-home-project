@@ -2017,3 +2017,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** automation/scripts/reel-2026-08-01-*.json, social/post_queue.json
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: confrontation: Stop blaming your mattress for your neck pain. | micro_insight: The reason your cabinets stay messy is that nothin | wrong_until_right: My kitchen had been a low-grade mess for longer th
+
+## 2026-08-01T09:01:02Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B09CSS6YL4 (LED Motion Sensor Night Light Plug-In (2)
+**Changed:** social/carousels/2026-08-01-B09CSS6YL4/slide-1.png, social/carousels/2026-08-01-B09CSS6YL4/slide-2.png, social/carousels/2026-08-01-B09CSS6YL4/slide-3.png, social/carousels/2026-08-01-B09CSS6YL4/slide-4.png, social/carousels/2026-08-01-B09CSS6YL4/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B09CSS6YL4 carousel.
