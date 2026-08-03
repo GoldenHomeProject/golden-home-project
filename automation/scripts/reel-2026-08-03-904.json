@@ -1,0 +1,60 @@
+{
+  "created_at": "2026-08-03T12:15:37.675749Z",
+  "date": "2026-08-03",
+  "seq": 904,
+  "source": "repurpose",
+  "hook": "$13.99 for 6 organizers beats a $180 closet system",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Shot of a cramped dorm room closet, barely wider than a doorway, shoes stacked on the floor",
+      "on_screen_text": "dorm closet budget: $0",
+      "voiceover": "If your closet is a dorm room or a first apartment, you're not spending $180 on shoe storage."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Unboxing the Closet Organizers Pack of 6, laying out the six separate pieces",
+      "on_screen_text": "Pack of 6 Organizers \u2014 $13.99",
+      "voiceover": "This pack is $13.99 for six separate organizers, not one rack \u2014 so you use one or two for shoes and the rest for whatever else."
+    },
+    {
+      "n": 3,
+      "duration_sec": 3,
+      "visual_prompt": "Hand assembling one piece and placing shoes into it inside the small closet",
+      "on_screen_text": "8,851 reviews \u2014 biggest sample here",
+      "voiceover": "It's got the largest review base of any pick I found, 8,851 reviews, from actual dorm and apartment setups."
+    },
+    {
+      "n": 4,
+      "duration_sec": 3,
+      "visual_prompt": "Text overlay: '4.0 stars \u2014 not built for a decade'",
+      "on_screen_text": "built for a school year, not a decade",
+      "voiceover": "The tradeoff is durability \u2014 reviewers say it holds up for a school year or a lease, not forever."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Wide shot of the finished closet, shoes off the floor, organizers filling remaining gaps with bins",
+      "on_screen_text": "shoes off the floor, $13.99",
+      "voiceover": "For a temporary living situation, that's the honest tradeoff for the price."
+    },
+    {
+      "n": 6,
+      "duration_sec": 2,
+      "visual_prompt": "Final comparison card showing this pick next to the $89.99 and $179.99 options",
+      "on_screen_text": "4 more picks \u2014 link in bio",
+      "voiceover": "Full comparison of all five picks by closet size is on the blog."
+    }
+  ],
+  "caption": "You don't need a $180 closet system for a dorm room. This $13.99 pack of 6 organizers has 8,851 reviews behind it. Full breakdown of all 5 picks by closet size on the blog, link in bio.",
+  "hashtags": [
+    "#dormroomideas",
+    "#dormroom",
+    "#apartmentliving",
+    "#collegedorm",
+    "#budgetorganization",
+    "#closethacks"
+  ]
+}

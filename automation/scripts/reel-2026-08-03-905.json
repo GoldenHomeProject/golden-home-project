@@ -1,0 +1,60 @@
+{
+  "created_at": "2026-08-03T12:15:37.675941Z",
+  "date": "2026-08-03",
+  "seq": 905,
+  "source": "repurpose",
+  "hook": "The $39.99 fix that's not even a shoe rack",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Shot of a stuffed closet rod, thick plastic hangers crammed together with barely any hanging clothes",
+      "on_screen_text": "the space isn't gone, it's wasted",
+      "voiceover": "Before you buy a shoe rack, check whether your closet actually lacks room, or the hangers are just wasting it."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Side-by-side swap: bulky plastic hangers being removed, slim velvet hangers going in",
+      "on_screen_text": "Amazon Basics Slim Velvet Hangers \u2014 $39.99",
+      "voiceover": "The Amazon Basics slim velvet hangers are $39.99 for a set, and they're the highest-reviewed product in this whole comparison."
+    },
+    {
+      "n": 3,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of the same rod now with double the clothes fitting in the same width",
+      "on_screen_text": "4.8 stars, 231,174 reviews",
+      "voiceover": "231,174 reviews, 4.8 stars \u2014 reviewers consistently say they double the garments that fit on the same rod."
+    },
+    {
+      "n": 4,
+      "duration_sec": 3,
+      "visual_prompt": "Wide shot revealing several inches of freed-up closet floor space now that the rod is compact",
+      "on_screen_text": "frees up inches of floor space",
+      "voiceover": "That frees up several inches of usable width, which in a small closet is the difference between a shoe rack fitting or not."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "A small shoe rack now sliding easily into the newly freed closet floor space",
+      "on_screen_text": "the 5-minute fix before you buy a rack",
+      "voiceover": "It's not a replacement for a shoe rack \u2014 it's the five-minute fix that makes room for one."
+    },
+    {
+      "n": 6,
+      "duration_sec": 2,
+      "visual_prompt": "Final text card listing all 5 picks with prices $14 to $180",
+      "on_screen_text": "all 5 picks, $14\u2013$180 \u2014 link in bio",
+      "voiceover": "Full comparison of every pick is on the blog."
+    }
+  ],
+  "caption": "The most-reviewed product in my shoe rack comparison isn't a shoe rack at all \u2014 it's $39.99 in hangers. Do this before you buy anything else. Full 5-pick breakdown on the blog, link in bio.",
+  "hashtags": [
+    "#closethacks",
+    "#closetorganization",
+    "#smallclosetideas",
+    "#organizedhome",
+    "#amazonfinds",
+    "#homeorganizing"
+  ]
+}

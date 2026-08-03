@@ -1,0 +1,60 @@
+{
+  "created_at": "2026-08-03T12:15:37.675433Z",
+  "date": "2026-08-03",
+  "seq": 902,
+  "source": "repurpose",
+  "hook": "$34.97 fix for closets with zero floor space",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Shot of a narrow reach-in coat closet, door barely clearing a floor-standing shoe rack",
+      "on_screen_text": "when there's no floor space left",
+      "voiceover": "Not every closet has room for a freestanding rack \u2014 sometimes there's just no floor to spare."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of the Simple Houseware 2-tier sliding basket organizer mounted on a shelf, chrome rails visible",
+      "on_screen_text": "Simple Houseware Sliding Basket \u2014 $34.97",
+      "voiceover": "This one's $34.97 and it's actually built as an under-sink organizer, but the sliding rail mechanism works exactly the same for shoes."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Hand sliding the basket forward on rails to grab a pair of shoes without squatting",
+      "on_screen_text": "slides out, no squatting",
+      "voiceover": "It slides forward on rails instead of eating floor space, so you're not rummaging through a pile on the ground."
+    },
+    {
+      "n": 4,
+      "duration_sec": 3,
+      "visual_prompt": "Wide shot showing the two-tier stacked design fitting into a narrow closet gap",
+      "on_screen_text": "vertical, not floor-hungry",
+      "voiceover": "Two tiers stacked vertically means it uses height, not floor footprint \u2014 which is the thing narrow closets are actually short on."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Text overlay comparing this against a $89.99 freestanding bench",
+      "on_screen_text": "priced like an accessory, not furniture",
+      "voiceover": "At $34.97 it's priced like one piece of a closet system, not the whole solution."
+    },
+    {
+      "n": 6,
+      "duration_sec": 2,
+      "visual_prompt": "Final closet shot, door closing easily now that the floor is clear",
+      "on_screen_text": "full 5-pick guide on the blog",
+      "voiceover": "It's one of five picks I compared by closet size \u2014 link's in bio."
+    }
+  ],
+  "caption": "If your closet door won't clear a floor rack, don't force one in. This $34.97 sliding basket mounts up instead of out. Full 5-pick comparison by closet type on the blog, link in bio.",
+  "hashtags": [
+    "#smallclosetideas",
+    "#closethacks",
+    "#shoestorage",
+    "#dormroomideas",
+    "#apartmenttherapy",
+    "#closetorganization"
+  ]
+}

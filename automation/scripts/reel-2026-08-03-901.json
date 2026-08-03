@@ -1,0 +1,68 @@
+{
+  "created_at": "2026-08-03T12:15:37.675181Z",
+  "date": "2026-08-03",
+  "seq": 901,
+  "source": "repurpose",
+  "hook": "This $89.99 rack hides 12 pairs behind doors",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Handheld shot of a closet floor buried in mismatched sneakers and boots, one shoe clearly missing its pair",
+      "on_screen_text": "my closet floor rn",
+      "voiceover": "I went looking for a shoe rack because my closet floor looked like this."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Cut to a cheap open wire shoe rack, tipping slightly when a hand pulls a shoe from it",
+      "on_screen_text": "wire racks tip + show everything",
+      "voiceover": "Wire racks either tip over or just put the mess on display."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Reveal shot of the VASAGLE 3-tier shoe storage bench with doors closed, cushioned top visible",
+      "on_screen_text": "VASAGLE Shoe Storage Bench \u2014 $89.99",
+      "voiceover": "This one's $89.99, and the doors close over the shelves so you don't see a single scuffed sneaker."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Close-up opening the doors to show three tiers loaded with 10 pairs of shoes neatly arranged",
+      "on_screen_text": "8-12 pairs fit inside",
+      "voiceover": "Reviewers say it fits 8 to 12 pairs depending on shoe size, way more than the footprint suggests."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Someone sitting on the cushioned top tying their shoes",
+      "on_screen_text": "4.5 stars, 1,972 reviews",
+      "voiceover": "Plus the cushioned top doubles as a seat, which a wire rack just can't do."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Text card comparing this rack against a bare wire rack side by side",
+      "on_screen_text": "works in reach-in OR walk-in closets",
+      "voiceover": "It's the safest default pick because it works in almost any closet size."
+    },
+    {
+      "n": 7,
+      "duration_sec": 2,
+      "visual_prompt": "Final shot of the closet fully organized, door swinging open to reveal it",
+      "on_screen_text": "link in bio \u2014 full breakdown",
+      "voiceover": "Full comparison with 4 other picks from $14 is linked below."
+    }
+  ],
+  "caption": "I compared 5 shoe racks by closet type instead of just picking the highest star rating. This $89.99 one won for most closets \u2014 full breakdown with prices and review counts is on the blog, link in bio.",
+  "hashtags": [
+    "#closetorganization",
+    "#shoestorage",
+    "#smallclosetideas",
+    "#organizedhome",
+    "#closetgoals",
+    "#homeorganizing",
+    "#amazonfinds"
+  ]
+}

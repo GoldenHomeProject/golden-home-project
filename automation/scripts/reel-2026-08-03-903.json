@@ -1,0 +1,60 @@
+{
+  "created_at": "2026-08-03T12:15:37.675592Z",
+  "date": "2026-08-03",
+  "seq": 903,
+  "source": "repurpose",
+  "hook": "$179.99 got my walk-in closet finally organized",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Wide shot of an empty-feeling walk-in closet with just a rod and a pile of shoes in the corner",
+      "on_screen_text": "walk-in closet, zero system",
+      "voiceover": "A walk-in closet has the space, but without a system, shoes just end up piled in a corner."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Reveal of the 5FT Small Closet System with wooden drawers installed against the wall",
+      "on_screen_text": "5FT Closet System w/ Drawers \u2014 $179.99",
+      "voiceover": "This is a 60-inch system with actual wooden drawers instead of wire shelving, and it's $179.99."
+    },
+    {
+      "n": 3,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of a drawer sliding open filled with boots, another drawer with off-season sneakers",
+      "on_screen_text": "wood > wire for boots",
+      "voiceover": "Reviewers say the wood holds up better under boot weight than the wire kits that sag over time."
+    },
+    {
+      "n": 4,
+      "duration_sec": 3,
+      "visual_prompt": "Hand closing a drawer, dust-free interior visible before closing",
+      "on_screen_text": "4.4 stars, 124 reviews",
+      "voiceover": "The drawers also keep shoes dust-free and out of sight, which matters if the closet's visible from the bedroom."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Wide shot of the full system with extra drawers still empty, labeled for future use",
+      "on_screen_text": "room to grow",
+      "voiceover": "It's the most expensive pick on my list, but it's a full system, not just a rack \u2014 there's room to grow into it."
+    },
+    {
+      "n": 6,
+      "duration_sec": 2,
+      "visual_prompt": "Final shot of the finished walk-in closet, everything visible and organized",
+      "on_screen_text": "4 more picks from $14 \u2014 link in bio",
+      "voiceover": "If shoes are one part of a bigger closet project, this is the one built for that scale."
+    }
+  ],
+  "caption": "$179.99 is the most expensive pick in my closet storage roundup, and I still think it's the honest answer for a real walk-in closet. Full comparison of all 5 picks (from $14) on the blog, link in bio.",
+  "hashtags": [
+    "#walkinclosetdesign",
+    "#closetorganization",
+    "#closetsystem",
+    "#organizedhome",
+    "#homeorganizing",
+    "#closetgoals"
+  ]
+}

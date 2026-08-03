@@ -4553,5 +4553,91 @@
     "keyword": "NIGHTLIGHT",
     "queued_at": "2026-08-03T10:32:57.994959Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_repurpose_2026-08-03_901",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-03-901.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "I compared 5 shoe racks by closet type instead of just picking the highest star rating. This $89.99 one won for most closets \u2014 full breakdown with prices and review counts is on the blog, link in bio.",
+    "hashtags": [
+      "#closetorganization",
+      "#shoestorage",
+      "#smallclosetideas",
+      "#organizedhome",
+      "#closetgoals",
+      "#homeorganizing",
+      "#amazonfinds"
+    ],
+    "hook": "This $89.99 rack hides 12 pairs behind doors"
+  },
+  {
+    "name": "reel_repurpose_2026-08-03_902",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-03-902.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "If your closet door won't clear a floor rack, don't force one in. This $34.97 sliding basket mounts up instead of out. Full 5-pick comparison by closet type on the blog, link in bio.",
+    "hashtags": [
+      "#smallclosetideas",
+      "#closethacks",
+      "#shoestorage",
+      "#dormroomideas",
+      "#apartmenttherapy",
+      "#closetorganization"
+    ],
+    "hook": "$34.97 fix for closets with zero floor space"
+  },
+  {
+    "name": "reel_repurpose_2026-08-03_903",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-03-903.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "$179.99 is the most expensive pick in my closet storage roundup, and I still think it's the honest answer for a real walk-in closet. Full comparison of all 5 picks (from $14) on the blog, link in bio.",
+    "hashtags": [
+      "#walkinclosetdesign",
+      "#closetorganization",
+      "#closetsystem",
+      "#organizedhome",
+      "#homeorganizing",
+      "#closetgoals"
+    ],
+    "hook": "$179.99 got my walk-in closet finally organized"
+  },
+  {
+    "name": "reel_repurpose_2026-08-03_904",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-03-904.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "You don't need a $180 closet system for a dorm room. This $13.99 pack of 6 organizers has 8,851 reviews behind it. Full breakdown of all 5 picks by closet size on the blog, link in bio.",
+    "hashtags": [
+      "#dormroomideas",
+      "#dormroom",
+      "#apartmentliving",
+      "#collegedorm",
+      "#budgetorganization",
+      "#closethacks"
+    ],
+    "hook": "$13.99 for 6 organizers beats a $180 closet system"
+  },
+  {
+    "name": "reel_repurpose_2026-08-03_905",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-03-905.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "The most-reviewed product in my shoe rack comparison isn't a shoe rack at all \u2014 it's $39.99 in hangers. Do this before you buy anything else. Full 5-pick breakdown on the blog, link in bio.",
+    "hashtags": [
+      "#closethacks",
+      "#closetorganization",
+      "#smallclosetideas",
+      "#organizedhome",
+      "#amazonfinds",
+      "#homeorganizing"
+    ],
+    "hook": "The $39.99 fix that's not even a shoe rack"
   }
 ]
