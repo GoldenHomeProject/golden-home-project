@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-08-03",
+  "category": "Home Storage",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-storage-bins.html",
+  "picks": [
+    {
+      "asin": "B085DTZQNZ",
+      "name": "Owala FreeSip Stainless Steel Water Bottle 24 oz Very",
+      "price": "$29.97",
+      "rating": 4.7,
+      "reviews": 132040,
+      "rank": 1
+    },
+    {
+      "asin": "B00FXNABPI",
+      "name": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers f",
+      "price": "$16.19",
+      "rating": 4.8,
+      "reviews": 234978,
+      "rank": 2
+    },
+    {
+      "asin": "B0DGF616XN",
+      "name": "6 Pack Extra Heavy Duty Large Moving Bags with Strong Zipper",
+      "price": "$26.99",
+      "rating": 4.8,
+      "reviews": 11424,
+      "rank": 3
+    },
+    {
+      "asin": "B0CP9YB3Q4",
+      "name": "STANLEY Quencher H2.0 Tumbler with Handle and Straw 30 oz",
+      "price": "$32.98",
+      "rating": 4.7,
+      "reviews": 203331,
+      "rank": 4
+    },
+    {
+      "asin": "B08KXKVT4K",
+      "name": "Vtopmart 25 PCS Clear Plastic Drawer Organizers Set",
+      "price": "$17.98",
+      "rating": 4.7,
+      "reviews": 49036,
+      "rank": 8
+    },
+    {
+      "asin": "B07712H557",
+      "name": "Command Variety Pack",
+      "price": "$14.84",
+      "rating": 4.7,
+      "reviews": 11579,
+      "rank": 10
+    }
+  ]
+}
