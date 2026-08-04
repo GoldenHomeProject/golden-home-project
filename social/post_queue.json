@@ -4617,10 +4617,10 @@
   },
   {
     "name": "reel_2026-08-04_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-08-04-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-04-001.mp4",
     "caption": "I avoided opening this cabinet for two whole years.\n\nEvery time I opened it I had to do a Tetris move just to grab dish soap. The wasted vertical space mocked me. There was room for two of everything if I could just get to it.\n\nThe Simple Houseware 2-tier sliding basket fixed it in 4 minutes \u2014 no tools, no drilling, just sets on the cabinet floor. Each tier slides independently.\n\nDoubled my usable storage without buying a single new container. The cabinet went from chaos to a system in one afternoon.\n\nComment LINK and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #kitchenorganization #smallspacesolutions #undersinkstorage",
     "hashtags": [
       "#amazonhomefinds",
@@ -4638,14 +4638,15 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "I avoided opening this cabinet for two whole years."
+    "hook": "I avoided opening this cabinet for two whole years.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-04-001.mp4"
   },
   {
     "name": "reel_2026-08-04_002",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-08-04-002.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-04-002.mp4",
     "caption": "Stop blaming your mattress for your neck pain.\n\nBought a fancy mattress. Bought a foam topper. Saw the chiro. The pain came back every time. The variable nobody changes is the pillow \u2014 same shape we've used for 70 years.\n\nA modern side sleeper pillow with a shoulder cutout actually addresses the geometry problem. Eli & Elm \u2014 adjustable latex-fiber fill, cooling cover, U-shape designed for the 74% of people who sleep on their side.\n\nFirst week and the morning stiffness is just gone. Cost a fraction of a new mattress and fixed what the mattress couldn't.\n\nComment PILLOW and I'll reply with the link.\nAffiliate link \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #sleepbetter #sidesleeper #bedroomupgrade",
     "hashtags": [
       "#amazonhomefinds",
@@ -4663,14 +4664,15 @@
       "affiliate_network": "impact_direct",
       "affiliate_url": "https://eliandelm.sjv.io/E092ZX"
     },
-    "hook": "Stop blaming your mattress for your neck pain."
+    "hook": "Stop blaming your mattress for your neck pain.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-04-002.mp4"
   },
   {
     "name": "reel_2026-08-04_003",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-08-04-003.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-04-003.mp4",
     "caption": "My home had been a low-grade mess for longer than I want to admit.\n\nI kept meaning to deal with it and kept not dealing with it. Things piled up, I could never find what I needed, and every time I opened it I just shut it again.\n\nThen I found a boho throw sitting at 4.6 stars across 3,203 reviews, and it finally gave everything a place.\n\nIt runs about $16.98 and it's the first thing in a while that just worked. The home actually stays sorted now.\n\nComment THROW and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -4687,7 +4689,8 @@
       "affiliate_network": "amazon",
       "affiliate_url": "https://www.amazon.com/dp/B0CVVVNB9L?tag=goldenhomep06-20"
     },
-    "hook": "My home had been a low-grade mess for longer than I want to admit."
+    "hook": "My home had been a low-grade mess for longer than I want to admit.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-04-003.mp4"
   },
   {
     "id": "carousel-2026-08-04-B09CSS6YL4",
