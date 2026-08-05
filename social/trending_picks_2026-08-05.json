@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-08-05",
+  "category": "Home",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-home-organization-products.html",
+  "picks": [
+    {
+      "asin": "B085DTZQNZ",
+      "name": "Owala FreeSip Stainless Steel Water Bottle 24 oz Very",
+      "price": "$29.97",
+      "rating": 4.7,
+      "reviews": 132192,
+      "rank": 1
+    },
+    {
+      "asin": "B01M16WBW1",
+      "name": "Queen Size 4 Piece Sheet Set",
+      "price": "$24.99",
+      "rating": 4.5,
+      "reviews": 450137,
+      "rank": 3
+    },
+    {
+      "asin": "B00E4GACB8",
+      "name": "Terro",
+      "price": "$9.58",
+      "rating": 4.6,
+      "reviews": 160388,
+      "rank": 4
+    },
+    {
+      "asin": "B00FXNAAW2",
+      "name": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers",
+      "price": "$20.99",
+      "rating": 4.8,
+      "reviews": 235029,
+      "rank": 6
+    },
+    {
+      "asin": "B0BQR2BQYZ",
+      "name": "upsimples 11x14 Picture Frame",
+      "price": "$6.99",
+      "rating": 4.5,
+      "reviews": 41774,
+      "rank": 7
+    },
+    {
+      "asin": "B08QRFZ6TH",
+      "name": "Barossa Design Premium Shower Curtain Liner Standard Size",
+      "price": "$8.95",
+      "rating": 4.5,
+      "reviews": 99056,
+      "rank": 9
+    }
+  ]
+}
