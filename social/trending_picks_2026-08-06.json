@@ -1,56 +1,56 @@
 {
   "captured_at": "2026-08-06",
-  "category": "Bath",
+  "category": "Cleaning",
   "source": "Amazon Best Sellers (live Pi scrape)",
-  "post": "blog/posts/best-bathroom-essentials.html",
+  "post": "blog/posts/best-cleaning-supplies.html",
   "picks": [
     {
-      "asin": "B08QRFZ6TH",
-      "name": "Barossa Design Premium Shower Curtain Liner Standard Size",
-      "price": "$8.95",
+      "asin": "B00W5D1MDE",
+      "name": "Clorox Toilet Bowl Cleaner Clinging Bleach Gel",
+      "price": "$5.24",
+      "rating": 4.8,
+      "reviews": 44330,
+      "rank": 9
+    },
+    {
+      "asin": "B000ST1DZO",
+      "name": "Drano Max Gel Drain Clog Remover & Cleaner",
+      "price": "$5.17",
       "rating": 4.5,
-      "reviews": 99100,
-      "rank": 1
+      "reviews": 75945,
+      "rank": 19
     },
     {
-      "asin": "B09SZ9T4MV",
-      "name": "EUDELE Mesh Shower Caddy Portable for College Dorm Room Essentials",
-      "price": "$8.99",
+      "asin": "B00SXC85IQ",
+      "name": "Affresh Dishwasher Cleaner",
+      "price": "$8.98",
       "rating": 4.6,
-      "reviews": 7660,
-      "rank": 11
+      "reviews": 80329,
+      "rank": 23
     },
     {
-      "asin": "B01HI1W1V4",
-      "name": "Etekcity Digital Body Weight Bathroom Scale",
-      "price": "$19.88",
+      "asin": "B098D79MQB",
+      "name": "HOMEXCEL 12PK Microfiber Cleaning Cloth",
+      "price": "$6.98",
+      "rating": 4.5,
+      "reviews": 49600,
+      "rank": 35
+    },
+    {
+      "asin": "B08492PZ8Y",
+      "name": "Febreze Plug-In Air Freshener",
+      "price": "$12.94",
       "rating": 4.7,
-      "reviews": 349120,
-      "rank": 14
+      "reviews": 97210,
+      "rank": 37
     },
     {
-      "asin": "B010S5VXKC",
-      "name": "Amazon Basics Fast Drying Cotton Washcloths for Bathroom",
-      "price": "$16.55",
-      "rating": 4.6,
-      "reviews": 75432,
-      "rank": 18
-    },
-    {
-      "asin": "B00R55CIRQ",
-      "name": "Clorox Corner Toilet Bowl Brush with Under Rim Scrubber",
-      "price": "$8.99",
-      "rating": 4.6,
-      "reviews": 5612,
-      "rank": 20
-    },
-    {
-      "asin": "B08WPQ12XX",
-      "name": "AquaCare 8-mode High Pressure Handheld Shower Head with 2-mode Power W",
-      "price": "$29.94",
-      "rating": 4.5,
-      "reviews": 49996,
-      "rank": 33
+      "asin": "B085DTZQNZ",
+      "name": "Owala FreeSip Stainless Steel Water Bottle 24 oz Very",
+      "price": "$29.97",
+      "rating": 4.7,
+      "reviews": 132406,
+      "rank": 1
     }
   ]
 }
