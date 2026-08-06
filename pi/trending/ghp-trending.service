@@ -20,9 +20,15 @@ WorkingDirectory=%h/golden-home-project
 ExecStartPre=-/usr/bin/git -C %h/golden-home-project -c rebase.autoStash=true pull --quiet --rebase origin main
 # xvfb-run gives Playwright a display even with no desktop session logged in.
 ExecStart=/usr/bin/xvfb-run -a %h/.ghp-trending/venv/bin/python automation/trending_daily.py
-# Commit + push only the trending artifacts, if anything changed. Retry to absorb
+# Commit + push only the trending artifacts, if anything changed.
+# The blog/posts/best-*.html glob is REQUIRED since the 2026-07-31 evergreen
+# consolidation renamed the output from dated *trending*best-sellers.html to stable
+# per-category pages. Without it the daily refresh staged nothing, and the 06:30
+# daily-loop / 10:13 daily-strategy `git reset --hard origin/main` then discarded the
+# rewritten pages — the six hubs silently sat at their 07-31 content for six days
+# while every run reported success. Retry to absorb
 # the engagement/IG bots' frequent commits to main (same autoStash reason as above).
-ExecStartPost=/bin/bash -c 'shopt -s nullglob; cd %h/golden-home-project && git add -- blog/posts/*trending*best-sellers.html blog/index.html social/trending_picks_*.json social/trending_featured_history.json 2>/dev/null || true; if ! git diff --staged --quiet; then git -c user.name="GHP Trending Bot" -c user.email="goldenhomeprojectllc@gmail.com" commit -m "trending: daily best-seller roundup $(date -u +%%Y-%%m-%%d)" --quiet && for i in 1 2 3 4 5; do git -c rebase.autoStash=true pull --rebase --quiet origin main && git push --quiet origin main && echo "[push] ok" && exit 0; sleep 5; done; echo "[push] FAILED after 5 tries - commit is local only"; exit 1; fi'
+ExecStartPost=/bin/bash -c 'shopt -s nullglob; cd %h/golden-home-project && git add -- blog/posts/best-*.html blog/posts/*trending*best-sellers.html blog/index.html social/trending_picks_*.json social/trending_featured_history.json 2>/dev/null || true; if ! git diff --staged --quiet; then git -c user.name="GHP Trending Bot" -c user.email="goldenhomeprojectllc@gmail.com" commit -m "trending: daily best-seller roundup $(date -u +%%Y-%%m-%%d)" --quiet && for i in 1 2 3 4 5; do git -c rebase.autoStash=true pull --rebase --quiet origin main && git push --quiet origin main && echo "[push] ok" && exit 0; sleep 5; done; echo "[push] FAILED after 5 tries - commit is local only"; exit 1; fi'
 StandardOutput=append:%h/.ghp-trending/runs/last.log
 StandardError=append:%h/.ghp-trending/runs/last.log
 TimeoutStartSec=900
