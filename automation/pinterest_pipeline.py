@@ -155,9 +155,48 @@ def load_json(p: Path, default):
     return default
 
 
+def trending_entries(days: int = 21) -> list[dict]:
+    """Products from the daily trending scrape, shaped like registry entries.
+
+    Pinterest went silent 2026-08-03..08-07 because the vetted registry is a FIXED pool:
+    once every ASIN in it has been pinned, `already_queued` skips them all and the
+    generator emits 0 new pins forever. The queue read "46 total, 0 unposted" while the
+    poster logged "queue empty" every day.
+
+    social/trending_picks_<date>.json is refreshed daily by trending_daily.py with
+    products scraped off Amazon's live best-seller charts and price/rating verified at
+    scrape time, so it is a renewing supply of pinnable, genuinely-selling products.
+    Marked status="live" because that verification is what the gate exists to prove.
+    """
+    out = []
+    for path in sorted(SOCIAL.glob("trending_picks_*.json"), reverse=True)[:days]:
+        try:
+            data = json.loads(path.read_text())
+        except (json.JSONDecodeError, OSError):
+            continue
+        picks = data if isinstance(data, list) else data.get("picks", [])
+        for pk in picks:
+            asin = (pk.get("asin") or "").strip()
+            if not asin:
+                continue
+            out.append({
+                "asin": asin,
+                "product_name": pk.get("title") or pk.get("name") or "",
+                "categories": [c for c in [pk.get("cat_group"), pk.get("cat_label")] if c],
+                "status": "live",
+                "verified_price": pk.get("price"),
+                "verified_stars": str(pk.get("rating") or ""),
+                "verified_reviews": pk.get("reviews"),
+                "source": "trending",
+            })
+    return out
+
+
 def registry_entries(reg: dict) -> list[dict]:
     seen, out = set(), []
-    for e in list(reg.get("entries", [])) + list(reg.get("vetted", [])):
+    # Registry first (DM-funnel entries convert best), then the renewing trending pool.
+    for e in (list(reg.get("entries", [])) + list(reg.get("vetted", []))
+              + trending_entries()):
         a = (e.get("asin") or "").strip()
         if a and a not in seen:
             seen.add(a)
