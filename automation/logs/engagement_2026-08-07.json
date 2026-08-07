@@ -3,8 +3,8 @@
   "agent": "engagement-monitor",
   "metrics": {
     "subscribers": 6670,
-    "total_views": 21085,
-    "total_videos": 177
+    "total_views": 21079,
+    "total_videos": 178
   },
   "top_videos": [
     {
@@ -16,12 +16,6 @@
     {
       "title": "My home had been a low-grade mess for longer than I want to ",
       "views": 48,
-      "likes": 0,
-      "comments": 1
-    },
-    {
-      "title": "My home had been a low-grade mess for longer than I want to ",
-      "views": 13,
       "likes": 0,
       "comments": 1
     },
@@ -56,6 +50,12 @@
       "comments": 1
     },
     {
+      "title": "My kitchen had been a low-grade mess for longer than I want ",
+      "views": 0,
+      "likes": 0,
+      "comments": 1
+    },
+    {
       "title": "My patio had been a low-grade mess for longer than I want to",
       "views": 0,
       "likes": 0,
@@ -70,6 +70,7 @@
   ],
   "comments_responded": 0,
   "actions_taken": [
+    "New comment on video: \ud83d\udccc SHOP ALL PRODUCTS \u2014 Amazon links:<br><br>\u2460 BAGAI",
     "Updated BUSINESS_BRAIN.md metrics"
   ]
 }
