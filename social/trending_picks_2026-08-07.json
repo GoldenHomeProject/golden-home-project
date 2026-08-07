@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-08-07",
+  "category": "Cleaning",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-cleaning-supplies.html",
+  "picks": [
+    {
+      "asin": "B00W5D1MDE",
+      "name": "Clorox Toilet Bowl Cleaner Clinging Bleach Gel",
+      "price": "$5.24",
+      "rating": 4.8,
+      "reviews": 44372,
+      "rank": 10
+    },
+    {
+      "asin": "B000ST1DZO",
+      "name": "Drano Max Gel Drain Clog Remover & Cleaner",
+      "price": "$5.17",
+      "rating": 4.5,
+      "reviews": 75958,
+      "rank": 19
+    },
+    {
+      "asin": "B00SXC85IQ",
+      "name": "Affresh Dishwasher Cleaner",
+      "price": "$8.98",
+      "rating": 4.6,
+      "reviews": 80342,
+      "rank": 23
+    },
+    {
+      "asin": "B08492PZ8Y",
+      "name": "Febreze Plug-In Air Freshener",
+      "price": "$12.94",
+      "rating": 4.7,
+      "reviews": 97224,
+      "rank": 36
+    },
+    {
+      "asin": "B098D79MQB",
+      "name": "HOMEXCEL 12PK Microfiber Cleaning Cloth",
+      "price": "$6.98",
+      "rating": 4.5,
+      "reviews": 49624,
+      "rank": 37
+    },
+    {
+      "asin": "B01DCG0GPC",
+      "name": "Lysol Disinfectant Spray",
+      "price": "$13.47",
+      "rating": 4.8,
+      "reviews": 70478,
+      "rank": 38
+    }
+  ]
+}
