@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-08-08",
+  "category": "Kitchen",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-kitchen-gadgets.html",
+  "picks": [
+    {
+      "asin": "B085DTZQNZ",
+      "name": "Owala FreeSip Stainless Steel Water Bottle 24 oz Very",
+      "price": "$29.97",
+      "rating": 4.6,
+      "reviews": 132633,
+      "rank": 1
+    },
+    {
+      "asin": "B0113UZJE2",
+      "name": "Etekcity Food Kitchen Scale",
+      "price": "$10.99",
+      "rating": 4.6,
+      "reviews": 176225,
+      "rank": 2
+    },
+    {
+      "asin": "B0CP9YB3Q4",
+      "name": "STANLEY Quencher H2.0 Tumbler with Handle and Straw 30 oz",
+      "price": "$31.95",
+      "rating": 4.7,
+      "reviews": 203401,
+      "rank": 3
+    },
+    {
+      "asin": "B0B6PLG6G2",
+      "name": "125Pcs 8 Inch Square Air Fryer Liners Disposable for 5-8QT",
+      "price": "$9.97",
+      "rating": 4.6,
+      "reviews": 33076,
+      "rank": 20
+    },
+    {
+      "asin": "B08NCVT244",
+      "name": "THERMOS FUNTAINER Kids Food Jar with Spoon",
+      "price": "$16.98",
+      "rating": 4.7,
+      "reviews": 48416,
+      "rank": 22
+    },
+    {
+      "asin": "B078H9VRTZ",
+      "name": "PackIt",
+      "price": "$21.59",
+      "rating": 4.7,
+      "reviews": 14451,
+      "rank": 24
+    }
+  ]
+}
