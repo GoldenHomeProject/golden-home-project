@@ -837,6 +837,52 @@
           }
         ]
       }
+    ],
+    "ETEKCITY": [
+      {
+        "hook_category": "proof",
+        "hook": "348,951 reviews and a 4.7-star average \u2014 that's not luck, that's data.",
+        "beat1": "A bathroom scale is one of those purchases people want to get right the first time, not replace in six months. This one is digital, which means a clear number on a screen instead of squinting at a needle between two lines on an old dial scale.",
+        "turn": "It does one job: put your body weight on a digital display, no extra setup required. With 348,951 reviews averaging 4.7 stars, that's a large enough sample that the rating reflects how it performs for most people, not just a lucky batch of early reviews.",
+        "result": "At $19.88, it's a straightforward way to get a reliable digital scale in your bathroom without agonizing over the decision.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close-up shot of the Etekcity digital bathroom scale sitting on a bathroom floor, clean and centered in frame",
+            "on_screen_text": "4.7\u2605 / 348,951 REVIEWS",
+            "voiceover": "348,951 reviews. 4.7 stars. That's a lot of people weighing in."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Overhead shot of bare feet stepping onto the scale on a bathroom tile floor",
+            "on_screen_text": "DIGITAL READOUT",
+            "voiceover": "It's digital \u2014 step on, get a number, done."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Macro shot of the scale's digital display showing a weight reading clearly",
+            "on_screen_text": "NO GUESSWORK",
+            "voiceover": "No dial, no squinting, no guessing between the lines."
+          },
+          {
+            "n": 4,
+            "duration_sec": 5,
+            "visual_prompt": "Wide shot of the scale placed neatly next to a bathroom sink and cabinet",
+            "on_screen_text": "$19.88",
+            "voiceover": "Almost 350,000 reviews at 4.7 stars, and it's $19.88."
+          },
+          {
+            "n": 5,
+            "duration_sec": 4,
+            "visual_prompt": "Final clean product shot of the scale alone on a plain floor background, slight zoom in",
+            "on_screen_text": "ETEKCITY DIGITAL SCALE \u2014 $19.88",
+            "voiceover": "A simple scale that does the one thing it needs to."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
