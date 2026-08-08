@@ -117,6 +117,28 @@ def _place(cats: list[str]) -> str:
     return "home"
 
 
+MIN_PRICE, MAX_PRICE, MIN_STARS = 5.0, 35.0, 4.5
+
+
+def _reviews_value(r):
+    """Review counts arrive as int OR as a "1,773" string depending on which script
+    wrote the entry; sorting the raw mix raised TypeError and crashed every run."""
+    if isinstance(r, int):
+        return r
+    m = re.search(r"[\d,]+", str(r or ""))
+    return int(m.group().replace(",", "")) if m else 0
+
+
+def _price_value(p):
+    m = re.search(r"[\d,]+\.\d{2}", str(p or ""))
+    return float(m.group().replace(",", "")) if m else None
+
+
+def _stars_value(s):
+    m = re.search(r"\d+(?:\.\d+)?", str(s or ""))
+    return float(m.group()) if m else None
+
+
 def _descriptor(cats: list[str]) -> str:
     for c in cats:
         cl = c.lower()
@@ -131,6 +153,19 @@ def build_variant(entry: dict, keyword: str) -> dict:
     """Seed ONE wrong_until_right variant from the product's REAL numbers.
     Caption assembled downstream by content_engine must pass every gate rule —
     we validate that before the caller commits anything."""
+    # Quality gate. Social was promoting a $251.08 product rated 4.1 stars while the
+    # blog and trending engines both enforce $5-35 / >=4.5 stars. Expensive, mediocre
+    # picks are the least likely to convert and they cost the account credibility.
+    _p = _price_value(entry.get("verified_price"))
+    _st = _stars_value(entry.get("verified_stars"))
+    if _p is not None and not (MIN_PRICE <= _p <= MAX_PRICE):
+        print(f"  [skip] {entry.get('asin')} price {entry.get('verified_price')} "
+              f"outside ${MIN_PRICE:.0f}-${MAX_PRICE:.0f}")
+        return None
+    if _st is not None and _st < MIN_STARS:
+        print(f"  [skip] {entry.get('asin')} rated {_st} < {MIN_STARS}")
+        return None
+
     cats = entry.get("categories", [])
     place = _place(cats)
     place_cap = place[:1].upper() + place[1:]
@@ -145,6 +180,10 @@ def build_variant(entry: dict, keyword: str) -> dict:
     beat1 = ("I kept meaning to deal with it and kept not dealing with it. "
              "Things piled up, I could never find what I needed, and every time "
              "I opened it I just shut it again.")
+    # A post read "I found a patio patio" because the category descriptor and the
+    # keyword resolved to the same word. Drop the descriptor when it adds nothing.
+    if desc.strip() and desc.strip() in noun:
+        desc = ""
     turn = (f"Then I found a {desc}{noun} sitting at {stars} stars across "
             f"{reviews_fmt} reviews, and it finally gave everything a place.")
     result = (f"It runs about {price} and it's the first thing in a while that "
@@ -242,7 +281,8 @@ def main() -> int:
 
     # Most-proven first: a high review count is the best signal the product is real
     # and converts. Promote the single best candidate we can name uniquely.
-    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+    for entry in sorted(vetted, key=lambda e: _reviews_value(e.get("verified_reviews")),
+                        reverse=True):
         if not entry.get("asin") or not entry.get("verified_reviews"):
             continue
         keyword = derive_keyword(entry, taken)
@@ -250,6 +290,8 @@ def main() -> int:
             print(f"[promote] {entry['asin']}: no unique keyword available, skipping.")
             continue
         variant = build_variant(entry, keyword)
+        if variant is None:
+            continue          # rejected by the price/rating gate; message already printed
         ok, reasons = validate_variant(variant, keyword, entry)
         if not ok:
             print(f"[promote] {entry['asin']} kw={keyword}: seeded variant FAILS gate "
