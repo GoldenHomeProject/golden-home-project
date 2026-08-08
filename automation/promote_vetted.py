@@ -45,6 +45,7 @@ COPY_LIBRARY = ROOT / "social" / "copy_library.json"
 
 sys.path.insert(0, str(AUTOMATION))
 import content_engine as ce  # noqa: E402
+from _claude_api import call_claude_json  # noqa: E402
 import content_quality_gate as gate  # noqa: E402
 
 # Specific home-niche nouns, most-specific first. A vetted product's keyword is
@@ -149,10 +150,63 @@ def _descriptor(cats: list[str]) -> str:
     return ""
 
 
-def build_variant(entry: dict, keyword: str) -> dict:
-    """Seed ONE wrong_until_right variant from the product's REAL numbers.
-    Caption assembled downstream by content_engine must pass every gate rule —
-    we validate that before the caller commits anything."""
+def trending_pool(days: int = 10) -> list[dict]:
+    """Today's scraped best-sellers, shaped like registry entries."""
+    out, seen = [], set()
+    for path in sorted((ROOT / "social").glob("trending_picks_*.json"), reverse=True)[:days]:
+        try:
+            data = json.loads(path.read_text())
+        except (json.JSONDecodeError, OSError):
+            continue
+        for pk in (data if isinstance(data, list) else data.get("picks", [])):
+            asin = (pk.get("asin") or "").strip()
+            if not asin or asin in seen:
+                continue
+            seen.add(asin)
+            out.append({
+                "asin": asin,
+                "product_name": pk.get("title") or pk.get("name") or "",
+                "categories": [c for c in [pk.get("cat_group"), pk.get("cat_label")] if c],
+                "status": "live",
+                "verified_price": pk.get("price"),
+                "verified_stars": str(pk.get("rating") or ""),
+                "verified_reviews": pk.get("reviews"),
+                "source": "trending",
+            })
+    return out
+
+
+def recent_hooks(limit: int = 15) -> list[str]:
+    """Opening lines of what we actually published, so the writer can avoid repeats."""
+    archive = ROOT / "social" / "posted_archive.json"
+    if not archive.exists():
+        return []
+    try:
+        posts = json.loads(archive.read_text())
+    except (json.JSONDecodeError, OSError):
+        return []
+    out = []
+    for post in posts[-limit:]:
+        first = (post.get("caption") or "").strip().split("\n")[0].strip()
+        if first:
+            out.append(first)
+    return out
+
+
+def build_variant(entry: dict, keyword: str) -> dict | None:
+    """Write a script for THIS product, from its real numbers.
+
+    This used to be one hardcoded paragraph with the nouns swapped -- every post
+    since launch opened "My <room> had been a low-grade mess for longer than I want
+    to admit." Post #1 and post #200 were the same story. 14 consecutive Instagram
+    posts earned 0 likes and 0 comments, and the YouTube Shorts show "No views",
+    because the account reads as exactly what it was: one template on repeat.
+
+    Now each product gets its own script, grounded in its verified title, price,
+    rating and review count, and explicitly required to differ from what we already
+    published. If generation fails we return None and post NOTHING -- falling back to
+    the old template would just re-ship the clone we are trying to kill.
+    """
     # Quality gate. Social was promoting a $251.08 product rated 4.1 stars while the
     # blog and trending engines both enforce $5-35 / >=4.5 stars. Expensive, mediocre
     # picks are the least likely to convert and they cost the account credibility.
@@ -168,57 +222,81 @@ def build_variant(entry: dict, keyword: str) -> dict:
 
     cats = entry.get("categories", [])
     place = _place(cats)
-    place_cap = place[:1].upper() + place[1:]
-    noun = keyword.lower()
-    desc = _descriptor(cats)
-    stars = entry.get("verified_stars")
     reviews = entry.get("verified_reviews")
-    price = entry.get("verified_price", "")
-    reviews_fmt = f"{reviews:,}" if isinstance(reviews, int) else str(reviews)
+    reviews_fmt = f"{_reviews_value(reviews):,}"
+    avoid = recent_hooks()
+    avoid_block = ("\n".join(f"- {h}" for h in avoid)
+                   if avoid else "- (nothing published yet)")
 
-    hook = f"My {place} had been a low-grade mess for longer than I want to admit."
-    beat1 = ("I kept meaning to deal with it and kept not dealing with it. "
-             "Things piled up, I could never find what I needed, and every time "
-             "I opened it I just shut it again.")
-    # A post read "I found a patio patio" because the category descriptor and the
-    # keyword resolved to the same word. Drop the descriptor when it adds nothing.
-    if desc.strip() and desc.strip() in noun:
-        desc = ""
-    turn = (f"Then I found a {desc}{noun} sitting at {stars} stars across "
-            f"{reviews_fmt} reviews, and it finally gave everything a place.")
-    result = (f"It runs about {price} and it's the first thing in a while that "
-              f"just worked. The {place} actually stays sorted now.")
+    prompt = f"""Write a short vertical-video script for ONE Amazon product.
 
-    scenes = [
-        {"n": 1, "duration_sec": 3,
-         "visual_prompt": f"first-person POV of a cluttered {place}, things spilling out",
-         "on_screen_text": "THIS WAS EVERY DAY",
-         "voiceover": f"My {place} had been a mess for longer than I'll admit."},
-        {"n": 2, "duration_sec": 4,
-         "visual_prompt": f"close-up of disorganized items in the {place}",
-         "on_screen_text": "COULD NEVER FIND ANYTHING",
-         "voiceover": "I kept meaning to deal with it and kept not dealing with it."},
-        {"n": 3, "duration_sec": 4,
-         "visual_prompt": "person shutting a door/drawer in frustration",
-         "on_screen_text": "SO I GAVE UP",
-         "voiceover": "Every time I opened it I just shut it again."},
-        {"n": 4, "duration_sec": 5,
-         "visual_prompt": f"the {noun} in use, everything organized and visible",
-         "on_screen_text": "THEN THIS",
-         "voiceover": f"Then I found a {noun} that finally gave everything a place."},
-        {"n": 5, "duration_sec": 4,
-         "visual_prompt": f"satisfying final shot of the tidy {place}",
-         "on_screen_text": "STAYS SORTED NOW",
-         "voiceover": f"The {place} actually stays sorted now."},
-    ]
-    return {
-        "hook_category": "wrong_until_right",
-        "hook": hook,
-        "beat1": beat1,
-        "turn": turn,
-        "result": result,
-        "scenes": scenes,
-    }
+PRODUCT (these are the only facts you may state):
+  name:     {entry.get('product_name')}
+  price:    {entry.get('verified_price')}
+  rating:   {entry.get('verified_stars')} stars
+  reviews:  {reviews_fmt}
+  room:     {place}
+  category: {', '.join(cats) if cats else 'home'}
+
+HONESTY RULE - NON-NEGOTIABLE. Nobody here owns or has used this product. NEVER write
+"I found", "I bought", "I tried", "my {place} was a mess", "after three weeks", or any
+invented anecdote or personal result. Write about the PRODUCT and what its rating and
+review count show. Second person ("your drawer", "if your cabinet...") or plain
+descriptive voice is fine. Do not invent specs, colours, dimensions or claims that are
+not in the name above. Never promise a time-limited price.
+
+VARIETY RULE. These are our last published openers. Your hook must not repeat their
+structure, phrasing or premise -- pick a genuinely different angle (a specific use case,
+a comparison, a common mistake, who it suits, what the review count implies, a
+constraint like renting or small spaces):
+{avoid_block}
+
+Return STRICT JSON only:
+{{
+  "hook_category": "one of: problem_solution, use_case, comparison, mistake, audience_fit, proof",
+  "hook": "first line, under 90 chars, specific to THIS product, no fabricated experience",
+  "beat1": "2-3 sentences expanding the angle. Concrete. No invented ownership.",
+  "turn": "2 sentences on what the product does and what {reviews_fmt} reviews at {entry.get('verified_stars')} stars indicate.",
+  "result": "1-2 sentences on the outcome for the reader, plus the price {entry.get('verified_price')}.",
+  "scenes": [
+    {{"n": 1, "duration_sec": 3, "visual_prompt": "...", "on_screen_text": "SHORT CAPS", "voiceover": "..."}},
+    {{"n": 2, "duration_sec": 4, "visual_prompt": "...", "on_screen_text": "SHORT CAPS", "voiceover": "..."}},
+    {{"n": 3, "duration_sec": 4, "visual_prompt": "...", "on_screen_text": "SHORT CAPS", "voiceover": "..."}},
+    {{"n": 4, "duration_sec": 5, "visual_prompt": "...", "on_screen_text": "SHORT CAPS", "voiceover": "..."}},
+    {{"n": 5, "duration_sec": 4, "visual_prompt": "...", "on_screen_text": "SHORT CAPS", "voiceover": "..."}}
+  ]
+}}"""
+
+    try:
+        v = call_claude_json(prompt, max_tokens=1600, max_turns=1, timeout=180)
+    except Exception as e:  # noqa: BLE001
+        print(f"  [skip] {entry.get('asin')}: script generation failed ({e})")
+        return None
+    if not isinstance(v, dict):
+        print(f"  [skip] {entry.get('asin')}: generator returned {type(v).__name__}")
+        return None
+
+    required = ("hook", "beat1", "turn", "result", "scenes")
+    missing = [k for k in required if not v.get(k)]
+    if missing:
+        print(f"  [skip] {entry.get('asin')}: script missing {missing}")
+        return None
+    v.setdefault("hook_category", "problem_solution")
+
+    # Enforce the honesty rule in code, not just in the prompt.
+    banned = re.compile(r"\b(i (found|bought|tried|own|tested|used)|my (kitchen|bathroom|"
+                        r"closet|pantry|home|patio|drawer)|after \d+ (weeks|months))\b", re.I)
+    blob = " ".join(str(v.get(k, "")) for k in required[:4])
+    if banned.search(blob):
+        print(f"  [skip] {entry.get('asin')}: script claimed fabricated experience")
+        return None
+
+    # And enforce variety: a hook that repeats a published opener is not new content.
+    hook_l = v["hook"].strip().lower()
+    if any(hook_l[:40] == h.strip().lower()[:40] for h in avoid):
+        print(f"  [skip] {entry.get('asin')}: hook duplicates a published opener")
+        return None
+    return v
 
 
 def validate_variant(variant: dict, keyword: str, entry: dict) -> tuple[bool, list[str]]:
@@ -272,7 +350,12 @@ def main() -> int:
 
     reg = json.loads(REGISTRY.read_text())
     entries = reg.get("entries", [])
-    vetted = reg.get("vetted", [])
+    # Pool = the vetted registry PLUS today's trending scrape. The registry is a fixed
+    # list that goes stale — it was still offering 4th-of-July decorations in August —
+    # while trending_picks_<date>.json is rewritten every morning off Amazon's live
+    # best-seller charts. Fresh products daily is the whole point; a static pool means
+    # recycled posts no matter how good the writer is.
+    vetted = reg.get("vetted", []) + trending_pool()
     if not vetted:
         print("[promote] vetted[] is empty — nothing to promote.")
         return 0
