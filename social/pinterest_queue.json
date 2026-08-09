@@ -776,5 +776,47 @@
     "queued_at": "2026-08-09T02:14:50.063197Z",
     "posted": false,
     "source": "pinterest_pipeline"
+  },
+  {
+    "id": "pin-2026-08-09-B0113UZJE2",
+    "asin": "B0113UZJE2",
+    "board": "Kitchen Organization Ideas",
+    "title": "Price drop $13.99 -> $10.99: Digital Kitchen Food Scale for Meal Prep, Baking & Portion Control",
+    "description": "Tracked daily: this was $13.99 on 2026-08-02 and $10.99 on 2026-08-08 (21% lower). Amazon prices move, so check the live listing. Accurate portion control starts with a reliable kitchen scale. This digital food scale makes meal prepping, baking, macro tracking, and recipe measuring so much easier \u2014 just place your bowl, hit tare, and go. Compact enough to store in a drawer or on a shelf with your other kitchen organization essentials, it's a small tool that keeps your cooking routine precise and",
+    "link": "https://www.amazon.com/dp/B0113UZJE2?tag=goldenhomep06-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-08-09-B0113UZJE2.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-09-B0113UZJE2.png",
+    "queued_at": "2026-08-09T02:15:39.874244Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": "2026-08-08"
+  },
+  {
+    "id": "pin-2026-08-09-B0CP9YB3Q4",
+    "asin": "B0CP9YB3Q4",
+    "board": "Home Organization Finds",
+    "title": "Price drop $32.98 -> $31.95: STANLEY Quencher H2.0 30 oz Tumbler with Handle & Straw for Kitchen Org",
+    "description": "Tracked daily: this was $32.98 on 2026-08-03 and $31.95 on 2026-08-08 (3% lower). Amazon prices move, so check the live listing. Keep countertops and cabinets tidy with a tumbler that actually stays where it belongs. This STANLEY Quencher H2.0 30 oz insulated tumbler has a comfortable handle for easy grab-and-go storage on shelves, in cup holders, or on a drying rack, plus a reusable straw so you can skip the single-use cup clutter. Double-wall vacuum insulation keeps drinks cold for hours, maki",
+    "link": "https://www.amazon.com/dp/B0CP9YB3Q4?tag=goldenhomep06-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-08-09-B0CP9YB3Q4.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-09-B0CP9YB3Q4.png",
+    "queued_at": "2026-08-09T02:16:10.071986Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": "2026-08-08"
+  },
+  {
+    "id": "pin-2026-08-09-B08KXKVT4K",
+    "asin": "B08KXKVT4K",
+    "board": "Home Organization Finds",
+    "title": "Price drop $18.99 -> $17.98: Clear Drawer Organizer Set - 25 PC Bathroom & Kitchen Bins",
+    "description": "Tracked daily: this was $18.99 on 2026-07-27 and $17.98 on 2026-08-03 (5% lower). Amazon prices move, so check the live listing. Tame messy drawers with this 25-piece clear plastic drawer organizer set. Modular bins fit bathroom vanity drawers, kitchen utensil drawers, makeup drawers, office supplies, and junk drawers - mix and match sizes to fit any space. Clear plastic makes it easy to see and grab what you need. Tap through for sizing details and more organizing ideas. Amazon affiliate - smal",
+    "link": "https://www.amazon.com/dp/B08KXKVT4K?tag=goldenhomep06-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-08-09-B08KXKVT4K.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-09-B08KXKVT4K.png",
+    "queued_at": "2026-08-09T02:16:35.234551Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": "2026-08-03"
   }
 ]
