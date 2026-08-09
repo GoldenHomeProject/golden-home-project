@@ -30,6 +30,10 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from asin_discoverer import REGISTRY_PATH, UA, verify_dp  # noqa: E402
 
+# Amazon Basics AA batteries: a listing that has existed for years. If THIS
+# will not render, the problem is us being blocked, not the catalogue.
+CANARY_ASIN = "B00FLYWNYQ"
+
 
 def main() -> int:
     ap = argparse.ArgumentParser()
@@ -58,6 +62,21 @@ def main() -> int:
         )
         context = browser.new_context(user_agent=UA, viewport={"width": 1280, "height": 800})
         page = context.new_page()
+
+        # CANARY. verify_dp() cannot tell "this product is gone" apart from "Amazon is
+        # bot-walling us" — both just fail to render #productTitle. On 2026-08-09 a
+        # throttled Pi reported 5 of 5 live best-seller products as dead, including a
+        # control ASIN that has existed for a decade; the page was actually the
+        # "Click the button below to continue shopping" interstitial. Marking a good
+        # product status="dead" is permanent and silently shrinks the catalogue, so
+        # prove we can read a known-good listing BEFORE trusting a single failure.
+        if verify_dp(page, CANARY_ASIN) is None:
+            print(f"[revalidate] ABORT: control listing {CANARY_ASIN} did not render — "
+                  f"Amazon is throttling or blocking us. Refusing to mark anything dead "
+                  f"on unreadable pages. Try again later.")
+            context.close()
+            browser.close()
+            return 1
 
         for entry in targets:
             asin = entry.get("asin")
