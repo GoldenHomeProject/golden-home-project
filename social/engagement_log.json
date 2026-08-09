@@ -4,11 +4,11 @@
     "lifetime_follows": 20,
     "lifetime_likes": 33,
     "lifetime_comments": 7,
-    "last_session": "comments-2026-08-09T1408Z",
+    "last_session": "outreach-2026-08-09T1803Z",
     "blocked_at": null,
-    "last_updated": "2026-08-09T14:11:35Z",
-    "total_actions": 486,
-    "lifetime_dms": 23,
+    "last_updated": "2026-08-09T18:04:16Z",
+    "total_actions": 487,
+    "lifetime_dms": 24,
     "lifetime_comments_outbound": 30
   },
   "actions": [
@@ -18905,6 +18905,15 @@
       "post_url": "https://www.instagram.com/horderly/p/DbbKJWeFMCd/",
       "text": "Great value on the hidden hardware \u2014 hanging file frames feel like magic once you've done it, but half the battle is finding studs behind existing gallery walls. Do you predrill through the frame or e",
       "caption_seen": ""
+    },
+    {
+      "timestamp": "2026-08-09T18:04:16Z",
+      "action": "dm_sent",
+      "target": "simplyspaced",
+      "session": "outreach-2026-08-09T1803Z",
+      "body_chars": 774,
+      "thread_url": "https://www.instagram.com/simplyspaced/",
+      "template_tag": "path_c_v2_affiliate_split"
     }
   ]
 }
