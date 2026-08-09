@@ -306,10 +306,18 @@ def main() -> int:
     led = load_ledger()
     led_ids = {e.get("pin_id") for e in led.get("posted", [])}
     led_asins = {e.get("asin") for e in led.get("posted", []) if e.get("asin")}
+    def _is_drop(pin):
+        return "Price drop" in (pin.get("title") or "")
+
+    # The per-ASIN block exists so we never pin the same product twice. A VERIFIED price
+    # drop is new information about that product, though, so it is allowed through — the
+    # per-pin-id ledger check above still prevents posting the same drop twice.
     pending = [p for p in queue
                if not p.get("posted")
                and p["id"] not in led_ids
-               and p.get("asin") not in led_asins]
+               and (p.get("asin") not in led_asins or _is_drop(p))]
+    # Post price drops first: highest buyer intent, and the freshest thing we know.
+    pending.sort(key=lambda p: 0 if _is_drop(p) else 1)
     if not pending:
         print("[pinterest] queue empty — nothing to post. Run pinterest_pipeline.py to refill.")
         return 0

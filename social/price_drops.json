@@ -1,0 +1,41 @@
+{
+  "drops": [
+    {
+      "asin": "B0113UZJE2",
+      "title": "Etekcity Food Kitchen Scale",
+      "rating": 4.6,
+      "reviews": 176225,
+      "was": 13.99,
+      "now": 10.99,
+      "pct": 21.4,
+      "observed_from": "2026-08-02",
+      "observed_to": "2026-08-08",
+      "days_tracked": 3
+    },
+    {
+      "asin": "B08KXKVT4K",
+      "title": "Vtopmart 25 PCS Clear Plastic Drawer Organizers Set",
+      "rating": 4.7,
+      "reviews": 49036,
+      "was": 18.99,
+      "now": 17.98,
+      "pct": 5.3,
+      "observed_from": "2026-07-27",
+      "observed_to": "2026-08-03",
+      "days_tracked": 2
+    },
+    {
+      "asin": "B0CP9YB3Q4",
+      "title": "STANLEY Quencher H2.0 Tumbler with Handle and Straw 30 oz",
+      "rating": 4.7,
+      "reviews": 203401,
+      "was": 32.98,
+      "now": 31.95,
+      "pct": 3.1,
+      "observed_from": "2026-08-03",
+      "observed_to": "2026-08-08",
+      "days_tracked": 4
+    }
+  ],
+  "tracked_asins": 25
+}

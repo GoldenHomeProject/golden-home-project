@@ -192,6 +192,43 @@ def trending_entries(days: int = 21) -> list[dict]:
     return out
 
 
+DROPS: dict = {}
+
+
+def _drop_title(title: str, drop: dict | None) -> str:
+    """Front-load a REAL, observed price drop. Never invent or round it up."""
+    if not drop:
+        return title
+    return f"Price drop ${drop['was']:.2f} -> ${drop['now']:.2f}: {title}"
+
+
+def _drop_desc(desc: str, drop: dict | None) -> str:
+    if not drop:
+        return desc
+    note = (f"Tracked daily: this was ${drop['was']:.2f} on {drop['observed_from']} and "
+            f"${drop['now']:.2f} on {drop['observed_to']} ({drop['pct']:.0f}% lower). "
+            f"Amazon prices move, so check the live listing. ")
+    return note + desc
+
+
+def price_drops_map() -> dict:
+    """asin -> observed drop, from our own dated snapshots (automation/price_drops.py).
+
+    A verified "was $13.99, now $10.99" is the highest buyer-intent hook we can honestly
+    make, and it is the one thing on this site a competitor cannot reproduce with an AI
+    prompt — it comes from price history we scraped ourselves, day after day. Research on
+    the 2026 core updates is explicit that replicable content is what gets demoted.
+    """
+    path = SOCIAL / "price_drops.json"
+    if not path.exists():
+        return {}
+    try:
+        data = json.loads(path.read_text())
+    except (json.JSONDecodeError, OSError):
+        return {}
+    return {d["asin"]: d for d in data.get("drops", []) if d.get("asin")}
+
+
 def registry_entries(reg: dict) -> list[dict]:
     seen, out = set(), []
     # Registry first (DM-funnel entries convert best), then the renewing trending pool.
@@ -395,8 +432,12 @@ def main() -> int:
     ap.add_argument("--force", action="store_true", help="re-pin even if queued")
     args = ap.parse_args()
 
+    global DROPS
+    DROPS = price_drops_map()
     reg = load_json(REGISTRY_PATH, {})
     entries = registry_entries(reg)
+    # Pin genuine price drops first — highest intent, and uniquely ours.
+    entries.sort(key=lambda e: 0 if e.get("asin") in DROPS else 1)
     if not entries:
         print("ERROR: no registry entries", file=sys.stderr)
         return 1
@@ -415,8 +456,16 @@ def main() -> int:
         if entry.get("status") != "live":
             print(f"  [skip] {asin} status={entry.get('status')!r} — not ASIN-verified")
             continue
-        if not args.force and already_queued(asin, queue):
+        # A verified price drop is NEW information about a product we may already have
+        # pinned at the old price, so it earns a fresh pin. Without this, the two most
+        # compelling drops we had were silently skipped for being "already queued".
+        drop = DROPS.get(asin)
+        if not args.force and already_queued(asin, queue) and not drop:
             continue
+        if drop and any(p.get("asin") == asin
+                        and p.get("drop_observed_to") == drop.get("observed_to")
+                        for p in queue):
+            continue          # already pinned THIS drop; don't repeat it
         board, board_q = board_for(entry)
         copy = claude_copy(entry, board) or template_copy(entry, board)
         pexels_q = (copy.get("pexels_query") or "").strip() or board_q
@@ -440,14 +489,15 @@ def main() -> int:
             "id": f"pin-{date_str}-{asin}",
             "asin": asin,
             "board": board,
-            "title": copy["title"][:100],
-            "description": copy["description"][:500],
+            "title": _drop_title(copy["title"], DROPS.get(asin))[:100],
+            "description": _drop_desc(copy["description"], DROPS.get(asin))[:500],
             "link": link,
             "image_path": rel,
             "image_url": f"{RAW_GH_BASE}/{rel}",
             "queued_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
             "posted": False,
             "source": "pinterest_pipeline",
+            "drop_observed_to": (DROPS.get(asin) or {}).get("observed_to"),
         })
         made += 1
         print(f"  [pin] {asin} board={board!r} link={'blog' if link.startswith(SITE) else 'amazon'} -> {rel}")
