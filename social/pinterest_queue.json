@@ -750,5 +750,31 @@
     "queued_at": "2026-08-08T10:11:36.212041Z",
     "posted": false,
     "source": "pinterest_pipeline"
+  },
+  {
+    "id": "pin-2026-08-09-B0113UZJE2",
+    "asin": "B0113UZJE2",
+    "board": "Kitchen Organization Ideas",
+    "title": "Price drop $13.99 -> $10.99: Digital Food Scale for Meal Prep & Kitchen Organization",
+    "description": "Tracked daily: this was $13.99 on 2026-08-02 and $10.99 on 2026-08-08 (21% lower). Amazon prices move, so check the live listing. Keep meal prep simple with a compact digital kitchen scale that measures in grams, ounces, and pounds for precise portion control. Perfect for small kitchen organization, macro tracking, baking, and coffee ratios \u2014 the sleek, low-profile design tucks into a drawer or slides under a cabinet with no bulky footprint. Tap through to see why this budget-friendly scale is a",
+    "link": "https://www.amazon.com/dp/B0113UZJE2?tag=goldenhomep06-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-08-09-B0113UZJE2.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-09-B0113UZJE2.png",
+    "queued_at": "2026-08-09T02:14:33.751048Z",
+    "posted": false,
+    "source": "pinterest_pipeline"
+  },
+  {
+    "id": "pin-2026-08-09-B0CP9YB3Q4",
+    "asin": "B0CP9YB3Q4",
+    "board": "Home Organization Finds",
+    "title": "Price drop $32.98 -> $31.95: Insulated Tumbler with Handle & Straw 30 oz - Stanley Quencher H2.0 for",
+    "description": "Tracked daily: this was $32.98 on 2026-08-03 and $31.95 on 2026-08-08 (3% lower). Amazon prices move, so check the live listing. Looking for an insulated tumbler with handle and straw that keeps drinks cold for hours? The Stanley Quencher H2.0 30 oz tumbler fits most car cup holders, has a comfortable carry handle, and includes a reusable straw for easy sipping at home, work, or on the go. A practical pick for organizing your kitchen counter or entryway drink station. Tap through to see sizes an",
+    "link": "https://www.amazon.com/dp/B0CP9YB3Q4?tag=goldenhomep06-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-08-09-B0CP9YB3Q4.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-09-B0CP9YB3Q4.png",
+    "queued_at": "2026-08-09T02:14:50.063197Z",
+    "posted": false,
+    "source": "pinterest_pipeline"
   }
 ]
