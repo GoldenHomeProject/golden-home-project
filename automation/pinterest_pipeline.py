@@ -27,6 +27,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import re
 import os
 import sys
 from datetime import datetime, timezone
@@ -211,6 +212,27 @@ def _drop_desc(desc: str, drop: dict | None) -> str:
     return note + desc
 
 
+def _blocked_product(name: str) -> str | None:
+    """Apply the SAME standards the trending engine enforces.
+
+    Pinterest had no product filter at all, so it queued Lysol spray and Terro ant
+    traps — consumables and pest control on a home-ORGANIZATION brand, the categories
+    trending_daily explicitly blocks. One bar for what we promote, not one per channel.
+    """
+    try:
+        from trending_daily import COMMODITY_BLOCK, OFF_BRAND_BLOCK, TITLE_HEAD_CHARS
+    except Exception:  # noqa: BLE001 — never let a filter import stop the pipeline
+        return None
+    head = (name or "")[:TITLE_HEAD_CHARS]
+    if COMMODITY_BLOCK.search(head):
+        return "commodity/consumable"
+    if OFF_BRAND_BLOCK.search(head):
+        return "off-brand (health/beauty)"
+    if re.search(r"\b(ant|roach|insect|pest|rodent|mouse|bug)\s*(bait|trap|killer|spray)", head, re.I):
+        return "pest control"
+    return None
+
+
 def price_drops_map() -> dict:
     """asin -> observed drop, from our own dated snapshots (automation/price_drops.py).
 
@@ -250,13 +272,38 @@ def board_for(entry: dict) -> tuple[str, str]:
     return DEFAULT_BOARD
 
 
+def _hub_containing(asin: str) -> str | None:
+    """The evergreen hub page that ACTUALLY lists this ASIN right now, if any.
+
+    Pinterest best practice (and Pinterest's own preference) is to send traffic to a
+    content page rather than straight to a merchant link: the reader gets comparison
+    context before deciding, and the click builds signals for a site that currently has
+    almost no visitors at all.
+
+    The containment check is the honest part. Sending someone who tapped a food-scale pin
+    to a page that does not show that food scale is bait-and-switch — it wastes the click
+    and it is exactly the kind of thing that gets a Pinterest account limited. So we only
+    route to a hub that genuinely features the product, and fall back to the direct
+    affiliate link otherwise.
+    """
+    posts = ROOT / "blog" / "posts"
+    if not posts.exists():
+        return None
+    for page in sorted(posts.glob("best-*.html")):
+        try:
+            if asin in page.read_text():
+                return f"{SITE}/blog/posts/{page.name}"
+        except OSError:
+            continue
+    return None
+
+
 def blog_url_for(entry: dict) -> str | None:
-    """If the product already has an on-site article, pin to it (richer +
-    Pinterest-safe). Else None -> pin straight to the affiliate URL."""
+    """Prefer an on-site page that really features this product, else None."""
     for u in entry.get("used_in") or []:
         if "blog/posts/" in u and u.endswith(".html"):
             return f"{SITE}/{u.lstrip('/')}"
-    return None
+    return _hub_containing((entry.get("asin") or "").strip())
 
 
 # Fallback image hooks per board — used only when Claude is unavailable, so
@@ -459,6 +506,10 @@ def main() -> int:
         # A verified price drop is NEW information about a product we may already have
         # pinned at the old price, so it earns a fresh pin. Without this, the two most
         # compelling drops we had were silently skipped for being "already queued".
+        why = _blocked_product(entry.get("product_name") or "")
+        if why:
+            print(f"  [skip] {asin} {why} — {(entry.get('product_name') or '')[:44]}")
+            continue
         drop = DROPS.get(asin)
         if not args.force and already_queued(asin, queue) and not drop:
             continue
