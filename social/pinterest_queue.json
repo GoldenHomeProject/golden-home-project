@@ -791,5 +791,61 @@
     "posted": false,
     "source": "pinterest_pipeline",
     "drop_observed_to": "2026-08-03"
+  },
+  {
+    "id": "pin-2026-08-09-B0113UZJE2",
+    "asin": "B0113UZJE2",
+    "board": "Kitchen Organization Ideas",
+    "title": "Price drop $13.99 -> $10.99: Digital Food Kitchen Scale for Meal Prep & Pantry Organization",
+    "description": "Tracked daily: this was $13.99 on 2026-08-02 and $10.99 on 2026-08-08 (21% lower). Amazon prices move, so check the live listing. Keep portion control and meal prep simple with a compact digital kitchen scale that tucks neatly into any drawer or countertop organizer. Great for batch cooking, recipe accuracy, and pantry organization systems where precise measuring matters. Tap through to see this budget-friendly kitchen scale and other tools for an organized kitchen. Amazon affiliate \u2014 small comm",
+    "link": "https://www.amazon.com/dp/B0113UZJE2?tag=goldenhomep06-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-08-09-B0113UZJE2.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-09-B0113UZJE2.png",
+    "queued_at": "2026-08-09T10:10:31.587869Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": "2026-08-08"
+  },
+  {
+    "id": "pin-2026-08-09-B0CP9YB3Q4",
+    "asin": "B0CP9YB3Q4",
+    "board": "Home Organization Finds",
+    "title": "Price drop $32.98 -> $31.95: Insulated Tumbler with Straw & Handle - Stanley Quencher H2.0 30 oz Hyd",
+    "description": "Tracked daily: this was $32.98 on 2026-08-03 and $31.95 on 2026-08-08 (3% lower). Amazon prices move, so check the live listing. Keep your kitchen counter or desk hydration station organized with the Stanley Quencher H2.0 30 oz tumbler. This insulated tumbler with handle and straw fits most cup holders and pantry shelves, making it an easy grab-and-go addition to any home organization system. Great for meal prep stations, gym bags, or car organizers where you need a leak-resistant, stackable wat",
+    "link": "https://www.amazon.com/dp/B0CP9YB3Q4?tag=goldenhomep06-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-08-09-B0CP9YB3Q4.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-09-B0CP9YB3Q4.png",
+    "queued_at": "2026-08-09T10:11:19.462385Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": "2026-08-08"
+  },
+  {
+    "id": "pin-2026-08-09-B01HI1W1V4",
+    "asin": "B01HI1W1V4",
+    "board": "Bathroom Storage Ideas",
+    "title": "Small Bathroom Scale Storage Ideas: Slim Digital Scale for Tight Spaces",
+    "description": "Organizing a small bathroom? This slim digital scale slides under the sink or tucks behind the door, saving valuable storage space. The Etekcity bathroom scale offers a large easy-read display and accurate body weight tracking without cluttering your vanity. A smart pick for small bathroom organization and apartment storage ideas. Tap through for details. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B01HI1W1V4?tag=goldenhomep06-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-08-09-B01HI1W1V4.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-09-B01HI1W1V4.png",
+    "queued_at": "2026-08-09T10:11:42.962524Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-08-09-B0B6PLG6G2",
+    "asin": "B0B6PLG6G2",
+    "board": "Home Organization Finds",
+    "title": "Air Fryer Liners 8 Inch Square \u2013 Disposable Parchment Paper for 5-8QT",
+    "description": "Keep your air fryer basket clean without scrubbing. This 125-pack of 8 inch square disposable liners fits most 5-8QT air fryer baskets and helps prevent food from sticking or dripping through the basket holes. Made for easy cleanup after air frying, baking, or steaming \u2014 just toss and go, no scraping burnt-on grease. A simple upgrade for anyone organizing their kitchen and cutting down on daily cleaning time. Great for meal preppers and busy households that use their air fryer often. Tap through",
+    "link": "https://www.amazon.com/dp/B0B6PLG6G2?tag=goldenhomep06-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-08-09-B0B6PLG6G2.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-09-B0B6PLG6G2.png",
+    "queued_at": "2026-08-09T10:12:10.963563Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
   }
 ]
