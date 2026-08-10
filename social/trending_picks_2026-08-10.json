@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-08-10",
+  "category": "Home D\u00e9cor",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-home-decor-finds.html",
+  "picks": [
+    {
+      "asin": "B0BQR2BQYZ",
+      "name": "upsimples 11x14 Picture Frame",
+      "price": "$6.99",
+      "rating": 4.5,
+      "reviews": 42078,
+      "rank": 1
+    },
+    {
+      "asin": "B01NBNDC1T",
+      "name": "Utopia Bedding 18x18 Pillow Inserts",
+      "price": "$12.89",
+      "rating": 4.6,
+      "reviews": 218241,
+      "rank": 4
+    },
+    {
+      "asin": "B01CS31R94",
+      "name": "NICETOWN Black Blackout Curtains for Bedroom 42\" Wide x 63\" Long 2 Pan",
+      "price": "$9.98",
+      "rating": 4.6,
+      "reviews": 132268,
+      "rank": 8
+    },
+    {
+      "asin": "B08B1B1B2X",
+      "name": "Bentgo Kids Prints Leak-Proof 5-Compartment Bento-Style Kids Lunch Box",
+      "price": "$19.49",
+      "rating": 4.7,
+      "reviews": 64320,
+      "rank": 12
+    },
+    {
+      "asin": "B0815BLNX1",
+      "name": "GORILLA GRIP\u00ae Rug Grippers",
+      "price": "$8.98",
+      "rating": 4.5,
+      "reviews": 31022,
+      "rank": 14
+    },
+    {
+      "asin": "B0D89V1RX1",
+      "name": "2x6 Hallway Washable Runner Rug : Vintage Soft Kitchen Laundry Runner",
+      "price": "$20.89",
+      "rating": 4.6,
+      "reviews": 9514,
+      "rank": 18
+    }
+  ]
+}
