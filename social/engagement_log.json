@@ -4,11 +4,11 @@
     "lifetime_follows": 20,
     "lifetime_likes": 33,
     "lifetime_comments": 7,
-    "last_session": "2026-08-10-1330-pi",
+    "last_session": "outreach-2026-08-10T1812Z",
     "blocked_at": null,
-    "last_updated": "2026-08-10T13:31:11Z",
-    "total_actions": 489,
-    "lifetime_dms": 24,
+    "last_updated": "2026-08-10T18:13:07Z",
+    "total_actions": 490,
+    "lifetime_dms": 25,
     "lifetime_comments_outbound": 30
   },
   "actions": [
@@ -19184,6 +19184,15 @@
       ],
       "untapped_warm": [],
       "dry_run": false
+    },
+    {
+      "timestamp": "2026-08-10T18:13:07Z",
+      "action": "dm_sent",
+      "target": "iheartorganizing",
+      "session": "outreach-2026-08-10T1812Z",
+      "body_chars": 870,
+      "thread_url": "https://www.instagram.com/iheartorganizing/",
+      "template_tag": "path_c_v2_affiliate_split"
     }
   ]
 }
