@@ -1,0 +1,68 @@
+{
+  "created_at": "2026-08-10T10:13:05.062693Z",
+  "date": "2026-08-10",
+  "seq": 901,
+  "source": "repurpose",
+  "hook": "I fit 15 more clothes for $39.99 in hangers",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of an overstuffed closet rod, hangers crammed so tight the clothes are wrinkled together",
+      "on_screen_text": "My closet rod was PACKED",
+      "voiceover": "My closet rod was so packed I couldn't see what I owned."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Side-by-side hand comparison: thick plastic hanger next to a slim velvet hanger, ruler overlay showing thickness difference",
+      "on_screen_text": "1.5\" vs 0.4\" thick",
+      "voiceover": "Standard hangers are 1.5 inches thick. Slim velvet ones are 0.4."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Time-lapse of hands swapping clothes from bulky hangers to slim velvet hangers, one by one along the rod",
+      "on_screen_text": "Swapped every hanger",
+      "voiceover": "I swapped every hanger on a 3-foot rod."
+    },
+    {
+      "n": 4,
+      "duration_sec": 3,
+      "visual_prompt": "Wide reveal shot of the same rod, now with visible breathing room between garments",
+      "on_screen_text": "+15 more garments, same rod",
+      "voiceover": "Same rod. Room for 15 more garments."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Text overlay animation of review stats popping up over a product shot of the hanger set",
+      "on_screen_text": "231,174 ratings. 4.8 stars.",
+      "voiceover": "231,174 people rated these 4.8 stars \u2014 that's not a marketing claim."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Silk blouse hanging steady on a velvet hanger, camera pans to show it's not sliding off",
+      "on_screen_text": "No more sliding silk",
+      "voiceover": "The velvet coating keeps silk and satin from sliding off."
+    },
+    {
+      "n": 7,
+      "duration_sec": 3,
+      "visual_prompt": "Final shot of the hanger set packaging with a $39.99 price tag graphic overlay",
+      "on_screen_text": "$39.99 for the set. Try this first.",
+      "voiceover": "Before you buy a $180 system, try the $39.99 fix first."
+    }
+  ],
+  "caption": "My rod was too full before it was ever too small. Swapped every hanger for slim velvet ones ($39.99/set, 231K+ reviews at 4.8 stars) and got 15 more garments of space on the same rod \u2014 no new furniture, no drilling. This is the cheapest square-footage win in a small closet, and I tried other fixes before this one actually worked. Full comparison + link in bio. Affiliate links used.",
+  "hashtags": [
+    "#smallclosetorganization",
+    "#closetorganizationideas",
+    "#velvethangers",
+    "#apartmentliving",
+    "#dormroomhacks",
+    "#closetmakeover",
+    "#renterfriendly"
+  ]
+}

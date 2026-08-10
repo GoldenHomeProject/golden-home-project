@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-08-10T10:13:05.063435Z",
+  "date": "2026-08-10",
+  "seq": 905,
+  "source": "repurpose",
+  "hook": "No closet? This $35.99 rack is your closet",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Studio apartment corner with coats piled on a chair, no closet door or frame anywhere in sight",
+      "on_screen_text": "My apartment has zero closets",
+      "voiceover": "My studio apartment has exactly zero closets."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Unboxing shot of the freestanding coat rack with 7 hooks and 3 shelves, assembled against a bare wall",
+      "on_screen_text": "7 hooks + 3 shelves",
+      "voiceover": "This is a freestanding rack \u2014 7 hooks, 3 shelves, no closet frame required."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Hands hanging coats on the hooks and placing folded items and shoes onto the shelves below",
+      "on_screen_text": "Coats on hooks, shoes on shelves",
+      "voiceover": "Coats go on the hooks, shoes and folded stuff go on the shelves."
+    },
+    {
+      "n": 4,
+      "duration_sec": 3,
+      "visual_prompt": "Text overlay with a caution icon over a shot of the rack getting slightly overloaded with too many clothes",
+      "on_screen_text": "Best for coats + bags, not a full wardrobe",
+      "voiceover": "Reviewers mostly use it for entryway coats, not a full wardrobe \u2014 so should you."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Final styled shot of the rack against a bare entryway wall with review stat graphic overlay",
+      "on_screen_text": "$35.99 / 4.5 stars / 379 reviews",
+      "voiceover": "$35.99, 4.5 stars, 379 reviews, and now I have somewhere to put my coat."
+    },
+    {
+      "n": 6,
+      "duration_sec": 2,
+      "visual_prompt": "Close-up on a price and rating stat card graphic",
+      "on_screen_text": "The only pick that doesn't need a closet",
+      "voiceover": "It's the only pick on my list that doesn't assume you have a closet to begin with."
+    }
+  ],
+  "caption": "I don't have a closet in my apartment \u2014 a lot of studios and older homes just skip one. This $35.99 rack (4.5 stars, 379 reviews) gave me 7 hooks and 3 shelves against a bare wall, which is basically a mini closet substitute. It's not a replacement if you've got more than a coat and a couple of bags \u2014 reviewers use it for entryway coats, and so do I. But if you're working with zero closet space, this is the pick that actually assumes that. Full list in bio.",
+  "hashtags": [
+    "#noclosetsolutions",
+    "#studioapartment",
+    "#entrywayorganization",
+    "#halltree",
+    "#smallspaceliving",
+    "#apartmenttherapy",
+    "#freestandingcloset"
+  ]
+}

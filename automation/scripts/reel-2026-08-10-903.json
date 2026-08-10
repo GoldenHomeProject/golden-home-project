@@ -1,0 +1,68 @@
+{
+  "created_at": "2026-08-10T10:13:05.063095Z",
+  "date": "2026-08-10",
+  "seq": 903,
+  "source": "repurpose",
+  "hook": "$13.99 for 6 bins = $2.33 each",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Cluttered dorm room shelf, socks, chargers, and small items piled without any order",
+      "on_screen_text": "Dorm shelf chaos",
+      "voiceover": "My dorm shelf was just a pile \u2014 socks, chargers, random stuff."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Unboxing the six-piece organizer set on a dorm bed, price tag graphic overlay",
+      "on_screen_text": "$13.99 for 6 pieces",
+      "voiceover": "This set is $13.99 for six organizers. That's $2.33 each."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Time-lapse of hands sorting socks and small items into individual labeled bins on the shelf",
+      "on_screen_text": "Sorted in under 10 min",
+      "voiceover": "Took me under ten minutes to sort everything by category."
+    },
+    {
+      "n": 4,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up shot flexing the bin material gently to show it's soft-sided, not rigid",
+      "on_screen_text": "Honest note: material is thin",
+      "voiceover": "I'll be straight with you \u2014 the material is thinner than a rigid bin that costs 3-4x more."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Quick cuts of the same bins moved from a closet shelf, to a dresser top, to under a bed",
+      "on_screen_text": "Moves: closet, dresser, under bed",
+      "voiceover": "But they're light enough to move between your closet, dresser, or under the bed."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Final shot of the fully organized dorm shelf with review stat graphic overlay",
+      "on_screen_text": "8,851 reviews / 4.0 stars",
+      "voiceover": "8,851 reviews, 4.0 stars \u2014 not the highest rating here, but the most honest budget pick."
+    },
+    {
+      "n": 7,
+      "duration_sec": 2,
+      "visual_prompt": "Close-up on the price tag with a checkmark graphic",
+      "on_screen_text": "$13.99. Test your setup first.",
+      "voiceover": "If you don't know your closet problem yet, start here for $13.99."
+    }
+  ],
+  "caption": "Not going to tell you these bins are perfect \u2014 they're not. At $13.99 for six ($2.33 each), the material is thinner than a rigid bin 3-4x the price, and the reviews back that up at 4.0 stars. But for a dorm room, shared closet, or studio where you're still figuring out your actual storage problem, six flexible bins that move between a shelf, a dresser, and under the bed beat committing to a fixed system you might not need. Link in bio.",
+  "hashtags": [
+    "#dormroomessentials",
+    "#dormroomorganization",
+    "#collegedorm",
+    "#budgetorganization",
+    "#smallspacehacks",
+    "#studioapartment",
+    "#closetbins"
+  ]
+}

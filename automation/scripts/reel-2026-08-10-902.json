@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-08-10T10:13:05.062941Z",
+  "date": "2026-08-10",
+  "seq": 902,
+  "source": "repurpose",
+  "hook": "$179.99 closet system built for 5-foot spaces",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Tiny 5-foot reach-in closet with mismatched shelves, rods, and drawers clearly bought separately and not fitting well",
+      "on_screen_text": "I bought parts separately. Waste.",
+      "voiceover": "I used to buy closet parts separately and waste inches every time."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Unboxing shot of the 5FT Small Closet System, wooden drawer pieces and frame laid out on the floor",
+      "on_screen_text": "Built for 60\" wide. Not scaled down.",
+      "voiceover": "This system is built at roughly 60 inches wide from the start."
+    },
+    {
+      "n": 3,
+      "duration_sec": 5,
+      "visual_prompt": "Time-lapse of hands assembling the wooden frame and drawers with a screwdriver, tools visibly scattered around",
+      "on_screen_text": "Real assembly time. Not a 10-min job.",
+      "voiceover": "I'll be upfront \u2014 this took real time to assemble, more than the other picks."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Finished closet system installed in the reach-in space, wooden drawers built into the frame, clothes hung neatly",
+      "on_screen_text": "4.4 stars / 124 reviews",
+      "voiceover": "4.4 stars across 124 reviews \u2014 smaller number, but people who need this exact size are satisfied."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Split screen comparing a standard 6-foot closet against a genuinely small 5-foot closet with measuring tape overlay",
+      "on_screen_text": "6ft closet? You don't need this.",
+      "voiceover": "If your closet is a standard 6-foot builder-grade reach-in, skip this."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Final wide reveal of the fully organized small closet system, warm lighting, price tag graphic",
+      "on_screen_text": "$179.99. Investment, not impulse buy.",
+      "voiceover": "$179.99 is the highest price on my list \u2014 and I still think it's worth it for a genuinely small closet."
+    }
+  ],
+  "caption": "The $180 closet system I almost talked myself out of. My reach-in closet is a real 5 feet, not a walk-in with a modest label, and every 'universal' shelf kit I bought before this wasted inches I didn't have. This one is sized to 60\" from the start, wooden drawers built into the frame, 4.4 stars across 124 reviews. It's not cheap and it's not a 10-minute build \u2014 I'm not going to pretend otherwise. But for a nursery closet, an older home, or anything under 6 feet, it solved what generic kits couldn't. Full breakdown + link in bio.",
+  "hashtags": [
+    "#smallclosetsystem",
+    "#reachincloset",
+    "#closetorganization",
+    "#nurserycloset",
+    "#closetmakeover",
+    "#smallspacesolutions",
+    "#organizedhome"
+  ]
+}

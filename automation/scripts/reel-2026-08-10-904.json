@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-08-10T10:13:05.063286Z",
+  "date": "2026-08-10",
+  "seq": 904,
+  "source": "repurpose",
+  "hook": "$22.49 shelves that need zero drilling",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Wide shot of closet interior showing the empty gap of air above the hanging rod up to the ceiling",
+      "on_screen_text": "1+ foot of dead space above your rod",
+      "voiceover": "There's usually a foot of empty air above your closet rod that nobody uses."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Hands peeling backing off a stick-on floating shelf and pressing it onto the closet wall above the rod",
+      "on_screen_text": "No drill. No landlord call.",
+      "voiceover": "These are stick-on \u2014 no drill, no calling your landlord."
+    },
+    {
+      "n": 3,
+      "duration_sec": 3,
+      "visual_prompt": "Shoes and folded scarves being placed neatly onto the newly mounted shelf",
+      "on_screen_text": "Good for shoes + folded items",
+      "voiceover": "I use mine for shoes and folded accessories, not heavy sweaters."
+    },
+    {
+      "n": 4,
+      "duration_sec": 3,
+      "visual_prompt": "Text overlay animation with a caution icon next to a stack of heavy sweaters being set aside",
+      "on_screen_text": "Not for stacked bins or heavy knits",
+      "voiceover": "Honest limit: these aren't built for stacked bins or heavy sweaters."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Product shot of the floating shelf packaging with review stat graphic overlay",
+      "on_screen_text": "260 reviews / 4.6 stars",
+      "voiceover": "260 reviews, 4.6 stars, and $22.49 for the set."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Final wide shot of the closet showing rod, shoes and bags below, and the new shelf tier above",
+      "on_screen_text": "One more shelf. Zero holes.",
+      "voiceover": "One more tier of storage, and my security deposit is still safe."
+    }
+  ],
+  "caption": "The gap between your closet rod and the ceiling is free real estate you're not using \u2014 I wasn't either until I added these. $22.49, stick-on, no drilling, so it works even in a rental where you can't touch the walls. Just don't load them up like a rigid shelf \u2014 they're rated for shoes and folded items, not stacked bins or heavy knits. 260 reviews, 4.6 stars. Link in bio for the exact ones.",
+  "hashtags": [
+    "#renterfriendly",
+    "#nodrillorganization",
+    "#floatingshelf",
+    "#apartmenthacks",
+    "#smallclosetideas",
+    "#dormroomdecor",
+    "#verticalstorage"
+  ]
+}

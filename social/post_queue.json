@@ -5030,5 +5030,95 @@
     "keyword": "QUEEN",
     "queued_at": "2026-08-10T08:21:55.870860Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_repurpose_2026-08-10_901",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-10-901.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "My rod was too full before it was ever too small. Swapped every hanger for slim velvet ones ($39.99/set, 231K+ reviews at 4.8 stars) and got 15 more garments of space on the same rod \u2014 no new furniture, no drilling. This is the cheapest square-footage win in a small closet, and I tried other fixes before this one actually worked. Full comparison + link in bio. Affiliate links used.",
+    "hashtags": [
+      "#smallclosetorganization",
+      "#closetorganizationideas",
+      "#velvethangers",
+      "#apartmentliving",
+      "#dormroomhacks",
+      "#closetmakeover",
+      "#renterfriendly"
+    ],
+    "hook": "I fit 15 more clothes for $39.99 in hangers"
+  },
+  {
+    "name": "reel_repurpose_2026-08-10_902",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-10-902.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "The $180 closet system I almost talked myself out of. My reach-in closet is a real 5 feet, not a walk-in with a modest label, and every 'universal' shelf kit I bought before this wasted inches I didn't have. This one is sized to 60\" from the start, wooden drawers built into the frame, 4.4 stars across 124 reviews. It's not cheap and it's not a 10-minute build \u2014 I'm not going to pretend otherwise. But for a nursery closet, an older home, or anything under 6 feet, it solved what generic kits couldn't. Full breakdown + link in bio.",
+    "hashtags": [
+      "#smallclosetsystem",
+      "#reachincloset",
+      "#closetorganization",
+      "#nurserycloset",
+      "#closetmakeover",
+      "#smallspacesolutions",
+      "#organizedhome"
+    ],
+    "hook": "$179.99 closet system built for 5-foot spaces"
+  },
+  {
+    "name": "reel_repurpose_2026-08-10_903",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-10-903.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Not going to tell you these bins are perfect \u2014 they're not. At $13.99 for six ($2.33 each), the material is thinner than a rigid bin 3-4x the price, and the reviews back that up at 4.0 stars. But for a dorm room, shared closet, or studio where you're still figuring out your actual storage problem, six flexible bins that move between a shelf, a dresser, and under the bed beat committing to a fixed system you might not need. Link in bio.",
+    "hashtags": [
+      "#dormroomessentials",
+      "#dormroomorganization",
+      "#collegedorm",
+      "#budgetorganization",
+      "#smallspacehacks",
+      "#studioapartment",
+      "#closetbins"
+    ],
+    "hook": "$13.99 for 6 bins = $2.33 each"
+  },
+  {
+    "name": "reel_repurpose_2026-08-10_904",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-10-904.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "The gap between your closet rod and the ceiling is free real estate you're not using \u2014 I wasn't either until I added these. $22.49, stick-on, no drilling, so it works even in a rental where you can't touch the walls. Just don't load them up like a rigid shelf \u2014 they're rated for shoes and folded items, not stacked bins or heavy knits. 260 reviews, 4.6 stars. Link in bio for the exact ones.",
+    "hashtags": [
+      "#renterfriendly",
+      "#nodrillorganization",
+      "#floatingshelf",
+      "#apartmenthacks",
+      "#smallclosetideas",
+      "#dormroomdecor",
+      "#verticalstorage"
+    ],
+    "hook": "$22.49 shelves that need zero drilling"
+  },
+  {
+    "name": "reel_repurpose_2026-08-10_905",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-10-905.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "I don't have a closet in my apartment \u2014 a lot of studios and older homes just skip one. This $35.99 rack (4.5 stars, 379 reviews) gave me 7 hooks and 3 shelves against a bare wall, which is basically a mini closet substitute. It's not a replacement if you've got more than a coat and a couple of bags \u2014 reviewers use it for entryway coats, and so do I. But if you're working with zero closet space, this is the pick that actually assumes that. Full list in bio.",
+    "hashtags": [
+      "#noclosetsolutions",
+      "#studioapartment",
+      "#entrywayorganization",
+      "#halltree",
+      "#smallspaceliving",
+      "#apartmenttherapy",
+      "#freestandingcloset"
+    ],
+    "hook": "No closet? This $35.99 rack is your closet"
   }
 ]
