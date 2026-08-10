@@ -2251,3 +2251,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** social/carousels/2026-08-10-B01M16WBW1/slide-1.png, social/carousels/2026-08-10-B01M16WBW1/slide-2.png, social/carousels/2026-08-10-B01M16WBW1/slide-3.png, social/carousels/2026-08-10-B01M16WBW1/slide-4.png, social/carousels/2026-08-10-B01M16WBW1/slide-5.png, social/post_queue.json
 **External actions:** Pexels (4 photos) + Claude CLI (slide content)
 **Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B01M16WBW1 carousel.
+
+## 2026-08-10T10:13:20Z — Pinterest Pipeline
+**Ran:** Generated 4 pin(s) for the Pinterest traffic engine
+**Changed:** social/pinterest_queue.json
+**External actions:** Pexels (backgrounds) + Claude CLI (pin copy)
+**Next agent hint:** post_pinterest.py (Pi) drains pinterest_queue.json once a Pinterest business account is logged into the Pi Chromium profile.
