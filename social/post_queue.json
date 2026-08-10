@@ -4990,5 +4990,29 @@
     "keyword": "ETEKCITY",
     "queued_at": "2026-08-09T07:45:38.954379Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_2026-08-10_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-10-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "450,137 reviews on a $24.99 sheet set. That number is the whole story.\n\nSheets are one of those purchases where the reviews actually matter, because everyone sleeps on them and everyone has an opinion the next morning. A product can pick up a few thousand reviews on hype alone. It does not reach 450,137 without years of people buying it, sleeping on it, and coming back to say something.\n\nThis is a queen size 4 piece sheet set, so it covers the full bed in one purchase instead of hunting for matching pieces. Sitting at 4.5 stars across 450,137 reviews means the average is holding steady at that scale, which is much harder than a high rating on a few hundred.\n\nIf you need a queen set that a very large number of people have already vetted, this is the low-risk pick at $24.99.\n\nComment QUEEN and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Queen Size 4 Piece Sheet Set",
+      "dm_keyword": "QUEEN",
+      "amazon_asin": "B01M16WBW1",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01M16WBW1?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "450,137 reviews on a $24.99 sheet set. That number is the whole story."
   }
 ]
