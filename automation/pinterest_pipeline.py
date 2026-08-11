@@ -483,8 +483,21 @@ def main() -> int:
     DROPS = price_drops_map()
     reg = load_json(REGISTRY_PATH, {})
     entries = registry_entries(reg)
-    # Pin genuine price drops first — highest intent, and uniquely ours.
-    entries.sort(key=lambda e: 0 if e.get("asin") in DROPS else 1)
+    # Priority for the back-to-college sprint (Associates deadline ~2026-09-17):
+    #   1. verified price drops  — highest intent, and data only we have
+    #   2. dorm/college products — mid-August is peak move-in and it is the one moment
+    #      our category, real search demand and buying season line up
+    #   3. everything else
+    # Without this the generator just walks the registry in insertion order, so the dorm
+    # products (newest, therefore last) never got pinned at all.
+    def _priority(e):
+        if e.get("asin") in DROPS:
+            return 0
+        cats = [c.lower() for c in (e.get("categories") or [])]
+        if "dorm" in cats or "college" in cats:
+            return 1
+        return 2
+    entries.sort(key=_priority)
     if not entries:
         print("ERROR: no registry entries", file=sys.stderr)
         return 1
