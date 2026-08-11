@@ -1004,5 +1004,61 @@
     "posted": false,
     "source": "pinterest_pipeline",
     "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-08-11-B00FXNABPI",
+    "asin": "B00FXNABPI",
+    "board": "Home Organization Finds",
+    "title": "Slim Velvet Hangers for Closet Space Saving Organization",
+    "description": "Maximize closet space with slim velvet non-slip hangers built for suits, shirts, and dresses. The ultra-thin design frees up rod space so you can fit more clothes without overcrowding, while the velvet finish keeps garments from slipping off. A simple closet organization upgrade for small spaces, shared closets, or apartment living. Tap through to see sizing and color options before you shop. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B00FXNABPI?tag=goldenhomep06-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-08-11-B00FXNABPI.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-11-B00FXNABPI.png",
+    "queued_at": "2026-08-11T10:28:38.420944Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-08-11-B0DGF616XN",
+    "asin": "B0DGF616XN",
+    "board": "Home Organization Finds",
+    "title": "Heavy Duty Moving Bags with Zipper - Closet & Storage Organizer, 6 Pack",
+    "description": "These extra heavy duty moving bags make packing and storage so much easier. Each large zippered bag holds bulky items like linens, clothes, and closet clutter, perfect for moving day, dorm move-ins, or seasonal storage under the bed or in a closet. The reinforced zipper and durable fabric hold up to repeated use. Tap through to see the 6 pack set and sizing details. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://goldenhomeproject.com/blog/posts/best-storage-bins.html",
+    "image_path": "social/pinterest/pin-2026-08-11-B0DGF616XN.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-11-B0DGF616XN.png",
+    "queued_at": "2026-08-11T10:29:18.188765Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-08-11-B07712H557",
+    "asin": "B07712H557",
+    "board": "Home Organization Finds",
+    "title": "Command Hooks Variety Pack - Damage-Free Adhesive Wall Hooks Organizer",
+    "description": "Command Variety Pack makes damage-free organizing easy in every room. This adhesive hook and strip set holds towels, coats, cords, and kitchen tools without nails, screws, or wall damage - perfect for renters, dorms, and small spaces. Assorted sizes let you organize closets, bathrooms, entryways, and command centers with clean removable holding power. Tap through to see the full variety pack and sizes available. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://goldenhomeproject.com/blog/posts/best-dorm-room-essentials.html",
+    "image_path": "social/pinterest/pin-2026-08-11-B07712H557.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-11-B07712H557.png",
+    "queued_at": "2026-08-11T10:29:28.638817Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-08-11-B0C3QZ7SNF",
+    "asin": "B0C3QZ7SNF",
+    "board": "Kitchen Organization Ideas",
+    "title": "Kitchen Sink Sponge Holder - Sponge & Soap Caddy Organizer",
+    "description": "Tired of a soggy sponge sitting in a puddle by the faucet? This kitchen sink sponge holder keeps your sponge, scrubber, and soap dish off the counter and dishwater-free. The compact caddy fits neatly at the back of the sink or attaches nearby, draining water so sponges dry faster and last longer. A simple upgrade for anyone organizing a small kitchen sink area or tackling counter clutter. Tap through for sizing and install details. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B0C3QZ7SNF?tag=goldenhomep06-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-08-11-B0C3QZ7SNF.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-11-B0C3QZ7SNF.png",
+    "queued_at": "2026-08-11T10:29:56.924368Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
   }
 ]
