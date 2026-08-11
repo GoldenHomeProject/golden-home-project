@@ -1,0 +1,48 @@
+{
+  "captured_at": "2026-08-11",
+  "category": "Dorm",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-dorm-room-essentials.html",
+  "picks": [
+    {
+      "asin": "B09SZ9T4MV",
+      "name": "EUDELE Mesh Shower Caddy Portable for College Dorm Room Essentials",
+      "price": "$8.99",
+      "rating": 4.6,
+      "reviews": 7557,
+      "rank": null
+    },
+    {
+      "asin": "B07712H557",
+      "name": "Command Variety Pack",
+      "price": "$14.84",
+      "rating": 4.7,
+      "reviews": 11579,
+      "rank": null
+    },
+    {
+      "asin": "B07SYPLVTG",
+      "name": "YOUDENOVA Hanging Closet Organizer and Storage",
+      "price": "$18.98",
+      "rating": 4.5,
+      "reviews": 17274,
+      "rank": null
+    },
+    {
+      "asin": "B0FVW1TNH8",
+      "name": "Floating Shelves for Bedside Shelf",
+      "price": "$22.49",
+      "rating": 4.6,
+      "reviews": 260,
+      "rank": null
+    },
+    {
+      "asin": "B0DP76RZDR",
+      "name": "Molutsody Under Bed Storage with Wheels",
+      "price": "$29.99",
+      "rating": 4.6,
+      "reviews": 662,
+      "rank": null
+    }
+  ]
+}

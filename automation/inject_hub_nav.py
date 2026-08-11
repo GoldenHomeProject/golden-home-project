@@ -35,9 +35,27 @@ MARK_CLOSE = "<!-- hub-nav:end -->"
 BLOCK_RE = re.compile(re.escape(MARK_OPEN) + r".*?" + re.escape(MARK_CLOSE), re.S)
 
 
+def all_hubs() -> list[tuple[str, str]]:
+    """(slug, label) for every hub page on disk, not just the daily rotation.
+
+    Seasonal hubs (e.g. best-dorm-room-essentials, built for the back-to-college window)
+    live outside EVERGREEN, and a hub nobody links to is an orphan — the exact condition
+    that left 13 pages "Discovered - currently not indexed".
+    """
+    hubs = {slug: query for _c, (slug, query) in EVERGREEN.items()}
+    for page in sorted(POSTS.glob("best-*.html")):
+        if page.stem in hubs:
+            continue
+        m = re.search(r"<title>([^<|]+)", page.read_text())
+        label = (m.group(1).split(":")[0].strip() if m
+                 else page.stem.replace("-", " ").title())
+        hubs[page.stem] = label
+    return sorted(hubs.items(), key=lambda kv: kv[1])
+
+
 def nav_html(exclude_slug: str | None, heading: str) -> str:
     links = []
-    for _cat, (slug, query) in sorted(EVERGREEN.items(), key=lambda kv: kv[1][1]):
+    for slug, query in all_hubs():
         if slug == exclude_slug:
             continue
         label = query.title().replace(" And ", " and ")
@@ -83,7 +101,7 @@ def main() -> int:
     changed = 0
 
     # 1. hub -> hub cluster
-    for _cat, (slug, _q) in EVERGREEN.items():
+    for slug, _q in all_hubs():
         page = POSTS / f"{slug}.html"
         block = nav_html(exclude_slug=slug, heading="More Golden Home Project guides")
         if upsert(page, block, r'<div class="faq-section">|</body>', after=False, dry=args.dry_run):

@@ -1835,6 +1835,91 @@
       "verified_stars": "4.5",
       "verified_reviews": 51190,
       "source": "trending"
+    },
+    {
+      "asin": "B07SYPLVTG",
+      "product_name": "YOUDENOVA Hanging Closet Organizer and Storage, 6-Shelf, Grey | Dorm Room Essentials for Guys, Clothes Organizer with 2 Side Pockets, Hangin",
+      "categories": [
+        "dorm",
+        "college",
+        "organization"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B07SYPLVTG?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-08-11",
+      "verified_method": "source_dorm/search+dp",
+      "verified_price": "$18.98",
+      "verified_stars": "4.5",
+      "verified_reviews": 17274,
+      "discovery_source": "back_to_college_2026"
+    },
+    {
+      "asin": "B0DP76RZDR",
+      "product_name": "Molutsody Under Bed Storage with Wheels, 2-Pack Underbed Storage Containers with Clear Lids, Under Bed Shoe Storage Organizer, Rolling Under",
+      "categories": [
+        "dorm",
+        "college",
+        "organization"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0DP76RZDR?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-08-11",
+      "verified_method": "source_dorm/search+dp",
+      "verified_price": "$29.99",
+      "verified_stars": "4.6",
+      "verified_reviews": 662,
+      "discovery_source": "back_to_college_2026"
+    },
+    {
+      "asin": "B0GN1TZZ9W",
+      "product_name": "WALI Desk File Organizer, 4 Tier Desktop Paper Letter Tray Organizer with Drawer and 2 Pen Holders, Office Desk Accessories & Workspace Orga",
+      "categories": [
+        "dorm",
+        "college",
+        "organization"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0GN1TZZ9W?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-08-11",
+      "verified_method": "source_dorm/search+dp",
+      "verified_price": "$17.99",
+      "verified_stars": "4.6",
+      "verified_reviews": 4455,
+      "discovery_source": "back_to_college_2026"
+    },
+    {
+      "asin": "B09GBDQVGY",
+      "product_name": "Lifewit 5 Tier Hanging Portable Closet Storage Organizer for Shelves, Gray | Foldable Clothes Shelf with 2 Sturdy Hooks, Sweater/Coat/Shoes ",
+      "categories": [
+        "dorm",
+        "college",
+        "organization"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B09GBDQVGY?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-08-11",
+      "verified_method": "source_dorm/search+dp",
+      "verified_price": "$12.99",
+      "verified_stars": "4.5",
+      "verified_reviews": 1717,
+      "discovery_source": "back_to_college_2026"
+    },
+    {
+      "asin": "B07177XJK7",
+      "product_name": "Mesh Shower Caddy Portable - 9 Pockets, Shower Bag for Dorm Room Camping | 2 Handle Quick Dry Shower Bag College Dorm Room Essentials Large ",
+      "categories": [
+        "dorm",
+        "college",
+        "organization"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B07177XJK7?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-08-11",
+      "verified_method": "source_dorm/search+dp",
+      "verified_price": "$6.83",
+      "verified_stars": "4.6",
+      "verified_reviews": 7450,
+      "discovery_source": "back_to_college_2026"
     }
   ]
 }
