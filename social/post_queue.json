@@ -5107,10 +5107,10 @@
   },
   {
     "name": "reel_2026-08-11_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-08-11-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-11-001.mp4",
     "caption": "If you rent and can't touch the closet, start with the hangers instead.\n\nRented closets come with one rod and no permission to add shelves, so the only variable you control is what hangs on it. Bulky plastic and wooden hangers each claim their own slice of rail, which is why a rod looks full long before the closet actually is. Slim velvet hangers attack the one dimension a lease lets you change: thickness.\n\nThese are slim velvet non-slip hangers built to save space on the rod, sized for suits and everyday clothes, with the velvet surface keeping garments from sliding off. At 4.8 stars across 235,029 reviews, this is one of the most heavily reviewed hanger sets on Amazon \u2014 a rating that holds up at that volume usually means the basics are consistent, not lucky.\n\nSame rod, same lease, noticeably more usable rail \u2014 and clothes that stay where you put them. The set runs $20.99.\n\nComment SUIT and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -5127,7 +5127,8 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "If you rent and can't touch the closet, start with the hangers instead."
+    "hook": "If you rent and can't touch the closet, start with the hangers instead.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-11-001.mp4"
   },
   {
     "id": "carousel-2026-08-11-B00FXNAAW2",
