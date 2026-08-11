@@ -50,7 +50,8 @@ def type_key(title: str) -> str:
     t = title.lower()
     for k in ("shower caddy", "closet organizer", "storage bin", "floating shelf",
               "shelves", "drawer organizer", "desk organizer", "hamper", "shoe rack",
-              "hanger", "command", "bed riser", "under bed", "squeegee", "rug"):
+              "hanger", "command", "bed riser", "under bed", "squeegee", "rug",
+              "extension cord", "desk lamp", "mattress", "hooks", "cart"):
         if k in t:
             return k
     return t[:18]
@@ -80,7 +81,13 @@ def pick_products(limit: int) -> list[dict]:
     out, seen = [], set()
     for e in pool:
         asin, name = e.get("asin"), (e.get("product_name") or "")
-        if not asin or asin in seen or not DORM_TERMS.search(name):
+        cats = [c.lower() for c in (e.get("categories") or [])]
+        # Products sourced by source_dorm.py carry a "dorm" category. Their titles often
+        # don't say "dorm" at all (an extension cord, a Twin XL mattress pad, a desk lamp)
+        # yet they're exactly what a move-in list needs, so trust the sourcing intent as
+        # well as the title.
+        is_dorm = ("dorm" in cats or "college" in cats) or bool(DORM_TERMS.search(name))
+        if not asin or asin in seen or not is_dorm:
             continue
         pv, st = price_val(e.get("verified_price")), stars_val(e.get("verified_stars"))
         if pv is None or not (td.MIN_PRICE <= pv <= td.MAX_PRICE):
@@ -112,7 +119,7 @@ def main() -> int:
     args = ap.parse_args()
 
     td.EVERGREEN[CATEGORY] = ("best-dorm-room-essentials", "dorm room essentials")
-    picks = pick_products(td.PICKS_PER_POST)
+    picks = pick_products(10)
     if len(picks) < 3:
         print(f"[dorm] only {len(picks)} qualifying products — not publishing a thin page")
         return 0

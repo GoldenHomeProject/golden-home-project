@@ -24,12 +24,18 @@ from asin_discoverer import REGISTRY_PATH, UA, search_amazon, verify_dp  # noqa:
 
 CANARY = "B00FLYWNYQ"
 QUERIES = [
-    "dorm room organizer",
-    "college dorm storage bins",
-    "dorm desk organizer",
-    "under bed storage dorm",
-    "dorm closet organizer hanging",
-    "shower caddy college dorm",
+    # Round 1 (2026-08-11) sourced closet/under-bed/desk/caddy. These cover the rest of a
+    # move-in list, using the phrasing students actually search during August.
+    "dorm room essentials",
+    "dorm bed risers",
+    "dorm laundry hamper collapsible",
+    "over the door hooks dorm",
+    "dorm drawer organizer",
+    "dorm room storage cart",
+    "shoe organizer dorm closet",
+    "dorm desk lamp clip",
+    "dorm bathroom organizer",
+    "mattress topper twin xl dorm",
 ]
 MIN_PRICE, MAX_PRICE, MIN_STARS, MIN_REVIEWS = 5.0, 35.0, 4.5, 500
 
