@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-08-12T07:06:38.610640Z",
+  "date": "2026-08-12",
+  "seq": 1,
+  "hook_category": "audience_fit",
+  "hook": "Renting a closet the size of a coat pocket? Start with the hangers.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Tight vertical shot of a cramped rental closet rod jammed with mismatched bulky plastic and wooden hangers, clothes compressed together, soft natural window light",
+      "on_screen_text": "SMALL RENTAL CLOSET?",
+      "voiceover": "Renting a closet the size of a coat pocket? Start with the hangers."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Close-up hand sliding a thick wooden hanger and a chunky plastic hanger along a rod, showing how much width each one occupies, shallow depth of field",
+      "on_screen_text": "BULKY HANGERS EAT INCHES",
+      "voiceover": "You can't knock out a wall or install a custom system. The only thing you control is what's on the rod."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Side-by-side comparison on one rod: bulky hangers on the left, thin velvet hangers on the right, clearly showing the narrower profile and extra space gained",
+      "on_screen_text": "SLIM PROFILE = MORE ROOM",
+      "voiceover": "Amazon Basics slim velvet hangers hold suits and clothes on a narrow profile, so more garments fit on the same rod."
+    },
+    {
+      "n": 4,
+      "duration_sec": 5,
+      "visual_prompt": "Extreme close-up of a silky camisole strap and a shirt shoulder gripped on the velvet surface of a slim hanger, fabric staying in place, warm soft lighting",
+      "on_screen_text": "4.8 STARS \u00b7 235,105 REVIEWS",
+      "voiceover": "The velvet surface keeps straps and shoulders from sliding off. And 4.8 stars across 235,105 reviews means this design has been stress-tested in an enormous number of real closets."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Finished vertical shot of a tidy closet rod with evenly spaced garments on uniform slim velvet hangers, visible empty rod space at the end, bright clean lighting",
+      "on_screen_text": "$20.99",
+      "voiceover": "A rod that holds more without changing anything permanent, and clothes that stay where you hung them. Twenty ninety-nine."
+    }
+  ],
+  "caption": "Renting a closet the size of a coat pocket? Start with the hangers.\n\nWhen you can't knock out a wall or install a custom system, the only variable you control is what's on the rod. Bulky plastic and wooden hangers eat horizontal inches, and every inch they take is a shirt that doesn't fit. Slim velvet hangers are the one closet upgrade a landlord will never notice.\n\nThese are Amazon Basics slim velvet non-slip hangers, built to hold suits and clothes on a narrow profile so more garments fit on the same rod, with a velvet surface that keeps straps and shoulders from sliding off. They carry a 4.8-star rating across 235,105 reviews \u2014 a volume that means this design has been stress-tested in an enormous number of real closets, not just a handful.\n\nYou get a rod that holds more without moving anything permanent, and clothes that stay where you hung them. The set runs $20.99.\n\nComment CLOTHES and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "These are Amazon Basics slim velvet non-slip hangers, built to hold suits and clothes on a narrow profile so more garments fit on the same rod, with a velvet surface that keeps straps and shoulders fr",
+  "affiliate_strategy": {
+    "primary_product": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers",
+    "dm_keyword": "CLOTHES",
+    "amazon_asin": "B00FXNAAW2",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B00FXNAAW2?tag=goldenhomep06-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": null
+  }
+}
