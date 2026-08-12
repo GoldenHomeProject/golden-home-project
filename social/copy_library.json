@@ -1021,6 +1021,52 @@
           }
         ]
       }
+    ],
+    "UTOPIA": [
+      {
+        "hook_category": "use_case",
+        "hook": "Throw pillows go flat because the insert is the cheap part nobody replaces.",
+        "beat1": "The cover you picked out is usually fine \u2014 it's the sagging insert underneath doing the damage. Swapping inserts is the low-effort move: your existing 18x18 covers stay, the shape underneath gets fixed. It's the difference between a cushion that slumps into the corner of the couch and one that actually holds a corner.",
+        "turn": "These are 18x18 pillow inserts from Utopia Bedding, sized to fill standard 18-inch covers. They sit at 4.6 stars across 218,241 reviews \u2014 a volume that reads less like a trend and more like a staple people reorder as covers accumulate.",
+        "result": "Keep the covers you already own and give them structure again, at $12.89.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close-up of a flat, creased throw pillow slumped in the corner of a sofa, soft daylight from a window, neutral living room",
+            "on_screen_text": "IT'S NOT THE COVER",
+            "voiceover": "Throw pillows go flat because the insert is the cheap part nobody replaces."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Hands unzipping a decorative pillow cover and pulling out a limp, thin old insert, side lighting, tight framing",
+            "on_screen_text": "THE PART UNDERNEATH",
+            "voiceover": "The cover you picked out is usually fine. It's the sagging insert underneath doing the damage."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Overhead shot of a stack of plain white square pillow inserts beside folded decorative covers on a bed",
+            "on_screen_text": "SWAP, DON'T REBUY",
+            "voiceover": "Swapping inserts is the low-effort move. Your existing eighteen by eighteen covers stay, the shape underneath gets fixed."
+          },
+          {
+            "n": 4,
+            "duration_sec": 5,
+            "visual_prompt": "Product-style shot of white 18x18 pillow inserts on a clean surface, a rating graphic and review count animating in beside them",
+            "on_screen_text": "4.6 STARS \u00b7 218,241 REVIEWS",
+            "voiceover": "These are Utopia Bedding eighteen by eighteen inserts, sized for standard eighteen inch covers. At four point six stars across two hundred eighteen thousand reviews, that volume reads less like a trend and more like a staple people reorder as covers accumulate."
+          },
+          {
+            "n": 5,
+            "duration_sec": 4,
+            "visual_prompt": "Refilled throw pillows standing upright with defined corners on a styled sofa, warm evening light, price tag graphic in corner",
+            "on_screen_text": "$12.89",
+            "voiceover": "Keep the covers you already own and give them structure again, at twelve eighty-nine."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
