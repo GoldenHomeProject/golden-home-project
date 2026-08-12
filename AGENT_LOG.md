@@ -2317,3 +2317,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** automation/scripts/reel-2026-08-12-*.json, social/post_queue.json
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: audience_fit: Renting a closet the size of a coat pocket? Start
+
+## 2026-08-12T08:10:19Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B085DTZQNZ (Owala FreeSip Stainless Steel Water Bott)
+**Changed:** social/carousels/2026-08-12-B085DTZQNZ/slide-1.png, social/carousels/2026-08-12-B085DTZQNZ/slide-2.png, social/carousels/2026-08-12-B085DTZQNZ/slide-3.png, social/carousels/2026-08-12-B085DTZQNZ/slide-4.png, social/carousels/2026-08-12-B085DTZQNZ/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B085DTZQNZ carousel.
