@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-08-12",
+  "category": "Bath",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-bathroom-essentials.html",
+  "picks": [
+    {
+      "asin": "B08QRFZ6TH",
+      "name": "Barossa Design Premium Shower Curtain Liner Standard Size",
+      "price": "$8.95",
+      "rating": 4.5,
+      "reviews": 99346,
+      "rank": 1
+    },
+    {
+      "asin": "B01HI1W1V4",
+      "name": "Etekcity Digital Body Weight Bathroom Scale",
+      "price": "$16.87",
+      "rating": 4.7,
+      "reviews": 349254,
+      "rank": 9
+    },
+    {
+      "asin": "B09SZ9T4MV",
+      "name": "EUDELE Mesh Shower Caddy Portable for College Dorm Room Essentials",
+      "price": "$9.99",
+      "rating": 4.6,
+      "reviews": 7710,
+      "rank": 10
+    },
+    {
+      "asin": "B00R55CIRQ",
+      "name": "Clorox Corner Toilet Bowl Brush with Under Rim Scrubber",
+      "price": "$8.79",
+      "rating": 4.6,
+      "reviews": 5683,
+      "rank": 17
+    },
+    {
+      "asin": "B09ZYRCNJH",
+      "name": "Utopia Towels 12 Pack Washcloths",
+      "price": "$9.99",
+      "rating": 4.6,
+      "reviews": 74893,
+      "rank": 22
+    },
+    {
+      "asin": "B08S31RWBK",
+      "name": "Hicober Microfiber Hair Towel Wrap for Women",
+      "price": "$12.99",
+      "rating": 4.6,
+      "reviews": 34707,
+      "rank": 33
+    }
+  ]
+}
