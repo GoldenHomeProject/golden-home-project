@@ -4,11 +4,11 @@
     "lifetime_follows": 21,
     "lifetime_likes": 33,
     "lifetime_comments": 7,
-    "last_session": "comments-2026-08-13T1407Z",
+    "last_session": "outreach-2026-08-13T1811Z",
     "blocked_at": null,
-    "last_updated": "2026-08-13T14:12:34Z",
-    "total_actions": 503,
-    "lifetime_dms": 27,
+    "last_updated": "2026-08-13T18:11:53Z",
+    "total_actions": 504,
+    "lifetime_dms": 28,
     "lifetime_comments_outbound": 30
   },
   "actions": [
@@ -20058,6 +20058,15 @@
       "target": "shiragill",
       "session": "comments-2026-08-13T1407Z",
       "reason": "claude_empty"
+    },
+    {
+      "timestamp": "2026-08-13T18:11:53Z",
+      "action": "dm_sent",
+      "target": "breathing.room.home",
+      "session": "outreach-2026-08-13T1811Z",
+      "body_chars": 734,
+      "thread_url": "https://www.instagram.com/breathing.room.home/",
+      "template_tag": "path_c_v2_affiliate_split"
     }
   ]
 }
