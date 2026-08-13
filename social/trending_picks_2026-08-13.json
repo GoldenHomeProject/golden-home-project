@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-08-13",
+  "category": "Cleaning",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-cleaning-supplies.html",
+  "picks": [
+    {
+      "asin": "B00W5D1MDE",
+      "name": "Clorox Toilet Bowl Cleaner Clinging Bleach Gel",
+      "price": "$5.24",
+      "rating": 4.8,
+      "reviews": 44557,
+      "rank": 7
+    },
+    {
+      "asin": "B000ST1DZO",
+      "name": "Drano Max Gel Drain Clog Remover & Cleaner",
+      "price": "$5.17",
+      "rating": 4.5,
+      "reviews": 76061,
+      "rank": 19
+    },
+    {
+      "asin": "B0C1DWC251",
+      "name": "Swiffer PowerMop Mopping Kit for Floor Cleaning",
+      "price": "$26.94",
+      "rating": 4.5,
+      "reviews": 46030,
+      "rank": 24
+    },
+    {
+      "asin": "B00SXC85IQ",
+      "name": "Affresh Dishwasher Cleaner",
+      "price": "$8.97",
+      "rating": 4.6,
+      "reviews": 80452,
+      "rank": 27
+    },
+    {
+      "asin": "B085DTZQNZ",
+      "name": "Owala FreeSip Stainless Steel Water Bottle 24 oz Very",
+      "price": "$29.99",
+      "rating": 4.6,
+      "reviews": 133673,
+      "rank": 1
+    },
+    {
+      "asin": "B08CVT84C9",
+      "name": "Bentgo Chill Kids 4-Compartment Bento Box Leakproof Lunch Box",
+      "price": "$32.99",
+      "rating": 4.6,
+      "reviews": 18970,
+      "rank": 3
+    }
+  ]
+}
