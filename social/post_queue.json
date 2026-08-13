@@ -5133,5 +5133,29 @@
     "keyword": "LINK",
     "queued_at": "2026-08-12T08:10:19.297619Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_2026-08-13_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-13-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Throw pillows go flat because the insert is the cheap part nobody replaces.\n\nThe cover you picked out is usually fine \u2014 it's the sagging insert underneath doing the damage. Swapping inserts is the low-effort move: your existing 18x18 covers stay, the shape underneath gets fixed. It's the difference between a cushion that slumps into the corner of the couch and one that actually holds a corner.\n\nThese are 18x18 pillow inserts from Utopia Bedding, sized to fill standard 18-inch covers. They sit at 4.6 stars across 218,241 reviews \u2014 a volume that reads less like a trend and more like a staple people reorder as covers accumulate.\n\nKeep the covers you already own and give them structure again, at $12.89.\n\nComment UTOPIA and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Utopia Bedding 18x18 Pillow Inserts",
+      "dm_keyword": "UTOPIA",
+      "amazon_asin": "B01NBNDC1T",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01NBNDC1T?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Throw pillows go flat because the insert is the cheap part nobody replaces."
   }
 ]
