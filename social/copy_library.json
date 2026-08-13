@@ -1067,6 +1067,52 @@
           }
         ]
       }
+    ],
+    "SIZE": [
+      {
+        "hook_category": "proof",
+        "hook": "451,219 reviews is more feedback than most furniture brands get in a decade.",
+        "beat1": "Sheets are one of the few things in a home that get used every single night, so the review count on a set like this isn't a vanity number \u2014 it's a very large sample of people reporting back after real use. When a product crosses 451,219 ratings and still holds 4.5 stars, the average isn't being propped up by a handful of enthusiastic buyers. It means the complaints exist and are still outnumbered.",
+        "turn": "It's a queen size 4 piece sheet set, so it covers the whole bed in one purchase instead of hunting down pieces separately. A 4.5 star average across 451,219 reviews points to a product that performs consistently rather than one that happens to work for a narrow group of buyers.",
+        "result": "You get a full queen bed's worth of sheets backed by one of the largest review pools on Amazon, at $24.99.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close overhead shot of a neatly made queen bed in soft morning light, crisp sheet corners visible, calm neutral bedroom",
+            "on_screen_text": "451,219 REVIEWS",
+            "voiceover": "Four hundred fifty one thousand reviews is more feedback than most furniture brands get in a decade."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Slow push-in on rumpled bedding, hands smoothing a fitted sheet over a mattress corner",
+            "on_screen_text": "USED EVERY NIGHT",
+            "voiceover": "Sheets are one of the few things in a home that get used every single night, so that number isn't decoration. It's a very large sample of people reporting back after real use."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Static shot of a bed being made, pillowcase being slipped on, soft window light across the fabric",
+            "on_screen_text": "4.5 STARS, HALF A MILLION VOICES",
+            "voiceover": "When something crosses that many ratings and still holds four and a half stars, the average isn't being propped up by a handful of enthusiastic buyers. The complaints exist and are still outnumbered."
+          },
+          {
+            "n": 4,
+            "duration_sec": 5,
+            "visual_prompt": "Flat lay of four folded sheet pieces stacked on a bed, clean and simple styling",
+            "on_screen_text": "QUEEN, 4 PIECES",
+            "voiceover": "It's a queen size four piece set, so it covers the whole bed in one purchase instead of hunting down pieces separately. That consistency is what a rating like this actually measures."
+          },
+          {
+            "n": 5,
+            "duration_sec": 4,
+            "visual_prompt": "Wide shot of the finished made bed, pulling back slowly to reveal the full bedroom",
+            "on_screen_text": "$24.99",
+            "voiceover": "A full queen bed's worth of sheets, backed by one of the largest review pools on Amazon, at twenty four ninety nine."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
