@@ -5148,5 +5148,29 @@
     "keyword": "UTOPIA",
     "queued_at": "2026-08-13T08:12:26.078747Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_2026-08-14_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-14-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "451,219 reviews is more feedback than most furniture brands get in a decade.\n\nSheets are one of the few things in a home that get used every single night, so the review count on a set like this isn't a vanity number \u2014 it's a very large sample of people reporting back after real use. When a product crosses 451,219 ratings and still holds 4.5 stars, the average isn't being propped up by a handful of enthusiastic buyers. It means the complaints exist and are still outnumbered.\n\nIt's a queen size 4 piece sheet set, so it covers the whole bed in one purchase instead of hunting down pieces separately. A 4.5 star average across 451,219 reviews points to a product that performs consistently rather than one that happens to work for a narrow group of buyers.\n\nYou get a full queen bed's worth of sheets backed by one of the largest review pools on Amazon, at $24.99.\n\nComment SIZE and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Queen Size 4 Piece Sheet Set",
+      "dm_keyword": "SIZE",
+      "amazon_asin": "B01M16WBW1",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01M16WBW1?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "451,219 reviews is more feedback than most furniture brands get in a decade."
   }
 ]
