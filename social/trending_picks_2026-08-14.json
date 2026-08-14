@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-08-14",
+  "category": "Kitchen",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-kitchen-gadgets.html",
+  "picks": [
+    {
+      "asin": "B085DTZQNZ",
+      "name": "Owala FreeSip Stainless Steel Water Bottle 24 oz Very",
+      "price": "$29.97",
+      "rating": 4.6,
+      "reviews": 133910,
+      "rank": 1
+    },
+    {
+      "asin": "B08CVT84C9",
+      "name": "Bentgo Chill Kids 4-Compartment Bento Box Leakproof Lunch Box",
+      "price": "$32.99",
+      "rating": 4.6,
+      "reviews": 18978,
+      "rank": 2
+    },
+    {
+      "asin": "B0CQVWT2NH",
+      "name": "HydroJug Traveler 40oz",
+      "price": "$31.99",
+      "rating": 4.6,
+      "reviews": 19397,
+      "rank": 5
+    },
+    {
+      "asin": "B0113UZJE2",
+      "name": "Etekcity Food Kitchen Scale",
+      "price": "$13.99",
+      "rating": 4.6,
+      "reviews": 176392,
+      "rank": 7
+    },
+    {
+      "asin": "B08NCVT244",
+      "name": "THERMOS FUNTAINER Kids Food Jar with Spoon",
+      "price": "$14.69",
+      "rating": 4.7,
+      "reviews": 48474,
+      "rank": 8
+    },
+    {
+      "asin": "B0B56CHMSC",
+      "name": "Lifewit Medium Lunch Bag",
+      "price": "$7.98",
+      "rating": 4.5,
+      "reviews": 61833,
+      "rank": 19
+    }
+  ]
+}
