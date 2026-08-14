@@ -1113,6 +1113,52 @@
           }
         ]
       }
+    ],
+    "DIGITAL": [
+      {
+        "hook_category": "proof",
+        "hook": "349,254 reviews on a bathroom scale. That is not an accident.",
+        "beat1": "Bathroom scales are the kind of thing people buy once, use daily, and complain about loudly when they read differently three times in a row. That is exactly the category where a review count in the hundreds of thousands matters more than a spec sheet. Volume like that comes from a product being bought, used, and re-bought across years of ordinary bathrooms.",
+        "turn": "The Etekcity Digital Body Weight Bathroom Scale is a digital scale that reads your body weight and displays it. Holding 4.7 stars across 349,254 reviews means the average experience stayed good long after the early adopters moved on \u2014 that rating is hard to hold at that scale unless the basics are consistent.",
+        "result": "You get a daily-use scale that a very large number of people rated well, without spending a lot to find out. It is $16.87.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close overhead shot of a plain digital bathroom scale on tile floor, soft morning light, minimal bathroom, no text on product",
+            "on_screen_text": "349,254 REVIEWS",
+            "voiceover": "349,254 reviews on a bathroom scale. That is not an accident."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Slow pan across a simple bathroom floor, scale tucked beside a vanity, neutral tones, documentary style",
+            "on_screen_text": "USED DAILY",
+            "voiceover": "A scale is something people use every single day, and complain about loudly when it reads differently three times in a row."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Split-style composition showing a review-count graphic bar growing, clean typographic motion over a blurred bathroom background",
+            "on_screen_text": "4.7 STARS",
+            "voiceover": "In that category, a review count in the hundreds of thousands tells you more than any spec sheet."
+          },
+          {
+            "n": 4,
+            "duration_sec": 5,
+            "visual_prompt": "Low angle of bare feet stepping onto a digital scale, display glowing, shallow depth of field, warm bathroom lighting",
+            "on_screen_text": "IT HOLDS UP",
+            "voiceover": "The Etekcity Digital Body Weight Bathroom Scale reads your body weight and shows it. Holding 4.7 stars across that many reviews means the basics stayed consistent long after the early buyers moved on."
+          },
+          {
+            "n": 5,
+            "duration_sec": 4,
+            "visual_prompt": "Product hero shot on clean white background, scale centered, price card graphic sliding in from the bottom",
+            "on_screen_text": "$16.87",
+            "voiceover": "A daily-use scale that a very large number of people rated well, for sixteen dollars and eighty-seven cents."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
