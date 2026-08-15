@@ -1159,6 +1159,52 @@
           }
         ]
       }
+    ],
+    "BODY": [
+      {
+        "hook_category": "proof",
+        "hook": "349,254 reviews is more than most cities have people.",
+        "beat1": "Bathroom scales are a category where almost nobody writes a review unless something goes wrong. This one has 349,254 of them and still sits at 4.7 stars. That ratio is the interesting part \u2014 a number that large usually drags an average down, not holds it up.",
+        "turn": "The Etekcity Digital Body Weight Bathroom Scale does one job: it's a digital scale you step on to read your weight. At 349,254 reviews and 4.7 stars, you're not gambling on a new listing \u2014 you're buying the thing hundreds of thousands of people already stress-tested for you.",
+        "result": "You get a scale with a track record instead of a guess, for $16.87.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close overhead shot of a flat digital bathroom scale on clean tile floor, soft daylight from a window, minimal bathroom, shallow depth of field",
+            "on_screen_text": "349,254 REVIEWS",
+            "voiceover": "349,254 reviews is more than most cities have people."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Slow push-in on the scale's dark glass surface, reflections of soft bathroom light, no feet in frame, calm neutral palette",
+            "on_screen_text": "NOBODY REVIEWS A SCALE",
+            "voiceover": "Bathroom scales are a category where almost nobody writes a review unless something goes wrong."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Animated star rating graphic filling to 4.7 over a blurred bathroom background, clean modern typography, subtle motion",
+            "on_screen_text": "4.7 STARS",
+            "voiceover": "This one has 349,254 of them and still sits at 4.7 stars. A number that large usually drags an average down."
+          },
+          {
+            "n": 4,
+            "duration_sec": 5,
+            "visual_prompt": "Product-style shot of the Etekcity digital body weight bathroom scale on a bathroom floor beside a folded towel, even studio-soft lighting, neutral background",
+            "on_screen_text": "ONE JOB, DONE",
+            "voiceover": "It does one job \u2014 a digital scale you step on to read your weight. You're not gambling on a new listing. Hundreds of thousands of people already stress-tested it for you."
+          },
+          {
+            "n": 5,
+            "duration_sec": 4,
+            "visual_prompt": "Final clean hero shot of the scale on tile, price card graphic sliding in from the lower third, bright and simple",
+            "on_screen_text": "$16.87",
+            "voiceover": "A scale with a track record instead of a guess, for sixteen dollars and eighty-seven cents."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
