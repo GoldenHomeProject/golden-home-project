@@ -5172,5 +5172,29 @@
     "keyword": "LINK",
     "queued_at": "2026-08-14T08:08:11.748721Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_2026-08-15_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-15-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "349,254 reviews on a bathroom scale. That is not an accident.\n\nBathroom scales are the kind of thing people buy once, use daily, and complain about loudly when they read differently three times in a row. That is exactly the category where a review count in the hundreds of thousands matters more than a spec sheet. Volume like that comes from a product being bought, used, and re-bought across years of ordinary bathrooms.\n\nThe Etekcity Digital Body Weight Bathroom Scale is a digital scale that reads your body weight and displays it. Holding 4.7 stars across 349,254 reviews means the average experience stayed good long after the early adopters moved on \u2014 that rating is hard to hold at that scale unless the basics are consistent.\n\nYou get a daily-use scale that a very large number of people rated well, without spending a lot to find out. It is $16.87.\n\nComment DIGITAL and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Etekcity Digital Body Weight Bathroom Scale",
+      "dm_keyword": "DIGITAL",
+      "amazon_asin": "B01HI1W1V4",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01HI1W1V4?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "349,254 reviews on a bathroom scale. That is not an accident."
   }
 ]
