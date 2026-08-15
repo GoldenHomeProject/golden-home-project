@@ -1384,5 +1384,61 @@
     "posted": false,
     "source": "pinterest_pipeline",
     "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-08-15-B0CQVWT2NH",
+    "asin": "B0CQVWT2NH",
+    "board": "Home Organization Finds",
+    "title": "HydroJug Traveler 40oz: Home Organization",
+    "description": "HydroJug Traveler 40oz is the home organization upgrade I wish I'd found sooner. 4.6\u2605 from 19,397 reviews \u00b7 $31.99. Tap through for the full breakdown and where to get it. Amazon affiliate \u2014 I may earn a small commission at no extra cost to you.",
+    "link": "https://goldenhomeproject.com/blog/posts/best-kitchen-gadgets.html",
+    "image_path": "social/pinterest/pin-2026-08-15-B0CQVWT2NH.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-15-B0CQVWT2NH.png",
+    "queued_at": "2026-08-15T10:10:49.265020Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-08-15-B0B1CNJL7N",
+    "asin": "B0B1CNJL7N",
+    "board": "Home Organization Finds",
+    "title": "upsimples 8x10 Picture Frame: Home Organization",
+    "description": "upsimples 8x10 Picture Frame is the home organization upgrade I wish I'd found sooner. 4.5\u2605 from 41,433 reviews \u00b7 $5.39. Tap through for the full breakdown and where to get it. Amazon affiliate \u2014 I may earn a small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B0B1CNJL7N?tag=goldenhomep06-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-08-15-B0B1CNJL7N.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-15-B0B1CNJL7N.png",
+    "queued_at": "2026-08-15T10:11:35.330798Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-08-15-B0D97YVVQ2",
+    "asin": "B0D97YVVQ2",
+    "board": "Home Organization Finds",
+    "title": "Portable Handheld Fan for Travel Bag & Car Organization Essentials",
+    "description": "Keep a compact cooling essential tucked into your travel bag, car console, or gym tote with this portable handheld turbo fan. A smart pick for anyone building an organized travel kit, car organization bin, or on-the-go essentials pouch \u2014 foldable, rechargeable, and small enough to slide into any bag organizer or glove box caddy. Tap through to see sizing and charging details before you add it to your packing list. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B0D97YVVQ2?tag=goldenhomep06-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-08-15-B0D97YVVQ2.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-15-B0D97YVVQ2.png",
+    "queued_at": "2026-08-15T10:11:51.398885Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-08-15-B0BNL5MBMY",
+    "asin": "B0BNL5MBMY",
+    "board": "Home Organization Finds",
+    "title": "Stick On Wall Hooks for Coats & Towels - Heavy Duty No-Drill Adhesive Hooks",
+    "description": "Looking for wall hooks that don't need drilling? These 13lb-rated stick-on hooks mount instantly on doors, closets, bathrooms, or entryways to hold coats, towels, robes, bags, and keys. The strong adhesive backing grips smooth surfaces without leaving holes, making them perfect for renters and small-space organization. A simple upgrade for a tidier mudroom or bathroom - tap through to see sizing and install tips. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B0BNL5MBMY?tag=goldenhomep06-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-08-15-B0BNL5MBMY.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-15-B0BNL5MBMY.png",
+    "queued_at": "2026-08-15T10:12:23.129256Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
   }
 ]
