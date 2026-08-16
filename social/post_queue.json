@@ -5196,5 +5196,29 @@
     "keyword": "LINK",
     "queued_at": "2026-08-15T07:22:46.952232Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_2026-08-16_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-16-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "349,254 reviews is more than most cities have people.\n\nBathroom scales are a category where almost nobody writes a review unless something goes wrong. This one has 349,254 of them and still sits at 4.7 stars. That ratio is the interesting part \u2014 a number that large usually drags an average down, not holds it up.\n\nThe Etekcity Digital Body Weight Bathroom Scale does one job: it's a digital scale you step on to read your weight. At 349,254 reviews and 4.7 stars, you're not gambling on a new listing \u2014 you're buying the thing hundreds of thousands of people already stress-tested for you.\n\nYou get a scale with a track record instead of a guess, for $16.87.\n\nComment BODY and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Etekcity Digital Body Weight Bathroom Scale",
+      "dm_keyword": "BODY",
+      "amazon_asin": "B01HI1W1V4",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01HI1W1V4?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "349,254 reviews is more than most cities have people."
   }
 ]
