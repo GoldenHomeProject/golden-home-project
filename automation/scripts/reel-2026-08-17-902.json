@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-08-17T09:35:14.326519Z",
+  "date": "2026-08-17",
+  "seq": 902,
+  "source": "repurpose",
+  "hook": "8 clear bins for $29.99 emptied my garage floor",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Floor covered in mismatched cardboard boxes, some soft and sagging from humidity",
+      "on_screen_text": "Cardboard boxes, gone soft from humidity",
+      "voiceover": "My old bins were basically falling apart."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of a torn box handle ripping as someone tries to lift it",
+      "on_screen_text": "Sound familiar?",
+      "voiceover": "Sagging, molding, lids that never actually sealed."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Unboxing an 8-pack of clear heavy-duty storage bins with reinforced handles, lining them up",
+      "on_screen_text": "$29.99 for 8 \u2014 under $4 a bin",
+      "voiceover": "8 bins, reinforced handles, 4.8 stars across 3,672 reviews."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Stacking the clear bins onto a floating shelf, contents like holiday lights and tools visible through the lids",
+      "on_screen_text": "See through the lid, skip the search",
+      "voiceover": "I find holiday lights in 5 minutes now, not 30."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Lifting a fully packed bin by its handle to demonstrate it holding weight without tearing",
+      "on_screen_text": "Reinforced handles hold real weight",
+      "voiceover": "Books, tools, decor \u2014 no tearing, no cracking."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Wide shot of the organized shelf full of matching bins, empty floor beneath it",
+      "on_screen_text": "Floor: empty. Shelf: full.",
+      "voiceover": "That's the whole trade."
+    },
+    {
+      "n": 7,
+      "duration_sec": 3,
+      "visual_prompt": "Text card with the full garage wall system in the background, softly blurred",
+      "on_screen_text": "Full $91 garage system on the blog.",
+      "voiceover": "Link in bio for the rest of the build."
+    }
+  ],
+  "caption": "The 8-pack of clear bins that got every box off my garage floor for $29.99 \u2014 4.8 stars across 3,672 reviews, and after using them I get why. Full breakdown on the blog.",
+  "hashtags": [
+    "#garagestorage",
+    "#clearbins",
+    "#declutter",
+    "#garageorganization",
+    "#storagesolutions",
+    "#momorganization"
+  ]
+}

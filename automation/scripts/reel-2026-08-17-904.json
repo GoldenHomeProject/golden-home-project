@@ -1,0 +1,60 @@
+{
+  "created_at": "2026-08-17T09:35:14.326897Z",
+  "date": "2026-08-17",
+  "seq": 904,
+  "source": "repurpose",
+  "hook": "The $19.99 piece that keeps my garage organized",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Keys dropped on the hood of a car, mail piled on a nearby counter",
+      "on_screen_text": "Where keys actually end up",
+      "voiceover": "Every day, same spot \u2014 the hood of my car."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Time-lapse of the pile of mail and keys growing over a week",
+      "on_screen_text": "This is how the whole system backslides.",
+      "voiceover": "Organize the shelves, ignore the door, and it's chaos again in a month."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Mounting a wall key holder with 6 hooks and a small shelf next to the garage door",
+      "on_screen_text": "$19.99 \u2014 6 hooks + a shelf",
+      "voiceover": "4.8 stars across 4,169 reviews, hardware sturdy enough for daily use."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Hanging keys on the hooks and setting mail on the small shelf",
+      "on_screen_text": "One home for keys. Every time.",
+      "voiceover": "The daily walk-through becomes the moment you put things away."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Wide shot a month later \u2014 the key holder is still neatly used, no pileup on the counter",
+      "on_screen_text": "Still organized a month later.",
+      "voiceover": "This $20 piece is why the rest of the system holds."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Text card with the full garage wall system visible behind it",
+      "on_screen_text": "Full $91 garage wall build on the blog.",
+      "voiceover": "Link in bio."
+    }
+  ],
+  "caption": "This $19.99 key holder is the smallest line item in my $91 garage wall system \u2014 and the reason the rest of it stayed organized. Blog has the full build.",
+  "hashtags": [
+    "#entrywayorganization",
+    "#keyholder",
+    "#garageorganization",
+    "#homeorganization",
+    "#declutter",
+    "#organizedhome"
+  ]
+}

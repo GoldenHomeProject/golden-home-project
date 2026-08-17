@@ -1,0 +1,68 @@
+{
+  "created_at": "2026-08-17T09:35:14.326201Z",
+  "date": "2026-08-17",
+  "seq": 901,
+  "source": "repurpose",
+  "hook": "I organized my garage wall for $91, not $2,000",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Panning shot across a cluttered garage floor: bins stacked three high on a collapsed shelf, a rake and two brooms leaning at odd angles, a coffee can of loose screws",
+      "on_screen_text": "My garage before: $0 spent, 0 things findable",
+      "voiceover": "This was my garage two weeks ago."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Hand pointing up at bare, empty wall space above the 4-foot line",
+      "on_screen_text": "The wall above 4ft? Completely free.",
+      "voiceover": "A slatwall installer wanted $2,000. I used the wall space instead."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Mounting floating shelves to the wall with a stud finder and drill, three shelves going up at staggered heights",
+      "on_screen_text": "$15.99 floating shelves \u2014 4.5\u2605 / 2,703 reviews",
+      "voiceover": "Three shelf sets, twenty minutes, no sagging."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Loading uniform clear plastic bins onto the mounted shelves, contents visible through the lids",
+      "on_screen_text": "$29.99 for 8 clear bins \u2014 4.8\u2605",
+      "voiceover": "Every bin looks the same now, and every bin is labeled by what's inside."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Close-up of a hand spinning a lazy Susan turntable loaded with paint cans on the shelf",
+      "on_screen_text": "$24.99 lazy Susans stop the digging",
+      "voiceover": "No more moving six things to find one."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Mounting a key holder with hooks and a small shelf next to the garage door, hanging keys on it",
+      "on_screen_text": "$19.99 key holder = the habit fix",
+      "voiceover": "This is the piece that keeps the whole system from backsliding."
+    },
+    {
+      "n": 7,
+      "duration_sec": 3,
+      "visual_prompt": "Wide reveal shot of the finished garage wall \u2014 shelves, bins, turntables, key holder, empty floor",
+      "on_screen_text": "Total: $90.96. Full breakdown on the blog.",
+      "voiceover": "Four products, one afternoon, under $91."
+    }
+  ],
+  "caption": "I stopped tripping over garage clutter for $90.96 \u2014 not $2,000 for a slatwall installer. Full parts list, prices, and review data on the blog (link in bio).",
+  "hashtags": [
+    "#garageorganization",
+    "#garagemakeover",
+    "#wallstorage",
+    "#smallspacesolutions",
+    "#organizedhome",
+    "#diyhomeorganization",
+    "#garagegoals"
+  ]
+}

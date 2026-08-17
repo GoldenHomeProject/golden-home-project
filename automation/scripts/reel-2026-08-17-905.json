@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-08-17T09:35:14.327056Z",
+  "date": "2026-08-17",
+  "seq": 905,
+  "source": "repurpose",
+  "hook": "Free storage on my wall beat a $2,000 slatwall quote",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Crowded garage floor with a car, bike, lawn mower, and stacked bins fighting for space",
+      "on_screen_text": "Floor space: fought over daily",
+      "voiceover": "My garage floor is basically a parking negotiation."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Camera pans up to reveal completely bare wall space above 4 feet",
+      "on_screen_text": "Wall space above 4ft: completely empty",
+      "voiceover": "This whole strip has been empty the entire time."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Split-screen graphic comparing a $2,000 slatwall installation quote against a $15.99 floating shelf price tag",
+      "on_screen_text": "Slatwall install: $2,000+. Shelves: $15.99.",
+      "voiceover": "I compared both \u2014 the shelf route wins on cost per square foot."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Mounting floating shelves with a stud finder and drill",
+      "on_screen_text": "20 minutes, one stud finder, done.",
+      "voiceover": "3-set floating shelves, 4.5 stars across 2,703 reviews."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Loading the shelf with heavy paint cans and tool bags, no sagging visible",
+      "on_screen_text": "Holds tool bags without sagging.",
+      "voiceover": "That's the actual failure point of cheap shelving \u2014 this one doesn't have it."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Wide shot of three shelf tiers mounted at different heights, fully loaded",
+      "on_screen_text": "Vertical storage, visible at a glance.",
+      "voiceover": "This is what a showroom wall looks like instead of a dumping ground."
+    },
+    {
+      "n": 7,
+      "duration_sec": 3,
+      "visual_prompt": "Text card over the finished wall",
+      "on_screen_text": "Full $91 breakdown on the blog.",
+      "voiceover": "Link in bio."
+    }
+  ],
+  "caption": "I almost paid $2,000 for a slatwall install before doing the math on floating shelves instead \u2014 $15.99 for 3, 4.5 stars, holds real weight. Full $91 garage system on the blog.",
+  "hashtags": [
+    "#garagewall",
+    "#floatingshelves",
+    "#garageorganization",
+    "#diystorage",
+    "#wallstorage",
+    "#homeimprovement"
+  ]
+}

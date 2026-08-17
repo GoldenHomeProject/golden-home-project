@@ -5260,5 +5260,91 @@
     "keyword": "LINK",
     "queued_at": "2026-08-17T07:44:18.990138Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_repurpose_2026-08-17_901",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-17-901.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "I stopped tripping over garage clutter for $90.96 \u2014 not $2,000 for a slatwall installer. Full parts list, prices, and review data on the blog (link in bio).",
+    "hashtags": [
+      "#garageorganization",
+      "#garagemakeover",
+      "#wallstorage",
+      "#smallspacesolutions",
+      "#organizedhome",
+      "#diyhomeorganization",
+      "#garagegoals"
+    ],
+    "hook": "I organized my garage wall for $91, not $2,000"
+  },
+  {
+    "name": "reel_repurpose_2026-08-17_902",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-17-902.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "The 8-pack of clear bins that got every box off my garage floor for $29.99 \u2014 4.8 stars across 3,672 reviews, and after using them I get why. Full breakdown on the blog.",
+    "hashtags": [
+      "#garagestorage",
+      "#clearbins",
+      "#declutter",
+      "#garageorganization",
+      "#storagesolutions",
+      "#momorganization"
+    ],
+    "hook": "8 clear bins for $29.99 emptied my garage floor"
+  },
+  {
+    "name": "reel_repurpose_2026-08-17_903",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-17-903.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "$24.99 fixed the one garage annoyance I'd been ignoring for years \u2014 digging behind stuff for the one can I actually needed. Full system breakdown on the blog.",
+    "hashtags": [
+      "#garagehacks",
+      "#lazysusan",
+      "#garageorganization",
+      "#smallfixesbigimpact",
+      "#organizationtips",
+      "#homehacks"
+    ],
+    "hook": "Stop digging for paint cans \u2014 $24.99 fixed it"
+  },
+  {
+    "name": "reel_repurpose_2026-08-17_904",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-17-904.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "This $19.99 key holder is the smallest line item in my $91 garage wall system \u2014 and the reason the rest of it stayed organized. Blog has the full build.",
+    "hashtags": [
+      "#entrywayorganization",
+      "#keyholder",
+      "#garageorganization",
+      "#homeorganization",
+      "#declutter",
+      "#organizedhome"
+    ],
+    "hook": "The $19.99 piece that keeps my garage organized"
+  },
+  {
+    "name": "reel_repurpose_2026-08-17_905",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-17-905.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "I almost paid $2,000 for a slatwall install before doing the math on floating shelves instead \u2014 $15.99 for 3, 4.5 stars, holds real weight. Full $91 garage system on the blog.",
+    "hashtags": [
+      "#garagewall",
+      "#floatingshelves",
+      "#garageorganization",
+      "#diystorage",
+      "#wallstorage",
+      "#homeimprovement"
+    ],
+    "hook": "Free storage on my wall beat a $2,000 slatwall quote"
   }
 ]

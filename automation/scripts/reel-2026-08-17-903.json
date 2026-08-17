@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-08-17T09:35:14.326692Z",
+  "date": "2026-08-17",
+  "seq": 903,
+  "source": "repurpose",
+  "hook": "Stop digging for paint cans \u2014 $24.99 fixed it",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Hand reaching behind a row of items on a garage shelf, straining to grab something in the back",
+      "on_screen_text": "Moving 6 things to find 1",
+      "voiceover": "This was every trip to the garage shelf."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "A can gets knocked over and rolls off the shelf as the hand keeps digging",
+      "on_screen_text": "Relatable?",
+      "voiceover": "Paint cans always end up in the back."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Unpacking a 4-pack of 10-inch non-skid lazy Susan turntables",
+      "on_screen_text": "$24.99 for 4 \u2014 10-inch, non-skid",
+      "voiceover": "4.7 stars across 6,190 reviews \u2014 that's not a fluke."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Loading a turntable with paint cans and spray bottles, then spinning it to bring items forward",
+      "on_screen_text": "One spin brings it all forward",
+      "voiceover": "No more reaching, no more knocking things over."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Testing the non-skid base by tilting the shelf slightly \u2014 the turntable stays put",
+      "on_screen_text": "Non-skid base = stays put loaded",
+      "voiceover": "Even on a shelf that isn't perfectly level."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Four turntables on the shelf, each holding a different category: paint, automotive fluids, hardware, cleaning supplies",
+      "on_screen_text": "4 turntables = 4 categories solved",
+      "voiceover": "Paint, fluids, hardware, cleaning \u2014 sorted."
+    },
+    {
+      "n": 7,
+      "duration_sec": 3,
+      "visual_prompt": "Text card over the finished garage wall shot",
+      "on_screen_text": "Part of my $91 garage wall system.",
+      "voiceover": "Full build on the blog, link in bio."
+    }
+  ],
+  "caption": "$24.99 fixed the one garage annoyance I'd been ignoring for years \u2014 digging behind stuff for the one can I actually needed. Full system breakdown on the blog.",
+  "hashtags": [
+    "#garagehacks",
+    "#lazysusan",
+    "#garageorganization",
+    "#smallfixesbigimpact",
+    "#organizationtips",
+    "#homehacks"
+  ]
+}
