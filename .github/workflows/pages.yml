@@ -53,14 +53,48 @@ jobs:
       - name: Stage recent social media only
         run: |
           set -euo pipefail
-          # 21 days is comfortably longer than anything sits in a posting queue, so a pin
-          # or carousel is always fetchable while it still matters.
-          for d in social/carousels social/reels social/pinterest; do
-            [ -d "$d" ] || continue
-            mkdir -p "_site/$d"
-            find "$d" -type f -mtime -21 -print0 \
-              | xargs -0 -I{} cp --parents {} _site/ 2>/dev/null || true
-          done
+          # Select by the DATE IN THE FILENAME, never by mtime. `git checkout` stamps every
+          # file with the checkout time, so `find -mtime -21` matched the entire repo in CI
+          # and staged all 1.77GB — it only looked correct when tested on a machine with
+          # real mtimes. Our media is date-stamped (pin-2026-08-17-*.png,
+          # reel-2026-08-17-001.mp4, carousels/2026-08-17-<asin>/), so the name is the
+          # honest signal.
+          python3 - <<'PYEOF'
+          import re, shutil
+          from datetime import date, timedelta
+          from pathlib import Path
+
+          WINDOW = 21          # longer than anything sits in a posting queue
+          cutoff = date.today() - timedelta(days=WINDOW)
+          site = Path("_site")
+          datepat = re.compile(r"(20\d{2})-(\d{2})-(\d{2})")
+          kept = skipped = 0
+
+          for d in ("social/carousels", "social/reels", "social/pinterest"):
+              src = Path(d)
+              if not src.is_dir():
+                  continue
+              for f in src.rglob("*"):
+                  if not f.is_file():
+                      continue
+                  m = datepat.search(str(f))
+                  if m:
+                      try:
+                          when = date(int(m[1]), int(m[2]), int(m[3]))
+                      except ValueError:
+                          when = None
+                  else:
+                      when = None
+                  # Undated files are rare and small (e.g. presenter assets); keep them.
+                  if when is not None and when < cutoff:
+                      skipped += 1
+                      continue
+                  dest = site / f
+                  dest.parent.mkdir(parents=True, exist_ok=True)
+                  shutil.copy2(f, dest)
+                  kept += 1
+          print(f"media staged: {kept} kept, {skipped} skipped (older than {cutoff})")
+          PYEOF
           echo "staged size:"; du -sh _site
 
       - name: Fail loudly if we are near the limit again
