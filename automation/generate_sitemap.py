@@ -26,7 +26,11 @@ ROOT = Path(__file__).resolve().parent.parent
 SITEMAP = ROOT / "sitemap.xml"
 BASE = "https://goldenhomeproject.com"
 
-STATIC = [("/", "1.0"), ("/blog/", "0.9"), ("/links.html", "0.5")]
+STATIC = [("/", "1.0"), ("/blog/", "0.9"), ("/links.html", "0.5"),
+          # Affiliate networks (Impact, ShareASale, Walmart) look for these before
+          # approving a publisher; they are also what a reader checks before trusting
+          # product recommendations.
+          ("/about.html", "0.6"), ("/contact.html", "0.5"), ("/privacy.html", "0.4")]
 
 
 def canonical_of(html: str) -> str | None:

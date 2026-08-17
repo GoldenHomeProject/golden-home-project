@@ -16,6 +16,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://goldenhomeproject.com/about.html</loc>
+    <lastmod>2026-08-17</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://goldenhomeproject.com/contact.html</loc>
+    <lastmod>2026-08-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://goldenhomeproject.com/privacy.html</loc>
+    <lastmod>2026-08-17</lastmod>
+    <priority>0.4</priority>
+  </url>
+  <url>
     <loc>https://goldenhomeproject.com/blog/posts/2026-05-06-mamma-mia-waterproof-stretch-sofa-cover-review.html</loc>
     <lastmod>2026-05-15</lastmod>
     <priority>0.7</priority>
