@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-08-17",
+  "category": "Home",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-home-organization-products.html",
+  "picks": [
+    {
+      "asin": "B085DTZQNZ",
+      "name": "Owala FreeSip Stainless Steel Water Bottle 24 oz Very",
+      "price": "$29.97",
+      "rating": 4.6,
+      "reviews": 134014,
+      "rank": 1
+    },
+    {
+      "asin": "B00E4GACB8",
+      "name": "TERRO Liquid Ant Killer Bait Stations",
+      "price": "$9.58",
+      "rating": 4.6,
+      "reviews": 161061,
+      "rank": 3
+    },
+    {
+      "asin": "B01M16WBW1",
+      "name": "Queen Size 4 Piece Sheet Set",
+      "price": "$24.99",
+      "rating": 4.5,
+      "reviews": 452063,
+      "rank": 4
+    },
+    {
+      "asin": "B00FXNAAW2",
+      "name": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers",
+      "price": "$20.69",
+      "rating": 4.8,
+      "reviews": 235379,
+      "rank": 6
+    },
+    {
+      "asin": "B08QRFZ6TH",
+      "name": "Barossa Design Oeko-tex Certified Shower Curtain Liner Standard Size",
+      "price": "$8.95",
+      "rating": 4.5,
+      "reviews": 99490,
+      "rank": 11
+    },
+    {
+      "asin": "B0DGF616XN",
+      "name": "6 Pack Extra Heavy Duty Large Moving Bags with Strong Zipper",
+      "price": "$26.99",
+      "rating": 4.8,
+      "reviews": 11687,
+      "rank": 15
+    }
+  ]
+}
