@@ -5220,5 +5220,29 @@
     "keyword": "LINK",
     "queued_at": "2026-08-16T07:23:55.495024Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_2026-08-17_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-17-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "If you're renting, sheets are the one upgrade you get to take with you.\n\nYou can't change the flooring, the paint, or the light fixtures in a rental. The bed is the one part of the room that's entirely yours, and it's also where you spend a third of your time. Swapping the sheets is the shortest path between a room you tolerate and a room you like.\n\nThis is a queen size 4 piece sheet set \u2014 a full swap, not a partial one. It carries a 4.5 star rating across 451,219 reviews, which is a sample size big enough that the average stops being luck and starts being a pattern.\n\nYou get the one bedroom change that moves with you to the next place, for $24.99.\n\nComment SHEET and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Queen Size 4 Piece Sheet Set",
+      "dm_keyword": "SHEET",
+      "amazon_asin": "B01M16WBW1",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01M16WBW1?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "If you're renting, sheets are the one upgrade you get to take with you."
   }
 ]

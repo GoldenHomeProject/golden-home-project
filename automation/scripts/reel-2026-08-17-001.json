@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-08-17T06:31:57.041696Z",
+  "date": "2026-08-17",
+  "seq": 1,
+  "hook_category": "audience_fit",
+  "hook": "If you're renting, sheets are the one upgrade you get to take with you.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Slow push-in on a plain rental bedroom: beige walls, standard builder light fixture, bare queen mattress. Neutral daylight from one window. No people.",
+      "on_screen_text": "RENTING?",
+      "voiceover": "If you're renting, sheets are the one upgrade you get to take with you."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Static wide of the same room. Camera holds on the landlord-beige wall and generic fixture, then tilts down to the bed. Muted, slightly flat lighting.",
+      "on_screen_text": "CAN'T CHANGE THE WALLS",
+      "voiceover": "You can't touch the paint, the floors, or the fixtures. The bed is the one part of the room that's actually yours."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Overhead shot of a queen sheet set laid out flat and folded in four distinct stacks on the mattress. Clean, even top light.",
+      "on_screen_text": "4 PIECE SET",
+      "voiceover": "This is a queen size four piece set \u2014 a full swap, not a partial one."
+    },
+    {
+      "n": 4,
+      "duration_sec": 5,
+      "visual_prompt": "Close macro of fabric being smoothed across the mattress by hands, then cut to a clean graphic card: '4.5 stars' above '451,219 reviews'. Soft warm light.",
+      "on_screen_text": "451,219 REVIEWS",
+      "voiceover": "Four point five stars across four hundred fifty one thousand reviews. That's a sample size where the average stops being luck."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Final wide of the bed fully made in the same rental room, warm lamp on the nightstand. Price card '$24.99' fades in lower third.",
+      "on_screen_text": "$24.99",
+      "voiceover": "The one bedroom change that moves with you to the next place. Twenty four ninety nine."
+    }
+  ],
+  "caption": "If you're renting, sheets are the one upgrade you get to take with you.\n\nYou can't change the flooring, the paint, or the light fixtures in a rental. The bed is the one part of the room that's entirely yours, and it's also where you spend a third of your time. Swapping the sheets is the shortest path between a room you tolerate and a room you like.\n\nThis is a queen size 4 piece sheet set \u2014 a full swap, not a partial one. It carries a 4.5 star rating across 451,219 reviews, which is a sample size big enough that the average stops being luck and starts being a pattern.\n\nYou get the one bedroom change that moves with you to the next place, for $24.99.\n\nComment SHEET and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "This is a queen size 4 piece sheet set \u2014 a full swap, not a partial one. It carries a 4.5 star rating across 451,219 reviews, which is a sample size big enough that the average stops being luck and st",
+  "affiliate_strategy": {
+    "primary_product": "Queen Size 4 Piece Sheet Set",
+    "dm_keyword": "SHEET",
+    "amazon_asin": "B01M16WBW1",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B01M16WBW1?tag=goldenhomep06-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": null
+  }
+}
