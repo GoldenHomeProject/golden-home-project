@@ -1,0 +1,87 @@
+name: Deploy site to Pages
+
+# WHY THIS EXISTS (2026-08-17)
+# The default branch-based Pages build packages the ENTIRE repo. That artifact reached
+# 1,760,829,340 bytes against GitHub's 1 GB limit, and deploys started failing with
+# "Uploaded artifact size exceeds the allowed size of 1 GB".
+#
+# The bulk is generated social media that has already been posted:
+#   social/carousels 1.1 GB · social/reels 383 MB · social/pinterest 102 MB · videos 153 MB
+# Those files only need a public URL at the MOMENT Meta/Pinterest/YouTube fetch them to
+# create a post. Republishing three months of already-posted media on every deploy buys
+# nothing and was about to break the site permanently.
+#
+# So we publish the site plus a rolling window of recent media. NOTHING IS DELETED — every
+# old file stays in git exactly where it was, it simply stops being copied into the
+# website artifact.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Stage the site
+        run: |
+          set -euo pipefail
+          mkdir -p _site
+          # Site itself: pages, styling, and the files search engines need.
+          for p in index.html links.html blog assets images products sitemap.xml \
+                   robots.txt CNAME .nojekyll google601199e8acd17495.html; do
+            [ -e "$p" ] && cp -r "$p" _site/ || true
+          done
+          # Small, permanently referenced media.
+          mkdir -p _site/social
+          [ -d social/product_images ] && cp -r social/product_images _site/social/ || true
+          # Older transformation videos are still linked by queued posts and are static.
+          [ -d videos ] && cp -r videos _site/ || true
+
+      - name: Stage recent social media only
+        run: |
+          set -euo pipefail
+          # 21 days is comfortably longer than anything sits in a posting queue, so a pin
+          # or carousel is always fetchable while it still matters.
+          for d in social/carousels social/reels social/pinterest; do
+            [ -d "$d" ] || continue
+            mkdir -p "_site/$d"
+            find "$d" -type f -mtime -21 -print0 \
+              | xargs -0 -I{} cp --parents {} _site/ 2>/dev/null || true
+          done
+          echo "staged size:"; du -sh _site
+
+      - name: Fail loudly if we are near the limit again
+        run: |
+          bytes=$(du -sb _site | cut -f1)
+          echo "artifact bytes: $bytes"
+          if [ "$bytes" -gt 900000000 ]; then
+            echo "::error::_site is ${bytes} bytes, close to the 1 GB Pages limit. Shorten the media window."
+            exit 1
+          fi
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
