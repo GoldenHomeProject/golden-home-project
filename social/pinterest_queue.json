@@ -1444,5 +1444,19 @@
     "posted": false,
     "source": "pinterest_pipeline",
     "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-08-17-B08XVP48KQ",
+    "asin": "B08XVP48KQ",
+    "board": "Home Organization Finds",
+    "title": "8x10 Picture Frames Set | Gallery Wall Organization Decor",
+    "description": "Keep frame clutter under control with this upsimples 8x10 picture frame set, perfect for organizing a gallery wall or tidy shelf display in any home. Sturdy build, tempered glass, and a clean modern look make it easy to arrange family photos, prints, or artwork without mismatched frames taking over your space. A simple, budget-friendly way to bring order to your walls at just $17.99. Tap through for sizing and styling details. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://goldenhomeproject.com/blog/posts/best-home-decor-finds.html",
+    "image_path": "social/pinterest/pin-2026-08-17-B08XVP48KQ.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-17-B08XVP48KQ.png",
+    "queued_at": "2026-08-17T10:10:14.004753Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
   }
 ]
