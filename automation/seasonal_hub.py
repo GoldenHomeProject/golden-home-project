@@ -133,6 +133,27 @@ def main() -> int:
         print("[dorm] --dry-run, nothing written")
         return 0
 
+    # --- Prime Student CTA -------------------------------------------------
+    # Unit economics, not decoration. Amazon pays ~3% on these products: a $8.99 shower
+    # caddy earns $0.27, so $100/month needs ~222 sales. Amazon's own 2026-06-12 email
+    # offers a $30 bounty per eligible Prime for Young Adults sign-up — ONE of those is
+    # worth 111 shower-caddy sales. The audience for a dorm page IS that demographic, and
+    # a student furnishing a room genuinely wants free shipping, so this is useful to the
+    # reader rather than a bolt-on.
+    prime_cta = (
+        '<div class="prime-cta" style="margin:26px 0;padding:20px;background:#141428;'
+        'border:1px solid rgba(212,167,69,.35);border-radius:12px">'
+        '<h2 style="font-size:20px;margin:0 0 8px">Moving in? Students get free shipping</h2>'
+        '<p style="margin:0 0 12px">Most of the picks above ship free on Prime, and '
+        'Amazon offers students a discounted membership with a free trial — worth checking '
+        'before a big move-in order.</p>'
+        '<a class="cta" href="https://www.amazon.com/amazonprime?tag=' + td.AFFIL_TAG +
+        '&ascsubtag=dorm-prime" rel="sponsored nofollow noopener" target="_blank">'
+        'See Prime student pricing on Amazon &rarr;</a>'
+        '<p style="font-size:13px;color:#a8a4a0;margin:10px 0 0">Affiliate link — we may '
+        'earn a commission at no extra cost to you.</p></div>')
+    html = html.replace('<div class="faq-section">', prime_cta + '\n  <div class="faq-section">', 1)
+
     (td.BLOG_POSTS / f"{slug}.html").write_text(html)
     (td.PICKS_DIR / f"trending_picks_{today.isoformat()}_dorm.json").write_text(
         json.dumps(record, indent=2) + "\n")
