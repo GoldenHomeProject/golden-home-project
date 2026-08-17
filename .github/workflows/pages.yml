@@ -40,8 +40,13 @@ jobs:
           set -euo pipefail
           mkdir -p _site
           # Site itself: pages, styling, and the files search engines need.
-          for p in index.html links.html blog assets images products sitemap.xml \
-                   robots.txt CNAME .nojekyll google601199e8acd17495.html; do
+          # Copy EVERY root-level .html, not a hardcoded list. The allowlist silently
+          # dropped about/contact/privacy the day they were added — the sitemap advertised
+          # them while the pages 404'd. An allowlist of filenames is a trap for anything
+          # added later.
+          shopt -s nullglob
+          for f in *.html; do cp "$f" _site/; done
+          for p in blog assets images products sitemap.xml robots.txt CNAME .nojekyll; do
             [ -e "$p" ] && cp -r "$p" _site/ || true
           done
           # Small, permanently referenced media.
