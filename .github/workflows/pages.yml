@@ -120,7 +120,32 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - id: deployment
+      # GitHub's Pages deployment API returns intermittent 503s ("No server is currently
+      # available to service your request"). The build is fine; the publish call just gets
+      # unlucky. Two of the last twenty runs died this way, each one emailing a failure
+      # alert for a problem that fixes itself on a re-run. Retry in-workflow so a transient
+      # 503 self-heals instead of paging a human.
+      - name: Deploy to Pages
+        id: d1
+        continue-on-error: true
         uses: actions/deploy-pages@v4
+
+      - name: Wait out the transient error
+        if: steps.d1.outcome == 'failure'
+        run: |
+          echo "First deploy attempt failed (usually a 503). Waiting before retry."
+          sleep 60
+
+      - name: Deploy to Pages (retry)
+        id: d2
+        if: steps.d1.outcome == 'failure'
+        uses: actions/deploy-pages@v4
+
+      - name: Report
+        run: |
+          if [ "${{ steps.d1.outcome }}" = "success" ]; then
+            echo "deployed on first attempt"
+          else
+            echo "first attempt failed; retry outcome: ${{ steps.d2.outcome }}"
+          fi
