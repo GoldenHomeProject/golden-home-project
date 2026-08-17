@@ -18,6 +18,21 @@ name: Deploy site to Pages
 on:
   push:
     branches: [main]
+    # Deploy only when something a VISITOR can see changes. 14 deploys happened on
+    # 2026-08-17 alone and every recent commit touched only social/*.json queues and
+    # logs — rebuilding and republishing the whole site for state files nobody browses,
+    # while exposing us to GitHub's flaky Pages API each time.
+    # This is a DENYLIST on purpose: an allowlist silently dropped about/contact/privacy
+    # the day they were added. Anything new deploys by default; only known-noisy state
+    # is ignored.
+    paths-ignore:
+      - 'social/*.json'
+      - 'social/**/*.json'
+      - 'social/*.log'
+      - 'social/**/*.log'
+      - 'automation/**'
+      - 'pi/**'
+      - 'docs/**'
   workflow_dispatch:
 
 permissions:
@@ -139,7 +154,19 @@ jobs:
 
       - name: Deploy to Pages (retry)
         id: d2
+        continue-on-error: true
         if: steps.d1.outcome == 'failure'
+        uses: actions/deploy-pages@v4
+
+      - name: Wait longer before a final attempt
+        if: steps.d1.outcome == 'failure' && steps.d2.outcome == 'failure'
+        run: |
+          echo "Second attempt also failed — GitHub Pages looks degraded, backing off."
+          sleep 180
+
+      - name: Deploy to Pages (final attempt)
+        id: d3
+        if: steps.d1.outcome == 'failure' && steps.d2.outcome == 'failure'
         uses: actions/deploy-pages@v4
 
       - name: Report
