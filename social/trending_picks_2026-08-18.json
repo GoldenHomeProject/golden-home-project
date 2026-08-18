@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-08-18",
+  "category": "Bath",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-bathroom-essentials.html",
+  "picks": [
+    {
+      "asin": "B08QRFZ6TH",
+      "name": "Barossa Design Oeko-tex Certified Shower Curtain Liner Standard Size",
+      "price": "$8.95",
+      "rating": 4.5,
+      "reviews": 99546,
+      "rank": 1
+    },
+    {
+      "asin": "B01HI1W1V4",
+      "name": "Etekcity Digital Body Weight Bathroom Scale",
+      "price": "$16.87",
+      "rating": 4.7,
+      "reviews": 349374,
+      "rank": 9
+    },
+    {
+      "asin": "B09SZ9T4MV",
+      "name": "EUDELE Mesh Shower Caddy Portable for College Dorm Room Essentials",
+      "price": "$9.99",
+      "rating": 4.5,
+      "reviews": 7747,
+      "rank": 15
+    },
+    {
+      "asin": "B09ZYRCNJH",
+      "name": "Utopia Towels 12 Pack Washcloths",
+      "price": "$11.99",
+      "rating": 4.6,
+      "reviews": 74928,
+      "rank": 16
+    },
+    {
+      "asin": "B00P7VW2H6",
+      "name": "Clorox Toilet Plunger with Hideaway Holder Caddy Heavy-Duty Compact De",
+      "price": "$13.97",
+      "rating": 4.5,
+      "reviews": 18336,
+      "rank": 17
+    },
+    {
+      "asin": "B0BFMKYN12",
+      "name": "DDMY Adhesive Wall Hooks Clear 50lb(Max) Heavy Duty Hanging Sticky-10",
+      "price": "$8.99",
+      "rating": 4.5,
+      "reviews": 39860,
+      "rank": 31
+    }
+  ]
+}
