@@ -381,7 +381,12 @@ Return STRICT JSON:
   "pexels_query": "<2-4 word concrete photo search matching the product context>"
 }}"""
     try:
-        out = call_claude_json(prompt, max_tokens=1024, max_turns=1, timeout=150)
+        # max_turns=1 made the model fail with "Reached max turns (1)" and silently
+        # fall back to the generic template — 9 recent pins shipped with canned copy
+        # instead of anything specific to the product, which is the whole point of
+        # writing per-pin. Give it room to finish, and more tokens for the longer
+        # keyword-rich description Pinterest rewards.
+        out = call_claude_json(prompt, max_tokens=1600, max_turns=3, timeout=180)
     except Exception as e:
         print(f"  [claude] copy failed ({e}); using template")
         return None
