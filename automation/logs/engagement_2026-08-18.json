@@ -1,0 +1,75 @@
+{
+  "date": "2026-08-18",
+  "agent": "engagement-monitor",
+  "metrics": {
+    "subscribers": 6670,
+    "total_views": 21156,
+    "total_videos": 182
+  },
+  "top_videos": [
+    {
+      "title": "My home had been a low-grade mess for longer than I want to ",
+      "views": 121,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "348,951 reviews and a 4.7-star average \u2014 that's not luck, th",
+      "views": 49,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "My home had been a low-grade mess for longer than I want to ",
+      "views": 48,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "If you rent and can't touch the closet, start with the hange",
+      "views": 18,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "My home had been a low-grade mess for longer than I want to ",
+      "views": 4,
+      "likes": 1,
+      "comments": 1
+    },
+    {
+      "title": "Throw pillows go flat because the insert is the cheap part n",
+      "views": 3,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "My patio had been a low-grade mess for longer than I want to",
+      "views": 1,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "My kitchen had been a low-grade mess for longer than I want ",
+      "views": 1,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "My kitchen had been a low-grade mess for longer than I want ",
+      "views": 0,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "My patio had been a low-grade mess for longer than I want to",
+      "views": 0,
+      "likes": 0,
+      "comments": 1
+    }
+  ],
+  "comments_responded": 0,
+  "actions_taken": [
+    "Updated BUSINESS_BRAIN.md metrics"
+  ]
+}
