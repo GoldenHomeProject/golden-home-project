@@ -4,12 +4,12 @@
     "lifetime_follows": 21,
     "lifetime_likes": 33,
     "lifetime_comments": 7,
-    "last_session": "2026-08-18-1330-pi",
+    "last_session": "comments-2026-08-18T1409Z",
     "blocked_at": null,
-    "last_updated": "2026-08-18T13:31:12Z",
-    "total_actions": 516,
+    "last_updated": "2026-08-18T14:12:42Z",
+    "total_actions": 518,
     "lifetime_dms": 28,
-    "lifetime_comments_outbound": 34
+    "lifetime_comments_outbound": 36
   },
   "actions": [
     {
@@ -21183,6 +21183,24 @@
       ],
       "untapped_warm": [],
       "dry_run": false
+    },
+    {
+      "timestamp": "2026-08-18T14:10:38Z",
+      "action": "comment_posted",
+      "target": "horderly",
+      "session": "comments-2026-08-18T1409Z",
+      "post_url": "https://www.instagram.com/horderly/p/DbvxUx-lBqz/",
+      "text": "Adding tension straps to anything freestanding as you go is the piece people skip until the first earthquake or toddler pull-test \u2014 how are you securing tall pieces in this setup?",
+      "caption_seen": ""
+    },
+    {
+      "timestamp": "2026-08-18T14:12:42Z",
+      "action": "comment_posted",
+      "target": "lifeinjeneral",
+      "session": "comments-2026-08-18T1409Z",
+      "post_url": "https://www.instagram.com/lifeinjeneral/p/DYnanaLEpB7/",
+      "text": "Sweet setup with the closet system, do you find velvet hangers alone stop the slide or do you still angle them all the same direction to keep everything from creeping?",
+      "caption_seen": ""
     }
   ]
 }
