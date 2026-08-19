@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-08-19",
+  "category": "Cleaning",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-cleaning-supplies.html",
+  "picks": [
+    {
+      "asin": "B00W5D1MDE",
+      "name": "Clorox Toilet Bowl Cleaner Clinging Bleach Gel",
+      "price": "$5.24",
+      "rating": 4.8,
+      "reviews": 44829,
+      "rank": 7
+    },
+    {
+      "asin": "B000ST1DZO",
+      "name": "Drano Max Gel Drain Clog Remover & Cleaner",
+      "price": "$5.17",
+      "rating": 4.5,
+      "reviews": 76132,
+      "rank": 19
+    },
+    {
+      "asin": "B0C1DWC251",
+      "name": "Swiffer PowerMop Mopping Kit for Floor Cleaning",
+      "price": "$26.99",
+      "rating": 4.5,
+      "reviews": 46144,
+      "rank": 21
+    },
+    {
+      "asin": "B00SXC85IQ",
+      "name": "Affresh Dishwasher Cleaner",
+      "price": "$8.97",
+      "rating": 4.6,
+      "reviews": 80516,
+      "rank": 29
+    },
+    {
+      "asin": "B09KTQMMCM",
+      "name": "Schneider Medical Nitrile/Vinyl Blend Exam Gloves",
+      "price": "$7.73",
+      "rating": 4.5,
+      "reviews": 39616,
+      "rank": 35
+    },
+    {
+      "asin": "B085DTZQNZ",
+      "name": "Owala FreeSip Stainless Steel Water Bottle 24 oz Very",
+      "price": "$29.97",
+      "rating": 4.6,
+      "reviews": 134427,
+      "rank": 1
+    }
+  ]
+}
