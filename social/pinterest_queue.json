@@ -1475,5 +1475,33 @@
     "posted": false,
     "source": "pinterest_pipeline",
     "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-08-19-B00P7VW2H6",
+    "asin": "B00P7VW2H6",
+    "board": "Home Organization Finds",
+    "title": "Toilet Plunger with Hideaway Caddy - Compact Bathroom Storage Holder",
+    "description": "Keep your bathroom neat with this Clorox heavy-duty toilet plunger and hideaway holder caddy. The compact, space-saving design tucks discreetly behind the toilet or in a small bathroom closet, hiding mess from view while staying within easy reach. Great for small bathrooms, powder rooms, RVs, and rental units needing smart storage solutions. Tap through to see this bathroom organization must-have. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://goldenhomeproject.com/blog/posts/best-bathroom-essentials.html",
+    "image_path": "social/pinterest/pin-2026-08-19-B00P7VW2H6.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-19-B00P7VW2H6.png",
+    "queued_at": "2026-08-19T10:10:15.247036Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-08-19-B0BFMKYN12",
+    "asin": "B0BFMKYN12",
+    "board": "Home Organization Finds",
+    "title": "Heavy Duty Adhesive Wall Hooks No Drill - Clear 50lb Hanging Wall Hooks 10-Pack",
+    "description": "Skip the drill! These clear adhesive wall hooks hold up to 50lb and stick to walls, tile, cabinets, and doors in seconds. Perfect for hanging towels, coats, mugs, cords, and kitchen tools without damaging paint or leaving holes. This 10-pack of heavy-duty sticky hooks makes organizing closets, bathrooms, dorms, and kitchens so much easier. Tap through for sizing and install tips. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://goldenhomeproject.com/blog/posts/best-bathroom-essentials.html",
+    "image_path": "social/pinterest/pin-2026-08-19-B0BFMKYN12.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-19-B0BFMKYN12.png",
+    "queued_at": "2026-08-19T10:10:58.345120Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
   }
 ]
