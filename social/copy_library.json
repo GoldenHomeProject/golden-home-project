@@ -1343,6 +1343,52 @@
           }
         ]
       }
+    ],
+    "SCALE": [
+      {
+        "hook_category": "proof",
+        "hook": "349,374 reviews on a bathroom scale is not a normal number.",
+        "beat1": "Most products in a home never get anywhere near that. A number that size means this scale has been bought, used and rated across hundreds of thousands of different bathrooms, floors and households. And it held a 4.7-star average the whole way there.",
+        "turn": "It's a digital body weight bathroom scale \u2014 you step on, it reads out your weight. At that volume of feedback, 4.7 stars stops being a lucky streak and starts being a track record.",
+        "result": "You get a basic daily-use scale that a very large group of people rated well, without overthinking the purchase. It's $16.87.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Clean overhead shot of a flat digital bathroom scale on a tiled bathroom floor, soft daylight from a window, minimal styling",
+            "on_screen_text": "349,374 REVIEWS",
+            "voiceover": "349,374 reviews on a bathroom scale is not a normal number."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Slow push-in on the scale's display area, neutral bathroom background slightly out of focus",
+            "on_screen_text": "THAT'S A LOT OF BATHROOMS",
+            "voiceover": "Most products in a home never come close to that. That many ratings means it's been used across hundreds of thousands of different households."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Side angle of the scale on the floor beside a folded towel and a bath mat, warm morning light",
+            "on_screen_text": "4.7 STARS",
+            "voiceover": "And it kept a 4.7-star average the entire way there."
+          },
+          {
+            "n": 4,
+            "duration_sec": 5,
+            "visual_prompt": "Feet in view stepping onto the scale, camera low and level with the floor, screen glowing",
+            "on_screen_text": "STEP ON. READ OUT.",
+            "voiceover": "It's a digital body weight scale. You step on, it reads out your weight. At that volume of feedback, 4.7 stars isn't a lucky streak \u2014 it's a track record."
+          },
+          {
+            "n": 5,
+            "duration_sec": 4,
+            "visual_prompt": "Final clean product beauty shot of the scale on bathroom tile, price card composited in the lower third",
+            "on_screen_text": "$16.87",
+            "voiceover": "A basic daily-use scale a very large group of people rated well. It's sixteen eighty-seven."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
