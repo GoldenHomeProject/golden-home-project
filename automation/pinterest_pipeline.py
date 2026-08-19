@@ -410,6 +410,32 @@ def _vgrad(top, bottom, w, h) -> Image.Image:
     return img
 
 
+def _product_photo_query(product_name: str, fallback: str) -> str:
+    """A photo search built from THIS product, not its board.
+
+    A pin for "DDMY Adhesive Wall Hooks" shipped with a stock photo of a wooden clothes
+    hanger, because the query came from the board ("organized closet shelves") rather than
+    the product. The pin then showed that photo above the product name and price, which
+    reads as "this is the item" — misleading, and it wastes the click when the buyer lands
+    on something else.
+    """
+    name = re.sub(r"[^a-z0-9 ]", " ", (product_name or "").lower())
+    words = [w for w in name.split() if len(w) > 2]
+    # Brand tokens lead Amazon titles and mean nothing to a photo library.
+    stop = {"the", "for", "with", "and", "pack", "set", "pcs", "piece", "inch", "max",
+            "heavy", "duty", "large", "small", "clear", "black", "white", "adhesive",
+            "premium", "upgraded", "multi", "size", "count"}
+    nouns = [w for w in words[1:] if w not in stop][:3]
+    return " ".join(nouns) if len(nouns) >= 2 else fallback
+
+
+def _photo_matches_product(query: str, product_name: str) -> bool:
+    """Does the chosen photo query plausibly depict this product?"""
+    q = {w for w in re.findall(r"[a-z]+", (query or "").lower()) if len(w) > 2}
+    n = {w for w in re.findall(r"[a-z]+", (product_name or "").lower()) if len(w) > 2}
+    return bool(q & n)
+
+
 def compose_pin(bg_path: Path | None, overlay_hook: str, subtitle: str,
                 price: str) -> Image.Image:
     """One 1000x1500 vertical pin. Photo path = Pexels portrait with a dark
@@ -537,10 +563,20 @@ def main() -> int:
             continue          # already pinned THIS drop; don't repeat it
         board, board_q = board_for(entry)
         copy = claude_copy(entry, board) or template_copy(entry, board)
-        pexels_q = (copy.get("pexels_query") or "").strip() or board_q
+        name = entry.get("product_name", "")
+        pexels_q = (copy.get("pexels_query") or "").strip()
+        # Prefer a query built from the product itself; only keep Claude's if it actually
+        # relates to the product.
+        if not pexels_q or not _photo_matches_product(pexels_q, name):
+            pexels_q = _product_photo_query(name, board_q)
 
         bg_path = PINS_DIR / f"bg-{date_str}-{asin}.jpg"
         bg_ok = fetch_pexels(pexels_q, bg_path)
+        # If we still can't find a photo that relates to the product, ship the clean
+        # branded card instead of a confident-looking photo of the wrong object.
+        if bg_ok and not _photo_matches_product(pexels_q, name):
+            print(f"  [pin] {asin} no relevant photo for {pexels_q!r} — text-only card")
+            bg_ok = False
 
         price = entry.get("verified_price", "")
         img = compose_pin(
