@@ -172,6 +172,25 @@ def check_script(script_path: Path) -> tuple[bool, list[str]]:
     if not DM_CTA_PATTERN.search(caption):
         reasons.append("missing comment-to-DM CTA ('comment KEYWORD and I'll DM you ...')")
 
+    # --- fabricated experience -------------------------------------------------
+    # Nobody at GHP owns or has used these products. Captions were shipping lines
+    # like "Three weeks ago this cabinet was where things went to die" and "I added a
+    # Simple Houseware 2-tier basket" — invented anecdotes presented as lived
+    # experience. It is dishonest to readers, it is what Google's helpful-content
+    # rules penalise, and the FTC treats an endorsement as a claim about real use.
+    # Same ban already enforced on the blog and in promote_vetted; enforce it here so
+    # no path can ship it.
+    fabricated = re.search(
+        r"\b(i (added|bought|found|tried|own|tested|used|swapped|installed|keep)\b|"
+        r"my (kitchen|cabinet|closet|pantry|bathroom|bedroom|desk|nightstand|home|"
+        r"drawer|counter|apartment)\b|three weeks ago|last (month|week) i\b|"
+        r"i lost track|since i (added|bought|started))",
+        caption, re.I)
+    if fabricated:
+        reasons.append(
+            f"fabricated first-hand experience: {fabricated.group(0)!r} — we do not own "
+            f"or use these products; write from ratings, review counts and specs")
+
     return len(reasons) == 0, reasons
 
 

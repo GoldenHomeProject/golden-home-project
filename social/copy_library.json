@@ -107,17 +107,17 @@
       },
       {
         "hook_category": "before_after",
-        "hook": "Three weeks ago this cabinet was where things went to die.",
-        "beat1": "Open the door, hold your breath, hope you don't knock anything over. Sponges from a Costco run. Three half-empty bottles of the same cleaner. A measuring cup I lost track of in 2023.",
-        "turn": "I added a Simple Houseware 2-tier chrome sliding basket. Holds 18 lbs per shelf. Sets directly on the cabinet floor \u2014 no installation.",
-        "result": "Now everything has a row. The system tells me when I'm out of something because the slot is empty, not buried.",
+        "hook": "Under-sink cabinets have a way of turning into a junk pile fast.",
+        "beat1": "Open yours and you're digging past sponges, three half-empty bottles of the same cleaner, and something you haven't touched in over a year.",
+        "turn": "A Simple Houseware 2-tier chrome sliding basket organizer gives each item its own spot. It sets directly on the cabinet floor with no installation, and each basket slides out so you're not reaching over everything else.",
+        "result": "You can see what's there at a glance instead of digging for it \u2014 and an empty slot tells you when you're out, not a buried bottle. $34.97.",
         "scenes": [
           {
             "n": 1,
             "duration_sec": 3,
             "visual_prompt": "before/after split \u2014 chaotic vs organized under-sink",
             "on_screen_text": "3 WEEKS AGO",
-            "voiceover": "Three weeks ago, this cabinet was chaos."
+            "voiceover": "Under-sink cabinets have a way of turning into a junk pile fast."
           },
           {
             "n": 2,
@@ -210,9 +210,9 @@
       {
         "hook_category": "confrontation",
         "hook": "Buying more containers will never fix your under-sink cabinet.",
-        "beat1": "I tried clear bins. I tried stackable trays. I tried labeling everything. None of it solved the actual problem \u2014 that anything past the front 6 inches is functionally lost.",
-        "turn": "What worked was a Simple Houseware 2-tier sliding basket. Chrome wire, 18 lbs per shelf, and the front rack slides independently to expose the back.",
-        "result": "I threw out two bins of duplicate cleaners I'd bought because I forgot the first ones existed. The cabinet finally works.",
+        "beat1": "Clear bins, stackable trays, labels on everything \u2014 none of it solves the actual problem, which is that anything past the front 6 inches is functionally lost.",
+        "turn": "The Simple Houseware 2-Tier Sliding Basket Organizer fixes the mechanism instead of the storage. Chrome wire, two tiers, and the front basket slides out independently so you can actually reach what's behind it.",
+        "result": "Nothing back there stays hidden anymore, so you're not buying a third bottle of something you already own two of. $34.97.",
         "scenes": [
           {
             "n": 1,
@@ -262,10 +262,10 @@
     "PILLOW": [
       {
         "hook_category": "wrong_until_right",
-        "hook": "I had the wrong pillow for 10 years and didn't know it.",
-        "beat1": "Woke up stiff every morning. Tried stacking two pillows. Tried rolling a towel under my neck. Switched sides. Bought a memory foam block that turned my head into a sweat puddle.",
-        "turn": "Then I tried the Eli & Elm side sleeper pillow \u2014 U-shape cutout for your shoulder, latex-and-fiber blend you can adjust, and a cooling cover that actually stays cool.",
-        "result": "First night I slept through. The morning crick is gone. My partner stole it the second night and I had to order another one.",
+        "hook": "Ten years of the wrong pillow can wreck your mornings, and most people never trace it back to the pillow.",
+        "beat1": "Stacking two pillows, rolling a towel under your neck, switching sides mid-night, reaching for a memory foam block that turns your head into a sweat puddle \u2014 none of it fixes the real issue: a standard pillow isn't shaped for a shoulder.",
+        "turn": "The Eli & Elm Side Sleeper Pillow is built around that shoulder instead of ignoring it \u2014 a U-shape cutout for queen-size sleepers, an adjustable latex-and-fiber fill, and a cooling cover made to stay cool through the night.",
+        "result": "At $114.99, it's a one-time fix for a problem you've been patching around for years \u2014 no more towel rolls, no more flipped pillows, no more waking up stiff.",
         "scenes": [
           {
             "n": 1,
@@ -293,7 +293,7 @@
             "duration_sec": 5,
             "visual_prompt": "Eli & Elm pillow with U-shape cutout for shoulder, cooling cover",
             "on_screen_text": "U-SHAPE FOR SIDE SLEEPERS",
-            "voiceover": "Then I tried a U-shape side sleeper pillow."
+            "voiceover": "The Eli & Elm Side Sleeper Pillow is built around that shoulder instead of ignoring it \u2014 a U-shape cutout for queen-size sleepers, an adjustable latex-and-fiber fill, and a cooling cover made to stay cool through the night."
           },
           {
             "n": 5,
@@ -313,10 +313,10 @@
       },
       {
         "hook_category": "confession",
-        "hook": "I spent ten years thinking my mattress was the problem.",
-        "beat1": "I bought a $1,400 mattress to fix my neck pain. Didn't help. Bought a topper. Didn't help. Saw a chiropractor twice a month for two years. Helped, but the pain came back every time.",
-        "turn": "Turns out it was the pillow. Specifically the wrong pillow for a side sleeper. The Eli & Elm has a shoulder cutout that lets your shoulder drop into the bed instead of crushing it.",
-        "result": "Three weeks of using it and the chronic stiffness is just gone. Saved myself another mattress.",
+        "hook": "Side sleepers know the real problem usually isn't the mattress.",
+        "beat1": "A flat pillow pushes your top shoulder up and twists your neck out of line all night, which is what leaves you stiff in the morning no matter how good the mattress underneath is.",
+        "turn": "The Eli & Elm Side Sleeper Pillow is built with a U-shaped cutout so your shoulder can settle into the mattress instead of getting crushed against the pillow, keeping your neck and spine aligned.",
+        "result": "It's a latex, queen-size pillow made specifically for side sleeping, priced at $114.99 \u2014 a lot cheaper than replacing a mattress that was never the issue.",
         "scenes": [
           {
             "n": 1,
@@ -519,17 +519,17 @@
     "HANGERS": [
       {
         "hook_category": "wrong_until_right",
-        "hook": "My closet had been a low-grade mess for longer than I want to admit.",
-        "beat1": "I kept meaning to deal with it and kept not dealing with it. Things piled up, I could never find what I needed, and every time I opened it I just shut it again.",
-        "turn": "Then I found a closet hangers sitting at 4.8 stars across 231,174 reviews, and it finally gave everything a place.",
-        "result": "It runs about $36.84 and it's the first thing in a while that just worked. The closet actually stays sorted now.",
+        "hook": "If your closet has turned into a place you avoid opening, the hangers are usually the real problem.",
+        "beat1": "Bulky or mismatched hangers eat up rod space, let clothes slide off, and leave everything crammed together with no clear order.",
+        "turn": "The Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers, a 100-pack rated 4.8 stars across 231,174 reviews, are built to fix exactly that with a slim, non-slip design that gives each piece its own space.",
+        "result": "At $39.99 for 100, it's a straightforward way to turn a packed rod into a closet where things actually stay sorted.",
         "scenes": [
           {
             "n": 1,
             "duration_sec": 3,
             "visual_prompt": "first-person POV of a cluttered closet, things spilling out",
             "on_screen_text": "THIS WAS EVERY DAY",
-            "voiceover": "My closet had been a mess for longer than I'll admit."
+            "voiceover": "If your closet has turned into a place you avoid opening, the hangers are usually the real problem."
           },
           {
             "n": 2,
@@ -550,7 +550,7 @@
             "duration_sec": 5,
             "visual_prompt": "the hangers in use, everything organized and visible",
             "on_screen_text": "THEN THIS",
-            "voiceover": "Then I found a hangers that finally gave everything a place."
+            "voiceover": "The Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers, a 100-pack rated 4.8 stars across 231,174 reviews, are built to fix exactly that with a slim, non-slip design that gives each piece its own space."
           },
           {
             "n": 5,
@@ -565,17 +565,17 @@
     "TOWELS": [
       {
         "hook_category": "wrong_until_right",
-        "hook": "My home had been a low-grade mess for longer than I want to admit.",
-        "beat1": "I kept meaning to deal with it and kept not dealing with it. Things piled up, I could never find what I needed, and every time I opened it I just shut it again.",
-        "turn": "Then I found a hotel towels sitting at 4.4 stars across 79,026 reviews, and it finally gave everything a place.",
-        "result": "It runs about $39.99 and it's the first thing in a while that just worked. The home actually stays sorted now.",
+        "hook": "Bath towels that don't earn their keep are easy to spot \u2014 thin, scratchy, or never quite dry before you need them again.",
+        "beat1": "You grab one after a shower and it's still damp from yesterday, or it just smears water around instead of soaking it up. That's not what a towel is supposed to do.",
+        "turn": "The American Soft Linen Luxury 4 Piece Bath Towel Set is 600 GSM 100% Cotton Turkish cotton, sized 27x54 inches, and it holds a 4.4 star rating across 79,026 reviews.",
+        "result": "At $39.99 for the set, that's a lot of people confirming these actually absorb well and hold up wash after wash.",
         "scenes": [
           {
             "n": 1,
             "duration_sec": 3,
             "visual_prompt": "first-person POV of a cluttered home, things spilling out",
             "on_screen_text": "THIS WAS EVERY DAY",
-            "voiceover": "My home had been a mess for longer than I'll admit."
+            "voiceover": "Bath towels that don't earn their keep are easy to spot \u2014 thin, scratchy, or never quite dry before you need them again."
           },
           {
             "n": 2,
@@ -596,7 +596,7 @@
             "duration_sec": 5,
             "visual_prompt": "the towels in use, everything organized and visible",
             "on_screen_text": "THEN THIS",
-            "voiceover": "Then I found a towels that finally gave everything a place."
+            "voiceover": "The American Soft Linen Luxury 4 Piece Bath Towel Set is 600 GSM 100% Cotton Turkish cotton, sized 27x54 inches, and it holds a 4.4 star rating across 79,026 reviews."
           },
           {
             "n": 5,
@@ -611,17 +611,17 @@
     "PITCHER": [
       {
         "hook_category": "wrong_until_right",
-        "hook": "My home had been a low-grade mess for longer than I want to admit.",
-        "beat1": "I kept meaning to deal with it and kept not dealing with it. Things piled up, I could never find what I needed, and every time I opened it I just shut it again.",
-        "turn": "Then I found a water pitcher sitting at 4.6 stars across 59,611 reviews, and it finally gave everything a place.",
-        "result": "It runs about $28.49 and it's the first thing in a while that just worked. The home actually stays sorted now.",
+        "hook": "Tap water that tastes like the pipes it traveled through is one of those problems people just put up with.",
+        "beat1": "Bottled water adds up fast, and a lot of pitcher filters need replacing every few weeks, which makes clean water feel like more upkeep than it should be.",
+        "turn": "The Brita Large Water Filter Pitcher is built around a 10-cup capacity and a standard filter rated to last two months, and it holds a 4.6-star rating across 59,611 reviews.",
+        "result": "It's BPA-free and runs $28.49 with one filter included \u2014 a straightforward way to get better-tasting water without constant upkeep.",
         "scenes": [
           {
             "n": 1,
             "duration_sec": 3,
             "visual_prompt": "first-person POV of a cluttered home, things spilling out",
             "on_screen_text": "THIS WAS EVERY DAY",
-            "voiceover": "My home had been a mess for longer than I'll admit."
+            "voiceover": "Tap water that tastes like the pipes it traveled through is one of those problems people just put up with."
           },
           {
             "n": 2,
@@ -642,7 +642,7 @@
             "duration_sec": 5,
             "visual_prompt": "the pitcher in use, everything organized and visible",
             "on_screen_text": "THEN THIS",
-            "voiceover": "Then I found a pitcher that finally gave everything a place."
+            "voiceover": "The Brita Large Water Filter Pitcher is built around a 10-cup capacity and a standard filter rated to last two months, and it holds a 4.6-star rating across 59,611 reviews."
           },
           {
             "n": 5,
@@ -657,17 +657,17 @@
     "TURNTABLE": [
       {
         "hook_category": "wrong_until_right",
-        "hook": "My kitchen had been a low-grade mess for longer than I want to admit.",
-        "beat1": "I kept meaning to deal with it and kept not dealing with it. Things piled up, I could never find what I needed, and every time I opened it I just shut it again.",
-        "turn": "Then I found a lazy-susan turntable sitting at 4.7 stars across 6,190 reviews, and it finally gave everything a place.",
-        "result": "It runs about $24.99 and it's the first thing in a while that just worked. The kitchen actually stays sorted now.",
+        "hook": "A cluttered cabinet turns into a guessing game every time you go looking for something.",
+        "beat1": "Bottles and jars get pushed to the back, labels end up facing every direction, and reaching the one thing you need means pulling out three others first.",
+        "turn": "A set of 4 non-skid 10-inch lazy susan turntable organizers is built to fix exactly that, and it holds 4.7 stars across 6,190 reviews.",
+        "result": "At $24.99 for the set, it's a small, cheap fix for a daily annoyance: spin instead of dig, and everything stays visible and within reach.",
         "scenes": [
           {
             "n": 1,
             "duration_sec": 3,
             "visual_prompt": "first-person POV of a cluttered kitchen, things spilling out",
             "on_screen_text": "THIS WAS EVERY DAY",
-            "voiceover": "My kitchen had been a mess for longer than I'll admit."
+            "voiceover": "A cluttered cabinet turns into a guessing game every time you go looking for something."
           },
           {
             "n": 2,
@@ -688,7 +688,7 @@
             "duration_sec": 5,
             "visual_prompt": "the turntable in use, everything organized and visible",
             "on_screen_text": "THEN THIS",
-            "voiceover": "Then I found a turntable that finally gave everything a place."
+            "voiceover": "A set of 4 non-skid 10-inch lazy susan turntable organizers is built to fix exactly that, and it holds 4.7 stars across 6,190 reviews."
           },
           {
             "n": 5,
@@ -703,17 +703,17 @@
     "THROW": [
       {
         "hook_category": "wrong_until_right",
-        "hook": "My home had been a low-grade mess for longer than I want to admit.",
-        "beat1": "I kept meaning to deal with it and kept not dealing with it. Things piled up, I could never find what I needed, and every time I opened it I just shut it again.",
-        "turn": "Then I found a boho throw sitting at 4.6 stars across 3,203 reviews, and it finally gave everything a place.",
-        "result": "It runs about $16.98 and it's the first thing in a while that just worked. The home actually stays sorted now.",
+        "hook": "That drawer of mismatched throw pillows isn't going to fix itself.",
+        "beat1": "Faded covers, flat corduroy, colors that clash with everything else in the room \u2014 swapping them out is one of the easiest refreshes for a couch or bed.",
+        "turn": "This set of 4 sage green boho farmhouse covers is 18x18 inch and sits at 4.6 stars across 3,203 reviews, with a soft corduroy nordic look built for spring updates.",
+        "result": "At $16.99 for the set, it's an easy way to give a couch or bedroom a fresh, coordinated look without replacing the pillows themselves.",
         "scenes": [
           {
             "n": 1,
             "duration_sec": 3,
             "visual_prompt": "first-person POV of a cluttered home, things spilling out",
             "on_screen_text": "THIS WAS EVERY DAY",
-            "voiceover": "My home had been a mess for longer than I'll admit."
+            "voiceover": "That drawer of mismatched throw pillows isn't going to fix itself."
           },
           {
             "n": 2,
@@ -734,7 +734,7 @@
             "duration_sec": 5,
             "visual_prompt": "the throw in use, everything organized and visible",
             "on_screen_text": "THEN THIS",
-            "voiceover": "Then I found a throw that finally gave everything a place."
+            "voiceover": "This set of 4 sage green boho farmhouse covers is 18x18 inch and sits at 4.6 stars across 3,203 reviews, with a soft corduroy nordic look built for spring updates."
           },
           {
             "n": 5,
@@ -749,17 +749,17 @@
     "LINER": [
       {
         "hook_category": "wrong_until_right",
-        "hook": "My kitchen had been a low-grade mess for longer than I want to admit.",
-        "beat1": "I kept meaning to deal with it and kept not dealing with it. Things piled up, I could never find what I needed, and every time I opened it I just shut it again.",
-        "turn": "Then I found a shelf-liner liner sitting at 4.7 stars across 2,556 reviews, and it finally gave everything a place.",
-        "result": "It runs about $7.99 and it's the first thing in a while that just worked. The kitchen actually stays sorted now.",
+        "hook": "A cluttered cabinet doesn't need a full overhaul\u2014just something under your dishes and cans that stops them from sliding every time the door opens.",
+        "beat1": "Wire racks and bare wood let jars tip and glasses shift, so you end up straightening shelves or digging around just to find what you need.",
+        "turn": "A non-adhesive, non-slip shelf liner like this one fixes that without any mess\u2014no glue, no residue, just lay it down. It holds a 4.7-star rating across 2,556 reviews.",
+        "result": "At $7.99 for a 12\" x 10FT roll, it's a cheap way to keep shelves in order, one cabinet at a time.",
         "scenes": [
           {
             "n": 1,
             "duration_sec": 3,
             "visual_prompt": "first-person POV of a cluttered kitchen, things spilling out",
             "on_screen_text": "THIS WAS EVERY DAY",
-            "voiceover": "My kitchen had been a mess for longer than I'll admit."
+            "voiceover": "A cluttered cabinet doesn't need a full overhaul\u2014just something under your dishes and cans that stops them from sliding every time the door opens."
           },
           {
             "n": 2,
@@ -780,7 +780,7 @@
             "duration_sec": 5,
             "visual_prompt": "the liner in use, everything organized and visible",
             "on_screen_text": "THEN THIS",
-            "voiceover": "Then I found a liner that finally gave everything a place."
+            "voiceover": "A non-adhesive, non-slip shelf liner like this one fixes that without any mess\u2014no glue, no residue, just lay it down. It holds a 4.7-star rating across 2,556 reviews."
           },
           {
             "n": 5,
@@ -795,10 +795,10 @@
     "PATIO": [
       {
         "hook_category": "wrong_until_right",
-        "hook": "My patio had been a low-grade mess for longer than I want to admit.",
-        "beat1": "I kept meaning to deal with it and kept not dealing with it. Things piled up, I could never find what I needed, and every time I opened it I just shut it again.",
-        "turn": "Then I found a patio patio sitting at 4.1 stars across 2,187 reviews, and it finally gave everything a place.",
-        "result": "It runs about $251.08 and it's the first thing in a while that just worked. The patio actually stays sorted now.",
+        "hook": "A patio that never gets used usually comes down to one thing: nowhere comfortable to actually sit.",
+        "beat1": "A single chair or a mismatched setup makes it hard to fit more than one person outside, and open lounging space tends to just collect leaves and clutter instead.",
+        "turn": "The Vongrasig 5 Piece Patio Furniture Set is built to fix that directly \u2014 a sectional sofa, ottoman, and glass table in all-weather PE rattan, holding 4.1 stars across 2,187 reviews.",
+        "result": "At $251.08 for the full set, it gives a patio an actual seating area instead of a single spot, with a table right there for drinks or food.",
         "scenes": [
           {
             "n": 1,
@@ -826,7 +826,7 @@
             "duration_sec": 5,
             "visual_prompt": "the patio in use, everything organized and visible",
             "on_screen_text": "THEN THIS",
-            "voiceover": "Then I found a patio that finally gave everything a place."
+            "voiceover": "The Vongrasig 5 Piece Patio Furniture Set is built to fix that directly \u2014 a sectional sofa, ottoman, and glass table in all-weather PE rattan, holding 4.1 stars across 2,187 reviews."
           },
           {
             "n": 5,
