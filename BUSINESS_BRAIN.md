@@ -267,6 +267,14 @@ No single point of failure — the flywheel keeps spinning.
 - **Epoxy flooring transformations** — viral on TikTok, satisfying before/after format
 - **Electric food composters** (Lomi) — trending as kitchen staple, eco-angle
 
+### August 2026 Visual Trend Insights (updated 2026-08-19):
+- **Shelf label organizing** — trending heavily on TikTok; "where everything belongs" system videos driving millions of views. $12 product, extremely visual, high watch-through rate on short-form.
+- **Renter-specific hacks** — "if you rent and can't touch the walls/closet..." format is our channel's ONLY proven growth hook as of Aug 2026 (only video with real week-over-week view growth per Aug 16 weekly review). Alexandra Gater's success confirms renter-focus is a long-term differentiator.
+- **Closet boutique transformation** — "mismatched closet → boutique-style" trending in August per Trend Scout (2026-08-19). Renter + small space angle performs best. Budget under $60.
+- **"Worth the money" list format on TikTok** — direct-to-camera 3-item "worth it / not worth it" videos performing well in home niche; connects to our "comparison" format strength.
+- **Junk drawer** — Trend Scout (2026-08-19) flags "chaotic junk drawer → fully sorted" as high-opportunity.
+- **Competitors** (checked Aug 2026): Alexandra Gater leans into renter/small-space content and budget-friendly makeovers — our exact overlap. Her audience is highly engaged on renter-restriction hacks. We should out-execute on dollar specificity she lacks.
+
 ### Competitor Analysis (updated 2026-04-02):
 - Lone Fox (1.5M subs): budget thrifted makeovers, rolling storage hacks
 - Kristen McGowan (1.8M subs): interior design hacks, buying trip content
@@ -384,6 +392,12 @@ New agent spec: `automation/agents/ai_revenue_playbook.md` (COSTAR prompt framew
 | Impact | Promeed | TBD | Received promo 2026-04-03 | Silk pillowcases/bedding — ON-NICHE (bedroom), Spring Sale 20% off code PM20 |
 | Awin | Oedro (US) | TBD | Skipped | Off-niche (car parts — floor mats, tonneau covers) |
 | Impact | Homary | TBD | Outreach drafted 2026-04-02 | Home furniture — ON-NICHE (drafted by web agent) |
+| Impact | eufy | TBD | Outreach sent 2026-08-19 | Robot vacuums/smart home — ON-NICHE, fits "before transformation" content angle, confirmed on Impact platform |
+| Direct | OXO | TBD | Outreach sent 2026-08-16-17, auto-reply received | Kitchen/organization tools — ON-NICHE, directed to creator partner form |
+| Direct | mDesign | TBD | Outreach sent 2026-08-18 | Home organization — ON-NICHE |
+| Direct | Umbra | TBD | Outreach sent 2026-08-17 | Home decor/organization — ON-NICHE |
+| Direct | Tuft & Needle | TBD | Outreach sent 2026-08-17 | Mattresses/sleep — ON-NICHE (bedroom), high-AOV |
+| Awin | Promeed (baby-safe sleep) | TBD | Skipped 2026-08-19 | Off-niche — baby products, not home transformation |
 
 ---
 
