@@ -1504,5 +1504,19 @@
     "posted": false,
     "source": "pinterest_pipeline",
     "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-08-19-B0FVW1TNH8",
+    "asin": "B0FVW1TNH8",
+    "board": "Home Organization Finds",
+    "title": "Floating Shelves for Bedside & Dorm Room | Stick-On Wall Mount Organizer",
+    "description": "No-drill floating shelves perfect for a bedside shelf, dorm room decor, or small apartment wall storage. These stick-on wall mount shelves work great for organizing skincare, books, plants, and cute room decor accents in a dorm room or bedroom. Renter-friendly and easy to install in tight corners or above a desk. Tap through to see sizes and colors for dorm room essentials. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://goldenhomeproject.com/blog/posts/best-dorm-room-essentials.html",
+    "image_path": "social/pinterest/pin-2026-08-19-B0FVW1TNH8.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-19-B0FVW1TNH8.png",
+    "queued_at": "2026-08-19T13:59:22.447601Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
   }
 ]
