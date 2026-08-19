@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-08-19T06:24:58.798845Z",
+  "date": "2026-08-19",
+  "seq": 1,
+  "hook_category": "proof",
+  "hook": "349,374 reviews on a bathroom scale. That number is doing the talking.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Tight overhead shot of a sleek digital bathroom scale on clean tile, morning light, bare feet stepping into frame at the edge",
+      "on_screen_text": "349,374 REVIEWS",
+      "voiceover": "Three hundred forty-nine thousand reviews on a bathroom scale. That number is doing the talking."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Slow push-in on a scale display showing a number, then the same scale a moment later, emphasizing the readout",
+      "on_screen_text": "CHEAP SCALES DRIFT",
+      "voiceover": "Scales are easy to get wrong. Step on twice, get two numbers, and it becomes bathroom decoration."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Product-style shot of the Etekcity digital body weight scale on a bathroom floor, soft shadow, minimal styling",
+      "on_screen_text": "4.7 STARS",
+      "voiceover": "This is the Etekcity Digital Body Weight Bathroom Scale. No app subscription, no ceremony."
+    },
+    {
+      "n": 4,
+      "duration_sec": 5,
+      "visual_prompt": "Graphic overlay of a star rating bar filling to 4.7 beside a rising review counter, clean white background",
+      "on_screen_text": "4.7 ACROSS 349K",
+      "voiceover": "Holding four point seven stars across three hundred forty-nine thousand reviews means the usual cheap-scale complaints aren't what most buyers are reporting."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Scale tucked neatly beside a bathroom vanity, price card graphic sliding in from the right",
+      "on_screen_text": "$16.87",
+      "voiceover": "A scale you can trust the reading on. That's the whole job. Sixteen eighty-seven."
+    }
+  ],
+  "caption": "349,374 reviews on a bathroom scale. That number is doing the talking.\n\nBathroom scales are one of the easiest things to get wrong \u2014 you step on twice and get two different numbers, and the whole thing becomes decoration. That is exactly why the review count on this one matters. A product only accumulates 349,374 ratings by being bought over and over by people who mostly are not writing angry follow-ups.\n\nIt is the Etekcity Digital Body Weight Bathroom Scale \u2014 a digital scale for weighing yourself at home, no app subscription, no ceremony. Holding 4.7 stars across 349,374 reviews means the ordinary complaints about cheap scales are not what the bulk of buyers are reporting.\n\nYou get a scale you can actually trust the reading on, which is the only job it has \u2014 and it is $16.87.\n\nComment BATHROOM and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "It is the Etekcity Digital Body Weight Bathroom Scale \u2014 a digital scale for weighing yourself at home, no app subscription, no ceremony. Holding 4.7 stars across 349,374 reviews means the ordinary com",
+  "affiliate_strategy": {
+    "primary_product": "Etekcity Digital Body Weight Bathroom Scale",
+    "dm_keyword": "BATHROOM",
+    "amazon_asin": "B01HI1W1V4",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B01HI1W1V4?tag=goldenhomep06-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": null
+  }
+}

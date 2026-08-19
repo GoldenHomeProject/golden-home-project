@@ -5334,5 +5334,29 @@
     "keyword": "LINK",
     "queued_at": "2026-08-18T07:30:43.333953Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_2026-08-19_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-19-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "349,374 reviews on a bathroom scale. That number is doing the talking.\n\nBathroom scales are one of the easiest things to get wrong \u2014 you step on twice and get two different numbers, and the whole thing becomes decoration. That is exactly why the review count on this one matters. A product only accumulates 349,374 ratings by being bought over and over by people who mostly are not writing angry follow-ups.\n\nIt is the Etekcity Digital Body Weight Bathroom Scale \u2014 a digital scale for weighing yourself at home, no app subscription, no ceremony. Holding 4.7 stars across 349,374 reviews means the ordinary complaints about cheap scales are not what the bulk of buyers are reporting.\n\nYou get a scale you can actually trust the reading on, which is the only job it has \u2014 and it is $16.87.\n\nComment BATHROOM and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Etekcity Digital Body Weight Bathroom Scale",
+      "dm_keyword": "BATHROOM",
+      "amazon_asin": "B01HI1W1V4",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01HI1W1V4?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "349,374 reviews on a bathroom scale. That number is doing the talking."
   }
 ]
