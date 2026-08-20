@@ -1525,5 +1525,19 @@
     "posted": false,
     "source": "pinterest_pipeline",
     "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-08-20-B09KTQMMCM",
+    "asin": "B09KTQMMCM",
+    "board": "Home Organization Finds",
+    "title": "Disposable Nitrile Gloves for Cleaning & Organizing Projects",
+    "description": "Nitrile/vinyl blend exam gloves that make decluttering, pantry organizing, and deep cleaning way less messy. Powder-free and latex-free, they protect your hands while you sort donation piles, wipe down shelves, or tackle under-sink cleanup \u2014 sized for a snug, tear-resistant fit. A budget-friendly box to keep stocked in your cleaning caddy or laundry room. Tap through for sizing and pack options. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://goldenhomeproject.com/blog/posts/best-cleaning-supplies.html",
+    "image_path": "social/pinterest/pin-2026-08-20-B09KTQMMCM.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-20-B09KTQMMCM.png",
+    "queued_at": "2026-08-20T10:10:38.816330Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
   }
 ]
