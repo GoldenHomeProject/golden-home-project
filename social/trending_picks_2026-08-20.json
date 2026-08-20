@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-08-20",
+  "category": "Kitchen",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-kitchen-gadgets.html",
+  "picks": [
+    {
+      "asin": "B085DTZQNZ",
+      "name": "Owala FreeSip Stainless Steel Water Bottle 24 oz Very",
+      "price": "$29.97",
+      "rating": 4.6,
+      "reviews": 134535,
+      "rank": 1
+    },
+    {
+      "asin": "B0CQVWT2NH",
+      "name": "HydroJug Traveler 40oz",
+      "price": "$31.99",
+      "rating": 4.6,
+      "reviews": 17919,
+      "rank": 3
+    },
+    {
+      "asin": "B0113UZJE2",
+      "name": "Etekcity Food Kitchen Scale",
+      "price": "$10.99",
+      "rating": 4.6,
+      "reviews": 176516,
+      "rank": 4
+    },
+    {
+      "asin": "B0B56CHMSC",
+      "name": "Lifewit Medium Lunch Bag",
+      "price": "$7.98",
+      "rating": 4.5,
+      "reviews": 62062,
+      "rank": 10
+    },
+    {
+      "asin": "B078H9VRTZ",
+      "name": "PackIt Freezable Classic Lunch Box",
+      "price": "$26.99",
+      "rating": 4.7,
+      "reviews": 14515,
+      "rank": 13
+    },
+    {
+      "asin": "B0CJF94M8J",
+      "name": "TrendPlain 16oz/470ml Glass Olive Oil Sprayer for Cooking",
+      "price": "$8.99",
+      "rating": 4.6,
+      "reviews": 45670,
+      "rank": 23
+    }
+  ]
+}
