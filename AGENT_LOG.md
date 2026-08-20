@@ -2515,3 +2515,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** automation/scripts/reel-2026-08-20-*.json, social/post_queue.json
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: proof: 349,374 reviews on a bathroom scale is not a norma | before_after: Under-sink cabinets have a way of turning into a j | confession: Side sleepers know the real problem usually isn't
+
+## 2026-08-20T07:33:55Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B000ST1DZO (Drano Max Gel Drain Clog Remover & Clean)
+**Changed:** social/carousels/2026-08-20-B000ST1DZO/slide-1.png, social/carousels/2026-08-20-B000ST1DZO/slide-2.png, social/carousels/2026-08-20-B000ST1DZO/slide-3.png, social/carousels/2026-08-20-B000ST1DZO/slide-4.png, social/carousels/2026-08-20-B000ST1DZO/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B000ST1DZO carousel.
