@@ -1389,6 +1389,52 @@
           }
         ]
       }
+    ],
+    "BEDDING": [
+      {
+        "hook_category": "use_case",
+        "hook": "Pillow covers are cheap. The insert inside them is why yours look flat.",
+        "beat1": "A decorative cover is only as good as what's stuffed in it. If your throw pillows sag in the middle or look half-empty at the corners, that's the insert, not the cover. Swapping inserts is the cheaper fix \u2014 you keep every cover you already own.",
+        "turn": "The Utopia Bedding 18x18 Pillow Inserts are standard 18-by-18 forms sized for the most common throw pillow cover on the market. With 218,437 reviews holding a 4.6-star average, this is a product a very large number of people have bought and rated well \u2014 that volume is about as close to a consensus as a basic home item gets.",
+        "result": "You get filled-out pillows on the covers already sitting on your couch, without replacing a single one. $13.49.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close-up of a sofa with two throw pillows that visibly sag in the center, corners collapsing inward, soft natural window light",
+            "on_screen_text": "IT'S NOT THE COVER",
+            "voiceover": "Pillow covers are cheap. The insert inside them is why yours look flat."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Hands lifting a limp throw pillow, pressing the middle so it folds nearly in half, neutral living room background",
+            "on_screen_text": "SAGGY CORNERS",
+            "voiceover": "A decorative cover is only as good as what's stuffed in it. Sagging middles and empty corners are the insert's fault."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Overhead shot of a stack of folded decorative pillow covers in various fabrics beside a plain white pillow insert",
+            "on_screen_text": "KEEP YOUR COVERS",
+            "voiceover": "Swapping inserts is the cheaper fix. You keep every cover you already own."
+          },
+          {
+            "n": 4,
+            "duration_sec": 5,
+            "visual_prompt": "Product-style shot of plain white 18x18 pillow inserts stacked squarely, clean seams, bright even lighting, minimal background",
+            "on_screen_text": "218,437 REVIEWS \u00b7 4.6\u2605",
+            "voiceover": "These are standard eighteen by eighteen inserts, sized for the most common throw pillow cover out there. Two hundred eighteen thousand reviews at four point six stars is about as close to consensus as a basic home item gets."
+          },
+          {
+            "n": 5,
+            "duration_sec": 4,
+            "visual_prompt": "Styled sofa with four full, squared-off throw pillows in patterned covers, sharp corners, warm afternoon light",
+            "on_screen_text": "$13.49",
+            "voiceover": "Filled-out pillows on the covers already sitting on your couch, without replacing a single one. Thirteen forty-nine."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
