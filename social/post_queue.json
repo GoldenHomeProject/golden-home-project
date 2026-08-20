@@ -5348,5 +5348,79 @@
     "keyword": "LINK",
     "queued_at": "2026-08-19T07:31:02.746672Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_2026-08-20_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-20-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "349,374 reviews on a bathroom scale is not a normal number.\n\nMost products in a home never get anywhere near that. A number that size means this scale has been bought, used and rated across hundreds of thousands of different bathrooms, floors and households. And it held a 4.7-star average the whole way there.\n\nIt's a digital body weight bathroom scale \u2014 you step on, it reads out your weight. At that volume of feedback, 4.7 stars stops being a lucky streak and starts being a track record.\n\nYou get a basic daily-use scale that a very large group of people rated well, without overthinking the purchase. It's $16.87.\n\nComment SCALE and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Etekcity Digital Body Weight Bathroom Scale",
+      "dm_keyword": "SCALE",
+      "amazon_asin": "B01HI1W1V4",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01HI1W1V4?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "349,374 reviews on a bathroom scale is not a normal number."
+  },
+  {
+    "name": "reel_2026-08-20_002",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-20-002.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Under-sink cabinets have a way of turning into a junk pile fast.\n\nOpen yours and you're digging past sponges, three half-empty bottles of the same cleaner, and something you haven't touched in over a year.\n\nA Simple Houseware 2-tier chrome sliding basket organizer gives each item its own spot. It sets directly on the cabinet floor with no installation, and each basket slides out so you're not reaching over everything else.\n\nYou can see what's there at a glance instead of digging for it \u2014 and an empty slot tells you when you're out, not a buried bottle. $34.97.\n\nComment LINK and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #kitchenorganization #smallspacesolutions #undersinkstorage",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#kitchenorganization",
+      "#smallspacesolutions",
+      "#undersinkstorage"
+    ],
+    "affiliate": {
+      "primary_product": "Simple Houseware 2-Tier Sliding Basket Organizer (chrome, under-sink)",
+      "dm_keyword": "LINK",
+      "amazon_asin": "B01M0TS64K",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01M0TS64K?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Under-sink cabinets have a way of turning into a junk pile fast."
+  },
+  {
+    "name": "reel_2026-08-20_003",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-20-003.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Side sleepers know the real problem usually isn't the mattress.\n\nA flat pillow pushes your top shoulder up and twists your neck out of line all night, which is what leaves you stiff in the morning no matter how good the mattress underneath is.\n\nThe Eli & Elm Side Sleeper Pillow is built with a U-shaped cutout so your shoulder can settle into the mattress instead of getting crushed against the pillow, keeping your neck and spine aligned.\n\nIt's a latex, queen-size pillow made specifically for side sleeping, priced at $114.99 \u2014 a lot cheaper than replacing a mattress that was never the issue.\n\nComment PILLOW and I'll reply with the link.\nAffiliate link \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #sleepbetter #sidesleeper #bedroomupgrade",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#sleepbetter",
+      "#sidesleeper",
+      "#bedroomupgrade"
+    ],
+    "affiliate": {
+      "primary_product": "Eli & Elm Side Sleeper Pillow (U-shape, latex, queen)",
+      "dm_keyword": "PILLOW",
+      "amazon_asin": "B07YL7VD32",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B07YL7VD32?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "impact_direct",
+      "affiliate_url": "https://eliandelm.sjv.io/E092ZX"
+    },
+    "hook": "Side sleepers know the real problem usually isn't the mattress."
   }
 ]
