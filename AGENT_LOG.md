@@ -2545,3 +2545,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** automation/scripts/reel-2026-08-21-*.json, social/post_queue.json
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: use_case: Pillow covers are cheap. The insert inside them is | wrong_until_right: Tap water that tastes like the pipes it traveled t | wrong_until_right: If your closet has turned into a place you avoid o
+
+## 2026-08-21T07:36:08Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B00SXC85IQ (Affresh Dishwasher Cleaner)
+**Changed:** social/carousels/2026-08-21-B00SXC85IQ/slide-1.png, social/carousels/2026-08-21-B00SXC85IQ/slide-2.png, social/carousels/2026-08-21-B00SXC85IQ/slide-3.png, social/carousels/2026-08-21-B00SXC85IQ/slide-4.png, social/carousels/2026-08-21-B00SXC85IQ/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B00SXC85IQ carousel.
