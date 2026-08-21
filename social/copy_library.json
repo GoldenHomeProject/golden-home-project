@@ -1435,6 +1435,52 @@
           }
         ]
       }
+    ],
+    "INSERTS": [
+      {
+        "hook_category": "proof",
+        "hook": "218,437 reviews on a pillow insert most people never think about.",
+        "beat1": "Throw pillows are the part of a room people replace covers for and never look inside. But the insert is what decides whether a cushion sits full and square on the couch or slumps into a flat envelope. A 18x18 cover is only as good as what you stuff into it.",
+        "turn": "Utopia Bedding's 18x18 inserts are the filler that goes inside your existing covers, sized to the most common square cover on the market. Sitting at 4.6 stars across 218,437 reviews, that's a volume of feedback most home products never reach, and the rating holds steady at that scale.",
+        "result": "If your throw pillows have gone limp, you don't need new covers, you need new insides. $13.49.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close overhead shot of a flat, deflated square throw pillow lying on a neutral linen sofa, soft daylight from a window, shallow depth of field",
+            "on_screen_text": "218,437 REVIEWS",
+            "voiceover": "218,437 reviews on a pillow insert most people never think about."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Hands unzipping a decorative pillow cover on a couch, revealing the plain insert inside, warm indoor lighting",
+            "on_screen_text": "IT'S THE INSIDE",
+            "voiceover": "People swap pillow covers all the time and never look at what's inside. The insert is what decides whether a cushion sits full or slumps flat."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Side-by-side on a sofa: one limp square pillow, one plump square pillow, even natural light, clean minimal styling",
+            "on_screen_text": "18X18 SQUARE",
+            "voiceover": "These are 18 by 18 inserts, sized for the most common square cover out there. Your cover is only as good as what you stuff into it."
+          },
+          {
+            "n": 4,
+            "duration_sec": 5,
+            "visual_prompt": "Product-style shot of stacked plain white square pillow inserts on a light wood surface, soft shadows, catalogue lighting",
+            "on_screen_text": "4.6 STARS",
+            "voiceover": "4.6 stars across 218,437 reviews. That's a volume of feedback most home products never come close to, and the rating holds at that scale."
+          },
+          {
+            "n": 5,
+            "duration_sec": 4,
+            "visual_prompt": "Wide shot of a styled sofa with four full, upright square throw pillows, bright airy living room, price card graphic in corner",
+            "on_screen_text": "$13.49",
+            "voiceover": "If your throw pillows have gone limp, you don't need new covers. You need new insides. Thirteen forty-nine."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
