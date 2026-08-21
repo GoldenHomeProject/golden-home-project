@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-08-21T06:26:43.338035Z",
+  "date": "2026-08-21",
+  "seq": 3,
+  "hook_category": "wrong_until_right",
+  "hook": "If your closet has turned into a place you avoid opening, the hangers are usually the real problem.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "first-person POV of a cluttered closet, things spilling out",
+      "on_screen_text": "THIS WAS EVERY DAY",
+      "voiceover": "If your closet has turned into a place you avoid opening, the hangers are usually the real problem."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "close-up of disorganized items in the closet",
+      "on_screen_text": "COULD NEVER FIND ANYTHING",
+      "voiceover": "I kept meaning to deal with it and kept not dealing with it."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "person shutting a door/drawer in frustration",
+      "on_screen_text": "SO I GAVE UP",
+      "voiceover": "Every time I opened it I just shut it again."
+    },
+    {
+      "n": 4,
+      "duration_sec": 5,
+      "visual_prompt": "the hangers in use, everything organized and visible",
+      "on_screen_text": "THEN THIS",
+      "voiceover": "The Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers, a 100-pack rated 4.8 stars across 231,174 reviews, are built to fix exactly that with a slim, non-slip design that gives each piece its own space."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "satisfying final shot of the tidy closet",
+      "on_screen_text": "STAYS SORTED NOW",
+      "voiceover": "The closet actually stays sorted now."
+    }
+  ],
+  "caption": "If your closet has turned into a place you avoid opening, the hangers are usually the real problem.\n\nBulky or mismatched hangers eat up rod space, let clothes slide off, and leave everything crammed together with no clear order.\n\nThe Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers, a 100-pack rated 4.8 stars across 231,174 reviews, are built to fix exactly that with a slim, non-slip design that gives each piece its own space.\n\nAt $39.99 for 100, it's a straightforward way to turn a packed rod into a closet where things actually stay sorted.\n\nComment HANGERS and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "The Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers, a 100-pack rated 4.8 stars across 231,174 reviews, are built to fix exactly that with a slim, non-slip design that gives each ",
+  "affiliate_strategy": {
+    "primary_product": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers for Closet Organization, Ivory/Rose Gold, 100-Pack",
+    "dm_keyword": "HANGERS",
+    "amazon_asin": "B07Y39ZXV7",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B07Y39ZXV7?tag=goldenhomep06-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": "https://www.amazon.com/dp/B07Y39ZXV7?tag=goldenhomep06-20"
+  }
+}

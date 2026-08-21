@@ -5425,5 +5425,77 @@
     "keyword": "LINK",
     "queued_at": "2026-08-20T07:33:55.276695Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_2026-08-21_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-21-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Pillow covers are cheap. The insert inside them is why yours look flat.\n\nA decorative cover is only as good as what's stuffed in it. If your throw pillows sag in the middle or look half-empty at the corners, that's the insert, not the cover. Swapping inserts is the cheaper fix \u2014 you keep every cover you already own.\n\nThe Utopia Bedding 18x18 Pillow Inserts are standard 18-by-18 forms sized for the most common throw pillow cover on the market. With 218,437 reviews holding a 4.6-star average, this is a product a very large number of people have bought and rated well \u2014 that volume is about as close to a consensus as a basic home item gets.\n\nYou get filled-out pillows on the covers already sitting on your couch, without replacing a single one. $13.49.\n\nComment BEDDING and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Utopia Bedding 18x18 Pillow Inserts",
+      "dm_keyword": "BEDDING",
+      "amazon_asin": "B01NBNDC1T",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01NBNDC1T?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Pillow covers are cheap. The insert inside them is why yours look flat."
+  },
+  {
+    "name": "reel_2026-08-21_002",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-21-002.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Tap water that tastes like the pipes it traveled through is one of those problems people just put up with.\n\nBottled water adds up fast, and a lot of pitcher filters need replacing every few weeks, which makes clean water feel like more upkeep than it should be.\n\nThe Brita Large Water Filter Pitcher is built around a 10-cup capacity and a standard filter rated to last two months, and it holds a 4.6-star rating across 59,611 reviews.\n\nIt's BPA-free and runs $28.49 with one filter included \u2014 a straightforward way to get better-tasting water without constant upkeep.\n\nComment PITCHER and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Brita Large Water Filter Pitcher for Tap and Drinking Water, Includes 1 Standard Filter, BPA-Free, Lasts Two Months, 10-Cup Capacity, Bright",
+      "dm_keyword": "PITCHER",
+      "amazon_asin": "B01FXN3E74",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01FXN3E74?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B01FXN3E74?tag=goldenhomep06-20"
+    },
+    "hook": "Tap water that tastes like the pipes it traveled through is one of those problems people just put up with."
+  },
+  {
+    "name": "reel_2026-08-21_003",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-21-003.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "If your closet has turned into a place you avoid opening, the hangers are usually the real problem.\n\nBulky or mismatched hangers eat up rod space, let clothes slide off, and leave everything crammed together with no clear order.\n\nThe Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers, a 100-pack rated 4.8 stars across 231,174 reviews, are built to fix exactly that with a slim, non-slip design that gives each piece its own space.\n\nAt $39.99 for 100, it's a straightforward way to turn a packed rod into a closet where things actually stay sorted.\n\nComment HANGERS and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers for Closet Organization, Ivory/Rose Gold, 100-Pack",
+      "dm_keyword": "HANGERS",
+      "amazon_asin": "B07Y39ZXV7",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B07Y39ZXV7?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B07Y39ZXV7?tag=goldenhomep06-20"
+    },
+    "hook": "If your closet has turned into a place you avoid opening, the hangers are usually the real problem."
   }
 ]
