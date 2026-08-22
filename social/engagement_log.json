@@ -4,12 +4,12 @@
     "lifetime_follows": 21,
     "lifetime_likes": 33,
     "lifetime_comments": 7,
-    "last_session": "2026-08-22-1338-pi",
+    "last_session": "comments-2026-08-22T1410Z",
     "blocked_at": null,
-    "last_updated": "2026-08-22T13:39:11Z",
-    "total_actions": 526,
+    "last_updated": "2026-08-22T14:12:46Z",
+    "total_actions": 528,
     "lifetime_dms": 28,
-    "lifetime_comments_outbound": 36
+    "lifetime_comments_outbound": 38
   },
   "actions": [
     {
@@ -22281,6 +22281,24 @@
       ],
       "untapped_warm": [],
       "dry_run": false
+    },
+    {
+      "timestamp": "2026-08-22T14:10:53Z",
+      "action": "comment_posted",
+      "target": "neatmethod",
+      "session": "comments-2026-08-22T1410Z",
+      "post_url": "https://www.instagram.com/neatmethod/p/DcOoDCHoH7u/",
+      "text": "Genuinely helpful angle: bins tend to backslide fastest in the kids' toy zone \u2014 labeling shelf edges instead of bins helped ours stick way longer.",
+      "caption_seen": ""
+    },
+    {
+      "timestamp": "2026-08-22T14:12:46Z",
+      "action": "comment_posted",
+      "target": "thehomeedit",
+      "session": "comments-2026-08-22T1410Z",
+      "post_url": "https://www.instagram.com/thehomeedit/p/Db9LDWOgbL2/",
+      "text": "This one over 60 dollhouse-style bins for one closet \u2014 how are you keeping the labels legible once bins get restacked or moved between shelves? We've had better luck with angled label windows than fla",
+      "caption_seen": ""
     }
   ]
 }
