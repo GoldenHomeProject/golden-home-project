@@ -2569,3 +2569,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** automation/scripts/reel-2026-08-22-*.json, social/post_queue.json
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: proof: 218,437 reviews on a pillow insert most people nev | wrong_until_right: Bath towels that don't earn their keep are easy to | wrong_until_right: A cluttered cabinet turns into a guessing game eve
+
+## 2026-08-22T07:24:29Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B08492PZ8Y (Febreze Plug-In Air Freshener)
+**Changed:** social/carousels/2026-08-22-B08492PZ8Y/slide-1.png, social/carousels/2026-08-22-B08492PZ8Y/slide-2.png, social/carousels/2026-08-22-B08492PZ8Y/slide-3.png, social/carousels/2026-08-22-B08492PZ8Y/slide-4.png, social/carousels/2026-08-22-B08492PZ8Y/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B08492PZ8Y carousel.
