@@ -1560,5 +1560,19 @@
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "posted_at": "2026-08-21T13:40:24Z"
+  },
+  {
+    "id": "pin-2026-08-22-B0BZYCJK89",
+    "asin": "B0BZYCJK89",
+    "board": "Home Organization Finds",
+    "title": "Leakproof Stainless Steel Water Bottle 24oz - Fridge & Bag Organization Essential",
+    "description": "Keep your fridge shelves, gym bag, and desk clutter-free with this 24 oz Owala FreeSip insulated stainless steel water bottle in Denim. The straw and sip-top switch design cuts down on loose cups and lids taking over your cabinet space, while the leakproof seal makes it safe to toss in a tote or lunch bag. A smart pick if you're organizing daily hydration into your morning grab-and-go routine. Tap through to see sizes and colors. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://goldenhomeproject.com/blog/posts/best-storage-bins.html",
+    "image_path": "social/pinterest/pin-2026-08-22-B0BZYCJK89.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-22-B0BZYCJK89.png",
+    "queued_at": "2026-08-22T10:10:52.206410Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
   }
 ]
