@@ -5487,5 +5487,78 @@
     "keyword": "LINK",
     "queued_at": "2026-08-21T07:36:08.774318Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_2026-08-22_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-22-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "218,437 reviews on a pillow insert most people never think about.\n\nThrow pillows are the part of a room people replace covers for and never look inside. But the insert is what decides whether a cushion sits full and square on the couch or slumps into a flat envelope. A 18x18 cover is only as good as what you stuff into it.\n\nUtopia Bedding's 18x18 inserts are the filler that goes inside your existing covers, sized to the most common square cover on the market. Sitting at 4.6 stars across 218,437 reviews, that's a volume of feedback most home products never reach, and the rating holds steady at that scale.\n\nIf your throw pillows have gone limp, you don't need new covers, you need new insides. $13.49.\n\nComment INSERTS and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Utopia Bedding 18x18 Pillow Inserts",
+      "dm_keyword": "INSERTS",
+      "amazon_asin": "B01NBNDC1T",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01NBNDC1T?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "218,437 reviews on a pillow insert most people never think about."
+  },
+  {
+    "name": "reel_2026-08-22_002",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-22-002.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Bath towels that don't earn their keep are easy to spot \u2014 thin, scratchy, or never quite dry before you need them again.\n\nYou grab one after a shower and it's still damp from yesterday, or it just smears water around instead of soaking it up. That's not what a towel is supposed to do.\n\nThe American Soft Linen Luxury 4 Piece Bath Towel Set is 600 GSM 100% Cotton Turkish cotton, sized 27x54 inches, and it holds a 4.4 star rating across 79,026 reviews.\n\nAt $39.99 for the set, that's a lot of people confirming these actually absorb well and hold up wash after wash.\n\nComment TOWELS and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "American Soft Linen Luxury 4 Piece Bath Towel Set, 600 GSM 100% Cotton Turkish Bath Towels for Bathroom, 27x54 in Large Bathroom Shower Towe",
+      "dm_keyword": "TOWELS",
+      "amazon_asin": "B08CYBPMJC",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B08CYBPMJC?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B08CYBPMJC?tag=goldenhomep06-20"
+    },
+    "hook": "Bath towels that don't earn their keep are easy to spot \u2014 thin, scratchy, or never quite dry before you need them again."
+  },
+  {
+    "name": "reel_2026-08-22_003",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-22-003.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "A cluttered cabinet turns into a guessing game every time you go looking for something.\n\nBottles and jars get pushed to the back, labels end up facing every direction, and reaching the one thing you need means pulling out three others first.\n\nA set of 4 non-skid 10-inch lazy susan turntable organizers is built to fix exactly that, and it holds 4.7 stars across 6,190 reviews.\n\nAt $24.99 for the set, it's a small, cheap fix for a daily annoyance: spin instead of dig, and everything stays visible and within reach.\n\nComment TURNTABLE and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #kitchenorganization #smallspacesolutions #undersinkstorage",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#kitchenorganization",
+      "#smallspacesolutions",
+      "#undersinkstorage"
+    ],
+    "affiliate": {
+      "primary_product": "Set of 4 Non-Skid 10-Inch Lazy Susan Turntable Organizers",
+      "dm_keyword": "TURNTABLE",
+      "amazon_asin": "B0B3WSZ3QP",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B0B3WSZ3QP?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B0B3WSZ3QP?tag=goldenhomep06-20"
+    },
+    "hook": "A cluttered cabinet turns into a guessing game every time you go looking for something."
   }
 ]
