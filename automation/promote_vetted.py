@@ -355,7 +355,12 @@ def main() -> int:
     # while trending_picks_<date>.json is rewritten every morning off Amazon's live
     # best-seller charts. Fresh products daily is the whole point; a static pool means
     # recycled posts no matter how good the writer is.
-    vetted = reg.get("vetted", []) + trending_pool()
+    # Keep the PERSISTED list separate from the in-memory candidate pool. Writing the
+    # augmented pool back to disk re-appended every trending product on every run —
+    # 16 daily runs left 619 rows for 107 unique ASINs, and the pin generator saw an
+    # exhausted catalogue because every unique product was already queued.
+    persisted_vetted = reg.get("vetted", [])
+    vetted = persisted_vetted + trending_pool()
     if not vetted:
         print("[promote] vetted[] is empty — nothing to promote.")
         return 0
@@ -393,7 +398,7 @@ def main() -> int:
         promoted["status"] = "live"
         promoted["promoted_at"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
         reg["entries"] = entries + [promoted]
-        reg["vetted"] = [v for v in vetted if v.get("asin") != entry["asin"]]
+        reg["vetted"] = [v for v in persisted_vetted if v.get("asin") != entry["asin"]]
         REGISTRY.write_text(json.dumps(reg, indent=2) + "\n")
 
         # 2) seed the copy_library variant

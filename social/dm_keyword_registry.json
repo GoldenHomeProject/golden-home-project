@@ -350,118 +350,10 @@
       "status": "live",
       "verified_price": "$20.99",
       "verified_stars": "4.8",
-      "verified_reviews": 235029,
-      "source": "trending",
-      "keyword": "SUIT",
-      "promoted_at": "2026-08-10T12:20:36Z"
-    },
-    {
-      "asin": "B00FXNAAW2",
-      "product_name": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$20.99",
-      "verified_stars": "4.8",
       "verified_reviews": 235105,
       "source": "trending",
       "keyword": "CLOTHES",
       "promoted_at": "2026-08-11T12:20:52Z"
-    },
-    {
-      "asin": "B01NBNDC1T",
-      "product_name": "Utopia Bedding 18x18 Pillow Inserts",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$12.89",
-      "verified_stars": "4.6",
-      "verified_reviews": 218241,
-      "source": "trending",
-      "keyword": "UTOPIA",
-      "promoted_at": "2026-08-12T12:21:20Z"
-    },
-    {
-      "asin": "B01M16WBW1",
-      "product_name": "Queen Size 4 Piece Sheet Set",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$24.99",
-      "verified_stars": "4.5",
-      "verified_reviews": 451219,
-      "source": "trending",
-      "keyword": "SIZE",
-      "promoted_at": "2026-08-13T12:20:18Z"
-    },
-    {
-      "asin": "B01HI1W1V4",
-      "product_name": "Etekcity Digital Body Weight Bathroom Scale",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$16.87",
-      "verified_stars": "4.7",
-      "verified_reviews": 349254,
-      "source": "trending",
-      "keyword": "DIGITAL",
-      "promoted_at": "2026-08-14T12:20:34Z"
-    },
-    {
-      "asin": "B01HI1W1V4",
-      "product_name": "Etekcity Digital Body Weight Bathroom Scale",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$16.87",
-      "verified_stars": "4.7",
-      "verified_reviews": 349254,
-      "source": "trending",
-      "keyword": "BODY",
-      "promoted_at": "2026-08-15T12:20:46Z"
-    },
-    {
-      "asin": "B01M16WBW1",
-      "product_name": "Queen Size 4 Piece Sheet Set",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$24.99",
-      "verified_stars": "4.5",
-      "verified_reviews": 451219,
-      "source": "trending",
-      "keyword": "SHEET",
-      "promoted_at": "2026-08-16T12:20:47Z"
-    },
-    {
-      "asin": "B01HI1W1V4",
-      "product_name": "Etekcity Digital Body Weight Bathroom Scale",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$16.87",
-      "verified_stars": "4.7",
-      "verified_reviews": 349254,
-      "source": "trending",
-      "keyword": "WEIGHT",
-      "promoted_at": "2026-08-17T12:20:17Z"
-    },
-    {
-      "asin": "B01HI1W1V4",
-      "product_name": "Etekcity Digital Body Weight Bathroom Scale",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$16.87",
-      "verified_stars": "4.7",
-      "verified_reviews": 349374,
-      "source": "trending",
-      "keyword": "BATHROOM",
-      "promoted_at": "2026-08-18T12:20:17Z"
-    },
-    {
-      "asin": "B01HI1W1V4",
-      "product_name": "Etekcity Digital Body Weight Bathroom Scale",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$16.87",
-      "verified_stars": "4.7",
-      "verified_reviews": 349374,
-      "source": "trending",
-      "keyword": "SCALE",
-      "promoted_at": "2026-08-19T12:20:16Z"
     },
     {
       "asin": "B01NBNDC1T",
@@ -474,18 +366,6 @@
       "source": "trending",
       "keyword": "BEDDING",
       "promoted_at": "2026-08-20T12:20:17Z"
-    },
-    {
-      "asin": "B01NBNDC1T",
-      "product_name": "Utopia Bedding 18x18 Pillow Inserts",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$13.49",
-      "verified_stars": "4.6",
-      "verified_reviews": 218437,
-      "source": "trending",
-      "keyword": "INSERTS",
-      "promoted_at": "2026-08-21T12:20:17Z"
     },
     {
       "asin": "B0CP9YB3Q4",
@@ -1114,12 +994,12 @@
     },
     {
       "asin": "B078H9VRTZ",
-      "product_name": "PackIt",
+      "product_name": "PackIt Freezable Classic Lunch Box",
       "categories": [],
       "status": "live",
-      "verified_price": "$21.59",
+      "verified_price": "$26.99",
       "verified_stars": "4.7",
-      "verified_reviews": 14451,
+      "verified_reviews": 14515,
       "source": "trending"
     },
     {
@@ -1184,12 +1064,12 @@
     },
     {
       "asin": "B00E4GACB8",
-      "product_name": "Terro",
+      "product_name": "TERRO Liquid Ant Killer Bait Stations",
       "categories": [],
       "status": "live",
       "verified_price": "$9.58",
       "verified_stars": "4.6",
-      "verified_reviews": 160388,
+      "verified_reviews": 161061,
       "source": "trending"
     },
     {
@@ -1204,32 +1084,32 @@
     },
     {
       "asin": "B08QRFZ6TH",
-      "product_name": "Barossa Design Premium Shower Curtain Liner Standard Size",
+      "product_name": "Barossa Design Oeko-tex Certified Shower Curtain Liner Standard Size",
       "categories": [],
       "status": "live",
       "verified_price": "$8.95",
       "verified_stars": "4.5",
-      "verified_reviews": 99056,
+      "verified_reviews": 99490,
       "source": "trending"
     },
     {
       "asin": "B01CS31R94",
-      "product_name": "NICETOWN Halloween Pitch Black Solid Thermal Insulated Grommet Blackou",
+      "product_name": "NICETOWN Black Blackout Curtains for Bedroom 42\" Wide x 63\" Long 2 Pan",
       "categories": [],
       "status": "live",
-      "verified_price": "$9.88",
-      "verified_stars": "4.7",
-      "verified_reviews": 132067,
+      "verified_price": "$9.98",
+      "verified_stars": "4.6",
+      "verified_reviews": 132268,
       "source": "trending"
     },
     {
       "asin": "B0815BLNX1",
-      "product_name": "GORILLA GRIP\u00ae Rug Grippers",
+      "product_name": "GORILLA GRIP\u00ae Extra Long Rug Grippers for Hardwood Floor",
       "categories": [],
       "status": "live",
       "verified_price": "$8.98",
       "verified_stars": "4.5",
-      "verified_reviews": 30908,
+      "verified_reviews": 31132,
       "source": "trending"
     },
     {
@@ -1383,276 +1263,6 @@
       "source": "trending"
     },
     {
-      "asin": "B085DTZQNZ",
-      "product_name": "Owala FreeSip Stainless Steel Water Bottle 24 oz Very",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$29.97",
-      "verified_stars": "4.6",
-      "verified_reviews": 132821,
-      "source": "trending"
-    },
-    {
-      "asin": "B0DGF616XN",
-      "product_name": "6 Pack Extra Heavy Duty Large Moving Bags with Strong Zipper",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$26.99",
-      "verified_stars": "4.8",
-      "verified_reviews": 11543,
-      "source": "trending"
-    },
-    {
-      "asin": "B07712H557",
-      "product_name": "Command Variety Pack",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$14.84",
-      "verified_stars": "4.7",
-      "verified_reviews": 11610,
-      "source": "trending"
-    },
-    {
-      "asin": "B08KXKVT4K",
-      "product_name": "Vtopmart 25 PCS Clear Plastic Drawer Organizers Set",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$17.98",
-      "verified_stars": "4.7",
-      "verified_reviews": 49096,
-      "source": "trending"
-    },
-    {
-      "asin": "B0B6PLG6G2",
-      "product_name": "125Pcs 8 Inch Square Air Fryer Liners Disposable for 5-8QT",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.97",
-      "verified_stars": "4.6",
-      "verified_reviews": 33076,
-      "source": "trending"
-    },
-    {
-      "asin": "B08NCVT244",
-      "product_name": "THERMOS FUNTAINER Kids Food Jar with Spoon",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$16.98",
-      "verified_stars": "4.7",
-      "verified_reviews": 48416,
-      "source": "trending"
-    },
-    {
-      "asin": "B078H9VRTZ",
-      "product_name": "PackIt",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$21.59",
-      "verified_stars": "4.7",
-      "verified_reviews": 14451,
-      "source": "trending"
-    },
-    {
-      "asin": "B00W5D1MDE",
-      "product_name": "Clorox Toilet Bowl Cleaner Clinging Bleach Gel",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$5.24",
-      "verified_stars": "4.8",
-      "verified_reviews": 44372,
-      "source": "trending"
-    },
-    {
-      "asin": "B000ST1DZO",
-      "product_name": "Drano Max Gel Drain Clog Remover & Cleaner",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$5.17",
-      "verified_stars": "4.5",
-      "verified_reviews": 75958,
-      "source": "trending"
-    },
-    {
-      "asin": "B00SXC85IQ",
-      "product_name": "Affresh Dishwasher Cleaner",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.98",
-      "verified_stars": "4.6",
-      "verified_reviews": 80342,
-      "source": "trending"
-    },
-    {
-      "asin": "B08492PZ8Y",
-      "product_name": "Febreze Plug-In Air Freshener",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$12.94",
-      "verified_stars": "4.7",
-      "verified_reviews": 97224,
-      "source": "trending"
-    },
-    {
-      "asin": "B098D79MQB",
-      "product_name": "HOMEXCEL 12PK Microfiber Cleaning Cloth",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$6.98",
-      "verified_stars": "4.5",
-      "verified_reviews": 49624,
-      "source": "trending"
-    },
-    {
-      "asin": "B01DCG0GPC",
-      "product_name": "Lysol Disinfectant Spray",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$13.47",
-      "verified_stars": "4.8",
-      "verified_reviews": 70478,
-      "source": "trending"
-    },
-    {
-      "asin": "B00E4GACB8",
-      "product_name": "Terro",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.58",
-      "verified_stars": "4.6",
-      "verified_reviews": 160388,
-      "source": "trending"
-    },
-    {
-      "asin": "B0BQR2BQYZ",
-      "product_name": "upsimples 11x14 Picture Frame",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$6.99",
-      "verified_stars": "4.5",
-      "verified_reviews": 41774,
-      "source": "trending"
-    },
-    {
-      "asin": "B08QRFZ6TH",
-      "product_name": "Barossa Design Premium Shower Curtain Liner Standard Size",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.95",
-      "verified_stars": "4.5",
-      "verified_reviews": 99056,
-      "source": "trending"
-    },
-    {
-      "asin": "B01CS31R94",
-      "product_name": "NICETOWN Halloween Pitch Black Solid Thermal Insulated Grommet Blackou",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.88",
-      "verified_stars": "4.7",
-      "verified_reviews": 132067,
-      "source": "trending"
-    },
-    {
-      "asin": "B0815BLNX1",
-      "product_name": "GORILLA GRIP\u00ae Rug Grippers",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.98",
-      "verified_stars": "4.5",
-      "verified_reviews": 30908,
-      "source": "trending"
-    },
-    {
-      "asin": "B0D89V1RX1",
-      "product_name": "2x6 Hallway Washable Runner Rug : Vintage Soft Kitchen Laundry Runner",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$20.89",
-      "verified_stars": "4.6",
-      "verified_reviews": 9291,
-      "source": "trending"
-    },
-    {
-      "asin": "B0B7WQVYGF",
-      "product_name": "Byondeth Curtain Rods for Windows 16 to 144 Inches Adjustable Length 1",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$23.17",
-      "verified_stars": "4.6",
-      "verified_reviews": 13937,
-      "source": "trending"
-    },
-    {
-      "asin": "B00FXNABPI",
-      "product_name": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers f",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$16.19",
-      "verified_stars": "4.8",
-      "verified_reviews": 234978,
-      "source": "trending"
-    },
-    {
-      "asin": "B0C3QZ7SNF",
-      "product_name": "Cisily Sponge Holder for Kitchen Sink",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$13.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 14151,
-      "source": "trending"
-    },
-    {
-      "asin": "B0B56CHMSC",
-      "product_name": "Lifewit Medium Lunch Bag",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$7.99",
-      "verified_stars": "4.5",
-      "verified_reviews": 61304,
-      "source": "trending"
-    },
-    {
-      "asin": "B0C1DWC251",
-      "product_name": "Swiffer PowerMop Mopping Kit for Floor Cleaning",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$26.94",
-      "verified_stars": "4.5",
-      "verified_reviews": 45713,
-      "source": "trending"
-    },
-    {
-      "asin": "B09SYYRBVP",
-      "product_name": "kelamayi Upgrade Broom and Dustpan Set",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$18.83",
-      "verified_stars": "4.5",
-      "verified_reviews": 51190,
-      "source": "trending"
-    },
-    {
-      "asin": "B0BQR2BQYZ",
-      "product_name": "upsimples 11x14 Picture Frame",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$6.99",
-      "verified_stars": "4.5",
-      "verified_reviews": 42078,
-      "source": "trending"
-    },
-    {
-      "asin": "B01CS31R94",
-      "product_name": "NICETOWN Black Blackout Curtains for Bedroom 42\" Wide x 63\" Long 2 Pan",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.98",
-      "verified_stars": "4.6",
-      "verified_reviews": 132268,
-      "source": "trending"
-    },
-    {
       "asin": "B08B1B1B2X",
       "product_name": "Bentgo Kids Prints Leak-Proof 5-Compartment Bento-Style Kids Lunch Box",
       "categories": [],
@@ -1660,236 +1270,6 @@
       "verified_price": "$19.49",
       "verified_stars": "4.7",
       "verified_reviews": 64320,
-      "source": "trending"
-    },
-    {
-      "asin": "B0815BLNX1",
-      "product_name": "GORILLA GRIP\u00ae Rug Grippers",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.98",
-      "verified_stars": "4.5",
-      "verified_reviews": 31022,
-      "source": "trending"
-    },
-    {
-      "asin": "B0D89V1RX1",
-      "product_name": "2x6 Hallway Washable Runner Rug : Vintage Soft Kitchen Laundry Runner",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$20.89",
-      "verified_stars": "4.6",
-      "verified_reviews": 9514,
-      "source": "trending"
-    },
-    {
-      "asin": "B085DTZQNZ",
-      "product_name": "Owala FreeSip Stainless Steel Water Bottle 24 oz Very",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$29.97",
-      "verified_stars": "4.6",
-      "verified_reviews": 132821,
-      "source": "trending"
-    },
-    {
-      "asin": "B0DGF616XN",
-      "product_name": "6 Pack Extra Heavy Duty Large Moving Bags with Strong Zipper",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$26.99",
-      "verified_stars": "4.8",
-      "verified_reviews": 11543,
-      "source": "trending"
-    },
-    {
-      "asin": "B07712H557",
-      "product_name": "Command Variety Pack",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$14.84",
-      "verified_stars": "4.7",
-      "verified_reviews": 11610,
-      "source": "trending"
-    },
-    {
-      "asin": "B08KXKVT4K",
-      "product_name": "Vtopmart 25 PCS Clear Plastic Drawer Organizers Set",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$17.98",
-      "verified_stars": "4.7",
-      "verified_reviews": 49096,
-      "source": "trending"
-    },
-    {
-      "asin": "B0B6PLG6G2",
-      "product_name": "125Pcs 8 Inch Square Air Fryer Liners Disposable for 5-8QT",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.97",
-      "verified_stars": "4.6",
-      "verified_reviews": 33076,
-      "source": "trending"
-    },
-    {
-      "asin": "B08NCVT244",
-      "product_name": "THERMOS FUNTAINER Kids Food Jar with Spoon",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$16.98",
-      "verified_stars": "4.7",
-      "verified_reviews": 48416,
-      "source": "trending"
-    },
-    {
-      "asin": "B078H9VRTZ",
-      "product_name": "PackIt",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$21.59",
-      "verified_stars": "4.7",
-      "verified_reviews": 14451,
-      "source": "trending"
-    },
-    {
-      "asin": "B00W5D1MDE",
-      "product_name": "Clorox Toilet Bowl Cleaner Clinging Bleach Gel",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$5.24",
-      "verified_stars": "4.8",
-      "verified_reviews": 44372,
-      "source": "trending"
-    },
-    {
-      "asin": "B000ST1DZO",
-      "product_name": "Drano Max Gel Drain Clog Remover & Cleaner",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$5.17",
-      "verified_stars": "4.5",
-      "verified_reviews": 75958,
-      "source": "trending"
-    },
-    {
-      "asin": "B00SXC85IQ",
-      "product_name": "Affresh Dishwasher Cleaner",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.98",
-      "verified_stars": "4.6",
-      "verified_reviews": 80342,
-      "source": "trending"
-    },
-    {
-      "asin": "B08492PZ8Y",
-      "product_name": "Febreze Plug-In Air Freshener",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$12.94",
-      "verified_stars": "4.7",
-      "verified_reviews": 97224,
-      "source": "trending"
-    },
-    {
-      "asin": "B098D79MQB",
-      "product_name": "HOMEXCEL 12PK Microfiber Cleaning Cloth",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$6.98",
-      "verified_stars": "4.5",
-      "verified_reviews": 49624,
-      "source": "trending"
-    },
-    {
-      "asin": "B01DCG0GPC",
-      "product_name": "Lysol Disinfectant Spray",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$13.47",
-      "verified_stars": "4.8",
-      "verified_reviews": 70478,
-      "source": "trending"
-    },
-    {
-      "asin": "B00E4GACB8",
-      "product_name": "Terro",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.58",
-      "verified_stars": "4.6",
-      "verified_reviews": 160388,
-      "source": "trending"
-    },
-    {
-      "asin": "B08QRFZ6TH",
-      "product_name": "Barossa Design Premium Shower Curtain Liner Standard Size",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.95",
-      "verified_stars": "4.5",
-      "verified_reviews": 99056,
-      "source": "trending"
-    },
-    {
-      "asin": "B0B7WQVYGF",
-      "product_name": "Byondeth Curtain Rods for Windows 16 to 144 Inches Adjustable Length 1",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$23.17",
-      "verified_stars": "4.6",
-      "verified_reviews": 13937,
-      "source": "trending"
-    },
-    {
-      "asin": "B00FXNABPI",
-      "product_name": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers f",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$16.19",
-      "verified_stars": "4.8",
-      "verified_reviews": 234978,
-      "source": "trending"
-    },
-    {
-      "asin": "B0C3QZ7SNF",
-      "product_name": "Cisily Sponge Holder for Kitchen Sink",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$13.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 14151,
-      "source": "trending"
-    },
-    {
-      "asin": "B0B56CHMSC",
-      "product_name": "Lifewit Medium Lunch Bag",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$7.99",
-      "verified_stars": "4.5",
-      "verified_reviews": 61304,
-      "source": "trending"
-    },
-    {
-      "asin": "B0C1DWC251",
-      "product_name": "Swiffer PowerMop Mopping Kit for Floor Cleaning",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$26.94",
-      "verified_stars": "4.5",
-      "verified_reviews": 45713,
-      "source": "trending"
-    },
-    {
-      "asin": "B09SYYRBVP",
-      "product_name": "kelamayi Upgrade Broom and Dustpan Set",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$18.83",
-      "verified_stars": "4.5",
-      "verified_reviews": 51190,
       "source": "trending"
     },
     {
@@ -1978,266 +1358,6 @@
       "discovery_source": "back_to_college_2026"
     },
     {
-      "asin": "B09SZ9T4MV",
-      "product_name": "EUDELE Mesh Shower Caddy Portable for College Dorm Room Essentials",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 7557,
-      "source": "trending"
-    },
-    {
-      "asin": "B07712H557",
-      "product_name": "Command Variety Pack",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$14.84",
-      "verified_stars": "4.7",
-      "verified_reviews": 11579,
-      "source": "trending"
-    },
-    {
-      "asin": "B07SYPLVTG",
-      "product_name": "YOUDENOVA Hanging Closet Organizer and Storage",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$18.98",
-      "verified_stars": "4.5",
-      "verified_reviews": 17274,
-      "source": "trending"
-    },
-    {
-      "asin": "B0FVW1TNH8",
-      "product_name": "Floating Shelves for Bedside Shelf",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$22.49",
-      "verified_stars": "4.6",
-      "verified_reviews": 260,
-      "source": "trending"
-    },
-    {
-      "asin": "B0DP76RZDR",
-      "product_name": "Molutsody Under Bed Storage with Wheels",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$29.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 662,
-      "source": "trending"
-    },
-    {
-      "asin": "B085DTZQNZ",
-      "product_name": "Owala FreeSip Stainless Steel Water Bottle 24 oz Very",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$29.97",
-      "verified_stars": "4.6",
-      "verified_reviews": 133138,
-      "source": "trending"
-    },
-    {
-      "asin": "B00E4GACB8",
-      "product_name": "Terro",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.58",
-      "verified_stars": "4.6",
-      "verified_reviews": 160791,
-      "source": "trending"
-    },
-    {
-      "asin": "B0BQR2BQYZ",
-      "product_name": "upsimples 11x14 Picture Frame",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$6.99",
-      "verified_stars": "4.5",
-      "verified_reviews": 42137,
-      "source": "trending"
-    },
-    {
-      "asin": "B08QRFZ6TH",
-      "product_name": "Barossa Design Premium Shower Curtain Liner Standard Size",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.95",
-      "verified_stars": "4.5",
-      "verified_reviews": 99309,
-      "source": "trending"
-    },
-    {
-      "asin": "B01CS31R94",
-      "product_name": "NICETOWN Black Blackout Curtains for Bedroom 42\" Wide x 63\" Long 2 Pan",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.98",
-      "verified_stars": "4.6",
-      "verified_reviews": 132268,
-      "source": "trending"
-    },
-    {
-      "asin": "B08B1B1B2X",
-      "product_name": "Bentgo Kids Prints Leak-Proof 5-Compartment Bento-Style Kids Lunch Box",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$19.49",
-      "verified_stars": "4.7",
-      "verified_reviews": 64320,
-      "source": "trending"
-    },
-    {
-      "asin": "B0815BLNX1",
-      "product_name": "GORILLA GRIP\u00ae Rug Grippers",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.98",
-      "verified_stars": "4.5",
-      "verified_reviews": 31022,
-      "source": "trending"
-    },
-    {
-      "asin": "B0D89V1RX1",
-      "product_name": "2x6 Hallway Washable Runner Rug : Vintage Soft Kitchen Laundry Runner",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$20.89",
-      "verified_stars": "4.6",
-      "verified_reviews": 9514,
-      "source": "trending"
-    },
-    {
-      "asin": "B0DGF616XN",
-      "product_name": "6 Pack Extra Heavy Duty Large Moving Bags with Strong Zipper",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$26.99",
-      "verified_stars": "4.8",
-      "verified_reviews": 11543,
-      "source": "trending"
-    },
-    {
-      "asin": "B08KXKVT4K",
-      "product_name": "Vtopmart 25 PCS Clear Plastic Drawer Organizers Set",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$17.98",
-      "verified_stars": "4.7",
-      "verified_reviews": 49096,
-      "source": "trending"
-    },
-    {
-      "asin": "B0B6PLG6G2",
-      "product_name": "125Pcs 8 Inch Square Air Fryer Liners Disposable for 5-8QT",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.97",
-      "verified_stars": "4.6",
-      "verified_reviews": 33076,
-      "source": "trending"
-    },
-    {
-      "asin": "B08NCVT244",
-      "product_name": "THERMOS FUNTAINER Kids Food Jar with Spoon",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$16.98",
-      "verified_stars": "4.7",
-      "verified_reviews": 48416,
-      "source": "trending"
-    },
-    {
-      "asin": "B078H9VRTZ",
-      "product_name": "PackIt",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$21.59",
-      "verified_stars": "4.7",
-      "verified_reviews": 14451,
-      "source": "trending"
-    },
-    {
-      "asin": "B00W5D1MDE",
-      "product_name": "Clorox Toilet Bowl Cleaner Clinging Bleach Gel",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$5.24",
-      "verified_stars": "4.8",
-      "verified_reviews": 44372,
-      "source": "trending"
-    },
-    {
-      "asin": "B000ST1DZO",
-      "product_name": "Drano Max Gel Drain Clog Remover & Cleaner",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$5.17",
-      "verified_stars": "4.5",
-      "verified_reviews": 75958,
-      "source": "trending"
-    },
-    {
-      "asin": "B00SXC85IQ",
-      "product_name": "Affresh Dishwasher Cleaner",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.98",
-      "verified_stars": "4.6",
-      "verified_reviews": 80342,
-      "source": "trending"
-    },
-    {
-      "asin": "B08492PZ8Y",
-      "product_name": "Febreze Plug-In Air Freshener",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$12.94",
-      "verified_stars": "4.7",
-      "verified_reviews": 97224,
-      "source": "trending"
-    },
-    {
-      "asin": "B098D79MQB",
-      "product_name": "HOMEXCEL 12PK Microfiber Cleaning Cloth",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$6.98",
-      "verified_stars": "4.5",
-      "verified_reviews": 49624,
-      "source": "trending"
-    },
-    {
-      "asin": "B01DCG0GPC",
-      "product_name": "Lysol Disinfectant Spray",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$13.47",
-      "verified_stars": "4.8",
-      "verified_reviews": 70478,
-      "source": "trending"
-    },
-    {
-      "asin": "B0B7WQVYGF",
-      "product_name": "Byondeth Curtain Rods for Windows 16 to 144 Inches Adjustable Length 1",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$23.17",
-      "verified_stars": "4.6",
-      "verified_reviews": 13937,
-      "source": "trending"
-    },
-    {
-      "asin": "B00FXNABPI",
-      "product_name": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers f",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$16.19",
-      "verified_stars": "4.8",
-      "verified_reviews": 234978,
-      "source": "trending"
-    },
-    {
       "asin": "B0DZ254SSR",
       "product_name": "SUPERDANNY Extension Cord,Flat Plug Surge Protector Power Strip,10Ft | 8 AC & 4 USB Ports (2 USB C),Surge Protector with 1050J,Desk Charging",
       "categories": [
@@ -2323,43 +1443,13 @@
       "discovery_source": "back_to_college_2026"
     },
     {
-      "asin": "B08QRFZ6TH",
-      "product_name": "Barossa Design Premium Shower Curtain Liner Standard Size",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.95",
-      "verified_stars": "4.5",
-      "verified_reviews": 99346,
-      "source": "trending"
-    },
-    {
-      "asin": "B09SZ9T4MV",
-      "product_name": "EUDELE Mesh Shower Caddy Portable for College Dorm Room Essentials",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 7710,
-      "source": "trending"
-    },
-    {
-      "asin": "B00R55CIRQ",
-      "product_name": "Clorox Corner Toilet Bowl Brush with Under Rim Scrubber",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.79",
-      "verified_stars": "4.6",
-      "verified_reviews": 5683,
-      "source": "trending"
-    },
-    {
       "asin": "B09ZYRCNJH",
       "product_name": "Utopia Towels 12 Pack Washcloths",
       "categories": [],
       "status": "live",
-      "verified_price": "$9.99",
+      "verified_price": "$11.99",
       "verified_stars": "4.6",
-      "verified_reviews": 74893,
+      "verified_reviews": 74928,
       "source": "trending"
     },
     {
@@ -2370,346 +1460,6 @@
       "verified_price": "$12.99",
       "verified_stars": "4.6",
       "verified_reviews": 34707,
-      "source": "trending"
-    },
-    {
-      "asin": "B0B99VKV8P",
-      "product_name": "FYY Over the Door Hooks",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$5.98",
-      "verified_stars": "4.7",
-      "verified_reviews": 11400,
-      "source": "trending"
-    },
-    {
-      "asin": "B00HZ0ION8",
-      "product_name": "Handy Laundry Collapsible Mesh Pop Up Hamper with Wide Opening and Sid",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$7.99",
-      "verified_stars": "4.7",
-      "verified_reviews": 60484,
-      "source": "trending"
-    },
-    {
-      "asin": "B0BBMK7RCF",
-      "product_name": "iZELL Desk Lamp",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$14.39",
-      "verified_stars": "4.6",
-      "verified_reviews": 15546,
-      "source": "trending"
-    },
-    {
-      "asin": "B07712H557",
-      "product_name": "Command Variety Pack",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$14.84",
-      "verified_stars": "4.7",
-      "verified_reviews": 11579,
-      "source": "trending"
-    },
-    {
-      "asin": "B0DZ254SSR",
-      "product_name": "SUPERDANNY Extension Cord,Flat Plug Surge Protector Power Strip,10Ft",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$15.99",
-      "verified_stars": "4.7",
-      "verified_reviews": 7088,
-      "source": "trending"
-    },
-    {
-      "asin": "B0GN1TZZ9W",
-      "product_name": "WALI Desk File Organizer",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$17.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 4455,
-      "source": "trending"
-    },
-    {
-      "asin": "B07SYPLVTG",
-      "product_name": "YOUDENOVA Hanging Closet Organizer and Storage",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$18.98",
-      "verified_stars": "4.5",
-      "verified_reviews": 17274,
-      "source": "trending"
-    },
-    {
-      "asin": "B0FVW1TNH8",
-      "product_name": "Floating Shelves for Bedside Shelf",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$22.49",
-      "verified_stars": "4.6",
-      "verified_reviews": 260,
-      "source": "trending"
-    },
-    {
-      "asin": "B0DP76RZDR",
-      "product_name": "Molutsody Under Bed Storage with Wheels",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$29.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 662,
-      "source": "trending"
-    },
-    {
-      "asin": "B085DTZQNZ",
-      "product_name": "Owala FreeSip Stainless Steel Water Bottle 24 oz Very",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$29.97",
-      "verified_stars": "4.6",
-      "verified_reviews": 133138,
-      "source": "trending"
-    },
-    {
-      "asin": "B00E4GACB8",
-      "product_name": "Terro",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.58",
-      "verified_stars": "4.6",
-      "verified_reviews": 160791,
-      "source": "trending"
-    },
-    {
-      "asin": "B00FXNAAW2",
-      "product_name": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$20.99",
-      "verified_stars": "4.8",
-      "verified_reviews": 235105,
-      "source": "trending"
-    },
-    {
-      "asin": "B0BQR2BQYZ",
-      "product_name": "upsimples 11x14 Picture Frame",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$6.99",
-      "verified_stars": "4.5",
-      "verified_reviews": 42137,
-      "source": "trending"
-    },
-    {
-      "asin": "B01CS31R94",
-      "product_name": "NICETOWN Black Blackout Curtains for Bedroom 42\" Wide x 63\" Long 2 Pan",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.98",
-      "verified_stars": "4.6",
-      "verified_reviews": 132268,
-      "source": "trending"
-    },
-    {
-      "asin": "B08B1B1B2X",
-      "product_name": "Bentgo Kids Prints Leak-Proof 5-Compartment Bento-Style Kids Lunch Box",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$19.49",
-      "verified_stars": "4.7",
-      "verified_reviews": 64320,
-      "source": "trending"
-    },
-    {
-      "asin": "B0815BLNX1",
-      "product_name": "GORILLA GRIP\u00ae Rug Grippers",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.98",
-      "verified_stars": "4.5",
-      "verified_reviews": 31022,
-      "source": "trending"
-    },
-    {
-      "asin": "B0D89V1RX1",
-      "product_name": "2x6 Hallway Washable Runner Rug : Vintage Soft Kitchen Laundry Runner",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$20.89",
-      "verified_stars": "4.6",
-      "verified_reviews": 9514,
-      "source": "trending"
-    },
-    {
-      "asin": "B0DGF616XN",
-      "product_name": "6 Pack Extra Heavy Duty Large Moving Bags with Strong Zipper",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$26.99",
-      "verified_stars": "4.8",
-      "verified_reviews": 11543,
-      "source": "trending"
-    },
-    {
-      "asin": "B08KXKVT4K",
-      "product_name": "Vtopmart 25 PCS Clear Plastic Drawer Organizers Set",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$17.98",
-      "verified_stars": "4.7",
-      "verified_reviews": 49096,
-      "source": "trending"
-    },
-    {
-      "asin": "B0B6PLG6G2",
-      "product_name": "125Pcs 8 Inch Square Air Fryer Liners Disposable for 5-8QT",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.97",
-      "verified_stars": "4.6",
-      "verified_reviews": 33076,
-      "source": "trending"
-    },
-    {
-      "asin": "B08NCVT244",
-      "product_name": "THERMOS FUNTAINER Kids Food Jar with Spoon",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$16.98",
-      "verified_stars": "4.7",
-      "verified_reviews": 48416,
-      "source": "trending"
-    },
-    {
-      "asin": "B078H9VRTZ",
-      "product_name": "PackIt",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$21.59",
-      "verified_stars": "4.7",
-      "verified_reviews": 14451,
-      "source": "trending"
-    },
-    {
-      "asin": "B00W5D1MDE",
-      "product_name": "Clorox Toilet Bowl Cleaner Clinging Bleach Gel",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$5.24",
-      "verified_stars": "4.8",
-      "verified_reviews": 44372,
-      "source": "trending"
-    },
-    {
-      "asin": "B000ST1DZO",
-      "product_name": "Drano Max Gel Drain Clog Remover & Cleaner",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$5.17",
-      "verified_stars": "4.5",
-      "verified_reviews": 75958,
-      "source": "trending"
-    },
-    {
-      "asin": "B00SXC85IQ",
-      "product_name": "Affresh Dishwasher Cleaner",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.98",
-      "verified_stars": "4.6",
-      "verified_reviews": 80342,
-      "source": "trending"
-    },
-    {
-      "asin": "B08492PZ8Y",
-      "product_name": "Febreze Plug-In Air Freshener",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$12.94",
-      "verified_stars": "4.7",
-      "verified_reviews": 97224,
-      "source": "trending"
-    },
-    {
-      "asin": "B098D79MQB",
-      "product_name": "HOMEXCEL 12PK Microfiber Cleaning Cloth",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$6.98",
-      "verified_stars": "4.5",
-      "verified_reviews": 49624,
-      "source": "trending"
-    },
-    {
-      "asin": "B01DCG0GPC",
-      "product_name": "Lysol Disinfectant Spray",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$13.47",
-      "verified_stars": "4.8",
-      "verified_reviews": 70478,
-      "source": "trending"
-    },
-    {
-      "asin": "B0B7WQVYGF",
-      "product_name": "Byondeth Curtain Rods for Windows 16 to 144 Inches Adjustable Length 1",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$23.17",
-      "verified_stars": "4.6",
-      "verified_reviews": 13937,
-      "source": "trending"
-    },
-    {
-      "asin": "B00W5D1MDE",
-      "product_name": "Clorox Toilet Bowl Cleaner Clinging Bleach Gel",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$5.24",
-      "verified_stars": "4.8",
-      "verified_reviews": 44557,
-      "source": "trending"
-    },
-    {
-      "asin": "B000ST1DZO",
-      "product_name": "Drano Max Gel Drain Clog Remover & Cleaner",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$5.17",
-      "verified_stars": "4.5",
-      "verified_reviews": 76061,
-      "source": "trending"
-    },
-    {
-      "asin": "B0C1DWC251",
-      "product_name": "Swiffer PowerMop Mopping Kit for Floor Cleaning",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$26.94",
-      "verified_stars": "4.5",
-      "verified_reviews": 46030,
-      "source": "trending"
-    },
-    {
-      "asin": "B00SXC85IQ",
-      "product_name": "Affresh Dishwasher Cleaner",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.97",
-      "verified_stars": "4.6",
-      "verified_reviews": 80452,
-      "source": "trending"
-    },
-    {
-      "asin": "B085DTZQNZ",
-      "product_name": "Owala FreeSip Stainless Steel Water Bottle 24 oz Very",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$29.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 133673,
       "source": "trending"
     },
     {
@@ -2723,3994 +1473,610 @@
       "source": "trending"
     },
     {
-      "asin": "B08QRFZ6TH",
-      "product_name": "Barossa Design Premium Shower Curtain Liner Standard Size",
+      "asin": "B0CQVWT2NH",
+      "product_name": "HydroJug Traveler 40oz",
       "categories": [],
       "status": "live",
-      "verified_price": "$8.95",
-      "verified_stars": "4.5",
-      "verified_reviews": 99346,
-      "source": "trending"
-    },
-    {
-      "asin": "B09SZ9T4MV",
-      "product_name": "EUDELE Mesh Shower Caddy Portable for College Dorm Room Essentials",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.99",
+      "verified_price": "$31.99",
       "verified_stars": "4.6",
-      "verified_reviews": 7710,
+      "verified_reviews": 19397,
       "source": "trending"
     },
     {
-      "asin": "B00R55CIRQ",
-      "product_name": "Clorox Corner Toilet Bowl Brush with Under Rim Scrubber",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.79",
-      "verified_stars": "4.6",
-      "verified_reviews": 5683,
-      "source": "trending"
-    },
-    {
-      "asin": "B09ZYRCNJH",
-      "product_name": "Utopia Towels 12 Pack Washcloths",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 74893,
-      "source": "trending"
-    },
-    {
-      "asin": "B08S31RWBK",
-      "product_name": "Hicober Microfiber Hair Towel Wrap for Women",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$12.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 34707,
-      "source": "trending"
-    },
-    {
-      "asin": "B0B99VKV8P",
-      "product_name": "FYY Over the Door Hooks",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$5.98",
-      "verified_stars": "4.7",
-      "verified_reviews": 11400,
-      "source": "trending"
-    },
-    {
-      "asin": "B00HZ0ION8",
-      "product_name": "Handy Laundry Collapsible Mesh Pop Up Hamper with Wide Opening and Sid",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$7.99",
-      "verified_stars": "4.7",
-      "verified_reviews": 60484,
-      "source": "trending"
-    },
-    {
-      "asin": "B0BBMK7RCF",
-      "product_name": "iZELL Desk Lamp",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$14.39",
-      "verified_stars": "4.6",
-      "verified_reviews": 15546,
-      "source": "trending"
-    },
-    {
-      "asin": "B07712H557",
-      "product_name": "Command Variety Pack",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$14.84",
-      "verified_stars": "4.7",
-      "verified_reviews": 11579,
-      "source": "trending"
-    },
-    {
-      "asin": "B0DZ254SSR",
-      "product_name": "SUPERDANNY Extension Cord,Flat Plug Surge Protector Power Strip,10Ft",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$15.99",
-      "verified_stars": "4.7",
-      "verified_reviews": 7088,
-      "source": "trending"
-    },
-    {
-      "asin": "B0GN1TZZ9W",
-      "product_name": "WALI Desk File Organizer",
+      "asin": "B08XVP48KQ",
+      "product_name": "upsimples 8x10 Picture Frames",
       "categories": [],
       "status": "live",
       "verified_price": "$17.99",
       "verified_stars": "4.6",
-      "verified_reviews": 4455,
+      "verified_reviews": 72458,
       "source": "trending"
     },
     {
-      "asin": "B07SYPLVTG",
-      "product_name": "YOUDENOVA Hanging Closet Organizer and Storage",
+      "asin": "B00P7VW2H6",
+      "product_name": "Clorox Toilet Plunger with Hideaway Holder Caddy Heavy-Duty Compact De",
       "categories": [],
       "status": "live",
-      "verified_price": "$18.98",
+      "verified_price": "$13.97",
       "verified_stars": "4.5",
-      "verified_reviews": 17274,
+      "verified_reviews": 18336,
       "source": "trending"
     },
     {
-      "asin": "B0FVW1TNH8",
-      "product_name": "Floating Shelves for Bedside Shelf",
+      "asin": "B0BFMKYN12",
+      "product_name": "DDMY Adhesive Wall Hooks Clear 50lb(Max) Heavy Duty Hanging Sticky-10",
       "categories": [],
       "status": "live",
-      "verified_price": "$22.49",
-      "verified_stars": "4.6",
-      "verified_reviews": 260,
+      "verified_price": "$8.99",
+      "verified_stars": "4.5",
+      "verified_reviews": 39860,
       "source": "trending"
     },
     {
-      "asin": "B0DP76RZDR",
-      "product_name": "Molutsody Under Bed Storage with Wheels",
+      "asin": "B09KTQMMCM",
+      "product_name": "Schneider Medical Nitrile/Vinyl Blend Exam Gloves",
+      "categories": [],
+      "status": "live",
+      "verified_price": "$7.73",
+      "verified_stars": "4.5",
+      "verified_reviews": 39616,
+      "source": "trending"
+    },
+    {
+      "asin": "B0CJF94M8J",
+      "product_name": "TrendPlain 16oz/470ml Glass Olive Oil Sprayer for Cooking",
+      "categories": [],
+      "status": "live",
+      "verified_price": "$8.99",
+      "verified_stars": "4.6",
+      "verified_reviews": 45670,
+      "source": "trending"
+    },
+    {
+      "asin": "B0BZYCJK89",
+      "product_name": "Owala FreeSip Stainless Steel Water Bottle 24 oz Denim",
       "categories": [],
       "status": "live",
       "verified_price": "$29.99",
       "verified_stars": "4.6",
-      "verified_reviews": 662,
+      "verified_reviews": 134918,
       "source": "trending"
     },
     {
-      "asin": "B00E4GACB8",
-      "product_name": "Terro",
+      "asin": "B0BNL5MBMY",
+      "product_name": "pickpiff 13LB Strong Stick-on Hooks for Coat & Towel",
       "categories": [],
       "status": "live",
-      "verified_price": "$9.58",
-      "verified_stars": "4.6",
-      "verified_reviews": 160791,
-      "source": "trending"
-    },
-    {
-      "asin": "B00FXNAAW2",
-      "product_name": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$20.99",
-      "verified_stars": "4.8",
-      "verified_reviews": 235105,
-      "source": "trending"
-    },
-    {
-      "asin": "B0BQR2BQYZ",
-      "product_name": "upsimples 11x14 Picture Frame",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$6.99",
+      "verified_price": "$9.99",
       "verified_stars": "4.5",
-      "verified_reviews": 42137,
+      "verified_reviews": 6856,
       "source": "trending"
     },
     {
-      "asin": "B01CS31R94",
-      "product_name": "NICETOWN Black Blackout Curtains for Bedroom 42\" Wide x 63\" Long 2 Pan",
+      "asin": "B0CTJGJL2T",
+      "product_name": "GODONLIF Candle Warmer Lamp with Timer",
       "categories": [],
       "status": "live",
-      "verified_price": "$9.98",
+      "verified_price": "$19.99",
       "verified_stars": "4.6",
-      "verified_reviews": 132268,
+      "verified_reviews": 10175,
       "source": "trending"
     },
     {
-      "asin": "B08B1B1B2X",
-      "product_name": "Bentgo Kids Prints Leak-Proof 5-Compartment Bento-Style Kids Lunch Box",
+      "asin": "B08GY9D3XD",
+      "product_name": "Bentgo Kids Prints Double-Insulated Reusable Lunch Bag",
       "categories": [],
       "status": "live",
-      "verified_price": "$19.49",
-      "verified_stars": "4.7",
-      "verified_reviews": 64320,
-      "source": "trending"
-    },
-    {
-      "asin": "B0815BLNX1",
-      "product_name": "GORILLA GRIP\u00ae Rug Grippers",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.98",
-      "verified_stars": "4.5",
-      "verified_reviews": 31022,
-      "source": "trending"
-    },
-    {
-      "asin": "B0D89V1RX1",
-      "product_name": "2x6 Hallway Washable Runner Rug : Vintage Soft Kitchen Laundry Runner",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$20.89",
-      "verified_stars": "4.6",
-      "verified_reviews": 9514,
-      "source": "trending"
-    },
-    {
-      "asin": "B0DGF616XN",
-      "product_name": "6 Pack Extra Heavy Duty Large Moving Bags with Strong Zipper",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$26.99",
+      "verified_price": "$24.99",
       "verified_stars": "4.8",
-      "verified_reviews": 11543,
+      "verified_reviews": 21876,
       "source": "trending"
     },
     {
-      "asin": "B08KXKVT4K",
-      "product_name": "Vtopmart 25 PCS Clear Plastic Drawer Organizers Set",
+      "asin": "B0B1CNJL7N",
+      "product_name": "upsimples 8x10 Picture Frame",
       "categories": [],
+      "affiliate_url": "https://www.amazon.com/dp/B0B1CNJL7N?tag=goldenhomep06-20",
       "status": "live",
-      "verified_price": "$17.98",
-      "verified_stars": "4.7",
-      "verified_reviews": 49096,
-      "source": "trending"
+      "verified_at": "2026-07-29",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$5.39",
+      "verified_stars": "4.5",
+      "verified_reviews": 41433,
+      "discovery_source": "merge_trending"
     },
     {
-      "asin": "B0B6PLG6G2",
-      "product_name": "125Pcs 8 Inch Square Air Fryer Liners Disposable for 5-8QT",
+      "asin": "B0D97YVVQ2",
+      "product_name": "PlayHot Portable Handheld Turbo Fan",
       "categories": [],
+      "affiliate_url": "https://www.amazon.com/dp/B0D97YVVQ2?tag=goldenhomep06-20",
       "status": "live",
-      "verified_price": "$9.97",
-      "verified_stars": "4.6",
-      "verified_reviews": 33076,
-      "source": "trending"
-    },
-    {
-      "asin": "B08NCVT244",
-      "product_name": "THERMOS FUNTAINER Kids Food Jar with Spoon",
-      "categories": [],
-      "status": "live",
+      "verified_at": "2026-07-29",
+      "verified_method": "best_seller_grid",
       "verified_price": "$16.98",
-      "verified_stars": "4.7",
-      "verified_reviews": 48416,
-      "source": "trending"
-    },
-    {
-      "asin": "B078H9VRTZ",
-      "product_name": "PackIt",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$21.59",
-      "verified_stars": "4.7",
-      "verified_reviews": 14451,
-      "source": "trending"
-    },
-    {
-      "asin": "B08492PZ8Y",
-      "product_name": "Febreze Plug-In Air Freshener",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$12.94",
-      "verified_stars": "4.7",
-      "verified_reviews": 97224,
-      "source": "trending"
-    },
-    {
-      "asin": "B098D79MQB",
-      "product_name": "HOMEXCEL 12PK Microfiber Cleaning Cloth",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$6.98",
       "verified_stars": "4.5",
-      "verified_reviews": 49624,
-      "source": "trending"
+      "verified_reviews": 9638,
+      "discovery_source": "merge_trending"
     },
     {
-      "asin": "B01DCG0GPC",
-      "product_name": "Lysol Disinfectant Spray",
-      "categories": [],
+      "asin": "B081YQBPSS",
+      "product_name": "Titanker Shower Curtain Hooks Rings, Rust Resistant Metal Double Glide Shower Hooks Rings for Bathroom Shower Rods Curta",
+      "categories": [
+        "home",
+        "Bath"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B081YQBPSS?tag=goldenhomep06-20",
       "status": "live",
-      "verified_price": "$13.47",
-      "verified_stars": "4.8",
-      "verified_reviews": 70478,
-      "source": "trending"
-    },
-    {
-      "asin": "B085DTZQNZ",
-      "product_name": "Owala FreeSip Stainless Steel Water Bottle 24 oz Very",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$29.97",
+      "verified_at": "2026-08-23",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$6.99",
       "verified_stars": "4.6",
-      "verified_reviews": 133910,
-      "source": "trending"
+      "verified_reviews": 63006,
+      "discovery_source": "harvest_catalogue"
     },
     {
-      "asin": "B08CVT84C9",
-      "product_name": "Bentgo Chill Kids 4-Compartment Bento Box Leakproof Lunch Box",
-      "categories": [],
+      "asin": "B08BZFRQLS",
+      "product_name": "ALYVIA SPRING Waterproof Fabric Shower Curtain or Liner White, 72x72 | 3 Magnets, Soft Cloth & Hotel Quality, Machine Wa",
+      "categories": [
+        "home",
+        "Bath"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B08BZFRQLS?tag=goldenhomep06-20",
       "status": "live",
-      "verified_price": "$32.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 18978,
-      "source": "trending"
-    },
-    {
-      "asin": "B0CQVWT2NH",
-      "product_name": "HydroJug Traveler 40oz",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$31.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 19397,
-      "source": "trending"
-    },
-    {
-      "asin": "B08NCVT244",
-      "product_name": "THERMOS FUNTAINER Kids Food Jar with Spoon",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$14.69",
-      "verified_stars": "4.7",
-      "verified_reviews": 48474,
-      "source": "trending"
-    },
-    {
-      "asin": "B0B56CHMSC",
-      "product_name": "Lifewit Medium Lunch Bag",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$7.98",
+      "verified_at": "2026-08-23",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$9.98",
       "verified_stars": "4.5",
-      "verified_reviews": 61833,
-      "source": "trending"
+      "verified_reviews": 60901,
+      "discovery_source": "harvest_catalogue"
     },
     {
-      "asin": "B00W5D1MDE",
-      "product_name": "Clorox Toilet Bowl Cleaner Clinging Bleach Gel",
-      "categories": [],
+      "asin": "B0CJ56M8D4",
+      "product_name": "Veken Shower Caddy 6-Pack, Bathroom Organizers and Storage Shelves, Black | Advanced Rustproof Design, Large Capacity, N",
+      "categories": [
+        "home",
+        "Bath"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0CJ56M8D4?tag=goldenhomep06-20",
       "status": "live",
-      "verified_price": "$5.24",
-      "verified_stars": "4.8",
-      "verified_reviews": 44557,
-      "source": "trending"
-    },
-    {
-      "asin": "B000ST1DZO",
-      "product_name": "Drano Max Gel Drain Clog Remover & Cleaner",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$5.17",
-      "verified_stars": "4.5",
-      "verified_reviews": 76061,
-      "source": "trending"
-    },
-    {
-      "asin": "B0C1DWC251",
-      "product_name": "Swiffer PowerMop Mopping Kit for Floor Cleaning",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$26.94",
-      "verified_stars": "4.5",
-      "verified_reviews": 46030,
-      "source": "trending"
-    },
-    {
-      "asin": "B00SXC85IQ",
-      "product_name": "Affresh Dishwasher Cleaner",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.97",
-      "verified_stars": "4.6",
-      "verified_reviews": 80452,
-      "source": "trending"
-    },
-    {
-      "asin": "B08QRFZ6TH",
-      "product_name": "Barossa Design Premium Shower Curtain Liner Standard Size",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.95",
-      "verified_stars": "4.5",
-      "verified_reviews": 99346,
-      "source": "trending"
-    },
-    {
-      "asin": "B09SZ9T4MV",
-      "product_name": "EUDELE Mesh Shower Caddy Portable for College Dorm Room Essentials",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 7710,
-      "source": "trending"
-    },
-    {
-      "asin": "B00R55CIRQ",
-      "product_name": "Clorox Corner Toilet Bowl Brush with Under Rim Scrubber",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.79",
-      "verified_stars": "4.6",
-      "verified_reviews": 5683,
-      "source": "trending"
-    },
-    {
-      "asin": "B09ZYRCNJH",
-      "product_name": "Utopia Towels 12 Pack Washcloths",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 74893,
-      "source": "trending"
-    },
-    {
-      "asin": "B08S31RWBK",
-      "product_name": "Hicober Microfiber Hair Towel Wrap for Women",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$12.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 34707,
-      "source": "trending"
-    },
-    {
-      "asin": "B0B99VKV8P",
-      "product_name": "FYY Over the Door Hooks",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$5.98",
-      "verified_stars": "4.7",
-      "verified_reviews": 11400,
-      "source": "trending"
-    },
-    {
-      "asin": "B00HZ0ION8",
-      "product_name": "Handy Laundry Collapsible Mesh Pop Up Hamper with Wide Opening and Sid",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$7.99",
-      "verified_stars": "4.7",
-      "verified_reviews": 60484,
-      "source": "trending"
-    },
-    {
-      "asin": "B0BBMK7RCF",
-      "product_name": "iZELL Desk Lamp",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$14.39",
-      "verified_stars": "4.6",
-      "verified_reviews": 15546,
-      "source": "trending"
-    },
-    {
-      "asin": "B07712H557",
-      "product_name": "Command Variety Pack",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$14.84",
-      "verified_stars": "4.7",
-      "verified_reviews": 11579,
-      "source": "trending"
-    },
-    {
-      "asin": "B0DZ254SSR",
-      "product_name": "SUPERDANNY Extension Cord,Flat Plug Surge Protector Power Strip,10Ft",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$15.99",
-      "verified_stars": "4.7",
-      "verified_reviews": 7088,
-      "source": "trending"
-    },
-    {
-      "asin": "B0GN1TZZ9W",
-      "product_name": "WALI Desk File Organizer",
-      "categories": [],
-      "status": "live",
+      "verified_at": "2026-08-23",
+      "verified_method": "best_seller_grid",
       "verified_price": "$17.99",
       "verified_stars": "4.6",
-      "verified_reviews": 4455,
-      "source": "trending"
+      "verified_reviews": 15085,
+      "discovery_source": "harvest_catalogue"
     },
     {
-      "asin": "B07SYPLVTG",
-      "product_name": "YOUDENOVA Hanging Closet Organizer and Storage",
-      "categories": [],
+      "asin": "B0C1NNYJGB",
+      "product_name": "BEDLORE Waterproof Mattress Protector, Queen Size Mattress Pad Noiseless | Deep Pockets Fit 6\"-18\" Mattresses, Soft Brea",
+      "categories": [
+        "home",
+        "Home & Kitchen"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0C1NNYJGB?tag=goldenhomep06-20",
       "status": "live",
-      "verified_price": "$18.98",
+      "verified_at": "2026-08-23",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$25.49",
+      "verified_stars": "4.6",
+      "verified_reviews": 25108,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B00LS9UD2M",
+      "product_name": "LiBa Shower Curtain PEVA 8G, 72x72 Inch Waterproof Clear | Non-toxic shower liner, waterproof plastic shower curtain, ru",
+      "categories": [
+        "home",
+        "Bath"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B00LS9UD2M?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-08-23",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$9.98",
+      "verified_stars": "4.6",
+      "verified_reviews": 147666,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B00NX0WXQI",
+      "product_name": "Queen Sheets Set, 4 Pieces 16\" Deep Pocket Hotel Luxury Bed Sheets, Grey | Extra Soft Bedsheet Set, Comfy & Breathable C",
+      "categories": [
+        "home",
+        "Home & Kitchen"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B00NX0WXQI?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-08-23",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$13.31",
+      "verified_stars": "4.6",
+      "verified_reviews": 113235,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B09CYLZPYP",
+      "product_name": "Dynamene Waffle Shower Curtain 256 GSM Heavy Duty Fabric 72\"x72\" Sage Green | Thick Textured Cloth, Weighted Hem, Water ",
+      "categories": [
+        "home",
+        "Bath"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B09CYLZPYP?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-08-23",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$15.99",
+      "verified_stars": "4.7",
+      "verified_reviews": 25969,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0BR3STN87",
+      "product_name": "Linen Total Blackout Curtains for Bedroom Living Room 84 Inch, Cream | 100% Blackout Shield Linen Textured Back Tab/Rod ",
+      "categories": [
+        "home",
+        "Home D\u00e9cor"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0BR3STN87?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-08-23",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$32.97",
       "verified_stars": "4.5",
-      "verified_reviews": 17274,
-      "source": "trending"
+      "verified_reviews": 8844,
+      "discovery_source": "harvest_catalogue"
     },
     {
-      "asin": "B0FVW1TNH8",
-      "product_name": "Floating Shelves for Bedside Shelf",
-      "categories": [],
+      "asin": "B0881QG5WK",
+      "product_name": "ChrisDowa Blackout Curtains for Bedroom and Living Room 63 Inches Long | 2 Panels Set, Thermal Insulated, Light Blocking",
+      "categories": [
+        "home",
+        "Home D\u00e9cor"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0881QG5WK?tag=goldenhomep06-20",
       "status": "live",
-      "verified_price": "$22.49",
+      "verified_at": "2026-08-23",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$11.69",
       "verified_stars": "4.6",
-      "verified_reviews": 260,
-      "source": "trending"
+      "verified_reviews": 31168,
+      "discovery_source": "harvest_catalogue"
     },
     {
-      "asin": "B0DP76RZDR",
-      "product_name": "Molutsody Under Bed Storage with Wheels",
-      "categories": [],
+      "asin": "B0714K41PB",
+      "product_name": "Utopia Bedding Throw Pillows, Decorative 18x18 Pillow Inserts, Set of 4 | Down alternative pillow insert with plush fluf",
+      "categories": [
+        "home",
+        "Home D\u00e9cor"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0714K41PB?tag=goldenhomep06-20",
       "status": "live",
-      "verified_price": "$29.99",
+      "verified_at": "2026-08-23",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$20.26",
       "verified_stars": "4.6",
-      "verified_reviews": 662,
-      "source": "trending"
+      "verified_reviews": 126992,
+      "discovery_source": "harvest_catalogue"
     },
     {
-      "asin": "B00E4GACB8",
-      "product_name": "Terro",
-      "categories": [],
+      "asin": "B0DLWDVZCD",
+      "product_name": "TEECK Shower Curtain Rod, 32-80 inch Adjustable Spring Tension Curtain Rod, Never Rust Anti-Slip Shower Curtain Rod for ",
+      "categories": [
+        "home",
+        "Bath"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0DLWDVZCD?tag=goldenhomep06-20",
       "status": "live",
-      "verified_price": "$9.58",
+      "verified_at": "2026-08-23",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$12.79",
+      "verified_stars": "4.5",
+      "verified_reviews": 30525,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B00MRH9NCK",
+      "product_name": "Waterproof Twin Size Mattress Protector fits Upto 15\" Deep Pocket | Utopia Bedding 200 GSM Soft & Breathable Mattress Co",
+      "categories": [
+        "home",
+        "Home & Kitchen"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B00MRH9NCK?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-08-23",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$11.72",
+      "verified_stars": "4.5",
+      "verified_reviews": 105628,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0010B5EQS",
+      "product_name": "Clorox ToiletWand Toilet Cleaning System, Wand, Caddy and 6 Refill Heads",
+      "categories": [
+        "home",
+        "Cleaning Supplies"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0010B5EQS?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-08-23",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$12.84",
+      "verified_stars": "4.7",
+      "verified_reviews": 143837,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B07236M4HC",
+      "product_name": "AmazerBath Plastic Shower Curtain Clear Premium PEVA, Clear Shower Curtain Heavy Duty 8G, Weighted Shower Curtains for B",
+      "categories": [
+        "home",
+        "Bath"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B07236M4HC?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-08-23",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$9.48",
       "verified_stars": "4.6",
-      "verified_reviews": 160791,
-      "source": "trending"
+      "verified_reviews": 92528,
+      "discovery_source": "harvest_catalogue"
     },
     {
-      "asin": "B00FXNAAW2",
-      "product_name": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers",
-      "categories": [],
+      "asin": "B0725WFLMB",
+      "product_name": "Bedsure Satin Pillowcase, Similar to Silk Pillow Cases Queen Size Set of 2, Cooling Pillow Case Covers with Envelope Clo",
+      "categories": [
+        "home",
+        "Home & Kitchen"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0725WFLMB?tag=goldenhomep06-20",
       "status": "live",
-      "verified_price": "$20.99",
-      "verified_stars": "4.8",
-      "verified_reviews": 235105,
-      "source": "trending"
-    },
-    {
-      "asin": "B0BQR2BQYZ",
-      "product_name": "upsimples 11x14 Picture Frame",
-      "categories": [],
-      "status": "live",
+      "verified_at": "2026-08-23",
+      "verified_method": "best_seller_grid",
       "verified_price": "$6.99",
       "verified_stars": "4.5",
-      "verified_reviews": 42137,
-      "source": "trending"
+      "verified_reviews": 321211,
+      "discovery_source": "harvest_catalogue"
     },
     {
-      "asin": "B01CS31R94",
-      "product_name": "NICETOWN Black Blackout Curtains for Bedroom 42\" Wide x 63\" Long 2 Pan",
-      "categories": [],
+      "asin": "B08SBYPF14",
+      "product_name": "MIULEE 100% Blackout Linen Curtains for Bedroom 52x84 Inches Natural Beige | Room Darkening, Light Blocking, Thermal Ins",
+      "categories": [
+        "home",
+        "Home D\u00e9cor"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B08SBYPF14?tag=goldenhomep06-20",
       "status": "live",
-      "verified_price": "$9.98",
+      "verified_at": "2026-08-23",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$24.95",
       "verified_stars": "4.6",
-      "verified_reviews": 132268,
-      "source": "trending"
+      "verified_reviews": 9919,
+      "discovery_source": "harvest_catalogue"
     },
     {
-      "asin": "B08B1B1B2X",
-      "product_name": "Bentgo Kids Prints Leak-Proof 5-Compartment Bento-Style Kids Lunch Box",
-      "categories": [],
+      "asin": "B0BZL5GWVL",
+      "product_name": "Vitafit Bathroom Scale for Body Weight Accuracy 0.1lb, Weight Scale 400lb | Professional Factory Since 2001 Digital Weig",
+      "categories": [
+        "home",
+        "Bath"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0BZL5GWVL?tag=goldenhomep06-20",
       "status": "live",
-      "verified_price": "$19.49",
-      "verified_stars": "4.7",
-      "verified_reviews": 64320,
-      "source": "trending"
-    },
-    {
-      "asin": "B0815BLNX1",
-      "product_name": "GORILLA GRIP\u00ae Rug Grippers",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.98",
-      "verified_stars": "4.5",
-      "verified_reviews": 31022,
-      "source": "trending"
-    },
-    {
-      "asin": "B0D89V1RX1",
-      "product_name": "2x6 Hallway Washable Runner Rug : Vintage Soft Kitchen Laundry Runner",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$20.89",
-      "verified_stars": "4.6",
-      "verified_reviews": 9514,
-      "source": "trending"
-    },
-    {
-      "asin": "B0DGF616XN",
-      "product_name": "6 Pack Extra Heavy Duty Large Moving Bags with Strong Zipper",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$26.99",
-      "verified_stars": "4.8",
-      "verified_reviews": 11543,
-      "source": "trending"
-    },
-    {
-      "asin": "B08KXKVT4K",
-      "product_name": "Vtopmart 25 PCS Clear Plastic Drawer Organizers Set",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$17.98",
-      "verified_stars": "4.7",
-      "verified_reviews": 49096,
-      "source": "trending"
-    },
-    {
-      "asin": "B0B6PLG6G2",
-      "product_name": "125Pcs 8 Inch Square Air Fryer Liners Disposable for 5-8QT",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.97",
-      "verified_stars": "4.6",
-      "verified_reviews": 33076,
-      "source": "trending"
-    },
-    {
-      "asin": "B078H9VRTZ",
-      "product_name": "PackIt",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$21.59",
-      "verified_stars": "4.7",
-      "verified_reviews": 14451,
-      "source": "trending"
-    },
-    {
-      "asin": "B08492PZ8Y",
-      "product_name": "Febreze Plug-In Air Freshener",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$12.94",
-      "verified_stars": "4.7",
-      "verified_reviews": 97224,
-      "source": "trending"
-    },
-    {
-      "asin": "B098D79MQB",
-      "product_name": "HOMEXCEL 12PK Microfiber Cleaning Cloth",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$6.98",
-      "verified_stars": "4.5",
-      "verified_reviews": 49624,
-      "source": "trending"
-    },
-    {
-      "asin": "B01DCG0GPC",
-      "product_name": "Lysol Disinfectant Spray",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$13.47",
-      "verified_stars": "4.8",
-      "verified_reviews": 70478,
-      "source": "trending"
-    },
-    {
-      "asin": "B085DTZQNZ",
-      "product_name": "Owala FreeSip Stainless Steel Water Bottle 24 oz Very",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$29.97",
-      "verified_stars": "4.6",
-      "verified_reviews": 134125,
-      "source": "trending"
-    },
-    {
-      "asin": "B00FXNAAW2",
-      "product_name": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$20.69",
-      "verified_stars": "4.8",
-      "verified_reviews": 235398,
-      "source": "trending"
-    },
-    {
-      "asin": "B0DGF616XN",
-      "product_name": "6 Pack Extra Heavy Duty Large Moving Bags with Strong Zipper",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$26.99",
-      "verified_stars": "4.8",
-      "verified_reviews": 11678,
-      "source": "trending"
-    },
-    {
-      "asin": "B07712H557",
-      "product_name": "Command Variety Pack",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$14.84",
-      "verified_stars": "4.7",
-      "verified_reviews": 11635,
-      "source": "trending"
-    },
-    {
-      "asin": "B08NCVT244",
-      "product_name": "THERMOS FUNTAINER Kids Food Jar with Spoon",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$14.69",
-      "verified_stars": "4.7",
-      "verified_reviews": 48479,
-      "source": "trending"
-    },
-    {
-      "asin": "B08CVT84C9",
-      "product_name": "Bentgo Chill Kids 4-Compartment Bento Box Leakproof Lunch Box",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$32.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 18978,
-      "source": "trending"
-    },
-    {
-      "asin": "B0CQVWT2NH",
-      "product_name": "HydroJug Traveler 40oz",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$31.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 19397,
-      "source": "trending"
-    },
-    {
-      "asin": "B0B56CHMSC",
-      "product_name": "Lifewit Medium Lunch Bag",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$7.98",
-      "verified_stars": "4.5",
-      "verified_reviews": 61833,
-      "source": "trending"
-    },
-    {
-      "asin": "B00W5D1MDE",
-      "product_name": "Clorox Toilet Bowl Cleaner Clinging Bleach Gel",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$5.24",
-      "verified_stars": "4.8",
-      "verified_reviews": 44557,
-      "source": "trending"
-    },
-    {
-      "asin": "B000ST1DZO",
-      "product_name": "Drano Max Gel Drain Clog Remover & Cleaner",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$5.17",
-      "verified_stars": "4.5",
-      "verified_reviews": 76061,
-      "source": "trending"
-    },
-    {
-      "asin": "B0C1DWC251",
-      "product_name": "Swiffer PowerMop Mopping Kit for Floor Cleaning",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$26.94",
-      "verified_stars": "4.5",
-      "verified_reviews": 46030,
-      "source": "trending"
-    },
-    {
-      "asin": "B00SXC85IQ",
-      "product_name": "Affresh Dishwasher Cleaner",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.97",
-      "verified_stars": "4.6",
-      "verified_reviews": 80452,
-      "source": "trending"
-    },
-    {
-      "asin": "B08QRFZ6TH",
-      "product_name": "Barossa Design Premium Shower Curtain Liner Standard Size",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.95",
-      "verified_stars": "4.5",
-      "verified_reviews": 99346,
-      "source": "trending"
-    },
-    {
-      "asin": "B09SZ9T4MV",
-      "product_name": "EUDELE Mesh Shower Caddy Portable for College Dorm Room Essentials",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 7710,
-      "source": "trending"
-    },
-    {
-      "asin": "B00R55CIRQ",
-      "product_name": "Clorox Corner Toilet Bowl Brush with Under Rim Scrubber",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.79",
-      "verified_stars": "4.6",
-      "verified_reviews": 5683,
-      "source": "trending"
-    },
-    {
-      "asin": "B09ZYRCNJH",
-      "product_name": "Utopia Towels 12 Pack Washcloths",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 74893,
-      "source": "trending"
-    },
-    {
-      "asin": "B08S31RWBK",
-      "product_name": "Hicober Microfiber Hair Towel Wrap for Women",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$12.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 34707,
-      "source": "trending"
-    },
-    {
-      "asin": "B0B99VKV8P",
-      "product_name": "FYY Over the Door Hooks",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$5.98",
-      "verified_stars": "4.7",
-      "verified_reviews": 11400,
-      "source": "trending"
-    },
-    {
-      "asin": "B00HZ0ION8",
-      "product_name": "Handy Laundry Collapsible Mesh Pop Up Hamper with Wide Opening and Sid",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$7.99",
-      "verified_stars": "4.7",
-      "verified_reviews": 60484,
-      "source": "trending"
-    },
-    {
-      "asin": "B0BBMK7RCF",
-      "product_name": "iZELL Desk Lamp",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$14.39",
-      "verified_stars": "4.6",
-      "verified_reviews": 15546,
-      "source": "trending"
-    },
-    {
-      "asin": "B0DZ254SSR",
-      "product_name": "SUPERDANNY Extension Cord,Flat Plug Surge Protector Power Strip,10Ft",
-      "categories": [],
-      "status": "live",
+      "verified_at": "2026-08-23",
+      "verified_method": "best_seller_grid",
       "verified_price": "$15.99",
-      "verified_stars": "4.7",
-      "verified_reviews": 7088,
-      "source": "trending"
-    },
-    {
-      "asin": "B0GN1TZZ9W",
-      "product_name": "WALI Desk File Organizer",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$17.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 4455,
-      "source": "trending"
-    },
-    {
-      "asin": "B07SYPLVTG",
-      "product_name": "YOUDENOVA Hanging Closet Organizer and Storage",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$18.98",
-      "verified_stars": "4.5",
-      "verified_reviews": 17274,
-      "source": "trending"
-    },
-    {
-      "asin": "B0FVW1TNH8",
-      "product_name": "Floating Shelves for Bedside Shelf",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$22.49",
-      "verified_stars": "4.6",
-      "verified_reviews": 260,
-      "source": "trending"
-    },
-    {
-      "asin": "B0DP76RZDR",
-      "product_name": "Molutsody Under Bed Storage with Wheels",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$29.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 662,
-      "source": "trending"
-    },
-    {
-      "asin": "B00E4GACB8",
-      "product_name": "Terro",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.58",
-      "verified_stars": "4.6",
-      "verified_reviews": 160791,
-      "source": "trending"
-    },
-    {
-      "asin": "B0BQR2BQYZ",
-      "product_name": "upsimples 11x14 Picture Frame",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$6.99",
-      "verified_stars": "4.5",
-      "verified_reviews": 42137,
-      "source": "trending"
-    },
-    {
-      "asin": "B01CS31R94",
-      "product_name": "NICETOWN Black Blackout Curtains for Bedroom 42\" Wide x 63\" Long 2 Pan",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.98",
-      "verified_stars": "4.6",
-      "verified_reviews": 132268,
-      "source": "trending"
-    },
-    {
-      "asin": "B08B1B1B2X",
-      "product_name": "Bentgo Kids Prints Leak-Proof 5-Compartment Bento-Style Kids Lunch Box",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$19.49",
-      "verified_stars": "4.7",
-      "verified_reviews": 64320,
-      "source": "trending"
-    },
-    {
-      "asin": "B0815BLNX1",
-      "product_name": "GORILLA GRIP\u00ae Rug Grippers",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.98",
-      "verified_stars": "4.5",
-      "verified_reviews": 31022,
-      "source": "trending"
-    },
-    {
-      "asin": "B0D89V1RX1",
-      "product_name": "2x6 Hallway Washable Runner Rug : Vintage Soft Kitchen Laundry Runner",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$20.89",
-      "verified_stars": "4.6",
-      "verified_reviews": 9514,
-      "source": "trending"
-    },
-    {
-      "asin": "B08KXKVT4K",
-      "product_name": "Vtopmart 25 PCS Clear Plastic Drawer Organizers Set",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$17.98",
-      "verified_stars": "4.7",
-      "verified_reviews": 49096,
-      "source": "trending"
-    },
-    {
-      "asin": "B0B6PLG6G2",
-      "product_name": "125Pcs 8 Inch Square Air Fryer Liners Disposable for 5-8QT",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.97",
-      "verified_stars": "4.6",
-      "verified_reviews": 33076,
-      "source": "trending"
-    },
-    {
-      "asin": "B078H9VRTZ",
-      "product_name": "PackIt",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$21.59",
-      "verified_stars": "4.7",
-      "verified_reviews": 14451,
-      "source": "trending"
-    },
-    {
-      "asin": "B08492PZ8Y",
-      "product_name": "Febreze Plug-In Air Freshener",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$12.94",
-      "verified_stars": "4.7",
-      "verified_reviews": 97224,
-      "source": "trending"
-    },
-    {
-      "asin": "B098D79MQB",
-      "product_name": "HOMEXCEL 12PK Microfiber Cleaning Cloth",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$6.98",
-      "verified_stars": "4.5",
-      "verified_reviews": 49624,
-      "source": "trending"
-    },
-    {
-      "asin": "B01DCG0GPC",
-      "product_name": "Lysol Disinfectant Spray",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$13.47",
-      "verified_stars": "4.8",
-      "verified_reviews": 70478,
-      "source": "trending"
-    },
-    {
-      "asin": "B01CS31R94",
-      "product_name": "NICETOWN Black Blackout Curtains for Bedroom 42\" Wide x 63\" Long 2 Pan",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.98",
-      "verified_stars": "4.6",
-      "verified_reviews": 132500,
-      "source": "trending"
-    },
-    {
-      "asin": "B08B1B1B2X",
-      "product_name": "Bentgo Kids Prints Leak-Proof 5-Compartment Bento-Style Kids Lunch Box",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$29.99",
-      "verified_stars": "4.7",
-      "verified_reviews": 64106,
-      "source": "trending"
-    },
-    {
-      "asin": "B0815BLNX1",
-      "product_name": "GORILLA GRIP\u00ae Extra Long Rug Grippers for Hardwood Floor",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.98",
-      "verified_stars": "4.5",
-      "verified_reviews": 31132,
-      "source": "trending"
-    },
-    {
-      "asin": "B0D89V1RX1",
-      "product_name": "2x6 Hallway Washable Runner Rug : Vintage Soft Kitchen Laundry Runner",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$21.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 9686,
-      "source": "trending"
-    },
-    {
-      "asin": "B08XVP48KQ",
-      "product_name": "upsimples 8x10 Picture Frames",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$17.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 72458,
-      "source": "trending"
-    },
-    {
-      "asin": "B085DTZQNZ",
-      "product_name": "Owala FreeSip Stainless Steel Water Bottle 24 oz Very",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$29.97",
-      "verified_stars": "4.6",
-      "verified_reviews": 134125,
-      "source": "trending"
-    },
-    {
-      "asin": "B00FXNAAW2",
-      "product_name": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$20.69",
-      "verified_stars": "4.8",
-      "verified_reviews": 235398,
-      "source": "trending"
-    },
-    {
-      "asin": "B0DGF616XN",
-      "product_name": "6 Pack Extra Heavy Duty Large Moving Bags with Strong Zipper",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$26.99",
-      "verified_stars": "4.8",
-      "verified_reviews": 11678,
-      "source": "trending"
-    },
-    {
-      "asin": "B07712H557",
-      "product_name": "Command Variety Pack",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$14.84",
-      "verified_stars": "4.7",
-      "verified_reviews": 11635,
-      "source": "trending"
-    },
-    {
-      "asin": "B08NCVT244",
-      "product_name": "THERMOS FUNTAINER Kids Food Jar with Spoon",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$14.69",
-      "verified_stars": "4.7",
-      "verified_reviews": 48479,
-      "source": "trending"
-    },
-    {
-      "asin": "B08CVT84C9",
-      "product_name": "Bentgo Chill Kids 4-Compartment Bento Box Leakproof Lunch Box",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$32.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 18978,
-      "source": "trending"
-    },
-    {
-      "asin": "B0CQVWT2NH",
-      "product_name": "HydroJug Traveler 40oz",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$31.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 19397,
-      "source": "trending"
-    },
-    {
-      "asin": "B0B56CHMSC",
-      "product_name": "Lifewit Medium Lunch Bag",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$7.98",
-      "verified_stars": "4.5",
-      "verified_reviews": 61833,
-      "source": "trending"
-    },
-    {
-      "asin": "B00W5D1MDE",
-      "product_name": "Clorox Toilet Bowl Cleaner Clinging Bleach Gel",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$5.24",
-      "verified_stars": "4.8",
-      "verified_reviews": 44557,
-      "source": "trending"
-    },
-    {
-      "asin": "B000ST1DZO",
-      "product_name": "Drano Max Gel Drain Clog Remover & Cleaner",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$5.17",
-      "verified_stars": "4.5",
-      "verified_reviews": 76061,
-      "source": "trending"
-    },
-    {
-      "asin": "B0C1DWC251",
-      "product_name": "Swiffer PowerMop Mopping Kit for Floor Cleaning",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$26.94",
-      "verified_stars": "4.5",
-      "verified_reviews": 46030,
-      "source": "trending"
-    },
-    {
-      "asin": "B00SXC85IQ",
-      "product_name": "Affresh Dishwasher Cleaner",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.97",
-      "verified_stars": "4.6",
-      "verified_reviews": 80452,
-      "source": "trending"
-    },
-    {
-      "asin": "B08QRFZ6TH",
-      "product_name": "Barossa Design Premium Shower Curtain Liner Standard Size",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.95",
-      "verified_stars": "4.5",
-      "verified_reviews": 99346,
-      "source": "trending"
-    },
-    {
-      "asin": "B09SZ9T4MV",
-      "product_name": "EUDELE Mesh Shower Caddy Portable for College Dorm Room Essentials",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 7710,
-      "source": "trending"
-    },
-    {
-      "asin": "B00R55CIRQ",
-      "product_name": "Clorox Corner Toilet Bowl Brush with Under Rim Scrubber",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.79",
-      "verified_stars": "4.6",
-      "verified_reviews": 5683,
-      "source": "trending"
-    },
-    {
-      "asin": "B09ZYRCNJH",
-      "product_name": "Utopia Towels 12 Pack Washcloths",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 74893,
-      "source": "trending"
-    },
-    {
-      "asin": "B08S31RWBK",
-      "product_name": "Hicober Microfiber Hair Towel Wrap for Women",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$12.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 34707,
-      "source": "trending"
-    },
-    {
-      "asin": "B0B99VKV8P",
-      "product_name": "FYY Over the Door Hooks",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$5.98",
-      "verified_stars": "4.7",
-      "verified_reviews": 11400,
-      "source": "trending"
-    },
-    {
-      "asin": "B00HZ0ION8",
-      "product_name": "Handy Laundry Collapsible Mesh Pop Up Hamper with Wide Opening and Sid",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$7.99",
-      "verified_stars": "4.7",
-      "verified_reviews": 60484,
-      "source": "trending"
-    },
-    {
-      "asin": "B0BBMK7RCF",
-      "product_name": "iZELL Desk Lamp",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$14.39",
-      "verified_stars": "4.6",
-      "verified_reviews": 15546,
-      "source": "trending"
-    },
-    {
-      "asin": "B0DZ254SSR",
-      "product_name": "SUPERDANNY Extension Cord,Flat Plug Surge Protector Power Strip,10Ft",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$15.99",
-      "verified_stars": "4.7",
-      "verified_reviews": 7088,
-      "source": "trending"
-    },
-    {
-      "asin": "B0GN1TZZ9W",
-      "product_name": "WALI Desk File Organizer",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$17.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 4455,
-      "source": "trending"
-    },
-    {
-      "asin": "B07SYPLVTG",
-      "product_name": "YOUDENOVA Hanging Closet Organizer and Storage",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$18.98",
-      "verified_stars": "4.5",
-      "verified_reviews": 17274,
-      "source": "trending"
-    },
-    {
-      "asin": "B0FVW1TNH8",
-      "product_name": "Floating Shelves for Bedside Shelf",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$22.49",
-      "verified_stars": "4.6",
-      "verified_reviews": 260,
-      "source": "trending"
-    },
-    {
-      "asin": "B0DP76RZDR",
-      "product_name": "Molutsody Under Bed Storage with Wheels",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$29.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 662,
-      "source": "trending"
-    },
-    {
-      "asin": "B00E4GACB8",
-      "product_name": "Terro",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.58",
-      "verified_stars": "4.6",
-      "verified_reviews": 160791,
-      "source": "trending"
-    },
-    {
-      "asin": "B0BQR2BQYZ",
-      "product_name": "upsimples 11x14 Picture Frame",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$6.99",
-      "verified_stars": "4.5",
-      "verified_reviews": 42137,
-      "source": "trending"
-    },
-    {
-      "asin": "B08KXKVT4K",
-      "product_name": "Vtopmart 25 PCS Clear Plastic Drawer Organizers Set",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$17.98",
-      "verified_stars": "4.7",
-      "verified_reviews": 49096,
-      "source": "trending"
-    },
-    {
-      "asin": "B0B6PLG6G2",
-      "product_name": "125Pcs 8 Inch Square Air Fryer Liners Disposable for 5-8QT",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.97",
-      "verified_stars": "4.6",
-      "verified_reviews": 33076,
-      "source": "trending"
-    },
-    {
-      "asin": "B078H9VRTZ",
-      "product_name": "PackIt",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$21.59",
-      "verified_stars": "4.7",
-      "verified_reviews": 14451,
-      "source": "trending"
-    },
-    {
-      "asin": "B0B99VKV8P",
-      "product_name": "FYY Over the Door Hooks",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$5.98",
-      "verified_stars": "4.7",
-      "verified_reviews": 11400,
-      "source": "trending"
-    },
-    {
-      "asin": "B00HZ0ION8",
-      "product_name": "Handy Laundry Collapsible Mesh Pop Up Hamper with Wide Opening and Sid",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$7.99",
-      "verified_stars": "4.7",
-      "verified_reviews": 60484,
-      "source": "trending"
-    },
-    {
-      "asin": "B09SZ9T4MV",
-      "product_name": "EUDELE Mesh Shower Caddy Portable for College Dorm Room Essentials",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 7557,
-      "source": "trending"
-    },
-    {
-      "asin": "B0BBMK7RCF",
-      "product_name": "iZELL Desk Lamp",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$14.39",
-      "verified_stars": "4.6",
-      "verified_reviews": 15546,
-      "source": "trending"
-    },
-    {
-      "asin": "B07712H557",
-      "product_name": "Command Variety Pack",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$14.84",
-      "verified_stars": "4.7",
-      "verified_reviews": 11579,
-      "source": "trending"
-    },
-    {
-      "asin": "B0DZ254SSR",
-      "product_name": "SUPERDANNY Extension Cord,Flat Plug Surge Protector Power Strip,10Ft",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$15.99",
-      "verified_stars": "4.7",
-      "verified_reviews": 7088,
-      "source": "trending"
-    },
-    {
-      "asin": "B0GN1TZZ9W",
-      "product_name": "WALI Desk File Organizer",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$17.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 4455,
-      "source": "trending"
-    },
-    {
-      "asin": "B07SYPLVTG",
-      "product_name": "YOUDENOVA Hanging Closet Organizer and Storage",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$18.98",
-      "verified_stars": "4.5",
-      "verified_reviews": 17274,
-      "source": "trending"
-    },
-    {
-      "asin": "B0FVW1TNH8",
-      "product_name": "Floating Shelves for Bedside Shelf",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$22.49",
-      "verified_stars": "4.6",
-      "verified_reviews": 260,
-      "source": "trending"
-    },
-    {
-      "asin": "B0DP76RZDR",
-      "product_name": "Molutsody Under Bed Storage with Wheels",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$29.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 662,
-      "source": "trending"
-    },
-    {
-      "asin": "B085DTZQNZ",
-      "product_name": "Owala FreeSip Stainless Steel Water Bottle 24 oz Very",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$29.97",
-      "verified_stars": "4.6",
-      "verified_reviews": 134014,
-      "source": "trending"
-    },
-    {
-      "asin": "B00E4GACB8",
-      "product_name": "TERRO Liquid Ant Killer Bait Stations",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.58",
-      "verified_stars": "4.6",
-      "verified_reviews": 161061,
-      "source": "trending"
-    },
-    {
-      "asin": "B01M16WBW1",
-      "product_name": "Queen Size 4 Piece Sheet Set",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$24.99",
-      "verified_stars": "4.5",
-      "verified_reviews": 452063,
-      "source": "trending"
-    },
-    {
-      "asin": "B00FXNAAW2",
-      "product_name": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$20.69",
-      "verified_stars": "4.8",
-      "verified_reviews": 235379,
-      "source": "trending"
-    },
-    {
-      "asin": "B08QRFZ6TH",
-      "product_name": "Barossa Design Oeko-tex Certified Shower Curtain Liner Standard Size",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.95",
-      "verified_stars": "4.5",
-      "verified_reviews": 99490,
-      "source": "trending"
-    },
-    {
-      "asin": "B0DGF616XN",
-      "product_name": "6 Pack Extra Heavy Duty Large Moving Bags with Strong Zipper",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$26.99",
-      "verified_stars": "4.8",
-      "verified_reviews": 11687,
-      "source": "trending"
-    },
-    {
-      "asin": "B01CS31R94",
-      "product_name": "NICETOWN Black Blackout Curtains for Bedroom 42\" Wide x 63\" Long 2 Pan",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.98",
-      "verified_stars": "4.6",
-      "verified_reviews": 132500,
-      "source": "trending"
-    },
-    {
-      "asin": "B08B1B1B2X",
-      "product_name": "Bentgo Kids Prints Leak-Proof 5-Compartment Bento-Style Kids Lunch Box",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$29.99",
-      "verified_stars": "4.7",
-      "verified_reviews": 64106,
-      "source": "trending"
-    },
-    {
-      "asin": "B0815BLNX1",
-      "product_name": "GORILLA GRIP\u00ae Extra Long Rug Grippers for Hardwood Floor",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.98",
-      "verified_stars": "4.5",
-      "verified_reviews": 31132,
-      "source": "trending"
-    },
-    {
-      "asin": "B0D89V1RX1",
-      "product_name": "2x6 Hallway Washable Runner Rug : Vintage Soft Kitchen Laundry Runner",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$21.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 9686,
-      "source": "trending"
-    },
-    {
-      "asin": "B08XVP48KQ",
-      "product_name": "upsimples 8x10 Picture Frames",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$17.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 72458,
-      "source": "trending"
-    },
-    {
-      "asin": "B08NCVT244",
-      "product_name": "THERMOS FUNTAINER Kids Food Jar with Spoon",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$14.69",
-      "verified_stars": "4.7",
-      "verified_reviews": 48479,
-      "source": "trending"
-    },
-    {
-      "asin": "B08CVT84C9",
-      "product_name": "Bentgo Chill Kids 4-Compartment Bento Box Leakproof Lunch Box",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$32.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 18978,
-      "source": "trending"
-    },
-    {
-      "asin": "B0CQVWT2NH",
-      "product_name": "HydroJug Traveler 40oz",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$31.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 19397,
-      "source": "trending"
-    },
-    {
-      "asin": "B0B56CHMSC",
-      "product_name": "Lifewit Medium Lunch Bag",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$7.98",
-      "verified_stars": "4.5",
-      "verified_reviews": 61833,
-      "source": "trending"
-    },
-    {
-      "asin": "B00W5D1MDE",
-      "product_name": "Clorox Toilet Bowl Cleaner Clinging Bleach Gel",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$5.24",
-      "verified_stars": "4.8",
-      "verified_reviews": 44557,
-      "source": "trending"
-    },
-    {
-      "asin": "B000ST1DZO",
-      "product_name": "Drano Max Gel Drain Clog Remover & Cleaner",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$5.17",
-      "verified_stars": "4.5",
-      "verified_reviews": 76061,
-      "source": "trending"
-    },
-    {
-      "asin": "B0C1DWC251",
-      "product_name": "Swiffer PowerMop Mopping Kit for Floor Cleaning",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$26.94",
-      "verified_stars": "4.5",
-      "verified_reviews": 46030,
-      "source": "trending"
-    },
-    {
-      "asin": "B00SXC85IQ",
-      "product_name": "Affresh Dishwasher Cleaner",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.97",
-      "verified_stars": "4.6",
-      "verified_reviews": 80452,
-      "source": "trending"
-    },
-    {
-      "asin": "B00R55CIRQ",
-      "product_name": "Clorox Corner Toilet Bowl Brush with Under Rim Scrubber",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.79",
-      "verified_stars": "4.6",
-      "verified_reviews": 5683,
-      "source": "trending"
-    },
-    {
-      "asin": "B09ZYRCNJH",
-      "product_name": "Utopia Towels 12 Pack Washcloths",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 74893,
-      "source": "trending"
-    },
-    {
-      "asin": "B08S31RWBK",
-      "product_name": "Hicober Microfiber Hair Towel Wrap for Women",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$12.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 34707,
-      "source": "trending"
-    },
-    {
-      "asin": "B0BQR2BQYZ",
-      "product_name": "upsimples 11x14 Picture Frame",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$6.99",
-      "verified_stars": "4.5",
-      "verified_reviews": 42137,
-      "source": "trending"
-    },
-    {
-      "asin": "B08QRFZ6TH",
-      "product_name": "Barossa Design Oeko-tex Certified Shower Curtain Liner Standard Size",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.95",
-      "verified_stars": "4.5",
-      "verified_reviews": 99546,
-      "source": "trending"
-    },
-    {
-      "asin": "B09SZ9T4MV",
-      "product_name": "EUDELE Mesh Shower Caddy Portable for College Dorm Room Essentials",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.99",
-      "verified_stars": "4.5",
-      "verified_reviews": 7747,
-      "source": "trending"
-    },
-    {
-      "asin": "B09ZYRCNJH",
-      "product_name": "Utopia Towels 12 Pack Washcloths",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$11.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 74928,
-      "source": "trending"
-    },
-    {
-      "asin": "B00P7VW2H6",
-      "product_name": "Clorox Toilet Plunger with Hideaway Holder Caddy Heavy-Duty Compact De",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$13.97",
-      "verified_stars": "4.5",
-      "verified_reviews": 18336,
-      "source": "trending"
-    },
-    {
-      "asin": "B0BFMKYN12",
-      "product_name": "DDMY Adhesive Wall Hooks Clear 50lb(Max) Heavy Duty Hanging Sticky-10",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.99",
-      "verified_stars": "4.5",
-      "verified_reviews": 39860,
-      "source": "trending"
-    },
-    {
-      "asin": "B0B99VKV8P",
-      "product_name": "FYY Over the Door Hooks",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$5.98",
-      "verified_stars": "4.7",
-      "verified_reviews": 11400,
-      "source": "trending"
-    },
-    {
-      "asin": "B00HZ0ION8",
-      "product_name": "Handy Laundry Collapsible Mesh Pop Up Hamper with Wide Opening and Sid",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$7.99",
-      "verified_stars": "4.7",
-      "verified_reviews": 60484,
-      "source": "trending"
-    },
-    {
-      "asin": "B0BBMK7RCF",
-      "product_name": "iZELL Desk Lamp",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$14.39",
-      "verified_stars": "4.6",
-      "verified_reviews": 15546,
-      "source": "trending"
-    },
-    {
-      "asin": "B07712H557",
-      "product_name": "Command Variety Pack",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$14.84",
-      "verified_stars": "4.7",
-      "verified_reviews": 11579,
-      "source": "trending"
-    },
-    {
-      "asin": "B0DZ254SSR",
-      "product_name": "SUPERDANNY Extension Cord,Flat Plug Surge Protector Power Strip,10Ft",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$15.99",
-      "verified_stars": "4.7",
-      "verified_reviews": 7088,
-      "source": "trending"
-    },
-    {
-      "asin": "B0GN1TZZ9W",
-      "product_name": "WALI Desk File Organizer",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$17.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 4455,
-      "source": "trending"
-    },
-    {
-      "asin": "B07SYPLVTG",
-      "product_name": "YOUDENOVA Hanging Closet Organizer and Storage",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$18.98",
-      "verified_stars": "4.5",
-      "verified_reviews": 17274,
-      "source": "trending"
-    },
-    {
-      "asin": "B0FVW1TNH8",
-      "product_name": "Floating Shelves for Bedside Shelf",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$22.49",
-      "verified_stars": "4.6",
-      "verified_reviews": 260,
-      "source": "trending"
-    },
-    {
-      "asin": "B0DP76RZDR",
-      "product_name": "Molutsody Under Bed Storage with Wheels",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$29.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 662,
-      "source": "trending"
-    },
-    {
-      "asin": "B085DTZQNZ",
-      "product_name": "Owala FreeSip Stainless Steel Water Bottle 24 oz Very",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$29.97",
-      "verified_stars": "4.6",
-      "verified_reviews": 134014,
-      "source": "trending"
-    },
-    {
-      "asin": "B00E4GACB8",
-      "product_name": "TERRO Liquid Ant Killer Bait Stations",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.58",
-      "verified_stars": "4.6",
-      "verified_reviews": 161061,
-      "source": "trending"
-    },
-    {
-      "asin": "B01M16WBW1",
-      "product_name": "Queen Size 4 Piece Sheet Set",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$24.99",
-      "verified_stars": "4.5",
-      "verified_reviews": 452063,
-      "source": "trending"
-    },
-    {
-      "asin": "B00FXNAAW2",
-      "product_name": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$20.69",
-      "verified_stars": "4.8",
-      "verified_reviews": 235379,
-      "source": "trending"
-    },
-    {
-      "asin": "B0DGF616XN",
-      "product_name": "6 Pack Extra Heavy Duty Large Moving Bags with Strong Zipper",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$26.99",
-      "verified_stars": "4.8",
-      "verified_reviews": 11687,
-      "source": "trending"
-    },
-    {
-      "asin": "B01CS31R94",
-      "product_name": "NICETOWN Black Blackout Curtains for Bedroom 42\" Wide x 63\" Long 2 Pan",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.98",
-      "verified_stars": "4.6",
-      "verified_reviews": 132500,
-      "source": "trending"
-    },
-    {
-      "asin": "B08B1B1B2X",
-      "product_name": "Bentgo Kids Prints Leak-Proof 5-Compartment Bento-Style Kids Lunch Box",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$29.99",
-      "verified_stars": "4.7",
-      "verified_reviews": 64106,
-      "source": "trending"
-    },
-    {
-      "asin": "B0815BLNX1",
-      "product_name": "GORILLA GRIP\u00ae Extra Long Rug Grippers for Hardwood Floor",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.98",
-      "verified_stars": "4.5",
-      "verified_reviews": 31132,
-      "source": "trending"
-    },
-    {
-      "asin": "B0D89V1RX1",
-      "product_name": "2x6 Hallway Washable Runner Rug : Vintage Soft Kitchen Laundry Runner",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$21.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 9686,
-      "source": "trending"
-    },
-    {
-      "asin": "B08XVP48KQ",
-      "product_name": "upsimples 8x10 Picture Frames",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$17.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 72458,
-      "source": "trending"
-    },
-    {
-      "asin": "B08NCVT244",
-      "product_name": "THERMOS FUNTAINER Kids Food Jar with Spoon",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$14.69",
-      "verified_stars": "4.7",
-      "verified_reviews": 48479,
-      "source": "trending"
-    },
-    {
-      "asin": "B08CVT84C9",
-      "product_name": "Bentgo Chill Kids 4-Compartment Bento Box Leakproof Lunch Box",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$32.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 18978,
-      "source": "trending"
-    },
-    {
-      "asin": "B0CQVWT2NH",
-      "product_name": "HydroJug Traveler 40oz",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$31.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 19397,
-      "source": "trending"
-    },
-    {
-      "asin": "B0B56CHMSC",
-      "product_name": "Lifewit Medium Lunch Bag",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$7.98",
-      "verified_stars": "4.5",
-      "verified_reviews": 61833,
-      "source": "trending"
-    },
-    {
-      "asin": "B00W5D1MDE",
-      "product_name": "Clorox Toilet Bowl Cleaner Clinging Bleach Gel",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$5.24",
-      "verified_stars": "4.8",
-      "verified_reviews": 44557,
-      "source": "trending"
-    },
-    {
-      "asin": "B000ST1DZO",
-      "product_name": "Drano Max Gel Drain Clog Remover & Cleaner",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$5.17",
-      "verified_stars": "4.5",
-      "verified_reviews": 76061,
-      "source": "trending"
-    },
-    {
-      "asin": "B0C1DWC251",
-      "product_name": "Swiffer PowerMop Mopping Kit for Floor Cleaning",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$26.94",
-      "verified_stars": "4.5",
-      "verified_reviews": 46030,
-      "source": "trending"
-    },
-    {
-      "asin": "B00SXC85IQ",
-      "product_name": "Affresh Dishwasher Cleaner",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.97",
-      "verified_stars": "4.6",
-      "verified_reviews": 80452,
-      "source": "trending"
-    },
-    {
-      "asin": "B00R55CIRQ",
-      "product_name": "Clorox Corner Toilet Bowl Brush with Under Rim Scrubber",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.79",
-      "verified_stars": "4.6",
-      "verified_reviews": 5683,
-      "source": "trending"
-    },
-    {
-      "asin": "B08S31RWBK",
-      "product_name": "Hicober Microfiber Hair Towel Wrap for Women",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$12.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 34707,
-      "source": "trending"
-    },
-    {
-      "asin": "B0BQR2BQYZ",
-      "product_name": "upsimples 11x14 Picture Frame",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$6.99",
-      "verified_stars": "4.5",
-      "verified_reviews": 42137,
-      "source": "trending"
-    },
-    {
-      "asin": "B00W5D1MDE",
-      "product_name": "Clorox Toilet Bowl Cleaner Clinging Bleach Gel",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$5.24",
-      "verified_stars": "4.8",
-      "verified_reviews": 44829,
-      "source": "trending"
-    },
-    {
-      "asin": "B000ST1DZO",
-      "product_name": "Drano Max Gel Drain Clog Remover & Cleaner",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$5.17",
-      "verified_stars": "4.5",
-      "verified_reviews": 76132,
-      "source": "trending"
-    },
-    {
-      "asin": "B0C1DWC251",
-      "product_name": "Swiffer PowerMop Mopping Kit for Floor Cleaning",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$26.99",
-      "verified_stars": "4.5",
-      "verified_reviews": 46144,
-      "source": "trending"
-    },
-    {
-      "asin": "B00SXC85IQ",
-      "product_name": "Affresh Dishwasher Cleaner",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.97",
-      "verified_stars": "4.6",
-      "verified_reviews": 80516,
-      "source": "trending"
-    },
-    {
-      "asin": "B09KTQMMCM",
-      "product_name": "Schneider Medical Nitrile/Vinyl Blend Exam Gloves",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$7.73",
-      "verified_stars": "4.5",
-      "verified_reviews": 39616,
-      "source": "trending"
-    },
-    {
-      "asin": "B085DTZQNZ",
-      "product_name": "Owala FreeSip Stainless Steel Water Bottle 24 oz Very",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$29.97",
-      "verified_stars": "4.6",
-      "verified_reviews": 134427,
-      "source": "trending"
-    },
-    {
-      "asin": "B08QRFZ6TH",
-      "product_name": "Barossa Design Oeko-tex Certified Shower Curtain Liner Standard Size",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.95",
-      "verified_stars": "4.5",
-      "verified_reviews": 99546,
-      "source": "trending"
-    },
-    {
-      "asin": "B09SZ9T4MV",
-      "product_name": "EUDELE Mesh Shower Caddy Portable for College Dorm Room Essentials",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.99",
-      "verified_stars": "4.5",
-      "verified_reviews": 7747,
-      "source": "trending"
-    },
-    {
-      "asin": "B09ZYRCNJH",
-      "product_name": "Utopia Towels 12 Pack Washcloths",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$11.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 74928,
-      "source": "trending"
-    },
-    {
-      "asin": "B00P7VW2H6",
-      "product_name": "Clorox Toilet Plunger with Hideaway Holder Caddy Heavy-Duty Compact De",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$13.97",
-      "verified_stars": "4.5",
-      "verified_reviews": 18336,
-      "source": "trending"
-    },
-    {
-      "asin": "B0BFMKYN12",
-      "product_name": "DDMY Adhesive Wall Hooks Clear 50lb(Max) Heavy Duty Hanging Sticky-10",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.99",
-      "verified_stars": "4.5",
-      "verified_reviews": 39860,
-      "source": "trending"
-    },
-    {
-      "asin": "B0B99VKV8P",
-      "product_name": "FYY Over the Door Hooks",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$5.98",
-      "verified_stars": "4.7",
-      "verified_reviews": 11400,
-      "source": "trending"
-    },
-    {
-      "asin": "B00HZ0ION8",
-      "product_name": "Handy Laundry Collapsible Mesh Pop Up Hamper with Wide Opening and Sid",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$7.99",
-      "verified_stars": "4.7",
-      "verified_reviews": 60484,
-      "source": "trending"
-    },
-    {
-      "asin": "B0BBMK7RCF",
-      "product_name": "iZELL Desk Lamp",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$14.39",
-      "verified_stars": "4.6",
-      "verified_reviews": 15546,
-      "source": "trending"
-    },
-    {
-      "asin": "B07712H557",
-      "product_name": "Command Variety Pack",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$14.84",
-      "verified_stars": "4.7",
-      "verified_reviews": 11579,
-      "source": "trending"
-    },
-    {
-      "asin": "B0DZ254SSR",
-      "product_name": "SUPERDANNY Extension Cord,Flat Plug Surge Protector Power Strip,10Ft",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$15.99",
-      "verified_stars": "4.7",
-      "verified_reviews": 7088,
-      "source": "trending"
-    },
-    {
-      "asin": "B0GN1TZZ9W",
-      "product_name": "WALI Desk File Organizer",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$17.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 4455,
-      "source": "trending"
-    },
-    {
-      "asin": "B07SYPLVTG",
-      "product_name": "YOUDENOVA Hanging Closet Organizer and Storage",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$18.98",
-      "verified_stars": "4.5",
-      "verified_reviews": 17274,
-      "source": "trending"
-    },
-    {
-      "asin": "B0FVW1TNH8",
-      "product_name": "Floating Shelves for Bedside Shelf",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$22.49",
-      "verified_stars": "4.6",
-      "verified_reviews": 260,
-      "source": "trending"
-    },
-    {
-      "asin": "B0DP76RZDR",
-      "product_name": "Molutsody Under Bed Storage with Wheels",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$29.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 662,
-      "source": "trending"
-    },
-    {
-      "asin": "B00E4GACB8",
-      "product_name": "TERRO Liquid Ant Killer Bait Stations",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.58",
-      "verified_stars": "4.6",
-      "verified_reviews": 161061,
-      "source": "trending"
-    },
-    {
-      "asin": "B01M16WBW1",
-      "product_name": "Queen Size 4 Piece Sheet Set",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$24.99",
-      "verified_stars": "4.5",
-      "verified_reviews": 452063,
-      "source": "trending"
-    },
-    {
-      "asin": "B00FXNAAW2",
-      "product_name": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$20.69",
-      "verified_stars": "4.8",
-      "verified_reviews": 235379,
-      "source": "trending"
-    },
-    {
-      "asin": "B0DGF616XN",
-      "product_name": "6 Pack Extra Heavy Duty Large Moving Bags with Strong Zipper",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$26.99",
-      "verified_stars": "4.8",
-      "verified_reviews": 11687,
-      "source": "trending"
-    },
-    {
-      "asin": "B01CS31R94",
-      "product_name": "NICETOWN Black Blackout Curtains for Bedroom 42\" Wide x 63\" Long 2 Pan",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.98",
-      "verified_stars": "4.6",
-      "verified_reviews": 132500,
-      "source": "trending"
-    },
-    {
-      "asin": "B08B1B1B2X",
-      "product_name": "Bentgo Kids Prints Leak-Proof 5-Compartment Bento-Style Kids Lunch Box",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$29.99",
-      "verified_stars": "4.7",
-      "verified_reviews": 64106,
-      "source": "trending"
-    },
-    {
-      "asin": "B0815BLNX1",
-      "product_name": "GORILLA GRIP\u00ae Extra Long Rug Grippers for Hardwood Floor",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.98",
-      "verified_stars": "4.5",
-      "verified_reviews": 31132,
-      "source": "trending"
-    },
-    {
-      "asin": "B0D89V1RX1",
-      "product_name": "2x6 Hallway Washable Runner Rug : Vintage Soft Kitchen Laundry Runner",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$21.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 9686,
-      "source": "trending"
-    },
-    {
-      "asin": "B08XVP48KQ",
-      "product_name": "upsimples 8x10 Picture Frames",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$17.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 72458,
-      "source": "trending"
-    },
-    {
-      "asin": "B08NCVT244",
-      "product_name": "THERMOS FUNTAINER Kids Food Jar with Spoon",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$14.69",
-      "verified_stars": "4.7",
-      "verified_reviews": 48479,
-      "source": "trending"
-    },
-    {
-      "asin": "B08CVT84C9",
-      "product_name": "Bentgo Chill Kids 4-Compartment Bento Box Leakproof Lunch Box",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$32.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 18978,
-      "source": "trending"
-    },
-    {
-      "asin": "B0CQVWT2NH",
-      "product_name": "HydroJug Traveler 40oz",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$31.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 19397,
-      "source": "trending"
-    },
-    {
-      "asin": "B0B56CHMSC",
-      "product_name": "Lifewit Medium Lunch Bag",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$7.98",
-      "verified_stars": "4.5",
-      "verified_reviews": 61833,
-      "source": "trending"
-    },
-    {
-      "asin": "B00R55CIRQ",
-      "product_name": "Clorox Corner Toilet Bowl Brush with Under Rim Scrubber",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.79",
-      "verified_stars": "4.6",
-      "verified_reviews": 5683,
-      "source": "trending"
-    },
-    {
-      "asin": "B08S31RWBK",
-      "product_name": "Hicober Microfiber Hair Towel Wrap for Women",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$12.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 34707,
-      "source": "trending"
-    },
-    {
-      "asin": "B085DTZQNZ",
-      "product_name": "Owala FreeSip Stainless Steel Water Bottle 24 oz Very",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$29.97",
-      "verified_stars": "4.6",
-      "verified_reviews": 134535,
-      "source": "trending"
-    },
-    {
-      "asin": "B0CQVWT2NH",
-      "product_name": "HydroJug Traveler 40oz",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$31.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 17919,
-      "source": "trending"
-    },
-    {
-      "asin": "B0B56CHMSC",
-      "product_name": "Lifewit Medium Lunch Bag",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$7.98",
-      "verified_stars": "4.5",
-      "verified_reviews": 62062,
-      "source": "trending"
-    },
-    {
-      "asin": "B078H9VRTZ",
-      "product_name": "PackIt Freezable Classic Lunch Box",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$26.99",
-      "verified_stars": "4.7",
-      "verified_reviews": 14515,
-      "source": "trending"
-    },
-    {
-      "asin": "B0CJF94M8J",
-      "product_name": "TrendPlain 16oz/470ml Glass Olive Oil Sprayer for Cooking",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 45670,
-      "source": "trending"
-    },
-    {
-      "asin": "B00W5D1MDE",
-      "product_name": "Clorox Toilet Bowl Cleaner Clinging Bleach Gel",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$5.24",
-      "verified_stars": "4.8",
-      "verified_reviews": 44829,
-      "source": "trending"
-    },
-    {
-      "asin": "B000ST1DZO",
-      "product_name": "Drano Max Gel Drain Clog Remover & Cleaner",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$5.17",
-      "verified_stars": "4.5",
-      "verified_reviews": 76132,
-      "source": "trending"
-    },
-    {
-      "asin": "B0C1DWC251",
-      "product_name": "Swiffer PowerMop Mopping Kit for Floor Cleaning",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$26.99",
-      "verified_stars": "4.5",
-      "verified_reviews": 46144,
-      "source": "trending"
-    },
-    {
-      "asin": "B00SXC85IQ",
-      "product_name": "Affresh Dishwasher Cleaner",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.97",
-      "verified_stars": "4.6",
-      "verified_reviews": 80516,
-      "source": "trending"
-    },
-    {
-      "asin": "B09KTQMMCM",
-      "product_name": "Schneider Medical Nitrile/Vinyl Blend Exam Gloves",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$7.73",
-      "verified_stars": "4.5",
-      "verified_reviews": 39616,
-      "source": "trending"
-    },
-    {
-      "asin": "B08QRFZ6TH",
-      "product_name": "Barossa Design Oeko-tex Certified Shower Curtain Liner Standard Size",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.95",
-      "verified_stars": "4.5",
-      "verified_reviews": 99546,
-      "source": "trending"
-    },
-    {
-      "asin": "B01HI1W1V4",
-      "product_name": "Etekcity Digital Body Weight Bathroom Scale",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$16.87",
-      "verified_stars": "4.7",
-      "verified_reviews": 349374,
-      "source": "trending"
-    },
-    {
-      "asin": "B09SZ9T4MV",
-      "product_name": "EUDELE Mesh Shower Caddy Portable for College Dorm Room Essentials",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.99",
-      "verified_stars": "4.5",
-      "verified_reviews": 7747,
-      "source": "trending"
-    },
-    {
-      "asin": "B09ZYRCNJH",
-      "product_name": "Utopia Towels 12 Pack Washcloths",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$11.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 74928,
-      "source": "trending"
-    },
-    {
-      "asin": "B00P7VW2H6",
-      "product_name": "Clorox Toilet Plunger with Hideaway Holder Caddy Heavy-Duty Compact De",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$13.97",
-      "verified_stars": "4.5",
-      "verified_reviews": 18336,
-      "source": "trending"
-    },
-    {
-      "asin": "B0BFMKYN12",
-      "product_name": "DDMY Adhesive Wall Hooks Clear 50lb(Max) Heavy Duty Hanging Sticky-10",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.99",
-      "verified_stars": "4.5",
-      "verified_reviews": 39860,
-      "source": "trending"
-    },
-    {
-      "asin": "B0B99VKV8P",
-      "product_name": "FYY Over the Door Hooks",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$5.98",
-      "verified_stars": "4.7",
-      "verified_reviews": 11400,
-      "source": "trending"
-    },
-    {
-      "asin": "B00HZ0ION8",
-      "product_name": "Handy Laundry Collapsible Mesh Pop Up Hamper with Wide Opening and Sid",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$7.99",
-      "verified_stars": "4.7",
-      "verified_reviews": 60484,
-      "source": "trending"
-    },
-    {
-      "asin": "B0BBMK7RCF",
-      "product_name": "iZELL Desk Lamp",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$14.39",
-      "verified_stars": "4.6",
-      "verified_reviews": 15546,
-      "source": "trending"
-    },
-    {
-      "asin": "B07712H557",
-      "product_name": "Command Variety Pack",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$14.84",
-      "verified_stars": "4.7",
-      "verified_reviews": 11579,
-      "source": "trending"
-    },
-    {
-      "asin": "B0DZ254SSR",
-      "product_name": "SUPERDANNY Extension Cord,Flat Plug Surge Protector Power Strip,10Ft",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$15.99",
-      "verified_stars": "4.7",
-      "verified_reviews": 7088,
-      "source": "trending"
-    },
-    {
-      "asin": "B0GN1TZZ9W",
-      "product_name": "WALI Desk File Organizer",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$17.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 4455,
-      "source": "trending"
-    },
-    {
-      "asin": "B07SYPLVTG",
-      "product_name": "YOUDENOVA Hanging Closet Organizer and Storage",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$18.98",
-      "verified_stars": "4.5",
-      "verified_reviews": 17274,
-      "source": "trending"
-    },
-    {
-      "asin": "B0FVW1TNH8",
-      "product_name": "Floating Shelves for Bedside Shelf",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$22.49",
-      "verified_stars": "4.6",
-      "verified_reviews": 260,
-      "source": "trending"
-    },
-    {
-      "asin": "B0DP76RZDR",
-      "product_name": "Molutsody Under Bed Storage with Wheels",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$29.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 662,
-      "source": "trending"
-    },
-    {
-      "asin": "B00E4GACB8",
-      "product_name": "TERRO Liquid Ant Killer Bait Stations",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.58",
-      "verified_stars": "4.6",
-      "verified_reviews": 161061,
-      "source": "trending"
-    },
-    {
-      "asin": "B01M16WBW1",
-      "product_name": "Queen Size 4 Piece Sheet Set",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$24.99",
-      "verified_stars": "4.5",
-      "verified_reviews": 452063,
-      "source": "trending"
-    },
-    {
-      "asin": "B00FXNAAW2",
-      "product_name": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$20.69",
-      "verified_stars": "4.8",
-      "verified_reviews": 235379,
-      "source": "trending"
-    },
-    {
-      "asin": "B0DGF616XN",
-      "product_name": "6 Pack Extra Heavy Duty Large Moving Bags with Strong Zipper",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$26.99",
-      "verified_stars": "4.8",
-      "verified_reviews": 11687,
-      "source": "trending"
-    },
-    {
-      "asin": "B01CS31R94",
-      "product_name": "NICETOWN Black Blackout Curtains for Bedroom 42\" Wide x 63\" Long 2 Pan",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.98",
-      "verified_stars": "4.6",
-      "verified_reviews": 132500,
-      "source": "trending"
-    },
-    {
-      "asin": "B08B1B1B2X",
-      "product_name": "Bentgo Kids Prints Leak-Proof 5-Compartment Bento-Style Kids Lunch Box",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$29.99",
-      "verified_stars": "4.7",
-      "verified_reviews": 64106,
-      "source": "trending"
-    },
-    {
-      "asin": "B0815BLNX1",
-      "product_name": "GORILLA GRIP\u00ae Extra Long Rug Grippers for Hardwood Floor",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.98",
-      "verified_stars": "4.5",
-      "verified_reviews": 31132,
-      "source": "trending"
-    },
-    {
-      "asin": "B0D89V1RX1",
-      "product_name": "2x6 Hallway Washable Runner Rug : Vintage Soft Kitchen Laundry Runner",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$21.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 9686,
-      "source": "trending"
-    },
-    {
-      "asin": "B08XVP48KQ",
-      "product_name": "upsimples 8x10 Picture Frames",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$17.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 72458,
-      "source": "trending"
-    },
-    {
-      "asin": "B08NCVT244",
-      "product_name": "THERMOS FUNTAINER Kids Food Jar with Spoon",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$14.69",
-      "verified_stars": "4.7",
-      "verified_reviews": 48479,
-      "source": "trending"
-    },
-    {
-      "asin": "B08CVT84C9",
-      "product_name": "Bentgo Chill Kids 4-Compartment Bento Box Leakproof Lunch Box",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$32.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 18978,
-      "source": "trending"
-    },
-    {
-      "asin": "B00R55CIRQ",
-      "product_name": "Clorox Corner Toilet Bowl Brush with Under Rim Scrubber",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.79",
-      "verified_stars": "4.6",
-      "verified_reviews": 5683,
-      "source": "trending"
-    },
-    {
-      "asin": "B08S31RWBK",
-      "product_name": "Hicober Microfiber Hair Towel Wrap for Women",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$12.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 34707,
-      "source": "trending"
-    },
-    {
-      "asin": "B0BZYCJK89",
-      "product_name": "Owala FreeSip Stainless Steel Water Bottle 24 oz Denim",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$29.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 134918,
-      "source": "trending"
-    },
-    {
-      "asin": "B00FXNAAW2",
-      "product_name": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$18.89",
-      "verified_stars": "4.8",
-      "verified_reviews": 235653,
-      "source": "trending"
-    },
-    {
-      "asin": "B0DGF616XN",
-      "product_name": "6 Pack Extra Heavy Duty Large Moving Bags with Strong Zipper",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$26.99",
-      "verified_stars": "4.8",
-      "verified_reviews": 11832,
-      "source": "trending"
-    },
-    {
-      "asin": "B07712H557",
-      "product_name": "Command Variety Pack",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$14.84",
-      "verified_stars": "4.7",
-      "verified_reviews": 11656,
-      "source": "trending"
-    },
-    {
-      "asin": "B0BNL5MBMY",
-      "product_name": "pickpiff 13LB Strong Stick-on Hooks for Coat & Towel",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.99",
-      "verified_stars": "4.5",
-      "verified_reviews": 6856,
-      "source": "trending"
-    },
-    {
-      "asin": "B085DTZQNZ",
-      "product_name": "Owala FreeSip Stainless Steel Water Bottle 24 oz Very",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$29.97",
-      "verified_stars": "4.6",
-      "verified_reviews": 134535,
-      "source": "trending"
-    },
-    {
-      "asin": "B0CQVWT2NH",
-      "product_name": "HydroJug Traveler 40oz",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$31.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 17919,
-      "source": "trending"
-    },
-    {
-      "asin": "B0B56CHMSC",
-      "product_name": "Lifewit Medium Lunch Bag",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$7.98",
-      "verified_stars": "4.5",
-      "verified_reviews": 62062,
-      "source": "trending"
-    },
-    {
-      "asin": "B078H9VRTZ",
-      "product_name": "PackIt Freezable Classic Lunch Box",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$26.99",
-      "verified_stars": "4.7",
-      "verified_reviews": 14515,
-      "source": "trending"
-    },
-    {
-      "asin": "B0CJF94M8J",
-      "product_name": "TrendPlain 16oz/470ml Glass Olive Oil Sprayer for Cooking",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 45670,
-      "source": "trending"
-    },
-    {
-      "asin": "B00W5D1MDE",
-      "product_name": "Clorox Toilet Bowl Cleaner Clinging Bleach Gel",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$5.24",
-      "verified_stars": "4.8",
-      "verified_reviews": 44829,
-      "source": "trending"
-    },
-    {
-      "asin": "B000ST1DZO",
-      "product_name": "Drano Max Gel Drain Clog Remover & Cleaner",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$5.17",
-      "verified_stars": "4.5",
-      "verified_reviews": 76132,
-      "source": "trending"
-    },
-    {
-      "asin": "B0C1DWC251",
-      "product_name": "Swiffer PowerMop Mopping Kit for Floor Cleaning",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$26.99",
-      "verified_stars": "4.5",
-      "verified_reviews": 46144,
-      "source": "trending"
-    },
-    {
-      "asin": "B00SXC85IQ",
-      "product_name": "Affresh Dishwasher Cleaner",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.97",
-      "verified_stars": "4.6",
-      "verified_reviews": 80516,
-      "source": "trending"
-    },
-    {
-      "asin": "B09KTQMMCM",
-      "product_name": "Schneider Medical Nitrile/Vinyl Blend Exam Gloves",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$7.73",
-      "verified_stars": "4.5",
-      "verified_reviews": 39616,
-      "source": "trending"
-    },
-    {
-      "asin": "B08QRFZ6TH",
-      "product_name": "Barossa Design Oeko-tex Certified Shower Curtain Liner Standard Size",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.95",
-      "verified_stars": "4.5",
-      "verified_reviews": 99546,
-      "source": "trending"
-    },
-    {
-      "asin": "B01HI1W1V4",
-      "product_name": "Etekcity Digital Body Weight Bathroom Scale",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$16.87",
-      "verified_stars": "4.7",
-      "verified_reviews": 349374,
-      "source": "trending"
-    },
-    {
-      "asin": "B09SZ9T4MV",
-      "product_name": "EUDELE Mesh Shower Caddy Portable for College Dorm Room Essentials",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.99",
-      "verified_stars": "4.5",
-      "verified_reviews": 7747,
-      "source": "trending"
-    },
-    {
-      "asin": "B09ZYRCNJH",
-      "product_name": "Utopia Towels 12 Pack Washcloths",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$11.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 74928,
-      "source": "trending"
-    },
-    {
-      "asin": "B00P7VW2H6",
-      "product_name": "Clorox Toilet Plunger with Hideaway Holder Caddy Heavy-Duty Compact De",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$13.97",
-      "verified_stars": "4.5",
-      "verified_reviews": 18336,
-      "source": "trending"
-    },
-    {
-      "asin": "B0BFMKYN12",
-      "product_name": "DDMY Adhesive Wall Hooks Clear 50lb(Max) Heavy Duty Hanging Sticky-10",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.99",
-      "verified_stars": "4.5",
-      "verified_reviews": 39860,
-      "source": "trending"
-    },
-    {
-      "asin": "B0B99VKV8P",
-      "product_name": "FYY Over the Door Hooks",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$5.98",
-      "verified_stars": "4.7",
-      "verified_reviews": 11400,
-      "source": "trending"
-    },
-    {
-      "asin": "B00HZ0ION8",
-      "product_name": "Handy Laundry Collapsible Mesh Pop Up Hamper with Wide Opening and Sid",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$7.99",
-      "verified_stars": "4.7",
-      "verified_reviews": 60484,
-      "source": "trending"
-    },
-    {
-      "asin": "B0BBMK7RCF",
-      "product_name": "iZELL Desk Lamp",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$14.39",
-      "verified_stars": "4.6",
-      "verified_reviews": 15546,
-      "source": "trending"
-    },
-    {
-      "asin": "B0DZ254SSR",
-      "product_name": "SUPERDANNY Extension Cord,Flat Plug Surge Protector Power Strip,10Ft",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$15.99",
-      "verified_stars": "4.7",
-      "verified_reviews": 7088,
-      "source": "trending"
-    },
-    {
-      "asin": "B0GN1TZZ9W",
-      "product_name": "WALI Desk File Organizer",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$17.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 4455,
-      "source": "trending"
-    },
-    {
-      "asin": "B07SYPLVTG",
-      "product_name": "YOUDENOVA Hanging Closet Organizer and Storage",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$18.98",
-      "verified_stars": "4.5",
-      "verified_reviews": 17274,
-      "source": "trending"
-    },
-    {
-      "asin": "B0FVW1TNH8",
-      "product_name": "Floating Shelves for Bedside Shelf",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$22.49",
-      "verified_stars": "4.6",
-      "verified_reviews": 260,
-      "source": "trending"
-    },
-    {
-      "asin": "B0DP76RZDR",
-      "product_name": "Molutsody Under Bed Storage with Wheels",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$29.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 662,
-      "source": "trending"
-    },
-    {
-      "asin": "B00E4GACB8",
-      "product_name": "TERRO Liquid Ant Killer Bait Stations",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.58",
       "verified_stars": "4.6",
-      "verified_reviews": 161061,
-      "source": "trending"
+      "verified_reviews": 11154,
+      "discovery_source": "harvest_catalogue"
     },
     {
-      "asin": "B01M16WBW1",
-      "product_name": "Queen Size 4 Piece Sheet Set",
-      "categories": [],
+      "asin": "B0BY2QZYT9",
+      "product_name": "ENJOYBASICS 1\" Black Shower Curtain Rod, 30-76\" Adjustable, Secure Tension | Easy No-Drill Installation, No Tools, No Ga",
+      "categories": [
+        "home",
+        "Bath"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0BY2QZYT9?tag=goldenhomep06-20",
       "status": "live",
-      "verified_price": "$24.99",
+      "verified_at": "2026-08-23",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$11.69",
       "verified_stars": "4.5",
-      "verified_reviews": 452063,
-      "source": "trending"
-    },
-    {
-      "asin": "B01CS31R94",
-      "product_name": "NICETOWN Black Blackout Curtains for Bedroom 42\" Wide x 63\" Long 2 Pan",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.98",
-      "verified_stars": "4.6",
-      "verified_reviews": 132500,
-      "source": "trending"
-    },
-    {
-      "asin": "B08B1B1B2X",
-      "product_name": "Bentgo Kids Prints Leak-Proof 5-Compartment Bento-Style Kids Lunch Box",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$29.99",
-      "verified_stars": "4.7",
-      "verified_reviews": 64106,
-      "source": "trending"
+      "verified_reviews": 6605,
+      "discovery_source": "harvest_catalogue"
     },
     {
-      "asin": "B0815BLNX1",
-      "product_name": "GORILLA GRIP\u00ae Extra Long Rug Grippers for Hardwood Floor",
-      "categories": [],
+      "asin": "B08WPQ12XX",
+      "product_name": "AquaCare 8-mode High Pressure Handheld Shower Head with 2-mode Power Wash | Stay Clean Nozzles, Dual Power Wash for Tub,",
+      "categories": [
+        "home",
+        "Bath"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B08WPQ12XX?tag=goldenhomep06-20",
       "status": "live",
-      "verified_price": "$8.98",
+      "verified_at": "2026-08-23",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$29.94",
       "verified_stars": "4.5",
-      "verified_reviews": 31132,
-      "source": "trending"
-    },
-    {
-      "asin": "B0D89V1RX1",
-      "product_name": "2x6 Hallway Washable Runner Rug : Vintage Soft Kitchen Laundry Runner",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$21.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 9686,
-      "source": "trending"
-    },
-    {
-      "asin": "B08XVP48KQ",
-      "product_name": "upsimples 8x10 Picture Frames",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$17.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 72458,
-      "source": "trending"
-    },
-    {
-      "asin": "B08NCVT244",
-      "product_name": "THERMOS FUNTAINER Kids Food Jar with Spoon",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$14.69",
-      "verified_stars": "4.7",
-      "verified_reviews": 48479,
-      "source": "trending"
-    },
-    {
-      "asin": "B08CVT84C9",
-      "product_name": "Bentgo Chill Kids 4-Compartment Bento Box Leakproof Lunch Box",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$32.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 18978,
-      "source": "trending"
-    },
-    {
-      "asin": "B01NBNDC1T",
-      "product_name": "Utopia Bedding 18x18 Pillow Inserts",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$15.49",
-      "verified_stars": "4.6",
-      "verified_reviews": 218629,
-      "source": "trending"
+      "verified_reviews": 50191,
+      "discovery_source": "harvest_catalogue"
     },
     {
-      "asin": "B0CTJGJL2T",
-      "product_name": "GODONLIF Candle Warmer Lamp with Timer",
-      "categories": [],
+      "asin": "B0DF44GN8Y",
+      "product_name": "Owala SmoothSip Slider Insulated Stainless Steel Coffee Tumbler, Reusable Iced Coffee Cup, Hot Coffee Travel Mug, BPA Fr",
+      "categories": [
+        "home",
+        "Home & Kitchen"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0DF44GN8Y?tag=goldenhomep06-20",
       "status": "live",
+      "verified_at": "2026-08-23",
+      "verified_method": "best_seller_grid",
       "verified_price": "$19.99",
       "verified_stars": "4.6",
-      "verified_reviews": 10175,
-      "source": "trending"
+      "verified_reviews": 14457,
+      "discovery_source": "harvest_catalogue"
     },
     {
-      "asin": "B01CS31R94",
-      "product_name": "NICETOWN Black Blackout Curtains for Bedroom 42\" Wide x 63\" Long 2 Pan",
-      "categories": [],
+      "asin": "B01IE7P2VW",
+      "product_name": "Queen Fitted Sheet, Ultra Soft Fits Up to 15 Inch Deep Pocket, Grey | Hotel Comfort, Cooling & Breathable Cotton like Po",
+      "categories": [
+        "home",
+        "Home & Kitchen"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B01IE7P2VW?tag=goldenhomep06-20",
       "status": "live",
+      "verified_at": "2026-08-23",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$9.49",
+      "verified_stars": "4.6",
+      "verified_reviews": 140548,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B01F5K9YNS",
+      "product_name": "GORILLA GRIP Bath Tub Shower Mat, Bathtub Floor Liner, 35x16 Clear | Patented Large Mats, Machine Washable, Suction Cups",
+      "categories": [
+        "home",
+        "Bath"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B01F5K9YNS?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-08-23",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$24.99",
+      "verified_stars": "4.5",
+      "verified_reviews": 112629,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0F332CCLK",
+      "product_name": "MIULEE Blackout Curtains for Bedroom 2 Panels 40 x 63 Inch Long Black | Thermal Insulated, Halloween Living Room Darkeni",
+      "categories": [
+        "home",
+        "Home D\u00e9cor"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0F332CCLK?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-08-23",
+      "verified_method": "best_seller_grid",
       "verified_price": "$9.98",
-      "verified_stars": "4.6",
-      "verified_reviews": 132777,
-      "source": "trending"
-    },
-    {
-      "asin": "B0815BLNX1",
-      "product_name": "GORILLA GRIP\u00ae Extra Long Rug Grippers for Hardwood Floor",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.98",
       "verified_stars": "4.5",
-      "verified_reviews": 31249,
-      "source": "trending"
+      "verified_reviews": 6578,
+      "discovery_source": "harvest_catalogue"
     },
     {
-      "asin": "B0D89V1RX1",
-      "product_name": "2x6 Hallway Washable Runner Rug : Vintage Soft Kitchen Laundry Runner",
-      "categories": [],
+      "asin": "B0BZZDPPRX",
+      "product_name": "All-Purpose Stainless Steel Shower Squeegee for Shower Glass Door with 2 Adhesive Hooks, Bathroom Cleaner Tool Household",
+      "categories": [
+        "home",
+        "Bath"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0BZZDPPRX?tag=goldenhomep06-20",
       "status": "live",
-      "verified_price": "$16.69",
-      "verified_stars": "4.6",
-      "verified_reviews": 9921,
-      "source": "trending"
-    },
-    {
-      "asin": "B08GY9D3XD",
-      "product_name": "Bentgo Kids Prints Double-Insulated Reusable Lunch Bag",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$24.99",
-      "verified_stars": "4.8",
-      "verified_reviews": 21876,
-      "source": "trending"
-    },
-    {
-      "asin": "B0BZYCJK89",
-      "product_name": "Owala FreeSip Stainless Steel Water Bottle 24 oz Denim",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$29.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 134918,
-      "source": "trending"
-    },
-    {
-      "asin": "B00FXNAAW2",
-      "product_name": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$18.89",
-      "verified_stars": "4.8",
-      "verified_reviews": 235653,
-      "source": "trending"
-    },
-    {
-      "asin": "B0DGF616XN",
-      "product_name": "6 Pack Extra Heavy Duty Large Moving Bags with Strong Zipper",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$26.99",
-      "verified_stars": "4.8",
-      "verified_reviews": 11832,
-      "source": "trending"
-    },
-    {
-      "asin": "B07712H557",
-      "product_name": "Command Variety Pack",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$14.84",
-      "verified_stars": "4.7",
-      "verified_reviews": 11656,
-      "source": "trending"
-    },
-    {
-      "asin": "B0BNL5MBMY",
-      "product_name": "pickpiff 13LB Strong Stick-on Hooks for Coat & Towel",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.99",
-      "verified_stars": "4.5",
-      "verified_reviews": 6856,
-      "source": "trending"
-    },
-    {
-      "asin": "B085DTZQNZ",
-      "product_name": "Owala FreeSip Stainless Steel Water Bottle 24 oz Very",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$29.97",
-      "verified_stars": "4.6",
-      "verified_reviews": 134535,
-      "source": "trending"
-    },
-    {
-      "asin": "B0CQVWT2NH",
-      "product_name": "HydroJug Traveler 40oz",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$31.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 17919,
-      "source": "trending"
-    },
-    {
-      "asin": "B0B56CHMSC",
-      "product_name": "Lifewit Medium Lunch Bag",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$7.98",
-      "verified_stars": "4.5",
-      "verified_reviews": 62062,
-      "source": "trending"
-    },
-    {
-      "asin": "B078H9VRTZ",
-      "product_name": "PackIt Freezable Classic Lunch Box",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$26.99",
-      "verified_stars": "4.7",
-      "verified_reviews": 14515,
-      "source": "trending"
-    },
-    {
-      "asin": "B0CJF94M8J",
-      "product_name": "TrendPlain 16oz/470ml Glass Olive Oil Sprayer for Cooking",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 45670,
-      "source": "trending"
-    },
-    {
-      "asin": "B00W5D1MDE",
-      "product_name": "Clorox Toilet Bowl Cleaner Clinging Bleach Gel",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$5.24",
-      "verified_stars": "4.8",
-      "verified_reviews": 44829,
-      "source": "trending"
-    },
-    {
-      "asin": "B000ST1DZO",
-      "product_name": "Drano Max Gel Drain Clog Remover & Cleaner",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$5.17",
-      "verified_stars": "4.5",
-      "verified_reviews": 76132,
-      "source": "trending"
-    },
-    {
-      "asin": "B0C1DWC251",
-      "product_name": "Swiffer PowerMop Mopping Kit for Floor Cleaning",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$26.99",
-      "verified_stars": "4.5",
-      "verified_reviews": 46144,
-      "source": "trending"
-    },
-    {
-      "asin": "B00SXC85IQ",
-      "product_name": "Affresh Dishwasher Cleaner",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.97",
-      "verified_stars": "4.6",
-      "verified_reviews": 80516,
-      "source": "trending"
-    },
-    {
-      "asin": "B09KTQMMCM",
-      "product_name": "Schneider Medical Nitrile/Vinyl Blend Exam Gloves",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$7.73",
-      "verified_stars": "4.5",
-      "verified_reviews": 39616,
-      "source": "trending"
-    },
-    {
-      "asin": "B08QRFZ6TH",
-      "product_name": "Barossa Design Oeko-tex Certified Shower Curtain Liner Standard Size",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.95",
-      "verified_stars": "4.5",
-      "verified_reviews": 99546,
-      "source": "trending"
-    },
-    {
-      "asin": "B01HI1W1V4",
-      "product_name": "Etekcity Digital Body Weight Bathroom Scale",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$16.87",
-      "verified_stars": "4.7",
-      "verified_reviews": 349374,
-      "source": "trending"
-    },
-    {
-      "asin": "B09SZ9T4MV",
-      "product_name": "EUDELE Mesh Shower Caddy Portable for College Dorm Room Essentials",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.99",
-      "verified_stars": "4.5",
-      "verified_reviews": 7747,
-      "source": "trending"
-    },
-    {
-      "asin": "B09ZYRCNJH",
-      "product_name": "Utopia Towels 12 Pack Washcloths",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$11.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 74928,
-      "source": "trending"
-    },
-    {
-      "asin": "B00P7VW2H6",
-      "product_name": "Clorox Toilet Plunger with Hideaway Holder Caddy Heavy-Duty Compact De",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$13.97",
-      "verified_stars": "4.5",
-      "verified_reviews": 18336,
-      "source": "trending"
-    },
-    {
-      "asin": "B0BFMKYN12",
-      "product_name": "DDMY Adhesive Wall Hooks Clear 50lb(Max) Heavy Duty Hanging Sticky-10",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.99",
-      "verified_stars": "4.5",
-      "verified_reviews": 39860,
-      "source": "trending"
-    },
-    {
-      "asin": "B0B99VKV8P",
-      "product_name": "FYY Over the Door Hooks",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$5.98",
-      "verified_stars": "4.7",
-      "verified_reviews": 11400,
-      "source": "trending"
-    },
-    {
-      "asin": "B00HZ0ION8",
-      "product_name": "Handy Laundry Collapsible Mesh Pop Up Hamper with Wide Opening and Sid",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$7.99",
-      "verified_stars": "4.7",
-      "verified_reviews": 60484,
-      "source": "trending"
-    },
-    {
-      "asin": "B0BBMK7RCF",
-      "product_name": "iZELL Desk Lamp",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$14.39",
-      "verified_stars": "4.6",
-      "verified_reviews": 15546,
-      "source": "trending"
-    },
-    {
-      "asin": "B0DZ254SSR",
-      "product_name": "SUPERDANNY Extension Cord,Flat Plug Surge Protector Power Strip,10Ft",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$15.99",
-      "verified_stars": "4.7",
-      "verified_reviews": 7088,
-      "source": "trending"
-    },
-    {
-      "asin": "B0GN1TZZ9W",
-      "product_name": "WALI Desk File Organizer",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$17.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 4455,
-      "source": "trending"
-    },
-    {
-      "asin": "B07SYPLVTG",
-      "product_name": "YOUDENOVA Hanging Closet Organizer and Storage",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$18.98",
-      "verified_stars": "4.5",
-      "verified_reviews": 17274,
-      "source": "trending"
-    },
-    {
-      "asin": "B0FVW1TNH8",
-      "product_name": "Floating Shelves for Bedside Shelf",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$22.49",
-      "verified_stars": "4.6",
-      "verified_reviews": 260,
-      "source": "trending"
-    },
-    {
-      "asin": "B0DP76RZDR",
-      "product_name": "Molutsody Under Bed Storage with Wheels",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$29.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 662,
-      "source": "trending"
-    },
-    {
-      "asin": "B00E4GACB8",
-      "product_name": "TERRO Liquid Ant Killer Bait Stations",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.58",
-      "verified_stars": "4.6",
-      "verified_reviews": 161061,
-      "source": "trending"
-    },
-    {
-      "asin": "B01M16WBW1",
-      "product_name": "Queen Size 4 Piece Sheet Set",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$24.99",
-      "verified_stars": "4.5",
-      "verified_reviews": 452063,
-      "source": "trending"
-    },
-    {
-      "asin": "B08B1B1B2X",
-      "product_name": "Bentgo Kids Prints Leak-Proof 5-Compartment Bento-Style Kids Lunch Box",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$29.99",
-      "verified_stars": "4.7",
-      "verified_reviews": 64106,
-      "source": "trending"
-    },
-    {
-      "asin": "B08XVP48KQ",
-      "product_name": "upsimples 8x10 Picture Frames",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$17.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 72458,
-      "source": "trending"
-    },
-    {
-      "asin": "B08NCVT244",
-      "product_name": "THERMOS FUNTAINER Kids Food Jar with Spoon",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$14.69",
-      "verified_stars": "4.7",
-      "verified_reviews": 48479,
-      "source": "trending"
-    },
-    {
-      "asin": "B08CVT84C9",
-      "product_name": "Bentgo Chill Kids 4-Compartment Bento Box Leakproof Lunch Box",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$32.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 18978,
-      "source": "trending"
-    },
-    {
-      "asin": "B0BZYCJK89",
-      "product_name": "Owala FreeSip Stainless Steel Water Bottle 24 oz Denim",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$29.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 135350,
-      "source": "trending"
-    },
-    {
-      "asin": "B00E4GACB8",
-      "product_name": "Terro Ant Killer Liquid Baits",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$10.87",
-      "verified_stars": "4.6",
-      "verified_reviews": 161592,
-      "source": "trending"
-    },
-    {
-      "asin": "B01M16WBW1",
-      "product_name": "Queen Size 4 Piece Sheet Set",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$21.23",
-      "verified_stars": "4.5",
-      "verified_reviews": 453281,
-      "source": "trending"
-    },
-    {
-      "asin": "B00FXNAAW2",
-      "product_name": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$18.89",
-      "verified_stars": "4.8",
-      "verified_reviews": 235726,
-      "source": "trending"
-    },
-    {
-      "asin": "B08QRFZ6TH",
-      "product_name": "Barossa Design Oeko-tex Certified Shower Curtain Liner Standard Size",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.95",
-      "verified_stars": "4.5",
-      "verified_reviews": 99863,
-      "source": "trending"
-    },
-    {
-      "asin": "B0CQVWT2NH",
-      "product_name": "HydroJug Traveler 40oz",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$31.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 18033,
-      "source": "trending"
-    },
-    {
-      "asin": "B01NBNDC1T",
-      "product_name": "Utopia Bedding 18x18 Pillow Inserts",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$15.49",
-      "verified_stars": "4.6",
-      "verified_reviews": 218629,
-      "source": "trending"
-    },
-    {
-      "asin": "B0CTJGJL2T",
-      "product_name": "GODONLIF Candle Warmer Lamp with Timer",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$19.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 10175,
-      "source": "trending"
-    },
-    {
-      "asin": "B01CS31R94",
-      "product_name": "NICETOWN Black Blackout Curtains for Bedroom 42\" Wide x 63\" Long 2 Pan",
-      "categories": [],
-      "status": "live",
+      "verified_at": "2026-08-23",
+      "verified_method": "best_seller_grid",
       "verified_price": "$9.98",
-      "verified_stars": "4.6",
-      "verified_reviews": 132777,
-      "source": "trending"
-    },
-    {
-      "asin": "B0815BLNX1",
-      "product_name": "GORILLA GRIP\u00ae Extra Long Rug Grippers for Hardwood Floor",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.98",
       "verified_stars": "4.5",
-      "verified_reviews": 31249,
-      "source": "trending"
+      "verified_reviews": 17816,
+      "discovery_source": "harvest_catalogue"
     },
     {
-      "asin": "B0D89V1RX1",
-      "product_name": "2x6 Hallway Washable Runner Rug : Vintage Soft Kitchen Laundry Runner",
-      "categories": [],
+      "asin": "B010S5VXKC",
+      "product_name": "Amazon Basics Fast Drying Cotton Washcloths for Bathroom, Machine Washable, Soft and Highly Absorbent, 12 x 12 in, White",
+      "categories": [
+        "home",
+        "Bath"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B010S5VXKC?tag=goldenhomep06-20",
       "status": "live",
-      "verified_price": "$16.69",
+      "verified_at": "2026-08-23",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$18.39",
       "verified_stars": "4.6",
-      "verified_reviews": 9921,
-      "source": "trending"
+      "verified_reviews": 75628,
+      "discovery_source": "harvest_catalogue"
     },
     {
-      "asin": "B08GY9D3XD",
-      "product_name": "Bentgo Kids Prints Double-Insulated Reusable Lunch Bag",
-      "categories": [],
+      "asin": "B08DTH86Q2",
+      "product_name": "Utopia Bedding Gusset Bed Pillow, Hotel Pillows Queen Size Set of 2, White | Cotton Blended Down alternative pillows for",
+      "categories": [
+        "home",
+        "Home & Kitchen"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B08DTH86Q2?tag=goldenhomep06-20",
       "status": "live",
-      "verified_price": "$24.99",
-      "verified_stars": "4.8",
-      "verified_reviews": 21876,
-      "source": "trending"
+      "verified_at": "2026-08-23",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$24.77",
+      "verified_stars": "4.5",
+      "verified_reviews": 79136,
+      "discovery_source": "harvest_catalogue"
     },
     {
-      "asin": "B0DGF616XN",
-      "product_name": "6 Pack Extra Heavy Duty Large Moving Bags with Strong Zipper",
-      "categories": [],
+      "asin": "B00WSWGVZQ",
+      "product_name": "O-Cedar EasyWring Microfiber Spin Mop, Bucket Floor Cleaning System, Red, Gray, Standard",
+      "categories": [
+        "home",
+        "Cleaning Supplies"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B00WSWGVZQ?tag=goldenhomep06-20",
       "status": "live",
-      "verified_price": "$26.99",
-      "verified_stars": "4.8",
-      "verified_reviews": 11832,
-      "source": "trending"
+      "verified_at": "2026-08-23",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$34.96",
+      "verified_stars": "4.6",
+      "verified_reviews": 195567,
+      "discovery_source": "harvest_catalogue"
     },
     {
-      "asin": "B07712H557",
-      "product_name": "Command Variety Pack",
-      "categories": [],
+      "asin": "B011CBJGZK",
+      "product_name": "Amazer Shower Curtain Hooks, Decorative Rust Proof Stainless Steel Shower Curtain Hooks for Bathroom Shower Rods Set of ",
+      "categories": [
+        "home",
+        "Bath"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B011CBJGZK?tag=goldenhomep06-20",
       "status": "live",
-      "verified_price": "$14.84",
-      "verified_stars": "4.7",
-      "verified_reviews": 11656,
-      "source": "trending"
+      "verified_at": "2026-08-23",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$6.99",
+      "verified_stars": "4.6",
+      "verified_reviews": 36893,
+      "discovery_source": "harvest_catalogue"
     },
     {
-      "asin": "B0BNL5MBMY",
-      "product_name": "pickpiff 13LB Strong Stick-on Hooks for Coat & Towel",
-      "categories": [],
+      "asin": "B083LMRXJC",
+      "product_name": "MIULEE 12x20 Pillow Insert, Throw Pillow for Couch Sofa Bed | Premium Virgin Filling, Soft Brushed Fabric, Rectangle Dec",
+      "categories": [
+        "home",
+        "Home D\u00e9cor"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B083LMRXJC?tag=goldenhomep06-20",
       "status": "live",
+      "verified_at": "2026-08-23",
+      "verified_method": "best_seller_grid",
       "verified_price": "$9.99",
       "verified_stars": "4.5",
-      "verified_reviews": 6856,
-      "source": "trending"
+      "verified_reviews": 39197,
+      "discovery_source": "harvest_catalogue"
     },
     {
-      "asin": "B0CP9YB3Q4",
-      "product_name": "STANLEY Quencher H2.0 Tumbler with Handle and Straw 30 oz",
-      "categories": [],
+      "asin": "B087T2M1YX",
+      "product_name": "Titanker Clear Shower Curtain Liner, Plastic Shower Liner PEVA 72 x 72 Lightweight Waterproof Shower Curtains for Bathro",
+      "categories": [
+        "home",
+        "Bath"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B087T2M1YX?tag=goldenhomep06-20",
       "status": "live",
-      "verified_price": "$29.95",
-      "verified_stars": "4.7",
-      "verified_reviews": 204025,
-      "source": "trending"
-    },
-    {
-      "asin": "B085DTZQNZ",
-      "product_name": "Owala FreeSip Stainless Steel Water Bottle 24 oz Very",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$29.97",
-      "verified_stars": "4.6",
-      "verified_reviews": 134535,
-      "source": "trending"
-    },
-    {
-      "asin": "B0B56CHMSC",
-      "product_name": "Lifewit Medium Lunch Bag",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$7.98",
+      "verified_at": "2026-08-23",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$6.99",
       "verified_stars": "4.5",
-      "verified_reviews": 62062,
-      "source": "trending"
-    },
-    {
-      "asin": "B078H9VRTZ",
-      "product_name": "PackIt Freezable Classic Lunch Box",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$26.99",
-      "verified_stars": "4.7",
-      "verified_reviews": 14515,
-      "source": "trending"
-    },
-    {
-      "asin": "B0CJF94M8J",
-      "product_name": "TrendPlain 16oz/470ml Glass Olive Oil Sprayer for Cooking",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 45670,
-      "source": "trending"
-    },
-    {
-      "asin": "B00W5D1MDE",
-      "product_name": "Clorox Toilet Bowl Cleaner Clinging Bleach Gel",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$5.24",
-      "verified_stars": "4.8",
-      "verified_reviews": 44829,
-      "source": "trending"
-    },
-    {
-      "asin": "B000ST1DZO",
-      "product_name": "Drano Max Gel Drain Clog Remover & Cleaner",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$5.17",
-      "verified_stars": "4.5",
-      "verified_reviews": 76132,
-      "source": "trending"
-    },
-    {
-      "asin": "B0C1DWC251",
-      "product_name": "Swiffer PowerMop Mopping Kit for Floor Cleaning",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$26.99",
-      "verified_stars": "4.5",
-      "verified_reviews": 46144,
-      "source": "trending"
-    },
-    {
-      "asin": "B00SXC85IQ",
-      "product_name": "Affresh Dishwasher Cleaner",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.97",
-      "verified_stars": "4.6",
-      "verified_reviews": 80516,
-      "source": "trending"
-    },
-    {
-      "asin": "B09KTQMMCM",
-      "product_name": "Schneider Medical Nitrile/Vinyl Blend Exam Gloves",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$7.73",
-      "verified_stars": "4.5",
-      "verified_reviews": 39616,
-      "source": "trending"
-    },
-    {
-      "asin": "B01HI1W1V4",
-      "product_name": "Etekcity Digital Body Weight Bathroom Scale",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$16.87",
-      "verified_stars": "4.7",
-      "verified_reviews": 349374,
-      "source": "trending"
-    },
-    {
-      "asin": "B09SZ9T4MV",
-      "product_name": "EUDELE Mesh Shower Caddy Portable for College Dorm Room Essentials",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$9.99",
-      "verified_stars": "4.5",
-      "verified_reviews": 7747,
-      "source": "trending"
-    },
-    {
-      "asin": "B09ZYRCNJH",
-      "product_name": "Utopia Towels 12 Pack Washcloths",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$11.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 74928,
-      "source": "trending"
-    },
-    {
-      "asin": "B00P7VW2H6",
-      "product_name": "Clorox Toilet Plunger with Hideaway Holder Caddy Heavy-Duty Compact De",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$13.97",
-      "verified_stars": "4.5",
-      "verified_reviews": 18336,
-      "source": "trending"
-    },
-    {
-      "asin": "B0BFMKYN12",
-      "product_name": "DDMY Adhesive Wall Hooks Clear 50lb(Max) Heavy Duty Hanging Sticky-10",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$8.99",
-      "verified_stars": "4.5",
-      "verified_reviews": 39860,
-      "source": "trending"
-    },
-    {
-      "asin": "B0B99VKV8P",
-      "product_name": "FYY Over the Door Hooks",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$5.98",
-      "verified_stars": "4.7",
-      "verified_reviews": 11400,
-      "source": "trending"
-    },
-    {
-      "asin": "B00HZ0ION8",
-      "product_name": "Handy Laundry Collapsible Mesh Pop Up Hamper with Wide Opening and Sid",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$7.99",
-      "verified_stars": "4.7",
-      "verified_reviews": 60484,
-      "source": "trending"
-    },
-    {
-      "asin": "B0BBMK7RCF",
-      "product_name": "iZELL Desk Lamp",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$14.39",
-      "verified_stars": "4.6",
-      "verified_reviews": 15546,
-      "source": "trending"
-    },
-    {
-      "asin": "B0DZ254SSR",
-      "product_name": "SUPERDANNY Extension Cord,Flat Plug Surge Protector Power Strip,10Ft",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$15.99",
-      "verified_stars": "4.7",
-      "verified_reviews": 7088,
-      "source": "trending"
-    },
-    {
-      "asin": "B0GN1TZZ9W",
-      "product_name": "WALI Desk File Organizer",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$17.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 4455,
-      "source": "trending"
-    },
-    {
-      "asin": "B07SYPLVTG",
-      "product_name": "YOUDENOVA Hanging Closet Organizer and Storage",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$18.98",
-      "verified_stars": "4.5",
-      "verified_reviews": 17274,
-      "source": "trending"
-    },
-    {
-      "asin": "B0FVW1TNH8",
-      "product_name": "Floating Shelves for Bedside Shelf",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$22.49",
-      "verified_stars": "4.6",
-      "verified_reviews": 260,
-      "source": "trending"
-    },
-    {
-      "asin": "B0DP76RZDR",
-      "product_name": "Molutsody Under Bed Storage with Wheels",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$29.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 662,
-      "source": "trending"
-    },
-    {
-      "asin": "B08B1B1B2X",
-      "product_name": "Bentgo Kids Prints Leak-Proof 5-Compartment Bento-Style Kids Lunch Box",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$29.99",
-      "verified_stars": "4.7",
-      "verified_reviews": 64106,
-      "source": "trending"
-    },
-    {
-      "asin": "B08XVP48KQ",
-      "product_name": "upsimples 8x10 Picture Frames",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$17.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 72458,
-      "source": "trending"
-    },
-    {
-      "asin": "B08NCVT244",
-      "product_name": "THERMOS FUNTAINER Kids Food Jar with Spoon",
-      "categories": [],
-      "status": "live",
-      "verified_price": "$14.69",
-      "verified_stars": "4.7",
-      "verified_reviews": 48479,
-      "source": "trending"
+      "verified_reviews": 20433,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
