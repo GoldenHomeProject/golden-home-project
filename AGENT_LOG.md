@@ -2593,3 +2593,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** automation/scripts/reel-2026-08-23-*.json, social/post_queue.json
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: proof: 203,481 reviews. That's not a trend — that's a ver | wrong_until_right: Ten years of the wrong pillow can wreck your morni | wrong_until_right: A patio that never gets used usually comes down to
+
+## 2026-08-23T07:26:03Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B098D79MQB (HOMEXCEL 12PK Microfiber Cleaning Cloth)
+**Changed:** social/carousels/2026-08-23-B098D79MQB/slide-1.png, social/carousels/2026-08-23-B098D79MQB/slide-2.png, social/carousels/2026-08-23-B098D79MQB/slide-3.png, social/carousels/2026-08-23-B098D79MQB/slide-4.png, social/carousels/2026-08-23-B098D79MQB/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B098D79MQB carousel.
