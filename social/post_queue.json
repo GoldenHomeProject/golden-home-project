@@ -5550,5 +5550,78 @@
     "keyword": "LINK",
     "queued_at": "2026-08-22T07:24:29.834161Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_2026-08-23_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-23-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "203,481 reviews. That's not a trend \u2014 that's a verdict.\n\nMost water bottles get a few thousand reviews and call it a hit. This one has over two hundred thousand people who bought it and came back to say something. At 4.7 stars, the overwhelming majority of them said something good.\n\nIt's a 30 oz insulated tumbler with a handle and a straw, so it stays in one hand and stays sipped from all day. A 4.7-star average holding up across 203,481 reviews means it isn't riding hype \u2014 it's surviving daily use at scale.\n\nIf you want the bottle you'll actually keep reaching for instead of the three already shoved in your cabinet, this is the one with the receipts. $32.02.\n\nComment STANLEY and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "STANLEY Quencher H2.0 Tumbler with Handle and Straw 30 oz",
+      "dm_keyword": "STANLEY",
+      "amazon_asin": "B0CP9YB3Q4",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B0CP9YB3Q4?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "203,481 reviews. That's not a trend \u2014 that's a verdict."
+  },
+  {
+    "name": "reel_2026-08-23_002",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-23-002.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Ten years of the wrong pillow can wreck your mornings, and most people never trace it back to the pillow.\n\nStacking two pillows, rolling a towel under your neck, switching sides mid-night, reaching for a memory foam block that turns your head into a sweat puddle \u2014 none of it fixes the real issue: a standard pillow isn't shaped for a shoulder.\n\nThe Eli & Elm Side Sleeper Pillow is built around that shoulder instead of ignoring it \u2014 a U-shape cutout for queen-size sleepers, an adjustable latex-and-fiber fill, and a cooling cover made to stay cool through the night.\n\nAt $114.99, it's a one-time fix for a problem you've been patching around for years \u2014 no more towel rolls, no more flipped pillows, no more waking up stiff.\n\nComment PILLOW and I'll reply with the link.\nAffiliate link \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #sleepbetter #sidesleeper #bedroomupgrade",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#sleepbetter",
+      "#sidesleeper",
+      "#bedroomupgrade"
+    ],
+    "affiliate": {
+      "primary_product": "Eli & Elm Side Sleeper Pillow (U-shape, latex, queen)",
+      "dm_keyword": "PILLOW",
+      "amazon_asin": "B07YL7VD32",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B07YL7VD32?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "impact_direct",
+      "affiliate_url": "https://eliandelm.sjv.io/E092ZX"
+    },
+    "hook": "Ten years of the wrong pillow can wreck your mornings, and most people never trace it back to the pillow."
+  },
+  {
+    "name": "reel_2026-08-23_003",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-23-003.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "A patio that never gets used usually comes down to one thing: nowhere comfortable to actually sit.\n\nA single chair or a mismatched setup makes it hard to fit more than one person outside, and open lounging space tends to just collect leaves and clutter instead.\n\nThe Vongrasig 5 Piece Patio Furniture Set is built to fix that directly \u2014 a sectional sofa, ottoman, and glass table in all-weather PE rattan, holding 4.1 stars across 2,187 reviews.\n\nAt $251.08 for the full set, it gives a patio an actual seating area instead of a single spot, with a table right there for drinks or food.\n\nComment PATIO and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Vongrasig 5 Piece Patio Furniture Sets, Outdoor Patio Set Sectional Sofa, All-Weather PE Rattan Outdoor Couch with Ottoman, Glass Table for ",
+      "dm_keyword": "PATIO",
+      "amazon_asin": "B085XVFQ62",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B085XVFQ62?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B085XVFQ62?tag=goldenhomep06-20"
+    },
+    "hook": "A patio that never gets used usually comes down to one thing: nowhere comfortable to actually sit."
   }
 ]

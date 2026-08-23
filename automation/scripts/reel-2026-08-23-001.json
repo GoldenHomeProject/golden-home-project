@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-08-23T06:22:25.445870Z",
+  "date": "2026-08-23",
+  "seq": 1,
+  "hook_category": "proof",
+  "hook": "203,481 reviews. That's not a trend \u2014 that's a verdict.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of a large stainless steel tumbler with a handle and straw on a clean kitchen counter, morning light, shallow depth of field, vertical 9:16",
+      "on_screen_text": "203,481 REVIEWS",
+      "voiceover": "203,481 reviews. That's not a trend \u2014 that's a verdict."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Overhead shot of a cabinet shelf crowded with mismatched water bottles, one tumbler pulled forward into the light, vertical 9:16",
+      "on_screen_text": "MOST BOTTLES DON'T GET THIS",
+      "voiceover": "Most water bottles get a few thousand reviews and call it a hit. This one has over two hundred thousand people who came back to say something."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Hand lifting the tumbler by its handle off a desk, straw visible, smooth motion, neutral home office background, vertical 9:16",
+      "on_screen_text": "4.7 STARS",
+      "voiceover": "And at 4.7 stars, the overwhelming majority of them said something good."
+    },
+    {
+      "n": 4,
+      "duration_sec": 5,
+      "visual_prompt": "Tumbler carried by the handle through a home \u2014 kitchen to living room to desk \u2014 series of quick cuts, straw always in reach, vertical 9:16",
+      "on_screen_text": "30 OZ \u00b7 HANDLE \u00b7 STRAW",
+      "voiceover": "Thirty ounces, a handle, and a straw. It stays in one hand and stays sipped from all day. That average holding up across two hundred thousand reviews means it isn't riding hype \u2014 it's surviving daily use at scale."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Final hero shot of the tumbler on a counter, condensation on the steel, warm light, price card graphic in corner, vertical 9:16",
+      "on_screen_text": "$32.02",
+      "voiceover": "If you want the bottle you'll actually keep reaching for, this is the one with the receipts. Thirty-two dollars and two cents."
+    }
+  ],
+  "caption": "203,481 reviews. That's not a trend \u2014 that's a verdict.\n\nMost water bottles get a few thousand reviews and call it a hit. This one has over two hundred thousand people who bought it and came back to say something. At 4.7 stars, the overwhelming majority of them said something good.\n\nIt's a 30 oz insulated tumbler with a handle and a straw, so it stays in one hand and stays sipped from all day. A 4.7-star average holding up across 203,481 reviews means it isn't riding hype \u2014 it's surviving daily use at scale.\n\nIf you want the bottle you'll actually keep reaching for instead of the three already shoved in your cabinet, this is the one with the receipts. $32.02.\n\nComment STANLEY and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "It's a 30 oz insulated tumbler with a handle and a straw, so it stays in one hand and stays sipped from all day. A 4.7-star average holding up across 203,481 reviews means it isn't riding hype \u2014 it's ",
+  "affiliate_strategy": {
+    "primary_product": "STANLEY Quencher H2.0 Tumbler with Handle and Straw 30 oz",
+    "dm_keyword": "STANLEY",
+    "amazon_asin": "B0CP9YB3Q4",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B0CP9YB3Q4?tag=goldenhomep06-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": null
+  }
+}
