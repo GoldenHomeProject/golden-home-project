@@ -4,11 +4,11 @@
     "lifetime_follows": 22,
     "lifetime_likes": 33,
     "lifetime_comments": 7,
-    "last_session": "2026-08-23-1336-pi",
+    "last_session": "outreach-2026-08-23T1811Z",
     "blocked_at": null,
-    "last_updated": "2026-08-23T13:37:19Z",
-    "total_actions": 531,
-    "lifetime_dms": 28,
+    "last_updated": "2026-08-23T18:12:17Z",
+    "total_actions": 532,
+    "lifetime_dms": 29,
     "lifetime_comments_outbound": 38
   },
   "actions": [
@@ -22578,6 +22578,15 @@
       "target": "ani_sachi3",
       "session": "2026-08-23-1336-pi",
       "reason": "follow_back_untapped_warm"
+    },
+    {
+      "timestamp": "2026-08-23T18:12:17Z",
+      "action": "dm_sent",
+      "target": "simplyspaced",
+      "session": "outreach-2026-08-23T1811Z",
+      "body_chars": 774,
+      "thread_url": "https://www.instagram.com/simplyspaced/",
+      "template_tag": "path_c_v2_affiliate_split"
     }
   ]
 }
