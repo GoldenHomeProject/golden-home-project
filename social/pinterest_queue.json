@@ -1575,5 +1575,33 @@
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "posted_at": "2026-08-22T13:40:24Z"
+  },
+  {
+    "id": "pin-2026-08-23-B0CTJGJL2T",
+    "asin": "B0CTJGJL2T",
+    "board": "Home Organization Finds",
+    "title": "Candle Warmer Lamp with Timer - Flameless Candle Melter for Cozy Home Decor",
+    "description": "Candle warmer lamp with built-in timer turns any jar candle into a flameless, wax-melting nightlight - no soot, no open flame, just steady fragrance. Great for bedrooms, nurseries, offices, and living rooms where safety matters. Adjustable heat settings help candles last longer while still filling the room with scent. A simple swap that upgrades your home organization and decor at the same time. Tap through to see sizing, timer settings, and reviews before you buy. Amazon affiliate \u2014 small commi",
+    "link": "https://goldenhomeproject.com/blog/posts/best-home-decor-finds.html",
+    "image_path": "social/pinterest/pin-2026-08-23-B0CTJGJL2T.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-23-B0CTJGJL2T.png",
+    "queued_at": "2026-08-23T10:10:16.876388Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-08-23-B08GY9D3XD",
+    "asin": "B08GY9D3XD",
+    "board": "Home Organization Finds",
+    "title": "Insulated Kids Lunch Bag for School Lunch Organization",
+    "description": "Keep school mornings organized with this double-insulated reusable lunch bag for kids. Durable, easy-wipe fabric and a roomy interior make packing lunches simple while cutting down on daily waste. A smart pick for anyone building an organized school routine with matching lunch bags, containers, and snack pouches. Tap through to see sizing, prints, and care details before you buy. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://goldenhomeproject.com/blog/posts/best-home-decor-finds.html",
+    "image_path": "social/pinterest/pin-2026-08-23-B08GY9D3XD.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-23-B08GY9D3XD.png",
+    "queued_at": "2026-08-23T10:10:30.272218Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
   }
 ]
