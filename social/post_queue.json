@@ -852,31 +852,6 @@
     "hook": "My home had been a low-grade mess for longer than I want to admit."
   },
   {
-    "name": "reel_2026-06-27_003",
-    "status": "ready",
-    "script_path": "automation/scripts/reel-2026-06-27-003.json",
-    "media_type": "REELS",
-    "video_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-06-27-003.mp4",
-    "caption": "My closet had been a low-grade mess for longer than I want to admit.\n\nI kept meaning to deal with it and kept not dealing with it. Things piled up, I could never find what I needed, and every time I opened it I just shut it again.\n\nThen I found a closet hangers sitting at 4.8 stars across 231,174 reviews, and it finally gave everything a place.\n\nIt runs about $36.84 and it's the first thing in a while that just worked. The closet actually stays sorted now.\n\nComment HANGERS and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
-    "hashtags": [
-      "#amazonhomefinds",
-      "#homehacks2026",
-      "#smallspacesolutions"
-    ],
-    "affiliate": {
-      "primary_product": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers for Closet Organization, Ivory/Rose Gold, 100-Pack",
-      "dm_keyword": "HANGERS",
-      "amazon_asin": "B07Y39ZXV7",
-      "amazon_affiliate_url": "https://www.amazon.com/dp/B07Y39ZXV7?tag=goldenhomep06-20",
-      "asin_pending": false,
-      "fallback_brands": [],
-      "affiliate_network": "amazon",
-      "affiliate_url": "https://www.amazon.com/dp/B07Y39ZXV7?tag=goldenhomep06-20"
-    },
-    "hook": "My closet had been a low-grade mess for longer than I want to admit.",
-    "image_url": "https://raw.githubusercontent.com/GoldenHomeProject/golden-home-project/main/social/reels/reel-2026-06-27-003.mp4"
-  },
-  {
     "id": "carousel-2026-06-27-B0FFS5RBLC",
     "media_type": "CAROUSEL_ALBUM",
     "image_urls": [
