@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-08-24",
+  "category": "Bath",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-bathroom-essentials.html",
+  "picks": [
+    {
+      "asin": "B08QRFZ6TH",
+      "name": "Barossa Design Oeko-tex Certified Shower Curtain Liner Standard Size",
+      "price": "$8.49",
+      "rating": 4.5,
+      "reviews": 99871,
+      "rank": 1
+    },
+    {
+      "asin": "B01HI1W1V4",
+      "name": "Etekcity Digital Body Weight Bathroom Scale",
+      "price": "$16.87",
+      "rating": 4.7,
+      "reviews": 349499,
+      "rank": 9
+    },
+    {
+      "asin": "B00P7VW2H6",
+      "name": "Clorox Toilet Plunger with Hideaway Holder Caddy Heavy-Duty Compact De",
+      "price": "$13.97",
+      "rating": 4.5,
+      "reviews": 18397,
+      "rank": 20
+    },
+    {
+      "asin": "B09ZYRCNJH",
+      "name": "Utopia Towels 12 Pack Washcloths",
+      "price": "$13.29",
+      "rating": 4.6,
+      "reviews": 74994,
+      "rank": 23
+    },
+    {
+      "asin": "B0BFMKYN12",
+      "name": "DDMY Adhesive Wall Hooks Clear 50lb(Max) Heavy Duty Hanging Sticky-10",
+      "price": "$8.99",
+      "rating": 4.5,
+      "reviews": 39914,
+      "rank": 25
+    },
+    {
+      "asin": "B0BHSFZNFY",
+      "name": "Hargiis Non Slip Bathtub Mat",
+      "price": "$17.99",
+      "rating": 4.6,
+      "reviews": 17803,
+      "rank": 26
+    }
+  ]
+}
