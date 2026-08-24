@@ -5617,5 +5617,78 @@
     "keyword": "LINK",
     "queued_at": "2026-08-23T07:26:03.090745Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_2026-08-24_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-24-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Baking by cups is guesswork. A scale is the fix, and this one is $10.99.\n\nA cup of flour can vary by a lot depending on whether you scooped it or spooned it, and that difference is the reason two people follow the same recipe and get two different loaves. Weight doesn't have that problem \u2014 120 grams is 120 grams every time. A kitchen scale is also the quiet solution to portioning coffee, dividing dough, and mailing a package without a trip to the post office.\n\nThe Etekcity Food Kitchen Scale is a compact digital scale that weighs what you put on it, so recipes stop being an estimate. With 176,516 reviews averaging 4.6 stars, this isn't a niche gadget \u2014 it's a product a very large number of people have used long enough to rate, and the score has held up across all of them.\n\nYou get repeatable results from the recipes you already make, without changing anything else about how you cook. It's $10.99.\n\nComment FOOD and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Etekcity Food Kitchen Scale",
+      "dm_keyword": "FOOD",
+      "amazon_asin": "B0113UZJE2",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B0113UZJE2?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Baking by cups is guesswork. A scale is the fix, and this one is $10.99."
+  },
+  {
+    "name": "reel_2026-08-24_002",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-24-002.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "A cluttered cabinet doesn't need a full overhaul\u2014just something under your dishes and cans that stops them from sliding every time the door opens.\n\nWire racks and bare wood let jars tip and glasses shift, so you end up straightening shelves or digging around just to find what you need.\n\nA non-adhesive, non-slip shelf liner like this one fixes that without any mess\u2014no glue, no residue, just lay it down. It holds a 4.7-star rating across 2,556 reviews.\n\nAt $7.99 for a 12\" x 10FT roll, it's a cheap way to keep shelves in order, one cabinet at a time.\n\nComment LINER and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #kitchenorganization #smallspacesolutions #undersinkstorage",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#kitchenorganization",
+      "#smallspacesolutions",
+      "#undersinkstorage"
+    ],
+    "affiliate": {
+      "primary_product": "BAGAIL Non-Adhesive Non-Slip Shelf Liner 12\" x 10FT (black)",
+      "dm_keyword": "LINER",
+      "amazon_asin": "B0BXSMJK86",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B0BXSMJK86?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B0BXSMJK86?tag=goldenhomep06-20"
+    },
+    "hook": "A cluttered cabinet doesn't need a full overhaul\u2014just something under your dishes and cans that stops them from sliding every time the door opens."
+  },
+  {
+    "name": "reel_2026-08-24_003",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-24-003.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "That drawer of mismatched throw pillows isn't going to fix itself.\n\nFaded covers, flat corduroy, colors that clash with everything else in the room \u2014 swapping them out is one of the easiest refreshes for a couch or bed.\n\nThis set of 4 sage green boho farmhouse covers is 18x18 inch and sits at 4.6 stars across 3,203 reviews, with a soft corduroy nordic look built for spring updates.\n\nAt $16.99 for the set, it's an easy way to give a couch or bedroom a fresh, coordinated look without replacing the pillows themselves.\n\nComment THROW and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "MIULEE Boho Farmhouse Sage Green Throw Pillow Covers 18x18 Inch Set of 4 Mordern Nordic Cushion Covers Soft Corduroy Spring Home Decor for C",
+      "dm_keyword": "THROW",
+      "amazon_asin": "B0CVVVNB9L",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B0CVVVNB9L?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B0CVVVNB9L?tag=goldenhomep06-20"
+    },
+    "hook": "That drawer of mismatched throw pillows isn't going to fix itself."
   }
 ]
