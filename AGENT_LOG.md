@@ -2629,3 +2629,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** automation/scripts/reel-2026-08-24-*.json, social/post_queue.json
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: use_case: Baking by cups is guesswork. A scale is the fix, a | wrong_until_right: A cluttered cabinet doesn't need a full overhaul—j | wrong_until_right: That drawer of mismatched throw pillows isn't goin
+
+## 2026-08-24T07:51:04Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B01DCG0GPC (Lysol Disinfectant Spray)
+**Changed:** social/carousels/2026-08-24-B01DCG0GPC/slide-1.png, social/carousels/2026-08-24-B01DCG0GPC/slide-2.png, social/carousels/2026-08-24-B01DCG0GPC/slide-3.png, social/carousels/2026-08-24-B01DCG0GPC/slide-4.png, social/carousels/2026-08-24-B01DCG0GPC/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B01DCG0GPC carousel.
