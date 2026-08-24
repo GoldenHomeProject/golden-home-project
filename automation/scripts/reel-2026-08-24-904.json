@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-08-24T09:39:39.922094Z",
+  "date": "2026-08-24",
+  "seq": 904,
+  "source": "repurpose",
+  "hook": "Stop digging through bins for the thing in back",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Hands digging through a packed shelf bin, moving jars aside to reach something in the back corner",
+      "on_screen_text": "sound familiar?",
+      "voiceover": "If you're moving six things to reach the one in the back, this is for you."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "10-inch lazy susan turntable being placed on a shelf, spice jars arranged on top",
+      "on_screen_text": "$24.99 for a set of 4",
+      "voiceover": "A set of 4 non-skid turntables, 10 inches each, $24.99."
+    },
+    {
+      "n": 3,
+      "duration_sec": 3,
+      "visual_prompt": "Hand spinning the turntable smoothly, items rotating into view without sliding off",
+      "on_screen_text": "4.7 stars / 6,190 reviews",
+      "voiceover": "4.7 stars across 6,190 reviews \u2014 and the non-skid base is why it stays put."
+    },
+    {
+      "n": 4,
+      "duration_sec": 3,
+      "visual_prompt": "Turntable placed inside a clear storage bin next to painter's tape labels being applied to the bin front",
+      "on_screen_text": "+ a $6-8 label kit",
+      "voiceover": "Pair it with painter's tape labels and you've got a fully rotating, fully labeled system."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Overlay text showing math: turntables $24.99 + labels $6-8 = under $35",
+      "on_screen_text": "under $35 on top of your bins",
+      "voiceover": "Under $35 total on top of the bins you already bought."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Wide shot of pantry-adjacent basement shelf, turntables spinning into frame, fully labeled clear bins around them",
+      "on_screen_text": "organized in 6 months, not just today",
+      "voiceover": "This is what makes it stick past week one."
+    }
+  ],
+  "caption": "A bin system without labels is just the same mess in clear plastic. These non-skid turntables ($24.99, 4.7 stars, 6,190 reviews) plus a $6 label kit solved the dig-through-everything problem for me. Full system at the link.",
+  "hashtags": [
+    "#lazysusan",
+    "#pantryorganization",
+    "#labelmaker",
+    "#basementorganization",
+    "#kitchenstorage",
+    "#organizedpantry",
+    "#storagesolutions"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "created_at": "2026-08-24T09:39:39.922188Z",
+  "date": "2026-08-24",
+  "seq": 905,
+  "source": "repurpose",
+  "hook": "I fixed my whole closet system for under $200",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Before shot: cluttered closet with mismatched boxes, sagging shelf, loose items everywhere",
+      "on_screen_text": "before",
+      "voiceover": "This was my closet three weeks ago."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Quick cuts: clear bin 8-pack, under-bed bins with wheels, hanging shelf organizer, turntables, small item organizers, laid out on the floor like a flat-lay",
+      "on_screen_text": "$29.99 + $34.98 + $18.98 + $24.99 + $13.99",
+      "voiceover": "Clear bins, under-bed wheels, a hanging shelf, turntables, and small-item organizers \u2014 five products, one afternoon."
+    },
+    {
+      "n": 3,
+      "duration_sec": 3,
+      "visual_prompt": "Tangkula 4-tier stepped bookshelf being assembled, anti-tip hardware being anchored to the wall",
+      "on_screen_text": "$119.99 \u2014 the foundation piece",
+      "voiceover": "The one bigger investment is the shelf itself \u2014 $119.99, fixed and level, so the bins don't wobble."
+    },
+    {
+      "n": 4,
+      "duration_sec": 3,
+      "visual_prompt": "Fast time-lapse of the whole closet being assembled and filled, bins going onto shelf, labels applied, hanging organizer clipped on",
+      "on_screen_text": "one afternoon",
+      "voiceover": "Start to finish, one afternoon."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "After shot: full reveal, camera slow pans across the finished, uniform, labeled closet system",
+      "on_screen_text": "after",
+      "voiceover": "This is the after. Everything has exactly one home now."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Text overlay recapping total cost breakdown against a clean shot of the finished shelf",
+      "on_screen_text": "the full breakdown is in my bio link",
+      "voiceover": "Every product, every price, every review count \u2014 it's all in the post."
+    }
+  ],
+  "caption": "The full before-and-after, with every product and price. Started with a $29.99 bin 8-pack and built out from there. Full breakdown, links, and review counts in my bio.",
+  "hashtags": [
+    "#beforeandafter",
+    "#closetmakeover",
+    "#homeorganization",
+    "#basementstorage",
+    "#organizedhome",
+    "#budgetmakeover"
+  ]
+}

@@ -5706,5 +5706,92 @@
     "keyword": "LINK",
     "queued_at": "2026-08-24T07:51:04.340263Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_repurpose_2026-08-24_901",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-24-901.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "I stopped buying random totes and bought one 8-pack instead. Link in bio for the exact bins (4.8 stars, 3,672 reviews) plus the rest of the $29.99-and-up system I used to fix the whole closet.",
+    "hashtags": [
+      "#closetorganization",
+      "#clearbins",
+      "#budgethomeorganizing",
+      "#pantryorganization",
+      "#basementstorage",
+      "#organizedhome",
+      "#storagehacks"
+    ],
+    "hook": "8 clear bins fixed my closet for $29.99"
+  },
+  {
+    "name": "reel_repurpose_2026-08-24_902",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-24-902.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "The under-bed bin nobody buys because dragging boxes out is a pain \u2014 this one has wheels. 4.6 stars, 662 reviews, pairs with the $29.99 clear bin system in my last post. Full breakdown at the link.",
+    "hashtags": [
+      "#underbedstorage",
+      "#smallspacehacks",
+      "#homeorganizing",
+      "#bedroomstorage",
+      "#clutterfree",
+      "#organizationtips"
+    ],
+    "hook": "The space under your bed is worth $30"
+  },
+  {
+    "name": "reel_repurpose_2026-08-24_903",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-24-903.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "I had 4 feet of dead space in my closet and didn't even notice until I clipped this on. $18.98, 4.5 stars, 17,274 reviews. This is one piece of the full system \u2014 link in bio for the rest.",
+    "hashtags": [
+      "#closethacks",
+      "#hangingorganizer",
+      "#verticalstorage",
+      "#smallcloset",
+      "#closetorganization",
+      "#budgetorganizing"
+    ],
+    "hook": "$18.98 fixes the vertical space you're wasting"
+  },
+  {
+    "name": "reel_repurpose_2026-08-24_904",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-24-904.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "A bin system without labels is just the same mess in clear plastic. These non-skid turntables ($24.99, 4.7 stars, 6,190 reviews) plus a $6 label kit solved the dig-through-everything problem for me. Full system at the link.",
+    "hashtags": [
+      "#lazysusan",
+      "#pantryorganization",
+      "#labelmaker",
+      "#basementorganization",
+      "#kitchenstorage",
+      "#organizedpantry",
+      "#storagesolutions"
+    ],
+    "hook": "Stop digging through bins for the thing in back"
+  },
+  {
+    "name": "reel_repurpose_2026-08-24_905",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-24-905.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "The full before-and-after, with every product and price. Started with a $29.99 bin 8-pack and built out from there. Full breakdown, links, and review counts in my bio.",
+    "hashtags": [
+      "#beforeandafter",
+      "#closetmakeover",
+      "#homeorganization",
+      "#basementstorage",
+      "#organizedhome",
+      "#budgetmakeover"
+    ],
+    "hook": "I fixed my whole closet system for under $200"
   }
 ]

@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-08-24T09:39:39.921655Z",
+  "date": "2026-08-24",
+  "seq": 901,
+  "source": "repurpose",
+  "hook": "8 clear bins fixed my closet for $29.99",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Quick pan across a closet shelf stacked with mismatched cardboard boxes and a dollar-store tote with a cracked lid",
+      "on_screen_text": "the real cost isn't the mess",
+      "voiceover": "If your closet looks like this, you already know the problem."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Hands opening four different boxes one after another, frustrated, searching",
+      "on_screen_text": "it's opening 4 boxes to find 1 thing",
+      "voiceover": "It's the time tax nobody budgets for."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Unboxing an 8-pack of clear plastic storage bins with snap lids on the floor",
+      "on_screen_text": "$29.99 for 8 bins = $3.75 each",
+      "voiceover": "One 8-pack of clear bins, snap lids, reinforced handles \u2014 $29.99."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Close-up of the star rating and review count overlay on the product, then hands snapping a lid closed",
+      "on_screen_text": "4.8 stars / 3,672 reviews",
+      "voiceover": "That's an unusually strong score for storage at this price."
+    },
+    {
+      "n": 5,
+      "duration_sec": 5,
+      "visual_prompt": "Time-lapse of shelf being restocked with uniform clear bins replacing the mismatched boxes, everything now flush and stacked",
+      "on_screen_text": "same size = actually stacks flush",
+      "voiceover": "One standard bin, not five different ones \u2014 that's what makes a shelf read as organized instead of contained."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Wide reveal shot of the finished shelf, clean and uniform, camera pulls back",
+      "on_screen_text": "one afternoon. $29.99.",
+      "voiceover": "One afternoon, one purchase, done."
+    }
+  ],
+  "caption": "I stopped buying random totes and bought one 8-pack instead. Link in bio for the exact bins (4.8 stars, 3,672 reviews) plus the rest of the $29.99-and-up system I used to fix the whole closet.",
+  "hashtags": [
+    "#closetorganization",
+    "#clearbins",
+    "#budgethomeorganizing",
+    "#pantryorganization",
+    "#basementstorage",
+    "#organizedhome",
+    "#storagehacks"
+  ]
+}

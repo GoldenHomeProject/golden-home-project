@@ -1,0 +1,60 @@
+{
+  "created_at": "2026-08-24T09:39:39.921878Z",
+  "date": "2026-08-24",
+  "seq": 902,
+  "source": "repurpose",
+  "hook": "The space under your bed is worth $30",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Camera drops low to floor level, showing dark dusty dead space under a bed frame",
+      "on_screen_text": "the space you're wasting",
+      "voiceover": "This gap under your bed? That's free square footage you're not using."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Someone dragging a heavy cardboard box out from under a bed, struggling",
+      "on_screen_text": "why nobody uses it",
+      "voiceover": "And the reason nobody uses it is this \u2014 dragging a box out is annoying."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Clear under-bed storage bin with wheels being pulled out one-handed, smooth and easy",
+      "on_screen_text": "wheels change everything",
+      "voiceover": "This 2-pack has wheels \u2014 4.6 stars, 662 reviews \u2014 and you can pull it out one-handed."
+    },
+    {
+      "n": 4,
+      "duration_sec": 3,
+      "visual_prompt": "Side-by-side comparison graphic: eye-level shelf with clear bins vs under-bed bin with wheels",
+      "on_screen_text": "both zones, under $60",
+      "voiceover": "Pair it with the clear shelf bins and you've covered both zones for under $60."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Bin loaded with folded off-season clothes being rolled fully under the bed frame, disappearing",
+      "on_screen_text": "gone in 3 seconds",
+      "voiceover": "Load it, roll it, gone."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Final wide shot of tidy bedroom, no visible clutter, bed skirt down over the bin",
+      "on_screen_text": "storage you forget is even there",
+      "voiceover": "That's the goal \u2014 storage you actually keep using."
+    }
+  ],
+  "caption": "The under-bed bin nobody buys because dragging boxes out is a pain \u2014 this one has wheels. 4.6 stars, 662 reviews, pairs with the $29.99 clear bin system in my last post. Full breakdown at the link.",
+  "hashtags": [
+    "#underbedstorage",
+    "#smallspacehacks",
+    "#homeorganizing",
+    "#bedroomstorage",
+    "#clutterfree",
+    "#organizationtips"
+  ]
+}

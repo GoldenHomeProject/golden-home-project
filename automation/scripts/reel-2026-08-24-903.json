@@ -1,0 +1,60 @@
+{
+  "created_at": "2026-08-24T09:39:39.921991Z",
+  "date": "2026-08-24",
+  "seq": 903,
+  "source": "repurpose",
+  "hook": "$18.98 fixes the vertical space you're wasting",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Wide shot of a closet with 3-4 feet of empty air above a single shelf, hanging clothes with wasted space beside them",
+      "on_screen_text": "you're paying for this space",
+      "voiceover": "Most closets have 3 to 4 feet of vertical space doing absolutely nothing."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Hands unfolding a 6-shelf hanging closet organizer and clipping it onto the closet rod",
+      "on_screen_text": "clips onto your existing rod",
+      "voiceover": "This 6-shelf hanging organizer clips right onto the rod you already have."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Close-up overlay of price and rating: $18.98, 4.5 stars, 17,274 reviews",
+      "on_screen_text": "17,274 reviews. that's not a fluke.",
+      "voiceover": "$18.98, 4.5 stars across over seventeen thousand reviews \u2014 that's a real, large sample."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Folded sweaters, shoes, and small accessories being placed into individual shelf compartments",
+      "on_screen_text": "for the stuff you grab weekly",
+      "voiceover": "It's for the small stuff you grab constantly, not the bulk stuff you store away."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Split screen: hard clear bin on one side, soft hanging organizer on the other",
+      "on_screen_text": "hard bins for bulk. soft shelves for weekly.",
+      "voiceover": "Hard bins for bulk and seasonal, hanging shelves for weekly \u2014 that combo is what actually sticks."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Final reveal, full closet with both systems in place, tidy top to bottom",
+      "on_screen_text": "everything has one home",
+      "voiceover": "Once everything has exactly one home, the mess stops creeping back."
+    }
+  ],
+  "caption": "I had 4 feet of dead space in my closet and didn't even notice until I clipped this on. $18.98, 4.5 stars, 17,274 reviews. This is one piece of the full system \u2014 link in bio for the rest.",
+  "hashtags": [
+    "#closethacks",
+    "#hangingorganizer",
+    "#verticalstorage",
+    "#smallcloset",
+    "#closetorganization",
+    "#budgetorganizing"
+  ]
+}
