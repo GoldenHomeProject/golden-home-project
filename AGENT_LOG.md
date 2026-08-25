@@ -2641,3 +2641,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** social/pinterest_queue.json
 **External actions:** Pexels (backgrounds) + Claude CLI (pin copy)
 **Next agent hint:** post_pinterest.py (Pi) drains pinterest_queue.json once a Pinterest business account is logged into the Pi Chromium profile.
+
+## 2026-08-25T05:29:56Z — Trend Scout
+**Ran:** Scanned 2 sources (google_trends_daily_us, pinterest) -> 85 items, ranked 5 opportunities
+**Changed:** automation/trends/2026-08-25.json, social/trend_feed.json
+**External actions:** reddit_pi_cache + google_trends + pinterest_rss + amazon_movers_pi_cache
+**Next agent hint:** Content Engine: today's top-3 opportunities are: Turned our chaos pantry into a $34 grid , $52 couch cover made our thrifted sofa l, $28 roll of peel-and-stick wallpaper tra
