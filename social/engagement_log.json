@@ -4,11 +4,11 @@
     "lifetime_follows": 22,
     "lifetime_likes": 33,
     "lifetime_comments": 7,
-    "last_session": "comments-2026-08-25T1405Z",
+    "last_session": "outreach-2026-08-25T1801Z",
     "blocked_at": null,
-    "last_updated": "2026-08-25T14:07:59Z",
-    "total_actions": 537,
-    "lifetime_dms": 29,
+    "last_updated": "2026-08-25T18:02:36Z",
+    "total_actions": 538,
+    "lifetime_dms": 30,
     "lifetime_comments_outbound": 40
   },
   "actions": [
@@ -23010,6 +23010,15 @@
       "post_url": "https://www.instagram.com/iheartorganizing/p/B5By96PFDM0/",
       "text": "Peel-and-stick vinyl is a game-changer for renters, but if the subfloor has any moisture it can bubble within a season \u2014 worth mentioning what she used underneath!",
       "caption_seen": ""
+    },
+    {
+      "timestamp": "2026-08-25T18:02:36Z",
+      "action": "dm_sent",
+      "target": "iheartorganizing",
+      "session": "outreach-2026-08-25T1801Z",
+      "body_chars": 870,
+      "thread_url": "https://www.instagram.com/iheartorganizing/",
+      "template_tag": "path_c_v2_affiliate_split"
     }
   ]
 }
