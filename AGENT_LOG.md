@@ -2653,3 +2653,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** automation/scripts/reel-2026-08-25-*.json, social/post_queue.json
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: proof: 203,481 reviews. That's not a trend — that's a ver | proof: 348,951 reviews and a 4.7-star average — that's no | audience_fit: Renting a closet the size of a coat pocket? Start
+
+## 2026-08-25T07:37:07Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B00E4GACB8 (TERRO Liquid Ant Killer Bait Stations)
+**Changed:** social/carousels/2026-08-25-B00E4GACB8/slide-1.png, social/carousels/2026-08-25-B00E4GACB8/slide-2.png, social/carousels/2026-08-25-B00E4GACB8/slide-3.png, social/carousels/2026-08-25-B00E4GACB8/slide-4.png, social/carousels/2026-08-25-B00E4GACB8/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B00E4GACB8 carousel.
