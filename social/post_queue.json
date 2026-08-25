@@ -5777,5 +5777,77 @@
       "#budgetmakeover"
     ],
     "hook": "I fixed my whole closet system for under $200"
+  },
+  {
+    "name": "reel_2026-08-25_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-25-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "203,481 reviews. That's not a trend \u2014 that's a verdict.\n\nMost water bottles get a few thousand reviews and call it a hit. This one has over two hundred thousand people who bought it and came back to say something. At 4.7 stars, the overwhelming majority of them said something good.\n\nIt's a 30 oz insulated tumbler with a handle and a straw, so it stays in one hand and stays sipped from all day. A 4.7-star average holding up across 203,481 reviews means it isn't riding hype \u2014 it's surviving daily use at scale.\n\nIf you want the bottle you'll actually keep reaching for instead of the three already shoved in your cabinet, this is the one with the receipts. $32.02.\n\nComment STANLEY and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "STANLEY Quencher H2.0 Tumbler with Handle and Straw 30 oz",
+      "dm_keyword": "STANLEY",
+      "amazon_asin": "B0CP9YB3Q4",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B0CP9YB3Q4?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "203,481 reviews. That's not a trend \u2014 that's a verdict."
+  },
+  {
+    "name": "reel_2026-08-25_002",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-25-002.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "348,951 reviews and a 4.7-star average \u2014 that's not luck, that's data.\n\nA bathroom scale is one of those purchases people want to get right the first time, not replace in six months. This one is digital, which means a clear number on a screen instead of squinting at a needle between two lines on an old dial scale.\n\nIt does one job: put your body weight on a digital display, no extra setup required. With 348,951 reviews averaging 4.7 stars, that's a large enough sample that the rating reflects how it performs for most people, not just a lucky batch of early reviews.\n\nAt $19.88, it's a straightforward way to get a reliable digital scale in your bathroom without agonizing over the decision.\n\nComment ETEKCITY and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Etekcity Digital Body Weight Bathroom Scale",
+      "dm_keyword": "ETEKCITY",
+      "amazon_asin": "B01HI1W1V4",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01HI1W1V4?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "348,951 reviews and a 4.7-star average \u2014 that's not luck, that's data."
+  },
+  {
+    "name": "reel_2026-08-25_003",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-25-003.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Renting a closet the size of a coat pocket? Start with the hangers.\n\nWhen you can't knock out a wall or install a custom system, the only variable you control is what's on the rod. Bulky plastic and wooden hangers eat horizontal inches, and every inch they take is a shirt that doesn't fit. Slim velvet hangers are the one closet upgrade a landlord will never notice.\n\nThese are Amazon Basics slim velvet non-slip hangers, built to hold suits and clothes on a narrow profile so more garments fit on the same rod, with a velvet surface that keeps straps and shoulders from sliding off. They carry a 4.8-star rating across 235,105 reviews \u2014 a volume that means this design has been stress-tested in an enormous number of real closets, not just a handful.\n\nYou get a rod that holds more without moving anything permanent, and clothes that stay where you hung them. The set runs $20.99.\n\nComment CLOTHES and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers",
+      "dm_keyword": "CLOTHES",
+      "amazon_asin": "B00FXNAAW2",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B00FXNAAW2?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Renting a closet the size of a coat pocket? Start with the hangers."
   }
 ]
