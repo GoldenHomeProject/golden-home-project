@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-08-26",
+  "category": "Kitchen",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-kitchen-gadgets.html",
+  "picks": [
+    {
+      "asin": "B0BZYCJK89",
+      "name": "Owala FreeSip Stainless Steel Water Bottle 24 oz Denim",
+      "price": "$29.99",
+      "rating": 4.6,
+      "reviews": 135676,
+      "rank": 1
+    },
+    {
+      "asin": "B0CQVWT2NH",
+      "name": "HydroJug Traveler 40oz",
+      "price": "$31.99",
+      "rating": 4.6,
+      "reviews": 18084,
+      "rank": 2
+    },
+    {
+      "asin": "B0113UZJE2",
+      "name": "Etekcity Food Kitchen Scale",
+      "price": "$13.99",
+      "rating": 4.6,
+      "reviews": 176717,
+      "rank": 3
+    },
+    {
+      "asin": "B0B56CHMSC",
+      "name": "Lifewit Medium Lunch Bag",
+      "price": "$7.99",
+      "rating": 4.5,
+      "reviews": 62351,
+      "rank": 10
+    },
+    {
+      "asin": "B08CVT84C9",
+      "name": "Bentgo Chill Kids 4-Compartment Bento Box Leakproof Lunch Box",
+      "price": "$22.99",
+      "rating": 4.6,
+      "reviews": 19121,
+      "rank": 12
+    },
+    {
+      "asin": "B0B6PLG6G2",
+      "name": "125Pcs 8 Inch Square Air Fryer Liners Disposable for 5-8QT",
+      "price": "$9.97",
+      "rating": 4.6,
+      "reviews": 33306,
+      "rank": 13
+    }
+  ]
+}
