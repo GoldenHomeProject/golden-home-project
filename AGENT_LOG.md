@@ -2665,3 +2665,10 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** social/pinterest_queue.json
 **External actions:** Pexels (backgrounds) + Claude CLI (pin copy)
 **Next agent hint:** post_pinterest.py (Pi) drains pinterest_queue.json once a Pinterest business account is logged into the Pi Chromium profile.
+
+## 2026-08-25T15:00:00Z — Affiliate Optimizer
+**Ran:** Audited affiliate email (Amazon/Impact/CJ/Awin), confirmed Promeed ACTIVE at 12% commission with full tracking, identified FLAUNT as unknown new Impact brand, skipped off-niche offers (GearUP, CICYBELL, Charlotte's Web, Upside, ZOUPW).
+**Changed:** BUSINESS_BRAIN.md (Promeed status → ACTIVE 12%, added CICYBELL/FLAUNT/GearUP rows, added 4 NEXT ACTIONS items)
+**External actions:** No new emails sent this run — Promeed already fully confirmed by earlier agent (reply sent 12:34 UTC to amelia.avery@promeed.com). GearUP skipped (off-niche gaming). CICYBELL Awin decline attempted by earlier agent but bounced — flagged for browser action.
+**Next agent hint:** Promeed tracking is live on Impact (Account ID 7104029) — Content Engine should script a bedroom before/after featuring silk pillowcase + CoolRest comforter using promo code IAN2026F3 (15% off). FLAUNT on Impact needs human review before joining.
+**Applied to main 2026-08-25 by the Pi session** — the routine's own push was blocked by a 403 (Claude GitHub App lacks contents:write).

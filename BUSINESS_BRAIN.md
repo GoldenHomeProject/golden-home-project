@@ -389,7 +389,7 @@ New agent spec: `automation/agents/ai_revenue_playbook.md` (COSTAR prompt framew
 | Direct | Canoly (3-in-1 juicer) | TBD | Reply sent 2026-03-31 | April 30 IG Reel, free sample, awaiting details |
 | Impact | AARP | $35+ CPA | Skipped | Off-niche (senior membership org) — not home content |
 | Impact | Dreame | 5%+ | Reply drafted 2026-04-03 | Robot vacuums/mops — ON-NICHE, Easter Sale 60% off thru Apr 12, HIGH-AOV ($200-800) |
-| Impact | Promeed | TBD | Received promo 2026-04-03 | Silk pillowcases/bedding — ON-NICHE (bedroom), Spring Sale 20% off code PM20 |
+| Impact | Promeed | 12% | **ACTIVE 2026-08-25** | Silk pillowcases/CoolRest comforter — ON-NICHE (bedroom). 30-day cookie. Audience promo IAN2026F3 (15% off). Sample code SAMPLE-IAN-COOL3-2026 (60% off CoolRest). Tracking live on Impact. |
 | Awin | Oedro (US) | TBD | Skipped | Off-niche (car parts — floor mats, tonneau covers) |
 | Impact | Homary | TBD | Outreach drafted 2026-04-02 | Home furniture — ON-NICHE (drafted by web agent) |
 | Impact | eufy | TBD | Outreach sent 2026-08-19 | Robot vacuums/smart home — ON-NICHE, fits "before transformation" content angle, confirmed on Impact platform |
@@ -398,6 +398,9 @@ New agent spec: `automation/agents/ai_revenue_playbook.md` (COSTAR prompt framew
 | Direct | Umbra | TBD | Outreach sent 2026-08-17 | Home decor/organization — ON-NICHE |
 | Direct | Tuft & Needle | TBD | Outreach sent 2026-08-17 | Mattresses/sleep — ON-NICHE (bedroom), high-AOV |
 | Awin | Promeed (baby-safe sleep) | TBD | Skipped 2026-08-19 | Off-niche — baby products, not home transformation |
+| Awin | CICYBELL | TBD | Invited 2026-08-23 — decline pending | Off-niche (clothing/fashion); reply to help@awin.com bounced — needs browser decline via Awin dashboard |
+| Impact | FLAUNT | TBD | Joined marketplace 2026-08-21 | Unknown niche — research before joining |
+| Impact | GearUP | 50% | Skipped 2026-08-25 | Off-niche (gaming booster subscription) — no audience fit |
 
 ---
 
@@ -615,6 +618,10 @@ Agent configs live in `/private/tmp/golden-home-project/automation/agents/`.
 - [ ] Continue IG Reels: 1/day max to rebuild algo trust
 - [ ] Create Syruvia-featured kitchen content (20% commission — prioritize)
 - [ ] Refresh YouTube OAuth token again ~2026-04-10 (7-day expiry)
+- [ ] **HIGH PRIORITY** Generate Promeed tracking links in Impact dashboard (silk pillowcase + CoolRest comforter deep links) — 12% commission, 30-day cookie, tracking LIVE 2026-08-25
+- [ ] Film CoolRest comforter using SAMPLE-IAN-COOL3-2026 (60% off, one-time code) for bedroom before/after content
+- [ ] Decline CICYBELL via Awin browser dashboard (email reply to help@awin.com bounced — cannot decline by email)
+- [ ] Research FLAUNT on Impact.com (new brand, joined 2026-08-21) — check niche before joining
 
 ---
 *This file is automatically updated by agents. Human review recommended weekly.*
