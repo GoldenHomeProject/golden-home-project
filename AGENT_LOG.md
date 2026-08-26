@@ -2684,3 +2684,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** automation/scripts/reel-2026-08-26-*.json, social/post_queue.json
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: use_case: Pillow covers are cheap. The insert inside them is | proof: 348,951 reviews and a 4.7-star average — that's no | use_case: Baking by cups is guesswork. A scale is the fix, a
+
+## 2026-08-26T07:38:47Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B0BQR2BQYZ (upsimples 11x14 Picture Frame)
+**Changed:** social/carousels/2026-08-26-B0BQR2BQYZ/slide-1.png, social/carousels/2026-08-26-B0BQR2BQYZ/slide-2.png, social/carousels/2026-08-26-B0BQR2BQYZ/slide-3.png, social/carousels/2026-08-26-B0BQR2BQYZ/slide-4.png, social/carousels/2026-08-26-B0BQR2BQYZ/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B0BQR2BQYZ carousel.
