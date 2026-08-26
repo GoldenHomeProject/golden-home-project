@@ -1845,5 +1845,61 @@
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "posted_at": "2026-08-25T23:26:59Z"
+  },
+  {
+    "id": "pin-2026-08-26-B0BZL5GWVL",
+    "asin": "B0BZL5GWVL",
+    "board": "Bathroom Storage Ideas",
+    "title": "Bathroom Scale for Weight & Body Fat Accuracy 0.1lb",
+    "description": "Track your health goals with a digital bathroom scale accurate to 0.1lb \u2014 ideal for anyone organizing a home gym, bathroom vanity, or under-sink storage space. This slim scale supports up to 400lbs and tucks flat against a wall or shelf so it never clutters small bathrooms. A smart addition to any bathroom storage ideas board, it pairs well with sleek vanity organizers and minimalist decor. Tap through for pricing and details. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B0BZL5GWVL?tag=goldenhomep06-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-08-26-B0BZL5GWVL.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-26-B0BZL5GWVL.png",
+    "queued_at": "2026-08-26T10:10:12.646934Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-08-26-B0BY2QZYT9",
+    "asin": "B0BY2QZYT9",
+    "board": "Home Organization Finds",
+    "title": "No-Drill Shower Curtain Rod - Adjustable Tension Rod for Bathroom Organization",
+    "description": "Upgrade your bathroom storage with this 1\" black tension shower curtain rod, adjustable from 30-76\" to fit almost any tub or shower space. No drilling, no tools, no wall damage - just twist to extend and lock in place for a secure, stable hold. A budget-friendly bathroom organization idea that also works great as a closet rod, curtain divider, or small space organizer. Perfect for renters, apartments, and quick bathroom updates. Tap through to see sizing details and installation tips before you ",
+    "link": "https://www.amazon.com/dp/B0BY2QZYT9?tag=goldenhomep06-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-08-26-B0BY2QZYT9.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-26-B0BY2QZYT9.png",
+    "queued_at": "2026-08-26T10:10:22.674746Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-08-26-B08WPQ12XX",
+    "asin": "B08WPQ12XX",
+    "board": "Home Organization Finds",
+    "title": "High Pressure Handheld Shower Head - 8-Mode with Power Wash for Tub & Bath",
+    "description": "Looking for a high pressure handheld shower head that actually holds up? This 8-mode shower head adds a 2-mode power wash setting for blasting away soap scum, grime, and pet hair in the tub. Stay-clean nozzles resist hard water buildup so pressure stays strong over time. Simple no-tools install makes it an easy bathroom upgrade for small spaces, rentals, or anyone organizing a more functional bath setup. Tap through for full specs and reviews. Amazon affiliate \u2014 small commission at no extra cost",
+    "link": "https://www.amazon.com/dp/B08WPQ12XX?tag=goldenhomep06-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-08-26-B08WPQ12XX.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-26-B08WPQ12XX.png",
+    "queued_at": "2026-08-26T10:10:37.894871Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-08-26-B0DF44GN8Y",
+    "asin": "B0DF44GN8Y",
+    "board": "Home Organization Finds",
+    "title": "Insulated Coffee Tumbler with Slider Lid - Reusable Iced & Hot Coffee Travel Mug",
+    "description": "Keep coffee cold or hot on the go with this insulated stainless steel tumbler featuring a leak-resistant slider lid. Great for iced coffee, hot coffee, tea, or water \u2014 fits most cup holders and car doors, making it perfect for commutes, the gym, or everyday desk use. BPA free and built to keep drinks at temperature for hours. A simple swap for disposable cups that helps cut down on kitchen clutter and daily waste. Tap through to see sizes and colors. Amazon affiliate \u2014 small commission at no ext",
+    "link": "https://www.amazon.com/dp/B0DF44GN8Y?tag=goldenhomep06-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-08-26-B0DF44GN8Y.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-26-B0DF44GN8Y.png",
+    "queued_at": "2026-08-26T10:10:50.540136Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
   }
 ]
