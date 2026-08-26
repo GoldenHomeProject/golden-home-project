@@ -379,14 +379,28 @@ Return STRICT JSON:
   "description": "<200-450 chars, keyword-rich, genuinely useful, one soft CTA to tap through, END with: 'Amazon affiliate — small commission at no extra cost to you.'>",
   "overlay_hook": "<<=6 words for the image text overlay, punchy benefit>",
   "pexels_query": "<2-4 word concrete photo search matching the product context>"
-}}"""
+}}
+
+HONESTY RULE — NON-NEGOTIABLE (docs/BRAND_VOICE.md). Nobody here owns or has used this
+product. NEVER write "I tried", "I bought", "my kitchen/closet", or any invented anecdote
+or personal result. Write in second person or plain description, from the verifiable facts
+only: rating, review count, price, stated specs, what reviewers repeatedly report.
+
+VOICE (revised 2026-08-26). GHP is the desk that reads Amazon's best-seller charts daily
+and keeps the prices — not a person telling a story about their home. Lead with something
+only we can say: the review depth, a tracked price move, a real constraint (renting, no
+drilling, a shared dorm bathroom), or what the chart actually shows. One falsifiable
+detail beats ten adjectives: "holds 18 lbs per shelf" over "sturdy". No hype words, no
+exclamation marks, no ALL CAPS."""
     try:
         # max_turns=1 made the model fail with "Reached max turns (1)" and silently
         # fall back to the generic template — 9 recent pins shipped with canned copy
         # instead of anything specific to the product, which is the whole point of
         # writing per-pin. Give it room to finish, and more tokens for the longer
         # keyword-rich description Pinterest rewards.
-        out = call_claude_json(prompt, max_tokens=1600, max_turns=3, timeout=180)
+        # The voice/honesty guidance lengthened this prompt; at 3 turns it started failing
+        # with "Reached max turns" and silently falling back to the template again.
+        out = call_claude_json(prompt, max_tokens=2000, max_turns=6, timeout=240)
     except Exception as e:
         print(f"  [claude] copy failed ({e}); using template")
         return None

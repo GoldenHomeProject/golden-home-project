@@ -53,6 +53,45 @@ def all_hubs() -> list[tuple[str, str]]:
     return sorted(hubs.items(), key=lambda kv: kv[1])
 
 
+
+OG_MARK = "<!-- og-tags:start -->"
+OG_BLOCK = (
+    f'{OG_MARK}\n'
+    '<meta property="og:site_name" content="Golden Home Project">\n'
+    '<meta property="og:image" content="https://goldenhomeproject.com/images/og-default.jpg">\n'
+    '<meta property="og:image:width" content="1200">\n'
+    '<meta property="og:image:height" content="630">\n'
+    '<meta name="twitter:card" content="summary_large_image">\n'
+    "<!-- og-tags:end -->"
+)
+
+
+def ensure_og(paths, dry: bool) -> int:
+    """Give every static page a share image.
+
+    The generated hubs and posts got og:image, but the hand-written pages did not — the
+    HOMEPAGE, blog index, about, contact, privacy and links all shared as a blank card.
+    Those are the most-linked pages on the site, so they were the worst ones to leave
+    imageless on a visual platform like Pinterest.
+    """
+    changed = 0
+    for rel in paths:
+        f = ROOT / rel
+        if not f.exists():
+            continue
+        html = f.read_text()
+        if "og:image" in html:
+            continue
+        if "</head>" not in html:
+            print(f"  no <head> in {rel} — skipped")
+            continue
+        if not dry:
+            f.write_text(html.replace("</head>", OG_BLOCK + "\n</head>", 1))
+        print(f"  og tags -> {rel}")
+        changed += 1
+    return changed
+
+
 def nav_html(exclude_slug: str | None, heading: str) -> str:
     links = []
     for slug, query in all_hubs():
@@ -120,6 +159,10 @@ def main() -> int:
               dry=args.dry_run):
         print("  hub nav -> index.html")
         changed += 1
+
+    changed += ensure_og(
+        ["index.html", "blog/index.html", "about.html", "contact.html",
+         "privacy.html", "links.html"], args.dry_run)
 
     print(f"[hub-nav] {changed} file(s) updated" + ("  (--dry-run)" if args.dry_run else ""))
     return 0

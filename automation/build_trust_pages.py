@@ -29,6 +29,13 @@ HEAD = """<!DOCTYPE html>
 <title>{title} | Golden Home Project</title>
 <meta name="description" content="{desc}">
 <link rel="canonical" href="{site}/{slug}.html">
+<meta property="og:site_name" content="Golden Home Project">
+<meta property="og:title" content="{title}">
+<meta property="og:description" content="{desc}">
+<meta property="og:image" content="{site}/images/og-default.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
 <style>
