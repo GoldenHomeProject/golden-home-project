@@ -245,6 +245,24 @@ review count show. Second person ("your drawer", "if your cabinet...") or plain
 descriptive voice is fine. Do not invent specs, colours, dimensions or claims that are
 not in the name above. Never promise a time-limited price.
 
+HOOK TAXONOMY (docs/BRAND_VOICE.md, revised 2026-08-26). Pick ONE and commit to it.
+The four story-based categories were retired because they need a narrator who used the
+product; these are the ones available, and they are stronger because they rest on things
+we can actually show:
+  - Confrontation: call out the received wisdom. "Everyone says buy more bins. That's why
+    your cabinet is still a mess."
+  - Second-person scene: put the READER in the room, never a fake narrator. "You already
+    know which cabinet you don't open in front of guests."
+  - Price movement: our own tracked data, which no competitor has.
+  - Proof-of-demand: make the review count the argument. "17,274 people bought this.
+    Almost none of them mention the shelves."
+  - Question, Micro-insight, Constraint (renting, no drilling, shared space),
+    Category correction (what the chart actually shows this week).
+
+MAKE IT SPECIFIC OR DON'T SAY IT. One falsifiable detail is worth ten adjectives: the
+review count, the star rating, the price, a stated dimension, a use case. "Holds 18 lbs
+per shelf" beats "sturdy". No hype words, no exclamation marks, no ALL CAPS.
+
 VARIETY RULE. These are our last published openers. Your hook must not repeat their
 structure, phrasing or premise -- pick a genuinely different angle (a specific use case,
 a comparison, a common mistake, who it suits, what the review count implies, a

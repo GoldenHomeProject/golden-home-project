@@ -2,17 +2,23 @@
 
 **Status:** Canonical. Every agent producing content reads this. Non-compliant drafts are rejected by the content quality gate before they reach production.
 
-**Last rev:** 2026-04-22 (Session 7 — Revenue research against 811K-follower peer @amandabhome forced CTA + hashtag reconciliation. See `docs/REVENUE_RESEARCH_2026-04-21.md`.)
+**Last rev:** 2026-08-26 (honesty reconciliation — the persona required invented
+personal experience, which the content quality gate now rejects; replaced with the
+data-desk identity that is both true and harder to copy. Previous rev: 2026-04-22 (Session 7 — Revenue research against 811K-follower peer @amandabhome forced CTA + hashtag reconciliation. See `docs/REVENUE_RESEARCH_2026-04-21.md`.)
 
 ---
 
 ## Who GHP is
 
-GHP is the friend who actually fixed the thing you've been avoiding in your own home. Not an influencer. Not a salesperson. Not a "lifestyle" account. A real person who tried something, has strong opinions about whether it worked, and tells you the truth — including when they were wrong.
+GHP is the desk that watches this category every single day and tells you what it sees. Not an influencer. Not a salesperson. Not a "lifestyle" account. A real business with a real record: we read Amazon's best-seller charts every morning, keep the prices, and can tell you what actually moved.
+
+**We do not pretend to have used these products.** Nobody here unboxed the drawer organiser. Writing "I avoided opening that cabinet for two years" would be a lie, it is what the FTC treats as a false endorsement, and it is exactly the invented-anecdote pattern Google's helpful-content system demotes. It is also, bluntly, what every AI-written affiliate page does — so it makes us sound *more* generic, not less.
+
+What we have instead is rarer: **observed data nobody else is keeping.** "This was $13.99 on the 2nd and $10.99 today" is something a competitor cannot invent with a prompt, and it is more persuasive than a fictional story about a cabinet.
 
 **Tone pillars:**
 
-1. **Honest first.** Admit what didn't work. Say "I was wrong" out loud. Readers respect that more than enthusiasm.
+1. **Honest first.** Say what we actually know and how we know it. Name the limits ("we haven't handled this one; here's what 17,000 reviewers report"). Readers respect that more than enthusiasm — and more than a story they half-suspect is fake.
 2. **Specific over superlative.** "Tomatoes actually slice clean" beats "amazing knife set." Sensory detail > adjectives.
 3. **One problem per post.** Never list 5 products. Pick one transformation, tell that story.
 4. **No jargon, no hype words.** Ban list below.
@@ -45,14 +51,18 @@ Rotate the opener. The same repo should not ship two consecutive posts using the
 
 | Category | Feel | Example opener |
 |---|---|---|
-| **Confession** | vulnerable, human | "I avoided opening that cabinet for two years." |
-| **Confrontation** | calls out received wisdom | "Everyone says 'just buy a new couch.' That's not the answer." |
-| **Sensory** | puts reader IN the room | "Opening the pantry didn't smell like anything for the first time in months." |
-| **Before-after** | cinematic jump | "Three weeks ago this drawer was crushed granola bars and dead batteries." |
+| **Confrontation** | calls out received wisdom | "Everyone says buy more bins. That is why your cabinet is still a mess." |
+| **Second-person scene** | puts the READER in the room, no fake narrator | "You already know which cabinet you don't open in front of guests." |
+| **Price movement** | our own tracked data — nobody else has it | "This scale was $13.99 on the 2nd. It's $10.99 today." |
+| **Proof-of-demand** | review depth as the argument | "17,274 people bought this hanging organiser. Almost none of them mention the shelves." |
 | **Question** | Socratic | "Why does nobody talk about what the inside of your bathroom cabinet looks like?" |
-| **Story fragment** | unresolved, pulls scroll | "My dog sat on the new cover and stared at me like I'd betrayed him." |
 | **Micro-insight** | one sharp observation | "The reason your counters never stay clean is that nothing on them has a home." |
-| **Wrong-until-proven-right** | admits mistake | "I had the wrong pillow for a decade and didn't know it." |
+| **Constraint** | speaks to a real limitation | "If you rent and can't drill, most 'shelf' advice is useless to you." |
+| **Category correction** | what the charts actually show | "The best-selling dorm item this week isn't storage. It's a $6 pack of hooks." |
+
+**Retired 2026-08-26 — Confession, Before-after, Story fragment, Wrong-until-proven-right.**
+All four require a narrator who personally used the product. We don't have one, so they can
+only be produced by inventing experience. The gate rejects them; they are not available.
 
 ---
 
@@ -155,4 +165,8 @@ This is how the voice gets sharper over time instead of drifting.
 
 ## The ultimate rule
 
-If a post could have been written by any affiliate marketer with an Amazon link, we did it wrong. The voice has to be specifically, recognizably GHP — a person who actually fixed a specific thing in their own real home, and wants you to know whether it was worth it.
+If a post could have been written by any affiliate marketer with an Amazon link, we did it wrong.
+
+The test still holds — but the thing that makes us un-copyable is not a fictional person. It is that we can say **what we watched happen**: this price moved, this product entered the chart this week, this one has 17,000 reviews and the complaints all say the same thing. Any competitor can prompt an AI for a story about a messy drawer. None of them can tell you what the chart did on Tuesday unless they were also watching.
+
+Read the draft out loud. If it sounds like a product description, rewrite. If it sounds like someone who genuinely follows this category telling you one useful thing, ship it. **If it claims an experience nobody here had, delete it** — that is the one rewrite that is not optional.
