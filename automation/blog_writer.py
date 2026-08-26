@@ -529,7 +529,7 @@ def render_html(post: dict, date_str: str, slug: str) -> str:
 <link rel="canonical" href="{canonical}">
 <meta property="og:title" content="{post['title']}">
 <meta property="og:description" content="{post['meta_description']}">
-<meta property="og:type" content="article">
+<meta property="og:type" content="article">\n<meta property="og:site_name" content="Golden Home Project">\n<meta property="og:image" content="https://goldenhomeproject.com/images/og-default.jpg">\n<meta property="og:image:width" content="1200">\n<meta property="og:image:height" content="630">\n<meta name="twitter:card" content="summary_large_image">
 <meta property="og:url" content="{canonical}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
