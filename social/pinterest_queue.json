@@ -1905,5 +1905,61 @@
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "posted_at": "2026-08-26T23:27:33Z"
+  },
+  {
+    "id": "pin-2026-08-27-B01IE7P2VW",
+    "asin": "B01IE7P2VW",
+    "board": "Home Organization Finds",
+    "title": "Deep Pocket Queen Fitted Sheet - Fits Up to 15 In, Grey Cooling Cotton Feel",
+    "description": "This queen fitted sheet has a deep pocket fitting mattresses up to 15 inches thick, staying snug over toppers without slipping. The cotton-like blend is designed to sleep cool and breathable, in a grey hotel-comfort finish. At $9.49, it's a low-cost swap for worn sheets or a guest-room spare. Tap through for sizing and color options. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B01IE7P2VW?tag=goldenhomep06-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-08-27-B01IE7P2VW.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-27-B01IE7P2VW.png",
+    "queued_at": "2026-08-27T10:10:58.915950Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-08-27-B01F5K9YNS",
+    "asin": "B01F5K9YNS",
+    "board": "Home Organization Finds",
+    "title": "Non-Slip Bathtub Mat 35x16 - Gorilla Grip Shower Floor Mat, Suction Cups",
+    "description": "A 35x16 clear bathtub mat from Gorilla Grip, built on a patented suction-cup base that grips tub and shower floors without drilling or adhesive - a fit for renters and shared bathrooms. The mat is machine washable and sized to cover most standard tub floors, listed at $24.99. Tap through for sizing details and the current price. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B01F5K9YNS?tag=goldenhomep06-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-08-27-B01F5K9YNS.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-27-B01F5K9YNS.png",
+    "queued_at": "2026-08-27T10:11:23.639599Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-08-27-B0F332CCLK",
+    "asin": "B0F332CCLK",
+    "board": "Home Organization Finds",
+    "title": "Blackout Curtains for Bedroom 40x63 - Thermal Insulated 2-Panel Set, $9.98",
+    "description": "Golden Home Project tracks Amazon's home decor charts daily, and this MIULEE 2-panel blackout curtain set is holding at $9.98 for two 40 x 63 inch panels. Thermal-insulated fabric blocks light and buffers drafts, a fix renters reach for when swapping blinds isn't an option. Sized for standard bedroom windows, not floor-to-ceiling. Tap through for sizing options and current price. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B0F332CCLK?tag=goldenhomep06-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-08-27-B0F332CCLK.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-27-B0F332CCLK.png",
+    "queued_at": "2026-08-27T10:11:52.624640Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-08-27-B0BZZDPPRX",
+    "asin": "B0BZZDPPRX",
+    "board": "Bathroom Storage Ideas",
+    "title": "Shower Squeegee for Glass Doors with No-Drill Adhesive Hooks",
+    "description": "A stainless steel shower squeegee for glass shower doors, listed at $9.98 with two adhesive mount hooks included for no-drill hanging, a fit for rentals where you cannot drill into tile or glass. Use it for daily water-spot and soap-scum upkeep on shower doors, mirrors, or tile after each shower. Tap through for current pricing and full specs. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B0BZZDPPRX?tag=goldenhomep06-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-08-27-B0BZZDPPRX.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-27-B0BZZDPPRX.png",
+    "queued_at": "2026-08-27T10:12:43.242377Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
   }
 ]
