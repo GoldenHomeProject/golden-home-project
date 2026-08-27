@@ -1946,9 +1946,10 @@
     "image_path": "social/pinterest/pin-2026-08-27-B0F332CCLK.png",
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-27-B0F332CCLK.png",
     "queued_at": "2026-08-27T10:11:52.624640Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
-    "drop_observed_to": null
+    "drop_observed_to": null,
+    "posted_at": "2026-08-27T23:26:16Z"
   },
   {
     "id": "pin-2026-08-27-B0BZZDPPRX",
