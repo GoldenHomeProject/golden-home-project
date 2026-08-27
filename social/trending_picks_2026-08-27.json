@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-08-27",
+  "category": "Home Storage",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-storage-bins.html",
+  "picks": [
+    {
+      "asin": "B0BZYCJK89",
+      "name": "Owala FreeSip Stainless Steel Water Bottle 24 oz Denim",
+      "price": "$29.99",
+      "rating": 4.6,
+      "reviews": 135698,
+      "rank": 1
+    },
+    {
+      "asin": "B00FXNAAW2",
+      "name": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers",
+      "price": "$18.89",
+      "rating": 4.8,
+      "reviews": 235882,
+      "rank": 2
+    },
+    {
+      "asin": "B0DGF616XN",
+      "name": "6 Pack Extra Heavy Duty Large Moving Bags with Strong Zipper",
+      "price": "$23.98",
+      "rating": 4.8,
+      "reviews": 11983,
+      "rank": 3
+    },
+    {
+      "asin": "B08CVT84C9",
+      "name": "Bentgo Chill Kids 4-Compartment Bento Box Leakproof Lunch Box",
+      "price": "$32.99",
+      "rating": 4.6,
+      "reviews": 19130,
+      "rank": 5
+    },
+    {
+      "asin": "B0CP9YB3Q4",
+      "name": "STANLEY Quencher H2.0 Tumbler with Handle and Straw 30 oz",
+      "price": "$32.95",
+      "rating": 4.7,
+      "reviews": 204243,
+      "rank": 6
+    },
+    {
+      "asin": "B0B56CHMSC",
+      "name": "Lifewit Medium Lunch Bag",
+      "price": "$8.99",
+      "rating": 4.5,
+      "reviews": 62380,
+      "rank": 9
+    }
+  ]
+}
