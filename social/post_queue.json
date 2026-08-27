@@ -5924,5 +5924,77 @@
     "keyword": "LINK",
     "queued_at": "2026-08-26T07:38:47.770895Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_2026-08-27_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-27-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Pillow covers are cheap. The insert inside them is why yours look flat.\n\nA decorative cover is only as good as what's stuffed in it. If your throw pillows sag in the middle or look half-empty at the corners, that's the insert, not the cover. Swapping inserts is the cheaper fix \u2014 you keep every cover you already own.\n\nThe Utopia Bedding 18x18 Pillow Inserts are standard 18-by-18 forms sized for the most common throw pillow cover on the market. With 218,437 reviews holding a 4.6-star average, this is a product a very large number of people have bought and rated well \u2014 that volume is about as close to a consensus as a basic home item gets.\n\nYou get filled-out pillows on the covers already sitting on your couch, without replacing a single one. $13.49.\n\nComment BEDDING and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Utopia Bedding 18x18 Pillow Inserts",
+      "dm_keyword": "BEDDING",
+      "amazon_asin": "B01NBNDC1T",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01NBNDC1T?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Pillow covers are cheap. The insert inside them is why yours look flat."
+  },
+  {
+    "name": "reel_2026-08-27_002",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-27-002.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "348,951 reviews and a 4.7-star average \u2014 that's not luck, that's data.\n\nA bathroom scale is one of those purchases people want to get right the first time, not replace in six months. This one is digital, which means a clear number on a screen instead of squinting at a needle between two lines on an old dial scale.\n\nIt does one job: put your body weight on a digital display, no extra setup required. With 348,951 reviews averaging 4.7 stars, that's a large enough sample that the rating reflects how it performs for most people, not just a lucky batch of early reviews.\n\nAt $19.88, it's a straightforward way to get a reliable digital scale in your bathroom without agonizing over the decision.\n\nComment ETEKCITY and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Etekcity Digital Body Weight Bathroom Scale",
+      "dm_keyword": "ETEKCITY",
+      "amazon_asin": "B01HI1W1V4",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01HI1W1V4?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "348,951 reviews and a 4.7-star average \u2014 that's not luck, that's data."
+  },
+  {
+    "name": "reel_2026-08-27_003",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-27-003.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "450,137 reviews on a $24.99 sheet set. That number is the whole story.\n\nSheets are one of those purchases where the reviews actually matter, because everyone sleeps on them and everyone has an opinion the next morning. A product can pick up a few thousand reviews on hype alone. It does not reach 450,137 without years of people buying it, sleeping on it, and coming back to say something.\n\nThis is a queen size 4 piece sheet set, so it covers the full bed in one purchase instead of hunting for matching pieces. Sitting at 4.5 stars across 450,137 reviews means the average is holding steady at that scale, which is much harder than a high rating on a few hundred.\n\nIf you need a queen set that a very large number of people have already vetted, this is the low-risk pick at $24.99.\n\nComment QUEEN and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Queen Size 4 Piece Sheet Set",
+      "dm_keyword": "QUEEN",
+      "amazon_asin": "B01M16WBW1",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01M16WBW1?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "450,137 reviews on a $24.99 sheet set. That number is the whole story."
   }
 ]

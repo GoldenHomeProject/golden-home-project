@@ -2714,3 +2714,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** automation/trends/2026-08-27.json, social/trend_feed.json
 **External actions:** reddit_pi_cache + google_trends + pinterest_rss + amazon_movers_pi_cache
 **Next agent hint:** Content Engine: today's top-3 opportunities are: $29 turned my kid's cluttered corner int, $47 cover made our stained, pet-hair cou, $24 roll turned our boring rental wall i
+
+## 2026-08-27T17:02:47Z — Content Engine
+**Ran:** Generated 3 Reel scripts from 5 trend opportunities
+**Changed:** automation/scripts/reel-2026-08-27-*.json, social/post_queue.json
+**External actions:** none
+**Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: use_case: Pillow covers are cheap. The insert inside them is | proof: 348,951 reviews and a 4.7-star average — that's no | proof: 450,137 reviews on a $24.99 sheet set. That number

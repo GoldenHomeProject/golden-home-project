@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-08-27T17:02:47.730594Z",
+  "date": "2026-08-27",
+  "seq": 3,
+  "hook_category": "proof",
+  "hook": "450,137 reviews on a $24.99 sheet set. That number is the whole story.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Tight overhead shot of a neatly made queen bed with crisp white sheets, soft morning window light, shallow depth of field",
+      "on_screen_text": "450,137 REVIEWS",
+      "voiceover": "450,137 reviews on a $24.99 sheet set. That number is the whole story."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Slow push-in on rumpled sheets at the corner of a bed, early daylight, calm domestic bedroom",
+      "on_screen_text": "EVERYONE HAS AN OPINION",
+      "voiceover": "Sheets are a purchase where reviews actually matter. Everyone sleeps on them, and everyone has an opinion by morning."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Hands smoothing a fitted sheet across a mattress corner, then folding the flat sheet back, clean bright bedroom",
+      "on_screen_text": "4 PIECES, ONE BUY",
+      "voiceover": "It's a queen size four piece set, so the whole bed is covered in one purchase instead of hunting for matching pieces."
+    },
+    {
+      "n": 4,
+      "duration_sec": 5,
+      "visual_prompt": "Wide static shot of a fully made queen bed, pillows stacked, natural light, uncluttered room",
+      "on_screen_text": "4.5 STARS AT SCALE",
+      "voiceover": "Holding 4.5 stars across 450,137 reviews is a lot harder than a high rating on a few hundred. Hype doesn't get you to that number \u2014 years of repeat buyers do."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Gentle top-down shot of folded sheets stacked on the end of a made bed, warm soft lighting",
+      "on_screen_text": "$24.99",
+      "voiceover": "If you want a queen set that a huge number of people have already vetted, this is the low-risk pick at $24.99."
+    }
+  ],
+  "caption": "450,137 reviews on a $24.99 sheet set. That number is the whole story.\n\nSheets are one of those purchases where the reviews actually matter, because everyone sleeps on them and everyone has an opinion the next morning. A product can pick up a few thousand reviews on hype alone. It does not reach 450,137 without years of people buying it, sleeping on it, and coming back to say something.\n\nThis is a queen size 4 piece sheet set, so it covers the full bed in one purchase instead of hunting for matching pieces. Sitting at 4.5 stars across 450,137 reviews means the average is holding steady at that scale, which is much harder than a high rating on a few hundred.\n\nIf you need a queen set that a very large number of people have already vetted, this is the low-risk pick at $24.99.\n\nComment QUEEN and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "This is a queen size 4 piece sheet set, so it covers the full bed in one purchase instead of hunting for matching pieces. Sitting at 4.5 stars across 450,137 reviews means the average is holding stead",
+  "affiliate_strategy": {
+    "primary_product": "Queen Size 4 Piece Sheet Set",
+    "dm_keyword": "QUEEN",
+    "amazon_asin": "B01M16WBW1",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B01M16WBW1?tag=goldenhomep06-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": null
+  }
+}
