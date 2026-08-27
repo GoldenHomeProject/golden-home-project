@@ -2720,3 +2720,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** automation/scripts/reel-2026-08-27-*.json, social/post_queue.json
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: use_case: Pillow covers are cheap. The insert inside them is | proof: 348,951 reviews and a 4.7-star average — that's no | proof: 450,137 reviews on a $24.99 sheet set. That number
+
+## 2026-08-27T18:03:12Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B08QRFZ6TH (Barossa Design Oeko-tex Certified Shower)
+**Changed:** social/carousels/2026-08-27-B08QRFZ6TH/slide-1.png, social/carousels/2026-08-27-B08QRFZ6TH/slide-2.png, social/carousels/2026-08-27-B08QRFZ6TH/slide-3.png, social/carousels/2026-08-27-B08QRFZ6TH/slide-4.png, social/carousels/2026-08-27-B08QRFZ6TH/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B08QRFZ6TH carousel.
