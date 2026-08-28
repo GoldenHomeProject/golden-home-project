@@ -263,22 +263,50 @@ def compose_scene_frame(bg_path: Path, on_screen_text: str, out_path: Path,
 
     text = (on_screen_text or "").strip()
     if text:
-        font_size = 120 if accent else 92
-        font = find_font(font_size)
-        max_width = WIDTH - 120
-
+        # Shrink to fit rather than trusting one hard-coded size. The runner has
+        # different fonts installed than the Pi (Inter/Open Sans vs Liberation) and
+        # the same string measures ~20% wider there, so a 120px line that fit locally
+        # ran off the right edge of a published frame. Margins also have to leave room
+        # for the scrim padding, which the old WIDTH-120 did not.
         words = text.upper().split() if accent else text.split()
-        lines, cur = [], ""
-        for w in words:
-            trial = f"{cur} {w}".strip()
-            if font.getbbox(trial)[2] <= max_width:
-                cur = trial
-            else:
-                if cur:
-                    lines.append(cur)
-                cur = w
-        if cur:
-            lines.append(cur)
+        max_width = WIDTH - 260
+
+        def split_long(word, font):
+            """Break a word that cannot fit on its own line at any size."""
+            if font.getlength(word) <= max_width:
+                return [word]
+            out, cur = [], ""
+            for ch in word:
+                if font.getlength(cur + ch) > max_width and cur:
+                    out.append(cur)
+                    cur = ch
+                else:
+                    cur += ch
+            if cur:
+                out.append(cur)
+            return out
+
+        def wrap(font):
+            lines, cur = [], ""
+            for raw in words:
+              for w in split_long(raw, font):
+                trial = f"{cur} {w}".strip()
+                if font.getlength(trial) <= max_width:
+                    cur = trial
+                else:
+                    if cur:
+                        lines.append(cur)
+                    cur = w
+            if cur:
+                lines.append(cur)
+            return lines
+
+        for font_size in range(120 if accent else 92, 46, -6):
+            font = find_font(font_size)
+            lines = wrap(font)
+            # Also reject a single word too long to wrap - shrink until it fits.
+            if lines and max(font.getlength(l) for l in lines) <= max_width:
+                break
 
         line_h = int(font_size * 1.2)
         total_h = line_h * len(lines)
@@ -292,7 +320,7 @@ def compose_scene_frame(bg_path: Path, on_screen_text: str, out_path: Path,
         # frame of the 8/27 reel put gold text across a pale scale and the stat was
         # barely readable. Lay a soft dark panel behind the block instead.
         pad_x, pad_y = 46, 34
-        widest = max((font.getbbox(l)[2] - font.getbbox(l)[0]) for l in lines)
+        widest = max(font.getlength(l) for l in lines)
         box = [(WIDTH - widest) // 2 - pad_x, y0 - pad_y,
                (WIDTH + widest) // 2 + pad_x, y0 + total_h + pad_y]
         scrim = Image.new("RGBA", (WIDTH, HEIGHT), (0, 0, 0, 0))
@@ -301,9 +329,8 @@ def compose_scene_frame(bg_path: Path, on_screen_text: str, out_path: Path,
         draw = ImageDraw.Draw(img)
 
         for i, line in enumerate(lines):
-            bbox = font.getbbox(line)
-            w = bbox[2] - bbox[0]
-            x = (WIDTH - w) // 2
+            w = font.getlength(line)
+            x = int((WIDTH - w) // 2)
             y = y0 + i * line_h
             # Drop shadow for legibility over any background
             draw.text((x + 4, y + 4), line, fill=SHADOW_COLOR, font=font)
