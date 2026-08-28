@@ -58,9 +58,27 @@ jobs:
           # the poster then found no video for two days running. Retry against the
           # remote, and fail loudly if the work truly cannot be persisted.
           for i in 1 2 3 4 5; do
+            # Leave no half-finished rebase behind: the first conflict used to strand
+            # the tree in an unmerged state, and every remaining retry then died with
+            # "Pulling is not possible because you have unmerged files."
+            git rebase --abort 2>/dev/null || true
             if git pull --rebase --quiet origin main && git push --quiet origin main; then
               echo "[commit] pushed"
               exit 0
+            fi
+            # These artifacts are regenerated wholesale each run, so on a conflict the
+            # freshly generated copy wins. Inside a rebase, --theirs is the commit
+            # being replayed, i.e. ours.
+            CONFLICTED=$(git diff --name-only --diff-filter=U)
+            if [ -n "$CONFLICTED" ]; then
+              echo "[commit] resolving conflicts in: $CONFLICTED"
+              git checkout --theirs -- $CONFLICTED 2>/dev/null || true
+              git add $CONFLICTED
+              GIT_EDITOR=true git rebase --continue || git rebase --abort 2>/dev/null || true
+              if git push --quiet origin main; then
+                echo "[commit] pushed after conflict resolution"
+                exit 0
+              fi
             fi
             sleep 5
           done
