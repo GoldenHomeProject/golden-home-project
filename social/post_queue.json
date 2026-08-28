@@ -5546,10 +5546,10 @@
   },
   {
     "name": "reel_2026-08-24_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-08-24-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-24-001.mp4",
     "caption": "Baking by cups is guesswork. A scale is the fix, and this one is $10.99.\n\nA cup of flour can vary by a lot depending on whether you scooped it or spooned it, and that difference is the reason two people follow the same recipe and get two different loaves. Weight doesn't have that problem \u2014 120 grams is 120 grams every time. A kitchen scale is also the quiet solution to portioning coffee, dividing dough, and mailing a package without a trip to the post office.\n\nThe Etekcity Food Kitchen Scale is a compact digital scale that weighs what you put on it, so recipes stop being an estimate. With 176,516 reviews averaging 4.6 stars, this isn't a niche gadget \u2014 it's a product a very large number of people have used long enough to rate, and the score has held up across all of them.\n\nYou get repeatable results from the recipes you already make, without changing anything else about how you cook. It's $10.99.\n\nComment FOOD and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -5566,14 +5566,15 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "Baking by cups is guesswork. A scale is the fix, and this one is $10.99."
+    "hook": "Baking by cups is guesswork. A scale is the fix, and this one is $10.99.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-24-001.mp4"
   },
   {
     "name": "reel_2026-08-24_002",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-08-24-002.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-24-002.mp4",
     "caption": "A cluttered cabinet doesn't need a full overhaul\u2014just something under your dishes and cans that stops them from sliding every time the door opens.\n\nWire racks and bare wood let jars tip and glasses shift, so you end up straightening shelves or digging around just to find what you need.\n\nA non-adhesive, non-slip shelf liner like this one fixes that without any mess\u2014no glue, no residue, just lay it down. It holds a 4.7-star rating across 2,556 reviews.\n\nAt $7.99 for a 12\" x 10FT roll, it's a cheap way to keep shelves in order, one cabinet at a time.\n\nComment LINER and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #kitchenorganization #smallspacesolutions #undersinkstorage",
     "hashtags": [
       "#amazonhomefinds",
@@ -5591,14 +5592,15 @@
       "affiliate_network": "amazon",
       "affiliate_url": "https://www.amazon.com/dp/B0BXSMJK86?tag=goldenhomep06-20"
     },
-    "hook": "A cluttered cabinet doesn't need a full overhaul\u2014just something under your dishes and cans that stops them from sliding every time the door opens."
+    "hook": "A cluttered cabinet doesn't need a full overhaul\u2014just something under your dishes and cans that stops them from sliding every time the door opens.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-24-002.mp4"
   },
   {
     "name": "reel_2026-08-24_003",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-08-24-003.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-24-003.mp4",
     "caption": "That drawer of mismatched throw pillows isn't going to fix itself.\n\nFaded covers, flat corduroy, colors that clash with everything else in the room \u2014 swapping them out is one of the easiest refreshes for a couch or bed.\n\nThis set of 4 sage green boho farmhouse covers is 18x18 inch and sits at 4.6 stars across 3,203 reviews, with a soft corduroy nordic look built for spring updates.\n\nAt $16.99 for the set, it's an easy way to give a couch or bedroom a fresh, coordinated look without replacing the pillows themselves.\n\nComment THROW and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -5615,7 +5617,8 @@
       "affiliate_network": "amazon",
       "affiliate_url": "https://www.amazon.com/dp/B0CVVVNB9L?tag=goldenhomep06-20"
     },
-    "hook": "That drawer of mismatched throw pillows isn't going to fix itself."
+    "hook": "That drawer of mismatched throw pillows isn't going to fix itself.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-24-003.mp4"
   },
   {
     "id": "carousel-2026-08-24-B01DCG0GPC",
@@ -5635,10 +5638,10 @@
   },
   {
     "name": "reel_repurpose_2026-08-24_901",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-08-24-901.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-24-901.mp4",
     "caption": "I stopped buying random totes and bought one 8-pack instead. Link in bio for the exact bins (4.8 stars, 3,672 reviews) plus the rest of the $29.99-and-up system I used to fix the whole closet.",
     "hashtags": [
       "#closetorganization",
@@ -5649,14 +5652,15 @@
       "#organizedhome",
       "#storagehacks"
     ],
-    "hook": "8 clear bins fixed my closet for $29.99"
+    "hook": "8 clear bins fixed my closet for $29.99",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-24-901.mp4"
   },
   {
     "name": "reel_repurpose_2026-08-24_902",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-08-24-902.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-24-902.mp4",
     "caption": "The under-bed bin nobody buys because dragging boxes out is a pain \u2014 this one has wheels. 4.6 stars, 662 reviews, pairs with the $29.99 clear bin system in my last post. Full breakdown at the link.",
     "hashtags": [
       "#underbedstorage",
@@ -5666,14 +5670,15 @@
       "#clutterfree",
       "#organizationtips"
     ],
-    "hook": "The space under your bed is worth $30"
+    "hook": "The space under your bed is worth $30",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-24-902.mp4"
   },
   {
     "name": "reel_repurpose_2026-08-24_903",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-08-24-903.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-24-903.mp4",
     "caption": "I had 4 feet of dead space in my closet and didn't even notice until I clipped this on. $18.98, 4.5 stars, 17,274 reviews. This is one piece of the full system \u2014 link in bio for the rest.",
     "hashtags": [
       "#closethacks",
@@ -5683,14 +5688,15 @@
       "#closetorganization",
       "#budgetorganizing"
     ],
-    "hook": "$18.98 fixes the vertical space you're wasting"
+    "hook": "$18.98 fixes the vertical space you're wasting",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-24-903.mp4"
   },
   {
     "name": "reel_repurpose_2026-08-24_904",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-08-24-904.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-24-904.mp4",
     "caption": "A bin system without labels is just the same mess in clear plastic. These non-skid turntables ($24.99, 4.7 stars, 6,190 reviews) plus a $6 label kit solved the dig-through-everything problem for me. Full system at the link.",
     "hashtags": [
       "#lazysusan",
@@ -5701,7 +5707,8 @@
       "#organizedpantry",
       "#storagesolutions"
     ],
-    "hook": "Stop digging through bins for the thing in back"
+    "hook": "Stop digging through bins for the thing in back",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-24-904.mp4"
   },
   {
     "name": "reel_repurpose_2026-08-24_905",
@@ -5722,10 +5729,10 @@
   },
   {
     "name": "reel_2026-08-25_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-08-25-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-25-001.mp4",
     "caption": "203,481 reviews. That's not a trend \u2014 that's a verdict.\n\nMost water bottles get a few thousand reviews and call it a hit. This one has over two hundred thousand people who bought it and came back to say something. At 4.7 stars, the overwhelming majority of them said something good.\n\nIt's a 30 oz insulated tumbler with a handle and a straw, so it stays in one hand and stays sipped from all day. A 4.7-star average holding up across 203,481 reviews means it isn't riding hype \u2014 it's surviving daily use at scale.\n\nIf you want the bottle you'll actually keep reaching for instead of the three already shoved in your cabinet, this is the one with the receipts. $32.02.\n\nComment STANLEY and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -5742,14 +5749,15 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "203,481 reviews. That's not a trend \u2014 that's a verdict."
+    "hook": "203,481 reviews. That's not a trend \u2014 that's a verdict.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-25-001.mp4"
   },
   {
     "name": "reel_2026-08-25_002",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-08-25-002.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-25-002.mp4",
     "caption": "348,951 reviews and a 4.7-star average \u2014 that's not luck, that's data.\n\nA bathroom scale is one of those purchases people want to get right the first time, not replace in six months. This one is digital, which means a clear number on a screen instead of squinting at a needle between two lines on an old dial scale.\n\nIt does one job: put your body weight on a digital display, no extra setup required. With 348,951 reviews averaging 4.7 stars, that's a large enough sample that the rating reflects how it performs for most people, not just a lucky batch of early reviews.\n\nAt $19.88, it's a straightforward way to get a reliable digital scale in your bathroom without agonizing over the decision.\n\nComment ETEKCITY and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -5766,14 +5774,15 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "348,951 reviews and a 4.7-star average \u2014 that's not luck, that's data."
+    "hook": "348,951 reviews and a 4.7-star average \u2014 that's not luck, that's data.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-25-002.mp4"
   },
   {
     "name": "reel_2026-08-25_003",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-08-25-003.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-25-003.mp4",
     "caption": "Renting a closet the size of a coat pocket? Start with the hangers.\n\nWhen you can't knock out a wall or install a custom system, the only variable you control is what's on the rod. Bulky plastic and wooden hangers eat horizontal inches, and every inch they take is a shirt that doesn't fit. Slim velvet hangers are the one closet upgrade a landlord will never notice.\n\nThese are Amazon Basics slim velvet non-slip hangers, built to hold suits and clothes on a narrow profile so more garments fit on the same rod, with a velvet surface that keeps straps and shoulders from sliding off. They carry a 4.8-star rating across 235,105 reviews \u2014 a volume that means this design has been stress-tested in an enormous number of real closets, not just a handful.\n\nYou get a rod that holds more without moving anything permanent, and clothes that stay where you hung them. The set runs $20.99.\n\nComment CLOTHES and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -5790,7 +5799,8 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "Renting a closet the size of a coat pocket? Start with the hangers."
+    "hook": "Renting a closet the size of a coat pocket? Start with the hangers.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-25-003.mp4"
   },
   {
     "id": "carousel-2026-08-25-B00E4GACB8",
@@ -5901,10 +5911,10 @@
   },
   {
     "name": "reel_2026-08-27_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-08-27-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-27-001.mp4",
     "caption": "Pillow covers are cheap. The insert inside them is why yours look flat.\n\nA decorative cover is only as good as what's stuffed in it. If your throw pillows sag in the middle or look half-empty at the corners, that's the insert, not the cover. Swapping inserts is the cheaper fix \u2014 you keep every cover you already own.\n\nThe Utopia Bedding 18x18 Pillow Inserts are standard 18-by-18 forms sized for the most common throw pillow cover on the market. With 218,437 reviews holding a 4.6-star average, this is a product a very large number of people have bought and rated well \u2014 that volume is about as close to a consensus as a basic home item gets.\n\nYou get filled-out pillows on the covers already sitting on your couch, without replacing a single one. $13.49.\n\nComment BEDDING and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -5921,14 +5931,15 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "Pillow covers are cheap. The insert inside them is why yours look flat."
+    "hook": "Pillow covers are cheap. The insert inside them is why yours look flat.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-27-001.mp4"
   },
   {
     "name": "reel_2026-08-27_002",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-08-27-002.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-27-002.mp4",
     "caption": "348,951 reviews and a 4.7-star average \u2014 that's not luck, that's data.\n\nA bathroom scale is one of those purchases people want to get right the first time, not replace in six months. This one is digital, which means a clear number on a screen instead of squinting at a needle between two lines on an old dial scale.\n\nIt does one job: put your body weight on a digital display, no extra setup required. With 348,951 reviews averaging 4.7 stars, that's a large enough sample that the rating reflects how it performs for most people, not just a lucky batch of early reviews.\n\nAt $19.88, it's a straightforward way to get a reliable digital scale in your bathroom without agonizing over the decision.\n\nComment ETEKCITY and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -5945,14 +5956,15 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "348,951 reviews and a 4.7-star average \u2014 that's not luck, that's data."
+    "hook": "348,951 reviews and a 4.7-star average \u2014 that's not luck, that's data.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-27-002.mp4"
   },
   {
     "name": "reel_2026-08-27_003",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-08-27-003.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-27-003.mp4",
     "caption": "450,137 reviews on a $24.99 sheet set. That number is the whole story.\n\nSheets are one of those purchases where the reviews actually matter, because everyone sleeps on them and everyone has an opinion the next morning. A product can pick up a few thousand reviews on hype alone. It does not reach 450,137 without years of people buying it, sleeping on it, and coming back to say something.\n\nThis is a queen size 4 piece sheet set, so it covers the full bed in one purchase instead of hunting for matching pieces. Sitting at 4.5 stars across 450,137 reviews means the average is holding steady at that scale, which is much harder than a high rating on a few hundred.\n\nIf you need a queen set that a very large number of people have already vetted, this is the low-risk pick at $24.99.\n\nComment QUEEN and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -5969,7 +5981,8 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "450,137 reviews on a $24.99 sheet set. That number is the whole story."
+    "hook": "450,137 reviews on a $24.99 sheet set. That number is the whole story.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-27-003.mp4"
   },
   {
     "id": "carousel-2026-08-27-B08QRFZ6TH",
