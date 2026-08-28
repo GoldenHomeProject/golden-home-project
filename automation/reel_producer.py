@@ -449,6 +449,13 @@ def main():
         day = (base - timedelta(days=back)).strftime("%Y-%m-%d")
         candidates += sorted(SCRIPT_DIR.glob(f"reel-{day}-*.json"))
     candidates = [c for c in candidates if not (REEL_DIR / f"{c.stem}.mp4").exists()]
+    # Newest first, capped. The first run with a widened window found a multi-day
+    # backlog, rendered 20-odd reels and hit the 30-minute job timeout mid-render.
+    # We post one reel a day, so a handful of fresh ones per run keeps the poster
+    # stocked without ever approaching the cap - and newest-first means the reel that
+    # ships is the one built from the most recent trending data.
+    MAX_PER_RUN = 4
+    candidates = sorted(candidates, reverse=True)[:MAX_PER_RUN]
     if not candidates:
         print(f"[reel-producer] No unrendered scripts in the last "
               f"{LOOKBACK_DAYS} days (as of {today}). Done.")
