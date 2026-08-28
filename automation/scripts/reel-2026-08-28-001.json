@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-08-28T17:51:56.899714Z",
+  "date": "2026-08-28",
+  "seq": 1,
+  "hook_category": "use_case",
+  "hook": "Sagging pillows get blamed on the cover. The problem is what's stuffed inside it.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of a sofa with two throw pillows that visibly sag in the center, corners collapsing inward, soft natural window light",
+      "on_screen_text": "IT'S NOT THE COVER",
+      "voiceover": "Pillow covers are cheap. The insert inside them is why yours look flat."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Hands lifting a limp throw pillow, pressing the middle so it folds nearly in half, neutral living room background",
+      "on_screen_text": "SAGGY CORNERS",
+      "voiceover": "A decorative cover is only as good as what's stuffed in it. Sagging middles and empty corners are the insert's fault."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Overhead shot of a stack of folded decorative pillow covers in various fabrics beside a plain white pillow insert",
+      "on_screen_text": "KEEP YOUR COVERS",
+      "voiceover": "Swapping inserts is the cheaper fix. You keep every cover you already own."
+    },
+    {
+      "n": 4,
+      "duration_sec": 5,
+      "visual_prompt": "Product-style shot of plain white 18x18 pillow inserts stacked squarely, clean seams, bright even lighting, minimal background",
+      "on_screen_text": "218,437 REVIEWS \u00b7 4.6\u2605",
+      "voiceover": "These are standard eighteen by eighteen inserts, sized for the most common throw pillow cover out there. Two hundred eighteen thousand reviews at four point six stars is about as close to consensus as a basic home item gets."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Styled sofa with four full, squared-off throw pillows in patterned covers, sharp corners, warm afternoon light",
+      "on_screen_text": "$13.49",
+      "voiceover": "Filled-out pillows on the covers already sitting on your couch, without replacing a single one. Thirteen forty-nine."
+    }
+  ],
+  "caption": "Sagging pillows get blamed on the cover. The problem is what's stuffed inside it.\n\nA cover looks exactly as full as the insert underneath it. If the corners look empty or the middle caves in, that's an insert problem, not a cover problem \u2014 and inserts are the cheaper half of that pair to replace. Every cover you already own stays in use.\n\nThe Utopia Bedding 18x18 Pillow Inserts are the standard size for the most common throw pillow cover sold. 218,437 people have rated them, averaging 4.6 stars \u2014 a review count that size is close to a consensus for a basic home item.\n\nFull-looking pillows on the covers already on your couch, no replacements needed. $13.49.\n\nComment BEDDING and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "The Utopia Bedding 18x18 Pillow Inserts are the standard size for the most common throw pillow cover sold. 218,437 people have rated them, averaging 4.6 stars \u2014 a review count that size is close to a ",
+  "affiliate_strategy": {
+    "primary_product": "Utopia Bedding 18x18 Pillow Inserts",
+    "dm_keyword": "BEDDING",
+    "amazon_asin": "B01NBNDC1T",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B01NBNDC1T?tag=goldenhomep06-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": null
+  }
+}
