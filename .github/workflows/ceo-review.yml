@@ -44,4 +44,17 @@ jobs:
           git config user.email "goldenhomeprojectllc@gmail.com"
           git add BUSINESS_BRAIN.md automation/logs/ceo_review_*.md || true
           git diff --staged --quiet || git commit -m "CEO review: week ending $(date -u +%Y-%m-%d)"
-          git push || true
+          # `git push || true` swallowed the failure, so a run that lost its work
+          # still went green. On 2026-08-27 the reel producer rendered three videos,
+          # committed them, lost the push to a concurrent job, and reported success —
+          # the poster then found no video for two days running. Retry against the
+          # remote, and fail loudly if the work truly cannot be persisted.
+          for i in 1 2 3 4 5; do
+            if git pull --rebase --quiet origin main && git push --quiet origin main; then
+              echo "[commit] pushed"
+              exit 0
+            fi
+            sleep 5
+          done
+          echo "::error title=Push failed::work committed locally but NOT pushed after 5 tries"
+          exit 1
