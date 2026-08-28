@@ -44,6 +44,7 @@ def _is_dead_hook(hook: str) -> bool:
 
 sys.path.insert(0, str(Path(__file__).parent))
 from agent_log import append_log_entry
+from content_quality_gate import fabrication_match, generic_opener
 
 ROOT = Path(__file__).resolve().parent.parent
 SCRIPT_DIR = ROOT / "automation" / "scripts"
@@ -272,6 +273,30 @@ def generate_scripts(opportunities: list[dict], n: int = DAILY_SCRIPT_COUNT) -> 
 
     # Diversify: prefer variants whose hook category is least-used in the last 7 days,
     # and rotate across distinct DM keywords so we don't ship 3 PILLOW reels in one day.
+    # Last line of defence for Instagram / YouTube. The gate used to run only in
+    # promote_vetted, so a fabricated variant sitting in copy_library.json shipped
+    # straight to the reel caption — that is how the "4am, your neck won't turn left"
+    # and "I avoided opening this cabinet for two whole years" posts went out. Drop
+    # any variant claiming experience nobody here had, before it can be picked.
+    clean_pool = []
+    for kw, variant in pool:
+        blob = " ".join(str(variant.get(k, "")) for k in
+                        ("hook", "beat1", "turn", "result", "caption"))
+        bad = fabrication_match(blob)
+        if bad:
+            print(f"[content-engine] rejected {kw} variant — fabricated experience: {bad!r}")
+            continue
+        stock = generic_opener(str(variant.get("hook", "")))
+        if stock:
+            print(f"[content-engine] rejected {kw} variant — stock AI opener: {stock!r}")
+            continue
+        clean_pool.append((kw, variant))
+    if not clean_pool:
+        print("[content-engine] every variant claims first-hand experience we do not have. "
+              "Refusing to ship. Run automation/clean_copy_library.py.")
+        return []
+    pool = clean_pool
+
     hook_counts = recent_hook_categories(days=7)
     random.shuffle(pool)  # tiebreak randomness
     pool.sort(key=lambda kv: hook_counts.get(kv[1].get("hook_category", ""), 0))

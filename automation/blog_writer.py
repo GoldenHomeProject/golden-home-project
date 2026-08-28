@@ -297,6 +297,12 @@ That phrase is a real query pulled from Google autocomplete, not a theme.
 {json.dumps(opportunity, indent=2)}
 {keyword_rule}
 {_vetted_pool_prompt(opportunity)}
+WHO IS WRITING (docs/BRAND_VOICE.md, rev 2026-08-26): the desk that reads Amazon's
+best-seller charts every day and keeps the prices. Not a person who owns this stuff.
+What makes us worth reading is not a story — it is observed data a competitor cannot
+invent with a prompt: this price moved, this product entered the chart this week, this
+one has 17,000 reviews and the complaints all say the same thing.
+
 HONESTY RULE — NON-NEGOTIABLE:
 Nobody at this site physically handled these products. NEVER claim first-hand testing,
 ownership, or personal results. Banned phrasings: "I tested", "I tried", "I bought",
@@ -314,11 +320,11 @@ Return STRICT JSON matching this exact schema:
   "slug": "url-safe-slug",
   "meta_description": "<=155 chars, specific $, CTR-optimized",
   "keywords": ["5-8 target keywords"],
-  "intro": "2 paragraphs. AIDA: Attention+Interest. First person. Pain point + teaser of transformation.",
+  "intro": "2 paragraphs. Open with ONE of: a confrontation with received wisdom, a second-person scene (the READER in the room, no narrator), the review count used as the argument, a real constraint (renting, no drilling, shared bathroom), or what the best-seller charts actually show. Never open with Picture this / Imagine / Let us be honest / Tired of / We have all been there. Name the problem in concrete terms, then say what this page can actually tell you.",
   "sections": [
     {{
       "h2": "Section heading",
-      "body_markdown": "200-400 words in markdown. Specific details. First-person.",
+      "body_markdown": "200-400 words in markdown. One falsifiable detail beats ten adjectives: holds 18 lbs per shelf, 4.6 stars across 17,274 ratings, 11 inches wide. Second person or plain description — never a story about using it yourself.",
       "featured_product": {{
         "name": "product name",
         "price_estimate": "$XX",

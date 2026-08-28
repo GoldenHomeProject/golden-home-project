@@ -40,6 +40,19 @@ BANNED_OPENERS = [
     r"^\s*stop\s+scrolling",
     r"^\s*pov:",
     r"^\s*\$\d",  # any price-leading
+    # Added 2026-08-28. These are the openers every AI-written affiliate caption uses;
+    # Ian flagged the posts as reading machine-written and these were why. They are not
+    # dishonest, so the fabrication rule never caught them — they are just generic.
+    r"^\s*picture\s+this",
+    r"^\s*imagine\s+(this|if)",
+    r"^\s*let'?s\s+be\s+(honest|real)",
+    r"^\s*here'?s\s+the\s+thing",
+    r"^\s*we'?ve\s+all\s+been\s+there",
+    r"^\s*ever\s+(wonder|notice|feel)",
+    r"^\s*tired\s+of\s+",
+    r"^\s*say\s+goodbye\s+to",
+    r"^\s*in\s+today'?s\s+world",
+    r"^\s*if\s+you'?re\s+like\s+most",
 ]
 
 BANNED_HASHTAGS = {
@@ -88,6 +101,34 @@ ASIN_CANONICAL_PRODUCT = {
     "B00DU5SRIY": ["pink stuff", "stardrops"],
     "B00BAGTNAQ": ["chomchom", "chom chom"],
 }
+
+
+# Shared with content_engine.py so the Instagram / YouTube path enforces the same rule
+# instead of trusting copy_library.json to already be clean.
+FABRICATED_EXPERIENCE = re.compile(
+        r"\b(i\s+(added|bought|found|tried|own|owned|tested|used|use|swapped|installed|"
+        r"keep|kept|had|have|avoided|spent|stopped|started|lost|struggled|dealt|lived|"
+        r"replaced|switched|ordered|grabbed|noticed|realized|realised)\b|"
+        r"my\s+(kitchen|cabinet|closet|pantry|bathroom|bedroom|desk|nightstand|home|"
+        r"drawer|counter|apartment|house|dorm|shelf|sink|floor|room|neck|back|sleep)\b|"
+        r"(three|two|four|five|six|ten)\s+(weeks|months|years)\s+ago|"
+        r"for\s+(two|three|four|five|ten)\s+(whole\s+)?years|"
+        r"last\s+(month|week|year)\s+i\b|i'?ve\s+been|i'?d\s+been)", re.I)
+
+
+def fabrication_match(text: str) -> str:
+    """Return the offending phrase if `text` claims first-hand use, else ""."""
+    m = FABRICATED_EXPERIENCE.search(text or "")
+    return m.group(0) if m else ""
+
+
+def generic_opener(text: str) -> str:
+    """Return the matched stock-AI opener if `text` starts with one, else ""."""
+    for pat in BANNED_OPENERS:
+        m = re.match(pat, text or "", re.I)
+        if m:
+            return m.group(0).strip()
+    return ""
 
 
 def first_n_chars(text: str, n: int = 40) -> str:
@@ -180,12 +221,11 @@ def check_script(script_path: Path) -> tuple[bool, list[str]]:
     # rules penalise, and the FTC treats an endorsement as a claim about real use.
     # Same ban already enforced on the blog and in promote_vetted; enforce it here so
     # no path can ship it.
-    fabricated = re.search(
-        r"\b(i (added|bought|found|tried|own|tested|used|swapped|installed|keep)\b|"
-        r"my (kitchen|cabinet|closet|pantry|bathroom|bedroom|desk|nightstand|home|"
-        r"drawer|counter|apartment)\b|three weeks ago|last (month|week) i\b|"
-        r"i lost track|since i (added|bought|started))",
-        caption, re.I)
+    # Broadened 2026-08-28. The first pattern only caught "I added/bought/tried" and
+    # "my kitchen", so it let through "I avoided opening this cabinet for two whole years"
+    # and "I had four years of bottles falling on my feet" — the same invented experience
+    # in different grammar. Any first-person claim about living with the product is out.
+    fabricated = FABRICATED_EXPERIENCE.search(caption)
     if fabricated:
         reasons.append(
             f"fabricated first-hand experience: {fabricated.group(0)!r} — we do not own "

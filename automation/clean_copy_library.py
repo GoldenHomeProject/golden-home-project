@@ -33,10 +33,14 @@ LIB = ROOT / "social" / "copy_library.json"
 REGISTRY = ROOT / "social" / "dm_keyword_registry.json"
 
 BANNED = re.compile(
-    r"\b(i (added|bought|found|tried|own|tested|used|swapped|installed|keep)\b|"
-    r"my (kitchen|cabinet|closet|pantry|bathroom|bedroom|desk|nightstand|home|"
-    r"drawer|counter|apartment)\b|three weeks ago|last (month|week) i\b|"
-    r"i lost track|since i (added|bought|started))", re.I)
+    r"\b(i\s+(added|bought|found|tried|own|owned|tested|used|use|swapped|installed|"
+    r"keep|kept|had|have|avoided|spent|stopped|started|lost|struggled|dealt|lived|"
+    r"replaced|switched|ordered|grabbed|noticed|realized|realised)\b|"
+    r"my\s+(kitchen|cabinet|closet|pantry|bathroom|bedroom|desk|nightstand|home|"
+    r"drawer|counter|apartment|house|dorm|shelf|sink|floor|room|neck|back|sleep)\b|"
+    r"(three|two|four|five|six|ten)\s+(weeks|months|years)\s+ago|"
+    r"for\s+(two|three|four|five|ten)\s+(whole\s+)?years|"
+    r"last\s+(month|week|year)\s+i\b|i'?ve\s+been|i'?d\s+been)", re.I)
 
 TEXT_KEYS = ("hook", "beat1", "turn", "result")
 
@@ -51,7 +55,7 @@ def product_for(keyword: str) -> dict:
 
 def rewrite(variant: dict, keyword: str, product: dict) -> dict | None:
     name = product.get("product_name") or "this product"
-    prompt = f"""Rewrite this Instagram caption so it contains NO invented personal experience.
+    prompt = f"""Rewrite this Instagram/Shorts caption to Golden Home Project's voice.
 
 PRODUCT (the only facts you may state):
   name:    {name}
@@ -59,23 +63,34 @@ PRODUCT (the only facts you may state):
   rating:  {product.get('verified_stars') or 'unknown'} stars
   reviews: {product.get('verified_reviews') or 'unknown'}
 
-CURRENT COPY (dishonest — it invents a personal story):
+CURRENT COPY (to replace):
   hook:   {variant.get('hook','')}
   beat1:  {variant.get('beat1','')}
   turn:   {variant.get('turn','')}
   result: {variant.get('result','')}
 
-RULES:
-- Nobody here owns or has used this product. NEVER write "I added", "I bought", "I tried",
-  "my kitchen/cabinet/closet", "three weeks ago", or any invented anecdote or result.
-- Write in second person ("if your cabinet…", "you get…") or plain description.
-- Use only the verifiable facts above plus what the product obviously does. Do not invent
-  dimensions, materials, colours or claims not implied by the name.
-- Keep the same 4-part shape and roughly the same length. Keep it concrete and specific —
-  a real reason someone would want it, not hype.
-- Do NOT name the product in the hook (it must appear later in the caption).
+WHO WE ARE (docs/BRAND_VOICE.md, revised 2026-08-26): the desk that reads Amazon's
+best-seller charts every day and keeps the prices. NOT a person telling a story about
+their own home. Nobody here has used this product.
+
+HONESTY RULE — NON-NEGOTIABLE. No invented experience of any kind: no "I had", "I
+avoided", "I tried", "my kitchen", "three weeks ago", "for two years", no claimed result.
+Second person ("your closet", "you already know...") or plain description only.
+
+PICK ONE HOOK ANGLE and commit to it:
+  - Confrontation: challenge the received wisdom ("Everyone says buy more bins. That's
+    why your cabinet is still a mess.")
+  - Second-person scene: put the READER in the room, no narrator
+  - Proof-of-demand: make the review count the argument
+  - Constraint: a real limitation (renting, no drilling, shared bathroom, tiny room)
+  - Question / Micro-insight / Category correction
+
+RULES: one falsifiable detail beats ten adjectives ("holds 18 lbs per shelf" over
+"sturdy"). Do NOT name the product in the hook — it belongs at the turn. No hype words,
+no exclamation marks, no ALL CAPS. Keep the 4-part shape and roughly the current length.
 
 Return STRICT JSON: {{"hook": "...", "beat1": "...", "turn": "...", "result": "..."}}"""
+
     try:
         out = call_claude_json(prompt, max_tokens=1200, max_turns=3, timeout=180)
     except Exception as e:  # noqa: BLE001
@@ -111,17 +126,20 @@ def main() -> int:
             blob = " ".join(str(v.get(k, "")) for k in TEXT_KEYS)
             scenes = v.get("scenes") or []
             vo = " ".join(str(s.get("voiceover", "")) for s in scenes if isinstance(s, dict))
-            if not BANNED.search(blob + " " + vo):
+            # Rewrite ALL variants, not only rule-breakers: the honest-but-flat ones
+            # produced by the first pass are exactly what Ian flagged as low quality.
+            if v.get("voice_rev") == "2026-08-26":
                 continue
             if fixed >= args.limit:
                 break
-            print(f"  {keyword}[{i}] — {BANNED.search(blob + ' ' + vo).group(0)!r}")
+            print(f"  {keyword}[{i}]")
             new = rewrite(v, keyword, product)
             if not new:
                 skipped += 1
                 continue
             for k in TEXT_KEYS:
                 v[k] = new[k]
+            v["voice_rev"] = "2026-08-26"
             # Scene voiceovers carry the same invented story; retell them from the new copy.
             for n, s in enumerate(scenes):
                 if isinstance(s, dict) and BANNED.search(str(s.get("voiceover", ""))):

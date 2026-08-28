@@ -360,6 +360,36 @@ def esc(s: str) -> str:
              .replace('"', "&quot;"))
 
 
+
+def _hub_facts(picks: list[dict]) -> dict:
+    """Numbers taken from THIS category's picks, for copy that differs per hub.
+
+    All six evergreen hubs shipped the same intro, FAQ and conclusion, changing only the
+    category name. To Google that cluster reads as one page duplicated six times, which
+    is the opposite of what a hub cluster is supposed to do. These are real figures off
+    the picks we just selected, so each hub says something only that hub can say — and
+    they are falsifiable, which is the house style anyway.
+    """
+    prices = sorted(p["price_val"] for p in picks if p.get("price_val"))
+    ratings = [p.get("rating") for p in picks if p.get("rating")]
+    reviews = []
+    for p in picks:
+        r = p.get("reviews") or p.get("review_count") or 0
+        if isinstance(r, str):
+            r = int(re.sub(r"[^0-9]", "", r) or 0)
+        reviews.append(int(r))
+    return {
+        "lo": f"${prices[0]:.2f}".replace(".00", "") if prices else "",
+        "hi": f"${prices[-1]:.2f}".replace(".00", "") if prices else "",
+        "median": f"${prices[len(prices)//2]:.2f}".replace(".00", "") if prices else "",
+        "rating_lo": f"{min(ratings):.1f}" if ratings else "",
+        "rating_hi": f"{max(ratings):.1f}" if ratings else "",
+        "reviews_total": f"{sum(reviews):,}" if any(reviews) else "",
+        "reviews_max": f"{max(reviews):,}" if any(reviews) else "",
+        "under_10": sum(1 for x in prices if x < 10),
+    }
+
+
 def build_post(picks: list[dict], today: date, cat_label: str) -> tuple[str, str, dict]:
     ymd = today.isoformat()
     subtag = f"blog-trending-{today.strftime('%Y%m%d')}"
@@ -413,6 +443,65 @@ def build_post(picks: list[dict], today: date, cat_label: str) -> tuple[str, str
         "mainEntityOfPage": url, "description": desc})
     schema_list = json.dumps({"@context": "https://schema.org", "@type": "ItemList",
         "name": title, "itemListElement": item_list})
+
+    # Per-category copy. Written from _hub_facts so no two hubs say the same thing and
+    # every claim is checkable against the table directly below it.
+    f = _hub_facts(picks)
+    cat_l = cat_label.lower()
+    # When nothing is under $10 the old fallback restated the range verbatim
+    # ("run $11.48 to $19.99, and the whole list runs $11.48 to $19.99"). Give the
+    # median instead — a second real number rather than the same one twice.
+    cheap_note = (f"{f['under_10']} of the {n} are under $10" if f["under_10"]
+                  else f"the median sits at {f['median']}")
+
+    intro_1 = (
+        f"These are the {cat_l} products moving on Amazon's best-seller charts as of "
+        f"{today.strftime('%B %-d')} — read off the live charts, not a list we wrote once "
+        f"and left up. Today's picks run {f['lo']} to {f['hi']}, and {cheap_note}."
+    ) if f["lo"] else (
+        f"These are the {cat_l} products moving on Amazon's best-seller charts as of "
+        f"{today.strftime('%B %-d')} — read off the live charts, not a list we wrote once "
+        f"and left up."
+    )
+
+    intro_2 = (
+        f"Selling fast is not the same as good, so every pick also has to clear "
+        f"{MIN_RATING}&#9733; — this set holds {f['rating_lo']}&#9733;–{f['rating_hi']}&#9733; "
+        f"across {f['reviews_total']} ratings between them, the most-reviewed at "
+        f"{f['reviews_max']}. We have not handled these ourselves; that number is the "
+        f"evidence, and it is the honest kind."
+    ) if f["reviews_total"] else (
+        f"Selling fast is not the same as good, so every pick also has to clear "
+        f"{MIN_RATING}&#9733; across a large number of ratings. We have not handled these "
+        f"ourselves — the review record is the evidence."
+    )
+
+    faq_choose = (
+        f"Two filters, in this order. First, it has to already be selling — we start from "
+        f"Amazon's live {cat_l} best-seller charts rather than picking favourites. Second, "
+        f"it has to survive scrutiny: {MIN_RATING}&#9733; minimum across thousands of "
+        f"ratings, so a handful of easily-gamed reviews cannot carry it. Anything that "
+        f"passes one filter and fails the other does not make the page."
+    )
+
+    faq_cheap = (
+        f"Because that is where this category's satisfaction actually lives. Today's "
+        f"{cat_l} picks top out at {f['hi']}, with a median of {f['median']}. Cheap, "
+        f"high-use items get reached for daily and rarely disappoint; the expensive "
+        f"version of a {cat_l} product is usually paying for a brand name, not for "
+        f"solving the problem better."
+    ) if f["hi"] else (
+        f"Cheap, high-use items get reached for daily and rarely disappoint. The expensive "
+        f"version of a {cat_l} product usually pays for a brand name, not a better fix."
+    )
+
+    conclusion = (
+        f"The pattern in this week's {cat_l} charts is the same one that shows up most "
+        f"weeks: what people actually buy is inexpensive, used constantly, and backed by "
+        f"a review count large enough to trust.\n\nPick the one you would reach for every "
+        f"day. Check the live listing before you order — best-sellers move and these prices "
+        f"shift. And skip anything that does not solve a recurring annoyance you can name."
+    )
 
     html = f"""<!DOCTYPE html>
 <html lang="en">
@@ -473,8 +562,8 @@ details p{{margin-top:10px;color:#c8c4bc;font-size:15px}}
   <div class="meta">Updated {today.strftime('%B %-d, %Y')} &middot; Golden Home Project</div>
   <div class="affiliate-disclosure">As an Amazon Associate, Golden Home Project earns from qualifying purchases. Prices and availability were accurate at publish time and change often — always check the live listing.</div>
   <div class="intro">
-    <p>We pulled Amazon's live {esc(cat_label.lower())} best-seller charts this week and kept only what's both <strong>selling fast</strong> and <strong>genuinely loved</strong> — every pick below holds {MIN_RATING}&#9733; or higher across thousands of reviews.</p>
-    <p>No hype without proof. These are the {n} things real people are buying right now, each under ${int(MAX_PRICE)}.</p>
+    <p>{intro_1}</p>
+    <p>{intro_2}</p>
   </div>
   <table class="cmp">
     <tr><th>Pick</th><th>Rating</th><th>Price*</th></tr>
@@ -486,13 +575,11 @@ details p{{margin-top:10px;color:#c8c4bc;font-size:15px}}
   </section>
   <h2>Frequently asked</h2>
   <div class="faq-section">
-    <details><summary>How do you choose these products?</summary><p>We start from what's genuinely selling — Amazon's live best-seller charts — then keep only items that also hold a high rating across a large number of reviews. Every pick sits at {MIN_RATING}&#9733; or higher with thousands of ratings, so you're buying proven demand, not a thin, easily-gamed review count.</p></details>
-    <details><summary>Why cheap items instead of big-ticket ones?</summary><p>Small, sub-$15 tools get used constantly, cost less than a takeout meal, and rarely disappoint. The highest satisfaction per dollar is almost always in the cheap, high-use products — not the priciest thing on the shelf.</p></details>
+    <details><summary>How do you choose these {esc(cat_label.lower())} picks?</summary><p>{faq_choose}</p></details>
+    <details><summary>Why is nothing here expensive?</summary><p>{faq_cheap}</p></details>
     <details><summary>Do prices and availability change?</summary><p>Best-sellers move fast and popular options sell out first, so prices shift. That's why we link straight to the live Amazon listing for each pick — always check the current price before buying.</p></details>
   </div>
-  <div class="conclusion">This week's charts make the pattern clear: the products people actually buy are cheap, high-use, and proven by thousands of reviews.
-
-Pick whatever you'd reach for every day, check the live listing before you order — these move fast — and skip anything that doesn't solve a real, recurring annoyance.
+  <div class="conclusion">{conclusion}
 
 We refresh this with what's actually trending. If it helped, tomorrow's is worth a look.</div>
   <a class="back-link" href="/blog/">&larr; More posts</a>
