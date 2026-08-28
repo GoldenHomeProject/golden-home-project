@@ -1,0 +1,3 @@
+too many ALL CAPS long words: ['STANLEY', 'STANLEY']
+
+Reviewed: 2026-08-28T18:52:46.681679+00:00

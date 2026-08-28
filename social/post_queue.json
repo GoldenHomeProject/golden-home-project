@@ -6049,27 +6049,51 @@
     "hook": "If you rent, you can't change the closet. You can only change what's hanging in it."
   },
   {
-    "name": "reel_2026-08-28_003",
+    "name": "reel_2026-08-28_001",
     "status": "awaiting_video",
-    "script_path": "automation/scripts/reel-2026-08-28-003.json",
+    "script_path": "automation/scripts/reel-2026-08-28-001.json",
     "media_type": "REELS",
     "video_url": null,
-    "caption": "A cup of flour isn't a measurement. It's a guess with a lid on it.\n\nScoop the cup and pack it, or spoon the flour in loose \u2014 the amount that lands in the bowl shifts either way, which is why two people can follow the same recipe and pull two different loaves out of the oven. Weight settles the argument: 120 grams is 120 grams no matter how it got there. The same scale also portions coffee, splits dough into equal pieces, and confirms a package's weight before a trip to the post office.\n\nThe Etekcity Food Kitchen Scale is a compact digital scale that reads exactly what's placed on it, so a recipe stops being an estimate. It carries 176,516 reviews at a 4.6-star average \u2014 a sample large enough that the score reflects how it performs across kitchens, not just one.\n\nRecipes you already make turn out the same way twice, without changing anything else about how you cook. It's $10.99.\n\nComment FOOD and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "caption": "A $24.99 purchase collected 450,137 reviews. That kind of number does not happen by accident.\n\nBedding reviews usually build slowly, since most people only think about their sheets when something is wrong with them. A product can rack up a few thousand five-star tags on marketing alone. It does not climb into six figures without years of repeat buyers coming back to confirm it still holds up.\n\nThis is the queen size 4 piece sheet set behind that count, covering a full bed in one purchase instead of piecing together separate items. At 4.5 stars across 450,137 reviews, the average has held steady long after any early hype would have faded.\n\nFor a queen bed, that combination of scale and rating makes this the low-risk pick at $24.99.\n\nComment QUEEN and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
       "#homehacks2026",
       "#smallspacesolutions"
     ],
     "affiliate": {
-      "primary_product": "Etekcity Food Kitchen Scale",
-      "dm_keyword": "FOOD",
-      "amazon_asin": "B0113UZJE2",
-      "amazon_affiliate_url": "https://www.amazon.com/dp/B0113UZJE2?tag=goldenhomep06-20",
+      "primary_product": "Queen Size 4 Piece Sheet Set",
+      "dm_keyword": "QUEEN",
+      "amazon_asin": "B01M16WBW1",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01M16WBW1?tag=goldenhomep06-20",
       "asin_pending": false,
       "fallback_brands": [],
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "A cup of flour isn't a measurement. It's a guess with a lid on it."
+    "hook": "A $24.99 purchase collected 450,137 reviews. That kind of number does not happen by accident."
+  },
+  {
+    "name": "reel_2026-08-28_002",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-28-002.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "A needle wedged between two lines isn't a weight, it's a guess.\n\nA bathroom scale gets bought once and used for years, so a clear number matters more than it seems. Digital removes the angle-reading, squint-at-the-dial guesswork of the old kind.\n\nThe Etekcity Digital Body Weight Bathroom Scale does one job: show a number, no setup required. 348,951 reviews averaging 4.7 stars is enough data to say that holds up past a lucky first batch of reviews.\n\nAt $19.88, it's a low-risk way to stop guessing at your own weight.\n\nComment ETEKCITY and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Etekcity Digital Body Weight Bathroom Scale",
+      "dm_keyword": "ETEKCITY",
+      "amazon_asin": "B01HI1W1V4",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01HI1W1V4?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "A needle wedged between two lines isn't a weight, it's a guess."
   }
 ]

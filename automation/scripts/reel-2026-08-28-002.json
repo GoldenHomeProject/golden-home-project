@@ -1,58 +1,58 @@
 {
-  "created_at": "2026-08-28T17:51:56.906303Z",
+  "created_at": "2026-08-28T18:52:45.588820Z",
   "date": "2026-08-28",
   "seq": 2,
-  "hook_category": "audience_fit",
-  "hook": "If you rent, you can't change the closet. You can only change what's hanging in it.",
+  "hook_category": "proof",
+  "hook": "A needle wedged between two lines isn't a weight, it's a guess.",
   "scenes": [
     {
       "n": 1,
       "duration_sec": 3,
-      "visual_prompt": "Tight vertical shot of a cramped rental closet rod jammed with mismatched bulky plastic and wooden hangers, clothes compressed together, soft natural window light",
-      "on_screen_text": "SMALL RENTAL CLOSET?",
-      "voiceover": "Renting a closet the size of a coat pocket? Start with the hangers."
+      "visual_prompt": "Close-up shot of the Etekcity digital bathroom scale sitting on a bathroom floor, clean and centered in frame",
+      "on_screen_text": "4.7\u2605 / 348,951 REVIEWS",
+      "voiceover": "348,951 reviews. 4.7 stars. That's a lot of people weighing in."
     },
     {
       "n": 2,
       "duration_sec": 4,
-      "visual_prompt": "Close-up hand sliding a thick wooden hanger and a chunky plastic hanger along a rod, showing how much width each one occupies, shallow depth of field",
-      "on_screen_text": "BULKY HANGERS EAT INCHES",
-      "voiceover": "You can't knock out a wall or install a custom system. The only thing you control is what's on the rod."
+      "visual_prompt": "Overhead shot of bare feet stepping onto the scale on a bathroom tile floor",
+      "on_screen_text": "DIGITAL READOUT",
+      "voiceover": "It's digital \u2014 step on, get a number, done."
     },
     {
       "n": 3,
       "duration_sec": 4,
-      "visual_prompt": "Side-by-side comparison on one rod: bulky hangers on the left, thin velvet hangers on the right, clearly showing the narrower profile and extra space gained",
-      "on_screen_text": "SLIM PROFILE = MORE ROOM",
-      "voiceover": "Amazon Basics slim velvet hangers hold suits and clothes on a narrow profile, so more garments fit on the same rod."
+      "visual_prompt": "Macro shot of the scale's digital display showing a weight reading clearly",
+      "on_screen_text": "NO GUESSWORK",
+      "voiceover": "No dial, no squinting, no guessing between the lines."
     },
     {
       "n": 4,
       "duration_sec": 5,
-      "visual_prompt": "Extreme close-up of a silky camisole strap and a shirt shoulder gripped on the velvet surface of a slim hanger, fabric staying in place, warm soft lighting",
-      "on_screen_text": "4.8 STARS \u00b7 235,105 REVIEWS",
-      "voiceover": "The velvet surface keeps straps and shoulders from sliding off. And 4.8 stars across 235,105 reviews means this design has been stress-tested in an enormous number of real closets."
+      "visual_prompt": "Wide shot of the scale placed neatly next to a bathroom sink and cabinet",
+      "on_screen_text": "$19.88",
+      "voiceover": "Almost 350,000 reviews at 4.7 stars, and it's $19.88."
     },
     {
       "n": 5,
       "duration_sec": 4,
-      "visual_prompt": "Finished vertical shot of a tidy closet rod with evenly spaced garments on uniform slim velvet hangers, visible empty rod space at the end, bright clean lighting",
-      "on_screen_text": "$20.99",
-      "voiceover": "A rod that holds more without changing anything permanent, and clothes that stay where you hung them. Twenty ninety-nine."
+      "visual_prompt": "Final clean product shot of the scale alone on a plain floor background, slight zoom in",
+      "on_screen_text": "ETEKCITY DIGITAL SCALE \u2014 $19.88",
+      "voiceover": "A simple scale that does the one thing it needs to."
     }
   ],
-  "caption": "If you rent, you can't change the closet. You can only change what's hanging in it.\n\nBulky plastic and wood hangers are the real reason a closet feels small \u2014 each one eats an inch of rod that could hold another shirt. Straps slide off smooth surfaces, shoulders lose their shape, and the rod fills up long before the closet actually does.\n\nAmazon Basics' slim velvet non-slip hangers are built for exactly this: a narrow profile that fits more garments on the same rod, plus a velvet surface that keeps straps and shoulders from sliding off. Rating sits at 4.8 stars across 235,105 reviews \u2014 enough closets running the same test to call it settled.\n\nMore hangers fit on the same rod, and what's on them stays put. $20.99 for the set.\n\nComment CLOTHES and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "caption": "A needle wedged between two lines isn't a weight, it's a guess.\n\nA bathroom scale gets bought once and used for years, so a clear number matters more than it seems. Digital removes the angle-reading, squint-at-the-dial guesswork of the old kind.\n\nThe Etekcity Digital Body Weight Bathroom Scale does one job: show a number, no setup required. 348,951 reviews averaging 4.7 stars is enough data to say that holds up past a lucky first batch of reviews.\n\nAt $19.88, it's a low-risk way to stop guessing at your own weight.\n\nComment ETEKCITY and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
   "hashtags": [
     "#amazonhomefinds",
     "#homehacks2026",
     "#smallspacesolutions"
   ],
-  "specific_falsifiable_detail": "Amazon Basics' slim velvet non-slip hangers are built for exactly this: a narrow profile that fits more garments on the same rod, plus a velvet surface that keeps straps and shoulders from sliding off",
+  "specific_falsifiable_detail": "The Etekcity Digital Body Weight Bathroom Scale does one job: show a number, no setup required. 348,951 reviews averaging 4.7 stars is enough data to say that holds up past a lucky first batch of revi",
   "affiliate_strategy": {
-    "primary_product": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers",
-    "dm_keyword": "CLOTHES",
-    "amazon_asin": "B00FXNAAW2",
-    "amazon_affiliate_url": "https://www.amazon.com/dp/B00FXNAAW2?tag=goldenhomep06-20",
+    "primary_product": "Etekcity Digital Body Weight Bathroom Scale",
+    "dm_keyword": "ETEKCITY",
+    "amazon_asin": "B01HI1W1V4",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B01HI1W1V4?tag=goldenhomep06-20",
     "asin_pending": false,
     "fallback_brands": [],
     "affiliate_network": "amazon",
