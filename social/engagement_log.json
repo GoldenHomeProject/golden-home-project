@@ -4,11 +4,11 @@
     "lifetime_follows": 22,
     "lifetime_likes": 33,
     "lifetime_comments": 7,
-    "last_session": "2026-08-28-1335-pi",
+    "last_session": "outreach-2026-08-28T1810Z",
     "blocked_at": null,
-    "last_updated": "2026-08-28T13:36:09Z",
-    "total_actions": 545,
-    "lifetime_dms": 31,
+    "last_updated": "2026-08-28T18:11:07Z",
+    "total_actions": 546,
+    "lifetime_dms": 32,
     "lifetime_comments_outbound": 40
   },
   "actions": [
@@ -23717,6 +23717,15 @@
       ],
       "untapped_warm": [],
       "dry_run": false
+    },
+    {
+      "timestamp": "2026-08-28T18:11:07Z",
+      "action": "dm_sent",
+      "target": "lifeinjeneral",
+      "session": "outreach-2026-08-28T1810Z",
+      "body_chars": 749,
+      "thread_url": "https://www.instagram.com/lifeinjeneral/",
+      "template_tag": "path_c_v2_affiliate_split"
     }
   ]
 }
