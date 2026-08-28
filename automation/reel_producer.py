@@ -22,7 +22,7 @@ import os
 import subprocess
 import sys
 from pathlib import Path
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from urllib import request, parse
 
 from PIL import Image, ImageDraw, ImageFont
@@ -437,9 +437,21 @@ def update_queue(script_path: Path, video_path: Path):
 
 def main():
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    candidates = sorted(SCRIPT_DIR.glob(f"reel-{today}-*.json"))
+    # Render any script from the last week that still has no video, not just today's.
+    # The content engine stamps scripts ~17:00 UTC and this job has run on schedules
+    # that land on the following calendar day, so an exact-date glob printed "No
+    # scripts for <today>" and exited green while yesterday's three scripts sat
+    # permanently unrendered. Same bug the daily poster had one stage downstream.
+    LOOKBACK_DAYS = 7
+    base = datetime.now(timezone.utc)
+    candidates = []
+    for back in range(LOOKBACK_DAYS + 1):
+        day = (base - timedelta(days=back)).strftime("%Y-%m-%d")
+        candidates += sorted(SCRIPT_DIR.glob(f"reel-{day}-*.json"))
+    candidates = [c for c in candidates if not (REEL_DIR / f"{c.stem}.mp4").exists()]
     if not candidates:
-        print(f"[reel-producer] No scripts for {today}. Done.")
+        print(f"[reel-producer] No unrendered scripts in the last "
+              f"{LOOKBACK_DAYS} days (as of {today}). Done.")
         return
 
     print(f"[reel-producer] {len(candidates)} scripts to render")
