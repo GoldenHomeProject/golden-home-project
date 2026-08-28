@@ -25,18 +25,47 @@ import time
 DEFAULT_TIMEOUT = 300  # 5 min — long-form blog posts can run long
 
 
-def _check_auth():
-    # GitHub Actions authenticates the CLI via the CLAUDE_CODE_OAUTH_TOKEN secret.
-    # On the Pi (and local dev) the CLI is already logged in via stored
-    # subscription credentials (~/.claude/.credentials.json) — no env token
-    # needed there. Accept either so the same code runs in both places.
+SECRETS_ENV = os.path.expanduser("~/.ghp-secrets/claude.env")
+
+
+def _load_token_file():
+    """Put the Pi's long-lived token into the environment if it isn't already.
+
+    Every cron line that calls Claude had to remember `. ~/.ghp-secrets/claude.env`,
+    and promote_vetted's line didn't — so `claude -p` failed with "OAuth session
+    expired and could not be refreshed" on every product, silently, and the Instagram
+    queue went empty. Doing it here means a caller cannot forget it.
+    """
     if os.environ.get("CLAUDE_CODE_OAUTH_TOKEN"):
         return
-    if os.path.exists(os.path.expanduser("~/.claude/.credentials.json")):
+    try:
+        with open(SECRETS_ENV) as fh:
+            for line in fh:
+                line = line.strip()
+                if not line or line.startswith("#") or "=" not in line:
+                    continue
+                k, v = line.split("=", 1)
+                k = k.strip().removeprefix("export ").strip()
+                if k == "CLAUDE_CODE_OAUTH_TOKEN":
+                    os.environ[k] = v.strip().strip("'\"")
+                    return
+    except OSError:
+        pass
+
+
+def _check_auth():
+    # GitHub Actions authenticates the CLI via the CLAUDE_CODE_OAUTH_TOKEN secret.
+    # On the Pi the long-lived token lives in ~/.ghp-secrets/claude.env.
+    _load_token_file()
+    if os.environ.get("CLAUDE_CODE_OAUTH_TOKEN"):
         return
+    # NOTE: ~/.claude/.credentials.json is deliberately NOT accepted as proof of auth.
+    # That file persists after the subscription OAuth session expires (which it does
+    # roughly monthly), so treating its existence as "logged in" let jobs sail past
+    # this check and fail one call at a time inside the CLI instead of here.
     raise RuntimeError(
-        "No Claude auth: set CLAUDE_CODE_OAUTH_TOKEN (CI) or log in the CLI "
-        "via `claude setup-token` / `claude login` (local/Pi)."
+        "No Claude auth: set CLAUDE_CODE_OAUTH_TOKEN, or create "
+        f"{SECRETS_ENV} containing CLAUDE_CODE_OAUTH_TOKEN=<token from `claude setup-token`>."
     )
 
 

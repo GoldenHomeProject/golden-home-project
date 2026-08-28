@@ -47,6 +47,7 @@ except ImportError:
 sys.path.insert(0, str(Path(__file__).parent))
 from _claude_api import call_claude_json  # noqa: E402
 from agent_log import append_log_entry  # noqa: E402
+from content_quality_gate import fabrication_match, generic_opener
 
 ROOT = Path(__file__).resolve().parent.parent
 SOCIAL = ROOT / "social"
@@ -330,9 +331,25 @@ Affiliate URL: {aff_url}
 DM keyword (must appear in CTA + caption): {keyword}
 Categories: {cats}
 
+WHO IS WRITING (docs/BRAND_VOICE.md, rev 2026-08-26): the desk that reads Amazon's
+best-seller charts every day and keeps the prices. Nobody here has handled this product.
+
+HONESTY RULE — NON-NEGOTIABLE: never claim first-hand use. No "I tried/I bought/I had/
+I avoided", no "my kitchen/my closet", no "three weeks ago", no invented result. Write
+second person ("your cabinet") or plain description. Ratings, review counts, dimensions
+and price are the evidence — and they are more persuasive than a story a reader
+half-suspects is fake.
+
+BANNED OPENERS (every AI affiliate account uses these): Picture this, Imagine, Let's be
+honest, Here's the thing, We've all been there, Ever wonder, Tired of, Say goodbye to,
+POV:, Stop scrolling, I spent $X.
+
 Slides:
-  1. HOOK — bold one-line promise that earns the swipe. 10-15 words MAX.
-     Concrete, specific, no "I spent $X" patterns (dead format).
+  1. HOOK — 10-15 words MAX, earns the swipe. Pick ONE angle and commit:
+     confrontation with received wisdom / second-person scene (reader in the room,
+     no narrator) / review count as the argument / a real constraint (renting, no
+     drilling, shared bathroom) / what the charts actually show.
+     One falsifiable detail beats ten adjectives. Don't name the product in the hook.
   2. TIP 1 — one specific tactical tip about the problem this product
      solves. 18-30 words. Useful even if reader never buys.
   3. TIP 2 — second specific tip. 18-30 words.
@@ -366,7 +383,22 @@ Return STRICT JSON:
 }}"""
     # max_turns=3 (not 1): the CLI intermittently needs an extra turn before
     # emitting the JSON and rc=1's with "Reached max turns" — this gives headroom.
-    return call_claude_json(prompt, max_tokens=2048, max_turns=3, timeout=180)
+    content = call_claude_json(prompt, max_tokens=2048, max_turns=3, timeout=180)
+    if not content:
+        return content
+    # Same gate the reel path uses. The prompt asks for honesty; this enforces it,
+    # because a prompt is a request and a check is a guarantee.
+    blob = " ".join(str(content.get(k, "")) for k in
+                    ("slide_1", "slide_2", "slide_3", "slide_4", "slide_5", "caption"))
+    bad = fabrication_match(blob)
+    if bad:
+        print(f"[carousel] REJECTED — fabricated first-hand experience: {bad!r}")
+        return None
+    stock = generic_opener(str(content.get("slide_1", "")))
+    if stock:
+        print(f"[carousel] REJECTED — stock AI opener: {stock!r}")
+        return None
+    return content
 
 
 def main() -> int:
