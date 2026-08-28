@@ -22,6 +22,7 @@ import time
 import requests
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from content_quality_gate import fabrication_match
 
 # ── Paths (relative to repo root in GitHub Actions checkout)
 REPO_ROOT   = Path(__file__).parent.parent
@@ -107,6 +108,18 @@ def pick_dynamic_entry(date_str, lookback_days=7):
             continue
         title = (data.get("hook") or data.get("title") or "").strip().rstrip(".")
         if not title:
+            continue
+        # Last gate before anything reaches YouTube or Instagram. Reels rendered from
+        # scripts written before the 2026-08-26 honesty rules are still in the queue -
+        # one has "SO I GAVE UP" burned into the video - and the widened lookback makes
+        # them selectable. Nothing claiming experience nobody here had gets published.
+        blob = " ".join([
+            title, str(data.get("caption", "")),
+            " ".join(str(sc.get("on_screen_text", "")) for sc in data.get("scenes", []) or []),
+        ])
+        bad = fabrication_match(blob)
+        if bad:
+            print(f"  [dynamic] {script_path.name} claims first-hand use ({bad!r}) — skipping")
             continue
         return {
             "date": date_str,

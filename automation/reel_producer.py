@@ -29,6 +29,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 sys.path.insert(0, str(Path(__file__).parent))
 from agent_log import append_log_entry
+from content_quality_gate import fabrication_match
 
 ROOT = Path(__file__).resolve().parent.parent
 SCRIPT_DIR = ROOT / "automation" / "scripts"
@@ -521,6 +522,27 @@ def main():
         day = (base - timedelta(days=back)).strftime("%Y-%m-%d")
         candidates += sorted(SCRIPT_DIR.glob(f"reel-{day}-*.json"))
     candidates = [c for c in candidates if not (REEL_DIR / f"{c.stem}.mp4").exists()]
+    # The lookback window reaches back past the 2026-08-26 honesty rules, so the
+    # backlog still holds scripts with invented experience. One rendered here with
+    # "SO I GAVE UP" burned into the frame. On-screen text was never gated - only
+    # captions were - so nothing downstream would have caught it before posting.
+    keep = []
+    for c in candidates:
+        try:
+            data = json.loads(c.read_text())
+        except (json.JSONDecodeError, OSError):
+            continue
+        blob = " ".join([
+            str(data.get("hook", "")), str(data.get("caption", "")),
+            " ".join(str(sc.get("on_screen_text", "")) for sc in data.get("scenes", []) or []),
+            " ".join(str(sc.get("voiceover", "")) for sc in data.get("scenes", []) or []),
+        ])
+        bad = fabrication_match(blob)
+        if bad:
+            print(f"  SKIP {c.name} — fabricated experience in script: {bad!r}")
+            continue
+        keep.append(c)
+    candidates = keep
     # Newest first, capped. The first run with a widened window found a multi-day
     # backlog, rendered 20-odd reels and hit the 30-minute job timeout mid-render.
     # We post one reel a day, so a handful of fresh ones per run keeps the poster
