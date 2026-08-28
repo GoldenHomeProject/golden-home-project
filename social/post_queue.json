@@ -5277,10 +5277,10 @@
   },
   {
     "name": "reel_2026-08-21_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-08-21-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-21-001.mp4",
     "caption": "Pillow covers are cheap. The insert inside them is why yours look flat.\n\nA decorative cover is only as good as what's stuffed in it. If your throw pillows sag in the middle or look half-empty at the corners, that's the insert, not the cover. Swapping inserts is the cheaper fix \u2014 you keep every cover you already own.\n\nThe Utopia Bedding 18x18 Pillow Inserts are standard 18-by-18 forms sized for the most common throw pillow cover on the market. With 218,437 reviews holding a 4.6-star average, this is a product a very large number of people have bought and rated well \u2014 that volume is about as close to a consensus as a basic home item gets.\n\nYou get filled-out pillows on the covers already sitting on your couch, without replacing a single one. $13.49.\n\nComment BEDDING and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -5297,7 +5297,8 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "Pillow covers are cheap. The insert inside them is why yours look flat."
+    "hook": "Pillow covers are cheap. The insert inside them is why yours look flat.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-21-001.mp4"
   },
   {
     "name": "reel_2026-08-21_002",
@@ -6058,10 +6059,10 @@
   },
   {
     "name": "reel_2026-08-28_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-08-28-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-28-001.mp4",
     "caption": "A $24.99 purchase collected 450,137 reviews. That kind of number does not happen by accident.\n\nBedding reviews usually build slowly, since most people only think about their sheets when something is wrong with them. A product can rack up a few thousand five-star tags on marketing alone. It does not climb into six figures without years of repeat buyers coming back to confirm it still holds up.\n\nThis is the queen size 4 piece sheet set behind that count, covering a full bed in one purchase instead of piecing together separate items. At 4.5 stars across 450,137 reviews, the average has held steady long after any early hype would have faded.\n\nFor a queen bed, that combination of scale and rating makes this the low-risk pick at $24.99.\n\nComment QUEEN and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -6078,14 +6079,15 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "A $24.99 purchase collected 450,137 reviews. That kind of number does not happen by accident."
+    "hook": "A $24.99 purchase collected 450,137 reviews. That kind of number does not happen by accident.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-28-001.mp4"
   },
   {
     "name": "reel_2026-08-28_002",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-08-28-002.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-28-002.mp4",
     "caption": "A needle wedged between two lines isn't a weight, it's a guess.\n\nA bathroom scale gets bought once and used for years, so a clear number matters more than it seems. Digital removes the angle-reading, squint-at-the-dial guesswork of the old kind.\n\nThe Etekcity Digital Body Weight Bathroom Scale does one job: show a number, no setup required. 348,951 reviews averaging 4.7 stars is enough data to say that holds up past a lucky first batch of reviews.\n\nAt $19.88, it's a low-risk way to stop guessing at your own weight.\n\nComment ETEKCITY and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -6102,6 +6104,7 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "A needle wedged between two lines isn't a weight, it's a guess."
+    "hook": "A needle wedged between two lines isn't a weight, it's a guess.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-28-002.mp4"
   }
 ]
