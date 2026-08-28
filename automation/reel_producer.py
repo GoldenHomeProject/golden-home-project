@@ -113,8 +113,12 @@ def _query_ladder(prompt: str, product: str = "") -> list:
         # brand ("Etekcity Digital Bathroom Scale") and no stock library has photos
         # of "etekcity". The last few words are the generic noun phrase that does
         # exist - "digital bathroom scale".
-        ladder.insert(1, " ".join(prod_words[-3:]))
-        ladder.append(" ".join(prod_words[-2:]))
+        # Product FIRST, not second. Pexels almost always returns something for a
+        # cinematic verb phrase, so a scene-prompt-first ladder never reached the
+        # product query at all - "overhead bare feet stepping" kept winning and the
+        # reel showed feet on a garden step under the caption DIGITAL READOUT.
+        ladder.insert(0, " ".join(prod_words[-3:]))
+        ladder.insert(1, " ".join(prod_words[-2:]))
     # Last resort: a generic but on-brand interior query, so the worst case is
     # still a real photograph of a home rather than an invented product.
     ladder.append("tidy home interior")
@@ -127,7 +131,8 @@ STOP_WORDS = {
 }
 
 
-def fetch_pexels_photo(prompt: str, out_path: Path, product: str = "") -> bool:
+def fetch_pexels_photo(prompt: str, out_path: Path, product: str = "",
+                       pick: int = 0) -> bool:
     """Search Pexels for a real portrait-orientation photo matching the prompt.
 
     Free key, 200 req/hr, 20k/mo — already in PEXELS_API_KEY secret.
@@ -139,16 +144,16 @@ def fetch_pexels_photo(prompt: str, out_path: Path, product: str = "") -> bool:
         print("    ::warning:: PEXELS_API_KEY unset — real photos unavailable")
         return False
     for query in _query_ladder(prompt, product):
-        if _pexels_try(query, out_path):
+        if _pexels_try(query, out_path, pick):
             return True
     return False
 
 
-def _pexels_try(query: str, out_path: Path) -> bool:
+def _pexels_try(query: str, out_path: Path, pick: int = 0) -> bool:
     enc = parse.quote(query)
     url = (
         f"https://api.pexels.com/v1/search?query={enc}"
-        f"&per_page=5&orientation=portrait&size=large"
+        f"&per_page=12&orientation=portrait&size=large"
     )
     # Pexels 403s the bare urllib User-Agent from datacenter IPs: the identical key
     # returns 200 from the Pi (curl) and 403 from a GitHub Actions runner. Send a
@@ -168,7 +173,10 @@ def _pexels_try(query: str, out_path: Path) -> bool:
     if not photos:
         return False
     # Prefer the largest available (`original` if present, else `large2x`/`large`).
-    src = photos[0].get("src", {}) or {}
+    # Every scene used photos[0], so a product-first ladder would put the identical
+    # image behind all five scenes. Step through the result set instead.
+    photo = photos[pick % len(photos)]
+    src = photo.get("src", {}) or {}
     img_url = src.get("original") or src.get("large2x") or src.get("large")
     if not img_url:
         return False
@@ -179,7 +187,7 @@ def _pexels_try(query: str, out_path: Path) -> bool:
         if len(img_bytes) < 5000:
             raise ValueError(f"Pexels image too small ({len(img_bytes)} bytes)")
         out_path.write_bytes(img_bytes)
-        print(f"    pexels hit: query='{query}' photographer={photos[0].get('photographer','?')}")
+        print(f"    pexels hit: query='{query}' photographer={photo.get('photographer','?')}")
         return True
     except Exception as e:
         print(f"    pexels download failed: {e}")
@@ -204,13 +212,14 @@ def pollinations_url(prompt: str) -> str:
     )
 
 
-def fetch_scene_bg(prompt: str, out_path: Path, product: str = "") -> bool:
+def fetch_scene_bg(prompt: str, out_path: Path, product: str = "",
+                   pick: int = 0) -> bool:
     """Try Pexels real photo first; fall back to Pollinations AI on miss.
 
     Returns False only if both sources fail across all retries — caller then
     uses fallback_bg() branded gradient so a render never crashes.
     """
-    if fetch_pexels_photo(prompt, out_path, product):
+    if fetch_pexels_photo(prompt, out_path, product, pick):
         return True
     # AI imagery is now OPT-IN, not the automatic fallback.
     #
@@ -494,7 +503,7 @@ def produce_reel(script_path: Path) -> Path | None:
         clip_path = work_dir / f"clip_{n:02d}.mp4"
 
         print(f"    scene {n}: {visual[:60]}")
-        if not visual or not fetch_scene_bg(visual, bg_path, product_hint):
+        if not visual or not fetch_scene_bg(visual, bg_path, product_hint, pick=i):
             fallback_bg(bg_path)
 
         compose_scene_frame(bg_path, on_text, frame_path, accent=(n == 1))
