@@ -32,7 +32,30 @@ LOGS_DIR    = Path(__file__).parent / "logs"
 LOGS_DIR.mkdir(exist_ok=True)
 
 
-def pick_dynamic_entry(date_str):
+def already_posted_sources():
+    """Script paths this poster has already shipped, read off its own logs.
+
+    Widening the search window past a single day means yesterday's reel becomes
+    eligible again tomorrow. Without this the poster would republish the same video
+    every night until new content appeared - which is exactly what the Instagram
+    poster did for six nights in a row once before.
+    """
+    seen = set()
+    for log in LOGS_DIR.glob("gh_post_*.json"):
+        try:
+            d = json.loads(log.read_text())
+        except (json.JSONDecodeError, OSError):
+            continue
+        # Logs written before 2026-08-28 recorded only the video filename in "video"
+        # ("source" held the label "reel_producer"), so match on both or the widened
+        # window would happily republish everything already shipped.
+        for key in ("source", "video"):
+            if d.get(key):
+                seen.add(str(d[key]))
+    return seen
+
+
+def pick_dynamic_entry(date_str, lookback_days=7):
     """Build a daily-poster entry from today's reel-producer output.
 
     Looks for `automation/scripts/reel-<date>-NNN.json` produced by the
@@ -48,8 +71,20 @@ def pick_dynamic_entry(date_str):
     """
     if not SCRIPTS_DIR.exists():
         return None
-    candidates = sorted(SCRIPTS_DIR.glob(f"reel-{date_str}-*.json"), reverse=True)
+    # Search back from `date_str` rather than demanding a same-day file. The content
+    # engine renders at ~17:00 UTC and this poster runs at ~01:15 UTC, so "today" here
+    # is the calendar day AFTER the day the scripts were stamped with - the exact-date
+    # glob could essentially never match, and the run exited green having posted
+    # nothing. That silent miss cost 4 of the last 6 days.
+    posted = already_posted_sources()
+    base = datetime.strptime(date_str, "%Y-%m-%d")
+    candidates = []
+    for back in range(lookback_days + 1):
+        day = (base - timedelta(days=back)).strftime("%Y-%m-%d")
+        candidates += sorted(SCRIPTS_DIR.glob(f"reel-{day}-*.json"), reverse=True)
     for script_path in candidates:
+        if str(script_path.relative_to(REPO_ROOT)) in posted:
+            continue
         try:
             data = json.loads(script_path.read_text())
         except (json.JSONDecodeError, OSError):
@@ -57,8 +92,11 @@ def pick_dynamic_entry(date_str):
         seq = data.get("seq") or script_path.stem.split("-")[-1]
         if isinstance(seq, int):
             seq = f"{seq:03d}"
-        video_path = REELS_DIR / f"reel-{date_str}-{seq}.mp4"
+        script_day = script_path.stem.split("-", 1)[1].rsplit("-", 1)[0]
+        video_path = REELS_DIR / f"reel-{script_day}-{seq}.mp4"
         if not video_path.exists():
+            continue
+        if video_path.name in posted:
             continue
         aff = data.get("affiliate_strategy") or {}
         asin = aff.get("amazon_asin")
@@ -521,7 +559,10 @@ def main():
     fb_id = post_fb_page_video(video_file, title, description, meta_tokens, video_dir=video_dir)
 
     log = {"date": today, "title": title, "youtube": yt_id, "instagram": ig_id,
-           "facebook": fb_id, "video": video_file, "source": source}
+           "facebook": fb_id, "video": video_file,
+           # The SCRIPT path, not the "calendar"/"reel_producer" label - this is what
+           # already_posted_sources() reads to avoid shipping the same reel twice.
+           "source": entry.get("source", source), "source_kind": source}
     log_path = LOGS_DIR / f"gh_post_{today}.json"
     with open(log_path, "w") as f:
         json.dump(log, f, indent=2)
