@@ -259,6 +259,18 @@ PAGES_REELS_BASE = "https://goldenhomeproject.com/social/reels"
 FB_PAGE_ID = "973754055831729"
 
 
+GITHUB_REPO = os.environ.get("GITHUB_REPOSITORY", "GoldenHomeProject/golden-home-project")
+
+
+def _url_ok(url, timeout=15):
+    """True if `url` serves a real file right now."""
+    try:
+        r = requests.head(url, timeout=timeout, allow_redirects=True)
+        return r.ok
+    except requests.RequestException:
+        return False
+
+
 def pages_video_url(video_file, video_dir=None):
     """Resolve the public GitHub Pages URL for a daily-poster video.
 
@@ -266,7 +278,21 @@ def pages_video_url(video_file, video_dir=None):
     Anything else -> videos/transformation/<file> (legacy APRIL_CALENDAR videos).
     """
     base = PAGES_REELS_BASE if video_dir == "reels" else PAGES_BASE
-    return f"{base}/{video_file}"
+    url = f"{base}/{video_file}"
+    # A video pushed by a workflow does not trigger the Pages deploy (GitHub does not
+    # re-fire workflows for pushes made with GITHUB_TOKEN), so a freshly rendered reel
+    # 404s on the custom domain until some later, unrelated push happens to redeploy.
+    # Meta then fails the media container with a bare status_code: ERROR and the post
+    # is silently skipped - which is what happened to Instagram on 2026-08-28 while
+    # YouTube, which uploads the file directly, went out fine.
+    # raw.githubusercontent serves straight from the repo the moment the push lands.
+    if not _url_ok(url):
+        raw = (f"https://raw.githubusercontent.com/{GITHUB_REPO}/main/"
+               f"{'social/reels' if video_dir == 'reels' else 'videos/transformation'}/"
+               f"{video_file}")
+        print(f"  [video] {url} not live yet -> using {raw}")
+        return raw
+    return url
 
 
 def amazon(asin, tag, channel=None, date=None):
