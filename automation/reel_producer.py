@@ -136,7 +136,14 @@ def _pexels_try(query: str, out_path: Path) -> bool:
         f"https://api.pexels.com/v1/search?query={enc}"
         f"&per_page=5&orientation=portrait&size=large"
     )
-    req = request.Request(url, headers={"Authorization": PEXELS_API_KEY})
+    # Pexels 403s the bare urllib User-Agent from datacenter IPs: the identical key
+    # returns 200 from the Pi (curl) and 403 from a GitHub Actions runner. Send a
+    # normal UA and Accept header so the request looks like any other client.
+    req = request.Request(url, headers={
+        "Authorization": PEXELS_API_KEY,
+        "User-Agent": "GoldenHomeProject/1.0 (+https://goldenhomeproject.com)",
+        "Accept": "application/json",
+    })
     try:
         with request.urlopen(req, timeout=20) as r:
             data = json.loads(r.read())
