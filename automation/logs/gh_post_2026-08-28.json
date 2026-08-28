@@ -1,6 +1,10 @@
 {
   "date": "2026-08-28",
-  "status": "no_content_available",
-  "calendar_last_date": "2026-05-10",
-  "checked_dynamic_path": "automation/scripts/reel-2026-08-28-*.json"
+  "title": "450,137 reviews on a $24.99 sheet set. That number is the whole story",
+  "youtube": "ydgt7xI3mxs",
+  "instagram": null,
+  "facebook": null,
+  "video": "reel-2026-08-27-003.mp4",
+  "source": "automation/scripts/reel-2026-08-27-003.json",
+  "source_kind": "reel_producer"
 }
