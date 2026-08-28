@@ -50,13 +50,21 @@ MUSIC_GAIN = 0.08
 RAW_URL_BASE = "https://goldenhomeproject.com"
 
 WIDTH, HEIGHT = 1080, 1920
+# Instagram/YouTube chrome: keep content out of these margins.
+SAFE_TOP, SAFE_BOTTOM = 130, 300
 ACCENT_COLOR = (212, 167, 69)
 TEXT_COLOR = (255, 253, 247)
 SHADOW_COLOR = (0, 0, 0)
 
+# DejaVu Bold is the default on every Linux box, so anything set in it reads as
+# "rendered by a script." Prefer a tighter grotesque - the workflow installs
+# fonts-inter and fonts-open-sans - and keep DejaVu only as a last resort.
 FONT_CANDIDATES = [
-    "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+    "/usr/share/fonts/truetype/inter/Inter-Bold.ttf",
+    "/usr/share/fonts/opentype/inter/Inter-Bold.otf",
+    "/usr/share/fonts/truetype/open-sans/OpenSans-Bold.ttf",
     "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf",
+    "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
     "/System/Library/Fonts/Helvetica.ttc",
 ]
 
@@ -71,21 +79,38 @@ def find_font(size: int) -> ImageFont.FreeTypeFont:
 PEXELS_API_KEY = os.environ.get("PEXELS_API_KEY", "").strip()
 
 
-def _short_query(prompt: str) -> str:
-    """Pexels search works better with 2–4 nouns, not full sentences.
+def _query_ladder(prompt: str) -> list:
+    """Pexels queries from most to least specific.
 
-    Strip filler like 'first-person POV', 'close-up of', 'person', etc.,
-    keep the concrete object/scene words.
+    A single 5-word query missed so often that every frame fell through to the AI
+    fallback. Pexels matches on stock-photo vocabulary, so "expandable under-sink
+    organizer rack" returns nothing while "under sink organizer" and then "kitchen
+    storage" do. Try the specific one first and widen only as needed - a real photo
+    of roughly the right thing beats a hallucinated photo of exactly it.
     """
     p = prompt.lower()
     for cue in (
         "first-person pov", "close-up of", "tight close-up of", "shot of",
-        "view of", "image of", "photo of", "picture of",
+        "view of", "image of", "picture of", "photo of",
     ):
         p = p.replace(cue, " ")
-    # Keep first 5 words after cleanup; Pexels prefers short queries.
-    words = [w for w in p.replace(",", " ").split() if w and len(w) > 2]
-    return " ".join(words[:5]).strip()
+    words = [w for w in p.replace(",", " ").replace("-", " ").split()
+             if w and len(w) > 2 and w not in STOP_WORDS]
+    ladder = []
+    for n in (4, 3, 2, 1):
+        q = " ".join(words[:n]).strip()
+        if q and q not in ladder:
+            ladder.append(q)
+    # Last resort: a generic but on-brand interior query, so the worst case is
+    # still a real photograph of a home rather than an invented product.
+    ladder.append("tidy home interior")
+    return ladder
+
+
+STOP_WORDS = {
+    "the", "and", "with", "for", "into", "onto", "from", "that", "this",
+    "your", "their", "over", "under-", "very", "using", "used", "showing",
+}
 
 
 def fetch_pexels_photo(prompt: str, out_path: Path) -> bool:
@@ -95,10 +120,17 @@ def fetch_pexels_photo(prompt: str, out_path: Path) -> bool:
     Returns False on miss or API failure so caller can fall back.
     """
     if not PEXELS_API_KEY:
+        # This returned False silently for months. The secret existed; the workflow
+        # just never passed it in, so every single frame came from the AI fallback.
+        print("    ::warning:: PEXELS_API_KEY unset — real photos unavailable")
         return False
-    query = _short_query(prompt)
-    if not query:
-        return False
+    for query in _query_ladder(prompt):
+        if _pexels_try(query, out_path):
+            return True
+    return False
+
+
+def _pexels_try(query: str, out_path: Path) -> bool:
     enc = parse.quote(query)
     url = (
         f"https://api.pexels.com/v1/search?query={enc}"
@@ -159,6 +191,20 @@ def fetch_scene_bg(prompt: str, out_path: Path) -> bool:
     """
     if fetch_pexels_photo(prompt, out_path):
         return True
+    # AI imagery is now OPT-IN, not the automatic fallback.
+    #
+    # On 2026-08-27 a reel whose script said the scale is digital - "a clear number
+    # on a screen instead of squinting at a needle" - shipped over an AI image of an
+    # ANALOG DIAL scale with garbled fake lettering ("DEON") on its face. The picture
+    # contradicted the pitch and advertised a product that does not exist. Every
+    # frame that day was AI, because the Pexels key was never wired in.
+    #
+    # A branded typographic card is worse-looking than a good photo and much better
+    # than a convincing lie, so that is the default fallback now. Set
+    # GHP_ALLOW_AI_IMAGES=1 to restore the old behaviour.
+    if os.environ.get("GHP_ALLOW_AI_IMAGES", "").strip() not in ("1", "true", "yes"):
+        print("    no Pexels match — using branded card (AI images disabled)")
+        return False
     url = pollinations_url(prompt)
     req = request.Request(url, headers={"User-Agent": "GHP-ReelProducer/1.0"})
     for attempt in range(3):
@@ -228,7 +274,23 @@ def compose_scene_frame(bg_path: Path, on_screen_text: str, out_path: Path,
 
         line_h = int(font_size * 1.2)
         total_h = line_h * len(lines)
-        y0 = int(HEIGHT * 0.62) - total_h // 2
+        # Instagram overlays its caption, audio strip and action buttons across the
+        # bottom ~300px and the top ~130px of a Reel. Text centred at 0.62*H drifted
+        # into that zone on 3-line copy. Anchor the block inside the safe band.
+        y0 = int(HEIGHT * 0.60) - total_h // 2
+        y0 = max(SAFE_TOP + 40, min(y0, HEIGHT - SAFE_BOTTOM - total_h - 40))
+
+        # A drop shadow alone is not enough over a bright or busy photo - the first
+        # frame of the 8/27 reel put gold text across a pale scale and the stat was
+        # barely readable. Lay a soft dark panel behind the block instead.
+        pad_x, pad_y = 46, 34
+        widest = max((font.getbbox(l)[2] - font.getbbox(l)[0]) for l in lines)
+        box = [(WIDTH - widest) // 2 - pad_x, y0 - pad_y,
+               (WIDTH + widest) // 2 + pad_x, y0 + total_h + pad_y]
+        scrim = Image.new("RGBA", (WIDTH, HEIGHT), (0, 0, 0, 0))
+        ImageDraw.Draw(scrim).rounded_rectangle(box, radius=28, fill=(0, 0, 0, 150))
+        img = Image.alpha_composite(img.convert("RGBA"), scrim).convert("RGB")
+        draw = ImageDraw.Draw(img)
 
         for i, line in enumerate(lines):
             bbox = font.getbbox(line)
@@ -240,8 +302,11 @@ def compose_scene_frame(bg_path: Path, on_screen_text: str, out_path: Path,
             color = ACCENT_COLOR if accent else TEXT_COLOR
             draw.text((x, y), line, fill=color, font=font)
 
+    # The handle sat at HEIGHT-70 and was clipped by the frame edge - visibly cut in
+    # half on the published 8/27 reel, and under Instagram's own UI besides.
     wfont = find_font(34)
-    draw.text((42, HEIGHT - 70), "@goldenhomeproject", fill=ACCENT_COLOR, font=wfont)
+    draw.text((48, HEIGHT - SAFE_BOTTOM + 24), "@goldenhomeproject",
+              fill=ACCENT_COLOR, font=wfont)
 
     img.save(out_path, "JPEG", quality=92, optimize=True)
 

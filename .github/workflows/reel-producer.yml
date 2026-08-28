@@ -24,7 +24,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Install ffmpeg
-        run: sudo apt-get update && sudo apt-get install -y ffmpeg fonts-dejavu-core
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg fonts-dejavu-core fonts-inter fonts-open-sans
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -35,6 +35,14 @@ jobs:
         run: pip install Pillow edge-tts
 
       - name: Render Reels
+        # PEXELS_API_KEY was never passed into this job, so fetch_pexels_photo()
+        # failed every single time and every frame silently fell back to
+        # Pollinations AI - which renders garbled fake text on products and, on
+        # 2026-08-27, an analog dial scale for a reel whose script said the product
+        # is digital. The 2026-04-30 "real photos, not AI" pivot never took effect
+        # because of this one missing line.
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
         run: python3 automation/reel_producer.py
 
       - name: Commit Reel MP4s, queue, agent log
