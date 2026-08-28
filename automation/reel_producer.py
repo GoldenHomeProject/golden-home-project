@@ -80,7 +80,7 @@ def find_font(size: int) -> ImageFont.FreeTypeFont:
 PEXELS_API_KEY = os.environ.get("PEXELS_API_KEY", "").strip()
 
 
-def _query_ladder(prompt: str) -> list:
+def _query_ladder(prompt: str, product: str = "") -> list:
     """Pexels queries from most to least specific.
 
     A single 5-word query missed so often that every frame fell through to the AI
@@ -102,6 +102,19 @@ def _query_ladder(prompt: str) -> list:
         q = " ".join(words[:n]).strip()
         if q and q not in ladder:
             ladder.append(q)
+    # Scene prompts are written cinematically ("overhead bare feet stepping"), which
+    # Pexels happily answers with bare feet on a garden step - a real photo of the
+    # wrong thing. Fall back to the product itself before going generic, so a miss
+    # lands on the object being sold rather than on whatever the verb suggested.
+    prod_words = [w for w in (product or "").lower().replace("-", " ").split()
+                  if len(w) > 2 and w not in STOP_WORDS and w.isalpha()][:6]
+    if prod_words:
+        # Use the TAIL of the product name, not the head: Amazon titles lead with a
+        # brand ("Etekcity Digital Bathroom Scale") and no stock library has photos
+        # of "etekcity". The last few words are the generic noun phrase that does
+        # exist - "digital bathroom scale".
+        ladder.insert(1, " ".join(prod_words[-3:]))
+        ladder.append(" ".join(prod_words[-2:]))
     # Last resort: a generic but on-brand interior query, so the worst case is
     # still a real photograph of a home rather than an invented product.
     ladder.append("tidy home interior")
@@ -114,7 +127,7 @@ STOP_WORDS = {
 }
 
 
-def fetch_pexels_photo(prompt: str, out_path: Path) -> bool:
+def fetch_pexels_photo(prompt: str, out_path: Path, product: str = "") -> bool:
     """Search Pexels for a real portrait-orientation photo matching the prompt.
 
     Free key, 200 req/hr, 20k/mo — already in PEXELS_API_KEY secret.
@@ -125,7 +138,7 @@ def fetch_pexels_photo(prompt: str, out_path: Path) -> bool:
         # just never passed it in, so every single frame came from the AI fallback.
         print("    ::warning:: PEXELS_API_KEY unset — real photos unavailable")
         return False
-    for query in _query_ladder(prompt):
+    for query in _query_ladder(prompt, product):
         if _pexels_try(query, out_path):
             return True
     return False
@@ -191,13 +204,13 @@ def pollinations_url(prompt: str) -> str:
     )
 
 
-def fetch_scene_bg(prompt: str, out_path: Path) -> bool:
+def fetch_scene_bg(prompt: str, out_path: Path, product: str = "") -> bool:
     """Try Pexels real photo first; fall back to Pollinations AI on miss.
 
     Returns False only if both sources fail across all retries — caller then
     uses fallback_bg() branded gradient so a render never crashes.
     """
-    if fetch_pexels_photo(prompt, out_path):
+    if fetch_pexels_photo(prompt, out_path, product):
         return True
     # AI imagery is now OPT-IN, not the automatic fallback.
     #
@@ -455,6 +468,13 @@ def produce_reel(script_path: Path) -> Path | None:
         print(f"  {script_path.name}: no scenes, skipping")
         return None
 
+    # What the reel is actually selling — used to steer photo search back to the
+    # object when a cinematic scene prompt drifts.
+    aff = script.get("affiliate_strategy") or {}
+    product_hint = str(aff.get("primary_product") or script.get("product_name") or "")
+    for junk in ("(", ")", ",", "-", "/"):
+        product_hint = product_hint.replace(junk, " ")
+
     stem = script_path.stem
     work_dir = REEL_DIR / f"_work_{stem}"
     work_dir.mkdir(exist_ok=True)
@@ -474,7 +494,7 @@ def produce_reel(script_path: Path) -> Path | None:
         clip_path = work_dir / f"clip_{n:02d}.mp4"
 
         print(f"    scene {n}: {visual[:60]}")
-        if not visual or not fetch_scene_bg(visual, bg_path):
+        if not visual or not fetch_scene_bg(visual, bg_path, product_hint):
             fallback_bg(bg_path)
 
         compose_scene_frame(bg_path, on_text, frame_path, accent=(n == 1))
