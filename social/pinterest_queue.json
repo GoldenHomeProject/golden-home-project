@@ -1965,5 +1965,61 @@
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "posted_at": "2026-08-27T23:27:02Z"
+  },
+  {
+    "id": "pin-2026-08-28-B010S5VXKC",
+    "asin": "B010S5VXKC",
+    "board": "Bathroom Storage Ideas",
+    "title": "Fast-Drying Cotton Bathroom Washcloths for Small Linen Closet Storage",
+    "description": "Amazon Basics cotton washcloths measure 12 x 12 inches, machine washable, and are built for fast drying and high absorbency \u2014 specs worth checking before you stock a bathroom shelf, under-sink bin, or small linen closet. Priced at $18.39, white cotton shows wear early so you know when to rotate stock. Good fit for dorm or rental bathrooms with limited storage. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B010S5VXKC?tag=goldenhomep06-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-08-28-B010S5VXKC.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-28-B010S5VXKC.png",
+    "queued_at": "2026-08-28T10:10:27.377380Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-08-28-B08DTH86Q2",
+    "asin": "B08DTH86Q2",
+    "board": "Home Organization Finds",
+    "title": "Queen Bed Pillows Set of 2 - Hotel Style Gusset Pillows, Down Alternative",
+    "description": "This Utopia Bedding set pairs two queen-size gusset pillows with a cotton-blend cover and down-alternative fill, the gusseted side panels hotels use to keep loft at the edges instead of collapsing flat. At $24.77 for the pair, it's priced as a two-pillow replacement, not a single premium pillow. Tap through for sizing, fill weight, and care details before you add to cart. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B08DTH86Q2?tag=goldenhomep06-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-08-28-B08DTH86Q2.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-28-B08DTH86Q2.png",
+    "queued_at": "2026-08-28T10:11:17.013497Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-08-28-B00WSWGVZQ",
+    "asin": "B00WSWGVZQ",
+    "board": "Home Organization Finds",
+    "title": "Spin Mop Bucket System - O-Cedar EasyWring Microfiber Floor Mop, $34.96",
+    "description": "O-Cedar's EasyWring spin mop bucket system pairs a microfiber mop head with a foot-pedal wringer, so floors get cleaned without wringing by hand. Tracked at $34.96, it's sold in red or gray and works on hardwood, tile, and laminate. Reviewers repeatedly point to the hands-free wringer and the washable, reusable mop head. Tap through for current pricing and specs. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B00WSWGVZQ?tag=goldenhomep06-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-08-28-B00WSWGVZQ.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-28-B00WSWGVZQ.png",
+    "queued_at": "2026-08-28T10:11:52.954627Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-08-28-B011CBJGZK",
+    "asin": "B011CBJGZK",
+    "board": "Bathroom Storage Ideas",
+    "title": "Rust Proof Stainless Steel Shower Curtain Hooks, Set of 12 for Bathroom Shower Rods",
+    "description": "Amazer shower curtain hooks come as a set of 12, made from rust proof stainless steel meant to handle daily bathroom moisture. Priced at $6.99, a low-cost way to dress up a shower rod without buying a new curtain. Decorative finish pairs with brushed nickel or chrome fixtures, and the rounded design glides along the rod. Check current price and photos before you tap through. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B011CBJGZK?tag=goldenhomep06-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-08-28-B011CBJGZK.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-28-B011CBJGZK.png",
+    "queued_at": "2026-08-28T10:12:32.153831Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
   }
 ]
