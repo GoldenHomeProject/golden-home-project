@@ -5413,10 +5413,10 @@
   },
   {
     "name": "reel_2026-08-22_003",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-08-22-003.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-22-003.mp4",
     "caption": "A cluttered cabinet turns into a guessing game every time you go looking for something.\n\nBottles and jars get pushed to the back, labels end up facing every direction, and reaching the one thing you need means pulling out three others first.\n\nA set of 4 non-skid 10-inch lazy susan turntable organizers is built to fix exactly that, and it holds 4.7 stars across 6,190 reviews.\n\nAt $24.99 for the set, it's a small, cheap fix for a daily annoyance: spin instead of dig, and everything stays visible and within reach.\n\nComment TURNTABLE and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #kitchenorganization #smallspacesolutions #undersinkstorage",
     "hashtags": [
       "#amazonhomefinds",
@@ -5434,7 +5434,8 @@
       "affiliate_network": "amazon",
       "affiliate_url": "https://www.amazon.com/dp/B0B3WSZ3QP?tag=goldenhomep06-20"
     },
-    "hook": "A cluttered cabinet turns into a guessing game every time you go looking for something."
+    "hook": "A cluttered cabinet turns into a guessing game every time you go looking for something.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-22-003.mp4"
   },
   {
     "id": "carousel-2026-08-22-B08492PZ8Y",
@@ -5712,10 +5713,10 @@
   },
   {
     "name": "reel_repurpose_2026-08-24_905",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-08-24-905.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-24-905.mp4",
     "caption": "The full before-and-after, with every product and price. Started with a $29.99 bin 8-pack and built out from there. Full breakdown, links, and review counts in my bio.",
     "hashtags": [
       "#beforeandafter",
@@ -5725,7 +5726,8 @@
       "#organizedhome",
       "#budgetmakeover"
     ],
-    "hook": "I fixed my whole closet system for under $200"
+    "hook": "I fixed my whole closet system for under $200",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-24-905.mp4"
   },
   {
     "name": "reel_2026-08-25_001",
@@ -6002,10 +6004,10 @@
   },
   {
     "name": "reel_2026-08-28_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-08-28-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-28-001.mp4",
     "caption": "Sagging pillows get blamed on the cover. The problem is what's stuffed inside it.\n\nA cover looks exactly as full as the insert underneath it. If the corners look empty or the middle caves in, that's an insert problem, not a cover problem \u2014 and inserts are the cheaper half of that pair to replace. Every cover you already own stays in use.\n\nThe Utopia Bedding 18x18 Pillow Inserts are the standard size for the most common throw pillow cover sold. 218,437 people have rated them, averaging 4.6 stars \u2014 a review count that size is close to a consensus for a basic home item.\n\nFull-looking pillows on the covers already on your couch, no replacements needed. $13.49.\n\nComment BEDDING and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -6022,14 +6024,15 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "Sagging pillows get blamed on the cover. The problem is what's stuffed inside it."
+    "hook": "Sagging pillows get blamed on the cover. The problem is what's stuffed inside it.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-28-001.mp4"
   },
   {
     "name": "reel_2026-08-28_002",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-08-28-002.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-28-002.mp4",
     "caption": "If you rent, you can't change the closet. You can only change what's hanging in it.\n\nBulky plastic and wood hangers are the real reason a closet feels small \u2014 each one eats an inch of rod that could hold another shirt. Straps slide off smooth surfaces, shoulders lose their shape, and the rod fills up long before the closet actually does.\n\nAmazon Basics' slim velvet non-slip hangers are built for exactly this: a narrow profile that fits more garments on the same rod, plus a velvet surface that keeps straps and shoulders from sliding off. Rating sits at 4.8 stars across 235,105 reviews \u2014 enough closets running the same test to call it settled.\n\nMore hangers fit on the same rod, and what's on them stays put. $20.99 for the set.\n\nComment CLOTHES and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -6046,7 +6049,8 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "If you rent, you can't change the closet. You can only change what's hanging in it."
+    "hook": "If you rent, you can't change the closet. You can only change what's hanging in it.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-28-002.mp4"
   },
   {
     "name": "reel_2026-08-28_001",
