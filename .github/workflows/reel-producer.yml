@@ -24,7 +24,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Install ffmpeg
-        run: sudo apt-get update && sudo apt-get install -y ffmpeg fonts-dejavu-core fonts-inter fonts-open-sans
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg fonts-dejavu-core fonts-inter fonts-open-sans tesseract-ocr
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -32,7 +32,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install Python deps
-        run: pip install Pillow edge-tts
+        run: pip install Pillow edge-tts numpy pytesseract gradio_client
 
       - name: Render Reels
         # PEXELS_API_KEY was never passed into this job, so fetch_pexels_photo()
@@ -43,6 +43,8 @@ jobs:
         # because of this one missing line.
         env:
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          # FLUX.1-schnell renders the product hero frames at true reel resolution.
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: python3 automation/reel_producer.py
 
       - name: Commit Reel MP4s, queue, agent log

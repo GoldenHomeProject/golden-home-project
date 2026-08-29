@@ -19,6 +19,7 @@ Output per script:
 import asyncio
 import json
 import os
+import shutil
 import subprocess
 import sys
 from pathlib import Path
@@ -194,60 +195,250 @@ def _pexels_try(query: str, out_path: Path, pick: int = 0) -> bool:
         return False
 
 
-def pollinations_url(prompt: str) -> str:
-    """Pollinations.ai FLUX endpoint — free, no auth. FALLBACK ONLY.
+# Attributes worth pinning: the 8/27 failure was an AI *analog dial* scale rendered
+# for a *digital* one, directly contradicting the script. If the product name states
+# an attribute, the image has to honour it — and the opposite goes in the negative
+# prompt so the model is pushed away from it.
+PRODUCT_ATTRS = [
+    ("digital", "digital LED display, clear numeric readout", "analog dial, needle, gauge, clock face"),
+    ("analog", "analog dial face with a needle", "digital display, LED numbers, screen"),
+    ("stainless", "brushed stainless steel", "plastic, wood"),
+    ("bamboo", "natural bamboo wood grain", "plastic, metal"),
+    ("glass", "clear tempered glass", "opaque plastic"),
+    ("wireless", "cordless, no visible cable", "cables, cords, wires"),
+    ("collapsible", "folding collapsible design", "rigid fixed frame"),
+    ("led", "illuminated LED lighting", "unlit, dark"),
+    ("blackout", "opaque blackout fabric", "sheer, translucent"),
+    ("silk", "smooth silk sheen", "matte cotton, rough texture"),
+    ("ceramic", "glazed ceramic", "plastic, metal"),
+]
 
-    Used only when Pexels returns no match. AI-generated imagery is
-    algorithmically downranked on IG/YT, so Pexels real photos are preferred.
+
+def _attr_clauses(product: str):
+    """Positive and negative clauses implied by the product name."""
+    pl = (product or "").lower()
+    pos, neg = [], []
+    for token, positive, negative in PRODUCT_ATTRS:
+        if token in pl:
+            pos.append(positive)
+            neg.append(negative)
+    return pos, neg
+
+
+HF_TOKEN = (os.environ.get("HF_TOKEN") or "").strip()
+if not HF_TOKEN:
+    try:
+        HF_TOKEN = Path.home().joinpath(".ghp-presenter/.hf_token").read_text().strip()
+    except OSError:
+        HF_TOKEN = ""
+
+
+def flux_image(prompt: str, product: str, out_path: Path, seed: int) -> bool:
+    """Generate a product image with FLUX.1-schnell on HuggingFace.
+
+    Pollinations caps output at ~576x1024 no matter what you ask for (verified:
+    requesting 1080x1920 returns 576x1024, 38KB), and upscaling that into a 1080x1920
+    reel is exactly what reads as "AI slop". FLUX.1-schnell returns a true 1072x1920
+    and looks like product photography.
+
+    The display/branding is deliberately prompted OFF. Diffusion models cannot spell,
+    so any screen or label they render comes out as confident gibberish - the 8/27
+    reel shipped a scale face reading "DEON". A powered-down display is both cleaner
+    and honest, since we do not know what this unit shows.
     """
+    if not HF_TOKEN:
+        print("    ::warning:: HF_TOKEN unset — high-quality AI images unavailable")
+        return False
+    try:
+        from gradio_client import Client
+    except ImportError:
+        print("    gradio_client not installed — skipping FLUX")
+        return False
+
+    pos, neg = _attr_clauses(product)
+    full = (
+        f"Editorial product photograph. {prompt}. {product}. "
+        + (", ".join(pos) + ". " if pos else "")
+        + "Any display or screen is switched off and dark. Shot on a full-frame "
+        "camera at f/2.8, soft diffused natural window light, realistic materials and "
+        "true-to-life texture, subtle contact shadows, clean uncluttered composition, "
+        "generous negative space, photorealistic, high detail. "
+        "No text, no lettering, no numbers, no logos, no branding, no watermark"
+        + ((". Avoid: " + ", ".join(neg)) if neg else "")
+    )
+    try:
+        c = Client("black-forest-labs/FLUX.1-schnell", token=HF_TOKEN)
+        r = c.predict(prompt=full, seed=seed, randomize_seed=False,
+                      width=1080, height=1920, num_inference_steps=4,
+                      api_name="/infer")
+        src = r[0] if isinstance(r, (list, tuple)) else r
+        shutil.copy(src, out_path)
+    except Exception as e:
+        print(f"    flux failed: {str(e)[:120]}")
+        return False
+
+    ok, reason = _ai_image_usable(out_path)
+    if not ok:
+        print(f"    flux image REJECTED — {reason}")
+        return False
+    print(f"    flux image accepted (seed={seed})")
+    return True
+
+
+def pollinations_url(prompt: str, product: str = "", seed: int | None = None) -> str:
+    """Pollinations FLUX endpoint — free, no auth.
+
+    Prompted for a photograph, not an illustration, and pinned to the attributes the
+    product name actually states. Text rendering is the single biggest tell that an
+    image is generated (the 8/27 reel shipped a scale face reading "DEON"), so text
+    is pushed hard into the negative prompt AND checked for afterwards in
+    _ai_image_usable(); prompting alone does not reliably suppress it.
+    """
+    pos, neg = _attr_clauses(product)
+    subject = f"{prompt}. {product}" if product else prompt
     styled = (
-        f"{prompt}, professional product photography, warm natural lighting, "
-        f"shallow depth of field, 8k, editorial home magazine style, "
-        f"clean composition, no text, no watermark"
+        f"{subject}. " + (", ".join(pos) + ". " if pos else "") +
+        "editorial product photograph, shot on a full-frame camera at f/2.8, "
+        "soft diffused natural window light, realistic materials and true-to-life "
+        "textures, subtle shadows, shallow depth of field, clean uncluttered "
+        "composition, photorealistic, high detail"
+    )
+    negative = (
+        "text, letters, words, lettering, numbers, typography, logo, watermark, "
+        "signature, label, brand name, caption, ui, interface, "
+        "illustration, drawing, painting, render, 3d render, cgi, cartoon, anime, "
+        "distorted, deformed, warped, extra fingers, malformed hands, "
+        "oversaturated, plastic-looking, uncanny, blurry, low quality"
+        + ((", " + ", ".join(neg)) if neg else "")
     )
     enc = parse.quote(styled)
-    return (
+    nenc = parse.quote(negative)
+    url = (
         f"https://image.pollinations.ai/prompt/{enc}"
-        f"?width={WIDTH}&height={HEIGHT}&model=flux&nologo=true&enhance=true"
+        f"?width={WIDTH}&height={HEIGHT}&model=flux&nologo=true&enhance=false"
+        f"&negative_prompt={nenc}"
     )
+    if seed is not None:
+        url += f"&seed={seed}"
+    return url
+
+
+def _ai_image_usable(path: Path) -> tuple:
+    """Reject the two failure modes that make a generated image look generated.
+
+    1. Rendered text. Diffusion models produce confident-looking gibberish on product
+       faces and packaging — "DEON" on a scale — and nothing says "AI" faster.
+    2. Mush. A low-detail frame that is soft everywhere reads as a bad render.
+
+    Returns (ok, reason).
+    """
+    try:
+        import numpy as np
+        from PIL import Image as _I
+        img = _I.open(path)
+        # Resolution, not sharpness. Measured: the rejected AI image scored 148 on
+        # variance-of-Laplacian while a good real photo scored 60 - small images have
+        # higher per-pixel detail and real photos have shallow depth of field, so the
+        # sharpness test ranked the fake ABOVE the real one. What actually separates
+        # them is whether the frame is natively big enough for a 1080x1920 reel.
+        if img.width < 900 or img.height < 1500:
+            return False, f"too small for a reel ({img.width}x{img.height})"
+        g = np.asarray(img.convert("L")).astype("float32")
+        # Variance of the Laplacian: the standard sharpness proxy.
+        lap = (g[:-2, 1:-1] + g[2:, 1:-1] + g[1:-1, :-2] + g[1:-1, 2:]
+               - 4.0 * g[1:-1, 1:-1])
+        sharpness = float(lap.var())
+        if sharpness < 8.0:      # only catches a truly flat/failed render
+            return False, f"flat render (sharpness {sharpness:.0f})"
+    except Exception as e:
+        print(f"    [ai-check] sharpness check unavailable: {e}")
+
+    try:
+        import pytesseract
+        from PIL import Image as _I, ImageOps
+
+        # A single OCR pass on the raw image is not enough. FLUX renders display
+        # glyphs as faint low-contrast grey on dark, and tesseract read a scale face
+        # showing "29.27 / sotco" as nothing at all. Screen several normalisations -
+        # upscaled, auto-contrasted, and inverted - and take the worst case, because
+        # any of them finding letters means a viewer will see them too.
+        base = _I.open(path).convert("L")
+        big = base.resize((base.width * 2, base.height * 2), _I.LANCZOS)
+        variants = [big, ImageOps.autocontrast(big, cutoff=2)]
+
+        # Count only what tesseract is CONFIDENT is a word. Raw character counts with
+        # --psm 11 flagged a genuine Pexels photograph as full of text (grout lines and
+        # skin texture read as glyphs), which would have rejected every image and
+        # defeated the point. Confidence plus a length floor separates a rendered
+        # display readout from image noise.
+        worst, sample = 0, ""
+        for v in variants:
+            data = pytesseract.image_to_data(
+                v, config="--psm 11", output_type=pytesseract.Output.DICT)
+            words = []
+            for txt, conf in zip(data.get("text", []), data.get("conf", [])):
+                try:
+                    conf = float(conf)
+                except (TypeError, ValueError):
+                    continue
+                token = "".join(c for c in (txt or "") if c.isalnum())
+                if conf >= 65 and len(token) >= 3:
+                    words.append(token)
+            if len(words) > worst:
+                worst, sample = len(words), " ".join(words)
+        if worst >= 1:
+            return False, f"rendered text detected ({sample[:24]!r})"
+    except Exception as e:
+        print(f"    ::warning:: OCR unavailable, cannot screen for fake text: {e}")
+
+    return True, "ok"
 
 
 def fetch_scene_bg(prompt: str, out_path: Path, product: str = "",
-                   pick: int = 0) -> bool:
+                   pick: int = 0, hero: bool = False) -> bool:
     """Try Pexels real photo first; fall back to Pollinations AI on miss.
 
     Returns False only if both sources fail across all retries — caller then
     uses fallback_bg() branded gradient so a render never crashes.
     """
+    # Two sources, each doing what it is good at (Ian, 2026-08-29):
+    #   hero frames  -> FLUX, a clean studio-style shot of the product category
+    #   context frames -> Pexels, a real photograph of a real room
+    # A generator has never seen this SKU, so a hero frame is a photoreal image of the
+    # CATEGORY used as scene imagery - we never assert it is a photo of the item, and
+    # every factual claim stays tied to the listing.
+    if hero and flux_image(prompt, product, out_path, seed=9000 + pick * 131):
+        return True
+
     if fetch_pexels_photo(prompt, out_path, product, pick):
         return True
-    # AI imagery is now OPT-IN, not the automatic fallback.
-    #
-    # On 2026-08-27 a reel whose script said the scale is digital - "a clear number
-    # on a screen instead of squinting at a needle" - shipped over an AI image of an
-    # ANALOG DIAL scale with garbled fake lettering ("DEON") on its face. The picture
-    # contradicted the pitch and advertised a product that does not exist. Every
-    # frame that day was AI, because the Pexels key was never wired in.
-    #
-    # A branded typographic card is worse-looking than a good photo and much better
-    # than a convincing lie, so that is the default fallback now. Set
-    # GHP_ALLOW_AI_IMAGES=1 to restore the old behaviour.
-    if os.environ.get("GHP_ALLOW_AI_IMAGES", "").strip() not in ("1", "true", "yes"):
-        print("    no Pexels match — using branded card (AI images disabled)")
+
+    if os.environ.get("GHP_ALLOW_AI_IMAGES", "1").strip().lower() in ("0", "false", "no"):
+        print("    no Pexels match — branded card (AI disabled)")
         return False
-    url = pollinations_url(prompt)
-    req = request.Request(url, headers={"User-Agent": "GHP-ReelProducer/1.0"})
-    for attempt in range(3):
+
+    # Pollinations last: free and unauthenticated, but capped at ~576x1024, so it only
+    # runs when both better sources are unavailable.
+    for attempt in range(2):
+        seed = 10_000 + pick * 97 + attempt * 13
+        url = pollinations_url(prompt, product, seed=seed)
+        req = request.Request(url, headers={
+            "User-Agent": "GoldenHomeProject/1.0 (+https://goldenhomeproject.com)"})
         try:
-            with request.urlopen(req, timeout=60) as r:
+            with request.urlopen(req, timeout=90) as r:
                 data = r.read()
             if len(data) < 5000:
-                raise ValueError(f"Response too small ({len(data)} bytes)")
+                raise ValueError(f"response too small ({len(data)} bytes)")
             out_path.write_bytes(data)
-            print(f"    pollinations fallback used")
-            return True
         except Exception as e:
-            print(f"    pollinations attempt {attempt+1} failed: {e}")
+            print(f"    pollinations attempt {attempt + 1} failed: {e}")
+            continue
+        ok, reason = _ai_image_usable(out_path)
+        if ok:
+            print(f"    pollinations image accepted (seed={seed})")
+            return True
+        print(f"    pollinations image REJECTED — {reason}")
+    print("    no usable image from any source — branded card")
     return False
 
 
@@ -503,7 +694,8 @@ def produce_reel(script_path: Path) -> Path | None:
         clip_path = work_dir / f"clip_{n:02d}.mp4"
 
         print(f"    scene {n}: {visual[:60]}")
-        if not visual or not fetch_scene_bg(visual, bg_path, product_hint, pick=i):
+        if not visual or not fetch_scene_bg(visual, bg_path, product_hint, pick=i,
+                                          hero=(i == 0 or i == len(scenes) - 1)):
             fallback_bg(bg_path)
 
         compose_scene_frame(bg_path, on_text, frame_path, accent=(n == 1))
