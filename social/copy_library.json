@@ -1606,6 +1606,52 @@
         ],
         "voice_rev": "2026-08-26"
       }
+    ],
+    "BEDSURE": [
+      {
+        "hook_category": "comparison",
+        "hook": "It's satin, not silk, priced at $6.99, with 321,211 reviews behind it.",
+        "beat1": "Real silk pillowcases often run $20 or more for a single case. This one is satin, a different fiber built to mimic that same smooth, low-friction surface, and it ships as a set of two in queen size with an envelope closure to keep the pillow covered overnight.",
+        "turn": "The listing markets it as cooling and slip-friendly, the two things people usually pay silk prices for. At 4.5 stars across 321,211 reviews, that's not a small sample size - it's a product enough people bought and rated to make the pattern reliable.",
+        "result": "Two queen cases with a closure that keeps the pillow tucked in overnight, for $6.99.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close-up shot of a hand running fingers across the smooth surface of the satin pillowcase in soft morning light",
+            "on_screen_text": "SATIN, NOT SILK",
+            "voiceover": "This is satin, not silk."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Simple split-screen graphic: a generic silk pillowcase icon on one side, this product on the other, with price tags overlaid",
+            "on_screen_text": "SILK: $20+ / THIS: $6.99",
+            "voiceover": "Real silk pillowcases often start around twenty dollars or more. This one's $6.99."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Hands folding the open end of the pillowcase over a pillow to show the envelope-style flap closing",
+            "on_screen_text": "ENVELOPE CLOSURE",
+            "voiceover": "It closes with an envelope flap, so the pillow stays covered overnight."
+          },
+          {
+            "n": 4,
+            "duration_sec": 5,
+            "visual_prompt": "Two folded queen-size pillowcases stacked neatly on a made bed, camera slowly pulling back",
+            "on_screen_text": "SET OF 2 \u00b7 QUEEN",
+            "voiceover": "It comes as a set of two, queen size, and it's built to sleep cool."
+          },
+          {
+            "n": 5,
+            "duration_sec": 4,
+            "visual_prompt": "Product shot with a clean overlay showing the star rating and review count, price sitting below",
+            "on_screen_text": "4.5\u2605 \u00b7 321,211 REVIEWS",
+            "voiceover": "4.5 stars, 321,211 reviews, $6.99."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {

@@ -390,6 +390,24 @@
       "source": "trending",
       "keyword": "FOOD",
       "promoted_at": "2026-08-23T12:20:36Z"
+    },
+    {
+      "asin": "B0725WFLMB",
+      "product_name": "Bedsure Satin Pillowcase, Similar to Silk Pillow Cases Queen Size Set of 2, Cooling Pillow Case Covers with Envelope Clo",
+      "categories": [
+        "home",
+        "Home & Kitchen"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0725WFLMB?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-08-23",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$6.99",
+      "verified_stars": "4.5",
+      "verified_reviews": 321211,
+      "discovery_source": "harvest_catalogue",
+      "keyword": "BEDSURE",
+      "promoted_at": "2026-08-29T12:21:19Z"
     }
   ],
   "_vetted_doc": "Verified-live Amazon ASINs cleared for blog/SEO/IG-caption use but NOT yet wired to a Meta comment-to-DM automation. Promote to `entries` (with a unique keyword) only AFTER creating the matching Meta Business Suite automation. Always use https://www.amazon.com/dp/<ASIN>?tag=goldenhomep06-20 \u2014 never search URLs.",
@@ -1820,22 +1838,6 @@
       "verified_price": "$9.48",
       "verified_stars": "4.6",
       "verified_reviews": 92528,
-      "discovery_source": "harvest_catalogue"
-    },
-    {
-      "asin": "B0725WFLMB",
-      "product_name": "Bedsure Satin Pillowcase, Similar to Silk Pillow Cases Queen Size Set of 2, Cooling Pillow Case Covers with Envelope Clo",
-      "categories": [
-        "home",
-        "Home & Kitchen"
-      ],
-      "affiliate_url": "https://www.amazon.com/dp/B0725WFLMB?tag=goldenhomep06-20",
-      "status": "live",
-      "verified_at": "2026-08-23",
-      "verified_method": "best_seller_grid",
-      "verified_price": "$6.99",
-      "verified_stars": "4.5",
-      "verified_reviews": 321211,
       "discovery_source": "harvest_catalogue"
     },
     {
