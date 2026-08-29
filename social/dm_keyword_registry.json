@@ -2973,6 +2973,54 @@
       "verified_stars": "4.7",
       "verified_reviews": 37728,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0FFTL7QNC",
+      "product_name": "Owala FreeSip Sway Insulated Stainless Steel Water Bottle with Two-Way Spout, Built-In Straw and Bucket Handle, Made for",
+      "categories": [
+        "kitchen",
+        "Kitchen & Dining"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0FFTL7QNC?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-08-29",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$27.99",
+      "verified_stars": "4.6",
+      "verified_reviews": 11383,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B071JB9SC8",
+      "product_name": "Utopia Home Folding Step Stool 9 Inch, Anti-Slip, Black, 1-Pack | Foldable step stool with anti-slip surface, built-in h",
+      "categories": [
+        "home",
+        "Furniture"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B071JB9SC8?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-08-29",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$9.99",
+      "verified_stars": "4.7",
+      "verified_reviews": 29202,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B09GS5LVTJ",
+      "product_name": "SPORT BEATS Stadium Seats with Back Support Folding Chair for Bleachers | 2.8\" Thick Padded Bleacher Chairs, Folding Por",
+      "categories": [
+        "home",
+        "Furniture"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B09GS5LVTJ?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-08-29",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$29.60",
+      "verified_stars": "4.7",
+      "verified_reviews": 8403,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
