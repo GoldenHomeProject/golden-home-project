@@ -2025,5 +2025,61 @@
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "posted_at": "2026-08-28T23:27:19Z"
+  },
+  {
+    "id": "pin-2026-08-29-B083LMRXJC",
+    "asin": "B083LMRXJC",
+    "board": "Home Organization Finds",
+    "title": "12x20 Pillow Insert for Rectangle Lumbar Throw Pillow Covers",
+    "description": "A 12x20 rectangle insert sized for lumbar and bolster covers, listed at $9.99. The brushed fabric shell is tightly woven to keep the virgin fiber filling from poking through, and reviewers repeatedly note it holds its shape instead of going flat. Useful if you already have a cover and just need a insert that actually fits. Tap through for current price and stock. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B083LMRXJC?tag=goldenhomep06-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-08-29-B083LMRXJC.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-29-B083LMRXJC.png",
+    "queued_at": "2026-08-29T10:10:20.723027Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-08-29-B087T2M1YX",
+    "asin": "B087T2M1YX",
+    "board": "Home Organization Finds",
+    "title": "Clear Shower Curtain Liner 72x72 - PEVA Waterproof, Lightweight",
+    "description": "A PEVA plastic shower liner sized for standard 72 x 72 stalls, listed as lightweight and waterproof for everyday use. At $6.99, it sits at the low end of Amazon's shower curtain liner category, a reasonable pick for a rental, dorm, or guest bath where you don't want to spend much on a liner. Tap through for sizing details and current price. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B087T2M1YX?tag=goldenhomep06-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-08-29-B087T2M1YX.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-29-B087T2M1YX.png",
+    "queued_at": "2026-08-29T10:10:49.313864Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-08-29-B000SDKDM4",
+    "asin": "B000SDKDM4",
+    "board": "Kitchen Organization Ideas",
+    "title": "Whole Bean Espresso Coffee for Your Kitchen Coffee Station \u2013 Lavazza Super Crema 2.2 lb",
+    "description": "Lavazza Super Crema whole bean coffee is a medium espresso roast blending Arabica and Robusta beans, sold in a 2.2 lb bag for $26.99. It's sized to keep a home coffee station stocked without a mid-week grocery run, and works with espresso machines or any bean grinder. Tap through for current pricing and bag details before you restock your kitchen coffee bar. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B000SDKDM4?tag=goldenhomep06-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-08-29-B000SDKDM4.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-29-B000SDKDM4.png",
+    "queued_at": "2026-08-29T10:11:55.277470Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-08-29-B0FK124QCT",
+    "asin": "B0FK124QCT",
+    "board": "Kitchen Organization Ideas",
+    "title": "Fridge Door Water Bottle - Owala FreeSip Sway 30 oz Stainless Steel",
+    "description": "The Owala FreeSip Sway holds 30 oz and switches between a push-button straw spout and a wide sip opening, so it fits fridge door bins, water bottle organizers, and backpack side pockets without a redesign. Double-wall stainless steel keeps drinks cold through a full workday. Black Cherry breaks up an all-metal lineup. Listed at $34.99 \u2014 tap through for current pricing and dimensions. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B0FK124QCT?tag=goldenhomep06-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-08-29-B0FK124QCT.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-29-B0FK124QCT.png",
+    "queued_at": "2026-08-29T10:14:00.259899Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
   }
 ]
