@@ -6083,10 +6083,10 @@
   },
   {
     "name": "reel_2026-08-29_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-08-29-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-29-001.mp4",
     "caption": "A cup of flour isn't a measurement. It's a guess with a lid on it.\n\nScoop the cup and pack it, or spoon the flour in loose \u2014 the amount that lands in the bowl shifts either way, which is why two people can follow the same recipe and pull two different loaves out of the oven. Weight settles the argument: 120 grams is 120 grams no matter how it got there. The same scale also portions coffee, splits dough into equal pieces, and confirms a package's weight before a trip to the post office.\n\nThe Etekcity Food Kitchen Scale is a compact digital scale that reads exactly what's placed on it, so a recipe stops being an estimate. It carries 176,516 reviews at a 4.6-star average \u2014 a sample large enough that the score reflects how it performs across kitchens, not just one.\n\nRecipes you already make turn out the same way twice, without changing anything else about how you cook. It's $10.99.\n\nComment FOOD and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -6103,14 +6103,15 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "A cup of flour isn't a measurement. It's a guess with a lid on it."
+    "hook": "A cup of flour isn't a measurement. It's a guess with a lid on it.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-29-001.mp4"
   },
   {
     "name": "reel_2026-08-29_002",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-08-29-002.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-29-002.mp4",
     "caption": "Sagging pillows get blamed on the cover. The problem is what's stuffed inside it.\n\nA cover looks exactly as full as the insert underneath it. If the corners look empty or the middle caves in, that's an insert problem, not a cover problem \u2014 and inserts are the cheaper half of that pair to replace. Every cover you already own stays in use.\n\nThe Utopia Bedding 18x18 Pillow Inserts are the standard size for the most common throw pillow cover sold. 218,437 people have rated them, averaging 4.6 stars \u2014 a review count that size is close to a consensus for a basic home item.\n\nFull-looking pillows on the covers already on your couch, no replacements needed. $13.49.\n\nComment BEDDING and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -6127,14 +6128,15 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "Sagging pillows get blamed on the cover. The problem is what's stuffed inside it."
+    "hook": "Sagging pillows get blamed on the cover. The problem is what's stuffed inside it.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-29-002.mp4"
   },
   {
     "name": "reel_2026-08-29_003",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-08-29-003.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-29-003.mp4",
     "caption": "If you rent, you can't change the closet. You can only change what's hanging in it.\n\nBulky plastic and wood hangers are the real reason a closet feels small \u2014 each one eats an inch of rod that could hold another shirt. Straps slide off smooth surfaces, shoulders lose their shape, and the rod fills up long before the closet actually does.\n\nAmazon Basics' slim velvet non-slip hangers are built for exactly this: a narrow profile that fits more garments on the same rod, plus a velvet surface that keeps straps and shoulders from sliding off. Rating sits at 4.8 stars across 235,105 reviews \u2014 enough closets running the same test to call it settled.\n\nMore hangers fit on the same rod, and what's on them stays put. $20.99 for the set.\n\nComment CLOTHES and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -6151,22 +6153,7 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "If you rent, you can't change the closet. You can only change what's hanging in it."
-  },
-  {
-    "id": "carousel-2026-08-29-B0725WFLMB",
-    "media_type": "CAROUSEL_ALBUM",
-    "image_urls": [
-      "https://goldenhomeproject.com/social/carousels/2026-08-29-B0725WFLMB/slide-1.png",
-      "https://goldenhomeproject.com/social/carousels/2026-08-29-B0725WFLMB/slide-2.png",
-      "https://goldenhomeproject.com/social/carousels/2026-08-29-B0725WFLMB/slide-3.png",
-      "https://goldenhomeproject.com/social/carousels/2026-08-29-B0725WFLMB/slide-4.png",
-      "https://goldenhomeproject.com/social/carousels/2026-08-29-B0725WFLMB/slide-5.png"
-    ],
-    "caption": "Satin pillowcases sit near the top of Amazon's sleep and beauty best-seller lists.\n\nCotton's tighter weave creates friction against hair and skin overnight \u2014 that's the drag linked to frizz, tangles, and sleep creases. A smoother satin weave cuts that friction, and an envelope closure keeps the case snug on a queen pillow through a full night of movement.\n\nSave this for later if a pillowcase swap is on your list.\n\nComment BEDSURE or DM me BEDSURE for the link to the queen set of 2.\n\n#BedroomOrganization #SleepEssentials #HomeOrganizing #BeddingUpgrade #TidyHome",
-    "asin": "B0725WFLMB",
-    "keyword": "BEDSURE",
-    "queued_at": "2026-08-29T12:55:07.140798Z",
-    "source": "carousel_generator"
+    "hook": "If you rent, you can't change the closet. You can only change what's hanging in it.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-29-003.mp4"
   }
 ]
