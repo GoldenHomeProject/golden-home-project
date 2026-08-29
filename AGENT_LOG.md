@@ -2804,3 +2804,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** automation/scripts/reel-2026-08-29-*.json, social/post_queue.json
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: use_case: A cup of flour isn't a measurement. It's a guess w | use_case: Sagging pillows get blamed on the cover. The probl | audience_fit: If you rent, you can't change the closet. You can
+
+## 2026-08-29T12:55:07Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B0725WFLMB (Bedsure Satin Pillowcase, Similar to Sil)
+**Changed:** social/carousels/2026-08-29-B0725WFLMB/slide-1.png, social/carousels/2026-08-29-B0725WFLMB/slide-2.png, social/carousels/2026-08-29-B0725WFLMB/slide-3.png, social/carousels/2026-08-29-B0725WFLMB/slide-4.png, social/carousels/2026-08-29-B0725WFLMB/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B0725WFLMB carousel.
