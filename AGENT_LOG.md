@@ -2786,3 +2786,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** social/reels/reel-2026-08-28-*.mp4, social/post_queue.json
 **External actions:** none
 **Next agent hint:** IG Poster has 1 new Reels ready for 14:00 + 22:00 UTC slots
+
+## 2026-08-29T10:14:01Z — Pinterest Pipeline
+**Ran:** Generated 4 pin(s) for the Pinterest traffic engine
+**Changed:** social/pinterest_queue.json
+**External actions:** Pexels (backgrounds) + Claude CLI (pin copy)
+**Next agent hint:** post_pinterest.py (Pi) drains pinterest_queue.json once a Pinterest business account is logged into the Pi Chromium profile.
