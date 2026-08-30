@@ -52,6 +52,17 @@ CATEGORY_ROTATION = [
     # that cannot fill an honest page should not have one.
     ("Bath",             "home",      "https://www.amazon.com/gp/bestsellers/home-garden/1063236/"),
     ("Cleaning",         "home",      "https://www.amazon.com/gp/bestsellers/home-garden/10802561/"),
+    # Added 2026-08-30 from revenue evidence, not intuition. GHP's first 14 sales came
+    # from Pinterest pins on Aug 23-24, and 12 of those products were bathroom and
+    # BEDROOM textiles: shower curtains/liners/hooks/rod (6), mattress protectors (2),
+    # blackout curtains (2), a sheet set, pillow inserts. We had no bedding or window
+    # category at all, so the single best-converting theme was not being sourced.
+    # Nodes verified by scraping before adding (31 products each) — Mattress Pads
+    # (3732741) and Shower Curtains (1063258) returned 1 item and were discarded.
+    ("Bedding",          "home",      "https://www.amazon.com/gp/bestsellers/home-garden/1063252/"),
+    ("Sheets",           "home",      "https://www.amazon.com/gp/bestsellers/home-garden/1063308/"),
+    ("Window Treatments", "home",     "https://www.amazon.com/gp/bestsellers/home-garden/1063296/"),
+    ("Bath Linens",      "home",      "https://www.amazon.com/gp/bestsellers/home-garden/1063244/"),
 ]
 # EVERGREEN consolidation (2026-07-31). Until now this script minted a NEW dated URL
 # every single day — 11 near-identical "Best-Sellers Everyone's Buying Right Now" pages
@@ -73,6 +84,11 @@ EVERGREEN = {
     "Home":         ("best-home-organization-products",    "best home organization products"),
     "Bath":         ("best-bathroom-essentials",           "best bathroom essentials"),
     "Cleaning":     ("best-cleaning-supplies",             "best cleaning supplies"),
+    # The proven-revenue themes (see CATEGORY_ROTATION note, 2026-08-30).
+    "Bedding":      ("best-bedding-essentials",            "best bedding essentials"),
+    "Sheets":       ("best-sheet-sets",                    "best sheet sets"),
+    "Window Treatments": ("best-blackout-curtains",        "best blackout curtains"),
+    "Bath Linens":  ("best-bath-towels-and-linens",        "best bath towels and linens"),
 }
 
 # Node IDs above were READ off Amazon's own Best Sellers nav on 2026-07-25, not guessed.

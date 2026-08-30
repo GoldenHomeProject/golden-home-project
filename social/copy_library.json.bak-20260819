@@ -267,24 +267,24 @@
     "PILLOW": [
       {
         "hook_category": "wrong_until_right",
-        "hook": "Stacking a second pillow doesn't fix a shoulder problem. It just gives you a second wrong pillow.",
-        "beat1": "A towel rolled under the neck, a memory foam block that traps heat, switching sides at 3am to find a cool spot \u2014 none of it changes the real shape problem: a flat pillow has nowhere for a shoulder to go.",
-        "turn": "The Eli & Elm Side Sleeper Pillow is a U-shape cutout built for that shoulder, sized for queen beds, with an adjustable latex-and-fiber fill and a cooling cover.",
-        "result": "$114.99, once. No towel rolls, no flipped pillows, no foam block heating up by 2am.",
+        "hook": "Ten years of the wrong pillow can wreck your mornings, and most people never trace it back to the pillow.",
+        "beat1": "Stacking two pillows, rolling a towel under your neck, switching sides mid-night, reaching for a memory foam block that turns your head into a sweat puddle \u2014 none of it fixes the real issue: a standard pillow isn't shaped for a shoulder.",
+        "turn": "The Eli & Elm Side Sleeper Pillow is built around that shoulder instead of ignoring it \u2014 a U-shape cutout for queen-size sleepers, an adjustable latex-and-fiber fill, and a cooling cover made to stay cool through the night.",
+        "result": "At $114.99, it's a one-time fix for a problem you've been patching around for years \u2014 no more towel rolls, no more flipped pillows, no more waking up stiff.",
         "scenes": [
           {
             "n": 1,
             "duration_sec": 3,
             "visual_prompt": "person waking up rubbing stiff neck, frustrated",
             "on_screen_text": "STIFF EVERY MORNING",
-            "voiceover": "Stacking a second pillow doesn't fix a shoulder problem. It just gives you a second wrong pillow."
+            "voiceover": "I had the wrong pillow for a decade."
           },
           {
             "n": 2,
             "duration_sec": 4,
             "visual_prompt": "stack of two pillows on bed, towel rolled up next to it",
             "on_screen_text": "TRIED STACKING. TRIED TOWELS.",
-            "voiceover": "A towel rolled under the neck, a memory foam block that traps heat, switching sides at 3am to find a cool spot \u2014 none of it changes the real shape problem: a flat pillow has nowhere for a shoulder to go."
+            "voiceover": "Stacked two pillows. Rolled towels under my neck."
           },
           {
             "n": 3,
@@ -314,15 +314,14 @@
             "on_screen_text": "COMMENT PILLOW",
             "voiceover": "Comment PILLOW and I'll DM you the link."
           }
-        ],
-        "voice_rev": "2026-08-26"
+        ]
       },
       {
         "hook_category": "confession",
-        "hook": "Everyone blames the mattress for a stiff neck by morning. The pillow is usually the actual problem.",
-        "beat1": "A flat pillow lets your top shoulder collapse forward, twisting your neck out of line for eight hours straight. That's what leaves you stiff, not the mattress underneath.",
-        "turn": "The Eli & Elm Side Sleeper Pillow uses a U-shaped cutout so your shoulder can settle into the mattress instead of pressing into the pillow, keeping your neck and spine in one line.",
-        "result": "It's latex, queen-size, built specifically for side sleeping, and priced at $114.99 \u2014 far less than replacing a mattress that was never the actual problem.",
+        "hook": "Side sleepers know the real problem usually isn't the mattress.",
+        "beat1": "A flat pillow pushes your top shoulder up and twists your neck out of line all night, which is what leaves you stiff in the morning no matter how good the mattress underneath is.",
+        "turn": "The Eli & Elm Side Sleeper Pillow is built with a U-shaped cutout so your shoulder can settle into the mattress instead of getting crushed against the pillow, keeping your neck and spine aligned.",
+        "result": "It's a latex, queen-size pillow made specifically for side sleeping, priced at $114.99 \u2014 a lot cheaper than replacing a mattress that was never the issue.",
         "scenes": [
           {
             "n": 1,
@@ -366,15 +365,14 @@
             "on_screen_text": "COMMENT PILLOW",
             "voiceover": "Comment PILLOW and I'll DM you the link."
           }
-        ],
-        "voice_rev": "2026-08-26"
+        ]
       },
       {
         "hook_category": "sensory",
-        "hook": "It's 4am. Your neck won't turn left and the alarm is 90 minutes out.",
-        "beat1": "Your shoulder's gone numb. The pillow's too high, then too low the second you flip it. Cold side buys about a minute. The angle never changes.",
-        "turn": "Eli & Elm's Side Sleeper Pillow is built for that angle problem: U-shaped cutout for your shoulder, latex-fiber fill you add or remove to set your own height. $114.99, queen.",
-        "result": "Same mattress, same room. The cutout is designed so your neck doesn't have to twist just to keep your shoulder covered \u2014 the one variable a flat pillow can't fix.",
+        "hook": "Picture this: it is 4am, your neck won't turn left, and the alarm is in 90 minutes.",
+        "beat1": "You stare at the ceiling. Your shoulder is numb. The pillow under your head is somehow both too high and too low. You flip it. Cold side, sure, but the angle is still wrong.",
+        "turn": "An adjustable side sleeper pillow with a shoulder cutout fixes the angle problem. Eli & Elm \u2014 latex-fiber fill you can add or remove, U-shape that lets your shoulder rest naturally.",
+        "result": "Same bed, same room, same body. The only thing that changed was the pillow. The 4am stare-at-the-ceiling routine just stopped.",
         "scenes": [
           {
             "n": 1,
@@ -418,15 +416,14 @@
             "on_screen_text": "COMMENT PILLOW",
             "voiceover": "Comment PILLOW and I'll DM you the link."
           }
-        ],
-        "voice_rev": "2026-08-26"
+        ]
       },
       {
         "hook_category": "micro_insight",
-        "hook": "Every pillow claims to fix your neck. Most of them are shaped for people who sleep on their back.",
-        "beat1": "On your side, a flat pillow tilts your neck down toward the mattress \u2014 that gap is where the crook in your neck comes from, not just a rough night.",
-        "turn": "Eli & Elm built theirs for the position you're actually in: a U-shape with a shoulder cutout, plus adjustable latex-fiber fill you pack in or pull out to match your shoulder width.",
-        "result": "Spine level, shoulder supported, no digging around for the one flat side at 3am.",
+        "hook": "Most pillows are designed for back sleepers. 74% of us sleep on our sides.",
+        "beat1": "Standard pillows put your spine at a 30 degree angle when you sleep on your side. That's why you wake up feeling like someone twisted your neck while you were out.",
+        "turn": "A side sleeper pillow keeps your spine straight. Eli & Elm uses a U-shape with a shoulder cutout and adjustable latex-fiber fill so you can dial in the height for your shoulder width.",
+        "result": "Spine stays straight all night. Wake up the same way you fell asleep \u2014 relaxed, not crooked.",
         "scenes": [
           {
             "n": 1,
@@ -470,15 +467,14 @@
             "on_screen_text": "COMMENT PILLOW",
             "voiceover": "Comment PILLOW and I'll DM you the link."
           }
-        ],
-        "voice_rev": "2026-08-26"
+        ]
       },
       {
         "hook_category": "confrontation",
-        "hook": "Your mattress isn't the problem. Pillows haven't changed shape in 70 years.",
-        "beat1": "New mattress, foam topper, a chiropractor visit \u2014 and the pain returns anyway, because none of it touches the one variable that actually shapes side-sleep comfort: the pillow.",
-        "turn": "Eli & Elm's U-shape pillow carves out room for the shoulder \u2014 adjustable latex-fiber fill, cooling cover, built for the 74% of people who sleep on their side. $114.99.",
-        "result": "Matching the pillow to how you actually sleep costs a fraction of a new mattress, and fixes what the mattress can't.",
+        "hook": "Stop blaming your mattress for your neck pain.",
+        "beat1": "Bought a fancy mattress. Bought a foam topper. Saw the chiro. The pain came back every time. The variable nobody changes is the pillow \u2014 same shape we've used for 70 years.",
+        "turn": "A modern side sleeper pillow with a shoulder cutout actually addresses the geometry problem. Eli & Elm \u2014 adjustable latex-fiber fill, cooling cover, U-shape designed for the 74% of people who sleep on their side.",
+        "result": "First week and the morning stiffness is just gone. Cost a fraction of a new mattress and fixed what the mattress couldn't.",
         "scenes": [
           {
             "n": 1,
@@ -522,17 +518,16 @@
             "on_screen_text": "COMMENT PILLOW",
             "voiceover": "Comment PILLOW and I'll DM you the link."
           }
-        ],
-        "voice_rev": "2026-08-26"
+        ]
       }
     ],
     "HANGERS": [
       {
         "hook_category": "wrong_until_right",
-        "hook": "Everyone tells you to buy more hangers. That's not why your rod is jammed.",
-        "beat1": "Standard hangers are thick at the shoulder, so even a tidy count of them eats up rod inches, lets shirts slide into a pile, and leaves no clear gap between outfits.",
-        "turn": "The Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers, a 100-pack rated 4.8 stars across 231,174 reviews, use a thin non-slip build so each piece keeps its own slot instead of sliding into the next.",
-        "result": "At $39.99 for 100, it's a width fix, not a storage fix, and it's the difference between a jammed rod and one with breathing room.",
+        "hook": "If your closet has turned into a place you avoid opening, the hangers are usually the real problem.",
+        "beat1": "Bulky or mismatched hangers eat up rod space, let clothes slide off, and leave everything crammed together with no clear order.",
+        "turn": "The Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers, a 100-pack rated 4.8 stars across 231,174 reviews, are built to fix exactly that with a slim, non-slip design that gives each piece its own space.",
+        "result": "At $39.99 for 100, it's a straightforward way to turn a packed rod into a closet where things actually stay sorted.",
         "scenes": [
           {
             "n": 1,
@@ -546,7 +541,7 @@
             "duration_sec": 4,
             "visual_prompt": "close-up of disorganized items in the closet",
             "on_screen_text": "COULD NEVER FIND ANYTHING",
-            "voiceover": "Standard hangers are thick at the shoulder, so even a tidy count of them eats up rod inches, lets shirts slide into a pile, and leaves no clear gap between outfits."
+            "voiceover": "I kept meaning to deal with it and kept not dealing with it."
           },
           {
             "n": 3,
@@ -569,16 +564,15 @@
             "on_screen_text": "STAYS SORTED NOW",
             "voiceover": "The closet actually stays sorted now."
           }
-        ],
-        "voice_rev": "2026-08-26"
+        ]
       }
     ],
     "TOWELS": [
       {
         "hook_category": "wrong_until_right",
-        "hook": "A towel's GSM number tells you more than how soft it feels folded on the shelf.",
-        "beat1": "Grab one after a shower and it's still damp from yesterday, or it just smears water around instead of soaking it up. That's not what a towel is supposed to do.",
-        "turn": "The American Soft Linen Luxury 4 Piece Bath Towel Set is 600 GSM 100% Turkish cotton, sized 27x54 inches, with a 4.4 star rating across 79,026 reviews.",
+        "hook": "Bath towels that don't earn their keep are easy to spot \u2014 thin, scratchy, or never quite dry before you need them again.",
+        "beat1": "You grab one after a shower and it's still damp from yesterday, or it just smears water around instead of soaking it up. That's not what a towel is supposed to do.",
+        "turn": "The American Soft Linen Luxury 4 Piece Bath Towel Set is 600 GSM 100% Cotton Turkish cotton, sized 27x54 inches, and it holds a 4.4 star rating across 79,026 reviews.",
         "result": "At $39.99 for the set, that's a lot of people confirming these actually absorb well and hold up wash after wash.",
         "scenes": [
           {
@@ -593,7 +587,7 @@
             "duration_sec": 4,
             "visual_prompt": "close-up of disorganized items in the home",
             "on_screen_text": "COULD NEVER FIND ANYTHING",
-            "voiceover": "Grab one after a shower and it's still damp from yesterday, or it just smears water around instead of soaking it up. That's not what a towel is supposed to do."
+            "voiceover": "I kept meaning to deal with it and kept not dealing with it."
           },
           {
             "n": 3,
@@ -616,17 +610,16 @@
             "on_screen_text": "STAYS SORTED NOW",
             "voiceover": "The home actually stays sorted now."
           }
-        ],
-        "voice_rev": "2026-08-26"
+        ]
       }
     ],
     "PITCHER": [
       {
         "hook_category": "wrong_until_right",
-        "hook": "Bad-tasting tap water usually gets blamed on old pipes. More often it's a filter that's overdue for a swap.",
-        "beat1": "Bottled water is a recurring cost, and pitchers that need new filters every few weeks turn clean water into another errand on the list.",
-        "turn": "The Brita Large Water Filter Pitcher holds 10 cups and ships with a standard filter rated to last two months, with a 4.6-star rating across 59,611 reviews.",
-        "result": "BPA-free and $28.49 with one filter included \u2014 two months between filter changes instead of a running errand.",
+        "hook": "Tap water that tastes like the pipes it traveled through is one of those problems people just put up with.",
+        "beat1": "Bottled water adds up fast, and a lot of pitcher filters need replacing every few weeks, which makes clean water feel like more upkeep than it should be.",
+        "turn": "The Brita Large Water Filter Pitcher is built around a 10-cup capacity and a standard filter rated to last two months, and it holds a 4.6-star rating across 59,611 reviews.",
+        "result": "It's BPA-free and runs $28.49 with one filter included \u2014 a straightforward way to get better-tasting water without constant upkeep.",
         "scenes": [
           {
             "n": 1,
@@ -640,7 +633,7 @@
             "duration_sec": 4,
             "visual_prompt": "close-up of disorganized items in the home",
             "on_screen_text": "COULD NEVER FIND ANYTHING",
-            "voiceover": "Bottled water is a recurring cost, and pitchers that need new filters every few weeks turn clean water into another errand on the list."
+            "voiceover": "I kept meaning to deal with it and kept not dealing with it."
           },
           {
             "n": 3,
@@ -663,17 +656,16 @@
             "on_screen_text": "STAYS SORTED NOW",
             "voiceover": "The home actually stays sorted now."
           }
-        ],
-        "voice_rev": "2026-08-26"
+        ]
       }
     ],
     "TURNTABLE": [
       {
         "hook_category": "wrong_until_right",
-        "hook": "Open the cabinet and the label you need is facing the wall, hidden behind three others.",
-        "beat1": "Every jar gets pushed to the back the same way, until reaching the one you want means pulling out the two in front of it first.",
-        "turn": "A set of 4 non-skid 10-inch lazy susan turntable organizers puts everything on a rotating surface instead, and it holds 4.7 stars across 6,190 reviews.",
-        "result": "At $24.99 for the set, it's a small fix that turns digging into spinning, so nothing stays lost behind anything else.",
+        "hook": "A cluttered cabinet turns into a guessing game every time you go looking for something.",
+        "beat1": "Bottles and jars get pushed to the back, labels end up facing every direction, and reaching the one thing you need means pulling out three others first.",
+        "turn": "A set of 4 non-skid 10-inch lazy susan turntable organizers is built to fix exactly that, and it holds 4.7 stars across 6,190 reviews.",
+        "result": "At $24.99 for the set, it's a small, cheap fix for a daily annoyance: spin instead of dig, and everything stays visible and within reach.",
         "scenes": [
           {
             "n": 1,
@@ -687,7 +679,7 @@
             "duration_sec": 4,
             "visual_prompt": "close-up of disorganized items in the kitchen",
             "on_screen_text": "COULD NEVER FIND ANYTHING",
-            "voiceover": "Every jar gets pushed to the back the same way, until reaching the one you want means pulling out the two in front of it first."
+            "voiceover": "I kept meaning to deal with it and kept not dealing with it."
           },
           {
             "n": 3,
@@ -710,17 +702,16 @@
             "on_screen_text": "STAYS SORTED NOW",
             "voiceover": "The kitchen actually stays sorted now."
           }
-        ],
-        "voice_rev": "2026-08-26"
+        ]
       }
     ],
     "THROW": [
       {
         "hook_category": "wrong_until_right",
-        "hook": "Everyone says buy new throw pillows for a refresh. The inserts aren't the problem \u2014 the covers are.",
-        "beat1": "Faded fabric, flattened corduroy, colors that stopped matching the room: none of that means the pillow is done, just the cover on it.",
-        "turn": "This MIULEE set of 4 sage green boho farmhouse covers is 18x18 inch, soft corduroy with a nordic look, rated 4.6 stars across 3,203 reviews.",
-        "result": "At $16.99 for the set, it's a full color swap for a couch or bed without replacing a single pillow.",
+        "hook": "That drawer of mismatched throw pillows isn't going to fix itself.",
+        "beat1": "Faded covers, flat corduroy, colors that clash with everything else in the room \u2014 swapping them out is one of the easiest refreshes for a couch or bed.",
+        "turn": "This set of 4 sage green boho farmhouse covers is 18x18 inch and sits at 4.6 stars across 3,203 reviews, with a soft corduroy nordic look built for spring updates.",
+        "result": "At $16.99 for the set, it's an easy way to give a couch or bedroom a fresh, coordinated look without replacing the pillows themselves.",
         "scenes": [
           {
             "n": 1,
@@ -734,7 +725,7 @@
             "duration_sec": 4,
             "visual_prompt": "close-up of disorganized items in the home",
             "on_screen_text": "COULD NEVER FIND ANYTHING",
-            "voiceover": "Faded fabric, flattened corduroy, colors that stopped matching the room: none of that means the pillow is done, just the cover on it."
+            "voiceover": "I kept meaning to deal with it and kept not dealing with it."
           },
           {
             "n": 3,
@@ -757,17 +748,16 @@
             "on_screen_text": "STAYS SORTED NOW",
             "voiceover": "The home actually stays sorted now."
           }
-        ],
-        "voice_rev": "2026-08-26"
+        ]
       }
     ],
     "LINER": [
       {
         "hook_category": "wrong_until_right",
-        "hook": "Open a cabinet door too fast and something inside slides before you even reach for it.",
-        "beat1": "Bare wood and wire shelving give jars and cans nothing to grip, so they creep toward the edge every time that door swings open.",
-        "turn": "A non-adhesive, non-slip shelf liner fixes that without glue or residue \u2014 just cut it to size and lay it down. It holds a 4.7-star rating across 2,556 reviews.",
-        "result": "One 12\" x 10FT roll runs $7.99, enough to line several shelves for under eight dollars.",
+        "hook": "A cluttered cabinet doesn't need a full overhaul\u2014just something under your dishes and cans that stops them from sliding every time the door opens.",
+        "beat1": "Wire racks and bare wood let jars tip and glasses shift, so you end up straightening shelves or digging around just to find what you need.",
+        "turn": "A non-adhesive, non-slip shelf liner like this one fixes that without any mess\u2014no glue, no residue, just lay it down. It holds a 4.7-star rating across 2,556 reviews.",
+        "result": "At $7.99 for a 12\" x 10FT roll, it's a cheap way to keep shelves in order, one cabinet at a time.",
         "scenes": [
           {
             "n": 1,
@@ -781,7 +771,7 @@
             "duration_sec": 4,
             "visual_prompt": "close-up of disorganized items in the kitchen",
             "on_screen_text": "COULD NEVER FIND ANYTHING",
-            "voiceover": "Bare wood and wire shelving give jars and cans nothing to grip, so they creep toward the edge every time that door swings open."
+            "voiceover": "I kept meaning to deal with it and kept not dealing with it."
           },
           {
             "n": 3,
@@ -804,17 +794,16 @@
             "on_screen_text": "STAYS SORTED NOW",
             "voiceover": "The kitchen actually stays sorted now."
           }
-        ],
-        "voice_rev": "2026-08-26"
+        ]
       }
     ],
     "PATIO": [
       {
         "hook_category": "wrong_until_right",
-        "hook": "One chair on a patio means only one person ever sits down.",
-        "beat1": "The rest of the space stays open, which mostly means it collects leaves and gets ignored instead of used.",
-        "turn": "The Vongrasig 5 Piece Patio Furniture Set replaces that with a sectional sofa, ottoman, and glass table in all-weather PE rattan, rated 4.1 stars across 2,187 reviews.",
-        "result": "At $251.08 for the full set, a patio goes from one seat to a full seating area, with a table already in place for drinks or food.",
+        "hook": "A patio that never gets used usually comes down to one thing: nowhere comfortable to actually sit.",
+        "beat1": "A single chair or a mismatched setup makes it hard to fit more than one person outside, and open lounging space tends to just collect leaves and clutter instead.",
+        "turn": "The Vongrasig 5 Piece Patio Furniture Set is built to fix that directly \u2014 a sectional sofa, ottoman, and glass table in all-weather PE rattan, holding 4.1 stars across 2,187 reviews.",
+        "result": "At $251.08 for the full set, it gives a patio an actual seating area instead of a single spot, with a table right there for drinks or food.",
         "scenes": [
           {
             "n": 1,
@@ -828,7 +817,7 @@
             "duration_sec": 4,
             "visual_prompt": "close-up of disorganized items in the patio",
             "on_screen_text": "COULD NEVER FIND ANYTHING",
-            "voiceover": "The rest of the space stays open, which mostly means it collects leaves and gets ignored instead of used."
+            "voiceover": "I kept meaning to deal with it and kept not dealing with it."
           },
           {
             "n": 3,
@@ -851,17 +840,16 @@
             "on_screen_text": "STAYS SORTED NOW",
             "voiceover": "The patio actually stays sorted now."
           }
-        ],
-        "voice_rev": "2026-08-26"
+        ]
       }
     ],
     "ETEKCITY": [
       {
         "hook_category": "proof",
-        "hook": "A needle wedged between two lines isn't a weight, it's a guess.",
-        "beat1": "A bathroom scale gets bought once and used for years, so a clear number matters more than it seems. Digital removes the angle-reading, squint-at-the-dial guesswork of the old kind.",
-        "turn": "The Etekcity Digital Body Weight Bathroom Scale does one job: show a number, no setup required. 348,951 reviews averaging 4.7 stars is enough data to say that holds up past a lucky first batch of reviews.",
-        "result": "At $19.88, it's a low-risk way to stop guessing at your own weight.",
+        "hook": "348,951 reviews and a 4.7-star average \u2014 that's not luck, that's data.",
+        "beat1": "A bathroom scale is one of those purchases people want to get right the first time, not replace in six months. This one is digital, which means a clear number on a screen instead of squinting at a needle between two lines on an old dial scale.",
+        "turn": "It does one job: put your body weight on a digital display, no extra setup required. With 348,951 reviews averaging 4.7 stars, that's a large enough sample that the rating reflects how it performs for most people, not just a lucky batch of early reviews.",
+        "result": "At $19.88, it's a straightforward way to get a reliable digital scale in your bathroom without agonizing over the decision.",
         "scenes": [
           {
             "n": 1,
@@ -898,17 +886,16 @@
             "on_screen_text": "ETEKCITY DIGITAL SCALE \u2014 $19.88",
             "voiceover": "A simple scale that does the one thing it needs to."
           }
-        ],
-        "voice_rev": "2026-08-26"
+        ]
       }
     ],
     "QUEEN": [
       {
         "hook_category": "proof",
-        "hook": "A $24.99 purchase collected 450,137 reviews. That kind of number does not happen by accident.",
-        "beat1": "Bedding reviews usually build slowly, since most people only think about their sheets when something is wrong with them. A product can rack up a few thousand five-star tags on marketing alone. It does not climb into six figures without years of repeat buyers coming back to confirm it still holds up.",
-        "turn": "This is the queen size 4 piece sheet set behind that count, covering a full bed in one purchase instead of piecing together separate items. At 4.5 stars across 450,137 reviews, the average has held steady long after any early hype would have faded.",
-        "result": "For a queen bed, that combination of scale and rating makes this the low-risk pick at $24.99.",
+        "hook": "450,137 reviews on a $24.99 sheet set. That number is the whole story.",
+        "beat1": "Sheets are one of those purchases where the reviews actually matter, because everyone sleeps on them and everyone has an opinion the next morning. A product can pick up a few thousand reviews on hype alone. It does not reach 450,137 without years of people buying it, sleeping on it, and coming back to say something.",
+        "turn": "This is a queen size 4 piece sheet set, so it covers the full bed in one purchase instead of hunting for matching pieces. Sitting at 4.5 stars across 450,137 reviews means the average is holding steady at that scale, which is much harder than a high rating on a few hundred.",
+        "result": "If you need a queen set that a very large number of people have already vetted, this is the low-risk pick at $24.99.",
         "scenes": [
           {
             "n": 1,
@@ -945,17 +932,16 @@
             "on_screen_text": "$24.99",
             "voiceover": "If you want a queen set that a huge number of people have already vetted, this is the low-risk pick at $24.99."
           }
-        ],
-        "voice_rev": "2026-08-26"
+        ]
       }
     ],
     "SUIT": [
       {
         "hook_category": "audience_fit",
-        "hook": "If you rent and can't drill into the closet, the only upgrade left is what's already hanging on the rod.",
-        "beat1": "A rented closet comes with one rod and no permission to add shelving, so rail space is the only thing you actually control. Bulky plastic and wooden hangers each claim their own slice of that rod, which is why it looks full long before it's actually full. The fix isn't more rod \u2014 it's thinner hangers.",
-        "turn": "These are slim, non-slip velvet hangers built around that one lever: a thinner profile that frees up rail space without touching a wall, sized for suits and everyday clothes, with a velvet surface that keeps garments from sliding off the shoulders.",
-        "result": "Same rod, same lease, noticeably more usable rail \u2014 and clothes that stay where you put them.",
+        "hook": "If you rent and can't touch the closet, start with the hangers instead.",
+        "beat1": "Rented closets come with one rod and no permission to add shelves, so the only variable you control is what hangs on it. Bulky plastic and wooden hangers each claim their own slice of rail, which is why a rod looks full long before the closet actually is. Slim velvet hangers attack the one dimension a lease lets you change: thickness.",
+        "turn": "These are slim velvet non-slip hangers built to save space on the rod, sized for suits and everyday clothes, with the velvet surface keeping garments from sliding off. At 4.8 stars across 235,029 reviews, this is one of the most heavily reviewed hanger sets on Amazon \u2014 a rating that holds up at that volume usually means the basics are consistent, not lucky.",
+        "result": "Same rod, same lease, noticeably more usable rail \u2014 and clothes that stay where you put them. The set runs $20.99.",
         "scenes": [
           {
             "n": 1,
@@ -992,17 +978,16 @@
             "on_screen_text": "$20.99",
             "voiceover": "Same rod, same lease, noticeably more usable rail. Twenty ninety-nine for the set."
           }
-        ],
-        "voice_rev": "2026-08-26"
+        ]
       }
     ],
     "CLOTHES": [
       {
         "hook_category": "audience_fit",
-        "hook": "If you rent, you can't change the closet. You can only change what's hanging in it.",
-        "beat1": "Bulky plastic and wood hangers are the real reason a closet feels small \u2014 each one eats an inch of rod that could hold another shirt. Straps slide off smooth surfaces, shoulders lose their shape, and the rod fills up long before the closet actually does.",
-        "turn": "Amazon Basics' slim velvet non-slip hangers are built for exactly this: a narrow profile that fits more garments on the same rod, plus a velvet surface that keeps straps and shoulders from sliding off. Rating sits at 4.8 stars across 235,105 reviews \u2014 enough closets running the same test to call it settled.",
-        "result": "More hangers fit on the same rod, and what's on them stays put. $20.99 for the set.",
+        "hook": "Renting a closet the size of a coat pocket? Start with the hangers.",
+        "beat1": "When you can't knock out a wall or install a custom system, the only variable you control is what's on the rod. Bulky plastic and wooden hangers eat horizontal inches, and every inch they take is a shirt that doesn't fit. Slim velvet hangers are the one closet upgrade a landlord will never notice.",
+        "turn": "These are Amazon Basics slim velvet non-slip hangers, built to hold suits and clothes on a narrow profile so more garments fit on the same rod, with a velvet surface that keeps straps and shoulders from sliding off. They carry a 4.8-star rating across 235,105 reviews \u2014 a volume that means this design has been stress-tested in an enormous number of real closets, not just a handful.",
+        "result": "You get a rod that holds more without moving anything permanent, and clothes that stay where you hung them. The set runs $20.99.",
         "scenes": [
           {
             "n": 1,
@@ -1039,17 +1024,16 @@
             "on_screen_text": "$20.99",
             "voiceover": "A rod that holds more without changing anything permanent, and clothes that stay where you hung them. Twenty ninety-nine."
           }
-        ],
-        "voice_rev": "2026-08-26"
+        ]
       }
     ],
     "UTOPIA": [
       {
         "hook_category": "use_case",
-        "hook": "Everyone blames the couch for flat throw pillows. It's the insert.",
+        "hook": "Throw pillows go flat because the insert is the cheap part nobody replaces.",
         "beat1": "The cover you picked out is usually fine \u2014 it's the sagging insert underneath doing the damage. Swapping inserts is the low-effort move: your existing 18x18 covers stay, the shape underneath gets fixed. It's the difference between a cushion that slumps into the corner of the couch and one that actually holds a corner.",
-        "turn": "This is an 18x18 pillow insert, sized to fill standard 18-inch covers without bunching or gapping at the seams.",
-        "result": "Keep the covers you already own and give them structure again.",
+        "turn": "These are 18x18 pillow inserts from Utopia Bedding, sized to fill standard 18-inch covers. They sit at 4.6 stars across 218,241 reviews \u2014 a volume that reads less like a trend and more like a staple people reorder as covers accumulate.",
+        "result": "Keep the covers you already own and give them structure again, at $12.89.",
         "scenes": [
           {
             "n": 1,
@@ -1086,17 +1070,16 @@
             "on_screen_text": "$12.89",
             "voiceover": "Keep the covers you already own and give them structure again, at twelve eighty-nine."
           }
-        ],
-        "voice_rev": "2026-08-26"
+        ]
       }
     ],
     "SIZE": [
       {
         "hook_category": "proof",
-        "hook": "Thread count is the number on the package. It's not the number that tells you whether sheets survive a year of actual washing.",
-        "beat1": "Fabric shows what it's made of after a few dozen wash cycles, not on day one out of the bag. Marketing specs describe sheets fresh off the shelf \u2014 they don't describe what's left of them once they're folded into a normal weekly routine.",
-        "turn": "This set skips the thread-count arms race and still shows up on our best-seller tracking without needing one. That's a harder bar to clear than a big number printed on the packaging.",
-        "result": "If you're due for new sheets, this is one of the sets currently earning its spot on the list \u2014 check the current price before it moves.",
+        "hook": "451,219 reviews is more feedback than most furniture brands get in a decade.",
+        "beat1": "Sheets are one of the few things in a home that get used every single night, so the review count on a set like this isn't a vanity number \u2014 it's a very large sample of people reporting back after real use. When a product crosses 451,219 ratings and still holds 4.5 stars, the average isn't being propped up by a handful of enthusiastic buyers. It means the complaints exist and are still outnumbered.",
+        "turn": "It's a queen size 4 piece sheet set, so it covers the whole bed in one purchase instead of hunting down pieces separately. A 4.5 star average across 451,219 reviews points to a product that performs consistently rather than one that happens to work for a narrow group of buyers.",
+        "result": "You get a full queen bed's worth of sheets backed by one of the largest review pools on Amazon, at $24.99.",
         "scenes": [
           {
             "n": 1,
@@ -1133,61 +1116,16 @@
             "on_screen_text": "$24.99",
             "voiceover": "A full queen bed's worth of sheets, backed by one of the largest review pools on Amazon, at twenty four ninety nine."
           }
-        ],
-        "voice_rev": "2026-08-26"
-      },
-      {
-        "hook_category": "proof",
-        "hook": "453,281 people have rated this sheet set. It still sits at 4.5 stars.",
-        "beat1": "That review count isn't a typo. At this volume, a rating holds steady only if the product performs the same way for thousands of different beds, washing habits, and body temperatures night after night.",
-        "turn": "The Queen Size 4 Piece Sheet Set is a basic four-piece set: fitted sheet, flat sheet, two pillowcases. A 4.5-star average across 453,281 reviews means the overwhelming majority of buyers got what they expected, which is rare at scale.",
-        "result": "For $21.23, you get a queen sheet set with a review record most products never reach, let alone hold onto.",
-        "scenes": [
-          {
-            "n": 1,
-            "duration_sec": 3,
-            "visual_prompt": "Close-up on a smartphone screen showing a product listing with a 4.5-star rating and review count, thumb scrolling slowly",
-            "on_screen_text": "453,281 REVIEWS",
-            "voiceover": "Four hundred fifty three thousand, two hundred eighty one people rated this."
-          },
-          {
-            "n": 2,
-            "duration_sec": 4,
-            "visual_prompt": "Overhead shot of a made queen-size bed, plain sheets smoothed flat, natural window light",
-            "on_screen_text": "STILL 4.5 STARS",
-            "voiceover": "That many reviews, and it still holds a four point five average."
-          },
-          {
-            "n": 3,
-            "duration_sec": 4,
-            "visual_prompt": "Hands unfolding a packaged four piece sheet set on a bed, laying out fitted sheet, flat sheet, two pillowcases",
-            "on_screen_text": "4-PIECE SET",
-            "voiceover": "Fitted sheet, flat sheet, two pillowcases. Nothing extra."
-          },
-          {
-            "n": 4,
-            "duration_sec": 5,
-            "visual_prompt": "Slow pan across the finished made bed, pillowcases fluffed, corners tucked, calm neutral bedroom",
-            "on_screen_text": "QUEEN SIZE",
-            "voiceover": "At this volume of reviews, a rating this high means it works the same way for most people, most of the time."
-          },
-          {
-            "n": 5,
-            "duration_sec": 4,
-            "visual_prompt": "Static end card: product shot of the folded sheet set stack beside the price displayed clearly",
-            "on_screen_text": "$21.23",
-            "voiceover": "Queen size, four pieces, twenty one dollars and twenty three cents."
-          }
         ]
       }
     ],
     "DIGITAL": [
       {
         "hook_category": "proof",
-        "hook": "Most listings are optimized for the first ten minutes. Not the next ten years.",
-        "beat1": "That is the wrong window to design for. What actually earns a permanent spot in a home is not a strong first impression \u2014 it is whether the thing still works the same way months after the packaging is gone.",
-        "turn": "This product does not come with a story. It comes with a job: do the same thing, the same way, every time you reach for it.",
-        "result": "You get something built to disappear into daily use instead of impressing you once and then letting you down.",
+        "hook": "349,254 reviews on a bathroom scale. That is not an accident.",
+        "beat1": "Bathroom scales are the kind of thing people buy once, use daily, and complain about loudly when they read differently three times in a row. That is exactly the category where a review count in the hundreds of thousands matters more than a spec sheet. Volume like that comes from a product being bought, used, and re-bought across years of ordinary bathrooms.",
+        "turn": "The Etekcity Digital Body Weight Bathroom Scale is a digital scale that reads your body weight and displays it. Holding 4.7 stars across 349,254 reviews means the average experience stayed good long after the early adopters moved on \u2014 that rating is hard to hold at that scale unless the basics are consistent.",
+        "result": "You get a daily-use scale that a very large number of people rated well, without spending a lot to find out. It is $16.87.",
         "scenes": [
           {
             "n": 1,
@@ -1224,61 +1162,16 @@
             "on_screen_text": "$16.87",
             "voiceover": "A daily-use scale that a very large number of people rated well, for sixteen dollars and eighty-seven cents."
           }
-        ],
-        "voice_rev": "2026-08-26"
-      },
-      {
-        "hook_category": "proof",
-        "hook": "349,499 people rated this scale. 4.7 stars is the boring part.",
-        "beat1": "Most bathroom scales get maybe a few hundred reviews before people quietly return them. This one has nearly 350,000 ratings sitting at 4.7 stars, which is a sample size most products never get close to. That volume is the argument, not a marketing line.",
-        "turn": "The Etekcity Digital Body Weight Bathroom Scale gives a simple digital readout with no setup beyond stepping on it. A rating this high held across 349,499 reviews means the complaints that usually sink a scale \u2014 inconsistent numbers, short battery life, a flimsy platform \u2014 aren't the pattern here.",
-        "result": "For a home bathroom, that's a low-risk pickup: proven at scale, priced at $16.87.",
-        "scenes": [
-          {
-            "n": 1,
-            "duration_sec": 3,
-            "visual_prompt": "Close-up of a phone screen scrolling an Amazon reviews page, numbers blurring past, landing on '349,499 ratings'",
-            "on_screen_text": "349,499 RATINGS",
-            "voiceover": "Three hundred forty-nine thousand people rated this scale."
-          },
-          {
-            "n": 2,
-            "duration_sec": 4,
-            "visual_prompt": "Slow zoom on a 4.7-star rating graphic against a plain white bathroom tile background",
-            "on_screen_text": "4.7 STARS",
-            "voiceover": "That's not a small sample. That's basically a consensus."
-          },
-          {
-            "n": 3,
-            "duration_sec": 4,
-            "visual_prompt": "Overhead shot of the digital bathroom scale sitting flat on tile floor next to a bathmat",
-            "on_screen_text": "NO SETUP NEEDED",
-            "voiceover": "It's a digital body weight scale. Step on, read the number, done."
-          },
-          {
-            "n": 4,
-            "duration_sec": 5,
-            "visual_prompt": "Split-screen graphic: left side shows a generic low-review scale icon with a question mark, right side shows this scale with a checkmark and review count",
-            "on_screen_text": "WHAT THE REVIEWS RULE OUT",
-            "voiceover": "At this many reviews, the usual problems \u2014 bad readings, dead batteries, wobbly platforms \u2014 would show up. They're not the pattern here."
-          },
-          {
-            "n": 5,
-            "duration_sec": 4,
-            "visual_prompt": "Final shot: the scale centered on screen with price tag graphic appearing beside it",
-            "on_screen_text": "$16.87",
-            "voiceover": "Etekcity Digital Body Weight Bathroom Scale, sixteen eighty-seven."
-          }
         ]
       }
     ],
     "BODY": [
       {
         "hook_category": "proof",
-        "hook": "A scale that just weighs you feels like it shouldn't need explaining.",
-        "beat1": "Somewhere along the way, bathroom scales picked up apps, sync features, and body-fat estimates nobody asked for. Most of that gets set up once, then ignored for good.",
-        "turn": "This one skips all of it. Step on, glance down, get a number \u2014 the entire interaction a scale is supposed to have.",
-        "result": "No app to open first thing in the morning, just a screen that tells you what you came to check.",
+        "hook": "349,254 reviews is more than most cities have people.",
+        "beat1": "Bathroom scales are a category where almost nobody writes a review unless something goes wrong. This one has 349,254 of them and still sits at 4.7 stars. That ratio is the interesting part \u2014 a number that large usually drags an average down, not holds it up.",
+        "turn": "The Etekcity Digital Body Weight Bathroom Scale does one job: it's a digital scale you step on to read your weight. At 349,254 reviews and 4.7 stars, you're not gambling on a new listing \u2014 you're buying the thing hundreds of thousands of people already stress-tested for you.",
+        "result": "You get a scale with a track record instead of a guess, for $16.87.",
         "scenes": [
           {
             "n": 1,
@@ -1315,17 +1208,16 @@
             "on_screen_text": "$16.87",
             "voiceover": "A scale with a track record instead of a guess, for sixteen dollars and eighty-seven cents."
           }
-        ],
-        "voice_rev": "2026-08-26"
+        ]
       }
     ],
     "SHEET": [
       {
         "hook_category": "audience_fit",
-        "hook": "If you're renting, the sheets are the one upgrade you get to keep.",
+        "hook": "If you're renting, sheets are the one upgrade you get to take with you.",
         "beat1": "You can't change the flooring, the paint, or the light fixtures in a rental. The bed is the one part of the room that's entirely yours, and it's also where you spend a third of your time. Swapping the sheets is the shortest path between a room you tolerate and a room you like.",
-        "turn": "This is a queen size four-piece sheet set \u2014 a full swap, not a partial one, which does more for the room than a new throw pillow ever will.",
-        "result": "You get the one bedroom change that moves with you to the next place.",
+        "turn": "This is a queen size 4 piece sheet set \u2014 a full swap, not a partial one. It carries a 4.5 star rating across 451,219 reviews, which is a sample size big enough that the average stops being luck and starts being a pattern.",
+        "result": "You get the one bedroom change that moves with you to the next place, for $24.99.",
         "scenes": [
           {
             "n": 1,
@@ -1362,61 +1254,16 @@
             "on_screen_text": "$24.99",
             "voiceover": "The one bedroom change that moves with you to the next place. Twenty four ninety nine."
           }
-        ],
-        "voice_rev": "2026-08-26"
-      },
-      {
-        "hook_category": "proof",
-        "hook": "454,120 people rated this sheet set. Only 4.5 stars means almost nobody wants a refund.",
-        "beat1": "A queen sheet set is a four-piece purchase: fitted, flat, two pillowcases. At this price point, the failure mode is usually thin fabric or a fitted sheet that pops off the corner by week two.",
-        "turn": "This is a queen size 4 piece sheet set at $24.99. With 454,120 reviews averaging 4.5 stars, the volume itself is the signal \u2014 a set this cheap doesn't hold that rating by accident.",
-        "result": "For $24.99, you get a full queen set backed by nearly half a million ratings instead of a handful of five-star plants.",
-        "scenes": [
-          {
-            "n": 1,
-            "duration_sec": 3,
-            "visual_prompt": "Close-up on a phone screen showing a product review count scrolling upward, queen bed softly out of focus behind it",
-            "on_screen_text": "454,120 REVIEWS",
-            "voiceover": "Four hundred fifty-four thousand people rated this sheet set."
-          },
-          {
-            "n": 2,
-            "duration_sec": 4,
-            "visual_prompt": "Overhead shot of the four pieces laid out flat and folded: fitted sheet, flat sheet, two pillowcases",
-            "on_screen_text": "4 PIECES, 1 SET",
-            "voiceover": "Fitted, flat, two pillowcases \u2014 the whole queen set in one box."
-          },
-          {
-            "n": 3,
-            "duration_sec": 4,
-            "visual_prompt": "Star rating graphic animating in, 4.5 out of 5 filled stars against a plain background",
-            "on_screen_text": "4.5 STARS",
-            "voiceover": "At this volume, a 4.5 average is hard to fake."
-          },
-          {
-            "n": 4,
-            "duration_sec": 5,
-            "visual_prompt": "Hands smoothing the fitted sheet over a queen mattress corner, showing it staying in place",
-            "on_screen_text": "QUEEN SIZE FIT",
-            "voiceover": "Sized for queen, and rated by more people than most sheet sets ever see."
-          },
-          {
-            "n": 5,
-            "duration_sec": 4,
-            "visual_prompt": "Final shot of the made bed with price tag graphic overlay in corner",
-            "on_screen_text": "$24.99",
-            "voiceover": "Twenty-four ninety-nine, backed by almost half a million reviews."
-          }
         ]
       }
     ],
     "WEIGHT": [
       {
         "hook_category": "proof",
-        "hook": "Most reviews go quiet after the first few hundred buyers.",
-        "beat1": "Cheap gear usually stops getting rated once the early rush of buyers has said their piece. When a listing keeps collecting reviews long after launch, that's the crowd still bothering to weigh in.",
-        "turn": "This pick is still pulling in ratings well past its first wave of buyers \u2014 people rating it after actually living with it, not just unboxing it.",
-        "result": "That kind of staying power tells you more than any spec sheet, whatever the price tag says today.",
+        "hook": "349,254 reviews is more than most gyms have members.",
+        "beat1": "That number isn't marketing \u2014 it's how many people bothered to come back and rate a bathroom scale. Cheap electronics usually get quiet after the first thousand buyers. This one kept collecting ratings and still sits at 4.7 stars.",
+        "turn": "The Etekcity Digital Body Weight Bathroom Scale is a digital scale you step on to read your weight. A 4.7-star average held across 349,254 reviews is a durability signal: the people who use it daily, for months, are still rating it well.",
+        "result": "You get a scale that the crowd has already stress-tested for you, for $16.87.",
         "scenes": [
           {
             "n": 1,
@@ -1453,17 +1300,16 @@
             "on_screen_text": "$16.87",
             "voiceover": "A scale the crowd already stress-tested for you. Sixteen dollars and eighty-seven cents."
           }
-        ],
-        "voice_rev": "2026-08-26"
+        ]
       }
     ],
     "BATHROOM": [
       {
         "hook_category": "proof",
-        "hook": "Step on a bathroom scale twice in a row and get two different numbers, and the whole thing becomes decoration.",
-        "beat1": "That drift is the real failure mode in this category \u2014 not weight limits, not dead batteries, just a reading you cannot trust twice in the same minute. A scale that holds the same number step after step is solving the one problem cheap scales tend to create.",
-        "turn": "This is a digital body weight bathroom scale built around that one job: a consistent read, no app subscription, no calibration ritual, no ceremony.",
-        "result": "That is the entire function a bathroom scale needs to perform, and it is the one this does.",
+        "hook": "349,374 reviews on a bathroom scale. That number is doing the talking.",
+        "beat1": "Bathroom scales are one of the easiest things to get wrong \u2014 you step on twice and get two different numbers, and the whole thing becomes decoration. That is exactly why the review count on this one matters. A product only accumulates 349,374 ratings by being bought over and over by people who mostly are not writing angry follow-ups.",
+        "turn": "It is the Etekcity Digital Body Weight Bathroom Scale \u2014 a digital scale for weighing yourself at home, no app subscription, no ceremony. Holding 4.7 stars across 349,374 reviews means the ordinary complaints about cheap scales are not what the bulk of buyers are reporting.",
+        "result": "You get a scale you can actually trust the reading on, which is the only job it has \u2014 and it is $16.87.",
         "scenes": [
           {
             "n": 1,
@@ -1500,17 +1346,16 @@
             "on_screen_text": "$16.87",
             "voiceover": "A scale you can trust the reading on. That's the whole job. Sixteen eighty-seven."
           }
-        ],
-        "voice_rev": "2026-08-26"
+        ]
       }
     ],
     "SCALE": [
       {
         "hook_category": "proof",
-        "hook": "A bathroom scale doesn't need an app to tell you the truth.",
-        "beat1": "Most scales on shelves now want to sync to your phone, track trends over time, and get you logged into an account before they'll show a single number. That's a lot of setup for something that just needs to measure weight.",
-        "turn": "This is a digital body weight bathroom scale \u2014 you step on, it reads out your weight. No pairing, no login screen, nothing standing between your feet and the number.",
-        "result": "You get a basic daily-use scale that does the one job it's for, without extra steps in the way.",
+        "hook": "349,374 reviews on a bathroom scale is not a normal number.",
+        "beat1": "Most products in a home never get anywhere near that. A number that size means this scale has been bought, used and rated across hundreds of thousands of different bathrooms, floors and households. And it held a 4.7-star average the whole way there.",
+        "turn": "It's a digital body weight bathroom scale \u2014 you step on, it reads out your weight. At that volume of feedback, 4.7 stars stops being a lucky streak and starts being a track record.",
+        "result": "You get a basic daily-use scale that a very large group of people rated well, without overthinking the purchase. It's $16.87.",
         "scenes": [
           {
             "n": 1,
@@ -1547,17 +1392,16 @@
             "on_screen_text": "$16.87",
             "voiceover": "A basic daily-use scale a very large group of people rated well. It's sixteen eighty-seven."
           }
-        ],
-        "voice_rev": "2026-08-26"
+        ]
       }
     ],
     "BEDDING": [
       {
         "hook_category": "use_case",
-        "hook": "Sagging pillows get blamed on the cover. The problem is what's stuffed inside it.",
-        "beat1": "A cover looks exactly as full as the insert underneath it. If the corners look empty or the middle caves in, that's an insert problem, not a cover problem \u2014 and inserts are the cheaper half of that pair to replace. Every cover you already own stays in use.",
-        "turn": "The Utopia Bedding 18x18 Pillow Inserts are the standard size for the most common throw pillow cover sold. 218,437 people have rated them, averaging 4.6 stars \u2014 a review count that size is close to a consensus for a basic home item.",
-        "result": "Full-looking pillows on the covers already on your couch, no replacements needed. $13.49.",
+        "hook": "Pillow covers are cheap. The insert inside them is why yours look flat.",
+        "beat1": "A decorative cover is only as good as what's stuffed in it. If your throw pillows sag in the middle or look half-empty at the corners, that's the insert, not the cover. Swapping inserts is the cheaper fix \u2014 you keep every cover you already own.",
+        "turn": "The Utopia Bedding 18x18 Pillow Inserts are standard 18-by-18 forms sized for the most common throw pillow cover on the market. With 218,437 reviews holding a 4.6-star average, this is a product a very large number of people have bought and rated well \u2014 that volume is about as close to a consensus as a basic home item gets.",
+        "result": "You get filled-out pillows on the covers already sitting on your couch, without replacing a single one. $13.49.",
         "scenes": [
           {
             "n": 1,
@@ -1594,17 +1438,16 @@
             "on_screen_text": "$13.49",
             "voiceover": "Filled-out pillows on the covers already sitting on your couch, without replacing a single one. Thirteen forty-nine."
           }
-        ],
-        "voice_rev": "2026-08-26"
+        ]
       }
     ],
     "INSERTS": [
       {
         "hook_category": "proof",
-        "hook": "Everyone replaces the cover when a throw pillow goes flat. That's not the part that failed.",
-        "beat1": "Throw pillows are the part of a room people replace covers for and never look inside. But the insert decides whether a cushion sits full and square on the couch or slumps into a flat envelope. An 18x18 cover is only as good as what's stuffed into it.",
-        "turn": "This insert is the filler that goes inside your existing cover, sized to the most common square cover on the market.",
-        "result": "If your throw pillows have gone limp, you don't need new covers, you need new insides.",
+        "hook": "218,437 reviews on a pillow insert most people never think about.",
+        "beat1": "Throw pillows are the part of a room people replace covers for and never look inside. But the insert is what decides whether a cushion sits full and square on the couch or slumps into a flat envelope. A 18x18 cover is only as good as what you stuff into it.",
+        "turn": "Utopia Bedding's 18x18 inserts are the filler that goes inside your existing covers, sized to the most common square cover on the market. Sitting at 4.6 stars across 218,437 reviews, that's a volume of feedback most home products never reach, and the rating holds steady at that scale.",
+        "result": "If your throw pillows have gone limp, you don't need new covers, you need new insides. $13.49.",
         "scenes": [
           {
             "n": 1,
@@ -1641,17 +1484,16 @@
             "on_screen_text": "$13.49",
             "voiceover": "If your throw pillows have gone limp, you don't need new covers. You need new insides. Thirteen forty-nine."
           }
-        ],
-        "voice_rev": "2026-08-26"
+        ]
       }
     ],
     "STANLEY": [
       {
         "hook_category": "proof",
-        "hook": "203,481 reviews on a water bottle is not a normal number.",
-        "beat1": "Most bottles collect a few thousand reviews and get called a hit. This one cleared two hundred thousand, and the average held at 4.7 stars the whole way.",
-        "turn": "It's the STANLEY Quencher H2.0 tumbler with handle and straw, 30 oz, insulated, built to stay in one hand through a full day of refills. A 4.7-star average across 203,481 reviews doesn't come from hype \u2014 it comes from surviving daily use at scale.",
-        "result": "If your cabinet already has three bottles you don't reach for, $32.02 buys the one people actually did.",
+        "hook": "203,481 reviews. That's not a trend \u2014 that's a verdict.",
+        "beat1": "Most water bottles get a few thousand reviews and call it a hit. This one has over two hundred thousand people who bought it and came back to say something. At 4.7 stars, the overwhelming majority of them said something good.",
+        "turn": "It's a 30 oz insulated tumbler with a handle and a straw, so it stays in one hand and stays sipped from all day. A 4.7-star average holding up across 203,481 reviews means it isn't riding hype \u2014 it's surviving daily use at scale.",
+        "result": "If you want the bottle you'll actually keep reaching for instead of the three already shoved in your cabinet, this is the one with the receipts. $32.02.",
         "scenes": [
           {
             "n": 1,
@@ -1688,17 +1530,16 @@
             "on_screen_text": "$32.02",
             "voiceover": "If you want the bottle you'll actually keep reaching for, this is the one with the receipts. Thirty-two dollars and two cents."
           }
-        ],
-        "voice_rev": "2026-08-26"
+        ]
       }
     ],
     "FOOD": [
       {
         "hook_category": "use_case",
-        "hook": "A cup of flour isn't a measurement. It's a guess with a lid on it.",
-        "beat1": "Scoop the cup and pack it, or spoon the flour in loose \u2014 the amount that lands in the bowl shifts either way, which is why two people can follow the same recipe and pull two different loaves out of the oven. Weight settles the argument: 120 grams is 120 grams no matter how it got there. The same scale also portions coffee, splits dough into equal pieces, and confirms a package's weight before a trip to the post office.",
-        "turn": "The Etekcity Food Kitchen Scale is a compact digital scale that reads exactly what's placed on it, so a recipe stops being an estimate. It carries 176,516 reviews at a 4.6-star average \u2014 a sample large enough that the score reflects how it performs across kitchens, not just one.",
-        "result": "Recipes you already make turn out the same way twice, without changing anything else about how you cook. It's $10.99.",
+        "hook": "Baking by cups is guesswork. A scale is the fix, and this one is $10.99.",
+        "beat1": "A cup of flour can vary by a lot depending on whether you scooped it or spooned it, and that difference is the reason two people follow the same recipe and get two different loaves. Weight doesn't have that problem \u2014 120 grams is 120 grams every time. A kitchen scale is also the quiet solution to portioning coffee, dividing dough, and mailing a package without a trip to the post office.",
+        "turn": "The Etekcity Food Kitchen Scale is a compact digital scale that weighs what you put on it, so recipes stop being an estimate. With 176,516 reviews averaging 4.6 stars, this isn't a niche gadget \u2014 it's a product a very large number of people have used long enough to rate, and the score has held up across all of them.",
+        "result": "You get repeatable results from the recipes you already make, without changing anything else about how you cook. It's $10.99.",
         "scenes": [
           {
             "n": 1,
@@ -1734,53 +1575,6 @@
             "visual_prompt": "Hero shot of the scale on a tidy counter beside a mixing bowl and a recipe card, morning light, product centered with clean negative space above for text. Vertical 9:16.",
             "on_screen_text": "$10.99",
             "voiceover": "Same recipes, repeatable results. Ten ninety-nine."
-          }
-        ],
-        "voice_rev": "2026-08-26"
-      }
-    ],
-    "BEDSURE": [
-      {
-        "hook_category": "comparison",
-        "hook": "It's satin, not silk, priced at $6.99, with 321,211 reviews behind it.",
-        "beat1": "Real silk pillowcases often run $20 or more for a single case. This one is satin, a different fiber built to mimic that same smooth, low-friction surface, and it ships as a set of two in queen size with an envelope closure to keep the pillow covered overnight.",
-        "turn": "The listing markets it as cooling and slip-friendly, the two things people usually pay silk prices for. At 4.5 stars across 321,211 reviews, that's not a small sample size - it's a product enough people bought and rated to make the pattern reliable.",
-        "result": "Two queen cases with a closure that keeps the pillow tucked in overnight, for $6.99.",
-        "scenes": [
-          {
-            "n": 1,
-            "duration_sec": 3,
-            "visual_prompt": "Close-up shot of a hand running fingers across the smooth surface of the satin pillowcase in soft morning light",
-            "on_screen_text": "SATIN, NOT SILK",
-            "voiceover": "This is satin, not silk."
-          },
-          {
-            "n": 2,
-            "duration_sec": 4,
-            "visual_prompt": "Simple split-screen graphic: a generic silk pillowcase icon on one side, this product on the other, with price tags overlaid",
-            "on_screen_text": "SILK: $20+ / THIS: $6.99",
-            "voiceover": "Real silk pillowcases often start around twenty dollars or more. This one's $6.99."
-          },
-          {
-            "n": 3,
-            "duration_sec": 4,
-            "visual_prompt": "Hands folding the open end of the pillowcase over a pillow to show the envelope-style flap closing",
-            "on_screen_text": "ENVELOPE CLOSURE",
-            "voiceover": "It closes with an envelope flap, so the pillow stays covered overnight."
-          },
-          {
-            "n": 4,
-            "duration_sec": 5,
-            "visual_prompt": "Two folded queen-size pillowcases stacked neatly on a made bed, camera slowly pulling back",
-            "on_screen_text": "SET OF 2 \u00b7 QUEEN",
-            "voiceover": "It comes as a set of two, queen size, and it's built to sleep cool."
-          },
-          {
-            "n": 5,
-            "duration_sec": 4,
-            "visual_prompt": "Product shot with a clean overlay showing the star rating and review count, price sitting below",
-            "on_screen_text": "4.5\u2605 \u00b7 321,211 REVIEWS",
-            "voiceover": "4.5 stars, 321,211 reviews, $6.99."
           }
         ]
       }

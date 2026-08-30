@@ -1,0 +1,374 @@
+{
+  "_doc": "Live Meta comment-to-DM automations for @golden_home_project. Content engine MUST pick a keyword from `entries` whose status='live' when generating a reel \u2014 using a keyword whose automation isn't live silently drops the entire DM funnel. Add a new entry only after creating the matching automation in Meta Business Suite (https://business.facebook.com/latest/inbox/automated_responses?asset_id=973754055831729&business_id=1580899273211540). Verify ASIN is alive on amazon.com BEFORE adding (use Chrome /dp/<ASIN> + check title not 'Page Not Found'). Tag = goldenhomep06-20.",
+  "tag": "goldenhomep06-20",
+  "ig_business_account_id": "973754055831729",
+  "fb_business_id": "1580899273211540",
+  "verified_at": "2026-05-03",
+  "entries": [
+    {
+      "keyword": "LINK",
+      "asin": "B01M0TS64K",
+      "product_name": "Simple Houseware 2-Tier Sliding Basket Organizer (chrome, under-sink)",
+      "categories": [
+        "organization",
+        "kitchen",
+        "bathroom",
+        "under-sink",
+        "storage"
+      ],
+      "status": "live",
+      "added_at": "2026-04-23"
+    },
+    {
+      "keyword": "PILLOW",
+      "asin": "B07YL7VD32",
+      "product_name": "Eli & Elm Side Sleeper Pillow (U-shape, latex, queen)",
+      "categories": [
+        "bedroom",
+        "sleep",
+        "pillow",
+        "neck-pain"
+      ],
+      "status": "live",
+      "added_at": "2026-04-23",
+      "affiliate_network": "impact_direct",
+      "affiliate_url": "https://eliandelm.sjv.io/E092ZX",
+      "rerouted_from_amazon_at": "2026-05-03",
+      "reroute_reason": "Impact direct merchant \u2014 link routes to eliandelm.com (verified 2026-05-04). Genuine ~20% direct merchant commission, ~6x Amazon's 3% home category rate. This is the only true high-commission reroute in the registry.",
+      "verified_destination": "https://eliandelm.com",
+      "verified_at": "2026-05-04"
+    },
+    {
+      "keyword": "COVER",
+      "asin": "B0B4SPP3ZN",
+      "product_name": "Mamma Mia Stretch Waterproof Sofa Cover (jacquard) \u2014 replaces Paulato",
+      "categories": [
+        "living-room",
+        "couch",
+        "sofa",
+        "pet"
+      ],
+      "status": "live",
+      "added_at": "2026-04-25",
+      "activated_at": "2026-05-03",
+      "affiliate_network": "impact_maas_to_amazon",
+      "affiliate_url": "https://mammamiacovers.sjv.io/WO4g63",
+      "rerouted_from_amazon_at": "2026-05-03",
+      "reroute_reason": "Impact link routes via Amazon Maas to amazon.com/stores/MammaMiaCovers (branded storefront). Verified 2026-05-04 \u2014 commission rate is Amazon's standard ~3-4% home category, NOT 20-30% as originally claimed. The actual lever is conversion (curated brand storefront beats search URL by ~3-5x), not commission rate.",
+      "verified_destination": "https://www.amazon.com/stores/MammaMiaCovers",
+      "verified_at": "2026-05-04"
+    },
+    {
+      "keyword": "KETTLE",
+      "asin": "B08PP48979",
+      "product_name": "Cosori Electric Kettle (no plastic contact, wide-mouth)",
+      "categories": [
+        "kitchen",
+        "appliance",
+        "tea",
+        "coffee"
+      ],
+      "status": "live",
+      "added_at": "2026-04-25",
+      "activated_at": "2026-05-03"
+    },
+    {
+      "keyword": "NIGHTLIGHT",
+      "asin": "B09CSS6YL4",
+      "product_name": "LED Motion Sensor Night Light Plug-In (2-Pack, Cool White)",
+      "categories": [
+        "lighting",
+        "bedroom",
+        "hallway",
+        "tech"
+      ],
+      "status": "live",
+      "added_at": "2026-04-25",
+      "activated_at": "2026-05-03",
+      "notes": "Original B08RRRX5P5 silently redirects to B09CSS6YL4; updated 2026-05-02 to preserve affiliate tag integrity"
+    },
+    {
+      "keyword": "SPONGE",
+      "asin": "B07ZL2BFMP",
+      "product_name": "Scrub Daddy Sponge (dye-free, scratch-free)",
+      "categories": [
+        "kitchen",
+        "cleaning",
+        "dishes"
+      ],
+      "status": "live",
+      "added_at": "2026-04-25",
+      "activated_at": "2026-05-03"
+    },
+    {
+      "keyword": "STRIP",
+      "asin": "B099S9DXT7",
+      "product_name": "Govee RGBIC LED Strip Lights (32.8ft, smart, bedroom)",
+      "categories": [
+        "lighting",
+        "bedroom",
+        "tech",
+        "smart-home"
+      ],
+      "status": "live",
+      "added_at": "2026-04-25",
+      "activated_at": "2026-05-03"
+    },
+    {
+      "keyword": "VACUUM",
+      "asin": "B099NTSWD9",
+      "product_name": "FoodSaver VS2150 Vacuum Sealing System",
+      "categories": [
+        "kitchen",
+        "appliance",
+        "food-storage"
+      ],
+      "status": "live",
+      "added_at": "2026-04-25",
+      "activated_at": "2026-05-03"
+    },
+    {
+      "keyword": "PASTE",
+      "asin": "B00DU5SRIY",
+      "product_name": "Stardrops The Pink Stuff Cleaning Paste (multi-purpose)",
+      "categories": [
+        "cleaning",
+        "kitchen",
+        "bathroom"
+      ],
+      "status": "live",
+      "added_at": "2026-04-25",
+      "activated_at": "2026-05-03"
+    },
+    {
+      "keyword": "ROLLER",
+      "asin": "B00BAGTNAQ",
+      "product_name": "ChomChom Roller Pet Hair Remover (reusable lint roller)",
+      "categories": [
+        "pet",
+        "cleaning",
+        "living-room"
+      ],
+      "status": "live",
+      "added_at": "2026-04-25",
+      "activated_at": "2026-05-03"
+    },
+    {
+      "asin": "B07Y39ZXV7",
+      "product_name": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers for Closet Organization, Ivory/Rose Gold, 100-Pack",
+      "categories": [
+        "closet organization",
+        "closet",
+        "velvet"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B07Y39ZXV7?tag=goldenhomep06-20",
+      "verified_at": "2026-05-28",
+      "verified_stars": "4.8",
+      "verified_reviews": 231174,
+      "verified_price": "$36.84",
+      "discovered_from_trend": "Stackable closet shelf dividers and velvet hangers bundle",
+      "discovery_source": "asin_discoverer_auto",
+      "keyword": "HANGERS",
+      "status": "live",
+      "promoted_at": "2026-06-05T01:53:05Z"
+    },
+    {
+      "asin": "B08CYBPMJC",
+      "product_name": "American Soft Linen Luxury 4 Piece Bath Towel Set, 600 GSM 100% Cotton Turkish Bath Towels for Bathroom, 27x54 in Large Bathroom Shower Towe",
+      "categories": [
+        "bath towels",
+        "best",
+        "hotel",
+        "turkish"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B08CYBPMJC?tag=goldenhomep06-20",
+      "verified_at": "2026-05-29",
+      "verified_stars": "4.4",
+      "verified_reviews": 79026,
+      "verified_price": "$39.99",
+      "discovered_from_trend": "100% Turkish cotton bath towel set (6-piece)",
+      "discovery_source": "asin_discoverer_auto",
+      "keyword": "TOWELS",
+      "status": "live",
+      "promoted_at": "2026-06-05T12:20:02Z"
+    },
+    {
+      "asin": "B01FXN3E74",
+      "product_name": "Brita Large Water Filter Pitcher for Tap and Drinking Water, Includes 1 Standard Filter, BPA-Free, Lasts Two Months, 10-Cup Capacity, Bright",
+      "categories": [
+        "countertop water filter",
+        "water",
+        "cheap",
+        "countertop"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B01FXN3E74?tag=goldenhomep06-20",
+      "verified_at": "2026-05-29",
+      "verified_stars": "4.6",
+      "verified_reviews": 59611,
+      "verified_price": "$28.49",
+      "discovered_from_trend": "ZeroWater 10-cup pitcher with TDS meter included",
+      "discovery_source": "asin_discoverer_auto",
+      "keyword": "PITCHER",
+      "status": "live",
+      "promoted_at": "2026-06-06T12:20:01Z"
+    },
+    {
+      "asin": "B0B3WSZ3QP",
+      "product_name": "Set of 4 Non-Skid 10-Inch Lazy Susan Turntable Organizers",
+      "categories": [
+        "organization",
+        "kitchen",
+        "bathroom",
+        "cabinet",
+        "lazy-susan",
+        "storage"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0B3WSZ3QP?tag=goldenhomep06-20",
+      "verified_at": "2026-05-26",
+      "verified_stars": "4.7",
+      "verified_reviews": 6190,
+      "verified_price": "$24.99",
+      "used_in": [
+        "blog/posts/2026-05-20-under-sink-organizer-bathroom-pull-out-drawers.html"
+      ],
+      "keyword": "TURNTABLE",
+      "status": "live",
+      "promoted_at": "2026-06-07T12:20:01Z"
+    },
+    {
+      "asin": "B0CVVVNB9L",
+      "product_name": "MIULEE Boho Farmhouse Sage Green Throw Pillow Covers 18x18 Inch Set of 4 Mordern Nordic Cushion Covers Soft Corduroy Spring Home Decor for C",
+      "categories": [
+        "boho throw pillow covers",
+        "boho",
+        "fringe",
+        "maximalist"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0CVVVNB9L?tag=goldenhomep06-20",
+      "verified_at": "2026-05-28",
+      "verified_stars": "4.6",
+      "verified_reviews": 3203,
+      "verified_price": "$16.98",
+      "discovered_from_trend": "Woven fringe throw pillow cover set (4-pack, earthy tones)",
+      "discovery_source": "asin_discoverer_auto",
+      "keyword": "THROW",
+      "status": "live",
+      "promoted_at": "2026-06-08T12:20:01Z"
+    },
+    {
+      "asin": "B0BXSMJK86",
+      "product_name": "BAGAIL Non-Adhesive Non-Slip Shelf Liner 12\" x 10FT (black)",
+      "categories": [
+        "organization",
+        "kitchen",
+        "bathroom",
+        "shelf-liner",
+        "drawer-liner"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0BXSMJK86?tag=goldenhomep06-20",
+      "verified_at": "2026-05-26",
+      "verified_stars": "4.7",
+      "verified_reviews": 2556,
+      "verified_price": "$7.99",
+      "used_in": [
+        "blog/posts/2026-05-20-under-sink-organizer-bathroom-pull-out-drawers.html"
+      ],
+      "keyword": "LINER",
+      "status": "live",
+      "promoted_at": "2026-06-09T12:20:01Z"
+    },
+    {
+      "asin": "B085XVFQ62",
+      "product_name": "Vongrasig 5 Piece Patio Furniture Sets, Outdoor Patio Set Sectional Sofa, All-Weather PE Rattan Outdoor Couch with Ottoman, Glass Table for ",
+      "categories": [
+        "outdoor patio furniture",
+        "outdoor",
+        "patio",
+        "small"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B085XVFQ62?tag=goldenhomep06-20",
+      "verified_at": "2026-05-28",
+      "verified_stars": "4.1",
+      "verified_reviews": 2187,
+      "verified_price": "$251.08",
+      "discovered_from_trend": "Best Choice Products 4-piece cushioned outdoor patio conversation set",
+      "discovery_source": "asin_discoverer_auto",
+      "keyword": "PATIO",
+      "status": "live",
+      "promoted_at": "2026-06-10T12:20:01Z"
+    }
+  ],
+  "_vetted_doc": "Verified-live Amazon ASINs cleared for blog/SEO/IG-caption use but NOT yet wired to a Meta comment-to-DM automation. Promote to `entries` (with a unique keyword) only AFTER creating the matching Meta Business Suite automation. Always use https://www.amazon.com/dp/<ASIN>?tag=goldenhomep06-20 \u2014 never search URLs.",
+  "vetted": [
+    {
+      "asin": "B0D176VGXZ",
+      "product_name": "PXRACK Expandable Under-Sink Organizer with 2 Pull-Out Drawers",
+      "categories": [
+        "organization",
+        "bathroom",
+        "kitchen",
+        "under-sink",
+        "storage"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0D176VGXZ?tag=goldenhomep06-20",
+      "verified_at": "2026-05-26",
+      "verified_stars": "4.7",
+      "verified_reviews": 1773,
+      "verified_price": "$46.99",
+      "used_in": [
+        "blog/posts/2026-05-20-under-sink-organizer-bathroom-pull-out-drawers.html"
+      ]
+    },
+    {
+      "asin": "B0CXDJG5QM",
+      "product_name": "Solar Bug Zapper Outdoor, 4500V Solar Mosquito Zapper Outdoor Waterproof, 1/2 Acre Coverage Rechargeable Electric Fly Zapper, Cordless Porta",
+      "categories": [
+        "outdoor mosquito control",
+        "mosquito",
+        "outdoor",
+        "best"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0CXDJG5QM?tag=goldenhomep06-20",
+      "verified_at": "2026-05-29",
+      "verified_stars": "4.4",
+      "verified_reviews": 483,
+      "verified_price": "$79.99",
+      "discovered_from_trend": "Thermacell patio shield mosquito repeller or solar mosquito zapper",
+      "discovery_source": "asin_discoverer_auto"
+    },
+    {
+      "asin": "B0F8Q1Y3Z4",
+      "product_name": "5FT Small Closet System, Baby Closet Organizer System with Wooden Drawers, 60 Inches Walk In Closet System With 5 Hanging Rods and 3 Reversi",
+      "categories": [
+        "kids closet organizer",
+        "kids",
+        "children",
+        "small"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0F8Q1Y3Z4?tag=goldenhomep06-20",
+      "verified_at": "2026-05-29",
+      "verified_stars": "4.4",
+      "verified_reviews": 124,
+      "verified_price": "$179.99",
+      "discovered_from_trend": "Modular hanging closet organizer with shelves, rods, and labeled bins",
+      "discovery_source": "asin_discoverer_auto"
+    },
+    {
+      "asin": "B07WFXL22R",
+      "product_name": "Tangkula 4-Tier Stepped Bookshelf, Freestanding 6 Cubes Ladder Bookcase with Anti-Tipping Kits, 64\" Tall Modern Wooden Storage Display Rack ",
+      "categories": [
+        "small space room dividers",
+        "room",
+        "studio",
+        "open"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B07WFXL22R?tag=goldenhomep06-20",
+      "verified_at": "2026-05-31",
+      "verified_stars": "4.5",
+      "verified_reviews": 438,
+      "verified_price": "$119.99",
+      "discovered_from_trend": "Best Choice Products 5-shelf open bookcase room divider",
+      "discovery_source": "asin_discoverer_auto"
+    }
+  ]
+}

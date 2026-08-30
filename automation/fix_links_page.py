@@ -30,9 +30,19 @@ HUBS = [
      "6 verified picks &mdash; updated daily"),
     ("best-home-decor-finds", "&#x1FA9E;", "Home Decor Finds",
      "6 verified picks &mdash; updated daily"),
+    # Added 2026-08-30: the bathroom/bedroom textile hubs, built because that is the
+    # theme our only real sales came from.
+    ("best-bedding-essentials", "&#x1F6CF;", "Best Bedding Essentials",
+     "6 verified picks &mdash; updated daily"),
+    ("best-sheet-sets", "&#x1F9F5;", "Best Sheet Sets",
+     "6 verified picks &mdash; updated daily"),
+    ("best-blackout-curtains", "&#x1FA9F;", "Best Blackout Curtains",
+     "6 verified picks &mdash; updated daily"),
+    ("best-bath-towels-and-linens", "&#x1F9FB;", "Bath Towels &amp; Linens",
+     "6 verified picks &mdash; updated daily"),
 ]
 
-MARKER = "<!-- verified-hubs -->"
+MARKER = "<!-- verified-hubs-v2 -->"
 
 
 def main() -> int:

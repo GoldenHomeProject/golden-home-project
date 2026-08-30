@@ -420,6 +420,30 @@
       "source": "trending",
       "keyword": "SIZE",
       "promoted_at": "2026-08-30T12:20:34Z"
+    },
+    {
+      "asin": "B01HI1W1V4",
+      "product_name": "Etekcity Digital Body Weight Bathroom Scale",
+      "categories": [],
+      "status": "live",
+      "verified_price": "$16.87",
+      "verified_stars": "4.7",
+      "verified_reviews": 349499,
+      "source": "trending",
+      "keyword": "DIGITAL",
+      "promoted_at": "2026-08-30T19:27:58Z"
+    },
+    {
+      "asin": "B06WWRCZXX",
+      "product_name": "Queen Size 4 Piece Sheet Set",
+      "categories": [],
+      "status": "live",
+      "verified_price": "$24.99",
+      "verified_stars": "4.5",
+      "verified_reviews": 454120,
+      "source": "trending",
+      "keyword": "SHEET",
+      "promoted_at": "2026-08-30T19:28:45Z"
     }
   ],
   "_vetted_doc": "Verified-live Amazon ASINs cleared for blog/SEO/IG-caption use but NOT yet wired to a Meta comment-to-DM automation. Promote to `entries` (with a unique keyword) only AFTER creating the matching Meta Business Suite automation. Always use https://www.amazon.com/dp/<ASIN>?tag=goldenhomep06-20 \u2014 never search URLs.",

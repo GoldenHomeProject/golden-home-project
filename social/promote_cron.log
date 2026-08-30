@@ -1,0 +1,1595 @@
+[promote] selected B08CYBPMJC -> keyword TOWELS (4.4* / 79026 reviews)
+[promote] LIVE: TOWELS -> B08CYBPMJC (entries now 12, vetted now 9)
+[promote] push: ok
+[promote] selected B01FXN3E74 -> keyword PITCHER (4.6* / 59611 reviews)
+[promote] LIVE: PITCHER -> B01FXN3E74 (entries now 13, vetted now 8)
+[promote] push: ok
+[promote] selected B0B3WSZ3QP -> keyword TURNTABLE (4.7* / 6190 reviews)
+[promote] LIVE: TURNTABLE -> B0B3WSZ3QP (entries now 14, vetted now 7)
+[promote] push: ok
+[promote] selected B0CVVVNB9L -> keyword THROW (4.6* / 3203 reviews)
+[promote] LIVE: THROW -> B0CVVVNB9L (entries now 15, vetted now 6)
+[promote] push: ok
+[promote] selected B0BXSMJK86 -> keyword LINER (4.7* / 2556 reviews)
+[promote] LIVE: LINER -> B0BXSMJK86 (entries now 16, vetted now 5)
+[promote] push: ok
+[promote] selected B085XVFQ62 -> keyword PATIO (4.1* / 2187 reviews)
+[promote] LIVE: PATIO -> B085XVFQ62 (entries now 17, vetted now 4)
+[promote] push: ok
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'int' and 'str'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 291, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/ianmcwherter/golden-home-project/automation/promote_vetted.py", line 245, in main
+    for entry in sorted(vetted, key=lambda e: e.get("verified_reviews") or 0, reverse=True):
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+[promote] B01M16WBW1 kw=QUEEN: seeded variant FAILS gate ["product 'Queen Size 4 Piece Sheet Set' named in line 3 (must be line 3+)"] — skipping (won't seed unshippable content).
+[promote] selected B01M16WBW1 -> keyword QUEEN (4.5* / 450137 reviews)
+[promote] LIVE: QUEEN -> B01M16WBW1 (entries now 19, vetted now 93)
+[promote] push: ok
+[promote] B01M16WBW1 kw=SIZE: seeded variant FAILS gate ["product 'Queen Size 4 Piece Sheet Set' named in line 3 (must be line 3+)"] — skipping (won't seed unshippable content).
+[promote] selected B00FXNAAW2 -> keyword SUIT (4.8* / 235029 reviews)
+[promote] LIVE: SUIT -> B00FXNAAW2 (entries now 20, vetted now 121)
+[promote] push: ok
+[promote] B01M16WBW1 kw=SIZE: seeded variant FAILS gate ["product 'Queen Size 4 Piece Sheet Set' named in line 3 (must be line 3+)"] — skipping (won't seed unshippable content).
+[promote] B01M16WBW1 kw=SIZE: seeded variant FAILS gate ["product 'Queen Size 4 Piece Sheet Set' named in line 3 (must be line 3+)"] — skipping (won't seed unshippable content).
+[promote] selected B00FXNAAW2 -> keyword CLOTHES (4.8* / 235105 reviews)
+[promote] LIVE: CLOTHES -> B00FXNAAW2 (entries now 21, vetted now 156)
+[promote] push: ok
+[promote] B01M16WBW1 kw=SIZE: seeded variant FAILS gate ["product 'Queen Size 4 Piece Sheet Set' named in line 3 (must be line 3+)"] — skipping (won't seed unshippable content).
+[promote] B01M16WBW1 kw=SIZE: seeded variant FAILS gate ["product 'Queen Size 4 Piece Sheet Set' named in line 3 (must be line 3+)"] — skipping (won't seed unshippable content).
+[promote] B01M16WBW1 kw=SIZE: seeded variant FAILS gate ["product 'Queen Size 4 Piece Sheet Set' named in line 3 (must be line 3+)"] — skipping (won't seed unshippable content).
+[promote] B01HI1W1V4 kw=DIGITAL: seeded variant FAILS gate ["product 'Etekcity Digital Body Weight Bathroom Scale' named in line 3 (must be line 3+)"] — skipping (won't seed unshippable content).
+[promote] B00FXNAAW2: no unique keyword available, skipping.
+[promote] B00FXNABPI: no unique keyword available, skipping.
+[promote] B00FXNABPI: no unique keyword available, skipping.
+[promote] B00FXNABPI: no unique keyword available, skipping.
+[promote] B00FXNABPI: no unique keyword available, skipping.
+[promote] selected B01NBNDC1T -> keyword UTOPIA (4.6* / 218241 reviews)
+[promote] LIVE: UTOPIA -> B01NBNDC1T (entries now 22, vetted now 195)
+[promote] push: ok
+[promote] selected B01M16WBW1 -> keyword SIZE (4.5* / 451219 reviews)
+[promote] LIVE: SIZE -> B01M16WBW1 (entries now 23, vetted now 231)
+[promote] push: ok
+[promote] B01M16WBW1 kw=SHEET: seeded variant FAILS gate ["product 'Queen Size 4 Piece Sheet Set' named in line 3 (must be line 3+)"] — skipping (won't seed unshippable content).
+[promote] selected B01HI1W1V4 -> keyword DIGITAL (4.7* / 349254 reviews)
+[promote] LIVE: DIGITAL -> B01HI1W1V4 (entries now 24, vetted now 270)
+[promote] push: ok
+[promote] B01M16WBW1 kw=SHEET: seeded variant FAILS gate ["product 'Queen Size 4 Piece Sheet Set' named in line 3 (must be line 3+)"] — skipping (won't seed unshippable content).
+[promote] B01M16WBW1 kw=SHEET: seeded variant FAILS gate ["product 'Queen Size 4 Piece Sheet Set' named in line 3 (must be line 3+)"] — skipping (won't seed unshippable content).
+[promote] selected B01HI1W1V4 -> keyword BODY (4.7* / 349254 reviews)
+[promote] LIVE: BODY -> B01HI1W1V4 (entries now 25, vetted now 311)
+[promote] push: ok
+[promote] B01M16WBW1 kw=SHEET: seeded variant FAILS gate ["product 'Queen Size 4 Piece Sheet Set' named in line 3 (must be line 3+)"] — skipping (won't seed unshippable content).
+[promote] B01M16WBW1 kw=SHEET: seeded variant FAILS gate ["product 'Queen Size 4 Piece Sheet Set' named in line 3 (must be line 3+)"] — skipping (won't seed unshippable content).
+[promote] selected B01M16WBW1 -> keyword SHEET (4.5* / 451219 reviews)
+[promote] LIVE: SHEET -> B01M16WBW1 (entries now 26, vetted now 348)
+[promote] push: ok
+[promote] B01M16WBW1: no unique keyword available, skipping.
+[promote] selected B01HI1W1V4 -> keyword WEIGHT (4.7* / 349254 reviews)
+[promote] LIVE: WEIGHT -> B01HI1W1V4 (entries now 27, vetted now 383)
+[promote] push: ok
+[promote] B01M16WBW1: no unique keyword available, skipping.
+[promote] B01M16WBW1: no unique keyword available, skipping.
+[promote] selected B01HI1W1V4 -> keyword BATHROOM (4.7* / 349374 reviews)
+[promote] LIVE: BATHROOM -> B01HI1W1V4 (entries now 28, vetted now 421)
+[promote] push: ok
+[promote] B01M16WBW1: no unique keyword available, skipping.
+[promote] B01M16WBW1: no unique keyword available, skipping.
+[promote] B01M16WBW1: no unique keyword available, skipping.
+[promote] selected B01HI1W1V4 -> keyword SCALE (4.7* / 349374 reviews)
+[promote] LIVE: SCALE -> B01HI1W1V4 (entries now 29, vetted now 459)
+[promote] push: ok
+[promote] B01M16WBW1: no unique keyword available, skipping.
+[promote] B01M16WBW1: no unique keyword available, skipping.
+[promote] B01M16WBW1: no unique keyword available, skipping.
+[promote] B01M16WBW1: no unique keyword available, skipping.
+[promote] B01HI1W1V4: no unique keyword available, skipping.
+[promote] B00FXNAAW2: no unique keyword available, skipping.
+[promote] B00FXNAAW2: no unique keyword available, skipping.
+[promote] B00FXNAAW2: no unique keyword available, skipping.
+[promote] B00FXNAAW2: no unique keyword available, skipping.
+[promote] B00FXNAAW2: no unique keyword available, skipping.
+[promote] B00FXNAAW2: no unique keyword available, skipping.
+[promote] B00FXNAAW2: no unique keyword available, skipping.
+[promote] B00FXNAAW2: no unique keyword available, skipping.
+[promote] B00FXNAAW2: no unique keyword available, skipping.
+[promote] B00FXNABPI: no unique keyword available, skipping.
+[promote] B00FXNABPI: no unique keyword available, skipping.
+[promote] B00FXNABPI: no unique keyword available, skipping.
+[promote] B00FXNABPI: no unique keyword available, skipping.
+[promote] selected B01NBNDC1T -> keyword BEDDING (4.6* / 218437 reviews)
+[promote] LIVE: BEDDING -> B01NBNDC1T (entries now 30, vetted now 492)
+[promote] push: ok
+[promote] B01M16WBW1: no unique keyword available, skipping.
+[promote] B01M16WBW1: no unique keyword available, skipping.
+[promote] B01M16WBW1: no unique keyword available, skipping.
+[promote] B01M16WBW1: no unique keyword available, skipping.
+[promote] B01M16WBW1: no unique keyword available, skipping.
+[promote] B01HI1W1V4: no unique keyword available, skipping.
+[promote] B01HI1W1V4: no unique keyword available, skipping.
+[promote] B00FXNAAW2: no unique keyword available, skipping.
+[promote] B00FXNAAW2: no unique keyword available, skipping.
+[promote] B00FXNAAW2: no unique keyword available, skipping.
+[promote] B00FXNAAW2: no unique keyword available, skipping.
+[promote] B00FXNAAW2: no unique keyword available, skipping.
+[promote] B00FXNAAW2: no unique keyword available, skipping.
+[promote] B00FXNAAW2: no unique keyword available, skipping.
+[promote] B00FXNAAW2: no unique keyword available, skipping.
+[promote] B00FXNAAW2: no unique keyword available, skipping.
+[promote] B00FXNAAW2: no unique keyword available, skipping.
+[promote] B00FXNABPI: no unique keyword available, skipping.
+[promote] B00FXNABPI: no unique keyword available, skipping.
+[promote] B00FXNABPI: no unique keyword available, skipping.
+[promote] B00FXNABPI: no unique keyword available, skipping.
+[promote] selected B01NBNDC1T -> keyword INSERTS (4.6* / 218437 reviews)
+[promote] LIVE: INSERTS -> B01NBNDC1T (entries now 31, vetted now 532)
+[promote] push: ok
+[promote] B01M16WBW1: no unique keyword available, skipping.
+[promote] B01M16WBW1: no unique keyword available, skipping.
+[promote] B01M16WBW1: no unique keyword available, skipping.
+[promote] B01M16WBW1: no unique keyword available, skipping.
+[promote] B01M16WBW1: no unique keyword available, skipping.
+[promote] B01M16WBW1: no unique keyword available, skipping.
+[promote] B01HI1W1V4: no unique keyword available, skipping.
+[promote] B01HI1W1V4: no unique keyword available, skipping.
+[promote] B01HI1W1V4: no unique keyword available, skipping.
+[promote] B00FXNAAW2: no unique keyword available, skipping.
+[promote] B00FXNAAW2: no unique keyword available, skipping.
+[promote] B00FXNAAW2: no unique keyword available, skipping.
+[promote] B00FXNAAW2: no unique keyword available, skipping.
+[promote] B00FXNAAW2: no unique keyword available, skipping.
+[promote] B00FXNAAW2: no unique keyword available, skipping.
+[promote] B00FXNAAW2: no unique keyword available, skipping.
+[promote] B00FXNAAW2: no unique keyword available, skipping.
+[promote] B00FXNAAW2: no unique keyword available, skipping.
+[promote] B00FXNAAW2: no unique keyword available, skipping.
+[promote] B00FXNAAW2: no unique keyword available, skipping.
+[promote] B00FXNABPI: no unique keyword available, skipping.
+[promote] B00FXNABPI: no unique keyword available, skipping.
+[promote] B00FXNABPI: no unique keyword available, skipping.
+[promote] B00FXNABPI: no unique keyword available, skipping.
+[promote] B01NBNDC1T: no unique keyword available, skipping.
+[promote] B0CP9YB3Q4 kw=STANLEY: seeded variant FAILS gate ["product 'STANLEY Quencher H2.0 Tumbler with Handle and Straw 30 oz' named in line 3 (must be line 3+)", "too many ALL CAPS long words: ['STANLEY', 'STANLEY']"] — skipping (won't seed unshippable content).
+[promote] B0CP9YB3Q4 kw=STANLEY: seeded variant FAILS gate ["too many ALL CAPS long words: ['STANLEY', 'STANLEY']"] — skipping (won't seed unshippable content).
+[promote] B0CP9YB3Q4 kw=STANLEY: seeded variant FAILS gate ["product 'STANLEY Quencher H2.0 Tumbler with Handle and Straw 30 oz' named in line 3 (must be line 3+)", "too many ALL CAPS long words: ['STANLEY', 'STANLEY']", 'banned hype word (matches /\\bviral\\b/)'] — skipping (won't seed unshippable content).
+[promote] B0CP9YB3Q4 kw=STANLEY: seeded variant FAILS gate ["product 'STANLEY Quencher H2.0 Tumbler with Handle and Straw 30 oz' named in line 3 (must be line 3+)", "too many ALL CAPS long words: ['STANLEY', 'STANLEY']", 'banned hype word (matches /\\bviral\\b/)'] — skipping (won't seed unshippable content).
+[promote] B0CP9YB3Q4 kw=STANLEY: seeded variant FAILS gate ["product 'STANLEY Quencher H2.0 Tumbler with Handle and Straw 30 oz' named in line 3 (must be line 3+)", "too many ALL CAPS long words: ['STANLEY', 'STANLEY']", 'banned hype word (matches /\\bviral\\b/)'] — skipping (won't seed unshippable content).
+[promote] B0CP9YB3Q4 kw=STANLEY: seeded variant FAILS gate ["too many ALL CAPS long words: ['STANLEY', 'STANLEY']", 'banned hype word (matches /\\bviral\\b/)'] — skipping (won't seed unshippable content).
+[promote] B0CP9YB3Q4 kw=STANLEY: seeded variant FAILS gate ["product 'STANLEY Quencher H2.0 Tumbler with Handle and Straw 30 oz' named in line 3 (must be line 3+)", "too many ALL CAPS long words: ['STANLEY', 'STANLEY']", 'banned hype word (matches /\\bviral\\b/)'] — skipping (won't seed unshippable content).
+[promote] B0CP9YB3Q4 kw=STANLEY: seeded variant FAILS gate ["too many ALL CAPS long words: ['STANLEY', 'STANLEY']", 'banned hype word (matches /\\bviral\\b/)'] — skipping (won't seed unshippable content).
+[promote] B0CP9YB3Q4 kw=STANLEY: seeded variant FAILS gate ["too many ALL CAPS long words: ['STANLEY', 'STANLEY']", 'banned hype word (matches /\\bviral\\b/)'] — skipping (won't seed unshippable content).
+[promote] B0CP9YB3Q4 kw=STANLEY: seeded variant FAILS gate ["product 'STANLEY Quencher H2.0 Tumbler with Handle and Straw 30 oz' named in line 3 (must be line 3+)", "too many ALL CAPS long words: ['STANLEY', 'STANLEY']"] — skipping (won't seed unshippable content).
+[promote] selected B0CP9YB3Q4 -> keyword STANLEY (4.7* / 203481 reviews)
+[promote] LIVE: STANLEY -> B0CP9YB3Q4 (entries now 32, vetted now 560)
+[promote] push: ok
+[promote] B01M16WBW1: no unique keyword available, skipping.
+[promote] B01M16WBW1: no unique keyword available, skipping.
+[promote] B01M16WBW1: no unique keyword available, skipping.
+[promote] B01M16WBW1: no unique keyword available, skipping.
+[promote] B01M16WBW1: no unique keyword available, skipping.
+[promote] B01M16WBW1: no unique keyword available, skipping.
+[promote] B01M16WBW1: no unique keyword available, skipping.
+[promote] B01HI1W1V4: no unique keyword available, skipping.
+[promote] B01HI1W1V4: no unique keyword available, skipping.
+[promote] B01HI1W1V4: no unique keyword available, skipping.
+[promote] B01HI1W1V4: no unique keyword available, skipping.
+[promote] B00FXNAAW2: no unique keyword available, skipping.
+[promote] B00FXNAAW2: no unique keyword available, skipping.
+[promote] B00FXNAAW2: no unique keyword available, skipping.
+[promote] B00FXNAAW2: no unique keyword available, skipping.
+[promote] B00FXNAAW2: no unique keyword available, skipping.
+[promote] B00FXNAAW2: no unique keyword available, skipping.
+[promote] B00FXNAAW2: no unique keyword available, skipping.
+[promote] B00FXNAAW2: no unique keyword available, skipping.
+[promote] B00FXNAAW2: no unique keyword available, skipping.
+[promote] B00FXNAAW2: no unique keyword available, skipping.
+[promote] B00FXNAAW2: no unique keyword available, skipping.
+[promote] B00FXNAAW2: no unique keyword available, skipping.
+[promote] B00FXNABPI: no unique keyword available, skipping.
+[promote] B00FXNABPI: no unique keyword available, skipping.
+[promote] B00FXNABPI: no unique keyword available, skipping.
+[promote] B00FXNABPI: no unique keyword available, skipping.
+[promote] B01NBNDC1T: no unique keyword available, skipping.
+[promote] B01NBNDC1T: no unique keyword available, skipping.
+[promote] B0CP9YB3Q4 kw=QUENCHER: seeded variant FAILS gate ["too many ALL CAPS long words: ['STANLEY', 'QUENCHER']", 'banned hype word (matches /\\bviral\\b/)'] — skipping (won't seed unshippable content).
+[promote] selected B0113UZJE2 -> keyword FOOD (4.6* / 176516 reviews)
+[promote] LIVE: FOOD -> B0113UZJE2 (entries now 33, vetted now 586)
+[promote] push: ok
+  [skip] B01M16WBW1: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B01HI1W1V4: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0725WFLMB: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00FXNAAW2: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00FXNABPI: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B01NBNDC1T: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CP9YB3Q4: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00WSWGVZQ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0113UZJE2: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00E4GACB8: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00E4GACB8: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00LS9UD2M: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0010B5EQS: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B01IE7P2VW: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BZYCJK89: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BZYCJK89: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B085DTZQNZ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B01CS31R94: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B085DTZQNZ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B01CS31R94: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0714K41PB: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00NX0WXQI: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B01F5K9YNS: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00MRH9NCK: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00GS8W3T4: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08QRFZ6TH: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08QRFZ6TH: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08492PZ8Y: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07236M4HC: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00SXC85IQ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00SXC85IQ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08DTH86Q2: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B000ST1DZO: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B000ST1DZO: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B010S5VXKC: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09ZYRCNJH: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09ZYRCNJH: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DR9ML5X9: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08XVP48KQ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08XVP48KQ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B01DCG0GPC: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08B1B1B2X: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08B1B1B2X: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B081YQBPSS: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B56CHMSC: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B56CHMSC: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08BZFRQLS: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00HZ0ION8: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00HZ0ION8: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08CRPWQHB: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09SYYRBVP: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08WPQ12XX: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B098D79MQB: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08KXKVT4K: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08NCVT244: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0C1DWC251: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0C1DWC251: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CJF94M8J: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CJF94M8J: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00W5D1MDE: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00W5D1MDE: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B000SDKDM4: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BQR2BQYZ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B1CNJL7N: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BFMKYN12: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BFMKYN12: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09KTQMMCM: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09KTQMMCM: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B083LMRXJC: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07SPXKNXN: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B011CBJGZK: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08S31RWBK: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B6PLG6G2: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0815BLNX1: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0881QG5WK: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0815BLNX1: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DLWDVZCD: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08573DQ39: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0738B8SQS: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B007FJ0FJU: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08ZK5WDWN: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B075NS8YXG: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09CYLZPYP: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0C1NNYJGB: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B088WYYH85 price $39.99 outside $5-$35
+  [skip] B08GY9D3XD: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08GY9D3XD: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B087T2M1YX: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B001GM60LE: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07QLQ3QP4: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CQVWT2NH: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08CVT84C9: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09B126SSJ price $42.99 outside $5-$35
+  [skip] B00P7VW2H6: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00P7VW2H6: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CQVWT2NH: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BZZDPPRX: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BHSFZNFY: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07SYPLVTG: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07SYPLVTG: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BHSFZNFY: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0F2WMS7CC: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BBMK7RCF: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BBMK7RCF: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CJ56M8D4: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B078H9VRTZ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B078H9VRTZ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DF44GN8Y: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0C3QZ7SNF: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B7WQVYGF: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07T4N63TK rated 4.3 < 4.5
+  [skip] B0CKV2BNZL: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DGF616XN: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07712H557: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07712H557: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DGF616XN: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B99VKV8P: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B99VKV8P: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0FK124QCT: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BZL5GWVL: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CTJGJL2T: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CTJGJL2T: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0D89V1RX1: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08SBYPF14: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0D97YVVQ2: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0D89V1RX1: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08LDD8HBW: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08RJC5B74 rated 4.0 < 4.5
+  [skip] B0BR3STN87: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09ZKYQMVD: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0D1BZJSX4: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09SZ9T4MV: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0F24MHHFD: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CS12LZLS: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09SZ9T4MV: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07177XJK7: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09W2F2L4C rated 4.3 < 4.5
+  [skip] B0CLH1445W: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DZ254SSR: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DZ254SSR: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BNL5MBMY: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BNL5MBMY: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BY2QZYT9: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0F332CCLK: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00R55CIRQ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DXKRFFGM price $59.99 outside $5-$35
+  [skip] B0BFVSKX3M rated 4.4 < 4.5
+  [skip] B0GN1TZZ9W: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0GN1TZZ9W: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B715XDG1: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0FDWLX8QP: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B073WD5KPX price $115.19 outside $5-$35
+  [skip] B0CD1X9B1J: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0F29FLLJZ price $89.99 outside $5-$35
+  [skip] B0D176VGXZ price $46.99 outside $5-$35
+  [skip] B09GBDQVGY: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] 1612435688 rated 4.4 < 4.5
+  [skip] B0DP76RZDR: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DP76RZDR: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CXDJG5QM price $69.99 outside $5-$35
+  [skip] B07WFXL22R price $119.99 outside $5-$35
+  [skip] B0F1MSZ34H price $35.99 outside $5-$35
+  [skip] B0F1CGK144: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0FVW1TNH8: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0FVW1TNH8: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0G1Y5BNZL price $149.99 outside $5-$35
+  [skip] B0FFS5RBLC rated 4.4 < 4.5
+  [skip] B0DZH3LX6Q: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0F8Q1Y3Z4 price $179.99 outside $5-$35
+[promote] no promotable vetted product this run.
+  [skip] B01M16WBW1: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B01HI1W1V4: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0725WFLMB: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00FXNAAW2: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00FXNABPI: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B01NBNDC1T: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CP9YB3Q4: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00WSWGVZQ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0113UZJE2: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00E4GACB8: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00E4GACB8: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00LS9UD2M: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0010B5EQS: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B01IE7P2VW: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BZYCJK89: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BZYCJK89: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B085DTZQNZ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B01CS31R94: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B085DTZQNZ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B01CS31R94: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0714K41PB: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0711RQMNF: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00NX0WXQI: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B01F5K9YNS: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00MRH9NCK: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00GS8W3T4: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08QRFZ6TH: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08QRFZ6TH: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08492PZ8Y: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07236M4HC: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00SXC85IQ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00SXC85IQ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08DTH86Q2: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B075QKDKMV: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B000ST1DZO: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B000ST1DZO: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B010S5VXKC: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09ZYRCNJH: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09ZYRCNJH: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DR9ML5X9: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08XVP48KQ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B01DCG0GPC: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08B1B1B2X: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B081YQBPSS: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B56CHMSC: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B56CHMSC: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08BZFRQLS: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00HZ0ION8: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00HZ0ION8: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B079M8FPTW: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08CRPWQHB: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B2F55P76: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09SYYRBVP: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08WPQ12XX: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B098D79MQB: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B06X421WJ6: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08KXKVT4K: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08NCVT244: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0F2BF31PW: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0C1DWC251: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B086WNKLTM: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0C1DWC251: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CJF94M8J: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CJF94M8J: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00W5D1MDE: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00W5D1MDE: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B000SDKDM4: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BQR2BQYZ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B1CNJL7N: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B083SCJ8G8: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BFMKYN12: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BFMKYN12: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09KTQMMCM: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09KTQMMCM: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B083LMRXJC: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0753NHZVQ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07SPXKNXN: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B011CBJGZK: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08S31RWBK: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B6PLG6G2: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0815BLNX1: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0881QG5WK: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0815BLNX1: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DLWDVZCD: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08573DQ39: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0738B8SQS: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B007FJ0FJU: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08ZK5WDWN: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B075NS8YXG: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09CYLLTJL: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09CYLZPYP: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0C1NNYJGB: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B088WYYH85 price $39.99 outside $5-$35
+  [skip] B08GY9D3XD: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08GY9D3XD: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B087T2M1YX: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B001GM60LE: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07QLQ3QP4: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CQVWT2NH: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08CVT84C9: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09B126SSJ price $42.99 outside $5-$35
+  [skip] B00P7VW2H6: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00P7VW2H6: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CQVWT2NH: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BZZDPPRX: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BHSFZNFY: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07SYPLVTG: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07SYPLVTG: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BHSFZNFY: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0F2WMS7CC: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BBMK7RCF: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BBMK7RCF: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CJ56M8D4: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B078H9VRTZ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B078H9VRTZ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DF44GN8Y: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0C3QZ7SNF: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B7WQVYGF: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0C9FR5FD8: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07T4N63TK rated 4.3 < 4.5
+  [skip] B0CKV2BNZL: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DGF616XN: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07712H557: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07712H557: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0D8J2ZB8P: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DGF616XN: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B99VKV8P: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B99VKV8P: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09WGL2PYY: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0FK124QCT: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BZL5GWVL: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CTJGJL2T: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CTJGJL2T: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0D89V1RX1: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08SBYPF14: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0D97YVVQ2: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0D89V1RX1: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08LDD8HBW: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08RJC5B74 rated 4.0 < 4.5
+  [skip] B0BR3STN87: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0GYF91BXB: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09ZKYQMVD: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0D1BZJSX4: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09SZ9T4MV: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0F24MHHFD: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CS12LZLS: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09SZ9T4MV: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07177XJK7: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09W2F2L4C rated 4.3 < 4.5
+  [skip] B0CLH1445W: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DZ254SSR: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DZ254SSR: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BNL5MBMY: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BNL5MBMY: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BY2QZYT9: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0F332CCLK: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00R55CIRQ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DXKRFFGM price $59.99 outside $5-$35
+  [skip] B0CXT9YZ24: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BFVSKX3M rated 4.4 < 4.5
+  [skip] B0GN1TZZ9W: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0GN1TZZ9W: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B715XDG1: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0FDWLX8QP: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B073WD5KPX price $115.19 outside $5-$35
+  [skip] B0CD1X9B1J: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0F29FLLJZ price $89.99 outside $5-$35
+  [skip] B0D176VGXZ price $46.99 outside $5-$35
+  [skip] B09GBDQVGY: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] 1612435688 rated 4.4 < 4.5
+  [skip] B0DP76RZDR: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DP76RZDR: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CXDJG5QM price $69.99 outside $5-$35
+  [skip] B07WFXL22R price $119.99 outside $5-$35
+  [skip] B0F1MSZ34H price $35.99 outside $5-$35
+  [skip] B0F1CGK144: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0FVW1TNH8: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0FVW1TNH8: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0G1Y5BNZL price $149.99 outside $5-$35
+  [skip] B0FFS5RBLC rated 4.4 < 4.5
+  [skip] B0DZH3LX6Q: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0F8Q1Y3Z4 price $179.99 outside $5-$35
+[promote] no promotable vetted product this run.
+  [skip] B01M16WBW1: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B01HI1W1V4: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0725WFLMB: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00FXNAAW2: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00FXNABPI: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B01NBNDC1T: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CP9YB3Q4: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00WSWGVZQ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0113UZJE2: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00E4GACB8: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00E4GACB8: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00LS9UD2M: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0010B5EQS: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B01IE7P2VW: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0D3W6XGLR: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BZYCJK89: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BZYCJK89: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B085DTZQNZ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B01CS31R94: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B085DTZQNZ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B01CS31R94: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0714K41PB: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0711RQMNF: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B06X9NQ8GX: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00NX0WXQI: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B01F5K9YNS: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00MRH9NCK: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00GS8W3T4: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08QRFZ6TH: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08QRFZ6TH: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08492PZ8Y: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07236M4HC: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07YP2VH4B: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00S93EQUK: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00SXC85IQ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00SXC85IQ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08DTH86Q2: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B075QKDKMV: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B000ST1DZO: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B000ST1DZO: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B010S5VXKC: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09ZYRCNJH: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09ZYRCNJH: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DR9PMK1W: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DR9ML5X9: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08XVP48KQ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B01DCG0GPC: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08B1B1B2X: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08B115T54: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B081YQBPSS: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B56CHMSC: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B56CHMSC: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08BZFRQLS: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00HZ0ION8: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00HZ0ION8: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B079M8FPTW: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08CRPWQHB: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08FLKHG8J: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B2F55P76: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09SYYRBVP: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08WPQ12XX: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B098D79MQB: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B06X421WJ6: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08KXKVT4K: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08NCVT244: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0F2BF31PW: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0C1DWC251: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B086WNKLTM: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0C1DWC251: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CJF94M8J: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CJF94M8J: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00W5D1MDE: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00W5D1MDE: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B000SDKDM4: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BQR2BQYZ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B1CNJL7N: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07WMQP4SF: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B083SCJ8G8: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BFMKYN12: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BFMKYN12: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09KTQMMCM: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09KTQMMCM: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B083LMRXJC: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0753NHZVQ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07SPXKNXN: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B011CBJGZK: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08S31RWBK: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B6PLG6G2: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B6PLG6G2: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0815BLNX1: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0881QG5WK: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0815BLNX1: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DLWDVZCD: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08573DQ39: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0738B8SQS: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B007FJ0FJU: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08ZK5WDWN: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0C6Y8NYK1: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B075NS8YXG: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09CYLLTJL: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09CYLZPYP: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0C1NNYJGB: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B088WYYH85 price $39.99 outside $5-$35
+  [skip] B08GY9D3XD: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08GY9D3XD: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B087T2M1YX: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B001GM60LE: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07QLQ3QP4: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0H1YJM5W8: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CQVWT2NH: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08CVT84C9: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08CVT84C9: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09B126SSJ price $42.99 outside $5-$35
+  [skip] B00P7VW2H6: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00P7VW2H6: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CQVWT2NH: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BZZDPPRX: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BHSFZNFY: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07SYPLVTG: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07SYPLVTG: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BHSFZNFY: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0F2WMS7CC: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BBMK7RCF: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BBMK7RCF: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CJ56M8D4: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B078H9VRTZ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B078H9VRTZ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DF44GN8Y: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0D8PSDMYH: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0C3QZ7SNF: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B7WQVYGF: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0C9FR5FD8: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07T4N63TK rated 4.3 < 4.5
+  [skip] B0CKV2BNZL: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DGF616XN: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07712H557: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07712H557: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0D8J2ZB8P: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DGF616XN: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B99VKV8P: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B99VKV8P: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08HLM5QCS: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09WGL2PYY: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0GSH7JDR8: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0FK124QCT: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BZL5GWVL: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CTJGJL2T: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CTJGJL2T: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0D89V1RX1: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08SBYPF14: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0D97YVVQ2: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0D89V1RX1: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08LDD8HBW: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08RJC5B74 rated 4.0 < 4.5
+  [skip] B0BR3STN87: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0GYF91BXB: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09ZKYQMVD: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0D1BZJSX4: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B2P4P2R4: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0F24MHHFD: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CS12LZLS: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09SZ9T4MV: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09SZ9T4MV: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07177XJK7: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09W2F2L4C rated 4.3 < 4.5
+  [skip] B0CLH1445W: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DZ254SSR: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DZ254SSR: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BNL5MBMY: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BNL5MBMY: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BY2QZYT9: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0F332CCLK: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00R55CIRQ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DXKRFFGM price $59.99 outside $5-$35
+  [skip] B0CXT9YZ24: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BFVSKX3M rated 4.4 < 4.5
+  [skip] B0GN1TZZ9W: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0GN1TZZ9W: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B715XDG1: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0FDWLX8QP: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B073WD5KPX price $115.19 outside $5-$35
+  [skip] B0CD1X9B1J: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0F29FLLJZ price $89.99 outside $5-$35
+  [skip] B0D176VGXZ price $46.99 outside $5-$35
+  [skip] B09GBDQVGY: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] 1612435688 rated 4.4 < 4.5
+  [skip] B0DP76RZDR: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DP76RZDR: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CXDJG5QM price $69.99 outside $5-$35
+  [skip] B07WFXL22R price $119.99 outside $5-$35
+  [skip] B0F1MSZ34H price $35.99 outside $5-$35
+  [skip] B0F1CGK144: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0FVW1TNH8: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0FVW1TNH8: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0G1Y5BNZL price $149.99 outside $5-$35
+  [skip] B0FFS5RBLC rated 4.4 < 4.5
+  [skip] B0DZH3LX6Q: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0F8Q1Y3Z4 price $179.99 outside $5-$35
+[promote] no promotable vetted product this run.
+  [skip] B01M16WBW1: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B01HI1W1V4: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0725WFLMB: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00FXNAAW2: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00FXNABPI: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B01NBNDC1T: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CP9YB3Q4: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00WSWGVZQ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0113UZJE2: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00E4GACB8: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00E4GACB8: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00LS9UD2M: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0010B5EQS: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B01IE7P2VW: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0D3W6XGLR: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BZYCJK89: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BZYCJK89: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B085DTZQNZ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00U6HREPQ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B01CS31R94: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B085DTZQNZ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B01CS31R94: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0714K41PB: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0711RQMNF: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B06X9NQ8GX: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00NX0WXQI: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B01F5K9YNS: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00MRH9NCK: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00GS8W3T4: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08QRFZ6TH: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08QRFZ6TH: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08492PZ8Y: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07236M4HC: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07YP2VH4B: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00S93EQUK: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00SXC85IQ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00SXC85IQ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08DTH86Q2: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B075QKDKMV: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B000ST1DZO: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B000ST1DZO: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B010S5VXKC: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09ZYRCNJH: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09ZYRCNJH: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DR9PMK1W: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DR9ML5X9: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08XVP48KQ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B01DCG0GPC: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B078YNC9G9: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08B1B1B2X: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08B115T54: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B081YQBPSS: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B56CHMSC: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B56CHMSC: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08BZFRQLS: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00HZ0ION8: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00HZ0ION8: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B079M8FPTW: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08CRPWQHB: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08FLKHG8J: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B2F55P76: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09SYYRBVP: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08WPQ12XX: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B098D79MQB: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B071G5BSZV: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B06X421WJ6: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08KXKVT4K: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08NCNLL3Q: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08NCVT244: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0F2BF31PW: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0C1DWC251: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B086WNKLTM: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0C1DWC251: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CJF94M8J: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CJF94M8J: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00W5D1MDE: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00W5D1MDE: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B000SDKDM4: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BQR2BQYZ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B1CNJL7N: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07WMQP4SF: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B083SCJ8G8: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BFMKYN12: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BFMKYN12: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09KTQMMCM: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09KTQMMCM: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B083LMRXJC: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0753NHZVQ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07SPXKNXN: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B011CBJGZK: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08S31RWBK: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B6PLG6G2: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B6PLG6G2: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0815BLNX1: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0881QG5WK: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0815BLNX1: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DLWDVZCD: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08573DQ39: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0738B8SQS: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B007FJ0FJU: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08ZK5WDWN: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0C6Y8NYK1: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B075NS8YXG: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09CYLLTJL: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09CYLZPYP: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0C1NNYJGB: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B088WYYH85 price $39.99 outside $5-$35
+  [skip] B08GY9D3XD: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08GY9D3XD: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B087T2M1YX: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B001GM60LE: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07QLQ3QP4: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0H1YJM5W8: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CQVWT2NH: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08CVT84C9: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08CVT84C9: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09B126SSJ price $42.99 outside $5-$35
+  [skip] B00P7VW2H6: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00P7VW2H6: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CQVWT2NH: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BZZDPPRX: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BHSFZNFY: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07SYPLVTG: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07SYPLVTG: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BHSFZNFY: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0F2WMS7CC: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BBMK7RCF: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BBMK7RCF: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CJ56M8D4: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B078H9VRTZ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B078H9VRTZ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DF44GN8Y: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0D8PSDMYH: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0C3QZ7SNF: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B7WQVYGF: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0C9FR5FD8: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07T4N63TK rated 4.3 < 4.5
+  [skip] B0CKV2BNZL: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DGF616XN: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07712H557: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07712H557: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0D8J2ZB8P: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DGF616XN: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B99VKV8P: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B99VKV8P: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08HLM5QCS: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09WGL2PYY: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0GSH7JDR8: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0FK124QCT: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BZL5GWVL: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CTJGJL2T: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CTJGJL2T: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0D89V1RX1: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08SBYPF14: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0D97YVVQ2: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0D89V1RX1: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08LDD8HBW: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08RJC5B74 rated 4.0 < 4.5
+  [skip] B0BR3STN87: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0GYF91BXB: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09ZKYQMVD: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0D1BZJSX4: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B2P4P2R4: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0F24MHHFD: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CS12LZLS: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09SZ9T4MV: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09SZ9T4MV: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07177XJK7: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09W2F2L4C rated 4.3 < 4.5
+  [skip] B0CLH1445W: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DZ254SSR: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DZ254SSR: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BNL5MBMY: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BNL5MBMY: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BY2QZYT9: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0F332CCLK: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00R55CIRQ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DXKRFFGM price $59.99 outside $5-$35
+  [skip] B0CXT9YZ24: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BFVSKX3M rated 4.4 < 4.5
+  [skip] B0GN1TZZ9W: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0GN1TZZ9W: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B715XDG1: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0FDWLX8QP: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B073WD5KPX price $115.19 outside $5-$35
+  [skip] B0CD1X9B1J: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0F29FLLJZ price $89.99 outside $5-$35
+  [skip] B0D176VGXZ price $46.99 outside $5-$35
+  [skip] B09GBDQVGY: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] 1612435688 rated 4.4 < 4.5
+  [skip] B0DP76RZDR: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DP76RZDR: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CXDJG5QM price $69.99 outside $5-$35
+  [skip] B07WFXL22R price $119.99 outside $5-$35
+  [skip] B0F1MSZ34H price $35.99 outside $5-$35
+  [skip] B0F1CGK144: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0FVW1TNH8: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0FVW1TNH8: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0G1Y5BNZL price $149.99 outside $5-$35
+  [skip] B0FFS5RBLC rated 4.4 < 4.5
+  [skip] B0DZH3LX6Q: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0F8Q1Y3Z4 price $179.99 outside $5-$35
+[promote] no promotable vetted product this run.
+  [skip] B01M16WBW1: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B01HI1W1V4: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0725WFLMB: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00FXNAAW2: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00FXNABPI: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B01NBNDC1T: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CP9YB3Q4: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00WSWGVZQ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0113UZJE2: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07SHFPD8S: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00E4GACB8: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00E4GACB8: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00LS9UD2M: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0010B5EQS: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B01IE7P2VW: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0D3W6XGLR: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BZYCJK89: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BZYCJK89: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B085DTZQNZ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00U6HREPQ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B01CS31R94: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B085DTZQNZ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B01CS31R94: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0714K41PB: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00NKYYMAW: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0711RQMNF: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B06X9NQ8GX: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00NX0WXQI: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B01F5K9YNS: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00MRH9NCK: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00GS8W3T4: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08QRFZ6TH: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08QRFZ6TH: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08492PZ8Y: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07236M4HC: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07YP2VH4B: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00S93EQUK: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B014WOXB6O: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00SXC85IQ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08DTH86Q2: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B075QKDKMV: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B000ST1DZO: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B000ST1DZO: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B010S5VXKC: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B007JCHA6E: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09ZYRCNJH: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09ZYRCNJH: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DR9PMK1W: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DR9ML5X9: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08XVP48KQ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B01DCG0GPC: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B078YNC9G9: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08B1B1B2X: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08B115T54: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08B115T54: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B081YQBPSS: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B56CHMSC: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B56CHMSC: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08BZFRQLS: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00HZ0ION8: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00HZ0ION8: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B01KBEOL5E: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B079M8FPTW: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08CRPWQHB: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08FLKHG8J: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B2F55P76: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09SYYRBVP: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08WPQ12XX: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B098D79MQB: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B071G5BSZV: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B06X421WJ6: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08KXKVT4K: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08NCNLL3Q: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08NCVT244: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0F2BF31PW: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0C1DWC251: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B086WNKLTM: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0C1DWC251: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CJF94M8J: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CJF94M8J: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00W5D1MDE: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00W5D1MDE: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B000SDKDM4: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BQR2BQYZ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B1CNJL7N: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07WMQP4SF: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B083SCJ8G8: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BFMKYN12: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BFMKYN12: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09KTQMMCM: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B083LMRXJC: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0753NHZVQ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07SPXKNXN: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0C3NKW6F1: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B011CBJGZK: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08S31RWBK: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B6PLG6G2: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B6PLG6G2: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0815BLNX1: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0881QG5WK: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0815BLNX1: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DLWDVZCD: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08573DQ39: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0738B8SQS: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B007FJ0FJU: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CSK16X7B: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08ZK5WDWN: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0C6Y8NYK1: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B075NS8YXG: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09CYLLTJL: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09CYLZPYP: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0C1NNYJGB: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B088WYYH85 price $39.99 outside $5-$35
+  [skip] B08GY9D3XD: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08GY9D3XD: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B087T2M1YX: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B001GM60LE: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07QLQ3QP4: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0H1YJM5W8: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CQVWT2NH: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08CVV7Z5H: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08CVT84C9: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08CVT84C9: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09472RY19: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09B126SSJ price $42.99 outside $5-$35
+  [skip] B00P7VW2H6: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00P7VW2H6: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CQVWT2NH: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BZZDPPRX: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BHSFZNFY: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07SYPLVTG: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07SYPLVTG: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BHSFZNFY: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0F2WMS7CC: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BBMK7RCF: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BBMK7RCF: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CJ56M8D4: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B078H9VRTZ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B078H9VRTZ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DF44GN8Y: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0D8PSDMYH: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0C3QZ7SNF: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B7WQVYGF: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0C9FR5FD8: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07T4N63TK rated 4.3 < 4.5
+  [skip] B0CKV2BNZL: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DGF616XN: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07712H557: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07712H557: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0D8J2ZB8P: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DGF616XN: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B99VKV8P: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B99VKV8P: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B094FPRBQ6: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08HLM5QCS: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09WGL2PYY: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0GSH7JDR8: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0FK124QCT: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BZL5GWVL: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CTJGJL2T: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CTJGJL2T: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0D89V1RX1: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08SBYPF14: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0D97YVVQ2: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0D89V1RX1: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08Q7MMJHH: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08LDD8HBW: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B08RJC5B74 rated 4.0 < 4.5
+  [skip] B0BR3STN87: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0GYF91BXB: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09ZKYQMVD: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0D1BZJSX4: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B2P4P2R4: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0F24MHHFD: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CS12LZLS: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09SZ9T4MV: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09SZ9T4MV: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B07177XJK7: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B09W2F2L4C rated 4.3 < 4.5
+  [skip] B0CLH1445W: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CBM682SQ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DZ254SSR: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DZ254SSR: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BNL5MBMY: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BNL5MBMY: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BY2QZYT9: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0F332CCLK: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B00R55CIRQ: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DXKRFFGM price $59.99 outside $5-$35
+  [skip] B0CXT9YZ24: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DZFGTCLR: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0BFVSKX3M rated 4.4 < 4.5
+  [skip] B0GN1TZZ9W: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0GN1TZZ9W: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0B715XDG1: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0FDWLX8QP: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B073WD5KPX price $115.19 outside $5-$35
+  [skip] B0CD1X9B1J: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0F29FLLJZ price $89.99 outside $5-$35
+  [skip] B0D176VGXZ price $46.99 outside $5-$35
+  [skip] B09GBDQVGY: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] 1612435688 rated 4.4 < 4.5
+  [skip] B0DP76RZDR: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0DP76RZDR: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0CXDJG5QM price $69.99 outside $5-$35
+  [skip] B07WFXL22R price $119.99 outside $5-$35
+  [skip] B0F1MSZ34H price $35.99 outside $5-$35
+  [skip] B0F1CGK144: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0FVW1TNH8: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0FVW1TNH8: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0G1Y5BNZL price $149.99 outside $5-$35
+  [skip] B0FFS5RBLC rated 4.4 < 4.5
+  [skip] B0DZH3LX6Q: script generation failed (claude CLI failed (rc=1): Failed to authenticate: OAuth session expired and could not be refreshed)
+  [skip] B0F8Q1Y3Z4 price $179.99 outside $5-$35
+[promote] no promotable vetted product this run.
+[promote] B06WWRCZXX kw=SIZE: seeded variant FAILS gate ["product 'Queen Size 4 Piece Sheet Set' named in line 1 (must be line 3+)"] — skipping (won't seed unshippable content).
+[promote] B01M16WBW1 kw=SIZE: seeded variant FAILS gate ["product 'Queen Size 4 Piece Sheet Set' named in line 3 (must be line 3+)"] — skipping (won't seed unshippable content).
+[promote] B01HI1W1V4 kw=DIGITAL: seeded variant FAILS gate ["product 'Etekcity Digital Body Weight Bathroom Scale' named in line 3 (must be line 3+)"] — skipping (won't seed unshippable content).
+[promote] selected B0725WFLMB -> keyword BEDSURE (4.5* / 321211 reviews)
+[promote] LIVE: BEDSURE -> B0725WFLMB (entries now 24, vetted now 174)
+[promote] push: ok
+[promote] B06WWRCZXX kw=SIZE: seeded variant FAILS gate ["product 'Queen Size 4 Piece Sheet Set' named in line 1 (must be line 3+)"] — skipping (won't seed unshippable content).
+[promote] selected B01M16WBW1 -> keyword SIZE (4.5* / 453281 reviews)
+[promote] LIVE: SIZE -> B01M16WBW1 (entries now 25, vetted now 181)
+[promote] push: ok

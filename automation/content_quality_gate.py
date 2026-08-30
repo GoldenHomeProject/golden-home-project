@@ -182,10 +182,25 @@ def check_script(script_path: Path) -> tuple[bool, list[str]]:
 
     # 4. Product named before line 3
     if primary_product:
-        product_keyword = primary_product.split()[0].lower() if primary_product.split() else ""
-        if product_keyword and len(product_keyword) > 3:
+        # The first word of an Amazon title is often a size or colour ("Queen Size 4
+        # Piece Sheet Set" -> "queen"), which appears in perfectly good copy and made
+        # this rule reject captions that never named the product at all. Skip those and
+        # use the first genuinely identifying word.
+        GENERIC_HEAD = {
+            "queen", "king", "twin", "full", "large", "small", "mini", "jumbo",
+            "clear", "white", "black", "grey", "gray", "blue", "green", "beige",
+            "set", "pack", "piece", "premium", "luxury", "soft", "heavy", "deep",
+            "adjustable", "reusable", "waterproof", "rustproof", "decorative",
+        }
+        words = [w.lower() for w in primary_product.split()]
+        product_keyword = next(
+            (w for w in words if len(w) > 3 and w not in GENERIC_HEAD), "")
+        if product_keyword:
             lines = caption.split("\n")
-            for line_num, line in enumerate(lines[:3], start=1):
+            # lines[:2] — the rule is "must be line 3+", so line 3 is ALLOWED. The old
+            # lines[:3] checked line 3 too and rejected content the rule permits, which
+            # blocked the bathroom/bedroom textiles that are our only proven sellers.
+            for line_num, line in enumerate(lines[:2], start=1):
                 if product_keyword in line.lower():
                     reasons.append(f"product '{primary_product}' named in line {line_num} (must be line 3+)")
                     break

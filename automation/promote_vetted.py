@@ -385,9 +385,29 @@ def main() -> int:
 
     taken = {e["keyword"].upper() for e in entries if e.get("keyword")}
 
-    # Most-proven first: a high review count is the best signal the product is real
-    # and converts. Promote the single best candidate we can name uniquely.
-    for entry in sorted(vetted, key=lambda e: _reviews_value(e.get("verified_reviews")),
+    # Proven-category first, then review count.
+    #
+    # This registry is what Instagram and YouTube draw their content from, so biasing it
+    # biases those channels. As of 2026-08-30 we know what converts: GHP's first 14 sales
+    # came from Pinterest pins on Aug 23-24, and 12 of those products were bathroom and
+    # bedroom textiles — shower curtains, liners, hooks and rod (6), mattress protectors
+    # (2), blackout curtains (2), a sheet set, pillow inserts. Amazon's own category
+    # split agrees (Home 39 clicks, Kitchen & Dining 12).
+    #
+    # So IG and YouTube now mirror the theme Pinterest is actually selling, instead of
+    # each channel promoting whatever happened to have the biggest review count.
+    # Review count still breaks ties — it remains the best proof a product is real.
+    PROVEN = ("shower", "curtain", "liner", "mattress", "sheet", "bedding", "pillow",
+              "towel", "blackout", "duvet", "comforter", "bath", "bedroom")
+
+    def proven_rank(e):
+        blob = (str(e.get("product_name", "")) + " " +
+                " ".join(e.get("categories", []) or [])).lower()
+        return 1 if any(w in blob for w in PROVEN) else 0
+
+    for entry in sorted(vetted,
+                        key=lambda e: (proven_rank(e),
+                                       _reviews_value(e.get("verified_reviews"))),
                         reverse=True):
         if not entry.get("asin") or not entry.get("verified_reviews"):
             continue
