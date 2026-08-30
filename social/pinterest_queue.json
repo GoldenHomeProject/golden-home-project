@@ -2085,5 +2085,61 @@
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "posted_at": "2026-08-29T23:27:07Z"
+  },
+  {
+    "id": "pin-2026-08-30-B0DG63C2M5",
+    "asin": "B0DG63C2M5",
+    "board": "Home Organization Finds",
+    "title": "Small Dorm Fridge Water Filter Pitcher - Brita 6 Cup, Metro Black",
+    "description": "The Brita Small 6 Cup Water Filter Pitcher is sized to fit narrow mini-fridge shelves and dorm fridge doors, a common addition to college packing lists. It ships with one BritaPlus filter rated to reduce chlorine taste and odor. Listed at $27.49, the Metro style in black stacks easily with other dorm organization finds. Tap through for full specs and price. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B0DG63C2M5?tag=goldenhomep06-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-08-30-B0DG63C2M5.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-30-B0DG63C2M5.png",
+    "queued_at": "2026-08-30T10:10:45.591223Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-08-30-B00DQVR6WA",
+    "asin": "B00DQVR6WA",
+    "board": "Home Organization Finds",
+    "title": "Bed Risers for Dorm Beds - 5-6 Inch Stackable Furniture Risers, 4-Pack",
+    "description": "Stackable risers lift bed frames, sofas, or dorm furniture 5 to 6 inches, opening up storage space underneath for bins and totes. The 4-pack is built heavy duty and stacks in increments for custom height, no tools or drilling required \u2014 a common need for rental and shared dorm rooms. Priced at $16.99 for four. Tap through for full sizing and weight specs. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B00DQVR6WA?tag=goldenhomep06-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-08-30-B00DQVR6WA.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-30-B00DQVR6WA.png",
+    "queued_at": "2026-08-30T10:11:10.239682Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-08-30-B0DNF65DK1",
+    "asin": "B0DNF65DK1",
+    "board": "Home Organization Finds",
+    "title": "Rolling Utility Cart Organizer - 3 Tier with Removable Drawer for Dorm Storage",
+    "description": "A 3-tier rolling utility cart with a removable drawer, useful for dorm rooms and rented apartments where wall-mounted storage isn't allowed. The three open tiers work for bins, toiletries, or snacks, and the caster wheels let you move it between a shared bathroom, closet, or desk. Priced at $23.99 in black. Tap through for full dimensions and current reviews. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B0DNF65DK1?tag=goldenhomep06-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-08-30-B0DNF65DK1.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-30-B0DNF65DK1.png",
+    "queued_at": "2026-08-30T10:11:52.069072Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-08-30-B0D3LSTZHV",
+    "asin": "B0D3LSTZHV",
+    "board": "Closet Organization Ideas",
+    "title": "Over the Door Shoe Organizer with 11 Deep Pockets for Dorm Closets",
+    "description": "Priced at $11.99, this 6-tier over-the-door shoe organizer has 11 large deep pockets and holds up to 12 pairs. It hooks over a standard door \u2014 no drilling \u2014 a fit for dorm rooms, rentals, and shared closets where wall-mounted racks aren't allowed. The fabric pockets keep pairs separated instead of piled on the closet floor. Tap through for current pricing. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B0D3LSTZHV?tag=goldenhomep06-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-08-30-B0D3LSTZHV.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-08-30-B0D3LSTZHV.png",
+    "queued_at": "2026-08-30T10:12:37.428930Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
   }
 ]
