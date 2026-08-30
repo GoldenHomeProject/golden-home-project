@@ -4,11 +4,11 @@
     "lifetime_follows": 22,
     "lifetime_likes": 33,
     "lifetime_comments": 7,
-    "last_session": "2026-08-30-1339-pi",
+    "last_session": "outreach-2026-08-30T1811Z",
     "blocked_at": null,
-    "last_updated": "2026-08-30T13:39:57Z",
-    "total_actions": 550,
-    "lifetime_dms": 32,
+    "last_updated": "2026-08-30T18:12:24Z",
+    "total_actions": 551,
+    "lifetime_dms": 33,
     "lifetime_comments_outbound": 40
   },
   "actions": [
@@ -24266,6 +24266,15 @@
       ],
       "untapped_warm": [],
       "dry_run": false
+    },
+    {
+      "timestamp": "2026-08-30T18:12:24Z",
+      "action": "dm_sent",
+      "target": "breathing.room.home",
+      "session": "outreach-2026-08-30T1811Z",
+      "body_chars": 734,
+      "thread_url": "https://www.instagram.com/breathing.room.home/",
+      "template_tag": "path_c_v2_affiliate_split"
     }
   ]
 }
