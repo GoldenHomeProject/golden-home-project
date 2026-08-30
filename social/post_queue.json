@@ -6133,10 +6133,10 @@
   },
   {
     "name": "reel_2026-08-30_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-08-30-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-30-001.mp4",
     "caption": "It's satin, not silk, priced at $6.99, with 321,211 reviews behind it.\n\nReal silk pillowcases often run $20 or more for a single case. This one is satin, a different fiber built to mimic that same smooth, low-friction surface, and it ships as a set of two in queen size with an envelope closure to keep the pillow covered overnight.\n\nThe listing markets it as cooling and slip-friendly, the two things people usually pay silk prices for. At 4.5 stars across 321,211 reviews, that's not a small sample size - it's a product enough people bought and rated to make the pattern reliable.\n\nTwo queen cases with a closure that keeps the pillow tucked in overnight, for $6.99.\n\nComment BEDSURE and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -6153,7 +6153,8 @@
       "affiliate_network": "amazon",
       "affiliate_url": "https://www.amazon.com/dp/B0725WFLMB?tag=goldenhomep06-20"
     },
-    "hook": "It's satin, not silk, priced at $6.99, with 321,211 reviews behind it."
+    "hook": "It's satin, not silk, priced at $6.99, with 321,211 reviews behind it.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-30-001.mp4"
   },
   {
     "name": "reel_2026-08-30_002",
@@ -6182,10 +6183,10 @@
   },
   {
     "name": "reel_2026-08-30_003",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-08-30-003.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-30-003.mp4",
     "caption": "It's 4am. Your neck won't turn left and the alarm is 90 minutes out.\n\nYour shoulder's gone numb. The pillow's too high, then too low the second you flip it. Cold side buys about a minute. The angle never changes.\n\nEli & Elm's Side Sleeper Pillow is built for that angle problem: U-shaped cutout for your shoulder, latex-fiber fill you add or remove to set your own height. $114.99, queen.\n\nSame mattress, same room. The cutout is designed so your neck doesn't have to twist just to keep your shoulder covered \u2014 the one variable a flat pillow can't fix.\n\nComment PILLOW and I'll reply with the link.\nAffiliate link \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #sleepbetter #sidesleeper #bedroomupgrade",
     "hashtags": [
       "#amazonhomefinds",
@@ -6203,7 +6204,8 @@
       "affiliate_network": "impact_direct",
       "affiliate_url": "https://eliandelm.sjv.io/E092ZX"
     },
-    "hook": "It's 4am. Your neck won't turn left and the alarm is 90 minutes out."
+    "hook": "It's 4am. Your neck won't turn left and the alarm is 90 minutes out.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-30-003.mp4"
   },
   {
     "id": "carousel-2026-08-30-B01CS31R94",
