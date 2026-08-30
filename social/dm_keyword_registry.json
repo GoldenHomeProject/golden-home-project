@@ -3023,6 +3023,91 @@
       "verified_stars": "4.7",
       "verified_reviews": 8403,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0DG63C2M5",
+      "product_name": "Brita Small 6 Cup Water Filter Pitcher, 1 BritaPlus Filter, Metro, Black",
+      "categories": [
+        "dorm",
+        "college",
+        "organization"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0DG63C2M5?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-08-30",
+      "verified_method": "source_dorm/search+dp",
+      "verified_price": "$27.49",
+      "verified_stars": "4.5",
+      "verified_reviews": 1311,
+      "discovery_source": "back_to_college_2026"
+    },
+    {
+      "asin": "B00DQVR6WA",
+      "product_name": "HOME IT 5 to 6-inch Super Quality Black Bed Risers, Heavy Duty Stackable Furniture Risers for College Dorm Bed Sofa Table Couch Chair 4-Pack",
+      "categories": [
+        "dorm",
+        "college",
+        "organization"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B00DQVR6WA?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-08-30",
+      "verified_method": "source_dorm/search+dp",
+      "verified_price": "$16.99",
+      "verified_stars": "4.6",
+      "verified_reviews": 6253,
+      "discovery_source": "back_to_college_2026"
+    },
+    {
+      "asin": "B0DNF65DK1",
+      "product_name": "Goovilla 3 Tier Rolling Utility Cart Organizer with Removable Drawer, Black",
+      "categories": [
+        "dorm",
+        "college",
+        "organization"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0DNF65DK1?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-08-30",
+      "verified_method": "source_dorm/search+dp",
+      "verified_price": "$23.99",
+      "verified_stars": "4.5",
+      "verified_reviews": 4004,
+      "discovery_source": "back_to_college_2026"
+    },
+    {
+      "asin": "B0D3LSTZHV",
+      "product_name": "Lifewit 6 Tier Over the Door Shoe Organizer with 11 Large Deep Pockets, Fabric Hanging Shoes Shelf for Closet, Dorm Storage, Fit Up to 12 Pa",
+      "categories": [
+        "dorm",
+        "college",
+        "organization"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0D3LSTZHV?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-08-30",
+      "verified_method": "source_dorm/search+dp",
+      "verified_price": "$11.99",
+      "verified_stars": "4.5",
+      "verified_reviews": 868,
+      "discovery_source": "back_to_college_2026"
+    },
+    {
+      "asin": "B00MGB4YRQ",
+      "product_name": "Mesh Shower Caddy Portable - 9 Pockets for College Dorm Room Essential",
+      "categories": [
+        "dorm",
+        "college",
+        "organization"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B00MGB4YRQ?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-08-30",
+      "verified_method": "source_dorm/search+dp",
+      "verified_price": "$7.99",
+      "verified_stars": "4.6",
+      "verified_reviews": 22129,
+      "discovery_source": "back_to_college_2026"
     }
   ]
 }
