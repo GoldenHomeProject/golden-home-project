@@ -3108,6 +3108,38 @@
       "verified_stars": "4.6",
       "verified_reviews": 22129,
       "discovery_source": "back_to_college_2026"
+    },
+    {
+      "asin": "B00730QW70",
+      "product_name": "advion 383920 4 Tubes and 4 Plungers Cockroach German Roach Pest Control Inse, Brown",
+      "categories": [
+        "home",
+        "Home & Kitchen"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B00730QW70?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-08-30",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$26.55",
+      "verified_stars": "4.6",
+      "verified_reviews": 64352,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B08616PS69",
+      "product_name": "Bedsure Satin Pillowcases Queen Set of 2, Similar to Silk Pillow Case Beige | Reduces Hair Frizz & Skin Friction, Decora",
+      "categories": [
+        "home",
+        "Home & Kitchen"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B08616PS69?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-08-30",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$7.99",
+      "verified_stars": "4.5",
+      "verified_reviews": 321401,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
