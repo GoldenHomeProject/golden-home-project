@@ -2834,3 +2834,9 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** automation/scripts/reel-2026-08-30-*.json, social/post_queue.json
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: comparison: It's satin, not silk, priced at $6.99, with 321,21 | before_after: Renting rules out anything that needs drilled-in b | sensory: It's 4am. Your neck won't turn left and the alarm
+
+## 2026-08-30T12:27:21Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B01CS31R94 (NICETOWN Black Blackout Curtains for Bed)
+**Changed:** social/carousels/2026-08-30-B01CS31R94/slide-1.png, social/carousels/2026-08-30-B01CS31R94/slide-2.png, social/carousels/2026-08-30-B01CS31R94/slide-3.png, social/carousels/2026-08-30-B01CS31R94/slide-4.png, social/carousels/2026-08-30-B01CS31R94/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B01CS31R94 carousel.
