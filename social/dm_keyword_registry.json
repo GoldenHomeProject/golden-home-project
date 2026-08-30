@@ -408,6 +408,18 @@
       "discovery_source": "harvest_catalogue",
       "keyword": "BEDSURE",
       "promoted_at": "2026-08-29T12:21:19Z"
+    },
+    {
+      "asin": "B01M16WBW1",
+      "product_name": "Queen Size 4 Piece Sheet Set",
+      "categories": [],
+      "status": "live",
+      "verified_price": "$21.23",
+      "verified_stars": "4.5",
+      "verified_reviews": 453281,
+      "source": "trending",
+      "keyword": "SIZE",
+      "promoted_at": "2026-08-30T12:20:34Z"
     }
   ],
   "_vetted_doc": "Verified-live Amazon ASINs cleared for blog/SEO/IG-caption use but NOT yet wired to a Meta comment-to-DM automation. Promote to `entries` (with a unique keyword) only AFTER creating the matching Meta Business Suite automation. Always use https://www.amazon.com/dp/<ASIN>?tag=goldenhomep06-20 \u2014 never search URLs.",

@@ -1135,6 +1135,50 @@
           }
         ],
         "voice_rev": "2026-08-26"
+      },
+      {
+        "hook_category": "proof",
+        "hook": "453,281 people have rated this sheet set. It still sits at 4.5 stars.",
+        "beat1": "That review count isn't a typo. At this volume, a rating holds steady only if the product performs the same way for thousands of different beds, washing habits, and body temperatures night after night.",
+        "turn": "The Queen Size 4 Piece Sheet Set is a basic four-piece set: fitted sheet, flat sheet, two pillowcases. A 4.5-star average across 453,281 reviews means the overwhelming majority of buyers got what they expected, which is rare at scale.",
+        "result": "For $21.23, you get a queen sheet set with a review record most products never reach, let alone hold onto.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close-up on a smartphone screen showing a product listing with a 4.5-star rating and review count, thumb scrolling slowly",
+            "on_screen_text": "453,281 REVIEWS",
+            "voiceover": "Four hundred fifty three thousand, two hundred eighty one people rated this."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Overhead shot of a made queen-size bed, plain sheets smoothed flat, natural window light",
+            "on_screen_text": "STILL 4.5 STARS",
+            "voiceover": "That many reviews, and it still holds a four point five average."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Hands unfolding a packaged four piece sheet set on a bed, laying out fitted sheet, flat sheet, two pillowcases",
+            "on_screen_text": "4-PIECE SET",
+            "voiceover": "Fitted sheet, flat sheet, two pillowcases. Nothing extra."
+          },
+          {
+            "n": 4,
+            "duration_sec": 5,
+            "visual_prompt": "Slow pan across the finished made bed, pillowcases fluffed, corners tucked, calm neutral bedroom",
+            "on_screen_text": "QUEEN SIZE",
+            "voiceover": "At this volume of reviews, a rating this high means it works the same way for most people, most of the time."
+          },
+          {
+            "n": 5,
+            "duration_sec": 4,
+            "visual_prompt": "Static end card: product shot of the folded sheet set stack beside the price displayed clearly",
+            "on_screen_text": "$21.23",
+            "voiceover": "Queen size, four pieces, twenty one dollars and twenty three cents."
+          }
+        ]
       }
     ],
     "DIGITAL": [
