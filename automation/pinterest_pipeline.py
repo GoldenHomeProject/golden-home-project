@@ -602,7 +602,19 @@ def main() -> int:
         img_path = PINS_DIR / f"pin-{date_str}-{asin}.png"
         img.save(img_path, "PNG", optimize=True)
 
-        link = blog_url_for(entry) or build_affiliate_url(asin, "pinterest")
+        # Direct-to-Amazon by default, hub for roughly one pin in four.
+        #
+        # Evidence, 2026-08-30: Pinterest is the only channel that has produced sales.
+        # Pins on Aug 20-22 pointed at hub pages; Aug 23-25 pointed straight at
+        # products, and the 14 orders landed on Aug 24. With Amazon's 24-hour cookie
+        # those orders came from the DIRECT pins. Routing through a hub adds a hop
+        # between a ready buyer and the buy button, and every hop loses people.
+        #
+        # Keeping one in four on hubs preserves on-site traffic (hubs carry their own
+        # /dp/ links and feed SEO), without putting a detour in front of the majority.
+        hub = blog_url_for(entry)
+        use_hub = hub and (len(queue) % 4 == 3)
+        link = hub if use_hub else build_affiliate_url(asin, "pinterest")
         rel = str(img_path.relative_to(ROOT))
         queue.append({
             "id": f"pin-{date_str}-{asin}",
