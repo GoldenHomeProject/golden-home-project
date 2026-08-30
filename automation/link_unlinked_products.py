@@ -113,6 +113,43 @@ def register(entry: dict) -> None:
     REGISTRY_PATH.write_text(json.dumps(reg, indent=2) + "\n")
 
 
+def catalogue() -> list:
+    """Our own verified products: real ASINs, checked price, checked rating.
+
+    Amazon blocks /s?k= from this residential IP (ERR_CONNECTION_CLOSED / selector
+    timeouts), so the search path returns linked=0 every single night and these
+    placeholders never resolve — the posts stay published with no affiliate link at
+    all. Best-seller GRIDS are still served, which is where this catalogue came from,
+    so match against it before attempting a search that is likely to fail.
+    """
+    try:
+        d = json.loads((ROOT / "social" / "dm_keyword_registry.json").read_text())
+    except (OSError, json.JSONDecodeError):
+        return []
+    out = []
+    for e in (d.get("vetted") or []):
+        if isinstance(e, dict) and e.get("asin") and e.get("product_name"):
+            out.append(e)
+    for e in (d.get("entries") or []):
+        if isinstance(e, dict) and e.get("asin") and e.get("product_name"):
+            out.append(e)
+    return out
+
+
+def from_catalogue(requested: str, pool: list):
+    """Best verified product for `requested`, or None.
+
+    Deliberately strict, and reusing matches() — the same brand-token rule the search
+    path uses. A loose match here would put a shopper in front of the wrong product,
+    which is worse than leaving the placeholder: fuzzy matching on this repo has
+    already mapped "Digital Luggage Scale" onto a bathroom scale.
+    """
+    for e in pool:
+        if matches(requested, e.get("product_name", "")):
+            return e
+    return None
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--limit", type=int, default=6, help="max products to resolve")
@@ -129,6 +166,8 @@ def main() -> int:
     from playwright.sync_api import sync_playwright
 
     resolved = skipped = 0
+    POOL = catalogue()
+    print(f"[link] verified catalogue: {len(POOL)} products available for matching")
     with sync_playwright() as p:
         browser = p.chromium.launch(
             headless=True,
@@ -155,8 +194,17 @@ def main() -> int:
                 # simply retried by tomorrow's run rather than hammering now.
                 if resolved or skipped:
                     time.sleep(random.uniform(8, 15))
-                print(f"  [search] {name[:60]}")
-                hit = search_amazon(page, name)
+                # Try our own verified catalogue first — no network, no throttling.
+                cat_hit = from_catalogue(name, POOL)
+                if cat_hit:
+                    print(f"  [catalogue] {name[:44]} -> {cat_hit['asin']} "
+                          f"{str(cat_hit.get('product_name',''))[:38]}")
+                    hit = {"asin": cat_hit["asin"],
+                           "title": cat_hit.get("product_name", ""),
+                           "price": cat_hit.get("verified_price", "")}
+                else:
+                    print(f"  [search] {name[:60]}")
+                    hit = search_amazon(page, name)
                 if not hit or not hit.get("asin"):
                     print("    no search result — keeping placeholder")
                     skipped += 1
