@@ -383,7 +383,9 @@ New agent spec: `automation/agents/ai_revenue_playbook.md` (COSTAR prompt framew
 | Impact | HermanRx | $250 CPA | Declined | Off-niche (telehealth/GLP-1) |
 | Impact | Best Choice Products | 15% + free product | Pre-approved | Home niche (baskets, garden, benches) — JOIN |
 | CJ | AliExpress | 9% interior/garden | Active | April Yang confirmed: 9% on interior accessories + garden supplies, 3-day cookie, 90-day lock |
-| Impact | Rewarx (AI photo studio) | 50% | Account issue | Keble can't find our account — reply sent 2026-04-02 to troubleshoot |
+| Awin | Rewarx (AI photo studio) | 50% recurring | **AWIN JOIN REQUIRED** | Advertiser ID **129153**. Moved from Impact to Awin. Julian waiting 3+ days on our Awin Publisher ID; we have promised it 4+ times. Promo code Golden10 (10% off) assigned once we send the ID. Highest-commission partner we have. |
+| Impact | Vakkerlight | Paid collab | Awaiting reply | ON-NICHE home lighting, via NoxInfluencer/Lily. $300 long-form / $150 short / $400 package. Our rates email sent 2026-08-26. |
+| Impact | Sam's Club Creator | up to 20% | Investigate | Home-goods overlap — worth evaluating |
 | Awin | OKUN (US) | TBD | Invited | HOME IMPROVEMENT — on-niche! Accept via Awin (needs browser login) |
 | Impact | BISSELL | up to 8.4% | Outreach sent 2026-04-02 | Home cleaning — perfect for transformation "first step" content |
 | Direct | Canoly (3-in-1 juicer) | TBD | Reply sent 2026-03-31 | April 30 IG Reel, free sample, awaiting details |
@@ -595,6 +597,15 @@ Agent configs live in `/private/tmp/golden-home-project/automation/agents/`.
 ---
 
 ## NEXT ACTIONS (priority order)
+
+- [ ] 🚨 **IAN ONLY — BLOCKS OUR HIGHEST-COMMISSION PARTNER.** Join Awin via Julian's
+      express link (**Advertiser ID 129153**), then reply to studio@rewarx.com with the
+      Awin **Publisher ID**. Julian has waited 3+ days and we have promised the ID 4+
+      times across separate emails. He then assigns promo code **Golden10** (10% off for
+      the audience). 50% *recurring* commission — the best rate in the whole partner
+      table. Claude cannot do this step: it requires creating an account and signing
+      terms, which is Ian's to do.
+
 - [x] Accept Syruvia contract on Impact.com — DONE 2026-03-31 (20% commission!)
 - [x] Send Canoly reply — DONE 2026-03-31 (awaiting sample + commission details)
 - [x] Set up cloud agents — DONE 2026-03-31 (3 Claude Code web + 2 GitHub Actions = 5 total agents)

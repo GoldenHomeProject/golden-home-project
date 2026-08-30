@@ -2846,3 +2846,17 @@ Never edit past entries. Never delete. Oldest at top, newest at bottom.
 **Changed:** social/reels/reel-2026-08-30-*.mp4, social/post_queue.json
 **External actions:** none
 **Next agent hint:** IG Poster has 2 new Reels ready for 14:00 + 22:00 UTC slots
+
+## 2026-08-30T15:00:00Z - Affiliate Optimizer
+**Ran:** Audited affiliate email. Rewarx moved from Impact to Awin (Advertiser ID
+129153, 50% recurring). Found Vakkerlight paid-collab offer via NoxInfluencer/Lily.
+Found Sam's Club Creator programme.
+**Changed:** BUSINESS_BRAIN.md - Rewarx row repointed to Awin with JOIN REQUIRED,
+added Vakkerlight and Sam's Club rows, added the critical Awin next action.
+**External actions:** none this run.
+**Next agent hint:** the Awin join is an Ian-only step (account creation + accepting
+terms). Everything Rewarx is blocked behind sending Julian the Publisher ID.
+**Applied to main 2026-08-30 by the Pi session** - the routine committed to branch
+claude/nice-einstein-entq7u (f9fbc13) but could not push, and the branch never reached
+origin, so the work was re-applied by hand from the run report. THIRD occurrence of
+this exact failure mode; the Claude GitHub App still lacks contents:write.
