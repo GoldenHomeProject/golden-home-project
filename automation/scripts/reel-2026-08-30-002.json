@@ -1,0 +1,69 @@
+{
+  "created_at": "2026-08-30T10:53:30.399536Z",
+  "date": "2026-08-30",
+  "seq": 2,
+  "hook_category": "before_after",
+  "hook": "Renting rules out anything that needs drilled-in brackets, which knocks most cabinet organizing systems off the list.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "before/after split \u2014 chaotic vs organized under-sink",
+      "on_screen_text": "3 WEEKS AGO",
+      "voiceover": "Under-sink cabinets have a way of turning into a junk pile fast."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "lost half-used cleaning supplies in cluttered cabinet",
+      "on_screen_text": "STUFF I FORGOT I OWNED",
+      "voiceover": "Open the cabinet under the sink and it's sponges, three half-empty bottles of the same cleaner, and something that's been sitting there over a year."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "person counting duplicate bottles of same cleaner",
+      "on_screen_text": "THREE OF THE SAME THING",
+      "voiceover": "Three half-empty bottles of the same cleaner."
+    },
+    {
+      "n": 4,
+      "duration_sec": 5,
+      "visual_prompt": "Simple Houseware 2-tier chrome sliding basket, organized cleaning supplies on each tier",
+      "on_screen_text": "2-TIER SLIDING BASKET",
+      "voiceover": "Added a 2-tier sliding basket. 18 lbs per shelf."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "everything has a labeled row, neatly arranged",
+      "on_screen_text": "EVERYTHING HAS A ROW",
+      "voiceover": "Now everything has a row."
+    },
+    {
+      "n": 6,
+      "duration_sec": 4,
+      "visual_prompt": "empty slot showing what's run out",
+      "on_screen_text": "COMMENT LINK",
+      "voiceover": "Comment LINK and I'll DM you the link."
+    }
+  ],
+  "caption": "Renting rules out anything that needs drilled-in brackets, which knocks most cabinet organizing systems off the list.\n\nOpen the cabinet under the sink and it's sponges, three half-empty bottles of the same cleaner, and something that's been sitting there over a year.\n\nA Simple Houseware 2-tier chrome sliding basket organizer sets directly on the cabinet floor with no drilling or installation, and each basket slides out so you're not reaching over everything else.\n\nYou can see what's there at a glance instead of digging for it, and an empty slot tells you when you're out, not a buried bottle. $34.97.\n\nComment LINK and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #kitchenorganization #smallspacesolutions #undersinkstorage",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#kitchenorganization",
+    "#smallspacesolutions",
+    "#undersinkstorage"
+  ],
+  "specific_falsifiable_detail": "A Simple Houseware 2-tier chrome sliding basket organizer sets directly on the cabinet floor with no drilling or installation, and each basket slides out so you're not reaching over everything else.",
+  "affiliate_strategy": {
+    "primary_product": "Simple Houseware 2-Tier Sliding Basket Organizer (chrome, under-sink)",
+    "dm_keyword": "LINK",
+    "amazon_asin": "B01M0TS64K",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B01M0TS64K?tag=goldenhomep06-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": null
+  }
+}

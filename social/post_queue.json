@@ -6130,5 +6130,79 @@
     },
     "hook": "If you rent, you can't change the closet. You can only change what's hanging in it.",
     "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-29-003.mp4"
+  },
+  {
+    "name": "reel_2026-08-30_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-30-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "It's satin, not silk, priced at $6.99, with 321,211 reviews behind it.\n\nReal silk pillowcases often run $20 or more for a single case. This one is satin, a different fiber built to mimic that same smooth, low-friction surface, and it ships as a set of two in queen size with an envelope closure to keep the pillow covered overnight.\n\nThe listing markets it as cooling and slip-friendly, the two things people usually pay silk prices for. At 4.5 stars across 321,211 reviews, that's not a small sample size - it's a product enough people bought and rated to make the pattern reliable.\n\nTwo queen cases with a closure that keeps the pillow tucked in overnight, for $6.99.\n\nComment BEDSURE and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Bedsure Satin Pillowcase, Similar to Silk Pillow Cases Queen Size Set of 2, Cooling Pillow Case Covers with Envelope Clo",
+      "dm_keyword": "BEDSURE",
+      "amazon_asin": "B0725WFLMB",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B0725WFLMB?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B0725WFLMB?tag=goldenhomep06-20"
+    },
+    "hook": "It's satin, not silk, priced at $6.99, with 321,211 reviews behind it."
+  },
+  {
+    "name": "reel_2026-08-30_002",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-30-002.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Renting rules out anything that needs drilled-in brackets, which knocks most cabinet organizing systems off the list.\n\nOpen the cabinet under the sink and it's sponges, three half-empty bottles of the same cleaner, and something that's been sitting there over a year.\n\nA Simple Houseware 2-tier chrome sliding basket organizer sets directly on the cabinet floor with no drilling or installation, and each basket slides out so you're not reaching over everything else.\n\nYou can see what's there at a glance instead of digging for it, and an empty slot tells you when you're out, not a buried bottle. $34.97.\n\nComment LINK and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #kitchenorganization #smallspacesolutions #undersinkstorage",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#kitchenorganization",
+      "#smallspacesolutions",
+      "#undersinkstorage"
+    ],
+    "affiliate": {
+      "primary_product": "Simple Houseware 2-Tier Sliding Basket Organizer (chrome, under-sink)",
+      "dm_keyword": "LINK",
+      "amazon_asin": "B01M0TS64K",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01M0TS64K?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Renting rules out anything that needs drilled-in brackets, which knocks most cabinet organizing systems off the list."
+  },
+  {
+    "name": "reel_2026-08-30_003",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-30-003.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "It's 4am. Your neck won't turn left and the alarm is 90 minutes out.\n\nYour shoulder's gone numb. The pillow's too high, then too low the second you flip it. Cold side buys about a minute. The angle never changes.\n\nEli & Elm's Side Sleeper Pillow is built for that angle problem: U-shaped cutout for your shoulder, latex-fiber fill you add or remove to set your own height. $114.99, queen.\n\nSame mattress, same room. The cutout is designed so your neck doesn't have to twist just to keep your shoulder covered \u2014 the one variable a flat pillow can't fix.\n\nComment PILLOW and I'll reply with the link.\nAffiliate link \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #sleepbetter #sidesleeper #bedroomupgrade",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#sleepbetter",
+      "#sidesleeper",
+      "#bedroomupgrade"
+    ],
+    "affiliate": {
+      "primary_product": "Eli & Elm Side Sleeper Pillow (U-shape, latex, queen)",
+      "dm_keyword": "PILLOW",
+      "amazon_asin": "B07YL7VD32",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B07YL7VD32?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "impact_direct",
+      "affiliate_url": "https://eliandelm.sjv.io/E092ZX"
+    },
+    "hook": "It's 4am. Your neck won't turn left and the alarm is 90 minutes out."
   }
 ]
