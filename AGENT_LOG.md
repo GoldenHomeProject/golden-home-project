@@ -2860,3 +2860,9 @@ terms). Everything Rewarx is blocked behind sending Julian the Publisher ID.
 claude/nice-einstein-entq7u (f9fbc13) but could not push, and the branch never reached
 origin, so the work was re-applied by hand from the run report. THIRD occurrence of
 this exact failure mode; the Claude GitHub App still lacks contents:write.
+
+## 2026-08-30T17:10:34Z — Pinterest Pipeline
+**Ran:** Generated 10 pin(s) for the Pinterest traffic engine
+**Changed:** social/pinterest_queue.json
+**External actions:** Pexels (backgrounds) + Claude CLI (pin copy)
+**Next agent hint:** post_pinterest.py (Pi) drains pinterest_queue.json once a Pinterest business account is logged into the Pi Chromium profile.
