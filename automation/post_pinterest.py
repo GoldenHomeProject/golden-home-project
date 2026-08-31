@@ -316,8 +316,30 @@ def main() -> int:
                if not p.get("posted")
                and p["id"] not in led_ids
                and (p.get("asin") not in led_asins or _is_drop(p))]
-    # Post price drops first: highest buyer intent, and the freshest thing we know.
-    pending.sort(key=lambda p: 0 if _is_drop(p) else 1)
+    # Order by expected value, not by age.
+    #   0. price drops    — highest buyer intent, and the freshest thing we know
+    #   1. proven themes  — bathroom/bedroom textiles, the only products that have ever
+    #                       produced revenue here (the 14 orders on Aug 24)
+    #   2. everything else — the exploratory lane, which is how we find the next winner
+    #
+    # The queue is generated ahead of posting, so a strictly oldest-first queue put
+    # today's deliberately-tuned pins ~4 days behind whatever happened to be generated
+    # first. Python's sort is stable, so ordering within each band still follows the
+    # generator's sequence — which is what keeps a room's pins arriving as a set.
+    try:
+        _themes = json.loads((REPO_ROOT / "social" / "proven_themes.json").read_text())
+        _WORDS = tuple(w for t in (_themes.get("themes") or [])
+                       for w in (t.get("words") or []))
+    except Exception:
+        _WORDS = ()
+
+    def _band(pin):
+        if _is_drop(pin):
+            return 0
+        blob = f"{pin.get('title','')} {pin.get('description','')} {pin.get('board','')}".lower()
+        return 1 if (_WORDS and any(w in blob for w in _WORDS)) else 2
+
+    pending.sort(key=_band)
     if not pending:
         print("[pinterest] queue empty — nothing to post. Run pinterest_pipeline.py to refill.")
         return 0

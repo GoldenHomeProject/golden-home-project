@@ -2892,3 +2892,41 @@ Applied autostash.
   "ts": dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
 /home/ianmcwherter/golden-home-project/automation/post_pinterest.py:335: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   pin["posted_at"] = dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+[agent-log] Pushed entry for Pinterest Pipeline
+  [mix] 3 price-drop, 82 proven-theme, 131 exploratory (1 in 3 pins explores)
+  [skip] B075NS8YXG status='dead' — not ASIN-verified
+  [skip] B08573DQ39 status='dead' — not ASIN-verified
+  [pexels] key sha256[:8]=c788d83a
+  [pexels] hit 'digital bathroom scale' -> bg-2026-08-31-B09YR5SWNY.jpg
+  [pin] B09YR5SWNY board='Bathroom Storage Ideas' link=amazon -> social/pinterest/pin-2026-08-31-B09YR5SWNY.png
+  [skip] B0F29FLLJZ status='dead' — not ASIN-verified
+  [skip] B09B126SSJ status='dead' — not ASIN-verified
+  [skip] B00E4GACB8 pest control — TERRO Liquid Ant Killer Bait Stations
+  [pexels] key sha256[:8]=c788d83a
+  [pexels] hit 'zippered storage bags' -> bg-2026-08-31-B086WNKLTM.jpg
+  [pin] B086WNKLTM board='Home Storage Solutions' link=amazon -> social/pinterest/pin-2026-08-31-B086WNKLTM.png
+  [pexels] key sha256[:8]=c788d83a
+  [pexels] hit 'kids water bottle' -> bg-2026-08-31-B09WGL2PYY.jpg
+  [pin] B09WGL2PYY board='Home Organization Finds' link=amazon -> social/pinterest/pin-2026-08-31-B09WGL2PYY.png
+  [pexels] key sha256[:8]=c788d83a
+  [pexels] hit 'kids water bottle lunchbox' -> bg-2026-08-31-B0C9FR5FD8.jpg
+  [pin] B0C9FR5FD8 board='Home Organization Finds' link=amazon -> social/pinterest/pin-2026-08-31-B0C9FR5FD8.png
+  [pexels] key sha256[:8]=c788d83a
+  [pexels] hit 'water bottle car cupholder' -> bg-2026-08-31-B0D8J2ZB8P.jpg
+  [pin] B0D8J2ZB8P board='Home Organization Finds' link=amazon -> social/pinterest/pin-2026-08-31-B0D8J2ZB8P.png
+  [pexels] key sha256[:8]=c788d83a
+  [pexels] hit 'clear adhesive wall hooks' -> bg-2026-08-31-B0B2F55P76.jpg
+  [pin] B0B2F55P76 board='Home Organization Finds' link=amazon -> social/pinterest/pin-2026-08-31-B0B2F55P76.png
+  [pexels] key sha256[:8]=c788d83a
+  [pexels] hit 'meat thermometer grill' -> bg-2026-08-31-B00S93EQUK.jpg
+  [pin] B00S93EQUK board='Kitchen Organization Ideas' link=amazon -> social/pinterest/pin-2026-08-31-B00S93EQUK.png
+  [pexels] key sha256[:8]=c788d83a
+  [pexels] hit 'digital kitchen scale' -> bg-2026-08-31-B06X9NQ8GX.jpg
+  [pin] B06X9NQ8GX board='Kitchen Organization Ideas' link=amazon -> social/pinterest/pin-2026-08-31-B06X9NQ8GX.png
+  [pexels] key sha256[:8]=c788d83a
+  [pexels] hit 'stainless steel water bottle' -> bg-2026-08-31-B0GSH7JDR8.jpg
+  [pin] B0GSH7JDR8 board='Kitchen Organization Ideas' link=amazon -> social/pinterest/pin-2026-08-31-B0GSH7JDR8.png
+  [pexels] key sha256[:8]=c788d83a
+  [pexels] hit 'stainless steel can opener' -> bg-2026-08-31-B07YP2VH4B.jpg
+  [pin] B07YP2VH4B board='Kitchen Organization Ideas' link=amazon -> social/pinterest/pin-2026-08-31-B07YP2VH4B.png
+[pinterest] generated 10 new pin(s); queue now 190 total -> social/pinterest_queue.json

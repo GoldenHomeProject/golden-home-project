@@ -1819,3 +1819,93 @@ Call log:
 Created autostash: 6e13022
 Applied autostash.
 [sitemap] pushed
+    /dp/B00FLYWNYQ did not render productTitle: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("#productTitle") to be visible
+
+[dorm-src] ABORT: control listing will not render — we are throttled.
+[keywords] 10 seeds: under sink organizer, closet organizer, pantry storage containers, kitchen cabinet organizer, drawer organizer, shower caddy...
+  [seed] under sink organizer
+  [seed] closet organizer
+  [seed] pantry storage containers
+  [seed] kitchen cabinet organizer
+  [seed] drawer organizer
+  [seed] shower caddy
+  [seed] lazy susan turntable
+  [seed] over the door organizer
+  [seed] shoe rack for closet
+  [seed] under bed storage
+
+[keywords] 314 unique candidates -> keeping top 40
+     41.0  [google]  best under sink organizer bathroom
+     41.0  [google]  best drawer organizer for clothes
+     41.0  [google]  best shoe rack for closet floor
+     40.0  [google]  best under sink organizer kitchen
+     40.0  [google]  best shower caddy for dorms
+     40.0  [google]  best lazy susan turntable for cabinet
+     40.0  [google]  best over the door organizer for cruise
+     40.0  [google]  best shoe rack for closet door
+     39.0  [google]  best under sink organizer
+     39.0  [google]  best drawer organizers for kitchen
+     39.0  [google]  best shower caddy for college boys
+     38.0  [google]  best drawer organizers for hemnes dresser
+     38.0  [google]  best shower caddy for camp
+     38.0  [google]  best shoe organizer for closet
+     37.0  [google]  best drawer organizer for underwear
+[keywords] wrote /home/ianmcwherter/golden-home-project/social/keyword_queue.json
+[link] 5 post(s) with placeholders: 2026-07-26-best-drawer-organizer-for-baby-clothes.html, 2026-08-13-best-drawer-organizer-for-socks-and-underwear.html, 2026-08-15-28-faux-plaster-peel-and-stick-accent-wall.html
+[link] verified catalogue: 208 products available for matching
+  [search] Delamu Foldable Drawer Dividers
+    search attempt 1 failed: Page.wait_for_selector: Timeout 25000ms exceeded.
+Call log:
+  - waiting for locator("[data-component-type=\"s-search-result\"]") to be visible
+
+    search attempt 2 failed: Page.wait_for_selector: Timeout 25000ms exceeded.
+Call log:
+  - waiting for locator("[data-component-type=\"s-search-result\"]") to be visible
+
+    no search result — keeping placeholder
+  [search] YOULERBU Bamboo Drawer Dividers
+    search attempt 1 failed: Page.wait_for_selector: Timeout 25000ms exceeded.
+Call log:
+  - waiting for locator("[data-component-type=\"s-search-result\"]") to be visible
+
+    search attempt 2 failed: Page.wait_for_selector: Timeout 25000ms exceeded.
+Call log:
+  - waiting for locator("[data-component-type=\"s-search-result\"]") to be visible
+
+    no search result — keeping placeholder
+
+[link] linked=0 skipped=2
+[harvest] scraping 4: Cleaning Supplies, Storage & Organization, Furniture, Bath
+  [scrape] Cleaning Supplies: 39 items
+  [scrape] Storage & Organization: 39 items
+  [scrape] Furniture: 39 items
+  [scrape] Bath: 39 items
+[harvest] 156 raw rows
+  [skip] B0DQYPYVB6 commodity/consumable — Bounty Select-A-Size Paper Towels, White, 8 Triple Rolls = 2
+  [skip] B0DF8RSVJK commodity/consumable — Scott Paper Towels, Choose-A-Sheet, 6 Double Rolls, 108 Shee
+  [skip] B00HSC9F2C commodity/consumable — Clorox Disinfecting Wipes Back to School Variety Pack, 75 Co
+  [skip] B0DFHMZ922 commodity/consumable — Brawny Tear-A-Square 3-Ply Paper Towels, 6 Double Rolls = 12
+  [skip] B0CZ5THL73 commodity/consumable — Bounty Essentials Select-A-Size Paper Towels, 6 Double Rolls
+  [skip] B07F246YG1 commodity/consumable — Amazon Basics Disinfecting Wipes, Lemon & Fresh Scent, Sanit
+  [skip] B0FN5154SV commodity/consumable — Sparkle Tear-A-Square Paper Towels, 12 Double Rolls - Strong
+  [skip] B01BZ0LXL8 commodity/consumable — Hefty Ultra Strong 13 Gal Kitchen Trash Bags, White, Lavende
+  [skip] B0DF9BGP8S commodity/consumable — Viva Signature Cloth Paper Towels, 3 Double Rolls, 86 Sheets
+  [skip] B0BNNVT2VH commodity/consumable — Lysol Disinfecting Wipes, Cleaner, Lemon + Mango + Linen, 80
+  [skip] B09NW92T8Q commodity/consumable — Sparkle Pick-A-Size Kitchen Paper Towels, 6 Double Rolls, 66
+  [skip] B092VPGJB9 commodity/consumable — Amazon Basics Flextra Tall Kitchen Drawstring Trash Bags, 13
+  [skip] B095PL2MPZ commodity/consumable — Amazon Basics Multipurpose Drawstring Trash Bags, 30 Gallon 
+  [skip] B09NW83XJ2 commodity/consumable — SPARKLE Pick-A-Size Paper Towels, 2-Ply Spirited Prints, 6 D
+  [skip] B0BKH5W88Y commodity/consumable — Glade PlugIns Air Freshener Refills, Cashmere Woods, 10 Coun
+  [skip] B0C1R4C4J1 commodity/consumable — Swiffer PowerMop Liquid Floor Cleaner Refills, Solution for 
+  [skip] B01FSY4YKO commodity/consumable — Hefty Ultra Strong 13 Gal Kitchen Trash Bags, Lavender Vanil
+  [skip] B00HZ6WFZA commodity/consumable — Swiffer Sweep + Mop, Wet Pads Refill, Floor Cleaner for Dirt
+  [skip] B00Q70RCW6 commodity/consumable — Lysol Disinfecting Wipes, Multi-Surface Cleaner, Lemon, 80 c
+  [skip] B077K3W4K4 commodity/consumable — Glade PlugIns Air Freshener Refills, Apple Cinnamon, 5 Count
+[harvest] 63 passed the $5-$35 / 4.5star / 5000+review bar
+[harvest] 3 NEW product(s); catalogue 206 -> 209
+   B0DF3M7V3T    $23.99  4.6*  Owala SmoothSip Slider Insulated Stainless Ste
+   B07ZGHZVRY    $20.41  4.7*  Clorox ToiletWand Toilet Bowl Cleaner- Toilet 
+   B09YR5SWNY    $12.99  4.6*  Homebuds Bathroom Scale for Body Weight Precis
+[harvest] wrote /home/ianmcwherter/golden-home-project/social/dm_keyword_registry.json
