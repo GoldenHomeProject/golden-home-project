@@ -6209,10 +6209,10 @@
   },
   {
     "name": "reel_2026-08-31_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-08-31-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-31-001.mp4",
     "caption": "349,499 people rated this scale. 4.7 stars is the boring part.\n\nMost bathroom scales get maybe a few hundred reviews before people quietly return them. This one has nearly 350,000 ratings sitting at 4.7 stars, which is a sample size most products never get close to. That volume is the argument, not a marketing line.\n\nThe Etekcity Digital Body Weight Bathroom Scale gives a simple digital readout with no setup beyond stepping on it. A rating this high held across 349,499 reviews means the complaints that usually sink a scale \u2014 inconsistent numbers, short battery life, a flimsy platform \u2014 aren't the pattern here.\n\nFor a home bathroom, that's a low-risk pickup: proven at scale, priced at $16.87.\n\nComment DIGITAL and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -6229,7 +6229,8 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "349,499 people rated this scale. 4.7 stars is the boring part."
+    "hook": "349,499 people rated this scale. 4.7 stars is the boring part.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-31-001.mp4"
   },
   {
     "id": "carousel-2026-08-31-B06WWRCZXX",
