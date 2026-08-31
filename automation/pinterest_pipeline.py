@@ -559,8 +559,27 @@ def main() -> int:
         """Newest-discovered first, so exploration tests genuinely new products."""
         return str(e.get("added_at") or e.get("price_verified_at") or "")
 
+    def _theme_of(e):
+        """Which proven theme an entry belongs to, or "" — used to keep a day's pins
+        coherent as a SET.
+
+        The single most valuable thing in our data: Aug 24 was 6 clicks that produced
+        14 ITEMS. One household bought a whole shower setup (curtain, liner, hooks,
+        rod) plus mattress protectors and sheets in one session. A buyer furnishing a
+        room buys the room, not one item — so pins that arrive as a coherent set are
+        worth far more per visitor than six unrelated products.
+        """
+        blob = (str(e.get("product_name", "")) + " " +
+                " ".join(e.get("categories") or [])).lower()
+        for t in (themes.get("themes") or []):
+            if any(w in blob for w in (t.get("words") or [])):
+                return t.get("name", "")
+        return ""
+
     drops   = [e for e in entries if e.get("asin") in DROPS]
     proven  = [e for e in entries if e.get("asin") not in DROPS and _is_proven(e)]
+    # Cluster the proven lane by room so consecutive pins build a set.
+    proven.sort(key=_theme_of)
     explore = [e for e in entries if e.get("asin") not in DROPS and not _is_proven(e)]
     # Dorm/seasonal leads the explore lane — real buying season, still unproven.
     explore.sort(key=lambda e: (
