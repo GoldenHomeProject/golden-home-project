@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-08-31T12:05:03.869604Z",
+  "date": "2026-08-31",
+  "seq": 3,
+  "hook_category": "proof",
+  "hook": "Thread count is the number on the package. It's not the number that tells you whether sheets survive a year of actual washing.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close overhead shot of a neatly made queen bed in soft morning light, crisp sheet corners visible, calm neutral bedroom",
+      "on_screen_text": "451,219 REVIEWS",
+      "voiceover": "Four hundred fifty one thousand reviews is more feedback than most furniture brands get in a decade."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Slow push-in on rumpled bedding, hands smoothing a fitted sheet over a mattress corner",
+      "on_screen_text": "USED EVERY NIGHT",
+      "voiceover": "Sheets are one of the few things in a home that get used every single night, so that number isn't decoration. It's a very large sample of people reporting back after real use."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Static shot of a bed being made, pillowcase being slipped on, soft window light across the fabric",
+      "on_screen_text": "4.5 STARS, HALF A MILLION VOICES",
+      "voiceover": "When something crosses that many ratings and still holds four and a half stars, the average isn't being propped up by a handful of enthusiastic buyers. The complaints exist and are still outnumbered."
+    },
+    {
+      "n": 4,
+      "duration_sec": 5,
+      "visual_prompt": "Flat lay of four folded sheet pieces stacked on a bed, clean and simple styling",
+      "on_screen_text": "QUEEN, 4 PIECES",
+      "voiceover": "It's a queen size four piece set, so it covers the whole bed in one purchase instead of hunting down pieces separately. That consistency is what a rating like this actually measures."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Wide shot of the finished made bed, pulling back slowly to reveal the full bedroom",
+      "on_screen_text": "$24.99",
+      "voiceover": "A full queen bed's worth of sheets, backed by one of the largest review pools on Amazon, at twenty four ninety nine."
+    }
+  ],
+  "caption": "Thread count is the number on the package. It's not the number that tells you whether sheets survive a year of actual washing.\n\nFabric shows what it's made of after a few dozen wash cycles, not on day one out of the bag. Marketing specs describe sheets fresh off the shelf \u2014 they don't describe what's left of them once they're folded into a normal weekly routine.\n\nThis set skips the thread-count arms race and still shows up on our best-seller tracking without needing one. That's a harder bar to clear than a big number printed on the packaging.\n\nIf you're due for new sheets, this is one of the sets currently earning its spot on the list \u2014 check the current price before it moves.\n\nComment SIZE and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "This set skips the thread-count arms race and still shows up on our best-seller tracking without needing one. That's a harder bar to clear than a big number printed on the packaging.",
+  "affiliate_strategy": {
+    "primary_product": "Queen Size 4 Piece Sheet Set",
+    "dm_keyword": "SIZE",
+    "amazon_asin": "B01M16WBW1",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B01M16WBW1?tag=goldenhomep06-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": null
+  }
+}
