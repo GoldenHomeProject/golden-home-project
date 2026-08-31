@@ -2902,3 +2902,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** automation/scripts/reel-2026-08-31-*.json, social/post_queue.json
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: proof: 349,499 people rated this scale. 4.7 stars is the  | audience_fit: If you're renting, the sheets are the one upgrade  | proof: Thread count is the number on the package. It's no
+
+## 2026-08-31T14:36:32Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B06WWRCZXX (Queen Size 4 Piece Sheet Set)
+**Changed:** social/carousels/2026-08-31-B06WWRCZXX/slide-1.png, social/carousels/2026-08-31-B06WWRCZXX/slide-2.png, social/carousels/2026-08-31-B06WWRCZXX/slide-3.png, social/carousels/2026-08-31-B06WWRCZXX/slide-4.png, social/carousels/2026-08-31-B06WWRCZXX/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B06WWRCZXX carousel.
