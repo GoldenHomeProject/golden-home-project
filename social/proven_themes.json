@@ -1,0 +1,29 @@
+{
+  "_doc": "Themes with EVIDENCE of converting, plus the explore/exploit split used when choosing what to pin. This is data, not code, so a new winner can be added without a deploy. Keep 'evidence' honest: a theme earns a place here because sales data put it there, not because it feels right.",
+  "updated": "2026-08-30",
+  "explore_ratio": 0.35,
+  "_explore_doc": "Share of each batch reserved for products that are NOT in a proven theme - newest-discovered first. Exploiting a known winner compounds; only exploring finds the next one. 0.35 keeps roughly two-thirds on what we know sells while still testing ~4 new products a day. Raise it if the proven themes go stale, lower it if a theme is clearly running hot.",
+  "themes": [
+    {
+      "name": "bathroom textiles",
+      "words": ["shower", "curtain", "liner", "bath", "towel", "washcloth", "squeegee"],
+      "evidence": "6 of the 12 direct-linked products pinned Aug 23-24 2026, the window that produced GHP's first 14 orders: shower curtain, liner x2, hooks, tension rod, waffle curtain.",
+      "added": "2026-08-30"
+    },
+    {
+      "name": "bedroom textiles",
+      "words": ["mattress", "sheet", "bedding", "pillow", "duvet", "comforter",
+                "quilt", "bedspread", "protector", "bedroom"],
+      "evidence": "5 of the 12 direct-linked products in the same window: 2 mattress protectors, queen sheet set, pillow inserts, plus a comforter in the pool.",
+      "added": "2026-08-30"
+    },
+    {
+      "name": "window treatments",
+      "words": ["blackout", "curtain rod", "window", "blind", "drape"],
+      "evidence": "2 of the 12 (84in and 63in blackout curtains). Amazon category split for the period: Home 39 clicks vs Kitchen & Dining 12.",
+      "added": "2026-08-30"
+    }
+  ],
+  "retired": [],
+  "_retired_doc": "Move a theme here when it stops converting, with the date and the number that justified it. Do not delete - a theme that died may be seasonal and worth retesting."
+}

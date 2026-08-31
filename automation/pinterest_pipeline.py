@@ -535,34 +535,50 @@ def main() -> int:
     #   3. everything else
     # Without this the generator just walks the registry in insertion order, so the dorm
     # products (newest, therefore last) never got pinned at all.
-    # PROVEN-REVENUE themes come second only to price drops. Added 2026-08-30 from the
-    # only sales data we have: the 14 orders on Aug 24 came from pins on bathroom and
-    # bedroom textiles — shower curtains, liners, hooks and a rod (6 of 12), mattress
-    # protectors (2), blackout curtains (2), a sheet set, pillow inserts. Amazon's own
-    # category split agrees (Home 39 clicks, Kitchen & Dining 12).
+    # Exploit what converts, but never stop exploring.
     #
-    # Without this the generator walks the pool by insertion order and pins whatever is
-    # there — today's run produced a hummingbird feeder and disposable air-fryer liners.
-    # Those are not the business we just proved.
-    PROVEN_WORDS = ("shower", "curtain", "liner", "mattress", "sheet", "bedding",
-                    "pillow", "towel", "blackout", "duvet", "comforter", "bath",
-                    "bedroom", "quilt", "bedspread")
+    # Evidence says bathroom/bedroom textiles sell (the 14 orders on Aug 24 came from
+    # them). But a hardcoded winner list ossifies: today's untuned run pinned a
+    # hummingbird feeder, and an over-tuned one would pin nothing but shower curtains
+    # until the season turns. Themes therefore live in social/proven_themes.json as
+    # DATA - a new winner can be promoted without a deploy - and a fixed share of every
+    # batch is reserved for products in no proven theme at all, newest first.
+    #
+    # Exploiting a known winner compounds; only exploring finds the next one.
+    themes = load_json(SOCIAL / "proven_themes.json", {}) or {}
+    PROVEN_WORDS = tuple(
+        w for t in (themes.get("themes") or []) for w in (t.get("words") or []))
+    EXPLORE_RATIO = float(themes.get("explore_ratio") or 0.35)
 
     def _is_proven(e):
         blob = (str(e.get("product_name", "")) + " " +
                 " ".join(e.get("categories") or [])).lower()
         return any(w in blob for w in PROVEN_WORDS)
 
-    def _priority(e):
-        if e.get("asin") in DROPS:
-            return 0
-        if _is_proven(e):
-            return 1
-        cats = [c.lower() for c in (e.get("categories") or [])]
-        if "dorm" in cats or "college" in cats:
-            return 2
-        return 3
-    entries.sort(key=_priority)
+    def _freshness(e):
+        """Newest-discovered first, so exploration tests genuinely new products."""
+        return str(e.get("added_at") or e.get("price_verified_at") or "")
+
+    drops   = [e for e in entries if e.get("asin") in DROPS]
+    proven  = [e for e in entries if e.get("asin") not in DROPS and _is_proven(e)]
+    explore = [e for e in entries if e.get("asin") not in DROPS and not _is_proven(e)]
+    # Dorm/seasonal leads the explore lane — real buying season, still unproven.
+    explore.sort(key=lambda e: (
+        any(c.lower() in ("dorm", "college") for c in (e.get("categories") or [])),
+        _freshness(e)), reverse=True)
+
+    # Interleave so a short run still gets both lanes, not all-proven then all-explore.
+    every = max(2, round(1 / EXPLORE_RATIO)) if EXPLORE_RATIO > 0 else 10**9
+    entries, pi, xi = list(drops), 0, 0
+    while pi < len(proven) or xi < len(explore):
+        if (len(entries) - len(drops) + 1) % every == 0 and xi < len(explore):
+            entries.append(explore[xi]); xi += 1
+        elif pi < len(proven):
+            entries.append(proven[pi]); pi += 1
+        elif xi < len(explore):
+            entries.append(explore[xi]); xi += 1
+    print(f"  [mix] {len(drops)} price-drop, {len(proven)} proven-theme, "
+          f"{len(explore)} exploratory (1 in {every} pins explores)")
     if not entries:
         print("ERROR: no registry entries", file=sys.stderr)
         return 1
