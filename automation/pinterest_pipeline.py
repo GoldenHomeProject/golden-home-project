@@ -535,13 +535,33 @@ def main() -> int:
     #   3. everything else
     # Without this the generator just walks the registry in insertion order, so the dorm
     # products (newest, therefore last) never got pinned at all.
+    # PROVEN-REVENUE themes come second only to price drops. Added 2026-08-30 from the
+    # only sales data we have: the 14 orders on Aug 24 came from pins on bathroom and
+    # bedroom textiles — shower curtains, liners, hooks and a rod (6 of 12), mattress
+    # protectors (2), blackout curtains (2), a sheet set, pillow inserts. Amazon's own
+    # category split agrees (Home 39 clicks, Kitchen & Dining 12).
+    #
+    # Without this the generator walks the pool by insertion order and pins whatever is
+    # there — today's run produced a hummingbird feeder and disposable air-fryer liners.
+    # Those are not the business we just proved.
+    PROVEN_WORDS = ("shower", "curtain", "liner", "mattress", "sheet", "bedding",
+                    "pillow", "towel", "blackout", "duvet", "comforter", "bath",
+                    "bedroom", "quilt", "bedspread")
+
+    def _is_proven(e):
+        blob = (str(e.get("product_name", "")) + " " +
+                " ".join(e.get("categories") or [])).lower()
+        return any(w in blob for w in PROVEN_WORDS)
+
     def _priority(e):
         if e.get("asin") in DROPS:
             return 0
+        if _is_proven(e):
+            return 1
         cats = [c.lower() for c in (e.get("categories") or [])]
         if "dorm" in cats or "college" in cats:
-            return 1
-        return 2
+            return 2
+        return 3
     entries.sort(key=_priority)
     if not entries:
         print("ERROR: no registry entries", file=sys.stderr)

@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-08-31",
+  "category": "Window Treatments",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-blackout-curtains.html",
+  "picks": [
+    {
+      "asin": "B0BZXNSW5K",
+      "name": "Fenmzee Bedside Table Lamp for Bedroom",
+      "price": "$19.99",
+      "rating": 4.5,
+      "reviews": 13098,
+      "rank": 1
+    },
+    {
+      "asin": "B007JCHA6E",
+      "name": "Utopia Towels 24 Pack Cotton Washcloths Set",
+      "price": "$17.69",
+      "rating": 4.6,
+      "reviews": 75038,
+      "rank": 3
+    },
+    {
+      "asin": "B08S31RWBK",
+      "name": "Hicober Microfiber Hair Towel Wrap for Women",
+      "price": "$12.99",
+      "rating": 4.6,
+      "reviews": 34835,
+      "rank": 5
+    },
+    {
+      "asin": "B0BHVP949X",
+      "name": "Dicoool Bedside Table Lamp for Bedroom",
+      "price": "$19.99",
+      "rating": 4.5,
+      "reviews": 6133,
+      "rank": 4
+    },
+    {
+      "asin": "B074XPNS3Z",
+      "name": "aooshine Small Bedside Table Lamp for Bedroom",
+      "price": "$11.99",
+      "rating": 4.6,
+      "reviews": 21815,
+      "rank": 9
+    },
+    {
+      "asin": "B087CDBKCH",
+      "name": "Yarra-Decor Bedside Table Lamp with USB Ports",
+      "price": "$17.54",
+      "rating": 4.6,
+      "reviews": 23836,
+      "rank": 12
+    }
+  ]
+}
