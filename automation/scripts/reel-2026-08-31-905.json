@@ -1,0 +1,68 @@
+{
+  "created_at": "2026-08-31T16:37:02.519287Z",
+  "date": "2026-08-31",
+  "seq": 905,
+  "source": "repurpose",
+  "hook": "3 Hemnes organizers under $20, ranked by drawer size",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Three products laid out side by side on a dresser top: clear bins, fabric bins, liner roll",
+      "on_screen_text": "3 picks, all under $20",
+      "voiceover": "I tested three organizers against Hemnes's actual dimensions, not generic ones."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Tape measure across the narrow top drawer showing 14 5/8 inches, Vtopmart bins being placed in",
+      "on_screen_text": "Top drawer (14in): Vtopmart $17.98",
+      "voiceover": "For the narrow top drawers, the Vtopmart clear set tiles down small."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Tape measure across the wide bottom drawer showing 30 5/8 inches, fabric bins being placed in",
+      "on_screen_text": "Bottom drawer (30in): Fabric 6-pack $13.99",
+      "voiceover": "For the wide bottom drawers, the fabric 6-pack handles the scale better."
+    },
+    {
+      "n": 4,
+      "duration_sec": 3,
+      "visual_prompt": "Liner rolled out under both drawer types in quick succession",
+      "on_screen_text": "Every drawer: Liner $7.99",
+      "voiceover": "And the liner goes under both, no matter the width."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Split-screen comparison graphic showing prices and star ratings for all three products",
+      "on_screen_text": "$17.98 / $13.99 / $7.99",
+      "voiceover": "Ratings range from 4.0 to 4.7 stars across almost 60,000 combined reviews."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Fully organized dresser with all drawers open, showing the finished result",
+      "on_screen_text": "Full comparison table on the blog",
+      "voiceover": "Full breakdown with exact fit is on the blog."
+    },
+    {
+      "n": 7,
+      "duration_sec": 2,
+      "visual_prompt": "Closing shot of the dresser, CTA text appears",
+      "on_screen_text": "Link in bio",
+      "voiceover": "Link's in bio."
+    }
+  ],
+  "caption": "I compared three Hemnes drawer organizers against IKEA's actual measurements instead of guessing \u2014 16 1/8 inches deep, 14 5/8 to 30 5/8 inches wide. Here's which one goes in which drawer, with prices and ratings pulled straight from Amazon. Full comparison linked in bio. Contains affiliate links.",
+  "hashtags": [
+    "#HemnesDresser",
+    "#IkeaHemnes",
+    "#DrawerOrganizerComparison",
+    "#HomeOrganization",
+    "#IkeaHacks",
+    "#BedroomStorage",
+    "#AmazonFinds"
+  ]
+}

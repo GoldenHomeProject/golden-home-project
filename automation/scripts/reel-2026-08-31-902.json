@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-08-31T16:37:02.518877Z",
+  "date": "2026-08-31",
+  "seq": 902,
+  "source": "repurpose",
+  "hook": "49,036 people rated this $17.98 organizer 4.7 stars",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Screen recording zooming into an Amazon listing's star rating and review count",
+      "on_screen_text": "4.7\u2605 / 49,036 ratings",
+      "voiceover": "At this many ratings, a sizing problem would show up. It hasn't."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Unboxing shot, all 25 clear plastic pieces in six sizes laid out on a bed",
+      "on_screen_text": "6 sizes, 25 pieces, $17.98",
+      "voiceover": "Six interlocking sizes, from roughly 2x2 inches up to 4x12."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Close-up of two pieces snapping together by hand, no tools in frame",
+      "on_screen_text": "No tools. No cutting.",
+      "voiceover": "They snap together by hand, no tools, no cutting to size."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Top narrow Hemnes drawer with small interlocked squares holding socks and jewelry",
+      "on_screen_text": "Top drawer: small squares for socks",
+      "voiceover": "In the narrow 14-inch top drawer, I tile the small squares for socks and jewelry."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Bottom wide Hemnes drawer with the same pieces reconfigured into long rectangular trays",
+      "on_screen_text": "Bottom drawer: long trays",
+      "voiceover": "Same set, switch to the long trays for the 30-inch bottom drawer."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Side-by-side split screen of both drawers, fully organized",
+      "on_screen_text": "One set, every drawer",
+      "voiceover": "One set does both instead of buying two different organizers."
+    },
+    {
+      "n": 7,
+      "duration_sec": 2,
+      "visual_prompt": "Hand closing the drawer smoothly, price tag graphic appears",
+      "on_screen_text": "Link in bio - $17.98",
+      "voiceover": "Link's in bio if you want the exact one."
+    }
+  ],
+  "caption": "49,036 ratings is a big enough sample that a bad-fit organizer would show up in the score \u2014 this one's still sitting at 4.7 stars. Here's exactly how I laid the 25 pieces out across my Hemnes's narrow top drawer and wide bottom drawer. Full review linked in bio. Contains affiliate links.",
+  "hashtags": [
+    "#VtopmartOrganizer",
+    "#HemnesDresser",
+    "#DrawerOrganizer",
+    "#IkeaHemnes",
+    "#ClosetOrganization",
+    "#AmazonMustHaves"
+  ]
+}

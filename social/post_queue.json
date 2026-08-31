@@ -6247,5 +6247,91 @@
     "keyword": "SHEET",
     "queued_at": "2026-08-31T14:36:32.144428Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_repurpose_2026-08-31_901",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-31-901.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "I grabbed the wrong organizer for my Hemnes dresser twice before I actually measured the drawers. Turns out every version \u2014 3-drawer, 6-drawer, 8-drawer \u2014 has the exact same 16 1/8-inch depth, but width jumps from 14 to 30 inches drawer to drawer. Three picks under $20 that are actually sized for it, full breakdown and links in the blog post (link in bio). Contains affiliate links.",
+    "hashtags": [
+      "#HemnesDresser",
+      "#IkeaHemnesHack",
+      "#DrawerOrganization",
+      "#IkeaHacks",
+      "#SmallBedroomOrganization",
+      "#AmazonFinds"
+    ],
+    "hook": "I tried 3 organizers before finding the $17.98 one that fits"
+  },
+  {
+    "name": "reel_repurpose_2026-08-31_902",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-31-902.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "49,036 ratings is a big enough sample that a bad-fit organizer would show up in the score \u2014 this one's still sitting at 4.7 stars. Here's exactly how I laid the 25 pieces out across my Hemnes's narrow top drawer and wide bottom drawer. Full review linked in bio. Contains affiliate links.",
+    "hashtags": [
+      "#VtopmartOrganizer",
+      "#HemnesDresser",
+      "#DrawerOrganizer",
+      "#IkeaHemnes",
+      "#ClosetOrganization",
+      "#AmazonMustHaves"
+    ],
+    "hook": "49,036 people rated this $17.98 organizer 4.7 stars"
+  },
+  {
+    "name": "reel_repurpose_2026-08-31_903",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-31-903.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "My Hemnes's bottom drawer is basically a laundry basket without a fabric bin set. Rigid organizers just float around in 30 inches of space \u2014 this $13.99 six-pack is built for that width instead. I'm not hiding the one real complaint either. Full review linked in bio. Contains affiliate links.",
+    "hashtags": [
+      "#HemnesDresser",
+      "#DrawerOrganization",
+      "#ClosetStorage",
+      "#IkeaHemnes",
+      "#FabricBins",
+      "#HomeOrganizing"
+    ],
+    "hook": "The $13.99 fix for Hemnes's 30-inch bottom drawer"
+  },
+  {
+    "name": "reel_repurpose_2026-08-31_904",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-31-904.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Every plastic organizer I owned slid across my Hemnes drawer the second I opened it fast \u2014 the lacquered finish has nothing for bin feet to grip. This $7.99 non-adhesive liner fixed it and stopped the corners from scuffing the paint. Link in bio. Contains affiliate links.",
+    "hashtags": [
+      "#HemnesHack",
+      "#DrawerLiner",
+      "#IkeaHemnes",
+      "#HomeOrganization",
+      "#IkeaFurniture",
+      "#DeclutterTips"
+    ],
+    "hook": "$7.99 stopped my Hemnes drawer bins from sliding"
+  },
+  {
+    "name": "reel_repurpose_2026-08-31_905",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-08-31-905.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "I compared three Hemnes drawer organizers against IKEA's actual measurements instead of guessing \u2014 16 1/8 inches deep, 14 5/8 to 30 5/8 inches wide. Here's which one goes in which drawer, with prices and ratings pulled straight from Amazon. Full comparison linked in bio. Contains affiliate links.",
+    "hashtags": [
+      "#HemnesDresser",
+      "#IkeaHemnes",
+      "#DrawerOrganizerComparison",
+      "#HomeOrganization",
+      "#IkeaHacks",
+      "#BedroomStorage",
+      "#AmazonFinds"
+    ],
+    "hook": "3 Hemnes organizers under $20, ranked by drawer size"
   }
 ]

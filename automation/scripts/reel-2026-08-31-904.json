@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-08-31T16:37:02.519161Z",
+  "date": "2026-08-31",
+  "seq": 904,
+  "source": "repurpose",
+  "hook": "$7.99 stopped my Hemnes drawer bins from sliding",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Drawer opening fast, a plastic bin sliding and hitting the side wall",
+      "on_screen_text": "Plastic bins slide. Every time.",
+      "voiceover": "Every plastic bin I put in a Hemnes drawer slid the second I opened it fast."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Extreme close-up of the smooth painted or stain-lacquered drawer interior surface",
+      "on_screen_text": "Smooth lacquered finish = no grip",
+      "voiceover": "The painted, stain-lacquered interior gives bin feet nothing to grip."
+    },
+    {
+      "n": 3,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of light scuff marks on white-stain drawer paint near a bin corner",
+      "on_screen_text": "Rigid corners scuff light finishes",
+      "voiceover": "Rigid organizer corners scuff the paint over time too, especially on white."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Unrolling the BAGAIL liner and cutting it to length with scissors on the drawer bottom",
+      "on_screen_text": "$7.99 - 12in x 10ft roll - 4.7\u2605",
+      "voiceover": "This non-adhesive liner cuts to fit both the 14-inch and 30-inch drawers."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Placing bins on top of the liner, drawer opened fast, nothing shifts",
+      "on_screen_text": "Non-adhesive: repositions, no residue",
+      "voiceover": "Non-adhesive means it won't pull the finish when you reposition it."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Simple graphic overlay: one roll icon next to eight drawer icons",
+      "on_screen_text": "1 roll covers a full 8-drawer dresser",
+      "voiceover": "One 10-foot roll covers roughly eight Hemnes drawer bottoms."
+    },
+    {
+      "n": 7,
+      "duration_sec": 2,
+      "visual_prompt": "Drawer closing smoothly, no sliding sound, CTA appears",
+      "on_screen_text": "Link in bio",
+      "voiceover": "Link's in bio."
+    }
+  ],
+  "caption": "Every plastic organizer I owned slid across my Hemnes drawer the second I opened it fast \u2014 the lacquered finish has nothing for bin feet to grip. This $7.99 non-adhesive liner fixed it and stopped the corners from scuffing the paint. Link in bio. Contains affiliate links.",
+  "hashtags": [
+    "#HemnesHack",
+    "#DrawerLiner",
+    "#IkeaHemnes",
+    "#HomeOrganization",
+    "#IkeaFurniture",
+    "#DeclutterTips"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-08-31T16:37:02.519030Z",
+  "date": "2026-08-31",
+  "seq": 903,
+  "source": "repurpose",
+  "hook": "The $13.99 fix for Hemnes's 30-inch bottom drawer",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Wide bottom Hemnes drawer open, clothes piled unevenly like a laundry basket",
+      "on_screen_text": "30 5/8\" wide. Rigid bins don't work here.",
+      "voiceover": "The bottom drawers on Hemnes run close to 30 inches wide."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "A small rigid plastic cube organizer placed in the wide drawer, visible dead space on both sides",
+      "on_screen_text": "Small bins = dead space",
+      "voiceover": "Small rigid cells just leave dead space at this scale."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Unboxing the 6-pack of fabric bins, shown collapsed flat before use",
+      "on_screen_text": "$13.99 - 4.0\u2605 (8,851 ratings)",
+      "voiceover": "This 6-pack of collapsible fabric bins is built for exactly this width."
+    },
+    {
+      "n": 4,
+      "duration_sec": 3,
+      "visual_prompt": "Bins popping into shape in seconds as hands unfold them",
+      "on_screen_text": "Pop into shape in seconds",
+      "voiceover": "No assembly, they pop into shape and go straight in the drawer."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Folding t-shirts and sweaters into the fabric bins inside the drawer",
+      "on_screen_text": "Best for light folded clothes",
+      "voiceover": "Reviewers flag that heavy folded jeans can sag the sides a bit."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Finished wide drawer with three distinct fabric bin zones, neatly filled",
+      "on_screen_text": "One fabric bin per zone",
+      "voiceover": "For light knits and tees, it holds shape fine."
+    },
+    {
+      "n": 7,
+      "duration_sec": 2,
+      "visual_prompt": "Drawer closing, CTA text appears on screen",
+      "on_screen_text": "Full review in bio",
+      "voiceover": "Details and the exact link are in the post, link's in bio."
+    }
+  ],
+  "caption": "My Hemnes's bottom drawer is basically a laundry basket without a fabric bin set. Rigid organizers just float around in 30 inches of space \u2014 this $13.99 six-pack is built for that width instead. I'm not hiding the one real complaint either. Full review linked in bio. Contains affiliate links.",
+  "hashtags": [
+    "#HemnesDresser",
+    "#DrawerOrganization",
+    "#ClosetStorage",
+    "#IkeaHemnes",
+    "#FabricBins",
+    "#HomeOrganizing"
+  ]
+}

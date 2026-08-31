@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-08-31T16:37:02.518599Z",
+  "date": "2026-08-31",
+  "seq": 901,
+  "source": "repurpose",
+  "hook": "I tried 3 organizers before finding the $17.98 one that fits",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of an empty Hemnes drawer interior, no dividers, socks and folded shirts sliding loosely from side to side as the drawer opens",
+      "on_screen_text": "16\" deep. Zero dividers. Nothing fits right.",
+      "voiceover": "IKEA ships the Hemnes with zero drawer dividers."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Hand placing a generic mesh cube organizer into the drawer, camera pans to show a visible gap on both sides",
+      "on_screen_text": "Generic organizers leave gaps",
+      "voiceover": "Every organizer I grabbed for a regular dresser either came up short or collapsed."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Tape measure laid across the drawer interior, overlay graphic showing 16 1/8 inch depth and 14 5/8 to 30 5/8 inch width range",
+      "on_screen_text": "16 1/8\" deep. 14 5/8\"-30 5/8\" wide.",
+      "voiceover": "Hemnes drawers are exactly 16 and an eighth inches deep, every version, but width jumps from 14 to 30 inches."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Unboxing and interlocking the Vtopmart clear bin pieces by hand on top of a dresser",
+      "on_screen_text": "$17.98 - 4.7\u2605 (49,036 ratings)",
+      "voiceover": "This 25-piece clear set is shallow enough to fit, and it interlocks to any width."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Fabric bins being placed into the wide bottom drawer, folded sweaters going in",
+      "on_screen_text": "$13.99 for the wide bottom drawers",
+      "voiceover": "For the 30-inch bottom drawers, fabric bins beat rigid trays."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Liner being unrolled and laid flat under the bins before they're placed back in",
+      "on_screen_text": "$7.99 stops the sliding",
+      "voiceover": "A non-adhesive liner stops everything from sliding on the lacquered finish."
+    },
+    {
+      "n": 7,
+      "duration_sec": 2,
+      "visual_prompt": "Finished drawer, fully organized, closing smoothly with no rattling",
+      "on_screen_text": "Full breakdown + links in bio",
+      "voiceover": "Full comparison's on the blog, link's in bio."
+    }
+  ],
+  "caption": "I grabbed the wrong organizer for my Hemnes dresser twice before I actually measured the drawers. Turns out every version \u2014 3-drawer, 6-drawer, 8-drawer \u2014 has the exact same 16 1/8-inch depth, but width jumps from 14 to 30 inches drawer to drawer. Three picks under $20 that are actually sized for it, full breakdown and links in the blog post (link in bio). Contains affiliate links.",
+  "hashtags": [
+    "#HemnesDresser",
+    "#IkeaHemnesHack",
+    "#DrawerOrganization",
+    "#IkeaHacks",
+    "#SmallBedroomOrganization",
+    "#AmazonFinds"
+  ]
+}
