@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-09-01",
+  "category": "Bedding",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-bedding-essentials.html",
+  "picks": [
+    {
+      "asin": "B06WWRCZXX",
+      "name": "Queen Size 4 Piece Sheet Set",
+      "price": "$24.99",
+      "rating": 4.5,
+      "reviews": 454212,
+      "rank": 2
+    },
+    {
+      "asin": "B01NBNDC1T",
+      "name": "Utopia Bedding 18x18 Pillow Inserts",
+      "price": "$15.71",
+      "rating": 4.6,
+      "reviews": 218736,
+      "rank": 8
+    },
+    {
+      "asin": "B08616PS69",
+      "name": "Bedsure Satin Pillowcases Queen Set of 2",
+      "price": "$7.99",
+      "rating": 4.5,
+      "reviews": 321408,
+      "rank": 11
+    },
+    {
+      "asin": "B078R3NDPH",
+      "name": "Ultra Soft Pillow Protectors with Zipper",
+      "price": "$8.99",
+      "rating": 4.7,
+      "reviews": 25993,
+      "rank": 19
+    },
+    {
+      "asin": "B09MG3MW3H",
+      "name": "Love to Dream Swaddle Up",
+      "price": "$34.95",
+      "rating": 4.6,
+      "reviews": 30141,
+      "rank": 25
+    },
+    {
+      "asin": "B09DCSGK84",
+      "name": "SINWEEK 2 Inch Gel Memory Foam Mattress Topper Ventilated Soft Pressur",
+      "price": "$29.99",
+      "rating": 4.5,
+      "reviews": 5545,
+      "rank": 27
+    }
+  ]
+}

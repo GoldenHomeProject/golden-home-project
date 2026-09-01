@@ -24,6 +24,15 @@ SITE = "https://goldenhomeproject.com"
 HEAD = """<!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- Google tag (gtag.js) — added 2026-08-31. Generated pages must carry the tag too,
+     or every new hub and post ships invisible to analytics. -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6X9B8NJYM7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-6X9B8NJYM7');
+</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{title} | Golden Home Project</title>

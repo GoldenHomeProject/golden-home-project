@@ -2930,3 +2930,6 @@ Applied autostash.
   [pexels] hit 'stainless steel can opener' -> bg-2026-08-31-B07YP2VH4B.jpg
   [pin] B07YP2VH4B board='Kitchen Organization Ideas' link=amazon -> social/pinterest/pin-2026-08-31-B07YP2VH4B.png
 [pinterest] generated 10 new pin(s); queue now 190 total -> social/pinterest_queue.json
+/home/ianmcwherter/golden-home-project/automation/post_pinterest.py:120: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  today = dt.datetime.utcnow().strftime("%Y-%m-%d")
+[pinterest] daily cap (6) reached; 35 still pending.
