@@ -274,6 +274,13 @@ No single point of failure — the flywheel keeps spinning.
 - **"Worth the money" list format on TikTok** — direct-to-camera 3-item "worth it / not worth it" videos performing well in home niche; connects to our "comparison" format strength.
 - **Junk drawer** — Trend Scout (2026-08-19) flags "chaotic junk drawer → fully sorted" as high-opportunity.
 - **Competitors** (checked Aug 2026): Alexandra Gater leans into renter/small-space content and budget-friendly makeovers — our exact overlap. Her audience is highly engaged on renter-restriction hacks. We should out-execute on dollar specificity she lacks.
+### September 2026 Visual Trend Insights (updated 2026-09-01):
+- **Label organization systems dominate** — 32% higher engagement than generic "organizing" videos on TikTok/YouTube. Cumulative 18.4B views in 2026, 2.1M new posts/month. Product tag: clear bins + label makers ($15-40). Hook: "I labeled everything. $[X]. I can't stop opening cabinets."
+- **Closet organizer systems still viral** — TikTok closet hauls with matching velvet hangers + shelf dividers hitting 500K+ in 48h. Renter angle: "no drilling required" + "I move every 2 years" drives shares.
+- **3.2B product-tag clicks** from home org content across Instagram/TikTok in 2026 — label systems + clear bins are the #1 clicked category in home.
+- **Fall "room reset" content emerging** — September spike in "I reset my whole [room] for fall" format on Pinterest (+67% saves) and TikTok. Budget under $150. Hook template: "I reset my whole [room] for fall. $[X]." High share rate (viewers tag friends "we need to do this").
+- **Ruggable-style floor swaps** — "I changed my whole room for $[X]" washable rug swaps trending on Pinterest/TikTok. Renters love the no-commitment angle; high-AOV ($99-299) drives affiliate value.
+- **⚠️ CJ DEACTIVATION ALERT** — CJ account will enter dormancy ~2026-10-01 if no commission generated. AliExpress (9% interior/garden) is our only CJ partner. Content Engine must prioritize AliExpress product links in upcoming scripts IMMEDIATELY.
 
 ### Competitor Analysis (updated 2026-04-02):
 - Lone Fox (1.5M subs): budget thrifted makeovers, rolling storage hacks
@@ -384,8 +391,9 @@ New agent spec: `automation/agents/ai_revenue_playbook.md` (COSTAR prompt framew
 | Impact | Best Choice Products | 15% + free product | Pre-approved | Home niche (baskets, garden, benches) — JOIN |
 | CJ | AliExpress | 9% interior/garden | Active | April Yang confirmed: 9% on interior accessories + garden supplies, 3-day cookie, 90-day lock |
 | Awin | Rewarx (AI photo studio) | 50% recurring | **AWIN JOIN REQUIRED** | Advertiser ID **129153**. Moved from Impact to Awin. Julian waiting 3+ days on our Awin Publisher ID; we have promised it 4+ times. Promo code Golden10 (10% off) assigned once we send the ID. Highest-commission partner we have. |
-| Impact | Vakkerlight | Paid collab | Awaiting reply | ON-NICHE home lighting, via NoxInfluencer/Lily. $300 long-form / $150 short / $400 package. Our rates email sent 2026-08-26. |
+| Impact | Vakkerlight | Paid collab | Follow-up sent 2026-09-01 | ON-NICHE home lighting, via NoxInfluencer/Lily. $300 long-form / $150 short / $400 package. Our rates email sent 2026-08-26. Follow-up sent 2026-09-01. |
 | Impact | Sam's Club Creator | up to 20% | Evaluated 2026-09-01 — skip | Generic Impact promo blast (not personal invite); Sam's membership-club model is poor fit for transformation content; home-goods overlap too broad; lower priority than direct home brand partnerships |
+| Direct | Ruggable | TBD | Outreach sent 2026-09-01 | Washable rugs — ON-NICHE (home transformation), renter-safe, high-AOV ($99-299). Pitched affiliates@ruggable.com. Perfect for fall room-reset content. |
 | Awin | OKUN (US) | TBD | Invited | HOME IMPROVEMENT — on-niche! Accept via Awin (needs browser login) |
 | Impact | BISSELL | up to 8.4% | Outreach sent 2026-04-02 | Home cleaning — perfect for transformation "first step" content |
 | Direct | Canoly (3-in-1 juicer) | TBD | Reply sent 2026-03-31 | April 30 IG Reel, free sample, awaiting details |
@@ -634,7 +642,7 @@ Agent configs live in `/private/tmp/golden-home-project/automation/agents/`.
 - [ ] Decline CICYBELL via Awin browser dashboard (email reply to help@awin.com bounced — cannot decline by email)
 - [ ] Research FLAUNT on Impact.com (new brand, joined 2026-08-21) — check niche before joining
 - [ ] Follow up with eufy (Impact) — 13+ days since outreach sent 2026-08-19, no reply. Send brief check-in by 2026-09-03.
-- [ ] Follow up with Vakkerlight (paid collab) — rates email sent 2026-08-26, no reply in 6 days. Standard follow-up due.
+- [x] Follow up with Vakkerlight (paid collab) — rates email sent 2026-08-26. Follow-up SENT 2026-09-01 to noxemail@mcn.noxinfluencer.com.
 - [ ] Generate Promeed tracking deep links (silk pillowcase + CoolRest) in Impact dashboard — ACTIVE 2026-08-25 but no links built yet (highest-ROI action available on active partners).
 - [ ] 🚨 **CJ ACCOUNT DEACTIVATION WARNING (received 2026-09-01)** — CJ issued a formal notice: our publisher account has not generated commissions in 5 months and will begin the dormancy process in 30 days (by ~2026-10-01). AliExpress (9% interior/garden) is our only CJ partner. Must generate at least 1 commission via CJ before October 1, 2026. Action: Content Engine should prioritize AliExpress affiliate links in upcoming scripts. Strategy agent should brief on AliExpress products. If deactivated, re-login to CJ to reactivate within 90 days (advertiser relationships preserved).
 
