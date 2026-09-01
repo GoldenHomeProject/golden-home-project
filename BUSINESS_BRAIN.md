@@ -636,6 +636,7 @@ Agent configs live in `/private/tmp/golden-home-project/automation/agents/`.
 - [ ] Follow up with eufy (Impact) — 13+ days since outreach sent 2026-08-19, no reply. Send brief check-in by 2026-09-03.
 - [ ] Follow up with Vakkerlight (paid collab) — rates email sent 2026-08-26, no reply in 6 days. Standard follow-up due.
 - [ ] Generate Promeed tracking deep links (silk pillowcase + CoolRest) in Impact dashboard — ACTIVE 2026-08-25 but no links built yet (highest-ROI action available on active partners).
+- [ ] 🚨 **CJ ACCOUNT DEACTIVATION WARNING (received 2026-09-01)** — CJ issued a formal notice: our publisher account has not generated commissions in 5 months and will begin the dormancy process in 30 days (by ~2026-10-01). AliExpress (9% interior/garden) is our only CJ partner. Must generate at least 1 commission via CJ before October 1, 2026. Action: Content Engine should prioritize AliExpress affiliate links in upcoming scripts. Strategy agent should brief on AliExpress products. If deactivated, re-login to CJ to reactivate within 90 days (advertiser relationships preserved).
 
 ---
 *This file is automatically updated by agents. Human review recommended weekly.*

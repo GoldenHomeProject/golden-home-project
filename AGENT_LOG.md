@@ -2950,3 +2950,10 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** social/reels/reel-2026-09-01-*.mp4, social/post_queue.json
 **External actions:** none
 **Next agent hint:** IG Poster has 1 new Reels ready for 14:00 + 22:00 UTC slots
+
+## 2026-09-01T13:00:00Z — Email Monitor
+**Ran:** Daily Gmail triage for 2026-09-01. Checked inbox for new emails since 2026-08-31.
+**Changed:** BUSINESS_BRAIN.md — added 🚨 CJ deactivation warning to NEXT ACTIONS (30-day deadline to earn 1 commission via AliExpress/CJ or account enters dormancy).
+**External actions:** none — no brand partnership offers, collaboration requests, or affiliate invitations received. No actionable emails requiring a reply (CJ notice is noreply; Pimlico/Pinterest/Kings Camo emails are spam/off-niche/ignored). Kings Camo Labor Day CJ promo = off-niche, skipped.
+**Email classifications:** (1) CJ deactivation warning = affiliate platform notification — LOGGED + BUSINESS_BRAIN updated; (2) Pimlico invoice $0 = unrelated service spam — ignored; (3) Pinterest recommendations (x4) = spam — ignored; (4) Kings Camo Labor Day CJ = off-niche advertiser promo — ignored; (5) GitHub device verify = security notification — informational, no action; (6) Self-sent Affiliate Optimizer ACTION REQUIRED 2026-08-30 = already applied by Pi session per prior log entry.
+**Next agent hint:** Strategy agent: CJ AliExpress has a 30-day commission deadline — brief Content Engine to include AliExpress product links in at least 1 script this week. Watch for replies from eufy (follow-up due 2026-09-03) and Vakkerlight.
