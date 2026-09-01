@@ -2945,8 +2945,8 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: proof: A scale that just weighs you feels like it shouldn | proof: Most listings are optimized for the first ten minu | proof: 453,281 people have rated this sheet set. It still
 
-## 2026-09-01T12:15:30Z — Carousel Generator
-**Ran:** Generated 5-slide carousel for B0815BLNX1 (GORILLA GRIP® Extra Long Rug Grippers fo)
-**Changed:** social/carousels/2026-09-01-B0815BLNX1/slide-1.png, social/carousels/2026-09-01-B0815BLNX1/slide-2.png, social/carousels/2026-09-01-B0815BLNX1/slide-3.png, social/carousels/2026-09-01-B0815BLNX1/slide-4.png, social/carousels/2026-09-01-B0815BLNX1/slide-5.png, social/post_queue.json
-**External actions:** Pexels (4 photos) + Claude CLI (slide content)
-**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B0815BLNX1 carousel.
+## 2026-09-01T12:18:52Z — Reel Producer
+**Ran:** Rendered 1/1 MP4s for 2026-09-01
+**Changed:** social/reels/reel-2026-09-01-*.mp4, social/post_queue.json
+**External actions:** none
+**Next agent hint:** IG Poster has 1 new Reels ready for 14:00 + 22:00 UTC slots

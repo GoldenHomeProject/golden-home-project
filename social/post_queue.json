@@ -6322,10 +6322,10 @@
   },
   {
     "name": "reel_2026-09-01_003",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-09-01-003.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-01-003.mp4",
     "caption": "453,281 people have rated this sheet set. It still sits at 4.5 stars.\n\nThat review count isn't a typo. At this volume, a rating holds steady only if the product performs the same way for thousands of different beds, washing habits, and body temperatures night after night.\n\nThe Queen Size 4 Piece Sheet Set is a basic four-piece set: fitted sheet, flat sheet, two pillowcases. A 4.5-star average across 453,281 reviews means the overwhelming majority of buyers got what they expected, which is rare at scale.\n\nFor $21.23, you get a queen sheet set with a review record most products never reach, let alone hold onto.\n\nComment SIZE and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -6342,22 +6342,7 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "453,281 people have rated this sheet set. It still sits at 4.5 stars."
-  },
-  {
-    "id": "carousel-2026-09-01-B0815BLNX1",
-    "media_type": "CAROUSEL_ALBUM",
-    "image_urls": [
-      "https://goldenhomeproject.com/social/carousels/2026-09-01-B0815BLNX1/slide-1.png",
-      "https://goldenhomeproject.com/social/carousels/2026-09-01-B0815BLNX1/slide-2.png",
-      "https://goldenhomeproject.com/social/carousels/2026-09-01-B0815BLNX1/slide-3.png",
-      "https://goldenhomeproject.com/social/carousels/2026-09-01-B0815BLNX1/slide-4.png",
-      "https://goldenhomeproject.com/social/carousels/2026-09-01-B0815BLNX1/slide-5.png"
-    ],
-    "caption": "Hardwood floors and loose rugs don't mix \u2014 here's a fix that skips the tape.\n\nRug corners curl and edges slide most on hardwood because there's no texture to grip onto. A cut-to-size gripper strip runs the full length of the rug instead of just the corners, so it holds flat and lifts off without leaving residue.\n\nSave this for later so it's here next time a runner or area rug starts sliding.\n\nComment LINK or DM me LINK for the link.\n\n#homeorganizing #rentalfriendly #hardwoodfloors #amazonfinds",
-    "asin": "B0815BLNX1",
-    "keyword": "LINK",
-    "queued_at": "2026-09-01T12:15:30.772389Z",
-    "source": "carousel_generator"
+    "hook": "453,281 people have rated this sheet set. It still sits at 4.5 stars.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-01-003.mp4"
   }
 ]
