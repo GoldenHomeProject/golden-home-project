@@ -1499,6 +1499,50 @@
           }
         ],
         "voice_rev": "2026-08-26"
+      },
+      {
+        "hook_category": "proof",
+        "hook": "349,499 people rated this bathroom scale. Almost none call it flimsy.",
+        "beat1": "A scale is one of the few gadgets you use in silence, first thing in the morning, with no patience for guessing. At $16.87 it sits well under what most bathroom scales cost, which is usually the first thing people ask about before checking anything else.",
+        "turn": "The Etekcity Digital Body Weight Bathroom Scale gives a plain numeric readout with no setup beyond stepping on. A 4.7-star average across 349,499 reviews is the kind of sample size that stops being anecdote and starts being data.",
+        "result": "For $16.87 you get a scale with review volume most home gadgets never come close to. That number is the actual selling point here, not a claim about how it feels to use.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close-up of a bathroom floor, a slim digital scale sitting next to a bath mat, morning light",
+            "on_screen_text": "349,499 REVIEWS",
+            "voiceover": "Three hundred forty nine thousand people rated this scale."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Overhead shot of a bare foot stepping onto the scale, digital display lighting up",
+            "on_screen_text": "4.7 STARS",
+            "voiceover": "That's not a small sample. That's a 4.7-star average holding steady across almost 350,000 buyers."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Macro shot of the LCD readout displaying a clear number, clean glass or tempered surface visible",
+            "on_screen_text": "SIMPLE READOUT",
+            "voiceover": "No app required to get a number. Step on, read it, done."
+          },
+          {
+            "n": 4,
+            "duration_sec": 5,
+            "visual_prompt": "Wide shot of a small bathroom, scale tucked beside the tub, showing how little floor space it takes",
+            "on_screen_text": "$16.87",
+            "voiceover": "It's sixteen dollars and eighty-seven cents, which is well below what most bathroom scales run."
+          },
+          {
+            "n": 5,
+            "duration_sec": 4,
+            "visual_prompt": "Final shot: scale centered on a plain tile floor, subtle text overlay of the rating fading in",
+            "on_screen_text": "349,499 REVIEWS \u00b7 4.7\u2605",
+            "voiceover": "Review counts like that don't happen by accident."
+          }
+        ]
       }
     ],
     "BATHROOM": [
