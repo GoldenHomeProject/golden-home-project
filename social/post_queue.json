@@ -6251,10 +6251,10 @@
   },
   {
     "name": "reel_repurpose_2026-08-31_902",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-08-31-902.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-31-902.mp4",
     "caption": "49,036 ratings is a big enough sample that a bad-fit organizer would show up in the score \u2014 this one's still sitting at 4.7 stars. Here's exactly how I laid the 25 pieces out across my Hemnes's narrow top drawer and wide bottom drawer. Full review linked in bio. Contains affiliate links.",
     "hashtags": [
       "#VtopmartOrganizer",
@@ -6264,14 +6264,15 @@
       "#ClosetOrganization",
       "#AmazonMustHaves"
     ],
-    "hook": "49,036 people rated this $17.98 organizer 4.7 stars"
+    "hook": "49,036 people rated this $17.98 organizer 4.7 stars",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-31-902.mp4"
   },
   {
     "name": "reel_repurpose_2026-08-31_903",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-08-31-903.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-31-903.mp4",
     "caption": "My Hemnes's bottom drawer is basically a laundry basket without a fabric bin set. Rigid organizers just float around in 30 inches of space \u2014 this $13.99 six-pack is built for that width instead. I'm not hiding the one real complaint either. Full review linked in bio. Contains affiliate links.",
     "hashtags": [
       "#HemnesDresser",
@@ -6281,7 +6282,8 @@
       "#FabricBins",
       "#HomeOrganizing"
     ],
-    "hook": "The $13.99 fix for Hemnes's 30-inch bottom drawer"
+    "hook": "The $13.99 fix for Hemnes's 30-inch bottom drawer",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-31-903.mp4"
   },
   {
     "name": "reel_repurpose_2026-08-31_904",
