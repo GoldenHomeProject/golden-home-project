@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-04-17
+# Last updated: 2026-09-01
 # ============================================================
 
 ---
@@ -645,6 +645,8 @@ Agent configs live in `/private/tmp/golden-home-project/automation/agents/`.
 - [x] Follow up with Vakkerlight (paid collab) — rates email sent 2026-08-26. Follow-up SENT 2026-09-01 to noxemail@mcn.noxinfluencer.com.
 - [ ] Generate Promeed tracking deep links (silk pillowcase + CoolRest) in Impact dashboard — ACTIVE 2026-08-25 but no links built yet (highest-ROI action available on active partners).
 - [ ] 🚨 **CJ ACCOUNT DEACTIVATION WARNING (received 2026-09-01)** — CJ issued a formal notice: our publisher account has not generated commissions in 5 months and will begin the dormancy process in 30 days (by ~2026-10-01). AliExpress (9% interior/garden) is our only CJ partner. Must generate at least 1 commission via CJ before October 1, 2026. Action: Content Engine should prioritize AliExpress affiliate links in upcoming scripts. Strategy agent should brief on AliExpress products. If deactivated, re-login to CJ to reactivate within 90 days (advertiser relationships preserved).
+- [ ] 🚨 **AliExpress content urgency (CJ 30-day deadline)** — Affiliate Optimizer 2026-09-01: Content Engine must embed AliExpress product links (CID 7711902, 9% interior/garden) in at least **2 scripts per week** starting immediately. Best-fit AliExpress categories: clear storage bins, label makers, velvet hangers, closet organizers ($12–$40 AOV, 9%). These align with September's #1 trending category (label organization, 32% higher engagement). Use AliExpress affiliate deep links via CJ dashboard.
+- [ ] **HIGH-AOV GAP — Standing desk / WFH ($25–60/sale)** — Affiliate Optimizer 2026-09-01: Only high-AOV category with ZERO affiliate coverage. September back-to-work season = time-sensitive opportunity. Outreach targets: Flexispot (Impact.com), Uplift Desk, Autonomous.ai. Strategy agent pitch by 2026-09-08. Hook: "I reset my home office for fall. $[X]." ties directly to September fall room-reset trend (+67% Pinterest saves).
 
 ---
 *This file is automatically updated by agents. Human review recommended weekly.*
