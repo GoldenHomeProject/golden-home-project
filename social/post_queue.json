@@ -6319,5 +6319,29 @@
       "#AmazonFinds"
     ],
     "hook": "3 Hemnes organizers under $20, ranked by drawer size"
+  },
+  {
+    "name": "reel_2026-09-01_003",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-01-003.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "453,281 people have rated this sheet set. It still sits at 4.5 stars.\n\nThat review count isn't a typo. At this volume, a rating holds steady only if the product performs the same way for thousands of different beds, washing habits, and body temperatures night after night.\n\nThe Queen Size 4 Piece Sheet Set is a basic four-piece set: fitted sheet, flat sheet, two pillowcases. A 4.5-star average across 453,281 reviews means the overwhelming majority of buyers got what they expected, which is rare at scale.\n\nFor $21.23, you get a queen sheet set with a review record most products never reach, let alone hold onto.\n\nComment SIZE and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Queen Size 4 Piece Sheet Set",
+      "dm_keyword": "SIZE",
+      "amazon_asin": "B01M16WBW1",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01M16WBW1?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "453,281 people have rated this sheet set. It still sits at 4.5 stars."
   }
 ]

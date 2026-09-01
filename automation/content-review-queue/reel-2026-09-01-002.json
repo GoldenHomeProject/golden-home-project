@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-01T10:43:31.230190Z",
+  "date": "2026-09-01",
+  "seq": 2,
+  "hook_category": "proof",
+  "hook": "Most listings are optimized for the first ten minutes. Not the next ten years.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close overhead shot of a plain digital bathroom scale on tile floor, soft morning light, minimal bathroom, no text on product",
+      "on_screen_text": "349,254 REVIEWS",
+      "voiceover": "349,254 reviews on a bathroom scale. That is not an accident."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Slow pan across a simple bathroom floor, scale tucked beside a vanity, neutral tones, documentary style",
+      "on_screen_text": "USED DAILY",
+      "voiceover": "A scale is something people use every single day, and complain about loudly when it reads differently three times in a row."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Split-style composition showing a review-count graphic bar growing, clean typographic motion over a blurred bathroom background",
+      "on_screen_text": "4.7 STARS",
+      "voiceover": "In that category, a review count in the hundreds of thousands tells you more than any spec sheet."
+    },
+    {
+      "n": 4,
+      "duration_sec": 5,
+      "visual_prompt": "Low angle of bare feet stepping onto a digital scale, display glowing, shallow depth of field, warm bathroom lighting",
+      "on_screen_text": "IT HOLDS UP",
+      "voiceover": "The Etekcity Digital Body Weight Bathroom Scale reads your body weight and shows it. Holding 4.7 stars across that many reviews means the basics stayed consistent long after the early buyers moved on."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Product hero shot on clean white background, scale centered, price card graphic sliding in from the bottom",
+      "on_screen_text": "$16.87",
+      "voiceover": "A daily-use scale that a very large number of people rated well, for sixteen dollars and eighty-seven cents."
+    }
+  ],
+  "caption": "Most listings are optimized for the first ten minutes. Not the next ten years.\n\nThat is the wrong window to design for. What actually earns a permanent spot in a home is not a strong first impression \u2014 it is whether the thing still works the same way months after the packaging is gone.\n\nThis product does not come with a story. It comes with a job: do the same thing, the same way, every time you reach for it.\n\nYou get something built to disappear into daily use instead of impressing you once and then letting you down.\n\nComment DIGITAL and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "This product does not come with a story. It comes with a job: do the same thing, the same way, every time you reach for it.",
+  "affiliate_strategy": {
+    "primary_product": "Etekcity Digital Body Weight Bathroom Scale",
+    "dm_keyword": "DIGITAL",
+    "amazon_asin": "B01HI1W1V4",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B01HI1W1V4?tag=goldenhomep06-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": null
+  }
+}

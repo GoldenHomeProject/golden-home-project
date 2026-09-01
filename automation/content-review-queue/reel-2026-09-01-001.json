@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-01T10:43:31.223248Z",
+  "date": "2026-09-01",
+  "seq": 1,
+  "hook_category": "proof",
+  "hook": "A scale that just weighs you feels like it shouldn't need explaining.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close overhead shot of a flat digital bathroom scale on clean tile floor, soft daylight from a window, minimal bathroom, shallow depth of field",
+      "on_screen_text": "349,254 REVIEWS",
+      "voiceover": "349,254 reviews is more than most cities have people."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Slow push-in on the scale's dark glass surface, reflections of soft bathroom light, no feet in frame, calm neutral palette",
+      "on_screen_text": "NOBODY REVIEWS A SCALE",
+      "voiceover": "Bathroom scales are a category where almost nobody writes a review unless something goes wrong."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Animated star rating graphic filling to 4.7 over a blurred bathroom background, clean modern typography, subtle motion",
+      "on_screen_text": "4.7 STARS",
+      "voiceover": "This one has 349,254 of them and still sits at 4.7 stars. A number that large usually drags an average down."
+    },
+    {
+      "n": 4,
+      "duration_sec": 5,
+      "visual_prompt": "Product-style shot of the Etekcity digital body weight bathroom scale on a bathroom floor beside a folded towel, even studio-soft lighting, neutral background",
+      "on_screen_text": "ONE JOB, DONE",
+      "voiceover": "It does one job \u2014 a digital scale you step on to read your weight. You're not gambling on a new listing. Hundreds of thousands of people already stress-tested it for you."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Final clean hero shot of the scale on tile, price card graphic sliding in from the lower third, bright and simple",
+      "on_screen_text": "$16.87",
+      "voiceover": "A scale with a track record instead of a guess, for sixteen dollars and eighty-seven cents."
+    }
+  ],
+  "caption": "A scale that just weighs you feels like it shouldn't need explaining.\n\nSomewhere along the way, bathroom scales picked up apps, sync features, and body-fat estimates nobody asked for. Most of that gets set up once, then ignored for good.\n\nThis one skips all of it. Step on, glance down, get a number \u2014 the entire interaction a scale is supposed to have.\n\nNo app to open first thing in the morning, just a screen that tells you what you came to check.\n\nComment BODY and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "This one skips all of it. Step on, glance down, get a number \u2014 the entire interaction a scale is supposed to have.",
+  "affiliate_strategy": {
+    "primary_product": "Etekcity Digital Body Weight Bathroom Scale",
+    "dm_keyword": "BODY",
+    "amazon_asin": "B01HI1W1V4",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B01HI1W1V4?tag=goldenhomep06-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": null
+  }
+}
