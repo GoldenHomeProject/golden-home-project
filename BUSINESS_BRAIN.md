@@ -385,7 +385,7 @@ New agent spec: `automation/agents/ai_revenue_playbook.md` (COSTAR prompt framew
 | CJ | AliExpress | 9% interior/garden | Active | April Yang confirmed: 9% on interior accessories + garden supplies, 3-day cookie, 90-day lock |
 | Awin | Rewarx (AI photo studio) | 50% recurring | **AWIN JOIN REQUIRED** | Advertiser ID **129153**. Moved from Impact to Awin. Julian waiting 3+ days on our Awin Publisher ID; we have promised it 4+ times. Promo code Golden10 (10% off) assigned once we send the ID. Highest-commission partner we have. |
 | Impact | Vakkerlight | Paid collab | Awaiting reply | ON-NICHE home lighting, via NoxInfluencer/Lily. $300 long-form / $150 short / $400 package. Our rates email sent 2026-08-26. |
-| Impact | Sam's Club Creator | up to 20% | Investigate | Home-goods overlap — worth evaluating |
+| Impact | Sam's Club Creator | up to 20% | Evaluated 2026-09-01 — skip | Generic Impact promo blast (not personal invite); Sam's membership-club model is poor fit for transformation content; home-goods overlap too broad; lower priority than direct home brand partnerships |
 | Awin | OKUN (US) | TBD | Invited | HOME IMPROVEMENT — on-niche! Accept via Awin (needs browser login) |
 | Impact | BISSELL | up to 8.4% | Outreach sent 2026-04-02 | Home cleaning — perfect for transformation "first step" content |
 | Direct | Canoly (3-in-1 juicer) | TBD | Reply sent 2026-03-31 | April 30 IG Reel, free sample, awaiting details |
@@ -633,6 +633,9 @@ Agent configs live in `/private/tmp/golden-home-project/automation/agents/`.
 - [ ] Film CoolRest comforter using SAMPLE-IAN-COOL3-2026 (60% off, one-time code) for bedroom before/after content
 - [ ] Decline CICYBELL via Awin browser dashboard (email reply to help@awin.com bounced — cannot decline by email)
 - [ ] Research FLAUNT on Impact.com (new brand, joined 2026-08-21) — check niche before joining
+- [ ] Follow up with eufy (Impact) — 13+ days since outreach sent 2026-08-19, no reply. Send brief check-in by 2026-09-03.
+- [ ] Follow up with Vakkerlight (paid collab) — rates email sent 2026-08-26, no reply in 6 days. Standard follow-up due.
+- [ ] Generate Promeed tracking deep links (silk pillowcase + CoolRest) in Impact dashboard — ACTIVE 2026-08-25 but no links built yet (highest-ROI action available on active partners).
 
 ---
 *This file is automatically updated by agents. Human review recommended weekly.*

@@ -2914,3 +2914,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** social/reels/reel-2026-08-31-*.mp4, social/post_queue.json
 **External actions:** none
 **Next agent hint:** IG Poster has 1 new Reels ready for 14:00 + 22:00 UTC slots
+
+## 2026-09-01T15:00:00Z — Affiliate Optimizer
+**Ran:** Daily affiliate audit 2026-09-01. Checked Gmail (last 2d): Sam's Club Creator (Impact, 2026-08-27) is a generic promo blast — not a personal invite; Sam's membership-club model is poor fit for transformation content; marked as Evaluated/skip. Kings Camo Labor Day (CJ) off-niche — ignored. No new inbound affiliate acceptance emails from Vakkerlight, eufy, Promeed, Rewarx, or any platform. Platform status: Amazon active (goldenhomep06-20), CJ AliExpress active (9%), Impact Promeed ACTIVE (12%, 30-day cookie since 2026-08-25 — tracking links not yet built), Rewarx still blocked on Ian's Awin join (50% recurring, highest commission). High-AOV scan: standing desk/home office is the only high-AOV gap with zero affiliate coverage; all other categories (air purifiers, robot vacuums, silk bedding, kitchen appliances, smart home) have at least Amazon or a pending brand partner. Flagged eufy (13 days no reply) and Vakkerlight (6 days no reply) for follow-up.
+**Changed:** BUSINESS_BRAIN.md — Sam's Club row updated to Evaluated/skip, added 3 NEXT ACTIONS (eufy follow-up, Vakkerlight follow-up, Promeed tracking links)
+**External actions:** none — no new invitations or partnership replies received requiring action
+**Next agent hint:** Email Monitor: watch for replies from eufy (sent 2026-08-19) and Vakkerlight (sent 2026-08-26); if eufy still silent by 2026-09-03 send a brief check-in. Promeed tracking link creation in Impact dashboard is the highest-ROI unblocker on an already-approved partner.
