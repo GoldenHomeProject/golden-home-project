@@ -1,56 +1,56 @@
 {
   "captured_at": "2026-09-01",
-  "category": "Bedding",
+  "category": "Kitchen",
   "source": "Amazon Best Sellers (live Pi scrape)",
-  "post": "blog/posts/best-bedding-essentials.html",
+  "post": "blog/posts/best-kitchen-gadgets.html",
   "picks": [
     {
-      "asin": "B06WWRCZXX",
-      "name": "Queen Size 4 Piece Sheet Set",
-      "price": "$24.99",
-      "rating": 4.5,
-      "reviews": 454212,
+      "asin": "B0BZYCJK89",
+      "name": "Owala FreeSip Stainless Steel Water Bottle 24 oz Denim",
+      "price": "$29.99",
+      "rating": 4.6,
+      "reviews": 135954,
+      "rank": 1
+    },
+    {
+      "asin": "B0CQVWT2NH",
+      "name": "HydroJug Traveler 40oz",
+      "price": "$31.99",
+      "rating": 4.6,
+      "reviews": 17188,
       "rank": 2
     },
     {
-      "asin": "B01NBNDC1T",
-      "name": "Utopia Bedding 18x18 Pillow Inserts",
-      "price": "$15.71",
+      "asin": "B0113UZJE2",
+      "name": "Etekcity Food Kitchen Scale",
+      "price": "$13.99",
       "rating": 4.6,
-      "reviews": 218736,
-      "rank": 8
+      "reviews": 176800,
+      "rank": 3
     },
     {
-      "asin": "B08616PS69",
-      "name": "Bedsure Satin Pillowcases Queen Set of 2",
-      "price": "$7.99",
-      "rating": 4.5,
-      "reviews": 321408,
+      "asin": "B0B6PLG6G2",
+      "name": "125Pcs 8 Inch Square Air Fryer Liners Disposable for 5-8QT",
+      "price": "$9.99",
+      "rating": 4.6,
+      "reviews": 33337,
       "rank": 11
     },
     {
-      "asin": "B078R3NDPH",
-      "name": "Ultra Soft Pillow Protectors with Zipper",
-      "price": "$8.99",
-      "rating": 4.7,
-      "reviews": 25993,
-      "rank": 19
-    },
-    {
-      "asin": "B09MG3MW3H",
-      "name": "Love to Dream Swaddle Up",
-      "price": "$34.95",
-      "rating": 4.6,
-      "reviews": 30141,
-      "rank": 25
-    },
-    {
-      "asin": "B09DCSGK84",
-      "name": "SINWEEK 2 Inch Gel Memory Foam Mattress Topper Ventilated Soft Pressur",
-      "price": "$29.99",
+      "asin": "B07WMQP4SF",
+      "name": "Homaxy 100% Cotton Waffle Weave Kitchen Dish Cloths 6-Pack",
+      "price": "$9.99",
       "rating": 4.5,
-      "reviews": 5545,
-      "rank": 27
+      "reviews": 40747,
+      "rank": 12
+    },
+    {
+      "asin": "B0B56CHMSC",
+      "name": "Lifewit Medium Lunch Bag",
+      "price": "$9.99",
+      "rating": 4.5,
+      "reviews": 62575,
+      "rank": 14
     }
   ]
 }
