@@ -3236,6 +3236,38 @@
       "verified_stars": "4.6",
       "verified_reviews": 32187,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0DF472VMZ",
+      "product_name": "Owala SmoothSip Slider Insulated Stainless Steel Coffee Tumbler, Reusable Iced Coffee Cup, Hot Coffee Travel Mug, BPA Fr",
+      "categories": [
+        "kitchen",
+        "Kitchen Storage"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0DF472VMZ?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-09-01",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$24.98",
+      "verified_stars": "4.6",
+      "verified_reviews": 14415,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B08CVVNQ1G",
+      "product_name": "Bentgo Chill Kids 4-Compartment Bento Box Leakproof Lunch Box | Built-In Ice Pack, 3.3 Cup Capacity, BPA-Free, Microwave",
+      "categories": [
+        "kitchen",
+        "Kitchen Storage"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B08CVVNQ1G?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-09-01",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$32.99",
+      "verified_stars": "4.6",
+      "verified_reviews": 19165,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
