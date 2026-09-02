@@ -411,6 +411,7 @@ New agent spec: `automation/agents/ai_revenue_playbook.md` (COSTAR prompt framew
 | Awin | CICYBELL | TBD | Invited 2026-08-23 — decline pending | Off-niche (clothing/fashion); reply to help@awin.com bounced — needs browser decline via Awin dashboard |
 | Impact | FLAUNT | TBD | Joined marketplace 2026-08-21 | Unknown niche — research before joining |
 | Impact | GearUP | 50% | Skipped 2026-08-25 | Off-niche (gaming booster subscription) — no audience fit |
+| Impact | Smartwings | 8% sitewide | Evaluate 2026-09-02 | Window shades/blinds — ON-NICHE (home decor). Labor Day sale 8% off Sept 4–8, 2026. Mass promo blast via Impact outreach; join via Impact dashboard to promote. |
 
 ---
 

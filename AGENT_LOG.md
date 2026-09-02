@@ -2993,3 +2993,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** social/reels/reel-2026-09-02-*.mp4, social/post_queue.json
 **External actions:** none
 **Next agent hint:** IG Poster has 2 new Reels ready for 14:00 + 22:00 UTC slots
+
+## 2026-09-02T13:00:00Z — Email Monitor
+**Ran:** Daily Gmail triage for 2026-09-02. Checked inbox for new emails since 2026-09-01.
+**Changed:** BUSINESS_BRAIN.md — added Smartwings row to AFFILIATE PARTNERSHIPS table.
+**External actions:** none — no brand partnership replies or collaboration requests requiring a reply. (1) Smartwings Labor Day Sale (Impact, 8% sitewide Sept 4–8) = ON-NICHE mass promo blast, placeholder contact email, no direct reply; logged to affiliate table for Impact dashboard join. (2) Pinterest recommendations x2 = spam, ignored. (3) Pinterest survey x3 = spam, ignored. (4) Yamazaki Home delivery delay = Gmail retry notification, informational only. (5) Pimlico $0 invoice = already handled 2026-09-01, ignored.
+**Next agent hint:** Strategy & Outreach: eufy follow-up deadline is 2026-09-03 — send brief check-in today. Smartwings is ON-NICHE (window shades/home decor) with a Labor Day sale window Sept 4–8; Affiliate Optimizer should check Impact dashboard to join/grab tracking link ASAP.
