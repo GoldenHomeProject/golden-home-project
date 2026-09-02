@@ -6347,10 +6347,10 @@
   },
   {
     "name": "reel_2026-09-02_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-09-02-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-02-001.mp4",
     "caption": "349,499 people rated this scale. Almost none of them are wrong.\n\nA bathroom scale is a boring purchase until it's wrong, and this one has been rated by 349,499 separate households. That's not a marketing number \u2014 it's a sample size most products never get close to. At 4.7 stars across that many reviews, the errors would show up if they were common.\n\nThe Etekcity Digital Body Weight Bathroom Scale gives a digital weight readout at step-on, no dials or guessing where the needle landed. A 4.7-star average held across 349,499 reviews is a statistical signal, not a lucky batch \u2014 that volume smooths out fluke units and fake reviews alike.\n\nFor $16.87, you get a scale with more reviews behind it than most home products will ever collect, and a rating that's stayed high through all of them.\n\nComment BODY and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -6367,14 +6367,15 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "349,499 people rated this scale. Almost none of them are wrong."
+    "hook": "349,499 people rated this scale. Almost none of them are wrong.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-02-001.mp4"
   },
   {
     "name": "reel_2026-09-02_002",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-09-02-002.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-02-002.mp4",
     "caption": "454,120 people rated this sheet set. Only 4.5 stars means almost nobody wants a refund.\n\nA queen sheet set is a four-piece purchase: fitted, flat, two pillowcases. At this price point, the failure mode is usually thin fabric or a fitted sheet that pops off the corner by week two.\n\nThis is a queen size 4 piece sheet set at $24.99. With 454,120 reviews averaging 4.5 stars, the volume itself is the signal \u2014 a set this cheap doesn't hold that rating by accident.\n\nFor $24.99, you get a full queen set backed by nearly half a million ratings instead of a handful of five-star plants.\n\nComment SHEET and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -6391,22 +6392,7 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "454,120 people rated this sheet set. Only 4.5 stars means almost nobody wants a refund."
-  },
-  {
-    "id": "carousel-2026-09-02-B0D89V1RX1",
-    "media_type": "CAROUSEL_ALBUM",
-    "image_urls": [
-      "https://goldenhomeproject.com/social/carousels/2026-09-02-B0D89V1RX1/slide-1.png",
-      "https://goldenhomeproject.com/social/carousels/2026-09-02-B0D89V1RX1/slide-2.png",
-      "https://goldenhomeproject.com/social/carousels/2026-09-02-B0D89V1RX1/slide-3.png",
-      "https://goldenhomeproject.com/social/carousels/2026-09-02-B0D89V1RX1/slide-4.png",
-      "https://goldenhomeproject.com/social/carousels/2026-09-02-B0D89V1RX1/slide-5.png"
-    ],
-    "caption": "Entryway rugs take the most daily abuse and get cleaned the least of any rug in the house.\n\nSave this for later \u2014 next time the hallway runner starts looking dingy, you'll want the fix on hand. A vintage-pattern 2x6 runner that's fully machine washable means the whole rug goes in the wash, not just a spot-clean with a rag.\n\nComment LINK or DM me LINK for the link.\n\n#homeorganization #entrywaydecor #hallwaydecor #washablerugs #smallspaceliving",
-    "asin": "B0D89V1RX1",
-    "keyword": "LINK",
-    "queued_at": "2026-09-02T11:53:00.875277Z",
-    "source": "carousel_generator"
+    "hook": "454,120 people rated this sheet set. Only 4.5 stars means almost nobody wants a refund.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-02-002.mp4"
   }
 ]

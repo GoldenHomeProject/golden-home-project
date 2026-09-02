@@ -2988,8 +2988,8 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: proof: 349,499 people rated this scale. Almost none of th | proof: 454,120 people rated this sheet set. Only 4.5 star | proof: Most reviews go quiet after the first few hundred
 
-## 2026-09-02T11:53:00Z — Carousel Generator
-**Ran:** Generated 5-slide carousel for B0D89V1RX1 (2x6 Hallway Washable Runner Rug : Vintag)
-**Changed:** social/carousels/2026-09-02-B0D89V1RX1/slide-1.png, social/carousels/2026-09-02-B0D89V1RX1/slide-2.png, social/carousels/2026-09-02-B0D89V1RX1/slide-3.png, social/carousels/2026-09-02-B0D89V1RX1/slide-4.png, social/carousels/2026-09-02-B0D89V1RX1/slide-5.png, social/post_queue.json
-**External actions:** Pexels (4 photos) + Claude CLI (slide content)
-**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B0D89V1RX1 carousel.
+## 2026-09-02T11:58:57Z — Reel Producer
+**Ran:** Rendered 2/2 MP4s for 2026-09-02
+**Changed:** social/reels/reel-2026-09-02-*.mp4, social/post_queue.json
+**External actions:** none
+**Next agent hint:** IG Poster has 2 new Reels ready for 14:00 + 22:00 UTC slots
