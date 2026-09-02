@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-09-02",
+  "category": "Home Storage",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-storage-bins.html",
+  "picks": [
+    {
+      "asin": "B0BZYCJK89",
+      "name": "Owala FreeSip Stainless Steel Water Bottle 24 oz Denim",
+      "price": "$29.99",
+      "rating": 4.6,
+      "reviews": 136082,
+      "rank": 1
+    },
+    {
+      "asin": "B00FXNAAW2",
+      "name": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers",
+      "price": "$20.99",
+      "rating": 4.8,
+      "reviews": 236133,
+      "rank": 2
+    },
+    {
+      "asin": "B0DGF616XN",
+      "name": "6 Pack Extra Heavy Duty Large Moving Bags with Strong Zipper",
+      "price": "$23.98",
+      "rating": 4.8,
+      "reviews": 12088,
+      "rank": 6
+    },
+    {
+      "asin": "B0DR9PMK1W",
+      "name": "STANLEY IceFlow 2.0 Flip Straw Tumbler",
+      "price": "$24.00",
+      "rating": 4.7,
+      "reviews": 64880,
+      "rank": 10
+    },
+    {
+      "asin": "B079M8FPTW",
+      "name": "Rubbermaid Brilliance Tritan Plastic Food Storage Containers BPA Free",
+      "price": "$32.48",
+      "rating": 4.7,
+      "reviews": 59582,
+      "rank": 13
+    },
+    {
+      "asin": "B0B56CHMSC",
+      "name": "Lifewit Medium Lunch Bag",
+      "price": "$7.99",
+      "rating": 4.5,
+      "reviews": 62611,
+      "rank": 16
+    }
+  ]
+}
