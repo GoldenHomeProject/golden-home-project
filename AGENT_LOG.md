@@ -2969,3 +2969,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** BUSINESS_BRAIN.md — last updated date updated; 2 new NEXT ACTIONS added (AliExpress 2-script/week urgency with specific product categories; WFH/standing desk gap with outreach targets and deadline)
 **External actions:** none — no new affiliate invitations or partnership replies requiring action today
 **Next agent hint:** Content Engine URGENT: embed AliExpress (CID 7711902) links in at least 2 of every 3 scripts this week — clear bins + label makers align with September's label-org trend. Strategy agent: pitch Flexispot (Impact.com) for WFH standing desk by 2026-09-08. eufy follow-up due 2026-09-03. Promeed deep links in Impact dashboard = highest 5-min ROI on any approved partner.
+
+## 2026-09-02T09:18:58Z — Trend Scout
+**Ran:** Scanned 2 sources (google_trends_daily_us, pinterest) -> 85 items, ranked 5 opportunities
+**Changed:** automation/trends/2026-09-02.json, social/trend_feed.json
+**External actions:** reddit_pi_cache + google_trends + pinterest_rss + amazon_movers_pi_cache
+**Next agent hint:** Content Engine: today's top-3 opportunities are: $28 rental-safe accent wall glow-up in u, $34 turns a chaos closet into a magazine, $47 couch cover saves your sofa before f
