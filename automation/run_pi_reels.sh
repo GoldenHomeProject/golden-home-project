@@ -39,6 +39,21 @@ if [ $rc -ne 0 ]; then
     echo "[pi-reels] reel_producer exited $rc"
 fi
 
+# NEVER commit a broken merge. On 2026-09-02 the autostash apply above conflicted,
+# left "<<<<<<< Updated upstream" markers inside social/post_queue.json, and this
+# script committed and pushed them. The Content Engine then died with a
+# JSONDecodeError and Instagram/YouTube generated nothing until it was found by hand.
+if grep -rqE "^(<<<<<<< |>>>>>>> )" social/ 2>/dev/null; then
+    echo "[pi-reels] ABORT: git conflict markers present in social/ — refusing to commit"
+    grep -rlE "^(<<<<<<< |>>>>>>> )" social/ 2>/dev/null | sed "s/^/    /"
+    exit 1
+fi
+# And never commit JSON we cannot parse — the queue is what the posters read.
+if ! /usr/bin/python3 -c "import json,sys; json.load(open('social/post_queue.json'))" 2>/dev/null; then
+    echo "[pi-reels] ABORT: social/post_queue.json is not valid JSON — refusing to commit"
+    exit 1
+fi
+
 git add social/reels/ social/post_queue.json AGENT_LOG.md 2>/dev/null
 if git diff --staged --quiet; then
     echo "[pi-reels] nothing new to commit"
