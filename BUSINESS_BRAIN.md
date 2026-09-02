@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-09-01
+# Last updated: 2026-09-02
 # ============================================================
 
 ---
@@ -274,6 +274,13 @@ No single point of failure — the flywheel keeps spinning.
 - **"Worth the money" list format on TikTok** — direct-to-camera 3-item "worth it / not worth it" videos performing well in home niche; connects to our "comparison" format strength.
 - **Junk drawer** — Trend Scout (2026-08-19) flags "chaotic junk drawer → fully sorted" as high-opportunity.
 - **Competitors** (checked Aug 2026): Alexandra Gater leans into renter/small-space content and budget-friendly makeovers — our exact overlap. Her audience is highly engaged on renter-restriction hacks. We should out-execute on dollar specificity she lacks.
+### September 2026 Visual Trend Insights (updated 2026-09-02):
+- **Decanting/pantry container systems** — #1 TikTok kitchen trend of 2026. Matching clear airtight containers for flour, sugar, pasta, cereal replacing original packaging. Content goes viral from visual uniformity alone. AliExpress angle: clear bins + labels = $34 total. Hook: "I decanted everything in my kitchen. $34. I can't stop opening cabinets." DIRECT CJ DEACTIVATION SOLUTION — AliExpress links in this content.
+- **Cozy fall room resets** — Pinterest cozy content exploding: "cozy sunroom" +930%, "cozy lighting" +200%, "cozy reading room" +140%. September = cozy-reset season. Hook: "I reset my living room for fall. $67. It's the only room I want to be in." Ruggable washable rug = natural fit (just pitched).
+- **Home office/WFH September reset** — YouTube's fastest-growing September format. Back-to-routine driving "I reset my home office" content. Standing desk as anchor product (Flexispot pitched today). Hook: "I've worked from home 3 years. This $[X] was the fix I didn't know I needed."
+- **Dopamine decor on TikTok** — bright colors, mood-boosting, eye-catching. "I added $[X] of color to my kitchen and I'm obsessed." Easy affiliate tie-in: colorful dish towels, bold canisters, accent rugs.
+- **Competitor intel (Sep 2026):** Alexandra Gater book (Own Your Space, 2024) still driving her audience; she focuses on budget rental hacks. Our differentiation: specific dollar amounts she doesn't use. Lean into that edge on every hook.
+
 ### September 2026 Visual Trend Insights (updated 2026-09-01):
 - **Label organization systems dominate** — 32% higher engagement than generic "organizing" videos on TikTok/YouTube. Cumulative 18.4B views in 2026, 2.1M new posts/month. Product tag: clear bins + label makers ($15-40). Hook: "I labeled everything. $[X]. I can't stop opening cabinets."
 - **Closet organizer systems still viral** — TikTok closet hauls with matching velvet hangers + shelf dividers hitting 500K+ in 48h. Renter angle: "no drilling required" + "I move every 2 years" drives shares.
@@ -402,7 +409,8 @@ New agent spec: `automation/agents/ai_revenue_playbook.md` (COSTAR prompt framew
 | Impact | Promeed | 12% | **ACTIVE 2026-08-25** | Silk pillowcases/CoolRest comforter — ON-NICHE (bedroom). 30-day cookie. Audience promo IAN2026F3 (15% off). Sample code SAMPLE-IAN-COOL3-2026 (60% off CoolRest). Tracking live on Impact. |
 | Awin | Oedro (US) | TBD | Skipped | Off-niche (car parts — floor mats, tonneau covers) |
 | Impact | Homary | TBD | Outreach drafted 2026-04-02 | Home furniture — ON-NICHE (drafted by web agent) |
-| Impact | eufy | TBD | Outreach sent 2026-08-19 | Robot vacuums/smart home — ON-NICHE, fits "before transformation" content angle, confirmed on Impact platform |
+| Impact | eufy | TBD | Outreach sent 2026-08-19, follow-up sent 2026-09-02 | Robot vacuums/smart home — ON-NICHE, fits "before transformation" content angle, confirmed on Impact platform |
+| Direct | Flexispot | up to 15% (~$50/sale) | Outreach sent 2026-09-02 | Standing desks/WFH furniture — ON-NICHE (home office). Fills the only high-AOV gap with zero coverage. Contact: Joey@flexispot.com. September back-to-work season = time-sensitive pitch. |
 | Direct | OXO | TBD | Outreach sent 2026-08-16-17, auto-reply received | Kitchen/organization tools — ON-NICHE, directed to creator partner form |
 | Direct | mDesign | TBD | Outreach sent 2026-08-18 | Home organization — ON-NICHE |
 | Direct | Umbra | TBD | Outreach sent 2026-08-17 | Home decor/organization — ON-NICHE |
@@ -642,12 +650,12 @@ Agent configs live in `/private/tmp/golden-home-project/automation/agents/`.
 - [ ] Film CoolRest comforter using SAMPLE-IAN-COOL3-2026 (60% off, one-time code) for bedroom before/after content
 - [ ] Decline CICYBELL via Awin browser dashboard (email reply to help@awin.com bounced — cannot decline by email)
 - [ ] Research FLAUNT on Impact.com (new brand, joined 2026-08-21) — check niche before joining
-- [ ] Follow up with eufy (Impact) — 13+ days since outreach sent 2026-08-19, no reply. Send brief check-in by 2026-09-03.
+- [x] Follow up with eufy (Impact) — Follow-up SENT 2026-09-02 (thread 1a01a20b80cd9665). Sept back-to-work angle, transformation format recap.
 - [x] Follow up with Vakkerlight (paid collab) — rates email sent 2026-08-26. Follow-up SENT 2026-09-01 to noxemail@mcn.noxinfluencer.com.
 - [ ] Generate Promeed tracking deep links (silk pillowcase + CoolRest) in Impact dashboard — ACTIVE 2026-08-25 but no links built yet (highest-ROI action available on active partners).
 - [ ] 🚨 **CJ ACCOUNT DEACTIVATION WARNING (received 2026-09-01)** — CJ issued a formal notice: our publisher account has not generated commissions in 5 months and will begin the dormancy process in 30 days (by ~2026-10-01). AliExpress (9% interior/garden) is our only CJ partner. Must generate at least 1 commission via CJ before October 1, 2026. Action: Content Engine should prioritize AliExpress affiliate links in upcoming scripts. Strategy agent should brief on AliExpress products. If deactivated, re-login to CJ to reactivate within 90 days (advertiser relationships preserved).
 - [ ] 🚨 **AliExpress content urgency (CJ 30-day deadline)** — Affiliate Optimizer 2026-09-01: Content Engine must embed AliExpress product links (CID 7711902, 9% interior/garden) in at least **2 scripts per week** starting immediately. Best-fit AliExpress categories: clear storage bins, label makers, velvet hangers, closet organizers ($12–$40 AOV, 9%). These align with September's #1 trending category (label organization, 32% higher engagement). Use AliExpress affiliate deep links via CJ dashboard.
-- [ ] **HIGH-AOV GAP — Standing desk / WFH ($25–60/sale)** — Affiliate Optimizer 2026-09-01: Only high-AOV category with ZERO affiliate coverage. September back-to-work season = time-sensitive opportunity. Outreach targets: Flexispot (Impact.com), Uplift Desk, Autonomous.ai. Strategy agent pitch by 2026-09-08. Hook: "I reset my home office for fall. $[X]." ties directly to September fall room-reset trend (+67% Pinterest saves).
+- [x] **HIGH-AOV GAP — Standing desk / WFH — Flexispot outreach SENT 2026-09-02** (Joey@flexispot.com). Up to 15% commission (~$50/sale). September back-to-work hook: "I reset my home office for fall. $[X]." If no reply by 2026-09-10, try Uplift Desk or Autonomous.ai.
 
 ---
 *This file is automatically updated by agents. Human review recommended weekly.*
