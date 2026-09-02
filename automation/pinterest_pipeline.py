@@ -581,10 +581,45 @@ def main() -> int:
     # Cluster the proven lane by room so consecutive pins build a set.
     proven.sort(key=_theme_of)
     explore = [e for e in entries if e.get("asin") not in DROPS and not _is_proven(e)]
-    # Dorm/seasonal leads the explore lane — real buying season, still unproven.
-    explore.sort(key=lambda e: (
-        any(c.lower() in ("dorm", "college") for c in (e.get("categories") or [])),
-        _freshness(e)), reverse=True)
+    # IN-SEASON leads the explore lane. Hardcoding "dorm" here was right in August and
+    # actively wrong by 2 September: Pinterest is a search engine, dorm searches collapse
+    # after mid-August, and we were still spending every pin slot on them. Seasonality now
+    # comes from social/seasonal_themes.json, keyed by month, so it stays correct without
+    # a deploy — and themes past their window are dropped from the priority lane rather
+    # than quietly consuming slots.
+    seasonal = load_json(SOCIAL / "seasonal_themes.json", {}) or {}
+    month = str(datetime.now(timezone.utc).month)
+    in_season = [t.lower() for t in (seasonal.get("months", {}).get(month) or [])]
+    retired = {k.lower(): v for k, v in (seasonal.get("retired_after") or {}).items()}
+
+    def _seasonal_rank(e):
+        blob = (str(e.get("product_name", "")) + " " +
+                " ".join(e.get("categories") or [])).lower()
+        for term in retired:
+            if term in blob and int(month) > int(retired[term]):
+                return -1          # out of season — actively demote
+        return 1 if any(t in blob for t in in_season) else 0
+
+    # Drop off-niche products entirely rather than ranking them low. A Bluey water
+    # bottle, a bento box or a TV wall mount should never occupy a pin slot on a
+    # home-organization account at any priority — they drifted into the vetted pool via
+    # best-seller harvesting and were consuming slots on 2026-09-02.
+    off_niche = [w.lower() for w in (seasonal.get("off_niche_block") or [])]
+
+    def _off_niche(e):
+        blob = (str(e.get("product_name", "")) + " " +
+                " ".join(e.get("categories") or [])).lower()
+        return any(w in blob for w in off_niche)
+
+    if off_niche:
+        before = len(explore)
+        explore = [e for e in explore if not _off_niche(e)]
+        proven = [e for e in proven if not _off_niche(e)]
+        if before != len(explore):
+            print(f"  [niche] dropped {before - len(explore)} off-niche from explore lane")
+
+    explore.sort(key=lambda e: (_seasonal_rank(e), _freshness(e)), reverse=True)
+    print(f"  [season] month {month} themes: {', '.join(in_season) or '(none set)'}")
 
     # Interleave so a short run still gets both lanes, not all-proven then all-explore.
     every = max(2, round(1 / EXPLORE_RATIO)) if EXPLORE_RATIO > 0 else 10**9

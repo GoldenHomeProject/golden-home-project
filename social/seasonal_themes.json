@@ -1,0 +1,107 @@
+{
+  "_doc": "What people are actually shopping for, by month. Pinterest is a search engine and its users plan ahead, so the window OPENS about 3-6 weeks before the event and closes hard the day after. Pinning dorm content on 2 September is pinning into a search term that collapsed in mid-August. Keep this file current - it is data, not code.",
+  "updated": "2026-09-02",
+  "_lead_time_doc": "Pinterest searches run ahead of purchase. Treat the month entry as 'what to pin NOW', not 'what is happening now'.",
+  "months": {
+    "1": [
+      "closet organization",
+      "pantry organization",
+      "declutter",
+      "storage bins",
+      "laundry room"
+    ],
+    "2": [
+      "small space storage",
+      "bedroom refresh",
+      "closet organization",
+      "cleaning supplies"
+    ],
+    "3": [
+      "spring cleaning",
+      "cleaning supplies",
+      "garage storage",
+      "pantry organization"
+    ],
+    "4": [
+      "spring cleaning",
+      "patio",
+      "outdoor decor",
+      "storage bins"
+    ],
+    "5": [
+      "patio",
+      "outdoor entertaining",
+      "summer bedding",
+      "garage storage"
+    ],
+    "6": [
+      "summer bedding",
+      "patio",
+      "beach towels",
+      "small apartment"
+    ],
+    "7": [
+      "dorm room",
+      "college packing list",
+      "apartment organization",
+      "storage bins"
+    ],
+    "8": [
+      "dorm room",
+      "college packing list",
+      "back to school",
+      "closet organization"
+    ],
+    "9": [
+      "fall decor",
+      "cozy bedroom",
+      "blackout curtains",
+      "pantry organization",
+      "apartment organization",
+      "mattress protector"
+    ],
+    "10": [
+      "fall decor",
+      "cozy bedroom",
+      "flannel bedding",
+      "entryway organization",
+      "holiday prep"
+    ],
+    "11": [
+      "holiday hosting",
+      "guest room",
+      "flannel bedding",
+      "kitchen organization",
+      "gift guide"
+    ],
+    "12": [
+      "holiday hosting",
+      "guest room",
+      "gift guide",
+      "new year organization",
+      "closet organization"
+    ]
+  },
+  "retired_after": {
+    "dorm": "8",
+    "college": "8",
+    "back to school": "8",
+    "patio": "6",
+    "spring cleaning": "4"
+  },
+  "_retired_doc": "A theme past its month is actively harmful: it consumes pin slots and lands on a search term nobody is typing. Use SINGLE TOKENS ('dorm', not 'dorm room') \u2014 products are titled 'for Dorm & College', so a two-word key never matches and the demotion silently does nothing.",
+  "off_niche_block": [
+    "bluey",
+    "bento",
+    "kids water bottle",
+    "thermos",
+    "tv wall mount",
+    "vesa",
+    "tv mount",
+    "lunch box",
+    "sippy",
+    "toddler",
+    "character"
+  ],
+  "_off_niche_doc": "Golden Home Project is home organization. Kids' character bottles, bento boxes and TV wall mounts drifted into the vetted pool and were consuming pin slots on 2026-09-02. Blocked from pinning; they stay in the catalogue for other uses."
+}
