@@ -20,6 +20,30 @@ from __future__ import annotations
 
 ASSOCIATES_TAG = "goldenhomep06-20"
 
+# Real Amazon TRACKING IDs, one per channel, created 2026-09-02.
+#
+# ascsubtag alone was not enough. Amazon suppresses Linked Product / Category /
+# Top Sellers reporting at our volume ("values may be hidden due to low volumes"),
+# and no downloadable report exposes ascsubtag — so after 14 sales we still could
+# not say which channel produced them. Amazon DOES group natively by Tracking ID,
+# and that view is never suppressed.
+#
+# All of these belong to the same Associates account, so commission is unaffected;
+# this only changes which bucket a click is reported under. ascsubtag is still
+# stamped on top for finer-grained (per-date) detail.
+CHANNEL_TAGS = {
+    "pinterest": "ghppinterest0e-20",
+    "instagram": "ghpinstagram0e-20",
+    "youtube":   "ghpyoutube0e-20",
+    "blog":      "ghpwebsite0e-20",
+    "direct":    "ghpwebsite0e-20",
+}
+
+
+def tag_for(channel: str) -> str:
+    """Tracking ID for a channel, falling back to the original account tag."""
+    return CHANNEL_TAGS.get((channel or "").lower(), ASSOCIATES_TAG)
+
 # Known channels — keep this list tight so the Associates report stays
 # readable. Add a channel here before using it.
 CHANNELS = {
@@ -47,7 +71,7 @@ def build_affiliate_url(asin: str, channel: str, *, subtag: str | None = None) -
     ascsubtag = channel if not subtag else f"{channel}_{subtag}"
     return (
         f"https://www.amazon.com/dp/{asin}"
-        f"?tag={ASSOCIATES_TAG}&ascsubtag={ascsubtag}"
+        f"?tag={tag_for(channel)}&ascsubtag={ascsubtag}"
     )
 
 

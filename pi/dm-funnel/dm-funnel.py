@@ -38,7 +38,10 @@ TOKENS_FILE = ROOT / "automation" / "logs" / "meta_tokens.json"
 STATE_DIR = Path.home() / ".ghp-dm-funnel"
 REPLIED_FILE = STATE_DIR / "replied_comments.json"
 GRAPH = "https://graph.facebook.com/v21.0"
-TAG = "goldenhomep06-20"
+# Instagram's own tracking ID (created 2026-09-02). Amazon groups natively by
+# Tracking ID and never suppresses that view, so DM-funnel clicks are now
+# separable from Pinterest and the website — which ascsubtag alone never gave us.
+TAG = "ghpinstagram0e-20"
 MAX_REPLIES_PER_RUN = 8  # human-pattern cap; spread across 2-3 runs/day
 
 
