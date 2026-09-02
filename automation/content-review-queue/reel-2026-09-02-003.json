@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-02T10:51:31.488557Z",
+  "date": "2026-09-02",
+  "seq": 3,
+  "hook_category": "proof",
+  "hook": "Most reviews go quiet after the first few hundred buyers.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Tight overhead shot of a slim digital bathroom scale on clean tile floor, soft morning light from a window, minimal white bathroom",
+      "on_screen_text": "349,254 REVIEWS",
+      "voiceover": "349,254 reviews is more than most gyms have members."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Slow push-in on the scale's display, numbers crisp and lit, shallow depth of field, neutral bathroom background",
+      "on_screen_text": "THAT NUMBER MEANS SOMETHING",
+      "voiceover": "That's not marketing. That's how many people came back to rate a bathroom scale."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Split composition: a dusty forgotten gadget in a drawer on one side, the clean scale in use on the other, contrasty side light",
+      "on_screen_text": "CHEAP GEAR GOES QUIET",
+      "voiceover": "Cheap electronics usually go quiet after the first thousand buyers. This one didn't."
+    },
+    {
+      "n": 4,
+      "duration_sec": 5,
+      "visual_prompt": "Bare feet stepping onto the scale, low angle, bathroom floor, natural daylight, calm unhurried motion",
+      "on_screen_text": "4.7 STARS, HELD",
+      "voiceover": "The Etekcity Digital Body Weight Bathroom Scale does one thing \u2014 you step on, you get your weight. Holding 4.7 stars across that many reviews is a durability signal from people using it daily."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Scale tucked neatly against a bathroom wall beside a folded towel, warm lamp light, tidy and lived-in",
+      "on_screen_text": "$16.87",
+      "voiceover": "A scale the crowd already stress-tested for you. Sixteen dollars and eighty-seven cents."
+    }
+  ],
+  "caption": "Most reviews go quiet after the first few hundred buyers.\n\nCheap gear usually stops getting rated once the early rush of buyers has said their piece. When a listing keeps collecting reviews long after launch, that's the crowd still bothering to weigh in.\n\nThis pick is still pulling in ratings well past its first wave of buyers \u2014 people rating it after actually living with it, not just unboxing it.\n\nThat kind of staying power tells you more than any spec sheet, whatever the price tag says today.\n\nComment WEIGHT and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "This pick is still pulling in ratings well past its first wave of buyers \u2014 people rating it after actually living with it, not just unboxing it.",
+  "affiliate_strategy": {
+    "primary_product": "Etekcity Digital Body Weight Bathroom Scale",
+    "dm_keyword": "WEIGHT",
+    "amazon_asin": "B01HI1W1V4",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B01HI1W1V4?tag=goldenhomep06-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": null
+  }
+}

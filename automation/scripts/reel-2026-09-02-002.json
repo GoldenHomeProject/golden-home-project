@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-02T10:51:31.481871Z",
+  "date": "2026-09-02",
+  "seq": 2,
+  "hook_category": "proof",
+  "hook": "454,120 people rated this sheet set. Only 4.5 stars means almost nobody wants a refund.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up on a phone screen showing a product review count scrolling upward, queen bed softly out of focus behind it",
+      "on_screen_text": "454,120 REVIEWS",
+      "voiceover": "Four hundred fifty-four thousand people rated this sheet set."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Overhead shot of the four pieces laid out flat and folded: fitted sheet, flat sheet, two pillowcases",
+      "on_screen_text": "4 PIECES, 1 SET",
+      "voiceover": "Fitted, flat, two pillowcases \u2014 the whole queen set in one box."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Star rating graphic animating in, 4.5 out of 5 filled stars against a plain background",
+      "on_screen_text": "4.5 STARS",
+      "voiceover": "At this volume, a 4.5 average is hard to fake."
+    },
+    {
+      "n": 4,
+      "duration_sec": 5,
+      "visual_prompt": "Hands smoothing the fitted sheet over a queen mattress corner, showing it staying in place",
+      "on_screen_text": "QUEEN SIZE FIT",
+      "voiceover": "Sized for queen, and rated by more people than most sheet sets ever see."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Final shot of the made bed with price tag graphic overlay in corner",
+      "on_screen_text": "$24.99",
+      "voiceover": "Twenty-four ninety-nine, backed by almost half a million reviews."
+    }
+  ],
+  "caption": "454,120 people rated this sheet set. Only 4.5 stars means almost nobody wants a refund.\n\nA queen sheet set is a four-piece purchase: fitted, flat, two pillowcases. At this price point, the failure mode is usually thin fabric or a fitted sheet that pops off the corner by week two.\n\nThis is a queen size 4 piece sheet set at $24.99. With 454,120 reviews averaging 4.5 stars, the volume itself is the signal \u2014 a set this cheap doesn't hold that rating by accident.\n\nFor $24.99, you get a full queen set backed by nearly half a million ratings instead of a handful of five-star plants.\n\nComment SHEET and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "This is a queen size 4 piece sheet set at $24.99. With 454,120 reviews averaging 4.5 stars, the volume itself is the signal \u2014 a set this cheap doesn't hold that rating by accident.",
+  "affiliate_strategy": {
+    "primary_product": "Queen Size 4 Piece Sheet Set",
+    "dm_keyword": "SHEET",
+    "amazon_asin": "B06WWRCZXX",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B06WWRCZXX?tag=goldenhomep06-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": null
+  }
+}

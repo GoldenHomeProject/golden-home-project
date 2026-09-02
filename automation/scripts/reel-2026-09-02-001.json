@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-02T10:51:31.474242Z",
+  "date": "2026-09-02",
+  "seq": 1,
+  "hook_category": "proof",
+  "hook": "349,499 people rated this scale. Almost none of them are wrong.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of a phone screen scrolling fast through a wall of five-star review thumbnails, blurred motion",
+      "on_screen_text": "349,499 REVIEWS",
+      "voiceover": "349,499 people rated this scale."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Overhead shot of the slim black digital bathroom scale sitting alone on a bathroom tile floor",
+      "on_screen_text": "4.7 STARS",
+      "voiceover": "Almost none of them are wrong."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Bare foot stepping onto the scale, quick cut to the digital display lighting up with a number",
+      "on_screen_text": "STEP ON. NUMBER APPEARS",
+      "voiceover": "It's a digital readout \u2014 step on, get your weight, no dial to misread."
+    },
+    {
+      "n": 4,
+      "duration_sec": 5,
+      "visual_prompt": "Split screen: a small stack of star icons on one side, a giant scrolling counter ticking up to 349,499 on the other",
+      "on_screen_text": "349,499 REVIEWS AT 4.7\u2605",
+      "voiceover": "That many reviews at a 4.7 average isn't luck. That's consistency at scale."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Product shot of the scale on a bathroom counter next to a price tag graphic showing $16.87",
+      "on_screen_text": "$16.87",
+      "voiceover": "Sixteen eighty-seven, for a number you can actually trust."
+    }
+  ],
+  "caption": "349,499 people rated this scale. Almost none of them are wrong.\n\nA bathroom scale is a boring purchase until it's wrong, and this one has been rated by 349,499 separate households. That's not a marketing number \u2014 it's a sample size most products never get close to. At 4.7 stars across that many reviews, the errors would show up if they were common.\n\nThe Etekcity Digital Body Weight Bathroom Scale gives a digital weight readout at step-on, no dials or guessing where the needle landed. A 4.7-star average held across 349,499 reviews is a statistical signal, not a lucky batch \u2014 that volume smooths out fluke units and fake reviews alike.\n\nFor $16.87, you get a scale with more reviews behind it than most home products will ever collect, and a rating that's stayed high through all of them.\n\nComment BODY and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "The Etekcity Digital Body Weight Bathroom Scale gives a digital weight readout at step-on, no dials or guessing where the needle landed. A 4.7-star average held across 349,499 reviews is a statistical",
+  "affiliate_strategy": {
+    "primary_product": "Etekcity Digital Body Weight Bathroom Scale",
+    "dm_keyword": "BODY",
+    "amazon_asin": "B01HI1W1V4",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B01HI1W1V4?tag=goldenhomep06-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": null
+  }
+}
