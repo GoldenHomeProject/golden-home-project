@@ -468,6 +468,24 @@
       "source": "trending",
       "keyword": "WEIGHT",
       "promoted_at": "2026-09-01T12:20:33Z"
+    },
+    {
+      "asin": "B08616PS69",
+      "product_name": "Bedsure Satin Pillowcases Queen Set of 2, Similar to Silk Pillow Case Beige | Reduces Hair Frizz & Skin Friction, Decora",
+      "categories": [
+        "home",
+        "Home & Kitchen"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B08616PS69?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-08-30",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$7.99",
+      "verified_stars": "4.5",
+      "verified_reviews": 321401,
+      "discovery_source": "harvest_catalogue",
+      "keyword": "SATIN",
+      "promoted_at": "2026-09-02T12:20:18Z"
     }
   ],
   "_vetted_doc": "Verified-live Amazon ASINs cleared for blog/SEO/IG-caption use but NOT yet wired to a Meta comment-to-DM automation. Promote to `entries` (with a unique keyword) only AFTER creating the matching Meta Business Suite automation. Always use https://www.amazon.com/dp/<ASIN>?tag=goldenhomep06-20 \u2014 never search URLs.",
@@ -3183,22 +3201,6 @@
       "verified_price": "$26.55",
       "verified_stars": "4.6",
       "verified_reviews": 64352,
-      "discovery_source": "harvest_catalogue"
-    },
-    {
-      "asin": "B08616PS69",
-      "product_name": "Bedsure Satin Pillowcases Queen Set of 2, Similar to Silk Pillow Case Beige | Reduces Hair Frizz & Skin Friction, Decora",
-      "categories": [
-        "home",
-        "Home & Kitchen"
-      ],
-      "affiliate_url": "https://www.amazon.com/dp/B08616PS69?tag=goldenhomep06-20",
-      "status": "live",
-      "verified_at": "2026-08-30",
-      "verified_method": "best_seller_grid",
-      "verified_price": "$7.99",
-      "verified_stars": "4.5",
-      "verified_reviews": 321401,
       "discovery_source": "harvest_catalogue"
     },
     {
