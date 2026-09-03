@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-03",
+  "agent": "engagement-monitor",
+  "metrics": {
+    "subscribers": 6660,
+    "total_views": 21537,
+    "total_videos": 196
+  },
+  "top_videos": [
+    {
+      "title": "It's 4am. Your neck won't turn left and the alarm is 90 minu",
+      "views": 124,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Sagging pillows get blamed on the cover. The problem is what",
+      "views": 118,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "454,120 people rated this sheet set. Only 4.5 stars means al",
+      "views": 100,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "A needle wedged between two lines isn't a weight, it's a gue",
+      "views": 66,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "349,499 people rated this scale. 4.7 stars is the boring par",
+      "views": 40,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "If you rent, you can't change the closet. You can only chang",
+      "views": 24,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Everyone tells you to buy more bins. That is not why your ca",
+      "views": 12,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "A $24.99 purchase collected 450,137 reviews. That kind of nu",
+      "views": 12,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "453,281 people have rated this sheet set. It still sits at 4",
+      "views": 5,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "348,951 reviews and a 4.7-star average \u2014 that's not luck, th",
+      "views": 1,
+      "likes": 0,
+      "comments": 1
+    }
+  ],
+  "comments_responded": 0,
+  "actions_taken": [
+    "New comment on video: \ud83d\udccc SHOP ALL PRODUCTS \u2014 Amazon links:<br><br>\u2460 Simpl",
+    "Updated BUSINESS_BRAIN.md metrics"
+  ]
+}
