@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-09-03
+# Last updated: 2026-09-03 (Affiliate Optimizer 10am)
 # ============================================================
 
 ---
@@ -427,7 +427,7 @@ New agent spec: `automation/agents/ai_revenue_playbook.md` (COSTAR prompt framew
 | Impact | FLAUNT | TBD | Joined marketplace 2026-08-21 | Unknown niche — research before joining |
 | Impact | GearUP | 50% | Skipped 2026-08-25 | Off-niche (gaming booster subscription) — no audience fit |
 | Impact | Smartwings | 8% sitewide | Evaluate 2026-09-02 | Window shades/blinds — ON-NICHE (home decor). Labor Day sale 8% off Sept 4–8, 2026. Mass promo blast via Impact outreach; join via Impact dashboard to promote. |
-| Direct/ShareASale | The Container Store | 6-8% (ShareASale) | Outreach sent 2026-09-03 | Home organization products — ON-NICHE (our #1 content category). Pitched affiliates@containerstore.com. msg ID 1a0676260ffd618b. Perfect fit for labeled pantry/closet content. |
+| Direct/ShareASale | The Container Store | 6-8% (ShareASale) | **BOUNCED 2026-09-03** | Home organization products — ON-NICHE (our #1 content category). affiliates@containerstore.com bounced (msg 1a0676260ffd618b). Apply directly via ShareASale or use containerstore.com/about/partnership contact form. |
 
 ---
 
@@ -667,7 +667,8 @@ Agent configs live in `/private/tmp/golden-home-project/automation/agents/`.
 - [ ] 🚨 **CJ ACCOUNT DEACTIVATION WARNING (received 2026-09-01)** — CJ issued a formal notice: our publisher account has not generated commissions in 5 months and will begin the dormancy process in 30 days (by ~2026-10-01). AliExpress (9% interior/garden) is our only CJ partner. Must generate at least 1 commission via CJ before October 1, 2026. Action: Content Engine should prioritize AliExpress affiliate links in upcoming scripts. Strategy agent should brief on AliExpress products. If deactivated, re-login to CJ to reactivate within 90 days (advertiser relationships preserved).
 - [ ] 🚨 **AliExpress content urgency (CJ 30-day deadline)** — Affiliate Optimizer 2026-09-01: Content Engine must embed AliExpress product links (CID 7711902, 9% interior/garden) in at least **2 scripts per week** starting immediately. Best-fit AliExpress categories: clear storage bins, label makers, velvet hangers, closet organizers ($12–$40 AOV, 9%). These align with September's #1 trending category (label organization, 32% higher engagement). Use AliExpress affiliate deep links via CJ dashboard.
 - [x] **HIGH-AOV GAP — Standing desk / WFH — Flexispot outreach SENT 2026-09-02** — ⚠️ Both emails bounced. See "Flexispot contact fix" above.
-- [ ] **The Container Store follow-up** — Outreach sent 2026-09-03 to affiliates@containerstore.com. Watch for reply; if no response by 2026-09-10, follow up or apply directly via ShareASale. ON-NICHE organization brand aligned with September #1 trending content.
+- [ ] **The Container Store — contact fix URGENT** — affiliates@containerstore.com BOUNCED 2026-09-03. Apply directly via ShareASale publisher portal (search "Container Store") OR use containerstore.com/about/partnership contact form. ON-NICHE organization brand, our #1 content category. Do not email again.
+- [ ] **🚨 Smartwings — Labor Day sale STARTS TOMORROW (Sept 4–8)** — Window shades/blinds, 8% sitewide, ON-NICHE. Join via Impact dashboard now to get tracking links before the sale window closes. Browser login required (Ian or Pi only). Miss it and the promotion opportunity is gone.
 
 ---
 *This file is automatically updated by agents. Human review recommended weekly.*
