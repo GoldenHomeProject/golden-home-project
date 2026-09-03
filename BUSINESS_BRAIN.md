@@ -274,6 +274,12 @@ No single point of failure — the flywheel keeps spinning.
 - **"Worth the money" list format on TikTok** — direct-to-camera 3-item "worth it / not worth it" videos performing well in home niche; connects to our "comparison" format strength.
 - **Junk drawer** — Trend Scout (2026-08-19) flags "chaotic junk drawer → fully sorted" as high-opportunity.
 - **Competitors** (checked Aug 2026): Alexandra Gater leans into renter/small-space content and budget-friendly makeovers — our exact overlap. Her audience is highly engaged on renter-restriction hacks. We should out-execute on dollar specificity she lacks.
+### September 2026 Visual Trend Insights (updated 2026-09-03):
+- **Closet organizer systems — stackable clear drawers** — renter-safe stackable clear drawer units + velvet hangers trending on TikTok/YouTube with 100K+ views per week. Hook: "Closet before. Closet after. $52. No drilling." No-drill = renter differentiator (our proven growth hook per Aug review).
+- **Labeled pantry systems = 32% higher engagement** — confirmed across TikTok/IG in 2026. "Everyone tells you to buy more bins. That's not it." — counter-intuitive angle performs well. Product: label maker + uniform clear bins ($34 AliExpress). This is the CJ deactivation fix + top trending format in one content piece.
+- **Fall room reset = September's highest-share format** — "I reset my whole [room] for fall in one weekend. $89." viewers tag friends; high repost rate. Multi-product tie-in: Ruggable rug + cozy throw + accent lighting. Garage/entryway variants new this week (Trend Scout Sep 3: "$89 garage overhaul: floor clutter to wa...").
+- **Competitor watch (Sep 3):** Alexandra Gater's audience responds strongly to "rule-specific" tips (renter can't touch X → do Y instead). Our channel's identical niche; differentiate with dollar specificity she doesn't use.
+
 ### September 2026 Visual Trend Insights (updated 2026-09-02):
 - **Decanting/pantry container systems** — #1 TikTok kitchen trend of 2026. Matching clear airtight containers for flour, sugar, pasta, cereal replacing original packaging. Content goes viral from visual uniformity alone. AliExpress angle: clear bins + labels = $34 total. Hook: "I decanted everything in my kitchen. $34. I can't stop opening cabinets." DIRECT CJ DEACTIVATION SOLUTION — AliExpress links in this content.
 - **Cozy fall room resets** — Pinterest cozy content exploding: "cozy sunroom" +930%, "cozy lighting" +200%, "cozy reading room" +140%. September = cozy-reset season. Hook: "I reset my living room for fall. $67. It's the only room I want to be in." Ruggable washable rug = natural fit (just pitched).
@@ -421,6 +427,7 @@ New agent spec: `automation/agents/ai_revenue_playbook.md` (COSTAR prompt framew
 | Impact | FLAUNT | TBD | Joined marketplace 2026-08-21 | Unknown niche — research before joining |
 | Impact | GearUP | 50% | Skipped 2026-08-25 | Off-niche (gaming booster subscription) — no audience fit |
 | Impact | Smartwings | 8% sitewide | Evaluate 2026-09-02 | Window shades/blinds — ON-NICHE (home decor). Labor Day sale 8% off Sept 4–8, 2026. Mass promo blast via Impact outreach; join via Impact dashboard to promote. |
+| Direct/ShareASale | The Container Store | 6-8% (ShareASale) | Outreach sent 2026-09-03 | Home organization products — ON-NICHE (our #1 content category). Pitched affiliates@containerstore.com. msg ID 1a0676260ffd618b. Perfect fit for labeled pantry/closet content. |
 
 ---
 
@@ -660,6 +667,7 @@ Agent configs live in `/private/tmp/golden-home-project/automation/agents/`.
 - [ ] 🚨 **CJ ACCOUNT DEACTIVATION WARNING (received 2026-09-01)** — CJ issued a formal notice: our publisher account has not generated commissions in 5 months and will begin the dormancy process in 30 days (by ~2026-10-01). AliExpress (9% interior/garden) is our only CJ partner. Must generate at least 1 commission via CJ before October 1, 2026. Action: Content Engine should prioritize AliExpress affiliate links in upcoming scripts. Strategy agent should brief on AliExpress products. If deactivated, re-login to CJ to reactivate within 90 days (advertiser relationships preserved).
 - [ ] 🚨 **AliExpress content urgency (CJ 30-day deadline)** — Affiliate Optimizer 2026-09-01: Content Engine must embed AliExpress product links (CID 7711902, 9% interior/garden) in at least **2 scripts per week** starting immediately. Best-fit AliExpress categories: clear storage bins, label makers, velvet hangers, closet organizers ($12–$40 AOV, 9%). These align with September's #1 trending category (label organization, 32% higher engagement). Use AliExpress affiliate deep links via CJ dashboard.
 - [x] **HIGH-AOV GAP — Standing desk / WFH — Flexispot outreach SENT 2026-09-02** — ⚠️ Both emails bounced. See "Flexispot contact fix" above.
+- [ ] **The Container Store follow-up** — Outreach sent 2026-09-03 to affiliates@containerstore.com. Watch for reply; if no response by 2026-09-10, follow up or apply directly via ShareASale. ON-NICHE organization brand aligned with September #1 trending content.
 
 ---
 *This file is automatically updated by agents. Human review recommended weekly.*
