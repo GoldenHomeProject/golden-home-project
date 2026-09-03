@@ -3038,8 +3038,8 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: proof: 321,401 people rated this pillowcase set. 4.5 star | proof: 349,499 people rated this bathroom scale. Almost n | micro_insight: Everyone tells you to buy more bins. That is not w
 
-## 2026-09-03T11:52:07Z — Carousel Generator
-**Ran:** Generated 5-slide carousel for B08616PS69 (Bedsure Satin Pillowcases Queen Set of 2)
-**Changed:** social/carousels/2026-09-03-B08616PS69/slide-1.png, social/carousels/2026-09-03-B08616PS69/slide-2.png, social/carousels/2026-09-03-B08616PS69/slide-3.png, social/carousels/2026-09-03-B08616PS69/slide-4.png, social/carousels/2026-09-03-B08616PS69/slide-5.png, social/post_queue.json
-**External actions:** Pexels (4 photos) + Claude CLI (slide content)
-**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B08616PS69 carousel.
+## 2026-09-03T11:56:47Z — Reel Producer
+**Ran:** Rendered 3/3 MP4s for 2026-09-03
+**Changed:** social/reels/reel-2026-09-03-*.mp4, social/post_queue.json
+**External actions:** none
+**Next agent hint:** IG Poster has 3 new Reels ready for 14:00 + 22:00 UTC slots
