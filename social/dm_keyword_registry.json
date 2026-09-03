@@ -486,6 +486,18 @@
       "discovery_source": "harvest_catalogue",
       "keyword": "SATIN",
       "promoted_at": "2026-09-02T12:20:18Z"
+    },
+    {
+      "asin": "B01NBNDC1T",
+      "product_name": "Utopia Bedding 18x18 Pillow Inserts",
+      "categories": [],
+      "status": "live",
+      "verified_price": "$15.99",
+      "verified_stars": "4.6",
+      "verified_reviews": 218780,
+      "source": "trending",
+      "keyword": "UTOPIA",
+      "promoted_at": "2026-09-03T12:20:44Z"
     }
   ],
   "_vetted_doc": "Verified-live Amazon ASINs cleared for blog/SEO/IG-caption use but NOT yet wired to a Meta comment-to-DM automation. Promote to `entries` (with a unique keyword) only AFTER creating the matching Meta Business Suite automation. Always use https://www.amazon.com/dp/<ASIN>?tag=goldenhomep06-20 \u2014 never search URLs.",
