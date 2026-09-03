@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-03T10:20:35.429026Z",
+  "date": "2026-09-03",
+  "seq": 1,
+  "hook_category": "proof",
+  "hook": "321,401 people rated this pillowcase set. 4.5 stars, $7.99.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of a smartphone screen showing the product listing with the 4.5-star rating and 321,401 review count visible",
+      "on_screen_text": "321,401 REVIEWS",
+      "voiceover": "Three hundred twenty-one thousand people rated this pillowcase set."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Overhead shot of two folded beige satin pillowcases stacked neatly on a bed",
+      "on_screen_text": "QUEEN SET OF 2",
+      "voiceover": "It's a Queen set of two, satin, in beige."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Hand smoothing a hand over the satin pillowcase surface on a made bed, showing the fabric sheen",
+      "on_screen_text": "REDUCES FRIZZ & FRICTION",
+      "voiceover": "Made to reduce hair frizz and skin friction versus regular cotton."
+    },
+    {
+      "n": 4,
+      "duration_sec": 5,
+      "visual_prompt": "Split screen graphic: left side shows a star rating icon at 4.5, right side shows a price tag reading $7.99",
+      "on_screen_text": "4.5 STARS",
+      "voiceover": "At this volume of reviews, a 4.5-star average is hard to fake."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Final shot of the pillowcase set on a neatly styled bed with soft morning light, product tag overlay in corner",
+      "on_screen_text": "$7.99",
+      "voiceover": "Seven dollars and ninety-nine cents for the set."
+    }
+  ],
+  "caption": "321,401 people rated this pillowcase set. 4.5 stars, $7.99.\n\nThis is a Queen set of 2 satin pillowcases in beige, priced at $7.99. It's one of the most-reviewed bedding items in its category on Amazon, with over 321,000 ratings sitting at 4.5 stars.\n\nThe set is designed to reduce hair frizz and skin friction compared to standard cotton pillowcases. A 4.5-star average across 321,401 reviews at this scale points to consistent satisfaction, not a handful of lucky buyers.\n\nFor $7.99, you get a two-pack swap that a huge number of reviewers have already weighed in on. That's the whole pitch: cheap, proven at scale, easy to try.\n\nComment SATIN and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "The set is designed to reduce hair frizz and skin friction compared to standard cotton pillowcases. A 4.5-star average across 321,401 reviews at this scale points to consistent satisfaction, not a han",
+  "affiliate_strategy": {
+    "primary_product": "Bedsure Satin Pillowcases Queen Set of 2, Similar to Silk Pillow Case Beige | Reduces Hair Frizz & Skin Friction, Decora",
+    "dm_keyword": "SATIN",
+    "amazon_asin": "B08616PS69",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B08616PS69?tag=goldenhomep06-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": "https://www.amazon.com/dp/B08616PS69?tag=goldenhomep06-20"
+  }
+}

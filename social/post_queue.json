@@ -6368,5 +6368,78 @@
     },
     "hook": "454,120 people rated this sheet set. Only 4.5 stars means almost nobody wants a refund.",
     "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-02-002.mp4"
+  },
+  {
+    "name": "reel_2026-09-03_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-03-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "321,401 people rated this pillowcase set. 4.5 stars, $7.99.\n\nThis is a Queen set of 2 satin pillowcases in beige, priced at $7.99. It's one of the most-reviewed bedding items in its category on Amazon, with over 321,000 ratings sitting at 4.5 stars.\n\nThe set is designed to reduce hair frizz and skin friction compared to standard cotton pillowcases. A 4.5-star average across 321,401 reviews at this scale points to consistent satisfaction, not a handful of lucky buyers.\n\nFor $7.99, you get a two-pack swap that a huge number of reviewers have already weighed in on. That's the whole pitch: cheap, proven at scale, easy to try.\n\nComment SATIN and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Bedsure Satin Pillowcases Queen Set of 2, Similar to Silk Pillow Case Beige | Reduces Hair Frizz & Skin Friction, Decora",
+      "dm_keyword": "SATIN",
+      "amazon_asin": "B08616PS69",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B08616PS69?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B08616PS69?tag=goldenhomep06-20"
+    },
+    "hook": "321,401 people rated this pillowcase set. 4.5 stars, $7.99."
+  },
+  {
+    "name": "reel_2026-09-03_002",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-03-002.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "349,499 people rated this bathroom scale. Almost none call it flimsy.\n\nA scale is one of the few gadgets you use in silence, first thing in the morning, with no patience for guessing. At $16.87 it sits well under what most bathroom scales cost, which is usually the first thing people ask about before checking anything else.\n\nThe Etekcity Digital Body Weight Bathroom Scale gives a plain numeric readout with no setup beyond stepping on. A 4.7-star average across 349,499 reviews is the kind of sample size that stops being anecdote and starts being data.\n\nFor $16.87 you get a scale with review volume most home gadgets never come close to. That number is the actual selling point here, not a claim about how it feels to use.\n\nComment WEIGHT and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Etekcity Digital Body Weight Bathroom Scale",
+      "dm_keyword": "WEIGHT",
+      "amazon_asin": "B01HI1W1V4",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01HI1W1V4?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "349,499 people rated this bathroom scale. Almost none call it flimsy."
+  },
+  {
+    "name": "reel_2026-09-03_003",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-03-003.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Everyone tells you to buy more bins. That is not why your cabinet stays messy.\n\nContainers don't fix it. Bigger cabinets don't fix it. The problem is depth \u2014 when you can't reach the back without pulling everything in front out first, the back row stops existing.\n\nA sliding basket organizer fixes the depth problem. Simple Houseware's chrome 2-tier model holds 18 lbs per shelf, and each tier pulls forward independently, so the back row is one motion away.\n\nNothing stays buried at the back, so you stop buying duplicates of things already in the cabinet. It becomes a system instead of a graveyard.\n\nComment LINK and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #kitchenorganization #smallspacesolutions #undersinkstorage",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#kitchenorganization",
+      "#smallspacesolutions",
+      "#undersinkstorage"
+    ],
+    "affiliate": {
+      "primary_product": "Simple Houseware 2-Tier Sliding Basket Organizer (chrome, under-sink)",
+      "dm_keyword": "LINK",
+      "amazon_asin": "B01M0TS64K",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01M0TS64K?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Everyone tells you to buy more bins. That is not why your cabinet stays messy."
   }
 ]
