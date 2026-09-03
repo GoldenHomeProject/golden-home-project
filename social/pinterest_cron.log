@@ -2933,3 +2933,6 @@ Applied autostash.
 /home/ianmcwherter/golden-home-project/automation/post_pinterest.py:120: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   today = dt.datetime.utcnow().strftime("%Y-%m-%d")
 [pinterest] daily cap (6) reached; 35 still pending.
+/home/ianmcwherter/golden-home-project/automation/post_pinterest.py:120: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  today = dt.datetime.utcnow().strftime("%Y-%m-%d")
+[pinterest] daily cap (6) reached; 57 still pending.

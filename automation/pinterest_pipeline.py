@@ -143,6 +143,26 @@ BOARD_MAP = [
     ("patio", "Outdoor & Patio", "cozy patio furniture set"),
     ("outdoor", "Outdoor & Patio", "tidy backyard patio"),
     ("storage", "Home Storage Solutions", "minimal storage baskets"),
+    # Added 2026-09-02. Our ONLY sales were bathroom + bedroom textiles, and not one of
+    # them matched a token above: a "Waffle Shower Curtain" contains no "bathroom", a
+    # "Queen Sheet Set" no "storage". So 114 of 163 pins (70%) fell through to the
+    # generic catch-all board. Pinterest uses board context as a relevance signal, so
+    # dumping our best products into an undifferentiated board costs reach on exactly
+    # the searches we can win.
+    ("shower", "Bathroom Storage Ideas", "shower curtain bathroom"),
+    ("curtain liner", "Bathroom Storage Ideas", "clean bathroom shower"),
+    ("towel", "Bathroom Storage Ideas", "folded bath towels"),
+    ("bath", "Bathroom Storage Ideas", "tidy bathroom counter"),
+    # Bedroom textiles have no board yet — these route to the new board once it exists.
+    # Until then post_pinterest falls back to the catch-all, which is the current
+    # behaviour anyway, so this is safe to ship ahead of the board being created.
+    ("mattress", "Bedroom Storage & Bedding", "made bed clean bedroom"),
+    ("sheet set", "Bedroom Storage & Bedding", "crisp white bed sheets"),
+    ("bedding", "Bedroom Storage & Bedding", "cozy made bed"),
+    ("duvet", "Bedroom Storage & Bedding", "duvet cover bedroom"),
+    ("comforter", "Bedroom Storage & Bedding", "comforter on bed"),
+    ("pillow", "Bedroom Storage & Bedding", "pillows on made bed"),
+    ("blackout", "Bedroom Storage & Bedding", "blackout curtains bedroom"),
 ]
 DEFAULT_BOARD = ("Home Organization Finds", "minimal organized home")
 
