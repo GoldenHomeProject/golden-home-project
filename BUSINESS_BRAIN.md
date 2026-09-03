@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-09-02
+# Last updated: 2026-09-03
 # ============================================================
 
 ---
@@ -409,8 +409,9 @@ New agent spec: `automation/agents/ai_revenue_playbook.md` (COSTAR prompt framew
 | Impact | Promeed | 12% | **ACTIVE 2026-08-25** | Silk pillowcases/CoolRest comforter — ON-NICHE (bedroom). 30-day cookie. Audience promo IAN2026F3 (15% off). Sample code SAMPLE-IAN-COOL3-2026 (60% off CoolRest). Tracking live on Impact. |
 | Awin | Oedro (US) | TBD | Skipped | Off-niche (car parts — floor mats, tonneau covers) |
 | Impact | Homary | TBD | Outreach drafted 2026-04-02 | Home furniture — ON-NICHE (drafted by web agent) |
-| Impact | eufy | TBD | Outreach sent 2026-08-19, follow-up sent 2026-09-02 | Robot vacuums/smart home — ON-NICHE, fits "before transformation" content angle, confirmed on Impact platform |
-| Direct | Flexispot | up to 15% (~$50/sale) | Outreach sent 2026-09-02 | Standing desks/WFH furniture — ON-NICHE (home office). Fills the only high-AOV gap with zero coverage. Contact: Joey@flexispot.com. September back-to-work season = time-sensitive pitch. |
+| Impact | eufy | TBD | Outreach sent 2026-08-19, follow-up sent 2026-09-02 — **BOUNCED** | Robot vacuums/smart home — ON-NICHE, fits "before transformation" content angle. affiliates@eufylife.com bounced 2026-09-02. Find correct contact via Impact dashboard or eufy website. |
+| Direct | Flexispot | up to 15% (~$50/sale) | **BOUNCED 2026-09-02** | Standing desks/WFH furniture — ON-NICHE (home office). BOTH contacts bounced: Joey@flexispot.com AND affiliates@flexispot.com. Use Flexispot website contact form or find partner@flexispot.com. |
+| Awin | PersonalHour | TBD | Invited 2026-09-02 — needs evaluation | Unclear niche — "PersonalHour" name does not indicate home/decor/organization. IAN MUST CHECK via Awin dashboard (merchant profile 96347) before accepting. |
 | Direct | OXO | TBD | Outreach sent 2026-08-16-17, auto-reply received | Kitchen/organization tools — ON-NICHE, directed to creator partner form |
 | Direct | mDesign | TBD | Outreach sent 2026-08-18 | Home organization — ON-NICHE |
 | Direct | Umbra | TBD | Outreach sent 2026-08-17 | Home decor/organization — ON-NICHE |
@@ -650,12 +651,15 @@ Agent configs live in `/private/tmp/golden-home-project/automation/agents/`.
 - [ ] Film CoolRest comforter using SAMPLE-IAN-COOL3-2026 (60% off, one-time code) for bedroom before/after content
 - [ ] Decline CICYBELL via Awin browser dashboard (email reply to help@awin.com bounced — cannot decline by email)
 - [ ] Research FLAUNT on Impact.com (new brand, joined 2026-08-21) — check niche before joining
-- [x] Follow up with eufy (Impact) — Follow-up SENT 2026-09-02 (thread 1a01a20b80cd9665). Sept back-to-work angle, transformation format recap.
+- [x] Follow up with eufy (Impact) — Follow-up SENT 2026-09-02 (thread 1a01a20b80cd9665). ⚠️ **BOUNCED** — affiliates@eufylife.com address not found 2026-09-02. Find correct contact via Impact dashboard.
 - [x] Follow up with Vakkerlight (paid collab) — rates email sent 2026-08-26. Follow-up SENT 2026-09-01 to noxemail@mcn.noxinfluencer.com.
+- [ ] **eufy contact fix** — affiliates@eufylife.com bounced. Find correct email via Impact.com eufy program page or eufy creator program page. High priority — ON-NICHE partner.
+- [ ] **Flexispot contact fix** — BOTH Joey@flexispot.com AND affiliates@flexispot.com bounced 2026-09-02. Try Flexispot website contact/affiliate form, or search LinkedIn for their affiliate manager. High priority — only high-AOV WFH partner candidate.
+- [ ] 🚨 **IAN: Evaluate PersonalHour (Awin invite 2026-09-02)** — Check Awin merchant profile 96347 to see their niche before accepting. Name does not indicate home/decor focus. Accept only if clearly ON-NICHE.
 - [ ] Generate Promeed tracking deep links (silk pillowcase + CoolRest) in Impact dashboard — ACTIVE 2026-08-25 but no links built yet (highest-ROI action available on active partners).
 - [ ] 🚨 **CJ ACCOUNT DEACTIVATION WARNING (received 2026-09-01)** — CJ issued a formal notice: our publisher account has not generated commissions in 5 months and will begin the dormancy process in 30 days (by ~2026-10-01). AliExpress (9% interior/garden) is our only CJ partner. Must generate at least 1 commission via CJ before October 1, 2026. Action: Content Engine should prioritize AliExpress affiliate links in upcoming scripts. Strategy agent should brief on AliExpress products. If deactivated, re-login to CJ to reactivate within 90 days (advertiser relationships preserved).
 - [ ] 🚨 **AliExpress content urgency (CJ 30-day deadline)** — Affiliate Optimizer 2026-09-01: Content Engine must embed AliExpress product links (CID 7711902, 9% interior/garden) in at least **2 scripts per week** starting immediately. Best-fit AliExpress categories: clear storage bins, label makers, velvet hangers, closet organizers ($12–$40 AOV, 9%). These align with September's #1 trending category (label organization, 32% higher engagement). Use AliExpress affiliate deep links via CJ dashboard.
-- [x] **HIGH-AOV GAP — Standing desk / WFH — Flexispot outreach SENT 2026-09-02** (Joey@flexispot.com). Up to 15% commission (~$50/sale). September back-to-work hook: "I reset my home office for fall. $[X]." If no reply by 2026-09-10, try Uplift Desk or Autonomous.ai.
+- [x] **HIGH-AOV GAP — Standing desk / WFH — Flexispot outreach SENT 2026-09-02** — ⚠️ Both emails bounced. See "Flexispot contact fix" above.
 
 ---
 *This file is automatically updated by agents. Human review recommended weekly.*
