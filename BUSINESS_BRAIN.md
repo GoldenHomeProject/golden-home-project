@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-09-03 (Affiliate Optimizer 10am)
+# Last updated: 2026-09-04 (Email Monitor 8am)
 # ============================================================
 
 ---
@@ -428,6 +428,7 @@ New agent spec: `automation/agents/ai_revenue_playbook.md` (COSTAR prompt framew
 | Impact | GearUP | 50% | Skipped 2026-08-25 | Off-niche (gaming booster subscription) — no audience fit |
 | Impact | Smartwings | 8% sitewide | Evaluate 2026-09-02 | Window shades/blinds — ON-NICHE (home decor). Labor Day sale 8% off Sept 4–8, 2026. Mass promo blast via Impact outreach; join via Impact dashboard to promote. |
 | Direct/ShareASale | The Container Store | 6-8% (ShareASale) | **BOUNCED 2026-09-03** | Home organization products — ON-NICHE (our #1 content category). affiliates@containerstore.com bounced (msg 1a0676260ffd618b). Apply directly via ShareASale or use containerstore.com/about/partnership contact form. |
+| Direct | Yamazaki Home | TBD | **BOUNCED 2026-09-03** | Home organization/kitchen storage — ON-NICHE. Outreach sent 2026-08-31 to hello@yamazakihome.com — PERMANENTLY BOUNCED 2026-09-03 (msg 1a057ef52aeeeab4). Find correct contact via yamazakihome.com contact page or LinkedIn. |
 
 ---
 
@@ -668,6 +669,7 @@ Agent configs live in `/private/tmp/golden-home-project/automation/agents/`.
 - [ ] 🚨 **AliExpress content urgency (CJ 30-day deadline)** — Affiliate Optimizer 2026-09-01: Content Engine must embed AliExpress product links (CID 7711902, 9% interior/garden) in at least **2 scripts per week** starting immediately. Best-fit AliExpress categories: clear storage bins, label makers, velvet hangers, closet organizers ($12–$40 AOV, 9%). These align with September's #1 trending category (label organization, 32% higher engagement). Use AliExpress affiliate deep links via CJ dashboard.
 - [x] **HIGH-AOV GAP — Standing desk / WFH — Flexispot outreach SENT 2026-09-02** — ⚠️ Both emails bounced. See "Flexispot contact fix" above.
 - [ ] **The Container Store — contact fix URGENT** — affiliates@containerstore.com BOUNCED 2026-09-03. Apply directly via ShareASale publisher portal (search "Container Store") OR use containerstore.com/about/partnership contact form. ON-NICHE organization brand, our #1 content category. Do not email again.
+- [ ] **Yamazaki Home — contact fix** — hello@yamazakihome.com PERMANENTLY BOUNCED 2026-09-03 (outreach sent 2026-08-31). Find correct contact via yamazakihome.com contact page or LinkedIn. ON-NICHE home organization brand.
 - [ ] **🚨 Smartwings — Labor Day sale STARTS TOMORROW (Sept 4–8)** — Window shades/blinds, 8% sitewide, ON-NICHE. Join via Impact dashboard now to get tracking links before the sale window closes. Browser login required (Ian or Pi only). Miss it and the promotion opportunity is gone.
 
 ---

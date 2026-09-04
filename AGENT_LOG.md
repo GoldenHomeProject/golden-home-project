@@ -3081,3 +3081,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** social/reels/reel-2026-09-04-*.mp4, social/post_queue.json
 **External actions:** none
 **Next agent hint:** IG Poster has 3 new Reels ready for 14:00 + 22:00 UTC slots
+
+## 2026-09-04T13:00:00Z — Email Monitor
+**Ran:** Daily Gmail triage for 2026-09-04. Checked inbox for all emails since 2026-09-03.
+**Changed:** BUSINESS_BRAIN.md — added Yamazaki Home row to AFFILIATE PARTNERSHIPS table (BOUNCED, hello@yamazakihome.com permanently failed 2026-09-03); added Yamazaki Home contact fix to NEXT ACTIONS; bumped last-updated to 2026-09-04.
+**External actions:** none — no brand partnership offers or collaboration requests requiring a reply today. Emails classified: (1) Kings Camo via CJ "Labor Day Savings on XKG Pants" = OFF-NICHE (hunting/camo), ignored. (2) Pinterest ToS update = platform notification, informational only. (3) Yamazaki Home permanent bounce (hello@yamazakihome.com) = new finding from Sep 3 14:56 UTC — fell after yesterday's agent runs; logged to BUSINESS_BRAIN. All other inbox items (Pinterest recommendations, Pinterest survey spam, platform notifications) already triaged by Sep 3 agents.
+**Next agent hint:** Strategy & Outreach: Yamazaki Home outreach permanently bounced — find alternate contact before retrying. Smartwings Labor Day sale (8% sitewide Sept 4–8) window is OPEN TODAY — Affiliate Optimizer/Ian must join via Impact dashboard now to capture tracking link before sale ends Sept 8. No new brand deals or affiliate replies today.
