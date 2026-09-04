@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-09-04 (Email Monitor 8am)
+# Last updated: 2026-09-04 (Strategy & Outreach 9am)
 # ============================================================
 
 ---
@@ -274,6 +274,12 @@ No single point of failure — the flywheel keeps spinning.
 - **"Worth the money" list format on TikTok** — direct-to-camera 3-item "worth it / not worth it" videos performing well in home niche; connects to our "comparison" format strength.
 - **Junk drawer** — Trend Scout (2026-08-19) flags "chaotic junk drawer → fully sorted" as high-opportunity.
 - **Competitors** (checked Aug 2026): Alexandra Gater leans into renter/small-space content and budget-friendly makeovers — our exact overlap. Her audience is highly engaged on renter-restriction hacks. We should out-execute on dollar specificity she lacks.
+### September 2026 Visual Trend Insights (updated 2026-09-04):
+- **Bathroom spa transformation** — "I spa-fied my bathroom for $67" format trending across TikTok/YouTube. Products: bath tray ($18), diffuser ($14), matching towel set ($22), woven basket ($13). Renter angle: all suction/over-door/freestanding = no drilling. Hook: "My bathroom looked like a gas station. Same bathroom. $67." High watch-through because the before is funny/relatable.
+- **Under-bed storage reveal** — "I found 40 sq ft I forgot I had. Under my bed. $31." Flat storage bags and under-bed organizers trending on TikTok September closet content. Renter-safe (no drilling), high-share format because the reveal is surprising. AliExpress CJ tie-in (under-bed organizers = interior accessories = 9%).
+- **Counter clarity system** — Counter organization is September's sleeper hit: "Everyone tells you to clear your counters. Nobody tells you what to do with the stuff." $43 for: lazy susan + tiered spice rack + appliance cord organizer. Counter-intuitive angle (vs. "just declutter") matches our "that's not it" format that drives 32% more engagement. Strong AliExpress CJ link opportunity.
+- **Competitor watch (Sep 4):** Trend Scout today flagged garage floor + shelving tower ($54) + rental wallpaper ($28) — all renter/budget angles. DIY Creators is heavy on power-tool content we can't replicate; our advantage is zero-tools renter hacks at specific dollar amounts.
+
 ### September 2026 Visual Trend Insights (updated 2026-09-03):
 - **Closet organizer systems — stackable clear drawers** — renter-safe stackable clear drawer units + velvet hangers trending on TikTok/YouTube with 100K+ views per week. Hook: "Closet before. Closet after. $52. No drilling." No-drill = renter differentiator (our proven growth hook per Aug review).
 - **Labeled pantry systems = 32% higher engagement** — confirmed across TikTok/IG in 2026. "Everyone tells you to buy more bins. That's not it." — counter-intuitive angle performs well. Product: label maker + uniform clear bins ($34 AliExpress). This is the CJ deactivation fix + top trending format in one content piece.
@@ -429,6 +435,7 @@ New agent spec: `automation/agents/ai_revenue_playbook.md` (COSTAR prompt framew
 | Impact | Smartwings | 8% sitewide | Evaluate 2026-09-02 | Window shades/blinds — ON-NICHE (home decor). Labor Day sale 8% off Sept 4–8, 2026. Mass promo blast via Impact outreach; join via Impact dashboard to promote. |
 | Direct/ShareASale | The Container Store | 6-8% (ShareASale) | **BOUNCED 2026-09-03** | Home organization products — ON-NICHE (our #1 content category). affiliates@containerstore.com bounced (msg 1a0676260ffd618b). Apply directly via ShareASale or use containerstore.com/about/partnership contact form. |
 | Direct | Yamazaki Home | TBD | **BOUNCED 2026-09-03** | Home organization/kitchen storage — ON-NICHE. Outreach sent 2026-08-31 to hello@yamazakihome.com — PERMANENTLY BOUNCED 2026-09-03 (msg 1a057ef52aeeeab4). Find correct contact via yamazakihome.com contact page or LinkedIn. |
+| Direct | IRIS USA | TBD | Outreach sent 2026-09-04 | Clear storage bins/closet organizers/drawer organizers — ON-NICHE (our #1 content category, Sep trending). $15-60 AOV = perfect "specific dollar amount" hook. Pitched contactus@irisusainc.com (msg 1a06c86f50c72ef8). |
 
 ---
 
@@ -670,6 +677,7 @@ Agent configs live in `/private/tmp/golden-home-project/automation/agents/`.
 - [x] **HIGH-AOV GAP — Standing desk / WFH — Flexispot outreach SENT 2026-09-02** — ⚠️ Both emails bounced. See "Flexispot contact fix" above.
 - [ ] **The Container Store — contact fix URGENT** — affiliates@containerstore.com BOUNCED 2026-09-03. Apply directly via ShareASale publisher portal (search "Container Store") OR use containerstore.com/about/partnership contact form. ON-NICHE organization brand, our #1 content category. Do not email again.
 - [ ] **Yamazaki Home — contact fix** — hello@yamazakihome.com PERMANENTLY BOUNCED 2026-09-03 (outreach sent 2026-08-31). Find correct contact via yamazakihome.com contact page or LinkedIn. ON-NICHE home organization brand.
+- [ ] **IRIS USA follow-up (2026-09-11)** — Pitched contactus@irisusainc.com 2026-09-04. Clear storage bins/closet organizers. ON-NICHE. Follow up if no reply by Sep 11. May need to find dedicated partnerships contact via irisusainc.com/pages/contact-us.
 - [ ] **🚨 Smartwings — Labor Day sale STARTS TOMORROW (Sept 4–8)** — Window shades/blinds, 8% sitewide, ON-NICHE. Join via Impact dashboard now to get tracking links before the sale window closes. Browser login required (Ian or Pi only). Miss it and the promotion opportunity is gone.
 
 ---
