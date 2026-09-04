@@ -3491,6 +3491,22 @@
       "verified_stars": "4.5",
       "verified_reviews": 26211,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0DZFGTCLR",
+      "product_name": "Candle Warmer Lamp with Timer Home Decor Birthday Gifts for Women | Dimmable Candle Warmer for Jar Candles, Height Adjus",
+      "categories": [
+        "home",
+        "Home D\u00e9cor"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0DZFGTCLR?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-09-04",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$19.99",
+      "verified_stars": "4.5",
+      "verified_reviews": 5354,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
