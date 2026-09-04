@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-09-04 (Strategy & Outreach 9am)
+# Last updated: 2026-09-04 (Affiliate Optimizer 10am)
 # ============================================================
 
 ---
@@ -678,7 +678,7 @@ Agent configs live in `/private/tmp/golden-home-project/automation/agents/`.
 - [ ] **The Container Store — contact fix URGENT** — affiliates@containerstore.com BOUNCED 2026-09-03. Apply directly via ShareASale publisher portal (search "Container Store") OR use containerstore.com/about/partnership contact form. ON-NICHE organization brand, our #1 content category. Do not email again.
 - [ ] **Yamazaki Home — contact fix** — hello@yamazakihome.com PERMANENTLY BOUNCED 2026-09-03 (outreach sent 2026-08-31). Find correct contact via yamazakihome.com contact page or LinkedIn. ON-NICHE home organization brand.
 - [ ] **IRIS USA follow-up (2026-09-11)** — Pitched contactus@irisusainc.com 2026-09-04. Clear storage bins/closet organizers. ON-NICHE. Follow up if no reply by Sep 11. May need to find dedicated partnerships contact via irisusainc.com/pages/contact-us.
-- [ ] **🚨 Smartwings — Labor Day sale STARTS TOMORROW (Sept 4–8)** — Window shades/blinds, 8% sitewide, ON-NICHE. Join via Impact dashboard now to get tracking links before the sale window closes. Browser login required (Ian or Pi only). Miss it and the promotion opportunity is gone.
+- [ ] **🚨 Smartwings — Labor Day sale OPEN NOW (Sept 4–8, closes in 4 days)** — Window shades/blinds, 8% sitewide, ON-NICHE. Join via Impact dashboard TODAY to get tracking links before the sale window closes Sept 8. Browser login required (Ian or Pi only). Miss it and the promotion opportunity is gone.
 
 ---
 *This file is automatically updated by agents. Human review recommended weekly.*
