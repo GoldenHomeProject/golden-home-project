@@ -6418,5 +6418,79 @@
     },
     "hook": "Everyone tells you to buy more bins. That is not why your cabinet stays messy.",
     "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-03-003.mp4"
+  },
+  {
+    "name": "reel_2026-09-04_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-04-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "218,780 people have bought this exact 18x18 pillow insert.\n\nThat review count puts it among the most-purchased inserts in its size on Amazon. Most decorative pillow covers people already own are 18x18 \u2014 the cover is rarely the problem, the flat insert inside it is.\n\nThis insert is sized to fill an 18x18 cover so the corners stay square instead of caving in. At 4.6 stars across 218,780 reviews, that level of consistency at this size is hard to find by chance.\n\nSwap it into your existing covers and the couch or bed reads fuller without buying new pillows. It's $15.99.\n\nComment UTOPIA and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Utopia Bedding 18x18 Pillow Inserts",
+      "dm_keyword": "UTOPIA",
+      "amazon_asin": "B01NBNDC1T",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01NBNDC1T?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "218,780 people have bought this exact 18x18 pillow insert."
+  },
+  {
+    "name": "reel_2026-09-04_002",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-04-002.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Your mattress isn't the problem. Pillows haven't changed shape in 70 years.\n\nNew mattress, foam topper, a chiropractor visit \u2014 and the pain returns anyway, because none of it touches the one variable that actually shapes side-sleep comfort: the pillow.\n\nEli & Elm's U-shape pillow carves out room for the shoulder \u2014 adjustable latex-fiber fill, cooling cover, built for the 74% of people who sleep on their side. $114.99.\n\nMatching the pillow to how you actually sleep costs a fraction of a new mattress, and fixes what the mattress can't.\n\nComment PILLOW and I'll reply with the link.\nAffiliate link \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #sleepbetter #sidesleeper #bedroomupgrade",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#sleepbetter",
+      "#sidesleeper",
+      "#bedroomupgrade"
+    ],
+    "affiliate": {
+      "primary_product": "Eli & Elm Side Sleeper Pillow (U-shape, latex, queen)",
+      "dm_keyword": "PILLOW",
+      "amazon_asin": "B07YL7VD32",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B07YL7VD32?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "impact_direct",
+      "affiliate_url": "https://eliandelm.sjv.io/E092ZX"
+    },
+    "hook": "Your mattress isn't the problem. Pillows haven't changed shape in 70 years."
+  },
+  {
+    "name": "reel_2026-09-04_003",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-04-003.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Buying more bins won't fix a cabinet where the back six inches are functionally gone.\n\nClear containers, stackable trays, labels on every lid \u2014 the containers were never the problem. The problem is a cabinet that only lets you reach the front six inches.\n\nThe Simple Houseware 2-Tier Sliding Basket Organizer fixes the mechanism instead of the containers. Chrome wire, two tiers, and the front basket slides out on its own track so the back tier stays reachable.\n\nWhatever's stored behind the front basket stays visible instead of disappearing into the cabinet. $34.97.\n\nComment LINK and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #kitchenorganization #smallspacesolutions #undersinkstorage",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#kitchenorganization",
+      "#smallspacesolutions",
+      "#undersinkstorage"
+    ],
+    "affiliate": {
+      "primary_product": "Simple Houseware 2-Tier Sliding Basket Organizer (chrome, under-sink)",
+      "dm_keyword": "LINK",
+      "amazon_asin": "B01M0TS64K",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01M0TS64K?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Buying more bins won't fix a cabinet where the back six inches are functionally gone."
   }
 ]

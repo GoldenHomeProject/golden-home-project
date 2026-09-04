@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-04T10:08:18.385496Z",
+  "date": "2026-09-04",
+  "seq": 1,
+  "hook_category": "proof",
+  "hook": "218,780 people have bought this exact 18x18 pillow insert.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of a flat, sad-looking throw pillow slumped on a couch cushion",
+      "on_screen_text": "218,780 REVIEWS",
+      "voiceover": "218,780 people bought this exact 18x18 insert."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Hand pulling a pillow cover off, revealing a thin worn-out insert inside",
+      "on_screen_text": "IT'S NOT THE COVER",
+      "voiceover": "Your cover isn't the problem. What's stuffed inside it is."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "New square pillow insert being unpacked, plump and full corners",
+      "on_screen_text": "18x18 SIZED",
+      "voiceover": "This insert is built to fill an 18 by 18 cover corner to corner."
+    },
+    {
+      "n": 4,
+      "duration_sec": 5,
+      "visual_prompt": "Insert being pushed into a decorative cover, cover now looking full and square on a bed",
+      "on_screen_text": "4.6 STARS",
+      "voiceover": "4.6 stars across 218,780 reviews is a lot of people agreeing on the same fix."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Finished shot: couch with plump square pillows arranged neatly, price tag graphic",
+      "on_screen_text": "$15.99",
+      "voiceover": "Same covers, fuller pillows, $15.99."
+    }
+  ],
+  "caption": "218,780 people have bought this exact 18x18 pillow insert.\n\nThat review count puts it among the most-purchased inserts in its size on Amazon. Most decorative pillow covers people already own are 18x18 \u2014 the cover is rarely the problem, the flat insert inside it is.\n\nThis insert is sized to fill an 18x18 cover so the corners stay square instead of caving in. At 4.6 stars across 218,780 reviews, that level of consistency at this size is hard to find by chance.\n\nSwap it into your existing covers and the couch or bed reads fuller without buying new pillows. It's $15.99.\n\nComment UTOPIA and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "This insert is sized to fill an 18x18 cover so the corners stay square instead of caving in. At 4.6 stars across 218,780 reviews, that level of consistency at this size is hard to find by chance.",
+  "affiliate_strategy": {
+    "primary_product": "Utopia Bedding 18x18 Pillow Inserts",
+    "dm_keyword": "UTOPIA",
+    "amazon_asin": "B01NBNDC1T",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B01NBNDC1T?tag=goldenhomep06-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": null
+  }
+}

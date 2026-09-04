@@ -1,0 +1,69 @@
+{
+  "created_at": "2026-09-04T10:08:18.398817Z",
+  "date": "2026-09-04",
+  "seq": 3,
+  "hook_category": "confrontation",
+  "hook": "Buying more bins won't fix a cabinet where the back six inches are functionally gone.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "shopping for storage containers at a store",
+      "on_screen_text": "CONTAINERS WON'T FIX IT",
+      "voiceover": "More containers won't fix your cabinet."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "stacked clear bins still cluttered, hard to access",
+      "on_screen_text": "CLEAR BINS DIDN'T HELP",
+      "voiceover": "Clear bins, stackable trays \u2014 none of it worked."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "items at back of cabinet collecting dust, forgotten",
+      "on_screen_text": "ANYTHING PAST 6 INCHES = LOST",
+      "voiceover": "Anything past the front six inches is lost."
+    },
+    {
+      "n": 4,
+      "duration_sec": 5,
+      "visual_prompt": "Simple Houseware sliding basket installed, organized",
+      "on_screen_text": "SLIDING BASKET WORKED",
+      "voiceover": "What worked was a 2-tier sliding basket."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "person throwing out duplicate cleaning supplies",
+      "on_screen_text": "FOUND DUPLICATES OF EVERYTHING",
+      "voiceover": "Found two bins of duplicate cleaners."
+    },
+    {
+      "n": 6,
+      "duration_sec": 4,
+      "visual_prompt": "clean organized cabinet finally working",
+      "on_screen_text": "COMMENT LINK",
+      "voiceover": "Comment LINK and I'll DM you the link."
+    }
+  ],
+  "caption": "Buying more bins won't fix a cabinet where the back six inches are functionally gone.\n\nClear containers, stackable trays, labels on every lid \u2014 the containers were never the problem. The problem is a cabinet that only lets you reach the front six inches.\n\nThe Simple Houseware 2-Tier Sliding Basket Organizer fixes the mechanism instead of the containers. Chrome wire, two tiers, and the front basket slides out on its own track so the back tier stays reachable.\n\nWhatever's stored behind the front basket stays visible instead of disappearing into the cabinet. $34.97.\n\nComment LINK and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #kitchenorganization #smallspacesolutions #undersinkstorage",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#kitchenorganization",
+    "#smallspacesolutions",
+    "#undersinkstorage"
+  ],
+  "specific_falsifiable_detail": "The Simple Houseware 2-Tier Sliding Basket Organizer fixes the mechanism instead of the containers. Chrome wire, two tiers, and the front basket slides out on its own track so the back tier stays reac",
+  "affiliate_strategy": {
+    "primary_product": "Simple Houseware 2-Tier Sliding Basket Organizer (chrome, under-sink)",
+    "dm_keyword": "LINK",
+    "amazon_asin": "B01M0TS64K",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B01M0TS64K?tag=goldenhomep06-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": null
+  }
+}
