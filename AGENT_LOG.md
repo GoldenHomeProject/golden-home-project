@@ -3075,3 +3075,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** automation/scripts/reel-2026-09-04-*.json, social/post_queue.json
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: proof: 218,780 people have bought this exact 18x18 pillow | confrontation: Your mattress isn't the problem. Pillows haven't c | confrontation: Buying more bins won't fix a cabinet where the bac
+
+## 2026-09-04T11:54:42Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B0B7WQVYGF (Byondeth Curtain Rods for Windows 16 to )
+**Changed:** social/carousels/2026-09-04-B0B7WQVYGF/slide-1.png, social/carousels/2026-09-04-B0B7WQVYGF/slide-2.png, social/carousels/2026-09-04-B0B7WQVYGF/slide-3.png, social/carousels/2026-09-04-B0B7WQVYGF/slide-4.png, social/carousels/2026-09-04-B0B7WQVYGF/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B0B7WQVYGF carousel.
