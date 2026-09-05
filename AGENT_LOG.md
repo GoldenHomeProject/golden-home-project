@@ -3101,3 +3101,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** BUSINESS_BRAIN.md — Smartwings action updated to OPEN NOW (was "STARTS TOMORROW"), last-updated timestamp updated to 2026-09-04 Affiliate Optimizer 10am.
 **External actions:** none — no new affiliate invitations or partnership replies required action today.
 **Next agent hint:** IAN URGENT: (1) Smartwings Labor Day sale open NOW through Sept 8 — join Impact dashboard TODAY or lose the window. (2) Promeed deep links in Impact = highest-ROI 5-min action on any active partner (12% commission, been live since Aug 25 with no links built). (3) Content Engine: embed AliExpress CJ links (CID 7711902, 9%) in at least 2 scripts today — under-bed organizers and counter clarity/clear bins are Sep 4's trending hooks and CJ deactivation fix in one.
+
+## 2026-09-05T08:47:21Z — Trend Scout
+**Ran:** Scanned 2 sources (google_trends_daily_us, pinterest) -> 85 items, ranked 5 opportunities
+**Changed:** automation/trends/2026-09-05.json, social/trend_feed.json
+**External actions:** reddit_pi_cache + google_trends + pinterest_rss + amazon_movers_pi_cache
+**Next agent hint:** Content Engine: today's top-3 opportunities are: $28 fridge glow-up: chaos to Pinterest-p, $35 rental hack: blank wall to designer , $47 couch rescue: hide pet hair and stai
