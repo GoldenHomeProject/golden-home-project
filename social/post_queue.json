@@ -6473,10 +6473,10 @@
   },
   {
     "name": "reel_2026-09-05_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-09-05-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-05-001.mp4",
     "caption": "218,780 ratings on one pillow insert. That number doesn't lie.\n\nMost throw pillows go flat within a year because the insert inside is thin or lumpy. The cover looks fine, the shape doesn't. An 18x18 insert only earns 218,780 ratings if it consistently holds its form after people actually use it.\n\nThe Utopia Bedding 18x18 Pillow Inserts are made to fill an 18x18 cover fully, corner to corner, without sagging. 218,780 reviews at 4.6 stars is one of the largest review counts in the home category, which signals consistent sizing and shape retention across a huge number of households.\n\nIf your pillows look deflated a few weeks after washing the covers, the fix might be the insert, not the cover. It's $15.99.\n\nComment INSERTS and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -6493,22 +6493,7 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "218,780 ratings on one pillow insert. That number doesn't lie."
-  },
-  {
-    "id": "carousel-2026-09-05-B00FXNABPI",
-    "media_type": "CAROUSEL_ALBUM",
-    "image_urls": [
-      "https://goldenhomeproject.com/social/carousels/2026-09-05-B00FXNABPI/slide-1.png",
-      "https://goldenhomeproject.com/social/carousels/2026-09-05-B00FXNABPI/slide-2.png",
-      "https://goldenhomeproject.com/social/carousels/2026-09-05-B00FXNABPI/slide-3.png",
-      "https://goldenhomeproject.com/social/carousels/2026-09-05-B00FXNABPI/slide-4.png",
-      "https://goldenhomeproject.com/social/carousels/2026-09-05-B00FXNABPI/slide-5.png"
-    ],
-    "caption": "The hanger width in your closet decides your real storage space.\n\nStandard plastic or wood hangers eat over an inch of rod space each \u2014 velvet-flocked slim hangers cut that down and add non-slip grip so blouses and suits stop sliding off the shoulders.\n\nSave this for later so you remember the swap next time you're staring at an overstuffed rod.\n\nComment LINK or DM me LINK for the link.\n\n#closetorganization #smallclosetideas #homeorganizing #declutter #closetgoals",
-    "asin": "B00FXNABPI",
-    "keyword": "LINK",
-    "queued_at": "2026-09-05T11:03:41.915526Z",
-    "source": "carousel_generator"
+    "hook": "218,780 ratings on one pillow insert. That number doesn't lie.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-05-001.mp4"
   }
 ]
