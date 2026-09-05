@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-09-05 (Strategy & Outreach 9am)
+# Last updated: 2026-09-05 (Affiliate Optimizer 10am)
 # ============================================================
 
 ---
@@ -686,7 +686,7 @@ Agent configs live in `/private/tmp/golden-home-project/automation/agents/`.
 - [ ] **Yamazaki Home — contact fix** — hello@yamazakihome.com PERMANENTLY BOUNCED 2026-09-03 (outreach sent 2026-08-31). Find correct contact via yamazakihome.com contact page or LinkedIn. ON-NICHE home organization brand.
 - [ ] **IRIS USA follow-up (2026-09-11)** — Pitched contactus@irisusainc.com 2026-09-04. Clear storage bins/closet organizers. ON-NICHE. Follow up if no reply by Sep 11. May need to find dedicated partnerships contact via irisusainc.com/pages/contact-us.
 - [ ] **Joseph Joseph follow-up (2026-09-12)** — Pitched charlie.chung@josephjoseph.com 2026-09-05 (msg 1a071ae6d3d0c6cd). Kitchen/bathroom organization tools, 5% commission on AWIN (merchant 30663). ON-NICHE, 36 active sponsored creators. Follow up if no reply by Sep 12. Alternative: apply directly via AWIN dashboard (us.josephjoseph.com program).
-- [ ] **🚨 Smartwings — Labor Day sale OPEN NOW (Sept 4–8, closes in 4 days)** — Window shades/blinds, 8% sitewide, ON-NICHE. Join via Impact dashboard TODAY to get tracking links before the sale window closes Sept 8. Browser login required (Ian or Pi only). Miss it and the promotion opportunity is gone.
+- [ ] **🚨 Smartwings — Labor Day sale OPEN NOW (Sept 4–8, closes Sept 8 — 3 days left)** — Window shades/blinds, 8% sitewide, ON-NICHE. Join via Impact dashboard to get tracking links before the sale window closes Sept 8. Browser login required (Ian or Pi only). Miss it and the promotion opportunity is gone.
 
 ---
 *This file is automatically updated by agents. Human review recommended weekly.*
