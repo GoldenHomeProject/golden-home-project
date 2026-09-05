@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-05T09:37:59.867302Z",
+  "date": "2026-09-05",
+  "seq": 2,
+  "hook_category": "use_case",
+  "hook": "Everyone blames the couch for flat throw pillows. It's the insert.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of a flat, creased throw pillow slumped in the corner of a sofa, soft daylight from a window, neutral living room",
+      "on_screen_text": "IT'S NOT THE COVER",
+      "voiceover": "Throw pillows go flat because the insert is the cheap part nobody replaces."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Hands unzipping a decorative pillow cover and pulling out a limp, thin old insert, side lighting, tight framing",
+      "on_screen_text": "THE PART UNDERNEATH",
+      "voiceover": "The cover you picked out is usually fine. It's the sagging insert underneath doing the damage."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Overhead shot of a stack of plain white square pillow inserts beside folded decorative covers on a bed",
+      "on_screen_text": "SWAP, DON'T REBUY",
+      "voiceover": "Swapping inserts is the low-effort move. Your existing eighteen by eighteen covers stay, the shape underneath gets fixed."
+    },
+    {
+      "n": 4,
+      "duration_sec": 5,
+      "visual_prompt": "Product-style shot of white 18x18 pillow inserts on a clean surface, a rating graphic and review count animating in beside them",
+      "on_screen_text": "4.6 STARS \u00b7 218,241 REVIEWS",
+      "voiceover": "These are Utopia Bedding eighteen by eighteen inserts, sized for standard eighteen inch covers. At four point six stars across two hundred eighteen thousand reviews, that volume reads less like a trend and more like a staple people reorder as covers accumulate."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Refilled throw pillows standing upright with defined corners on a styled sofa, warm evening light, price tag graphic in corner",
+      "on_screen_text": "$12.89",
+      "voiceover": "Keep the covers you already own and give them structure again, at twelve eighty-nine."
+    }
+  ],
+  "caption": "Everyone blames the couch for flat throw pillows. It's the insert.\n\nThe cover you picked out is usually fine \u2014 it's the sagging insert underneath doing the damage. Swapping inserts is the low-effort move: your existing 18x18 covers stay, the shape underneath gets fixed. It's the difference between a cushion that slumps into the corner of the couch and one that actually holds a corner.\n\nThis is an 18x18 pillow insert, sized to fill standard 18-inch covers without bunching or gapping at the seams.\n\nKeep the covers you already own and give them structure again.\n\nComment UTOPIA and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "This is an 18x18 pillow insert, sized to fill standard 18-inch covers without bunching or gapping at the seams.",
+  "affiliate_strategy": {
+    "primary_product": "Utopia Bedding 18x18 Pillow Inserts",
+    "dm_keyword": "UTOPIA",
+    "amazon_asin": "B01NBNDC1T",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B01NBNDC1T?tag=goldenhomep06-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": null
+  }
+}

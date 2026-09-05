@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-05T09:37:59.859748Z",
+  "date": "2026-09-05",
+  "seq": 1,
+  "hook_category": "proof",
+  "hook": "218,780 ratings on one pillow insert. That number doesn't lie.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up on a phone screen showing a product review count ticking upward, then landing on 218,780",
+      "on_screen_text": "218,780 RATINGS",
+      "voiceover": "Two hundred eighteen thousand people rated this pillow insert."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Side-by-side: a flat, sagging pillow cover next to a full, square 18x18 pillow cover",
+      "on_screen_text": "SAME COVER, DIFFERENT INSERT",
+      "voiceover": "If your cover looks flat, it's usually the insert underneath, not the cover itself."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Hand pressing down on a plump 18x18 pillow insert and it springing back to full shape",
+      "on_screen_text": "18x18 FILL",
+      "voiceover": "This insert is sized to fill an 18 by 18 cover completely, corner to corner."
+    },
+    {
+      "n": 4,
+      "duration_sec": 5,
+      "visual_prompt": "Star rating graphic building up to 4.6 stars over a stack of pillow inserts",
+      "on_screen_text": "4.6 STARS",
+      "voiceover": "4.6 stars across that many reviews is one of the largest ratings volumes in the home category."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Finished couch or bed styled with full, square throw pillows, price tag graphic in corner",
+      "on_screen_text": "$15.99",
+      "voiceover": "Utopia Bedding 18x18 pillow inserts, $15.99."
+    }
+  ],
+  "caption": "218,780 ratings on one pillow insert. That number doesn't lie.\n\nMost throw pillows go flat within a year because the insert inside is thin or lumpy. The cover looks fine, the shape doesn't. An 18x18 insert only earns 218,780 ratings if it consistently holds its form after people actually use it.\n\nThe Utopia Bedding 18x18 Pillow Inserts are made to fill an 18x18 cover fully, corner to corner, without sagging. 218,780 reviews at 4.6 stars is one of the largest review counts in the home category, which signals consistent sizing and shape retention across a huge number of households.\n\nIf your pillows look deflated a few weeks after washing the covers, the fix might be the insert, not the cover. It's $15.99.\n\nComment INSERTS and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "The Utopia Bedding 18x18 Pillow Inserts are made to fill an 18x18 cover fully, corner to corner, without sagging. 218,780 reviews at 4.6 stars is one of the largest review counts in the home category,",
+  "affiliate_strategy": {
+    "primary_product": "Utopia Bedding 18x18 Pillow Inserts",
+    "dm_keyword": "INSERTS",
+    "amazon_asin": "B01NBNDC1T",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B01NBNDC1T?tag=goldenhomep06-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": null
+  }
+}

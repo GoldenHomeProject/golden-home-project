@@ -6470,5 +6470,29 @@
     },
     "hook": "Buying more bins won't fix a cabinet where the back six inches are functionally gone.",
     "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-04-003.mp4"
+  },
+  {
+    "name": "reel_2026-09-05_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-05-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "218,780 ratings on one pillow insert. That number doesn't lie.\n\nMost throw pillows go flat within a year because the insert inside is thin or lumpy. The cover looks fine, the shape doesn't. An 18x18 insert only earns 218,780 ratings if it consistently holds its form after people actually use it.\n\nThe Utopia Bedding 18x18 Pillow Inserts are made to fill an 18x18 cover fully, corner to corner, without sagging. 218,780 reviews at 4.6 stars is one of the largest review counts in the home category, which signals consistent sizing and shape retention across a huge number of households.\n\nIf your pillows look deflated a few weeks after washing the covers, the fix might be the insert, not the cover. It's $15.99.\n\nComment INSERTS and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Utopia Bedding 18x18 Pillow Inserts",
+      "dm_keyword": "INSERTS",
+      "amazon_asin": "B01NBNDC1T",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01NBNDC1T?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "218,780 ratings on one pillow insert. That number doesn't lie."
   }
 ]
