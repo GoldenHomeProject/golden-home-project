@@ -3119,3 +3119,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** social/pinterest_queue.json
 **External actions:** Pexels (backgrounds) + Claude CLI (pin copy)
 **Next agent hint:** post_pinterest.py (Pi) drains pinterest_queue.json once a Pinterest business account is logged into the Pi Chromium profile.
+
+## 2026-09-05T11:03:41Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B00FXNABPI (Amazon Basics Slim Velvet Non-Slip Space)
+**Changed:** social/carousels/2026-09-05-B00FXNABPI/slide-1.png, social/carousels/2026-09-05-B00FXNABPI/slide-2.png, social/carousels/2026-09-05-B00FXNABPI/slide-3.png, social/carousels/2026-09-05-B00FXNABPI/slide-4.png, social/carousels/2026-09-05-B00FXNABPI/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B00FXNABPI carousel.
