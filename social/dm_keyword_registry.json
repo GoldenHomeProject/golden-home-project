@@ -510,6 +510,24 @@
       "source": "trending",
       "keyword": "INSERTS",
       "promoted_at": "2026-09-04T12:20:15Z"
+    },
+    {
+      "asin": "B00LS9UD2M",
+      "product_name": "LiBa Shower Curtain PEVA 8G, 72x72 Inch Waterproof Clear | Non-toxic shower liner, waterproof plastic shower curtain, ru",
+      "categories": [
+        "home",
+        "Bath"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B00LS9UD2M?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-08-23",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$9.98",
+      "verified_stars": "4.6",
+      "verified_reviews": 147666,
+      "discovery_source": "harvest_catalogue",
+      "keyword": "LIBA",
+      "promoted_at": "2026-09-05T12:20:45Z"
     }
   ],
   "_vetted_doc": "Verified-live Amazon ASINs cleared for blog/SEO/IG-caption use but NOT yet wired to a Meta comment-to-DM automation. Promote to `entries` (with a unique keyword) only AFTER creating the matching Meta Business Suite automation. Always use https://www.amazon.com/dp/<ASIN>?tag=goldenhomep06-20 \u2014 never search URLs.",
@@ -1780,22 +1798,6 @@
       "verified_price": "$25.49",
       "verified_stars": "4.6",
       "verified_reviews": 25108,
-      "discovery_source": "harvest_catalogue"
-    },
-    {
-      "asin": "B00LS9UD2M",
-      "product_name": "LiBa Shower Curtain PEVA 8G, 72x72 Inch Waterproof Clear | Non-toxic shower liner, waterproof plastic shower curtain, ru",
-      "categories": [
-        "home",
-        "Bath"
-      ],
-      "affiliate_url": "https://www.amazon.com/dp/B00LS9UD2M?tag=goldenhomep06-20",
-      "status": "live",
-      "verified_at": "2026-08-23",
-      "verified_method": "best_seller_grid",
-      "verified_price": "$9.98",
-      "verified_stars": "4.6",
-      "verified_reviews": 147666,
       "discovery_source": "harvest_catalogue"
     },
     {
