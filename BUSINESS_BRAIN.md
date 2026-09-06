@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-09-05 (Affiliate Optimizer 10am)
+# Last updated: 2026-09-06 (Strategy & Outreach 9am)
 # ============================================================
 
 ---
@@ -274,6 +274,12 @@ No single point of failure — the flywheel keeps spinning.
 - **"Worth the money" list format on TikTok** — direct-to-camera 3-item "worth it / not worth it" videos performing well in home niche; connects to our "comparison" format strength.
 - **Junk drawer** — Trend Scout (2026-08-19) flags "chaotic junk drawer → fully sorted" as high-opportunity.
 - **Competitors** (checked Aug 2026): Alexandra Gater leans into renter/small-space content and budget-friendly makeovers — our exact overlap. Her audience is highly engaged on renter-restriction hacks. We should out-execute on dollar specificity she lacks.
+### September 2026 Visual Trend Insights (updated 2026-09-06):
+- **Fridge deodorizer + organizer combo** — Today's Trend Scout flagged "$16 gadget erased fridge stink in 24 hours" as top opportunity, pairing with the Pinterest fridge org +375% trend confirmed Sep 5. The 2-in-1 angle (smell AND visual chaos) outperforms either product alone. Products: activated charcoal deodorizer ($9) + clear fridge bins ($19). Hook: "My fridge was stinking AND messy. $28 total. Same fridge." AliExpress CJ 9% tie-in on clear bins = direct CJ deactivation fix.
+- **Labeled closet system — "bins aren't enough"** — Trend Scout's "$32 in bins turned our chaos closet" opportunity + proven 32% engagement lift on labeled systems (Sep 3 data). The counter-intuitive angle: people buy bins but skip labels and still can't find anything. Second-person scene hook: "You already know which drawer you don't open in front of guests. Bins aren't enough. $32 with labels is." AliExpress CJ label maker + bins, renter-safe. Addresses the CJ deactivation deadline urgently.
+- **Pet-hair couch rescue — Mamma Mia highest-commission activation** — Trend Scout's "turned a pet-hair-wrecked couch" opportunity maps directly to our ACTIVE 24-30% commission Mamma Mia Covers partner with ZERO recent content. This is the highest-ROI content we can produce: partner already active, products already linked, commission is our best rate. Hook: "You already have a couch nobody wants to sit on." (second-person scene). No drilling, renter-safe, rental-unit angle strong.
+- **Competitor watch (Sep 6):** Nest With Me focuses on high-production room makeovers with no price anchoring — our specific dollar amounts remain our key differentiator. DIY Creators is doubling down on garage/workshop (power tools, storage systems requiring installation) — cannot replicate, should not try. Lean into zero-tools renter angle as competitive moat.
+
 ### September 2026 Visual Trend Insights (updated 2026-09-05):
 - **Fridge organization** — Pinterest searches for "fridge organization aesthetic" up 375% in 2026. This is a transformation format goldmine: chaotic → zoned clear-bin fridge reveal. Products: clear fridge organizers + lazy susan + egg holder ($28 total). Hook: "My fridge looked like a crime scene. Same fridge. $28." Renter-safe (no tools). AliExpress CJ 9% opportunity. Very high share rate (food-meets-home crossover audience).
 - **Laundry room/closet organization** — Pinterest searches "laundry room organization small space" up 390%. Hook: "I was spending 20 minutes finding detergent. Same closet. $43." Products: over-washer shelf ($18), magnetic container set ($12), utility hook rack ($13). Magnetic + over-door = renter-safe. CJ AliExpress tie-in.
@@ -443,6 +449,7 @@ New agent spec: `automation/agents/ai_revenue_playbook.md` (COSTAR prompt framew
 | Direct | Yamazaki Home | TBD | **BOUNCED 2026-09-03** | Home organization/kitchen storage — ON-NICHE. Outreach sent 2026-08-31 to hello@yamazakihome.com — PERMANENTLY BOUNCED 2026-09-03 (msg 1a057ef52aeeeab4). Find correct contact via yamazakihome.com contact page or LinkedIn. |
 | Direct | IRIS USA | TBD | Outreach sent 2026-09-04 | Clear storage bins/closet organizers/drawer organizers — ON-NICHE (our #1 content category, Sep trending). $15-60 AOV = perfect "specific dollar amount" hook. Pitched contactus@irisusainc.com (msg 1a06c86f50c72ef8). |
 | Awin | Joseph Joseph | 5% | Outreach sent 2026-09-05 | Kitchen/bathroom/utility organization tools — ON-NICHE. Colorful, design-forward organizers (nest+stack, drawer inserts). Active AWIN program (UK: merchant 30663). 36 influencers already sponsored (confirmed Mar 2026). Pitched charlie.chung@josephjoseph.com (msg 1a071ae6d3d0c6cd). Perfect fit for counter clarity + kitchen transformation content. |
+| Direct/ShareASale | Simplehuman | TBD | Outreach sent 2026-09-06 | Kitchen/bath organization tools — ON-NICHE. Premium sensor pumps, dish racks, trash cans, shower caddies. High-AOV ($30-200). #1 reviewed countertop soap dispenser on Amazon. Perfect fit for counter clarity + kitchen reset content. Pitched partnerships@simplehuman.com (msg 1a076d3635c38ef7). |
 
 ---
 
@@ -686,7 +693,8 @@ Agent configs live in `/private/tmp/golden-home-project/automation/agents/`.
 - [ ] **Yamazaki Home — contact fix** — hello@yamazakihome.com PERMANENTLY BOUNCED 2026-09-03 (outreach sent 2026-08-31). Find correct contact via yamazakihome.com contact page or LinkedIn. ON-NICHE home organization brand.
 - [ ] **IRIS USA follow-up (2026-09-11)** — Pitched contactus@irisusainc.com 2026-09-04. Clear storage bins/closet organizers. ON-NICHE. Follow up if no reply by Sep 11. May need to find dedicated partnerships contact via irisusainc.com/pages/contact-us.
 - [ ] **Joseph Joseph follow-up (2026-09-12)** — Pitched charlie.chung@josephjoseph.com 2026-09-05 (msg 1a071ae6d3d0c6cd). Kitchen/bathroom organization tools, 5% commission on AWIN (merchant 30663). ON-NICHE, 36 active sponsored creators. Follow up if no reply by Sep 12. Alternative: apply directly via AWIN dashboard (us.josephjoseph.com program).
-- [ ] **🚨 Smartwings — Labor Day sale OPEN NOW (Sept 4–8, closes Sept 8 — 3 days left)** — Window shades/blinds, 8% sitewide, ON-NICHE. Join via Impact dashboard to get tracking links before the sale window closes Sept 8. Browser login required (Ian or Pi only). Miss it and the promotion opportunity is gone.
+- [ ] **🚨 Smartwings — Labor Day sale OPEN NOW (Sept 4–8, closes Sept 8 — 2 days left)** — Window shades/blinds, 8% sitewide, ON-NICHE. Join via Impact dashboard to get tracking links before the sale window closes Sept 8. Browser login required (Ian or Pi only). Miss it and the promotion opportunity is gone.
+- [ ] **Simplehuman follow-up (2026-09-13)** — Pitched partnerships@simplehuman.com 2026-09-06 (msg 1a076d3635c38ef7). Kitchen/bath organization tools — ON-NICHE, high-AOV ($30-200). Follow up if no reply by Sep 13. Alternative: apply via ShareASale publisher portal (search "simplehuman").
 
 ---
 *This file is automatically updated by agents. Human review recommended weekly.*
