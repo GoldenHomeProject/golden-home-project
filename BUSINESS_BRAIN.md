@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-09-06 (Strategy & Outreach 9am)
+# Last updated: 2026-09-06 (Affiliate Optimizer 10am)
 # ============================================================
 
 ---
@@ -449,7 +449,7 @@ New agent spec: `automation/agents/ai_revenue_playbook.md` (COSTAR prompt framew
 | Direct | Yamazaki Home | TBD | **BOUNCED 2026-09-03** | Home organization/kitchen storage — ON-NICHE. Outreach sent 2026-08-31 to hello@yamazakihome.com — PERMANENTLY BOUNCED 2026-09-03 (msg 1a057ef52aeeeab4). Find correct contact via yamazakihome.com contact page or LinkedIn. |
 | Direct | IRIS USA | TBD | Outreach sent 2026-09-04 | Clear storage bins/closet organizers/drawer organizers — ON-NICHE (our #1 content category, Sep trending). $15-60 AOV = perfect "specific dollar amount" hook. Pitched contactus@irisusainc.com (msg 1a06c86f50c72ef8). |
 | Awin | Joseph Joseph | 5% | Outreach sent 2026-09-05 | Kitchen/bathroom/utility organization tools — ON-NICHE. Colorful, design-forward organizers (nest+stack, drawer inserts). Active AWIN program (UK: merchant 30663). 36 influencers already sponsored (confirmed Mar 2026). Pitched charlie.chung@josephjoseph.com (msg 1a071ae6d3d0c6cd). Perfect fit for counter clarity + kitchen transformation content. |
-| Direct/ShareASale | Simplehuman | TBD | Outreach sent 2026-09-06 | Kitchen/bath organization tools — ON-NICHE. Premium sensor pumps, dish racks, trash cans, shower caddies. High-AOV ($30-200). #1 reviewed countertop soap dispenser on Amazon. Perfect fit for counter clarity + kitchen reset content. Pitched partnerships@simplehuman.com (msg 1a076d3635c38ef7). |
+| Direct/ShareASale | Simplehuman | TBD | **BOUNCED 2026-09-06** | Kitchen/bath organization tools — ON-NICHE. Premium sensor pumps, dish racks, trash cans, shower caddies. High-AOV ($30-200). partnerships@simplehuman.com BOUNCED (mailer-daemon 13:06 UTC). Apply via ShareASale publisher portal (search "simplehuman") OR use simplehuman.com contact/partnership form. |
 
 ---
 
@@ -694,7 +694,7 @@ Agent configs live in `/private/tmp/golden-home-project/automation/agents/`.
 - [ ] **IRIS USA follow-up (2026-09-11)** — Pitched contactus@irisusainc.com 2026-09-04. Clear storage bins/closet organizers. ON-NICHE. Follow up if no reply by Sep 11. May need to find dedicated partnerships contact via irisusainc.com/pages/contact-us.
 - [ ] **Joseph Joseph follow-up (2026-09-12)** — Pitched charlie.chung@josephjoseph.com 2026-09-05 (msg 1a071ae6d3d0c6cd). Kitchen/bathroom organization tools, 5% commission on AWIN (merchant 30663). ON-NICHE, 36 active sponsored creators. Follow up if no reply by Sep 12. Alternative: apply directly via AWIN dashboard (us.josephjoseph.com program).
 - [ ] **🚨 Smartwings — Labor Day sale OPEN NOW (Sept 4–8, closes Sept 8 — 2 days left)** — Window shades/blinds, 8% sitewide, ON-NICHE. Join via Impact dashboard to get tracking links before the sale window closes Sept 8. Browser login required (Ian or Pi only). Miss it and the promotion opportunity is gone.
-- [ ] **Simplehuman follow-up (2026-09-13)** — Pitched partnerships@simplehuman.com 2026-09-06 (msg 1a076d3635c38ef7). Kitchen/bath organization tools — ON-NICHE, high-AOV ($30-200). Follow up if no reply by Sep 13. Alternative: apply via ShareASale publisher portal (search "simplehuman").
+- [ ] **Simplehuman — contact fix (BOUNCED 2026-09-06)** — partnerships@simplehuman.com bounced (mailer-daemon 13:06 UTC Sep 6, msg 1a076d36db850165). Do NOT email again. Apply via ShareASale publisher portal (search "simplehuman") OR use simplehuman.com/pages/contact or partnership form. Kitchen/bath organization — ON-NICHE, high-AOV ($30-200).
 
 ---
 *This file is automatically updated by agents. Human review recommended weekly.*
