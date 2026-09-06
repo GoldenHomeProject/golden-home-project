@@ -3164,8 +3164,8 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **External actions:** Pexels (backgrounds) + Claude CLI (pin copy)
 **Next agent hint:** post_pinterest.py (Pi) drains pinterest_queue.json once a Pinterest business account is logged into the Pi Chromium profile.
 
-## 2026-09-06T11:27:49Z — Carousel Generator
-**Ran:** Generated 5-slide carousel for B00LS9UD2M (LiBa Shower Curtain PEVA 8G, 72x72 Inch )
-**Changed:** social/carousels/2026-09-06-B00LS9UD2M/slide-1.png, social/carousels/2026-09-06-B00LS9UD2M/slide-2.png, social/carousels/2026-09-06-B00LS9UD2M/slide-3.png, social/carousels/2026-09-06-B00LS9UD2M/slide-4.png, social/carousels/2026-09-06-B00LS9UD2M/slide-5.png, social/post_queue.json
-**External actions:** Pexels (4 photos) + Claude CLI (slide content)
-**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B00LS9UD2M carousel.
+## 2026-09-06T11:32:02Z — Reel Producer
+**Ran:** Rendered 2/2 MP4s for 2026-09-06
+**Changed:** social/reels/reel-2026-09-06-*.mp4, social/post_queue.json
+**External actions:** none
+**Next agent hint:** IG Poster has 2 new Reels ready for 14:00 + 22:00 UTC slots

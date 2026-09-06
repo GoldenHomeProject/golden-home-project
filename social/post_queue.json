@@ -6482,10 +6482,10 @@
   },
   {
     "name": "reel_2026-09-06_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-09-06-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-06-001.mp4",
     "caption": "147,666 ratings on a $9.98 shower liner. That number doesn't happen by accident.\n\nMost shower curtain liners get a handful of reviews and disappear. This one is a 72x72 inch clear PEVA liner, non-toxic, priced under $10, and it has racked up nearly 150,000 ratings at 4.6 stars. That kind of volume usually means it's a repeat purchase across a lot of bathrooms, not a one-off impulse buy.\n\nIt's a straightforward waterproof liner made from PEVA, sized for a standard 72x72 tub or shower, meant to sit behind your main curtain and keep water in. At 4.6 stars across 147,666 reviews, the rating has held steady at scale, which is a harder bar to clear than a product with a few dozen reviews.\n\nIf your bathroom needs a basic, clear waterproof liner without overthinking it, this is a low-risk pick at $9.98.\n\nComment LIBA and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -6502,14 +6502,15 @@
       "affiliate_network": "amazon",
       "affiliate_url": "https://www.amazon.com/dp/B00LS9UD2M?tag=goldenhomep06-20"
     },
-    "hook": "147,666 ratings on a $9.98 shower liner. That number doesn't happen by accident."
+    "hook": "147,666 ratings on a $9.98 shower liner. That number doesn't happen by accident.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-06-001.mp4"
   },
   {
     "name": "reel_2026-09-06_003",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-09-06-003.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-06-003.mp4",
     "caption": "Everyone blames the mattress for a stiff neck by morning. The pillow is usually the actual problem.\n\nA flat pillow lets your top shoulder collapse forward, twisting your neck out of line for eight hours straight. That's what leaves you stiff, not the mattress underneath.\n\nThe Eli & Elm Side Sleeper Pillow uses a U-shaped cutout so your shoulder can settle into the mattress instead of pressing into the pillow, keeping your neck and spine in one line.\n\nIt's latex, queen-size, built specifically for side sleeping, and priced at $114.99 \u2014 far less than replacing a mattress that was never the actual problem.\n\nComment PILLOW and I'll reply with the link.\nAffiliate link \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #sleepbetter #sidesleeper #bedroomupgrade",
     "hashtags": [
       "#amazonhomefinds",
@@ -6527,22 +6528,7 @@
       "affiliate_network": "impact_direct",
       "affiliate_url": "https://eliandelm.sjv.io/E092ZX"
     },
-    "hook": "Everyone blames the mattress for a stiff neck by morning. The pillow is usually the actual problem."
-  },
-  {
-    "id": "carousel-2026-09-06-B00LS9UD2M",
-    "media_type": "CAROUSEL_ALBUM",
-    "image_urls": [
-      "https://goldenhomeproject.com/social/carousels/2026-09-06-B00LS9UD2M/slide-1.png",
-      "https://goldenhomeproject.com/social/carousels/2026-09-06-B00LS9UD2M/slide-2.png",
-      "https://goldenhomeproject.com/social/carousels/2026-09-06-B00LS9UD2M/slide-3.png",
-      "https://goldenhomeproject.com/social/carousels/2026-09-06-B00LS9UD2M/slide-4.png",
-      "https://goldenhomeproject.com/social/carousels/2026-09-06-B00LS9UD2M/slide-5.png"
-    ],
-    "caption": "Your shower curtain liner is doing more work than the curtain itself.\n\nMaterial is the whole story: PVC liners can off-gas for weeks and trap mildew in the folds, while a PEVA liner (no chlorine, no vinyl smell) stays clear and odor-free out of the box \u2014 72x72 fits standard rods with rustproof grommets already punched in.\n\nSave this for later so you've got it next time you're liner-shopping.\n\nComment LIBA or DM me LIBA for the link.\n\n#bathroomorganization #showercurtain #apartmentliving #cleaninghacks #homeorganizing",
-    "asin": "B00LS9UD2M",
-    "keyword": "LIBA",
-    "queued_at": "2026-09-06T11:27:49.069967Z",
-    "source": "carousel_generator"
+    "hook": "Everyone blames the mattress for a stiff neck by morning. The pillow is usually the actual problem.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-06-003.mp4"
   }
 ]
