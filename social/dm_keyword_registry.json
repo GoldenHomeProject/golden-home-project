@@ -3601,6 +3601,54 @@
       "verified_stars": "4.5",
       "verified_reviews": 5567,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0FB7LKQXV",
+      "product_name": "STANLEY Quencher H2.0 Flow State Tumbler, 40 oz, Cranberry | Handle and Straw | 3-Position Lid | Cup Holder Compatible f",
+      "categories": [
+        "kitchen",
+        "Kitchen Storage"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0FB7LKQXV?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-09-06",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$22.50",
+      "verified_stars": "4.7",
+      "verified_reviews": 204529,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0DNGDKF3Q",
+      "product_name": "Sok It JavaSok Iced Coffee & Cold Soda Insulated Neoprene Cup Sleeve (On Tour, Medium: 22-28oz)",
+      "categories": [
+        "kitchen",
+        "Kitchen Storage"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0DNGDKF3Q?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-09-06",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$6.80",
+      "verified_stars": "4.8",
+      "verified_reviews": 34281,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0F5X4FM3Q",
+      "product_name": "0.5 Sec Instant Read Meat Thermometer Digital for Cooking, Red | NIST \u00b10.5\u2109 Precision Food Thermometer, Kitchen Gadgets ",
+      "categories": [
+        "kitchen",
+        "Kitchen Storage"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0F5X4FM3Q?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-09-06",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$15.98",
+      "verified_stars": "4.8",
+      "verified_reviews": 7789,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
