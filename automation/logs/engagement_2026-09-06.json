@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-06",
+  "agent": "engagement-monitor",
+  "metrics": {
+    "subscribers": 6660,
+    "total_views": 21541,
+    "total_videos": 199
+  },
+  "top_videos": [
+    {
+      "title": "218,780 ratings on one pillow insert. That number doesn't li",
+      "views": 157,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "It's 4am. Your neck won't turn left and the alarm is 90 minu",
+      "views": 124,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Sagging pillows get blamed on the cover. The problem is what",
+      "views": 118,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Buying more bins won't fix a cabinet where the back six inch",
+      "views": 110,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "454,120 people rated this sheet set. Only 4.5 stars means al",
+      "views": 100,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Everyone tells you to buy more bins. That is not why your ca",
+      "views": 76,
+      "likes": 1,
+      "comments": 1
+    },
+    {
+      "title": "Everyone blames the mattress for a stiff neck by morning. Th",
+      "views": 41,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "349,499 people rated this scale. 4.7 stars is the boring par",
+      "views": 40,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "If you rent, you can't change the closet. You can only chang",
+      "views": 24,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "453,281 people have rated this sheet set. It still sits at 4",
+      "views": 6,
+      "likes": 0,
+      "comments": 1
+    }
+  ],
+  "comments_responded": 0,
+  "actions_taken": [
+    "New comment on video: \ud83d\udccc SHOP ALL PRODUCTS \u2014 Amazon links:<br><br>\u2460 Eli &",
+    "Updated BUSINESS_BRAIN.md metrics"
+  ]
+}
