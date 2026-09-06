@@ -6479,5 +6479,54 @@
     },
     "hook": "218,780 ratings on one pillow insert. That number doesn't lie.",
     "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-05-001.mp4"
+  },
+  {
+    "name": "reel_2026-09-06_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-06-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "147,666 ratings on a $9.98 shower liner. That number doesn't happen by accident.\n\nMost shower curtain liners get a handful of reviews and disappear. This one is a 72x72 inch clear PEVA liner, non-toxic, priced under $10, and it has racked up nearly 150,000 ratings at 4.6 stars. That kind of volume usually means it's a repeat purchase across a lot of bathrooms, not a one-off impulse buy.\n\nIt's a straightforward waterproof liner made from PEVA, sized for a standard 72x72 tub or shower, meant to sit behind your main curtain and keep water in. At 4.6 stars across 147,666 reviews, the rating has held steady at scale, which is a harder bar to clear than a product with a few dozen reviews.\n\nIf your bathroom needs a basic, clear waterproof liner without overthinking it, this is a low-risk pick at $9.98.\n\nComment LIBA and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "LiBa Shower Curtain PEVA 8G, 72x72 Inch Waterproof Clear | Non-toxic shower liner, waterproof plastic shower curtain, ru",
+      "dm_keyword": "LIBA",
+      "amazon_asin": "B00LS9UD2M",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B00LS9UD2M?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B00LS9UD2M?tag=goldenhomep06-20"
+    },
+    "hook": "147,666 ratings on a $9.98 shower liner. That number doesn't happen by accident."
+  },
+  {
+    "name": "reel_2026-09-06_003",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-06-003.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Everyone blames the mattress for a stiff neck by morning. The pillow is usually the actual problem.\n\nA flat pillow lets your top shoulder collapse forward, twisting your neck out of line for eight hours straight. That's what leaves you stiff, not the mattress underneath.\n\nThe Eli & Elm Side Sleeper Pillow uses a U-shaped cutout so your shoulder can settle into the mattress instead of pressing into the pillow, keeping your neck and spine in one line.\n\nIt's latex, queen-size, built specifically for side sleeping, and priced at $114.99 \u2014 far less than replacing a mattress that was never the actual problem.\n\nComment PILLOW and I'll reply with the link.\nAffiliate link \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #sleepbetter #sidesleeper #bedroomupgrade",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#sleepbetter",
+      "#sidesleeper",
+      "#bedroomupgrade"
+    ],
+    "affiliate": {
+      "primary_product": "Eli & Elm Side Sleeper Pillow (U-shape, latex, queen)",
+      "dm_keyword": "PILLOW",
+      "amazon_asin": "B07YL7VD32",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B07YL7VD32?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "impact_direct",
+      "affiliate_url": "https://eliandelm.sjv.io/E092ZX"
+    },
+    "hook": "Everyone blames the mattress for a stiff neck by morning. The pillow is usually the actual problem."
   }
 ]

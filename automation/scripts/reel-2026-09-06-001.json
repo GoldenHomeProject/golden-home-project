@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-06T09:52:59.463243Z",
+  "date": "2026-09-06",
+  "seq": 1,
+  "hook_category": "proof",
+  "hook": "147,666 ratings on a $9.98 shower liner. That number doesn't happen by accident.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up on a phone screen showing a product rating of 4.6 stars and a review count ticking up, clean bathroom tile blurred in background",
+      "on_screen_text": "147,666 RATINGS",
+      "voiceover": "147,666 people rated this shower liner."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Overhead shot of a clear PEVA shower liner being unfolded and hung on a rod in front of a plain white tub",
+      "on_screen_text": "72x72 IN, CLEAR PEVA",
+      "voiceover": "It's a clear, waterproof PEVA liner, sized for a standard 72 by 72 inch shower."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Side-by-side split screen: one review count graphic at 12 reviews, another at 147,666, both with star ratings shown",
+      "on_screen_text": "4.6 STARS AT SCALE",
+      "voiceover": "Most liners get a few dozen reviews. This one holds 4.6 stars across almost 150,000."
+    },
+    {
+      "n": 4,
+      "duration_sec": 5,
+      "visual_prompt": "Slow pan across a finished bathroom with the clear liner hanging neatly behind a patterned outer curtain, water beading on the surface",
+      "on_screen_text": "NON-TOXIC, WATERPROOF",
+      "voiceover": "It's non-toxic and built to keep water where it belongs, behind your main curtain."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Price tag graphic overlay reading $9.98 next to the packaged product on a shelf",
+      "on_screen_text": "$9.98",
+      "voiceover": "A basic bathroom fix for under ten dollars."
+    }
+  ],
+  "caption": "147,666 ratings on a $9.98 shower liner. That number doesn't happen by accident.\n\nMost shower curtain liners get a handful of reviews and disappear. This one is a 72x72 inch clear PEVA liner, non-toxic, priced under $10, and it has racked up nearly 150,000 ratings at 4.6 stars. That kind of volume usually means it's a repeat purchase across a lot of bathrooms, not a one-off impulse buy.\n\nIt's a straightforward waterproof liner made from PEVA, sized for a standard 72x72 tub or shower, meant to sit behind your main curtain and keep water in. At 4.6 stars across 147,666 reviews, the rating has held steady at scale, which is a harder bar to clear than a product with a few dozen reviews.\n\nIf your bathroom needs a basic, clear waterproof liner without overthinking it, this is a low-risk pick at $9.98.\n\nComment LIBA and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "It's a straightforward waterproof liner made from PEVA, sized for a standard 72x72 tub or shower, meant to sit behind your main curtain and keep water in. At 4.6 stars across 147,666 reviews, the rati",
+  "affiliate_strategy": {
+    "primary_product": "LiBa Shower Curtain PEVA 8G, 72x72 Inch Waterproof Clear | Non-toxic shower liner, waterproof plastic shower curtain, ru",
+    "dm_keyword": "LIBA",
+    "amazon_asin": "B00LS9UD2M",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B00LS9UD2M?tag=goldenhomep06-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": "https://www.amazon.com/dp/B00LS9UD2M?tag=goldenhomep06-20"
+  }
+}
