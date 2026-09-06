@@ -1634,6 +1634,50 @@
           }
         ],
         "voice_rev": "2026-08-26"
+      },
+      {
+        "hook_category": "proof",
+        "hook": "349,735 people reviewed this $19.88 scale. Almost none mention the price.",
+        "beat1": "A bathroom scale is one of the few home purchases people actually leave reviews for, since the number either matches the mirror or it doesn't. At 349,735 ratings, the Etekcity digital scale has more feedback than most kitchen gadgets or storage bins in the same price range.",
+        "turn": "It's a digital body weight bathroom scale, nothing more, nothing less. A 4.7-star average across that many reviews is the kind of consistency that's hard to fake with a single product category people are this picky about.",
+        "result": "For $19.88, you're getting a scale with a review count most home products never approach, which is its own kind of evidence.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close-up of a digital bathroom scale on a tile or bathroom floor, screen dark, minimal styling",
+            "on_screen_text": "349,735 REVIEWS",
+            "voiceover": "349,735 people rated this scale."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Overhead shot of the scale next to a bathroom cabinet, clean and uncluttered setting",
+            "on_screen_text": "4.7 STARS",
+            "voiceover": "That's a 4.7-star average, and almost none of them mention the price."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Foot stepping onto the scale, digital display lighting up with a number",
+            "on_screen_text": "DIGITAL DISPLAY",
+            "voiceover": "It's a straightforward digital body weight scale, nothing extra to fuss over."
+          },
+          {
+            "n": 4,
+            "duration_sec": 5,
+            "visual_prompt": "Split screen comparing a shelf of kitchen gadgets with fewer reviews next to the scale's review count on screen",
+            "on_screen_text": "MORE REVIEWS THAN MOST HOME GOODS",
+            "voiceover": "Most home products don't come close to this many ratings, and a scale is one of the few things people actually check the number on."
+          },
+          {
+            "n": 5,
+            "duration_sec": 4,
+            "visual_prompt": "Final product shot of the scale alone on a clean bathroom floor with price tag graphic overlay",
+            "on_screen_text": "$19.88",
+            "voiceover": "Nineteen eighty-eight, backed by a review count most categories never see."
+          }
+        ]
       }
     ],
     "SCALE": [
