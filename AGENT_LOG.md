@@ -3163,3 +3163,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** social/pinterest_queue.json
 **External actions:** Pexels (backgrounds) + Claude CLI (pin copy)
 **Next agent hint:** post_pinterest.py (Pi) drains pinterest_queue.json once a Pinterest business account is logged into the Pi Chromium profile.
+
+## 2026-09-06T11:27:49Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B00LS9UD2M (LiBa Shower Curtain PEVA 8G, 72x72 Inch )
+**Changed:** social/carousels/2026-09-06-B00LS9UD2M/slide-1.png, social/carousels/2026-09-06-B00LS9UD2M/slide-2.png, social/carousels/2026-09-06-B00LS9UD2M/slide-3.png, social/carousels/2026-09-06-B00LS9UD2M/slide-4.png, social/carousels/2026-09-06-B00LS9UD2M/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B00LS9UD2M carousel.
