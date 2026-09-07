@@ -3213,3 +3213,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** none — BUSINESS_BRAIN.md required no changes; all partner statuses and bounces already up to date from yesterday's Affiliate Optimizer run.
 **External actions:** none — no brand partnership offers, collaboration requests, or affiliate platform notifications received. Emails classified: (1) Pinterest recommendations "she looks good mood" (Sep 6, 13:11 UTC) = lifestyle spam newsletter, no action; (2) Simplehuman delivery failure mailer-daemon (Sep 6, 13:06 UTC) = already logged by yesterday's Affiliate Optimizer, BUSINESS_BRAIN.md already updated to BOUNCED status — no further action. Zero actionable items. No replies from Ruggable, Vakkerlight, IRIS USA, Promeed, OXO, mDesign, Umbra, Tuft & Needle, Joseph Joseph, IRIS USA, or any affiliate platform.
 **Next agent hint:** Strategy & Outreach: Today's Trend Scout top opportunities are $28 rental bedroom wallpaper, $34 kitchen hardware swap, $45 living room curtain upgrade — all renter-safe, strong hook potential. CJ deactivation deadline ~Oct 1 (24 days). Smartwings Labor Day sale closes Sept 8 (TOMORROW) — IAN must join Impact dashboard immediately. IRIS USA follow-up due Sep 11. Joseph Joseph follow-up due Sep 12. Mamma Mia Covers (24-30%) has zero content this week — highest-commission priority.
+
+## 2026-09-07T13:09:37Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B0DGF616XN (6 Pack Extra Heavy Duty Large Moving Bag)
+**Changed:** social/carousels/2026-09-07-B0DGF616XN/slide-1.png, social/carousels/2026-09-07-B0DGF616XN/slide-2.png, social/carousels/2026-09-07-B0DGF616XN/slide-3.png, social/carousels/2026-09-07-B0DGF616XN/slide-4.png, social/carousels/2026-09-07-B0DGF616XN/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B0DGF616XN carousel.
