@@ -4,12 +4,12 @@
     "lifetime_follows": 23,
     "lifetime_likes": 33,
     "lifetime_comments": 7,
-    "last_session": "2026-09-06-2342-pi",
+    "last_session": "comments-2026-09-07T1407Z",
     "blocked_at": null,
-    "last_updated": "2026-09-06T23:42:56Z",
-    "total_actions": 570,
+    "last_updated": "2026-09-07T14:10:20Z",
+    "total_actions": 572,
     "lifetime_dms": 33,
-    "lifetime_comments_outbound": 44
+    "lifetime_comments_outbound": 46
   },
   "actions": [
     {
@@ -26210,6 +26210,24 @@
       ],
       "untapped_warm": [],
       "dry_run": false
+    },
+    {
+      "timestamp": "2026-09-07T14:08:16Z",
+      "action": "comment_posted",
+      "target": "iheartorganizing",
+      "session": "comments-2026-09-07T1407Z",
+      "post_url": "https://www.instagram.com/iheartorganizing/p/B5By96PFDM0/",
+      "text": "I miss the reveal photos on these \u2014 do you find front-facing labels or angled ones hold up better once the bins get shuffled around by kids?",
+      "caption_seen": ""
+    },
+    {
+      "timestamp": "2026-09-07T14:10:20Z",
+      "action": "comment_posted",
+      "target": "thehomeedit",
+      "session": "comments-2026-09-07T1407Z",
+      "post_url": "https://www.instagram.com/thehomeedit/p/DcjXBFmPpl1/",
+      "text": "I don't want to write a cross-post like this without knowing what's actually in the caption \u2014 it was truncated to nothing. Can you share the caption text or a screenshot of the post so the comment ref",
+      "caption_seen": ""
     }
   ]
 }
