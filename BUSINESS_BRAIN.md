@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-09-07 (Strategy & Outreach 9am)
+# Last updated: 2026-09-07 (Affiliate Optimizer 10am)
 # ============================================================
 
 ---
@@ -561,6 +561,7 @@ Agent configs live in `/private/tmp/golden-home-project/automation/agents/`.
 8. **GitHub Actions need `permissions: contents: write`** — without it, workflows can post to YouTube but can't push logs back to repo.
 9. **Daily posting confirmed working** — 2 consecutive successful posts (Apr 1-2). Automation is reliable.
 10. **Competitor channels don't show exact prices** — this is our differentiation. Lone Fox (1.5M), Kristen McGowan (1.8M) don't put dollar amounts in hooks. We do. Keep it.
+11. **Direct brand partnerships are 10-15x more valuable per sale than Amazon for the same content slot.** Mamma Mia Covers at 24-30% on a $49-89 product = $11.76–$26.70/sale. Amazon Associates on the same content slot (e.g., $28 wallpaper at 3%) = $0.84/sale. Every script slot used for Mamma Mia content is 10-15x the revenue of a generic Amazon product script. Prioritize active high-commission partners (Mamma Mia, Promeed, Syruvia) over Amazon default whenever the product fits the hook. (Added 2026-09-07)
 
 ---
 
@@ -703,6 +704,10 @@ Agent configs live in `/private/tmp/golden-home-project/automation/agents/`.
 - [ ] **🚨 Smartwings — Labor Day sale OPEN NOW (Sept 4–8, closes Sept 8 — 2 days left)** — Window shades/blinds, 8% sitewide, ON-NICHE. Join via Impact dashboard to get tracking links before the sale window closes Sept 8. Browser login required (Ian or Pi only). Miss it and the promotion opportunity is gone.
 - [ ] **Simplehuman — contact fix (BOUNCED 2026-09-06)** — partnerships@simplehuman.com bounced (mailer-daemon 13:06 UTC Sep 6, msg 1a076d36db850165). Do NOT email again. Apply via ShareASale publisher portal (search "simplehuman") OR use simplehuman.com/pages/contact or partnership form. Kitchen/bath organization — ON-NICHE, high-AOV ($30-200).
 - [ ] **Tempaper follow-up (2026-09-14)** — Pitched atyourservice@tempaper.com 2026-09-07 (msg 1a07bfb6c5afd34b). Peel-and-stick removable wallpaper, ON-NICHE, Awin affiliate program. Follow up if no reply by Sep 14. IAN: also apply directly via Awin publisher portal (search "Tempaper") for immediate access.
+- [ ] **FLAUNT niche research (Impact)** — Joined Impact marketplace 2026-08-21 with no niche research done. Before briefing Content Engine or building any tracking links, check Impact dashboard merchant profile for FLAUNT to confirm product category. Skip if off-niche (home/decor). (Affiliate Optimizer 2026-09-07)
+- [ ] **Dreame re-check on Impact (robot vacuums)** — Original outreach sent 2026-04-03 to Jenny (Easter Sale 60% off thru Apr 12). Zero follow-up in 5 months. Log into Impact dashboard and check current partnership status — may be pre-approved, lapsed, or have a new contact. Robot vacuums ($200-800, 5%+) remain our highest-AOV uncovered category. (Affiliate Optimizer 2026-09-07)
+- [ ] **BISSELL re-check on Impact (home cleaning)** — Original outreach SENT 2026-04-02. Zero follow-up in 5 months. Check Impact dashboard for current partnership status. Home cleaning is perfect for transformation "first step" content. Up to 8.4% commission. (Affiliate Optimizer 2026-09-07)
+- [ ] **Sep 7 trend content is Amazon Associates-ready NOW** — Today's top 3 Trend Scout opportunities (wallpaper $28, cabinet hardware $34, curtains $45) can all use goldenhomep06-20 Amazon Associates tag immediately. Content Engine: NO new affiliate setup needed — green light to script and render these hooks today using existing Amazon tracking. (Affiliate Optimizer 2026-09-07)
 
 ---
 *This file is automatically updated by agents. Human review recommended weekly.*
