@@ -6507,10 +6507,10 @@
   },
   {
     "name": "reel_2026-09-07_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-09-07-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-07-001.mp4",
     "caption": "349,735 people reviewed this $19.88 scale. Almost none mention the price.\n\nA bathroom scale is one of the few home purchases people actually leave reviews for, since the number either matches the mirror or it doesn't. At 349,735 ratings, the Etekcity digital scale has more feedback than most kitchen gadgets or storage bins in the same price range.\n\nIt's a digital body weight bathroom scale, nothing more, nothing less. A 4.7-star average across that many reviews is the kind of consistency that's hard to fake with a single product category people are this picky about.\n\nFor $19.88, you're getting a scale with a review count most home products never approach, which is its own kind of evidence.\n\nComment BATHROOM and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -6527,14 +6527,15 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "349,735 people reviewed this $19.88 scale. Almost none mention the price."
+    "hook": "349,735 people reviewed this $19.88 scale. Almost none mention the price.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-07-001.mp4"
   },
   {
     "name": "reel_2026-09-07_002",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-09-07-002.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-07-002.mp4",
     "caption": "Everyone tells you to buy more bins. Your under-sink cabinet doesn't need more bins, it needs the vertical space back.\n\nBottles get stacked because there's no other way to fit them, so reaching the one in back means pulling half the cabinet out first. That's not clutter, that's unused air space above every bottle.\n\nThe Simple Houseware 2-Tier Sliding Basket Organizer sets on the cabinet floor with no tools and no drilling, and each tier slides out on its own.\n\n$34.97 turns one flat shelf into two, so the same footprint holds twice the bottles without adding a single extra container.\n\nComment LINK and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #kitchenorganization #smallspacesolutions #undersinkstorage",
     "hashtags": [
       "#amazonhomefinds",
@@ -6552,14 +6553,15 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "Everyone tells you to buy more bins. Your under-sink cabinet doesn't need more bins, it needs the vertical space back."
+    "hook": "Everyone tells you to buy more bins. Your under-sink cabinet doesn't need more bins, it needs the vertical space back.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-07-002.mp4"
   },
   {
     "name": "reel_2026-09-07_003",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-09-07-003.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-07-003.mp4",
     "caption": "Everyone tells you to buy more hangers. That's not why your rod is jammed.\n\nStandard hangers are thick at the shoulder, so even a tidy count of them eats up rod inches, lets shirts slide into a pile, and leaves no clear gap between outfits.\n\nThe Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers, a 100-pack rated 4.8 stars across 231,174 reviews, use a thin non-slip build so each piece keeps its own slot instead of sliding into the next.\n\nAt $39.99 for 100, it's a width fix, not a storage fix, and it's the difference between a jammed rod and one with breathing room.\n\nComment HANGERS and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -6576,7 +6578,8 @@
       "affiliate_network": "amazon",
       "affiliate_url": "https://www.amazon.com/dp/B07Y39ZXV7?tag=goldenhomep06-20"
     },
-    "hook": "Everyone tells you to buy more hangers. That's not why your rod is jammed."
+    "hook": "Everyone tells you to buy more hangers. That's not why your rod is jammed.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-07-003.mp4"
   },
   {
     "id": "carousel-2026-09-07-B0DGF616XN",
