@@ -3661,6 +3661,38 @@
       "verified_stars": "4.8",
       "verified_reviews": 7789,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0FB7RPM1G",
+      "product_name": "STANLEY Quencher H2.0 Flow State Tumbler, 30 oz, Cranberry | Handle and Straw | 3-Position Lid | Cup Holder Compatible f",
+      "categories": [
+        "kitchen",
+        "Kitchen Storage"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0FB7RPM1G?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-09-07",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$20.00",
+      "verified_stars": "4.7",
+      "verified_reviews": 204611,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B00SFSU53G",
+      "product_name": "Mounting Dream Full Motion TV Wall Mount for 32-70 Inch TVs up to 99lbs | Mount Bracket with Swivel and Tilt, TV Bracket",
+      "categories": [
+        "home",
+        "Furniture"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B00SFSU53G?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-09-07",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$34.19",
+      "verified_stars": "4.8",
+      "verified_reviews": 75748,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
