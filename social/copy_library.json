@@ -1725,6 +1725,50 @@
           }
         ],
         "voice_rev": "2026-08-26"
+      },
+      {
+        "hook_category": "proof",
+        "hook": "349,735 people rated this scale. Almost none of them are athletes.",
+        "beat1": "A number that large stops being a marketing claim and starts being a pattern. This isn't a niche fitness gadget bought by a small crowd \u2014 it's a bathroom scale sitting in hundreds of thousands of ordinary homes, rated 4.7 out of 5 stars.",
+        "turn": "The Etekcity Digital Body Weight Bathroom Scale does one job: step on, get a number. At 349,735 reviews and a 4.7 average, that volume of agreement is harder to dismiss than any single five-star write-up.",
+        "result": "For a bathroom staple, that's about as close to a sure thing as a $19.88 purchase gets.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Static overhead shot of a sleek digital bathroom scale on tile flooring, clean and minimal",
+            "on_screen_text": "349,735 REVIEWS",
+            "voiceover": "349,735 people rated this scale. Almost none of them are athletes."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Slow zoom into the digital display panel of the scale, screen glowing with a weight readout",
+            "on_screen_text": "4.7 STARS AVG",
+            "voiceover": "That's not a niche gadget rating. That's hundreds of thousands of regular households agreeing on the same simple tool."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Feet stepping onto the scale in a bathroom setting, display lighting up instantly",
+            "on_screen_text": "STEP ON. READ.",
+            "voiceover": "It's a digital body weight scale. Step on, get your number. Nothing to charge, nothing to configure."
+          },
+          {
+            "n": 4,
+            "duration_sec": 5,
+            "visual_prompt": "Scale shown fitting neatly beside a bathroom cabinet, then a price tag graphic overlay",
+            "on_screen_text": "$19.88",
+            "voiceover": "At 349,735 reviews and a 4.7 average, that level of agreement is hard to argue with, especially at nineteen eighty-eight."
+          },
+          {
+            "n": 5,
+            "duration_sec": 4,
+            "visual_prompt": "Final clean product shot of the scale centered on a bathroom floor with soft natural light",
+            "on_screen_text": "SHOP THIS SCALE",
+            "voiceover": "For a bathroom basic, that's about as close to a sure thing as it gets."
+          }
+        ]
       }
     ],
     "BEDDING": [
