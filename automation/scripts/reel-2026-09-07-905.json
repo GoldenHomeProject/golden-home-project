@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-07T14:41:19.829073Z",
+  "date": "2026-09-07",
+  "seq": 905,
+  "source": "repurpose",
+  "hook": "Two products. Under $52. Whole kitchen changes.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Two products laid side by side on a counter, the cabinet pull pack and the lazy susan turntable set",
+      "on_screen_text": "$26.99 + $24.99 = $51.98",
+      "voiceover": "Two products, under $52 total, and a kitchen looks and functions differently."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Matte black pulls being installed onto a row of cabinet doors",
+      "on_screen_text": "$26.99: what it looks like",
+      "voiceover": "The $26.99 pull pack changes what the kitchen looks like from across the room."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Lazy susan turntable spinning inside a corner cabinet, bottles and jars neatly arranged",
+      "on_screen_text": "$24.99: what it holds",
+      "voiceover": "The $24.99 turntable set fixes what's inside, corner cabinets where jars disappear into the back."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Text graphic showing 6,190 ratings and 4.7 stars for the turntable set",
+      "on_screen_text": "6,190 ratings. 4.7 stars.",
+      "voiceover": "Same review-volume logic applies here, 6,190 ratings back it up."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Split screen labeled cosmetic on one side showing hardware, functional on the other showing organized cabinet",
+      "on_screen_text": "Cosmetic fix + functional fix",
+      "voiceover": "One solves the look, the other solves the daily annoyance, different problems, same afternoon."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Full finished kitchen shot with both products installed",
+      "on_screen_text": "Under $52 total",
+      "voiceover": "Under $52, and it's not a stock-photo before and after."
+    },
+    {
+      "n": 7,
+      "duration_sec": 3,
+      "visual_prompt": "Link-in-bio card graphic",
+      "on_screen_text": "Full breakdown, link in bio",
+      "voiceover": "Both products and the full math are linked in the post, link in bio."
+    }
+  ],
+  "caption": "I paired the $26.99 pull swap with a $24.99 turntable fix and landed under $52 for a kitchen that looks and works differently. Full breakdown linked in bio.",
+  "hashtags": [
+    "#kitchenorganization",
+    "#budgetkitchen",
+    "#lazysusan",
+    "#cabinetpulls",
+    "#kitchenrefresh",
+    "#amazonfinds"
+  ]
+}

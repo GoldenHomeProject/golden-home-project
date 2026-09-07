@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-07T14:41:19.828641Z",
+  "date": "2026-09-07",
+  "seq": 902,
+  "source": "repurpose",
+  "hook": "I read all 38,159 reviews on the $26.99 pull.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Person scrolling phone with a skeptical expression, Amazon review page visible on screen",
+      "on_screen_text": "38,159 reviews. I read the pattern.",
+      "voiceover": "I don't trust a hardware swap that claims to look like a $10,000 remodel, so I went through the reviews."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Text graphic highlighting recurring complaint keywords pulled from review excerpts",
+      "on_screen_text": "Complaints matter more than stars",
+      "voiceover": "At this many reviews, the complaints tell you more than the star average does."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Close-up comparison of a true matte black finish next to a shinier semi-gloss black pull under a lamp",
+      "on_screen_text": "True matte. No shine under lights.",
+      "voiceover": "The recurring note is that it's a true flat matte, not the semi-gloss that photographs shiny."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Hand touching the pull repeatedly, no visible fingerprint smudge left behind",
+      "on_screen_text": "Resists fingerprints",
+      "voiceover": "Reviewers say the stainless steel resists fingerprints better than brushed nickel does."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Split screen comparing a chipped cheap powder-coated black pull against an intact stainless one",
+      "on_screen_text": "$15 pulls reportedly chip",
+      "voiceover": "The cheaper powder-coated pulls in the $15 to $20 range reportedly chip at the screws within a year, this one reviewers say holds up."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Price tag graphic reading $26.99 for 30 pulls over a product shot",
+      "on_screen_text": "$26.99 for 30 pulls",
+      "voiceover": "All of that for 90 cents a pull."
+    },
+    {
+      "n": 7,
+      "duration_sec": 3,
+      "visual_prompt": "Link-in-bio card graphic over finished kitchen shot",
+      "on_screen_text": "Full review breakdown, link in bio",
+      "voiceover": "I laid out every complaint and every fit detail in the full post, link in bio."
+    }
+  ],
+  "caption": "I don't trust hardware that claims to look like a $10K remodel without checking the reviews first. Here's what 38,159 ratings actually say about fit, finish, and durability. Full writeup linked in bio.",
+  "hashtags": [
+    "#kitchenhardware",
+    "#matteblackhardware",
+    "#amazonfinds",
+    "#cabinetpulls",
+    "#homeupdate",
+    "#reviewbreakdown"
+  ]
+}

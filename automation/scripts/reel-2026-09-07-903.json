@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-07T14:41:19.828800Z",
+  "date": "2026-09-07",
+  "seq": 903,
+  "source": "repurpose",
+  "hook": "HGTV named the trend; skipped the $26.99 price.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Magazine or article headline mockup reading Mixed Metals: Trend of the Year",
+      "on_screen_text": "HGTV's trend of the year",
+      "voiceover": "HGTV named mixed metals, brass, chrome, and nickel together, the kitchen trend of the year."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Wide shot of a kitchen with a brass faucet, chrome fixtures, and mismatched brushed nickel knobs looking cluttered",
+      "on_screen_text": "Most kitchens already have 2 of 3",
+      "voiceover": "What they didn't say is most kitchens already have two of those finishes installed, in the faucet or the lights."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Hand swapping mismatched knobs for matte black pulls across a row of cabinet doors",
+      "on_screen_text": "One consistent contrast finish",
+      "voiceover": "The fix isn't adding a third metal, it's picking one finish and using it everywhere."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Before and after split screen with the same brass faucet, before showing mismatched knobs, after showing matte black pulls",
+      "on_screen_text": "Same faucet, reads intentional now",
+      "voiceover": "The same brass faucet suddenly reads as a deliberate choice, not a leftover from a past renovation."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Text graphic listing four mismatched finishes with an X mark over each",
+      "on_screen_text": "3-4 random finishes reads dated",
+      "voiceover": "The outdated look isn't brass, it's three or four finishes with no repeating pattern."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Price tag graphic $26.99 overlaid on a finished kitchen photo",
+      "on_screen_text": "$26.99 to fix it",
+      "voiceover": "One $26.99 pack of matte black pulls is the whole fix."
+    },
+    {
+      "n": 7,
+      "duration_sec": 3,
+      "visual_prompt": "Link-in-bio card graphic",
+      "on_screen_text": "Full mixed-metals math, link in bio",
+      "voiceover": "I broke down exactly how to audit your own kitchen for this, link in bio."
+    }
+  ],
+  "caption": "HGTV called mixed metals the trend of the year but didn't mention most kitchens already have it, just mismatched instead of intentional. Here's the $26.99 fix. Full post linked in bio.",
+  "hashtags": [
+    "#mixedmetals",
+    "#hgtvinspired",
+    "#kitchentrends",
+    "#matteblackhardware",
+    "#cabinetpulls",
+    "#kitchendesign"
+  ]
+}

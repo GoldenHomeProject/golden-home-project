@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-07T14:41:19.828940Z",
+  "date": "2026-09-07",
+  "seq": 904,
+  "source": "repurpose",
+  "hook": "One measurement decides if this $26.99 fix works.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Tape measure stretched across two existing cabinet door holes",
+      "on_screen_text": "Measure your hole spacing first",
+      "voiceover": "Before you order any pull, measure the spacing between your existing cabinet holes."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Text graphic showing 3-inch (76mm) and 5-inch (128mm) measurement diagrams",
+      "on_screen_text": "Standard spacing means no new holes",
+      "voiceover": "Reviewers report two spacings working straight out of the box, 3-inch and 5-inch centers."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Hand holding a single-hole knob next to a two-hole pull, showing the mismatch, then a cover plate being placed over the gap",
+      "on_screen_text": "Single knob needs a cover plate",
+      "voiceover": "If your cabinets use single-hole knobs instead of two-hole pulls, you'll need a cover plate or a new hole."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Hand trimming a long screw with a cutting tool against a thin cabinet door",
+      "on_screen_text": "Screws run long, trim for thin doors",
+      "voiceover": "The included screws are long, good for thick MDF doors, but reviewers say thin half-inch doors need them trimmed."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Time-lapse of a screwdriver removing old pulls one by one across a full row of cabinets, clock graphic overlay",
+      "on_screen_text": "Removal takes longer than install",
+      "voiceover": "The real time sink isn't installing the new pulls, it's removing the old ones, about two hours for a full kitchen."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Finished kitchen wide shot, all matte black hardware installed",
+      "on_screen_text": "Screwdriver job, no power tools",
+      "voiceover": "This is a screwdriver job on existing holes, not a renovation."
+    },
+    {
+      "n": 7,
+      "duration_sec": 3,
+      "visual_prompt": "Link-in-bio card graphic over the finished kitchen",
+      "on_screen_text": "Full fit guide, link in bio",
+      "voiceover": "The full fit and install breakdown is on the blog, link in bio."
+    }
+  ],
+  "caption": "The fit question matters more than the finish question. Here's exactly what reviewers report about hole spacing, screw length, and how long the swap actually takes. Full guide linked in bio.",
+  "hashtags": [
+    "#cabinethardware",
+    "#diyinstall",
+    "#kitchenhack",
+    "#cabinetpulls",
+    "#homeimprovement",
+    "#diytips"
+  ]
+}

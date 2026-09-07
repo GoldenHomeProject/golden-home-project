@@ -1,0 +1,68 @@
+{
+  "created_at": "2026-09-07T14:41:19.828317Z",
+  "date": "2026-09-07",
+  "seq": 901,
+  "source": "repurpose",
+  "hook": "A $26.99 pull outranked a $10,000 remodel.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of a hand holding a plain brushed-nickel knob next to a matte black pull under harsh kitchen lighting",
+      "on_screen_text": "$26.99 vs $10,000",
+      "voiceover": "I found a $27 hardware pack outranking $10,000 kitchen remodels in before/after posts."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Screen recording scrolling Amazon reviews with the rating count ticking upward",
+      "on_screen_text": "38,159 ratings. 4.7 stars.",
+      "voiceover": "38,159 people rated this pull 4.7 stars, and that's not a small sample size."
+    },
+    {
+      "n": 3,
+      "duration_sec": 5,
+      "visual_prompt": "Hand unscrewing an old nickel knob off a cabinet door, revealing existing screw holes",
+      "on_screen_text": "Same holes. No drilling.",
+      "voiceover": "It fits the 3-inch and 5-inch hole spacing already drilled into most 2000s and 2010s cabinets."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Montage of matte black pulls being installed row by row across cabinet doors and drawers",
+      "on_screen_text": "20-30 pulls per kitchen",
+      "voiceover": "A typical U-shaped kitchen needs 20 to 30 pulls, so most kitchens fit inside one $26.99 pack."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Side-by-side before and after kitchen photo, same cabinets, different hardware",
+      "on_screen_text": "$0.90 per pull",
+      "voiceover": "That's 90 cents a pull doing the job a $9,000 cabinet refacing job usually gets credited for."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Text overlay on a shot of cabinet with peeling laminate at the corner",
+      "on_screen_text": "Won't fix water damage",
+      "voiceover": "It won't fix sagging doors or water-damaged laminate, this is cosmetic, not structural."
+    },
+    {
+      "n": 7,
+      "duration_sec": 3,
+      "visual_prompt": "Final wide shot of a finished kitchen with matte black hardware throughout, text card appears",
+      "on_screen_text": "Full breakdown, link in bio",
+      "voiceover": "I broke down the math, the fit, and what reviewers actually complain about, link in bio."
+    }
+  ],
+  "caption": "I didn't believe a $27 pull pack could outrank a $10K remodel until I read all 38,159 reviews. Here's the actual math, the fit specs, and where it falls short. Full breakdown on the blog, link in bio.",
+  "hashtags": [
+    "#cabinethardware",
+    "#kitchenrefresh",
+    "#budgetremodel",
+    "#matteblack",
+    "#cabinetpulls",
+    "#diykitchen",
+    "#beforeandafter"
+  ]
+}

@@ -6596,5 +6596,91 @@
     "keyword": "LINK",
     "queued_at": "2026-09-07T13:09:37.429251Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_repurpose_2026-09-07_901",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-07-901.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "I didn't believe a $27 pull pack could outrank a $10K remodel until I read all 38,159 reviews. Here's the actual math, the fit specs, and where it falls short. Full breakdown on the blog, link in bio.",
+    "hashtags": [
+      "#cabinethardware",
+      "#kitchenrefresh",
+      "#budgetremodel",
+      "#matteblack",
+      "#cabinetpulls",
+      "#diykitchen",
+      "#beforeandafter"
+    ],
+    "hook": "A $26.99 pull outranked a $10,000 remodel."
+  },
+  {
+    "name": "reel_repurpose_2026-09-07_902",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-07-902.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "I don't trust hardware that claims to look like a $10K remodel without checking the reviews first. Here's what 38,159 ratings actually say about fit, finish, and durability. Full writeup linked in bio.",
+    "hashtags": [
+      "#kitchenhardware",
+      "#matteblackhardware",
+      "#amazonfinds",
+      "#cabinetpulls",
+      "#homeupdate",
+      "#reviewbreakdown"
+    ],
+    "hook": "I read all 38,159 reviews on the $26.99 pull."
+  },
+  {
+    "name": "reel_repurpose_2026-09-07_903",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-07-903.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "HGTV called mixed metals the trend of the year but didn't mention most kitchens already have it, just mismatched instead of intentional. Here's the $26.99 fix. Full post linked in bio.",
+    "hashtags": [
+      "#mixedmetals",
+      "#hgtvinspired",
+      "#kitchentrends",
+      "#matteblackhardware",
+      "#cabinetpulls",
+      "#kitchendesign"
+    ],
+    "hook": "HGTV named the trend; skipped the $26.99 price."
+  },
+  {
+    "name": "reel_repurpose_2026-09-07_904",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-07-904.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "The fit question matters more than the finish question. Here's exactly what reviewers report about hole spacing, screw length, and how long the swap actually takes. Full guide linked in bio.",
+    "hashtags": [
+      "#cabinethardware",
+      "#diyinstall",
+      "#kitchenhack",
+      "#cabinetpulls",
+      "#homeimprovement",
+      "#diytips"
+    ],
+    "hook": "One measurement decides if this $26.99 fix works."
+  },
+  {
+    "name": "reel_repurpose_2026-09-07_905",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-07-905.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "I paired the $26.99 pull swap with a $24.99 turntable fix and landed under $52 for a kitchen that looks and works differently. Full breakdown linked in bio.",
+    "hashtags": [
+      "#kitchenorganization",
+      "#budgetkitchen",
+      "#lazysusan",
+      "#cabinetpulls",
+      "#kitchenrefresh",
+      "#amazonfinds"
+    ],
+    "hook": "Two products. Under $52. Whole kitchen changes."
   }
 ]
