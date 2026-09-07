@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-09-06 (Affiliate Optimizer 10am)
+# Last updated: 2026-09-07 (Strategy & Outreach 9am)
 # ============================================================
 
 ---
@@ -274,6 +274,12 @@ No single point of failure — the flywheel keeps spinning.
 - **"Worth the money" list format on TikTok** — direct-to-camera 3-item "worth it / not worth it" videos performing well in home niche; connects to our "comparison" format strength.
 - **Junk drawer** — Trend Scout (2026-08-19) flags "chaotic junk drawer → fully sorted" as high-opportunity.
 - **Competitors** (checked Aug 2026): Alexandra Gater leans into renter/small-space content and budget-friendly makeovers — our exact overlap. Her audience is highly engaged on renter-restriction hacks. We should out-execute on dollar specificity she lacks.
+### September 2026 Visual Trend Insights (updated 2026-09-07):
+- **Peel-and-stick wallpaper rental bedroom** — Trend Scout top opportunity: "$28 wallpaper turned this rental bedroom." TikTok's #interiorbeforeandafter confirms peel-and-stick wallpaper transformations going viral in 2026 (25 creators with home rentals went viral this year per Amra & Elma). High visual impact, renter-safe (no drilling, peels off cleanly), instant before/after. Hook: "My bedroom had builder beige walls. $28 of peel-and-stick wallpaper. Same rental." Tempaper products ($30-80/roll, Awin affiliate) = natural partner tie-in. Pitched today.
+- **Cabinet hardware swap kitchen upgrade** — Trend Scout flagged "$34 hardware swap made this kitchen look [renovated]." TikTok renter-friendly upgrade content confirms swapping cabinet hardware = #1 cheapest kitchen upgrade (screwdriver only, renter-safe). Hook: "This kitchen looked like every other rental. $34 in new cabinet hardware. Same kitchen." Amazon affiliate: Cosmas/Amerock/Hickory Hardware sets ($25-45). No tools beyond a screwdriver = renter moat.
+- **Curtain ceiling-height upgrade** — Trend Scout flagged "$45 curtains gave this living room the elevation." TikTok confirms floor-to-ceiling curtains as #1 recommended non-permanent rental upgrade — makes rooms look taller, instantly more expensive. Hook: "I added $45 of curtains. My friends think I renovated." Amazon affiliate: NICETOWN/H.Versailtex blackout curtain panels + rod.
+- **Competitor watch (Sep 7):** Alexandra Gater gained 22K subscribers + 3.74M views in last 30 days on her renter/budget niche — confirms our niche is commercially enormous. TikTok rental creator Kristy Scott (16M followers) dominates #interiorbeforeandafter with renter hacks — NONE use specific dollar amounts. Dollar specificity is our proven differentiator; lean into it on every hook.
+
 ### September 2026 Visual Trend Insights (updated 2026-09-06):
 - **Fridge deodorizer + organizer combo** — Today's Trend Scout flagged "$16 gadget erased fridge stink in 24 hours" as top opportunity, pairing with the Pinterest fridge org +375% trend confirmed Sep 5. The 2-in-1 angle (smell AND visual chaos) outperforms either product alone. Products: activated charcoal deodorizer ($9) + clear fridge bins ($19). Hook: "My fridge was stinking AND messy. $28 total. Same fridge." AliExpress CJ 9% tie-in on clear bins = direct CJ deactivation fix.
 - **Labeled closet system — "bins aren't enough"** — Trend Scout's "$32 in bins turned our chaos closet" opportunity + proven 32% engagement lift on labeled systems (Sep 3 data). The counter-intuitive angle: people buy bins but skip labels and still can't find anything. Second-person scene hook: "You already know which drawer you don't open in front of guests. Bins aren't enough. $32 with labels is." AliExpress CJ label maker + bins, renter-safe. Addresses the CJ deactivation deadline urgently.
@@ -450,6 +456,7 @@ New agent spec: `automation/agents/ai_revenue_playbook.md` (COSTAR prompt framew
 | Direct | IRIS USA | TBD | Outreach sent 2026-09-04 | Clear storage bins/closet organizers/drawer organizers — ON-NICHE (our #1 content category, Sep trending). $15-60 AOV = perfect "specific dollar amount" hook. Pitched contactus@irisusainc.com (msg 1a06c86f50c72ef8). |
 | Awin | Joseph Joseph | 5% | Outreach sent 2026-09-05 | Kitchen/bathroom/utility organization tools — ON-NICHE. Colorful, design-forward organizers (nest+stack, drawer inserts). Active AWIN program (UK: merchant 30663). 36 influencers already sponsored (confirmed Mar 2026). Pitched charlie.chung@josephjoseph.com (msg 1a071ae6d3d0c6cd). Perfect fit for counter clarity + kitchen transformation content. |
 | Direct/ShareASale | Simplehuman | TBD | **BOUNCED 2026-09-06** | Kitchen/bath organization tools — ON-NICHE. Premium sensor pumps, dish racks, trash cans, shower caddies. High-AOV ($30-200). partnerships@simplehuman.com BOUNCED (mailer-daemon 13:06 UTC). Apply via ShareASale publisher portal (search "simplehuman") OR use simplehuman.com contact/partnership form. |
+| Awin / Direct | Tempaper | TBD | Outreach sent 2026-09-07 | Peel-and-stick removable wallpaper — ON-NICHE (renter-safe, perfect for our renter-transformation moat). Affiliate program on Awin (tempaper.com/pages/affiliate). High-visual-impact product, natural fit for Sep 7 trending "$28 wallpaper bedroom" hook. Pitched atyourservice@tempaper.com (msg 1a07bfb6c5afd34b). IAN: also apply via Awin publisher portal (search "Tempaper"). |
 
 ---
 
@@ -695,6 +702,7 @@ Agent configs live in `/private/tmp/golden-home-project/automation/agents/`.
 - [ ] **Joseph Joseph follow-up (2026-09-12)** — Pitched charlie.chung@josephjoseph.com 2026-09-05 (msg 1a071ae6d3d0c6cd). Kitchen/bathroom organization tools, 5% commission on AWIN (merchant 30663). ON-NICHE, 36 active sponsored creators. Follow up if no reply by Sep 12. Alternative: apply directly via AWIN dashboard (us.josephjoseph.com program).
 - [ ] **🚨 Smartwings — Labor Day sale OPEN NOW (Sept 4–8, closes Sept 8 — 2 days left)** — Window shades/blinds, 8% sitewide, ON-NICHE. Join via Impact dashboard to get tracking links before the sale window closes Sept 8. Browser login required (Ian or Pi only). Miss it and the promotion opportunity is gone.
 - [ ] **Simplehuman — contact fix (BOUNCED 2026-09-06)** — partnerships@simplehuman.com bounced (mailer-daemon 13:06 UTC Sep 6, msg 1a076d36db850165). Do NOT email again. Apply via ShareASale publisher portal (search "simplehuman") OR use simplehuman.com/pages/contact or partnership form. Kitchen/bath organization — ON-NICHE, high-AOV ($30-200).
+- [ ] **Tempaper follow-up (2026-09-14)** — Pitched atyourservice@tempaper.com 2026-09-07 (msg 1a07bfb6c5afd34b). Peel-and-stick removable wallpaper, ON-NICHE, Awin affiliate program. Follow up if no reply by Sep 14. IAN: also apply directly via Awin publisher portal (search "Tempaper") for immediate access.
 
 ---
 *This file is automatically updated by agents. Human review recommended weekly.*
