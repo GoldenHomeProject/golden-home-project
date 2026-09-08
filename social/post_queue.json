@@ -6591,10 +6591,10 @@
   },
   {
     "name": "reel_repurpose_2026-09-07_902",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-09-07-902.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-07-902.mp4",
     "caption": "I don't trust hardware that claims to look like a $10K remodel without checking the reviews first. Here's what 38,159 ratings actually say about fit, finish, and durability. Full writeup linked in bio.",
     "hashtags": [
       "#kitchenhardware",
@@ -6604,14 +6604,15 @@
       "#homeupdate",
       "#reviewbreakdown"
     ],
-    "hook": "I read all 38,159 reviews on the $26.99 pull."
+    "hook": "I read all 38,159 reviews on the $26.99 pull.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-07-902.mp4"
   },
   {
     "name": "reel_repurpose_2026-09-07_903",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-09-07-903.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-07-903.mp4",
     "caption": "HGTV called mixed metals the trend of the year but didn't mention most kitchens already have it, just mismatched instead of intentional. Here's the $26.99 fix. Full post linked in bio.",
     "hashtags": [
       "#mixedmetals",
@@ -6621,14 +6622,15 @@
       "#cabinetpulls",
       "#kitchendesign"
     ],
-    "hook": "HGTV named the trend; skipped the $26.99 price."
+    "hook": "HGTV named the trend; skipped the $26.99 price.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-07-903.mp4"
   },
   {
     "name": "reel_repurpose_2026-09-07_904",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-09-07-904.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-07-904.mp4",
     "caption": "The fit question matters more than the finish question. Here's exactly what reviewers report about hole spacing, screw length, and how long the swap actually takes. Full guide linked in bio.",
     "hashtags": [
       "#cabinethardware",
@@ -6638,14 +6640,15 @@
       "#homeimprovement",
       "#diytips"
     ],
-    "hook": "One measurement decides if this $26.99 fix works."
+    "hook": "One measurement decides if this $26.99 fix works.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-07-904.mp4"
   },
   {
     "name": "reel_repurpose_2026-09-07_905",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-09-07-905.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-07-905.mp4",
     "caption": "I paired the $26.99 pull swap with a $24.99 turntable fix and landed under $52 for a kitchen that looks and works differently. Full breakdown linked in bio.",
     "hashtags": [
       "#kitchenorganization",
@@ -6655,6 +6658,7 @@
       "#kitchenrefresh",
       "#amazonfinds"
     ],
-    "hook": "Two products. Under $52. Whole kitchen changes."
+    "hook": "Two products. Under $52. Whole kitchen changes.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-07-905.mp4"
   }
 ]
