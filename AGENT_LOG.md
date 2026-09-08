@@ -3264,3 +3264,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** automation/scripts/reel-2026-09-08-*.json, social/post_queue.json
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: proof: Step on a bathroom scale twice in a row and get tw | proof: A bathroom scale doesn't need an app to tell you t | wrong_until_right: A towel's GSM number tells you more than how soft
+
+## 2026-09-08T11:55:28Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B08KXKVT4K (Vtopmart 25 PCS Clear Plastic Drawer Org)
+**Changed:** social/carousels/2026-09-08-B08KXKVT4K/slide-1.png, social/carousels/2026-09-08-B08KXKVT4K/slide-2.png, social/carousels/2026-09-08-B08KXKVT4K/slide-3.png, social/carousels/2026-09-08-B08KXKVT4K/slide-4.png, social/carousels/2026-09-08-B08KXKVT4K/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B08KXKVT4K carousel.
