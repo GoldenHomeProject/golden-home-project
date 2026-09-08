@@ -6660,5 +6660,29 @@
     ],
     "hook": "Two products. Under $52. Whole kitchen changes.",
     "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-07-905.mp4"
+  },
+  {
+    "name": "reel_2026-09-08_003",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-08-003.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "A towel's GSM number tells you more than how soft it feels folded on the shelf.\n\nGrab one after a shower and it's still damp from yesterday, or it just smears water around instead of soaking it up. That's not what a towel is supposed to do.\n\nThe American Soft Linen Luxury 4 Piece Bath Towel Set is 600 GSM 100% Turkish cotton, sized 27x54 inches, with a 4.4 star rating across 79,026 reviews.\n\nAt $39.99 for the set, that's a lot of people confirming these actually absorb well and hold up wash after wash.\n\nComment TOWELS and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "American Soft Linen Luxury 4 Piece Bath Towel Set, 600 GSM 100% Cotton Turkish Bath Towels for Bathroom, 27x54 in Large Bathroom Shower Towe",
+      "dm_keyword": "TOWELS",
+      "amazon_asin": "B08CYBPMJC",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B08CYBPMJC?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B08CYBPMJC?tag=goldenhomep06-20"
+    },
+    "hook": "A towel's GSM number tells you more than how soft it feels folded on the shelf."
   }
 ]

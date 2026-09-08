@@ -3258,3 +3258,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** social/pinterest_queue.json
 **External actions:** Pexels (backgrounds) + Claude CLI (pin copy)
 **Next agent hint:** post_pinterest.py (Pi) drains pinterest_queue.json once a Pinterest business account is logged into the Pi Chromium profile.
+
+## 2026-09-08T10:15:58Z — Content Engine
+**Ran:** Generated 3 Reel scripts from 5 trend opportunities
+**Changed:** automation/scripts/reel-2026-09-08-*.json, social/post_queue.json
+**External actions:** none
+**Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: proof: Step on a bathroom scale twice in a row and get tw | proof: A bathroom scale doesn't need an app to tell you t | wrong_until_right: A towel's GSM number tells you more than how soft
