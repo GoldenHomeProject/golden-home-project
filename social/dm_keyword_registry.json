@@ -552,6 +552,24 @@
       "source": "trending",
       "keyword": "SCALE",
       "promoted_at": "2026-09-07T12:20:24Z"
+    },
+    {
+      "asin": "B00U6HREPQ",
+      "product_name": "Utopia Bedding Queen Size Mattress Protector Zippered, 100% Waterproof | Bed Bug & Dust Mite Proof Mattress Encasement, ",
+      "categories": [
+        "home",
+        "Home & Kitchen"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B00U6HREPQ?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-08-27",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$22.49",
+      "verified_stars": "4.6",
+      "verified_reviews": 133326,
+      "discovery_source": "harvest_catalogue",
+      "keyword": "MATTRESS",
+      "promoted_at": "2026-09-08T12:20:29Z"
     }
   ],
   "_vetted_doc": "Verified-live Amazon ASINs cleared for blog/SEO/IG-caption use but NOT yet wired to a Meta comment-to-DM automation. Promote to `entries` (with a unique keyword) only AFTER creating the matching Meta Business Suite automation. Always use https://www.amazon.com/dp/<ASIN>?tag=goldenhomep06-20 \u2014 never search URLs.",
@@ -2878,22 +2896,6 @@
       "verified_price": "$20.99",
       "verified_stars": "4.7",
       "verified_reviews": 48570,
-      "discovery_source": "harvest_catalogue"
-    },
-    {
-      "asin": "B00U6HREPQ",
-      "product_name": "Utopia Bedding Queen Size Mattress Protector Zippered, 100% Waterproof | Bed Bug & Dust Mite Proof Mattress Encasement, ",
-      "categories": [
-        "home",
-        "Home & Kitchen"
-      ],
-      "affiliate_url": "https://www.amazon.com/dp/B00U6HREPQ?tag=goldenhomep06-20",
-      "status": "live",
-      "verified_at": "2026-08-27",
-      "verified_method": "best_seller_grid",
-      "verified_price": "$22.49",
-      "verified_stars": "4.6",
-      "verified_reviews": 133326,
       "discovery_source": "harvest_catalogue"
     },
     {

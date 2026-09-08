@@ -2140,6 +2140,52 @@
           }
         ]
       }
+    ],
+    "MATTRESS": [
+      {
+        "hook_category": "proof",
+        "hook": "133,326 ratings on one mattress protector. Only 4.6 stars slipped through.",
+        "beat1": "A queen mattress protector with over 133,000 reviews has been bought, used, and rated by more people than most furniture in your house. It zips fully around the mattress, so the claim isn't just a top layer that shifts overnight \u2014 it's a sealed encasement.",
+        "turn": "This one is listed as 100% waterproof and bed bug and dust mite proof, with a full zippered encasement rather than a fitted-sheet style cover. At 4.6 stars across 133,326 reviews, that volume of consistent rating is hard to dismiss as luck.",
+        "result": "For a mattress you already own, it's a $22.49 way to stop worrying about spills, allergens, and what's breeding in the seams.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close-up of a phone screen showing a product listing with '133,326 ratings' and '4.6 stars' visible, then pull back to reveal a bedroom",
+            "on_screen_text": "133,326 RATINGS",
+            "voiceover": "133,326 people have rated this mattress protector."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Hands unzipping a mattress encasement fully around a queen mattress, showing the zipper track going all the way around",
+            "on_screen_text": "FULL ZIP ENCASEMENT",
+            "voiceover": "It's not a cover that slides off \u2014 it zips completely around the mattress."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Water being poured or splashed on the protector's surface and beading up without soaking through",
+            "on_screen_text": "100% WATERPROOF",
+            "voiceover": "Utopia Bedding's queen protector is listed as fully waterproof, plus bed bug and dust mite proof."
+          },
+          {
+            "n": 4,
+            "duration_sec": 5,
+            "visual_prompt": "Star rating graphic animating to 4.6 out of 5 next to the review count, then a made bed with the protector underneath the sheets",
+            "on_screen_text": "4.6 STARS",
+            "voiceover": "At 4.6 stars across that many reviews, this isn't a fluke \u2014 it's one of the most-rated protectors in its category."
+          },
+          {
+            "n": 5,
+            "duration_sec": 4,
+            "visual_prompt": "Price tag graphic showing $22.49 next to the product box on a nightstand",
+            "on_screen_text": "$22.49",
+            "voiceover": "For $22.49, it's a straightforward way to protect the mattress you already have."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
