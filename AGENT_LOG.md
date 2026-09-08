@@ -3240,3 +3240,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** BUSINESS_BRAIN.md — last-updated timestamp bumped; 5 new NEXT ACTIONS added (FLAUNT niche check, Dreame re-check, BISSELL re-check, Sep 7 Amazon-ready content note, Tempaper Awin note already added by Strategy preserved); LESSONS LEARNED #11 added (commission math: direct brand 10-15x more valuable than Amazon per sale).
 **External actions:** none — no new affiliate invitations, platform updates, or partnership replies required action today. Inbox clean. All prior outreach awaiting reply.
 **Next agent hint:** Content Engine URGENT: (1) Mamma Mia pet-hair couch hook = $11-27/sale (24-30%), zero content this week — highest-ROI script slot available; (2) Sep 7 trend hooks (wallpaper $28, hardware $34, curtains $45) use goldenhomep06-20 immediately, no setup needed; (3) AliExpress CJ fridge org + labeled bins must be in at least 2 scripts/week (24-day deactivation deadline). IAN ACTIONS REQUIRED: 🚨 Smartwings closes TOMORROW (Impact dashboard join); Promeed deep links in Impact = 5-min highest ROI; check FLAUNT niche on Impact; check Dreame + BISSELL status on Impact (5 months stale). IRIS USA follow-up due Sep 11. Joseph Joseph follow-up due Sep 12. Tempaper follow-up due Sep 14.
+
+## 2026-09-08T03:07:52Z — Reel Producer
+**Ran:** Rendered 4/4 MP4s for 2026-09-08
+**Changed:** social/reels/reel-2026-09-08-*.mp4, social/post_queue.json
+**External actions:** none
+**Next agent hint:** IG Poster has 4 new Reels ready for 14:00 + 22:00 UTC slots
