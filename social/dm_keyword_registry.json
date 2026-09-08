@@ -3705,6 +3705,23 @@
       "verified_stars": "4.8",
       "verified_reviews": 75748,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B073WFCV1L",
+      "product_name": "Utopia Bedding Adjustable Bed Risers 3 & 5 Inch, Black, 4-Pack",
+      "categories": [
+        "dorm",
+        "college",
+        "organization"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B073WFCV1L?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-09-08",
+      "verified_method": "source_dorm/search+dp",
+      "verified_price": "$17.99",
+      "verified_stars": "4.5",
+      "verified_reviews": 43221,
+      "discovery_source": "back_to_college_2026"
     }
   ]
 }
