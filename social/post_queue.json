@@ -6663,10 +6663,10 @@
   },
   {
     "name": "reel_2026-09-08_003",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-09-08-003.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-08-003.mp4",
     "caption": "A towel's GSM number tells you more than how soft it feels folded on the shelf.\n\nGrab one after a shower and it's still damp from yesterday, or it just smears water around instead of soaking it up. That's not what a towel is supposed to do.\n\nThe American Soft Linen Luxury 4 Piece Bath Towel Set is 600 GSM 100% Turkish cotton, sized 27x54 inches, with a 4.4 star rating across 79,026 reviews.\n\nAt $39.99 for the set, that's a lot of people confirming these actually absorb well and hold up wash after wash.\n\nComment TOWELS and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -6683,22 +6683,7 @@
       "affiliate_network": "amazon",
       "affiliate_url": "https://www.amazon.com/dp/B08CYBPMJC?tag=goldenhomep06-20"
     },
-    "hook": "A towel's GSM number tells you more than how soft it feels folded on the shelf."
-  },
-  {
-    "id": "carousel-2026-09-08-B08KXKVT4K",
-    "media_type": "CAROUSEL_ALBUM",
-    "image_urls": [
-      "https://goldenhomeproject.com/social/carousels/2026-09-08-B08KXKVT4K/slide-1.png",
-      "https://goldenhomeproject.com/social/carousels/2026-09-08-B08KXKVT4K/slide-2.png",
-      "https://goldenhomeproject.com/social/carousels/2026-09-08-B08KXKVT4K/slide-3.png",
-      "https://goldenhomeproject.com/social/carousels/2026-09-08-B08KXKVT4K/slide-4.png",
-      "https://goldenhomeproject.com/social/carousels/2026-09-08-B08KXKVT4K/slide-5.png"
-    ],
-    "caption": "A bigger bin doesn't organize a drawer \u2014 dividing the space into sections does.\n\nSave this for later if your drawers are the \"shove it in and shut it\" kind. This 25-piece clear organizer set breaks big drawers into small, visible sections for utensils, makeup, office supplies, or that one junk drawer everyone has.\n\nComment LINK or DM me LINK for the link.\n\n#drawerorganization #homeorganizing #declutter #organizedhome #amazonfinds",
-    "asin": "B08KXKVT4K",
-    "keyword": "LINK",
-    "queued_at": "2026-09-08T11:55:28.663307Z",
-    "source": "carousel_generator"
+    "hook": "A towel's GSM number tells you more than how soft it feels folded on the shelf.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-08-003.mp4"
   }
 ]
