@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-09-09 (Email Monitor 8am)
+# Last updated: 2026-09-09 (Affiliate Optimizer 10am)
 # ============================================================
 
 ---
@@ -455,6 +455,7 @@ New agent spec: `automation/agents/ai_revenue_playbook.md` (COSTAR prompt framew
 | Direct | Tuft & Needle | TBD | Outreach sent 2026-08-17 | Mattresses/sleep — ON-NICHE (bedroom), high-AOV |
 | Awin | Promeed (baby-safe sleep) | TBD | Skipped 2026-08-19 | Off-niche — baby products, not home transformation |
 | Awin | CICYBELL | TBD | Invited 2026-08-23 — decline pending | Off-niche (clothing/fashion); reply to help@awin.com bounced — needs browser decline via Awin dashboard |
+| Awin | HealSend | N/A | **Decline attempted 2026-09-09 — BOUNCED** | Off-niche telehealth/GLP-1. Email Monitor sent decline to help@awin.com (msg 1a086209f5716a8c) but mailer-daemon confirmed delivery failure (postmaster@zanox.onmicrosoft.com) — Awin does not accept external email to help@awin.com. IAN must decline via Awin browser dashboard (same pattern as CICYBELL). |
 | Impact | FLAUNT | TBD | Joined marketplace 2026-08-21 | Unknown niche — research before joining |
 | Impact | GearUP | 50% | Skipped 2026-08-25 | Off-niche (gaming booster subscription) — no audience fit |
 | Impact | Smartwings | 8% sitewide | Evaluate 2026-09-02 | Window shades/blinds — ON-NICHE (home decor). Labor Day sale 8% off Sept 4–8, 2026. Mass promo blast via Impact outreach; join via Impact dashboard to promote. |
@@ -695,6 +696,8 @@ Agent configs live in `/private/tmp/golden-home-project/automation/agents/`.
 - [ ] **HIGH PRIORITY** Generate Promeed tracking links in Impact dashboard (silk pillowcase + CoolRest comforter deep links) — 12% commission, 30-day cookie, tracking LIVE 2026-08-25
 - [ ] Film CoolRest comforter using SAMPLE-IAN-COOL3-2026 (60% off, one-time code) for bedroom before/after content
 - [ ] Decline CICYBELL via Awin browser dashboard (email reply to help@awin.com bounced — cannot decline by email)
+- [ ] **🚨 IAN: Decline HealSend via Awin browser dashboard** — Email Monitor's decline email (help@awin.com) bounced (confirmed 2026-09-09 12:24 UTC). Awin does not accept external email to this address. Must decline via browser login to Awin dashboard (same as CICYBELL). Off-niche telehealth — do not accept.
+- [ ] **🚨 IRIS USA follow-up DUE TOMORROW (2026-09-11)** — Pitched contactus@irisusainc.com 2026-09-04. No reply in 7 days. Strategy agent: send follow-up tomorrow. ON-NICHE (clear bins, closet organizers, $15-60). Alternative: irisusainc.com/pages/contact-us dedicated partnerships form.
 - [ ] Research FLAUNT on Impact.com (new brand, joined 2026-08-21) — check niche before joining
 - [x] Follow up with eufy (Impact) — Follow-up SENT 2026-09-02 (thread 1a01a20b80cd9665). ⚠️ **BOUNCED** — affiliates@eufylife.com address not found 2026-09-02. Find correct contact via Impact dashboard.
 - [x] Follow up with Vakkerlight (paid collab) — rates email sent 2026-08-26. Follow-up SENT 2026-09-01 to noxemail@mcn.noxinfluencer.com.
