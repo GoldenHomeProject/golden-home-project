@@ -3309,8 +3309,8 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: proof: 349,735 people rated this scale. Almost none of th | proof: 133,326 ratings on one mattress protector. Only 4. | wrong_until_right: Bad-tasting tap water usually gets blamed on old p
 
-## 2026-09-09T12:05:52Z — Carousel Generator
-**Ran:** Generated 5-slide carousel for B00U6HREPQ (Utopia Bedding Queen Size Mattress Prote)
-**Changed:** social/carousels/2026-09-09-B00U6HREPQ/slide-1.png, social/carousels/2026-09-09-B00U6HREPQ/slide-2.png, social/carousels/2026-09-09-B00U6HREPQ/slide-3.png, social/carousels/2026-09-09-B00U6HREPQ/slide-4.png, social/carousels/2026-09-09-B00U6HREPQ/slide-5.png, social/post_queue.json
-**External actions:** Pexels (4 photos) + Claude CLI (slide content)
-**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B00U6HREPQ carousel.
+## 2026-09-09T12:10:12Z — Reel Producer
+**Ran:** Rendered 3/3 MP4s for 2026-09-09
+**Changed:** social/reels/reel-2026-09-09-*.mp4, social/post_queue.json
+**External actions:** none
+**Next agent hint:** IG Poster has 3 new Reels ready for 14:00 + 22:00 UTC slots
