@@ -3788,6 +3788,54 @@
       "verified_stars": "4.6",
       "verified_reviews": 5546,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B07FKX3H1H",
+      "product_name": "Furinno JUST Toolless 3-Tier Side Table, Open Shelf, Columbia Walnut | Soft-Corner, End Table, Night Stand, Bedside Tabl",
+      "categories": [
+        "home",
+        "Furniture"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B07FKX3H1H?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-09-09",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$17.76",
+      "verified_stars": "4.5",
+      "verified_reviews": 71162,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0B9H92YBW",
+      "product_name": "SetSail Towel Holder for Bathroom Wall Matte Black Towel Ring | Stainless Steel Hand Towel Holder Heavy Duty Towel Hange",
+      "categories": [
+        "home",
+        "Furniture"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0B9H92YBW?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-09-09",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$8.99",
+      "verified_stars": "4.7",
+      "verified_reviews": 5426,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0108XRHJU",
+      "product_name": "Poo-Pourri Before-You-Go Toilet Spray, Original Citrus, 4 Fl Oz | Bathroom Odor Deodorizer with Essential Oils, for Home",
+      "categories": [
+        "home",
+        "Home D\u00e9cor"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0108XRHJU?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-09-09",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$11.39",
+      "verified_stars": "4.7",
+      "verified_reviews": 99570,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
