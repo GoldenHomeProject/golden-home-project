@@ -35,7 +35,7 @@ from pathlib import Path
 from urllib import parse, request
 
 try:
-    from PIL import Image, ImageDraw, ImageFilter, ImageFont
+    from PIL import Image, ImageEnhance, ImageDraw, ImageFilter, ImageFont
 except ImportError:
     print("ERROR: Pillow not installed. pip install Pillow", file=sys.stderr)
     sys.exit(2)
@@ -470,6 +470,34 @@ def _photo_matches_product(query: str, product_name: str) -> bool:
     return bool(q & n)
 
 
+def product_pin_image(product_name: str, out_path: Path, seed: int) -> bool:
+    """A clean, bright studio image OF THE PRODUCT for a pin.
+
+    Looked at our own published pins on 2026-09-09 and the problem was obvious: a pin
+    for a "Furinno Toolless 3-Tier Side Table" showed a dark living room with no side
+    table in it; a pin for "Poo-Pourri Toilet Spray" showed unrelated cosmetics bottles.
+    Pexels was answering the scene query, not the product. Nobody saves a dim photo of
+    a stranger's living room — which is exactly what 205 impressions and 0 saves means.
+
+    FLUX renders the product category cleanly and brightly. Same honest framing as the
+    reels: it is a photoreal image of the CATEGORY, never claimed to be the item, and it
+    goes through the same _ai_image_usable screen that rejects rendered text and
+    undersized output.
+    """
+    try:
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        from reel_producer import flux_image, _ai_image_usable  # noqa: F401
+    except Exception as e:
+        print(f"  [pin-img] FLUX unavailable ({e}); using stock photo")
+        return False
+    prompt = (
+        "a single {p}, centred on a clean bright surface in a tidy modern home, "
+        "bright airy daylight, soft shadows, minimal uncluttered background, "
+        "generous negative space, crisp focus on the product"
+    ).format(p=product_name[:90])
+    return flux_image(prompt, product_name, out_path, seed=seed)
+
+
 def compose_pin(bg_path: Path | None, overlay_hook: str, subtitle: str,
                 price: str) -> Image.Image:
     """One 1000x1500 vertical pin. Photo path = Pexels portrait with a dark
@@ -483,13 +511,26 @@ def compose_pin(bg_path: Path | None, overlay_hook: str, subtitle: str,
         scale = max(PIN_W / bw, PIN_H / bh)
         bg = bg.resize((int(bw * scale), int(bh * scale)), Image.LANCZOS)
         ox, oy = (bg.size[0] - PIN_W) // 2, (bg.size[1] - PIN_H) // 2
-        bg = bg.crop((ox, oy, ox + PIN_W, oy + PIN_H)).filter(
-            ImageFilter.GaussianBlur(radius=1))
+        bg = bg.crop((ox, oy, ox + PIN_W, oy + PIN_H))
+        # Do NOT blur. Blurring a stock photo makes an already-dim image look cheap,
+        # and Pinterest rewards crisp bright imagery. Normalise exposure instead: our
+        # published pins were consistently dark and muddy, which is a large part of
+        # why 205 impressions produced 0 saves.
+        bg = ImageEnhance.Brightness(bg).enhance(1.18)
+        bg = ImageEnhance.Contrast(bg).enhance(1.06)
+        bg = ImageEnhance.Color(bg).enhance(1.04)
         canvas.paste(bg)
-        band_top = int(PIN_H * 0.52)
-        overlay = Image.new("RGBA", (PIN_W, PIN_H - band_top), (0, 0, 0, 175))
+        # Gradient scrim rather than a flat alpha-175 slab: readable text without
+        # blacking out the bottom half of the picture.
+        band_top = int(PIN_H * 0.55)
+        band_h = PIN_H - band_top
+        overlay = Image.new("RGBA", (PIN_W, band_h), (0, 0, 0, 0))
+        od = ImageDraw.Draw(overlay)
+        for i in range(band_h):
+            a = int(30 + (150 - 30) * (i / max(1, band_h - 1)) ** 0.75)
+            od.line([(0, i), (PIN_W, i)], fill=(0, 0, 0, a))
         canvas.paste(overlay, (0, band_top), overlay)
-        text_top = band_top + 70
+        text_top = band_top + 60
     else:
         canvas = _vgrad(base, tuple(int(c * 0.6) for c in base), PIN_W, PIN_H)
         text_top = 480
@@ -695,7 +736,14 @@ def main() -> int:
             pexels_q = _product_photo_query(name, board_q)
 
         bg_path = PINS_DIR / f"bg-{date_str}-{asin}.jpg"
-        bg_ok = fetch_pexels(pexels_q, bg_path)
+        # Product image FIRST, stock photo second. A pin whose picture does not contain
+        # the product cannot be saved or clicked, which is what our own pins were doing.
+        pname = str(entry.get("product_name") or "")
+        bg_ok = False
+        if pname:
+            bg_ok = product_pin_image(pname, bg_path, seed=7000 + (made * 37))
+        if not bg_ok:
+            bg_ok = fetch_pexels(pexels_q, bg_path)
         # If we still can't find a photo that relates to the product, ship the clean
         # branded card instead of a confident-looking photo of the wrong object.
         if bg_ok and not _photo_matches_product(pexels_q, name):
