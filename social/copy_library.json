@@ -2186,6 +2186,52 @@
           }
         ]
       }
+    ],
+    "NICETOWN": [
+      {
+        "hook_category": "proof",
+        "hook": "133,040 ratings later, these blackout curtains still average 4.6 stars.",
+        "beat1": "That review count puts this two-panel set among the most-rated blackout curtains sold on Amazon. Volume that high doesn't happen on a product people quietly return. The panels are sized 42 inches wide by 63 inches long each, built for a standard window.",
+        "turn": "Two black panels are meant to block outside light and cut window glare in a bedroom. A 4.6 star average spread across 133,040 reviews is hard to sustain unless the product does that job consistently.",
+        "result": "For a reader with a standard-sized window, that's a room-darkening pair backed by six figures of review data, priced at $9.47.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Bright bedroom window with sunlight streaming in, unfiltered morning light hitting the bed",
+            "on_screen_text": "133,040 REVIEWS",
+            "voiceover": "133,040 people have rated these blackout curtains."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Close-up shot of the black curtain fabric texture, panel folds catching soft light",
+            "on_screen_text": "4.6 STARS",
+            "voiceover": "That's enough data for a 4.6 star average to actually mean something."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Wide shot of two black panels hanging fully over a bedroom window, rod visible",
+            "on_screen_text": "42 X 63 IN, 2 PANELS",
+            "voiceover": "Two panels, 42 inches wide by 63 inches long each, sized for a standard window."
+          },
+          {
+            "n": 4,
+            "duration_sec": 5,
+            "visual_prompt": "Split-screen comparison: same bedroom, left side bright with bare window, right side darkened with curtains closed",
+            "on_screen_text": "BLOCKS OUTSIDE LIGHT",
+            "voiceover": "They're made to block outside light and cut glare, which is the whole job of a blackout curtain."
+          },
+          {
+            "n": 5,
+            "duration_sec": 4,
+            "visual_prompt": "Closed curtains in a dim room with a simple price tag graphic overlay in the corner",
+            "on_screen_text": "$9.47",
+            "voiceover": "At $9.47, that's a price backed by six figures of reviews."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
