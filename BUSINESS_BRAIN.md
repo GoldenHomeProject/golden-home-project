@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-09-08 (Affiliate Optimizer 10am)
+# Last updated: 2026-09-09 (Email Monitor 8am)
 # ============================================================
 
 ---
@@ -429,7 +429,7 @@ New agent spec: `automation/agents/ai_revenue_playbook.md` (COSTAR prompt framew
 ## AFFILIATE PARTNERSHIPS (active)
 | Platform | Brand | Commission | Status | Notes |
 |----------|-------|------------|--------|-------|
-| Amazon | All home categories | 3-8% | Active | Tag: goldenhomep06-20 |
+| Amazon | All home categories | 3-8% (+ Audible bounty $20/signup Sep 8–Dec 15) | Active | Tag: goldenhomep06-20. **AUDIBLE BOUNTY PROMO**: Free Trial bounty $5→$20, Monthly Membership bounty $10→$20, runs Sep 8–Dec 15, 2026. Opt-in not required. |
 | Impact | Syruvia Syrups | 20% | Active | ACCEPTED 2026-03-31 — highest commission rate |
 | Impact | HermanRx | $250 CPA | Declined | Off-niche (telehealth/GLP-1) |
 | Impact | Best Choice Products | 15% + free product | Pre-approved | Home niche (baskets, garden, benches) — JOIN |
@@ -713,6 +713,7 @@ Agent configs live in `/private/tmp/golden-home-project/automation/agents/`.
 - [ ] **Simplehuman — contact fix (BOUNCED 2026-09-06)** — partnerships@simplehuman.com bounced (mailer-daemon 13:06 UTC Sep 6, msg 1a076d36db850165). Do NOT email again. Apply via ShareASale publisher portal (search "simplehuman") OR use simplehuman.com/pages/contact or partnership form. Kitchen/bath organization — ON-NICHE, high-AOV ($30-200).
 - [ ] **Tempaper marketing team follow-up (2026-09-14)** — Warm reply received 2026-09-08 from Alyssa Haley (Customer Relations) confirming forwarded to marketing team. Counter-replied Sep 8 (msg 1a0815f9f54c36bf). If no response from marketing team by Sep 14, follow up directly at atyourservice@tempaper.com asking for marketing team contact. IAN: apply directly via Awin publisher portal (search "Tempaper") for immediate tracking links — don't wait for marketing team to start using affiliate links.
 - [ ] **Seville Classics follow-up (2026-09-15)** — Pitched sales@sevilleclassics.com 2026-09-08 (msg 1a0812496c3e1abd). Shelving/garment racks/wire closet systems — ON-NICHE, 30-day cookie via FlexOffers. Laundry room + closet transformation angle. Follow up if no reply by Sep 15. Alternative: join FlexOffers affiliate program directly (sevilleclassics affiliate search on flexoffers.com).
+- [ ] **Audible bounty promo (Sep 8–Dec 15, 2026)** — Amazon raised Audible Standard Free Trial bounty to $20 (was $5) and Monthly Membership to $20 (was $10). No opt-in required. Add Audible affiliate links to upcoming content where audio/reading context fits (home office resets, bedtime routines, cozy reading room content). Promote via goldenhomep06-20 storefront Media Lists or direct membership links. Ends Dec 15 — prioritize before holiday season.
 - [ ] **Sep 8 A/B hook format test** — Content Engine: run ONE script with "after-first" hook format (show RESULT in first 2 seconds, then before-state) vs. standard before-first. Compare 72h views. If after-first wins by 1.5x+, standardize. (Sep 8 OpusClip data: after-first averages 6,037 views = 2x other hook types). (Strategy & Outreach 2026-09-08)
 - [ ] **FLAUNT niche research (Impact)** — Joined Impact marketplace 2026-08-21 with no niche research done. Before briefing Content Engine or building any tracking links, check Impact dashboard merchant profile for FLAUNT to confirm product category. Skip if off-niche (home/decor). (Affiliate Optimizer 2026-09-07)
 - [ ] **Dreame re-check on Impact (robot vacuums)** — Original outreach sent 2026-04-03 to Jenny (Easter Sale 60% off thru Apr 12). Zero follow-up in 5 months. Log into Impact dashboard and check current partnership status — may be pre-approved, lapsed, or have a new contact. Robot vacuums ($200-800, 5%+) remain our highest-AOV uncovered category. (Affiliate Optimizer 2026-09-07)
