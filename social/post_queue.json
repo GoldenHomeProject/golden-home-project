@@ -6660,5 +6660,77 @@
     },
     "hook": "A towel's GSM number tells you more than how soft it feels folded on the shelf.",
     "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-08-003.mp4"
+  },
+  {
+    "name": "reel_2026-09-09_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-09-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "349,735 people rated this scale. Almost none of them are athletes.\n\nA number that large stops being a marketing claim and starts being a pattern. This isn't a niche fitness gadget bought by a small crowd \u2014 it's a bathroom scale sitting in hundreds of thousands of ordinary homes, rated 4.7 out of 5 stars.\n\nThe Etekcity Digital Body Weight Bathroom Scale does one job: step on, get a number. At 349,735 reviews and a 4.7 average, that volume of agreement is harder to dismiss than any single five-star write-up.\n\nFor a bathroom staple, that's about as close to a sure thing as a $19.88 purchase gets.\n\nComment SCALE and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Etekcity Digital Body Weight Bathroom Scale",
+      "dm_keyword": "SCALE",
+      "amazon_asin": "B01HI1W1V4",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01HI1W1V4?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "349,735 people rated this scale. Almost none of them are athletes."
+  },
+  {
+    "name": "reel_2026-09-09_002",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-09-002.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "133,326 ratings on one mattress protector. Only 4.6 stars slipped through.\n\nA queen mattress protector with over 133,000 reviews has been bought, used, and rated by more people than most furniture in your house. It zips fully around the mattress, so the claim isn't just a top layer that shifts overnight \u2014 it's a sealed encasement.\n\nThis one is listed as 100% waterproof and bed bug and dust mite proof, with a full zippered encasement rather than a fitted-sheet style cover. At 4.6 stars across 133,326 reviews, that volume of consistent rating is hard to dismiss as luck.\n\nFor a mattress you already own, it's a $22.49 way to stop worrying about spills, allergens, and what's breeding in the seams.\n\nComment MATTRESS and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Utopia Bedding Queen Size Mattress Protector Zippered, 100% Waterproof | Bed Bug & Dust Mite Proof Mattress Encasement, ",
+      "dm_keyword": "MATTRESS",
+      "amazon_asin": "B00U6HREPQ",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B00U6HREPQ?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B00U6HREPQ?tag=goldenhomep06-20"
+    },
+    "hook": "133,326 ratings on one mattress protector. Only 4.6 stars slipped through."
+  },
+  {
+    "name": "reel_2026-09-09_003",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-09-003.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Bad-tasting tap water usually gets blamed on old pipes. More often it's a filter that's overdue for a swap.\n\nBottled water is a recurring cost, and pitchers that need new filters every few weeks turn clean water into another errand on the list.\n\nThe Brita Large Water Filter Pitcher holds 10 cups and ships with a standard filter rated to last two months, with a 4.6-star rating across 59,611 reviews.\n\nBPA-free and $28.49 with one filter included \u2014 two months between filter changes instead of a running errand.\n\nComment PITCHER and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Brita Large Water Filter Pitcher for Tap and Drinking Water, Includes 1 Standard Filter, BPA-Free, Lasts Two Months, 10-Cup Capacity, Bright",
+      "dm_keyword": "PITCHER",
+      "amazon_asin": "B01FXN3E74",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01FXN3E74?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B01FXN3E74?tag=goldenhomep06-20"
+    },
+    "hook": "Bad-tasting tap water usually gets blamed on old pipes. More often it's a filter that's overdue for a swap."
   }
 ]

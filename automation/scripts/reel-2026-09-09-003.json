@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-09T10:20:38.933823Z",
+  "date": "2026-09-09",
+  "seq": 3,
+  "hook_category": "wrong_until_right",
+  "hook": "Bad-tasting tap water usually gets blamed on old pipes. More often it's a filter that's overdue for a swap.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "first-person POV of a cluttered home, things spilling out",
+      "on_screen_text": "THIS WAS EVERY DAY",
+      "voiceover": "Tap water that tastes like the pipes it traveled through is one of those problems people just put up with."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "close-up of disorganized items in the home",
+      "on_screen_text": "COULD NEVER FIND ANYTHING",
+      "voiceover": "Bottled water is a recurring cost, and pitchers that need new filters every few weeks turn clean water into another errand on the list."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "person shutting a door/drawer in frustration",
+      "on_screen_text": "SO I GAVE UP",
+      "voiceover": "Every time I opened it I just shut it again."
+    },
+    {
+      "n": 4,
+      "duration_sec": 5,
+      "visual_prompt": "the pitcher in use, everything organized and visible",
+      "on_screen_text": "THEN THIS",
+      "voiceover": "The Brita Large Water Filter Pitcher is built around a 10-cup capacity and a standard filter rated to last two months, and it holds a 4.6-star rating across 59,611 reviews."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "satisfying final shot of the tidy home",
+      "on_screen_text": "STAYS SORTED NOW",
+      "voiceover": "The home actually stays sorted now."
+    }
+  ],
+  "caption": "Bad-tasting tap water usually gets blamed on old pipes. More often it's a filter that's overdue for a swap.\n\nBottled water is a recurring cost, and pitchers that need new filters every few weeks turn clean water into another errand on the list.\n\nThe Brita Large Water Filter Pitcher holds 10 cups and ships with a standard filter rated to last two months, with a 4.6-star rating across 59,611 reviews.\n\nBPA-free and $28.49 with one filter included \u2014 two months between filter changes instead of a running errand.\n\nComment PITCHER and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "The Brita Large Water Filter Pitcher holds 10 cups and ships with a standard filter rated to last two months, with a 4.6-star rating across 59,611 reviews.",
+  "affiliate_strategy": {
+    "primary_product": "Brita Large Water Filter Pitcher for Tap and Drinking Water, Includes 1 Standard Filter, BPA-Free, Lasts Two Months, 10-Cup Capacity, Bright",
+    "dm_keyword": "PITCHER",
+    "amazon_asin": "B01FXN3E74",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B01FXN3E74?tag=goldenhomep06-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": "https://www.amazon.com/dp/B01FXN3E74?tag=goldenhomep06-20"
+  }
+}
