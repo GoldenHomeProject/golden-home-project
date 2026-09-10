@@ -6719,5 +6719,79 @@
     },
     "hook": "Bad-tasting tap water usually gets blamed on old pipes. More often it's a filter that's overdue for a swap.",
     "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-09-003.mp4"
+  },
+  {
+    "name": "reel_2026-09-10_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-10-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "133,040 ratings later, these blackout curtains still average 4.6 stars.\n\nThat review count puts this two-panel set among the most-rated blackout curtains sold on Amazon. Volume that high doesn't happen on a product people quietly return. The panels are sized 42 inches wide by 63 inches long each, built for a standard window.\n\nTwo black panels are meant to block outside light and cut window glare in a bedroom. A 4.6 star average spread across 133,040 reviews is hard to sustain unless the product does that job consistently.\n\nFor a reader with a standard-sized window, that's a room-darkening pair backed by six figures of review data, priced at $9.47.\n\nComment NICETOWN and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "NICETOWN Black Blackout Curtains for Bedroom 42\" Wide x 63\" Long 2 Pan",
+      "dm_keyword": "NICETOWN",
+      "amazon_asin": "B01CS31R94",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01CS31R94?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "133,040 ratings later, these blackout curtains still average 4.6 stars."
+  },
+  {
+    "name": "reel_2026-09-10_002",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-10-002.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Open a cabinet door too fast and something inside slides before you even reach for it.\n\nBare wood and wire shelving give jars and cans nothing to grip, so they creep toward the edge every time that door swings open.\n\nA non-adhesive, non-slip shelf liner fixes that without glue or residue \u2014 just cut it to size and lay it down. It holds a 4.7-star rating across 2,556 reviews.\n\nOne 12\" x 10FT roll runs $7.99, enough to line several shelves for under eight dollars.\n\nComment LINER and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #kitchenorganization #smallspacesolutions #undersinkstorage",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#kitchenorganization",
+      "#smallspacesolutions",
+      "#undersinkstorage"
+    ],
+    "affiliate": {
+      "primary_product": "BAGAIL Non-Adhesive Non-Slip Shelf Liner 12\" x 10FT (black)",
+      "dm_keyword": "LINER",
+      "amazon_asin": "B0BXSMJK86",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B0BXSMJK86?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B0BXSMJK86?tag=goldenhomep06-20"
+    },
+    "hook": "Open a cabinet door too fast and something inside slides before you even reach for it."
+  },
+  {
+    "name": "reel_2026-09-10_003",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-10-003.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Open the cabinet under your sink and count how many things fall out.\n\nSponges, dish soap, a bottle of oil pushed to the back where it's never seen again. One deep shelf means everything gets stacked in front of everything else, and reaching for anything means knocking something over first.\n\nThe Simple Houseware 2-Tier Sliding Basket Organizer is $34.97 \u2014 chrome wire, rated for 18 lbs per shelf, with a front rack that slides out independently of the back.\n\nPull the front basket out and the back row doesn't move. Everything gets its own space instead of hiding behind the next thing.\n\nComment LINK and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #kitchenorganization #smallspacesolutions #undersinkstorage",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#kitchenorganization",
+      "#smallspacesolutions",
+      "#undersinkstorage"
+    ],
+    "affiliate": {
+      "primary_product": "Simple Houseware 2-Tier Sliding Basket Organizer (chrome, under-sink)",
+      "dm_keyword": "LINK",
+      "amazon_asin": "B01M0TS64K",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01M0TS64K?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Open the cabinet under your sink and count how many things fall out."
   }
 ]

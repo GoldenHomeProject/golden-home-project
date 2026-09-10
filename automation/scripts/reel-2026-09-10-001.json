@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-10T10:14:03.239048Z",
+  "date": "2026-09-10",
+  "seq": 1,
+  "hook_category": "proof",
+  "hook": "133,040 ratings later, these blackout curtains still average 4.6 stars.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Bright bedroom window with sunlight streaming in, unfiltered morning light hitting the bed",
+      "on_screen_text": "133,040 REVIEWS",
+      "voiceover": "133,040 people have rated these blackout curtains."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Close-up shot of the black curtain fabric texture, panel folds catching soft light",
+      "on_screen_text": "4.6 STARS",
+      "voiceover": "That's enough data for a 4.6 star average to actually mean something."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Wide shot of two black panels hanging fully over a bedroom window, rod visible",
+      "on_screen_text": "42 X 63 IN, 2 PANELS",
+      "voiceover": "Two panels, 42 inches wide by 63 inches long each, sized for a standard window."
+    },
+    {
+      "n": 4,
+      "duration_sec": 5,
+      "visual_prompt": "Split-screen comparison: same bedroom, left side bright with bare window, right side darkened with curtains closed",
+      "on_screen_text": "BLOCKS OUTSIDE LIGHT",
+      "voiceover": "They're made to block outside light and cut glare, which is the whole job of a blackout curtain."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Closed curtains in a dim room with a simple price tag graphic overlay in the corner",
+      "on_screen_text": "$9.47",
+      "voiceover": "At $9.47, that's a price backed by six figures of reviews."
+    }
+  ],
+  "caption": "133,040 ratings later, these blackout curtains still average 4.6 stars.\n\nThat review count puts this two-panel set among the most-rated blackout curtains sold on Amazon. Volume that high doesn't happen on a product people quietly return. The panels are sized 42 inches wide by 63 inches long each, built for a standard window.\n\nTwo black panels are meant to block outside light and cut window glare in a bedroom. A 4.6 star average spread across 133,040 reviews is hard to sustain unless the product does that job consistently.\n\nFor a reader with a standard-sized window, that's a room-darkening pair backed by six figures of review data, priced at $9.47.\n\nComment NICETOWN and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "Two black panels are meant to block outside light and cut window glare in a bedroom. A 4.6 star average spread across 133,040 reviews is hard to sustain unless the product does that job consistently.",
+  "affiliate_strategy": {
+    "primary_product": "NICETOWN Black Blackout Curtains for Bedroom 42\" Wide x 63\" Long 2 Pan",
+    "dm_keyword": "NICETOWN",
+    "amazon_asin": "B01CS31R94",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B01CS31R94?tag=goldenhomep06-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": null
+  }
+}
