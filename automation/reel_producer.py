@@ -150,7 +150,15 @@ def fetch_pexels_photo(prompt: str, out_path: Path, product: str = "",
     return False
 
 
+# Terms that pull bathing/oiled/body imagery on Pexels. A home-organization brand
+# must never publish those, and bath/shower product queries land on them constantly.
+PEOPLE_RISK = ("bath", "shower", "spa", "skin", "body", "towel", "soap", "bathing")
+
+
 def _pexels_try(query: str, out_path: Path, pick: int = 0) -> bool:
+    # Bias risky queries toward the object, away from people.
+    if any(w in query.lower() for w in PEOPLE_RISK):
+        query = f"{query} folded stack no people product still life"
     enc = parse.quote(query)
     url = (
         f"https://api.pexels.com/v1/search?query={enc}"
@@ -407,7 +415,17 @@ def fetch_scene_bg(prompt: str, out_path: Path, product: str = "",
     # A generator has never seen this SKU, so a hero frame is a photoreal image of the
     # CATEGORY used as scene imagery - we never assert it is a photo of the item, and
     # every factual claim stays tied to the listing.
-    if hero and flux_image(prompt, product, out_path, seed=9000 + pick * 131):
+    # FLUX for EVERY scene now, not just the hero.
+    #
+    # Pulled frames from the live reel published 2026-09-08 (a reel about COTTON
+    # WASHCLOTHS) and found: frame 1 was a running faucet, frame 12 was a woman
+    # apparently nude in a bathtub. No towel in either. Pexels was answering the
+    # bathroom scene, and on bath/shower terms it returns bathing people — which is
+    # both off-product and off-brand for a home-organization account.
+    #
+    # A FLUX render of the product on a clean background cannot do that: the prompt
+    # asks for the object, and people are not in it.
+    if flux_image(prompt, product, out_path, seed=9000 + pick * 131):
         return True
 
     if fetch_pexels_photo(prompt, out_path, product, pick):

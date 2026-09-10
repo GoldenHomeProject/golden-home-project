@@ -113,7 +113,14 @@ FABRICATED_EXPERIENCE = re.compile(
         r"drawer|counter|apartment|house|dorm|shelf|sink|floor|room|neck|back|sleep)\b|"
         r"(three|two|four|five|six|ten)\s+(weeks|months|years)\s+ago|"
         r"for\s+(two|three|four|five|ten)\s+(whole\s+)?years|"
-        r"last\s+(month|week|year)\s+i\b|i'?ve\s+been|i'?d\s+been)", re.I)
+        r"last\s+(month|week|year)\s+i\b|i'?ve\s+been|i'?d\s+been|"
+    # Added 2026-09-09. On-screen card "THIS WAS EVERY DAY" shipped in a live reel:
+    # a past-tense claim about lived routine with no "I" or "my" in it, so every
+    # earlier pattern missed it. Narrated before/after framing implies experience
+    # just as strongly as first person does.
+    r"this\s+was\s+(every|my|the)\b|that\s+was\s+(every|my)\b|"
+    r"\bused\s+to\s+(be|have|take|do)\b|"
+    r"\bfor\s+(months|years)\s+(this|it|i)\b)", re.I)
 
 
 def fabrication_match(text: str) -> str:
