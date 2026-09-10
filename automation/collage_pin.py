@@ -41,7 +41,7 @@ GREY = (120, 118, 114)
 WHITE = (255, 255, 255)
 
 MARGIN = 60
-HEAD_H = int(PIN_H * 0.24)
+HEAD_H = int(PIN_H * 0.27)
 FOOT_H = int(PIN_H * 0.13)
 
 FONT_CANDIDATES_BOLD = [
@@ -103,23 +103,39 @@ def _rounded(img: Image.Image, radius: int) -> Image.Image:
 
 def build_collage_pin(headline: str, subline: str, cells: list, out_path: Path,
                       footer: str = "goldenhomeproject.com",
-                      updated: str = "") -> Path:
-    """cells: list of dicts {"image": Path|None, "price": "$11.99"} — 4 used."""
+                      updated: str = "", kicker: str = "") -> Path:
+    """cells: list of dicts {"image": Path|None, "price": "$11.99"} — 4 used.
+
+    Layout refined against a template designed in Claude Design (2026-09-10), which
+    was better than the first hand-rolled version in three specific ways, all kept:
+      * a KICKER label above the headline — a small-caps category line with a gold
+        square. Gives the pin a searchable topic before the headline and stops the
+        top band feeling empty.
+      * LEFT-ALIGNED headline rather than centred — reads as editorial and confident,
+        and gives long headlines a stable ragged edge instead of a wobbling centre.
+      * GOLD NUMBERED BADGES on each cell (01..04) — reinforces the count promised in
+        the headline, which is the thing that makes a number-led headline pay off.
+    """
     canvas = Image.new("RGB", (PIN_W, PIN_H), WHITE)
     draw = ImageDraw.Draw(canvas)
 
     # ---- headline band -------------------------------------------------------
     draw.rectangle([(0, 0), (PIN_W, HEAD_H)], fill=CREAM)
-    hf, lines = _fit_lines(headline, 82, PIN_W - 2 * MARGIN)
-    line_h = int(hf.size * 1.08)
-    block_h = line_h * len(lines)
-    y = (HEAD_H - block_h - 46) // 2
+    x0 = MARGIN
+    y = 52
+    if kicker:
+        kf = _font(24)
+        draw.rectangle([(x0, y + 4), (x0 + 18, y + 22)], fill=GOLD)
+        draw.text((x0 + 32, y), kicker.upper(), font=kf, fill=(90, 88, 84))
+        y += 46
+    hf, lines = _fit_lines(headline, 86, PIN_W - 2 * MARGIN)
+    line_h = int(hf.size * 1.04)
     for ln in lines:
-        draw.text(((PIN_W - hf.getlength(ln)) / 2, y), ln, font=hf, fill=INK)
+        draw.text((x0, y), ln, font=hf, fill=INK)
         y += line_h
-    draw.rectangle([((PIN_W - 90) // 2, y + 12), ((PIN_W + 90) // 2, y + 17)], fill=GOLD)
-    sf = _font(25, bold=False)
-    draw.text(((PIN_W - sf.getlength(subline)) / 2, y + 30), subline, font=sf, fill=GREY)
+    draw.rectangle([(x0, y + 20), (x0 + 92, y + 25)], fill=GOLD)
+    sf = _font(26, bold=False)
+    draw.text((x0 + 112, y + 6), subline, font=sf, fill=(90, 88, 84))
 
     # ---- 2x2 product grid ----------------------------------------------------
     grid_top = HEAD_H + 26
@@ -141,6 +157,12 @@ def build_collage_pin(headline: str, subline: str, cells: list, out_path: Path,
         else:
             im = Image.new("RGB", (cw, ch), (236, 233, 227))
         canvas.paste(_rounded(im, 20), (cx, cy), _rounded(im, 20))
+
+        # gold numbered badge, top-left of the cell
+        nf = _font(30)
+        label = f"{i + 1:02d}"
+        draw.rectangle([(cx, cy), (cx + 62, cy + 58)], fill=GOLD)
+        draw.text((cx + 31 - nf.getlength(label) / 2, cy + 12), label, font=nf, fill=INK)
 
         price = str(cell.get("price") or "").strip()
         if price:
