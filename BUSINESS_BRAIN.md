@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-09-09 (Affiliate Optimizer 10am)
+# Last updated: 2026-09-10 (Email Monitor 8am)
 # ============================================================
 
 ---
@@ -466,6 +466,8 @@ New agent spec: `automation/agents/ai_revenue_playbook.md` (COSTAR prompt framew
 | Direct/ShareASale | Simplehuman | TBD | **BOUNCED 2026-09-06** | Kitchen/bath organization tools — ON-NICHE. Premium sensor pumps, dish racks, trash cans, shower caddies. High-AOV ($30-200). partnerships@simplehuman.com BOUNCED (mailer-daemon 13:06 UTC). Apply via ShareASale publisher portal (search "simplehuman") OR use simplehuman.com contact/partnership form. |
 | Awin / Direct | Tempaper | TBD | **Reply received 2026-09-08** — Alyssa Haley (Customer Relations) forwarded our pitch to their marketing team. Replied Sep 8 (msg 1a0815f9f54c36bf) thanking her and confirming we'll apply via Awin affiliate program directly for immediate tracking links. Marketing team response pending. IAN: apply via Awin publisher portal (search "Tempaper") as parallel track. | Peel-and-stick removable wallpaper — ON-NICHE. Warm reply = higher chance of approval. Apply Awin now; marketing team contact imminent. |
 | FlexOffers / Direct | Seville Classics | TBD | Outreach sent 2026-09-08 | Shelving units, garment racks, wire closet systems, kitchen carts — ON-NICHE (closet/laundry/kitchen transformation). 30-day cookie via FlexOffers affiliate program. Pitched sales@sevilleclassics.com (msg 1a0812496c3e1abd) — laundry room organization content angle, Seville Classics wire shelving as $43 laundry system anchor. Natural Seville Classics tie-in for Sep 8 laundry chaos trend. |
+| Awin | Jugbow | TBD | **DECLINED 2026-09-10** | OFF-NICHE — dog training device. Invited via Awin (Advertiser ID 79708, contact: Cathy at affiliate@jugbow.com). Decline email sent 2026-09-10 directly to affiliate@jugbow.com (msg 1a08b448d22aefdc). Per Lesson #7: off-niche deals hurt trust. |
+| Awin | Everblog US | 10% | **🚨 IAN: Decline via Awin dashboard 2026-09-10** | OFF-NICHE — digital family organizer app (shared calendars, household planning). Not a physical home product; does not fit home transformation content. Invited via Awin (Advertiser ID 128579). Email to help@awin.com will bounce (same as HealSend/CICYBELL) — IAN must decline via Awin browser dashboard. |
 
 ---
 
@@ -696,6 +698,7 @@ Agent configs live in `/private/tmp/golden-home-project/automation/agents/`.
 - [ ] **HIGH PRIORITY** Generate Promeed tracking links in Impact dashboard (silk pillowcase + CoolRest comforter deep links) — 12% commission, 30-day cookie, tracking LIVE 2026-08-25
 - [ ] Film CoolRest comforter using SAMPLE-IAN-COOL3-2026 (60% off, one-time code) for bedroom before/after content
 - [ ] Decline CICYBELL via Awin browser dashboard (email reply to help@awin.com bounced — cannot decline by email)
+- [ ] **🚨 IAN: Decline Everblog US via Awin browser dashboard** — Invited 2026-09-10 (Advertiser ID 128579). Digital family organizer app = OFF-NICHE (not a physical home product). Email to help@awin.com bounces — must decline via browser dashboard (same as HealSend/CICYBELL pattern).
 - [ ] **🚨 IAN: Decline HealSend via Awin browser dashboard** — Email Monitor's decline email (help@awin.com) bounced (confirmed 2026-09-09 12:24 UTC). Awin does not accept external email to this address. Must decline via browser login to Awin dashboard (same as CICYBELL). Off-niche telehealth — do not accept.
 - [ ] **🚨 IRIS USA follow-up DUE TOMORROW (2026-09-11)** — Pitched contactus@irisusainc.com 2026-09-04. No reply in 7 days. Strategy agent: send follow-up tomorrow. ON-NICHE (clear bins, closet organizers, $15-60). Alternative: irisusainc.com/pages/contact-us dedicated partnerships form.
 - [ ] Research FLAUNT on Impact.com (new brand, joined 2026-08-21) — check niche before joining
