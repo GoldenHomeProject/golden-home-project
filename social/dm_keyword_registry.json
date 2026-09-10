@@ -3838,6 +3838,38 @@
       "verified_stars": "4.7",
       "verified_reviews": 99570,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B07Y3BX6FN",
+      "product_name": "Amazon Basics Velvet Non-Slip Skirt Clothes Hangers with Clips, 360 Degree Rotatable Hook, Organize Pants and Skirts, Bl",
+      "categories": [
+        "home",
+        "Storage & Organization"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B07Y3BX6FN?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-09-10",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$16.42",
+      "verified_stars": "4.7",
+      "verified_reviews": 7803,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0F69RCQJK",
+      "product_name": "Sok It JavaSok Iced Coffee & Cold Soda Insulated Neoprene Cup Sleeve (Ghost Stories, Medium: 22-28oz)",
+      "categories": [
+        "home",
+        "Storage & Organization"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0F69RCQJK?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-09-10",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$16.99",
+      "verified_stars": "4.8",
+      "verified_reviews": 34306,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
