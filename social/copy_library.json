@@ -2232,6 +2232,52 @@
           }
         ]
       }
+    ],
+    "BLACKOUT": [
+      {
+        "hook_category": "proof",
+        "hook": "133,040 ratings later, this $9.47 blackout curtain still holds a 4.6.",
+        "beat1": "Blackout curtains either block light or they don't, and that's easy to fake in a product photo. It's harder to fake across 133,040 separate reviews. That volume on one specific 42 by 63 inch, black, two-panel set is the kind of sample size a single glowing description can't match.",
+        "turn": "This listing is a 42 inch wide by 63 inch long two-panel set in black, made for a standard bedroom window. A 4.6-star average holding steady across 133,040 reviews points to consistent performance, not a handful of lucky units.",
+        "result": "For a bedroom window that needs real light control, the size fits standard frames and the price is $9.47 for the pair.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close-up of a black blackout curtain panel hanging in a bedroom window, morning light hitting the fabric from outside",
+            "on_screen_text": "133,040 RATINGS",
+            "voiceover": "133,040 ratings later, this curtain still holds a 4.6."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Graphic overlay of a 4.6 star rating and review count animating over the curtain fabric texture",
+            "on_screen_text": "4.6 STARS",
+            "voiceover": "That's not a handful of reviews. That's a sample size a product photo can't fake."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Two folded black curtain panels laid flat with a tape measure showing width and length",
+            "on_screen_text": "42\" X 63\" \u2014 2 PANELS",
+            "voiceover": "It's a 42 by 63 inch, two-panel set in black, sized for a standard bedroom window."
+          },
+          {
+            "n": 4,
+            "duration_sec": 5,
+            "visual_prompt": "Split-screen bedroom: one side bright with curtains open, other side dark with the same curtains closed",
+            "on_screen_text": "BLOCKS THE LIGHT",
+            "voiceover": "A 4.6 average across that many reviews points to consistent light blocking, not a lucky batch."
+          },
+          {
+            "n": 5,
+            "duration_sec": 4,
+            "visual_prompt": "Curtain panel in frame with a simple price tag graphic reading $9.47 appearing beside it",
+            "on_screen_text": "$9.47 / 2 PANELS",
+            "voiceover": "Two panels, standard bedroom size, nine dollars and forty-seven cents."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
