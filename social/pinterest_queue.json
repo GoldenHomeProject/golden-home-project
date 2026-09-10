@@ -3595,5 +3595,33 @@
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "posted_at": "2026-09-09T13:42:22Z"
+  },
+  {
+    "id": "pin-2026-09-10-B07Y3BX6FN",
+    "asin": "B07Y3BX6FN",
+    "board": "Home Organization Finds",
+    "title": "Velvet Skirt Hangers with Clips, Non-Slip Closet Organizer for Pants",
+    "description": "Amazon Basics velvet hangers pair adjustable clips with a 360-degree rotatable hook, so pants and skirts hang without slipping off the bar. The flocked surface grips fabric that slides off plain plastic or wire hangers, and the swivel hook angles each piece for tight closet spacing. At $16.42, they're a low-cost swap for matching, non-slip closet organizers. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B07Y3BX6FN?tag=ghppinterest0e-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-09-10-B07Y3BX6FN.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-09-10-B07Y3BX6FN.png",
+    "queued_at": "2026-09-10T10:10:20.261756Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-09-10-B0F69RCQJK",
+    "asin": "B0F69RCQJK",
+    "board": "Home Organization Finds",
+    "title": "Insulated Cup Sleeve for 22-28oz Tumblers - Neoprene Iced Coffee Sok",
+    "description": "This neoprene sleeve is sized for 22-28oz tumblers and slides over iced coffee or cold soda cups to block condensation before it pools on counters, desks, or car cupholders. The medium Sok It JavaSok runs $16.99 and comes in the Ghost Stories print. A slip-on sleeve cuts down on wet rings and the coaster pile that clutters a kitchen counter. Tap through for sizing and prints. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B0F69RCQJK?tag=ghppinterest0e-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-09-10-B0F69RCQJK.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-09-10-B0F69RCQJK.png",
+    "queued_at": "2026-09-10T10:10:49.385078Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
   }
 ]
