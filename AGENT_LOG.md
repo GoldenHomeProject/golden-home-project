@@ -3344,3 +3344,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** automation/scripts/reel-2026-09-10-*.json, social/post_queue.json
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: proof: 133,040 ratings later, these blackout curtains sti | wrong_until_right: Open a cabinet door too fast and something inside  | wrong_until_right: Open the cabinet under your sink and count how man
+
+## 2026-09-10T12:03:31Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B07712H557 (Command Variety Pack)
+**Changed:** social/carousels/2026-09-10-B07712H557/slide-1.png, social/carousels/2026-09-10-B07712H557/slide-2.png, social/carousels/2026-09-10-B07712H557/slide-3.png, social/carousels/2026-09-10-B07712H557/slide-4.png, social/carousels/2026-09-10-B07712H557/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B07712H557 carousel.
