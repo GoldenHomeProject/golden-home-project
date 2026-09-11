@@ -3882,6 +3882,22 @@
       "verified_stars": "4.8",
       "verified_reviews": 34306,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B08VHTFXP9",
+      "product_name": "LOAAO 22X30 Inch Black Bathroom Mirror Metal Framed | Rounded Rectangle, Matte Black Bathroom Vanity Mirror, Anti-Rust, ",
+      "categories": [
+        "home",
+        "Furniture"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B08VHTFXP9?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-09-11",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$31.42",
+      "verified_stars": "4.5",
+      "verified_reviews": 6022,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
