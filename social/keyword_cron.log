@@ -1909,3 +1909,39 @@ Call log:
    B07ZGHZVRY    $20.41  4.7*  Clorox ToiletWand Toilet Bowl Cleaner- Toilet 
    B09YR5SWNY    $12.99  4.6*  Homebuds Bathroom Scale for Body Weight Precis
 [harvest] wrote /home/ianmcwherter/golden-home-project/social/dm_keyword_registry.json
+[blog-writer] Starting 2026-09-11
+[blog-writer] keyword queue empty/exhausted — falling back to trend feed
+[blog-writer] SKIPPING near-duplicate of existing post: kitchen cabinet organization syruvia pull-out cabinet drawer organizer set   
+[blog-writer] SKIPPING near-duplicate of existing post: laundry room organization stackable laundry room storage bins + wall-mounted she
+[blog-writer] SKIPPING near-duplicate of existing post: accent wall wallpaper peel-and-stick removable wallpaper roll   
+[blog-writer] SKIPPING COVER-cluster topic until 2026-06-05: couch/sofa covers mamma mia waterproof stretch sofa cover   
+[blog-writer] Topic: plush cotton bath towel 6-piece set
+[blog-writer] ✓ 2026-09-11-plush-cotton-bath-towel-set-replace-old-towels.html + markdown + index regenerated
+[drops] 88 ASINs in history, 61 seen on 2+ days, 9 dropped >=3.0%
+   - 23.1%  $  12.99 -> $   9.99  Hicober Microfiber Hair Towel Wrap for Women  (2026-08-31->2026-09-09)
+   - 22.2%  $  17.99 -> $  13.99  upsimples 8x10 Picture Frames  (2026-08-16->2026-09-03)
+   - 21.4%  $  13.99 -> $  10.99  Etekcity Food Kitchen Scale  (2026-09-01->2026-09-11)
+   - 20.0%  $   9.99 -> $   7.99  Lifewit Medium Lunch Bag  (2026-09-01->2026-09-02)
+   - 17.5%  $  11.48 -> $   9.47  NICETOWN Black Blackout Curtains for Bedroom 42" Wid  (2026-08-28->2026-09-03)
+   - 11.1%  $   8.99 -> $   7.99  TrendPlain 16oz/470ml Glass Olive Oil Sprayer for Co  (2026-08-20->2026-09-11)
+   - 10.9%  $   8.97 -> $   7.99  Affresh Dishwasher Cleaner  (2026-08-19->2026-09-06)
+   - 10.0%  $   9.99 -> $   8.99  EUDELE Mesh Shower Caddy Portable for College Dorm R  (2026-08-18->2026-08-26_dorm)
+   -  5.6%  $   8.99 -> $   8.49  Ultra Soft Pillow Protectors with Zipper  (2026-08-30->2026-09-07)
+[drops] wrote /home/ianmcwherter/golden-home-project/social/price_drops.json
+  hub nav -> best-dorm-room-essentials.html
+  MISSING /home/ianmcwherter/golden-home-project/blog/posts/best-bath-towels-and-linens.html
+  hub nav -> best-bathroom-essentials.html
+  hub nav -> best-bedding-essentials.html
+  hub nav -> best-blackout-curtains.html
+  hub nav -> best-cleaning-supplies.html
+  hub nav -> best-home-decor-finds.html
+  hub nav -> best-home-organization-products.html
+  hub nav -> best-kitchen-gadgets.html
+  MISSING /home/ianmcwherter/golden-home-project/blog/posts/best-sheet-sets.html
+  hub nav -> best-storage-bins.html
+  hub nav -> blog/index.html
+  hub nav -> index.html
+  og tags -> blog/index.html
+[hub-nav] 12 file(s) updated
+[sitemap] 68 urls (15 excluded as non-canonical)
+[sitemap] wrote /home/ianmcwherter/golden-home-project/sitemap.xml

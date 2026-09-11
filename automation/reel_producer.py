@@ -590,21 +590,48 @@ async def render_voiceover(text: str, out_path: Path):
     await communicate.save(str(out_path))
 
 
+# Eight camera moves instead of one. Every reel we have made used the same centred
+# Ken Burns zoom on every scene, so a 5-scene reel read as the same shot five times and
+# consecutive days were indistinguishable. Variety is the cheapest thing we can add to
+# perceived production value.
+#
+# zoompan drives the crop window: z is zoom, x/y are the window's top-left in the scaled
+# input, and `on` is the output frame index. Holding z constant while animating x or y
+# gives a true PAN; animating z with a fixed corner gives a directional PUSH.
+CENTER_X = "iw/2-(iw/zoom/2)"
+CENTER_Y = "ih/2-(ih/zoom/2)"
+
+
+def _motions(frames: int) -> list:
+    """(name, z, x, y) — ordered; callers pick by index so a reel varies scene to scene."""
+    n = max(frames - 1, 1)
+    return [
+        ("zoom_in",     "min(zoom+0.0015,1.15)", CENTER_X, CENTER_Y),
+        ("pan_right",   "1.12", f"(iw-iw/zoom)*on/{n}", CENTER_Y),
+        ("zoom_out",    "if(lte(zoom,1.0),1.15,max(1.001,zoom-0.0015))", CENTER_X, CENTER_Y),
+        ("pan_down",    "1.12", CENTER_X, f"(ih-ih/zoom)*on/{n}"),
+        ("push_corner", "min(zoom+0.0018,1.18)", "0", "0"),
+        ("pan_left",    "1.12", f"(iw-iw/zoom)*(1-on/{n})", CENTER_Y),
+        ("drift",       "1.05", f"(iw-iw/zoom)*(0.35+0.3*on/{n})", CENTER_Y),
+        ("pan_up",      "1.12", CENTER_X, f"(ih-ih/zoom)*(1-on/{n})"),
+    ]
+
+
 def ffmpeg_kenburns_scene(frame_path: Path, duration: float, out_path: Path,
-                          zoom_in: bool = True):
-    """Turn a static JPEG into a moving video clip via Ken Burns zoom."""
+                          zoom_in: bool = True, motion: int | None = None):
+    """Animate a still into a clip. `motion` selects from _motions(); None keeps the
+    old zoom-in/zoom-out behaviour so existing callers are unaffected."""
     frames = max(int(duration * 30), 30)
-    # ffmpeg's zoompan filter name is `zoompan`; its internal zoom variable is
-    # referenced as `z` (or `zoom`). Earlier version used bare `zoom='...'`
-    # which ffmpeg parsed as an unknown filter. Pix-fmt goes via -pix_fmt flag
-    # rather than trailing filter to avoid chain parser edge cases.
-    if zoom_in:
-        z_expr = "min(zoom+0.0015,1.15)"
+    moves = _motions(frames)
+    if motion is None:
+        name, z_expr, x_expr, y_expr = moves[0] if zoom_in else moves[2]
     else:
-        z_expr = "if(lte(zoom,1.0),1.15,max(1.001,zoom-0.0015))"
+        name, z_expr, x_expr, y_expr = moves[motion % len(moves)]
+    print(f"    motion: {name}")
     vf = (
         f"scale=2160:3840,"
-        f"zoompan=z='{z_expr}':d={frames}:s={WIDTH}x{HEIGHT}:fps=30"
+        f"zoompan=z='{z_expr}':x='{x_expr}':y='{y_expr}'"
+        f":d={frames}:s={WIDTH}x{HEIGHT}:fps=30"
     )
     cmd = [
         "ffmpeg", "-y", "-loglevel", "error",
@@ -717,8 +744,12 @@ def produce_reel(script_path: Path) -> Path | None:
             fallback_bg(bg_path)
 
         compose_scene_frame(bg_path, on_text, frame_path, accent=(n == 1))
+        # Vary the camera move per scene AND per reel. Offsetting by the script stem
+        # means two reels made the same day do not open with the same move, and a
+        # single reel never repeats a move across consecutive scenes.
+        motion_offset = sum(ord(c) for c in script_path.stem) % 8
         ffmpeg_kenburns_scene(frame_path, duration, clip_path,
-                              zoom_in=(i % 2 == 0))
+                              motion=(motion_offset + i * 3))
         scene_clips.append(clip_path)
 
         if vo:
