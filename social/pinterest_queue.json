@@ -3629,5 +3629,19 @@
     "posted": false,
     "source": "pinterest_pipeline",
     "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-09-11-B08VHTFXP9",
+    "asin": "B08VHTFXP9",
+    "board": "Bathroom Storage Ideas",
+    "title": "Matte Black Framed Bathroom Mirror 22x30 Rounded Rectangle Vanity Mirror",
+    "description": "This 22x30 inch matte black bathroom mirror has a metal frame in a rounded rectangle shape, built with an anti-rust coating for humid vanity spaces. Listed at $31.42, it fits over standard bathroom sinks and pairs with black fixtures or hardware for a modern look. If you are weighing framed mirror sizes for a small or shared bathroom, tap through for full specs and sizing. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B08VHTFXP9?tag=ghppinterest0e-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-09-11-B08VHTFXP9.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-09-11-B08VHTFXP9.png",
+    "queued_at": "2026-09-11T10:10:25.889170Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
   }
 ]
