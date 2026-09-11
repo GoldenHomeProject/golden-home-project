@@ -594,6 +594,24 @@
       "source": "trending",
       "keyword": "BLACKOUT",
       "promoted_at": "2026-09-10T12:20:53Z"
+    },
+    {
+      "asin": "B0714K41PB",
+      "product_name": "Utopia Bedding Throw Pillows, Decorative 18x18 Pillow Inserts, Set of 4 | Down alternative pillow insert with plush fluf",
+      "categories": [
+        "home",
+        "Home D\u00e9cor"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0714K41PB?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-08-23",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$20.26",
+      "verified_stars": "4.6",
+      "verified_reviews": 126992,
+      "discovery_source": "harvest_catalogue",
+      "keyword": "DECORATIVE",
+      "promoted_at": "2026-09-11T12:21:05Z"
     }
   ],
   "_vetted_doc": "Verified-live Amazon ASINs cleared for blog/SEO/IG-caption use but NOT yet wired to a Meta comment-to-DM automation. Promote to `entries` (with a unique keyword) only AFTER creating the matching Meta Business Suite automation. Always use https://www.amazon.com/dp/<ASIN>?tag=goldenhomep06-20 \u2014 never search URLs.",
@@ -1918,22 +1936,6 @@
       "verified_price": "$11.69",
       "verified_stars": "4.6",
       "verified_reviews": 31168,
-      "discovery_source": "harvest_catalogue"
-    },
-    {
-      "asin": "B0714K41PB",
-      "product_name": "Utopia Bedding Throw Pillows, Decorative 18x18 Pillow Inserts, Set of 4 | Down alternative pillow insert with plush fluf",
-      "categories": [
-        "home",
-        "Home D\u00e9cor"
-      ],
-      "affiliate_url": "https://www.amazon.com/dp/B0714K41PB?tag=goldenhomep06-20",
-      "status": "live",
-      "verified_at": "2026-08-23",
-      "verified_method": "best_seller_grid",
-      "verified_price": "$20.26",
-      "verified_stars": "4.6",
-      "verified_reviews": 126992,
       "discovery_source": "harvest_catalogue"
     },
     {
