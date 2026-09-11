@@ -3376,3 +3376,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** automation/scripts/reel-2026-09-11-*.json, social/post_queue.json
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: proof: 133,040 ratings later, this $9.47 blackout curtain | wrong_until_right: Stacking a second pillow doesn't fix a shoulder pr | wrong_until_right: Open the cabinet and the label you need is facing
+
+## 2026-09-11T11:59:13Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B0C3QZ7SNF (Cisily Sponge Holder for Kitchen Sink)
+**Changed:** social/carousels/2026-09-11-B0C3QZ7SNF/slide-1.png, social/carousels/2026-09-11-B0C3QZ7SNF/slide-2.png, social/carousels/2026-09-11-B0C3QZ7SNF/slide-3.png, social/carousels/2026-09-11-B0C3QZ7SNF/slide-4.png, social/carousels/2026-09-11-B0C3QZ7SNF/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B0C3QZ7SNF carousel.
