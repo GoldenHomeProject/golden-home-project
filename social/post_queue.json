@@ -6772,10 +6772,10 @@
   },
   {
     "name": "reel_2026-09-11_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-09-11-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-11-001.mp4",
     "caption": "133,040 ratings later, this $9.47 blackout curtain still holds a 4.6.\n\nBlackout curtains either block light or they don't, and that's easy to fake in a product photo. It's harder to fake across 133,040 separate reviews. That volume on one specific 42 by 63 inch, black, two-panel set is the kind of sample size a single glowing description can't match.\n\nThis listing is a 42 inch wide by 63 inch long two-panel set in black, made for a standard bedroom window. A 4.6-star average holding steady across 133,040 reviews points to consistent performance, not a handful of lucky units.\n\nFor a bedroom window that needs real light control, the size fits standard frames and the price is $9.47 for the pair.\n\nComment BLACKOUT and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -6792,14 +6792,15 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "133,040 ratings later, this $9.47 blackout curtain still holds a 4.6."
+    "hook": "133,040 ratings later, this $9.47 blackout curtain still holds a 4.6.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-11-001.mp4"
   },
   {
     "name": "reel_2026-09-11_002",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-09-11-002.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-11-002.mp4",
     "caption": "Stacking a second pillow doesn't fix a shoulder problem. It just gives you a second wrong pillow.\n\nA towel rolled under the neck, a memory foam block that traps heat, switching sides at 3am to find a cool spot \u2014 none of it changes the real shape problem: a flat pillow has nowhere for a shoulder to go.\n\nThe Eli & Elm Side Sleeper Pillow is a U-shape cutout built for that shoulder, sized for queen beds, with an adjustable latex-and-fiber fill and a cooling cover.\n\n$114.99, once. No towel rolls, no flipped pillows, no foam block heating up by 2am.\n\nComment PILLOW and I'll reply with the link.\nAffiliate link \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #sleepbetter #sidesleeper #bedroomupgrade",
     "hashtags": [
       "#amazonhomefinds",
@@ -6817,7 +6818,8 @@
       "affiliate_network": "impact_direct",
       "affiliate_url": "https://eliandelm.sjv.io/E092ZX"
     },
-    "hook": "Stacking a second pillow doesn't fix a shoulder problem. It just gives you a second wrong pillow."
+    "hook": "Stacking a second pillow doesn't fix a shoulder problem. It just gives you a second wrong pillow.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-11-002.mp4"
   },
   {
     "name": "reel_2026-09-11_003",
