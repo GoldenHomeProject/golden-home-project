@@ -6769,5 +6769,79 @@
     },
     "hook": "Open the cabinet under your sink and count how many things fall out.",
     "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-10-003.mp4"
+  },
+  {
+    "name": "reel_2026-09-11_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-11-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "133,040 ratings later, this $9.47 blackout curtain still holds a 4.6.\n\nBlackout curtains either block light or they don't, and that's easy to fake in a product photo. It's harder to fake across 133,040 separate reviews. That volume on one specific 42 by 63 inch, black, two-panel set is the kind of sample size a single glowing description can't match.\n\nThis listing is a 42 inch wide by 63 inch long two-panel set in black, made for a standard bedroom window. A 4.6-star average holding steady across 133,040 reviews points to consistent performance, not a handful of lucky units.\n\nFor a bedroom window that needs real light control, the size fits standard frames and the price is $9.47 for the pair.\n\nComment BLACKOUT and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "NICETOWN Black Blackout Curtains for Bedroom 42\" Wide x 63\" Long 2 Pan",
+      "dm_keyword": "BLACKOUT",
+      "amazon_asin": "B01CS31R94",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01CS31R94?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "133,040 ratings later, this $9.47 blackout curtain still holds a 4.6."
+  },
+  {
+    "name": "reel_2026-09-11_002",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-11-002.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Stacking a second pillow doesn't fix a shoulder problem. It just gives you a second wrong pillow.\n\nA towel rolled under the neck, a memory foam block that traps heat, switching sides at 3am to find a cool spot \u2014 none of it changes the real shape problem: a flat pillow has nowhere for a shoulder to go.\n\nThe Eli & Elm Side Sleeper Pillow is a U-shape cutout built for that shoulder, sized for queen beds, with an adjustable latex-and-fiber fill and a cooling cover.\n\n$114.99, once. No towel rolls, no flipped pillows, no foam block heating up by 2am.\n\nComment PILLOW and I'll reply with the link.\nAffiliate link \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #sleepbetter #sidesleeper #bedroomupgrade",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#sleepbetter",
+      "#sidesleeper",
+      "#bedroomupgrade"
+    ],
+    "affiliate": {
+      "primary_product": "Eli & Elm Side Sleeper Pillow (U-shape, latex, queen)",
+      "dm_keyword": "PILLOW",
+      "amazon_asin": "B07YL7VD32",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B07YL7VD32?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "impact_direct",
+      "affiliate_url": "https://eliandelm.sjv.io/E092ZX"
+    },
+    "hook": "Stacking a second pillow doesn't fix a shoulder problem. It just gives you a second wrong pillow."
+  },
+  {
+    "name": "reel_2026-09-11_003",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-11-003.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Open the cabinet and the label you need is facing the wall, hidden behind three others.\n\nEvery jar gets pushed to the back the same way, until reaching the one you want means pulling out the two in front of it first.\n\nA set of 4 non-skid 10-inch lazy susan turntable organizers puts everything on a rotating surface instead, and it holds 4.7 stars across 6,190 reviews.\n\nAt $24.99 for the set, it's a small fix that turns digging into spinning, so nothing stays lost behind anything else.\n\nComment TURNTABLE and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #kitchenorganization #smallspacesolutions #undersinkstorage",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#kitchenorganization",
+      "#smallspacesolutions",
+      "#undersinkstorage"
+    ],
+    "affiliate": {
+      "primary_product": "Set of 4 Non-Skid 10-Inch Lazy Susan Turntable Organizers",
+      "dm_keyword": "TURNTABLE",
+      "amazon_asin": "B0B3WSZ3QP",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B0B3WSZ3QP?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B0B3WSZ3QP?tag=goldenhomep06-20"
+    },
+    "hook": "Open the cabinet and the label you need is facing the wall, hidden behind three others."
   }
 ]
