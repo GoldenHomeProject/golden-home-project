@@ -6838,10 +6838,10 @@
   },
   {
     "name": "reel_2026-09-12_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-09-12-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-12-001.mp4",
     "caption": "126,992 ratings on a $20 pillow insert set. Only 4.6 stars stayed high.\n\nThrow pillow inserts are an easy product to get wrong \u2014 too flat, lumpy, or shaped nothing like the cover you bought. A rating pool this size, sitting at 4.6 stars, is hard to fake or coincidence: it means the fill and shape hold up across thousands of different covers and couches.\n\nThis is a set of 4 down alternative inserts, 18x18, made to plump out decorative pillow covers rather than replace a sleeping pillow. At 126,992 reviews and 4.6 stars, that volume is the actual signal \u2014 most one-off products never clear a few hundred reviews, let alone six figures with the average holding steady.\n\nFor $20.26, you get four inserts sized to the most common throw pillow cover, backed by more reviews than almost any home d\u00e9cor accessory sees. If your covers have been looking deflated, the size and rating history point at the insert, not the cover.\n\nComment DECORATIVE and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -6858,7 +6858,8 @@
       "affiliate_network": "amazon",
       "affiliate_url": "https://www.amazon.com/dp/B0714K41PB?tag=goldenhomep06-20"
     },
-    "hook": "126,992 ratings on a $20 pillow insert set. Only 4.6 stars stayed high."
+    "hook": "126,992 ratings on a $20 pillow insert set. Only 4.6 stars stayed high.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-12-001.mp4"
   },
   {
     "name": "reel_2026-09-12_002",
