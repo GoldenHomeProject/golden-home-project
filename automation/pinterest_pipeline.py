@@ -791,6 +791,31 @@ def main() -> int:
         made += 1
         print(f"  [pin] {asin} board={board!r} link={'blog' if link.startswith(SITE) else 'amazon'} -> {rel}")
 
+    # Re-read and MERGE before writing. This run holds an in-memory copy taken at
+    # startup and generation takes ~15 minutes (10 pins, each with image work), so any
+    # other writer in that window gets clobbered by a blind write. That is exactly what
+    # happened to the collage pins: the 06:20 collage job appended its entry at
+    # 10:21 UTC while this job, started 10:10, was still queuing pins at 10:25 — and
+    # then overwrote it. Two collages were generated on 2026-09-11/12 and neither ever
+    # reached the queue, so the format Pinterest saves ~2x more often never published.
+    on_disk = []
+    if QUEUE_PATH.exists():
+        try:
+            on_disk = json.loads(QUEUE_PATH.read_text())
+            if isinstance(on_disk, dict):
+                on_disk = on_disk.get("queue", [])
+        except (json.JSONDecodeError, OSError) as e:
+            print(f"[pinterest] could not re-read queue to merge ({e}); writing ours")
+            on_disk = []
+    ours = {e.get("id") for e in queue if isinstance(e, dict)}
+    added_elsewhere = [e for e in on_disk
+                       if isinstance(e, dict) and e.get("id") not in ours]
+    if added_elsewhere:
+        queue.extend(added_elsewhere)
+        print(f"[pinterest] merged {len(added_elsewhere)} entry(s) another job added "
+              f"while we were generating: "
+              f"{[e.get('id') for e in added_elsewhere][:4]}")
+
     QUEUE_PATH.write_text(json.dumps(queue, indent=2))
     print(f"[pinterest] generated {made} new pin(s); queue now {len(queue)} total -> {QUEUE_PATH.relative_to(ROOT)}")
 

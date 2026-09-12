@@ -32,6 +32,9 @@ import unicodedata
 from datetime import date, datetime, timezone
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from category_identity import in_category  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 BLOG_POSTS = ROOT / "blog" / "posts"
 BLOG_INDEX = ROOT / "blog" / "index.html"
@@ -685,6 +688,16 @@ def main() -> int:
         # label now selects the evergreen FILENAME, so a "Cleaning" run whose picks
         # skewed to the neighbour node overwrote best-kitchen-gadgets.html and left the
         # cleaning page stale forever. Borrowed picks are fine; a borrowed identity is not.
+        # `cat_label` records the NODE a product was scraped from, which is provenance,
+        # not identity. Amazon's charts bleed, so the Window Treatments node served six
+        # bedside table lamps and washcloths and this guard passed every one of them —
+        # they really had come from that node. best-blackout-curtains.html went live
+        # listing four table lamps under the headline "Best Blackout Curtains", and the
+        # Home Storage collage advertised a water bottle and a Stanley tumbler as
+        # storage bins. Check what the product IS, by title, as well as where it came
+        # from.
+        picks = [p for p in picks
+                 if in_category(p.get("title") or p.get("name") or "", cat_label)]
         primary = [p for p in picks if p.get("cat_label") == cat_label]
         if len(primary) < 3:
             print(f"[trending] only {len(primary)} of {len(picks)} picks are genuinely "

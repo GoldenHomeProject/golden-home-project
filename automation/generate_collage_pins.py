@@ -27,6 +27,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "automation"))
 
 from collage_pin import build_collage_pin, headline_for, HUB_HEADLINES  # noqa: E402
+from category_identity import in_category  # noqa: E402
 
 SOCIAL = ROOT / "social"
 PINS_DIR = SOCIAL / "pinterest"
@@ -111,8 +112,18 @@ def main() -> int:
             print(f"  [skip] {slug}: hub page does not exist — pin would link nowhere")
             continue
 
-        picks = [p for p in (data.get("picks") or []) if p.get("asin")][:4]
+        # Identity, not just provenance. The first version of this guard trusted the
+        # picks file's own category label, and on 2026-09-12 it built
+        # "4 Storage Bin Picks Under $33" out of an Owala water bottle, velvet hangers,
+        # a Stanley tumbler and a lunch bag — every one of them genuinely scraped from
+        # Amazon's Home Storage node, not one of them a storage bin. A collage that
+        # lies about what it is selling is worse than no collage.
+        raw = [p for p in (data.get("picks") or []) if p.get("asin")]
+        picks = [p for p in raw
+                 if in_category(p.get("name") or p.get("title") or "", cat)][:4]
         if len(picks) < 4:
+            print(f"  [skip] {slug}: only {len(picks)} of {len(raw)} picks read as "
+                  f"genuinely {cat} — refusing to build a mislabelled collage")
             continue
         pin_id = f"collage-{date_str}-{slug}"
         if pin_id in existing:
