@@ -11,9 +11,13 @@ name: Deploy site to Pages
 # create a post. Republishing three months of already-posted media on every deploy buys
 # nothing and was about to break the site permanently.
 #
-# So we publish the site plus a rolling window of recent media. NOTHING IS DELETED — every
+# So we publish the site plus the media that is still NEEDED. NOTHING IS DELETED — every
 # old file stays in git exactly where it was, it simply stops being copied into the
 # website artifact.
+#
+# UPDATE 2026-09-12: the rolling 21-day window crossed the 900 MB guard and blocked all
+# deploys. "Needed" is now defined by the posting queues rather than by age — see the
+# staging step. Artifact went 901 MB -> ~710 MB.
 
 on:
   push:
@@ -67,29 +71,84 @@ jobs:
           # Small, permanently referenced media.
           mkdir -p _site/social
           [ -d social/product_images ] && cp -r social/product_images _site/social/ || true
-          # Older transformation videos are still linked by queued posts and are static.
-          [ -d videos ] && cp -r videos _site/ || true
+          # videos/ (153 MB) is deliberately NOT staged. It is the legacy APRIL_CALENDAR
+          # set, untouched since 2026-05-16, every entry already posted and none dated
+          # later than 2026-05-10, so nothing will ever request it again. Verified before
+          # dropping it: no HTML references it, no queue entry references it, and
+          # github_daily_poster.pages_video_url() already HEAD-checks the Pages URL and
+          # falls back to raw.githubusercontent if it 404s. The files remain in git.
 
-      - name: Stage recent social media only
+      - name: Stage social media that is still needed
         run: |
           set -euo pipefail
-          # Select by the DATE IN THE FILENAME, never by mtime. `git checkout` stamps every
-          # file with the checkout time, so `find -mtime -21` matched the entire repo in CI
-          # and staged all 1.77GB — it only looked correct when tested on a machine with
-          # real mtimes. Our media is date-stamped (pin-2026-08-17-*.png,
-          # reel-2026-08-17-001.mp4, carousels/2026-08-17-<asin>/), so the name is the
-          # honest signal.
+          # A flat 21-day window outgrew the 900 MB guard on 2026-09-12 and blocked every
+          # deploy. Shortening it was the obvious fix and it was WRONG: the queues still
+          # hold unposted entries whose media is up to 69 days old (median 32), so a 7-day
+          # window would have 404'd 374 of the 428 files pending posts point at. Meta fails
+          # a media container with a bare status_code: ERROR when its URL 404s, so the
+          # posts would have died silently — trading a loud red build for an invisible one.
+          #
+          # So the rule is need, not age. Stage a file when EITHER:
+          #   1. an unposted queue entry references its URL — it must resolve or the post
+          #      dies; the queue is the only honest statement of what is still needed, or
+          #   2. it is newer than RECENT_DAYS — covers media generated but not yet queued.
+          # This shrinks automatically as the queue drains, instead of growing with time.
+          #
+          # Still select by the DATE IN THE FILENAME, never mtime: `git checkout` stamps
+          # every file with the checkout time, so `find -mtime -21` matched the whole repo
+          # in CI and staged all 1.77 GB. It only looked right on a machine with real mtimes.
           python3 - <<'PYEOF'
-          import re, shutil
+          import json, re, shutil, sys
           from datetime import date, timedelta
           from pathlib import Path
 
-          WINDOW = 21          # longer than anything sits in a posting queue
-          cutoff = date.today() - timedelta(days=WINDOW)
+          RECENT_DAYS = 7
+          SITE_URL = "https://goldenhomeproject.com/"
+          cutoff = date.today() - timedelta(days=RECENT_DAYS)
           site = Path("_site")
           datepat = re.compile(r"(20\d{2})-(\d{2})-(\d{2})")
-          kept = skipped = 0
 
+          # ---- what do unposted queue entries still point at? ----------------------
+          referenced, pending, unreadable = set(), 0, []
+          for qf in sorted(Path("social").glob("*queue*.json")):
+              if qf.name.startswith("._"):      # macOS AppleDouble junk, not JSON
+                  continue
+              try:
+                  data = json.loads(qf.read_text())
+              except Exception as e:
+                  unreadable.append(f"{qf.name}: {type(e).__name__} {e}")
+                  continue
+              items = data.get("queue", data) if isinstance(data, dict) else data
+              if not isinstance(items, list):
+                  continue
+              for it in items:
+                  if not isinstance(it, dict):
+                      continue
+                  if it.get("posted_at") or it.get("pin_id") or it.get("status") == "posted":
+                      continue
+                  pending += 1
+                  cand = [it.get("video_url"), it.get("image_url")]
+                  cand += it.get("image_urls") or []
+                  if it.get("image"):           # pinterest stores a repo-relative path
+                      cand.append(SITE_URL + str(it["image"]))
+                  for u in cand:
+                      if isinstance(u, str) and u.startswith(SITE_URL):
+                          referenced.add(u[len(SITE_URL):])
+
+          # An unreadable queue means we cannot know what is needed. Staging "just the
+          # recent stuff" would look green and quietly 404 real pending posts, so stop.
+          if unreadable:
+              for u in unreadable:
+                  print(f"::error::unreadable queue file -> {u}")
+              sys.exit(1)
+          if pending and not referenced:
+              print(f"::error::{pending} unposted queue entries but ZERO resolvable media "
+                    f"URLs. The queue schema probably changed; staging would 404 them.")
+              sys.exit(1)
+
+          # ---- stage ---------------------------------------------------------------
+          kept = skipped = 0
+          kept_b = skipped_b = 0
           for d in ("social/carousels", "social/reels", "social/pinterest"):
               src = Path(d)
               if not src.is_dir():
@@ -97,23 +156,35 @@ jobs:
               for f in src.rglob("*"):
                   if not f.is_file():
                       continue
-                  m = datepat.search(str(f))
+                  rel = str(f)
+                  m = datepat.search(rel)
+                  when = None
                   if m:
                       try:
                           when = date(int(m[1]), int(m[2]), int(m[3]))
                       except ValueError:
                           when = None
-                  else:
-                      when = None
                   # Undated files are rare and small (e.g. presenter assets); keep them.
-                  if when is not None and when < cutoff:
+                  if rel in referenced or when is None or when >= cutoff:
+                      dest = site / f
+                      dest.parent.mkdir(parents=True, exist_ok=True)
+                      shutil.copy2(f, dest)
+                      kept += 1
+                      kept_b += f.stat().st_size
+                  else:
                       skipped += 1
-                      continue
-                  dest = site / f
-                  dest.parent.mkdir(parents=True, exist_ok=True)
-                  shutil.copy2(f, dest)
-                  kept += 1
-          print(f"media staged: {kept} kept, {skipped} skipped (older than {cutoff})")
+                      skipped_b += f.stat().st_size
+
+          print(f"queues: {pending} unposted entries referencing "
+                f"{len(referenced)} media paths")
+          print(f"media staged: {kept} kept ({kept_b/1e6:.1f} MB), "
+                f"{skipped} skipped ({skipped_b/1e6:.1f} MB)")
+
+          # Every referenced file must have landed, or a pending post will 404.
+          gone = [r for r in referenced if not (site / r).is_file()]
+          if gone:
+              print(f"::warning::{len(gone)} referenced media file(s) do not exist in the "
+                    f"repo and will 404 when posted: {sorted(gone)[:5]}")
           PYEOF
           echo "staged size:"; du -sh _site
 
@@ -122,7 +193,11 @@ jobs:
           bytes=$(du -sb _site | cut -f1)
           echo "artifact bytes: $bytes"
           if [ "$bytes" -gt 900000000 ]; then
-            echo "::error::_site is ${bytes} bytes, close to the 1 GB Pages limit. Shorten the media window."
+            echo "::error::_site is ${bytes} bytes, close to the 1 GB Pages limit."
+            echo "::error::Do NOT just shorten the window — staged media is what UNPOSTED"
+            echo "::error::queue entries point at, and dropping it 404s those posts silently."
+            echo "::error::The real cause is the posting queue not draining. Check how many"
+            echo "::error::entries are pending vs how many we post per day."
             exit 1
           fi
 
