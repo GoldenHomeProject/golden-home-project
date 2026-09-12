@@ -312,8 +312,15 @@ def main() -> int:
     # The per-ASIN block exists so we never pin the same product twice. A VERIFIED price
     # drop is new information about that product, though, so it is allowed through — the
     # per-pin-id ledger check above still prevents posting the same drop twice.
+    # `blocked` withdraws a queued pin without deleting it. Needed because the only
+    # way to stop a bad pin used to be removing the entry, which loses the record of
+    # what was built and why it was pulled. First use: a collage built before the
+    # category-identity filter existed, titled "4 Storage Bin Picks Under $33" and
+    # showing a water bottle, a Stanley tumbler and a lunch bag. The entry stays in the
+    # queue carrying its blocked_reason; it simply never posts.
     pending = [p for p in queue
                if not p.get("posted")
+               and not p.get("blocked")
                and p["id"] not in led_ids
                and (p.get("asin") not in led_asins or _is_drop(p))]
     # Order by expected value, not by age.
