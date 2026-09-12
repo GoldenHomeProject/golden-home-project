@@ -663,9 +663,101 @@ def pick_music_bed(script: dict) -> Path | None:
     return default if default.exists() else None
 
 
+# Scene-to-scene TRANSITIONS. Until now clips were joined with the concat demuxer,
+# which is a hard cut every time — the single most "made by a script" thing about our
+# reels. xfade gives real transitions, and varying them per reel keeps consecutive days
+# from looking identical.
+#
+# xfade shortens total video by (duration x number of transitions), which would let
+# -shortest truncate the voiceover. tpad clones the final frame to put that time back.
+# Vetted by rendering the midpoint of all 32 xfade transitions to a contact sheet and
+# looking at every one. Rejected, with reasons: dissolve (random-pixel static),
+# pixelize (mosaic, reads as censorship), distance + hlslice (posterised / glitchy
+# slices), circlecrop, rectcrop, zoomin (midpoint is a black frame), fadegrays and
+# fadeblack (muddy/dark — wrong for a bright home brand). These 16 are what is left.
+# Ordered so the stride below lands on a different family each seam.
+XFADES = ["fade", "slideleft", "smoothup", "wiperight",
+          "circleopen", "slideup", "smoothleft", "diagtl",
+          "hblur", "wipeleft", "slideright", "radial",
+          "smoothright", "coverleft", "diagbr", "fadewhite"]
+XFADE_D = 0.35
+
+
+def _probe_duration(path: Path) -> float:
+    r = subprocess.run(
+        ["ffprobe", "-v", "error", "-show_entries", "format=duration",
+         "-of", "csv=p=0", str(path)],
+        capture_output=True, text=True)
+    try:
+        return float((r.stdout or "0").strip())
+    except ValueError:
+        return 0.0
+
+
+def build_xfade_chain(clip_paths: list, seed: int = 0):
+    """(filter_complex_video, final_label, pad_seconds) for an xfade chain.
+
+    Returns ("", "", 0.0) for a single clip — nothing to transition between.
+    """
+    n = len(clip_paths)
+    if n < 2:
+        return "", "", 0.0
+    durs = [_probe_duration(p) for p in clip_paths]
+    if any(d <= 0 for d in durs):
+        return "", "", 0.0
+
+    parts, prev, offset = [], "0:v", 0.0
+    for i in range(1, n):
+        kind = XFADES[(seed + i * 5) % len(XFADES)]
+        offset += durs[i - 1] - XFADE_D
+        label = f"vx{i}"
+        parts.append(
+            f"[{prev}][{i}:v]xfade=transition={kind}:duration={XFADE_D}"
+            f":offset={offset:.3f}[{label}]")
+        prev = label
+    pad = XFADE_D * (n - 1)
+    # Hold the last frame to restore the time xfade consumed, then a light grade so
+    # every scene shares one look instead of inheriting whatever the stock photo had.
+    # No vignette: at PI/5 and even PI/9 it rims the frame in visible black, which is
+    # the opposite of the bright, airy look this niche rewards.
+    parts.append(
+        f"[{prev}]tpad=stop_mode=clone:stop_duration={pad:.3f},"
+        f"eq=saturation=1.06:contrast=1.04[vout]")
+    return ";".join(parts), "vout", pad
+
+
 def ffmpeg_concat_with_audio(clip_paths: list[Path], audio_path: Path,
                              out_path: Path, music_path: Path | None = None):
-    """Concat per-scene MP4s, mix voiceover + optional music bed."""
+    """Join per-scene MP4s with transitions, mix voiceover + optional music bed."""
+    vchain, vlabel, _pad = build_xfade_chain(clip_paths, seed=len(out_path.stem))
+    if vchain:
+        inputs = []
+        for c in clip_paths:
+            inputs += ["-i", str(c)]
+        n = len(clip_paths)
+        voice_i, music_i = n, n + 1
+        if music_path and music_path.exists():
+            afilter = (
+                f"[{music_i}:a]volume={MUSIC_GAIN},afade=t=in:st=0:d=0.3,"
+                f"afade=t=out:st=25:d=1.5[mbed];"
+                f"[{voice_i}:a][mbed]amix=inputs=2:duration=first:"
+                f"dropout_transition=0:normalize=0,alimiter=limit=0.95[aout]")
+            extra = ["-stream_loop", "-1", "-i", str(music_path)]
+            amap = "[aout]"
+        else:
+            afilter, extra, amap = "", [], f"{voice_i}:a"
+        fc = vchain + (";" + afilter if afilter else "")
+        cmd = (["ffmpeg", "-y", "-loglevel", "error"] + inputs
+               + ["-i", str(audio_path)] + extra
+               + ["-filter_complex", fc,
+                  "-map", f"[{vlabel}]", "-map", amap,
+                  "-c:v", "libx264", "-preset", "medium", "-crf", "22",
+                  "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k",
+                  "-shortest", "-movflags", "+faststart", str(out_path)])
+        subprocess.run(cmd, check=True)
+        print(f"    transitions: {n - 1} xfade(s) + grade")
+        return
+
     concat_list = out_path.parent / f"{out_path.stem}_concat.txt"
     concat_list.write_text(
         "\n".join(f"file '{p.absolute()}'" for p in clip_paths)
