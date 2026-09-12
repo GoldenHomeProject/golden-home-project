@@ -612,6 +612,24 @@
       "discovery_source": "harvest_catalogue",
       "keyword": "DECORATIVE",
       "promoted_at": "2026-09-11T12:21:05Z"
+    },
+    {
+      "asin": "B00NX0WXQI",
+      "product_name": "Queen Sheets Set, 4 Pieces 16\" Deep Pocket Hotel Luxury Bed Sheets, Grey | Extra Soft Bedsheet Set, Comfy & Breathable C",
+      "categories": [
+        "home",
+        "Home & Kitchen"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B00NX0WXQI?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-08-23",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$13.31",
+      "verified_stars": "4.6",
+      "verified_reviews": 113235,
+      "discovery_source": "harvest_catalogue",
+      "keyword": "DEEP",
+      "promoted_at": "2026-09-12T12:20:54Z"
     }
   ],
   "_vetted_doc": "Verified-live Amazon ASINs cleared for blog/SEO/IG-caption use but NOT yet wired to a Meta comment-to-DM automation. Promote to `entries` (with a unique keyword) only AFTER creating the matching Meta Business Suite automation. Always use https://www.amazon.com/dp/<ASIN>?tag=goldenhomep06-20 \u2014 never search URLs.",
@@ -1872,22 +1890,6 @@
       "verified_price": "$25.49",
       "verified_stars": "4.6",
       "verified_reviews": 25108,
-      "discovery_source": "harvest_catalogue"
-    },
-    {
-      "asin": "B00NX0WXQI",
-      "product_name": "Queen Sheets Set, 4 Pieces 16\" Deep Pocket Hotel Luxury Bed Sheets, Grey | Extra Soft Bedsheet Set, Comfy & Breathable C",
-      "categories": [
-        "home",
-        "Home & Kitchen"
-      ],
-      "affiliate_url": "https://www.amazon.com/dp/B00NX0WXQI?tag=goldenhomep06-20",
-      "status": "live",
-      "verified_at": "2026-08-23",
-      "verified_method": "best_seller_grid",
-      "verified_price": "$13.31",
-      "verified_stars": "4.6",
-      "verified_reviews": 113235,
       "discovery_source": "harvest_catalogue"
     },
     {

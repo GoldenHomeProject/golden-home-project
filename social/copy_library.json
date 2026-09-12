@@ -2324,6 +2324,52 @@
           }
         ]
       }
+    ],
+    "DEEP": [
+      {
+        "hook_category": "proof",
+        "hook": "113,235 reviews. 4.6 stars. For a $13 sheet set, that's rare.",
+        "beat1": "Most sheet sets don't cross even a thousand reviews. This one has over 113,000, and the average still holds at 4.6 stars. That volume makes the rating harder to dismiss as luck or a review farm.",
+        "turn": "This is a 4-piece queen set in grey with a 16-inch deep pocket, built to stay on thicker mattresses, plus a fitted, flat, and two pillowcases in a soft, breathable weave. A rating that high across 113,235 reviews points to consistent results across a huge number of beds, not a handful of lucky buyers.",
+        "result": "For $13.31, you get a full queen set that fits deep mattresses without shopping around for extra-deep options. The review count alone makes it a low-risk swap for a worn-out set.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close-up of a phone screen showing '113,235 ratings, 4.6 stars' on a product page, thumb scrolling",
+            "on_screen_text": "113,235 REVIEWS",
+            "voiceover": "One hundred thirteen thousand reviews."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Overhead shot of a grey queen sheet set folded neatly, four pieces fanned out on a bed",
+            "on_screen_text": "4 PIECES / GREY",
+            "voiceover": "That's the sample size behind this four-piece grey set."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Hands pulling a fitted grey sheet corner over a thick mattress, stretching the deep pocket over the edge",
+            "on_screen_text": "16\" DEEP POCKET",
+            "voiceover": "A 16 inch deep pocket, made for thicker mattresses that never seem to fit."
+          },
+          {
+            "n": 4,
+            "duration_sec": 5,
+            "visual_prompt": "Slow pan across a fully made bed with grey sheets and pillowcases, soft natural light",
+            "on_screen_text": "SOFT & BREATHABLE",
+            "voiceover": "At that many reviews, a 4.6 average isn't a fluke \u2014 it's a pattern across thousands of beds."
+          },
+          {
+            "n": 5,
+            "duration_sec": 4,
+            "visual_prompt": "Price tag graphic overlay on the bedding, $13.31 shown clearly, then fade to product shot",
+            "on_screen_text": "$13.31",
+            "voiceover": "Thirteen dollars and thirty-one cents for the full set."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
