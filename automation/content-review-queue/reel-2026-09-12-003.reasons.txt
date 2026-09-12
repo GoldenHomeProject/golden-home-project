@@ -1,0 +1,3 @@
+too many ALL CAPS long words: ['MIULEE', 'THROW']
+
+Reviewed: 2026-09-12T09:45:43.985386+00:00
