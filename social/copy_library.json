@@ -1,5 +1,5 @@
 {
-  "_doc": "Hand-crafted reel script variants per DM keyword. Replaces the LLM-driven content engine \u2014 the Claude Code CLI was unreliable for batch JSON gen and burning subscription minutes. Each entry follows AIDA + Grand Slam Offer structure, no banned openers, no banned voice words, includes the literal 'Comment <KEYWORD>' CTA. The Content Engine selects variants in rotation, locks affiliate metadata to dm_keyword_registry.json, and ships. Add more variants per keyword as the funnel proves out \u2014 minimum 5 per live keyword to allow 5-day rotation without repetition.",
+  "_doc": "Hand-crafted reel script variants per DM keyword. Replaces the LLM-driven content engine — the Claude Code CLI was unreliable for batch JSON gen and burning subscription minutes. Each entry follows AIDA + Grand Slam Offer structure, no banned openers, no banned voice words, includes the literal 'Comment <KEYWORD>' CTA. The Content Engine selects variants in rotation, locks affiliate metadata to dm_keyword_registry.json, and ships. Add more variants per keyword as the funnel proves out — minimum 5 per live keyword to allow 5-day rotation without repetition.",
   "version": "2026-04-27",
   "variants": {
     "LINK": [
@@ -7,7 +7,7 @@
         "hook_category": "wrong_until_right",
         "hook": "Open the cabinet under your sink and count how many things fall out.",
         "beat1": "Sponges, dish soap, a bottle of oil pushed to the back where it's never seen again. One deep shelf means everything gets stacked in front of everything else, and reaching for anything means knocking something over first.",
-        "turn": "The Simple Houseware 2-Tier Sliding Basket Organizer is $34.97 \u2014 chrome wire, rated for 18 lbs per shelf, with a front rack that slides out independently of the back.",
+        "turn": "The Simple Houseware 2-Tier Sliding Basket Organizer is $34.97 — chrome wire, rated for 18 lbs per shelf, with a front rack that slides out independently of the back.",
         "result": "Pull the front basket out and the back row doesn't move. Everything gets its own space instead of hiding behind the next thing.",
         "scenes": [
           {
@@ -117,15 +117,15 @@
           {
             "n": 1,
             "duration_sec": 3,
-            "visual_prompt": "before/after split \u2014 chaotic vs organized under-sink",
-            "on_screen_text": "3 WEEKS AGO",
+            "visual_prompt": "before/after split — chaotic vs organized under-sink",
+            "on_screen_text": "UNDER THE SINK",
             "voiceover": "Under-sink cabinets have a way of turning into a junk pile fast."
           },
           {
             "n": 2,
             "duration_sec": 4,
             "visual_prompt": "lost half-used cleaning supplies in cluttered cabinet",
-            "on_screen_text": "STUFF I FORGOT I OWNED",
+            "on_screen_text": "A YEAR-OLD BOTTLE, STILL THERE",
             "voiceover": "Open the cabinet under the sink and it's sponges, three half-empty bottles of the same cleaner, and something that's been sitting there over a year."
           },
           {
@@ -162,7 +162,7 @@
       {
         "hook_category": "micro_insight",
         "hook": "Everyone tells you to buy more bins. That is not why your cabinet stays messy.",
-        "beat1": "Containers don't fix it. Bigger cabinets don't fix it. The problem is depth \u2014 when you can't reach the back without pulling everything in front out first, the back row stops existing.",
+        "beat1": "Containers don't fix it. Bigger cabinets don't fix it. The problem is depth — when you can't reach the back without pulling everything in front out first, the back row stops existing.",
         "turn": "A sliding basket organizer fixes the depth problem. Simple Houseware's chrome 2-tier model holds 18 lbs per shelf, and each tier pulls forward independently, so the back row is one motion away.",
         "result": "Nothing stays buried at the back, so you stop buying duplicates of things already in the cabinet. It becomes a system instead of a graveyard.",
         "scenes": [
@@ -214,7 +214,7 @@
       {
         "hook_category": "confrontation",
         "hook": "Buying more bins won't fix a cabinet where the back six inches are functionally gone.",
-        "beat1": "Clear containers, stackable trays, labels on every lid \u2014 the containers were never the problem. The problem is a cabinet that only lets you reach the front six inches.",
+        "beat1": "Clear containers, stackable trays, labels on every lid — the containers were never the problem. The problem is a cabinet that only lets you reach the front six inches.",
         "turn": "The Simple Houseware 2-Tier Sliding Basket Organizer fixes the mechanism instead of the containers. Chrome wire, two tiers, and the front basket slides out on its own track so the back tier stays reachable.",
         "result": "Whatever's stored behind the front basket stays visible instead of disappearing into the cabinet. $34.97.",
         "scenes": [
@@ -230,7 +230,7 @@
             "duration_sec": 4,
             "visual_prompt": "stacked clear bins still cluttered, hard to access",
             "on_screen_text": "CLEAR BINS DIDN'T HELP",
-            "voiceover": "Clear bins, stackable trays \u2014 none of it worked."
+            "voiceover": "Clear bins, stackable trays — none of it worked."
           },
           {
             "n": 3,
@@ -268,7 +268,7 @@
       {
         "hook_category": "wrong_until_right",
         "hook": "Stacking a second pillow doesn't fix a shoulder problem. It just gives you a second wrong pillow.",
-        "beat1": "A towel rolled under the neck, a memory foam block that traps heat, switching sides at 3am to find a cool spot \u2014 none of it changes the real shape problem: a flat pillow has nowhere for a shoulder to go.",
+        "beat1": "A towel rolled under the neck, a memory foam block that traps heat, switching sides at 3am to find a cool spot — none of it changes the real shape problem: a flat pillow has nowhere for a shoulder to go.",
         "turn": "The Eli & Elm Side Sleeper Pillow is a U-shape cutout built for that shoulder, sized for queen beds, with an adjustable latex-and-fiber fill and a cooling cover.",
         "result": "$114.99, once. No towel rolls, no flipped pillows, no foam block heating up by 2am.",
         "scenes": [
@@ -284,7 +284,7 @@
             "duration_sec": 4,
             "visual_prompt": "stack of two pillows on bed, towel rolled up next to it",
             "on_screen_text": "TRIED STACKING. TRIED TOWELS.",
-            "voiceover": "A towel rolled under the neck, a memory foam block that traps heat, switching sides at 3am to find a cool spot \u2014 none of it changes the real shape problem: a flat pillow has nowhere for a shoulder to go."
+            "voiceover": "A towel rolled under the neck, a memory foam block that traps heat, switching sides at 3am to find a cool spot — none of it changes the real shape problem: a flat pillow has nowhere for a shoulder to go."
           },
           {
             "n": 3,
@@ -298,7 +298,7 @@
             "duration_sec": 5,
             "visual_prompt": "Eli & Elm pillow with U-shape cutout for shoulder, cooling cover",
             "on_screen_text": "U-SHAPE FOR SIDE SLEEPERS",
-            "voiceover": "The Eli & Elm Side Sleeper Pillow is built around that shoulder instead of ignoring it \u2014 a U-shape cutout for queen-size sleepers, an adjustable latex-and-fiber fill, and a cooling cover made to stay cool through the night."
+            "voiceover": "The Eli & Elm Side Sleeper Pillow is built around that shoulder instead of ignoring it — a U-shape cutout for queen-size sleepers, an adjustable latex-and-fiber fill, and a cooling cover made to stay cool through the night."
           },
           {
             "n": 5,
@@ -322,7 +322,7 @@
         "hook": "Everyone blames the mattress for a stiff neck by morning. The pillow is usually the actual problem.",
         "beat1": "A flat pillow lets your top shoulder collapse forward, twisting your neck out of line for eight hours straight. That's what leaves you stiff, not the mattress underneath.",
         "turn": "The Eli & Elm Side Sleeper Pillow uses a U-shaped cutout so your shoulder can settle into the mattress instead of pressing into the pillow, keeping your neck and spine in one line.",
-        "result": "It's latex, queen-size, built specifically for side sleeping, and priced at $114.99 \u2014 far less than replacing a mattress that was never the actual problem.",
+        "result": "It's latex, queen-size, built specifically for side sleeping, and priced at $114.99 — far less than replacing a mattress that was never the actual problem.",
         "scenes": [
           {
             "n": 1,
@@ -336,7 +336,7 @@
             "duration_sec": 4,
             "visual_prompt": "stack of receipts: mattress, topper, chiropractor bills",
             "on_screen_text": "$1,400 MATTRESS. DIDN'T HELP.",
-            "voiceover": "Mattress, topper, chiropractor \u2014 none of it worked."
+            "voiceover": "Mattress, topper, chiropractor — none of it worked."
           },
           {
             "n": 3,
@@ -374,7 +374,7 @@
         "hook": "It's 4am. Your neck won't turn left and the alarm is 90 minutes out.",
         "beat1": "Your shoulder's gone numb. The pillow's too high, then too low the second you flip it. Cold side buys about a minute. The angle never changes.",
         "turn": "Eli & Elm's Side Sleeper Pillow is built for that angle problem: U-shaped cutout for your shoulder, latex-fiber fill you add or remove to set your own height. $114.99, queen.",
-        "result": "Same mattress, same room. The cutout is designed so your neck doesn't have to twist just to keep your shoulder covered \u2014 the one variable a flat pillow can't fix.",
+        "result": "Same mattress, same room. The cutout is designed so your neck doesn't have to twist just to keep your shoulder covered — the one variable a flat pillow can't fix.",
         "scenes": [
           {
             "n": 1,
@@ -424,7 +424,7 @@
       {
         "hook_category": "micro_insight",
         "hook": "Every pillow claims to fix your neck. Most of them are shaped for people who sleep on their back.",
-        "beat1": "On your side, a flat pillow tilts your neck down toward the mattress \u2014 that gap is where the crook in your neck comes from, not just a rough night.",
+        "beat1": "On your side, a flat pillow tilts your neck down toward the mattress — that gap is where the crook in your neck comes from, not just a rough night.",
         "turn": "Eli & Elm built theirs for the position you're actually in: a U-shape with a shoulder cutout, plus adjustable latex-fiber fill you pack in or pull out to match your shoulder width.",
         "result": "Spine level, shoulder supported, no digging around for the one flat side at 3am.",
         "scenes": [
@@ -439,7 +439,7 @@
             "n": 2,
             "duration_sec": 4,
             "visual_prompt": "anatomical diagram of bent spine on standard pillow",
-            "on_screen_text": "SPINE BENT 30\u00b0",
+            "on_screen_text": "SPINE BENT 30°",
             "voiceover": "Standard pillows bend your spine 30 degrees."
           },
           {
@@ -476,8 +476,8 @@
       {
         "hook_category": "confrontation",
         "hook": "Your mattress isn't the problem. Pillows haven't changed shape in 70 years.",
-        "beat1": "New mattress, foam topper, a chiropractor visit \u2014 and the pain returns anyway, because none of it touches the one variable that actually shapes side-sleep comfort: the pillow.",
-        "turn": "Eli & Elm's U-shape pillow carves out room for the shoulder \u2014 adjustable latex-fiber fill, cooling cover, built for the 74% of people who sleep on their side. $114.99.",
+        "beat1": "New mattress, foam topper, a chiropractor visit — and the pain returns anyway, because none of it touches the one variable that actually shapes side-sleep comfort: the pillow.",
+        "turn": "Eli & Elm's U-shape pillow carves out room for the shoulder — adjustable latex-fiber fill, cooling cover, built for the 74% of people who sleep on their side. $114.99.",
         "result": "Matching the pillow to how you actually sleep costs a fraction of a new mattress, and fixes what the mattress can't.",
         "scenes": [
           {
@@ -492,7 +492,7 @@
             "duration_sec": 4,
             "visual_prompt": "stack of receipts for mattress, topper, chiropractor",
             "on_screen_text": "TRIED EVERYTHING. NOTHING WORKED.",
-            "voiceover": "Mattress, topper, chiropractor \u2014 pain came back."
+            "voiceover": "Mattress, topper, chiropractor — pain came back."
           },
           {
             "n": 3,
@@ -537,37 +537,37 @@
           {
             "n": 1,
             "duration_sec": 3,
-            "visual_prompt": "first-person POV of a cluttered closet, things spilling out",
-            "on_screen_text": "THIS WAS EVERY DAY",
+            "visual_prompt": "closet rod crowded with bulky plastic hangers, shirts pressed together, bright daylight, no people",
+            "on_screen_text": "THICK HANGERS EAT THE ROD",
             "voiceover": "If your closet has turned into a place you avoid opening, the hangers are usually the real problem."
           },
           {
             "n": 2,
             "duration_sec": 4,
-            "visual_prompt": "close-up of disorganized items in the closet",
-            "on_screen_text": "COULD NEVER FIND ANYTHING",
+            "visual_prompt": "close-up of a shirt slipping off a smooth plastic hanger, product still life, no people",
+            "on_screen_text": "SHIRTS SLIDE INTO A PILE",
             "voiceover": "Standard hangers are thick at the shoulder, so even a tidy count of them eats up rod inches, lets shirts slide into a pile, and leaves no clear gap between outfits."
           },
           {
             "n": 3,
             "duration_sec": 4,
-            "visual_prompt": "person shutting a door/drawer in frustration",
-            "on_screen_text": "SO I GAVE UP",
-            "voiceover": "Every time I opened it I just shut it again."
+            "visual_prompt": "macro detail of a slim velvet hanger shoulder beside a thick plastic one, side by side, no people",
+            "on_screen_text": "VELVET GRIPS, SLIM SAVES",
+            "voiceover": "Velvet stops the slide, and the slim profile gives back rod inches you already paid for."
           },
           {
             "n": 4,
             "duration_sec": 5,
-            "visual_prompt": "the hangers in use, everything organized and visible",
-            "on_screen_text": "THEN THIS",
+            "visual_prompt": "neat row of identical slim velvet hangers on a rod, evenly spaced, bright daylight, no people",
+            "on_screen_text": "100 PACK, 4.8 STARS",
             "voiceover": "The Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers, a 100-pack rated 4.8 stars across 231,174 reviews, are built to fix exactly that with a slim, non-slip design that gives each piece its own space."
           },
           {
             "n": 5,
             "duration_sec": 4,
-            "visual_prompt": "satisfying final shot of the tidy closet",
-            "on_screen_text": "STAYS SORTED NOW",
-            "voiceover": "The closet actually stays sorted now."
+            "visual_prompt": "wide shot of an organised closet rod with even spacing, bright airy daylight, no people",
+            "on_screen_text": "SAME ROD, MORE ROOM",
+            "voiceover": "Same rod, noticeably more room left on it."
           }
         ],
         "voice_rev": "2026-08-26"
@@ -584,37 +584,37 @@
           {
             "n": 1,
             "duration_sec": 3,
-            "visual_prompt": "first-person POV of a cluttered home, things spilling out",
-            "on_screen_text": "THIS WAS EVERY DAY",
-            "voiceover": "Bath towels that don't earn their keep are easy to spot \u2014 thin, scratchy, or never quite dry before you need them again."
+            "visual_prompt": "folded bath towels stacked on a bathroom shelf, bright daylight, product still life, no people",
+            "on_screen_text": "STILL DAMP FROM YESTERDAY",
+            "voiceover": "Bath towels that don't earn their keep are easy to spot — thin, scratchy, or never quite dry before you need them again."
           },
           {
             "n": 2,
             "duration_sec": 4,
-            "visual_prompt": "close-up of disorganized items in the home",
-            "on_screen_text": "COULD NEVER FIND ANYTHING",
+            "visual_prompt": "close-up of thin worn towel fabric texture, product still life, no people",
+            "on_screen_text": "IT SMEARS, NOT SOAKS",
             "voiceover": "Grab one after a shower and it's still damp from yesterday, or it just smears water around instead of soaking it up. That's not what a towel is supposed to do."
           },
           {
             "n": 3,
             "duration_sec": 4,
-            "visual_prompt": "person shutting a door/drawer in frustration",
-            "on_screen_text": "SO I GAVE UP",
-            "voiceover": "Every time I opened it I just shut it again."
+            "visual_prompt": "macro texture detail of dense cotton towel loops, product still life, no people",
+            "on_screen_text": "600 GSM IS THE NUMBER",
+            "voiceover": "GSM is weight per square metre, and 600 is the range where a towel absorbs instead of pushing water around."
           },
           {
             "n": 4,
             "duration_sec": 5,
-            "visual_prompt": "the towels in use, everything organized and visible",
-            "on_screen_text": "THEN THIS",
+            "visual_prompt": "neat stack of four folded white Turkish cotton bath towels, product still life, no people",
+            "on_screen_text": "4 PIECES, 4.4 STARS",
             "voiceover": "The American Soft Linen Luxury 4 Piece Bath Towel Set is 600 GSM 100% Cotton Turkish cotton, sized 27x54 inches, and it holds a 4.4 star rating across 79,026 reviews."
           },
           {
             "n": 5,
             "duration_sec": 4,
-            "visual_prompt": "satisfying final shot of the tidy home",
-            "on_screen_text": "STAYS SORTED NOW",
-            "voiceover": "The home actually stays sorted now."
+            "visual_prompt": "folded towels on a bathroom shelf in bright daylight, product still life, no people",
+            "on_screen_text": "DRY BY MORNING",
+            "voiceover": "Heavy enough to dry you, open enough to dry itself."
           }
         ],
         "voice_rev": "2026-08-26"
@@ -626,42 +626,42 @@
         "hook": "Bad-tasting tap water usually gets blamed on old pipes. More often it's a filter that's overdue for a swap.",
         "beat1": "Bottled water is a recurring cost, and pitchers that need new filters every few weeks turn clean water into another errand on the list.",
         "turn": "The Brita Large Water Filter Pitcher holds 10 cups and ships with a standard filter rated to last two months, with a 4.6-star rating across 59,611 reviews.",
-        "result": "BPA-free and $28.49 with one filter included \u2014 two months between filter changes instead of a running errand.",
+        "result": "BPA-free and $28.49 with one filter included — two months between filter changes instead of a running errand.",
         "scenes": [
           {
             "n": 1,
             "duration_sec": 3,
-            "visual_prompt": "first-person POV of a cluttered home, things spilling out",
-            "on_screen_text": "THIS WAS EVERY DAY",
+            "visual_prompt": "glass of tap water on a kitchen counter, bright daylight, no people",
+            "on_screen_text": "TASTES LIKE THE PIPES",
             "voiceover": "Tap water that tastes like the pipes it traveled through is one of those problems people just put up with."
           },
           {
             "n": 2,
             "duration_sec": 4,
-            "visual_prompt": "close-up of disorganized items in the home",
-            "on_screen_text": "COULD NEVER FIND ANYTHING",
+            "visual_prompt": "stack of plastic water bottles on a kitchen counter, product still life, no people",
+            "on_screen_text": "BOTTLED WATER ADDS UP",
             "voiceover": "Bottled water is a recurring cost, and pitchers that need new filters every few weeks turn clean water into another errand on the list."
           },
           {
             "n": 3,
             "duration_sec": 4,
-            "visual_prompt": "person shutting a door/drawer in frustration",
-            "on_screen_text": "SO I GAVE UP",
-            "voiceover": "Every time I opened it I just shut it again."
+            "visual_prompt": "water filter cartridge beside a clear pitcher on a clean counter, product still life, no people",
+            "on_screen_text": "ONE FILTER, TWO MONTHS",
+            "voiceover": "One standard filter is rated for two months, so it is a swap you make six times a year."
           },
           {
             "n": 4,
             "duration_sec": 5,
-            "visual_prompt": "the pitcher in use, everything organized and visible",
-            "on_screen_text": "THEN THIS",
+            "visual_prompt": "large clear water filter pitcher full of water on a bright kitchen counter, no people",
+            "on_screen_text": "10 CUPS, 4.6 STARS",
             "voiceover": "The Brita Large Water Filter Pitcher is built around a 10-cup capacity and a standard filter rated to last two months, and it holds a 4.6-star rating across 59,611 reviews."
           },
           {
             "n": 5,
             "duration_sec": 4,
-            "visual_prompt": "satisfying final shot of the tidy home",
-            "on_screen_text": "STAYS SORTED NOW",
-            "voiceover": "The home actually stays sorted now."
+            "visual_prompt": "clear filter pitcher and a filled glass on a counter, product still life, no people",
+            "on_screen_text": "FILTERED, FROM THE TAP",
+            "voiceover": "Filtered water straight from the tap, with nothing to deliver."
           }
         ],
         "voice_rev": "2026-08-26"
@@ -678,37 +678,37 @@
           {
             "n": 1,
             "duration_sec": 3,
-            "visual_prompt": "first-person POV of a cluttered kitchen, things spilling out",
-            "on_screen_text": "THIS WAS EVERY DAY",
+            "visual_prompt": "cabinet shelf packed with jars, the front row hiding the back, bright daylight, no people",
+            "on_screen_text": "THE BACK ROW DISAPPEARS",
             "voiceover": "A cluttered cabinet turns into a guessing game every time you go looking for something."
           },
           {
             "n": 2,
             "duration_sec": 4,
-            "visual_prompt": "close-up of disorganized items in the kitchen",
-            "on_screen_text": "COULD NEVER FIND ANYTHING",
+            "visual_prompt": "close-up of crowded spice jars on a cabinet shelf, product still life, no people",
+            "on_screen_text": "PULL TWO OUT TO REACH ONE",
             "voiceover": "Every jar gets pushed to the back the same way, until reaching the one you want means pulling out the two in front of it first."
           },
           {
             "n": 3,
             "duration_sec": 4,
-            "visual_prompt": "person shutting a door/drawer in frustration",
-            "on_screen_text": "SO I GAVE UP",
-            "voiceover": "Every time I opened it I just shut it again."
+            "visual_prompt": "ten inch lazy susan turntable holding jars on a cabinet shelf, product still life, no people",
+            "on_screen_text": "IT SPINS INSTEAD",
+            "voiceover": "A turntable brings the back row to the front instead of making you unload the shelf."
           },
           {
             "n": 4,
             "duration_sec": 5,
-            "visual_prompt": "the turntable in use, everything organized and visible",
-            "on_screen_text": "THEN THIS",
+            "visual_prompt": "four round non-skid turntable organisers stacked, product still life, no people",
+            "on_screen_text": "SET OF 4, 4.7 STARS",
             "voiceover": "A set of 4 non-skid 10-inch lazy susan turntable organizers is built to fix exactly that, and it holds 4.7 stars across 6,190 reviews."
           },
           {
             "n": 5,
             "duration_sec": 4,
-            "visual_prompt": "satisfying final shot of the tidy kitchen",
-            "on_screen_text": "STAYS SORTED NOW",
-            "voiceover": "The kitchen actually stays sorted now."
+            "visual_prompt": "organised cabinet with jars on turntables, bright daylight, no people",
+            "on_screen_text": "EVERYTHING IN REACH",
+            "voiceover": "Every jar comes to you."
           }
         ],
         "voice_rev": "2026-08-26"
@@ -717,7 +717,7 @@
     "THROW": [
       {
         "hook_category": "wrong_until_right",
-        "hook": "Everyone says buy new throw pillows for a refresh. The inserts aren't the problem \u2014 the covers are.",
+        "hook": "Everyone says buy new throw pillows for a refresh. The inserts aren't the problem — the covers are.",
         "beat1": "Faded fabric, flattened corduroy, colors that stopped matching the room: none of that means the pillow is done, just the cover on it.",
         "turn": "This MIULEE set of 4 sage green boho farmhouse covers is 18x18 inch, soft corduroy with a nordic look, rated 4.6 stars across 3,203 reviews.",
         "result": "At $16.99 for the set, it's a full color swap for a couch or bed without replacing a single pillow.",
@@ -725,37 +725,37 @@
           {
             "n": 1,
             "duration_sec": 3,
-            "visual_prompt": "first-person POV of a cluttered home, things spilling out",
-            "on_screen_text": "THIS WAS EVERY DAY",
+            "visual_prompt": "throw pillows with faded mismatched covers on a sofa, bright daylight, no people",
+            "on_screen_text": "IT'S THE COVER, NOT THE PILLOW",
             "voiceover": "That drawer of mismatched throw pillows isn't going to fix itself."
           },
           {
             "n": 2,
             "duration_sec": 4,
-            "visual_prompt": "close-up of disorganized items in the home",
-            "on_screen_text": "COULD NEVER FIND ANYTHING",
+            "visual_prompt": "close-up of worn faded pillow fabric texture, product still life, no people",
+            "on_screen_text": "FADED AND FLATTENED",
             "voiceover": "Faded fabric, flattened corduroy, colors that stopped matching the room: none of that means the pillow is done, just the cover on it."
           },
           {
             "n": 3,
             "duration_sec": 4,
-            "visual_prompt": "person shutting a door/drawer in frustration",
-            "on_screen_text": "SO I GAVE UP",
-            "voiceover": "Every time I opened it I just shut it again."
+            "visual_prompt": "sage green corduroy pillow cover laid flat beside a plain pillow insert, product still life, no people",
+            "on_screen_text": "SWAP THE COVER, KEEP THE INSERT",
+            "voiceover": "The insert is usually fine. It is the cover that wore out."
           },
           {
             "n": 4,
             "duration_sec": 5,
-            "visual_prompt": "the throw in use, everything organized and visible",
-            "on_screen_text": "THEN THIS",
+            "visual_prompt": "four sage green corduroy boho pillow covers stacked neatly, product still life, no people",
+            "on_screen_text": "SET OF 4, 18x18, 4.6 STARS",
             "voiceover": "This set of 4 sage green boho farmhouse covers is 18x18 inch and sits at 4.6 stars across 3,203 reviews, with a soft corduroy nordic look built for spring updates."
           },
           {
             "n": 5,
             "duration_sec": 4,
-            "visual_prompt": "satisfying final shot of the tidy home",
-            "on_screen_text": "STAYS SORTED NOW",
-            "voiceover": "The home actually stays sorted now."
+            "visual_prompt": "sofa styled with sage green corduroy pillows, bright airy daylight, no people",
+            "on_screen_text": "SAME PILLOWS, NEW ROOM",
+            "voiceover": "Same pillows, a room that reads finished."
           }
         ],
         "voice_rev": "2026-08-26"
@@ -766,43 +766,43 @@
         "hook_category": "wrong_until_right",
         "hook": "Open a cabinet door too fast and something inside slides before you even reach for it.",
         "beat1": "Bare wood and wire shelving give jars and cans nothing to grip, so they creep toward the edge every time that door swings open.",
-        "turn": "A non-adhesive, non-slip shelf liner fixes that without glue or residue \u2014 just cut it to size and lay it down. It holds a 4.7-star rating across 2,556 reviews.",
+        "turn": "A non-adhesive, non-slip shelf liner fixes that without glue or residue — just cut it to size and lay it down. It holds a 4.7-star rating across 2,556 reviews.",
         "result": "One 12\" x 10FT roll runs $7.99, enough to line several shelves for under eight dollars.",
         "scenes": [
           {
             "n": 1,
             "duration_sec": 3,
-            "visual_prompt": "first-person POV of a cluttered kitchen, things spilling out",
-            "on_screen_text": "THIS WAS EVERY DAY",
-            "voiceover": "A cluttered cabinet doesn't need a full overhaul\u2014just something under your dishes and cans that stops them from sliding every time the door opens."
+            "visual_prompt": "kitchen cabinet shelf with cans and jars sitting near the front edge, bright daylight, no people",
+            "on_screen_text": "JARS CREEP TO THE EDGE",
+            "voiceover": "A cluttered cabinet doesn't need a full overhaul—just something under your dishes and cans that stops them from sliding every time the door opens."
           },
           {
             "n": 2,
             "duration_sec": 4,
-            "visual_prompt": "close-up of disorganized items in the kitchen",
-            "on_screen_text": "COULD NEVER FIND ANYTHING",
+            "visual_prompt": "close-up of bare wire shelving under glass jars, product still life, no people",
+            "on_screen_text": "NOTHING TO GRIP",
             "voiceover": "Bare wood and wire shelving give jars and cans nothing to grip, so they creep toward the edge every time that door swings open."
           },
           {
             "n": 3,
             "duration_sec": 4,
-            "visual_prompt": "person shutting a door/drawer in frustration",
-            "on_screen_text": "SO I GAVE UP",
-            "voiceover": "Every time I opened it I just shut it again."
+            "visual_prompt": "roll of non-slip shelf liner laid flat on a cabinet shelf, product still life, no people",
+            "on_screen_text": "NO GLUE, NO RESIDUE",
+            "voiceover": "Non-adhesive means it lifts straight out for cleaning and leaves nothing behind on the shelf."
           },
           {
             "n": 4,
             "duration_sec": 5,
-            "visual_prompt": "the liner in use, everything organized and visible",
-            "on_screen_text": "THEN THIS",
-            "voiceover": "A non-adhesive, non-slip shelf liner like this one fixes that without any mess\u2014no glue, no residue, just lay it down. It holds a 4.7-star rating across 2,556 reviews."
+            "visual_prompt": "lined cabinet shelf with jars sitting square and still, bright daylight, no people",
+            "on_screen_text": "4.7 STARS",
+            "voiceover": "A non-adhesive, non-slip shelf liner like this one fixes that without any mess—no glue, no residue, just lay it down. It holds a 4.7-star rating across 2,556 reviews."
           },
           {
             "n": 5,
             "duration_sec": 4,
-            "visual_prompt": "satisfying final shot of the tidy kitchen",
-            "on_screen_text": "STAYS SORTED NOW",
-            "voiceover": "The kitchen actually stays sorted now."
+            "visual_prompt": "tidy lined cabinet shelf, bright even daylight, no people",
+            "on_screen_text": "THINGS STAY PUT",
+            "voiceover": "Cans stay where they were set down."
           }
         ],
         "voice_rev": "2026-08-26"
@@ -819,37 +819,37 @@
           {
             "n": 1,
             "duration_sec": 3,
-            "visual_prompt": "first-person POV of a cluttered patio, things spilling out",
-            "on_screen_text": "THIS WAS EVERY DAY",
-            "voiceover": "My patio had been a mess for longer than I'll admit."
+            "visual_prompt": "small patio with a single empty chair, open space around it, bright daylight, no people",
+            "on_screen_text": "ONE CHAIR, ONE PERSON",
+            "voiceover": "One chair on a patio means only one person ever sits down."
           },
           {
             "n": 2,
             "duration_sec": 4,
-            "visual_prompt": "close-up of disorganized items in the patio",
-            "on_screen_text": "COULD NEVER FIND ANYTHING",
+            "visual_prompt": "empty patio corner collecting leaves, daylight, no people",
+            "on_screen_text": "THE SPACE GOES UNUSED",
             "voiceover": "The rest of the space stays open, which mostly means it collects leaves and gets ignored instead of used."
           },
           {
             "n": 3,
             "duration_sec": 4,
-            "visual_prompt": "person shutting a door/drawer in frustration",
-            "on_screen_text": "SO I GAVE UP",
-            "voiceover": "Every time I opened it I just shut it again."
+            "visual_prompt": "PE rattan sectional sofa with ottoman and glass table arranged on a patio, no people",
+            "on_screen_text": "SEATING FOR EVERYONE",
+            "voiceover": "A sectional turns the same square footage into seating for the whole group at once."
           },
           {
             "n": 4,
             "duration_sec": 5,
-            "visual_prompt": "the patio in use, everything organized and visible",
-            "on_screen_text": "THEN THIS",
-            "voiceover": "The Vongrasig 5 Piece Patio Furniture Set is built to fix that directly \u2014 a sectional sofa, ottoman, and glass table in all-weather PE rattan, holding 4.1 stars across 2,187 reviews."
+            "visual_prompt": "all-weather PE rattan patio set with cushions in place, bright daylight, no people",
+            "on_screen_text": "5 PIECES, 4.1 STARS",
+            "voiceover": "The Vongrasig 5 Piece Patio Furniture Set is built to fix that directly — a sectional sofa, ottoman, and glass table in all-weather PE rattan, holding 4.1 stars across 2,187 reviews."
           },
           {
             "n": 5,
             "duration_sec": 4,
-            "visual_prompt": "satisfying final shot of the tidy patio",
-            "on_screen_text": "STAYS SORTED NOW",
-            "voiceover": "The patio actually stays sorted now."
+            "visual_prompt": "styled rattan patio set under open sky, warm daylight, no people",
+            "on_screen_text": "A PATIO YOU SIT ON",
+            "voiceover": "The patio becomes somewhere people actually sit."
           }
         ],
         "voice_rev": "2026-08-26"
@@ -867,7 +867,7 @@
             "n": 1,
             "duration_sec": 3,
             "visual_prompt": "Close-up shot of the Etekcity digital bathroom scale sitting on a bathroom floor, clean and centered in frame",
-            "on_screen_text": "4.7\u2605 / 348,951 REVIEWS",
+            "on_screen_text": "4.7★ / 348,951 REVIEWS",
             "voiceover": "348,951 reviews. 4.7 stars. That's a lot of people weighing in."
           },
           {
@@ -875,7 +875,7 @@
             "duration_sec": 4,
             "visual_prompt": "Overhead shot of bare feet stepping onto the scale on a bathroom tile floor",
             "on_screen_text": "DIGITAL READOUT",
-            "voiceover": "It's digital \u2014 step on, get a number, done."
+            "voiceover": "It's digital — step on, get a number, done."
           },
           {
             "n": 3,
@@ -895,7 +895,7 @@
             "n": 5,
             "duration_sec": 4,
             "visual_prompt": "Final clean product shot of the scale alone on a plain floor background, slight zoom in",
-            "on_screen_text": "ETEKCITY DIGITAL SCALE \u2014 $19.88",
+            "on_screen_text": "ETEKCITY DIGITAL SCALE — $19.88",
             "voiceover": "A simple scale that does the one thing it needs to."
           }
         ],
@@ -936,7 +936,7 @@
             "duration_sec": 5,
             "visual_prompt": "Wide static shot of a fully made queen bed, pillows stacked, natural light, uncluttered room",
             "on_screen_text": "4.5 STARS AT SCALE",
-            "voiceover": "Holding 4.5 stars across 450,137 reviews is a lot harder than a high rating on a few hundred. Hype doesn't get you to that number \u2014 years of repeat buyers do."
+            "voiceover": "Holding 4.5 stars across 450,137 reviews is a lot harder than a high rating on a few hundred. Hype doesn't get you to that number — years of repeat buyers do."
           },
           {
             "n": 5,
@@ -953,9 +953,9 @@
       {
         "hook_category": "audience_fit",
         "hook": "If you rent and can't drill into the closet, the only upgrade left is what's already hanging on the rod.",
-        "beat1": "A rented closet comes with one rod and no permission to add shelving, so rail space is the only thing you actually control. Bulky plastic and wooden hangers each claim their own slice of that rod, which is why it looks full long before it's actually full. The fix isn't more rod \u2014 it's thinner hangers.",
+        "beat1": "A rented closet comes with one rod and no permission to add shelving, so rail space is the only thing you actually control. Bulky plastic and wooden hangers each claim their own slice of that rod, which is why it looks full long before it's actually full. The fix isn't more rod — it's thinner hangers.",
         "turn": "These are slim, non-slip velvet hangers built around that one lever: a thinner profile that frees up rail space without touching a wall, sized for suits and everyday clothes, with a velvet surface that keeps garments from sliding off the shoulders.",
-        "result": "Same rod, same lease, noticeably more usable rail \u2014 and clothes that stay where you put them.",
+        "result": "Same rod, same lease, noticeably more usable rail — and clothes that stay where you put them.",
         "scenes": [
           {
             "n": 1,
@@ -982,8 +982,8 @@
             "n": 4,
             "duration_sec": 5,
             "visual_prompt": "Clean product-style shot of a suit jacket and a silky top hanging on slim velvet hangers, shoulders holding shape, nothing sliding. Subtle on-screen rating graphic space at bottom.",
-            "on_screen_text": "4.8 \u2605 \u00b7 235,029 REVIEWS",
-            "voiceover": "Sized for suits and everyday clothes, with a velvet surface that keeps things from sliding off. Four point eight stars across two hundred thirty-five thousand reviews \u2014 a rating that holds at that volume usually means the basics are consistent."
+            "on_screen_text": "4.8 ★ · 235,029 REVIEWS",
+            "voiceover": "Sized for suits and everyday clothes, with a velvet surface that keeps things from sliding off. Four point eight stars across two hundred thirty-five thousand reviews — a rating that holds at that volume usually means the basics are consistent."
           },
           {
             "n": 5,
@@ -1000,8 +1000,8 @@
       {
         "hook_category": "audience_fit",
         "hook": "If you rent, you can't change the closet. You can only change what's hanging in it.",
-        "beat1": "Bulky plastic and wood hangers are the real reason a closet feels small \u2014 each one eats an inch of rod that could hold another shirt. Straps slide off smooth surfaces, shoulders lose their shape, and the rod fills up long before the closet actually does.",
-        "turn": "Amazon Basics' slim velvet non-slip hangers are built for exactly this: a narrow profile that fits more garments on the same rod, plus a velvet surface that keeps straps and shoulders from sliding off. Rating sits at 4.8 stars across 235,105 reviews \u2014 enough closets running the same test to call it settled.",
+        "beat1": "Bulky plastic and wood hangers are the real reason a closet feels small — each one eats an inch of rod that could hold another shirt. Straps slide off smooth surfaces, shoulders lose their shape, and the rod fills up long before the closet actually does.",
+        "turn": "Amazon Basics' slim velvet non-slip hangers are built for exactly this: a narrow profile that fits more garments on the same rod, plus a velvet surface that keeps straps and shoulders from sliding off. Rating sits at 4.8 stars across 235,105 reviews — enough closets running the same test to call it settled.",
         "result": "More hangers fit on the same rod, and what's on them stays put. $20.99 for the set.",
         "scenes": [
           {
@@ -1029,7 +1029,7 @@
             "n": 4,
             "duration_sec": 5,
             "visual_prompt": "Extreme close-up of a silky camisole strap and a shirt shoulder gripped on the velvet surface of a slim hanger, fabric staying in place, warm soft lighting",
-            "on_screen_text": "4.8 STARS \u00b7 235,105 REVIEWS",
+            "on_screen_text": "4.8 STARS · 235,105 REVIEWS",
             "voiceover": "The velvet surface keeps straps and shoulders from sliding off. And 4.8 stars across 235,105 reviews means this design has been stress-tested in an enormous number of real closets."
           },
           {
@@ -1047,7 +1047,7 @@
       {
         "hook_category": "use_case",
         "hook": "Everyone blames the couch for flat throw pillows. It's the insert.",
-        "beat1": "The cover you picked out is usually fine \u2014 it's the sagging insert underneath doing the damage. Swapping inserts is the low-effort move: your existing 18x18 covers stay, the shape underneath gets fixed. It's the difference between a cushion that slumps into the corner of the couch and one that actually holds a corner.",
+        "beat1": "The cover you picked out is usually fine — it's the sagging insert underneath doing the damage. Swapping inserts is the low-effort move: your existing 18x18 covers stay, the shape underneath gets fixed. It's the difference between a cushion that slumps into the corner of the couch and one that actually holds a corner.",
         "turn": "This is an 18x18 pillow insert, sized to fill standard 18-inch covers without bunching or gapping at the seams.",
         "result": "Keep the covers you already own and give them structure again.",
         "scenes": [
@@ -1076,7 +1076,7 @@
             "n": 4,
             "duration_sec": 5,
             "visual_prompt": "Product-style shot of white 18x18 pillow inserts on a clean surface, a rating graphic and review count animating in beside them",
-            "on_screen_text": "4.6 STARS \u00b7 218,241 REVIEWS",
+            "on_screen_text": "4.6 STARS · 218,241 REVIEWS",
             "voiceover": "These are Utopia Bedding eighteen by eighteen inserts, sized for standard eighteen inch covers. At four point six stars across two hundred eighteen thousand reviews, that volume reads less like a trend and more like a staple people reorder as covers accumulate."
           },
           {
@@ -1092,7 +1092,7 @@
       {
         "hook_category": "proof",
         "hook": "218,780 people have bought this exact 18x18 pillow insert.",
-        "beat1": "That review count puts it among the most-purchased inserts in its size on Amazon. Most decorative pillow covers people already own are 18x18 \u2014 the cover is rarely the problem, the flat insert inside it is.",
+        "beat1": "That review count puts it among the most-purchased inserts in its size on Amazon. Most decorative pillow covers people already own are 18x18 — the cover is rarely the problem, the flat insert inside it is.",
         "turn": "This insert is sized to fill an 18x18 cover so the corners stay square instead of caving in. At 4.6 stars across 218,780 reviews, that level of consistency at this size is hard to find by chance.",
         "result": "Swap it into your existing covers and the couch or bed reads fuller without buying new pillows. It's $15.99.",
         "scenes": [
@@ -1138,9 +1138,9 @@
       {
         "hook_category": "proof",
         "hook": "Thread count is the number on the package. It's not the number that tells you whether sheets survive a year of actual washing.",
-        "beat1": "Fabric shows what it's made of after a few dozen wash cycles, not on day one out of the bag. Marketing specs describe sheets fresh off the shelf \u2014 they don't describe what's left of them once they're folded into a normal weekly routine.",
+        "beat1": "Fabric shows what it's made of after a few dozen wash cycles, not on day one out of the bag. Marketing specs describe sheets fresh off the shelf — they don't describe what's left of them once they're folded into a normal weekly routine.",
         "turn": "This set skips the thread-count arms race and still shows up on our best-seller tracking without needing one. That's a harder bar to clear than a big number printed on the packaging.",
-        "result": "If you're due for new sheets, this is one of the sets currently earning its spot on the list \u2014 check the current price before it moves.",
+        "result": "If you're due for new sheets, this is one of the sets currently earning its spot on the list — check the current price before it moves.",
         "scenes": [
           {
             "n": 1,
@@ -1229,7 +1229,7 @@
       {
         "hook_category": "proof",
         "hook": "Most listings are optimized for the first ten minutes. Not the next ten years.",
-        "beat1": "That is the wrong window to design for. What actually earns a permanent spot in a home is not a strong first impression \u2014 it is whether the thing still works the same way months after the packaging is gone.",
+        "beat1": "That is the wrong window to design for. What actually earns a permanent spot in a home is not a strong first impression — it is whether the thing still works the same way months after the packaging is gone.",
         "turn": "This product does not come with a story. It comes with a job: do the same thing, the same way, every time you reach for it.",
         "result": "You get something built to disappear into daily use instead of impressing you once and then letting you down.",
         "scenes": [
@@ -1275,7 +1275,7 @@
         "hook_category": "proof",
         "hook": "349,499 people rated this scale. 4.7 stars is the boring part.",
         "beat1": "Most bathroom scales get maybe a few hundred reviews before people quietly return them. This one has nearly 350,000 ratings sitting at 4.7 stars, which is a sample size most products never get close to. That volume is the argument, not a marketing line.",
-        "turn": "The Etekcity Digital Body Weight Bathroom Scale gives a simple digital readout with no setup beyond stepping on it. A rating this high held across 349,499 reviews means the complaints that usually sink a scale \u2014 inconsistent numbers, short battery life, a flimsy platform \u2014 aren't the pattern here.",
+        "turn": "The Etekcity Digital Body Weight Bathroom Scale gives a simple digital readout with no setup beyond stepping on it. A rating this high held across 349,499 reviews means the complaints that usually sink a scale — inconsistent numbers, short battery life, a flimsy platform — aren't the pattern here.",
         "result": "For a home bathroom, that's a low-risk pickup: proven at scale, priced at $16.87.",
         "scenes": [
           {
@@ -1304,7 +1304,7 @@
             "duration_sec": 5,
             "visual_prompt": "Split-screen graphic: left side shows a generic low-review scale icon with a question mark, right side shows this scale with a checkmark and review count",
             "on_screen_text": "WHAT THE REVIEWS RULE OUT",
-            "voiceover": "At this many reviews, the usual problems \u2014 bad readings, dead batteries, wobbly platforms \u2014 would show up. They're not the pattern here."
+            "voiceover": "At this many reviews, the usual problems — bad readings, dead batteries, wobbly platforms — would show up. They're not the pattern here."
           },
           {
             "n": 5,
@@ -1321,7 +1321,7 @@
         "hook_category": "proof",
         "hook": "A scale that just weighs you feels like it shouldn't need explaining.",
         "beat1": "Somewhere along the way, bathroom scales picked up apps, sync features, and body-fat estimates nobody asked for. Most of that gets set up once, then ignored for good.",
-        "turn": "This one skips all of it. Step on, glance down, get a number \u2014 the entire interaction a scale is supposed to have.",
+        "turn": "This one skips all of it. Step on, glance down, get a number — the entire interaction a scale is supposed to have.",
         "result": "No app to open first thing in the morning, just a screen that tells you what you came to check.",
         "scenes": [
           {
@@ -1350,7 +1350,7 @@
             "duration_sec": 5,
             "visual_prompt": "Product-style shot of the Etekcity digital body weight bathroom scale on a bathroom floor beside a folded towel, even studio-soft lighting, neutral background",
             "on_screen_text": "ONE JOB, DONE",
-            "voiceover": "It does one job \u2014 a digital scale you step on to read your weight. You're not gambling on a new listing. Hundreds of thousands of people already stress-tested it for you."
+            "voiceover": "It does one job — a digital scale you step on to read your weight. You're not gambling on a new listing. Hundreds of thousands of people already stress-tested it for you."
           },
           {
             "n": 5,
@@ -1365,8 +1365,8 @@
       {
         "hook_category": "proof",
         "hook": "349,499 people rated this scale. Almost none of them are wrong.",
-        "beat1": "A bathroom scale is a boring purchase until it's wrong, and this one has been rated by 349,499 separate households. That's not a marketing number \u2014 it's a sample size most products never get close to. At 4.7 stars across that many reviews, the errors would show up if they were common.",
-        "turn": "The Etekcity Digital Body Weight Bathroom Scale gives a digital weight readout at step-on, no dials or guessing where the needle landed. A 4.7-star average held across 349,499 reviews is a statistical signal, not a lucky batch \u2014 that volume smooths out fluke units and fake reviews alike.",
+        "beat1": "A bathroom scale is a boring purchase until it's wrong, and this one has been rated by 349,499 separate households. That's not a marketing number — it's a sample size most products never get close to. At 4.7 stars across that many reviews, the errors would show up if they were common.",
+        "turn": "The Etekcity Digital Body Weight Bathroom Scale gives a digital weight readout at step-on, no dials or guessing where the needle landed. A 4.7-star average held across 349,499 reviews is a statistical signal, not a lucky batch — that volume smooths out fluke units and fake reviews alike.",
         "result": "For $16.87, you get a scale with more reviews behind it than most home products will ever collect, and a rating that's stayed high through all of them.",
         "scenes": [
           {
@@ -1388,13 +1388,13 @@
             "duration_sec": 4,
             "visual_prompt": "Bare foot stepping onto the scale, quick cut to the digital display lighting up with a number",
             "on_screen_text": "STEP ON. NUMBER APPEARS",
-            "voiceover": "It's a digital readout \u2014 step on, get your weight, no dial to misread."
+            "voiceover": "It's a digital readout — step on, get your weight, no dial to misread."
           },
           {
             "n": 4,
             "duration_sec": 5,
             "visual_prompt": "Split screen: a small stack of star icons on one side, a giant scrolling counter ticking up to 349,499 on the other",
-            "on_screen_text": "349,499 REVIEWS AT 4.7\u2605",
+            "on_screen_text": "349,499 REVIEWS AT 4.7★",
             "voiceover": "That many reviews at a 4.7 average isn't luck. That's consistency at scale."
           },
           {
@@ -1412,7 +1412,7 @@
         "hook_category": "audience_fit",
         "hook": "If you're renting, the sheets are the one upgrade you get to keep.",
         "beat1": "You can't change the flooring, the paint, or the light fixtures in a rental. The bed is the one part of the room that's entirely yours, and it's also where you spend a third of your time. Swapping the sheets is the shortest path between a room you tolerate and a room you like.",
-        "turn": "This is a queen size four-piece sheet set \u2014 a full swap, not a partial one, which does more for the room than a new throw pillow ever will.",
+        "turn": "This is a queen size four-piece sheet set — a full swap, not a partial one, which does more for the room than a new throw pillow ever will.",
         "result": "You get the one bedroom change that moves with you to the next place.",
         "scenes": [
           {
@@ -1434,7 +1434,7 @@
             "duration_sec": 4,
             "visual_prompt": "Overhead shot of a queen sheet set laid out flat and folded in four distinct stacks on the mattress. Clean, even top light.",
             "on_screen_text": "4 PIECE SET",
-            "voiceover": "This is a queen size four piece set \u2014 a full swap, not a partial one."
+            "voiceover": "This is a queen size four piece set — a full swap, not a partial one."
           },
           {
             "n": 4,
@@ -1457,7 +1457,7 @@
         "hook_category": "proof",
         "hook": "454,120 people rated this sheet set. Only 4.5 stars means almost nobody wants a refund.",
         "beat1": "A queen sheet set is a four-piece purchase: fitted, flat, two pillowcases. At this price point, the failure mode is usually thin fabric or a fitted sheet that pops off the corner by week two.",
-        "turn": "This is a queen size 4 piece sheet set at $24.99. With 454,120 reviews averaging 4.5 stars, the volume itself is the signal \u2014 a set this cheap doesn't hold that rating by accident.",
+        "turn": "This is a queen size 4 piece sheet set at $24.99. With 454,120 reviews averaging 4.5 stars, the volume itself is the signal — a set this cheap doesn't hold that rating by accident.",
         "result": "For $24.99, you get a full queen set backed by nearly half a million ratings instead of a handful of five-star plants.",
         "scenes": [
           {
@@ -1472,7 +1472,7 @@
             "duration_sec": 4,
             "visual_prompt": "Overhead shot of the four pieces laid out flat and folded: fitted sheet, flat sheet, two pillowcases",
             "on_screen_text": "4 PIECES, 1 SET",
-            "voiceover": "Fitted, flat, two pillowcases \u2014 the whole queen set in one box."
+            "voiceover": "Fitted, flat, two pillowcases — the whole queen set in one box."
           },
           {
             "n": 3,
@@ -1503,7 +1503,7 @@
         "hook_category": "proof",
         "hook": "Most reviews go quiet after the first few hundred buyers.",
         "beat1": "Cheap gear usually stops getting rated once the early rush of buyers has said their piece. When a listing keeps collecting reviews long after launch, that's the crowd still bothering to weigh in.",
-        "turn": "This pick is still pulling in ratings well past its first wave of buyers \u2014 people rating it after actually living with it, not just unboxing it.",
+        "turn": "This pick is still pulling in ratings well past its first wave of buyers — people rating it after actually living with it, not just unboxing it.",
         "result": "That kind of staying power tells you more than any spec sheet, whatever the price tag says today.",
         "scenes": [
           {
@@ -1532,7 +1532,7 @@
             "duration_sec": 5,
             "visual_prompt": "Bare feet stepping onto the scale, low angle, bathroom floor, natural daylight, calm unhurried motion",
             "on_screen_text": "4.7 STARS, HELD",
-            "voiceover": "The Etekcity Digital Body Weight Bathroom Scale does one thing \u2014 you step on, you get your weight. Holding 4.7 stars across that many reviews is a durability signal from people using it daily."
+            "voiceover": "The Etekcity Digital Body Weight Bathroom Scale does one thing — you step on, you get your weight. Holding 4.7 stars across that many reviews is a durability signal from people using it daily."
           },
           {
             "n": 5,
@@ -1583,7 +1583,7 @@
             "n": 5,
             "duration_sec": 4,
             "visual_prompt": "Final shot: scale centered on a plain tile floor, subtle text overlay of the rating fading in",
-            "on_screen_text": "349,499 REVIEWS \u00b7 4.7\u2605",
+            "on_screen_text": "349,499 REVIEWS · 4.7★",
             "voiceover": "Review counts like that don't happen by accident."
           }
         ]
@@ -1593,7 +1593,7 @@
       {
         "hook_category": "proof",
         "hook": "Step on a bathroom scale twice in a row and get two different numbers, and the whole thing becomes decoration.",
-        "beat1": "That drift is the real failure mode in this category \u2014 not weight limits, not dead batteries, just a reading you cannot trust twice in the same minute. A scale that holds the same number step after step is solving the one problem cheap scales tend to create.",
+        "beat1": "That drift is the real failure mode in this category — not weight limits, not dead batteries, just a reading you cannot trust twice in the same minute. A scale that holds the same number step after step is solving the one problem cheap scales tend to create.",
         "turn": "This is a digital body weight bathroom scale built around that one job: a consistent read, no app subscription, no calibration ritual, no ceremony.",
         "result": "That is the entire function a bathroom scale needs to perform, and it is the one this does.",
         "scenes": [
@@ -1685,7 +1685,7 @@
         "hook_category": "proof",
         "hook": "A bathroom scale doesn't need an app to tell you the truth.",
         "beat1": "Most scales on shelves now want to sync to your phone, track trends over time, and get you logged into an account before they'll show a single number. That's a lot of setup for something that just needs to measure weight.",
-        "turn": "This is a digital body weight bathroom scale \u2014 you step on, it reads out your weight. No pairing, no login screen, nothing standing between your feet and the number.",
+        "turn": "This is a digital body weight bathroom scale — you step on, it reads out your weight. No pairing, no login screen, nothing standing between your feet and the number.",
         "result": "You get a basic daily-use scale that does the one job it's for, without extra steps in the way.",
         "scenes": [
           {
@@ -1714,7 +1714,7 @@
             "duration_sec": 5,
             "visual_prompt": "Feet in view stepping onto the scale, camera low and level with the floor, screen glowing",
             "on_screen_text": "STEP ON. READ OUT.",
-            "voiceover": "It's a digital body weight scale. You step on, it reads out your weight. At that volume of feedback, 4.7 stars isn't a lucky streak \u2014 it's a track record."
+            "voiceover": "It's a digital body weight scale. You step on, it reads out your weight. At that volume of feedback, 4.7 stars isn't a lucky streak — it's a track record."
           },
           {
             "n": 5,
@@ -1729,7 +1729,7 @@
       {
         "hook_category": "proof",
         "hook": "349,735 people rated this scale. Almost none of them are athletes.",
-        "beat1": "A number that large stops being a marketing claim and starts being a pattern. This isn't a niche fitness gadget bought by a small crowd \u2014 it's a bathroom scale sitting in hundreds of thousands of ordinary homes, rated 4.7 out of 5 stars.",
+        "beat1": "A number that large stops being a marketing claim and starts being a pattern. This isn't a niche fitness gadget bought by a small crowd — it's a bathroom scale sitting in hundreds of thousands of ordinary homes, rated 4.7 out of 5 stars.",
         "turn": "The Etekcity Digital Body Weight Bathroom Scale does one job: step on, get a number. At 349,735 reviews and a 4.7 average, that volume of agreement is harder to dismiss than any single five-star write-up.",
         "result": "For a bathroom staple, that's about as close to a sure thing as a $19.88 purchase gets.",
         "scenes": [
@@ -1775,8 +1775,8 @@
       {
         "hook_category": "use_case",
         "hook": "Sagging pillows get blamed on the cover. The problem is what's stuffed inside it.",
-        "beat1": "A cover looks exactly as full as the insert underneath it. If the corners look empty or the middle caves in, that's an insert problem, not a cover problem \u2014 and inserts are the cheaper half of that pair to replace. Every cover you already own stays in use.",
-        "turn": "The Utopia Bedding 18x18 Pillow Inserts are the standard size for the most common throw pillow cover sold. 218,437 people have rated them, averaging 4.6 stars \u2014 a review count that size is close to a consensus for a basic home item.",
+        "beat1": "A cover looks exactly as full as the insert underneath it. If the corners look empty or the middle caves in, that's an insert problem, not a cover problem — and inserts are the cheaper half of that pair to replace. Every cover you already own stays in use.",
+        "turn": "The Utopia Bedding 18x18 Pillow Inserts are the standard size for the most common throw pillow cover sold. 218,437 people have rated them, averaging 4.6 stars — a review count that size is close to a consensus for a basic home item.",
         "result": "Full-looking pillows on the covers already on your couch, no replacements needed. $13.49.",
         "scenes": [
           {
@@ -1804,7 +1804,7 @@
             "n": 4,
             "duration_sec": 5,
             "visual_prompt": "Product-style shot of plain white 18x18 pillow inserts stacked squarely, clean seams, bright even lighting, minimal background",
-            "on_screen_text": "218,437 REVIEWS \u00b7 4.6\u2605",
+            "on_screen_text": "218,437 REVIEWS · 4.6★",
             "voiceover": "These are standard eighteen by eighteen inserts, sized for the most common throw pillow cover out there. Two hundred eighteen thousand reviews at four point six stars is about as close to consensus as a basic home item gets."
           },
           {
@@ -1914,7 +1914,7 @@
         "hook_category": "proof",
         "hook": "203,481 reviews on a water bottle is not a normal number.",
         "beat1": "Most bottles collect a few thousand reviews and get called a hit. This one cleared two hundred thousand, and the average held at 4.7 stars the whole way.",
-        "turn": "It's the STANLEY Quencher H2.0 tumbler with handle and straw, 30 oz, insulated, built to stay in one hand through a full day of refills. A 4.7-star average across 203,481 reviews doesn't come from hype \u2014 it comes from surviving daily use at scale.",
+        "turn": "It's the STANLEY Quencher H2.0 tumbler with handle and straw, 30 oz, insulated, built to stay in one hand through a full day of refills. A 4.7-star average across 203,481 reviews doesn't come from hype — it comes from surviving daily use at scale.",
         "result": "If your cabinet already has three bottles you don't reach for, $32.02 buys the one people actually did.",
         "scenes": [
           {
@@ -1922,7 +1922,7 @@
             "duration_sec": 3,
             "visual_prompt": "Close-up of a large stainless steel tumbler with a handle and straw on a clean kitchen counter, morning light, shallow depth of field, vertical 9:16",
             "on_screen_text": "203,481 REVIEWS",
-            "voiceover": "203,481 reviews. That's not a trend \u2014 that's a verdict."
+            "voiceover": "203,481 reviews. That's not a trend — that's a verdict."
           },
           {
             "n": 2,
@@ -1941,9 +1941,9 @@
           {
             "n": 4,
             "duration_sec": 5,
-            "visual_prompt": "Tumbler carried by the handle through a home \u2014 kitchen to living room to desk \u2014 series of quick cuts, straw always in reach, vertical 9:16",
-            "on_screen_text": "30 OZ \u00b7 HANDLE \u00b7 STRAW",
-            "voiceover": "Thirty ounces, a handle, and a straw. It stays in one hand and stays sipped from all day. That average holding up across two hundred thousand reviews means it isn't riding hype \u2014 it's surviving daily use at scale."
+            "visual_prompt": "Tumbler carried by the handle through a home — kitchen to living room to desk — series of quick cuts, straw always in reach, vertical 9:16",
+            "on_screen_text": "30 OZ · HANDLE · STRAW",
+            "voiceover": "Thirty ounces, a handle, and a straw. It stays in one hand and stays sipped from all day. That average holding up across two hundred thousand reviews means it isn't riding hype — it's surviving daily use at scale."
           },
           {
             "n": 5,
@@ -1960,8 +1960,8 @@
       {
         "hook_category": "use_case",
         "hook": "A cup of flour isn't a measurement. It's a guess with a lid on it.",
-        "beat1": "Scoop the cup and pack it, or spoon the flour in loose \u2014 the amount that lands in the bowl shifts either way, which is why two people can follow the same recipe and pull two different loaves out of the oven. Weight settles the argument: 120 grams is 120 grams no matter how it got there. The same scale also portions coffee, splits dough into equal pieces, and confirms a package's weight before a trip to the post office.",
-        "turn": "The Etekcity Food Kitchen Scale is a compact digital scale that reads exactly what's placed on it, so a recipe stops being an estimate. It carries 176,516 reviews at a 4.6-star average \u2014 a sample large enough that the score reflects how it performs across kitchens, not just one.",
+        "beat1": "Scoop the cup and pack it, or spoon the flour in loose — the amount that lands in the bowl shifts either way, which is why two people can follow the same recipe and pull two different loaves out of the oven. Weight settles the argument: 120 grams is 120 grams no matter how it got there. The same scale also portions coffee, splits dough into equal pieces, and confirms a package's weight before a trip to the post office.",
+        "turn": "The Etekcity Food Kitchen Scale is a compact digital scale that reads exactly what's placed on it, so a recipe stops being an estimate. It carries 176,516 reviews at a 4.6-star average — a sample large enough that the score reflects how it performs across kitchens, not just one.",
         "result": "Recipes you already make turn out the same way twice, without changing anything else about how you cook. It's $10.99.",
         "scenes": [
           {
@@ -1976,7 +1976,7 @@
             "duration_sec": 4,
             "visual_prompt": "Slow push-in on two finished loaves of bread on a cooling rack, visibly different in height and crumb. Warm kitchen background, softly blurred. Vertical 9:16.",
             "on_screen_text": "SAME RECIPE. DIFFERENT RESULT.",
-            "voiceover": "Scooped or spooned, a cup of flour changes a lot \u2014 and that's why the same recipe gives two people two different loaves."
+            "voiceover": "Scooped or spooned, a cup of flour changes a lot — and that's why the same recipe gives two people two different loaves."
           },
           {
             "n": 3,
@@ -1989,8 +1989,8 @@
             "n": 4,
             "duration_sec": 5,
             "visual_prompt": "Quick montage on the same counter: coffee beans in a bowl on the scale, then a ball of dough being divided, then a small parcel resting on the platform. Consistent warm light, vertical 9:16.",
-            "on_screen_text": "4.6 STARS \u00b7 176,516 REVIEWS",
-            "voiceover": "The Etekcity Food Kitchen Scale weighs coffee, dough, portions, packages. Four point six stars across a hundred seventy-six thousand reviews \u2014 that's a lot of people who kept using it."
+            "on_screen_text": "4.6 STARS · 176,516 REVIEWS",
+            "voiceover": "The Etekcity Food Kitchen Scale weighs coffee, dough, portions, packages. Four point six stars across a hundred seventy-six thousand reviews — that's a lot of people who kept using it."
           },
           {
             "n": 5,
@@ -2036,14 +2036,14 @@
             "n": 4,
             "duration_sec": 5,
             "visual_prompt": "Two folded queen-size pillowcases stacked neatly on a made bed, camera slowly pulling back",
-            "on_screen_text": "SET OF 2 \u00b7 QUEEN",
+            "on_screen_text": "SET OF 2 · QUEEN",
             "voiceover": "It comes as a set of two, queen size, and it's built to sleep cool."
           },
           {
             "n": 5,
             "duration_sec": 4,
             "visual_prompt": "Product shot with a clean overlay showing the star rating and review count, price sitting below",
-            "on_screen_text": "4.5\u2605 \u00b7 321,211 REVIEWS",
+            "on_screen_text": "4.5★ · 321,211 REVIEWS",
             "voiceover": "4.5 stars, 321,211 reviews, $6.99."
           }
         ]
@@ -2145,7 +2145,7 @@
       {
         "hook_category": "proof",
         "hook": "133,326 ratings on one mattress protector. Only 4.6 stars slipped through.",
-        "beat1": "A queen mattress protector with over 133,000 reviews has been bought, used, and rated by more people than most furniture in your house. It zips fully around the mattress, so the claim isn't just a top layer that shifts overnight \u2014 it's a sealed encasement.",
+        "beat1": "A queen mattress protector with over 133,000 reviews has been bought, used, and rated by more people than most furniture in your house. It zips fully around the mattress, so the claim isn't just a top layer that shifts overnight — it's a sealed encasement.",
         "turn": "This one is listed as 100% waterproof and bed bug and dust mite proof, with a full zippered encasement rather than a fitted-sheet style cover. At 4.6 stars across 133,326 reviews, that volume of consistent rating is hard to dismiss as luck.",
         "result": "For a mattress you already own, it's a $22.49 way to stop worrying about spills, allergens, and what's breeding in the seams.",
         "scenes": [
@@ -2161,7 +2161,7 @@
             "duration_sec": 4,
             "visual_prompt": "Hands unzipping a mattress encasement fully around a queen mattress, showing the zipper track going all the way around",
             "on_screen_text": "FULL ZIP ENCASEMENT",
-            "voiceover": "It's not a cover that slides off \u2014 it zips completely around the mattress."
+            "voiceover": "It's not a cover that slides off — it zips completely around the mattress."
           },
           {
             "n": 3,
@@ -2175,7 +2175,7 @@
             "duration_sec": 5,
             "visual_prompt": "Star rating graphic animating to 4.6 out of 5 next to the review count, then a made bed with the protector underneath the sheets",
             "on_screen_text": "4.6 STARS",
-            "voiceover": "At 4.6 stars across that many reviews, this isn't a fluke \u2014 it's one of the most-rated protectors in its category."
+            "voiceover": "At 4.6 stars across that many reviews, this isn't a fluke — it's one of the most-rated protectors in its category."
           },
           {
             "n": 5,
@@ -2259,7 +2259,7 @@
             "n": 3,
             "duration_sec": 4,
             "visual_prompt": "Two folded black curtain panels laid flat with a tape measure showing width and length",
-            "on_screen_text": "42\" X 63\" \u2014 2 PANELS",
+            "on_screen_text": "42\" X 63\" — 2 PANELS",
             "voiceover": "It's a 42 by 63 inch, two-panel set in black, sized for a standard bedroom window."
           },
           {
@@ -2283,9 +2283,9 @@
       {
         "hook_category": "proof",
         "hook": "126,992 ratings on a $20 pillow insert set. Only 4.6 stars stayed high.",
-        "beat1": "Throw pillow inserts are an easy product to get wrong \u2014 too flat, lumpy, or shaped nothing like the cover you bought. A rating pool this size, sitting at 4.6 stars, is hard to fake or coincidence: it means the fill and shape hold up across thousands of different covers and couches.",
-        "turn": "This is a set of 4 down alternative inserts, 18x18, made to plump out decorative pillow covers rather than replace a sleeping pillow. At 126,992 reviews and 4.6 stars, that volume is the actual signal \u2014 most one-off products never clear a few hundred reviews, let alone six figures with the average holding steady.",
-        "result": "For $20.26, you get four inserts sized to the most common throw pillow cover, backed by more reviews than almost any home d\u00e9cor accessory sees. If your covers have been looking deflated, the size and rating history point at the insert, not the cover.",
+        "beat1": "Throw pillow inserts are an easy product to get wrong — too flat, lumpy, or shaped nothing like the cover you bought. A rating pool this size, sitting at 4.6 stars, is hard to fake or coincidence: it means the fill and shape hold up across thousands of different covers and couches.",
+        "turn": "This is a set of 4 down alternative inserts, 18x18, made to plump out decorative pillow covers rather than replace a sleeping pillow. At 126,992 reviews and 4.6 stars, that volume is the actual signal — most one-off products never clear a few hundred reviews, let alone six figures with the average holding steady.",
+        "result": "For $20.26, you get four inserts sized to the most common throw pillow cover, backed by more reviews than almost any home décor accessory sees. If your covers have been looking deflated, the size and rating history point at the insert, not the cover.",
         "scenes": [
           {
             "n": 1,
@@ -2359,7 +2359,7 @@
             "duration_sec": 5,
             "visual_prompt": "Slow pan across a fully made bed with grey sheets and pillowcases, soft natural light",
             "on_screen_text": "SOFT & BREATHABLE",
-            "voiceover": "At that many reviews, a 4.6 average isn't a fluke \u2014 it's a pattern across thousands of beds."
+            "voiceover": "At that many reviews, a 4.6 average isn't a fluke — it's a pattern across thousands of beds."
           },
           {
             "n": 5,

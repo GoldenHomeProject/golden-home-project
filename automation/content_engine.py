@@ -280,8 +280,19 @@ def generate_scripts(opportunities: list[dict], n: int = DAILY_SCRIPT_COUNT) -> 
     # any variant claiming experience nobody here had, before it can be picked.
     clean_pool = []
     for kw, variant in pool:
-        blob = " ".join(str(variant.get(k, "")) for k in
-                        ("hook", "beat1", "turn", "result", "caption"))
+        # Include the SCENES, not just the prose fields. This gate checked
+        # hook/beat1/turn/result/caption only, while reel_producer gates the whole
+        # rendered script — so a variant with a clean hook and an on-screen card
+        # reading "THIS WAS EVERY DAY" passed here, got written to a script file, and
+        # was then silently dropped at render time. 23 of 75 scripts (31%) since
+        # 2026-08-20 died that way, and one of them (reel-2026-09-08-003) still had a
+        # queue entry pointing at a video that was never produced, so the post would
+        # have 404'd. The two gates have to agree on what they are reading.
+        parts = [str(variant.get(k, "")) for k in
+                 ("hook", "beat1", "turn", "result", "caption")]
+        for sc in variant.get("scenes") or []:
+            parts += [str(sc.get("on_screen_text", "")), str(sc.get("voiceover", ""))]
+        blob = " ".join(parts)
         bad = fabrication_match(blob)
         if bad:
             print(f"[content-engine] rejected {kw} variant — fabricated experience: {bad!r}")
