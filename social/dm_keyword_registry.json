@@ -3900,6 +3900,23 @@
       "verified_stars": "4.5",
       "verified_reviews": 6022,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0CYZXN11R",
+      "product_name": "Fammart Mesh Shower Caddy Portable for College Dorm Room Essentials, Odorless Polyester Large Shower Tote Bag with Dual Handles, 8-Pocket Qu",
+      "categories": [
+        "dorm",
+        "college",
+        "organization"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0CYZXN11R?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-09-12",
+      "verified_method": "source_dorm/search+dp",
+      "verified_price": "$5.99",
+      "verified_stars": "4.6",
+      "verified_reviews": 853,
+      "discovery_source": "back_to_college_2026"
     }
   ]
 }
