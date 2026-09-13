@@ -6875,5 +6875,29 @@
     "keyword": "DECORATIVE",
     "queued_at": "2026-09-12T11:25:44.654118Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_2026-09-13_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-13-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "113,235 reviews. 4.6 stars. For a $13 sheet set, that's rare.\n\nMost sheet sets don't cross even a thousand reviews. This one has over 113,000, and the average still holds at 4.6 stars. That volume makes the rating harder to dismiss as luck or a review farm.\n\nThis is a 4-piece queen set in grey with a 16-inch deep pocket, built to stay on thicker mattresses, plus a fitted, flat, and two pillowcases in a soft, breathable weave. A rating that high across 113,235 reviews points to consistent results across a huge number of beds, not a handful of lucky buyers.\n\nFor $13.31, you get a full queen set that fits deep mattresses without shopping around for extra-deep options. The review count alone makes it a low-risk swap for a worn-out set.\n\nComment DEEP and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Queen Sheets Set, 4 Pieces 16\" Deep Pocket Hotel Luxury Bed Sheets, Grey | Extra Soft Bedsheet Set, Comfy & Breathable C",
+      "dm_keyword": "DEEP",
+      "amazon_asin": "B00NX0WXQI",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B00NX0WXQI?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B00NX0WXQI?tag=goldenhomep06-20"
+    },
+    "hook": "113,235 reviews. 4.6 stars. For a $13 sheet set, that's rare."
   }
 ]
