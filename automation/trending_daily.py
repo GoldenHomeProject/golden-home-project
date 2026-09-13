@@ -64,8 +64,28 @@ CATEGORY_ROTATION = [
     # (3732741) and Shower Curtains (1063258) returned 1 item and were discarded.
     ("Bedding",          "home",      "https://www.amazon.com/gp/bestsellers/home-garden/1063252/"),
     ("Sheets",           "home",      "https://www.amazon.com/gp/bestsellers/home-garden/1063308/"),
-    ("Window Treatments", "home",     "https://www.amazon.com/gp/bestsellers/home-garden/1063296/"),
+    # 2026-09-13: was 1063296, which is the TABLE LAMPS chart. Every "blackout curtain"
+    # pick it ever produced was a bedside lamp, and best-blackout-curtains.html went
+    # live listing four of them. The real node was read off Amazon's own breadcrumb on
+    # a NICETOWN blackout curtain product page:
+    #   Home & Kitchen 1055398 > Home Décor 1063278 > Window Treatments 1063302
+    # Verified: 1063302 is titled "Best Window Treatments" and returns NICETOWN and
+    # MIULEE blackout curtain panels.
+    ("Window Treatments", "home",     "https://www.amazon.com/gp/bestsellers/home-garden/1063302/"),
     ("Bath Linens",      "home",      "https://www.amazon.com/gp/bestsellers/home-garden/1063244/"),
+    # Seasonal Décor, added 2026-09-13. Pinterest is a planning platform: Halloween
+    # search peaks there from JULY through October and Christmas planning starts in
+    # September, so Q4 decor is the biggest demand window of the year and GHP was
+    # sourcing none of it — 3 holiday products in the entire catalogue, all incidental.
+    # This single node auto-rotates with the calendar (it serves Halloween today,
+    # Christmas by November), so one entry covers the whole season without us having
+    # to swap node ids. Read off Amazon's Home & Kitchen best-seller nav and verified:
+    # 13679381 is titled "Best Seasonal Décor"; children include Wreaths/Garlands,
+    # String Lights and Ornaments.
+    # NOTE: 14087331 was rejected during this search — it looked seasonal (all fall
+    # florals right now) but is actually "Best Artificial Flowers". Labelling it
+    # "Seasonal Décor" would have repeated the exact bug this commit fixes.
+    ("Seasonal Décor",   "home",      "https://www.amazon.com/gp/bestsellers/home-garden/13679381/"),
 ]
 # EVERGREEN consolidation (2026-07-31). Until now this script minted a NEW dated URL
 # every single day — 11 near-identical "Best-Sellers Everyone's Buying Right Now" pages
@@ -92,6 +112,7 @@ EVERGREEN = {
     "Sheets":       ("best-sheet-sets",                    "best sheet sets"),
     "Window Treatments": ("best-blackout-curtains",        "best blackout curtains"),
     "Bath Linens":  ("best-bath-towels-and-linens",        "best bath towels and linens"),
+    "Seasonal Décor": ("best-seasonal-decor",              "best seasonal decor"),
 }
 
 # Node IDs above were READ off Amazon's own Best Sellers nav on 2026-07-25, not guessed.
@@ -682,6 +703,20 @@ def main() -> int:
         print(f"[trending] {len(qualified)} passed the ${int(MIN_PRICE)}-${int(MAX_PRICE)} / "
               f"{MIN_RATING}star / {MIN_REVIEWS}+reviews filter")
         history = load_history()
+        # Keep a homogeneous category filling from ITSELF. _varied() treats two items
+        # sharing 2+ significant words as the same kind of thing, which is right for a
+        # mixed chart (the Bath top 6 were five shower liners) and wrong for a chart
+        # that IS one product type: on Window Treatments it rejected five blackout
+        # curtains as duplicates and backfilled from the neighbour node, so a page about
+        # curtains filled up with bath towels. A "best blackout curtains" page is
+        # supposed to list six different blackout curtains.
+        primary_pool = [q for q in qualified
+                        if q.get("cat_label") == cat_label
+                        and in_category(q.get("title") or "", cat_label)]
+        if len(primary_pool) >= PICKS_PER_POST:
+            print(f"[trending] {len(primary_pool)} genuine {cat_label} picks available — "
+                  f"filling from the primary node only, no neighbour backfill")
+            qualified = primary_pool
         picks = pick_fresh(qualified, history, today, primary_label=cat_label)
         # The label is PINNED to the primary category. It used to follow the majority
         # of picks, which was harmless when the label only shaped a headline — but the

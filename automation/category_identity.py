@@ -83,6 +83,18 @@ CATEGORY_TERMS: dict[str, tuple[str, ...]] = {
         "towel", "washcloth", "wash cloth", "bath sheet", "hand towel",
         "bath mat", "robe", "linen", "gsm",
     ),
+    # Seasonal Décor is one node that changes what it sells as the calendar turns:
+    # Halloween in Sept/Oct, Thanksgiving in Nov, Christmas from Nov into Dec. The
+    # terms therefore have to cover the whole year at once, not just the holiday
+    # that happens to be next.
+    "Seasonal Décor": (
+        "halloween", "pumpkin", "spooky", "ghost", "skeleton", "bat", "witch",
+        "christmas", "xmas", "holiday", "santa", "snowman", "snowflake",
+        "ornament", "stocking", "garland", "wreath", "tinsel", "advent",
+        "nativity", "tree skirt", "tree topper", "string lights", "fairy lights",
+        "thanksgiving", "harvest", "autumn", "fall decor", "festive",
+        "nutcracker", "snow globe", "icicle", "decoration", "decor",
+    ),
 }
 
 # Terms that disqualify regardless of a positive hit. These are products that keep

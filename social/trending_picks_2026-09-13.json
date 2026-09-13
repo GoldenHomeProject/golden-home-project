@@ -1,56 +1,32 @@
 {
   "captured_at": "2026-09-13",
-  "category": "Home D\u00e9cor",
+  "category": "Seasonal D\u00e9cor",
   "source": "Amazon Best Sellers (live Pi scrape)",
-  "post": "blog/posts/best-home-decor-finds.html",
+  "post": "blog/posts/best-seasonal-decor.html",
   "picks": [
     {
-      "asin": "B01NBNDC1T",
-      "name": "Utopia Bedding 18x18 Pillow Inserts",
-      "price": "$16.49",
+      "asin": "B07HMRZSWT",
+      "name": "1000 sqft Spider Webs Halloween Decorations with 30 Fake Spiders",
+      "price": "$6.99",
       "rating": 4.6,
-      "reviews": 219005,
+      "reviews": 5270,
       "rank": 3
     },
     {
-      "asin": "B0DZFGTCLR",
-      "name": "Candle Warmer Lamp with Timer Home Decor Birthday Gifts for Women",
-      "price": "$19.99",
-      "rating": 4.5,
-      "reviews": 5535,
-      "rank": 4
+      "asin": "B07H4HHNQK",
+      "name": "Sattiyrch 15\" Wreath Hanger for Front Door",
+      "price": "$6.99",
+      "rating": 4.7,
+      "reviews": 30433,
+      "rank": 7
     },
     {
-      "asin": "B01CS31R94",
-      "name": "NICETOWN Black Blackout Curtains for Bedroom 42\" Wide x 63\" Long 2 Pan",
-      "price": "$9.98",
-      "rating": 4.6,
-      "reviews": 133340,
-      "rank": 6
-    },
-    {
-      "asin": "B0D89V1RX1",
-      "name": "2x6 Hallway Washable Runner Rug : Vintage Soft Kitchen Laundry Runner",
-      "price": "$20.64",
-      "rating": 4.6,
-      "reviews": 10353,
-      "rank": 13
-    },
-    {
-      "asin": "B08XVP48KQ",
-      "name": "upsimples 8x10 Picture Frames",
-      "price": "$13.99",
-      "rating": 4.6,
-      "reviews": 72710,
-      "rank": 14
-    },
-    {
-      "asin": "B0815BLNX1",
-      "name": "GORILLA GRIP\u00ae Extra Long Rug Grippers for Hardwood Floor",
-      "price": "$11.98",
-      "rating": 4.5,
-      "reviews": 31606,
-      "rank": 21
+      "asin": "B01LC94KFS",
+      "name": "AerWo Halloween Decoration Black Lace Spiderweb Fireplace Mantle Scarf",
+      "price": "$6.47",
+      "rating": 4.7,
+      "reviews": 8176,
+      "rank": 16
     }
   ]
 }
