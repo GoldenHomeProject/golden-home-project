@@ -630,6 +630,24 @@
       "discovery_source": "harvest_catalogue",
       "keyword": "DEEP",
       "promoted_at": "2026-09-12T12:20:54Z"
+    },
+    {
+      "asin": "B01F5K9YNS",
+      "product_name": "GORILLA GRIP Bath Tub Shower Mat, Bathtub Floor Liner, 35x16 Clear | Patented Large Mats, Machine Washable, Suction Cups",
+      "categories": [
+        "home",
+        "Bath"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B01F5K9YNS?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-08-23",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$24.99",
+      "verified_stars": "4.5",
+      "verified_reviews": 112629,
+      "discovery_source": "harvest_catalogue",
+      "keyword": "GORILLA",
+      "promoted_at": "2026-09-13T12:21:07Z"
     }
   ],
   "_vetted_doc": "Verified-live Amazon ASINs cleared for blog/SEO/IG-caption use but NOT yet wired to a Meta comment-to-DM automation. Promote to `entries` (with a unique keyword) only AFTER creating the matching Meta Business Suite automation. Always use https://www.amazon.com/dp/<ASIN>?tag=goldenhomep06-20 \u2014 never search URLs.",
@@ -2098,22 +2116,6 @@
       "verified_price": "$9.49",
       "verified_stars": "4.6",
       "verified_reviews": 140548,
-      "discovery_source": "harvest_catalogue"
-    },
-    {
-      "asin": "B01F5K9YNS",
-      "product_name": "GORILLA GRIP Bath Tub Shower Mat, Bathtub Floor Liner, 35x16 Clear | Patented Large Mats, Machine Washable, Suction Cups",
-      "categories": [
-        "home",
-        "Bath"
-      ],
-      "affiliate_url": "https://www.amazon.com/dp/B01F5K9YNS?tag=goldenhomep06-20",
-      "status": "live",
-      "verified_at": "2026-08-23",
-      "verified_method": "best_seller_grid",
-      "verified_price": "$24.99",
-      "verified_stars": "4.5",
-      "verified_reviews": 112629,
       "discovery_source": "harvest_catalogue"
     },
     {
