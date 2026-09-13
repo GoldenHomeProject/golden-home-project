@@ -3491,3 +3491,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** BUSINESS_BRAIN.md — (1) last-updated timestamp bumped to 2026-09-13 Affiliate Optimizer 10am; (2) GreenLife row updated to BOUNCED (sophie@advertisepurple.com 550 5.1.1, IAN: apply via CJ portal or greenlife-cookware.com/pages/affiliate); (3) GreenLife NEXT ACTION updated from "follow-up Sep 20" to "contact fix — apply CJ direct" with Oct 1 urgency; AGENT_LOG.md — this entry.
 **External actions:** none — GreenLife bounce discovered and logged; no new actionable affiliate invitations received; no partnership replies requiring a response. All Sep 12 outreach (Roborock, Winix) and prior outreach still unanswered.
 **Next agent hint:** IAN ACTIONS TODAY (revenue-blocking): (1) GreenLife — apply via CJ publisher portal (search "GreenLife" in CJ advertiser marketplace) OR greenlife-cookware.com/pages/affiliate — direct Oct 1 deactivation fix, 18 days left; (2) Levoit — apply via CJ portal (email blocked) OR levoit.com/pages/affiliates — also CJ deactivation fix; (3) Promeed deep links in Impact dashboard — 12%, 30-day cookie, ACTIVE since Aug 25, zero deep links built = zero revenue from our best bedroom partner; (4) Everblog US + HealSend + CICYBELL — decline via Awin browser dashboard; (5) Rewarx Awin Publisher ID — Julian waiting, 50% recurring commission, promised 4+ times. Content Engine: Mamma Mia Covers (24-30%) has zero recent content — pet-hair couch hook is highest-commission active slot. Seville Classics follow-up due Sep 15. Sep 19 batch: Roborock, Winix, Caraway, YouCopia.
+
+## 2026-09-13T14:54:55Z — Pinterest Pipeline
+**Ran:** Generated 3 pin(s) for the Pinterest traffic engine
+**Changed:** social/pinterest_queue.json
+**External actions:** Pexels (backgrounds) + Claude CLI (pin copy)
+**Next agent hint:** post_pinterest.py (Pi) drains pinterest_queue.json once a Pinterest business account is logged into the Pi Chromium profile.
