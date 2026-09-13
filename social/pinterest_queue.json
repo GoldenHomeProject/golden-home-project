@@ -3945,7 +3945,9 @@
     "queued_at": "2026-09-13T14:54:18.911816Z",
     "posted": false,
     "source": "pinterest_pipeline",
-    "drop_observed_to": null
+    "drop_observed_to": null,
+    "blocked": true,
+    "blocked_reason": "Pexels answered 'fireplace mantle halloween decor' with a dark pub interior showing Johnnie Walker and Dimple whisky barrel lids. No Halloween decor, no product, alcohol branding on a home-organization account, and dark/muddy where Pinterest rewards bright"
   },
   {
     "id": "pin-2026-09-13-B07H4HHNQK",
