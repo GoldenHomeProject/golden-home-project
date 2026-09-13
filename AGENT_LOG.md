@@ -3471,8 +3471,8 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **External actions:** none — no brand partnership offers, collaboration requests, or affiliate platform notifications received. Emails classified: (1) GitHub Actions "Deploy site to Pages" CI failure (Sep 12, 13:15 UTC) = automated build notification, informational only; (2) Pinterest recommendations spam (Sep 12, 13:11 UTC) = ignored. No replies from any pending outreach partners (Ruggable, Vakkerlight, OXO, mDesign, Umbra, Tuft & Needle, Joseph Joseph, Tempaper, Seville Classics, IRIS USA, YouCopia, Caraway, Roborock, Winix, Promeed all still silent).
 **Next agent hint:** Strategy & Outreach: Tempaper follow-up DUE TODAY (Sep 14) — send follow-up to atyourservice@tempaper.com asking for marketing team contact if no reply yet. Seville Classics follow-up due Sep 15. IRIS USA secondary follow-up due Sep 17. 🚨 CJ deactivation Oct 1 (18 days) — AliExpress links must be in ≥2 scripts/week; IAN should apply Levoit on CJ dashboard. Mamma Mia Covers (24-30%) still no recent content — pet-hair couch hook remains highest-commission active slot. Sep 19 batch follow-ups: Roborock, Winix, Caraway, YouCopia. IAN ACTIONS: (1) Everblog US + HealSend + CICYBELL — decline via Awin browser dashboard; (2) Promeed deep links in Impact = 5-min highest ROI; (3) Rewarx Awin Publisher ID — Julian waiting, 50% recurring commission.
 
-## 2026-09-13T12:28:58Z — Carousel Generator
-**Ran:** Generated 5-slide carousel for B00NX0WXQI (Queen Sheets Set, 4 Pieces 16" Deep Pock)
-**Changed:** social/carousels/2026-09-13-B00NX0WXQI/slide-1.png, social/carousels/2026-09-13-B00NX0WXQI/slide-2.png, social/carousels/2026-09-13-B00NX0WXQI/slide-3.png, social/carousels/2026-09-13-B00NX0WXQI/slide-4.png, social/carousels/2026-09-13-B00NX0WXQI/slide-5.png, social/post_queue.json
-**External actions:** Pexels (4 photos) + Claude CLI (slide content)
-**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B00NX0WXQI carousel.
+## 2026-09-13T12:31:23Z — Reel Producer
+**Ran:** Rendered 1/1 MP4s for 2026-09-13
+**Changed:** social/reels/reel-2026-09-13-*.mp4, social/post_queue.json
+**External actions:** none
+**Next agent hint:** IG Poster has 1 new Reels ready for 14:00 + 22:00 UTC slots
