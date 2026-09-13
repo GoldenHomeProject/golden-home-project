@@ -3983,6 +3983,38 @@
       "verified_stars": "4.5",
       "verified_reviews": 95851,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0BPLB81LX",
+      "product_name": "Bedsure GentleSoft White Throw Blanket for Couch - Halloween Fall Decorations for Home Living Room Decor, Cozy Fleece Fa",
+      "categories": [
+        "home",
+        "Home & Kitchen"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0BPLB81LX?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-09-13",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$13.48",
+      "verified_stars": "4.6",
+      "verified_reviews": 26879,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0BFLJWCX4",
+      "product_name": "SwiftGrip Pink Nitrile Gloves, 3-mil, Industrial Gloves Disposable Latex Free, for Cleaning & Esthetician, Rubber Powder",
+      "categories": [
+        "home",
+        "Cleaning Supplies"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0BFLJWCX4?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-09-13",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$8.99",
+      "verified_stars": "4.7",
+      "verified_reviews": 10024,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
