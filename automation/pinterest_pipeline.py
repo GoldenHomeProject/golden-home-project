@@ -83,8 +83,117 @@ def _wrap(draw, text: str, font, max_w: int) -> list[str]:
     return lines
 
 
-def fetch_pexels(query: str, out_path: Path) -> bool:
-    """Portrait Pexels search -> save first hit. Pexels 403s the default
+# Words that make a photo unusable for a home-organization brand regardless of how
+# well it matches the query. The Halloween pin on 2026-09-14 shipped a dark pub
+# interior covered in Johnnie Walker and Dimple whisky barrel lids, because the only
+# check was query-vs-product and the query was fine.
+_UNSAFE_ALT = (
+    "bar", "pub", "whisky", "whiskey", "bourbon", "beer", "wine", "cocktail",
+    "alcohol", "liquor", "brewery", "nude", "naked", "lingerie", "bikini",
+    "bathing", "bathtub", "shirtless", "cigarette", "smoking", "casino",
+)
+
+_ALT_STOP = {
+    "a", "an", "the", "and", "with", "of", "in", "on", "for", "to", "featuring",
+    "perfect", "beautiful", "beautifully", "stylish", "cozy", "elegant", "modern",
+    "classic", "warm", "warmly", "soft", "scene", "view", "shot", "interior",
+    "creating", "offering", "vertical", "horizontal", "image", "photo", "background",
+}
+
+
+def _singular(w: str) -> str:
+    """Crude de-pluralisation so 'curtains' matches 'curtain'.
+
+    Without this the defining-trait check rejected a genuinely good photo —
+    "Inviting bedroom with glowing lamp, curtains, and wooden decor" — because the
+    term list said "curtain" and set membership is exact.
+    """
+    if len(w) > 4 and w.endswith("ies"):
+        return w[:-3] + "y"
+    if len(w) > 3 and w.endswith("es") and not w.endswith("ses"):
+        return w[:-2]
+    if len(w) > 3 and w.endswith("s") and not w.endswith("ss"):
+        return w[:-1]
+    return w
+
+
+def _alt_words(text: str) -> set[str]:
+    out = set()
+    for w in re.findall(r"[a-z]+", (text or "").lower()):
+        if len(w) > 3 and w not in _ALT_STOP:
+            out.add(w)
+            out.add(_singular(w))
+    return out
+
+
+# Some product words are DEFINING: if the product is a Halloween decoration, a photo
+# whose description never mentions Halloween is the wrong photo, no matter how many
+# generic words like "fireplace" and "decor" it shares. Each entry is
+# (trigger terms found in the product, terms that satisfy it in the photo's alt).
+#
+# This exists because generic overlap was not enough. The whisky-bar photo scored 2
+# on "fireplace" + "decor" against a Halloween spiderweb mantle scarf and would still
+# have shipped.
+_DEFINING = [
+    (("halloween", "spooky", "spiderweb", "spider web"),
+     ("halloween", "spooky", "pumpkin", "spider", "web", "bat", "ghost",
+      "skeleton", "witch", "creepy", "haunted", "cobweb")),
+    (("christmas", "xmas", "santa", "advent"),
+     ("christmas", "xmas", "santa", "festive", "holiday", "wreath", "ornament",
+      "tree", "stocking", "tinsel", "snow")),
+    (("curtain", "drape", "blackout"),
+     ("curtain", "drape", "blind", "window", "shade")),
+    (("towel", "washcloth"), ("towel", "bath", "linen", "washcloth")),
+    (("wreath",), ("wreath", "door", "garland", "festive")),
+]
+
+
+def _defining_ok(product_words: set, alt_words: set) -> bool:
+    """False when the product has a defining trait the photo plainly lacks."""
+    for triggers, satisfied_by in _DEFINING:
+        if any(t in product_words for t in triggers):
+            if not any(s in alt_words for s in satisfied_by):
+                return False
+    return True
+
+
+def _pick_photo(photos: list, query: str, product: str = ""):
+    """Choose the candidate whose OWN description matches, not just the query.
+
+    Pexels returns an `alt` describing each photo and we were ignoring it, taking
+    photos[0] blindly. That is how 'fireplace mantle halloween decor' returned a
+    whisky bar whose alt read "a rustic fireplace with decor plates on the wall" —
+    no Halloween in it anywhere. Checking the query against the product name is
+    checking a proxy; the alt text describes the actual image.
+
+    Returns (photo, alt, score) or (None, reason, 0) when nothing is usable, in
+    which case the caller ships the clean branded card instead.
+    """
+    want = _alt_words(query) | _alt_words(product)
+    if not want:
+        return (photos[0] if photos else None), "", 1
+
+    pw = _alt_words(product) | _alt_words(query)
+    best, best_alt, best_score = None, "", 0
+    for p in photos:
+        alt = (p.get("alt") or "").strip()
+        aw = _alt_words(alt)
+        if any(u in aw for u in _UNSAFE_ALT):
+            print(f"  [pexels] reject (brand-unsafe): {alt[:70]!r}")
+            continue
+        if not _defining_ok(pw, aw):
+            print(f"  [pexels] reject (missing the defining trait): {alt[:70]!r}")
+            continue
+        score = len(want & aw)
+        if score > best_score:
+            best, best_alt, best_score = p, alt, score
+    if best is None or best_score == 0:
+        return None, "no candidate description matched the product", 0
+    return best, best_alt, best_score
+
+
+def fetch_pexels(query: str, out_path: Path, product: str = "") -> bool:
+    """Portrait Pexels search -> save the best-MATCHING hit. Pexels 403s the default
     Python urllib UA, so we send a browser UA (verified 2026-05-29)."""
     if not PEXELS_API_KEY:
         print(f"  [pexels] no API key; gradient fallback for '{query}'")
@@ -105,7 +214,11 @@ def fetch_pexels(query: str, out_path: Path) -> bool:
     if not photos:
         print(f"  [pexels] no results for '{query}'")
         return False
-    src = photos[0].get("src", {}) or {}
+    chosen, alt, score = _pick_photo(photos, query, product)
+    if chosen is None:
+        print(f"  [pexels] '{query}': {alt} — using the branded card instead")
+        return False
+    src = chosen.get("src", {}) or {}
     img_url = src.get("portrait") or src.get("large2x") or src.get("large") or src.get("original")
     if not img_url:
         return False
@@ -113,7 +226,9 @@ def fetch_pexels(query: str, out_path: Path) -> bool:
         with request.urlopen(request.Request(
                 img_url, headers={"User-Agent": "GHP-Pinterest/1.0"}), timeout=30) as r:
             out_path.write_bytes(r.read())
-        print(f"  [pexels] hit '{query}' -> {out_path.name}")
+        print(f"  [pexels] hit '{query}' (match {score}) -> {out_path.name}")
+        if alt:
+            print(f"  [pexels] photo is: {alt[:88]}")
         return True
     except Exception as e:
         print(f"  [pexels] download failed '{query}': {e}")
@@ -743,7 +858,7 @@ def main() -> int:
         if pname:
             bg_ok = product_pin_image(pname, bg_path, seed=7000 + (made * 37))
         if not bg_ok:
-            bg_ok = fetch_pexels(pexels_q, bg_path)
+            bg_ok = fetch_pexels(pexels_q, bg_path, product=pname)
         # If we still can't find a photo that relates to the product, ship the clean
         # branded card instead of a confident-looking photo of the wrong object.
         if bg_ok and not _photo_matches_product(pexels_q, name):

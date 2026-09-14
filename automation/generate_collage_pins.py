@@ -77,7 +77,10 @@ def cell_image(product: str, out: Path, seed: int) -> bool:
         from pinterest_pipeline import fetch_pexels
         words = [w for w in re.sub(r"[^A-Za-z ]", " ", product).split() if len(w) > 2]
         q = " ".join(words[-3:]) or product
-        return fetch_pexels(f"{q} product still life no people", out)
+        # Pass the product so the photo's OWN description is checked, not just
+        # the query — a collage cell that shows the wrong object discredits the
+        # whole pin, and cell 01 was once a woman rollerblading.
+        return fetch_pexels(f"{q} product still life no people", out, product=product)
     except Exception as e:
         print(f"    [cell] pexels failed: {str(e)[:70]}")
         return False
