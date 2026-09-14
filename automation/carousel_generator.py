@@ -45,7 +45,7 @@ except ImportError:
     sys.exit(2)
 
 sys.path.insert(0, str(Path(__file__).parent))
-from _claude_api import call_claude_json  # noqa: E402
+from _claude_api import call_claude_json, ClaudeUsageLimit  # noqa: E402
 from agent_log import append_log_entry  # noqa: E402
 from content_quality_gate import fabrication_match, generic_opener
 
@@ -416,6 +416,18 @@ def main() -> int:
 
     try:
         content = claude_slide_content(entry)
+    except ClaudeUsageLimit as e:
+        # Out of subscription quota until a stated reset. Not our bug, and not
+        # fixable by retrying in seconds. Skip today's carousel instead of failing
+        # the workflow: a red email for a condition that heals itself on a clock
+        # trains us to ignore the red emails that matter. Deliberately NOT falling
+        # back to templated copy — see claude_slide_content(); templates shipped for
+        # weeks and produced zero engagement, which is why this path uses Claude.
+        resets = f" (resets {e.resets})" if e.resets else ""
+        print(f"::warning::Carousel skipped — Claude subscription out of quota{resets}. "
+              f"No carousel generated today; the next scheduled run will pick it up.")
+        print(f"[carousel] SKIP: {e}")
+        return 0
     except Exception as e:
         print(f"[carousel] ERROR: Claude content failed: {e}", file=sys.stderr)
         return 1

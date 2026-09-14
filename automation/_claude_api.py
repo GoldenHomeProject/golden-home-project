@@ -25,6 +25,33 @@ import time
 DEFAULT_TIMEOUT = 300  # 5 min — long-form blog posts can run long
 
 
+class ClaudeUsageLimit(RuntimeError):
+    """The subscription is out of quota until a stated reset time.
+
+    Distinct from a normal failure on purpose. This is not our bug, retrying in
+    seconds cannot fix it, and the right response is to skip the run rather than
+    fail it — a red workflow email for a condition that heals itself on a clock
+    is noise, and noise is how real failures get ignored.
+    """
+
+    def __init__(self, message: str, resets: str | None = None):
+        super().__init__(message)
+        self.resets = resets
+
+
+# Phrases that mean "try again shortly" — worth a backoff retry.
+_TRANSIENT = ("rate limit", "timeout", "temporarily", "connection",
+              "retry", "max turns", "overloaded", "503", "502")
+
+# Phrases that mean "out of quota until a stated time". Retrying in seconds is
+# pointless. "session limit" cost a carousel run on 2026-09-14: the wording was
+# "You've hit your session limit · resets 3:10pm (UTC)" and the transient list
+# only had "rate limit"/"usage limit", so it was classed as a permanent error and
+# the whole job exited 1 on the first try.
+_QUOTA = ("session limit", "usage limit", "quota", "limit reached",
+          "hit your limit", "out of credit")
+
+
 SECRETS_ENV = os.path.expanduser("~/.ghp-secrets/claude.env")
 
 
@@ -105,11 +132,18 @@ def call_claude(prompt: str, *, system: str | None = None,
 
             err = (result.stderr or result.stdout or "").strip()
             last_err = err
-            # Retry on transient: rate-limit-ish phrases, network hiccups.
-            if any(tok in err.lower() for tok in [
-                "rate limit", "usage limit", "timeout", "temporarily",
-                "connection", "retry", "max turns",
-            ]):
+            low = err.lower()
+
+            # Out of quota until a stated time — a backoff of seconds cannot help.
+            # Surface it as its own type so callers can SKIP rather than fail.
+            if any(tok in low for tok in _QUOTA):
+                m = re.search(r"resets?\s+([^\n·|]+)", err, re.I)
+                raise ClaudeUsageLimit(
+                    f"Claude subscription out of quota: {err[:200]}",
+                    resets=(m.group(1).strip() if m else None))
+
+            # Retry on transient: network hiccups, overload, max-turns.
+            if any(tok in low for tok in _TRANSIENT):
                 time.sleep(2 ** attempt * 2)
                 continue
             raise RuntimeError(f"claude CLI failed (rc={result.returncode}): {err[:500]}")
