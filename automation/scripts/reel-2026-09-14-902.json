@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-14T15:31:54.287132Z",
+  "date": "2026-09-14",
+  "seq": 902,
+  "source": "repurpose",
+  "hook": "28,028 reviewers agree on this $30 container set",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Open 10-lb bulk rice bag slumped over, spilling slightly, pantry shelf in background",
+      "on_screen_text": "Opened bag = mystery amount",
+      "voiceover": "Once a Costco rice bag is open, it slumps, and you have no idea how much is actually left until you're pouring air."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of a small moth near an unsealed bulk bag of oats",
+      "on_screen_text": "Unsealed bags aren't airtight",
+      "voiceover": "It's also a pest problem. Reviewers on sealed-container listings keep mentioning pantry moths in opened bulk bags."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Unboxing the Vtopmart 24-piece clear container set on a counter, lids lined up",
+      "on_screen_text": "$29.98 for 24 pieces, 4.7 stars",
+      "voiceover": "The Vtopmart 24-Piece Airtight Food Storage Container Set is $29.98 with a 4.7-star rating across 28,028 reviews \u2014 one of the highest review counts in kitchen storage on Amazon."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Locking the four-sided lid on a container, then tipping the container sideways to show it stays sealed",
+      "on_screen_text": "4-sided locking lid stays sealed on its side",
+      "voiceover": "That review count means the failure modes are documented, not guessed at. The locking lids hold even when a container is knocked on its side."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Pouring rice, flour, oats, pasta, and sugar into separate clear labeled containers",
+      "on_screen_text": "One set = one full bulk haul",
+      "voiceover": "24 pieces in different sizes decants an entire Costco run \u2014 rice, both flours, oats, pasta, sugar \u2014 with sizes left for coffee and dried beans."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Wide shot of a shelf of matching clear containers, contents visible through the plastic",
+      "on_screen_text": "See what you have, not guess",
+      "voiceover": "This is the part a turntable can't fix \u2014 actually seeing what's left before you're out."
+    }
+  ],
+  "caption": "$29.98 and 28,028 reviews for the container set that fixed my 'how much rice do I actually have left' problem. Clear sides, locking lids, holds sideways. Full pantry breakdown linked in bio.",
+  "hashtags": [
+    "#airtightcontainers",
+    "#pantrymakeover",
+    "#costcobulk",
+    "#kitchenorganization",
+    "#vtopmart",
+    "#pantrygoals",
+    "#foodstorage"
+  ]
+}

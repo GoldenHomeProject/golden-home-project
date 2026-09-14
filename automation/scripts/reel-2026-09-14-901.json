@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-14T15:31:54.286890Z",
+  "date": "2026-09-14",
+  "seq": 901,
+  "source": "repurpose",
+  "hook": "My $25 fix for the Costco oil jug disaster",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Cluttered pantry shelf, two tall Kirkland oil jugs tipped against the wall, cans wedged in front of them",
+      "on_screen_text": "Costco oil ate my pantry",
+      "voiceover": "Two 3-liter Kirkland jugs. Ten inches tall. Seven pounds each. And I couldn't reach either one."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up hand trying to pull an oil jug out from behind stacked cans, cans falling",
+      "on_screen_text": "Heaviest item = buried first",
+      "voiceover": "I made the classic mistake \u2014 put the heaviest bottle in first, then stacked everything else in front of it."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Unboxing a 4-pack of non-skid lazy Susan turntables on a kitchen counter",
+      "on_screen_text": "$24.99 for a set of 4",
+      "voiceover": "So I grabbed the Set of 4 Non-Skid 10-Inch Lazy Susan Turntable Organizers. $24.99, 4.7 stars, 6,190 reviews."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Placing the oil jug on the turntable and spinning it hard to show it stays centered",
+      "on_screen_text": "Non-skid base = no sliding",
+      "voiceover": "The non-skid base is the detail that matters. Cheap turntables let a full 7-pound jug slide off-center and jam against the shelf wall. This one doesn't."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Hand spins the turntable once and grabs the oil bottle instantly, no digging",
+      "on_screen_text": "Spin, don't dig",
+      "voiceover": "Now I spin instead of dig. One turntable per shelf, oil bottle front and center every time."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Wide shot of the calm, organized pantry shelf with turntable in place",
+      "on_screen_text": "$25 problem, solved",
+      "voiceover": "Twenty-five dollars fixed the one item that was causing most of my pantry chaos."
+    }
+  ],
+  "caption": "The oil jug was never a shelf problem, it was a storage strategy problem. $24.99, 6,190 reviews, non-skid base that actually holds a 7-lb Kirkland jug. Full breakdown (plus the 3 other products that fixed the rest of my pantry) linked in bio.",
+  "hashtags": [
+    "#costcohaul",
+    "#pantryorganization",
+    "#lazysusan",
+    "#costcofinds",
+    "#pantrygoals",
+    "#organizedpantry",
+    "#costcooil"
+  ]
+}

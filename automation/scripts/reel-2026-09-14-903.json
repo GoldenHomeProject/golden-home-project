@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-09-14T15:31:54.287290Z",
+  "date": "2026-09-14",
+  "seq": 903,
+  "source": "repurpose",
+  "hook": "$46.99 for the drawer that fixed my dark cabinet",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Opening a deep base cabinet door to reveal a dark cavity with canned goods stacked out of sight",
+      "on_screen_text": "24 inches deep, 8 inches usable",
+      "voiceover": "A base cabinet that's 24 inches deep hides everything past the first 8 inches. That's where my canned goods went to disappear."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Hand reaching blindly into the back of the cabinet, knocking cans over",
+      "on_screen_text": "Flats don't belong on a lazy Susan",
+      "voiceover": "Costco cans come in 6- or 8-can flats, and flats don't work on a turntable. They need a drawer you can pull all the way out."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Installing the PXRACK expandable pull-out drawer organizer into the cabinet, adjusting the width",
+      "on_screen_text": "$46.99, expands 11 to 21 inches",
+      "voiceover": "The PXRACK Expandable Under-Sink Organizer with 2 Pull-Out Drawers is $46.99, 4.7 stars, 1,773 reviews, and it expands to fit most standard cabinet openings."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Pulling the drawer all the way out, showing full rows of canned goods visible from front to back",
+      "on_screen_text": "It's about the depth, not the mess",
+      "voiceover": "It's marketed for under-sink cabinets, but reviewers keep using it in pantries for exactly this \u2014 bringing the back row forward instead of reaching in blind."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Closing the drawer smoothly, cabinet now fully organized and visible at a glance",
+      "on_screen_text": "Priciest item, different job",
+      "voiceover": "It's the priciest thing on my list, but it's solving a problem the turntable and containers can't \u2014 depth."
+    }
+  ],
+  "caption": "$46.99 for a drawer meant for under-sink cabinets that works just as well hiding my canned goods problem in the base pantry cabinet. 1,773 reviews, 4.7 stars. Full breakdown in bio.",
+  "hashtags": [
+    "#pantryorganization",
+    "#cabinetorganization",
+    "#pxrack",
+    "#pulloutdrawer",
+    "#costcocanned",
+    "#kitchenstorage",
+    "#organizedhome"
+  ]
+}

@@ -6909,5 +6909,95 @@
     },
     "hook": "112,629 people rated this shower mat. 4.5 stars is hard to fake at that scale.",
     "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-14-001.mp4"
+  },
+  {
+    "name": "reel_repurpose_2026-09-14_901",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-14-901.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "The oil jug was never a shelf problem, it was a storage strategy problem. $24.99, 6,190 reviews, non-skid base that actually holds a 7-lb Kirkland jug. Full breakdown (plus the 3 other products that fixed the rest of my pantry) linked in bio.",
+    "hashtags": [
+      "#costcohaul",
+      "#pantryorganization",
+      "#lazysusan",
+      "#costcofinds",
+      "#pantrygoals",
+      "#organizedpantry",
+      "#costcooil"
+    ],
+    "hook": "My $25 fix for the Costco oil jug disaster"
+  },
+  {
+    "name": "reel_repurpose_2026-09-14_902",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-14-902.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "$29.98 and 28,028 reviews for the container set that fixed my 'how much rice do I actually have left' problem. Clear sides, locking lids, holds sideways. Full pantry breakdown linked in bio.",
+    "hashtags": [
+      "#airtightcontainers",
+      "#pantrymakeover",
+      "#costcobulk",
+      "#kitchenorganization",
+      "#vtopmart",
+      "#pantrygoals",
+      "#foodstorage"
+    ],
+    "hook": "28,028 reviewers agree on this $30 container set"
+  },
+  {
+    "name": "reel_repurpose_2026-09-14_903",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-14-903.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "$46.99 for a drawer meant for under-sink cabinets that works just as well hiding my canned goods problem in the base pantry cabinet. 1,773 reviews, 4.7 stars. Full breakdown in bio.",
+    "hashtags": [
+      "#pantryorganization",
+      "#cabinetorganization",
+      "#pxrack",
+      "#pulloutdrawer",
+      "#costcocanned",
+      "#kitchenstorage",
+      "#organizedhome"
+    ],
+    "hook": "$46.99 for the drawer that fixed my dark cabinet"
+  },
+  {
+    "name": "reel_repurpose_2026-09-14_904",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-14-904.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "119,574 reviews on a $17.72 bin \u2014 that's the sample size I wanted before trusting it with my loose Costco snacks. Reinforced sides, side handles, holds shape even half-empty. Full pantry list in bio.",
+    "hashtags": [
+      "#amazonbasics",
+      "#pantrybins",
+      "#costcofinds",
+      "#budgetorganization",
+      "#pantrymakeover",
+      "#fabricbins",
+      "#kitchenorganization"
+    ],
+    "hook": "$17.72 bin ends my loose-snack pile forever"
+  },
+  {
+    "name": "reel_repurpose_2026-09-14_905",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-14-905.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "I compared what's actually on the Amazon best-seller charts for a Costco pantry mess \u2014 star ratings, review counts, and prices, checkable right now. Four products, all under $47. Full breakdown with the exact reviewer quotes in bio.",
+    "hashtags": [
+      "#costcopantry",
+      "#pantrymakeover",
+      "#budgetorganization",
+      "#amazonfinds",
+      "#costcohaul",
+      "#organizedpantry",
+      "#kitchenstorage"
+    ],
+    "hook": "4 products, all under $47, fixed my Costco pantry"
   }
 ]

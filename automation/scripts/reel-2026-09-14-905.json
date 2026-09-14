@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-14T15:31:54.287658Z",
+  "date": "2026-09-14",
+  "seq": 905,
+  "source": "repurpose",
+  "hook": "4 products, all under $47, fixed my Costco pantry",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Before shot: chaotic pantry with tipped oil jugs, slumped bags, loose cans, and a heap of snacks",
+      "on_screen_text": "This was my pantry",
+      "voiceover": "Two Kirkland oil jugs I couldn't reach, a slumped rice bag, canned goods lost in a dark cabinet, and a pile of loose snacks."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Placing oil jug on non-skid lazy Susan turntable and spinning it",
+      "on_screen_text": "$24.99 \u2014 Lazy Susan set of 4",
+      "voiceover": "Twenty-four ninety-nine got the oil off the back wall \u2014 6,190 reviews, non-skid base."
+    },
+    {
+      "n": 3,
+      "duration_sec": 3,
+      "visual_prompt": "Decanting rice and flour into clear Vtopmart containers with locking lids",
+      "on_screen_text": "$29.98 \u2014 Vtopmart 24-piece set",
+      "voiceover": "Twenty-nine ninety-eight got the bulk bags into airtight, see-through containers \u2014 28,028 reviews backing it up."
+    },
+    {
+      "n": 4,
+      "duration_sec": 3,
+      "visual_prompt": "Pulling out the PXRACK expandable drawer full of canned goods",
+      "on_screen_text": "$46.99 \u2014 PXRACK pull-out drawers",
+      "voiceover": "Forty-six ninety-nine brought the back row of canned goods forward instead of hiding it."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Sliding out a fabric storage cube full of loose snacks",
+      "on_screen_text": "$17.72 \u2014 Amazon Basics fabric cubes",
+      "voiceover": "And seventeen seventy-two, with 119,574 reviews, caught everything else that didn't have a home."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Final wide reveal shot of the fully organized pantry, everything visible and accessible",
+      "on_screen_text": "Under $130 total, one working pantry",
+      "voiceover": "Four products, every one of them under $47, and I stopped unpacking my whole pantry just to find the oil."
+    }
+  ],
+  "caption": "I compared what's actually on the Amazon best-seller charts for a Costco pantry mess \u2014 star ratings, review counts, and prices, checkable right now. Four products, all under $47. Full breakdown with the exact reviewer quotes in bio.",
+  "hashtags": [
+    "#costcopantry",
+    "#pantrymakeover",
+    "#budgetorganization",
+    "#amazonfinds",
+    "#costcohaul",
+    "#organizedpantry",
+    "#kitchenstorage"
+  ]
+}

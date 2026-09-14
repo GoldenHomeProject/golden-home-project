@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-09-14T15:31:54.287514Z",
+  "date": "2026-09-14",
+  "seq": 904,
+  "source": "repurpose",
+  "hook": "$17.72 bin ends my loose-snack pile forever",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Messy pile of bagged snacks, spare paper towel rolls, and a box of granola bars heaped on a shelf",
+      "on_screen_text": "The stuff that doesn't decant",
+      "voiceover": "Every bulk pantry has a category that doesn't decant and doesn't stack \u2014 snack bags, extra paper towels, the backup granola bars."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Wide shot contrasting neat containers on one side of shelf with a chaotic heap on the other side",
+      "on_screen_text": "This is what still looks messy",
+      "voiceover": "This is usually what makes a pantry look chaotic even after the oil and rice are sorted."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Unfolding a collapsible fabric storage cube with side handles on a counter",
+      "on_screen_text": "$17.72, 4.7 stars, 119,574 reviews",
+      "voiceover": "The Amazon Basics Collapsible Fabric Storage Cubes Organizer is $17.72 with 119,574 reviews \u2014 the highest review count on my whole list."
+    },
+    {
+      "n": 4,
+      "duration_sec": 3,
+      "visual_prompt": "Filling the cube with loose snack bags and pulling it out of the shelf by its handles",
+      "on_screen_text": "Reinforced sides hold their shape",
+      "voiceover": "That volume of reviews means the failure modes \u2014 sagging fabric, torn handles \u2014 are well documented. The verdict is the reinforced sides hold up better than cheaper bins."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Sliding the full cube back onto the pantry shelf, everything now contained",
+      "on_screen_text": "One bin, whole shelf pulls out at once",
+      "voiceover": "One or two cubes catch everything that doesn't have a container of its own, and the handles mean the whole thing pulls out at once."
+    }
+  ],
+  "caption": "119,574 reviews on a $17.72 bin \u2014 that's the sample size I wanted before trusting it with my loose Costco snacks. Reinforced sides, side handles, holds shape even half-empty. Full pantry list in bio.",
+  "hashtags": [
+    "#amazonbasics",
+    "#pantrybins",
+    "#costcofinds",
+    "#budgetorganization",
+    "#pantrymakeover",
+    "#fabricbins",
+    "#kitchenorganization"
+  ]
+}
