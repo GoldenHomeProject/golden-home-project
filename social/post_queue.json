@@ -6887,10 +6887,10 @@
   },
   {
     "name": "reel_2026-09-14_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-09-14-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-14-001.mp4",
     "caption": "112,629 people rated this shower mat. 4.5 stars is hard to fake at that scale.\n\nA bathtub floor is one of the most common places to slip in a home. This mat uses suction cups to anchor to the tub floor, and it's a patented design sized 35x16 inches, large enough to cover most of a standard tub or shower base.\n\nIt's clear, so it doesn't hide the tub underneath, and it's machine washable instead of something you scrub by hand. At 112,629 reviews and a 4.5 star average, that's not a handful of opinions \u2014 it's a large enough sample that the rating reflects real, repeated use.\n\nSteadier footing in the shower without changing how your bathroom looks, and it comes off the tub and into the wash when it needs a clean. $24.99.\n\nComment GORILLA and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -6907,6 +6907,7 @@
       "affiliate_network": "amazon",
       "affiliate_url": "https://www.amazon.com/dp/B01F5K9YNS?tag=goldenhomep06-20"
     },
-    "hook": "112,629 people rated this shower mat. 4.5 stars is hard to fake at that scale."
+    "hook": "112,629 people rated this shower mat. 4.5 stars is hard to fake at that scale.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-14-001.mp4"
   }
 ]
