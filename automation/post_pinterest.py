@@ -309,6 +309,28 @@ def main() -> int:
     def _is_drop(pin):
         return "Price drop" in (pin.get("title") or "")
 
+    # The off-niche block was only ever applied when GENERATING pins, so entries that
+    # entered the queue before it existed kept publishing. On 2026-09-14 this account
+    # pinned a Bluey kids' water bottle, an Owala bottle and a stadium seat — all from
+    # pin-2026-09-02 entries. Every one of those spends a daily pin slot and teaches
+    # Pinterest to show us to the wrong audience, which is the opposite of what the
+    # slots are for. Filtering at generation but not at posting is the same mistake as
+    # a guard that refuses new bad output while leaving the old bad output live.
+    try:
+        _themes = json.loads((Path(__file__).resolve().parent.parent
+                              / "social" / "seasonal_themes.json").read_text())
+        _BLOCK = tuple(t.lower() for t in (_themes.get("off_niche_block") or []))
+    except (OSError, ValueError):
+        _BLOCK = ()
+
+    def _off_niche(pin):
+        blob = f"{pin.get('title','')} {pin.get('description','')}".lower()
+        hit = next((b for b in _BLOCK if b in blob), None)
+        if hit:
+            print(f"  [skip] {pin.get('id')} off-niche ({hit!r}) — "
+                  f"{str(pin.get('title'))[:52]}")
+        return bool(hit)
+
     # The per-ASIN block exists so we never pin the same product twice. A VERIFIED price
     # drop is new information about that product, though, so it is allowed through — the
     # per-pin-id ledger check above still prevents posting the same drop twice.
@@ -321,6 +343,7 @@ def main() -> int:
     pending = [p for p in queue
                if not p.get("posted")
                and not p.get("blocked")
+               and not _off_niche(p)
                and p["id"] not in led_ids
                and (p.get("asin") not in led_asins or _is_drop(p))]
     # Order by expected value, not by age.
