@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-14T11:12:01.832849Z",
+  "date": "2026-09-14",
+  "seq": 1,
+  "hook_category": "proof",
+  "hook": "112,629 people rated this shower mat. 4.5 stars is hard to fake at that scale.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of a clear textured bath mat laid flat inside a white bathtub, water beading on the surface",
+      "on_screen_text": "112,629 RATINGS",
+      "voiceover": "112,629 people have rated this bath mat."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Overhead shot of a bare, slick tub floor next to the same tub with the clear mat installed, split-screen style",
+      "on_screen_text": "35x16 IN, CLEAR",
+      "voiceover": "It's a patented 35 by 16 inch design that covers most of a standard tub."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Macro shot of a hand pressing down on one of the mat's suction cups against the tub floor, cup flattening and gripping",
+      "on_screen_text": "SUCTION CUPS",
+      "voiceover": "Suction cups anchor it to the tub floor so it stays put."
+    },
+    {
+      "n": 4,
+      "duration_sec": 5,
+      "visual_prompt": "Hand peeling the mat up off the tub and placing it into a washing machine drum",
+      "on_screen_text": "MACHINE WASHABLE",
+      "voiceover": "When it needs a clean, it comes right off the tub and into the wash."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Final clean shot of the mat installed in the tub, camera pulling back to a tidy bathroom, price tag graphic appearing",
+      "on_screen_text": "4.5 STARS \u00b7 $24.99",
+      "voiceover": "4.5 stars across over 112,000 reviews, for $24.99."
+    }
+  ],
+  "caption": "112,629 people rated this shower mat. 4.5 stars is hard to fake at that scale.\n\nA bathtub floor is one of the most common places to slip in a home. This mat uses suction cups to anchor to the tub floor, and it's a patented design sized 35x16 inches, large enough to cover most of a standard tub or shower base.\n\nIt's clear, so it doesn't hide the tub underneath, and it's machine washable instead of something you scrub by hand. At 112,629 reviews and a 4.5 star average, that's not a handful of opinions \u2014 it's a large enough sample that the rating reflects real, repeated use.\n\nSteadier footing in the shower without changing how your bathroom looks, and it comes off the tub and into the wash when it needs a clean. $24.99.\n\nComment GORILLA and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "It's clear, so it doesn't hide the tub underneath, and it's machine washable instead of something you scrub by hand. At 112,629 reviews and a 4.5 star average, that's not a handful of opinions \u2014 it's ",
+  "affiliate_strategy": {
+    "primary_product": "GORILLA GRIP Bath Tub Shower Mat, Bathtub Floor Liner, 35x16 Clear | Patented Large Mats, Machine Washable, Suction Cups",
+    "dm_keyword": "GORILLA",
+    "amazon_asin": "B01F5K9YNS",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B01F5K9YNS?tag=goldenhomep06-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": "https://www.amazon.com/dp/B01F5K9YNS?tag=goldenhomep06-20"
+  }
+}
