@@ -144,7 +144,16 @@ def detect_block(page) -> bool:
 def publish_pin(pin: dict, dry: bool) -> str:
     from playwright.sync_api import sync_playwright
 
-    img = REPO_ROOT / pin["image_path"]
+    # Accept either key. generate_collage_pins wrote "image" while every other
+    # producer writes "image_path", and pin["image_path"] raised KeyError — which did
+    # not just skip the collage, it killed the whole posting run, so a single collage
+    # sitting in the queue stopped every other pin from going out too. A malformed
+    # entry must cost one pin, never the run.
+    rel = pin.get("image_path") or pin.get("image")
+    if not rel:
+        print(f"  [skip] {pin.get('id')} has no image path ({sorted(pin)})")
+        return "missing_image"
+    img = REPO_ROOT / rel
     if not img.exists():
         return "missing_image"
 
@@ -309,6 +318,9 @@ def main() -> int:
     def _is_drop(pin):
         return "Price drop" in (pin.get("title") or "")
 
+    def _is_collage(pin):
+        return pin.get("format") == "collage"
+
     # The off-niche block was only ever applied when GENERATING pins, so entries that
     # entered the queue before it existed kept publishing. On 2026-09-14 this account
     # pinned a Bluey kids' water bottle, an Owala bottle and a stadium seat — all from
@@ -345,7 +357,8 @@ def main() -> int:
                and not p.get("blocked")
                and not _off_niche(p)
                and p["id"] not in led_ids
-               and (p.get("asin") not in led_asins or _is_drop(p))]
+               and (p.get("asin") not in led_asins
+                    or _is_drop(p) or _is_collage(p))]
     # Order by expected value, not by age.
     #   0. price drops    — highest buyer intent, and the freshest thing we know
     #   1. proven themes  — bathroom/bedroom textiles, the only products that have ever
@@ -364,7 +377,11 @@ def main() -> int:
         _WORDS = ()
 
     def _band(pin):
-        if _is_drop(pin):
+        # Collages rank with price drops. Pinterest saves collage Pins ~2x more often
+        # than single-product Pins, and saves are the only amplification this account
+        # has — 205 impressions with 0 saves is what no amplification looks like. We
+        # build at most one a day, so promoting them costs almost nothing.
+        if _is_drop(pin) or _is_collage(pin):
             return 0
         blob = f"{pin.get('title','')} {pin.get('description','')} {pin.get('board','')}".lower()
         return 1 if (_WORDS and any(w in blob for w in _WORDS)) else 2

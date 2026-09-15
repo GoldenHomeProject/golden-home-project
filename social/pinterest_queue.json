@@ -3816,7 +3816,8 @@
     "link": "https://goldenhomeproject.com/blog/posts/best-storage-bins.html",
     "format": "collage",
     "blocked": true,
-    "blocked_reason": "built before category_identity existed; cells were an Owala water bottle, velvet hangers, a Stanley tumbler and a lunch bag under the headline '4 Storage Bin Picks Under $33' \u2014 not one storage bin"
+    "blocked_reason": "built before category_identity existed; cells were an Owala water bottle, velvet hangers, a Stanley tumbler and a lunch bag under the headline '4 Storage Bin Picks Under $33' \u2014 not one storage bin",
+    "image_path": "social/pinterest/collage-2026-09-12-best-storage-bins.png"
   },
   {
     "id": "collage-2026-09-12-best-kitchen-gadgets",
@@ -3828,7 +3829,8 @@
     "link": "https://goldenhomeproject.com/blog/posts/best-kitchen-gadgets.html",
     "format": "collage",
     "blocked": true,
-    "blocked_reason": "cell 04 (air fryer liners) rendered as an unidentifiable white blob \u2014 accurate but visually meaningless, and a collage only earns saves if all four cells read clearly"
+    "blocked_reason": "cell 04 (air fryer liners) rendered as an unidentifiable white blob \u2014 accurate but visually meaningless, and a collage only earns saves if all four cells read clearly",
+    "image_path": "social/pinterest/collage-2026-09-12-best-kitchen-gadgets.png"
   },
   {
     "id": "collage-2026-09-12-best-bedding-essentials",
@@ -3838,7 +3840,8 @@
     "description": "4 Bedding Essentials Under $30. Every pick holds 4.5 stars or higher across thousands of ratings, read off Amazon's live best-seller charts. Prices shown were accurate when published and change often.",
     "image": "social/pinterest/collage-2026-09-12-best-bedding-essentials.png",
     "link": "https://goldenhomeproject.com/blog/posts/best-bedding-essentials.html",
-    "format": "collage"
+    "format": "collage",
+    "image_path": "social/pinterest/collage-2026-09-12-best-bedding-essentials.png"
   },
   {
     "id": "pin-2026-09-13-B0BPLB81LX",

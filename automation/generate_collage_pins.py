@@ -167,7 +167,7 @@ def main() -> int:
                 f"{headline}. Every pick holds 4.5 stars or higher across thousands of "
                 f"ratings, read off Amazon's live best-seller charts. "
                 f"Prices shown were accurate when published and change often."),
-            "image": str(out.relative_to(ROOT)),
+            "image_path": str(out.relative_to(ROOT)),   # key every other producer uses
             "link": f"{SITE}/blog/posts/{slug}.html",
             "format": "collage",
         })
