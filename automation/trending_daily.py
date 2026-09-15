@@ -33,7 +33,7 @@ from datetime import date, datetime, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from category_identity import in_category  # noqa: E402
+from category_identity import in_category, off_niche_hit  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 BLOG_POSTS = ROOT / "blog" / "posts"
@@ -46,9 +46,21 @@ AFFIL_TAG = "goldenhomep06-20"
 # theme varies across the week without repeating.
 CATEGORY_ROTATION = [
     ("Kitchen",          "kitchen",   "https://www.amazon.com/gp/bestsellers/kitchen/"),
-    ("Home Storage",     "home",      "https://www.amazon.com/gp/bestsellers/home-garden/3610841/"),
+    # 2026-09-15: was 3610841 (the whole Storage & Organization chart), which is where
+    # the Owala bottle and Stanley tumbler on best-storage-bins.html came from — only
+    # ~50% of it was genuinely storage. 2422430011 is the "Baskets, Bins & Containers"
+    # child, read off Amazon's own nav, and it is what a page called "best storage bins"
+    # actually means. Measured before switching: 38 of 39 items genuine (97%).
+    ("Home Storage",     "home",      "https://www.amazon.com/gp/bestsellers/home-garden/2422430011/"),
     ("Home Décor",       "home",      "https://www.amazon.com/gp/bestsellers/home-garden/1063278/"),
-    ("Home",             "home",      "https://www.amazon.com/gp/bestsellers/home-garden/"),
+    # 2026-09-15: was the bare home-garden ROOT, i.e. all of Home & Kitchen. That chart
+    # sells ant killer, insect traps, handheld fans and drinkware, so
+    # best-home-organization-products.html went live listing TERRO Liquid Ant Killer
+    # Bait Stations and had to be quarantined — only 1 of 6 picks was genuinely home
+    # organization. 3610841 is "Home Storage & Organization", which is what the page
+    # claims to be about. Measured: 26 of 39 genuine (66%); the chart still bleeds some
+    # drinkware and category_identity strips that.
+    ("Home",             "home",      "https://www.amazon.com/gp/bestsellers/home-garden/3610841/"),
     # Coffee & Tea REMOVED 2026-07-31: the node yields 0 picks under the $5-35 /
     # 4.5star / 5k-review filter — coffee gear is either consumable pods and beans
     # (commodity-blocked, ~$0.20 commission) or machines well over $35. A category
@@ -710,6 +722,16 @@ def main() -> int:
         # curtains as duplicates and backfilled from the neighbour node, so a page about
         # curtains filled up with bath towels. A "best blackout curtains" page is
         # supposed to list six different blackout curtains.
+        # Off-niche products are refused at pin generation and at pin posting, but a
+        # hub page was still free to list them: a THERMOS kids' food jar came through
+        # on the Home run even though "thermos" is in off_niche_block. One list, every
+        # stage.
+        before = len(qualified)
+        qualified = [q for q in qualified
+                     if not off_niche_hit(q.get("title") or "")]
+        if before != len(qualified):
+            print(f"[trending] dropped {before - len(qualified)} off-niche item(s)")
+
         primary_pool = [q for q in qualified
                         if q.get("cat_label") == cat_label
                         and in_category(q.get("title") or "", cat_label)]

@@ -141,3 +141,44 @@ def filter_in_category(picks: list, cat_label: str, name_key: str = "name") -> l
         if in_category(title, cat_label):
             out.append(p)
     return out
+
+
+# ---------------------------------------------------------------------------
+# Off-niche block, shared.
+#
+# `off_niche_block` in social/seasonal_themes.json listed the products that keep
+# drifting into a home-organization account — Bluey bottles, bento boxes, TV mounts,
+# drinkware. It was enforced when GENERATING pins, then (2026-09-14) when POSTING
+# them, but never when building a HUB PAGE. So the same THERMOS kids' food jar that
+# the pin pipeline refuses to publish could still be listed on
+# best-home-organization-products.html.
+#
+# One definition, read from one file, used by every stage. A term that is off-niche
+# is off-niche everywhere.
+# ---------------------------------------------------------------------------
+import json as _json  # noqa: E402
+from pathlib import Path as _Path  # noqa: E402
+
+_THEMES = _Path(__file__).resolve().parent.parent / "social" / "seasonal_themes.json"
+_OFF_NICHE_CACHE: tuple | None = None
+
+
+def off_niche_terms() -> tuple:
+    global _OFF_NICHE_CACHE
+    if _OFF_NICHE_CACHE is None:
+        try:
+            data = _json.loads(_THEMES.read_text())
+            _OFF_NICHE_CACHE = tuple(
+                str(t).lower() for t in (data.get("off_niche_block") or []))
+        except (OSError, ValueError):
+            _OFF_NICHE_CACHE = ()
+    return _OFF_NICHE_CACHE
+
+
+def off_niche_hit(title: str) -> str | None:
+    """The blocked term this product matches, or None. Same list everywhere."""
+    t = _norm(title)
+    for term in off_niche_terms():
+        if _norm(term) in t:
+            return term
+    return None
