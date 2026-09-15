@@ -1,13 +1,13 @@
 {
   "_doc": "Daily engagement actions taken via Chrome MCP per automation/agents/daily_engagement_chrome.md. Append-only. Summary updated at top each session.",
   "summary": {
-    "lifetime_follows": 24,
+    "lifetime_follows": 25,
     "lifetime_likes": 33,
     "lifetime_comments": 7,
-    "last_session": "comments-2026-09-15T1405Z",
+    "last_session": "2026-09-15-2333-pi",
     "blocked_at": null,
-    "last_updated": "2026-09-15T14:07:47Z",
-    "total_actions": 594,
+    "last_updated": "2026-09-15T23:35:27Z",
+    "total_actions": 597,
     "lifetime_dms": 33,
     "lifetime_comments_outbound": 52
   },
@@ -28316,6 +28316,158 @@
       "post_url": "https://www.instagram.com/thehomeedit/p/Dc3zrgESNFo/",
       "text": "Great job on the freedom finder \u2014 I'd add fabric bins on top labeled by category since kids' closets get chaotic fast at eye level.",
       "caption_seen": ""
+    },
+    {
+      "timestamp": "2026-09-15T23:33:48Z",
+      "action": "inbox_sweep",
+      "target": "self",
+      "session": "2026-09-15-2333-pi",
+      "requests_count": 0,
+      "inbox_count": 0,
+      "notifications_count": 47,
+      "requests": [],
+      "inbox": [],
+      "notifications": [
+        {
+          "handle": "ianmcwherter",
+          "action": "started following you. 07 Sept"
+        },
+        {
+          "handle": "mcmillansonia",
+          "action": "liked your comment: Restock videos hit different \u2014 there's something so satisfying about everything...\u00a0more 04 Sept"
+        },
+        {
+          "handle": "ani_sachi3",
+          "action": "liked your reel. 22 Aug"
+        },
+        {
+          "handle": "breathing.room.home",
+          "action": "liked your comment: Nice touch drilling the pot lids into the door front\u2014do you find that hinges ev...\u00a0more 05 Aug"
+        },
+        {
+          "handle": "simple_thoughts_lab",
+          "action": "started following you. 03 Aug"
+        },
+        {
+          "handle": "pakhli_manua",
+          "action": "liked your reel. 18 Jul"
+        },
+        {
+          "handle": "bhushan.kolap",
+          "action": "started following you. 15 Jul"
+        },
+        {
+          "handle": "kishu_patel_1204_",
+          "action": "liked your reel. 15 Jul"
+        },
+        {
+          "handle": "imhorro_r",
+          "action": "liked your reel. 12 Jul"
+        },
+        {
+          "handle": "neatmethod",
+          "action": "mentioned you in a comment: @golden_home_project Hi! We designed our own Drawer Dividers \u2764\ufe0f You can find them on our website! 17 Jun"
+        },
+        {
+          "handle": "rhodyentrepreneur",
+          "action": "liked your comment: Slow design is such a beautiful approach! Taking the time to restore and thrift...\u00a0more 09 Jun"
+        },
+        {
+          "handle": "hausofbreenak",
+          "action": "liked your comment: YES this is the best decorating advice! Buy what you love and it will always wo...\u00a0more 09 Jun"
+        },
+        {
+          "handle": "padtoscano",
+          "action": "liked your reel. 27 May"
+        },
+        {
+          "handle": "padtoscano",
+          "action": "started following you. 27 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "replied to your comment on dhi.atelier's post: @golden_home_project Glad you liked it \u2764\ufe0f 25 May"
+        },
+        {
+          "handle": "padtoscano",
+          "action": "liked your reel. 24 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "dhi.atelier",
+          "action": "liked your reel. 23 May"
+        },
+        {
+          "handle": "sabrinaco.concierge",
+          "action": "started following you. 23 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        },
+        {
+          "handle": "dra.daniela.slindvain",
+          "action": "liked your reel. 06 May"
+        }
+      ],
+      "untapped_warm": [
+        "daniibear3",
+        "youngnagisa"
+      ],
+      "dry_run": false
+    },
+    {
+      "timestamp": "2026-09-15T23:33:56Z",
+      "action": "follow",
+      "target": "daniibear3",
+      "session": "2026-09-15-2333-pi",
+      "reason": "follow_back_untapped_warm"
+    },
+    {
+      "timestamp": "2026-09-15T23:35:27Z",
+      "action": "follow_skip",
+      "target": "youngnagisa",
+      "session": "2026-09-15-2333-pi",
+      "reason": "no_follow_button"
     }
   ]
 }
