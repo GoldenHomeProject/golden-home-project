@@ -31,6 +31,9 @@ import sys
 import time
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from category_identity import dead_season_hit  # noqa: E402
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
 QUEUE_PATH = REPO_ROOT / "social" / "pinterest_queue.json"
 LOG_PATH = REPO_ROOT / "social" / "pinterest_post_log.json"
@@ -335,6 +338,19 @@ def main() -> int:
     except (OSError, ValueError):
         _BLOCK = ()
 
+    # Seasonal retirement was only ever applied when CHOOSING THEMES to generate
+    # against, never to the copy we wrote and never at posting time. Three weeks after
+    # move-in ended this account was still publishing "Shower Caddy for College Dorm";
+    # 16 of 87 September posts mentioned dorm or college. A pin written in August for
+    # an August search does not become correct just because it is still in the queue.
+    def _dead_season(pin):
+        blob = f"{pin.get('title','')} {pin.get('description','')}"
+        hit = dead_season_hit(blob)
+        if hit:
+            print(f"  [skip] {pin.get('id')} out of season ({hit!r}) — "
+                  f"{str(pin.get('title'))[:50]}")
+        return bool(hit)
+
     def _off_niche(pin):
         blob = f"{pin.get('title','')} {pin.get('description','')}".lower()
         hit = next((b for b in _BLOCK if b in blob), None)
@@ -356,6 +372,7 @@ def main() -> int:
                if not p.get("posted")
                and not p.get("blocked")
                and not _off_niche(p)
+               and not _dead_season(p)
                and p["id"] not in led_ids
                and (p.get("asin") not in led_asins
                     or _is_drop(p) or _is_collage(p))]

@@ -234,6 +234,9 @@ def fetch_pexels(query: str, out_path: Path, product: str = "") -> bool:
         print(f"  [pexels] download failed '{query}': {e}")
         return False
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from category_identity import dead_season_hit  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 SOCIAL = ROOT / "social"
 REGISTRY_PATH = SOCIAL / "dm_keyword_registry.json"
@@ -843,6 +846,20 @@ def main() -> int:
             continue          # already pinned THIS drop; don't repeat it
         board, board_q = board_for(entry)
         copy = claude_copy(entry, board) or template_copy(entry, board)
+        # Do not WRITE an angle that is out of season. The product is usually fine —
+        # floating shelves, laundry hampers and storage carts sell all year — but
+        # "Floating Shelves for Bedside & Dorm Room" is aimed at a search that
+        # collapsed in mid-August, and we were still authoring it in September.
+        _stale = dead_season_hit(
+            f"{copy.get('title','')} {copy.get('description','')}")
+        if _stale:
+            alt = template_copy(entry, board)
+            if dead_season_hit(f"{alt.get('title','')} {alt.get('description','')}"):
+                print(f"  [skip] {asin} out-of-season angle ({_stale!r}) and the "
+                      f"template repeats it — leaving it for its season")
+                continue
+            print(f"  [copy] {asin} rewrote an out-of-season angle ({_stale!r})")
+            copy = alt
         name = entry.get("product_name", "")
         pexels_q = (copy.get("pexels_query") or "").strip()
         # Prefer a query built from the product itself; only keep Claude's if it actually

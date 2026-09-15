@@ -71,9 +71,13 @@ CATEGORY_TERMS: dict[str, tuple[str, ...]] = {
         "mattress", "bed skirt", "coverlet", "throw", "protector", "topper",
         "sham", "insert",
     ),
+    # "mattress" and "bedding" were qualifiers here and should not be: node 1063308
+    # returns memory-foam mattresses, bed frames and toppers, and every one of them
+    # counted as a genuine pick for a page titled "best sheet sets". A sheet set is
+    # sheets, pillowcases and the set they come in — nothing you sleep ON.
     "Sheets": (
-        "sheet", "pillowcase", "pillow case", "bedding", "mattress", "fitted",
-        "flat sheet", "bed set",
+        "sheet set", "bed sheet", "bedsheet", "pillowcase", "pillow case",
+        "fitted sheet", "flat sheet", "duvet cover", "sheets",
     ),
     "Window Treatments": (
         "curtain", "drape", "blind", "shade", "valance", "blackout", "window",
@@ -105,7 +109,8 @@ CATEGORY_EXCLUDE: dict[str, tuple[str, ...]] = {
     "Home": ("water bottle", "tumbler", "lunch bag", "ant killer", "insect trap",
              "ant bait", "fly trap"),
     "Bedding": ("pet bed", "dog bed", "cat bed"),
-    "Sheets": ("sheet pan", "baking sheet", "dryer sheet", "sheet mask"),
+    "Sheets": ("sheet pan", "baking sheet", "dryer sheet", "sheet mask",
+               "mattress topper", "mattress pad", "bed frame", "memory foam"),
     # A shower curtain is not a window treatment. Without this the blackout-curtains
     # page fills up with shower liners, which is a subtler version of the same lie.
     "Window Treatments": ("shower",),
@@ -179,6 +184,81 @@ def off_niche_hit(title: str) -> str | None:
     """The blocked term this product matches, or None. Same list everywhere."""
     t = _norm(title)
     for term in off_niche_terms():
+        if _norm(term) in t:
+            return term
+    return None
+
+
+# ---------------------------------------------------------------------------
+# Dead-season copy.
+#
+# `retired_after` in seasonal_themes.json records the last month a theme may run.
+# It was only ever consulted when CHOOSING THEMES to generate against — never
+# against the copy we actually wrote, and never at posting time. So in September,
+# three weeks after move-in ended, this account was still publishing pins titled
+# "Shower Caddy for College Dorm" and "3 Tier Rolling Storage Cart for Dorms", and
+# 16 of 87 September posts mentioned dorm or college.
+#
+# Note the products are usually fine — floating shelves, laundry hampers, storage
+# carts are evergreen. It is the ANGLE that expires. So this gates the COPY, not the
+# product: the same shelf can be pinned all year, just not as "dorm room decor"
+# in September.
+#
+# A term is dead when it appears in retired_after AND is not part of any theme for
+# the current month. Checking months[] rather than only comparing month numbers is
+# what makes "christmas" correctly dead in January instead of alive until next
+# December.
+# ---------------------------------------------------------------------------
+from datetime import date as _date  # noqa: E402
+
+_SEASON_CACHE: dict | None = None
+
+
+def _season_data() -> dict:
+    global _SEASON_CACHE
+    if _SEASON_CACHE is None:
+        try:
+            _SEASON_CACHE = _json.loads(_THEMES.read_text())
+        except (OSError, ValueError):
+            _SEASON_CACHE = {}
+    return _SEASON_CACHE
+
+
+def dead_season_terms(month: int | None = None) -> tuple:
+    """Retired terms that are NOT in season this month.
+
+    Dead when BOTH hold:
+      * the term is not part of any theme listed for this month, and
+      * this month is past the term's retirement month.
+
+    The second test is done modulo 12 so the year wrap works: christmas retires in
+    12, and (1 - 12) % 12 == 1 makes it correctly dead in January rather than alive
+    for another eleven months. A term is never dead during its own retirement month
+    ((m - r) % 12 == 0), which is what keeps "fall decor" alive through November.
+    """
+    d = _season_data()
+    retired = d.get("retired_after") or {}
+    if not retired:
+        return ()
+    m = int(month or _date.today().month)
+    live = _norm(" ".join(str(t) for t in (d.get("months") or {}).get(str(m), [])))
+    out = []
+    for term, last in retired.items():
+        if _norm(term) in live:
+            continue
+        try:
+            r = int(last)
+        except (TypeError, ValueError):
+            continue
+        if (m - r) % 12 >= 1:
+            out.append(term.lower())
+    return tuple(out)
+
+
+def dead_season_hit(text: str, month: int | None = None) -> str | None:
+    """The out-of-season term this copy is targeting, or None."""
+    t = _norm(text)
+    for term in dead_season_terms(month):
         if _norm(term) in t:
             return term
     return None

@@ -1,56 +1,56 @@
 {
   "captured_at": "2026-09-15",
-  "category": "Home Storage",
+  "category": "Bath Linens",
   "source": "Amazon Best Sellers (live Pi scrape)",
-  "post": "blog/posts/best-storage-bins.html",
+  "post": "blog/posts/best-bath-towels-and-linens.html",
   "picks": [
     {
-      "asin": "B0711RQMNF",
-      "name": "Amazon Basics Collapsible Fabric Storage Cubes Organizer with Handles",
-      "price": "$17.84",
-      "rating": 4.7,
-      "reviews": 119925,
-      "rank": 1
-    },
-    {
-      "asin": "B00FZVPWTI",
-      "name": "IRIS USA Clear Cases |Made in USA",
-      "price": "$15.98",
-      "rating": 4.7,
-      "reviews": 9266,
-      "rank": 19
-    },
-    {
-      "asin": "B002BDTETW",
-      "name": "Sterilite Storage Boxes",
-      "price": "$29.99",
+      "asin": "B010S5VXKC",
+      "name": "Amazon Basics Fast Drying Cotton Washcloths for Bathroom",
+      "price": "$18.39",
       "rating": 4.6,
-      "reviews": 14330,
-      "rank": 10
+      "reviews": 75833,
+      "rank": 3
     },
     {
-      "asin": "B01IR9VAOA",
-      "name": "Household Essentials Foldable Fabric Storage Bins 6 Piece Set",
-      "price": "$15.99",
-      "rating": 4.8,
-      "reviews": 19798,
-      "rank": 23
+      "asin": "B0897859VJ",
+      "name": "GOSHI Exfoliating Shower Towel",
+      "price": "$17.99",
+      "rating": 4.6,
+      "reviews": 22658,
+      "rank": 18
     },
     {
-      "asin": "B07SPR2HPT",
-      "name": "SONGMICS Storage Cubes",
-      "price": "$16.99",
+      "asin": "B09FX7TFJV",
+      "name": "MR.SIGA Microfiber Cleaning Cloths",
+      "price": "$16.75",
       "rating": 4.7,
-      "reviews": 14041,
-      "rank": 25
+      "reviews": 104853,
+      "rank": 21
     },
     {
-      "asin": "B01MF9QY0A",
-      "name": "ShellKingdom Storage Bins",
-      "price": "$9.99",
-      "rating": 4.7,
-      "reviews": 5826,
-      "rank": 35
+      "asin": "B08S31RWBK",
+      "name": "Hicober Microfiber Hair Towel Wrap for Women",
+      "price": "$12.99",
+      "rating": 4.6,
+      "reviews": 34988,
+      "rank": 4
+    },
+    {
+      "asin": "B007JCHA6E",
+      "name": "Utopia Towels 24 Pack Washcloths",
+      "price": "$18.99",
+      "rating": 4.6,
+      "reviews": 75213,
+      "rank": 5
+    },
+    {
+      "asin": "B07B6GC5GY",
+      "name": "Amazon Basics Cotton Washcloths",
+      "price": "$10.49",
+      "rating": 4.6,
+      "reviews": 11045,
+      "rank": 8
     }
   ]
 }
