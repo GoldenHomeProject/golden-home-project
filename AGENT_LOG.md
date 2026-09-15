@@ -3551,3 +3551,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** social/pinterest_queue.json
 **External actions:** Pexels (backgrounds) + Claude CLI (pin copy)
 **Next agent hint:** post_pinterest.py (Pi) drains pinterest_queue.json once a Pinterest business account is logged into the Pi Chromium profile.
+
+## 2026-09-15T12:23:37Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B01F5K9YNS (GORILLA GRIP Bath Tub Shower Mat, Bathtu)
+**Changed:** social/carousels/2026-09-15-B01F5K9YNS/slide-1.png, social/carousels/2026-09-15-B01F5K9YNS/slide-2.png, social/carousels/2026-09-15-B01F5K9YNS/slide-3.png, social/carousels/2026-09-15-B01F5K9YNS/slide-4.png, social/carousels/2026-09-15-B01F5K9YNS/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B01F5K9YNS carousel.
