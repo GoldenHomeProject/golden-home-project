@@ -1,56 +1,56 @@
 {
   "captured_at": "2026-09-15",
-  "category": "Bath Linens",
+  "category": "Home",
   "source": "Amazon Best Sellers (live Pi scrape)",
-  "post": "blog/posts/best-bath-towels-and-linens.html",
+  "post": "blog/posts/best-home-organization-products.html",
   "picks": [
     {
-      "asin": "B010S5VXKC",
-      "name": "Amazon Basics Fast Drying Cotton Washcloths for Bathroom",
-      "price": "$18.39",
-      "rating": 4.6,
-      "reviews": 75833,
-      "rank": 3
+      "asin": "B00FXNAAW2",
+      "name": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers",
+      "price": "$18.89",
+      "rating": 4.8,
+      "reviews": 236427,
+      "rank": 2
     },
     {
-      "asin": "B0897859VJ",
-      "name": "GOSHI Exfoliating Shower Towel",
-      "price": "$17.99",
+      "asin": "B0C3QZ7SNF",
+      "name": "Cisily Sponge Holder for Kitchen Sink",
+      "price": "$13.99",
       "rating": 4.6,
-      "reviews": 22658,
-      "rank": 18
+      "reviews": 14871,
+      "rank": 12
     },
     {
-      "asin": "B09FX7TFJV",
-      "name": "MR.SIGA Microfiber Cleaning Cloths",
-      "price": "$16.75",
+      "asin": "B079M8FPTW",
+      "name": "Rubbermaid Brilliance Tritan Plastic Food Storage Containers BPA Free",
+      "price": "$32.48",
       "rating": 4.7,
-      "reviews": 104853,
-      "rank": 21
+      "reviews": 59666,
+      "rank": 14
     },
     {
-      "asin": "B08S31RWBK",
-      "name": "Hicober Microfiber Hair Towel Wrap for Women",
+      "asin": "B0753NHZVQ",
+      "name": "Command Large Utility Hooks",
       "price": "$12.99",
       "rating": 4.6,
-      "reviews": 34988,
-      "rank": 4
+      "reviews": 39139,
+      "rank": 17
     },
     {
-      "asin": "B007JCHA6E",
-      "name": "Utopia Towels 24 Pack Washcloths",
-      "price": "$18.99",
-      "rating": 4.6,
-      "reviews": 75213,
-      "rank": 5
+      "asin": "B06X421WJ6",
+      "name": "Utopia Home Plastic Hangers 50 Pack",
+      "price": "$24.99",
+      "rating": 4.7,
+      "reviews": 49382,
+      "rank": 9
     },
     {
-      "asin": "B07B6GC5GY",
-      "name": "Amazon Basics Cotton Washcloths",
-      "price": "$10.49",
-      "rating": 4.6,
-      "reviews": 11045,
-      "rank": 8
+      "asin": "B0112W79N0",
+      "name": "Amazon Basics Kids Space Saving Velvet Non-Slip Clothes Hangers with S",
+      "price": "$14.59",
+      "rating": 4.8,
+      "reviews": 78871,
+      "rank": 10
     }
   ]
 }
