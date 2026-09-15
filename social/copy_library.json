@@ -2416,6 +2416,52 @@
           }
         ]
       }
+    ],
+    "CURTAINS": [
+      {
+        "hook_category": "proof",
+        "hook": "133,371 reviews on one blackout curtain. That's not a coincidence.",
+        "beat1": "Most curtains on Amazon top out at a few hundred reviews. This one has over 133,000, at a 4.6-star average, in the 42-inch by 63-inch size. That kind of volume usually means people are still buying it years after the first review went up.",
+        "turn": "These are blackout panels sized for a standard bedroom window, sold as a 2-panel set. A 4.6 rating held across 133,371 reviews suggests the room-darkening claim holds up for most buyers, not just the first few hundred.",
+        "result": "If your window still lets in streetlight or early sun, a tested pair at $9.98 is a low-risk swap to make before buying anything pricier.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close-up on a phone screen showing the product listing, camera slowly pushes in on the '133,371 ratings' text",
+            "on_screen_text": "133,371 REVIEWS",
+            "voiceover": "One hundred thirty-three thousand reviews. On a curtain."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Wide shot of a bedroom window with bright daylight streaming in through thin curtains, slightly overexposed",
+            "on_screen_text": "SOUND FAMILIAR?",
+            "voiceover": "If your bedroom window still lets in every bit of morning light, that's the exact problem this many people were trying to solve."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Product shot of the black NICETOWN blackout curtain panels hanging straight, folded label showing size 42x63 visible",
+            "on_screen_text": "42\" X 63\", 2 PANELS",
+            "voiceover": "These are the NICETOWN black blackout curtains, forty-two inches wide, sixty-three inches long, sold in a set of two."
+          },
+          {
+            "n": 4,
+            "duration_sec": 5,
+            "visual_prompt": "Split screen: left side average product with under 500 reviews, right side this product's rating bar graph showing 4.6 stars",
+            "on_screen_text": "4.6 STARS, 133K+ REVIEWS",
+            "voiceover": "Most curtains never get past a few hundred reviews. This one holds a four point six average across more than a hundred thirty three thousand ratings."
+          },
+          {
+            "n": 5,
+            "duration_sec": 4,
+            "visual_prompt": "Final product shot on white background, price tag graphic overlays in corner, curtain panel fabric texture visible",
+            "on_screen_text": "$9.98",
+            "voiceover": "It's nine dollars and ninety-eight cents. That's a small bet against a very large number of reviews."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
