@@ -6914,10 +6914,10 @@
   },
   {
     "name": "reel_repurpose_2026-09-14_902",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-09-14-902.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-14-902.mp4",
     "caption": "$29.98 and 28,028 reviews for the container set that fixed my 'how much rice do I actually have left' problem. Clear sides, locking lids, holds sideways. Full pantry breakdown linked in bio.",
     "hashtags": [
       "#airtightcontainers",
@@ -6928,14 +6928,15 @@
       "#pantrygoals",
       "#foodstorage"
     ],
-    "hook": "28,028 reviewers agree on this $30 container set"
+    "hook": "28,028 reviewers agree on this $30 container set",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-14-902.mp4"
   },
   {
     "name": "reel_repurpose_2026-09-14_903",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-09-14-903.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-14-903.mp4",
     "caption": "$46.99 for a drawer meant for under-sink cabinets that works just as well hiding my canned goods problem in the base pantry cabinet. 1,773 reviews, 4.7 stars. Full breakdown in bio.",
     "hashtags": [
       "#pantryorganization",
@@ -6946,14 +6947,15 @@
       "#kitchenstorage",
       "#organizedhome"
     ],
-    "hook": "$46.99 for the drawer that fixed my dark cabinet"
+    "hook": "$46.99 for the drawer that fixed my dark cabinet",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-14-903.mp4"
   },
   {
     "name": "reel_repurpose_2026-09-14_904",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-09-14-904.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-14-904.mp4",
     "caption": "119,574 reviews on a $17.72 bin \u2014 that's the sample size I wanted before trusting it with my loose Costco snacks. Reinforced sides, side handles, holds shape even half-empty. Full pantry list in bio.",
     "hashtags": [
       "#amazonbasics",
@@ -6964,7 +6966,8 @@
       "#fabricbins",
       "#kitchenorganization"
     ],
-    "hook": "$17.72 bin ends my loose-snack pile forever"
+    "hook": "$17.72 bin ends my loose-snack pile forever",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-14-904.mp4"
   },
   {
     "name": "reel_repurpose_2026-09-14_905",
