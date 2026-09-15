@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-15",
+  "agent": "engagement-monitor",
+  "metrics": {
+    "subscribers": 6660,
+    "total_views": 23086,
+    "total_videos": 208
+  },
+  "top_videos": [
+    {
+      "title": "Open the cabinet under your sink and count how many things f",
+      "views": 255,
+      "likes": 1,
+      "comments": 1
+    },
+    {
+      "title": "126,992 ratings on a $20 pillow insert set. Only 4.6 stars s",
+      "views": 168,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "113,235 reviews. 4.6 stars. For a $13 sheet set, that's rare",
+      "views": 167,
+      "likes": 1,
+      "comments": 1
+    },
+    {
+      "title": "A cup of flour isn't a measurement. It's a guess with a lid ",
+      "views": 151,
+      "likes": 1,
+      "comments": 1
+    },
+    {
+      "title": "112,629 people rated this shower mat. 4.5 stars is hard to f",
+      "views": 126,
+      "likes": 1,
+      "comments": 1
+    },
+    {
+      "title": "Everyone tells you to buy more hangers. That's not why your ",
+      "views": 101,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "A towel's GSM number tells you more than how soft it feels f",
+      "views": 85,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Bad-tasting tap water usually gets blamed on old pipes. More",
+      "views": 57,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Everyone blames the mattress for a stiff neck by morning. Th",
+      "views": 54,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Stacking a second pillow doesn't fix a shoulder problem. It ",
+      "views": 33,
+      "likes": 0,
+      "comments": 1
+    }
+  ],
+  "comments_responded": 0,
+  "actions_taken": [
+    "New comment on video: \ud83d\udccc SHOP ALL PRODUCTS \u2014 Amazon links:<br><br>\u2460 Etekc",
+    "Updated BUSINESS_BRAIN.md metrics"
+  ]
+}
