@@ -13,18 +13,6 @@
       "days_tracked": 3
     },
     {
-      "asin": "B08XVP48KQ",
-      "title": "upsimples 8x10 Picture Frames",
-      "rating": 4.6,
-      "reviews": 72603,
-      "was": 17.99,
-      "now": 13.99,
-      "pct": 22.2,
-      "observed_from": "2026-08-16",
-      "observed_to": "2026-09-03",
-      "days_tracked": 2
-    },
-    {
       "asin": "B0113UZJE2",
       "title": "Etekcity Food Kitchen Scale",
       "rating": 4.6,
@@ -35,30 +23,6 @@
       "observed_from": "2026-09-01",
       "observed_to": "2026-09-11",
       "days_tracked": 9
-    },
-    {
-      "asin": "B0B56CHMSC",
-      "title": "Lifewit Medium Lunch Bag",
-      "rating": 4.5,
-      "reviews": 62611,
-      "was": 9.99,
-      "now": 7.99,
-      "pct": 20.0,
-      "observed_from": "2026-09-01",
-      "observed_to": "2026-09-02",
-      "days_tracked": 7
-    },
-    {
-      "asin": "B01CS31R94",
-      "title": "NICETOWN Black Blackout Curtains for Bedroom 42\" Wide x 63\" Long 2 Pan",
-      "rating": 4.6,
-      "reviews": 133040,
-      "was": 11.48,
-      "now": 9.47,
-      "pct": 17.5,
-      "observed_from": "2026-08-28",
-      "observed_to": "2026-09-03",
-      "days_tracked": 7
     },
     {
       "asin": "B0CJF94M8J",
@@ -109,5 +73,5 @@
       "days_tracked": 2
     }
   ],
-  "tracked_asins": 61
+  "tracked_asins": 63
 }

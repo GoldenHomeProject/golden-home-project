@@ -1945,3 +1945,19 @@ Call log:
 [hub-nav] 12 file(s) updated
 [sitemap] 68 urls (15 excluded as non-canonical)
 [sitemap] wrote /home/ianmcwherter/golden-home-project/sitemap.xml
+[blog-writer] Starting 2026-09-15
+[blog-writer] keyword queue empty/exhausted — falling back to trend feed
+[blog-writer] SKIPPING COVER-cluster topic until 2026-06-05: couch/sofa covers mamma mia waterproof stretch sofa cover   
+[blog-writer] SKIPPING near-duplicate of existing post: closet organization velvet hanger set + stackable closet storage bins   
+[blog-writer] SKIPPING near-duplicate of existing post: laundry room organization floating wall shelf + labeled storage bin set   
+[blog-writer] SKIPPING near-duplicate of existing post: kitchen drawer organization syruvia divided kitchen utensil & gadget organizer  
+[blog-writer] Topic: blush pink shower curtain, bath mat, and hand towel bundle
+[blog-writer] ✓ 2026-09-15-38-dollar-blush-bathroom-refresh.html + markdown + index regenerated
+[drops] 94 ASINs in history, 63 seen on 2+ days, 6 dropped >=3.0%
+   - 23.1%  $  12.99 -> $   9.99  Hicober Microfiber Hair Towel Wrap for Women  (2026-08-31->2026-09-09)
+   - 21.4%  $  13.99 -> $  10.99  Etekcity Food Kitchen Scale  (2026-09-01->2026-09-11)
+   - 11.1%  $   8.99 -> $   7.99  TrendPlain 16oz/470ml Glass Olive Oil Sprayer for Co  (2026-08-20->2026-09-11)
+   - 10.9%  $   8.97 -> $   7.99  Affresh Dishwasher Cleaner  (2026-08-19->2026-09-06)
+   - 10.0%  $   9.99 -> $   8.99  EUDELE Mesh Shower Caddy Portable for College Dorm R  (2026-08-18->2026-08-26_dorm)
+   -  5.6%  $   8.99 -> $   8.49  Ultra Soft Pillow Protectors with Zipper  (2026-08-30->2026-09-07)
+[drops] wrote /home/ianmcwherter/golden-home-project/social/price_drops.json
