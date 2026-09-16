@@ -3583,3 +3583,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** automation/scripts/reel-2026-09-16-*.json, social/post_queue.json
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: proof: 133,371 reviews on one blackout curtain. That's no
+
+## 2026-09-16T12:19:16Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B0B56CHMSC (Lifewit Medium Lunch Bag)
+**Changed:** social/carousels/2026-09-16-B0B56CHMSC/slide-1.png, social/carousels/2026-09-16-B0B56CHMSC/slide-2.png, social/carousels/2026-09-16-B0B56CHMSC/slide-3.png, social/carousels/2026-09-16-B0B56CHMSC/slide-4.png, social/carousels/2026-09-16-B0B56CHMSC/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B0B56CHMSC carousel.
