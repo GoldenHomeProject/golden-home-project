@@ -2462,6 +2462,52 @@
           }
         ]
       }
+    ],
+    "BEDROOM": [
+      {
+        "hook_category": "proof",
+        "hook": "133,371 people rated these blackout curtains. Here's what that number means.",
+        "beat1": "A review count that size doesn't happen by accident. These are 42\" wide by 63\" long panels, sold in a pack of two, built to block outside light from a bedroom window. That length fits smaller or standard windows without extra hemming or trimming.",
+        "turn": "Blackout curtains only have one job: keep light out and keep the room dark enough to sleep, nap, or watch a movie without glare. At 4.6 stars across 133,371 reviews, the volume itself is the signal \u2014 a product this cheap doesn't get reviewed this many times unless most buyers got what they paid for.",
+        "result": "For a $9.98 bedroom window that lets too much light in, this is a low-cost way to test whether blackout curtains fix it before spending more.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close-up on a bedroom window with bright morning light streaming through thin curtains, then hard cut to the same window covered by thick black fabric",
+            "on_screen_text": "133,371 REVIEWS",
+            "voiceover": "One hundred thirty-three thousand people rated these curtains."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Overhead flat-lay of two folded black curtain panels with a tape measure showing 42 inches across",
+            "on_screen_text": "42\" x 63\" \u2014 2 PANELS",
+            "voiceover": "Two panels, 42 inches wide, 63 inches long \u2014 sized for a standard bedroom window."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Hand pulling the black curtain fully across the window, room going noticeably darker on camera",
+            "on_screen_text": "BLOCKS OUTSIDE LIGHT",
+            "voiceover": "Blackout fabric, one job: stop light from getting into the room."
+          },
+          {
+            "n": 4,
+            "duration_sec": 5,
+            "visual_prompt": "Star rating graphic overlay animating up to 4.6 stars over footage of the darkened bedroom",
+            "on_screen_text": "4.6 STARS",
+            "voiceover": "At 4.6 stars over that many reviews, the numbers do most of the talking."
+          },
+          {
+            "n": 5,
+            "duration_sec": 4,
+            "visual_prompt": "Product shot of the folded curtains with a price tag graphic reading $9.98 in the corner",
+            "on_screen_text": "$9.98",
+            "voiceover": "Nine ninety-eight for two panels \u2014 a cheap way to find out if this fixes your window."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
