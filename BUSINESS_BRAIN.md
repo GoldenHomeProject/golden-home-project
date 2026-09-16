@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-09-15 (Affiliate Optimizer 10am)
+# Last updated: 2026-09-16 (Email Monitor 8am)
 # ============================================================
 
 ---
@@ -481,7 +481,7 @@ New agent spec: `automation/agents/ai_revenue_playbook.md` (COSTAR prompt framew
 | Impact | AARP | $35+ CPA | Skipped | Off-niche (senior membership org) — not home content |
 | Impact | Dreame | 5%+ | Reply drafted 2026-04-03 | Robot vacuums/mops — ON-NICHE, Easter Sale 60% off thru Apr 12, HIGH-AOV ($200-800) |
 | Direct | Roborock | ~3-5% | **Outreach sent 2026-09-12** | Robot vacuums — ON-NICHE (renter-safe, no installation). S-series $200-800 AOV. Pitched affiliate@roborock.com (msg 1a095f8c832dfc47) — fall transformation angle "I haven't vacuumed manually in 3 months." Alternative to stalled Dreame + bounced eufy. Follow-up due 2026-09-19. |
-| Impact | Promeed | 12% | **ACTIVE 2026-08-25** | Silk pillowcases/CoolRest comforter — ON-NICHE (bedroom). 30-day cookie. Audience promo IAN2026F3 (15% off). Sample code SAMPLE-IAN-COOL3-2026 (60% off CoolRest). Tracking live on Impact. |
+| Impact | Promeed | 12% | **ACTIVE 2026-08-25** | Silk pillowcases/CoolRest comforter — ON-NICHE (bedroom). 30-day cookie. Audience promo IAN2026F3 (15% off). Sample code SAMPLE-IAN-COOL3-2026 (60% off CoolRest). Tracking live on Impact. **NEW 2026-09-16:** Promeed offered free 23-momme silk pillowcase for on-camera brand comparison content — accepted via reply (msg 1a0aa28191af8479). Awaiting sample shipment. Content angle: store-brand cotton vs. Promeed 23-momme comparison fits fall moody bedroom arc. |
 | Awin | Oedro (US) | TBD | Skipped | Off-niche (car parts — floor mats, tonneau covers) |
 | Impact | Homary | TBD | Outreach drafted 2026-04-02 | Home furniture — ON-NICHE (drafted by web agent) |
 | Impact | eufy | TBD | Outreach sent 2026-08-19, follow-up sent 2026-09-02 — **BOUNCED** | Robot vacuums/smart home — ON-NICHE, fits "before transformation" content angle. affiliates@eufylife.com bounced 2026-09-02. Find correct contact via Impact dashboard or eufy website. |
