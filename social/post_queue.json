@@ -7045,5 +7045,29 @@
     },
     "hook": "A cup of flour isn't a measurement. It's a guess with a lid on it.",
     "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-15-003.mp4"
+  },
+  {
+    "name": "reel_2026-09-16_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-16-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "133,371 reviews on one blackout curtain. That's not a coincidence.\n\nMost curtains on Amazon top out at a few hundred reviews. This one has over 133,000, at a 4.6-star average, in the 42-inch by 63-inch size. That kind of volume usually means people are still buying it years after the first review went up.\n\nThese are blackout panels sized for a standard bedroom window, sold as a 2-panel set. A 4.6 rating held across 133,371 reviews suggests the room-darkening claim holds up for most buyers, not just the first few hundred.\n\nIf your window still lets in streetlight or early sun, a tested pair at $9.98 is a low-risk swap to make before buying anything pricier.\n\nComment CURTAINS and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "NICETOWN Black Blackout Curtains for Bedroom 42\" Wide x 63\" Long 2 Pan",
+      "dm_keyword": "CURTAINS",
+      "amazon_asin": "B01CS31R94",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01CS31R94?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "133,371 reviews on one blackout curtain. That's not a coincidence."
   }
 ]
