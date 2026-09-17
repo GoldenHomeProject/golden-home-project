@@ -1,0 +1,40 @@
+{
+  "captured_at": "2026-09-17",
+  "category": "Cleaning",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-cleaning-supplies.html",
+  "picks": [
+    {
+      "asin": "B000ST1DZO",
+      "name": "Drano Max Gel Drain Clog Remover & Cleaner",
+      "price": "$5.17",
+      "rating": 4.5,
+      "reviews": 76544,
+      "rank": 16
+    },
+    {
+      "asin": "B00SXC85IQ",
+      "name": "Affresh Dishwasher Cleaner",
+      "price": "$8.98",
+      "rating": 4.6,
+      "reviews": 80975,
+      "rank": 22
+    },
+    {
+      "asin": "B07ZGHZVRY",
+      "name": "Clorox ToiletWand Toilet Cleaning Kit",
+      "price": "$21.42",
+      "rating": 4.7,
+      "reviews": 145101,
+      "rank": 23
+    },
+    {
+      "asin": "B00WSWGVZQ",
+      "name": "O-Cedar EasyWring Microfiber Spin Mop",
+      "price": "$34.99",
+      "rating": 4.6,
+      "reviews": 196123,
+      "rank": 37
+    }
+  ]
+}
