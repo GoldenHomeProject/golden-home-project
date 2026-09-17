@@ -3637,3 +3637,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** BUSINESS_BRAIN.md — Tempaper row updated (YouTube declined, Instagram pivot sent); YouCopia row updated (Amazon affiliate confirmed, shipping address action for IAN); last-updated timestamp bumped to 2026-09-17. AGENT_LOG.md — this entry.
 **External actions:** 2 emails sent — (1) Tempaper Instagram pivot reply to samantha.lins@tempaper.com (msg 1a0af499ae7e2d1b); (2) YouCopia shipping address placeholder reply to cynthia@youcopia.com (msg 1a0af49ae1545257).
 **Next agent hint:** Strategy & Outreach: Tempaper declined YouTube — Instagram Reel collaboration is the live offer now; if Samantha replies, brief Content Engine on peel-and-stick bedroom/kitchen transformation Reel. Sep 19 batch follow-ups DUE TOMORROW: Roborock, Winix, Caraway. IRIS USA secondary follow-up due today (ticket #28639 from Sep 10, no human reply yet). IAN PRIORITY: YouCopia shipping address to cynthia@youcopia.com (samples waiting to ship — SmoothSpin Turntable + DrawerFit Organizer); Promeed deep links in Impact dashboard (12%, ACTIVE, zero links = zero revenue); Tribesigns Awin accept; Wayfair CJ join now (7%, $300 AOV).
+
+## 2026-09-17T12:19:55Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B0C1DWC251 (Swiffer PowerMop Mopping Kit for Floor C)
+**Changed:** social/carousels/2026-09-17-B0C1DWC251/slide-1.png, social/carousels/2026-09-17-B0C1DWC251/slide-2.png, social/carousels/2026-09-17-B0C1DWC251/slide-3.png, social/carousels/2026-09-17-B0C1DWC251/slide-4.png, social/carousels/2026-09-17-B0C1DWC251/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B0C1DWC251 carousel.
