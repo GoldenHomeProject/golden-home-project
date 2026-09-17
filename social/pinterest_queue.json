@@ -4125,5 +4125,33 @@
     "posted": false,
     "source": "pinterest_pipeline",
     "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-09-17-B0DLN1B4MJ",
+    "asin": "B0DLN1B4MJ",
+    "board": "Home Organization Finds",
+    "title": "Pink Fringe Backdrop Curtains for Birthday Party Decorations (2 Pack)",
+    "description": "Two glitter pink foil fringe curtains measure 3.28 ft x 7.05 ft each and come as a 2-pack for $5.98. Amazon files these under birthday party decor - tinsel backdrop panels reviewers use for photo booths, gender reveals, and bachelorette walls, not closet or pantry organizing. Tap through to check current price and reviewer photos. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B0DLN1B4MJ?tag=ghppinterest0e-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-09-17-B0DLN1B4MJ.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-09-17-B0DLN1B4MJ.png",
+    "queued_at": "2026-09-17T10:10:23.884941Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-09-17-B00H7P1GPO",
+    "asin": "B00H7P1GPO",
+    "board": "Home Organization Finds",
+    "title": "Amazon Basics Foldable Portable Clothes Drying Rack for In\u2026: Home Organization",
+    "description": "Amazon Basics Foldable Portable Clothes Drying Rack for In\u2026 is the home organization upgrade I wish I'd found sooner. 4.7\u2605 from 71,819 reviews \u00b7 $31.49. Tap through for the full breakdown and where to get it. Amazon affiliate \u2014 I may earn a small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B00H7P1GPO?tag=ghppinterest0e-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-09-17-B00H7P1GPO.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-09-17-B00H7P1GPO.png",
+    "queued_at": "2026-09-17T10:10:55.271611Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
   }
 ]
