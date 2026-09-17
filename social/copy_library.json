@@ -2508,6 +2508,52 @@
           }
         ]
       }
+    ],
+    "WIDE": [
+      {
+        "hook_category": "proof",
+        "hook": "133,371 people rated these blackout curtains. That number is the review.",
+        "beat1": "Most products with over 100,000 reviews see their rating drift down as complaints pile up. These NICETOWN blackout curtains sit at 4.6 stars across 133,371 ratings, which means the average holds even at massive scale.",
+        "turn": "The 42\" wide by 63\" long panels come as a 2-pack in black, sized for a standard window without custom ordering. A 4.6-star average over 133,371 reviews means the experience is consistent, not a handful of lucky five-star posts.",
+        "result": "For $9.98, you get a documented track record instead of a guess on how a random blackout curtain performs.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close-up of a phone screen scrolling through a long list of product reviews, thumb swiping fast",
+            "on_screen_text": "133,371 REVIEWS",
+            "voiceover": "One hundred thirty-three thousand people rated this exact curtain."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Bedroom window with black curtain panels hanging, daylight visible at the edges before curtains are drawn",
+            "on_screen_text": "42\" x 63\" \u2014 2 PANELS",
+            "voiceover": "It's a two-panel set, forty-two inches wide, sixty-three inches long, in black."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Overlay graphic of a 4.6 star rating bar filling up next to the review count ticking upward",
+            "on_screen_text": "4.6 STARS",
+            "voiceover": "Most products lose stars as reviews pile up. This one didn't."
+          },
+          {
+            "n": 4,
+            "duration_sec": 5,
+            "visual_prompt": "Hand drawing the curtain panel fully closed across the window, room going noticeably darker",
+            "on_screen_text": "BLOCKS LIGHT",
+            "voiceover": "At this scale, a 4.6 average isn't luck \u2014 it's a pattern across six figures of buyers."
+          },
+          {
+            "n": 5,
+            "duration_sec": 4,
+            "visual_prompt": "Price tag graphic sliding in over the darkened bedroom shot, $9.98 in bold",
+            "on_screen_text": "$9.98",
+            "voiceover": "Nine ninety-eight for a rating that held up over 133,000 reviews."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
