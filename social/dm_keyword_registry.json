@@ -4169,6 +4169,38 @@
       "verified_stars": "4.5",
       "verified_reviews": 34070,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B00H7P1GPO",
+      "product_name": "Amazon Basics Foldable Portable Clothes Drying Rack for Indoor Air Drying, Collapsible Design, 14.5\" D x 29.5\" W x 41.8\"",
+      "categories": [
+        "home",
+        "Storage & Organization"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B00H7P1GPO?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-09-17",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$31.49",
+      "verified_stars": "4.7",
+      "verified_reviews": 71819,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0DLN1B4MJ",
+      "product_name": "2 Pack Glitter Pink Backdrop, 3.28 FT x 7.05 FT Birthday Party Decorations, Laser Pink Fringe Curtains Foil Streamer Tin",
+      "categories": [
+        "home",
+        "Home & Kitchen"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0DLN1B4MJ?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-09-17",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$5.98",
+      "verified_stars": "4.5",
+      "verified_reviews": 6234,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
