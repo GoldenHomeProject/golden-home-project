@@ -4,12 +4,12 @@
     "lifetime_follows": 25,
     "lifetime_likes": 33,
     "lifetime_comments": 7,
-    "last_session": "2026-09-17-1341-pi",
+    "last_session": "comments-2026-09-17T1408Z",
     "blocked_at": null,
-    "last_updated": "2026-09-17T13:42:15Z",
-    "total_actions": 602,
+    "last_updated": "2026-09-17T14:10:08Z",
+    "total_actions": 604,
     "lifetime_dms": 33,
-    "lifetime_comments_outbound": 54
+    "lifetime_comments_outbound": 56
   },
   "actions": [
     {
@@ -28765,6 +28765,24 @@
       "target": "carol8381921",
       "session": "2026-09-17-1341-pi",
       "reason": "no_state_change"
+    },
+    {
+      "timestamp": "2026-09-17T14:08:44Z",
+      "action": "comment_posted",
+      "target": "horderly",
+      "session": "comments-2026-09-17T1408Z",
+      "post_url": "https://www.instagram.com/horderly/p/Dc3-bjqlAH-/",
+      "text": "Great tip with the drawer dividers\u2014one thing I'd add is labeling both sides of clear bins since kids grab from either angle, saves so many \"where does this go\" moments.",
+      "caption_seen": ""
+    },
+    {
+      "timestamp": "2026-09-17T14:10:08Z",
+      "action": "comment_posted",
+      "target": "lifeinjeneral",
+      "session": "comments-2026-09-17T1408Z",
+      "post_url": "https://www.instagram.com/lifeinjeneral/p/DbuPtcqlEYr/",
+      "text": "I'll leave you the best pot for that closet, and that folded stack still slides when someone grabs the bottom towel\u2014do you tension-rod or use bins to keep it from toppling?",
+      "caption_seen": ""
     }
   ]
 }
