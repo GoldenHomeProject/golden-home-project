@@ -7070,5 +7070,29 @@
     "keyword": "LINK",
     "queued_at": "2026-09-16T12:19:16.832862Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_2026-09-17_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-17-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "133,371 people rated these blackout curtains. Here's what that number means.\n\nA review count that size doesn't happen by accident. These are 42\" wide by 63\" long panels, sold in a pack of two, built to block outside light from a bedroom window. That length fits smaller or standard windows without extra hemming or trimming.\n\nBlackout curtains only have one job: keep light out and keep the room dark enough to sleep, nap, or watch a movie without glare. At 4.6 stars across 133,371 reviews, the volume itself is the signal \u2014 a product this cheap doesn't get reviewed this many times unless most buyers got what they paid for.\n\nFor a $9.98 bedroom window that lets too much light in, this is a low-cost way to test whether blackout curtains fix it before spending more.\n\nComment BEDROOM and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "NICETOWN Black Blackout Curtains for Bedroom 42\" Wide x 63\" Long 2 Pan",
+      "dm_keyword": "BEDROOM",
+      "amazon_asin": "B01CS31R94",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01CS31R94?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "133,371 people rated these blackout curtains. Here's what that number means."
   }
 ]
