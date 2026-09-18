@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-09-18 (Strategy & Outreach 9am)
+# Last updated: 2026-09-18 (Affiliate Optimizer 10am)
 # ============================================================
 
 ---
@@ -809,6 +809,18 @@ Agent configs live in `/private/tmp/golden-home-project/automation/agents/`.
 - [ ] **Ruggable follow-up (2026-09-22)** — Follow-up sent 2026-09-15 (msg 1a0a52e9d6186fa6) to affiliates@ruggable.com — 14 days since Sep 1 original pitch, fall cozy room reset angle. If still no reply by Sep 22, try ruggable.com contact form or search LinkedIn for partnerships contact. High-AOV ($99-299), renter-safe = perfect for fall content.
 - [ ] **Tempaper marketing team contact — expected by Sep 15-19** — Alyssa Haley Sep 14 reply: "marketing team will be in touch by end of this week." If no contact by Sep 19, Strategy & Outreach should send a final follow-up with a specific content proposal. IAN: apply via Awin publisher portal NOW (don't wait for marketing reply) to activate tracking links immediately.
 - [ ] **Seville Classics final follow-up (2026-09-22)** — Follow-up sent Sep 15 (msg 1a0a52e80ba1f2bc). If no reply by Sep 22, join FlexOffers affiliate program directly (search "Seville Classics" on flexoffers.com) for tracking links without direct brand reply.
+
+- [ ] **🚨 IAN URGENT (Sep 18): Join eufy on Impact publisher dashboard** — eufy fall sale active Sep 18–Oct 11 (up to 50.17% off selected products). We are already on eufy's Impact email list. Join the eufy Impact program NOW for immediate tracking links before the Oct 11 window closes. Strategy & Outreach sent influencer@eufylife.com today (msg 1a0b4a1c36aa3d7f) — that's a separate channel; joining via Impact is independent and FASTER. Content hook: "133,000 people rated this robot vacuum. Here's what your floor looks like before it runs — and 23 days after." Tie to fall home reset arc. (Affiliate Optimizer 2026-09-18)
+
+- [ ] **🚨 IAN: Join Wayfair on CJ publisher portal NOW** — 7% sitewide, $300 AOV (~$21/sale). Outreach sent Sep 16 to affiliates@wayfair.com but CJ publisher portal join is INDEPENDENT and available today. Search "Wayfair" in CJ advertiser marketplace and join directly — tracking links available immediately without waiting for outreach reply. This also generates CJ commission = DIRECT Oct 1 deactivation defense. (Affiliate Optimizer 2026-09-18)
+
+- [ ] **🚨 IAN: Reapply to Amazon Associates IMMEDIATELY** — Account (goldenhomep06-20) CLOSED 2026-09-18. ALL blog posts, YouTube videos, and links reference a dead tag earning $0. Reapply at affiliate-program.amazon.com — requires driving 3 qualifying purchases within 180 days of new application. Priority: (1) reapply, (2) then send YouCopia shipping address to cynthia@youcopia.com (samples waiting). Note: Amazon bounties (Audible $20, Prime $12, Subscribe & Save $0.25) are also blocked until reapplication approved. (Email Monitor 2026-09-18, Affiliate Optimizer 2026-09-18)
+
+- [ ] **Joseph Joseph — Awin direct apply NOW (deadline was Sep 18)** — Follow-up sent Sep 11 (msg 1a090947a915b7b1). Sep 18 is the fallback deadline set in BUSINESS_BRAIN.md. No charlie.chung reply. IAN: apply directly via Awin publisher portal — search "Joseph Joseph" or merchant ID 30663. 5% commission, kitchen/bathroom organizers, 36 active sponsored creators = high approval probability. ON-NICHE. (Strategy 2026-09-11, Affiliate Optimizer 2026-09-18)
+
+- [ ] **Under-shelf wire basket content — brief Content Engine THIS WEEK** — 110M+ TikTok views, under-shelf clip-on baskets, $18-35, renter-safe, zero tools. AliExpress CJ 9% = direct CJ deactivation defense (13 days to Oct 1). This is the SINGLE highest-urgency content slot intersecting trending product + active commission platform + deactivation timer. Hook: "If you rent and can't drill, most 'shelf' advice is useless. This is the one that isn't. $18." Content Engine: use AliExpress CJ tracking link (CID 7711902, 9% interior). Do NOT use goldenhomep06-20 — CLOSED. (Affiliate Optimizer 2026-09-18)
+
+- [ ] **Dreame and BISSELL re-check on Impact (5+ months stale)** — Both pitched in April 2026 (Dreame Easter Sale + BISSELL). Zero follow-up since. Log into Impact publisher dashboard and check current partnership status for both — may be pre-approved with tracking links available. Robot vacuums ($200-800) + home cleaning = our highest-AOV uncovered active categories. (Affiliate Optimizer 2026-09-18 — carried forward from Sep 7 note)
 
 ---
 *This file is automatically updated by agents. Human review recommended weekly.*
