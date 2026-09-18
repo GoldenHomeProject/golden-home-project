@@ -14,7 +14,7 @@
 
 ## DM keyword
 `LINK` → Simple Houseware 2-Tier Sliding Basket Organizer (B01M0TS64K)
-Affiliate URL: `https://www.amazon.com/dp/B01M0TS64K?tag=goldenhomep0a-20`
+Affiliate URL: `https://www.amazon.com/dp/B01M0TS64K?tag=goldenhomep06-20`
 
 ## Pipeline (manual, free-only)
 

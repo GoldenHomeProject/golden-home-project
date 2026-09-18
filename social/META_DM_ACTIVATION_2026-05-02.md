@@ -13,14 +13,14 @@ All 8 use the same template. Copy the auto-reply text below per-keyword.
 
 | Keyword | ASIN (verified alive 2026-05-02) | Affiliate URL to send |
 |---|---|---|
-| COVER | B0B4SPP3ZN | https://www.amazon.com/dp/B0B4SPP3ZN?tag=goldenhomep0a-20 |
-| KETTLE | B08PP48979 | https://www.amazon.com/dp/B08PP48979?tag=goldenhomep0a-20 |
-| NIGHTLIGHT | B09CSS6YL4 (was B08RRRX5P5 — Amazon redirected) | https://www.amazon.com/dp/B09CSS6YL4?tag=goldenhomep0a-20 |
-| SPONGE | B07ZL2BFMP | https://www.amazon.com/dp/B07ZL2BFMP?tag=goldenhomep0a-20 |
-| STRIP | B099S9DXT7 | https://www.amazon.com/dp/B099S9DXT7?tag=goldenhomep0a-20 |
-| VACUUM | B099NTSWD9 | https://www.amazon.com/dp/B099NTSWD9?tag=goldenhomep0a-20 |
-| PASTE | B00DU5SRIY | https://www.amazon.com/dp/B00DU5SRIY?tag=goldenhomep0a-20 |
-| ROLLER | B00BAGTNAQ | https://www.amazon.com/dp/B00BAGTNAQ?tag=goldenhomep0a-20 |
+| COVER | B0B4SPP3ZN | https://www.amazon.com/dp/B0B4SPP3ZN?tag=goldenhomep06-20 |
+| KETTLE | B08PP48979 | https://www.amazon.com/dp/B08PP48979?tag=goldenhomep06-20 |
+| NIGHTLIGHT | B09CSS6YL4 (was B08RRRX5P5 — Amazon redirected) | https://www.amazon.com/dp/B09CSS6YL4?tag=goldenhomep06-20 |
+| SPONGE | B07ZL2BFMP | https://www.amazon.com/dp/B07ZL2BFMP?tag=goldenhomep06-20 |
+| STRIP | B099S9DXT7 | https://www.amazon.com/dp/B099S9DXT7?tag=goldenhomep06-20 |
+| VACUUM | B099NTSWD9 | https://www.amazon.com/dp/B099NTSWD9?tag=goldenhomep06-20 |
+| PASTE | B00DU5SRIY | https://www.amazon.com/dp/B00DU5SRIY?tag=goldenhomep06-20 |
+| ROLLER | B00BAGTNAQ | https://www.amazon.com/dp/B00BAGTNAQ?tag=goldenhomep06-20 |
 
 ## Step 3 — DM template (paste verbatim per keyword, swap [LINK])
 ```
