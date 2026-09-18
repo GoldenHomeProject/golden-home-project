@@ -3674,8 +3674,8 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **External actions:** Pexels (backgrounds) + Claude CLI (pin copy)
 **Next agent hint:** post_pinterest.py (Pi) drains pinterest_queue.json once a Pinterest business account is logged into the Pi Chromium profile.
 
-## 2026-09-18T12:00:13Z — Carousel Generator
-**Ran:** Generated 5-slide carousel for B09SYYRBVP (kelamayi Upgrade Broom and Dustpan Set)
-**Changed:** social/carousels/2026-09-18-B09SYYRBVP/slide-1.png, social/carousels/2026-09-18-B09SYYRBVP/slide-2.png, social/carousels/2026-09-18-B09SYYRBVP/slide-3.png, social/carousels/2026-09-18-B09SYYRBVP/slide-4.png, social/carousels/2026-09-18-B09SYYRBVP/slide-5.png, social/post_queue.json
-**External actions:** Pexels (4 photos) + Claude CLI (slide content)
-**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B09SYYRBVP carousel.
+## 2026-09-18T12:01:55Z — Reel Producer
+**Ran:** Rendered 1/1 MP4s for 2026-09-18
+**Changed:** social/reels/reel-2026-09-18-*.mp4, social/post_queue.json
+**External actions:** none
+**Next agent hint:** IG Poster has 1 new Reels ready for 14:00 + 22:00 UTC slots
