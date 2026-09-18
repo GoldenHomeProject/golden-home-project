@@ -4,11 +4,11 @@
     "lifetime_follows": 25,
     "lifetime_likes": 33,
     "lifetime_comments": 7,
-    "last_session": "2026-09-18-1344-pi",
+    "last_session": "outreach-2026-09-18T1803Z",
     "blocked_at": null,
-    "last_updated": "2026-09-18T13:45:09Z",
-    "total_actions": 606,
-    "lifetime_dms": 33,
+    "last_updated": "2026-09-18T18:04:47Z",
+    "total_actions": 607,
+    "lifetime_dms": 34,
     "lifetime_comments_outbound": 56
   },
   "actions": [
@@ -29053,6 +29053,15 @@
       ],
       "untapped_warm": [],
       "dry_run": false
+    },
+    {
+      "timestamp": "2026-09-18T18:04:47Z",
+      "action": "dm_sent",
+      "target": "simplyspaced",
+      "session": "outreach-2026-09-18T1803Z",
+      "body_chars": 774,
+      "thread_url": "https://www.instagram.com/simplyspaced/",
+      "template_tag": "path_c_v2_affiliate_split"
     }
   ]
 }
