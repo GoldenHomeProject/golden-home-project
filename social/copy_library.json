@@ -2554,6 +2554,52 @@
           }
         ]
       }
+    ],
+    "LONG": [
+      {
+        "hook_category": "proof",
+        "hook": "133,371 people rated these blackout curtains before you even looked at them.",
+        "beat1": "A window with weak curtains lets in every streetlight and sunrise. These are 42 inches wide by 63 inches long, sold as a 2-panel set in black, built specifically to block that light out.",
+        "turn": "The product blocks outside light by design, and a 4.6-star average across 133,371 reviews is not a number small batches of buyers produce \u2014 it reflects a huge, sustained customer base rating the same result consistently.",
+        "result": "For a bedroom window that size, you get a rated blackout solution most people are satisfied with, at $9.98.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close-up of a bedroom window with thin curtains letting in bright morning light",
+            "on_screen_text": "133,371 RATINGS",
+            "voiceover": "Over one hundred thirty three thousand people have rated these curtains."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Hand pulling closed a pair of black blackout curtain panels across a window",
+            "on_screen_text": "42\" X 63\" 2-PANEL",
+            "voiceover": "NICETOWN's black blackout curtains come as a two-panel set, 42 inches wide, 63 inches long."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Split screen: room in daylight glare on one side, same room darkened with curtains closed on the other",
+            "on_screen_text": "BLOCKS LIGHT",
+            "voiceover": "They're made to block outside light from a bedroom window."
+          },
+          {
+            "n": 4,
+            "duration_sec": 5,
+            "visual_prompt": "Star rating graphic overlay, 4.6 out of 5, animating in over the curtain shot",
+            "on_screen_text": "4.6 STARS",
+            "voiceover": "A 4.6-star average across that many reviews isn't a fluke \u2014 it's a pattern across a huge number of buyers."
+          },
+          {
+            "n": 5,
+            "duration_sec": 4,
+            "visual_prompt": "Final shot of the closed black curtains with a price tag graphic appearing",
+            "on_screen_text": "$9.98",
+            "voiceover": "These blackout curtains are $9.98."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
