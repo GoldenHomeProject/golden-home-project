@@ -97,7 +97,10 @@ CATEGORY_TERMS: dict[str, tuple[str, ...]] = {
         "ornament", "stocking", "garland", "wreath", "tinsel", "advent",
         "nativity", "tree skirt", "tree topper", "string lights", "fairy lights",
         "thanksgiving", "harvest", "autumn", "fall decor", "festive",
-        "nutcracker", "snow globe", "icicle", "decoration", "decor",
+        "nutcracker", "snow globe", "icicle",
+        # NOT bare "decor"/"decoration": they belong to Home Décor, and "decor"
+        # matched the brand name "Yarra-Decor" on a bedside lamp. The holiday nouns
+        # above already catch "Halloween Decorations" via "halloween".
     ),
 }
 
@@ -122,6 +125,24 @@ def _norm(title: str) -> str:
     return re.sub(r"[^a-z0-9 ]+", " ", str(title or "").lower())
 
 
+def _term_in(term: str, normalised_title: str) -> bool:
+    """Whole-word match, not substring.
+
+    Substring matching put a BATHROOM SCALE, a BATHTUB mat and WASHCLOTHS on the
+    Halloween list, because the Seasonal Décor term "bat" occurs inside "bathroom"
+    and "bathtub". "decor" likewise matched the BRAND name "Yarra-Decor" on a bedside
+    lamp. Multi-word terms ("string lights", "bath mat") still match as a phrase, but
+    both ends are anchored to word boundaries.
+    """
+    t = _norm(term).strip()
+    if not t:
+        return False
+    # Allow a trailing plural: "towel" must match "towels", "hanger" must match
+    # "hangers". The boundary still holds, so "bat" does NOT match "bathroom" — after
+    # "bat" the optional plural matches empty and the lookahead then sees "h".
+    return re.search(rf"(?<![a-z0-9]){re.escape(t)}(?:e?s)?(?![a-z0-9])",
+                     normalised_title) is not None
+
 def in_category(title: str, cat_label: str) -> bool:
     """True if `title` genuinely reads as a product in `cat_label`.
 
@@ -133,9 +154,9 @@ def in_category(title: str, cat_label: str) -> bool:
         return True
     t = _norm(title)
     for bad in CATEGORY_EXCLUDE.get(cat_label, ()):
-        if _norm(bad) in t:
+        if _term_in(bad, t):
             return False
-    return any(_norm(term) in t for term in terms)
+    return any(_term_in(term, t) for term in terms)
 
 
 def filter_in_category(picks: list, cat_label: str, name_key: str = "name") -> list:
