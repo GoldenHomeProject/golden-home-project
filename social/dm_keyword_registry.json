@@ -4213,6 +4213,23 @@
       "verified_stars": "4.5",
       "verified_reviews": 6234,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0DJ2YHVFH",
+      "product_name": "Toothbrush Holders for Bathroom Counter Organizer and Storage (White)",
+      "categories": [
+        "dorm",
+        "college",
+        "organization"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0DJ2YHVFH?tag=goldenhomep06-20",
+      "status": "live",
+      "verified_at": "2026-09-18",
+      "verified_method": "source_dorm/search+dp",
+      "verified_price": "$9.99",
+      "verified_stars": "4.7",
+      "verified_reviews": 1284,
+      "discovery_source": "back_to_college_2026"
     }
   ]
 }
