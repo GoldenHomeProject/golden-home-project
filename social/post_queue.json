@@ -7079,5 +7079,29 @@
     },
     "hook": "133,371 people rated these blackout curtains. Here's what that number means.",
     "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-17-001.mp4"
+  },
+  {
+    "name": "reel_2026-09-18_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-18-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "133,371 people rated these blackout curtains. That number is the review.\n\nMost products with over 100,000 reviews see their rating drift down as complaints pile up. These NICETOWN blackout curtains sit at 4.6 stars across 133,371 ratings, which means the average holds even at massive scale.\n\nThe 42\" wide by 63\" long panels come as a 2-pack in black, sized for a standard window without custom ordering. A 4.6-star average over 133,371 reviews means the experience is consistent, not a handful of lucky five-star posts.\n\nFor $9.98, you get a documented track record instead of a guess on how a random blackout curtain performs.\n\nComment WIDE and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "NICETOWN Black Blackout Curtains for Bedroom 42\" Wide x 63\" Long 2 Pan",
+      "dm_keyword": "WIDE",
+      "amazon_asin": "B01CS31R94",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01CS31R94?tag=goldenhomep06-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "133,371 people rated these blackout curtains. That number is the review."
   }
 ]

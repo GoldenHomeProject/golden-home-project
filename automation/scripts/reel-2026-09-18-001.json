@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-18T10:12:38.120160Z",
+  "date": "2026-09-18",
+  "seq": 1,
+  "hook_category": "proof",
+  "hook": "133,371 people rated these blackout curtains. That number is the review.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of a phone screen scrolling through a long list of product reviews, thumb swiping fast",
+      "on_screen_text": "133,371 REVIEWS",
+      "voiceover": "One hundred thirty-three thousand people rated this exact curtain."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Bedroom window with black curtain panels hanging, daylight visible at the edges before curtains are drawn",
+      "on_screen_text": "42\" x 63\" \u2014 2 PANELS",
+      "voiceover": "It's a two-panel set, forty-two inches wide, sixty-three inches long, in black."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Overlay graphic of a 4.6 star rating bar filling up next to the review count ticking upward",
+      "on_screen_text": "4.6 STARS",
+      "voiceover": "Most products lose stars as reviews pile up. This one didn't."
+    },
+    {
+      "n": 4,
+      "duration_sec": 5,
+      "visual_prompt": "Hand drawing the curtain panel fully closed across the window, room going noticeably darker",
+      "on_screen_text": "BLOCKS LIGHT",
+      "voiceover": "At this scale, a 4.6 average isn't luck \u2014 it's a pattern across six figures of buyers."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Price tag graphic sliding in over the darkened bedroom shot, $9.98 in bold",
+      "on_screen_text": "$9.98",
+      "voiceover": "Nine ninety-eight for a rating that held up over 133,000 reviews."
+    }
+  ],
+  "caption": "133,371 people rated these blackout curtains. That number is the review.\n\nMost products with over 100,000 reviews see their rating drift down as complaints pile up. These NICETOWN blackout curtains sit at 4.6 stars across 133,371 ratings, which means the average holds even at massive scale.\n\nThe 42\" wide by 63\" long panels come as a 2-pack in black, sized for a standard window without custom ordering. A 4.6-star average over 133,371 reviews means the experience is consistent, not a handful of lucky five-star posts.\n\nFor $9.98, you get a documented track record instead of a guess on how a random blackout curtain performs.\n\nComment WIDE and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "The 42\" wide by 63\" long panels come as a 2-pack in black, sized for a standard window without custom ordering. A 4.6-star average over 133,371 reviews means the experience is consistent, not a handfu",
+  "affiliate_strategy": {
+    "primary_product": "NICETOWN Black Blackout Curtains for Bedroom 42\" Wide x 63\" Long 2 Pan",
+    "dm_keyword": "WIDE",
+    "amazon_asin": "B01CS31R94",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B01CS31R94?tag=goldenhomep06-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": null
+  }
+}
