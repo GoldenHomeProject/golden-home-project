@@ -28,7 +28,8 @@ import time
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-import trending_daily as td  # noqa: E402
+import trending_daily as td
+from category_identity import off_niche_hit, in_category  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 REG = ROOT / "social" / "dm_keyword_registry.json"
@@ -37,14 +38,24 @@ TAG = "goldenhomep0a-20"
 # Node IDs read off Amazon's own Best Sellers nav. Deliberately wider than the hub
 # rotation so the catalogue keeps growing after the hub categories are exhausted.
 NODES = [
-    ("Storage & Organization", "home", "https://www.amazon.com/gp/bestsellers/home-garden/3610841/"),
-    ("Kitchen & Dining",       "kitchen", "https://www.amazon.com/gp/bestsellers/home-garden/284507/"),
-    ("Bath",                   "home", "https://www.amazon.com/gp/bestsellers/home-garden/1063236/"),
-    ("Cleaning Supplies",      "home", "https://www.amazon.com/gp/bestsellers/home-garden/10802561/"),
-    ("Home Décor",             "home", "https://www.amazon.com/gp/bestsellers/home-garden/1063278/"),
-    ("Furniture",              "home", "https://www.amazon.com/gp/bestsellers/home-garden/1063306/"),
-    ("Home & Kitchen",         "home", "https://www.amazon.com/gp/bestsellers/home-garden/"),
-    ("Kitchen Storage",        "kitchen", "https://www.amazon.com/gp/bestsellers/kitchen/"),
+    # Node IDs verified 2026-09-13/15 by reading Amazon's own best-seller nav and
+    # breadcrumbs, then scraping each one and LOOKING at what came back. Two traps
+    # found that way: 1063296 is TABLE LAMPS (it fed six lamps to a blackout-curtains
+    # page) and 14087331 is ARTIFICIAL FLOWERS, not Seasonal Decor.
+    ("Home Storage",      "home",    "https://www.amazon.com/gp/bestsellers/home-garden/2422430011/"),
+    ("Bath Linens",       "home",    "https://www.amazon.com/gp/bestsellers/home-garden/1063244/"),
+    ("Bedding",           "home",    "https://www.amazon.com/gp/bestsellers/home-garden/1063252/"),
+    ("Window Treatments", "home",    "https://www.amazon.com/gp/bestsellers/home-garden/1063302/"),
+    # Rotates its own inventory with the calendar: Halloween now, Christmas by November.
+    ("Seasonal Décor",    "home",    "https://www.amazon.com/gp/bestsellers/home-garden/13679381/"),
+    ("Home",              "home",    "https://www.amazon.com/gp/bestsellers/home-garden/3610841/"),
+    ("Bath",              "home",    "https://www.amazon.com/gp/bestsellers/home-garden/1063236/"),
+    ("Cleaning",          "home",    "https://www.amazon.com/gp/bestsellers/home-garden/10802561/"),
+    ("Home Décor",        "home",    "https://www.amazon.com/gp/bestsellers/home-garden/1063278/"),
+    ("Kitchen",           "kitchen", "https://www.amazon.com/gp/bestsellers/kitchen/"),
+    # The bare home-garden ROOT and the Furniture chart were removed 2026-09-18. The
+    # root is all of Home & Kitchen — it is where the ant killer, the handheld fans and
+    # the drinkware came from — and Furniture is almost entirely over our $35 ceiling.
 ]
 
 
@@ -71,10 +82,28 @@ def main() -> int:
     print(f"[harvest] {len(qualified)} passed the ${int(td.MIN_PRICE)}-${int(td.MAX_PRICE)} / "
           f"{td.MIN_RATING}star / {td.MIN_REVIEWS}+review bar")
 
+
+    # Harvest had NO niche filter at all, so it fed the pool whatever the charts
+    # returned: K-Cup coffee pods, a kids' classroom timer, an iced-coffee neoprene
+    # sleeve. Those then sat in the vetted pool consuming pin slots on a
+    # home-organization account. The same off_niche list the generator and the poster
+    # use is applied here, at the point of INGEST, which is the cheapest place to stop
+    # it. Category identity is checked too: a product harvested under "Bath Linens"
+    # has to actually read like bath linen.
     added = []
+    skipped = {"off_niche": 0, "wrong_category": 0}
     for p in qualified:
         asin = p.get("asin")
         if not asin or asin in have:
+            continue
+        title = p.get("title") or ""
+        hit = off_niche_hit(title)
+        if hit:
+            skipped["off_niche"] += 1
+            continue
+        label = p.get("cat_label") or ""
+        if label and not in_category(title, label):
+            skipped["wrong_category"] += 1
             continue
         entry = {
             "asin": asin,
@@ -92,6 +121,9 @@ def main() -> int:
         reg.setdefault("vetted", []).append(entry)
         have.add(asin)
         added.append(entry)
+    if skipped["off_niche"] or skipped["wrong_category"]:
+        print(f"[harvest] refused {skipped['off_niche']} off-niche and "
+              f"{skipped['wrong_category']} wrong-category product(s) at ingest")
 
     print(f"[harvest] {len(added)} NEW product(s); catalogue {before} -> {len(have)}")
     for e in added[:10]:
