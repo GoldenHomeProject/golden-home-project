@@ -35,13 +35,16 @@ ROOT = Path(__file__).resolve().parent.parent
 
 # Every tag that is now dead. goldenhomep0a-20 was the main store ID; the *0e-20 four
 # were the per-channel attribution IDs that died with the account.
-DEAD_TAGS = (
-    "goldenhomep0a-20",
-    "goldenhomep0a-20",
-    "goldenhomep0a-20",
-    "goldenhomep0a-20",
-    "goldenhomep0a-20",
-)
+# Assembled at import time so this file never contains a dead tag as a literal.
+# The first run of this script REPLACED ITS OWN DEAD_TAGS LIST: the tags were plain
+# string literals, the sweep includes .py files, and it rewrote every one of them to
+# the new tag — after which the tool believed the live tag was dead and refused to
+# run. A find/replace tool whose search terms live as literals inside its own source,
+# in a tree it also scans, will eat itself.
+_OLD_STORE = "goldenhomep" + "06" + "-20"
+_CHANNEL = tuple(f"ghp{c}" + "0e" + "-20"
+                 for c in ("pinterest", "instagram", "youtube", "website"))
+DEAD_TAGS = (_OLD_STORE,) + _CHANNEL
 
 # Where links live. Skip .git and the media dirs (binary, no tags).
 SEARCH_SUFFIXES = (".html", ".json", ".py", ".md", ".txt", ".xml")
@@ -51,9 +54,44 @@ SKIP_DIRS = {".git", "node_modules", "__pycache__", "social/carousels",
 TAG_RE = re.compile(r"\b[a-z0-9]+-20\b")
 
 
+SELF = Path(__file__).resolve()
+
+# Dated write-ups and logs cite the OLD tag as a historical fact. Rewriting them makes
+# the record lie — after the first run, AGENT_LOG claimed the NEW tag was the closed
+# one, and the .env-typo post-mortem had byte-identical "wrong" and "correct" examples.
+# Only live link surfaces should ever be rewritten.
+KEEP_HISTORICAL = (
+    "docs/solutions/",
+    "AGENT_LOG.md",
+    "social/AFFILIATE_REROUTE_ROADMAP_2026-05-03.md",
+    "social/META_DM_ACTIVATION_2026-05-02.md",
+    "strategy/BUSINESS_PLAN_2026-06-11.md",
+    "automation/reels/",
+    # Records which pins were ACTUALLY published and with which tag. Those pins
+    # are live on Pinterest with the old tag baked into their destination URL;
+    # rewriting our log would not change them, it would only make the log lie.
+    "social/pinterest_post_log.json",
+)
+
+
 def _skip(p: Path) -> bool:
-    rel = str(p.relative_to(ROOT))
-    return any(rel.startswith(d) for d in SKIP_DIRS)
+    # Never rewrite this file. See the DEAD_TAGS note above.
+    if p.resolve() == SELF:
+        return True
+    rel = p.relative_to(ROOT)
+    rel_s = str(rel)
+    if any(rel_s.startswith(k) for k in KEEP_HISTORICAL):
+        return True
+    # Compare PATH COMPONENTS, not a string prefix. `rel.startswith("social/pinterest")`
+    # also matched `social/pinterest_queue.json` — the live queue — so the sweep silently
+    # skipped it and then reported "no dead tags remain" while 19 pending pins still
+    # pointed at a closed account. A directory filter must match directories.
+    parts = rel.parts
+    for d in SKIP_DIRS:
+        dp = tuple(Path(d).parts)
+        if parts[:len(dp)] == dp:
+            return True
+    return False
 
 
 def scan() -> tuple[dict, Counter]:
