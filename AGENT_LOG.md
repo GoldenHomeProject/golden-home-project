@@ -3673,3 +3673,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** social/pinterest_queue.json
 **External actions:** Pexels (backgrounds) + Claude CLI (pin copy)
 **Next agent hint:** post_pinterest.py (Pi) drains pinterest_queue.json once a Pinterest business account is logged into the Pi Chromium profile.
+
+## 2026-09-18T12:00:13Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B09SYYRBVP (kelamayi Upgrade Broom and Dustpan Set)
+**Changed:** social/carousels/2026-09-18-B09SYYRBVP/slide-1.png, social/carousels/2026-09-18-B09SYYRBVP/slide-2.png, social/carousels/2026-09-18-B09SYYRBVP/slide-3.png, social/carousels/2026-09-18-B09SYYRBVP/slide-4.png, social/carousels/2026-09-18-B09SYYRBVP/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B09SYYRBVP carousel.
