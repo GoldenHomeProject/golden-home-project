@@ -1841,6 +1841,20 @@
       "pin_id": "pin-2026-09-15-B08N9Q24M9",
       "board": "Kitchen Organization Ideas",
       "link": "https://www.amazon.com/dp/B08N9Q24M9?tag=ghppinterest0e-20&ascsubtag=pinterest"
+    },
+    {
+      "ts": "2026-09-18T23:25:25Z",
+      "action": "board_fallback",
+      "pin_id": "pin-2026-09-18-B07YKLSMFM",
+      "wanted": "Bedroom Storage & Bedding",
+      "used": "Home Organization Finds"
+    },
+    {
+      "ts": "2026-09-18T23:25:36Z",
+      "action": "pin_published",
+      "pin_id": "pin-2026-09-18-B07YKLSMFM",
+      "board": "Bedroom Storage & Bedding",
+      "link": "https://goldenhomeproject.com/blog/posts/best-bedding-essentials.html"
     }
   ]
 }
