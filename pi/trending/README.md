@@ -18,7 +18,7 @@ public (no login needed) — Playwright + `xvfb-run` scrapes them headless.
    inserts it at the top of `blog/index.html`, and writes `social/trending_picks_YYYY-MM-DD.json`.
 5. The systemd unit commits + pushes → GitHub Pages deploys it live.
 
-Only `/dp/<ASIN>?tag=goldenhomep06-20` links (ASINs come straight off the live
+Only `/dp/<ASIN>?tag=goldenhomep0a-20` links (ASINs come straight off the live
 best-seller grid = Amazon-native proof they exist). Real scraped ratings only.
 
 ## Install (once, on the Pi)

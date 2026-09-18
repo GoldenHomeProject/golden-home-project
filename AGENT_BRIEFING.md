@@ -16,7 +16,7 @@ This file is the coordination hub for all 3 cloud agents. The Morning Ops agent 
 - Blog posts needed for SEO - target "best amazon home finds 2026" and "amazon must haves under $30"
 
 ## REVENUE_ALERTS
-- Amazon Associates: Active (tag: goldenhomep06-20)
+- Amazon Associates: Active (tag: goldenhomep0a-20)
 - Impact.com/Promeed: Active (12% commission, 30-day cookie)
 - CJ Affiliate: Active (Publisher ID 7906532, 5+ advertisers joined)
 - Awin: Active (Publisher ID 2823700)

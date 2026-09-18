@@ -3,7 +3,7 @@
 
 Two hard rules, both learned the expensive way:
 
-1. ONLY direct ``/dp/<ASIN>?tag=goldenhomep06-20`` links pay this account.
+1. ONLY direct ``/dp/<ASIN>?tag=goldenhomep0a-20`` links pay this account.
    Amazon SEARCH URLs (``/s?k=...&tag=``) earn $0 — they were the April 2026
    dead-ASIN "fix" and produced zero commission. Never emit a search URL.
 
@@ -18,7 +18,7 @@ the URL by hand.
 """
 from __future__ import annotations
 
-ASSOCIATES_TAG = "goldenhomep06-20"
+ASSOCIATES_TAG = "goldenhomep0a-20"
 
 # Real Amazon TRACKING IDs, one per channel, created 2026-09-02.
 #
@@ -32,11 +32,11 @@ ASSOCIATES_TAG = "goldenhomep06-20"
 # this only changes which bucket a click is reported under. ascsubtag is still
 # stamped on top for finer-grained (per-date) detail.
 CHANNEL_TAGS = {
-    "pinterest": "ghppinterest0e-20",
-    "instagram": "ghpinstagram0e-20",
-    "youtube":   "ghpyoutube0e-20",
-    "blog":      "ghpwebsite0e-20",
-    "direct":    "ghpwebsite0e-20",
+    "pinterest": "goldenhomep0a-20",
+    "instagram": "goldenhomep0a-20",
+    "youtube":   "goldenhomep0a-20",
+    "blog":      "goldenhomep0a-20",
+    "direct":    "goldenhomep0a-20",
 }
 
 

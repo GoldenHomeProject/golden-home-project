@@ -193,7 +193,7 @@ def rank_opportunities(signals: dict) -> list[dict]:
     # signal JSON gives Claude plenty without bloating the prompt.
     prompt = f"""You are the Trend Scout for Golden Home Project LLC, an Amazon affiliate
 marketing company focused on home transformation content (kitchen, bedroom,
-bathroom, organization). Our Amazon Associate tag is `goldenhomep06-20`.
+bathroom, organization). Our Amazon Associate tag is `goldenhomep0a-20`.
 
 Today's date: {datetime.now(timezone.utc).strftime('%Y-%m-%d')}.
 

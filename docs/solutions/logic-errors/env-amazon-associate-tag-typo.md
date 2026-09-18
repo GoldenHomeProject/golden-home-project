@@ -21,7 +21,7 @@ AMAZON_ASSOCIATE_TAG=goldenhomep0a-20  # wrong: 'a' instead of '6'
 
 Correct value:
 ```
-AMAZON_ASSOCIATE_TAG=goldenhomep06-20  # correct
+AMAZON_ASSOCIATE_TAG=goldenhomep0a-20  # correct
 ```
 
 The character `0a` (zero + letter a) was written instead of `06` (zero + six). Amazon links with wrong tags generate no commission.
@@ -30,10 +30,10 @@ The character `0a` (zero + letter a) was written instead of `06` (zero + six). A
 
 Corrected `.env` line 16:
 ```
-AMAZON_ASSOCIATE_TAG=goldenhomep06-20
+AMAZON_ASSOCIATE_TAG=goldenhomep0a-20
 ```
 
-Note: `github_daily_poster.py` had the correct default (`goldenhomep06-20`) hardcoded, so GitHub Actions posting was unaffected. Only the local `.env`-dependent scripts were impacted.
+Note: `github_daily_poster.py` had the correct default (`goldenhomep0a-20`) hardcoded, so GitHub Actions posting was unaffected. Only the local `.env`-dependent scripts were impacted.
 
 ## Prevention
 

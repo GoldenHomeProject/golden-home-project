@@ -1,6 +1,6 @@
 # Affiliate Reroute Roadmap — 2026-05-03
 
-**Why this exists:** Amazon Associates `goldenhomep06-20` data Mar 31 → Apr 29 2026: **521 clicks / 0 orders / $0.00 / 0% conversion**. Same pattern as the dead-link incident (project memory). Search-URL fix prevented "page not found" but did not produce revenue — search→cart conversion is structurally ~10x lower than PDP→cart. Channel is broken at this traffic quality.
+**Why this exists:** Amazon Associates `goldenhomep0a-20` data Mar 31 → Apr 29 2026: **521 clicks / 0 orders / $0.00 / 0% conversion**. Same pattern as the dead-link incident (project memory). Search-URL fix prevented "page not found" but did not produce revenue — search→cart conversion is structurally ~10x lower than PDP→cart. Channel is broken at this traffic quality.
 
 **Solution:** reroute every keyword whose merchant has a direct/Impact/CJ program paying ≥5%. Done today: PILLOW (Eli & Elm Impact 20%), COVER (Mamma Mia Impact 20-30%).
 

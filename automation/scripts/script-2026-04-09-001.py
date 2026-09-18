@@ -3,7 +3,7 @@
 # Full AI generation requires Claude CLI — this is a template
 
 SCRIPT_DATE = "2026-04-09"
-AMAZON_TAG = "goldenhomep06-20"
+AMAZON_TAG = "goldenhomep0a-20"
 
 # TODO: Research trending Amazon home products
 # TODO: Generate transformation script with proven hook format

@@ -3,14 +3,14 @@
 
 Why this exists (2026-09-18)
 ----------------------------
-Amazon closed Associates store ID `goldenhomep06-20` on 2026-09-18 for not driving
+Amazon closed Associates store ID `goldenhomep0a-20` on 2026-09-18 for not driving
 three qualifying purchases within 180 days of signup. That single string is embedded in
 478 links across 97 HTML pages, plus the queues, the picks files and the link builder
 itself. Every one of them still resolves — visitors see a normal product page — and
 every one now earns exactly nothing.
 
 The four per-channel tracking IDs created on 2026-09-02 for attribution
-(ghppinterest0e-20, ghpinstagram0e-20, ghpyoutube0e-20, ghpwebsite0e-20) died with the
+(goldenhomep0a-20, goldenhomep0a-20, goldenhomep0a-20, goldenhomep0a-20) died with the
 account too; Manage Your Tracking IDs now lists only the Influencer IDs.
 
 So this is a one-command swap, dry-run by default, for whenever a valid ID exists.
@@ -33,14 +33,14 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 
-# Every tag that is now dead. goldenhomep06-20 was the main store ID; the *0e-20 four
+# Every tag that is now dead. goldenhomep0a-20 was the main store ID; the *0e-20 four
 # were the per-channel attribution IDs that died with the account.
 DEAD_TAGS = (
-    "goldenhomep06-20",
-    "ghppinterest0e-20",
-    "ghpinstagram0e-20",
-    "ghpyoutube0e-20",
-    "ghpwebsite0e-20",
+    "goldenhomep0a-20",
+    "goldenhomep0a-20",
+    "goldenhomep0a-20",
+    "goldenhomep0a-20",
+    "goldenhomep0a-20",
 )
 
 # Where links live. Skip .git and the media dirs (binary, no tags).

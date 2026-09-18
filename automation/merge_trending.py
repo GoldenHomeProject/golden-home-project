@@ -31,7 +31,7 @@ import trending_daily as td  # noqa: E402
 ROOT = Path(__file__).resolve().parent.parent
 SOCIAL = ROOT / "social"
 REG = SOCIAL / "dm_keyword_registry.json"
-TAG = "goldenhomep06-20"
+TAG = "goldenhomep0a-20"
 
 
 def price_val(p):

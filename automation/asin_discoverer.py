@@ -37,7 +37,7 @@ REGISTRY_PATH = ROOT / "social" / "dm_keyword_registry.json"
 TREND_FEED = ROOT / "social" / "trend_feed.json"
 MOVERS_CACHE = ROOT / "automation" / "trends" / "movers_shakers_latest.json"
 REDDIT_CACHE = ROOT / "automation" / "trends" / "reddit_latest.json"
-AMAZON_TAG = "goldenhomep06-20"
+AMAZON_TAG = "goldenhomep0a-20"
 
 # Subreddits the Pi-side Reddit fetcher samples. Trend Scout used to fetch
 # these directly from GH Actions, but Reddit started 403'ing GH runner IPs
@@ -463,7 +463,7 @@ def main() -> int:
         "Verified-live Amazon ASINs cleared for blog/SEO/IG use but NOT yet "
         "wired to a Meta DM automation. Promote to entries[] (with a unique "
         "keyword) only AFTER creating the matching Meta Business Suite "
-        "automation. Always /dp/<ASIN>?tag=goldenhomep06-20 URLs — never search URLs.",
+        "automation. Always /dp/<ASIN>?tag=goldenhomep0a-20 URLs — never search URLs.",
     )
 
     if len(reg["vetted"]) >= MAX_VETTED_POOL:

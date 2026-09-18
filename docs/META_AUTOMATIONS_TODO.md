@@ -41,7 +41,7 @@ Or just edit `social/dm_keyword_registry.json` and change `status: "pending_meta
 Here's the link 👇
 
 Paulato by GA.I.CO. waterproof stretch sofa cover (the one I used):
-https://www.amazon.com/dp/B0B4SPP3ZN?tag=goldenhomep06-20
+https://www.amazon.com/dp/B0B4SPP3ZN?tag=goldenhomep0a-20
 
 Amazon affiliate link — I earn a small commission at no extra cost to you. Hope it works as well for your couch as it did for mine!
 ```
@@ -57,7 +57,7 @@ Amazon affiliate link — I earn a small commission at no extra cost to you. Hop
 Here's the link 👇
 
 Cosori electric kettle (no-plastic contact, the one I use):
-https://www.amazon.com/dp/B08PP48979?tag=goldenhomep06-20
+https://www.amazon.com/dp/B08PP48979?tag=goldenhomep0a-20
 
 Amazon affiliate link — I earn a small commission at no extra cost to you. Wide-mouth design makes it easy to clean!
 ```
@@ -73,7 +73,7 @@ Amazon affiliate link — I earn a small commission at no extra cost to you. Wid
 Here's the link 👇
 
 LED motion-sensor plug-in night light (the one in the video):
-https://www.amazon.com/dp/B08RRRX5P5?tag=goldenhomep06-20
+https://www.amazon.com/dp/B08RRRX5P5?tag=goldenhomep0a-20
 
 Amazon affiliate link — I earn a small commission at no extra cost to you. The motion sensor is way more sensitive than I expected.
 ```
@@ -89,7 +89,7 @@ Amazon affiliate link — I earn a small commission at no extra cost to you. The
 Here's the link 👇
 
 Scrub Daddy sponge (dye-free, scratch-free):
-https://www.amazon.com/dp/B07ZL2BFMP?tag=goldenhomep06-20
+https://www.amazon.com/dp/B07ZL2BFMP?tag=goldenhomep0a-20
 
 Amazon affiliate link — I earn a small commission at no extra cost to you. The temperature-controlled texture is the part nobody talks about.
 ```
@@ -105,7 +105,7 @@ Amazon affiliate link — I earn a small commission at no extra cost to you. The
 Here's the link 👇
 
 Govee RGBIC LED strip lights (32.8ft, the smart-home ones):
-https://www.amazon.com/dp/B099S9DXT7?tag=goldenhomep06-20
+https://www.amazon.com/dp/B099S9DXT7?tag=goldenhomep0a-20
 
 Amazon affiliate link — I earn a small commission at no extra cost to you. The RGBIC = each segment can be a different color, not the older single-color version.
 ```
@@ -121,7 +121,7 @@ Amazon affiliate link — I earn a small commission at no extra cost to you. The
 Here's the link 👇
 
 FoodSaver VS2150 vacuum sealing system (the one I use):
-https://www.amazon.com/dp/B099NTSWD9?tag=goldenhomep06-20
+https://www.amazon.com/dp/B099NTSWD9?tag=goldenhomep0a-20
 
 Amazon affiliate link — I earn a small commission at no extra cost to you. Worth it just for cutting down freezer-burn waste.
 ```
@@ -137,7 +137,7 @@ Amazon affiliate link — I earn a small commission at no extra cost to you. Wor
 Here's the link 👇
 
 Stardrops "The Pink Stuff" cleaning paste:
-https://www.amazon.com/dp/B00DU5SRIY?tag=goldenhomep06-20
+https://www.amazon.com/dp/B00DU5SRIY?tag=goldenhomep0a-20
 
 Amazon affiliate link — I earn a small commission at no extra cost to you. This is the multi-purpose one — works on stovetops, tubs, sinks, grout.
 ```
@@ -153,7 +153,7 @@ Amazon affiliate link — I earn a small commission at no extra cost to you. Thi
 Here's the link 👇
 
 ChomChom roller pet hair remover (reusable, no sticky sheets):
-https://www.amazon.com/dp/B00BAGTNAQ?tag=goldenhomep06-20
+https://www.amazon.com/dp/B00BAGTNAQ?tag=goldenhomep0a-20
 
 Amazon affiliate link — I earn a small commission at no extra cost to you. The "no refills" thing is what sold me — the original sticky rollers were costing me more than this thing did.
 ```

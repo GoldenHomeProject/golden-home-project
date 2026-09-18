@@ -317,7 +317,7 @@ def claude_slide_content(entry: dict) -> dict:
     keyword = entry.get("keyword", "LINK")
     cats = ", ".join(entry.get("categories") or [])
     asin = entry.get("asin", "")
-    aff_url = f"https://www.amazon.com/dp/{asin}?tag=goldenhomep06-20"
+    aff_url = f"https://www.amazon.com/dp/{asin}?tag=goldenhomep0a-20"
 
     prompt = f"""You are a copywriter for Golden Home Project, an Amazon
 affiliate IG account in the home organizing niche.

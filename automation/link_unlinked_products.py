@@ -38,7 +38,7 @@ from asin_discoverer import REGISTRY_PATH, UA, search_amazon, verify_dp  # noqa:
 
 ROOT = Path(__file__).resolve().parent.parent
 POSTS = ROOT / "blog" / "posts"
-TAG = "goldenhomep06-20"
+TAG = "goldenhomep0a-20"
 
 PLACEHOLDER = re.compile(
     r'<p class="cta-disabled">.*?</p>', re.S)

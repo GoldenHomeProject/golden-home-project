@@ -86,7 +86,7 @@ Revenue Optimizer (Monday) → optimizes links, finds new programs
 ### Affiliate Accounts
 | Platform | Account ID | Commission | Status | Earnings |
 |----------|-----------|------------|--------|----------|
-| Amazon Associates | goldenhomep06-20 | 1-4% | ✅ Active | $0.00 |
+| Amazon Associates | goldenhomep0a-20 | 1-4% | ✅ Active | $0.00 |
 | Impact.com / Promeed | Golden Home Project | 12% (30-day cookie) | ✅ Contract signed | $0.00 |
 | CJ Affiliate | Publisher 7906532 | Varies | ✅ 5+ advertisers | $0.00 |
 | Awin | Publisher 2823700 | Varies | ✅ Active | $0.00 |

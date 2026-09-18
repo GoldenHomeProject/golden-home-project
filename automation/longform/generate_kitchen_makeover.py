@@ -31,7 +31,7 @@ TAGS = ["kitchen makeover", "amazon finds", "budget kitchen", "home transformati
         "kitchen organization", "before and after", "golden home project", "amazon home",
         "kitchen decor", "budget home decor", "syruvia", "kitchen upgrade"]
 
-AFFILIATE_TAG = "goldenhomep06-20"
+AFFILIATE_TAG = "goldenhomep0a-20"
 
 SECTIONS = [
     {

@@ -19,7 +19,7 @@ AUDIO_DIR = OUTPUT_DIR / "audio"
 for d in [OUTPUT_DIR, FRAMES_DIR, AUDIO_DIR]:
     d.mkdir(parents=True, exist_ok=True)
 
-AMAZON_TAG = "goldenhomep06-20"
+AMAZON_TAG = "goldenhomep0a-20"
 
 # ── PRODUCTS (15 total) ──
 PRODUCTS = [

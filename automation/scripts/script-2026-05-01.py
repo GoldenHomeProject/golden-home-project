@@ -14,13 +14,13 @@ These 4 floral accents completely changed the vibe — and everything is from Am
 
 Products featured:
 1. Floral Ceramic Canister Set (3-pc) — $24
-   https://www.amazon.com/dp/B0EXAMPLE1?tag=goldenhomep06-20
+   https://www.amazon.com/dp/B0EXAMPLE1?tag=goldenhomep0a-20
 2. Floral Cotton Kitchen Towels (4-pack) — $16
-   https://www.amazon.com/dp/B0EXAMPLE2?tag=goldenhomep06-20
+   https://www.amazon.com/dp/B0EXAMPLE2?tag=goldenhomep0a-20
 3. Floral Enamel Dutch Oven (6 qt) — $19
-   https://www.amazon.com/dp/B0EXAMPLE3?tag=goldenhomep06-20
+   https://www.amazon.com/dp/B0EXAMPLE3?tag=goldenhomep0a-20
 4. Floral Drawer Liner Roll — $8
-   https://www.amazon.com/dp/B0EXAMPLE4?tag=goldenhomep06-20
+   https://www.amazon.com/dp/B0EXAMPLE4?tag=goldenhomep0a-20
 
 Total: $67
 
@@ -48,10 +48,10 @@ FRAMES = [
 ]
 
 PRODUCTS = [
-    {"name": "Floral Ceramic Canister Set", "price": 24, "asin": "B0EXAMPLE1", "tag": "goldenhomep06-20"},
-    {"name": "Floral Cotton Kitchen Towels", "price": 16, "asin": "B0EXAMPLE2", "tag": "goldenhomep06-20"},
-    {"name": "Floral Enamel Dutch Oven", "price": 19, "asin": "B0EXAMPLE3", "tag": "goldenhomep06-20"},
-    {"name": "Floral Drawer Liner", "price": 8, "asin": "B0EXAMPLE4", "tag": "goldenhomep06-20"},
+    {"name": "Floral Ceramic Canister Set", "price": 24, "asin": "B0EXAMPLE1", "tag": "goldenhomep0a-20"},
+    {"name": "Floral Cotton Kitchen Towels", "price": 16, "asin": "B0EXAMPLE2", "tag": "goldenhomep0a-20"},
+    {"name": "Floral Enamel Dutch Oven", "price": 19, "asin": "B0EXAMPLE3", "tag": "goldenhomep0a-20"},
+    {"name": "Floral Drawer Liner", "price": 8, "asin": "B0EXAMPLE4", "tag": "goldenhomep0a-20"},
 ]
 
 TOTAL_COST = sum(p["price"] for p in PRODUCTS)

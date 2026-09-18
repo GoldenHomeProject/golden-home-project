@@ -32,7 +32,7 @@ import trending_daily as td  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 REG = ROOT / "social" / "dm_keyword_registry.json"
-TAG = "goldenhomep06-20"
+TAG = "goldenhomep0a-20"
 
 # Node IDs read off Amazon's own Best Sellers nav. Deliberately wider than the hub
 # rotation so the catalogue keeps growing after the hub categories are exhausted.

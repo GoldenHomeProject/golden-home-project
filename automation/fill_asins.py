@@ -29,7 +29,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 SCRIPT_DIR = ROOT / "automation" / "scripts"
 QUEUE_PATH = ROOT / "social" / "post_queue.json"
-AMAZON_TAG = "goldenhomep06-20"
+AMAZON_TAG = "goldenhomep0a-20"
 ASIN_RE = re.compile(r"^[A-Z0-9]{10}$")
 
 

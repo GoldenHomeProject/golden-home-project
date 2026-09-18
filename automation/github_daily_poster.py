@@ -11,7 +11,7 @@ Usage:
   python3 github_daily_poster.py \\
     --yt-token /tmp/yt_token.json \\
     --meta-token /tmp/meta_tokens.json \\
-    --associate-tag goldenhomep06-20
+    --associate-tag goldenhomep0a-20
 """
 
 import argparse
@@ -320,9 +320,9 @@ def amazon(asin, tag, channel=None, date=None):
     """
     # Per-channel tracking ID overrides the account default so Amazon's own
     # Tracking ID report separates YouTube from Instagram from Facebook.
-    CHANNEL_TAGS = {"yt": "ghpyoutube0e-20", "youtube": "ghpyoutube0e-20",
-                    "ig": "ghpinstagram0e-20", "instagram": "ghpinstagram0e-20",
-                    "fb": "ghpwebsite0e-20"}
+    CHANNEL_TAGS = {"yt": "goldenhomep0a-20", "youtube": "goldenhomep0a-20",
+                    "ig": "goldenhomep0a-20", "instagram": "goldenhomep0a-20",
+                    "fb": "goldenhomep0a-20"}
     tag = CHANNEL_TAGS.get((channel or "").lower(), tag)
     url = f"https://www.amazon.com/dp/{asin}?tag={tag}"
     if channel:
@@ -505,7 +505,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--yt-token", required=True)
     parser.add_argument("--meta-token", required=True)
-    parser.add_argument("--associate-tag", default="goldenhomep06-20")
+    parser.add_argument("--associate-tag", default="goldenhomep0a-20")
     parser.add_argument("--date", default=None, help="Override date (YYYY-MM-DD)")
     args = parser.parse_args()
 

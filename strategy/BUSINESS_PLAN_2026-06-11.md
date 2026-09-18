@@ -13,7 +13,7 @@ YT poster died Apr 5. **The machine was never actually tested.** All four defect
 now fixed; the next 4 weeks are the first honest test of the funnel:
 
 content (pins/posts/reels) → blog post w/ verified product CTA → Amazon
-(tag goldenhomep06-20, ascsubtag per channel) → commission.
+(tag goldenhomep0a-20, ascsubtag per channel) → commission.
 
 ## 2. Channel playbook (probability-ranked)
 **P1. Pinterest (fixed today) — the compounding free-traffic engine.**
@@ -46,7 +46,7 @@ content (pins/posts/reels) → blog post w/ verified product CTA → Amazon
 
 ## 3. Content quality bar (every piece, no exceptions)
 1. Product is ASIN-verified live (logged-in browser; now enforced in code for pins + blog).
-2. Links: /dp/ASIN?tag=goldenhomep06-20&ascsubtag=<channel>. Never search URLs.
+2. Links: /dp/ASIN?tag=goldenhomep0a-20&ascsubtag=<channel>. Never search URLs.
 3. FTC disclosure on every monetized surface.
 4. Reels: full-frame 9:16, burned-in captions, AvaNeural en-US voice. Next iteration:
    product photo overlay while each product is named; 18–30s scripts. (Composite fixed

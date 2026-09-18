@@ -94,7 +94,7 @@ def main() -> int:
                 "asin": asin,
                 "product_name": info["title"],
                 "categories": ["dorm", "college", "organization"],
-                "affiliate_url": f"https://www.amazon.com/dp/{asin}?tag=goldenhomep06-20",
+                "affiliate_url": f"https://www.amazon.com/dp/{asin}?tag=goldenhomep0a-20",
                 "status": "live",
                 "verified_at": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
                 "verified_method": "source_dorm/search+dp",

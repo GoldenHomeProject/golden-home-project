@@ -11,7 +11,7 @@ That fix was WRONG. User correction on 2026-05-26:
      form our account or we dont get credit for the sale"
 
 Amazon Associates does NOT credit conversions on search-URL clicks for the
-goldenhomep06-20 account — only direct /dp/<ASIN>?tag= or affiliate-network
+goldenhomep0a-20 account — only direct /dp/<ASIN>?tag= or affiliate-network
 short links (sjv.io, amzn.to) pay. This script's entire output is therefore
 revenue-zero.
 
@@ -59,7 +59,7 @@ from urllib.parse import quote_plus  # noqa: E402
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 PROD = ROOT / "products"
 DEAD_FILE = pathlib.Path("/tmp/ghp_dead_asins.txt")
-TAG = "goldenhomep06-20"
+TAG = "goldenhomep0a-20"
 
 HREF_RE = re.compile(
     r'(href="https://www\.amazon\.com/dp/)([A-Z0-9]{10})(\?tag=' + re.escape(TAG) + r'")'

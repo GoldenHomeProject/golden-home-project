@@ -15,13 +15,13 @@ $120. No renovation. No contractor. Just 4 Amazon products.
 
 Products featured:
 1. Glass-Front Cabinet Door Insert (2-pack) — $38
-   https://www.amazon.com/dp/B0EXAMPLE7?tag=goldenhomep06-20
+   https://www.amazon.com/dp/B0EXAMPLE7?tag=goldenhomep0a-20
 2. Clear Acrylic Storage Containers (12-set) — $34
-   https://www.amazon.com/dp/B0EXAMPLE8?tag=goldenhomep06-20
+   https://www.amazon.com/dp/B0EXAMPLE8?tag=goldenhomep0a-20
 3. Bamboo Shelf Risers (3-pack) — $22
-   https://www.amazon.com/dp/B0EXAMPLE9?tag=goldenhomep06-20
+   https://www.amazon.com/dp/B0EXAMPLE9?tag=goldenhomep0a-20
 4. LED Puck Lights (6-pack, rechargeable) — $26
-   https://www.amazon.com/dp/B0EXAMPLE10?tag=goldenhomep06-20
+   https://www.amazon.com/dp/B0EXAMPLE10?tag=goldenhomep0a-20
 
 BONUS: Syruvia Syrups displayed on shelf — $15 each
 https://syruvia.com (affiliate)
@@ -52,10 +52,10 @@ FRAMES = [
 ]
 
 PRODUCTS = [
-    {"name": "Glass-Front Cabinet Door Insert", "price": 38, "asin": "B0EXAMPLE7", "tag": "goldenhomep06-20"},
-    {"name": "Clear Acrylic Storage Containers 12-set", "price": 34, "asin": "B0EXAMPLE8", "tag": "goldenhomep06-20"},
-    {"name": "Bamboo Shelf Risers 3-pack", "price": 22, "asin": "B0EXAMPLE9", "tag": "goldenhomep06-20"},
-    {"name": "LED Puck Lights 6-pack", "price": 26, "asin": "B0EXAMPLE10", "tag": "goldenhomep06-20"},
+    {"name": "Glass-Front Cabinet Door Insert", "price": 38, "asin": "B0EXAMPLE7", "tag": "goldenhomep0a-20"},
+    {"name": "Clear Acrylic Storage Containers 12-set", "price": 34, "asin": "B0EXAMPLE8", "tag": "goldenhomep0a-20"},
+    {"name": "Bamboo Shelf Risers 3-pack", "price": 22, "asin": "B0EXAMPLE9", "tag": "goldenhomep0a-20"},
+    {"name": "LED Puck Lights 6-pack", "price": 26, "asin": "B0EXAMPLE10", "tag": "goldenhomep0a-20"},
     {"name": "Syruvia Syrups", "price": 15, "source": "syruvia", "commission": "20%", "note": "BONUS product placement"},
 ]
 

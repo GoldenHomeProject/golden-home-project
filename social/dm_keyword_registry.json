@@ -1,6 +1,6 @@
 {
-  "_doc": "Live Meta comment-to-DM automations for @golden_home_project. Content engine MUST pick a keyword from `entries` whose status='live' when generating a reel \u2014 using a keyword whose automation isn't live silently drops the entire DM funnel. Add a new entry only after creating the matching automation in Meta Business Suite (https://business.facebook.com/latest/inbox/automated_responses?asset_id=973754055831729&business_id=1580899273211540). Verify ASIN is alive on amazon.com BEFORE adding (use Chrome /dp/<ASIN> + check title not 'Page Not Found'). Tag = goldenhomep06-20.",
-  "tag": "goldenhomep06-20",
+  "_doc": "Live Meta comment-to-DM automations for @golden_home_project. Content engine MUST pick a keyword from `entries` whose status='live' when generating a reel \u2014 using a keyword whose automation isn't live silently drops the entire DM funnel. Add a new entry only after creating the matching automation in Meta Business Suite (https://business.facebook.com/latest/inbox/automated_responses?asset_id=973754055831729&business_id=1580899273211540). Verify ASIN is alive on amazon.com BEFORE adding (use Chrome /dp/<ASIN> + check title not 'Page Not Found'). Tag = goldenhomep0a-20.",
+  "tag": "goldenhomep0a-20",
   "ig_business_account_id": "973754055831729",
   "fb_business_id": "1580899273211540",
   "verified_at": "2026-05-03",
@@ -181,7 +181,7 @@
         "closet",
         "velvet"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B07Y39ZXV7?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B07Y39ZXV7?tag=goldenhomep0a-20",
       "verified_at": "2026-05-28",
       "verified_stars": "4.8",
       "verified_reviews": 231174,
@@ -202,7 +202,7 @@
         "hotel",
         "turkish"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B08CYBPMJC?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B08CYBPMJC?tag=goldenhomep0a-20",
       "verified_at": "2026-05-29",
       "verified_stars": "4.4",
       "verified_reviews": 79026,
@@ -222,7 +222,7 @@
         "cheap",
         "countertop"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B01FXN3E74?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B01FXN3E74?tag=goldenhomep0a-20",
       "verified_at": "2026-05-29",
       "verified_stars": "4.6",
       "verified_reviews": 59611,
@@ -244,7 +244,7 @@
         "lazy-susan",
         "storage"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0B3WSZ3QP?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0B3WSZ3QP?tag=goldenhomep0a-20",
       "verified_at": "2026-05-26",
       "verified_stars": "4.7",
       "verified_reviews": 6190,
@@ -265,7 +265,7 @@
         "fringe",
         "maximalist"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0CVVVNB9L?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0CVVVNB9L?tag=goldenhomep0a-20",
       "verified_at": "2026-05-28",
       "verified_stars": "4.6",
       "verified_reviews": 3203,
@@ -287,7 +287,7 @@
         "shelf-liner",
         "drawer-liner"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0BXSMJK86?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0BXSMJK86?tag=goldenhomep0a-20",
       "verified_at": "2026-05-26",
       "verified_stars": "4.7",
       "verified_reviews": 2556,
@@ -308,7 +308,7 @@
         "patio",
         "small"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B085XVFQ62?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B085XVFQ62?tag=goldenhomep0a-20",
       "verified_at": "2026-05-28",
       "verified_stars": "4.1",
       "verified_reviews": 2187,
@@ -398,7 +398,7 @@
         "home",
         "Home & Kitchen"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0725WFLMB?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0725WFLMB?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-23",
       "verified_method": "best_seller_grid",
@@ -476,7 +476,7 @@
         "home",
         "Home & Kitchen"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B08616PS69?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B08616PS69?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-30",
       "verified_method": "best_seller_grid",
@@ -518,7 +518,7 @@
         "home",
         "Bath"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B00LS9UD2M?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B00LS9UD2M?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-23",
       "verified_method": "best_seller_grid",
@@ -560,7 +560,7 @@
         "home",
         "Home & Kitchen"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B00U6HREPQ?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B00U6HREPQ?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-27",
       "verified_method": "best_seller_grid",
@@ -602,7 +602,7 @@
         "home",
         "Home D\u00e9cor"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0714K41PB?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0714K41PB?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-23",
       "verified_method": "best_seller_grid",
@@ -620,7 +620,7 @@
         "home",
         "Home & Kitchen"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B00NX0WXQI?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B00NX0WXQI?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-23",
       "verified_method": "best_seller_grid",
@@ -638,7 +638,7 @@
         "home",
         "Bath"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B01F5K9YNS?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B01F5K9YNS?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-23",
       "verified_method": "best_seller_grid",
@@ -698,7 +698,7 @@
       "promoted_at": "2026-09-18T12:20:38Z"
     }
   ],
-  "_vetted_doc": "Verified-live Amazon ASINs cleared for blog/SEO/IG-caption use but NOT yet wired to a Meta comment-to-DM automation. Promote to `entries` (with a unique keyword) only AFTER creating the matching Meta Business Suite automation. Always use https://www.amazon.com/dp/<ASIN>?tag=goldenhomep06-20 \u2014 never search URLs.",
+  "_vetted_doc": "Verified-live Amazon ASINs cleared for blog/SEO/IG-caption use but NOT yet wired to a Meta comment-to-DM automation. Promote to `entries` (with a unique keyword) only AFTER creating the matching Meta Business Suite automation. Always use https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20 \u2014 never search URLs.",
   "vetted": [
     {
       "asin": "B0D176VGXZ",
@@ -710,7 +710,7 @@
         "under-sink",
         "storage"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0D176VGXZ?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0D176VGXZ?tag=goldenhomep0a-20",
       "verified_at": "2026-06-11",
       "verified_stars": "4.7",
       "verified_reviews": 1773,
@@ -731,7 +731,7 @@
         "children",
         "small"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0F8Q1Y3Z4?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0F8Q1Y3Z4?tag=goldenhomep0a-20",
       "verified_at": "2026-06-11",
       "verified_stars": "4.4",
       "verified_reviews": 124,
@@ -750,7 +750,7 @@
         "studio",
         "open"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B07WFXL22R?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B07WFXL22R?tag=goldenhomep0a-20",
       "verified_at": "2026-06-11",
       "verified_stars": "4.5",
       "verified_reviews": 438,
@@ -769,7 +769,7 @@
         "outdoor",
         "best"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0CXDJG5QM?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0CXDJG5QM?tag=goldenhomep0a-20",
       "verified_at": "2026-06-11",
       "verified_stars": "4.4",
       "verified_reviews": 483,
@@ -793,7 +793,7 @@
       "verified_stars": "4.5",
       "verified_reviews": "24159",
       "verified_method": "logged-in browser same-origin fetch",
-      "affiliate_url": "https://www.amazon.com/dp/B088WYYH85?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B088WYYH85?tag=goldenhomep0a-20",
       "used_in": [
         "blog/posts/2026-06-03-best-bamboo-cooling-quilt-summer-bedding-hot-sleepers.html"
       ]
@@ -812,7 +812,7 @@
       "verified_stars": "4.3",
       "verified_reviews": "7172",
       "verified_method": "logged-in browser same-origin fetch",
-      "affiliate_url": "https://www.amazon.com/dp/B09W2F2L4C?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B09W2F2L4C?tag=goldenhomep0a-20",
       "used_in": [
         "blog/posts/2026-06-10-faux-wood-peel-and-stick-wallpaper-bathroom-makeover.html"
       ]
@@ -826,7 +826,7 @@
         "cute",
         "dorm"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B09B126SSJ?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B09B126SSJ?tag=goldenhomep0a-20",
       "verified_at": "2026-07-25",
       "verified_stars": "4.5",
       "verified_reviews": 18691,
@@ -845,7 +845,7 @@
         "backyard",
         "4th"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B075NS8YXG?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B075NS8YXG?tag=goldenhomep0a-20",
       "verified_at": "2026-07-25",
       "verified_stars": "4.5",
       "verified_reviews": 26327,
@@ -864,7 +864,7 @@
         "best",
         "kitchen"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B08573DQ39?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B08573DQ39?tag=goldenhomep0a-20",
       "verified_at": "2026-07-25",
       "verified_stars": "4.5",
       "verified_reviews": 30314,
@@ -882,7 +882,7 @@
         "entryway",
         "mudroom"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0F29FLLJZ?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0F29FLLJZ?tag=goldenhomep0a-20",
       "verified_at": "2026-07-25",
       "verified_stars": "4.5",
       "verified_reviews": 1972,
@@ -900,7 +900,7 @@
         "peel",
         "removable"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0BFVSKX3M?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0BFVSKX3M?tag=goldenhomep0a-20",
       "verified_at": "2026-07-25",
       "verified_stars": "4.4",
       "verified_reviews": 4572,
@@ -919,7 +919,7 @@
         "americana",
         "patriotic"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0DZH3LX6Q?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0DZH3LX6Q?tag=goldenhomep0a-20",
       "verified_at": "2026-07-25",
       "verified_stars": "4.6",
       "verified_reviews": 173,
@@ -938,7 +938,7 @@
         "college",
         "dorm"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0FVW1TNH8?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0FVW1TNH8?tag=goldenhomep0a-20",
       "verified_at": "2026-07-25",
       "verified_stars": "4.6",
       "verified_reviews": 260,
@@ -957,7 +957,7 @@
         "cooling",
         "breathable"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B073WD5KPX?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B073WD5KPX?tag=goldenhomep0a-20",
       "verified_at": "2026-07-25",
       "verified_stars": "4.3",
       "verified_reviews": 3409,
@@ -976,7 +976,7 @@
         "americana",
         "patriotic"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0FFS5RBLC?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0FFS5RBLC?tag=goldenhomep0a-20",
       "verified_at": "2026-07-25",
       "verified_stars": "4.4",
       "verified_reviews": 174,
@@ -995,7 +995,7 @@
         "outdoor",
         "backyard"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0G1Y5BNZL?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0G1Y5BNZL?tag=goldenhomep0a-20",
       "verified_at": "2026-07-25",
       "verified_stars": "4.4",
       "verified_reviews": 244,
@@ -1014,7 +1014,7 @@
         "college",
         "under"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B09SZ9T4MV?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B09SZ9T4MV?tag=goldenhomep0a-20",
       "verified_at": "2026-07-25",
       "verified_stars": "4.6",
       "verified_reviews": 7557,
@@ -1032,7 +1032,7 @@
         "best",
         "basement"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0DXKRFFGM?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0DXKRFFGM?tag=goldenhomep0a-20",
       "verified_at": "2026-07-25",
       "verified_stars": "4.3",
       "verified_reviews": 5286,
@@ -1051,7 +1051,7 @@
         "best",
         "house"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B07QLQ3QP4?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B07QLQ3QP4?tag=goldenhomep0a-20",
       "verified_at": "2026-07-25",
       "verified_stars": "4.5",
       "verified_reviews": 20196,
@@ -1070,7 +1070,7 @@
         "americana",
         "patriotic"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0F1CGK144?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0F1CGK144?tag=goldenhomep0a-20",
       "verified_at": "2026-07-25",
       "verified_stars": "4.7",
       "verified_reviews": 342,
@@ -1088,7 +1088,7 @@
         "pantry",
         "airtight"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B08ZK5WDWN?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B08ZK5WDWN?tag=goldenhomep0a-20",
       "verified_at": "2026-07-25",
       "verified_stars": "4.7",
       "verified_reviews": 28028,
@@ -1107,7 +1107,7 @@
         "kitchen",
         "modern"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B07SPXKNXN?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B07SPXKNXN?tag=goldenhomep0a-20",
       "verified_at": "2026-07-25",
       "verified_stars": "4.7",
       "verified_reviews": 38159,
@@ -1125,7 +1125,7 @@
         "entryway",
         "mudroom"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0B715XDG1?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0B715XDG1?tag=goldenhomep0a-20",
       "verified_at": "2026-07-25",
       "verified_stars": "4.8",
       "verified_reviews": 4169,
@@ -1144,7 +1144,7 @@
         "dorm",
         "twin"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/1612435688?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/1612435688?tag=goldenhomep0a-20",
       "verified_at": "2026-07-25",
       "verified_stars": "4.4",
       "verified_reviews": 668,
@@ -1163,7 +1163,7 @@
         "how",
         "decorative"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0CD1X9B1J?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0CD1X9B1J?tag=goldenhomep0a-20",
       "verified_at": "2026-07-25",
       "verified_stars": "4.5",
       "verified_reviews": 2703,
@@ -1182,7 +1182,7 @@
         "wall",
         "mudroom"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0F1MSZ34H?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0F1MSZ34H?tag=goldenhomep0a-20",
       "verified_at": "2026-07-25",
       "verified_stars": "4.5",
       "verified_reviews": 379,
@@ -1201,7 +1201,7 @@
         "removable",
         "temporary"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B07T4N63TK?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B07T4N63TK?tag=goldenhomep0a-20",
       "verified_at": "2026-07-25",
       "verified_stars": "4.3",
       "verified_reviews": 12019,
@@ -1220,7 +1220,7 @@
         "thin",
         "cooling"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B08LDD8HBW?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B08LDD8HBW?tag=goldenhomep0a-20",
       "verified_at": "2026-07-25",
       "verified_stars": "4.6",
       "verified_reviews": 8931,
@@ -1239,7 +1239,7 @@
         "pantry",
         "clear"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0FDWLX8QP?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0FDWLX8QP?tag=goldenhomep0a-20",
       "verified_at": "2026-07-25",
       "verified_stars": "4.8",
       "verified_reviews": 3672,
@@ -1258,7 +1258,7 @@
         "college",
         "cube"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B08RJC5B74?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B08RJC5B74?tag=goldenhomep0a-20",
       "verified_at": "2026-07-25",
       "verified_stars": "4.0",
       "verified_reviews": 8851,
@@ -1576,7 +1576,7 @@
         "college",
         "organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B07SYPLVTG?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B07SYPLVTG?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-11",
       "verified_method": "source_dorm/search+dp",
@@ -1593,7 +1593,7 @@
         "college",
         "organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0DP76RZDR?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0DP76RZDR?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-11",
       "verified_method": "source_dorm/search+dp",
@@ -1610,7 +1610,7 @@
         "college",
         "organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0GN1TZZ9W?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0GN1TZZ9W?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-11",
       "verified_method": "source_dorm/search+dp",
@@ -1627,7 +1627,7 @@
         "college",
         "organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B09GBDQVGY?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B09GBDQVGY?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-11",
       "verified_method": "source_dorm/search+dp",
@@ -1644,7 +1644,7 @@
         "college",
         "organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B07177XJK7?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B07177XJK7?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-11",
       "verified_method": "source_dorm/search+dp",
@@ -1661,7 +1661,7 @@
         "college",
         "organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0DZ254SSR?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0DZ254SSR?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-11",
       "verified_method": "source_dorm/search+dp",
@@ -1678,7 +1678,7 @@
         "college",
         "organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B00HZ0ION8?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B00HZ0ION8?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-11",
       "verified_method": "source_dorm/search+dp",
@@ -1695,7 +1695,7 @@
         "college",
         "organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0B99VKV8P?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0B99VKV8P?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-11",
       "verified_method": "source_dorm/search+dp",
@@ -1712,7 +1712,7 @@
         "college",
         "organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0BBMK7RCF?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0BBMK7RCF?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-11",
       "verified_method": "source_dorm/search+dp",
@@ -1729,7 +1729,7 @@
         "college",
         "organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0738B8SQS?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0738B8SQS?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-11",
       "verified_method": "source_dorm/search+dp",
@@ -1872,7 +1872,7 @@
       "asin": "B0B1CNJL7N",
       "product_name": "upsimples 8x10 Picture Frame",
       "categories": [],
-      "affiliate_url": "https://www.amazon.com/dp/B0B1CNJL7N?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0B1CNJL7N?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-07-29",
       "verified_method": "best_seller_grid",
@@ -1885,7 +1885,7 @@
       "asin": "B0D97YVVQ2",
       "product_name": "PlayHot Portable Handheld Turbo Fan",
       "categories": [],
-      "affiliate_url": "https://www.amazon.com/dp/B0D97YVVQ2?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0D97YVVQ2?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-07-29",
       "verified_method": "best_seller_grid",
@@ -1901,7 +1901,7 @@
         "home",
         "Bath"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B081YQBPSS?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B081YQBPSS?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-23",
       "verified_method": "best_seller_grid",
@@ -1917,7 +1917,7 @@
         "home",
         "Bath"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B08BZFRQLS?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B08BZFRQLS?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-23",
       "verified_method": "best_seller_grid",
@@ -1933,7 +1933,7 @@
         "home",
         "Bath"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0CJ56M8D4?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0CJ56M8D4?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-23",
       "verified_method": "best_seller_grid",
@@ -1949,7 +1949,7 @@
         "home",
         "Home & Kitchen"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0C1NNYJGB?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0C1NNYJGB?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-23",
       "verified_method": "best_seller_grid",
@@ -1965,7 +1965,7 @@
         "home",
         "Bath"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B09CYLZPYP?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B09CYLZPYP?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-23",
       "verified_method": "best_seller_grid",
@@ -1981,7 +1981,7 @@
         "home",
         "Home D\u00e9cor"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0BR3STN87?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0BR3STN87?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-23",
       "verified_method": "best_seller_grid",
@@ -1997,7 +1997,7 @@
         "home",
         "Home D\u00e9cor"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0881QG5WK?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0881QG5WK?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-23",
       "verified_method": "best_seller_grid",
@@ -2013,7 +2013,7 @@
         "home",
         "Bath"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0DLWDVZCD?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0DLWDVZCD?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-23",
       "verified_method": "best_seller_grid",
@@ -2029,7 +2029,7 @@
         "home",
         "Home & Kitchen"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B00MRH9NCK?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B00MRH9NCK?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-23",
       "verified_method": "best_seller_grid",
@@ -2045,7 +2045,7 @@
         "home",
         "Cleaning Supplies"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0010B5EQS?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0010B5EQS?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-23",
       "verified_method": "best_seller_grid",
@@ -2061,7 +2061,7 @@
         "home",
         "Bath"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B07236M4HC?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B07236M4HC?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-23",
       "verified_method": "best_seller_grid",
@@ -2077,7 +2077,7 @@
         "home",
         "Home D\u00e9cor"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B08SBYPF14?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B08SBYPF14?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-23",
       "verified_method": "best_seller_grid",
@@ -2093,7 +2093,7 @@
         "home",
         "Bath"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0BZL5GWVL?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0BZL5GWVL?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-23",
       "verified_method": "best_seller_grid",
@@ -2109,7 +2109,7 @@
         "home",
         "Bath"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0BY2QZYT9?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0BY2QZYT9?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-23",
       "verified_method": "best_seller_grid",
@@ -2125,7 +2125,7 @@
         "home",
         "Bath"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B08WPQ12XX?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B08WPQ12XX?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-23",
       "verified_method": "best_seller_grid",
@@ -2141,7 +2141,7 @@
         "home",
         "Home & Kitchen"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0DF44GN8Y?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0DF44GN8Y?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-23",
       "verified_method": "best_seller_grid",
@@ -2157,7 +2157,7 @@
         "home",
         "Home & Kitchen"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B01IE7P2VW?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B01IE7P2VW?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-23",
       "verified_method": "best_seller_grid",
@@ -2173,7 +2173,7 @@
         "home",
         "Home D\u00e9cor"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0F332CCLK?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0F332CCLK?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-23",
       "verified_method": "best_seller_grid",
@@ -2189,7 +2189,7 @@
         "home",
         "Bath"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0BZZDPPRX?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0BZZDPPRX?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-23",
       "verified_method": "best_seller_grid",
@@ -2205,7 +2205,7 @@
         "home",
         "Bath"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B010S5VXKC?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B010S5VXKC?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-23",
       "verified_method": "best_seller_grid",
@@ -2221,7 +2221,7 @@
         "home",
         "Home & Kitchen"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B08DTH86Q2?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B08DTH86Q2?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-23",
       "verified_method": "best_seller_grid",
@@ -2237,7 +2237,7 @@
         "home",
         "Cleaning Supplies"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B00WSWGVZQ?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B00WSWGVZQ?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-23",
       "verified_method": "best_seller_grid",
@@ -2253,7 +2253,7 @@
         "home",
         "Bath"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B011CBJGZK?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B011CBJGZK?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-23",
       "verified_method": "best_seller_grid",
@@ -2269,7 +2269,7 @@
         "home",
         "Home D\u00e9cor"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B083LMRXJC?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B083LMRXJC?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-23",
       "verified_method": "best_seller_grid",
@@ -2285,7 +2285,7 @@
         "home",
         "Bath"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B087T2M1YX?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B087T2M1YX?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-23",
       "verified_method": "best_seller_grid",
@@ -2301,7 +2301,7 @@
         "kitchen",
         "Kitchen & Dining"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B000SDKDM4?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B000SDKDM4?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-24",
       "verified_method": "best_seller_grid",
@@ -2317,7 +2317,7 @@
         "kitchen",
         "Kitchen & Dining"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0FK124QCT?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0FK124QCT?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-24",
       "verified_method": "best_seller_grid",
@@ -2333,7 +2333,7 @@
         "kitchen",
         "Kitchen & Dining"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0CS12LZLS?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0CS12LZLS?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-24",
       "verified_method": "best_seller_grid",
@@ -2349,7 +2349,7 @@
         "kitchen",
         "Kitchen & Dining"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0CKV2BNZL?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0CKV2BNZL?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-24",
       "verified_method": "best_seller_grid",
@@ -2365,7 +2365,7 @@
         "kitchen",
         "Kitchen & Dining"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B00GS8W3T4?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B00GS8W3T4?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-24",
       "verified_method": "best_seller_grid",
@@ -2381,7 +2381,7 @@
         "kitchen",
         "Kitchen & Dining"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B001GM60LE?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B001GM60LE?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-24",
       "verified_method": "best_seller_grid",
@@ -2397,7 +2397,7 @@
         "kitchen",
         "Kitchen & Dining"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0F2WMS7CC?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0F2WMS7CC?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-24",
       "verified_method": "best_seller_grid",
@@ -2413,7 +2413,7 @@
         "kitchen",
         "Kitchen & Dining"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0CLH1445W?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0CLH1445W?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-24",
       "verified_method": "best_seller_grid",
@@ -2429,7 +2429,7 @@
         "kitchen",
         "Kitchen & Dining"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0DR9ML5X9?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0DR9ML5X9?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-24",
       "verified_method": "best_seller_grid",
@@ -2445,7 +2445,7 @@
         "home",
         "Home & Kitchen"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B007FJ0FJU?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B007FJ0FJU?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-24",
       "verified_method": "best_seller_grid",
@@ -2461,7 +2461,7 @@
         "home",
         "Bath"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B09ZKYQMVD?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B09ZKYQMVD?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-24",
       "verified_method": "best_seller_grid",
@@ -2477,7 +2477,7 @@
         "home",
         "Storage & Organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B079M8FPTW?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B079M8FPTW?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-25",
       "verified_method": "best_seller_grid",
@@ -2493,7 +2493,7 @@
         "home",
         "Storage & Organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0GYF91BXB?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0GYF91BXB?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-25",
       "verified_method": "best_seller_grid",
@@ -2509,7 +2509,7 @@
         "home",
         "Bath"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B09CYLLTJL?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B09CYLLTJL?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-25",
       "verified_method": "best_seller_grid",
@@ -2525,7 +2525,7 @@
         "home",
         "Storage & Organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0711RQMNF?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0711RQMNF?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-25",
       "verified_method": "best_seller_grid",
@@ -2541,7 +2541,7 @@
         "home",
         "Storage & Organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0753NHZVQ?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0753NHZVQ?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-25",
       "verified_method": "best_seller_grid",
@@ -2557,7 +2557,7 @@
         "home",
         "Storage & Organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B075QKDKMV?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B075QKDKMV?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-25",
       "verified_method": "best_seller_grid",
@@ -2573,7 +2573,7 @@
         "home",
         "Storage & Organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0F2BF31PW?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0F2BF31PW?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-25",
       "verified_method": "best_seller_grid",
@@ -2589,7 +2589,7 @@
         "home",
         "Storage & Organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B083SCJ8G8?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B083SCJ8G8?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-25",
       "verified_method": "best_seller_grid",
@@ -2605,7 +2605,7 @@
         "home",
         "Storage & Organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B06X421WJ6?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B06X421WJ6?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-25",
       "verified_method": "best_seller_grid",
@@ -2621,7 +2621,7 @@
         "home",
         "Storage & Organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B086WNKLTM?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B086WNKLTM?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-25",
       "verified_method": "best_seller_grid",
@@ -2637,7 +2637,7 @@
         "home",
         "Storage & Organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B09WGL2PYY?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B09WGL2PYY?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-25",
       "verified_method": "best_seller_grid",
@@ -2653,7 +2653,7 @@
         "home",
         "Storage & Organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0C9FR5FD8?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0C9FR5FD8?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-25",
       "verified_method": "best_seller_grid",
@@ -2669,7 +2669,7 @@
         "home",
         "Storage & Organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0D8J2ZB8P?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0D8J2ZB8P?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-25",
       "verified_method": "best_seller_grid",
@@ -2685,7 +2685,7 @@
         "home",
         "Storage & Organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0B2F55P76?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0B2F55P76?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-25",
       "verified_method": "best_seller_grid",
@@ -2701,7 +2701,7 @@
         "home",
         "Bath"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0CXT9YZ24?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0CXT9YZ24?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-25",
       "verified_method": "best_seller_grid",
@@ -2717,7 +2717,7 @@
         "kitchen",
         "Kitchen Storage"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B00S93EQUK?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B00S93EQUK?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-26",
       "verified_method": "best_seller_grid",
@@ -2733,7 +2733,7 @@
         "kitchen",
         "Kitchen Storage"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B06X9NQ8GX?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B06X9NQ8GX?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-26",
       "verified_method": "best_seller_grid",
@@ -2749,7 +2749,7 @@
         "kitchen",
         "Kitchen & Dining"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0GSH7JDR8?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0GSH7JDR8?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-26",
       "verified_method": "best_seller_grid",
@@ -2765,7 +2765,7 @@
         "kitchen",
         "Kitchen Storage"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B07YP2VH4B?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B07YP2VH4B?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-26",
       "verified_method": "best_seller_grid",
@@ -2781,7 +2781,7 @@
         "kitchen",
         "Kitchen Storage"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B07WMQP4SF?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B07WMQP4SF?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-26",
       "verified_method": "best_seller_grid",
@@ -2797,7 +2797,7 @@
         "kitchen",
         "Kitchen Storage"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0D3W6XGLR?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0D3W6XGLR?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-26",
       "verified_method": "best_seller_grid",
@@ -2813,7 +2813,7 @@
         "kitchen",
         "Kitchen Storage"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B08B115T54?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B08B115T54?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-26",
       "verified_method": "best_seller_grid",
@@ -2829,7 +2829,7 @@
         "kitchen",
         "Kitchen Storage"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B08HLM5QCS?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B08HLM5QCS?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-26",
       "verified_method": "best_seller_grid",
@@ -2845,7 +2845,7 @@
         "kitchen",
         "Kitchen Storage"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0H1YJM5W8?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0H1YJM5W8?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-26",
       "verified_method": "best_seller_grid",
@@ -2861,7 +2861,7 @@
         "kitchen",
         "Kitchen Storage"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0C6Y8NYK1?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0C6Y8NYK1?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-26",
       "verified_method": "best_seller_grid",
@@ -2877,7 +2877,7 @@
         "kitchen",
         "Kitchen Storage"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0D8PSDMYH?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0D8PSDMYH?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-26",
       "verified_method": "best_seller_grid",
@@ -2893,7 +2893,7 @@
         "kitchen",
         "Kitchen Storage"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B08FLKHG8J?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B08FLKHG8J?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-26",
       "verified_method": "best_seller_grid",
@@ -2909,7 +2909,7 @@
         "kitchen",
         "Kitchen Storage"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0B2P4P2R4?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0B2P4P2R4?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-26",
       "verified_method": "best_seller_grid",
@@ -2925,7 +2925,7 @@
         "kitchen",
         "Kitchen Storage"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0DR9PMK1W?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0DR9PMK1W?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-26",
       "verified_method": "best_seller_grid",
@@ -2941,7 +2941,7 @@
         "home",
         "Storage & Organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B071G5BSZV?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B071G5BSZV?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-27",
       "verified_method": "best_seller_grid",
@@ -2957,7 +2957,7 @@
         "home",
         "Storage & Organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B08NCNLL3Q?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B08NCNLL3Q?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-27",
       "verified_method": "best_seller_grid",
@@ -2973,7 +2973,7 @@
         "home",
         "Bath"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B078YNC9G9?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B078YNC9G9?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-27",
       "verified_method": "best_seller_grid",
@@ -2989,7 +2989,7 @@
         "kitchen",
         "Kitchen Storage"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B08CVV7Z5H?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B08CVV7Z5H?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-28",
       "verified_method": "best_seller_grid",
@@ -3005,7 +3005,7 @@
         "home",
         "Furniture"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B07SHFPD8S?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B07SHFPD8S?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-28",
       "verified_method": "best_seller_grid",
@@ -3021,7 +3021,7 @@
         "home",
         "Furniture"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B01KBEOL5E?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B01KBEOL5E?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-28",
       "verified_method": "best_seller_grid",
@@ -3037,7 +3037,7 @@
         "home",
         "Furniture"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B014WOXB6O?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B014WOXB6O?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-28",
       "verified_method": "best_seller_grid",
@@ -3053,7 +3053,7 @@
         "home",
         "Furniture"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0CSK16X7B?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0CSK16X7B?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-28",
       "verified_method": "best_seller_grid",
@@ -3069,7 +3069,7 @@
         "home",
         "Furniture"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B08Q7MMJHH?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B08Q7MMJHH?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-28",
       "verified_method": "best_seller_grid",
@@ -3085,7 +3085,7 @@
         "home",
         "Bath"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B007JCHA6E?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B007JCHA6E?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-28",
       "verified_method": "best_seller_grid",
@@ -3101,7 +3101,7 @@
         "kitchen",
         "Kitchen Storage"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0CBM682SQ?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0CBM682SQ?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-28",
       "verified_method": "best_seller_grid",
@@ -3117,7 +3117,7 @@
         "home",
         "Furniture"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B00NKYYMAW?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B00NKYYMAW?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-28",
       "verified_method": "best_seller_grid",
@@ -3133,7 +3133,7 @@
         "home",
         "Furniture"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B09472RY19?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B09472RY19?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-28",
       "verified_method": "best_seller_grid",
@@ -3149,7 +3149,7 @@
         "home",
         "Furniture"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B094FPRBQ6?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B094FPRBQ6?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-28",
       "verified_method": "best_seller_grid",
@@ -3165,7 +3165,7 @@
         "kitchen",
         "Kitchen Storage"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0C3NKW6F1?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0C3NKW6F1?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-28",
       "verified_method": "best_seller_grid",
@@ -3181,7 +3181,7 @@
         "kitchen",
         "Kitchen & Dining"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0FFTL7QNC?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0FFTL7QNC?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-29",
       "verified_method": "best_seller_grid",
@@ -3197,7 +3197,7 @@
         "home",
         "Furniture"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B071JB9SC8?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B071JB9SC8?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-29",
       "verified_method": "best_seller_grid",
@@ -3213,7 +3213,7 @@
         "home",
         "Furniture"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B09GS5LVTJ?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B09GS5LVTJ?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-29",
       "verified_method": "best_seller_grid",
@@ -3230,7 +3230,7 @@
         "college",
         "organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0DG63C2M5?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0DG63C2M5?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-30",
       "verified_method": "source_dorm/search+dp",
@@ -3247,7 +3247,7 @@
         "college",
         "organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B00DQVR6WA?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B00DQVR6WA?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-30",
       "verified_method": "source_dorm/search+dp",
@@ -3264,7 +3264,7 @@
         "college",
         "organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0DNF65DK1?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0DNF65DK1?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-30",
       "verified_method": "source_dorm/search+dp",
@@ -3281,7 +3281,7 @@
         "college",
         "organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0D3LSTZHV?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0D3LSTZHV?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-30",
       "verified_method": "source_dorm/search+dp",
@@ -3298,7 +3298,7 @@
         "college",
         "organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B00MGB4YRQ?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B00MGB4YRQ?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-30",
       "verified_method": "source_dorm/search+dp",
@@ -3314,7 +3314,7 @@
         "home",
         "Home & Kitchen"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B00730QW70?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B00730QW70?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-30",
       "verified_method": "best_seller_grid",
@@ -3330,7 +3330,7 @@
         "home",
         "Storage & Organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0DF3M7V3T?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0DF3M7V3T?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-31",
       "verified_method": "best_seller_grid",
@@ -3346,7 +3346,7 @@
         "home",
         "Cleaning Supplies"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B07ZGHZVRY?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B07ZGHZVRY?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-31",
       "verified_method": "best_seller_grid",
@@ -3362,7 +3362,7 @@
         "home",
         "Bath"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B09YR5SWNY?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B09YR5SWNY?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-08-31",
       "verified_method": "best_seller_grid",
@@ -3378,7 +3378,7 @@
         "kitchen",
         "Kitchen Storage"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0DF472VMZ?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0DF472VMZ?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-01",
       "verified_method": "best_seller_grid",
@@ -3394,7 +3394,7 @@
         "kitchen",
         "Kitchen Storage"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B08CVVNQ1G?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B08CVVNQ1G?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-01",
       "verified_method": "best_seller_grid",
@@ -3411,7 +3411,7 @@
         "college",
         "organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B00MH74S16?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B00MH74S16?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-02",
       "verified_method": "source_dorm/search+dp",
@@ -3428,7 +3428,7 @@
         "college",
         "organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B00KXB032Q?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B00KXB032Q?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-02",
       "verified_method": "source_dorm/search+dp",
@@ -3445,7 +3445,7 @@
         "college",
         "organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0DG7XXMV7?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0DG7XXMV7?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-02",
       "verified_method": "source_dorm/search+dp",
@@ -3462,7 +3462,7 @@
         "college",
         "organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0F373KBDG?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0F373KBDG?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-02",
       "verified_method": "source_dorm/search+dp",
@@ -3479,7 +3479,7 @@
         "college",
         "organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0F1MY38VR?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0F1MY38VR?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-02",
       "verified_method": "source_dorm/search+dp",
@@ -3495,7 +3495,7 @@
         "home",
         "Home & Kitchen"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B000BQMOF2?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B000BQMOF2?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-02",
       "verified_method": "best_seller_grid",
@@ -3511,7 +3511,7 @@
         "kitchen",
         "Kitchen & Dining"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B00004SU18?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B00004SU18?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-02",
       "verified_method": "best_seller_grid",
@@ -3527,7 +3527,7 @@
         "home",
         "Home & Kitchen"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B07HC2WHS1?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B07HC2WHS1?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-02",
       "verified_method": "best_seller_grid",
@@ -3543,7 +3543,7 @@
         "kitchen",
         "Kitchen & Dining"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0GSSM82HV?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0GSSM82HV?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-02",
       "verified_method": "best_seller_grid",
@@ -3559,7 +3559,7 @@
         "home",
         "Storage & Organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0112W79N0?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0112W79N0?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-03",
       "verified_method": "best_seller_grid",
@@ -3575,7 +3575,7 @@
         "home",
         "Storage & Organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0GC9JRS7N?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0GC9JRS7N?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-03",
       "verified_method": "best_seller_grid",
@@ -3591,7 +3591,7 @@
         "home",
         "Storage & Organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B09KT67BL1?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B09KT67BL1?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-03",
       "verified_method": "best_seller_grid",
@@ -3607,7 +3607,7 @@
         "home",
         "Home D\u00e9cor"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0DZFGTCLR?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0DZFGTCLR?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-04",
       "verified_method": "best_seller_grid",
@@ -3623,7 +3623,7 @@
         "home",
         "Storage & Organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0DR9PRNDS?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0DR9PRNDS?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-05",
       "verified_method": "best_seller_grid",
@@ -3639,7 +3639,7 @@
         "kitchen",
         "Kitchen Storage"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0GCBFHCXH?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0GCBFHCXH?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-05",
       "verified_method": "best_seller_grid",
@@ -3655,7 +3655,7 @@
         "home",
         "Storage & Organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B07GYLFFVR?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B07GYLFFVR?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-05",
       "verified_method": "best_seller_grid",
@@ -3671,7 +3671,7 @@
         "kitchen",
         "Kitchen Storage"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B073WJMKHN?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B073WJMKHN?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-05",
       "verified_method": "best_seller_grid",
@@ -3687,7 +3687,7 @@
         "home",
         "Furniture"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B09DCSGK84?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B09DCSGK84?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-05",
       "verified_method": "best_seller_grid",
@@ -3703,7 +3703,7 @@
         "kitchen",
         "Kitchen Storage"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0FB7LKQXV?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0FB7LKQXV?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-06",
       "verified_method": "best_seller_grid",
@@ -3719,7 +3719,7 @@
         "kitchen",
         "Kitchen Storage"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0DNGDKF3Q?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0DNGDKF3Q?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-06",
       "verified_method": "best_seller_grid",
@@ -3735,7 +3735,7 @@
         "kitchen",
         "Kitchen Storage"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0F5X4FM3Q?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0F5X4FM3Q?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-06",
       "verified_method": "best_seller_grid",
@@ -3751,7 +3751,7 @@
         "kitchen",
         "Kitchen Storage"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0FB7RPM1G?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0FB7RPM1G?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-07",
       "verified_method": "best_seller_grid",
@@ -3767,7 +3767,7 @@
         "home",
         "Furniture"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B00SFSU53G?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B00SFSU53G?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-07",
       "verified_method": "best_seller_grid",
@@ -3784,7 +3784,7 @@
         "college",
         "organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B073WFCV1L?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B073WFCV1L?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-08",
       "verified_method": "source_dorm/search+dp",
@@ -3800,7 +3800,7 @@
         "kitchen",
         "Kitchen & Dining"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0000CF98Q?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0000CF98Q?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-08",
       "verified_method": "best_seller_grid",
@@ -3816,7 +3816,7 @@
         "home",
         "Home & Kitchen"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B01N0TGJHB?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B01N0TGJHB?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-08",
       "verified_method": "best_seller_grid",
@@ -3832,7 +3832,7 @@
         "home",
         "Home D\u00e9cor"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B08B555PFG?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B08B555PFG?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-08",
       "verified_method": "best_seller_grid",
@@ -3848,7 +3848,7 @@
         "home",
         "Bath"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0CFLFT81D?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0CFLFT81D?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-08",
       "verified_method": "best_seller_grid",
@@ -3864,7 +3864,7 @@
         "home",
         "Furniture"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B07FKX3H1H?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B07FKX3H1H?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-09",
       "verified_method": "best_seller_grid",
@@ -3880,7 +3880,7 @@
         "home",
         "Furniture"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0B9H92YBW?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0B9H92YBW?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-09",
       "verified_method": "best_seller_grid",
@@ -3896,7 +3896,7 @@
         "home",
         "Home D\u00e9cor"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0108XRHJU?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0108XRHJU?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-09",
       "verified_method": "best_seller_grid",
@@ -3912,7 +3912,7 @@
         "home",
         "Storage & Organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B07Y3BX6FN?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B07Y3BX6FN?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-10",
       "verified_method": "best_seller_grid",
@@ -3928,7 +3928,7 @@
         "home",
         "Storage & Organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0F69RCQJK?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0F69RCQJK?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-10",
       "verified_method": "best_seller_grid",
@@ -3944,7 +3944,7 @@
         "home",
         "Furniture"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B08VHTFXP9?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B08VHTFXP9?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-11",
       "verified_method": "best_seller_grid",
@@ -3961,7 +3961,7 @@
         "college",
         "organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0CYZXN11R?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0CYZXN11R?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-12",
       "verified_method": "source_dorm/search+dp",
@@ -3977,7 +3977,7 @@
         "home",
         "Home & Kitchen"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B00OCGUG02?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B00OCGUG02?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-12",
       "verified_method": "best_seller_grid",
@@ -3993,7 +3993,7 @@
         "kitchen",
         "Kitchen Storage"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0CPM4L1JS?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0CPM4L1JS?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-12",
       "verified_method": "best_seller_grid",
@@ -4009,7 +4009,7 @@
         "kitchen",
         "Kitchen Storage"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B07PZF3QS3?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B07PZF3QS3?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-12",
       "verified_method": "best_seller_grid",
@@ -4025,7 +4025,7 @@
         "kitchen",
         "Kitchen Storage"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0764HS4SL?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0764HS4SL?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-12",
       "verified_method": "best_seller_grid",
@@ -4041,7 +4041,7 @@
         "home",
         "Home & Kitchen"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0BPLB81LX?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0BPLB81LX?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-13",
       "verified_method": "best_seller_grid",
@@ -4057,7 +4057,7 @@
         "home",
         "Cleaning Supplies"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0BFLJWCX4?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0BFLJWCX4?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-13",
       "verified_method": "best_seller_grid",
@@ -4073,7 +4073,7 @@
         "home",
         "Home & Kitchen"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0C1NM42PN?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0C1NM42PN?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-14",
       "verified_method": "best_seller_grid",
@@ -4089,7 +4089,7 @@
         "kitchen",
         "Kitchen Storage"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0DCDZP98B?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0DCDZP98B?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-14",
       "verified_method": "best_seller_grid",
@@ -4105,7 +4105,7 @@
         "kitchen",
         "Kitchen Storage"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0B27MDKXD?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0B27MDKXD?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-14",
       "verified_method": "best_seller_grid",
@@ -4121,7 +4121,7 @@
         "kitchen",
         "Kitchen Storage"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0DBDKT4QC?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0DBDKT4QC?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-14",
       "verified_method": "best_seller_grid",
@@ -4137,7 +4137,7 @@
         "kitchen",
         "Kitchen Storage"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0BYB99QZQ?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0BYB99QZQ?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-14",
       "verified_method": "best_seller_grid",
@@ -4153,7 +4153,7 @@
         "kitchen",
         "Kitchen Storage"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B07N9JTJ6K?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B07N9JTJ6K?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-14",
       "verified_method": "best_seller_grid",
@@ -4169,7 +4169,7 @@
         "home",
         "Furniture"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B01JRNIWJG?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B01JRNIWJG?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-14",
       "verified_method": "best_seller_grid",
@@ -4185,7 +4185,7 @@
         "kitchen",
         "Kitchen Storage"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B08N9Q24M9?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B08N9Q24M9?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-15",
       "verified_method": "best_seller_grid",
@@ -4201,7 +4201,7 @@
         "home",
         "Storage & Organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B00H7P1GPO?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B00H7P1GPO?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-17",
       "verified_method": "best_seller_grid",
@@ -4217,7 +4217,7 @@
         "home",
         "Home & Kitchen"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0DLN1B4MJ?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0DLN1B4MJ?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-17",
       "verified_method": "best_seller_grid",
@@ -4234,7 +4234,7 @@
         "college",
         "organization"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0DJ2YHVFH?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0DJ2YHVFH?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-18",
       "verified_method": "source_dorm/search+dp",
@@ -4250,7 +4250,7 @@
         "kitchen",
         "Kitchen Storage"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B07D3BFY6R?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B07D3BFY6R?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-18",
       "verified_method": "best_seller_grid",
@@ -4266,7 +4266,7 @@
         "kitchen",
         "Kitchen & Dining"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0798CX2Q9?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0798CX2Q9?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-18",
       "verified_method": "best_seller_grid",
@@ -4282,7 +4282,7 @@
         "kitchen",
         "Kitchen Storage"
       ],
-      "affiliate_url": "https://www.amazon.com/dp/B0F5V316HG?tag=goldenhomep06-20",
+      "affiliate_url": "https://www.amazon.com/dp/B0F5V316HG?tag=goldenhomep0a-20",
       "status": "live",
       "verified_at": "2026-09-18",
       "verified_method": "best_seller_grid",

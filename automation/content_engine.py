@@ -55,7 +55,7 @@ QUEUE_PATH = SOCIAL_DIR / "post_queue.json"
 DM_REGISTRY_PATH = SOCIAL_DIR / "dm_keyword_registry.json"
 COPY_LIBRARY_PATH = SOCIAL_DIR / "copy_library.json"
 
-AMAZON_TAG = "goldenhomep06-20"
+AMAZON_TAG = "goldenhomep0a-20"
 DAILY_SCRIPT_COUNT = 3
 
 

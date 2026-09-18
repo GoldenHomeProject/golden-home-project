@@ -29,7 +29,7 @@ POSTS_DIR = BLOG_DIR / "posts"
 POSTS_DIR.mkdir(parents=True, exist_ok=True)
 TREND_FEED = ROOT / "social" / "trend_feed.json"
 
-AMAZON_TAG = "goldenhomep06-20"
+AMAZON_TAG = "goldenhomep0a-20"
 SITE_URL = "https://goldenhomeproject.com"
 
 SYSTEM_PROMPT = """You are the SEO Blog Writer for Golden Home Project LLC.

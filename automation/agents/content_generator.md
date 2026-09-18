@@ -77,8 +77,8 @@ Skipping any of these produces generic content that the algorithm demotes.
 
 ## Affiliate Integration
 ### Amazon Tag
-Always use: goldenhomep06-20
-Link format: https://www.amazon.com/dp/[ASIN]?tag=goldenhomep06-20
+Always use: goldenhomep0a-20
+Link format: https://www.amazon.com/dp/[ASIN]?tag=goldenhomep0a-20
 
 ### impact.com Brand Links
 Use brand-specific tracking links from `automation/affiliate_links.md`

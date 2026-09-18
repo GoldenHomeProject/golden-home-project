@@ -18,7 +18,7 @@ Run modes:
   python trending_daily.py --dry-run       # scrape + pick, print picks, write nothing
 
 Guardrails (see feedback_ghp_trending_not_evergreen / _intent_not_volume / dead-ASIN):
-  * Only /dp/<ASIN>?tag=goldenhomep06-20 URLs — ASINs come straight off the live
+  * Only /dp/<ASIN>?tag=goldenhomep0a-20 URLs — ASINs come straight off the live
     best-seller grid (Amazon-native proof they exist), never fabricated.
   * Real scraped rating/review counts only — never invent ratings.
 """
@@ -40,7 +40,7 @@ BLOG_POSTS = ROOT / "blog" / "posts"
 BLOG_INDEX = ROOT / "blog" / "index.html"
 PICKS_DIR = ROOT / "social"
 HISTORY = ROOT / "social" / "trending_featured_history.json"
-AFFIL_TAG = "goldenhomep06-20"
+AFFIL_TAG = "goldenhomep0a-20"
 
 # Public best-seller category nodes (no login needed). Rotated by weekday so the
 # theme varies across the week without repeating.

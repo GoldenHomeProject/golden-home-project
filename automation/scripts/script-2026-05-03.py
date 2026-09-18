@@ -14,10 +14,10 @@ Spoiler: the robot won in 3 out of 4 categories.
 
 Products featured:
 1. Dreame L10s Ultra Robot Vacuum (SALE: $299, was $799) — https://www.dreametech.com/pages/easter-sale-2026
-2. Budget Robot Vacuum ($35 Amazon) — https://www.amazon.com/dp/B0EXAMPLE5?tag=goldenhomep06-20
+2. Budget Robot Vacuum ($35 Amazon) — https://www.amazon.com/dp/B0EXAMPLE5?tag=goldenhomep0a-20
 3. Dreame H12 Pro Wet Dry Vacuum ($249) — https://www.dreametech.com/pages/easter-sale-2026
 4. Microfiber Mop Pads Replacement (12-pack) — $14
-   https://www.amazon.com/dp/B0EXAMPLE6?tag=goldenhomep06-20
+   https://www.amazon.com/dp/B0EXAMPLE6?tag=goldenhomep0a-20
 
 Dreame Easter Sale: Up to 60% off through April 12!
 
@@ -44,10 +44,10 @@ FRAMES = [
 ]
 
 PRODUCTS = [
-    {"name": "Budget Robot Vacuum", "price": 35, "asin": "B0EXAMPLE5", "tag": "goldenhomep06-20"},
+    {"name": "Budget Robot Vacuum", "price": 35, "asin": "B0EXAMPLE5", "tag": "goldenhomep0a-20"},
     {"name": "Dreame L10s Ultra", "price": 299, "source": "dreame", "commission": "5%+", "note": "Easter Sale — was $799"},
     {"name": "Dreame H12 Pro", "price": 249, "source": "dreame", "commission": "5%+"},
-    {"name": "Microfiber Mop Pads 12-pack", "price": 14, "asin": "B0EXAMPLE6", "tag": "goldenhomep06-20"},
+    {"name": "Microfiber Mop Pads 12-pack", "price": 14, "asin": "B0EXAMPLE6", "tag": "goldenhomep0a-20"},
 ]
 
 if __name__ == "__main__":
