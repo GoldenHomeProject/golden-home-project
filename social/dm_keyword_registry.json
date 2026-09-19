@@ -696,6 +696,18 @@
       "source": "trending",
       "keyword": "LONG",
       "promoted_at": "2026-09-18T12:20:38Z"
+    },
+    {
+      "asin": "B00MRH9NCK",
+      "product_name": "Waterproof Twin Size Mattress Protector fits Upto 15\" Deep Pocket",
+      "categories": [],
+      "status": "live",
+      "verified_price": "$12.99",
+      "verified_stars": "4.5",
+      "verified_reviews": 106545,
+      "source": "trending",
+      "keyword": "WATERPROOF",
+      "promoted_at": "2026-09-19T12:20:31Z"
     }
   ],
   "_vetted_doc": "Verified-live Amazon ASINs cleared for blog/SEO/IG-caption use but NOT yet wired to a Meta comment-to-DM automation. Promote to `entries` (with a unique keyword) only AFTER creating the matching Meta Business Suite automation. Always use https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20 \u2014 never search URLs.",
@@ -2020,22 +2032,6 @@
       "verified_price": "$12.79",
       "verified_stars": "4.5",
       "verified_reviews": 30525,
-      "discovery_source": "harvest_catalogue"
-    },
-    {
-      "asin": "B00MRH9NCK",
-      "product_name": "Waterproof Twin Size Mattress Protector fits Upto 15\" Deep Pocket | Utopia Bedding 200 GSM Soft & Breathable Mattress Co",
-      "categories": [
-        "home",
-        "Home & Kitchen"
-      ],
-      "affiliate_url": "https://www.amazon.com/dp/B00MRH9NCK?tag=goldenhomep0a-20",
-      "status": "live",
-      "verified_at": "2026-08-23",
-      "verified_method": "best_seller_grid",
-      "verified_price": "$11.72",
-      "verified_stars": "4.5",
-      "verified_reviews": 105628,
       "discovery_source": "harvest_catalogue"
     },
     {
