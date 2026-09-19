@@ -7081,10 +7081,10 @@
   },
   {
     "name": "reel_2026-09-19_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-09-19-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-19-001.mp4",
     "caption": "133,371 people rated these blackout curtains before you even looked at them.\n\nA window with weak curtains lets in every streetlight and sunrise. These are 42 inches wide by 63 inches long, sold as a 2-panel set in black, built specifically to block that light out.\n\nThe product blocks outside light by design, and a 4.6-star average across 133,371 reviews is not a number small batches of buyers produce \u2014 it reflects a huge, sustained customer base rating the same result consistently.\n\nFor a bedroom window that size, you get a rated blackout solution most people are satisfied with, at $9.98.\n\nComment LONG and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -7101,22 +7101,7 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "133,371 people rated these blackout curtains before you even looked at them."
-  },
-  {
-    "id": "carousel-2026-09-19-B08CRPWQHB",
-    "media_type": "CAROUSEL_ALBUM",
-    "image_urls": [
-      "https://goldenhomeproject.com/social/carousels/2026-09-19-B08CRPWQHB/slide-1.png",
-      "https://goldenhomeproject.com/social/carousels/2026-09-19-B08CRPWQHB/slide-2.png",
-      "https://goldenhomeproject.com/social/carousels/2026-09-19-B08CRPWQHB/slide-3.png",
-      "https://goldenhomeproject.com/social/carousels/2026-09-19-B08CRPWQHB/slide-4.png",
-      "https://goldenhomeproject.com/social/carousels/2026-09-19-B08CRPWQHB/slide-5.png"
-    ],
-    "caption": "A moldy liner isn't bad luck \u2014 it's just vinyl that never dries between showers.\n\nSave this for your next bathroom reset: PEVA over PVC, magnetized hems, and oversized sizing for clawfoot or corner tubs solve three different curtain problems most people just live with.\n\nComment LINK or DM me LINK for the link.\n\n#bathroomorganization #rentersfriendly #smallbathroomideas #bathroomrefresh",
-    "asin": "B08CRPWQHB",
-    "keyword": "LINK",
-    "queued_at": "2026-09-19T11:43:35.929288Z",
-    "source": "carousel_generator"
+    "hook": "133,371 people rated these blackout curtains before you even looked at them.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-19-001.mp4"
   }
 ]
