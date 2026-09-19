@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-09-19 (Strategy & Outreach 9am)
+# Last updated: 2026-09-19 (Affiliate Optimizer 10am)
 # ============================================================
 
 ---
@@ -795,7 +795,7 @@ Agent configs live in `/private/tmp/golden-home-project/automation/agents/`.
 - [ ] **Tribesigns — IAN: accept via Awin browser dashboard** — Invited Sep 14 (Awin). Industrial bookshelves/shelving units/home office desks — ON-NICHE confirmed. $80-200 AOV. Fits "closet-to-boutique" and home office reset content. Accept immediately — invited programs have higher approval probability. (Strategy & Outreach 2026-09-15)
 - [ ] **FED Fitness US — IAN: decline via Awin browser dashboard** — Invited Sep 15 (Awin, 11:16 UTC). OFF-NICHE fitness equipment. Same pattern as HealSend/CICYBELL/Everblog — email to help@awin.com bounces, must decline via browser. (Email Monitor / Strategy 2026-09-15)
 - [ ] **Ruggable follow-up (2026-09-22)** — Follow-up sent 2026-09-15 (msg 1a0a52e9d6186fa6) to affiliates@ruggable.com — 14 days since Sep 1 original pitch, fall cozy room reset angle. If still no reply by Sep 22, try ruggable.com contact form or search LinkedIn for partnerships contact. High-AOV ($99-299), renter-safe = perfect for fall content.
-- [ ] **Tempaper marketing team contact — expected by Sep 15-19** — Alyssa Haley Sep 14 reply: "marketing team will be in touch by end of this week." If no contact by Sep 19, Strategy & Outreach should send a final follow-up with a specific content proposal. IAN: apply via Awin publisher portal NOW (don't wait for marketing reply) to activate tracking links immediately.
+- [x] **Tempaper marketing team DID contact us Sep 16** — Samantha Lins (Brand Manager) replied Sep 16: prioritizing Instagram, saved our info if strategy switches to YouTube. Email Monitor pivoted to Instagram Reel offer (msg 1a0af499ae7e2d1b, Sep 17). Waiting on Samantha's reply. Next step: if no reply by Sep 26, follow up with Samantha directly. IAN: apply via Awin publisher portal NOW for tracking links regardless of collab status.
 - [ ] **Seville Classics final follow-up (2026-09-22)** — Follow-up sent Sep 15 (msg 1a0a52e80ba1f2bc). If no reply by Sep 22, join FlexOffers affiliate program directly (search "Seville Classics" on flexoffers.com) for tracking links without direct brand reply.
 
 ---
