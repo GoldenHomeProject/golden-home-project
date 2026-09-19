@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-19T09:53:44.720495Z",
+  "date": "2026-09-19",
+  "seq": 1,
+  "hook_category": "proof",
+  "hook": "133,371 people rated these blackout curtains before you even looked at them.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of a bedroom window with thin curtains letting in bright morning light",
+      "on_screen_text": "133,371 RATINGS",
+      "voiceover": "Over one hundred thirty three thousand people have rated these curtains."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Hand pulling closed a pair of black blackout curtain panels across a window",
+      "on_screen_text": "42\" X 63\" 2-PANEL",
+      "voiceover": "NICETOWN's black blackout curtains come as a two-panel set, 42 inches wide, 63 inches long."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Split screen: room in daylight glare on one side, same room darkened with curtains closed on the other",
+      "on_screen_text": "BLOCKS LIGHT",
+      "voiceover": "They're made to block outside light from a bedroom window."
+    },
+    {
+      "n": 4,
+      "duration_sec": 5,
+      "visual_prompt": "Star rating graphic overlay, 4.6 out of 5, animating in over the curtain shot",
+      "on_screen_text": "4.6 STARS",
+      "voiceover": "A 4.6-star average across that many reviews isn't a fluke \u2014 it's a pattern across a huge number of buyers."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Final shot of the closed black curtains with a price tag graphic appearing",
+      "on_screen_text": "$9.98",
+      "voiceover": "These blackout curtains are $9.98."
+    }
+  ],
+  "caption": "133,371 people rated these blackout curtains before you even looked at them.\n\nA window with weak curtains lets in every streetlight and sunrise. These are 42 inches wide by 63 inches long, sold as a 2-panel set in black, built specifically to block that light out.\n\nThe product blocks outside light by design, and a 4.6-star average across 133,371 reviews is not a number small batches of buyers produce \u2014 it reflects a huge, sustained customer base rating the same result consistently.\n\nFor a bedroom window that size, you get a rated blackout solution most people are satisfied with, at $9.98.\n\nComment LONG and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "The product blocks outside light by design, and a 4.6-star average across 133,371 reviews is not a number small batches of buyers produce \u2014 it reflects a huge, sustained customer base rating the same ",
+  "affiliate_strategy": {
+    "primary_product": "NICETOWN Black Blackout Curtains for Bedroom 42\" Wide x 63\" Long 2 Pan",
+    "dm_keyword": "LONG",
+    "amazon_asin": "B01CS31R94",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B01CS31R94?tag=goldenhomep0a-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": null
+  }
+}
