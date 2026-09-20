@@ -4409,10 +4409,9 @@
     "image_path": "social/pinterest/pin-2026-09-19-B07ZH3QVSV.png",
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-09-19-B07ZH3QVSV.png",
     "queued_at": "2026-09-19T10:10:44.937052Z",
-    "posted": true,
+    "posted": false,
     "source": "pinterest_pipeline",
-    "drop_observed_to": null,
-    "posted_at": "2026-09-20T13:41:41Z"
+    "drop_observed_to": null
   },
   {
     "id": "pin-2026-09-19-B077RPXSF3",
@@ -4615,5 +4614,61 @@
     "posted": false,
     "source": "pinterest_pipeline",
     "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-09-20-B01HI1W1V4",
+    "asin": "B01HI1W1V4",
+    "board": "Bathroom Storage Ideas",
+    "title": "Price drop $19.88 -> $16.87: Bathroom Scale Storage Idea: Slim Digital Scale That Tucks Away, $19.88",
+    "description": "Tracked daily: this was $19.88 on 2026-09-05 and $16.87 on 2026-09-16 (15% lower). Amazon prices move, so check the live listing. Looking for a bathroom scale that doesn't take up floor space? The Etekcity Digital Body Weight Bathroom Scale has a low-profile design that slides under a vanity, into a narrow cabinet gap, or behind a door - a fit for small or shared bathrooms where every inch of storage counts. Currently tracked at $19.88. Tap through for the current price and full details before i",
+    "link": "https://www.amazon.com/dp/B01HI1W1V4?tag=goldenhomep0a-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-09-20-B01HI1W1V4.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-09-20-B01HI1W1V4.png",
+    "queued_at": "2026-09-20T13:41:04.733704Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": "2026-09-16"
+  },
+  {
+    "id": "pin-2026-09-20-B01NBNDC1T",
+    "asin": "B01NBNDC1T",
+    "board": "Bedroom Storage & Bedding",
+    "title": "Price drop $16.49 -> $12.91: 18x18 Pillow Inserts With 219,000+ Reviews (4.6 Stars)",
+    "description": "Tracked daily: this was $16.49 on 2026-09-14 and $12.91 on 2026-09-18 (22% lower). Amazon prices move, so check the live listing. Utopia Bedding's 18x18 pillow inserts hold a 4.6-star average across more than 219,000 Amazon ratings, among the most-reviewed inserts in the bedding category. At $13.49, they're sized to fill standard 18x18 throw pillow covers for beds, sofas, or reading nooks without looking flat. Check current stock and pricing before pairing with covers. Amazon affiliate \u2014 small c",
+    "link": "https://www.amazon.com/dp/B01NBNDC1T?tag=goldenhomep0a-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-09-20-B01NBNDC1T.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-09-20-B01NBNDC1T.png",
+    "queued_at": "2026-09-20T13:41:50.761356Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": "2026-09-18"
+  },
+  {
+    "id": "pin-2026-09-20-B0725WFLMB",
+    "asin": "B0725WFLMB",
+    "board": "Bedroom Storage & Bedding",
+    "title": "Price drop $6.99 -> $5.99: Satin Pillowcase Queen Set of 2 - Cooling Silk-Like Pillow Covers with En",
+    "description": "Tracked daily: this was $6.99 on 2026-09-07 and $5.99 on 2026-09-18 (14% lower). Amazon prices move, so check the live listing. This Bedsure satin pillowcase set (queen, set of 2) uses a silk-like finish designed to feel cool against skin and reduce friction on hair overnight. Each cover closes with an envelope opening to keep the pillow secured, and the tracked price currently sits at $6.99 for the pair. Pin this for a quick, low-cost bedroom refresh. Amazon affiliate \u2014 small commission at no e",
+    "link": "https://www.amazon.com/dp/B0725WFLMB?tag=goldenhomep0a-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-09-20-B0725WFLMB.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-09-20-B0725WFLMB.png",
+    "queued_at": "2026-09-20T13:42:18.817408Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": "2026-09-18"
+  },
+  {
+    "id": "pin-2026-09-20-B00P7VW2H6",
+    "asin": "B00P7VW2H6",
+    "board": "Home Organization Finds",
+    "title": "Price drop $15.23 -> $13.97: Home Organization Ideas: Clorox Toilet Plunger with Hideaway Holder Cad",
+    "description": "Tracked daily: this was $15.23 on 2026-09-05 and $13.97 on 2026-09-16 (8% lower). Amazon prices move, so check the live listing. Clorox Toilet Plunger with Hideaway Holder Caddy\u2026 for home organization ideas. Rated 4.5\u2605 across 18,336 reviews \u00b7 $13.97. Prices were accurate when this was published and change often. Tap through for the current listing. Amazon affiliate link \u2014 we may earn a commission at no extra cost to you.",
+    "link": "https://goldenhomeproject.com/blog/posts/best-bathroom-essentials.html",
+    "image_path": "social/pinterest/pin-2026-09-20-B00P7VW2H6.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-09-20-B00P7VW2H6.png",
+    "queued_at": "2026-09-20T13:42:52.028969Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": "2026-09-16"
   }
 ]
