@@ -3764,8 +3764,8 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: proof: 106,545 people rated this mattress protector. 4.5
 
-## 2026-09-20T11:55:49Z — Carousel Generator
-**Ran:** Generated 5-slide carousel for B00MRH9NCK (Waterproof Twin Size Mattress Protector )
-**Changed:** social/carousels/2026-09-20-B00MRH9NCK/slide-1.png, social/carousels/2026-09-20-B00MRH9NCK/slide-2.png, social/carousels/2026-09-20-B00MRH9NCK/slide-3.png, social/carousels/2026-09-20-B00MRH9NCK/slide-4.png, social/carousels/2026-09-20-B00MRH9NCK/slide-5.png, social/post_queue.json
-**External actions:** Pexels (4 photos) + Claude CLI (slide content)
-**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B00MRH9NCK carousel.
+## 2026-09-20T11:58:20Z — Reel Producer
+**Ran:** Rendered 1/1 MP4s for 2026-09-20
+**Changed:** social/reels/reel-2026-09-20-*.mp4, social/post_queue.json
+**External actions:** none
+**Next agent hint:** IG Poster has 1 new Reels ready for 14:00 + 22:00 UTC slots
