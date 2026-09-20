@@ -3757,3 +3757,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** automation/trends/2026-09-20.json, social/trend_feed.json
 **External actions:** reddit_pi_cache + google_trends + pinterest_rss + amazon_movers_pi_cache
 **Next agent hint:** Content Engine: today's top-3 opportunities are: $28 kitchen glow-up: swap builder-grade , $45 couch fix: hide pet hair and stains , $35 bathroom refresh using 2027's Color
+
+## 2026-09-20T10:14:18Z — Pinterest Pipeline
+**Ran:** Generated 6 pin(s) for the Pinterest traffic engine
+**Changed:** social/pinterest_queue.json
+**External actions:** Pexels (backgrounds) + Claude CLI (pin copy)
+**Next agent hint:** post_pinterest.py (Pi) drains pinterest_queue.json once a Pinterest business account is logged into the Pi Chromium profile.
