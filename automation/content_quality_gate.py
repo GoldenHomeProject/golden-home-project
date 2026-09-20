@@ -120,7 +120,15 @@ FABRICATED_EXPERIENCE = re.compile(
     # just as strongly as first person does.
     r"this\s+was\s+(every|my|the)\b|that\s+was\s+(every|my)\b|"
     r"\bused\s+to\s+(be|have|take|do)\b|"
-    r"\bfor\s+(months|years)\s+(this|it|i)\b)", re.I)
+    r"\bfor\s+(months|years)\s+(this|it|i)\b|"
+    # Regret/hindsight framing is the same fabricated claim in a softer voice. A pin
+    # description shipped "the bathroom storage upgrade I wish I would have found
+    # sooner" — nobody here used it, and none of the patterns above matched because
+    # there is no "I found"/"I tried", only "I wish ... found".
+    r"\bi\s+wish\b|\bwish\s+i\b|"
+    r"\bshould\s+(have|'ve)\s+(bought|got|gotten|ordered|grabbed)\b|"
+    r"\bfound\s+(this\s+)?sooner\b|"
+    r"\bchanged\s+my\s+life\b|\bgame\s+changer\s+for\s+me\b)", re.I)
 
 
 def fabrication_match(text: str) -> str:

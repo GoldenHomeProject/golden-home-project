@@ -1,0 +1,54 @@
+30 9 * * 1 /home/ianmcwherter/claude-skill/review.sh
+0 10 * * 1 /home/ianmcwherter/claude-skill/learnings/self-review.sh >> /home/ianmcwherter/claude-skill/logs/self-review.log 2>&1
+0 * * * * /home/ianmcwherter/claude-skill/airthings/poll.sh >> /home/ianmcwherter/claude-skill/logs/airthings.cron.log 2>&1
+2 * * * * /home/ianmcwherter/claude-skill/tidbyt/push.sh radon >> /home/ianmcwherter/claude-skill/logs/tidbyt.cron.log 2>&1
+3 * * * * /home/ianmcwherter/claude-skill/tidbyt/push.sh pressure >> /home/ianmcwherter/claude-skill/logs/tidbyt.cron.log 2>&1
+*/5 * * * * /home/ianmcwherter/claude-skill/tidbyt/push.sh pi_status >> /home/ianmcwherter/claude-skill/logs/tidbyt.cron.log 2>&1
+5 * * * * /home/ianmcwherter/claude-skill/pollen/fetch.sh >> /home/ianmcwherter/claude-skill/logs/pollen.cron.log 2>&1
+7 * * * * /home/ianmcwherter/claude-skill/tidbyt/push.sh pollen >> /home/ianmcwherter/claude-skill/logs/tidbyt.cron.log 2>&1
+0 14 * * 0 /usr/bin/node /home/ianmcwherter/claude-skill/weekly-review.js >> /home/ianmcwherter/claude-skill/logs/weekly-review.log 2>&1
+15 13 * * * /home/ianmcwherter/claude-skill/backup-to-github.sh >> /home/ianmcwherter/claude-skill/logs/backup.log 2>&1
+# --- Golden Home Project: Pinterest engine (2 pins/day, ET) ---
+10 6 * * * $HOME/golden-home-project/automation/run_pinterest_generate.sh 6 >> $HOME/golden-home-project/social/pinterest_cron.log 2>&1
+# Collage pins: the format Pinterest saves ~2x more often. Built from a hub own
+# products and linked to that hub, so the picture matches the page.
+20 6 * * * cd $HOME/golden-home-project && set -a && . $HOME/.ghp-engagement/pexels.env && set +a && /usr/bin/python3 automation/generate_collage_pins.py --max 1 >> $HOME/golden-home-project/social/pinterest_cron.log 2>&1
+40 9 * * * $HOME/golden-home-project/automation/run_pinterest_post.sh 2 >> /home/ianmcwherter/golden-home-project/social/pinterest_cron.log 2>&1
+15 21 * * * $HOME/golden-home-project/automation/run_pinterest_post.sh 2 >> /home/ianmcwherter/golden-home-project/social/pinterest_cron.log 2>&1
+PATH=/usr/local/bin:/usr/bin:/bin
+# DISABLED 2026-08-28: depended on the free HF Space
+# multimodalart/ltx2-audio-to-video, which now raises an internal error for us
+# on every call with verbose reporting off. 61 consecutive nights of failure.
+# Not quota, not the request: an 8s render with trimmed audio fails the same as
+# 12s, and the Space own /get_audio_duration answers fine. Replaced by
+# run_pi_reels.sh, which renders the same scripts locally with no GPU service.
+# 0 23 * * * /home/ianmcwherter/.ghp-presenter/venv/bin/python /home/ianmcwherter/.ghp-presenter/run_presenter_reel.py
+0 23 * * * $HOME/golden-home-project/automation/run_pi_reels.sh >> $HOME/golden-home-project/social/pi_reels_cron.log 2>&1
+# DISABLED 2026-08-28: verifies presenter outfit variants through the same dead Space.
+# 0 11 * * 0 /home/ianmcwherter/.ghp-presenter/venv/bin/python /home/ianmcwherter/.ghp-presenter/verify_next_variant.py
+# --- Golden Home Project: comment->link funnel (2x/day, ET) ---
+35 12 * * * cd $HOME/golden-home-project && /usr/bin/python3 pi/dm-funnel/dm-funnel.py >> $HOME/golden-home-project/social/dm_funnel_cron.log 2>&1
+35 18 * * * cd $HOME/golden-home-project && /usr/bin/python3 pi/dm-funnel/dm-funnel.py >> $HOME/golden-home-project/social/dm_funnel_cron.log 2>&1
+# --- Golden Home Project: vetted->live auto-promotion (1/day, ET) ---
+20 8 * * * cd $HOME/golden-home-project && /usr/bin/python3 automation/promote_vetted.py --commit >> $HOME/golden-home-project/social/promote_cron.log 2>&1
+3 21 * * 4 /home/ianmcwherter/.charity-keeper/draw-keeper.sh >> /home/ianmcwherter/.charity-keeper/keeper.log 2>&1
+# Search-demand engine (added 2026-07-26). GSC showed 8 clicks/90d at position 36.9
+# because topics came from trend chatter, not real queries. Refresh the keyword queue
+# weekly; fill in unlinked affiliate CTAs daily (Amazon throttles search, so small
+# batches that retry beat one big run).
+30 5 * * 1 cd $HOME/golden-home-project && set -a && . $HOME/.ghp-secrets/claude.env && set +a && /usr/bin/python3 automation/keyword_research.py --max-seeds 10 --top 40 >> $HOME/golden-home-project/social/keyword_cron.log 2>&1
+50 5 * * * cd $HOME/golden-home-project && /usr/bin/xvfb-run -a $HOME/.ghp-asin-discoverer/venv/bin/python automation/link_unlinked_products.py --limit 3 >> $HOME/golden-home-project/social/keyword_cron.log 2>&1
+# Daily search-demand post (moved off the 1x/week GitHub Actions cron 2026-07-30).
+# This is the only content that can rank; the trending roundups target no query.
+15 7 * * * $HOME/golden-home-project/automation/publish_seo_post.sh >> $HOME/golden-home-project/social/keyword_cron.log 2>&1
+40 7 * * * /home/ianmcwherter/golden-home-project/automation/refresh_sitemap.sh >> /home/ianmcwherter/golden-home-project/social/keyword_cron.log 2>&1
+35 7 * * * cd /home/ianmcwherter/golden-home-project && /usr/bin/python3 automation/inject_hub_nav.py >> /home/ianmcwherter/golden-home-project/social/keyword_cron.log 2>&1
+20 7 * * * cd /home/ianmcwherter/golden-home-project && /usr/bin/python3 automation/price_drops.py --min-pct 3 --json >> /home/ianmcwherter/golden-home-project/social/keyword_cron.log 2>&1
+# Grow the product catalogue daily. At 8 pins/day the pin generator runs dry in ~3 days
+# because every vetted product is already queued — products, not pins, are the constraint
+# on clicks. Canary-guarded: aborts cleanly when Amazon is throttling and simply retries
+# tomorrow, so a blocked run never poisons the registry.
+45 4 * * * cd $HOME/golden-home-project && /usr/bin/xvfb-run -a $HOME/.ghp-asin-discoverer/venv/bin/python automation/source_dorm.py >> $HOME/golden-home-project/social/keyword_cron.log 2>&1 && git add social/dm_keyword_registry.json && (git diff --staged --quiet || (git -c user.name="GHP Ops" -c user.email="goldenhomeprojectllc@gmail.com" commit -q -m "catalogue: new verified products $(date -u +\%Y-\%m-\%d)" && git -c rebase.autoStash=true pull --rebase --quiet origin main && git push --quiet origin main))
+# Grow the catalogue from best-seller GRIDS (Amazon blocks /dp/ from this Pi, but serves
+# grids fine). Runs before the 06:10 pin generator so there is always fresh product to pin.
+55 5 * * * cd $HOME/golden-home-project && /usr/bin/xvfb-run -a $HOME/.ghp-trending/venv/bin/python automation/harvest_catalogue.py --max-nodes 4 >> $HOME/golden-home-project/social/keyword_cron.log 2>&1 && git add social/dm_keyword_registry.json && (git diff --staged --quiet || (git -c user.name="GHP Ops" -c user.email="goldenhomeprojectllc@gmail.com" commit -q -m "catalogue: harvest $(date -u +\%Y-\%m-\%d)" && git -c rebase.autoStash=true pull --rebase --quiet origin main && git push --quiet origin main))

@@ -824,7 +824,9 @@
     "queued_at": "2026-08-09T10:11:19.462385Z",
     "posted": false,
     "source": "pinterest_pipeline",
-    "drop_observed_to": "2026-08-08"
+    "drop_observed_to": "2026-08-08",
+    "blocked": true,
+    "blocked_reason": "off-niche for a home-organization account ('tumbler')"
   },
   {
     "id": "pin-2026-08-09-B01HI1W1V4",
@@ -3253,7 +3255,9 @@
     "queued_at": "2026-09-02T19:15:41.867908Z",
     "posted": false,
     "source": "pinterest_pipeline",
-    "drop_observed_to": null
+    "drop_observed_to": null,
+    "blocked": true,
+    "blocked_reason": "off-niche for a home-organization account ('tumbler')"
   },
   {
     "id": "pin-2026-09-02-B07ZGHZVRY",
@@ -3282,7 +3286,9 @@
     "queued_at": "2026-09-02T19:18:41.666000Z",
     "posted": false,
     "source": "pinterest_pipeline",
-    "drop_observed_to": null
+    "drop_observed_to": null,
+    "blocked": true,
+    "blocked_reason": "off-niche for a home-organization account ('tumbler')"
   },
   {
     "id": "pin-2026-09-02-B00004SU18",
@@ -3414,7 +3420,9 @@
     "queued_at": "2026-09-05T10:11:41.199013Z",
     "posted": false,
     "source": "pinterest_pipeline",
-    "drop_observed_to": null
+    "drop_observed_to": null,
+    "blocked": true,
+    "blocked_reason": "off-niche for a home-organization account ('tumbler')"
   },
   {
     "id": "pin-2026-09-05-B0GCBFHCXH",
@@ -3458,7 +3466,9 @@
     "queued_at": "2026-09-05T10:13:41.348964Z",
     "posted": false,
     "source": "pinterest_pipeline",
-    "drop_observed_to": null
+    "drop_observed_to": null,
+    "blocked": true,
+    "blocked_reason": "off-niche for a home-organization account ('tumbler')"
   },
   {
     "id": "pin-2026-09-06-B0FB7LKQXV",
@@ -3472,7 +3482,9 @@
     "queued_at": "2026-09-06T10:11:40.933467Z",
     "posted": false,
     "source": "pinterest_pipeline",
-    "drop_observed_to": null
+    "drop_observed_to": null,
+    "blocked": true,
+    "blocked_reason": "off-niche for a home-organization account ('tumbler')"
   },
   {
     "id": "pin-2026-09-06-B0DNGDKF3Q",
@@ -3486,7 +3498,9 @@
     "queued_at": "2026-09-06T10:12:06.749560Z",
     "posted": false,
     "source": "pinterest_pipeline",
-    "drop_observed_to": null
+    "drop_observed_to": null,
+    "blocked": true,
+    "blocked_reason": "off-niche for a home-organization account ('tumbler')"
   },
   {
     "id": "pin-2026-09-06-B0F5X4FM3Q",
@@ -3515,7 +3529,9 @@
     "queued_at": "2026-09-07T10:10:36.168861Z",
     "posted": false,
     "source": "pinterest_pipeline",
-    "drop_observed_to": null
+    "drop_observed_to": null,
+    "blocked": true,
+    "blocked_reason": "off-niche for a home-organization account ('tumbler')"
   },
   {
     "id": "pin-2026-09-08-B08B555PFG",
@@ -3649,7 +3665,9 @@
     "queued_at": "2026-09-10T10:10:49.385078Z",
     "posted": false,
     "source": "pinterest_pipeline",
-    "drop_observed_to": null
+    "drop_observed_to": null,
+    "blocked": true,
+    "blocked_reason": "off-niche for a home-organization account ('tumbler')"
   },
   {
     "id": "pin-2026-09-11-B08VHTFXP9",
@@ -4018,7 +4036,9 @@
     "queued_at": "2026-09-14T10:11:13.202337Z",
     "posted": false,
     "source": "pinterest_pipeline",
-    "drop_observed_to": null
+    "drop_observed_to": null,
+    "blocked": true,
+    "blocked_reason": "off-niche for a home-organization account ('tumbler')"
   },
   {
     "id": "pin-2026-09-14-B0B27MDKXD",
@@ -4047,7 +4067,9 @@
     "queued_at": "2026-09-14T10:12:43.378261Z",
     "posted": false,
     "source": "pinterest_pipeline",
-    "drop_observed_to": null
+    "drop_observed_to": null,
+    "blocked": true,
+    "blocked_reason": "off-niche for a home-organization account ('tumbler')"
   },
   {
     "id": "pin-2026-09-14-B07N9JTJ6K",
@@ -4119,7 +4141,9 @@
     "queued_at": "2026-09-15T11:11:29.990357Z",
     "posted": false,
     "source": "pinterest_pipeline",
-    "drop_observed_to": null
+    "drop_observed_to": null,
+    "blocked": true,
+    "blocked_reason": "fabricated experience ('I wish')"
   },
   {
     "id": "pin-2026-09-15-B07SPR2HPT",
@@ -4162,7 +4186,9 @@
     "queued_at": "2026-09-17T10:10:55.271611Z",
     "posted": false,
     "source": "pinterest_pipeline",
-    "drop_observed_to": null
+    "drop_observed_to": null,
+    "blocked": true,
+    "blocked_reason": "fabricated experience ('I wish')"
   },
   {
     "id": "pin-2026-09-18-B0DJ2YHVFH",
@@ -4205,7 +4231,9 @@
     "queued_at": "2026-09-18T10:13:01.039365Z",
     "posted": false,
     "source": "pinterest_pipeline",
-    "drop_observed_to": null
+    "drop_observed_to": null,
+    "blocked": true,
+    "blocked_reason": "off-niche for a home-organization account ('k-cup')"
   },
   {
     "id": "pin-2026-09-18-B0F5V316HG",
@@ -4219,7 +4247,9 @@
     "queued_at": "2026-09-18T10:13:36.712948Z",
     "posted": false,
     "source": "pinterest_pipeline",
-    "drop_observed_to": null
+    "drop_observed_to": null,
+    "blocked": true,
+    "blocked_reason": "off-niche for a home-organization account ('tumbler')"
   },
   {
     "id": "pin-2026-09-18-B07YKLSMFM",
@@ -4422,7 +4452,9 @@
     "queued_at": "2026-09-19T10:12:21.549980Z",
     "posted": false,
     "source": "pinterest_pipeline",
-    "drop_observed_to": null
+    "drop_observed_to": null,
+    "blocked": true,
+    "blocked_reason": "fabricated experience ('I wish')"
   },
   {
     "id": "pin-2026-09-19-B086HF8ZXH",
@@ -4450,7 +4482,9 @@
     "queued_at": "2026-09-19T10:14:30.570055Z",
     "posted": false,
     "source": "pinterest_pipeline",
-    "drop_observed_to": null
+    "drop_observed_to": null,
+    "blocked": true,
+    "blocked_reason": "fabricated experience ('I wish')"
   },
   {
     "id": "pin-2026-09-19-B01N20YR6B",
@@ -4464,7 +4498,9 @@
     "queued_at": "2026-09-19T10:16:15.528499Z",
     "posted": false,
     "source": "pinterest_pipeline",
-    "drop_observed_to": null
+    "drop_observed_to": null,
+    "blocked": true,
+    "blocked_reason": "fabricated experience ('I wish')"
   },
   {
     "id": "pin-2026-09-19-B08X6LYL5V",

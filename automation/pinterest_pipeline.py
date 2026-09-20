@@ -236,6 +236,7 @@ def fetch_pexels(query: str, out_path: Path, product: str = "") -> bool:
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from category_identity import dead_season_hit  # noqa: E402
+from content_quality_gate import fabrication_match  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 SOCIAL = ROOT / "social"
@@ -850,6 +851,22 @@ def main() -> int:
         # floating shelves, laundry hampers and storage carts sell all year — but
         # "Floating Shelves for Bedside & Dorm Room" is aimed at a search that
         # collapsed in mid-August, and we were still authoring it in September.
+        # The fabrication gate guarded reels, carousels and the copy library but was
+        # never wired into PINS — the one surface that has actually produced a sale.
+        # A live description read "the bathroom storage upgrade I wish I would have
+        # found sooner". Nobody here used it. Fifth instance of one rule enforced at
+        # some stages and not others.
+        _fake = fabrication_match(
+            f"{copy.get('title','')} {copy.get('description','')}")
+        if _fake:
+            alt = template_copy(entry, board)
+            if fabrication_match(f"{alt.get('title','')} {alt.get('description','')}"):
+                print(f"  [skip] {asin} fabricated experience ({_fake!r}) in both "
+                      f"Claude and template copy")
+                continue
+            print(f"  [copy] {asin} rewrote fabricated experience ({_fake!r})")
+            copy = alt
+
         _stale = dead_season_hit(
             f"{copy.get('title','')} {copy.get('description','')}")
         if _stale:
