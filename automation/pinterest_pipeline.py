@@ -461,34 +461,161 @@ _BOARD_HOOK = {
 }
 
 
-def _short_name(name: str) -> str:
-    """Trim the brand-y product title to a clean human pin subject.
-    Cuts at the first comma OR parenthetical so we never leave a dangling
-    '(chrome' fragment."""
+def _short_name(name: str, limit: int = 58) -> str:
+    """Trim a brand-heavy Amazon title to a clean pin subject.
+
+    Cuts at the first comma or parenthetical so we never leave a dangling
+    "(chrome" fragment, then trims to `limit` ON A WORD BOUNDARY. The old version
+    sliced at a fixed character count and produced titles like
+    "…Counter Organizer and Stor…: Bathroom Storage" — a word cut in half, in the
+    single most important line for Pinterest search.
+    """
     n = name.split(",")[0].split(" (")[0].strip().rstrip("(-– ")
-    return (n[:58].rstrip() + "…") if len(n) > 59 else n
+    if len(n) <= limit:
+        return n
+    cut = n[:limit]
+    if " " in cut:
+        cut = cut[:cut.rfind(" ")]
+    return cut.rstrip(" -–|:") + "…"
+
+
+# Long-tail phrases people actually type into Pinterest search, per board. Pinterest
+# ranks on how well a pin matches SEARCH INTENT, and titles were previously the raw
+# Amazon product name — nobody searches "Kitchen Timer 2 Pack - Loud Digital Count
+# Up/Down Timers for Cooking, Kids & Classroom". Leading with the phrase gives the
+# algorithm the signal it ranks on; the product specifics follow it.
+_BOARD_SEARCH = {
+    "Under-Sink Organization":    "under sink organization",
+    "Closet Organization Ideas":  "closet organization ideas",
+    "Pantry Organization":        "pantry organization ideas",
+    "Kitchen Organization Ideas": "kitchen organization ideas",
+    "Bathroom Storage Ideas":     "small bathroom storage ideas",
+    "Cabinet Organization":       "kitchen cabinet organization",
+    "Shelf & Drawer Liners":      "shelf liner ideas",
+    "Outdoor & Patio":            "porch and patio decor",
+    "Home Storage Solutions":     "home storage solutions",
+    "Home Organization Finds":    "home organization ideas",
+    "Bedroom Storage & Bedding":  "bedroom storage ideas",
+}
+
+
+def _search_phrase(board: str) -> str:
+    return _BOARD_SEARCH.get(board, board.replace(" Ideas", "").replace(" Finds", "").lower())
+
+
+
+
+_BRAND_STOP = {"usa", "inc", "co", "ltd", "brand", "official", "home", "the"}
+
+
+def _strip_brand(name: str) -> str:
+    """Drop a leading brand token so the specifics get the characters.
+
+    Amazon titles open with the brand — "NICETOWN Black Out Curtains", "OCATO 200\"
+    Halloween Decorations", "IRIS USA 6-Pack". Nobody searches the brand, and on a
+    ~100 character line those are the most expensive words on the pin.
+
+    Only strips when the token looks brand-like (ALL CAPS, or CamelCase, or followed
+    by more than two remaining words) so a genuine product word is never eaten.
+    """
+    parts = name.split()
+    if len(parts) < 3:
+        return name
+    first = parts[0].strip('"\u201c\u201d')
+    # ALL-CAPS only. An earlier version also stripped any Capitalised token, which
+    # ate the product noun itself: "Toothbrush Holders for Bathroom Counter Organizer"
+    # became "Holders for Bathroom Counter Organizer". Amazon writes brands in caps
+    # (NICETOWN, OCATO, IRIS) and products in title case, so caps is the honest signal.
+    looks_brand = first.isupper() and len(first) > 2 and first.lower() not in _BRAND_STOP
+    if not looks_brand:
+        return name
+    rest = parts[1:]
+    # "IRIS USA 6-Pack" — drop a trailing corporate token too.
+    if rest and rest[0].lower().strip(".,") in _BRAND_STOP:
+        rest = rest[1:]
+    return " ".join(rest) if len(rest) >= 2 else name
+
+
+def _dedupe_against(subject: str, phrase: str) -> str:
+    """Drop words from `subject` that the search phrase already says.
+
+    Without this, "Small Bathroom Storage Ideas: Toothbrush Holders for Bathroom
+    Counter Organizer" says "bathroom" twice in one line.
+    """
+    have = {w.lower().strip(".,|") for w in phrase.split()}
+    out, seen = [], set()
+    for w in subject.split():
+        k = w.lower().strip(".,|")
+        if k in have and k in seen:
+            continue
+        if k in have:
+            seen.add(k)
+        out.append(w)
+    return " ".join(out)
+
+def _fit(text: str, limit: int) -> str:
+    """Trim to `limit` on a word boundary — never mid-word."""
+    if len(text) <= limit:
+        return text
+    cut = text[:limit]
+    if " " in cut:
+        cut = cut[:cut.rfind(" ")]
+    return cut.rstrip(" -–|:,")
 
 
 def template_copy(entry: dict, board: str) -> dict:
-    """Deterministic SEO copy — used when Claude is unavailable so the
-    pipeline never hard-fails on cron."""
-    name = _short_name(entry.get("product_name", "this organizer"))
-    price = entry.get("verified_price", "")
-    stars = entry.get("verified_stars", "")
-    revs = entry.get("verified_reviews", "")
-    topic = board.replace(" Ideas", "").replace(" Finds", "").lower()
-    title = f"{name}: {board.replace(' Ideas','').replace(' Finds','')}"[:100]
-    overlay = _BOARD_HOOK.get(board, "An Organizing Win")
-    bits = [f"{name} is the {topic} upgrade I wish I'd found sooner."]
+    """Deterministic, search-led copy. Used whenever Claude is unavailable.
+
+    Two things this must NOT do, both of which the previous version did:
+
+    * Fabricate experience. It hardcoded "is the {topic} upgrade I wish I'd found
+      sooner" into every description. Nobody here used these products, and because it
+      was in the TEMPLATE it shipped on every pin the fallback produced — it was not
+      Claude inventing it. It also meant that once the fabrication gate was wired into
+      the pin path, the template fallback could never pass it.
+    * Cut words in half. The title was f"{name}: {board}"[:100], a hard character
+      slice on the line Pinterest ranks.
+
+    Structure is search phrase first, product specifics second, evidence third.
+    """
+    name = _short_name(entry.get("product_name", "this organizer"), limit=52)
+    price = str(entry.get("verified_price") or "").strip()
+    stars = str(entry.get("verified_stars") or "").strip()
+    revs = entry.get("verified_reviews")
+    phrase = _search_phrase(board)
+
+    # SEARCH PHRASE FIRST, then what makes this pin specific. Pinterest ranks on how
+    # well the title matches search intent and truncates around 100 characters, so the
+    # phrase has to be at the front where it cannot be cut off. Leading with the Amazon
+    # product name spent those characters on brand tokens nobody searches — "NICETOWN",
+    # "OCATO", "IRIS USA".
+    subject = _strip_brand(name)
+    subject = _dedupe_against(subject, phrase)
+    title = f"{phrase.title()}: {subject}" if subject else phrase.title()
+    if price and len(title) + len(price) + 3 <= 95:
+        title = f"{title} — {price}"
+    title = _fit(title, 95)
+
+    # Description: keyword-rich and factual. Ratings and review counts are the only
+    # evidence we have and the only evidence we claim.
+    bits = [f"{name} for {phrase}."]
     if stars and revs:
-        bits.append(f"{stars}★ from {revs:,} reviews{(' · ' + price) if price else ''}.")
-    bits.append("Tap through for the full breakdown and where to get it.")
-    bits.append("Amazon affiliate — I may earn a small commission at no extra cost to you.")
-    desc = " ".join(bits)[:480]
+        try:
+            bits.append(f"Rated {stars}\u2605 across {int(revs):,} reviews"
+                        f"{(' · ' + price) if price else ''}.")
+        except (TypeError, ValueError):
+            bits.append(f"Rated {stars}\u2605{(' · ' + price) if price else ''}.")
+    elif price:
+        bits.append(f"Listed at {price}.")
+    bits.append("Prices were accurate when this was published and change often.")
+    bits.append("Tap through for the current listing.")
+    bits.append("Amazon affiliate link — we may earn a commission at no extra cost to you.")
+    desc = _fit(" ".join(bits), 480)
+
     return {
         "title": title,
         "description": desc,
-        "overlay_hook": overlay,
+        "overlay_hook": _BOARD_HOOK.get(board, "An Organizing Win"),
         "pexels_query": "",  # filled by board seed
     }
 
