@@ -7077,5 +7077,29 @@
     },
     "hook": "133,371 people rated these blackout curtains before you even looked at them.",
     "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-19-001.mp4"
+  },
+  {
+    "name": "reel_2026-09-20_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-20-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "106,545 people rated this mattress protector. 4.5 stars.\n\nA twin mattress protector doesn't get flashy reviews. People buy it, put it on the bed, and forget about it \u2014 which is exactly the point. It's built for a deep pocket fit up to 15 inches, so it works with thicker mattresses and toppers without slipping off.\n\nIt's waterproof, so spills, sweat, and accidents stay off the actual mattress instead of soaking in. At 4.5 stars across 106,545 reviews, that volume of consistent rating is hard to fake \u2014 this is a product that does its one job reliably for most people who buy it.\n\nYour mattress stays protected without you thinking about it again, for $12.99.\n\nComment WATERPROOF and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Waterproof Twin Size Mattress Protector fits Upto 15\" Deep Pocket",
+      "dm_keyword": "WATERPROOF",
+      "amazon_asin": "B00MRH9NCK",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B00MRH9NCK?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "106,545 people rated this mattress protector. 4.5 stars."
   }
 ]

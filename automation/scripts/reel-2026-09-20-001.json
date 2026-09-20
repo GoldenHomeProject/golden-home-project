@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-20T10:15:18.791270Z",
+  "date": "2026-09-20",
+  "seq": 1,
+  "hook_category": "proof",
+  "hook": "106,545 people rated this mattress protector. 4.5 stars.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up on a phone screen showing a product rating of 4.5 stars and a review count ticking up, then cut to a neatly made twin bed",
+      "on_screen_text": "106,545 REVIEWS",
+      "voiceover": "One hundred six thousand people rated this."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Hands pulling a fitted protector over a twin mattress corner, showing the deep pocket stretching over a thick mattress edge",
+      "on_screen_text": "FITS UP TO 15\" DEEP",
+      "voiceover": "Deep pocket design fits mattresses up to fifteen inches thick."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Water droplets beading and rolling off the surface of the protector fabric on a flat mattress",
+      "on_screen_text": "WATERPROOF",
+      "voiceover": "Spills and accidents stay on the surface, not in the mattress."
+    },
+    {
+      "n": 4,
+      "duration_sec": 5,
+      "visual_prompt": "Wide shot of a fully made twin bed, protector invisible under the sheets, calm bedroom setting",
+      "on_screen_text": "4.5 STARS",
+      "voiceover": "Four and a half stars isn't luck at this many reviews \u2014 it's consistency."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Product listing screen showing price and add-to-cart button, then fade to made bed",
+      "on_screen_text": "$12.99",
+      "voiceover": "Twin size, waterproof, twelve ninety-nine."
+    }
+  ],
+  "caption": "106,545 people rated this mattress protector. 4.5 stars.\n\nA twin mattress protector doesn't get flashy reviews. People buy it, put it on the bed, and forget about it \u2014 which is exactly the point. It's built for a deep pocket fit up to 15 inches, so it works with thicker mattresses and toppers without slipping off.\n\nIt's waterproof, so spills, sweat, and accidents stay off the actual mattress instead of soaking in. At 4.5 stars across 106,545 reviews, that volume of consistent rating is hard to fake \u2014 this is a product that does its one job reliably for most people who buy it.\n\nYour mattress stays protected without you thinking about it again, for $12.99.\n\nComment WATERPROOF and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "It's waterproof, so spills, sweat, and accidents stay off the actual mattress instead of soaking in. At 4.5 stars across 106,545 reviews, that volume of consistent rating is hard to fake \u2014 this is a p",
+  "affiliate_strategy": {
+    "primary_product": "Waterproof Twin Size Mattress Protector fits Upto 15\" Deep Pocket",
+    "dm_keyword": "WATERPROOF",
+    "amazon_asin": "B00MRH9NCK",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B00MRH9NCK?tag=goldenhomep0a-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": null
+  }
+}
