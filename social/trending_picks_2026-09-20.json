@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-09-20",
+  "category": "Window Treatments",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-blackout-curtains.html",
+  "picks": [
+    {
+      "asin": "B01CS31R94",
+      "name": "NICETOWN Black Blackout Curtains for Bedroom 42\" Wide x 63\" Long 2 Pan",
+      "price": "$10.98",
+      "rating": 4.6,
+      "reviews": 133325,
+      "rank": 1
+    },
+    {
+      "asin": "B0BWJDW3BX",
+      "name": "Cream Linen Back Tab Curtains 84 Inch Length for Living Room 2 Panel S",
+      "price": "$13.98",
+      "rating": 4.6,
+      "reviews": 7106,
+      "rank": 7
+    },
+    {
+      "asin": "B08SBYPF14",
+      "name": "MIULEE 100% Blackout Linen Curtains for Bedroom 52x84 Inches Natural B",
+      "price": "$24.95",
+      "rating": 4.6,
+      "reviews": 10219,
+      "rank": 2
+    },
+    {
+      "asin": "B0BR3STN87",
+      "name": "Linen Total Blackout Curtains for Bedroom Living Room 84 Inch",
+      "price": "$29.63",
+      "rating": 4.5,
+      "reviews": 8946,
+      "rank": 3
+    },
+    {
+      "asin": "B0881QG5WK",
+      "name": "ChrisDowa Blackout Curtains for Bedroom and Living Room 63 Inches Long",
+      "price": "$10.79",
+      "rating": 4.6,
+      "reviews": 31414,
+      "rank": 4
+    },
+    {
+      "asin": "B0F332CCLK",
+      "name": "MIULEE Blackout Curtains for Bedroom 2 Panels 40 x 63 Inch Long Black",
+      "price": "$10.98",
+      "rating": 4.5,
+      "reviews": 7158,
+      "rank": 6
+    }
+  ]
+}
