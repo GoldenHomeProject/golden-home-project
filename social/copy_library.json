@@ -2646,6 +2646,52 @@
           }
         ]
       }
+    ],
+    "TWIN": [
+      {
+        "hook_category": "proof",
+        "hook": "106,545 people rated this twin mattress protector. It still sits at 4.5 stars.",
+        "beat1": "A number like that doesn't happen by accident. This is a waterproof twin protector built for deep pocket mattresses up to 15 inches, the kind that swallow a regular fitted sheet corner within a week. Six-figure review counts usually mean one of two things: the product works, or it's cheap enough that nobody bothers returning it. This one has both going for it.",
+        "turn": "It's a waterproof barrier layer that stretches over a twin mattress up to 15 inches deep, sitting under your sheets to catch spills, sweat, and accidents before they reach the mattress itself. At 106,545 reviews and a 4.5-star average, that's not a small sample size skewing the number, that's a pattern.",
+        "result": "Your mattress stays protected without needing a mattress at all replacement conversation, and it runs $12.99.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close-up on a phone screen showing a product listing with a 4.5 star rating and a review count in the hundreds of thousands, thumb scrolling slowly",
+            "on_screen_text": "106,545 REVIEWS",
+            "voiceover": "Six figures of reviews on a twelve dollar product."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Hands pulling a fitted protector sheet over the corner of a twin mattress, showing the deep pocket stretching over a thick mattress edge",
+            "on_screen_text": "FITS UP TO 15\" DEEP",
+            "voiceover": "It's made for deep mattresses, up to fifteen inches, so it actually stays on."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Overhead shot of a glass of water tipping and beading up on the mattress surface instead of soaking in",
+            "on_screen_text": "WATERPROOF LAYER",
+            "voiceover": "The waterproof layer sits between you and the mattress, catching spills before they set in."
+          },
+          {
+            "n": 4,
+            "duration_sec": 5,
+            "visual_prompt": "Split screen graphic, left side shows a star rating icon at 4.5, right side shows a counter ticking up toward 106,545",
+            "on_screen_text": "4.5 STARS, 106K+ REVIEWS",
+            "voiceover": "That many people don't all agree on nothing. A 4.5 average across over a hundred thousand reviews is hard to fake."
+          },
+          {
+            "n": 5,
+            "duration_sec": 4,
+            "visual_prompt": "Final clean shot of a made twin bed with crisp white sheets, price tag graphic appearing in corner",
+            "on_screen_text": "$12.99",
+            "voiceover": "Twelve ninety-nine to stop worrying about what's happening under your sheets."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
