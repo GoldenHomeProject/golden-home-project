@@ -339,7 +339,12 @@ def _drop_title(title: str, drop: dict | None) -> str:
     """Front-load a REAL, observed price drop. Never invent or round it up."""
     if not drop:
         return title
-    return f"Price drop ${drop['was']:.2f} -> ${drop['now']:.2f}: {title}"
+    prefix = f"Price drop ${drop['was']:.2f} -> ${drop['now']:.2f}: "
+    # Budget what is left of the ~100 char line and trim the subject on a WORD
+    # boundary. Without this the prefix pushed real titles past the limit and they
+    # were sliced mid-word: "...Cooling Silk-Like Pillow Covers with En" and
+    # "...Toilet Plunger with Hideaway Holder Cad".
+    return prefix + _fit(title, max(20, 98 - len(prefix)))
 
 
 def _drop_desc(desc: str, drop: dict | None) -> str:
@@ -641,8 +646,8 @@ Price: {price}
 
 Return STRICT JSON:
 {{
-  "title": "<pin title, <=100 chars, front-load the buyer-intent keyword e.g. 'under sink organizer'>",
-  "description": "<200-450 chars, keyword-rich, genuinely useful, one soft CTA to tap through, END with: 'Amazon affiliate — small commission at no extra cost to you.'>",
+  "title": "<pin title, <=90 chars. START with the long-tail SEARCH PHRASE someone would type into Pinterest (e.g. 'Small Bathroom Storage Ideas', 'Closet Organization Ideas', 'Bedroom Storage Ideas'), then a colon, then what makes THIS product specific. Pinterest ranks on search-intent match and truncates around 100 chars, so the phrase must come first. Do NOT open with the brand name — nobody searches 'NICETOWN' or 'IRIS USA'. Never end mid-word.>",
+  "description": "<200-450 chars, keyword-rich, genuinely useful, one soft CTA to tap through, END with: 'Amazon affiliate — small commission at no extra cost to you.' NEVER claim first-hand experience: no 'I wish I'd found this sooner', no 'I use this daily', no 'changed my life'. We have not handled these products. State the rating, the review count and the measurable specs — that is the evidence we have and the only evidence we claim.>",
   "overlay_hook": "<<=6 words for the image text overlay, punchy benefit>",
   "pexels_query": "<2-4 word concrete photo search matching the product context>"
 }}

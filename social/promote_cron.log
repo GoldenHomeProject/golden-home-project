@@ -1602,3 +1602,11 @@ TypeError: '<' not supported between instances of 'str' and 'int'
 [promote] selected B0714K41PB -> keyword DECORATIVE (4.6* / 126992 reviews)
 [promote] LIVE: DECORATIVE -> B0714K41PB (entries now 39, vetted now 215)
 [promote] push: ok
+[promote] B01HI1W1V4: no unique keyword available, skipping.
+[promote] B0725WFLMB: no unique keyword available, skipping.
+[promote] B01NBNDC1T: no unique keyword available, skipping.
+[promote] B01IE7P2VW kw=FITTED: seeded variant FAILS gate ["product 'Queen Fitted Sheet, Ultra Soft Fits Up to 15 Inch Deep Pocket, Grey | Hotel Comfort, Cooling & Breathable Cotton like Po' named in line 1 (must be line 3+)"] — skipping (won't seed unshippable content).
+[promote] B01CS31R94: no unique keyword available, skipping.
+[promote] selected B00MRH9NCK -> keyword TWIN (4.5* / 106545 reviews)
+[promote] LIVE: TWIN -> B00MRH9NCK (entries now 47, vetted now 270)
+[promote] push: ok

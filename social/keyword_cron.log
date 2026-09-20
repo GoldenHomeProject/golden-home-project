@@ -1961,3 +1961,37 @@ Call log:
    - 10.0%  $   9.99 -> $   8.99  EUDELE Mesh Shower Caddy Portable for College Dorm R  (2026-08-18->2026-08-26_dorm)
    -  5.6%  $   8.99 -> $   8.49  Ultra Soft Pillow Protectors with Zipper  (2026-08-30->2026-09-07)
 [drops] wrote /home/ianmcwherter/golden-home-project/social/price_drops.json
+[blog-writer] Starting 2026-09-20
+[blog-writer] keyword queue empty/exhausted — falling back to trend feed
+[blog-writer] SKIPPING COVER-cluster topic until 2026-06-05: couch covers mamma mia waterproof stretch sofa cover   
+[blog-writer] Topic: brushed gold/matte black cabinet knobs and pulls hardware set (25-pack)
+[blog-writer] ✓ 2026-09-20-cabinet-hardware-28-dollar-kitchen-upgrade.html + markdown + index regenerated
+[drops] 107 ASINs in history, 65 seen on 2+ days, 9 dropped >=3.0%
+   - 23.1%  $  12.99 -> $   9.99  Hicober Microfiber Hair Towel Wrap for Women  (2026-08-31->2026-09-09)
+   - 21.7%  $  16.49 -> $  12.91  Utopia Bedding 18x18 Pillow Inserts  (2026-09-14->2026-09-18)
+   - 21.4%  $  13.99 -> $  10.99  Etekcity Food Kitchen Scale  (2026-09-01->2026-09-11)
+   - 15.1%  $  19.88 -> $  16.87  Etekcity Digital Body Weight Bathroom Scale  (2026-09-05->2026-09-16)
+   - 14.3%  $   6.99 -> $   5.99  Bedsure Satin Pillowcases Queen Set of 2  (2026-09-07->2026-09-18)
+   - 11.1%  $   8.99 -> $   7.99  TrendPlain 16oz/470ml Glass Olive Oil Sprayer for Co  (2026-08-20->2026-09-11)
+   - 10.0%  $   9.99 -> $   8.99  EUDELE Mesh Shower Caddy Portable for College Dorm R  (2026-08-18->2026-08-26_dorm)
+   -  8.3%  $  15.23 -> $  13.97  Clorox Toilet Plunger with Hideaway Holder Caddy Hea  (2026-09-05->2026-09-16)
+   -  5.6%  $   8.99 -> $   8.49  Ultra Soft Pillow Protectors with Zipper  (2026-08-30->2026-09-07)
+[drops] wrote /home/ianmcwherter/golden-home-project/social/price_drops.json
+  hub nav -> best-dorm-room-essentials.html
+  hub nav -> best-bath-towels-and-linens.html
+  hub nav -> best-bathroom-essentials.html
+  hub nav -> best-bedding-essentials.html
+  hub nav -> best-blackout-curtains.html
+  hub nav -> best-cleaning-supplies.html
+  hub nav -> best-home-decor-finds.html
+  hub nav -> best-home-organization-products.html
+  hub nav -> best-kitchen-gadgets.html
+  hub nav -> best-seasonal-decor.html
+  MISSING /home/ianmcwherter/golden-home-project/blog/posts/best-sheet-sets.html
+  hub nav -> best-storage-bins.html
+  hub nav -> blog/index.html
+  hub nav -> index.html
+  og tags -> blog/index.html
+[hub-nav] 14 file(s) updated
+[sitemap] 79 urls (15 excluded as non-canonical)
+[sitemap] wrote /home/ianmcwherter/golden-home-project/sitemap.xml

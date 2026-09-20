@@ -4543,7 +4543,9 @@
     "queued_at": "2026-09-20T10:11:10.411592Z",
     "posted": false,
     "source": "pinterest_pipeline",
-    "drop_observed_to": null
+    "drop_observed_to": null,
+    "blocked": true,
+    "blocked_reason": "fabricated experience ('I wish')"
   },
   {
     "id": "pin-2026-09-20-B0103XVVME",
