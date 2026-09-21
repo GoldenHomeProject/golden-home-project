@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-09-20 (Affiliate Optimizer 10am)
+# Last updated: 2026-09-21 (Email Monitor 8am)
 # ============================================================
 
 ---
@@ -483,7 +483,7 @@ New agent spec: `automation/agents/ai_revenue_playbook.md` (COSTAR prompt framew
 | Impact | HermanRx | $250 CPA | Declined | Off-niche (telehealth/GLP-1) |
 | Impact | Best Choice Products | 15% + free product | Pre-approved | Home niche (baskets, garden, benches) — JOIN |
 | CJ | AliExpress | 9% interior/garden | Active | April Yang confirmed: 9% on interior accessories + garden supplies, 3-day cookie, 90-day lock |
-| Awin | Rewarx (AI photo studio) | 50% recurring | **✅ Publisher ID SENT 2026-09-20** | Advertiser ID **129153**. Moved from Impact to Awin. **Awin Publisher ID 2823700 sent to Julian (msg 1a0bf2aaa2ab1bbb, 2026-09-20).** Julian will generate promo code Golden10 (10% off for audience). Awaiting Golden10 code + Awin program confirmation. Highest-commission partner (50% recurring). |
+| Awin | Rewarx (AI photo studio) | 50% recurring | **🚨 IAN: Accept Awin invitation TODAY** | Advertiser ID **129153**. Moved from Impact to Awin. Publisher ID 2823700 sent Sep 20 (msg 1a0bf2aaa2ab1bbb). Julian replied Sep 21 (msg 1a0c2b169df8acbb): "No results found" when searching our ID — we had not formally accepted the Awin program invitation. Julian resent Awin invitation (thread 1a0c2ad037b1cba5, received Sep 21 06:35 UTC). Email Monitor replied Sep 21 (msg 1a0c3eb5f3a67c64) — Ian will accept today. **IAN: Log into Awin browser dashboard and accept Rewarx Studio AI program invitation (Advertiser ID 129153). Then reply to studio@rewarx.com so Julian assigns Golden10 promo code.** 50% recurring — highest commission in portfolio. |
 | Impact | Vakkerlight | Paid collab | Follow-up sent 2026-09-01 | ON-NICHE home lighting, via NoxInfluencer/Lily. $300 long-form / $150 short / $400 package. Our rates email sent 2026-08-26. Follow-up sent 2026-09-01. |
 | Impact | Sam's Club Creator | up to 20% | Evaluated 2026-09-01 — skip | Generic Impact promo blast (not personal invite); Sam's membership-club model is poor fit for transformation content; home-goods overlap too broad; lower priority than direct home brand partnerships |
 | Awin | Tribesigns | TBD | **Invited 2026-09-14 — IAN: accept via Awin browser dashboard** | Industrial bookshelves, ladder shelves, shelving units, home office desks — ON-NICHE. $80-200 AOV. Sold at Home Depot, Amazon, Macy's. Confirmed ON-NICHE via web research Sep 15. Fits "closet-to-boutique" ($89 bookshelf transforms closet system) and home office reset content. Perfect Tribesigns fall hook: "My closet was a dumping ground. $89 of industrial shelving. Same closet." Accept immediately — invited program = higher approval probability. IAN: log in to Awin browser dashboard to accept Tribesigns invitation. |
@@ -726,7 +726,7 @@ Agent configs live in `/private/tmp/golden-home-project/automation/agents/`.
 
 ## NEXT ACTIONS (priority order)
 
-- [x] **Rewarx Publisher ID SENT 2026-09-20 (Affiliate Optimizer)** — Awin Publisher ID **2823700** sent to Julian at studio@rewarx.com (msg 1a0bf2aaa2ab1bbb). Julian confirmed he will generate Golden10 promo code (10% off) upon receipt. Awaiting confirmation + promo code. 50% recurring commission — highest in portfolio. IAN: watch for Julian's reply with Golden10 code; once received, activate in content.
+- [ ] **🚨 REWARX AWIN ACCEPT — IAN TODAY (Sep 21)** — Julian replied: Publisher ID 2823700 returned "No results found." We hadn't formally accepted the Awin program. Julian resent invitation (Awin thread 1a0c2ad037b1cba5). Email Monitor replied (msg 1a0c3eb5f3a67c64) that Ian will accept today. **IAN: Log into Awin browser dashboard → accept Rewarx Studio AI program (Advertiser ID 129153) → reply to studio@rewarx.com so Julian assigns Golden10 promo code.** 50% recurring = highest commission in portfolio.
 
 - [x] Accept Syruvia contract on Impact.com — DONE 2026-03-31 (20% commission!)
 - [x] Send Canoly reply — DONE 2026-03-31 (awaiting sample + commission details)
