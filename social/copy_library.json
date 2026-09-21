@@ -2692,6 +2692,52 @@
           }
         ]
       }
+    ],
+    "BLANKET": [
+      {
+        "hook_category": "proof",
+        "hook": "179,574 people rated this blanket. Only 4.6 of them average a complaint.",
+        "beat1": "A queen fleece throw in grey doesn't need a launch campaign when the review count is already this high. That volume means the returns, the washing, the years of actual use have already been tested by strangers, not a brand's marketing copy.",
+        "turn": "The Bedsure GentleSoft Fleece blanket is a lightweight throw sized for a queen bed, built for fall layering or year-round use. At 4.6 stars across 179,574 reviews, the pattern holds up at a scale most home goods never reach.",
+        "result": "For $19.98 you're not betting on a new listing, you're buying into a rating that nearly 180,000 people already stress-tested.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close-up on a phone screen scrolling an Amazon listing, review count '179,574' highlighted",
+            "on_screen_text": "179,574 REVIEWS",
+            "voiceover": "One hundred seventy nine thousand people rated this blanket."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Overhead shot of a grey fleece blanket unfolded across a queen bed, soft window light",
+            "on_screen_text": "QUEEN SIZE / GREY",
+            "voiceover": "It's the Bedsure GentleSoft fleece throw, queen size, in grey."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Hand pulling the blanket up over shoulders on a couch, texture visible in slow motion",
+            "on_screen_text": "4.6 STARS",
+            "voiceover": "4.6 stars isn't a launch-week number. That's an average held across nearly two hundred thousand people."
+          },
+          {
+            "n": 4,
+            "duration_sec": 5,
+            "visual_prompt": "Split screen: bare bed on the left, bed layered with the grey throw on the right, fall-toned room decor",
+            "on_screen_text": "LIGHTWEIGHT FALL LAYER",
+            "voiceover": "Lightweight enough for a fall layer, warm enough to stay on the bed past the season."
+          },
+          {
+            "n": 5,
+            "duration_sec": 4,
+            "visual_prompt": "Price tag graphic overlay on the folded blanket, clean product shot to close",
+            "on_screen_text": "$19.98",
+            "voiceover": "Nineteen ninety eight, backed by a review count most blankets never see."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
