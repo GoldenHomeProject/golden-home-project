@@ -7077,5 +7077,29 @@
     },
     "hook": "106,545 people rated this mattress protector. 4.5 stars.",
     "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-20-001.mp4"
+  },
+  {
+    "name": "reel_2026-09-21_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-21-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "106,545 people rated this twin mattress protector. It still sits at 4.5 stars.\n\nA number like that doesn't happen by accident. This is a waterproof twin protector built for deep pocket mattresses up to 15 inches, the kind that swallow a regular fitted sheet corner within a week. Six-figure review counts usually mean one of two things: the product works, or it's cheap enough that nobody bothers returning it. This one has both going for it.\n\nIt's a waterproof barrier layer that stretches over a twin mattress up to 15 inches deep, sitting under your sheets to catch spills, sweat, and accidents before they reach the mattress itself. At 106,545 reviews and a 4.5-star average, that's not a small sample size skewing the number, that's a pattern.\n\nYour mattress stays protected without needing a mattress at all replacement conversation, and it runs $12.99.\n\nComment TWIN and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Waterproof Twin Size Mattress Protector fits Upto 15\" Deep Pocket",
+      "dm_keyword": "TWIN",
+      "amazon_asin": "B00MRH9NCK",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B00MRH9NCK?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "106,545 people rated this twin mattress protector. It still sits at 4.5 stars."
   }
 ]
