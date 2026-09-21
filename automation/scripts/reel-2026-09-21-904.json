@@ -1,0 +1,60 @@
+{
+  "created_at": "2026-09-21T15:33:30.848856Z",
+  "date": "2026-09-21",
+  "seq": 904,
+  "source": "repurpose",
+  "hook": "I found the $26 upgrade to that viral $16 light",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Plug-in sconce glowing fixed warm-amber, static, no change",
+      "on_screen_text": "The $16 sconce: one color. Always.",
+      "voiceover": "The viral $16 sconce gives you one warm tone, fixed. That's all you get."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Govee RGBIC LED strip behind a console table, colors shifting segment by segment",
+      "on_screen_text": "$26.09. Every segment, a different color.",
+      "voiceover": "For $26.09, this LED strip lets individual sections shift color and brightness independently \u2014 not the whole strip in one tone."
+    },
+    {
+      "n": 3,
+      "duration_sec": 3,
+      "visual_prompt": "Phone screen showing the Govee app scheduling the lights to switch on at dusk",
+      "on_screen_text": "Set it to turn on at dusk. From your phone.",
+      "voiceover": "You schedule it from your phone to switch on at dusk, same as the sensor built into the cheap sconces."
+    },
+    {
+      "n": 4,
+      "duration_sec": 3,
+      "visual_prompt": "Strip applied along the back of a wall mirror, indirect glow visible, no visible light source",
+      "on_screen_text": "Indirect glow, not a visible bulb",
+      "voiceover": "Mounted behind a mirror or along a doorframe, it creates that indirect glow-behind-an-object look instead of a visible fixture."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Text card comparing price and features: $16 fixed color vs $26.09 tunable, app-controlled",
+      "on_screen_text": "Double the price. Not double for no reason.",
+      "voiceover": "It's roughly double the price of the sconce, but it's for people who already know they want to control the color themselves."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Final shot: full styled corner with the strip glowing warm-amber to match the sconce look",
+      "on_screen_text": "Same vintage-glow look. Way more control.",
+      "voiceover": "You can still land on that exact vintage-sconce color \u2014 you just get to choose it instead of accepting whatever the sconce ships with."
+    }
+  ],
+  "caption": "The $16 plug-in sconce only comes in one fixed warm tone. This $26.09 strip gets you the same glow with full color and schedule control from your phone. Worth the upgrade? I break down the spec differences on the blog \u2014 link in bio.",
+  "hashtags": [
+    "#goveelights",
+    "#ledstriplights",
+    "#smarthomelighting",
+    "#cozyglow",
+    "#bedroomlighting",
+    "#amazonhomefinds"
+  ]
+}

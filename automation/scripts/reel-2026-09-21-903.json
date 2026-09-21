@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-21T15:33:30.848715Z",
+  "date": "2026-09-21",
+  "seq": 903,
+  "source": "repurpose",
+  "hook": "$11.99 fairy lights beat a $16 sconce for glow",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of a single plug-in sconce casting a small pool of light on a wall",
+      "on_screen_text": "One sconce = one wall's worth of glow",
+      "voiceover": "A single sconce covers about one wall's worth of ambient light. That's it."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Wide shot of 33ft warm-white fairy lights wrapped three times around a large console mirror",
+      "on_screen_text": "33ft of lights. $11.99. Same price range.",
+      "voiceover": "For basically the same price, 33 feet of warm-white string lights wraps a whole mirror frame two or three times."
+    },
+    {
+      "n": 3,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of the plug adaptor going into a wall outlet, not batteries",
+      "on_screen_text": "Plugs in. No dead batteries mid-evening.",
+      "voiceover": "It plugs into the wall, so it's not dying on you halfway through the evening like the battery versions do."
+    },
+    {
+      "n": 4,
+      "duration_sec": 3,
+      "visual_prompt": "Text overlay showing star rating and review count: 4.5 stars, 13,028 ratings",
+      "on_screen_text": "4.5 stars across 13,028 ratings",
+      "voiceover": "Over thirteen thousand ratings sit at 4.5 stars \u2014 that's a big enough sample to trust."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Full room shot: console table, mirror wrapped in lights, small lamp, cozy fall styling",
+      "on_screen_text": "This is the 'cozy corner' photo you're searching for",
+      "voiceover": "This is the shot that's actually behind most of those 'cozy bedroom lighting' searches \u2014 not the sconce alone."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Side-by-side comparison card: Sconce $16 one wall vs Fairy lights $11.99 whole mirror",
+      "on_screen_text": "Same budget. More coverage.",
+      "voiceover": "Same budget, more coverage \u2014 that's the trade worth knowing before you buy."
+    }
+  ],
+  "caption": "I compared what a $16 plug-in sconce actually covers versus $11.99 in warm-white string lights \u2014 same price range, very different coverage. 13,028 ratings back this one up. Full comparison on the blog, link in bio.",
+  "hashtags": [
+    "#fairylights",
+    "#cozybedroomideas",
+    "#fallcozydecor",
+    "#stringlights",
+    "#bedroomcorner",
+    "#amazonfinds",
+    "#cozyaesthetic"
+  ]
+}

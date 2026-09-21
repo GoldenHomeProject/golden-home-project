@@ -1,0 +1,60 @@
+{
+  "created_at": "2026-09-21T15:33:30.848563Z",
+  "date": "2026-09-21",
+  "seq": 902,
+  "source": "repurpose",
+  "hook": "Why your $16 sconce won't light your hallway",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Slow pan across a dark hallway floor at night, barely visible",
+      "on_screen_text": "Dark hallway. 11pm. You know this walk.",
+      "voiceover": "You know this walk \u2014 down a dark hallway, feeling for the wall."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Plug-in sconce glowing on the wall, camera tilts down to show floor still unlit",
+      "on_screen_text": "The $16 sconce lights THIS. Not this.",
+      "voiceover": "A plug-in sconce lights the wall it's plugged into. It doesn't touch the floor."
+    },
+    {
+      "n": 3,
+      "duration_sec": 3,
+      "visual_prompt": "Product shot of a 2-pack motion sensor light, $11.99 price tag overlay",
+      "on_screen_text": "$11.99 for TWO motion sensor lights",
+      "voiceover": "For $11.99, you get two motion-sensor lights instead \u2014 one for the hallway, one for a closet or bathroom."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Demo: foot steps near outlet, light triggers instantly, cool white glow along baseboard",
+      "on_screen_text": "No switch. No reaching in the dark.",
+      "voiceover": "They trigger the second you walk past \u2014 no switch, no fumbling."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Side-by-side: warm sconce up high, cool motion light down low, both on in same hallway",
+      "on_screen_text": "Warm light up top. Safety light down low.",
+      "voiceover": "Keep the warm sconce for ambiance up top, and let the motion light handle the actual walking."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Text card reading 'Category fact: reviewers say the same thing repeatedly'",
+      "on_screen_text": "Not a guess. It's the pattern in the reviews.",
+      "voiceover": "This isn't one opinion \u2014 it's the pattern that shows up across dozens of reviews in this category."
+    }
+  ],
+  "caption": "The $16 plug-in sconce trend is real, but review threads keep pointing at the same gap: it lights a wall, not a path. Here's the $11.99 fix. Blog post has the full spec breakdown \u2014 link in bio.",
+  "hashtags": [
+    "#darkhallwayfix",
+    "#motionsensorlight",
+    "#amazonfinds",
+    "#hallwaymakeover",
+    "#nightlightideas",
+    "#budgetlighting"
+  ]
+}

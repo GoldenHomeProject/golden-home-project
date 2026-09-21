@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-21T15:33:30.848324Z",
+  "date": "2026-09-21",
+  "seq": 901,
+  "source": "repurpose",
+  "hook": "A $16 plug-in sconce is trending. Does it work?",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Thumb scrolling an Amazon best-sellers list, cursor landing on a plug-in antique sconce listing",
+      "on_screen_text": "This $16 light has been Top 20 all September",
+      "voiceover": "This plug-in sconce has been sitting in Amazon's top 20 lighting picks for most of September."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of a bronze plug-in sconce glowing warm in a wall outlet, hallway background",
+      "on_screen_text": "$14-$18. No wiring. No anchors.",
+      "voiceover": "It's $14 to $18, plugs straight into the wall, and needs zero tools to install."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Wide shot of a dark hallway with only the sconce lit on one wall, floor still dark",
+      "on_screen_text": "But it lights a WALL, not your path",
+      "voiceover": "Here's what the reviews keep flagging: it lights the wall next to it, not the floor you're actually walking on."
+    },
+    {
+      "n": 4,
+      "duration_sec": 3,
+      "visual_prompt": "Motion-sensor night light clicking on automatically as a foot steps near it in a hallway",
+      "on_screen_text": "$11.99 fixes the floor problem",
+      "voiceover": "An $11.99 motion-sensor plug-in covers the part the sconce can't."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Overhead shot of both lights working together in the same hallway at night",
+      "on_screen_text": "Layer it. Don't replace it.",
+      "voiceover": "The fix isn't picking one light \u2014 it's stacking two cheap ones."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Text card on screen listing both products with prices adding to a total",
+      "on_screen_text": "2 lights. $28 total. Hallway solved.",
+      "voiceover": "Two lights, twenty-eight dollars, and the hallway actually works after dark."
+    }
+  ],
+  "caption": "I didn't buy the viral $16 sconce \u2014 I read what the review data across this whole category actually says first. Here's what a dark hallway needs (spoiler: it's two lights, not one). Full breakdown on the blog, link in bio.",
+  "hashtags": [
+    "#hallwaylighting",
+    "#amazonhomefinds",
+    "#cozylighting",
+    "#budgethomedecor",
+    "#nightlightfinds",
+    "#pluginlighting",
+    "#smallspacedecor"
+  ]
+}

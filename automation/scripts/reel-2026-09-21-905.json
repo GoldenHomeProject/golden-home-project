@@ -1,0 +1,68 @@
+{
+  "created_at": "2026-09-21T15:33:30.849070Z",
+  "date": "2026-09-21",
+  "seq": 905,
+  "source": "repurpose",
+  "hook": "I built the viral cozy corner for $90, not $16",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Text card reading 'The $16 sconce trend everyone's talking about'",
+      "on_screen_text": "Everyone's buying THIS $16 light",
+      "voiceover": "Everyone's talking about this one $16 plug-in sconce right now."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Bare corner, empty wall, just an outlet, before shot",
+      "on_screen_text": "Here's the actual before",
+      "voiceover": "But here's what a bare corner actually looks like before you touch it."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Quick cuts: motion sensor light $11.99, fairy lights $11.99 wrapped on mirror, side table $17.76 assembled",
+      "on_screen_text": "$11.99 + $11.99 + $17.76",
+      "voiceover": "Add an $11.99 motion light for the floor, $11.99 in string lights for the glow, and a $17.76 side table to give it something to sit on."
+    },
+    {
+      "n": 4,
+      "duration_sec": 3,
+      "visual_prompt": "Blackout curtains being hung on a tension rod near the corner, room darkening",
+      "on_screen_text": "$14.58 blocks the daylight fighting your glow",
+      "voiceover": "A $14.58 pair of blackout curtains stops daylight from washing out the whole effect."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Fleece blanket draped over a chair next to the finished corner setup",
+      "on_screen_text": "$19.98 has the biggest review count here: 179,574 ratings",
+      "voiceover": "And a $19.98 blanket \u2014 the single most-reviewed item in this whole roundup at nearly 180,000 ratings \u2014 finishes the texture."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Full reveal: finished cozy corner, warm glow, table, blanket, curtains closed, evening lighting",
+      "on_screen_text": "Total: under $90. Not one $16 light.",
+      "voiceover": "The full corner runs under ninety dollars total \u2014 the $16 sconce was never going to do this alone."
+    },
+    {
+      "n": 7,
+      "duration_sec": 2,
+      "visual_prompt": "Final text card: 'Full breakdown + prices: link in bio'",
+      "on_screen_text": "Every price + spec: link in bio",
+      "voiceover": "Every price and spec is broken down on the blog."
+    }
+  ],
+  "caption": "The $16 plug-in sconce is trending, but it's one piece of a six-item stack that actually builds the 'cozy corner' look people are searching for. I priced out the whole thing \u2014 under $90 total. Full list + links on the blog, in bio.",
+  "hashtags": [
+    "#cozycornerideas",
+    "#fallhomedecor",
+    "#amazonfinds",
+    "#budgetdecorideas",
+    "#hallwaymakeover",
+    "#cozybedroomideas",
+    "#homedecorfinds"
+  ]
+}
