@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-09-21 (Strategy & Outreach 9am)
+# Last updated: 2026-09-21 (Affiliate Optimizer 10am)
 # ============================================================
 
 ---
@@ -809,6 +809,14 @@ Agent configs live in `/private/tmp/golden-home-project/automation/agents/`.
 - [ ] **Seville Classics final follow-up (2026-09-22)** — Follow-up sent Sep 15 (msg 1a0a52e80ba1f2bc). If no reply by Sep 22, join FlexOffers affiliate program directly (search "Seville Classics" on flexoffers.com) for tracking links without direct brand reply.
 - [ ] **🆕 IAN: Accept SimpleProject on Awin (invited 2026-09-20)** — Shenzhen Cangyu Technology / SimpleProject: eco-friendly bathroom remodel products ($200-$700, 10%+ commission). ON-NICHE confirmed (bathroom transformation = our niche). Accept via Awin browser dashboard (merchant 99013). Labor Day Sale currently live. (Email Monitor 2026-09-20)
 - [ ] **🚨 CORRECTION — Promeed pillowcase acceptance NEVER DELIVERED (2026-09-20)** — Sep 19 Affiliate Optimizer incorrectly assessed delivery as successful. Permanent failure confirmed 2026-09-19 17:04 UTC — notifications@outreach.impact.com SMTP server timed out on all retry attempts. Amelia at Promeed NEVER received our "COMPARE" acceptance. **IAN: Log into Impact.com publisher dashboard → find Promeed program → Contact advertiser via platform messaging** to resend our acceptance for the free 23-momme silk pillowcase comparison offer. Active 12% partner — free sample for comparison content is unblocked value. Do NOT email notifications@outreach.impact.com again. (Email Monitor 2026-09-20)
+
+- [ ] **🆕 Impact.com "Dusk" campaign (ID 57504) — evaluate (2026-09-21)** — Impact.com weekly digest (13:04 UTC Sep 21) flagged new advertiser "Dusk (57504)" joining the marketplace Sep 17. Name suggests possible home lighting, candles, or home fragrance brand — potentially ON-NICHE. **IAN: Log into Impact.com publisher dashboard → search advertiser "Dusk" (campaign ID 57504) → check niche/category and commission rate. If home/lifestyle category, join immediately.** Could be a meaningful addition to fall atmospheric home content (cozy fall room resets, bedtime routines, reading nook setups). (Affiliate Optimizer 2026-09-21)
+
+- [ ] **🚨 Ruggable follow-up DUE TOMORROW (2026-09-22)** — Washable rugs ON-NICHE, $99-299 AOV. Original pitch Sep 1 (affiliates@ruggable.com). Follow-up sent Sep 15 (msg 1a0a52e9d6186fa6). If still no reply by Sep 22, try ruggable.com contact form OR search LinkedIn for their partnerships/affiliate contact. Fall cozy room reset = perfect content window NOW. Renter-safe = our proven hook.
+
+- [ ] **🚨 Seville Classics final follow-up DUE TOMORROW (2026-09-22)** — Follow-up sent Sep 15 (msg 1a0a52e80ba1f2bc). If no reply by Sep 22, join FlexOffers affiliate program directly (search "Seville Classics" on flexoffers.com). Tracking links accessible without direct brand reply.
+
+- [ ] **Audible $20/signup bounty — reading nook content slot (Sep 8–Dec 15, 2026)** — Pinterest "reading nook ideas" +245% surge confirmed Sep 11. This format combines our cozy fall reset angle with the highest Amazon bounty currently available ($20/signup vs 3-8% product commissions). Target: add Audible Standard Free Trial link to any reading nook / cozy corner content. Zero opt-in required under goldenhomep0a-20. Stack with accent chair + floor lamp + throw + wallpaper shelf-back for high affiliate-density slot. Revenue math: $20 Audible + $12 Prime + 8% on $67 room products = ~$37 per sale vs ~$5 on a pure Amazon product hook. (Affiliate Optimizer 2026-09-21)
 
 ---
 *This file is automatically updated by agents. Human review recommended weekly.*
