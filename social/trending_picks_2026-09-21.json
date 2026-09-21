@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-09-21",
+  "category": "Bath Linens",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-bath-towels-and-linens.html",
+  "picks": [
+    {
+      "asin": "B010S5VXKC",
+      "name": "Amazon Basics Fast Drying Cotton Washcloths for Bathroom",
+      "price": "$18.39",
+      "rating": 4.6,
+      "reviews": 75892,
+      "rank": 2
+    },
+    {
+      "asin": "B09FX7TFJV",
+      "name": "MR.SIGA Microfiber Cleaning Cloths",
+      "price": "$16.75",
+      "rating": 4.7,
+      "reviews": 104908,
+      "rank": 16
+    },
+    {
+      "asin": "B0897859VJ",
+      "name": "GOSHI Exfoliating Shower Towel",
+      "price": "$18.49",
+      "rating": 4.6,
+      "reviews": 22682,
+      "rank": 22
+    },
+    {
+      "asin": "B08S31RWBK",
+      "name": "Hicober Microfiber Hair Towel Wrap for Women",
+      "price": "$12.99",
+      "rating": 4.6,
+      "reviews": 35033,
+      "rank": 4
+    },
+    {
+      "asin": "B007JCHA6E",
+      "name": "Utopia Towels 24 Pack Washcloths",
+      "price": "$18.99",
+      "rating": 4.6,
+      "reviews": 75237,
+      "rank": 5
+    },
+    {
+      "asin": "B07B6GC5GY",
+      "name": "Amazon Basics Cotton Washcloths",
+      "price": "$10.49",
+      "rating": 4.6,
+      "reviews": 11076,
+      "rank": 7
+    }
+  ]
+}
