@@ -1,0 +1,32 @@
+{
+  "captured_at": "2026-09-22",
+  "category": "Seasonal D\u00e9cor",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-seasonal-decor.html",
+  "picks": [
+    {
+      "asin": "B07TWF8JZ1",
+      "name": "OCATO 200\" Halloween Decorations Spider Web Outdoor +59\" Giant Spider",
+      "price": "$9.99",
+      "rating": 4.5,
+      "reviews": 5739,
+      "rank": 2
+    },
+    {
+      "asin": "B07H4HHNQK",
+      "name": "Sattiyrch 15\" Wreath Hanger for Front Door",
+      "price": "$6.99",
+      "rating": 4.7,
+      "reviews": 30455,
+      "rank": 6
+    },
+    {
+      "asin": "B01LC94KFS",
+      "name": "AerWo Halloween Decoration Black Lace Spiderweb Fireplace Mantle Scarf",
+      "price": "$8.99",
+      "rating": 4.7,
+      "reviews": 8187,
+      "rank": 17
+    }
+  ]
+}
