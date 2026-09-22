@@ -7105,10 +7105,10 @@
   },
   {
     "name": "reel_repurpose_2026-09-21_901",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-09-21-901.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-21-901.mp4",
     "caption": "I didn't buy the viral $16 sconce \u2014 I read what the review data across this whole category actually says first. Here's what a dark hallway needs (spoiler: it's two lights, not one). Full breakdown on the blog, link in bio.",
     "hashtags": [
       "#hallwaylighting",
@@ -7119,14 +7119,15 @@
       "#pluginlighting",
       "#smallspacedecor"
     ],
-    "hook": "A $16 plug-in sconce is trending. Does it work?"
+    "hook": "A $16 plug-in sconce is trending. Does it work?",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-21-901.mp4"
   },
   {
     "name": "reel_repurpose_2026-09-21_902",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-09-21-902.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-21-902.mp4",
     "caption": "The $16 plug-in sconce trend is real, but review threads keep pointing at the same gap: it lights a wall, not a path. Here's the $11.99 fix. Blog post has the full spec breakdown \u2014 link in bio.",
     "hashtags": [
       "#darkhallwayfix",
@@ -7136,14 +7137,15 @@
       "#nightlightideas",
       "#budgetlighting"
     ],
-    "hook": "Why your $16 sconce won't light your hallway"
+    "hook": "Why your $16 sconce won't light your hallway",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-21-902.mp4"
   },
   {
     "name": "reel_repurpose_2026-09-21_903",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-09-21-903.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-21-903.mp4",
     "caption": "I compared what a $16 plug-in sconce actually covers versus $11.99 in warm-white string lights \u2014 same price range, very different coverage. 13,028 ratings back this one up. Full comparison on the blog, link in bio.",
     "hashtags": [
       "#fairylights",
@@ -7154,7 +7156,8 @@
       "#amazonfinds",
       "#cozyaesthetic"
     ],
-    "hook": "$11.99 fairy lights beat a $16 sconce for glow"
+    "hook": "$11.99 fairy lights beat a $16 sconce for glow",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-21-903.mp4"
   },
   {
     "name": "reel_repurpose_2026-09-21_904",
@@ -7175,10 +7178,10 @@
   },
   {
     "name": "reel_repurpose_2026-09-21_905",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-09-21-905.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-21-905.mp4",
     "caption": "The $16 plug-in sconce is trending, but it's one piece of a six-item stack that actually builds the 'cozy corner' look people are searching for. I priced out the whole thing \u2014 under $90 total. Full list + links on the blog, in bio.",
     "hashtags": [
       "#cozycornerideas",
@@ -7189,6 +7192,7 @@
       "#cozybedroomideas",
       "#homedecorfinds"
     ],
-    "hook": "I built the viral cozy corner for $90, not $16"
+    "hook": "I built the viral cozy corner for $90, not $16",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-21-905.mp4"
   }
 ]
