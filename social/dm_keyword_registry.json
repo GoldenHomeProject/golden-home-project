@@ -5117,6 +5117,22 @@
       "verified_stars": "4.5",
       "verified_reviews": 12987,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B01GCLYV5K",
+      "product_name": "NICETOWN Black Out Curtain Blinds for Bedroom 2 Panels 42\" Wide by 63\" Long | Rod Pocket Thermal Insulated shades, Noise",
+      "categories": [
+        "home",
+        "Window Treatments"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B01GCLYV5K?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-09-22",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$11.95",
+      "verified_stars": "4.6",
+      "verified_reviews": 47736,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
