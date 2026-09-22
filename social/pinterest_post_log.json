@@ -1953,6 +1953,20 @@
       "pin_id": "pin-2026-09-20-B01NBNDC1T",
       "board": "Bedroom Storage & Bedding",
       "link": "https://www.amazon.com/dp/B01NBNDC1T?tag=goldenhomep0a-20&ascsubtag=pinterest"
+    },
+    {
+      "ts": "2026-09-22T01:15:25Z",
+      "action": "board_fallback",
+      "pin_id": "pin-2026-09-20-B0725WFLMB",
+      "wanted": "Bedroom Storage & Bedding",
+      "used": "Home Organization Finds"
+    },
+    {
+      "ts": "2026-09-22T01:15:36Z",
+      "action": "pin_published",
+      "pin_id": "pin-2026-09-20-B0725WFLMB",
+      "board": "Bedroom Storage & Bedding",
+      "link": "https://www.amazon.com/dp/B0725WFLMB?tag=goldenhomep0a-20&ascsubtag=pinterest"
     }
   ]
 }
