@@ -7197,10 +7197,10 @@
   },
   {
     "name": "reel_2026-09-22_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-09-22-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-22-001.mp4",
     "caption": "179,574 people rated this blanket. Only 4.6 of them average a complaint.\n\nA queen fleece throw in grey doesn't need a launch campaign when the review count is already this high. That volume means the returns, the washing, the years of actual use have already been tested by strangers, not a brand's marketing copy.\n\nThe Bedsure GentleSoft Fleece blanket is a lightweight throw sized for a queen bed, built for fall layering or year-round use. At 4.6 stars across 179,574 reviews, the pattern holds up at a scale most home goods never reach.\n\nFor $19.98 you're not betting on a new listing, you're buying into a rating that nearly 180,000 people already stress-tested.\n\nComment BLANKET and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -7217,7 +7217,8 @@
       "affiliate_network": "amazon",
       "affiliate_url": "https://www.amazon.com/dp/B0157T2ENY?tag=goldenhomep0a-20"
     },
-    "hook": "179,574 people rated this blanket. Only 4.6 of them average a complaint."
+    "hook": "179,574 people rated this blanket. Only 4.6 of them average a complaint.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-22-001.mp4"
   },
   {
     "id": "carousel-2026-09-22-B00R55CIRQ",
