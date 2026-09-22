@@ -4850,5 +4850,33 @@
     "posted": false,
     "source": "pinterest_pipeline",
     "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-09-22-B07PCQKTCN",
+    "asin": "B07PCQKTCN",
+    "board": "Bedroom Storage & Bedding",
+    "title": "Queen Duvet Cover Ideas: Prewashed Cotton-Like Soft Bedding Set, White",
+    "description": "Queen duvet cover in prewashed, cotton-like fabric for $27.99. The relaxed weave is designed to feel soft and broken-in right out of the package, skipping the extra wash cycles some duvet covers need. White colorway works across farmhouse, modern, and minimalist bedroom setups. A straightforward pick if you're refreshing a bedroom storage and bedding rotation. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B07PCQKTCN?tag=goldenhomep0a-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-09-22-B07PCQKTCN.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-09-22-B07PCQKTCN.png",
+    "queued_at": "2026-09-22T11:07:43.559959Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-09-22-B0D1VMFWYN",
+    "asin": "B0D1VMFWYN",
+    "board": "Bedroom Storage & Bedding",
+    "title": "Bedroom Storage Ideas: Silk Pillow Cases 2 Pack Standard Size with\u2026 \u2014 $20.99",
+    "description": "LYSHIN Silk Pillow Cases 2 Pack Standard Size with\u2026 for bedroom storage ideas. Rated 4.5\u2605 across 8,569 reviews \u00b7 $20.99. Prices were accurate when this was published and change often. Tap through for the current listing. Amazon affiliate link \u2014 we may earn a commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B0D1VMFWYN?tag=goldenhomep0a-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-09-22-B0D1VMFWYN.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-09-22-B0D1VMFWYN.png",
+    "queued_at": "2026-09-22T11:08:17.382487Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
   }
 ]
