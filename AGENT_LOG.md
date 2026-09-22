@@ -3871,3 +3871,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** social/pinterest_queue.json
 **External actions:** Pexels (backgrounds) + Claude CLI (pin copy)
 **Next agent hint:** post_pinterest.py (Pi) drains pinterest_queue.json once a Pinterest business account is logged into the Pi Chromium profile.
+
+## 2026-09-22T12:13:26Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B00R55CIRQ (Clorox Corner Toilet Bowl Brush with Und)
+**Changed:** social/carousels/2026-09-22-B00R55CIRQ/slide-1.png, social/carousels/2026-09-22-B00R55CIRQ/slide-2.png, social/carousels/2026-09-22-B00R55CIRQ/slide-3.png, social/carousels/2026-09-22-B00R55CIRQ/slide-4.png, social/carousels/2026-09-22-B00R55CIRQ/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B00R55CIRQ carousel.
