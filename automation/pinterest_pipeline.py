@@ -750,80 +750,30 @@ def product_pin_image(product_name: str, out_path: Path, seed: int) -> bool:
 
 
 def compose_pin(bg_path: Path | None, overlay_hook: str, subtitle: str,
-                price: str) -> Image.Image:
-    """One 1000x1500 vertical pin. Photo path = Pexels portrait with a dark
-    lower band; type path = warm gradient. Either way the brand domain sits
-    at the bottom so the pin is recognizable when re-pinned."""
-    base = (28, 65, 50)  # deep teal brand tone
-    if bg_path and bg_path.exists():
-        canvas = Image.new("RGB", (PIN_W, PIN_H), base)
-        bg = Image.open(bg_path).convert("RGB")
-        bw, bh = bg.size
-        scale = max(PIN_W / bw, PIN_H / bh)
-        bg = bg.resize((int(bw * scale), int(bh * scale)), Image.LANCZOS)
-        ox, oy = (bg.size[0] - PIN_W) // 2, (bg.size[1] - PIN_H) // 2
-        bg = bg.crop((ox, oy, ox + PIN_W, oy + PIN_H))
-        # Do NOT blur. Blurring a stock photo makes an already-dim image look cheap,
-        # and Pinterest rewards crisp bright imagery. Normalise exposure instead: our
-        # published pins were consistently dark and muddy, which is a large part of
-        # why 205 impressions produced 0 saves.
-        bg = ImageEnhance.Brightness(bg).enhance(1.18)
-        bg = ImageEnhance.Contrast(bg).enhance(1.06)
-        bg = ImageEnhance.Color(bg).enhance(1.04)
-        canvas.paste(bg)
-        # Gradient scrim rather than a flat alpha-175 slab: readable text without
-        # blacking out the bottom half of the picture.
-        band_top = int(PIN_H * 0.55)
-        band_h = PIN_H - band_top
-        overlay = Image.new("RGBA", (PIN_W, band_h), (0, 0, 0, 0))
-        od = ImageDraw.Draw(overlay)
-        for i in range(band_h):
-            a = int(30 + (150 - 30) * (i / max(1, band_h - 1)) ** 0.75)
-            od.line([(0, i), (PIN_W, i)], fill=(0, 0, 0, a))
-        canvas.paste(overlay, (0, band_top), overlay)
-        text_top = band_top + 60
-    else:
-        canvas = _vgrad(base, tuple(int(c * 0.6) for c in base), PIN_W, PIN_H)
-        text_top = 480
+                price: str, board: str = "") -> Image.Image:
+    """One 1000x1500 vertical pin, rendered by product_pin.
 
-    draw = ImageDraw.Draw(canvas, "RGBA")
-    margin = 80
-    max_w = PIN_W - 2 * margin
+    The previous implementation set all three text elements CENTRED on top of the
+    photo behind a gradient scrim. On a real pin the headline landed across pillows,
+    a hanging lamp, dangling cords and a wall outlet — unreadable and visibly
+    amateur next to our own collage pins, which give type a band of its own.
 
-    # hook (big bold)
-    hf = _font(86, bold=True)
-    lines = _wrap(draw, overlay_hook, hf, max_w)
-    y = text_top
-    for ln in lines:
-        w = draw.textbbox((0, 0), ln, font=hf)[2]
-        x = (PIN_W - w) // 2
-        draw.text((x + 2, y + 2), ln, font=hf, fill=(0, 0, 0, 160))
-        draw.text((x, y), ln, font=hf, fill=(255, 250, 240, 250))
-        y += int(86 * 1.18)
-
-    # subtitle (product name, smaller)
-    if subtitle:
-        sf = _font(40)
-        for ln in _wrap(draw, subtitle, sf, max_w)[:3]:
-            w = draw.textbbox((0, 0), ln, font=sf)[2]
-            draw.text(((PIN_W - w) // 2, y + 14), ln, font=sf, fill=(255, 255, 255, 225))
-            y += int(40 * 1.25)
-
-    # price chip
-    if price:
-        pf = _font(44, bold=True)
-        pw = draw.textbbox((0, 0), price, font=pf)[2]
-        cx = (PIN_W - pw) // 2
-        draw.rounded_rectangle([cx - 28, y + 28, cx + pw + 28, y + 92],
-                               radius=14, fill=(193, 92, 60, 255))
-        draw.text((cx, y + 36), price, font=pf, fill=(255, 255, 255, 255))
-
-    # brand domain footer
-    bf = _font(34, bold=True)
-    dom = "goldenhomeproject.com"
-    dw = draw.textbbox((0, 0), dom, font=bf)[2]
-    draw.text(((PIN_W - dw) // 2, PIN_H - 70), dom, font=bf, fill=(255, 255, 255, 235))
-    return canvas
+    product_pin applies the collage's design language to a single product: cream
+    header band, kicker with a gold square, left-aligned editorial headline, gold
+    rule, the photo as a rounded card, price chip, matching footer. The band height
+    is measured from the text so a short headline yields a bigger picture.
+    """
+    from product_pin import render_product_pin
+    kicker = _search_phrase(board) if board else ""
+    updated = datetime.now(timezone.utc).strftime("Updated %B %Y")
+    return render_product_pin(
+        headline=overlay_hook or subtitle,
+        product_name=subtitle,
+        price=price or "",
+        photo=bg_path,
+        kicker=kicker,
+        updated=updated,
+    )
 
 
 def already_queued(asin: str, queue: list[dict]) -> bool:
@@ -1037,6 +987,7 @@ def main() -> int:
             copy.get("overlay_hook") or _short_name(entry.get("product_name", "")),
             _short_name(entry.get("product_name", "")),
             price,
+            board=board,
         )
         img_path = PINS_DIR / f"pin-{date_str}-{asin}.png"
         img.save(img_path, "PNG", optimize=True)
