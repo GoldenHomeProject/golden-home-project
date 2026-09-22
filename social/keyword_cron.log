@@ -1995,3 +1995,59 @@ Call log:
 [hub-nav] 14 file(s) updated
 [sitemap] 79 urls (15 excluded as non-canonical)
 [sitemap] wrote /home/ianmcwherter/golden-home-project/sitemap.xml
+    /dp/B00FLYWNYQ did not render productTitle: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("#productTitle") to be visible
+
+[dorm-src] ABORT: control listing will not render — we are throttled.
+[link] 9 post(s) with placeholders: 2026-09-01-under-sink-organizer-for-hair-tools.html, 2026-09-07-27-dollar-cabinet-hardware-swap-10k-remodel-look.html, 2026-09-12-27-dollar-cabinet-hardware-swap-builder-grade-look.html
+[link] verified catalogue: 331 products available for matching
+  [search] Delamu Foldable Drawer Dividers
+    search attempt 1 failed: Page.wait_for_selector: Timeout 25000ms exceeded.
+Call log:
+  - waiting for locator("[data-component-type=\"s-search-result\"]") to be visible
+
+    search attempt 2 failed: Page.wait_for_selector: Timeout 25000ms exceeded.
+Call log:
+  - waiting for locator("[data-component-type=\"s-search-result\"]") to be visible
+
+    no search result — keeping placeholder
+  [search] YOULERBU Bamboo Drawer Dividers
+    search attempt 1 failed: Page.wait_for_selector: Timeout 25000ms exceeded.
+Call log:
+  - waiting for locator("[data-component-type=\"s-search-result\"]") to be visible
+
+    search attempt 2 failed: Page.wait_for_selector: Timeout 25000ms exceeded.
+Call log:
+  - waiting for locator("[data-component-type=\"s-search-result\"]") to be visible
+
+    no search result — keeping placeholder
+
+[link] linked=0 skipped=2
+[harvest] scraping 4: Window Treatments, Bath, Home Storage, Cleaning
+  [scrape] Window Treatments: 39 items
+  [scrape] Bath: 39 items
+  [scrape] Home Storage: 39 items
+  [scrape] Cleaning: 39 items
+[harvest] 156 raw rows
+  [skip] B0DQYR6X8R commodity/consumable — Bounty Select-A-Size Paper Towels, White, 2 Triple Rolls = 6
+  [skip] B0DF8RSVJK commodity/consumable — Scott Paper Towels, Choose-A-Sheet, 6 Double Rolls, 108 Shee
+  [skip] B0DFHMZ922 commodity/consumable — Brawny Tear-A-Square 3-Ply Paper Towels, 6 Double Rolls = 12
+  [skip] B09NW92T8Q commodity/consumable — Sparkle Pick-A-Size Kitchen Paper Towels, 6 Double Rolls, 66
+  [skip] B07F246YG1 commodity/consumable — Amazon Basics Disinfecting Wipes, Lemon & Fresh Scent, Sanit
+  [skip] B0CZ5THL73 commodity/consumable — Bounty Essentials Select-A-Size Paper Towels, 6 Double Rolls
+  [skip] B01BZ0LXL8 commodity/consumable — Hefty Ultra Strong 13 Gal Kitchen Trash Bags, White, Lavende
+  [skip] B0DF9BGP8S commodity/consumable — Viva Signature Cloth Paper Towels, 3 Double Rolls, 86 Sheets
+  [skip] B00HSC9F2C commodity/consumable — Clorox Disinfecting Wipes Cleaning Variety Pack, 75 Count, 3
+  [skip] B01FSY4YKO commodity/consumable — Hefty Ultra Strong 13 Gal Kitchen Trash Bags, Lavender Vanil
+  [skip] B095PL2MPZ commodity/consumable — Amazon Basics Multipurpose Drawstring Trash Bags, 30 Gallon 
+  [skip] B0C1R4C4J1 commodity/consumable — Swiffer PowerMop Liquid Floor Cleaner Refills, Solution for 
+  [skip] B0BNNVT2VH commodity/consumable — Lysol Disinfecting Wipes, Cleaner, Lemon + Mango + Linen, 80
+  [skip] B0BKH5W88Y commodity/consumable — Glade PlugIns Refills Air Freshener, Scented and Essential O
+  [skip] B09NW83XJ2 commodity/consumable — SPARKLE Pick-A-Size Paper Towels, 2-Ply Spirited Prints, 6 D
+  [skip] B077K3W4K4 commodity/consumable — Glade PlugIns Refills Air Freshener, Scented and Essential O
+  [skip] B07Q5VHD6V commodity/consumable — Glad Small Trash Bags, Great for Office, Bathrooms and Bedro
+[harvest] 53 passed the $5-$35 / 4.5star / 5000+review bar
+[harvest] 1 NEW product(s); catalogue 317 -> 318
+   B01GCLYV5K    $11.95  4.6*  NICETOWN Black Out Curtain Blinds for Bedroom 
+[harvest] wrote /home/ianmcwherter/golden-home-project/social/dm_keyword_registry.json

@@ -14,7 +14,7 @@
 # products and linked to that hub, so the picture matches the page.
 20 6 * * * cd $HOME/golden-home-project && set -a && . $HOME/.ghp-engagement/pexels.env && set +a && /usr/bin/python3 automation/generate_collage_pins.py --max 1 >> $HOME/golden-home-project/social/pinterest_cron.log 2>&1
 40 9 * * * $HOME/golden-home-project/automation/run_pinterest_post.sh 2 >> /home/ianmcwherter/golden-home-project/social/pinterest_cron.log 2>&1
-15 21 * * * $HOME/golden-home-project/automation/run_pinterest_post.sh 2 >> /home/ianmcwherter/golden-home-project/social/pinterest_cron.log 2>&1
+15 21 * * * $HOME/golden-home-project/automation/run_pinterest_post.sh 4 >> /home/ianmcwherter/golden-home-project/social/pinterest_cron.log 2>&1
 PATH=/usr/local/bin:/usr/bin:/bin
 # DISABLED 2026-08-28: depended on the free HF Space
 # multimodalart/ltx2-audio-to-video, which now raises an internal error for us

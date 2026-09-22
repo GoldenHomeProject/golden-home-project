@@ -9,3 +9,143 @@
 [reel-producer] No unrendered scripts in the last 7 days (as of 2026-08-31). Done.
 [pi-reels] nothing new to commit
 ===== 2026-09-03T03:00:01Z pi reel render =====
+===== 2026-09-22T03:00:01Z pi reel render =====
+  SKIP reel-2026-09-21-904.json — fabricated experience in script: 'I found'
+[reel-producer] 4 scripts to render
+    scene 1: Text card reading 'The $16 sconce trend everyone's talking a
+Loaded as API: https://black-forest-labs-flux-1-schnell.hf.space
+    flux image REJECTED — rendered text detected ('the trend')
+    pexels hit: query='text card reading 'the' photographer=Melike
+    motion: zoom_in
+    scene 2: Bare corner, empty wall, just an outlet, before shot
+Loaded as API: https://black-forest-labs-flux-1-schnell.hf.space
+    flux image accepted (seed=9131)
+    motion: pan_down
+    scene 3: Quick cuts: motion sensor light $11.99, fairy lights $11.99 
+Loaded as API: https://black-forest-labs-flux-1-schnell.hf.space
+    flux image accepted (seed=9262)
+    motion: drift
+    scene 4: Blackout curtains being hung on a tension rod near the corne
+Loaded as API: https://black-forest-labs-flux-1-schnell.hf.space
+    flux failed: You have exceeded your free ZeroGPU quota (90s requested vs. 0s left). Try again in 0:00:00. Subscribe to Hugging Face P
+    pexels hit: query='blackout curtains being hung' photographer=Ron Lach
+    motion: pan_right
+    scene 5: Fleece blanket draped over a chair next to the finished corn
+Loaded as API: https://black-forest-labs-flux-1-schnell.hf.space
+    flux failed: You have exceeded your free ZeroGPU quota (90s requested vs. 0s left). Try again in 0:00:00. Subscribe to Hugging Face P
+    pexels hit: query='fleece blanket draped chair' photographer=SlipcoverKAS .COM
+    motion: push_corner
+    scene 6: Full reveal: finished cozy corner, warm glow, table, blanket
+Loaded as API: https://black-forest-labs-flux-1-schnell.hf.space
+    flux failed: You have exceeded your free ZeroGPU quota (90s requested vs. 0s left). Try again in 0:00:00. Subscribe to Hugging Face P
+    pexels hit: query='full reveal: finished cozy' photographer=Beyzaa Yurtkuran
+    motion: pan_up
+    scene 7: Final text card: 'Full breakdown + prices: link in bio'
+Loaded as API: https://black-forest-labs-flux-1-schnell.hf.space
+    flux failed: You have exceeded your free ZeroGPU quota (90s requested vs. 0s left). Try again in 0:00:00. Subscribe to Hugging Face P
+    pexels hit: query='final text card: 'full' photographer=Melike
+    motion: zoom_out
+    music bed: day_bird.mp3
+    transitions: 6 xfade(s) + grade
+  ✓ reel-2026-09-21-905.mp4 (5196 KB)
+    scene 1: Close-up of a single plug-in sconce casting a small pool of 
+Loaded as API: https://black-forest-labs-flux-1-schnell.hf.space
+    flux failed: You have exceeded your free ZeroGPU quota (90s requested vs. 0s left). Try again in 0:00:00. Subscribe to Hugging Face P
+    pexels hit: query='single plug sconce casting' photographer=Steppe Walker
+    motion: drift
+    scene 2: Wide shot of 33ft warm-white fairy lights wrapped three time
+Loaded as API: https://black-forest-labs-flux-1-schnell.hf.space
+    flux failed: You have exceeded your free ZeroGPU quota (90s requested vs. 0s left). Try again in 0:00:00. Subscribe to Hugging Face P
+    pexels hit: query='wide 33ft warm white' photographer=Frederick Adegoke Snr.
+    motion: pan_right
+    scene 3: Close-up of the plug adaptor going into a wall outlet, not b
+Loaded as API: https://black-forest-labs-flux-1-schnell.hf.space
+    flux failed: You have exceeded your free ZeroGPU quota (90s requested vs. 0s left). Try again in 0:00:00. Subscribe to Hugging Face P
+    pexels hit: query='plug adaptor going wall' photographer=I'm Zion
+    motion: push_corner
+    scene 4: Text overlay showing star rating and review count: 4.5 stars
+Loaded as API: https://black-forest-labs-flux-1-schnell.hf.space
+    flux failed: You have exceeded your free ZeroGPU quota (90s requested vs. 0s left). Try again in 0:00:00. Subscribe to Hugging Face P
+    pexels hit: query='text overlay star rating' photographer=Leeloo The First
+    motion: pan_up
+    scene 5: Full room shot: console table, mirror wrapped in lights, sma
+Loaded as API: https://black-forest-labs-flux-1-schnell.hf.space
+    flux failed: You have exceeded your free ZeroGPU quota (90s requested vs. 0s left). Try again in 0:00:00. Subscribe to Hugging Face P
+    pexels hit: query='full room shot: console' photographer=Max Vakhtbovych
+    motion: zoom_out
+    scene 6: Side-by-side comparison card: Sconce $16 one wall vs Fairy l
+Loaded as API: https://black-forest-labs-flux-1-schnell.hf.space
+    flux failed: You have exceeded your free ZeroGPU quota (90s requested vs. 0s left). Try again in 0:00:00. Subscribe to Hugging Face P
+    pexels hit: query='side side comparison card:' photographer=Anna Shvets
+    motion: pan_left
+    music bed: day_bird.mp3
+    transitions: 5 xfade(s) + grade
+  ✓ reel-2026-09-21-903.mp4 (5540 KB)
+    scene 1: Slow pan across a dark hallway floor at night, barely visibl
+Loaded as API: https://black-forest-labs-flux-1-schnell.hf.space
+    flux failed: You have exceeded your free ZeroGPU quota (90s requested vs. 0s left). Try again in 0:00:00. Subscribe to Hugging Face P
+    pexels hit: query='slow pan across dark' photographer=Nate Biddle
+    motion: pan_left
+    scene 2: Plug-in sconce glowing on the wall, camera tilts down to sho
+Loaded as API: https://black-forest-labs-flux-1-schnell.hf.space
+    flux failed: You have exceeded your free ZeroGPU quota (90s requested vs. 0s left). Try again in 0:00:00. Subscribe to Hugging Face P
+    pexels hit: query='plug sconce glowing wall' photographer=Sóc Năng Động
+    motion: zoom_in
+    scene 3: Product shot of a 2-pack motion sensor light, $11.99 price t
+Loaded as API: https://black-forest-labs-flux-1-schnell.hf.space
+    flux failed: You have exceeded your free ZeroGPU quota (90s requested vs. 0s left). Try again in 0:00:00. Subscribe to Hugging Face P
+    pexels hit: query='product pack motion sensor' photographer=Tim Witzdam
+    motion: pan_down
+    scene 4: Demo: foot steps near outlet, light triggers instantly, cool
+Loaded as API: https://black-forest-labs-flux-1-schnell.hf.space
+    flux failed: You have exceeded your free ZeroGPU quota (90s requested vs. 0s left). Try again in 0:00:00. Subscribe to Hugging Face P
+    pexels hit: query='demo: foot steps near' photographer=CAMERA TREASURE
+    motion: drift
+    scene 5: Side-by-side: warm sconce up high, cool motion light down lo
+Loaded as API: https://black-forest-labs-flux-1-schnell.hf.space
+    flux failed: You have exceeded your free ZeroGPU quota (90s requested vs. 0s left). Try again in 0:00:00. Subscribe to Hugging Face P
+    pexels hit: query='side side: warm sconce' photographer=Berat BAKI
+    motion: pan_right
+    scene 6: Text card reading 'Category fact: reviewers say the same thi
+Loaded as API: https://black-forest-labs-flux-1-schnell.hf.space
+    flux failed: You have exceeded your free ZeroGPU quota (90s requested vs. 0s left). Try again in 0:00:00. Subscribe to Hugging Face P
+    pexels hit: query='text card reading 'category' photographer=ROMAN ODINTSOV
+    motion: push_corner
+    music bed: day_bird.mp3
+    transitions: 5 xfade(s) + grade
+  ✓ reel-2026-09-21-902.mp4 (4827 KB)
+    scene 1: Thumb scrolling an Amazon best-sellers list, cursor landing 
+Loaded as API: https://black-forest-labs-flux-1-schnell.hf.space
+    flux failed: You have exceeded your free ZeroGPU quota (90s requested vs. 0s left). Try again in 0:00:00. Subscribe to Hugging Face P
+    pexels hit: query='thumb scrolling amazon best' photographer=Sergey  Meshkov
+    motion: push_corner
+    scene 2: Close-up of a bronze plug-in sconce glowing warm in a wall o
+Loaded as API: https://black-forest-labs-flux-1-schnell.hf.space
+    flux failed: You have exceeded your free ZeroGPU quota (90s requested vs. 0s left). Try again in 0:00:00. Subscribe to Hugging Face P
+    pexels hit: query='bronze plug sconce glowing' photographer=ENG_HK
+    motion: pan_up
+    scene 3: Wide shot of a dark hallway with only the sconce lit on one 
+Loaded as API: https://black-forest-labs-flux-1-schnell.hf.space
+    flux failed: You have exceeded your free ZeroGPU quota (90s requested vs. 0s left). Try again in 0:00:00. Subscribe to Hugging Face P
+    pexels hit: query='wide dark hallway only' photographer=Olaf Ozga
+    motion: zoom_out[agent-log] Pushed entry for Reel Producer
+
+    scene 4: Motion-sensor night light clicking on automatically as a foo
+Loaded as API: https://black-forest-labs-flux-1-schnell.hf.space
+    flux failed: You have exceeded your free ZeroGPU quota (90s requested vs. 0s left). Try again in 0:00:00. Subscribe to Hugging Face P
+    pexels hit: query='motion sensor night light' photographer=Hoài  Nam
+    motion: pan_left
+    scene 5: Overhead shot of both lights working together in the same ha
+Loaded as API: https://black-forest-labs-flux-1-schnell.hf.space
+    flux failed: You have exceeded your free ZeroGPU quota (90s requested vs. 0s left). Try again in 0:00:00. Subscribe to Hugging Face P
+    pexels hit: query='overhead both lights working' photographer=İclal Çapoğlu Cinal
+    motion: zoom_in
+    scene 6: Text card on screen listing both products with prices adding
+Loaded as API: https://black-forest-labs-flux-1-schnell.hf.space
+    flux failed: You have exceeded your free ZeroGPU quota (90s requested vs. 0s left). Try again in 0:00:00. Subscribe to Hugging Face P
+    pexels hit: query='text card screen listing' photographer=Ron Lach
+    motion: pan_down
+    music bed: day_bird.mp3
+    transitions: 5 xfade(s) + grade
+  ✓ reel-2026-09-21-901.mp4 (5333 KB)
+[reel-producer] OK: 4 reels rendered

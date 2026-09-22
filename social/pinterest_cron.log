@@ -2952,3 +2952,11 @@ Applied autostash.
   "ts": dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
 /home/ianmcwherter/golden-home-project/automation/post_pinterest.py:421: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   pin["posted_at"] = dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+/home/ianmcwherter/golden-home-project/automation/post_pinterest.py:123: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  today = dt.datetime.utcnow().strftime("%Y-%m-%d")
+/home/ianmcwherter/golden-home-project/automation/post_pinterest.py:73: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  e = {"ts": dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
+/home/ianmcwherter/golden-home-project/automation/post_pinterest.py:91: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "ts": dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
+/home/ianmcwherter/golden-home-project/automation/post_pinterest.py:421: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  pin["posted_at"] = dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
