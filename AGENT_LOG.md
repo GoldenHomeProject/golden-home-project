@@ -3919,3 +3919,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** automation/scripts/reel-2026-09-23-*.json, social/post_queue.json
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: proof: 106,656 people rated this mattress protector. Almo
+
+## 2026-09-23T12:27:12Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B07PMFVC9X (Waterproof Full Size Mattress Protector )
+**Changed:** social/carousels/2026-09-23-B07PMFVC9X/slide-1.png, social/carousels/2026-09-23-B07PMFVC9X/slide-2.png, social/carousels/2026-09-23-B07PMFVC9X/slide-3.png, social/carousels/2026-09-23-B07PMFVC9X/slide-4.png, social/carousels/2026-09-23-B07PMFVC9X/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B07PMFVC9X carousel.
