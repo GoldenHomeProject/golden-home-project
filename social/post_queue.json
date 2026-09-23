@@ -7222,10 +7222,10 @@
   },
   {
     "name": "reel_2026-09-23_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-09-23-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-23-001.mp4",
     "caption": "106,656 people rated this mattress protector. Almost none mention leaks.\n\nThat review count is not normal for a bedding accessory. It means a huge number of full-size beds are already running this waterproof layer underneath the sheets, night after night. A number that size only holds up at 4.5 stars if the protector is actually doing its job.\n\nIt's a 200 GSM waterproof mattress protector built to fit full-size mattresses up to 15 inches deep, designed to stay soft and breathable instead of feeling like plastic. 106,656 reviews at a 4.5-star average is the kind of sample size that filters out lucky first impressions.\n\nFor a full-size bed, it's a low-effort way to keep spills, sweat, and accidents off the actual mattress. It's $19.99.\n\nComment FULL and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -7242,7 +7242,8 @@
       "affiliate_network": "amazon",
       "affiliate_url": "https://www.amazon.com/dp/B07PMFVC9X?tag=goldenhomep0a-20"
     },
-    "hook": "106,656 people rated this mattress protector. Almost none mention leaks."
+    "hook": "106,656 people rated this mattress protector. Almost none mention leaks.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-23-001.mp4"
   },
   {
     "id": "carousel-2026-09-23-B07PMFVC9X",
