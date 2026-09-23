@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-23",
+  "agent": "engagement-monitor",
+  "metrics": {
+    "subscribers": 6660,
+    "total_views": 23639,
+    "total_videos": 216
+  },
+  "top_videos": [
+    {
+      "title": "A cup of flour isn't a measurement. It's a guess with a lid ",
+      "views": 175,
+      "likes": 1,
+      "comments": 1
+    },
+    {
+      "title": "112,629 people rated this shower mat. 4.5 stars is hard to f",
+      "views": 133,
+      "likes": 1,
+      "comments": 1
+    },
+    {
+      "title": "133,371 reviews on one blackout curtain. That's not a coinci",
+      "views": 114,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "106,545 people rated this mattress protector. 4.5 stars #sho",
+      "views": 71,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "179,574 people rated this blanket. Only 4.6 of them average ",
+      "views": 49,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "133,371 people rated these blackout curtains before you even",
+      "views": 42,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "106,656 people rated this mattress protector. Almost none me",
+      "views": 36,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "106,545 people rated this twin mattress protector. It still ",
+      "views": 36,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "133,371 people rated these blackout curtains. That number is",
+      "views": 28,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "133,371 people rated these blackout curtains. Here's what th",
+      "views": 18,
+      "likes": 0,
+      "comments": 1
+    }
+  ],
+  "comments_responded": 0,
+  "actions_taken": [
+    "New comment on video: \ud83d\udccc SHOP ALL PRODUCTS \u2014 Amazon links:<br><br>\u2460 Water",
+    "Updated BUSINESS_BRAIN.md metrics"
+  ]
+}
