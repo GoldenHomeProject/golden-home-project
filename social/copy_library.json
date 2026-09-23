@@ -2784,6 +2784,52 @@
           }
         ]
       }
+    ],
+    "PROTECTOR": [
+      {
+        "hook_category": "proof",
+        "hook": "106,545 reviews on one twin mattress protector. That's not a fluke.",
+        "beat1": "A twin bed sees more spills, sweat, and accidents than almost any other mattress in the house \u2014 kids, guests, dorm moves. A protector only earns six figures of reviews if it actually stops liquid from reaching the mattress underneath.",
+        "turn": "This one is waterproof and sized for a twin mattress up to 15 inches deep, so it fits thicker pillow-top and memory foam beds without slipping off the corners. At 4.5 stars across 106,545 reviews, the volume itself is the signal \u2014 that many people don't leave a rating unless the product does the one thing it promised.",
+        "result": "Your mattress stays protected from spills and stains without needing a replacement, and it's $12.99.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close-up text overlay of a star rating and review count animating up on a plain background, twin bed visible behind it",
+            "on_screen_text": "106,545 REVIEWS",
+            "voiceover": "One hundred six thousand people rated this."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Twin bed with thick mattress, hand pulling a fitted protector sheet over the deep corner",
+            "on_screen_text": "FITS UP TO 15\" DEEP",
+            "voiceover": "It's made for thicker twin mattresses, not just the thin ones."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Water droplets poured onto the covered mattress surface, beading up instead of soaking in",
+            "on_screen_text": "WATERPROOF",
+            "voiceover": "Liquid stays on top, not in your mattress."
+          },
+          {
+            "n": 4,
+            "duration_sec": 5,
+            "visual_prompt": "Split screen: star rating graphic 4.5 stars on left, price tag $12.99 on right",
+            "on_screen_text": "4.5 STARS \u00b7 $12.99",
+            "voiceover": "That many reviews at four point five stars is hard to fake."
+          },
+          {
+            "n": 5,
+            "duration_sec": 4,
+            "visual_prompt": "Finished bed shot, protector tucked in neatly under a made twin bed",
+            "on_screen_text": "PROTECT THE MATTRESS",
+            "voiceover": "Twin size, waterproof, twelve ninety nine."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
