@@ -1,0 +1,17 @@
+[Unit]
+Description=GHP pin repoint — edit live Pinterest pins from dead Associates tags to goldenhomep0a-20
+# Uses the persistent Chromium profile (~/.config/ghp-chromium) like post_pinterest.py.
+# Writes NOTHING in the repo (state lives in ~/.ghp-engagement/pin_repoint_*), so
+# there is no git step to trip over the dirty-tree / reset traps.
+# Exit 2 = hard stop (challenge / login / rate limit); runs stay refused until a
+# human deletes ~/.ghp-engagement/pin_repoint_STOP.
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/golden-home-project
+ExecStart=/usr/bin/xvfb-run -a %h/.ghp-engagement/venv/bin/python automation/repoint_pin_links.py --no-dry --max 22
+StandardOutput=append:%h/.ghp-engagement/runs/pin_repoint.log
+StandardError=append:%h/.ghp-engagement/runs/pin_repoint.log
+TimeoutStartSec=5400

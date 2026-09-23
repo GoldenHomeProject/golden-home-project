@@ -1,0 +1,18 @@
+[Unit]
+Description=GHP pin repoint — twice daily until every live pin carries goldenhomep0a-20
+# OnCalendar is LOCAL time (Pi tz America/New_York) — see reference_pi_systemd_git_traps.
+# Windows chosen to avoid the other jobs that drive ~/.config/ghp-chromium:
+#   09:30 engagement, 09:40 + 21:15 pinterest poster (kills any Chromium on the
+#   profile!), 10:00 comment-bot, 14:00 path-c-dm, 19:30 engagement.
+# Each run edits ~15-22 pins over <=75 min. The script disables this timer
+# itself once no dead-tag pins remain.
+
+[Timer]
+OnCalendar=*-*-* 11:00:00
+OnCalendar=*-*-* 15:30:00
+RandomizedDelaySec=1200
+Persistent=false
+Unit=ghp-pin-repoint.service
+
+[Install]
+WantedBy=timers.target
