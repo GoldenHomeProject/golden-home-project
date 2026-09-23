@@ -32,16 +32,17 @@ from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageEnhance
 
-from collage_pin import (PIN_W, PIN_H, GOLD, CREAM, INK, GREY, WHITE,
-                         MARGIN, _font, _fit_lines, _cover, _rounded)
+from brand import (PIN_W, PIN_H, GOLD, CREAM, INK, GREY, MUTED, WHITE,  # noqa: F401
+                   PLACEHOLDER, MARGIN, TYPE, BAND, RADIUS, font as _font)
+from collage_pin import _fit_lines, _cover, _rounded
 
 # The header band is MEASURED, not fixed. A fixed 34% left ~300px of empty cream under
 # a two-line headline, which reads as an unfinished layout. The band is now sized to its
 # own content and the photo takes whatever is left, so a one-line headline gets a bigger
 # picture and a three-line one still breathes.
-HEAD_MIN = int(PIN_H * 0.20)
-HEAD_MAX = int(PIN_H * 0.40)
-FOOT_H = int(PIN_H * 0.11)
+HEAD_MIN = int(PIN_H * BAND["product_head_min"])
+HEAD_MAX = int(PIN_H * BAND["product_head_max"])
+FOOT_H = int(PIN_H * BAND["foot"])
 
 
 def render_product_pin(headline: str, product_name: str, price: str,
@@ -51,7 +52,7 @@ def render_product_pin(headline: str, product_name: str, price: str,
     draw = ImageDraw.Draw(canvas)
 
     # ---- measure the type block before drawing anything ----------------------
-    hf, lines = _fit_lines(headline, 82, PIN_W - 2 * MARGIN)
+    hf, lines = _fit_lines(headline, TYPE["headline"], PIN_W - 2 * MARGIN)
     lines = lines[:3]
     line_h = int(hf.size * 1.05)
     block = 54                                   # top padding
@@ -65,9 +66,9 @@ def render_product_pin(headline: str, product_name: str, price: str,
     x0, y = MARGIN, 54
 
     if kicker:
-        kf = _font(24)
+        kf = _font(TYPE["kicker"])
         draw.rectangle([(x0, y + 4), (x0 + 18, y + 22)], fill=GOLD)
-        draw.text((x0 + 32, y), kicker.upper()[:34], font=kf, fill=(90, 88, 84))
+        draw.text((x0 + 32, y), kicker.upper()[:34], font=kf, fill=MUTED)
         y += 46
 
     for ln in lines:
@@ -77,14 +78,14 @@ def render_product_pin(headline: str, product_name: str, price: str,
     # gold rule + the product's own name, small, as the supporting line
     draw.rectangle([(x0, y + 18), (x0 + 92, y + 23)], fill=GOLD)
     if product_name:
-        sf = _font(25, bold=False)
+        sf = _font(TYPE["caption"], bold=False)
         # one line only — this is a caption, not the headline
         name = product_name
         while name and sf.getlength(name) > PIN_W - 2 * MARGIN - 120:
             name = name[:-1]
         if name != product_name:
             name = name.rstrip(" ,-–") + "…"
-        draw.text((x0 + 112, y + 4), name, font=sf, fill=(90, 88, 84))
+        draw.text((x0 + 112, y + 4), name, font=sf, fill=MUTED)
 
     # ---- photo card ----------------------------------------------------------
     card_top = head_h + 24
@@ -97,13 +98,13 @@ def render_product_pin(headline: str, product_name: str, price: str,
         im = ImageEnhance.Contrast(im).enhance(1.05)
         im = _cover(im, card_w, card_h)
     else:
-        im = Image.new("RGB", (card_w, card_h), (236, 233, 227))
-    rounded = _rounded(im, 22)
+        im = Image.new("RGB", (card_w, card_h), PLACEHOLDER)
+    rounded = _rounded(im, RADIUS["card"])
     canvas.paste(rounded, (MARGIN, card_top), rounded)
 
     # price chip, bottom-left of the photo
     if price:
-        pf = _font(40)
+        pf = _font(TYPE["price"])
         tw = pf.getlength(price)
         bx, by = MARGIN + 26, card_top + card_h - 84
         draw.rounded_rectangle([(bx, by), (bx + tw + 44, by + 60)], radius=30, fill=WHITE)
@@ -112,10 +113,10 @@ def render_product_pin(headline: str, product_name: str, price: str,
     # ---- footer, identical to the collage so the brand reads as one -----------
     fy = PIN_H - FOOT_H
     draw.rectangle([(0, fy), (PIN_W, PIN_H)], fill=WHITE)
-    ff = _font(31)
+    ff = _font(TYPE["footer"])
     draw.text(((PIN_W - ff.getlength(footer)) / 2, fy + 34), footer, font=ff, fill=GOLD)
     if updated:
-        uf = _font(21, bold=False)
+        uf = _font(TYPE["meta"], bold=False)
         draw.text(((PIN_W - uf.getlength(updated)) / 2, fy + 78), updated,
                   font=uf, fill=GREY)
 

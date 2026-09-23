@@ -33,36 +33,13 @@ from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageEnhance, ImageFont
 
-PIN_W, PIN_H = 1000, 1500
-GOLD = (212, 167, 69)
-CREAM = (245, 242, 236)
-INK = (18, 18, 18)
-GREY = (120, 118, 114)
-WHITE = (255, 255, 255)
+from brand import (PIN_W, PIN_H, GOLD, CREAM, INK, GREY, MUTED, WHITE,  # noqa: F401
+                   PLACEHOLDER, MARGIN, TYPE, BAND, RADIUS, font as _font)  # noqa: F401
 
-MARGIN = 60
-HEAD_H = int(PIN_H * 0.27)
-FOOT_H = int(PIN_H * 0.13)
-
-FONT_CANDIDATES_BOLD = [
-    "/usr/share/fonts/truetype/inter/Inter-Bold.ttf",
-    "/usr/share/fonts/truetype/open-sans/OpenSans-Bold.ttf",
-    "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf",
-    "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
-]
-FONT_CANDIDATES_REG = [
-    "/usr/share/fonts/truetype/inter/Inter-Regular.ttf",
-    "/usr/share/fonts/truetype/open-sans/OpenSans-Regular.ttf",
-    "/usr/share/fonts/truetype/liberation/LiberationSans.ttf",
-    "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
-]
-
-
-def _font(size: int, bold: bool = True):
-    for p in (FONT_CANDIDATES_BOLD if bold else FONT_CANDIDATES_REG):
-        if Path(p).exists():
-            return ImageFont.truetype(p, size)
-    return ImageFont.load_default()
+# Band heights come from the shared scale so the collage and the single-product pin
+# cannot drift apart. See brand.py — these were duplicated constants until 2026-09-22.
+HEAD_H = int(PIN_H * BAND["collage_head"])
+FOOT_H = int(PIN_H * BAND["collage_foot"])
 
 
 def _fit_lines(text: str, font_px: int, max_w: int, bold=True):
