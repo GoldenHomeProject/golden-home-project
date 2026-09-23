@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-23T10:26:16.694079Z",
+  "date": "2026-09-23",
+  "seq": 1,
+  "hook_category": "proof",
+  "hook": "106,656 people rated this mattress protector. Almost none mention leaks.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Product shot of the folded mattress protector on a plain background, large bold stat text animating in over it",
+      "on_screen_text": "106,656 RATINGS",
+      "voiceover": "Over 106,000 people have rated this mattress protector."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Hands stretching the protector's elastic pocket over the thick corner of a mattress, showing depth",
+      "on_screen_text": "FITS UP TO 15\" DEEP",
+      "voiceover": "It's made for full-size mattresses up to fifteen inches deep."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Close-up of water droplets beading and rolling off the fabric surface instead of soaking in",
+      "on_screen_text": "WATERPROOF, 200 GSM",
+      "voiceover": "The 200 GSM waterproof layer is built to keep moisture from reaching the mattress underneath."
+    },
+    {
+      "n": 4,
+      "duration_sec": 5,
+      "visual_prompt": "Hand smoothing over the protector's fabric surface on a made bed, showing texture up close",
+      "on_screen_text": "SOFT & BREATHABLE",
+      "voiceover": "It's still soft and breathable, so it doesn't feel like sleeping on plastic sheeting."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Final wide shot of the fully fitted protector on a full-size bed with a price and rating graphic overlay",
+      "on_screen_text": "$19.99 \u00b7 4.5 STARS",
+      "voiceover": "It's $19.99, with a 4.5-star average across more than 106,000 reviews."
+    }
+  ],
+  "caption": "106,656 people rated this mattress protector. Almost none mention leaks.\n\nThat review count is not normal for a bedding accessory. It means a huge number of full-size beds are already running this waterproof layer underneath the sheets, night after night. A number that size only holds up at 4.5 stars if the protector is actually doing its job.\n\nIt's a 200 GSM waterproof mattress protector built to fit full-size mattresses up to 15 inches deep, designed to stay soft and breathable instead of feeling like plastic. 106,656 reviews at a 4.5-star average is the kind of sample size that filters out lucky first impressions.\n\nFor a full-size bed, it's a low-effort way to keep spills, sweat, and accidents off the actual mattress. It's $19.99.\n\nComment FULL and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "It's a 200 GSM waterproof mattress protector built to fit full-size mattresses up to 15 inches deep, designed to stay soft and breathable instead of feeling like plastic. 106,656 reviews at a 4.5-star",
+  "affiliate_strategy": {
+    "primary_product": "Waterproof Full Size Mattress Protector fits Upto 15\" Deep Pocket | Utopia Bedding 200 GSM Soft & Breathable Mattress Co",
+    "dm_keyword": "FULL",
+    "amazon_asin": "B07PMFVC9X",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B07PMFVC9X?tag=goldenhomep0a-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": "https://www.amazon.com/dp/B07PMFVC9X?tag=goldenhomep0a-20"
+  }
+}
