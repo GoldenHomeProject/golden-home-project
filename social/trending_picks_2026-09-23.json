@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-09-23",
+  "category": "Kitchen",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-kitchen-gadgets.html",
+  "picks": [
+    {
+      "asin": "B0113UZJE2",
+      "name": "Etekcity Food Kitchen Scale",
+      "price": "$10.99",
+      "rating": 4.6,
+      "reviews": 177266,
+      "rank": 3
+    },
+    {
+      "asin": "B07YP2VH4B",
+      "name": "KitchenAid Classic Multifunction Can Opener and Bottle Opener Easy to",
+      "price": "$14.99",
+      "rating": 4.6,
+      "reviews": 89607,
+      "rank": 8
+    },
+    {
+      "asin": "B0CJF94M8J",
+      "name": "TrendPlain 16oz/470ml Glass Olive Oil Sprayer for Cooking",
+      "price": "$8.99",
+      "rating": 4.6,
+      "reviews": 47500,
+      "rank": 10
+    },
+    {
+      "asin": "B0B6PLG6G2",
+      "name": "125Pcs 8 Inch Square Air Fryer Liners Disposable for 5-8QT",
+      "price": "$9.99",
+      "rating": 4.6,
+      "reviews": 33606,
+      "rank": 11
+    },
+    {
+      "asin": "B0C3QZ7SNF",
+      "name": "Cisily Sponge Holder for Kitchen Sink",
+      "price": "$12.59",
+      "rating": 4.6,
+      "reviews": 14961,
+      "rank": 21
+    },
+    {
+      "asin": "B07WMQP4SF",
+      "name": "Homaxy 100% Cotton Waffle Weave Kitchen Dish Cloths 6-Pack",
+      "price": "$8.98",
+      "rating": 4.5,
+      "reviews": 41067,
+      "rank": 26
+    }
+  ]
+}
