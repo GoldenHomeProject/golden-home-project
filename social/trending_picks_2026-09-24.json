@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-09-24",
+  "category": "Home Storage",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-storage-bins.html",
+  "picks": [
+    {
+      "asin": "B0711RQMNF",
+      "name": "Amazon Basics Collapsible Fabric Storage Cubes Organizer with Handles",
+      "price": "$17.84",
+      "rating": 4.7,
+      "reviews": 119980,
+      "rank": 1
+    },
+    {
+      "asin": "B00FZVPWTI",
+      "name": "IRIS USA Clear Cases |Made in USA",
+      "price": "$19.99",
+      "rating": 4.7,
+      "reviews": 9265,
+      "rank": 23
+    },
+    {
+      "asin": "B086WNKLTM",
+      "name": "TICONN 6 Pack Extra Large Moving Bags Heavy Duty with Zippers & Carryi",
+      "price": "$22.94",
+      "rating": 4.8,
+      "reviews": 46486,
+      "rank": 2
+    },
+    {
+      "asin": "B01IR9VAOA",
+      "name": "Household Essentials Foldable Fabric Storage Bins 6 Piece Set",
+      "price": "$15.99",
+      "rating": 4.8,
+      "reviews": 19842,
+      "rank": 10
+    },
+    {
+      "asin": "B002BDTETW",
+      "name": "Sterilite Storage Boxes",
+      "price": "$31.99",
+      "rating": 4.6,
+      "reviews": 13737,
+      "rank": 11
+    },
+    {
+      "asin": "B07SPR2HPT",
+      "name": "SONGMICS Storage Cubes",
+      "price": "$16.99",
+      "rating": 4.7,
+      "reviews": 14034,
+      "rank": 34
+    }
+  ]
+}
