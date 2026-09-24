@@ -5163,6 +5163,54 @@
       "verified_stars": "4.5",
       "verified_reviews": 30417,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0CHGFG64S",
+      "product_name": "ChefAide 5 Pieces Silicone Spatulas Set, Heat Resistant Rubber Spatula | Food Grade Silicone, Heat Resistant Up to 600\u00b0F",
+      "categories": [
+        "kitchen",
+        "Kitchen"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0CHGFG64S?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-09-24",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$8.99",
+      "verified_stars": "4.8",
+      "verified_reviews": 6555,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0B8DXN3K2",
+      "product_name": "DKBslik Mulberry Silk Pillow Cases Standard Size with Zipper, Ash Blue | Silk Pillowcase for Hair and Skin, Anti Acne Co",
+      "categories": [
+        "home",
+        "Bedding"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0B8DXN3K2?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-09-24",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$7.34",
+      "verified_stars": "4.5",
+      "verified_reviews": 21574,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B07RZRH662",
+      "product_name": "Pillow Covers Queen Size Set of 4, Soft and Comfy Pillow Cases, White | Hotel-Style Comfort, Extra Soft With Envelop Clo",
+      "categories": [
+        "home",
+        "Bedding"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B07RZRH662?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-09-24",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$11.99",
+      "verified_stars": "4.6",
+      "verified_reviews": 51065,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
