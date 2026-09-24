@@ -7247,10 +7247,10 @@
   },
   {
     "name": "reel_2026-09-24_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-09-24-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-24-001.mp4",
     "caption": "106,545 reviews on one twin mattress protector. That's not a fluke.\n\nA twin bed sees more spills, sweat, and accidents than almost any other mattress in the house \u2014 kids, guests, dorm moves. A protector only earns six figures of reviews if it actually stops liquid from reaching the mattress underneath.\n\nThis one is waterproof and sized for a twin mattress up to 15 inches deep, so it fits thicker pillow-top and memory foam beds without slipping off the corners. At 4.5 stars across 106,545 reviews, the volume itself is the signal \u2014 that many people don't leave a rating unless the product does the one thing it promised.\n\nYour mattress stays protected from spills and stains without needing a replacement, and it's $12.99.\n\nComment PROTECTOR and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -7267,6 +7267,7 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "106,545 reviews on one twin mattress protector. That's not a fluke."
+    "hook": "106,545 reviews on one twin mattress protector. That's not a fluke.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-24-001.mp4"
   }
 ]
