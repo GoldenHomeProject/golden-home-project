@@ -5213,6 +5213,54 @@
       "verified_stars": "4.6",
       "verified_reviews": 51065,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0F3332VRX",
+      "product_name": "MIULEE Blackout Curtains for Bedroom 2 Panels 40 x 84 Inch Long Black | Thermal Insulated, Halloween Living Room Darkeni",
+      "categories": [
+        "home",
+        "Window Treatments"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0F3332VRX?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-09-25",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$14.58",
+      "verified_stars": "4.5",
+      "verified_reviews": 7215,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B015SJ7RYY",
+      "product_name": "NICETOWN Grey Blackout Curtains for Bedroom 84 Inches Long, 2 Panels, W52 | Thermal Drapes Grommet Room Darkening Light ",
+      "categories": [
+        "home",
+        "Window Treatments"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B015SJ7RYY?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-09-25",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$15.98",
+      "verified_stars": "4.7",
+      "verified_reviews": 61995,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B07D5T6DZW",
+      "product_name": "MIULEE 2 Panels White Sheer Curtains for Living Room 54 X 84 Inches | Window, Solid Color, Elegant Window Voile Panels, ",
+      "categories": [
+        "home",
+        "Window Treatments"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B07D5T6DZW?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-09-25",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$7.93",
+      "verified_stars": "4.5",
+      "verified_reviews": 19542,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
