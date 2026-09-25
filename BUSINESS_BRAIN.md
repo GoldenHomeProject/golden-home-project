@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-09-25 (Strategy & Outreach 9am)
+# Last updated: 2026-09-25 (Affiliate Optimizer 10am)
 # ============================================================
 
 ---
@@ -532,7 +532,7 @@ New agent spec: `automation/agents/ai_revenue_playbook.md` (COSTAR prompt framew
 | Impact | Promeed | 12% | **ACTIVE 2026-08-25** | Silk pillowcases/CoolRest comforter — ON-NICHE (bedroom). 30-day cookie. Audience promo IAN2026F3 (15% off). Sample code SAMPLE-IAN-COOL3-2026 (60% off CoolRest). Tracking live on Impact. ⚠️ **CORRECTION 2026-09-20:** Sep 19 Affiliate Optimizer was WRONG — our Sep 16 pillowcase comparison acceptance reply PERMANENTLY FAILED (confirmed Sep 19 17:04 UTC). notifications@outreach.impact.com UNREACHABLE (SMTP timeout, server refuses all connections). Amelia at Promeed NEVER received our acceptance. **IAN REQUIRED: Log into Impact.com → Promeed program → Contact advertiser via platform messaging** to resend acceptance for the free 23-momme silk pillowcase comparison offer. Do NOT email notifications@outreach.impact.com. |
 | Awin | Oedro (US) | TBD | Skipped | Off-niche (car parts — floor mats, tonneau covers) |
 | Awin (merchant 91447) | Homary | up to 12%, 45-day cookie | **Fresh outreach sent 2026-09-20** (msg 1a0beee42056dfeb) — original Apr 3 pitch to affiliates@homary.com BOUNCED; correct address is affiliate@homary.com. Pitched fall bedroom/home office reset series. Follow-up due 2026-09-27 if no reply. High-value: $200-800 AOV × 12% = $24-96/sale. | Home furniture/shelving/home office — ON-NICHE |
-| Impact | eufy | TBD | Outreach sent 2026-08-19, follow-up sent 2026-09-02 — **BOUNCED** | Robot vacuums/smart home — ON-NICHE, fits "before transformation" content angle. affiliates@eufylife.com bounced 2026-09-02. Find correct contact via Impact dashboard or eufy website. |
+| Impact | eufy | TBD | Outreach sent 2026-08-19; affiliates@eufylife.com BOUNCED; new outreach to influencer@eufylife.com 2026-09-18; **follow-up sent 2026-09-25** (msg 1a0d8e255acad514) — fall sale ends Oct 11. | Robot vacuums/smart home — ON-NICHE, fits "before transformation" content angle. Follow-up due 2026-10-02 if no reply. Fall sale ends Oct 11 — enroll via Impact dashboard in parallel. |
 | Direct | Flexispot | up to 15% (~$50/sale) | **BOUNCED 2026-09-02** | Standing desks/WFH furniture — ON-NICHE (home office). BOTH contacts bounced: Joey@flexispot.com AND affiliates@flexispot.com. Use Flexispot website contact form or find partner@flexispot.com. |
 | Awin | PersonalHour | TBD | Invited 2026-09-02 — needs evaluation | Unclear niche — "PersonalHour" name does not indicate home/decor/organization. IAN MUST CHECK via Awin dashboard (merchant profile 96347) before accepting. |
 | Direct | OXO | TBD | Outreach sent 2026-08-16-17, auto-reply received | Kitchen/organization tools — ON-NICHE, directed to creator partner form |
@@ -853,10 +853,10 @@ Agent configs live in `/private/tmp/golden-home-project/automation/agents/`.
 
 - [ ] **🆕 Nebulyft Impact.com invite — IAN: DECLINE via Impact dashboard (2026-09-24)** — Impact.com partnership invite received 2026-09-24 10:13 UTC (msg 1a0d2e824c6142f2). Nebulyft = health/beauty facial device (EMS/microcurrent/nebulizer lift). DEFINITIVELY OFF-NICHE — not home/kitchen/organization/decor. Per Lesson #7: off-niche deals hurt trust. Email Monitor flagged Sep 24. No direct brand email in Impact notification — IAN must decline via Impact.com publisher dashboard directly. Do NOT accept. (Email Monitor 2026-09-24; confirmed Affiliate Optimizer 2026-09-24)
 
-- [ ] **🚨 CJ DEACTIVATION — 7 DAYS (Oct 1, 2026-09-24)** — Account enters dormancy in 7 days if no CJ commission generated. AliExpress 9% interior/garden is the ONLY active CJ partner. Every Content Engine script this week MUST include AliExpress product links (CID 7711902). Parallel IAN actions: apply to Wayfair (7%), GreenLife, Levoit directly via CJ publisher portal for more chances to generate a commission before Oct 1. (Affiliate Optimizer 2026-09-24)
+- [ ] **🚨 CJ DEACTIVATION — 6 DAYS (Oct 1, 2026-09-25)** — Account enters dormancy in 6 days if no CJ commission generated. AliExpress 9% interior/garden is the ONLY active CJ partner. Every Content Engine script this week MUST include AliExpress product links (CID 7711902). Parallel IAN actions: apply to Wayfair (7%), GreenLife, Levoit directly via CJ publisher portal for more chances to generate a commission before Oct 1. (Affiliate Optimizer 2026-09-24)
 
 - [ ] **Upcoming follow-ups (Affiliate Optimizer 2026-09-24 schedule):**
-  - **Sep 25**: eufy influencer@eufylife.com — follow-up due (outreach sent Sep 18, thread 1a0b4a1c36aa3d7f)
+  - **Sep 25**: eufy influencer@eufylife.com — ✅ DONE (follow-up sent 2026-09-25, msg 1a0d8e255acad514). Next follow-up due 2026-10-02 if no reply.
   - **Sep 26**: Liberty Hardware — follow-up due (marketing@libertyhardware.com, pitched Sep 19, msg 1a0b9c6bb4b17839)
   - **Sep 26**: Tempaper (Samantha Lins) — follow-up due if no reply since Sep 17 (pivoted to IG Reel offer)
   - **Sep 27**: Winix — follow-up due (info@winixinc.com, follow-up sent Sep 17)
