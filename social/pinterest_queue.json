@@ -5016,5 +5016,47 @@
     "posted": false,
     "source": "pinterest_pipeline",
     "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-09-25-B0F3332VRX",
+    "asin": "B0F3332VRX",
+    "board": "Bedroom Storage & Bedding",
+    "title": "Blackout Curtains for Bedroom: MIULEE Thermal Insulated 2-Panel, 40 x 84 In",
+    "description": "MIULEE's blackout curtains block outside light and add thermal insulation, sold as a 2-panel set with each panel measuring 40 x 84 inches in black. Priced at $14.58, the pair suits bedrooms or living rooms where daytime darkness matters \u2014 shift work schedules, nurseries, or screen glare control. Tap through for full sizing and panel details. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B0F3332VRX?tag=goldenhomep0a-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-09-25-B0F3332VRX.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-09-25-B0F3332VRX.png",
+    "queued_at": "2026-09-25T10:10:31.825012Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-09-25-B015SJ7RYY",
+    "asin": "B015SJ7RYY",
+    "board": "Bedroom Storage & Bedding",
+    "title": "Blackout Curtains for Bedroom: Grey Grommet Thermal Drapes, 84 In, 2 Panels",
+    "description": "Room darkening curtains for bedrooms: 2 grommet-top panels, 52 in wide x 84 in long each, grey thermal fabric that blocks light and helps insulate windows. Priced at $15.98 for the set, a common size pick for standard bedroom windows. Tap through for sizing and color options. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B015SJ7RYY?tag=goldenhomep0a-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-09-25-B015SJ7RYY.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-09-25-B015SJ7RYY.png",
+    "queued_at": "2026-09-25T10:10:58.712226Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-09-25-B07D5T6DZW",
+    "asin": "B07D5T6DZW",
+    "board": "Home Organization Finds",
+    "title": "Home Organization Ideas: 2 Panels White Sheer Curtains for Living\u2026 \u2014 $7.93",
+    "description": "MIULEE 2 Panels White Sheer Curtains for Living\u2026 for home organization ideas. Rated 4.5\u2605 across 19,542 reviews \u00b7 $7.93. Prices were accurate when this was published and change often. Tap through for the current listing. Amazon affiliate link \u2014 we may earn a commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B07D5T6DZW?tag=goldenhomep0a-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-09-25-B07D5T6DZW.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-09-25-B07D5T6DZW.png",
+    "queued_at": "2026-09-25T10:11:20.829364Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
   }
 ]
