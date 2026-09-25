@@ -4,12 +4,12 @@
     "lifetime_follows": 25,
     "lifetime_likes": 33,
     "lifetime_comments": 7,
-    "last_session": "2026-09-25-1341-pi",
+    "last_session": "comments-2026-09-25T1409Z",
     "blocked_at": null,
-    "last_updated": "2026-09-25T13:42:13Z",
-    "total_actions": 621,
+    "last_updated": "2026-09-25T14:12:21Z",
+    "total_actions": 623,
     "lifetime_dms": 34,
-    "lifetime_comments_outbound": 58
+    "lifetime_comments_outbound": 60
   },
   "actions": [
     {
@@ -30700,6 +30700,24 @@
       ],
       "untapped_warm": [],
       "dry_run": false
+    },
+    {
+      "timestamp": "2026-09-25T14:10:26Z",
+      "action": "comment_posted",
+      "target": "iheartorganizing",
+      "session": "comments-2026-09-25T1409Z",
+      "post_url": "https://www.instagram.com/iheartorganizing/p/B5By96PFDM0/",
+      "text": "Storage bins are great until the labels peel off in a hot garage \u2014 anyone found tape or a laminate that actually sticks long term?",
+      "caption_seen": ""
+    },
+    {
+      "timestamp": "2026-09-25T14:12:21Z",
+      "action": "comment_posted",
+      "target": "organizedbyellis",
+      "session": "comments-2026-09-25T1409Z",
+      "post_url": "https://www.instagram.com/organizedbyellis/p/DdpgtQ4Own_/",
+      "text": "Cute find with the storage bins collage \u2014 I'd add that clear bins over baskets make a huge difference once you're actually trying to find things fast on a weeknight.",
+      "caption_seen": ""
     }
   ]
 }
