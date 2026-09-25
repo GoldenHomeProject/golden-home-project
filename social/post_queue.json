@@ -7256,10 +7256,10 @@
   },
   {
     "name": "reel_2026-09-25_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-09-25-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-25-001.mp4",
     "caption": "140,548 ratings, 4.6 stars, and almost nobody mentions thread count.\n\nA queen fitted sheet with this many reviews isn't winning on marketing copy. It's winning on the pocket depth doing its job night after night, on a mattress that doesn't need a topper swap to fit it, and on a grey that goes with whatever duvet is already in the closet.\n\nThis is a deep-pocket fitted sheet, fits up to 15 inches, in a cooling, breathable cotton-like poly weave. At 140,548 reviews and 4.6 stars, that's not a fluke rating from a handful of buyers \u2014 it's a large enough sample that the corners staying on is the norm, not the exception.\n\nIf your mattress or topper pushes past a standard 12-inch sheet, this one is built for that gap, and it's $9.49.\n\nComment FITTED and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -7276,7 +7276,8 @@
       "affiliate_network": "amazon",
       "affiliate_url": "https://www.amazon.com/dp/B01IE7P2VW?tag=goldenhomep0a-20"
     },
-    "hook": "140,548 ratings, 4.6 stars, and almost nobody mentions thread count."
+    "hook": "140,548 ratings, 4.6 stars, and almost nobody mentions thread count.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-25-001.mp4"
   },
   {
     "id": "carousel-2026-09-25-B01IE7P2VW",
