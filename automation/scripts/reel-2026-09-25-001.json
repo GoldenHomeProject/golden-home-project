@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-25T10:46:19.899983Z",
+  "date": "2026-09-25",
+  "seq": 1,
+  "hook_category": "proof",
+  "hook": "140,548 ratings, 4.6 stars, and almost nobody mentions thread count.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up on a phone screen showing a 4.6-star rating and a review count ticking up, then cut to a grey fitted sheet folded on a shelf",
+      "on_screen_text": "140,548 RATINGS",
+      "voiceover": "140,548 people rated this sheet."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Hands stretching a grey fitted sheet corner over a thick mattress edge, showing the deep pocket seam",
+      "on_screen_text": "FITS UP TO 15\" DEEP",
+      "voiceover": "Deep pocket, fits mattresses up to 15 inches \u2014 no popping off in the middle of the night."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Overhead shot of the grey sheet smoothed flat across a queen bed, texture visible under soft light",
+      "on_screen_text": "COOLING & BREATHABLE",
+      "voiceover": "Cotton-like poly blend, made to stay cool and breathable through the night."
+    },
+    {
+      "n": 4,
+      "duration_sec": 5,
+      "visual_prompt": "Split screen: a star rating graphic on one side, a price tag graphic on the other",
+      "on_screen_text": "4.6 STARS \u00b7 $9.49",
+      "voiceover": "4.6 stars isn't a small sample \u2014 it's over 140,000 reviews landing in the same place. And it's $9.49."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Final shot: made bed with the grey sheet, natural light, product card overlay with price and rating",
+      "on_screen_text": "QUEEN FITTED SHEET \u00b7 $9.49",
+      "voiceover": "If your mattress needs a deeper pocket, this is the sheet built for it."
+    }
+  ],
+  "caption": "140,548 ratings, 4.6 stars, and almost nobody mentions thread count.\n\nA queen fitted sheet with this many reviews isn't winning on marketing copy. It's winning on the pocket depth doing its job night after night, on a mattress that doesn't need a topper swap to fit it, and on a grey that goes with whatever duvet is already in the closet.\n\nThis is a deep-pocket fitted sheet, fits up to 15 inches, in a cooling, breathable cotton-like poly weave. At 140,548 reviews and 4.6 stars, that's not a fluke rating from a handful of buyers \u2014 it's a large enough sample that the corners staying on is the norm, not the exception.\n\nIf your mattress or topper pushes past a standard 12-inch sheet, this one is built for that gap, and it's $9.49.\n\nComment FITTED and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "This is a deep-pocket fitted sheet, fits up to 15 inches, in a cooling, breathable cotton-like poly weave. At 140,548 reviews and 4.6 stars, that's not a fluke rating from a handful of buyers \u2014 it's a",
+  "affiliate_strategy": {
+    "primary_product": "Queen Fitted Sheet, Ultra Soft Fits Up to 15 Inch Deep Pocket, Grey | Hotel Comfort, Cooling & Breathable Cotton like Po",
+    "dm_keyword": "FITTED",
+    "amazon_asin": "B01IE7P2VW",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B01IE7P2VW?tag=goldenhomep0a-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": "https://www.amazon.com/dp/B01IE7P2VW?tag=goldenhomep0a-20"
+  }
+}
