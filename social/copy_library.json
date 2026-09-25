@@ -2876,6 +2876,52 @@
           }
         ]
       }
+    ],
+    "FITS": [
+      {
+        "hook_category": "proof",
+        "hook": "106,545 reviews, 4.5 stars, $12.99 \u2014 that combination doesn't happen for a bad seal.",
+        "beat1": "A twin bed with no protector is one spill, one accident, or one pet away from a ruined mattress. This one is waterproof and cut for deep pockets up to 15 inches, so it fits the thicker mattresses common in dorms, kids' rooms, and guest beds, not just the thin ones.",
+        "turn": "It's a fitted protector that sits under the sheets, so it does its job without changing how the bed looks or feels. At 106,545 reviews and 4.5 stars, that volume means it's not something people quietly return \u2014 it's something they buy again for the next twin bed in the house.",
+        "result": "For $12.99, it's a small cost against replacing a twin mattress over one bad spill.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close-up text overlay '106,545 reviews' animating in over a folded mattress protector on a twin bed",
+            "on_screen_text": "106,545 REVIEWS",
+            "voiceover": "106,545 reviews on a mattress protector. That number doesn't lie."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Hands stretching the fitted protector corner over a thick twin mattress, showing the deep pocket seam",
+            "on_screen_text": "FITS UP TO 15\" DEEP",
+            "voiceover": "Deep pocket, fits mattresses up to fifteen inches thick \u2014 dorm beds, kids' rooms, guest rooms."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Overhead shot of water droplets beading and rolling off the protector's surface instead of soaking in",
+            "on_screen_text": "WATERPROOF",
+            "voiceover": "It's fully waterproof, so it's sitting between your mattress and whatever happens on top of it."
+          },
+          {
+            "n": 4,
+            "duration_sec": 5,
+            "visual_prompt": "Wide shot of a made twin bed with sheets pulled over the protector, clean and unremarkable \u2014 showing it disappears once installed",
+            "on_screen_text": "4.5 STARS",
+            "voiceover": "Once the sheets go on, you can't tell it's there. That's the point."
+          },
+          {
+            "n": 5,
+            "duration_sec": 4,
+            "visual_prompt": "Product shot with price tag graphic overlay, mattress protector folded neatly beside a twin bed frame",
+            "on_screen_text": "$12.99",
+            "voiceover": "Twelve ninety-nine to stop protect a mattress you can't easily replace."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
