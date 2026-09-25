@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-09-25",
+  "category": "Home D\u00e9cor",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-home-decor-finds.html",
+  "picks": [
+    {
+      "asin": "B01NBNDC1T",
+      "name": "Utopia Bedding 18x18 Pillow Inserts",
+      "price": "$12.89",
+      "rating": 4.6,
+      "reviews": 219123,
+      "rank": 4
+    },
+    {
+      "asin": "B0DZFGTCLR",
+      "name": "Innqoo Candle Warmer Lamp with Timer Home Decor Birthday Gifts for Wom",
+      "price": "$19.99",
+      "rating": 4.6,
+      "reviews": 5724,
+      "rank": 6
+    },
+    {
+      "asin": "B0D89V1RX1",
+      "name": "2x6 Hallway Washable Runner Rug : Vintage Soft Kitchen Laundry Runner",
+      "price": "$20.64",
+      "rating": 4.6,
+      "reviews": 10614,
+      "rank": 9
+    },
+    {
+      "asin": "B0BR3STN87",
+      "name": "Linen Total Blackout Curtains for Bedroom Living Room 84 Inch",
+      "price": "$29.63",
+      "rating": 4.5,
+      "reviews": 8967,
+      "rank": 12
+    },
+    {
+      "asin": "B0815BLNX1",
+      "name": "GORILLA GRIP\u00ae Extra Long Rug Grippers for Hardwood Floor",
+      "price": "$11.98",
+      "rating": 4.5,
+      "reviews": 31761,
+      "rank": 24
+    },
+    {
+      "asin": "B08XVP48KQ",
+      "name": "upsimples 8x10 Picture Frames",
+      "price": "$17.99",
+      "rating": 4.6,
+      "reviews": 72760,
+      "rank": 34
+    }
+  ]
+}
