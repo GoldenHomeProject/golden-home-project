@@ -4,12 +4,12 @@
     "lifetime_follows": 25,
     "lifetime_likes": 33,
     "lifetime_comments": 7,
-    "last_session": "2026-09-26-1337-pi",
+    "last_session": "comments-2026-09-26T1407Z",
     "blocked_at": null,
-    "last_updated": "2026-09-26T13:38:16Z",
-    "total_actions": 625,
+    "last_updated": "2026-09-26T14:09:38Z",
+    "total_actions": 627,
     "lifetime_dms": 34,
-    "lifetime_comments_outbound": 60
+    "lifetime_comments_outbound": 62
   },
   "actions": [
     {
@@ -30988,6 +30988,24 @@
       ],
       "untapped_warm": [],
       "dry_run": false
+    },
+    {
+      "timestamp": "2026-09-26T14:08:11Z",
+      "action": "comment_posted",
+      "target": "horderly",
+      "session": "comments-2026-09-26T1407Z",
+      "post_url": "https://www.instagram.com/horderly/p/DdZSmWzmoJw/",
+      "text": "This is genius for small entryways\u2014do you find the bins hold up okay with daily on/off use, or do the lids loosen over time?",
+      "caption_seen": ""
+    },
+    {
+      "timestamp": "2026-09-26T14:09:38Z",
+      "action": "comment_posted",
+      "target": "lifeinjeneral",
+      "session": "comments-2026-09-26T1407Z",
+      "post_url": "https://www.instagram.com/lifeinjeneral/p/DbuPtcqlEYr/",
+      "text": "Looking forward to trying the labeled bin trick for the pantry \u2014 did you use printed labels or the label maker font, curious what held up best on glass jars?",
+      "caption_seen": ""
     }
   ]
 }
