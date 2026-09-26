@@ -7278,5 +7278,29 @@
     "keyword": "FITTED",
     "queued_at": "2026-09-25T12:25:57.862852Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_2026-09-26_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-26-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "106,545 reviews, 4.5 stars, $12.99 \u2014 that combination doesn't happen for a bad seal.\n\nA twin bed with no protector is one spill, one accident, or one pet away from a ruined mattress. This one is waterproof and cut for deep pockets up to 15 inches, so it fits the thicker mattresses common in dorms, kids' rooms, and guest beds, not just the thin ones.\n\nIt's a fitted protector that sits under the sheets, so it does its job without changing how the bed looks or feels. At 106,545 reviews and 4.5 stars, that volume means it's not something people quietly return \u2014 it's something they buy again for the next twin bed in the house.\n\nFor $12.99, it's a small cost against replacing a twin mattress over one bad spill.\n\nComment FITS and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Waterproof Twin Size Mattress Protector fits Upto 15\" Deep Pocket",
+      "dm_keyword": "FITS",
+      "amazon_asin": "B00MRH9NCK",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B00MRH9NCK?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "106,545 reviews, 4.5 stars, $12.99 \u2014 that combination doesn't happen for a bad seal."
   }
 ]
