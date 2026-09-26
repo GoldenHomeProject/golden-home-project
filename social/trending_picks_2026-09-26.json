@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-09-26",
+  "category": "Home",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-home-organization-products.html",
+  "picks": [
+    {
+      "asin": "B00FXNAAW2",
+      "name": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers",
+      "price": "$20.69",
+      "rating": 4.8,
+      "reviews": 236884,
+      "rank": 2
+    },
+    {
+      "asin": "B0C3QZ7SNF",
+      "name": "Cisily Sponge Holder for Kitchen Sink",
+      "price": "$12.59",
+      "rating": 4.6,
+      "reviews": 15029,
+      "rank": 10
+    },
+    {
+      "asin": "B0BFMKYN12",
+      "name": "DDMY Adhesive Wall Hooks Clear 50lb(Max) Heavy Duty Hanging Sticky-10",
+      "price": "$8.99",
+      "rating": 4.5,
+      "reviews": 40159,
+      "rank": 14
+    },
+    {
+      "asin": "B079M8FPTW",
+      "name": "Rubbermaid Brilliance Tritan Plastic Food Storage Containers BPA Free",
+      "price": "$32.48",
+      "rating": 4.7,
+      "reviews": 59702,
+      "rank": 20
+    },
+    {
+      "asin": "B086WNKLTM",
+      "name": "TICONN 6 Pack Extra Large Moving Bags Heavy Duty with Zippers & Carryi",
+      "price": "$22.94",
+      "rating": 4.8,
+      "reviews": 46507,
+      "rank": 22
+    },
+    {
+      "asin": "B06X421WJ6",
+      "name": "Utopia Home Plastic Hangers 50 Pack",
+      "price": "$21.99",
+      "rating": 4.7,
+      "reviews": 48813,
+      "rank": 5
+    }
+  ]
+}
