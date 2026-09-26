@@ -5062,5 +5062,33 @@
     "posted": false,
     "source": "pinterest_pipeline",
     "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-09-26-B08J8GZXKZ",
+    "asin": "B08J8GZXKZ",
+    "board": "Kitchen Organization Ideas",
+    "title": "Heat Resistant Oven Mitts: KitchenAid Ribbed Silicone 2-Pack",
+    "description": "KitchenAid's ribbed soft-silicone oven mitts measure 7.5 x 13 inches and come as a 2-pack, sized to pull full sheet pans or a Dutch oven without doubling up potholders. The silicone shell resists heat, wipes clean, and the ribbed pattern is built for extra grip on hot handles. Set runs $11.85 in Milkshake Tan. Tap through for full sizing and color options. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B08J8GZXKZ?tag=goldenhomep0a-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-09-26-B08J8GZXKZ.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-09-26-B08J8GZXKZ.png",
+    "queued_at": "2026-09-26T10:10:21.060086Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-09-26-B09RNB8MTQ",
+    "asin": "B09RNB8MTQ",
+    "board": "Kitchen Organization Ideas",
+    "title": "Coffee Station Organization Ideas: 24oz Leak-Proof Travel Mug with Snapseal Lid",
+    "description": "The Contigo Byron 2.0 holds 24oz and pairs a stainless steel body with a Snapseal lid that seals automatically between sips, built to be leak-proof in a bag or cup holder. BPA-free, with a grip-friendly exterior, it suits a kitchen coffee station or entryway drinkware setup. Midnight Berry colorway. Priced at $15.49. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B09RNB8MTQ?tag=goldenhomep0a-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-09-26-B09RNB8MTQ.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-09-26-B09RNB8MTQ.png",
+    "queued_at": "2026-09-26T10:11:33.502586Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
   }
 ]
