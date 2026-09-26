@@ -2922,6 +2922,52 @@
           }
         ]
       }
+    ],
+    "UPTO": [
+      {
+        "hook_category": "proof",
+        "hook": "106,545 reviews on one twin mattress protector \u2014 that is not an accident.",
+        "beat1": "A bedroom item doesn't rack up six figures in reviews unless it gets used constantly and either works or doesn't. Most buyers only leave a rating after a spill, a wash cycle, or a full season of sleeping on it. At 4.5 stars across that many reviews, the pattern leans heavily toward holding up.",
+        "turn": "This protector is waterproof and built with a deep pocket that fits mattresses up to 15 inches thick, so it stays in place through a full night instead of bunching or sliding off the corners. With 106,545 ratings at 4.5 stars, that sample size says the fit and the waterproofing perform the same way in most homes, not just in the listing photos.",
+        "result": "For a twin bed, that means spills, sweat, and allergens get stopped at the mattress surface instead of soaking in \u2014 for $12.99.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close-up of a phone screen showing a product review count ticking up, then cut to a folded mattress protector package on a twin bed",
+            "on_screen_text": "106,545 REVIEWS",
+            "voiceover": "106,545 reviews on one twin mattress protector."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Slow pan across a stack of star-rating graphics settling on 4.5, twin bed with bare mattress in soft background",
+            "on_screen_text": "4.5 STARS",
+            "voiceover": "That many people don't leave a rating unless the product actually gets used, night after night."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Overhead shot of hands smoothing a fitted protector over a twin mattress corner, water droplets beading and rolling off the fabric",
+            "on_screen_text": "WATERPROOF",
+            "voiceover": "It's waterproof, so spills and sweat stop at the surface instead of soaking in."
+          },
+          {
+            "n": 4,
+            "duration_sec": 5,
+            "visual_prompt": "Hands stretching the deep-pocket elastic corner down over a thick mattress edge, showing it fully seated without slipping",
+            "on_screen_text": "FITS UP TO 15\" DEEP",
+            "voiceover": "The deep pocket fits mattresses up to fifteen inches thick, so it stays anchored through a full night's sleep."
+          },
+          {
+            "n": 5,
+            "duration_sec": 4,
+            "visual_prompt": "Made-up twin bed with clean linens, price tag graphic reading $12.99 fading in at the corner of the frame",
+            "on_screen_text": "$12.99 TWIN SIZE",
+            "voiceover": "A twin mattress protector at $12.99, backed by over a hundred thousand reviews."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
