@@ -5273,6 +5273,38 @@
       "verified_stars": "4.5",
       "verified_reviews": 19542,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B08J8GZXKZ",
+      "product_name": "KITCHENAID Ribbed Soft Silicone Oven Mitt 2-Pack Set, 7.5\"x13\", Milkshake Tan",
+      "categories": [
+        "kitchen",
+        "Kitchen"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B08J8GZXKZ?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-09-26",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$11.85",
+      "verified_stars": "4.7",
+      "verified_reviews": 13974,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B09RNB8MTQ",
+      "product_name": "Contigo Byron 2.0 Stainless Steel Travel Mug with Snapseal Lid and Grip, 24oz, Midnight Berry, BPA Free and Leak Proof",
+      "categories": [
+        "kitchen",
+        "Kitchen"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B09RNB8MTQ?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-09-26",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$15.49",
+      "verified_stars": "4.5",
+      "verified_reviews": 44873,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
