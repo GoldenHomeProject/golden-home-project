@@ -1372,6 +1372,20 @@
       "reopen_triggers_unchanged": "(a) user replies to 9/07 options i/ii/iii/iv (or names option v); (b) user adds queue item grounded in fresh teardown per CEO line 9; (c) user pulls GSC and impressions data changes any voided/pending prediction branch table; (d) 2026-11-05 Stage-4 (CEO line 162) fires \u2014 41 days from today.",
       "cadence_after_today": "PAUSED again per 9/14 rule. Further daily appends dilute the audit trail; only append if a named reopen trigger fires OR a fresh explicit loop prompt overrides.",
       "session_ships": 0
+    },
+    {
+      "date": "2026-09-26",
+      "marker": "queue exhausted, ending",
+      "pause_day": 40,
+      "pause_source": "2026-08-17 post_void_state_transition pre-commit (daily_snapshot_channel PAUSED)",
+      "queue_state": "queue exhausted, ending",
+      "reopen_trigger_fired_today": "none of the 4 named triggers (a/b/c/d) fired. Verified in-session: `grep -c '^- \\[ \\]' social/improvement_queue.md` = 0; `grep -c 2026-09-26` on eval_date fields in learnings_log.jsonl = 0; latest eval_date in log is 2026-07-05 (already resolved). No user reply to 9/07 options i/ii/iii/iv. Stage-4 (d) fires 2026-11-05, 40 days away.",
+      "material_repo_delta_since_9_25": "No user-authored commits since 2894a690 (2026-09-23 dead-tag repoint). `git log --since='2026-09-25' --author='ianmcwherter@gmail.com' --oneline` = 0 entries. 24h flywheel-bot activity only (Pinterest generator/poster/queue x4 persist, IG post + engagement Pi sweep, reel producer, content engine, catalogue harvest, trend scout, IG insights, agent log for Pinterest Pipeline). None of those are one of the 4 named reopen triggers.",
+      "why_this_snapshot_exists_despite_9_14_paused_rule": "Loop prompt today explicitly instructs: 'If improvement_queue.md is empty AND no learnings_log.jsonl evaluations are due, log \"queue exhausted, ending\" to social/seo_posts_log.json daily_snapshots and stop.' This is the same override 9/11-9/13, 9/24, 9/25 invoked. 9/14 non-response-fire rule said PAUSED-until-trigger. Resolution: honor the fresh explicit instruction as one append (not a resumption of daily cadence), keep it minimal, do NOT invent session work. Reverting to 9/14 PAUSED after this write unless a named trigger fires.",
+      "self_eval_summary": "Micro Q1-Q4 + Macro Q5-Q8 + Tunnel Q9-Q10 all executed in-response before this write (see session output). Micro Q4 avoidance check: NO real avoidance today — the compliant posture IS the honest one; dead-tag audit expansion would violate CEO line 9 (one dead tag is not evidence of a second). Macro Q8 no new premise shifts since 9/25. Tunnel Q9 pattern held for 3rd straight day (9/24-9/26 identical shape); Q10 sharp critic accepted: if the loop prompt keeps overriding the 9/14 pause rule, the prompt is the surface to address on user reopen, not the pause rule itself.",
+      "reopen_triggers_unchanged": "(a) user replies to 9/07 options i/ii/iii/iv (or names option v); (b) user adds queue item grounded in fresh teardown per CEO line 9; (c) user pulls GSC and impressions data changes any voided/pending prediction branch table; (d) 2026-11-05 Stage-4 (CEO line 162) fires — 40 days from today.",
+      "cadence_after_today": "PAUSED again per 9/14 rule. Further daily appends dilute the audit trail; only append if a named reopen trigger fires OR a fresh explicit loop prompt overrides.",
+      "session_ships": 0
     }
   ],
   "cadence_violation_2026-05-05": "7 posts published in 12 days violates CEO rule #1 (1 post/week max). All 7 target near-identical 'waterproof stretch sofa cover' keyword cluster \u2014 diminishing return per post. NEXT ACTION = stop posting, wait for GSC indexing + organic clicks, monitor Amazon Associates daily for first conversion. Do NOT publish week-2 post until at least 2026-05-12 AND only if first 7 have produced organic impressions.",
