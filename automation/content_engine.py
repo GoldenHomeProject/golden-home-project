@@ -88,6 +88,16 @@ def recently_used_keywords(days: int = KEYWORD_COOLDOWN_DAYS) -> set:
     return used
 
 
+def in_policy(entry: dict) -> bool:
+    """$5-35 and >= 4.5 stars — the rule the blog, trending and carousel paths already
+    apply. Reels had no check, so a $114.99 pillow could still front a reel."""
+    p = re.search(r"[\d,]+\.\d{2}", str(entry.get("verified_price") or ""))
+    s = re.search(r"\d+(?:\.\d+)?", str(entry.get("verified_stars") or ""))
+    if p and not 5 <= float(p.group().replace(",", "")) <= 35:
+        return False
+    return not (s and float(s.group()) < 4.5)
+
+
 def _cooling(entry: dict, used: set) -> bool:
     return any(str(entry.get(k, "")).strip().lower() in used
                for k in ("keyword", "asin", "product_name") if entry.get(k))
@@ -295,7 +305,7 @@ def generate_scripts(opportunities: list[dict], n: int = DAILY_SCRIPT_COUNT) -> 
     pool = []
     blocked_dead = blocked_stat = 0
     for kw, entries in variants_by_kw.items():
-        if kw not in by_kw or _cooling(by_kw[kw], cooling):
+        if kw not in by_kw or not in_policy(by_kw[kw]) or _cooling(by_kw[kw], cooling):
             continue
         for variant in entries:
             if _is_dead_hook(variant.get("hook", "")):
@@ -318,7 +328,7 @@ def generate_scripts(opportunities: list[dict], n: int = DAILY_SCRIPT_COUNT) -> 
     if not pool:
         print("[content-engine] No fresh variants available — falling back to oldest used variants.")
         for kw, entries in variants_by_kw.items():
-            if kw not in by_kw:  # fallback ignores the product cooldown: a repeat beats no post
+            if kw not in by_kw or not in_policy(by_kw[kw]):  # fallback ignores the product cooldown: a repeat beats no post
                 continue
             for variant in entries:
                 if _is_dead_hook(variant.get("hook", "")):
