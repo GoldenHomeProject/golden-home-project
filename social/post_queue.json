@@ -7430,10 +7430,10 @@
   },
   {
     "name": "reel_2026-09-27_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-09-27-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-27-001.mp4",
     "caption": "Your old dial scale is basically a guessing game.\n\nDial scales have a needle that swings past the number you're trying to read, and the glass fogs or shifts after years of use. Most people just round to the nearest five pounds and call it good.\n\nThis is a digital bathroom scale, so instead of squinting at a needle you get a number straight on the display. It's rated 4.7 stars across more than three hundred thousand reviews.\n\nYou get a clear readout each time you step on, no guessing involved, and it runs about $17.\n\nComment BODY and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -7450,14 +7450,15 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "Your old dial scale is basically a guessing game."
+    "hook": "Your old dial scale is basically a guessing game.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-27-001.mp4"
   },
   {
     "name": "reel_2026-09-27_002",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-09-27-002.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-27-002.mp4",
     "caption": "Why is your bathroom floor always wet after a shower?\n\nCheap curtain liners cling to your legs or leave gaps at the edges, so water gets past them and ends up pooling on the bathroom floor. It happens every time the water pressure shifts mid-shower.\n\nThis is a clear PEVA liner sized 72 by 72 inches, made to hang flat and keep water inside the tub instead of on your tiles. It's a straightforward swap for a liner that's actually doing the one job it has.\n\nWater stays where it's supposed to, and your bathroom floor stays dry after every shower, for about ten dollars.\n\nComment LIBA and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -7474,14 +7475,15 @@
       "affiliate_network": "amazon",
       "affiliate_url": "https://www.amazon.com/dp/B00LS9UD2M?tag=goldenhomep0a-20"
     },
-    "hook": "Why is your bathroom floor always wet after a shower?"
+    "hook": "Why is your bathroom floor always wet after a shower?",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-27-002.mp4"
   },
   {
     "name": "reel_2026-09-27_003",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-09-27-003.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-27-003.mp4",
     "caption": "Ever kick the blanket off then grab it right back?\n\nMost bedding is either heavy enough to trap you in a sweat or thin enough that one shoulder gets cold by morning. Fall nights make it worse, since the temperature swings from the evening to the middle of the night.\n\nThis is a fleece throw blanket, queen size, in grey, built to add warmth without comforter weight. Close to a hundred and eighty thousand people rate it 4.6 stars.\n\nA lighter layer you can pull up or kick half off without overheating, for about $20.\n\nComment BLANKET and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -7498,22 +7500,7 @@
       "affiliate_network": "amazon",
       "affiliate_url": "https://www.amazon.com/dp/B0157T2ENY?tag=goldenhomep0a-20"
     },
-    "hook": "Ever kick the blanket off then grab it right back?"
-  },
-  {
-    "id": "carousel-2026-09-27-B09CSS6YL4",
-    "media_type": "CAROUSEL_ALBUM",
-    "image_urls": [
-      "https://goldenhomeproject.com/social/carousels/2026-09-27-B09CSS6YL4/slide-1.png",
-      "https://goldenhomeproject.com/social/carousels/2026-09-27-B09CSS6YL4/slide-2.png",
-      "https://goldenhomeproject.com/social/carousels/2026-09-27-B09CSS6YL4/slide-3.png",
-      "https://goldenhomeproject.com/social/carousels/2026-09-27-B09CSS6YL4/slide-4.png",
-      "https://goldenhomeproject.com/social/carousels/2026-09-27-B09CSS6YL4/slide-5.png"
-    ],
-    "caption": "The hallway you cross in the dark every night doesn't have to stay that way.\n\nSave this for later \u2014 motion-sensor night lights that plug straight into any outlet mean no switches to hunt for and no wiring to install. Set one at every turn between bed and bathroom for lighting that comes on only when you're actually moving through the space.\n\nComment NIGHTLIGHT or DM me NIGHTLIGHT for the link.\n\n#homeorganization #smallspaceliving #bedroomdecor #hallwaydecor #organizedhome",
-    "asin": "B09CSS6YL4",
-    "keyword": "NIGHTLIGHT",
-    "queued_at": "2026-09-27T12:37:37.667041Z",
-    "source": "carousel_generator"
+    "hook": "Ever kick the blanket off then grab it right back?",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-27-003.mp4"
   }
 ]
