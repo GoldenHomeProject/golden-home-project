@@ -4093,3 +4093,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** social/carousels/2026-09-27-B09CSS6YL4/slide-1.png, social/carousels/2026-09-27-B09CSS6YL4/slide-2.png, social/carousels/2026-09-27-B09CSS6YL4/slide-3.png, social/carousels/2026-09-27-B09CSS6YL4/slide-4.png, social/carousels/2026-09-27-B09CSS6YL4/slide-5.png, social/post_queue.json
 **External actions:** Pexels (4 photos) + Claude CLI (slide content)
 **Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B09CSS6YL4 carousel.
+
+## 2026-09-27T10:10:54Z — Pinterest Pipeline
+**Ran:** Generated 2 pin(s) for the Pinterest traffic engine
+**Changed:** social/pinterest_queue.json
+**External actions:** Pexels (backgrounds) + Claude CLI (pin copy)
+**Next agent hint:** post_pinterest.py (Pi) drains pinterest_queue.json once a Pinterest business account is logged into the Pi Chromium profile.
