@@ -74,12 +74,17 @@ def recently_used_keywords(days: int = KEYWORD_COOLDOWN_DAYS) -> set:
         if f.stat().st_mtime < cutoff:
             continue
         try:
-            aff = json.loads(f.read_text()).get("affiliate_strategy") or {}
+            data = json.loads(f.read_text())
         except Exception:
             continue
+        aff = data.get("affiliate_strategy") or {}
         for k in ("dm_keyword", "amazon_asin", "primary_product"):
             if aff.get(k):
                 used.add(str(aff[k]).strip().lower())
+        # The opener too: three different sheet sets were rewritten with the same
+        # "fitted sheet pops off the same corner" hook.
+        if data.get("hook"):
+            used.add("hook:" + data["hook"].strip().lower())
     return used
 
 
@@ -299,6 +304,8 @@ def generate_scripts(opportunities: list[dict], n: int = DAILY_SCRIPT_COUNT) -> 
             if stat_led(variant.get("hook", ""), (variant.get("scenes") or [{}])[0]):
                 blocked_stat += 1
                 continue
+            if "hook:" + variant.get("hook", "").strip().lower() in cooling:
+                continue
             vid = _variant_id(kw, variant["hook"])
             if vid in used:
                 continue
@@ -376,6 +383,8 @@ def generate_scripts(opportunities: list[dict], n: int = DAILY_SCRIPT_COUNT) -> 
         # …and never the same product twice in one batch under a different keyword.
         if any(by_kw[p][k] and by_kw[p][k] == by_kw[kw].get(k)
                for p, _ in picked for k in ("asin", "product_name") if k in by_kw[p]):
+            continue
+        if any(v["hook"].strip().lower() == variant["hook"].strip().lower() for _, v in picked):
             continue
         picked.append((kw, variant))
         used_kws.append(kw)
