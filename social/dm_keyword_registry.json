@@ -5317,6 +5317,38 @@
       "verified_stars": "4.5",
       "verified_reviews": 44873,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0BG7TFVB2",
+      "product_name": "OVZME Sheer Orange Curtains 84 inch Length 2 Panels Set, Airy Soft-Touching Rod Pocket Voile Drapes for Living Room/Bedr",
+      "categories": [
+        "home",
+        "Window Treatments"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0BG7TFVB2?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-09-27",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$8.99",
+      "verified_stars": "4.7",
+      "verified_reviews": 11128,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0B8P5536N",
+      "product_name": "SpaceDresser Basic Rod Pocket Sheer Voile Window Curtain Panels Orange 2 Panels 52 Width 84 Inch Long for Kitchen Bedroo",
+      "categories": [
+        "home",
+        "Window Treatments"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0B8P5536N?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-09-27",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$9.89",
+      "verified_stars": "4.7",
+      "verified_reviews": 12966,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
