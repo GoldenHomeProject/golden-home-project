@@ -7427,5 +7427,77 @@
     "keyword": "NIGHTLIGHT",
     "queued_at": "2026-09-27T02:58:29.713861Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_2026-09-27_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-27-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Your old dial scale is basically a guessing game.\n\nDial scales have a needle that swings past the number you're trying to read, and the glass fogs or shifts after years of use. Most people just round to the nearest five pounds and call it good.\n\nThis is a digital bathroom scale, so instead of squinting at a needle you get a number straight on the display. It's rated 4.7 stars across more than three hundred thousand reviews.\n\nYou get a clear readout each time you step on, no guessing involved, and it runs about $17.\n\nComment BODY and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Etekcity Digital Body Weight Bathroom Scale",
+      "dm_keyword": "BODY",
+      "amazon_asin": "B01HI1W1V4",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01HI1W1V4?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Your old dial scale is basically a guessing game."
+  },
+  {
+    "name": "reel_2026-09-27_002",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-27-002.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Why is your bathroom floor always wet after a shower?\n\nCheap curtain liners cling to your legs or leave gaps at the edges, so water gets past them and ends up pooling on the bathroom floor. It happens every time the water pressure shifts mid-shower.\n\nThis is a clear PEVA liner sized 72 by 72 inches, made to hang flat and keep water inside the tub instead of on your tiles. It's a straightforward swap for a liner that's actually doing the one job it has.\n\nWater stays where it's supposed to, and your bathroom floor stays dry after every shower, for about ten dollars.\n\nComment LIBA and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "LiBa Shower Curtain PEVA 8G, 72x72 Inch Waterproof Clear | Non-toxic shower liner, waterproof plastic shower curtain, ru",
+      "dm_keyword": "LIBA",
+      "amazon_asin": "B00LS9UD2M",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B00LS9UD2M?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B00LS9UD2M?tag=goldenhomep0a-20"
+    },
+    "hook": "Why is your bathroom floor always wet after a shower?"
+  },
+  {
+    "name": "reel_2026-09-27_003",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-27-003.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Ever kick the blanket off then grab it right back?\n\nMost bedding is either heavy enough to trap you in a sweat or thin enough that one shoulder gets cold by morning. Fall nights make it worse, since the temperature swings from the evening to the middle of the night.\n\nThis is a fleece throw blanket, queen size, in grey, built to add warmth without comforter weight. Close to a hundred and eighty thousand people rate it 4.6 stars.\n\nA lighter layer you can pull up or kick half off without overheating, for about $20.\n\nComment BLANKET and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Bedsure GentleSoft Fleece Bed Blankets Queen Size Grey - Soft Cozy Warm Fall Throw Blanket Halloween Decorations Lightwe",
+      "dm_keyword": "BLANKET",
+      "amazon_asin": "B0157T2ENY",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B0157T2ENY?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B0157T2ENY?tag=goldenhomep0a-20"
+    },
+    "hook": "Ever kick the blanket off then grab it right back?"
   }
 ]

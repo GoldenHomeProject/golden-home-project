@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-27T10:59:59.879084Z",
+  "date": "2026-09-27",
+  "seq": 1,
+  "hook_category": "mistake",
+  "hook": "Your old dial scale is basically a guessing game.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "A person's bare feet stepping onto a bathroom scale on tile flooring, morning light coming through a window",
+      "on_screen_text": "Stop guessing your weight",
+      "voiceover": "Your old dial scale is basically a guessing game."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Close-up of an old analog bathroom scale with a needle hovering between two numbers, slightly foggy glass dial",
+      "on_screen_text": "The needle never quite lines up",
+      "voiceover": "The needle swings past the number and the glass fogs over time, so you end up rounding to the nearest five pounds."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "A hand tapping a flat digital bathroom scale with the screen lighting up, standing on a bathroom rug near the tub",
+      "on_screen_text": "This one just shows a number",
+      "voiceover": "A digital scale skips the needle entirely and puts the number right on the screen."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "A digital bathroom scale sitting on the floor next to a bathroom counter and cabinet, screen visible with a glowing display",
+      "on_screen_text": "Rated 4.7 stars by thousands",
+      "voiceover": "It's rated 4.7 stars from over three hundred thousand people who've used it."
+    },
+    {
+      "n": 5,
+      "duration_sec": 5,
+      "visual_prompt": "A person stepping off a bathroom scale onto a bath mat, glancing back at the screen over their shoulder",
+      "on_screen_text": "Comment BODY for the link",
+      "voiceover": "You get a clear number every morning for about seventeen dollars. Comment BODY and I'll send the link."
+    }
+  ],
+  "caption": "Your old dial scale is basically a guessing game.\n\nDial scales have a needle that swings past the number you're trying to read, and the glass fogs or shifts after years of use. Most people just round to the nearest five pounds and call it good.\n\nThis is a digital bathroom scale, so instead of squinting at a needle you get a number straight on the display. It's rated 4.7 stars across more than three hundred thousand reviews.\n\nYou get a clear readout each time you step on, no guessing involved, and it runs about $17.\n\nComment BODY and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "This is a digital bathroom scale, so instead of squinting at a needle you get a number straight on the display. It's rated 4.7 stars across more than three hundred thousand reviews.",
+  "affiliate_strategy": {
+    "primary_product": "Etekcity Digital Body Weight Bathroom Scale",
+    "dm_keyword": "BODY",
+    "amazon_asin": "B01HI1W1V4",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B01HI1W1V4?tag=goldenhomep0a-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": null
+  }
+}

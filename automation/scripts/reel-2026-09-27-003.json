@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-27T10:59:59.904727Z",
+  "date": "2026-09-27",
+  "seq": 3,
+  "hook_category": "scene",
+  "hook": "Ever kick the blanket off then grab it right back?",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "A hand kicking a grey blanket off the edge of a bed in low bedroom light, then pulling it back over a shoulder",
+      "on_screen_text": "Kick it off, grab it back",
+      "voiceover": "Ever kick the blanket off, then grab it right back?"
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Close-up of a person adjusting a thick comforter at 2am, one bare foot sticking out from under the covers",
+      "on_screen_text": "Too hot, then too cold",
+      "voiceover": "Most blankets are either too heavy and hot, or too thin and you're cold by morning."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Grey fleece blanket being unfolded and laid flat across a queen bed, close-up on the soft texture as a hand smooths it",
+      "on_screen_text": "A lighter layer, queen size",
+      "voiceover": "This is a fleece throw blanket in grey, made to add warmth without piling on comforter weight."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "A folded grey fleece blanket sitting at the foot of a made bed near a window with soft fall afternoon light",
+      "on_screen_text": "Close to 180k rate it 4.6",
+      "voiceover": "Close to a hundred and eighty thousand people rate it 4.6 stars."
+    },
+    {
+      "n": 5,
+      "duration_sec": 5,
+      "visual_prompt": "Someone pulling the grey fleece blanket up to their chin while lying in bed, soft morning light through curtains",
+      "on_screen_text": "Comment BLANKET for the link",
+      "voiceover": "A layer you can pull up or kick half off, for about $20. Comment BLANKET and I'll send the link."
+    }
+  ],
+  "caption": "Ever kick the blanket off then grab it right back?\n\nMost bedding is either heavy enough to trap you in a sweat or thin enough that one shoulder gets cold by morning. Fall nights make it worse, since the temperature swings from the evening to the middle of the night.\n\nThis is a fleece throw blanket, queen size, in grey, built to add warmth without comforter weight. Close to a hundred and eighty thousand people rate it 4.6 stars.\n\nA lighter layer you can pull up or kick half off without overheating, for about $20.\n\nComment BLANKET and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "This is a fleece throw blanket, queen size, in grey, built to add warmth without comforter weight. Close to a hundred and eighty thousand people rate it 4.6 stars.",
+  "affiliate_strategy": {
+    "primary_product": "Bedsure GentleSoft Fleece Bed Blankets Queen Size Grey - Soft Cozy Warm Fall Throw Blanket Halloween Decorations Lightwe",
+    "dm_keyword": "BLANKET",
+    "amazon_asin": "B0157T2ENY",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B0157T2ENY?tag=goldenhomep0a-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": "https://www.amazon.com/dp/B0157T2ENY?tag=goldenhomep0a-20"
+  }
+}

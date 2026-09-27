@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-27T10:59:59.893389Z",
+  "date": "2026-09-27",
+  "seq": 2,
+  "hook_category": "question",
+  "hook": "Why is your bathroom floor always wet after a shower?",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of bare feet stepping onto a wet bathroom tile floor next to a bathtub.",
+      "on_screen_text": "Floor soaked again?",
+      "voiceover": "Why is your bathroom floor always wet after a shower?"
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Hand pulling a thin, clingy shower curtain liner away from wet skin inside a tub.",
+      "on_screen_text": "Thin liners let water sneak past",
+      "voiceover": "Cheap liners cling to your legs or gap at the edges, and water slips past them onto the floor."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Hands hanging a clear waterproof shower curtain liner on a rod, smoothing it flat against the tub wall.",
+      "on_screen_text": "Clear PEVA liner seals the tub",
+      "voiceover": "This clear PEVA liner hangs flat against the tub so water stays inside where it belongs."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Wide shot of a full bathroom with the clear liner hanging neatly inside a standard tub, water running.",
+      "on_screen_text": "Rated 4.6 stars by shoppers",
+      "voiceover": "It's a simple size, seventy two by seventy two inches, and over a hundred thousand people rate it 4.6 stars."
+    },
+    {
+      "n": 5,
+      "duration_sec": 5,
+      "visual_prompt": "Person stepping out of the shower onto a completely dry bathroom mat, towel in hand.",
+      "on_screen_text": "Comment LIBA for the link",
+      "voiceover": "Your floor stays dry, it's about ten dollars, and it just works. Comment LIBA and I'll send the link."
+    }
+  ],
+  "caption": "Why is your bathroom floor always wet after a shower?\n\nCheap curtain liners cling to your legs or leave gaps at the edges, so water gets past them and ends up pooling on the bathroom floor. It happens every time the water pressure shifts mid-shower.\n\nThis is a clear PEVA liner sized 72 by 72 inches, made to hang flat and keep water inside the tub instead of on your tiles. It's a straightforward swap for a liner that's actually doing the one job it has.\n\nWater stays where it's supposed to, and your bathroom floor stays dry after every shower, for about ten dollars.\n\nComment LIBA and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "This is a clear PEVA liner sized 72 by 72 inches, made to hang flat and keep water inside the tub instead of on your tiles. It's a straightforward swap for a liner that's actually doing the one job it",
+  "affiliate_strategy": {
+    "primary_product": "LiBa Shower Curtain PEVA 8G, 72x72 Inch Waterproof Clear | Non-toxic shower liner, waterproof plastic shower curtain, ru",
+    "dm_keyword": "LIBA",
+    "amazon_asin": "B00LS9UD2M",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B00LS9UD2M?tag=goldenhomep0a-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": "https://www.amazon.com/dp/B00LS9UD2M?tag=goldenhomep0a-20"
+  }
+}
