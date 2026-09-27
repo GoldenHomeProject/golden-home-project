@@ -42,6 +42,39 @@ def _is_dead_hook(hook: str) -> bool:
     h = hook.lower()
     return any(p.match(h) for p in DEAD_HOOK_PATTERNS)
 
+
+def stat_led(hook: str, scene1: dict | None = None) -> bool:
+    """A hook (or first on-screen card) that opens on a number.
+
+    "106,545 reviews on one twin mattress protector" opened reel after reel through
+    September 2026 and every one earned 0 likes. Nobody stops scrolling for a count;
+    they stop for their own cabinet. The count can appear later as proof, once.
+    """
+    first = (scene1 or {})
+    return bool(re.search(r"\d", hook[:60])
+                or re.search(r"\d", str(first.get("on_screen_text", "")))
+                or re.search(r"\d", str(first.get("voiceover", ""))[:60]))
+
+
+# One product should not front two reels in ten days, whatever the hook. The 7-day
+# variant check alone let the mattress protector post on 9/23, 9/24 and 9/26.
+KEYWORD_COOLDOWN_DAYS = 10
+
+
+def recently_used_keywords(days: int = KEYWORD_COOLDOWN_DAYS) -> set:
+    used = set()
+    cutoff = datetime.now(timezone.utc).timestamp() - days * 86400
+    for f in SCRIPT_DIR.glob("reel-*.json"):
+        if f.stat().st_mtime < cutoff:
+            continue
+        try:
+            kw = (json.loads(f.read_text()).get("affiliate_strategy") or {}).get("dm_keyword")
+        except Exception:
+            continue
+        if kw:
+            used.add(kw)
+    return used
+
 sys.path.insert(0, str(Path(__file__).parent))
 from agent_log import append_log_entry
 from content_quality_gate import fabrication_match, generic_opener
@@ -238,17 +271,21 @@ def generate_scripts(opportunities: list[dict], n: int = DAILY_SCRIPT_COUNT) -> 
 
     by_kw = {e["keyword"]: e for e in live_dm}
     used = recently_used_variant_ids(days=7)
+    cooling = recently_used_keywords()
 
     # Build the candidate pool: (keyword, variant) tuples for every live keyword
     # that has at least one library variant.
     pool = []
-    blocked_dead = 0
+    blocked_dead = blocked_stat = 0
     for kw, entries in variants_by_kw.items():
-        if kw not in by_kw:
+        if kw not in by_kw or kw in cooling:
             continue
         for variant in entries:
             if _is_dead_hook(variant.get("hook", "")):
                 blocked_dead += 1
+                continue
+            if stat_led(variant.get("hook", ""), (variant.get("scenes") or [{}])[0]):
+                blocked_stat += 1
                 continue
             vid = _variant_id(kw, variant["hook"])
             if vid in used:
@@ -256,15 +293,19 @@ def generate_scripts(opportunities: list[dict], n: int = DAILY_SCRIPT_COUNT) -> 
             pool.append((kw, variant))
     if blocked_dead:
         print(f"[content-engine] Hard-blocked {blocked_dead} variant(s) matching dead hook patterns ($X / 'I spent $X').")
+    if blocked_stat:
+        print(f"[content-engine] Skipped {blocked_stat} variant(s) that open on a number.")
 
     if not pool:
         print("[content-engine] No fresh variants available — falling back to oldest used variants.")
         for kw, entries in variants_by_kw.items():
-            if kw not in by_kw:
+            if kw not in by_kw or kw in cooling:
                 continue
             for variant in entries:
                 if _is_dead_hook(variant.get("hook", "")):
                     continue  # never resurface dead patterns even in fallback
+                if stat_led(variant.get("hook", ""), (variant.get("scenes") or [{}])[0]):
+                    continue
                 pool.append((kw, variant))
 
     if not pool:
@@ -337,10 +378,11 @@ def generate_scripts(opportunities: list[dict], n: int = DAILY_SCRIPT_COUNT) -> 
         entry = by_kw[kw]
         hashtags = _pick_hashtags(library, entry)
         caption = _build_caption(variant, kw, hashtags, registry_entry=entry)
+        scenes = json.loads(json.dumps(variant["scenes"]).replace("{KEYWORD}", kw))
         scripts.append({
             "hook_category": variant["hook_category"],
             "hook": variant["hook"],
-            "scenes": variant["scenes"],
+            "scenes": scenes,
             "caption": caption,
             "hashtags": hashtags,
             "specific_falsifiable_detail": variant.get("turn", "")[:200],

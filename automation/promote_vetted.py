@@ -245,23 +245,42 @@ review count show. Second person ("your drawer", "if your cabinet...") or plain
 descriptive voice is fine. Do not invent specs, colours, dimensions or claims that are
 not in the name above. Never promise a time-limited price.
 
-HOOK TAXONOMY (docs/BRAND_VOICE.md, revised 2026-08-26). Pick ONE and commit to it.
-The four story-based categories were retired because they need a narrator who used the
-product; these are the ones available, and they are stronger because they rest on things
-we can actually show:
-  - Confrontation: call out the received wisdom. "Everyone says buy more bins. That's why
-    your cabinet is still a mess."
-  - Second-person scene: put the READER in the room, never a fake narrator. "You already
-    know which cabinet you don't open in front of guests."
-  - Price movement: our own tracked data, which no competitor has.
-  - Proof-of-demand: make the review count the argument. "17,274 people bought this.
-    Almost none of them mention the shelves."
-  - Question, Micro-insight, Constraint (renting, no drilling, shared space),
-    Category correction (what the chart actually shows this week).
+THE FIRST TWO SECONDS DECIDE EVERYTHING (revised 2026-09-26). Nobody scrolling
+Instagram stops for a statistic. "106,545 reviews" as an opener earned 0 likes on every
+post that used it. The hook must make the viewer SEE their own home and feel the small,
+familiar annoyance, or the small win. Rules:
+  - NO NUMBERS in the hook or in scene 1 (no review counts, stars, prices, percentages).
+  - Under 12 words. Spoken-sounding. Something a friend would say, not an ad.
+  - Pick ONE angle and commit:
+    * Second-person scene: "You open this cabinet and something always falls out."
+    * The common mistake: "Stop buying bigger bins for a deep cabinet."
+    * Confrontation: "Everyone says declutter first. For a deep cabinet that's backwards."
+    * Constraint: "Renting, no drilling, and a closet with one rod?"
+    * Tiny satisfying fix: "Watch the whole back row slide out to you."
+    * Question: "Why does the fitted sheet always pop off the same corner?"
 
-MAKE IT SPECIFIC OR DON'T SAY IT. One falsifiable detail is worth ten adjectives: the
-review count, the star rating, the price, a stated dimension, a use case. "Holds 18 lbs
-per shelf" beats "sturdy". No hype words, no exclamation marks, no ALL CAPS.
+STRUCTURE (5 scenes, ~20 s total, voiceover reads naturally as one piece):
+  1. Hook: the moment/problem. On-screen text = the hook, cut to 3-7 words.
+  2. Why it happens / the relatable detail (keep it true in general, not a personal story).
+  3. The fix: what this product does, in plain words, tied to the problem.
+  4. Proof, ONCE and conversational (ONLY if reviews are 1,000+; otherwise use this scene
+     for who it suits or how it fits the space, and never mention reviews at all): "over a hundred thousand people rate it 4.5 stars" or
+     "about $13" (round the numbers; never read out 106,545).
+  5. Payoff + CTA: the result for the viewer, then "Comment {{KEYWORD}} and I'll send the link."
+     (write the literal token {{KEYWORD}}; it is filled in later).
+
+FEATURES: describe only what the product NAME states (e.g. "two-tier", "sliding",
+"waterproof", "fits up to 15 inch"). Never claim accuracy, durability, materials, quietness,
+ease, or results that the name does not say. When unsure, describe the problem more and
+the product less.
+
+WRITING: plain, warm, specific. Concrete nouns (pipes, the back corner, the top shelf).
+No hype words (game-changer, must-have, obsessed, genius, hack), no exclamation marks,
+no ALL CAPS in voiceover, no "That's not a fluke", no "That number is the whole story".
+On-screen text is short sentence case, max 7 words, and must add something the voice
+doesn't say word-for-word. visual_prompt = a real photo a stock library would have of
+that exact moment in a home (hands, the cabinet, the bed corner) — never text cards,
+never "product shot", never charts.
 
 VARIETY RULE. These are our last published openers. Your hook must not repeat their
 structure, phrasing or premise -- pick a genuinely different angle (a specific use case,
@@ -271,17 +290,17 @@ constraint like renting or small spaces):
 
 Return STRICT JSON only:
 {{
-  "hook_category": "one of: problem_solution, use_case, comparison, mistake, audience_fit, proof",
-  "hook": "first line, under 90 chars, specific to THIS product, no fabricated experience",
-  "beat1": "2-3 sentences expanding the angle. Concrete. No invented ownership.",
-  "turn": "2 sentences on what the product does and what {reviews_fmt} reviews at {entry.get('verified_stars')} stars indicate.",
-  "result": "1-2 sentences on the outcome for the reader, plus the price {entry.get('verified_price')}.",
+  "hook_category": "one of: scene, mistake, confrontation, constraint, satisfying_fix, question",
+  "hook": "under 12 words, no digits, no fabricated experience",
+  "beat1": "2-3 sentences: why the problem happens. Concrete, true in general.",
+  "turn": "2 sentences: what the product does about it. Mention {reviews_fmt} reviews at {entry.get('verified_stars')} stars at most once, rounded.",
+  "result": "1-2 sentences on the outcome for the reader, plus the price {entry.get('verified_price')} rounded (about $X).",
   "scenes": [
-    {{"n": 1, "duration_sec": 3, "visual_prompt": "...", "on_screen_text": "SHORT CAPS", "voiceover": "..."}},
-    {{"n": 2, "duration_sec": 4, "visual_prompt": "...", "on_screen_text": "SHORT CAPS", "voiceover": "..."}},
-    {{"n": 3, "duration_sec": 4, "visual_prompt": "...", "on_screen_text": "SHORT CAPS", "voiceover": "..."}},
-    {{"n": 4, "duration_sec": 5, "visual_prompt": "...", "on_screen_text": "SHORT CAPS", "voiceover": "..."}},
-    {{"n": 5, "duration_sec": 4, "visual_prompt": "...", "on_screen_text": "SHORT CAPS", "voiceover": "..."}}
+    {{"n": 1, "duration_sec": 3, "visual_prompt": "...", "on_screen_text": "Hook in 3-7 words", "voiceover": "..."}},
+    {{"n": 2, "duration_sec": 4, "visual_prompt": "...", "on_screen_text": "...", "voiceover": "..."}},
+    {{"n": 3, "duration_sec": 4, "visual_prompt": "...", "on_screen_text": "...", "voiceover": "..."}},
+    {{"n": 4, "duration_sec": 4, "visual_prompt": "...", "on_screen_text": "...", "voiceover": "..."}},
+    {{"n": 5, "duration_sec": 5, "visual_prompt": "...", "on_screen_text": "Comment {{KEYWORD}} for the link", "voiceover": "... Comment {{KEYWORD}} and I'll send the link."}}
   ]
 }}"""
 
@@ -307,6 +326,13 @@ Return STRICT JSON only:
     blob = " ".join(str(v.get(k, "")) for k in required[:4])
     if banned.search(blob):
         print(f"  [skip] {entry.get('asin')}: script claimed fabricated experience")
+        return None
+
+    # A statistic is not a hook. Enforced in code because the prompt alone did not hold:
+    # 44 of 62 live variants opened on a review count before 2026-09-26.
+    scene1 = (v.get("scenes") or [{}])[0]
+    if ce.stat_led(v["hook"], scene1):
+        print(f"  [skip] {entry.get('asin')}: hook or scene 1 leads with a number")
         return None
 
     # And enforce variety: a hook that repeats a published opener is not new content.

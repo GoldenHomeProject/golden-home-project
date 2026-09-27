@@ -571,7 +571,7 @@ def compose_scene_frame(bg_path: Path, on_screen_text: str, out_path: Path,
     # The handle sat at HEIGHT-70 and was clipped by the frame edge - visibly cut in
     # half on the published 8/27 reel, and under Instagram's own UI besides.
     wfont = find_font(34)
-    draw.text((48, HEIGHT - SAFE_BOTTOM + 24), "@goldenhomeproject",
+    draw.text((48, HEIGHT - SAFE_BOTTOM + 24), "@golden_home_project",
               fill=ACCENT_COLOR, font=wfont)
 
     img.save(out_path, "JPEG", quality=92, optimize=True)
