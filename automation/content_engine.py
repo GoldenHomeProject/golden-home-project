@@ -56,24 +56,36 @@ def stat_led(hook: str, scene1: dict | None = None) -> bool:
                 or re.search(r"\d", str(first.get("voiceover", ""))[:60]))
 
 
-# One product should not front two reels in ten days, whatever the hook. The 7-day
+# One product should not front two reels in a week, whatever the hook. The 7-day
 # variant check alone let the mattress protector post on 9/23, 9/24 and 9/26.
-KEYWORD_COOLDOWN_DAYS = 10
+KEYWORD_COOLDOWN_DAYS = 7
 
 
 def recently_used_keywords(days: int = KEYWORD_COOLDOWN_DAYS) -> set:
+    """Keywords, ASINs and product names featured recently.
+
+    By product, not just keyword: the same Etekcity scale is live under ETEKCITY,
+    DIGITAL, BODY and WEIGHT, and two "Queen Size 4 Piece Sheet Set" listings sit
+    under SIZE and SHEET. A keyword-only cooldown would post the scale four days
+    running."""
     used = set()
     cutoff = datetime.now(timezone.utc).timestamp() - days * 86400
     for f in SCRIPT_DIR.glob("reel-*.json"):
         if f.stat().st_mtime < cutoff:
             continue
         try:
-            kw = (json.loads(f.read_text()).get("affiliate_strategy") or {}).get("dm_keyword")
+            aff = json.loads(f.read_text()).get("affiliate_strategy") or {}
         except Exception:
             continue
-        if kw:
-            used.add(kw)
+        for k in ("dm_keyword", "amazon_asin", "primary_product"):
+            if aff.get(k):
+                used.add(str(aff[k]).strip().lower())
     return used
+
+
+def _cooling(entry: dict, used: set) -> bool:
+    return any(str(entry.get(k, "")).strip().lower() in used
+               for k in ("keyword", "asin", "product_name") if entry.get(k))
 
 sys.path.insert(0, str(Path(__file__).parent))
 from agent_log import append_log_entry
@@ -278,7 +290,7 @@ def generate_scripts(opportunities: list[dict], n: int = DAILY_SCRIPT_COUNT) -> 
     pool = []
     blocked_dead = blocked_stat = 0
     for kw, entries in variants_by_kw.items():
-        if kw not in by_kw or kw in cooling:
+        if kw not in by_kw or _cooling(by_kw[kw], cooling):
             continue
         for variant in entries:
             if _is_dead_hook(variant.get("hook", "")):
@@ -299,7 +311,7 @@ def generate_scripts(opportunities: list[dict], n: int = DAILY_SCRIPT_COUNT) -> 
     if not pool:
         print("[content-engine] No fresh variants available — falling back to oldest used variants.")
         for kw, entries in variants_by_kw.items():
-            if kw not in by_kw or kw in cooling:
+            if kw not in by_kw:  # fallback ignores the product cooldown: a repeat beats no post
                 continue
             for variant in entries:
                 if _is_dead_hook(variant.get("hook", "")):
@@ -360,6 +372,10 @@ def generate_scripts(opportunities: list[dict], n: int = DAILY_SCRIPT_COUNT) -> 
             break
         # Avoid back-to-back same keyword in this batch (allow if pool exhausted)
         if used_kws.count(kw) >= max(1, n // max(1, len(by_kw))):
+            continue
+        # …and never the same product twice in one batch under a different keyword.
+        if any(by_kw[p][k] and by_kw[p][k] == by_kw[kw].get(k)
+               for p, _ in picked for k in ("asin", "product_name") if k in by_kw[p]):
             continue
         picked.append((kw, variant))
         used_kws.append(kw)
