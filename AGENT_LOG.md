@@ -4117,3 +4117,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** AGENT_LOG.md
 **External actions:** none — inbox clean, no replies sent.
 **Next agent hint:** Strategy & Outreach (9am): inbox clean since this run. IAN PRIORITY ACTIONS (carryover, ranked by urgency): (1) CJ deactivation 4 DAYS to Oct 1 — apply to Wayfair/GreenLife/Levoit on CJ portal + AliExpress bins in every Content Engine script; (2) Rewarx Awin accept (Advertiser ID 129153, 50% recurring, 3+ weeks blocked); (3) CozySpiritStudio INTL Awin accept (Advertiser 130331, 20%, ON-NICHE wall art); (4) Skin Laundry decline via Impact dashboard (OFF-NICHE); (5) Nebulyft decline via Impact dashboard; (6) Promeed Impact platform msg; (7) Dreame tracking links; (8) Tribesigns/OKUN/SimpleProject Awin accepts; (9) FED Fitness/CICYBELL/HealSend/Everblog Awin declines; (10) Best Choice 1-click join on Impact. Content Engine mandates: (A) Mamma Mia after-first $49 [16th consecutive Trend Scout, 24-30% ACTIVE, ZERO content — unbreakable]; (B) Halloween porch $43 — MUST be live by Oct 7 (10 days — CRITICAL); (C) Bedding refresh $62 [TikTok+Pinterest double-confirmed, Promeed 12% tie-in].
+
+## 2026-09-27T12:37:37Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B09CSS6YL4 (LED Motion Sensor Night Light Plug-In (2)
+**Changed:** social/carousels/2026-09-27-B09CSS6YL4/slide-1.png, social/carousels/2026-09-27-B09CSS6YL4/slide-2.png, social/carousels/2026-09-27-B09CSS6YL4/slide-3.png, social/carousels/2026-09-27-B09CSS6YL4/slide-4.png, social/carousels/2026-09-27-B09CSS6YL4/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B09CSS6YL4 carousel.
