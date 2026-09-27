@@ -5094,5 +5094,33 @@
     "posted": false,
     "source": "pinterest_pipeline",
     "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-09-27-B0BG7TFVB2",
+    "asin": "B0BG7TFVB2",
+    "board": "Home Organization Finds",
+    "title": "Sheer Curtain Ideas for Living Room: Orange Voile Drapes, 84\" Rod Pocket, 2-Panel Set",
+    "description": "Searching for an easy way to add color without hardware changes? This sheer voile curtain set includes two 84-inch rod pocket panels in a soft orange tone, priced at $8.99. The lightweight fabric filters light while keeping rooms bright, and the rod pocket header fits most standard curtain rods for a no-fuss hang in a living room, bedroom, or shared space. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B0BG7TFVB2?tag=goldenhomep0a-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-09-27-B0BG7TFVB2.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-09-27-B0BG7TFVB2.png",
+    "queued_at": "2026-09-27T10:10:28.989712Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-09-27-B0B8P5536N",
+    "asin": "B0B8P5536N",
+    "board": "Kitchen Organization Ideas",
+    "title": "Kitchen Window Curtain Ideas: Orange Sheer Voile Panels, 52x84 Set of 2",
+    "description": "Rod-pocket sheer voile curtain panels in orange, sized 52 inches wide by 84 inches long, sold as a set of two. The rod-pocket header slides onto a curtain rod without extra hardware, and the sheer voile fabric filters daylight while adding color to a kitchen or bedroom window. Priced at $9.89 for the pair. Tap through for full sizing and material details before you buy. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B0B8P5536N?tag=goldenhomep0a-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-09-27-B0B8P5536N.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-09-27-B0B8P5536N.png",
+    "queued_at": "2026-09-27T10:10:52.225040Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
   }
 ]
