@@ -899,49 +899,50 @@
     ],
     "QUEEN": [
       {
-        "hook_category": "proof",
-        "hook": "A $24.99 purchase collected 450,137 reviews. That kind of number does not happen by accident.",
-        "beat1": "Bedding reviews usually build slowly, since most people only think about their sheets when something is wrong with them. A product can rack up a few thousand five-star tags on marketing alone. It does not climb into six figures without years of repeat buyers coming back to confirm it still holds up.",
-        "turn": "This is the queen size 4 piece sheet set behind that count, covering a full bed in one purchase instead of piecing together separate items. At 4.5 stars across 450,137 reviews, the average has held steady long after any early hype would have faded.",
-        "result": "For a queen bed, that combination of scale and rating makes this the low-risk pick at $24.99.",
+        "hook_category": "question",
+        "hook": "Why does your top sheet always end up on the floor?",
+        "beat1": "A loose or mismatched sheet set never really locks onto the mattress. The fitted sheet slips at the corner, the flat sheet twists loose overnight, and by morning something has pulled free.",
+        "turn": "This queen set comes as four matching pieces, a fitted sheet, a flat sheet, and two pillowcases, made to fit the same bed together instead of being pieced together from odd parts. Over four hundred thousand people have rated it four and a half stars.",
+        "result": "The bed stays together instead of coming apart overnight, and the full set runs about $25.",
         "scenes": [
           {
             "n": 1,
             "duration_sec": 3,
-            "visual_prompt": "Tight overhead shot of a neatly made queen bed with crisp white sheets, soft morning window light, shallow depth of field",
-            "on_screen_text": "450,137 REVIEWS",
-            "voiceover": "450,137 reviews on a $24.99 sheet set. That number is the whole story."
+            "visual_prompt": "Close-up of hands pulling a loose fitted sheet corner back over a mattress edge in soft morning bedroom light",
+            "on_screen_text": "Every morning, same corner",
+            "voiceover": "Why does your top sheet always end up on the floor?"
           },
           {
             "n": 2,
             "duration_sec": 4,
-            "visual_prompt": "Slow push-in on rumpled sheets at the corner of a bed, early daylight, calm domestic bedroom",
-            "on_screen_text": "EVERYONE HAS AN OPINION",
-            "voiceover": "Sheets are a purchase where reviews actually matter. Everyone sleeps on them, and everyone has an opinion by morning."
+            "visual_prompt": "A rumpled queen bed with the flat sheet twisted and bunched at the foot, pillowcase half off a pillow",
+            "on_screen_text": "Mismatched sets never stay put",
+            "voiceover": "When sheets aren't a real matching set, the fitted piece slips, the flat sheet twists, and pillowcases wander off somewhere in the wash."
           },
           {
             "n": 3,
             "duration_sec": 4,
-            "visual_prompt": "Hands smoothing a fitted sheet across a mattress corner, then folding the flat sheet back, clean bright bedroom",
-            "on_screen_text": "4 PIECES, ONE BUY",
-            "voiceover": "It's a queen size four piece set, so the whole bed is covered in one purchase instead of hunting for matching pieces."
+            "visual_prompt": "Hands unfolding a neatly stacked set of sheets and pillowcases on a made queen bed, tucking a fitted sheet corner under the mattress",
+            "on_screen_text": "One set, four matching pieces",
+            "voiceover": "This queen set comes with a fitted sheet, a flat sheet, and two pillowcases together, so every piece is meant for the same bed."
           },
           {
             "n": 4,
-            "duration_sec": 5,
-            "visual_prompt": "Wide static shot of a fully made queen bed, pillows stacked, natural light, uncluttered room",
-            "on_screen_text": "4.5 STARS AT SCALE",
-            "voiceover": "Holding 4.5 stars across 450,137 reviews is a lot harder than a high rating on a few hundred. Hype doesn't get you to that number — years of repeat buyers do."
+            "duration_sec": 4,
+            "visual_prompt": "Close-up of hands smoothing a made queen bed, corner of a pillowcase and folded flat sheet visible in daylight",
+            "on_screen_text": "Rated by hundreds of thousands",
+            "voiceover": "Over four hundred thousand people have rated this set four and a half stars."
           },
           {
             "n": 5,
-            "duration_sec": 4,
-            "visual_prompt": "Gentle top-down shot of folded sheets stacked on the end of a made bed, warm soft lighting",
-            "on_screen_text": "$24.99",
-            "voiceover": "If you want a queen set that a huge number of people have already vetted, this is the low-risk pick at $24.99."
+            "duration_sec": 5,
+            "visual_prompt": "Wide shot of a fully made queen bed in a bright bedroom, someone stepping back after smoothing the last corner",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "A full queen set for about twenty five dollars. Comment {KEYWORD} and I'll send the link."
           }
         ],
-        "voice_rev": "2026-08-26"
+        "rewritten_from": "A $24.99 purchase collected 450,137 reviews. That kind of number does not happen by accident.",
+        "rewritten_at": "2026-09-27T03:16:37.770398+00:00"
       }
     ],
     "SUIT": [
@@ -1321,49 +1322,50 @@
     ],
     "BODY": [
       {
-        "hook_category": "proof",
-        "hook": "A scale that just weighs you feels like it shouldn't need explaining.",
-        "beat1": "Somewhere along the way, bathroom scales picked up apps, sync features, and body-fat estimates nobody asked for. Most of that gets set up once, then ignored for good.",
-        "turn": "This one skips all of it. Step on, glance down, get a number — the entire interaction a scale is supposed to have.",
-        "result": "No app to open first thing in the morning, just a screen that tells you what you came to check.",
+        "hook_category": "scene",
+        "hook": "The number on your scale never matches twice.",
+        "beat1": "Old dial scales drift depending on where they sit on the tile, and the needle can land in a different spot every time you step on. Usually that's a worn spring or an uneven floor, not your weight actually changing overnight.",
+        "turn": "This one skips the needle entirely and gives you a plain digital readout instead. It's the kind of simple design that's earned a 4.7 star rating from over three hundred thousand people.",
+        "result": "A number you can actually trust each morning, for about $17.",
         "scenes": [
           {
             "n": 1,
             "duration_sec": 3,
-            "visual_prompt": "Close overhead shot of a flat digital bathroom scale on clean tile floor, soft daylight from a window, minimal bathroom, shallow depth of field",
-            "on_screen_text": "349,254 REVIEWS",
-            "voiceover": "349,254 reviews is more than most cities have people."
+            "visual_prompt": "Bare feet stepping onto a bathroom scale on tile floor in soft morning light",
+            "on_screen_text": "Same you, different number",
+            "voiceover": "The number on your scale never matches twice."
           },
           {
             "n": 2,
             "duration_sec": 4,
-            "visual_prompt": "Slow push-in on the scale's dark glass surface, reflections of soft bathroom light, no feet in frame, calm neutral palette",
-            "on_screen_text": "NOBODY REVIEWS A SCALE",
-            "voiceover": "Bathroom scales are a category where almost nobody writes a review unless something goes wrong."
+            "visual_prompt": "Close-up of an old analog bathroom scale dial with the needle resting slightly off-center, feet nearby on tile",
+            "on_screen_text": "It's not your weight, it's the scale",
+            "voiceover": "Old dial scales drift depending on the floor, and the needle can land somewhere new every time you step on."
           },
           {
             "n": 3,
             "duration_sec": 4,
-            "visual_prompt": "Animated star rating graphic filling to 4.7 over a blurred bathroom background, clean modern typography, subtle motion",
-            "on_screen_text": "4.7 STARS",
-            "voiceover": "This one has 349,254 of them and still sits at 4.7 stars. A number that large usually drags an average down."
+            "visual_prompt": "Overhead shot of bare feet standing on a slim digital bathroom scale with a lit display, tucked in a bathroom corner",
+            "on_screen_text": "One clear number, every time",
+            "voiceover": "This one gives you a plain digital number instead of a needle to interpret, so what you see is what you get."
           },
           {
             "n": 4,
-            "duration_sec": 5,
-            "visual_prompt": "Product-style shot of the Etekcity digital body weight bathroom scale on a bathroom floor beside a folded towel, even studio-soft lighting, neutral background",
-            "on_screen_text": "ONE JOB, DONE",
-            "voiceover": "It does one job — a digital scale you step on to read your weight. You're not gambling on a new listing. Hundreds of thousands of people already stress-tested it for you."
+            "duration_sec": 4,
+            "visual_prompt": "A digital bathroom scale sitting against a bathroom wall next to a folded towel and bath mat",
+            "on_screen_text": "Rated 4.7 stars, home use",
+            "voiceover": "It's rated 4.7 stars from over three hundred thousand people who use it every morning."
           },
           {
             "n": 5,
-            "duration_sec": 4,
-            "visual_prompt": "Final clean hero shot of the scale on tile, price card graphic sliding in from the lower third, bright and simple",
-            "on_screen_text": "$16.87",
-            "voiceover": "A scale with a track record instead of a guess, for sixteen dollars and eighty-seven cents."
+            "duration_sec": 5,
+            "visual_prompt": "A person stepping off a digital bathroom scale onto a bath mat in a bright bathroom",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "A number you can actually trust each morning, for about $17. Comment {KEYWORD} and I'll send the link."
           }
         ],
-        "voice_rev": "2026-08-26"
+        "rewritten_from": "A scale that just weighs you feels like it shouldn't need explaining.",
+        "rewritten_at": "2026-09-27T03:17:10.941587+00:00"
       },
       {
         "hook_category": "mistake",
@@ -1836,49 +1838,50 @@
     ],
     "INSERTS": [
       {
-        "hook_category": "proof",
-        "hook": "Everyone replaces the cover when a throw pillow goes flat. That's not the part that failed.",
-        "beat1": "Throw pillows are the part of a room people replace covers for and never look inside. But the insert decides whether a cushion sits full and square on the couch or slumps into a flat envelope. An 18x18 cover is only as good as what's stuffed into it.",
-        "turn": "This insert is the filler that goes inside your existing cover, sized to the most common square cover on the market.",
-        "result": "If your throw pillows have gone limp, you don't need new covers, you need new insides.",
+        "hook_category": "mistake",
+        "hook": "Your throw pillows look flat for one dumb reason.",
+        "beat1": "Pillow covers are usually cut generous, but the insert that ships with them is often a size down or just thin. That mismatch means the corners never fill out, so the pillow looks sunken even right after you fluff it.",
+        "turn": "These are 18 by 18 inserts, matched to the standard cover size, so they push fabric into every corner instead of leaving slack. Shoppers rate them 4.6 stars across roughly two hundred thousand reviews.",
+        "result": "Covers hold their square shape on the couch or bed instead of caving in at the edges, and a set runs about $16.",
         "scenes": [
           {
             "n": 1,
             "duration_sec": 3,
-            "visual_prompt": "Close overhead shot of a flat, deflated square throw pillow lying on a neutral linen sofa, soft daylight from a window, shallow depth of field",
-            "on_screen_text": "218,437 REVIEWS",
-            "voiceover": "218,437 reviews on a pillow insert most people never think about."
+            "visual_prompt": "Close-up of a slightly deflated throw pillow on a couch, corners sagging, soft natural daylight in a living room.",
+            "on_screen_text": "The corners always cave in",
+            "voiceover": "Your throw pillows look flat for one dumb reason."
           },
           {
             "n": 2,
             "duration_sec": 4,
-            "visual_prompt": "Hands unzipping a decorative pillow cover on a couch, revealing the plain insert inside, warm indoor lighting",
-            "on_screen_text": "IT'S THE INSIDE",
-            "voiceover": "People swap pillow covers all the time and never look at what's inside. The insert is what decides whether a cushion sits full or slumps flat."
+            "visual_prompt": "Hand pressing into the empty corner of a pillow cover on a sofa, showing the gap where the insert falls short.",
+            "on_screen_text": "The insert is too small",
+            "voiceover": "Most covers are cut generous, but the insert inside is often thinner or a size down, so the corners never fill out and the whole pillow looks sunken."
           },
           {
             "n": 3,
             "duration_sec": 4,
-            "visual_prompt": "Side-by-side on a sofa: one limp square pillow, one plump square pillow, even natural light, clean minimal styling",
-            "on_screen_text": "18X18 SQUARE",
-            "voiceover": "These are 18 by 18 inserts, sized for the most common square cover out there. Your cover is only as good as what you stuff into it."
+            "visual_prompt": "Hands pushing a full, squared pillow insert into a fabric cover on a bed, corners popping out square as it's tucked in.",
+            "on_screen_text": "Sized to fill every corner",
+            "voiceover": "This is an 18 by 18 insert built to match that exact cover size, so it pushes into every corner instead of leaving empty space."
           },
           {
             "n": 4,
-            "duration_sec": 5,
-            "visual_prompt": "Product-style shot of stacked plain white square pillow inserts on a light wood surface, soft shadows, catalogue lighting",
-            "on_screen_text": "4.6 STARS",
-            "voiceover": "4.6 stars across 218,437 reviews. That's a volume of feedback most home products never come close to, and the rating holds at that scale."
+            "duration_sec": 4,
+            "visual_prompt": "A couch with several plump, squared throw pillows arranged neatly in soft afternoon light.",
+            "on_screen_text": "Rated 4.6 stars by shoppers",
+            "voiceover": "It's one of those basics people don't think twice about, and roughly two hundred thousand shoppers rate it 4.6 stars."
           },
           {
             "n": 5,
-            "duration_sec": 4,
-            "visual_prompt": "Wide shot of a styled sofa with four full, upright square throw pillows, bright airy living room, price card graphic in corner",
-            "on_screen_text": "$13.49",
-            "voiceover": "If your throw pillows have gone limp, you don't need new covers. You need new insides. Thirteen forty-nine."
+            "duration_sec": 5,
+            "visual_prompt": "Person fluffing a finished, full throw pillow on a made bed, satisfied, cozy warm home light.",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "Your pillows finally hold their shape on the couch or the bed. Comment {KEYWORD} and I'll send the link."
           }
         ],
-        "voice_rev": "2026-08-26"
+        "rewritten_from": "Everyone replaces the cover when a throw pillow goes flat. That's not the part that failed.",
+        "rewritten_at": "2026-09-27T03:17:48.259833+00:00"
       },
       {
         "hook_category": "mistake",
@@ -2360,48 +2363,50 @@
     ],
     "DEEP": [
       {
-        "hook_category": "proof",
-        "hook": "113,235 reviews. 4.6 stars. For a $13 sheet set, that's rare.",
-        "beat1": "Most sheet sets don't cross even a thousand reviews. This one has over 113,000, and the average still holds at 4.6 stars. That volume makes the rating harder to dismiss as luck or a review farm.",
-        "turn": "This is a 4-piece queen set in grey with a 16-inch deep pocket, built to stay on thicker mattresses, plus a fitted, flat, and two pillowcases in a soft, breathable weave. A rating that high across 113,235 reviews points to consistent results across a huge number of beds, not a handful of lucky buyers.",
-        "result": "For $13.31, you get a full queen set that fits deep mattresses without shopping around for extra-deep options. The review count alone makes it a low-risk swap for a worn-out set.",
+        "hook_category": "question",
+        "hook": "Why does the fitted sheet always pop off the same corner?",
+        "beat1": "Most fitted sheets have shallow pockets built for thin mattresses. Once you add a mattress topper or a thicker mattress, the elastic corner stretches thin and gives up by morning. Every toss and turn works it a little looser.",
+        "turn": "This queen set comes with 16 inch deep pockets built to wrap under a thicker mattress and stay there. Over a hundred thousand reviewers rate the grey, four piece set 4.6 stars.",
+        "result": "For about $13 you get a full set built to stay put and feel soft night after night.",
         "scenes": [
           {
             "n": 1,
             "duration_sec": 3,
-            "visual_prompt": "Close-up of a phone screen showing '113,235 ratings, 4.6 stars' on a product page, thumb scrolling",
-            "on_screen_text": "113,235 REVIEWS",
-            "voiceover": "One hundred thirteen thousand reviews."
+            "visual_prompt": "Close-up of a hand pulling a loose fitted sheet corner back onto a mattress edge in a bedroom",
+            "on_screen_text": "Fitted sheet keeps slipping off?",
+            "voiceover": "Why does the fitted sheet always pop off the same corner?"
           },
           {
             "n": 2,
             "duration_sec": 4,
-            "visual_prompt": "Overhead shot of a grey queen sheet set folded neatly, four pieces fanned out on a bed",
-            "on_screen_text": "4 PIECES / GREY",
-            "voiceover": "That's the sample size behind this four-piece grey set."
+            "visual_prompt": "Overhead shot of a thin fitted sheet corner stretched tight and riding up over a thick mattress edge",
+            "on_screen_text": "Shallow pockets can't hold on",
+            "voiceover": "Standard pockets are too shallow for a thicker mattress, so every toss and turn works the corner loose."
           },
           {
             "n": 3,
             "duration_sec": 4,
-            "visual_prompt": "Hands pulling a fitted grey sheet corner over a thick mattress, stretching the deep pocket over the edge",
-            "on_screen_text": "16\" DEEP POCKET",
-            "voiceover": "A 16 inch deep pocket, made for thicker mattresses that never seem to fit."
+            "visual_prompt": "Hands tucking a grey fitted sheet deep under a thick mattress corner, fabric wrapping fully underneath",
+            "on_screen_text": "16 inch pockets grip deep",
+            "voiceover": "This queen set has 16 inch deep pockets that wrap all the way under a thicker mattress and stay there."
           },
           {
             "n": 4,
-            "duration_sec": 5,
-            "visual_prompt": "Slow pan across a fully made bed with grey sheets and pillowcases, soft natural light",
-            "on_screen_text": "SOFT & BREATHABLE",
-            "voiceover": "At that many reviews, a 4.6 average isn't a fluke — it's a pattern across thousands of beds."
+            "duration_sec": 4,
+            "visual_prompt": "Wide shot of a neatly made bed with grey sheets in soft morning light",
+            "on_screen_text": "Rated 4.6 by over 100,000",
+            "voiceover": "Over a hundred thousand people have rated this grey four piece set 4.6 stars for how soft and breathable it feels."
           },
           {
             "n": 5,
-            "duration_sec": 4,
-            "visual_prompt": "Price tag graphic overlay on the bedding, $13.31 shown clearly, then fade to product shot",
-            "on_screen_text": "$13.31",
-            "voiceover": "Thirteen dollars and thirty-one cents for the full set."
+            "duration_sec": 5,
+            "visual_prompt": "Hand smoothing a grey sheet corner on a finished, made bed",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "For about thirteen dollars you get a set that actually stays on the mattress and feels soft all night. Comment {KEYWORD} and I'll send the link."
           }
-        ]
+        ],
+        "rewritten_from": "113,235 reviews. 4.6 stars. For a $13 sheet set, that's rare.",
+        "rewritten_at": "2026-09-27T03:18:33.196211+00:00"
       }
     ],
     "GORILLA": [
@@ -2502,48 +2507,50 @@
     ],
     "BEDROOM": [
       {
-        "hook_category": "proof",
-        "hook": "133,371 people rated these blackout curtains. Here's what that number means.",
-        "beat1": "A review count that size doesn't happen by accident. These are 42\" wide by 63\" long panels, sold in a pack of two, built to block outside light from a bedroom window. That length fits smaller or standard windows without extra hemming or trimming.",
-        "turn": "Blackout curtains only have one job: keep light out and keep the room dark enough to sleep, nap, or watch a movie without glare. At 4.6 stars across 133,371 reviews, the volume itself is the signal — a product this cheap doesn't get reviewed this many times unless most buyers got what they paid for.",
-        "result": "For a $9.98 bedroom window that lets too much light in, this is a low-cost way to test whether blackout curtains fix it before spending more.",
+        "hook_category": "mistake",
+        "hook": "Stop buying thin curtains that let morning light in.",
+        "beat1": "Most curtain fabric is woven loose enough that light still gets through, especially along the top and side edges where panels don't quite meet. So sunrise, streetlights, or a neighbor's porch light end up in the room anyway, even with the curtains closed.",
+        "turn": "These are blackout panels made to cover the whole window and stop light at the source instead of just filtering it. Over a hundred thousand people have rated this two panel set 4.6 stars for bedrooms exactly like this.",
+        "result": "For about $10, you get a window that goes properly dark instead of glowing at sunrise or under a streetlight, with two panels included for a standard window.",
         "scenes": [
           {
             "n": 1,
             "duration_sec": 3,
-            "visual_prompt": "Close-up on a bedroom window with bright morning light streaming through thin curtains, then hard cut to the same window covered by thick black fabric",
-            "on_screen_text": "133,371 REVIEWS",
-            "voiceover": "One hundred thirty-three thousand people rated these curtains."
+            "visual_prompt": "A bedroom window at early morning, a thin strip of sunlight cutting across the bed through a small gap in the curtains.",
+            "on_screen_text": "The light sneaks in anyway",
+            "voiceover": "Stop buying thin curtains that let morning light in."
           },
           {
             "n": 2,
             "duration_sec": 4,
-            "visual_prompt": "Overhead flat-lay of two folded black curtain panels with a tape measure showing 42 inches across",
-            "on_screen_text": "42\" x 63\" — 2 PANELS",
-            "voiceover": "Two panels, 42 inches wide, 63 inches long — sized for a standard bedroom window."
+            "visual_prompt": "Close-up of a hand holding up a curtain panel to the window, daylight glowing straight through the thin fabric.",
+            "on_screen_text": "Thin fabric never actually blocks it",
+            "voiceover": "Regular curtains are woven loose enough that sunrise, streetlights, or headlights still get through, especially along the top and side edges."
           },
           {
             "n": 3,
             "duration_sec": 4,
-            "visual_prompt": "Hand pulling the black curtain fully across the window, room going noticeably darker on camera",
-            "on_screen_text": "BLOCKS OUTSIDE LIGHT",
-            "voiceover": "Blackout fabric, one job: stop light from getting into the room."
+            "visual_prompt": "Hands hanging a heavy black curtain panel on a rod, the bedroom noticeably darkening as it falls into place.",
+            "on_screen_text": "Built to block light completely",
+            "voiceover": "These are blackout panels made to cover the whole window, closing off the gaps where thin curtains always leak."
           },
           {
             "n": 4,
-            "duration_sec": 5,
-            "visual_prompt": "Star rating graphic overlay animating up to 4.6 stars over footage of the darkened bedroom",
-            "on_screen_text": "4.6 STARS",
-            "voiceover": "At 4.6 stars over that many reviews, the numbers do most of the talking."
+            "duration_sec": 4,
+            "visual_prompt": "A fully darkened bedroom with the black curtains closed and someone sleeping peacefully, no light visible at the edges.",
+            "on_screen_text": "Over a hundred thousand shoppers agree",
+            "voiceover": "This two panel set is rated 4.6 stars by over a hundred thousand people, made to fit a standard window."
           },
           {
             "n": 5,
-            "duration_sec": 4,
-            "visual_prompt": "Product shot of the folded curtains with a price tag graphic reading $9.98 in the corner",
-            "on_screen_text": "$9.98",
-            "voiceover": "Nine ninety-eight for two panels — a cheap way to find out if this fixes your window."
+            "duration_sec": 5,
+            "visual_prompt": "Morning shot of someone pulling the black curtains open, soft light spilling in as they stretch and sit up on the bed.",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "For about ten dollars, you get a window that actually goes dark when you want it to. Comment {KEYWORD} and I'll send the link."
           }
-        ]
+        ],
+        "rewritten_from": "133,371 people rated these blackout curtains. Here's what that number means.",
+        "rewritten_at": "2026-09-27T03:19:05.146957+00:00"
       }
     ],
     "WIDE": [
@@ -3485,6 +3492,53 @@
         ],
         "retired_at": "2026-09-27T02:57:22.109226+00:00",
         "retired_reason": "number-led hook"
+      },
+      {
+        "hook_category": "proof",
+        "hook": "A scale that just weighs you feels like it shouldn't need explaining.",
+        "beat1": "Somewhere along the way, bathroom scales picked up apps, sync features, and body-fat estimates nobody asked for. Most of that gets set up once, then ignored for good.",
+        "turn": "This one skips all of it. Step on, glance down, get a number — the entire interaction a scale is supposed to have.",
+        "result": "No app to open first thing in the morning, just a screen that tells you what you came to check.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close overhead shot of a flat digital bathroom scale on clean tile floor, soft daylight from a window, minimal bathroom, shallow depth of field",
+            "on_screen_text": "349,254 REVIEWS",
+            "voiceover": "349,254 reviews is more than most cities have people."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Slow push-in on the scale's dark glass surface, reflections of soft bathroom light, no feet in frame, calm neutral palette",
+            "on_screen_text": "NOBODY REVIEWS A SCALE",
+            "voiceover": "Bathroom scales are a category where almost nobody writes a review unless something goes wrong."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Animated star rating graphic filling to 4.7 over a blurred bathroom background, clean modern typography, subtle motion",
+            "on_screen_text": "4.7 STARS",
+            "voiceover": "This one has 349,254 of them and still sits at 4.7 stars. A number that large usually drags an average down."
+          },
+          {
+            "n": 4,
+            "duration_sec": 5,
+            "visual_prompt": "Product-style shot of the Etekcity digital body weight bathroom scale on a bathroom floor beside a folded towel, even studio-soft lighting, neutral background",
+            "on_screen_text": "ONE JOB, DONE",
+            "voiceover": "It does one job — a digital scale you step on to read your weight. You're not gambling on a new listing. Hundreds of thousands of people already stress-tested it for you."
+          },
+          {
+            "n": 5,
+            "duration_sec": 4,
+            "visual_prompt": "Final clean hero shot of the scale on tile, price card graphic sliding in from the lower third, bright and simple",
+            "on_screen_text": "$16.87",
+            "voiceover": "A scale with a track record instead of a guess, for sixteen dollars and eighty-seven cents."
+          }
+        ],
+        "voice_rev": "2026-08-26",
+        "retired_at": "2026-09-27T03:17:10.941587+00:00",
+        "retired_reason": "number-led hook"
       }
     ],
     "SHEET": [
@@ -3865,6 +3919,53 @@
           }
         ],
         "retired_at": "2026-09-27T03:02:36.438792+00:00",
+        "retired_reason": "number-led hook"
+      },
+      {
+        "hook_category": "proof",
+        "hook": "Everyone replaces the cover when a throw pillow goes flat. That's not the part that failed.",
+        "beat1": "Throw pillows are the part of a room people replace covers for and never look inside. But the insert decides whether a cushion sits full and square on the couch or slumps into a flat envelope. An 18x18 cover is only as good as what's stuffed into it.",
+        "turn": "This insert is the filler that goes inside your existing cover, sized to the most common square cover on the market.",
+        "result": "If your throw pillows have gone limp, you don't need new covers, you need new insides.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close overhead shot of a flat, deflated square throw pillow lying on a neutral linen sofa, soft daylight from a window, shallow depth of field",
+            "on_screen_text": "218,437 REVIEWS",
+            "voiceover": "218,437 reviews on a pillow insert most people never think about."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Hands unzipping a decorative pillow cover on a couch, revealing the plain insert inside, warm indoor lighting",
+            "on_screen_text": "IT'S THE INSIDE",
+            "voiceover": "People swap pillow covers all the time and never look at what's inside. The insert is what decides whether a cushion sits full or slumps flat."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Side-by-side on a sofa: one limp square pillow, one plump square pillow, even natural light, clean minimal styling",
+            "on_screen_text": "18X18 SQUARE",
+            "voiceover": "These are 18 by 18 inserts, sized for the most common square cover out there. Your cover is only as good as what you stuff into it."
+          },
+          {
+            "n": 4,
+            "duration_sec": 5,
+            "visual_prompt": "Product-style shot of stacked plain white square pillow inserts on a light wood surface, soft shadows, catalogue lighting",
+            "on_screen_text": "4.6 STARS",
+            "voiceover": "4.6 stars across 218,437 reviews. That's a volume of feedback most home products never come close to, and the rating holds at that scale."
+          },
+          {
+            "n": 5,
+            "duration_sec": 4,
+            "visual_prompt": "Wide shot of a styled sofa with four full, upright square throw pillows, bright airy living room, price card graphic in corner",
+            "on_screen_text": "$13.49",
+            "voiceover": "If your throw pillows have gone limp, you don't need new covers. You need new insides. Thirteen forty-nine."
+          }
+        ],
+        "voice_rev": "2026-08-26",
+        "retired_at": "2026-09-27T03:17:48.259833+00:00",
         "retired_reason": "number-led hook"
       }
     ],
@@ -4778,6 +4879,151 @@
           }
         ],
         "retired_at": "2026-09-27T03:15:52.689460+00:00",
+        "retired_reason": "number-led hook"
+      }
+    ],
+    "QUEEN": [
+      {
+        "hook_category": "proof",
+        "hook": "A $24.99 purchase collected 450,137 reviews. That kind of number does not happen by accident.",
+        "beat1": "Bedding reviews usually build slowly, since most people only think about their sheets when something is wrong with them. A product can rack up a few thousand five-star tags on marketing alone. It does not climb into six figures without years of repeat buyers coming back to confirm it still holds up.",
+        "turn": "This is the queen size 4 piece sheet set behind that count, covering a full bed in one purchase instead of piecing together separate items. At 4.5 stars across 450,137 reviews, the average has held steady long after any early hype would have faded.",
+        "result": "For a queen bed, that combination of scale and rating makes this the low-risk pick at $24.99.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Tight overhead shot of a neatly made queen bed with crisp white sheets, soft morning window light, shallow depth of field",
+            "on_screen_text": "450,137 REVIEWS",
+            "voiceover": "450,137 reviews on a $24.99 sheet set. That number is the whole story."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Slow push-in on rumpled sheets at the corner of a bed, early daylight, calm domestic bedroom",
+            "on_screen_text": "EVERYONE HAS AN OPINION",
+            "voiceover": "Sheets are a purchase where reviews actually matter. Everyone sleeps on them, and everyone has an opinion by morning."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Hands smoothing a fitted sheet across a mattress corner, then folding the flat sheet back, clean bright bedroom",
+            "on_screen_text": "4 PIECES, ONE BUY",
+            "voiceover": "It's a queen size four piece set, so the whole bed is covered in one purchase instead of hunting for matching pieces."
+          },
+          {
+            "n": 4,
+            "duration_sec": 5,
+            "visual_prompt": "Wide static shot of a fully made queen bed, pillows stacked, natural light, uncluttered room",
+            "on_screen_text": "4.5 STARS AT SCALE",
+            "voiceover": "Holding 4.5 stars across 450,137 reviews is a lot harder than a high rating on a few hundred. Hype doesn't get you to that number — years of repeat buyers do."
+          },
+          {
+            "n": 5,
+            "duration_sec": 4,
+            "visual_prompt": "Gentle top-down shot of folded sheets stacked on the end of a made bed, warm soft lighting",
+            "on_screen_text": "$24.99",
+            "voiceover": "If you want a queen set that a huge number of people have already vetted, this is the low-risk pick at $24.99."
+          }
+        ],
+        "voice_rev": "2026-08-26",
+        "retired_at": "2026-09-27T03:16:37.770398+00:00",
+        "retired_reason": "number-led hook"
+      }
+    ],
+    "DEEP": [
+      {
+        "hook_category": "proof",
+        "hook": "113,235 reviews. 4.6 stars. For a $13 sheet set, that's rare.",
+        "beat1": "Most sheet sets don't cross even a thousand reviews. This one has over 113,000, and the average still holds at 4.6 stars. That volume makes the rating harder to dismiss as luck or a review farm.",
+        "turn": "This is a 4-piece queen set in grey with a 16-inch deep pocket, built to stay on thicker mattresses, plus a fitted, flat, and two pillowcases in a soft, breathable weave. A rating that high across 113,235 reviews points to consistent results across a huge number of beds, not a handful of lucky buyers.",
+        "result": "For $13.31, you get a full queen set that fits deep mattresses without shopping around for extra-deep options. The review count alone makes it a low-risk swap for a worn-out set.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close-up of a phone screen showing '113,235 ratings, 4.6 stars' on a product page, thumb scrolling",
+            "on_screen_text": "113,235 REVIEWS",
+            "voiceover": "One hundred thirteen thousand reviews."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Overhead shot of a grey queen sheet set folded neatly, four pieces fanned out on a bed",
+            "on_screen_text": "4 PIECES / GREY",
+            "voiceover": "That's the sample size behind this four-piece grey set."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Hands pulling a fitted grey sheet corner over a thick mattress, stretching the deep pocket over the edge",
+            "on_screen_text": "16\" DEEP POCKET",
+            "voiceover": "A 16 inch deep pocket, made for thicker mattresses that never seem to fit."
+          },
+          {
+            "n": 4,
+            "duration_sec": 5,
+            "visual_prompt": "Slow pan across a fully made bed with grey sheets and pillowcases, soft natural light",
+            "on_screen_text": "SOFT & BREATHABLE",
+            "voiceover": "At that many reviews, a 4.6 average isn't a fluke — it's a pattern across thousands of beds."
+          },
+          {
+            "n": 5,
+            "duration_sec": 4,
+            "visual_prompt": "Price tag graphic overlay on the bedding, $13.31 shown clearly, then fade to product shot",
+            "on_screen_text": "$13.31",
+            "voiceover": "Thirteen dollars and thirty-one cents for the full set."
+          }
+        ],
+        "retired_at": "2026-09-27T03:18:33.196211+00:00",
+        "retired_reason": "number-led hook"
+      }
+    ],
+    "BEDROOM": [
+      {
+        "hook_category": "proof",
+        "hook": "133,371 people rated these blackout curtains. Here's what that number means.",
+        "beat1": "A review count that size doesn't happen by accident. These are 42\" wide by 63\" long panels, sold in a pack of two, built to block outside light from a bedroom window. That length fits smaller or standard windows without extra hemming or trimming.",
+        "turn": "Blackout curtains only have one job: keep light out and keep the room dark enough to sleep, nap, or watch a movie without glare. At 4.6 stars across 133,371 reviews, the volume itself is the signal — a product this cheap doesn't get reviewed this many times unless most buyers got what they paid for.",
+        "result": "For a $9.98 bedroom window that lets too much light in, this is a low-cost way to test whether blackout curtains fix it before spending more.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close-up on a bedroom window with bright morning light streaming through thin curtains, then hard cut to the same window covered by thick black fabric",
+            "on_screen_text": "133,371 REVIEWS",
+            "voiceover": "One hundred thirty-three thousand people rated these curtains."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Overhead flat-lay of two folded black curtain panels with a tape measure showing 42 inches across",
+            "on_screen_text": "42\" x 63\" — 2 PANELS",
+            "voiceover": "Two panels, 42 inches wide, 63 inches long — sized for a standard bedroom window."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Hand pulling the black curtain fully across the window, room going noticeably darker on camera",
+            "on_screen_text": "BLOCKS OUTSIDE LIGHT",
+            "voiceover": "Blackout fabric, one job: stop light from getting into the room."
+          },
+          {
+            "n": 4,
+            "duration_sec": 5,
+            "visual_prompt": "Star rating graphic overlay animating up to 4.6 stars over footage of the darkened bedroom",
+            "on_screen_text": "4.6 STARS",
+            "voiceover": "At 4.6 stars over that many reviews, the numbers do most of the talking."
+          },
+          {
+            "n": 5,
+            "duration_sec": 4,
+            "visual_prompt": "Product shot of the folded curtains with a price tag graphic reading $9.98 in the corner",
+            "on_screen_text": "$9.98",
+            "voiceover": "Nine ninety-eight for two panels — a cheap way to find out if this fixes your window."
+          }
+        ],
+        "retired_at": "2026-09-27T03:19:05.146957+00:00",
         "retired_reason": "number-led hook"
       }
     ]
