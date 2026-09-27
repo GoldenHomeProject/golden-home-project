@@ -32,6 +32,7 @@ once the Meta carousel poster is wired (task #32).
 from __future__ import annotations
 
 import json
+import re
 import os
 import sys
 from datetime import datetime, timezone
@@ -48,6 +49,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 from _claude_api import call_claude_json, ClaudeUsageLimit  # noqa: E402
 from agent_log import append_log_entry  # noqa: E402
 from content_quality_gate import fabrication_match, generic_opener
+import brand  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 SOCIAL = ROOT / "social"
@@ -85,7 +87,14 @@ def _font(size: int, bold: bool = False) -> ImageFont.FreeTypeFont | ImageFont.I
 def pick_asin(reg: dict, carousel_history_dir: Path) -> dict:
     """Pick the vetted/entries product whose ASIN was carousel-featured the
     longest ago (or never). Avoids back-to-back duplicates."""
-    pool = list(reg.get("entries", [])) + list(reg.get("vetted", []))
+    # Live products only: a vetted-but-not-live entry has no comment keyword (the CTA
+    # fell back to "LINK") and nothing stopped a $114.99 pick in a $5-35 niche.
+    def _price(e):
+        m = re.search(r"[\d,]+\.\d{2}", str(e.get("verified_price") or ""))
+        return float(m.group().replace(",", "")) if m else None
+    pool = [e for e in reg.get("entries", [])
+            if e.get("status") == "live" and e.get("keyword")
+            and (_price(e) is None or 5 <= _price(e) <= 35)]
     if not pool:
         raise RuntimeError("No registry entries to pick from.")
     used_at: dict[str, str] = {}
@@ -205,103 +214,70 @@ def compose_slide(
     bg_path: Path | None, text: str, slide_num: int, total: int,
     *, brand_block: bool = False,
 ) -> Image.Image:
-    """One 1080x1350 carousel slide.
+    """One 1080x1350 carousel slide in the brand system (automation/brand.py).
 
-    Two design paths:
-      A) Photo path (bg_path present) — Pexels stock photo with a dark
-         translucent band over the lower 55% holding the text.
-      B) Type-driven path (no photo) — full-bleed gradient with bold
-         centered typography. Used as intentional design, NOT as a broken
-         fallback. The carousel scrolls through a 5-color palette
-         (terracotta → sage → teal → clay → charcoal) so each slide
-         has its own visual identity.
-
-    The CTA slide (brand_block=True) always uses path B with the charcoal
-    color (palette[4]) so the close-out feels like a final card, not a
-    photo.
+    Redesigned 2026-09-26. The old slides laid bold white DejaVu over a blurred,
+    darkened stock photo; photos that had nothing to do with the tip (a hole in a
+    wall, car-care bottles) sat behind every line, and all of it read as a template.
+    Now the carousel matches the pins:
+      - photo slides: the photo stays SHARP in the top 58%, the words sit on the
+        brand cream band below it in ink, under a short gold rule;
+      - no-photo slides: full cream card, larger type — deliberate, not a fallback;
+      - the CTA slide: ink card, cream type, gold keyword.
     """
-    has_photo = bool(bg_path and bg_path.exists())
-    palette_color = _PALETTE[(slide_num - 1) % len(_PALETTE)]
-    canvas: Image.Image
-
-    if has_photo and not brand_block:
-        canvas = Image.new("RGB", (CANVAS_W, CANVAS_H), palette_color)
-        bg = Image.open(bg_path).convert("RGB")
-        bw, bh = bg.size
-        scale = max(CANVAS_W / bw, CANVAS_H / bh)
-        nw, nh = int(bw * scale), int(bh * scale)
-        bg = bg.resize((nw, nh), Image.LANCZOS)
-        ox, oy = (nw - CANVAS_W) // 2, (nh - CANVAS_H) // 2
-        bg = bg.crop((ox, oy, ox + CANVAS_W, oy + CANVAS_H))
-        bg = bg.filter(ImageFilter.GaussianBlur(radius=2))
-        canvas.paste(bg)
-        text_color = (255, 255, 255, 245)
-        # translucent band in lower 55%
-        band_top = int(CANVAS_H * 0.45)
-        overlay = Image.new("RGBA", (CANVAS_W, CANVAS_H - band_top), (0, 0, 0, 180))
-        canvas.paste(overlay, (0, band_top), overlay)
-        text_y_start = band_top + 60
-        text_area_h = CANVAS_H - band_top - 120
-    else:
-        # Type-driven: gradient from palette color (top) to a slightly
-        # deeper version (bottom). Looks intentional, not failed.
-        bottom = tuple(max(0, int(c * 0.65)) for c in palette_color)
-        canvas = _vgrad(palette_color, bottom)  # type: ignore[arg-type]
-        text_color = (255, 250, 240, 250)  # warm cream text
-        # subtle decorative accent: a thin horizontal line above the text
-        text_y_start = 320
-        text_area_h = CANVAS_H - text_y_start - 220
-
+    has_photo = bool(bg_path and bg_path.exists()) and not brand_block
+    bg_col = brand.INK if brand_block else brand.CREAM
+    fg_col = brand.CREAM if brand_block else brand.INK
+    canvas = Image.new("RGB", (CANVAS_W, CANVAS_H), bg_col)
     draw = ImageDraw.Draw(canvas, "RGBA")
 
-    # Slide counter (top-right) — small chip
+    if has_photo:
+        photo_h = int(CANVAS_H * 0.58)
+        bg = Image.open(bg_path).convert("RGB")
+        bw, bh = bg.size
+        scale = max(CANVAS_W / bw, photo_h / bh)
+        nw, nh = int(bw * scale), int(bh * scale)
+        bg = bg.resize((nw, nh), Image.LANCZOS)
+        ox, oy = (nw - CANVAS_W) // 2, (nh - photo_h) // 2
+        canvas.paste(bg.crop((ox, oy, ox + CANVAS_W, oy + photo_h)), (0, 0))
+        top = photo_h + 64
+    else:
+        top = 300 if slide_num == 1 or brand_block else 260
+
+    # Gold rule above the words
+    draw.rectangle([brand.MARGIN + 30, top, brand.MARGIN + 30 + 96, top + 7], fill=brand.GOLD)
+    top += 50
+
+    # Counter chip, top-right
     counter = f"{slide_num}/{total}"
-    cf = _font(28, bold=True)
+    cf = brand.font(26, bold=True)
     cw = draw.textbbox((0, 0), counter, font=cf)[2]
-    draw.rectangle(
-        [CANVAS_W - cw - 60, 40, CANVAS_W - 30, 85],
-        fill=(0, 0, 0, 140),
-    )
-    draw.text(
-        (CANVAS_W - cw - 45, 47), counter, font=cf, fill=(255, 255, 255, 230),
-    )
+    draw.rounded_rectangle([CANVAS_W - cw - 70, 40, CANVAS_W - 36, 88], radius=24,
+                           fill=(18, 18, 18, 150) if has_photo else (*brand.GOLD, 255))
+    draw.text((CANVAS_W - cw - 53, 49), counter, font=cf,
+              fill=brand.WHITE if has_photo else brand.INK)
 
-    # Type-driven slides get a decorative accent line above the text block
-    if not has_photo:
-        line_y = text_y_start - 50
-        line_w = 120
-        line_x = (CANVAS_W - line_w) // 2
-        draw.rectangle(
-            [line_x, line_y, line_x + line_w, line_y + 6],
-            fill=(255, 250, 240, 200),
-        )
-
-    # Body text — wrapped + centered vertically inside the text area
-    body_font_size = 60 if len(text) > 80 else 72
-    bf = _font(body_font_size, bold=True)
-    margin = 90
-    max_w = CANVAS_W - 2 * margin
-    lines = _wrap(draw, text, bf, max_w)
-    line_h = int(body_font_size * 1.25)
-    total_h = line_h * len(lines)
-    y = text_y_start + max(0, (text_area_h - total_h) // 2)
+    # Words: measure, shrink until they fit the space left (never run off the frame)
+    left = brand.MARGIN + 30
+    max_w = CANVAS_W - 2 * left
+    bottom = CANVAS_H - 150
+    start = (72 if slide_num == 1 else 58) if has_photo else (84 if slide_num == 1 or brand_block else 68)
+    for size in range(start, 33, -2):
+        f = brand.font(size, bold=True)
+        lines = _wrap(draw, text, f, max_w)
+        line_h = int(size * 1.28)
+        if top + line_h * len(lines) <= bottom:
+            break
+    y = top
     for ln in lines:
-        bbox = draw.textbbox((0, 0), ln, font=bf)
-        w = bbox[2] - bbox[0]
-        x = (CANVAS_W - w) // 2
-        # subtle shadow for legibility (stronger when photo, lighter on grad)
-        shadow_alpha = 200 if has_photo else 90
-        draw.text((x + 2, y + 2), ln, font=bf, fill=(0, 0, 0, shadow_alpha))
-        draw.text((x, y), ln, font=bf, fill=text_color)
+        draw.text((left, y), ln, font=f, fill=fg_col)
         y += line_h
 
-    # Brand watermark bottom-left (always)
-    wf = _font(28)
-    draw.text(
-        (60, CANVAS_H - 70), "@golden_home_project",
-        font=wf, fill=(255, 255, 255, 200),
-    )
-
+    # Footer: gold square + handle
+    fy = CANVAS_H - 92
+    draw.rectangle([left, fy + 8, left + 16, fy + 24], fill=brand.GOLD)
+    draw.text((left + 30, fy), "@golden_home_project", font=brand.font(28, bold=False),
+              fill=brand.CREAM if brand_block else brand.MUTED)
     return canvas
 
 
@@ -345,11 +321,12 @@ honest, Here's the thing, We've all been there, Ever wonder, Tired of, Say goodb
 POV:, Stop scrolling, I spent $X.
 
 Slides:
-  1. HOOK — 10-15 words MAX, earns the swipe. Pick ONE angle and commit:
-     confrontation with received wisdom / second-person scene (reader in the room,
-     no narrator) / review count as the argument / a real constraint (renting, no
-     drilling, shared bathroom) / what the charts actually show.
-     One falsifiable detail beats ten adjectives. Don't name the product in the hook.
+  1. HOOK — 5-10 words, earns the swipe. NO NUMBERS (no review counts, stars,
+     prices). Nobody saves a post for a statistic; they save it because it is THEIR
+     cabinet. Pick ONE angle and commit: second-person scene ("The cabinet you don't
+     open when guests are over") / the common mistake ("Stop buying bigger bins") /
+     a real constraint ("Renting? No drilling? Try this.") / a question.
+     Don't name the product in the hook.
   2. TIP 1 — one specific tactical tip about the problem this product
      solves. 18-30 words. Useful even if reader never buys.
   3. TIP 2 — second specific tip. 18-30 words.
@@ -366,10 +343,16 @@ Caption (for the IG post itself, NOT a slide):
 - No emojis on first line; sparing emojis elsewhere.
 
 Pexels queries (4 strings, one per visual slide 1-4):
-- Concrete, photo-searchable nouns. Examples: "modern white closet",
-  "messy pantry shelves", "kitchen drawer dividers".
-- 2-4 words each.
-- Match the slide's subject visually.
+- Each must name the ROOM + the SPOT the slide is about, as a photo of a real,
+  attractive home: "organized under sink cabinet", "white bathroom vanity drawer",
+  "tidy linen closet shelves". 3-5 words.
+- Never a bare object ("spray bottles", "pipes", "bins") — bare objects return
+  car-care products, construction sites and dirty dishes.
+- Aim for calm, bright, aspirational photos of a HOME (add "home" or "house" to the query), not mess, damage, offices or hallways of public buildings.
+- No children in the photos: add nothing that invites them (no "kids room"; say "bedroom").
+
+Tips (slides 2-4): only claim product features stated in the product name. General
+organizing advice is fine; invented specs are not. No numbers unless they are in the name.
 
 Return STRICT JSON:
 {{
@@ -397,6 +380,9 @@ Return STRICT JSON:
     stock = generic_opener(str(content.get("slide_1", "")))
     if stock:
         print(f"[carousel] REJECTED — stock AI opener: {stock!r}")
+        return None
+    if re.search(r"\d", str(content.get("slide_1", ""))):
+        print(f"[carousel] REJECTED — hook opens on a number: {content.get('slide_1')!r}")
         return None
     return content
 
@@ -431,6 +417,10 @@ def main() -> int:
     except Exception as e:
         print(f"[carousel] ERROR: Claude content failed: {e}", file=sys.stderr)
         return 1
+
+    if not content:
+        print("[carousel] SKIP: no usable slide content today (gate rejected it)")
+        return 0
 
     # Fetch 4 Pexels photos
     queries = content.get("pexels_queries", []) or []
