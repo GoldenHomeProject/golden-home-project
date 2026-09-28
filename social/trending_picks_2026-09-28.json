@@ -1,0 +1,40 @@
+{
+  "captured_at": "2026-09-28",
+  "category": "Cleaning",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-cleaning-supplies.html",
+  "picks": [
+    {
+      "asin": "B00W5D1MDE",
+      "name": "Clorox Toilet Bowl Cleaner Clinging Bleach Gel",
+      "price": "$5.24",
+      "rating": 4.8,
+      "reviews": 46195,
+      "rank": 16
+    },
+    {
+      "asin": "B000ST1DZO",
+      "name": "Drano Max Gel Drain Clog Remover & Cleaner",
+      "price": "$5.17",
+      "rating": 4.5,
+      "reviews": 52452,
+      "rank": 28
+    },
+    {
+      "asin": "B00SXC85IQ",
+      "name": "Affresh Dishwasher Cleaner",
+      "price": "$8.99",
+      "rating": 4.6,
+      "reviews": 80840,
+      "rank": 29
+    },
+    {
+      "asin": "B092VQDGWL",
+      "name": "Amazon Basics Flextra Strength Tall Kitchen Drawstring Trash Bags",
+      "price": "$10.79",
+      "rating": 4.6,
+      "reviews": 26498,
+      "rank": 38
+    }
+  ]
+}
