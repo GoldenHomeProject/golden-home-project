@@ -5395,6 +5395,38 @@
       "verified_stars": "4.6",
       "verified_reviews": 1601,
       "discovery_source": "back_to_college_2026"
+    },
+    {
+      "asin": "B0CLY616Y1",
+      "product_name": "Chyhomenyc Taupe Sheer Curtains 84 Inches Long for Living Room, 2 Panels | Light Filtering, Voile Drapes, Rod Pocket, Wi",
+      "categories": [
+        "home",
+        "Window Treatments"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0CLY616Y1?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-09-28",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$8.47",
+      "verified_stars": "4.6",
+      "verified_reviews": 9395,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0028JURDQ",
+      "product_name": "FoodSaver Custom Length Vacuum Sealer Bags Multipack, 5 Count Rolls for Airtight Food Storage and Sous Vide - Compatible",
+      "categories": [
+        "home",
+        "Home"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0028JURDQ?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-09-28",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$28.49",
+      "verified_stars": "4.8",
+      "verified_reviews": 28232,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
