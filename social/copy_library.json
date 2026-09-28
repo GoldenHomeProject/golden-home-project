@@ -3076,6 +3076,52 @@
           }
         ]
       }
+    ],
+    "SIGA": [
+      {
+        "hook_category": "confrontation",
+        "hook": "Everyone blames the cleaner. It's actually the cloth.",
+        "beat1": "Paper towels and old rags leave lint and fibers behind. Instead of lifting dust and grime off a counter or window, they just smear it around, so the surface never looks fully clean.",
+        "turn": "MR.SIGA's microfiber cloths are made to grab dust and grime without leaving streaks or lint, and over a hundred thousand reviewers rate them 4.7 stars.",
+        "result": "With twelve cloths in the pack, about $17, there's a clean one for every room in the house.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close-up of hands wiping a kitchen counter with a worn paper towel, faint streak marks catching the window light.",
+            "on_screen_text": "The cleaner isn't the problem",
+            "voiceover": "Everyone blames the cleaner. It's actually the cloth."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Close-up of a glass window pane showing streaks and lint fibers left behind after wiping.",
+            "on_screen_text": "Streaks are lint, not dirt",
+            "voiceover": "Paper towels and old rags leave lint behind and just push grime around instead of lifting it off."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Hands wiping a stainless steel kitchen counter clean with a soft folded microfiber cloth, no streaks visible.",
+            "on_screen_text": "Twelve cloths, always one clean",
+            "voiceover": "MR.SIGA's microfiber cloths grab dust and grime without leaving streaks, and the twelve pack means a clean one is always within reach."
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "A kitchen drawer pulled open showing a stack of neatly folded cloths, a hand pulling one out.",
+            "on_screen_text": "Rated 4.7 by thousands",
+            "voiceover": "Over a hundred thousand people have rated them 4.7 stars."
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "A bathroom mirror being wiped clean with the same cloth, reflection clear, cloth still in hand.",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "Twelve cloths, about seventeen dollars, means one for every room in the house. Comment {KEYWORD} and I'll send the link."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
