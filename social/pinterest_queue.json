@@ -5126,5 +5126,61 @@
     "posted": false,
     "source": "pinterest_pipeline",
     "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-09-28-B0DG7VPM37",
+    "asin": "B0DG7VPM37",
+    "board": "Bathroom Storage Ideas",
+    "title": "Small Bathroom Storage Ideas: Optish Over The Door Hooks \u2014 $9.99",
+    "description": "Optish Over The Door Hooks for small bathroom storage ideas. Rated 4.5\u2605 across 4,050 reviews \u00b7 $9.99. Prices were accurate when this was published and change often. Tap through for the current listing. Amazon affiliate link \u2014 we may earn a commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B0DG7VPM37?tag=goldenhomep0a-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-09-28-B0DG7VPM37.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-09-28-B0DG7VPM37.png",
+    "queued_at": "2026-09-28T10:10:15.246070Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-09-28-B0CLY616Y1",
+    "asin": "B0CLY616Y1",
+    "board": "Home Organization Finds",
+    "title": "Home Organization Ideas: Chyhomenyc Taupe Sheer Curtains 84 Inches Long for\u2026 \u2014 $8.47",
+    "description": "Chyhomenyc Taupe Sheer Curtains 84 Inches Long for\u2026 for home organization ideas. Rated 4.6\u2605 across 9,395 reviews \u00b7 $8.47. Prices were accurate when this was published and change often. Tap through for the current listing. Amazon affiliate link \u2014 we may earn a commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B0CLY616Y1?tag=goldenhomep0a-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-09-28-B0CLY616Y1.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-09-28-B0CLY616Y1.png",
+    "queued_at": "2026-09-28T10:10:34.247893Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-09-28-B0028JURDQ",
+    "asin": "B0028JURDQ",
+    "board": "Home Storage Solutions",
+    "title": "Vacuum Sealer Bag Rolls for Food Storage: FoodSaver Custom-Length 5-Pack for Sous Vide",
+    "description": "Custom-length vacuum sealer rolls that cut to fit any container, useful for bulk meal prep or sous vide portioning. This 5-roll multipack is compatible with FoodSaver machines and seals airtight for freezer storage or water-bath cooking, priced at $28.49. Tap through for sizing and compatibility details. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B0028JURDQ?tag=goldenhomep0a-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-09-28-B0028JURDQ.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-09-28-B0028JURDQ.png",
+    "queued_at": "2026-09-28T10:12:11.013411Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-09-28-B0CGX6W3GZ",
+    "asin": "B0CGX6W3GZ",
+    "board": "Closet Organization Ideas",
+    "title": "Closet Organization Ideas: SpaceAid Drawer Organizer Clothes \u2014 $18.99",
+    "description": "SpaceAid Drawer Organizer Clothes for closet organization ideas. Rated 4.6\u2605 across 1,601 reviews \u00b7 $18.99. Prices were accurate when this was published and change often. Tap through for the current listing. Amazon affiliate link \u2014 we may earn a commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B0CGX6W3GZ?tag=goldenhomep0a-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-09-28-B0CGX6W3GZ.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-09-28-B0CGX6W3GZ.png",
+    "queued_at": "2026-09-28T10:12:50.314587Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
   }
 ]
