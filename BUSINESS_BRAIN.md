@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-09-27 (Affiliate Optimizer 10am)
+# Last updated: 2026-09-28 (Email Monitor 8am)
 # ============================================================
 
 ---
@@ -537,6 +537,7 @@ New agent spec: `automation/agents/ai_revenue_playbook.md` (COSTAR prompt framew
 | Direct | Ruggable | TBD | **3rd outreach sent 2026-09-22** (msg 1a0c93ac78f83965) — **IAN: try ruggable.com contact form or LinkedIn** | Washable rugs — ON-NICHE (home transformation), renter-safe, high-AOV ($99-299). Original pitch Sep 1 → follow-up Sep 15 (msg 1a0a52e9d6186fa6) → 3rd touch Sep 22 (msg 1a0c93ac78f83965) — all to affiliates@ruggable.com, zero replies. IAN: try ruggable.com/pages/partnerships contact form or LinkedIn (partnerships contact) as next step. Do NOT send a 4th email to affiliates@ruggable.com. |
 | Awin | OKUN (US) | TBD | Invited | HOME IMPROVEMENT — on-niche! Accept via Awin (needs browser login) |
 | Awin | SimpleProject (Shenzhen Cangyu Technology) | 10%+ | **🆕 Invited 2026-09-20 — IAN: accept via Awin browser dashboard** | Eco-friendly bathroom remodel products — ON-NICHE (bathroom transformation, $200-$700 project range). "Stylish bathroom remodel ideas." 10%+ commission. Invited via help@awin.com (Sep 20). Awin profile: merchant 99013. Accept immediately — invited program, Labor Day Sale 2026 currently live. |
+| Impact | Chime Mattress | TBD | **🆕 New Impact campaign 2026-09-25 (ID 56440) — IAN: evaluate via Impact dashboard** | Mattresses/sleep — ON-NICHE (bedroom transformation). Joined Impact marketplace Sep 25. Evaluate: join if commission ≥5% and program terms allow content creators. Aligns with bedding refresh trend (3rd+ consecutive Trend Scout). Do NOT accept until IAN reviews program terms. |
 | Impact | BISSELL | up to 8.4% | Outreach sent 2026-04-02 | Home cleaning — perfect for transformation "first step" content |
 | Direct | Canoly (3-in-1 juicer) | TBD | Reply sent 2026-03-31 | April 30 IG Reel, free sample, awaiting details |
 | Impact | AARP | $35+ CPA | Skipped | Off-niche (senior membership org) — not home content |
@@ -553,6 +554,7 @@ New agent spec: `automation/agents/ai_revenue_playbook.md` (COSTAR prompt framew
 | Direct | Umbra | TBD | Outreach sent 2026-08-17 | Home decor/organization — ON-NICHE |
 | Direct | Tuft & Needle | TBD | Outreach sent 2026-08-17 | Mattresses/sleep — ON-NICHE (bedroom), high-AOV |
 | Awin | Promeed (baby-safe sleep) | TBD | Skipped 2026-08-19 | Off-niche — baby products, not home transformation |
+| Awin | Promeed HerbalRX™ Anti-aging Pillow | 20% CPA | **🆕 Direct outreach 2026-09-28 — IAN: accept via Awin browser dashboard + reply via Awin messaging** | Advertiser ID 100833. Amelia at Promeed reached out via Awin messaging (Sep 28, 08:30 UTC, thread 1a0e72338e75e214): "HerbalRX™ Anti-aging Pillow — reduces sleep lines, supports thinning hair, improves sleep quality." ON-NICHE: pillow = bedroom product = home transformation niche. 20% CPA = BETTER than Impact (12%). Note: this is a DIFFERENT product and platform from Promeed Impact (CoolRest/silk pillowcases). Cannot reply via email (Awin messaging only). **IAN: (1) Log into Awin dashboard → accept Promeed Advertiser ID 100833; (2) Reply to Amelia's Awin message confirming interest.** Bedding refresh trend is 3rd+ consecutive Trend Scout — ideal timing for pillow/sleep content. Product page: https://promeed.com/products/herbal-anti-aging-pillow |
 | Awin | CICYBELL | TBD | Invited 2026-08-23 — decline pending | Off-niche (clothing/fashion); reply to help@awin.com bounced — needs browser decline via Awin dashboard |
 | Awin | HealSend | N/A | **Decline attempted 2026-09-09 — BOUNCED** | Off-niche telehealth/GLP-1. Email Monitor sent decline to help@awin.com (msg 1a086209f5716a8c) but mailer-daemon confirmed delivery failure (postmaster@zanox.onmicrosoft.com) — Awin does not accept external email to help@awin.com. IAN must decline via Awin browser dashboard (same pattern as CICYBELL). |
 | Impact | FLAUNT | TBD | **SKIP 2026-09-11** | Web research found no home/decor brand called FLAUNT — likely off-niche fashion/lingerie. Do not build tracking links or brief Content Engine. |
