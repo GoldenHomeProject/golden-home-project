@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-09-28 (Strategy & Outreach 9am)
+# Last updated: 2026-09-28 (Affiliate Optimizer 10am)
 # ============================================================
 
 ---
@@ -883,6 +883,10 @@ Agent configs live in `/private/tmp/golden-home-project/automation/agents/`.
 - [ ] **🚨 CJ DEACTIVATION — 5 DAYS (Oct 1, 2026-09-26)** — ONE DAY closer. Dormancy triggers Oct 1 if zero CJ commissions. AliExpress CID 7711902 (9% interior/garden) = only active CJ partner. Content Engine MUST embed AliExpress product links in every upcoming script. IAN: apply to Wayfair (7% sitewide, via CJ portal search "Wayfair") + GreenLife Cookware (5%, via CJ portal search "GreenLife") + Levoit air purifiers (5%, via CJ portal search "Levoit") TODAY — more CJ advertisers = more chances to generate commission before Oct 1. If deactivated: log into CJ within 90 days to reactivate (advertiser relationships preserved). (Affiliate Optimizer 2026-09-26)
 
 - [ ] **🚨 CJ DEACTIVATION — 4 DAYS (Oct 1, 2026-09-27)** — 4 days remain. AliExpress 9% interior/garden is the ONLY active CJ partner. Zero commissions = dormancy. Content Engine scripts today (Sep 27) contain woven storage baskets + comforter angle — embed AliExpress basket/bin links if possible. IAN MUST apply to Wayfair + GreenLife + Levoit via CJ portal TODAY — each additional advertiser is another chance to generate commission. If dormancy triggers Oct 1: log into CJ within 90 days to reactivate. (Affiliate Optimizer 2026-09-27)
+
+- [ ] **🚨 CJ DEACTIVATION — 3 DAYS (Oct 1, 2026-09-28)** — 3 DAYS remain. AliExpress 9% interior/garden is the ONLY active CJ partner. Today's Trend Scout top-3 (cabinet kit $79, cabinet hardware $24, storage bench $89) — Content Engine MUST embed AliExpress product links in every script. IAN: apply to Wayfair (7% sitewide) + GreenLife Cookware (5%) + Levoit air purifiers (5%) via CJ publisher portal IMMEDIATELY. Each additional CJ advertiser = one more chance at commission before Oct 1. If dormancy triggers: re-login to CJ within 90 days to reactivate (advertiser relationships preserved). (Affiliate Optimizer 2026-09-28)
+
+- [ ] **Zinus follow-up DUE TODAY (2026-09-28, collab@zinus.com) — ⏸️ PAUSED** — Follow-up to Sep 21 pitch is due today per schedule. NOT sent per cold outreach pause (Ian Sep 3 directive). Both Email Monitor and Strategy & Outreach confirmed pause on Sep 28. When outreach resumes: send 1st follow-up to collab@zinus.com. (Affiliate Optimizer 2026-09-28)
 
 - [ ] **🚨 Dusk (Impact ID 57504) — OVERDUE evaluation (5 days, 2026-09-26)** — Flagged Sep 21 as possible home lighting/candles/fragrance brand. IAN has NOT yet evaluated in 5 days. **IAN: Log into Impact.com publisher dashboard NOW → search "Dusk" (campaign ID 57504) → check niche. If home/lifestyle/atmospheric: join immediately.** Fall cozy room resets (reading nooks, bedtime routines, candle vibes) are September's highest-share format — if Dusk is on-niche this is an urgent revenue gap. (Affiliate Optimizer 2026-09-26)
 
