@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-28T17:14:46.066115Z",
+  "date": "2026-09-28",
+  "seq": 901,
+  "source": "repurpose",
+  "hook": "77,562 reviews say this $35 insert beats a $200 duvet",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up hand scrolling Amazon reviews on phone, 4.7 stars and '77,562 ratings' visible on screen",
+      "on_screen_text": "77,562 ratings. 4.7 stars.",
+      "voiceover": "I didn't believe a $34.99 comforter could have 77,562 reviews until I counted them myself."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Split screen: flat, thin comforter on unmade bed vs. thick, lofted comforter on made bed",
+      "on_screen_text": "This is the layer everyone skips",
+      "voiceover": "Most bedding refreshes skip this part completely \u2014 they buy a comforter-in-a-bag set that flattens in a month."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Product shot of Bedsure Comforter Duvet Insert package, Oeko-TEX tag close-up",
+      "on_screen_text": "$34.99 \u2014 Oeko-TEX certified",
+      "voiceover": "The Bedsure insert is $34.99, tested for harmful substances, and it's the piece that goes underneath the cover, not on top."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Hands pulling comforter insert out of washing machine, still lofted and fluffy",
+      "on_screen_text": "Holds loft after washing",
+      "voiceover": "Reviewers keep saying the same thing \u2014 it survives the wash. That's the actual failure point for cheap comforters."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Insert being stuffed into a plain white duvet cover, corner ties visible",
+      "on_screen_text": "Insert \u2260 standalone comforter",
+      "voiceover": "If you buy this expecting to use it bare, you're missing the point. It's built to live inside a cover."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Finished bed shot, plush and hotel-like, text overlay with price",
+      "on_screen_text": "Queen size sells the most \u2014 for a reason",
+      "voiceover": "Queen is the size that shows up most in the review data, and now I understand why."
+    },
+    {
+      "n": 7,
+      "duration_sec": 3,
+      "visual_prompt": "Final CTA frame, link sticker to blog post",
+      "on_screen_text": "Full 5-item breakdown \u2014 link in bio",
+      "voiceover": "I broke down all five pieces of this look and what they actually cost. Link's in my bio."
+    }
+  ],
+  "caption": "I was skeptical that a $34.99 insert could do anything a $200 hotel duvet couldn't \u2014 then I read all 77,562 reviews (okay, most of them). The insert is the piece nobody buys and it's the one that actually matters. Full breakdown of the 5-item stack on the blog, link in bio.",
+  "hashtags": [
+    "#beddingrefresh",
+    "#duvetinsert",
+    "#bedsurereviews",
+    "#hotelbedathome",
+    "#fallbedroom",
+    "#amazonhome"
+  ]
+}

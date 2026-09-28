@@ -1,0 +1,68 @@
+{
+  "created_at": "2026-09-28T17:14:46.066833Z",
+  "date": "2026-09-28",
+  "seq": 905,
+  "source": "repurpose",
+  "hook": "I built a hotel bed for $115. Here's proof.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Before shot: flat, mismatched bed with worn comforter",
+      "on_screen_text": "Before: flat, mismatched, worn",
+      "voiceover": "This is where I started \u2014 a comforter that had been through way too many wash cycles."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Five items laid out on the bed before assembly: insert, cover, shams, accent pillows, fleece throw",
+      "on_screen_text": "5 items. $115.21 total.",
+      "voiceover": "Five items, stacked, came out to $115.21 \u2014 comforter insert, duvet cover, shams, accent pillows, and a fleece throw."
+    },
+    {
+      "n": 3,
+      "duration_sec": 3,
+      "visual_prompt": "Grey fleece throw being folded in thirds across the foot of the bed",
+      "on_screen_text": "$19.98 \u2014 179,574 ratings",
+      "voiceover": "The fleece throw alone has 179,574 ratings. It's one of the highest-reviewed bedding items on Amazon, period."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Time-lapse of bed being layered: insert into cover, shams placed, accent pillows added, throw folded at foot",
+      "on_screen_text": "Layer order matters",
+      "voiceover": "Insert inside the cover first, then shams behind the sleeping pillows, then accent pillows, then the throw last."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Final reveal: fully styled, plush, hotel-look bed with warm lighting",
+      "on_screen_text": "After: $115.21",
+      "voiceover": "This is the after. Not a $200 hotel duvet. $115.21 in five pieces."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Text card listing all 5 items with individual prices",
+      "on_screen_text": "$34.99 + $27.99 + $11.99 + $20.26 + $19.98",
+      "voiceover": "I broke down exactly what each piece costs and what the reviews actually say about it."
+    },
+    {
+      "n": 7,
+      "duration_sec": 3,
+      "visual_prompt": "CTA frame with blog post preview",
+      "on_screen_text": "Full breakdown \u2014 link in bio",
+      "voiceover": "Every price, every review count, on the blog. Link's in my bio."
+    }
+  ],
+  "caption": "$115.21. Five items. No $200 hotel duvet required. I priced out every single piece of this bed \u2014 comforter insert, duvet cover, shams, accent pillows, fleece throw \u2014 and checked what actual reviewers say about each one before I bought anything. Full breakdown on the blog, link in bio.",
+  "hashtags": [
+    "#beddingrefresh",
+    "#hotelbedathome",
+    "#bedsurereviews",
+    "#fallbedroom",
+    "#amazonhome",
+    "#bedroommakeover",
+    "#budgetdecor"
+  ]
+}

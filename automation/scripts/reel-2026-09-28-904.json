@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-28T17:14:46.066692Z",
+  "date": "2026-09-28",
+  "seq": 904,
+  "source": "repurpose",
+  "hook": "Skip printed pillows \u2014 I buy $20.26 inserts instead",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Store shelf of printed throw pillows in fall colors, foam-flat texture visible",
+      "on_screen_text": "These flatten in 3 months",
+      "voiceover": "Printed throw pillows with foam fill look great in the store and go flat in three months."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Package of Utopia 18x18 down-alternative pillow inserts, $20.26 for 4 visible",
+      "on_screen_text": "$20.26 for a set of 4",
+      "voiceover": "126,992 reviews on this one \u2014 the down-alternative insert, not the cover. $20.26 for four."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Hand squeezing insert, springing back into shape, compared to flattened foam pillow",
+      "on_screen_text": "Holds shape. Doesn't pancake.",
+      "voiceover": "Reviewers say these hold their shape better than foam at the same price and don't flatten into a pancake."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Bare inserts being dressed in rust, olive, and cream covers side by side",
+      "on_screen_text": "You pick the palette \u2014 not the insert",
+      "voiceover": "Because these aren't a fixed print, you choose your fall colors separately \u2014 rust, olive, cream, burnt orange."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Same inserts re-covered in lighter spring-toned fabric on a different bed",
+      "on_screen_text": "Same insert, different season",
+      "voiceover": "Swap the covers again for winter or spring. The insert doesn't change."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Bed shot with multiple sets of these pillows stacked, filling out a queen bed",
+      "on_screen_text": "Most buyers get 2-3 sets",
+      "voiceover": "Most reviewers say they buy two or three sets to fill out a queen or king bed."
+    },
+    {
+      "n": 7,
+      "duration_sec": 3,
+      "visual_prompt": "CTA frame",
+      "on_screen_text": "Full cost breakdown \u2014 link in bio",
+      "voiceover": "The whole stack, priced out, is on the blog. Link's in my bio."
+    }
+  ],
+  "caption": "126,992 reviews on a $20.26 pillow insert made me rethink buying pre-covered throw pillows entirely. Buy the insert once, swap the cover every season. Full bedding stack breakdown on the blog.",
+  "hashtags": [
+    "#accentpillows",
+    "#fallbedroomdecor",
+    "#beddingrefresh",
+    "#amazonfinds",
+    "#cozybedroom",
+    "#hotelbedathome"
+  ]
+}

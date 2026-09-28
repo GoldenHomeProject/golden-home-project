@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-09-28T17:14:46.066390Z",
+  "date": "2026-09-28",
+  "seq": 902,
+  "source": "repurpose",
+  "hook": "The $27.99 fix for a bed that looks mismatched",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Messy bed with printed comforter, mismatched pillowcases, cluttered look",
+      "on_screen_text": "Why does this look 'dorm room'?",
+      "voiceover": "Your bed isn't ugly because of one bad piece. It's ugly because nothing shares a fabric or a finish."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Hand holding up a plain white duvet cover against natural light, texture visible",
+      "on_screen_text": "$27.99 \u2014 Prewashed cotton-like weave",
+      "voiceover": "The Bedsure Prewashed Duvet Cover is $27.99, and it's not the exciting purchase \u2014 it's the base layer."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Close-up of corner ties and button closure being fastened inside the cover",
+      "on_screen_text": "Corner ties stop the bunching",
+      "voiceover": "This solves the single most common complaint about cheap duvet covers \u2014 the insert sliding around inside overnight."
+    },
+    {
+      "n": 4,
+      "duration_sec": 3,
+      "visual_prompt": "Hotel room bed comparison photo next to home bed with same white base",
+      "on_screen_text": "Every hotel bed uses this trick",
+      "voiceover": "Hotels use a neutral white base so texture does the work instead of a print. Turns out you can copy that for $27.99."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Prewashed fabric close-up, softness demonstrated by scrunching in hand",
+      "on_screen_text": "Prewashed = less shrinkage",
+      "voiceover": "Prewashing does two things \u2014 it's softer out of the package, and it won't shrink on you after the first laundry cycle."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Bed now dressed with white cover, throw and pillows about to be added",
+      "on_screen_text": "Color comes later \u2014 not from this",
+      "voiceover": "The fall palette comes from what you stack on top of this, not from the comforter itself."
+    },
+    {
+      "n": 7,
+      "duration_sec": 3,
+      "visual_prompt": "CTA frame with blog post title text",
+      "on_screen_text": "Full breakdown \u2014 link in bio",
+      "voiceover": "I priced out the whole stack on the blog. Link's in my bio."
+    }
+  ],
+  "caption": "Nobody tells you the reason your bed looks mismatched has nothing to do with the pillows you bought \u2014 it's that nothing underneath is neutral. $27.99 fixed that for me. Full 5-piece bedding breakdown on the blog.",
+  "hashtags": [
+    "#duvetcover",
+    "#hotelbedathome",
+    "#beddingrefresh",
+    "#bedsurereviews",
+    "#fallbedroom",
+    "#bedroommakeover"
+  ]
+}

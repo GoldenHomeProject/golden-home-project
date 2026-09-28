@@ -1,0 +1,60 @@
+{
+  "created_at": "2026-09-28T17:14:46.066549Z",
+  "date": "2026-09-28",
+  "seq": 903,
+  "source": "repurpose",
+  "hook": "$11.99 makes your pillows look like a hotel's",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Stack of stained, mismatched pillowcases on a bed",
+      "on_screen_text": "Your pillows aren't the problem",
+      "voiceover": "If your pillows are still supportive but the cases are stained or yellowing, don't replace the pillows."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Package of 4 white queen sham covers, price tag $11.99 visible",
+      "on_screen_text": "$11.99 for a set of 4",
+      "voiceover": "A set of four queen pillow covers is $11.99 \u2014 that's for all four, not each one."
+    },
+    {
+      "n": 3,
+      "duration_sec": 3,
+      "visual_prompt": "Math graphic: '$60-100 new pillows' crossed out, '$11.99 covers' circled",
+      "on_screen_text": "New shammed pillows: $60-$100. Covers: $11.99.",
+      "voiceover": "Buying four new shammed pillows outright runs $60 to $100. This is a fraction of that."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Hands zipping a sham cover closed over an existing pillow",
+      "on_screen_text": "Zipper, not envelope closure",
+      "voiceover": "Reviewers point to the zipper closure specifically \u2014 it's what keeps the fabric from yellowing the way budget cases do."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Row of stacked shams behind sleeping pillows on a made bed",
+      "on_screen_text": "This is the hotel cue",
+      "voiceover": "A row of stacked shams behind your sleeping pillows is the single visual cue people associate with hotel beds."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "CTA frame",
+      "on_screen_text": "The full 5-item stack \u2014 link in bio",
+      "voiceover": "This is the cheapest line item on the whole list. I broke down the rest on the blog."
+    }
+  ],
+  "caption": "The cheapest thing on this entire list is also the one that reads most 'hotel' \u2014 $11.99 for four sham covers over pillows you already own. Full 5-piece bedding stack breakdown linked in bio.",
+  "hashtags": [
+    "#pillowshams",
+    "#hotelbedathome",
+    "#beddingrefresh",
+    "#bedsurereviews",
+    "#amazonfinds",
+    "#fallbedroom"
+  ]
+}

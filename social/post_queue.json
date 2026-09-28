@@ -7567,5 +7567,91 @@
     "keyword": "SIGA",
     "queued_at": "2026-09-28T14:46:03.186531Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_repurpose_2026-09-28_901",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-28-901.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "I was skeptical that a $34.99 insert could do anything a $200 hotel duvet couldn't \u2014 then I read all 77,562 reviews (okay, most of them). The insert is the piece nobody buys and it's the one that actually matters. Full breakdown of the 5-item stack on the blog, link in bio.",
+    "hashtags": [
+      "#beddingrefresh",
+      "#duvetinsert",
+      "#bedsurereviews",
+      "#hotelbedathome",
+      "#fallbedroom",
+      "#amazonhome"
+    ],
+    "hook": "77,562 reviews say this $35 insert beats a $200 duvet"
+  },
+  {
+    "name": "reel_repurpose_2026-09-28_902",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-28-902.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Nobody tells you the reason your bed looks mismatched has nothing to do with the pillows you bought \u2014 it's that nothing underneath is neutral. $27.99 fixed that for me. Full 5-piece bedding breakdown on the blog.",
+    "hashtags": [
+      "#duvetcover",
+      "#hotelbedathome",
+      "#beddingrefresh",
+      "#bedsurereviews",
+      "#fallbedroom",
+      "#bedroommakeover"
+    ],
+    "hook": "The $27.99 fix for a bed that looks mismatched"
+  },
+  {
+    "name": "reel_repurpose_2026-09-28_903",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-28-903.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "The cheapest thing on this entire list is also the one that reads most 'hotel' \u2014 $11.99 for four sham covers over pillows you already own. Full 5-piece bedding stack breakdown linked in bio.",
+    "hashtags": [
+      "#pillowshams",
+      "#hotelbedathome",
+      "#beddingrefresh",
+      "#bedsurereviews",
+      "#amazonfinds",
+      "#fallbedroom"
+    ],
+    "hook": "$11.99 makes your pillows look like a hotel's"
+  },
+  {
+    "name": "reel_repurpose_2026-09-28_904",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-28-904.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "126,992 reviews on a $20.26 pillow insert made me rethink buying pre-covered throw pillows entirely. Buy the insert once, swap the cover every season. Full bedding stack breakdown on the blog.",
+    "hashtags": [
+      "#accentpillows",
+      "#fallbedroomdecor",
+      "#beddingrefresh",
+      "#amazonfinds",
+      "#cozybedroom",
+      "#hotelbedathome"
+    ],
+    "hook": "Skip printed pillows \u2014 I buy $20.26 inserts instead"
+  },
+  {
+    "name": "reel_repurpose_2026-09-28_905",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-28-905.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "$115.21. Five items. No $200 hotel duvet required. I priced out every single piece of this bed \u2014 comforter insert, duvet cover, shams, accent pillows, fleece throw \u2014 and checked what actual reviewers say about each one before I bought anything. Full breakdown on the blog, link in bio.",
+    "hashtags": [
+      "#beddingrefresh",
+      "#hotelbedathome",
+      "#bedsurereviews",
+      "#fallbedroom",
+      "#amazonhome",
+      "#bedroommakeover",
+      "#budgetdecor"
+    ],
+    "hook": "I built a hotel bed for $115. Here's proof."
   }
 ]
