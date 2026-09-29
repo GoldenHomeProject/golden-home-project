@@ -5429,6 +5429,38 @@
       "verified_stars": "4.8",
       "verified_reviews": 28232,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B092VQMW7T",
+      "product_name": "Amazon Basics Flextra Strength Tall Kitchen Drawstring Trash Bags, Fresh Scent, Tear Resistant, 13 Gallon, 120 Count",
+      "categories": [
+        "home",
+        "Cleaning"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B092VQMW7T?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-09-29",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$13.32",
+      "verified_stars": "4.6",
+      "verified_reviews": 26516,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B07531HM8Q",
+      "product_name": "Rubbermaid Brilliance 12-Cup Airtight Food Storage Container, Perfect for Pantry Staples, Clear/Grey",
+      "categories": [
+        "home",
+        "Home"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B07531HM8Q?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-09-29",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$11.38",
+      "verified_stars": "4.7",
+      "verified_reviews": 31634,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
