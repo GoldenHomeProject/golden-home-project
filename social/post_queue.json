@@ -7631,5 +7631,29 @@
       "#budgetdecor"
     ],
     "hook": "I built a hotel bed for $115. Here's proof."
+  },
+  {
+    "name": "reel_2026-09-29_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-09-29-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Everyone blames the cleaner. It's actually the cloth.\n\nPaper towels and old rags leave lint and fibers behind. Instead of lifting dust and grime off a counter or window, they just smear it around, so the surface never looks fully clean.\n\nMR.SIGA's microfiber cloths are made to grab dust and grime without leaving streaks or lint, and over a hundred thousand reviewers rate them 4.7 stars.\n\nWith twelve cloths in the pack, about $17, there's a clean one for every room in the house.\n\nComment SIGA and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "MR.SIGA Microfiber Cleaning Cloths, Streak Free Microfiber Towels, 12 Pack | All-purpose microfiber cloths, ultra absorb",
+      "dm_keyword": "SIGA",
+      "amazon_asin": "B09FX7TFJV",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B09FX7TFJV?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B09FX7TFJV?tag=goldenhomep0a-20"
+    },
+    "hook": "Everyone blames the cleaner. It's actually the cloth."
   }
 ]

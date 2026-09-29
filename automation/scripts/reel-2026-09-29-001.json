@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-29T11:46:18.523840Z",
+  "date": "2026-09-29",
+  "seq": 1,
+  "hook_category": "confrontation",
+  "hook": "Everyone blames the cleaner. It's actually the cloth.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of hands wiping a kitchen counter with a worn paper towel, faint streak marks catching the window light.",
+      "on_screen_text": "The cleaner isn't the problem",
+      "voiceover": "Everyone blames the cleaner. It's actually the cloth."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Close-up of a glass window pane showing streaks and lint fibers left behind after wiping.",
+      "on_screen_text": "Streaks are lint, not dirt",
+      "voiceover": "Paper towels and old rags leave lint behind and just push grime around instead of lifting it off."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Hands wiping a stainless steel kitchen counter clean with a soft folded microfiber cloth, no streaks visible.",
+      "on_screen_text": "Twelve cloths, always one clean",
+      "voiceover": "MR.SIGA's microfiber cloths grab dust and grime without leaving streaks, and the twelve pack means a clean one is always within reach."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "A kitchen drawer pulled open showing a stack of neatly folded cloths, a hand pulling one out.",
+      "on_screen_text": "Rated 4.7 by thousands",
+      "voiceover": "Over a hundred thousand people have rated them 4.7 stars."
+    },
+    {
+      "n": 5,
+      "duration_sec": 5,
+      "visual_prompt": "A bathroom mirror being wiped clean with the same cloth, reflection clear, cloth still in hand.",
+      "on_screen_text": "Comment SIGA for the link",
+      "voiceover": "Twelve cloths, about seventeen dollars, means one for every room in the house. Comment SIGA and I'll send the link."
+    }
+  ],
+  "caption": "Everyone blames the cleaner. It's actually the cloth.\n\nPaper towels and old rags leave lint and fibers behind. Instead of lifting dust and grime off a counter or window, they just smear it around, so the surface never looks fully clean.\n\nMR.SIGA's microfiber cloths are made to grab dust and grime without leaving streaks or lint, and over a hundred thousand reviewers rate them 4.7 stars.\n\nWith twelve cloths in the pack, about $17, there's a clean one for every room in the house.\n\nComment SIGA and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "MR.SIGA's microfiber cloths are made to grab dust and grime without leaving streaks or lint, and over a hundred thousand reviewers rate them 4.7 stars.",
+  "affiliate_strategy": {
+    "primary_product": "MR.SIGA Microfiber Cleaning Cloths, Streak Free Microfiber Towels, 12 Pack | All-purpose microfiber cloths, ultra absorb",
+    "dm_keyword": "SIGA",
+    "amazon_asin": "B09FX7TFJV",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B09FX7TFJV?tag=goldenhomep0a-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": "https://www.amazon.com/dp/B09FX7TFJV?tag=goldenhomep0a-20"
+  }
+}
