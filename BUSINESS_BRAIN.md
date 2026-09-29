@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-09-28 (Affiliate Optimizer 10am)
+# Last updated: 2026-09-29 (Email Monitor 8am)
 # ============================================================
 
 ---
@@ -553,7 +553,7 @@ New agent spec: `automation/agents/ai_revenue_playbook.md` (COSTAR prompt framew
 | Direct | Roborock | ~3-5% | **DECLINED by brand 2026-09-20** | Robot vacuums — ON-NICHE. Bella Xu replied Sep 20: "unable to move forward at this time due to our limited budget." Gracious reply sent (msg 1a0beb6c76736d88) — door left open for future campaigns. Remove from active follow-up pipeline. Robot vacuum gap: eufy Impact fall sale (ends Oct 11, join dashboard) + Dreame re-check. |
 | Impact | Promeed | 12% | **ACTIVE 2026-08-25** | Silk pillowcases/CoolRest comforter — ON-NICHE (bedroom). 30-day cookie. Audience promo IAN2026F3 (15% off). Sample code SAMPLE-IAN-COOL3-2026 (60% off CoolRest). Tracking live on Impact. ⚠️ **CORRECTION 2026-09-20:** Sep 19 Affiliate Optimizer was WRONG — our Sep 16 pillowcase comparison acceptance reply PERMANENTLY FAILED (confirmed Sep 19 17:04 UTC). notifications@outreach.impact.com UNREACHABLE (SMTP timeout, server refuses all connections). Amelia at Promeed NEVER received our acceptance. **IAN REQUIRED: Log into Impact.com → Promeed program → Contact advertiser via platform messaging** to resend acceptance for the free 23-momme silk pillowcase comparison offer. Do NOT email notifications@outreach.impact.com. |
 | Awin | Oedro (US) | TBD | Skipped | Off-niche (car parts — floor mats, tonneau covers) |
-| Awin (merchant 91447) | Homary | up to 12%, 45-day cookie | **1st follow-up sent 2026-09-27** (msg 1a0e32fceb8377f2) — original Sep 20 pitch (msg 1a0beee42056dfeb, after Apr 3 BOUNCED affiliates@). Pitched fall home office reset + moody bedroom series. Next follow-up due 2026-10-04 if no reply. High-value: $200-800 AOV × 12% = $24-96/sale. | Home furniture/shelving/home office — ON-NICHE |
+| Awin (merchant 91447) | Homary | Up to 12% (6% start, 7% month-1 boost), 45-day cookie | **✅ REPLY RECEIVED 2026-09-29** from Lauren (Senior Affiliate Specialist, affiliate@homary.com, msg 1a0ecb7558c1ca24). Program confirmed: 6% start → 7% month-1 boost → up to 12%. $800+ AOV. Awin express signup link provided. **Our reply sent 2026-09-29** (msg 1a0ed22b9c73136f) — accepted partnership, asked 3 questions (samples/discount codes, priority product categories, 12% tier requirements). **IAN: complete Awin express signup and send affiliate ID to Lauren.** | Home furniture/shelving/home office — ON-NICHE |
 | Impact | eufy | TBD | Outreach sent 2026-08-19; affiliates@eufylife.com BOUNCED; new outreach to influencer@eufylife.com 2026-09-18; **follow-up sent 2026-09-25** (msg 1a0d8e255acad514) — fall sale ends Oct 11. | Robot vacuums/smart home — ON-NICHE, fits "before transformation" content angle. Follow-up due 2026-10-02 if no reply. Fall sale ends Oct 11 — enroll via Impact dashboard in parallel. |
 | Direct | Flexispot | up to 15% (~$50/sale) | **BOUNCED 2026-09-02** | Standing desks/WFH furniture — ON-NICHE (home office). BOTH contacts bounced: Joey@flexispot.com AND affiliates@flexispot.com. Use Flexispot website contact form or find partner@flexispot.com. |
 | Awin | PersonalHour | TBD | Invited 2026-09-02 — needs evaluation | Unclear niche — "PersonalHour" name does not indicate home/decor/organization. IAN MUST CHECK via Awin dashboard (merchant profile 96347) before accepting. |
@@ -897,7 +897,7 @@ Agent configs live in `/private/tmp/golden-home-project/automation/agents/`.
   - **Sep 26**: Liberty Hardware — ⏸️ SKIPPED (cold outreach paused per Ian Sep 3 directive, Strategy agent confirmed). Hold until pause lifted.
   - **Sep 26**: Tempaper (Samantha Lins) — ⏸️ SKIPPED (cold outreach paused per Ian Sep 3 directive). Hold until pause lifted.
   - **Sep 27**: Winix — ✅ DONE (3rd touch sent 2026-09-27, msg 1a0e32fb0b37f8f6). Next: check reply Oct 4 — if silent, pause and try website contact form/LinkedIn.
-  - **Sep 27**: Homary — ✅ DONE (1st follow-up sent 2026-09-27, msg 1a0e32fceb8377f2). Next follow-up due Oct 4 if no reply.
+  - **Sep 27**: Homary — ✅ DONE (1st follow-up sent 2026-09-27, msg 1a0e32fceb8377f2). **✅ REPLY RECEIVED 2026-09-29** from Lauren — affiliate program confirmed (6%→12%, Awin merchant 91447). Our acceptance reply sent (msg 1a0ed22b9c73136f). IAN: complete Awin express signup + share affiliate ID with Lauren.
   - **Sep 28**: Zinus — follow-up due (collab@zinus.com, pitched Sep 21, msg 1a0c413ade738ced)
   - **Sep 30**: Wayfair, Rev-A-Shelf, Joseph Joseph (all scheduled per Strategy agent)
 
