@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-09-29",
+  "category": "Bedding",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-bedding-essentials.html",
+  "picks": [
+    {
+      "asin": "B0C1NNYJGB",
+      "name": "BEDLORE Waterproof Mattress Protector",
+      "price": "$25.49",
+      "rating": 4.6,
+      "reviews": 27028,
+      "rank": 3
+    },
+    {
+      "asin": "B01NBNDC1T",
+      "name": "Utopia Bedding 18x18 Pillow Inserts",
+      "price": "$13.89",
+      "rating": 4.6,
+      "reviews": 219212,
+      "rank": 6
+    },
+    {
+      "asin": "B0725WFLMB",
+      "name": "Bedsure Satin Pillowcases Queen Set of 2",
+      "price": "$6.99",
+      "rating": 4.5,
+      "reviews": 322252,
+      "rank": 12
+    },
+    {
+      "asin": "B07YKLSMFM",
+      "name": "Bedsure Comforter Duvet Insert",
+      "price": "$29.75",
+      "rating": 4.7,
+      "reviews": 77663,
+      "rank": 15
+    },
+    {
+      "asin": "B08DTH86Q2",
+      "name": "Utopia Bedding Gusset Bed Pillow",
+      "price": "$29.89",
+      "rating": 4.5,
+      "reviews": 79860,
+      "rank": 8
+    },
+    {
+      "asin": "B00MRH9NCK",
+      "name": "Waterproof Twin Size Mattress Protector fits Upto 15\" Deep Pocket",
+      "price": "$12.99",
+      "rating": 4.5,
+      "reviews": 106969,
+      "rank": 10
+    }
+  ]
+}
