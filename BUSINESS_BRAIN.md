@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-09-29 (Strategy & Outreach 9am)
+# Last updated: 2026-09-29 (Affiliate Optimizer 10am)
 # ============================================================
 
 ---
@@ -893,9 +893,11 @@ Agent configs live in `/private/tmp/golden-home-project/automation/agents/`.
 
 - [ ] **🚨 CJ DEACTIVATION — 3 DAYS (Oct 1, 2026-09-28)** — 3 DAYS remain. AliExpress 9% interior/garden is the ONLY active CJ partner. Today's Trend Scout top-3 (cabinet kit $79, cabinet hardware $24, storage bench $89) — Content Engine MUST embed AliExpress product links in every script. IAN: apply to Wayfair (7% sitewide) + GreenLife Cookware (5%) + Levoit air purifiers (5%) via CJ publisher portal IMMEDIATELY. Each additional CJ advertiser = one more chance at commission before Oct 1. If dormancy triggers: re-login to CJ within 90 days to reactivate (advertiser relationships preserved). (Affiliate Optimizer 2026-09-28)
 
+- [ ] **🚨 CJ DEACTIVATION — 2 DAYS (Oct 1, 2026-09-29)** — FINAL WINDOW. 2 DAYS remain. AliExpress 9% interior/garden is the ONLY active CJ partner. Zero commissions = dormancy. Content Engine MUST embed AliExpress product links in every script (grout pen, storage bins, closet organizers). IAN: apply to Wayfair (7% sitewide) + GreenLife Cookware (5%) + Levoit air purifiers (5%) via CJ publisher portal TODAY — this is the last practical window before Oct 1 deactivation. If dormancy triggers: log into CJ within 90 days to reactivate (advertiser relationships preserved). (Affiliate Optimizer 2026-09-29)
+
 - [ ] **Zinus follow-up DUE TODAY (2026-09-28, collab@zinus.com) — ⏸️ PAUSED** — Follow-up to Sep 21 pitch is due today per schedule. NOT sent per cold outreach pause (Ian Sep 3 directive). Both Email Monitor and Strategy & Outreach confirmed pause on Sep 28. When outreach resumes: send 1st follow-up to collab@zinus.com. (Affiliate Optimizer 2026-09-28)
 
-- [ ] **🚨 Dusk (Impact ID 57504) — OVERDUE evaluation (5 days, 2026-09-26)** — Flagged Sep 21 as possible home lighting/candles/fragrance brand. IAN has NOT yet evaluated in 5 days. **IAN: Log into Impact.com publisher dashboard NOW → search "Dusk" (campaign ID 57504) → check niche. If home/lifestyle/atmospheric: join immediately.** Fall cozy room resets (reading nooks, bedtime routines, candle vibes) are September's highest-share format — if Dusk is on-niche this is an urgent revenue gap. (Affiliate Optimizer 2026-09-26)
+- [ ] **🚨 Dusk (Impact ID 57504) — OVERDUE evaluation (8 days, 2026-09-29)** — Flagged Sep 21 as possible home lighting/candles/fragrance brand. IAN has NOT yet evaluated in 5 days. **IAN: Log into Impact.com publisher dashboard NOW → search "Dusk" (campaign ID 57504) → check niche. If home/lifestyle/atmospheric: join immediately.** Fall cozy room resets (reading nooks, bedtime routines, candle vibes) are September's highest-share format — if Dusk is on-niche this is an urgent revenue gap. (Affiliate Optimizer 2026-09-26)
 
 - [ ] **🚨 Halloween porch content — CRITICAL WINDOW CLOSES OCT 7 (11 days, 2026-09-26)** — Content Engine has NOT yet scripted the Halloween porch $43 transformation (Sep 22 Trend Scout #3). TikTok "Halloween porch decor" and "haunted entryway" are in active spike NOW — late September is the algorithm window for Oct 15-20 publish dates. Zero competitor coverage. Products: battery string lights $12 + doormat $18 + pumpkins/props $13 = $43. High share rate (neighbors tag neighbors). goldenhomep0a-20 ready. Content must be live by Oct 7 to capture peak engagement cycle. (Affiliate Optimizer 2026-09-26)
 
