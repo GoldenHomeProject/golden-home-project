@@ -3122,6 +3122,52 @@
           }
         ]
       }
+    ],
+    "BREATHABLE": [
+      {
+        "hook_category": "scene",
+        "hook": "You flip the pillow again, hunting the cool side.",
+        "beat1": "Heat gets trapped between the mattress and a thick top sheet, especially in a bedroom that holds warmth overnight. Once the fabric warms up it stays warm, so you end up flipping, kicking off the blanket, or moving to the cool spot on the bed.",
+        "turn": "This Bedsure queen sheet set is built as soft, breathable, cooling bed sheets in four pieces, and it's Oeko-Tex certified with easy care instructions. Over a hundred thousand people have rated it 4.6 stars.",
+        "result": "For a queen bed that runs warm, a set built around breathability instead of extra layers is a simple swap, and it comes in at about $16.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close-up of a hand flipping a pillow over in the dark, searching for the cooler side, bedside lamp glow in the background",
+            "on_screen_text": "Flipping the pillow again",
+            "voiceover": "You flip the pillow again, hunting the cool side."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Overhead shot of a rumpled queen bed with the top sheet kicked halfway off, morning light coming through the blinds",
+            "on_screen_text": "Heat gets trapped, not released",
+            "voiceover": "Heat gets trapped between the mattress and the sheet, especially in a room that holds warmth overnight, so once the fabric warms up, it just stays warm."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Hands smoothing a light, soft-looking fitted sheet over the corner of a queen mattress, fabric visibly thin and airy",
+            "on_screen_text": "Four pieces, built to breathe",
+            "voiceover": "This queen sheet set is four pieces made to be soft, breathable, and cooling, and it's Oeko-Tex certified with easy care."
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "Neatly folded matching sheet set stacked on a shelf next to a made bed, showing the full four-piece set together",
+            "on_screen_text": "Over a hundred thousand rate it 4.6",
+            "voiceover": "Over a hundred thousand people rate it 4.6 stars."
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "Wide shot of a freshly made queen bed in soft morning light, sheets smooth and untucked at the corner, inviting to climb into",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "A queen set built around breathability instead of extra layers, for about sixteen dollars. Comment {KEYWORD} and I'll send the link."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {

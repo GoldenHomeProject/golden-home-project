@@ -840,6 +840,24 @@
       "discovery_source": "harvest_catalogue",
       "keyword": "SIGA",
       "promoted_at": "2026-09-28T12:20:43Z"
+    },
+    {
+      "asin": "B07P5NBRL5",
+      "product_name": "Bedsure Queen Sheet Set - 4 Pieces Soft, Breathable, Cooling Bed Sheets | Hotel Luxury Bedding, Oeko-Tex , Easy Care, De",
+      "categories": [
+        "home",
+        "Bedding"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B07P5NBRL5?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-09-21",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$16.49",
+      "verified_stars": "4.6",
+      "verified_reviews": 102744,
+      "discovery_source": "harvest_catalogue",
+      "keyword": "BREATHABLE",
+      "promoted_at": "2026-09-29T12:20:57Z"
     }
   ],
   "_vetted_doc": "Verified-live Amazon ASINs cleared for blog/SEO/IG-caption use but NOT yet wired to a Meta comment-to-DM automation. Promote to `entries` (with a unique keyword) only AFTER creating the matching Meta Business Suite automation. Always use https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20 \u2014 never search URLs.",
@@ -5106,22 +5124,6 @@
       "verified_price": "$17.94",
       "verified_stars": "4.5",
       "verified_reviews": 93309,
-      "discovery_source": "harvest_catalogue"
-    },
-    {
-      "asin": "B07P5NBRL5",
-      "product_name": "Bedsure Queen Sheet Set - 4 Pieces Soft, Breathable, Cooling Bed Sheets | Hotel Luxury Bedding, Oeko-Tex , Easy Care, De",
-      "categories": [
-        "home",
-        "Bedding"
-      ],
-      "affiliate_url": "https://www.amazon.com/dp/B07P5NBRL5?tag=goldenhomep0a-20",
-      "status": "live",
-      "verified_at": "2026-09-21",
-      "verified_method": "best_seller_grid",
-      "verified_price": "$16.49",
-      "verified_stars": "4.6",
-      "verified_reviews": 102744,
       "discovery_source": "harvest_catalogue"
     },
     {
