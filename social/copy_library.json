@@ -3168,6 +3168,52 @@
           }
         ]
       }
+    ],
+    "BAROSSA": [
+      {
+        "hook_category": "mistake",
+        "hook": "Stop waiting for your shower liner to turn yellow and stiff.",
+        "beat1": "Cheap liners break down fast once soap scum and steam get into the plastic. That's why they turn stiff, yellow, or start smelling within a season, no matter how often you clean around them.",
+        "turn": "This liner is Oeko-tex certified, so it's tested for harmful substances before it ever hangs in your bathroom. It comes in a standard size, and over a hundred thousand people rate it 4.5 stars.",
+        "result": "For about nine dollars, you get a straightforward swap that fits a standard tub without any guesswork on sizing.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close-up of hands pulling back a stiff, yellowed shower curtain liner from a bathtub",
+            "on_screen_text": "Stop waiting for it to turn yellow",
+            "voiceover": "Stop waiting for your shower liner to turn yellow and stiff."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Close-up of soap scum and water spots built up along the bottom edge of a shower liner near the tub",
+            "on_screen_text": "Heat and soap scum break it down fast",
+            "voiceover": "Cheap liners break down fast once soap scum and steam get into the plastic, which is why they turn stiff or start smelling within a season."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Hands hanging a fresh, clean shower curtain liner on rings above a standard bathtub",
+            "on_screen_text": "Oeko-tex certified, standard size",
+            "voiceover": "This one is Oeko-tex certified, so it's tested for harmful substances, and it's a standard size that fits most tubs and stalls."
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "Wide shot of a clean bathroom with the new liner hanging neatly around the tub, natural light coming in",
+            "on_screen_text": "Rated 4.5 stars by over 100,000 people",
+            "voiceover": "Over a hundred thousand people rate it 4.5 stars."
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "Hand smoothing the bottom of the liner against the tub edge, bathroom looking tidy",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "It's about nine dollars and swaps in without any guesswork on size. Comment {KEYWORD} and I'll send the link."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
