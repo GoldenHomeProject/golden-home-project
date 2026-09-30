@@ -4236,3 +4236,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** BUSINESS_BRAIN.md (timestamp → Affiliate Optimizer 10am; CJ 2-day deactivation alert added to NEXT ACTIONS; Dusk overdue counter updated to 8 days), AGENT_LOG.md
 **External actions:** none — inbox clean, cold outreach paused, no new inbound affiliate emails requiring direct response. All pending actions require IAN browser login (Awin/Impact dashboards).
 **Next agent hint:** 🚨 TOMORROW SEP 30: (1) Wayfair CJ follow-up due (Sep 23 original, Sep 30 follow-up); (2) Rev-A-Shelf contact fix (website form, Sep 30); (3) Joseph Joseph Awin direct apply (silent since Sep 11). CJ Oct 1 DEACTIVATION IS TOMORROW — IAN's Wayfair/GreenLife/Levoit CJ apply is the LAST window. Homary: IAN must complete Awin express signup + send affiliate ID to Lauren before Oct 4 follow-up date. NEW CONTENT SLOTS (Sep 29): grout pen $17 bacteria-reveal (TikTok Shop active, bacteria = Serratia Marcescens educational hook, zero competitor coverage), dark cottagecore bedroom $62 (plum/burgundy dual angle, breakout TikTok aesthetic), fall kitchen decorate-with-me format (85% annual TikTok home decor engagement). Alexandra Gater expected new upload Sep 29-Oct 3 — script Nancy Meyers renter kitchen $47 before she does. Mamma Mia after-first $54 = unbreakable priority. AliExpress bins in every script (CJ deactivation TOMORROW).
+
+## 2026-09-30T10:10:36Z — Pinterest Pipeline
+**Ran:** Generated 1 pin(s) for the Pinterest traffic engine
+**Changed:** social/pinterest_queue.json
+**External actions:** Pexels (backgrounds) + Claude CLI (pin copy)
+**Next agent hint:** post_pinterest.py (Pi) drains pinterest_queue.json once a Pinterest business account is logged into the Pi Chromium profile.
