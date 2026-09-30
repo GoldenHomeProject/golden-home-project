@@ -2326,7 +2326,7 @@
   },
   {
     "name": "reel_2026-07-23_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-07-23-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-07-23-001.mp4",
@@ -2348,11 +2348,12 @@
       "affiliate_url": null
     },
     "hook": "The reason your cabinets stay messy is that nothing has a home.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-07-23-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-07-23-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-07-23_002",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-07-23-002.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-07-23-002.mp4",
@@ -2374,11 +2375,12 @@
       "affiliate_url": "https://eliandelm.sjv.io/E092ZX"
     },
     "hook": "I spent ten years thinking my mattress was the problem.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-07-23-002.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-07-23-002.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-07-23_003",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-07-23-003.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-07-23-003.mp4",
@@ -2399,7 +2401,8 @@
       "affiliate_url": "https://www.amazon.com/dp/B085XVFQ62?tag=goldenhomep0a-20"
     },
     "hook": "My patio had been a low-grade mess for longer than I want to admit.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-07-23-003.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-07-23-003.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "id": "carousel-2026-07-23-B08PP48979",
@@ -2623,7 +2626,7 @@
   },
   {
     "name": "reel_2026-07-27_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-07-27-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-07-27-001.mp4",
@@ -2645,11 +2648,12 @@
       "affiliate_url": "https://eliandelm.sjv.io/E092ZX"
     },
     "hook": "Stop blaming your mattress for your neck pain.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-07-27-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-07-27-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-07-27_002",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-07-27-002.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-07-27-002.mp4",
@@ -2671,11 +2675,12 @@
       "affiliate_url": null
     },
     "hook": "Buying more containers will never fix your under-sink cabinet.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-07-27-002.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-07-27-002.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-07-27_003",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-07-27-003.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-07-27-003.mp4",
@@ -2697,7 +2702,8 @@
       "affiliate_url": "https://www.amazon.com/dp/B0B3WSZ3QP?tag=goldenhomep0a-20"
     },
     "hook": "My kitchen had been a low-grade mess for longer than I want to admit.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-07-27-003.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-07-27-003.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "id": "carousel-2026-07-27-B01M0TS64K",
@@ -3286,7 +3292,7 @@
   },
   {
     "name": "reel_2026-08-03_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-03-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-03-001.mp4",
@@ -3308,11 +3314,12 @@
       "affiliate_url": "https://eliandelm.sjv.io/E092ZX"
     },
     "hook": "Picture this: it is 4am, your neck won't turn left, and the alarm is in 90 minutes.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-03-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-03-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-08-03_002",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-03-002.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-03-002.mp4",
@@ -3334,11 +3341,12 @@
       "affiliate_url": null
     },
     "hook": "The reason your cabinets stay messy is that nothing has a home.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-03-002.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-03-002.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-08-03_003",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-03-003.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-03-003.mp4",
@@ -3359,7 +3367,8 @@
       "affiliate_url": "https://www.amazon.com/dp/B01FXN3E74?tag=goldenhomep0a-20"
     },
     "hook": "My home had been a low-grade mess for longer than I want to admit.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-03-003.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-03-003.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "id": "carousel-2026-08-03-B09CSS6YL4",
@@ -3467,7 +3476,7 @@
   },
   {
     "name": "reel_2026-08-04_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-04-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-04-001.mp4",
@@ -3489,11 +3498,12 @@
       "affiliate_url": null
     },
     "hook": "I avoided opening this cabinet for two whole years.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-04-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-04-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-08-04_002",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-04-002.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-04-002.mp4",
@@ -3515,11 +3525,12 @@
       "affiliate_url": "https://eliandelm.sjv.io/E092ZX"
     },
     "hook": "Stop blaming your mattress for your neck pain.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-04-002.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-04-002.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-08-04_003",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-04-003.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-04-003.mp4",
@@ -3540,7 +3551,8 @@
       "affiliate_url": "https://www.amazon.com/dp/B0CVVVNB9L?tag=goldenhomep0a-20"
     },
     "hook": "My home had been a low-grade mess for longer than I want to admit.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-04-003.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-04-003.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "id": "carousel-2026-08-04-B09CSS6YL4",
@@ -3746,7 +3758,7 @@
   },
   {
     "name": "reel_2026-08-07_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-07-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-07-001.mp4",
@@ -3768,11 +3780,12 @@
       "affiliate_url": "https://eliandelm.sjv.io/E092ZX"
     },
     "hook": "Most pillows are designed for back sleepers. 74% of us sleep on our sides.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-07-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-07-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-08-07_002",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-07-002.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-07-002.mp4",
@@ -3794,11 +3807,12 @@
       "affiliate_url": null
     },
     "hook": "The reason your cabinets stay messy is that nothing has a home.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-07-002.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-07-002.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-08-07_003",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-07-003.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-07-003.mp4",
@@ -3820,7 +3834,8 @@
       "affiliate_url": "https://www.amazon.com/dp/B0BXSMJK86?tag=goldenhomep0a-20"
     },
     "hook": "My kitchen had been a low-grade mess for longer than I want to admit.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-07-003.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-07-003.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "id": "carousel-2026-08-07-B0B4SPP3ZN",
@@ -3842,7 +3857,7 @@
   },
   {
     "name": "reel_2026-08-08_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-08-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-08-001.mp4",
@@ -3864,11 +3879,12 @@
       "affiliate_url": null
     },
     "hook": "I avoided opening this cabinet for two whole years.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-08-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-08-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-08-08_002",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-08-002.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-08-002.mp4",
@@ -3890,11 +3906,12 @@
       "affiliate_url": "https://eliandelm.sjv.io/E092ZX"
     },
     "hook": "I spent ten years thinking my mattress was the problem.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-08-002.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-08-002.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-08-08_003",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-08-003.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-08-003.mp4",
@@ -3915,7 +3932,8 @@
       "affiliate_url": "https://www.amazon.com/dp/B085XVFQ62?tag=goldenhomep0a-20"
     },
     "hook": "My patio had been a low-grade mess for longer than I want to admit.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-08-003.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-08-003.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "id": "carousel-2026-08-08-B09CSS6YL4",
@@ -3937,7 +3955,7 @@
   },
   {
     "name": "reel_2026-08-09_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-09-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-09-001.mp4",
@@ -3958,7 +3976,8 @@
       "affiliate_url": null
     },
     "hook": "348,951 reviews and a 4.7-star average \u2014 that's not luck, that's data.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-09-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-09-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "id": "carousel-2026-08-09-B01HI1W1V4",
@@ -4112,7 +4131,7 @@
   },
   {
     "name": "reel_2026-08-11_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-11-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-11-001.mp4",
@@ -4133,7 +4152,8 @@
       "affiliate_url": null
     },
     "hook": "If you rent and can't touch the closet, start with the hangers instead.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-11-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-11-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "id": "carousel-2026-08-11-B00FXNAAW2",
@@ -4197,7 +4217,7 @@
   },
   {
     "name": "reel_2026-08-13_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-13-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-13-001.mp4",
@@ -4218,7 +4238,8 @@
       "affiliate_url": null
     },
     "hook": "Throw pillows go flat because the insert is the cheap part nobody replaces.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-13-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-13-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "id": "carousel-2026-08-13-B01NBNDC1T",
@@ -4578,7 +4599,7 @@
   },
   {
     "name": "reel_2026-08-20_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-20-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-20-001.mp4",
@@ -4599,11 +4620,12 @@
       "affiliate_url": null
     },
     "hook": "349,374 reviews on a bathroom scale is not a normal number.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-20-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-20-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-08-20_002",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-20-002.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-20-002.mp4",
@@ -4625,11 +4647,12 @@
       "affiliate_url": null
     },
     "hook": "Under-sink cabinets have a way of turning into a junk pile fast.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-20-002.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-20-002.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-08-20_003",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-20-003.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-20-003.mp4",
@@ -4651,7 +4674,8 @@
       "affiliate_url": "https://eliandelm.sjv.io/E092ZX"
     },
     "hook": "Side sleepers know the real problem usually isn't the mattress.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-20-003.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-20-003.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "id": "carousel-2026-08-20-B000ST1DZO",
@@ -4673,7 +4697,7 @@
   },
   {
     "name": "reel_2026-08-21_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-21-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-21-001.mp4",
@@ -4694,11 +4718,12 @@
       "affiliate_url": null
     },
     "hook": "Pillow covers are cheap. The insert inside them is why yours look flat.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-21-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-21-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-08-21_002",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-21-002.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-21-002.mp4",
@@ -4719,11 +4744,12 @@
       "affiliate_url": "https://www.amazon.com/dp/B01FXN3E74?tag=goldenhomep0a-20"
     },
     "hook": "Tap water that tastes like the pipes it traveled through is one of those problems people just put up with.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-21-002.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-21-002.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-08-21_003",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-21-003.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-21-003.mp4",
@@ -4744,7 +4770,8 @@
       "affiliate_url": "https://www.amazon.com/dp/B07Y39ZXV7?tag=goldenhomep0a-20"
     },
     "hook": "If your closet has turned into a place you avoid opening, the hangers are usually the real problem.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-21-003.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-21-003.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "id": "carousel-2026-08-21-B00SXC85IQ",
@@ -4766,7 +4793,7 @@
   },
   {
     "name": "reel_2026-08-22_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-22-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-22-001.mp4",
@@ -4787,11 +4814,12 @@
       "affiliate_url": null
     },
     "hook": "218,437 reviews on a pillow insert most people never think about.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-22-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-22-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-08-22_002",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-22-002.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-22-002.mp4",
@@ -4812,11 +4840,12 @@
       "affiliate_url": "https://www.amazon.com/dp/B08CYBPMJC?tag=goldenhomep0a-20"
     },
     "hook": "Bath towels that don't earn their keep are easy to spot \u2014 thin, scratchy, or never quite dry before you need them again.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-22-002.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-22-002.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-08-22_003",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-22-003.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-22-003.mp4",
@@ -4838,7 +4867,8 @@
       "affiliate_url": "https://www.amazon.com/dp/B0B3WSZ3QP?tag=goldenhomep0a-20"
     },
     "hook": "A cluttered cabinet turns into a guessing game every time you go looking for something.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-22-003.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-22-003.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "id": "carousel-2026-08-22-B08492PZ8Y",
@@ -4860,7 +4890,7 @@
   },
   {
     "name": "reel_2026-08-23_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-23-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-23-001.mp4",
@@ -4881,11 +4911,12 @@
       "affiliate_url": null
     },
     "hook": "203,481 reviews. That's not a trend \u2014 that's a verdict.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-23-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-23-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-08-23_002",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-23-002.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-23-002.mp4",
@@ -4907,11 +4938,12 @@
       "affiliate_url": "https://eliandelm.sjv.io/E092ZX"
     },
     "hook": "Ten years of the wrong pillow can wreck your mornings, and most people never trace it back to the pillow.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-23-002.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-23-002.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-08-23_003",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-23-003.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-23-003.mp4",
@@ -4932,7 +4964,8 @@
       "affiliate_url": "https://www.amazon.com/dp/B085XVFQ62?tag=goldenhomep0a-20"
     },
     "hook": "A patio that never gets used usually comes down to one thing: nowhere comfortable to actually sit.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-23-003.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-23-003.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "id": "carousel-2026-08-23-B098D79MQB",
@@ -4954,7 +4987,7 @@
   },
   {
     "name": "reel_2026-08-24_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-24-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-24-001.mp4",
@@ -4975,11 +5008,12 @@
       "affiliate_url": null
     },
     "hook": "Baking by cups is guesswork. A scale is the fix, and this one is $10.99.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-24-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-24-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-08-24_002",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-24-002.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-24-002.mp4",
@@ -5001,11 +5035,12 @@
       "affiliate_url": "https://www.amazon.com/dp/B0BXSMJK86?tag=goldenhomep0a-20"
     },
     "hook": "A cluttered cabinet doesn't need a full overhaul\u2014just something under your dishes and cans that stops them from sliding every time the door opens.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-24-002.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-24-002.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-08-24_003",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-24-003.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-24-003.mp4",
@@ -5026,7 +5061,8 @@
       "affiliate_url": "https://www.amazon.com/dp/B0CVVVNB9L?tag=goldenhomep0a-20"
     },
     "hook": "That drawer of mismatched throw pillows isn't going to fix itself.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-24-003.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-24-003.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "id": "carousel-2026-08-24-B01DCG0GPC",
@@ -5048,7 +5084,7 @@
   },
   {
     "name": "reel_repurpose_2026-08-24_901",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-24-901.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-24-901.mp4",
@@ -5063,11 +5099,12 @@
       "#storagehacks"
     ],
     "hook": "8 clear bins fixed my closet for $29.99",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-24-901.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-24-901.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_repurpose_2026-08-24_902",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-24-902.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-24-902.mp4",
@@ -5081,11 +5118,12 @@
       "#organizationtips"
     ],
     "hook": "The space under your bed is worth $30",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-24-902.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-24-902.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_repurpose_2026-08-24_903",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-24-903.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-24-903.mp4",
@@ -5099,11 +5137,12 @@
       "#budgetorganizing"
     ],
     "hook": "$18.98 fixes the vertical space you're wasting",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-24-903.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-24-903.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_repurpose_2026-08-24_904",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-24-904.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-24-904.mp4",
@@ -5118,11 +5157,12 @@
       "#storagesolutions"
     ],
     "hook": "Stop digging through bins for the thing in back",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-24-904.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-24-904.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_repurpose_2026-08-24_905",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-24-905.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-24-905.mp4",
@@ -5136,11 +5176,12 @@
       "#budgetmakeover"
     ],
     "hook": "I fixed my whole closet system for under $200",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-24-905.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-24-905.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-08-25_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-25-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-25-001.mp4",
@@ -5161,11 +5202,12 @@
       "affiliate_url": null
     },
     "hook": "203,481 reviews. That's not a trend \u2014 that's a verdict.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-25-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-25-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-08-25_002",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-25-002.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-25-002.mp4",
@@ -5186,11 +5228,12 @@
       "affiliate_url": null
     },
     "hook": "348,951 reviews and a 4.7-star average \u2014 that's not luck, that's data.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-25-002.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-25-002.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-08-25_003",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-25-003.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-25-003.mp4",
@@ -5211,7 +5254,8 @@
       "affiliate_url": null
     },
     "hook": "Renting a closet the size of a coat pocket? Start with the hangers.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-25-003.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-25-003.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "id": "carousel-2026-08-25-B00E4GACB8",
@@ -5233,7 +5277,7 @@
   },
   {
     "name": "reel_2026-08-26_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-26-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-26-001.mp4",
@@ -5254,11 +5298,12 @@
       "affiliate_url": null
     },
     "hook": "Pillow covers are cheap. The insert inside them is why yours look flat.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-26-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-26-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-08-26_002",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-26-002.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-26-002.mp4",
@@ -5279,11 +5324,12 @@
       "affiliate_url": null
     },
     "hook": "348,951 reviews and a 4.7-star average \u2014 that's not luck, that's data.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-26-002.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-26-002.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-08-26_003",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-26-003.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-26-003.mp4",
@@ -5304,7 +5350,8 @@
       "affiliate_url": null
     },
     "hook": "Baking by cups is guesswork. A scale is the fix, and this one is $10.99.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-26-003.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-26-003.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "id": "carousel-2026-08-26-B0BQR2BQYZ",
@@ -5326,7 +5373,7 @@
   },
   {
     "name": "reel_2026-08-27_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-27-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-27-001.mp4",
@@ -5347,11 +5394,12 @@
       "affiliate_url": null
     },
     "hook": "Pillow covers are cheap. The insert inside them is why yours look flat.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-27-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-27-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-08-27_002",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-27-002.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-27-002.mp4",
@@ -5372,11 +5420,12 @@
       "affiliate_url": null
     },
     "hook": "348,951 reviews and a 4.7-star average \u2014 that's not luck, that's data.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-27-002.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-27-002.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-08-27_003",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-27-003.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-27-003.mp4",
@@ -5397,7 +5446,8 @@
       "affiliate_url": null
     },
     "hook": "450,137 reviews on a $24.99 sheet set. That number is the whole story.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-27-003.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-27-003.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "id": "carousel-2026-08-27-B08QRFZ6TH",
@@ -5419,7 +5469,7 @@
   },
   {
     "name": "reel_2026-08-28_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-28-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-28-001.mp4",
@@ -5440,11 +5490,12 @@
       "affiliate_url": null
     },
     "hook": "Sagging pillows get blamed on the cover. The problem is what's stuffed inside it.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-28-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-28-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-08-28_002",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-28-002.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-28-002.mp4",
@@ -5465,11 +5516,12 @@
       "affiliate_url": null
     },
     "hook": "If you rent, you can't change the closet. You can only change what's hanging in it.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-28-002.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-28-002.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-08-28_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-28-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-28-001.mp4",
@@ -5490,11 +5542,12 @@
       "affiliate_url": null
     },
     "hook": "A $24.99 purchase collected 450,137 reviews. That kind of number does not happen by accident.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-28-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-28-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-08-28_002",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-28-002.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-28-002.mp4",
@@ -5515,11 +5568,12 @@
       "affiliate_url": null
     },
     "hook": "A needle wedged between two lines isn't a weight, it's a guess.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-28-002.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-28-002.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-08-29_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-29-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-29-001.mp4",
@@ -5540,11 +5594,12 @@
       "affiliate_url": null
     },
     "hook": "A cup of flour isn't a measurement. It's a guess with a lid on it.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-29-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-29-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-08-29_002",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-29-002.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-29-002.mp4",
@@ -5565,11 +5620,12 @@
       "affiliate_url": null
     },
     "hook": "Sagging pillows get blamed on the cover. The problem is what's stuffed inside it.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-29-002.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-29-002.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-08-29_003",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-29-003.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-29-003.mp4",
@@ -5590,11 +5646,12 @@
       "affiliate_url": null
     },
     "hook": "If you rent, you can't change the closet. You can only change what's hanging in it.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-29-003.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-29-003.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-08-30_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-30-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-30-001.mp4",
@@ -5615,7 +5672,8 @@
       "affiliate_url": "https://www.amazon.com/dp/B0725WFLMB?tag=goldenhomep0a-20"
     },
     "hook": "It's satin, not silk, priced at $6.99, with 321,211 reviews behind it.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-30-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-30-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-08-30_002",
@@ -5644,7 +5702,7 @@
   },
   {
     "name": "reel_2026-08-30_003",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-30-003.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-30-003.mp4",
@@ -5666,7 +5724,8 @@
       "affiliate_url": "https://eliandelm.sjv.io/E092ZX"
     },
     "hook": "It's 4am. Your neck won't turn left and the alarm is 90 minutes out.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-30-003.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-30-003.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "id": "carousel-2026-08-30-B01CS31R94",
@@ -5688,7 +5747,7 @@
   },
   {
     "name": "reel_2026-08-31_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-31-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-31-001.mp4",
@@ -5709,7 +5768,8 @@
       "affiliate_url": null
     },
     "hook": "349,499 people rated this scale. 4.7 stars is the boring part.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-31-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-31-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "id": "carousel-2026-08-31-B06WWRCZXX",
@@ -5748,7 +5808,7 @@
   },
   {
     "name": "reel_repurpose_2026-08-31_902",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-31-902.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-31-902.mp4",
@@ -5762,11 +5822,12 @@
       "#AmazonMustHaves"
     ],
     "hook": "49,036 people rated this $17.98 organizer 4.7 stars",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-31-902.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-31-902.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_repurpose_2026-08-31_903",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-08-31-903.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-31-903.mp4",
@@ -5780,7 +5841,8 @@
       "#HomeOrganizing"
     ],
     "hook": "The $13.99 fix for Hemnes's 30-inch bottom drawer",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-31-903.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-08-31-903.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_repurpose_2026-08-31_904",
@@ -5819,7 +5881,7 @@
   },
   {
     "name": "reel_2026-09-01_003",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-01-003.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-01-003.mp4",
@@ -5840,11 +5902,12 @@
       "affiliate_url": null
     },
     "hook": "453,281 people have rated this sheet set. It still sits at 4.5 stars.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-01-003.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-01-003.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-09-02_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-02-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-02-001.mp4",
@@ -5865,11 +5928,12 @@
       "affiliate_url": null
     },
     "hook": "349,499 people rated this scale. Almost none of them are wrong.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-02-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-02-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-09-02_002",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-02-002.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-02-002.mp4",
@@ -5890,11 +5954,12 @@
       "affiliate_url": null
     },
     "hook": "454,120 people rated this sheet set. Only 4.5 stars means almost nobody wants a refund.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-02-002.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-02-002.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-09-03_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-03-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-03-001.mp4",
@@ -5915,11 +5980,12 @@
       "affiliate_url": "https://www.amazon.com/dp/B08616PS69?tag=goldenhomep0a-20"
     },
     "hook": "321,401 people rated this pillowcase set. 4.5 stars, $7.99.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-03-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-03-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-09-03_002",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-03-002.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-03-002.mp4",
@@ -5940,11 +6006,12 @@
       "affiliate_url": null
     },
     "hook": "349,499 people rated this bathroom scale. Almost none call it flimsy.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-03-002.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-03-002.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-09-03_003",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-03-003.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-03-003.mp4",
@@ -5966,11 +6033,12 @@
       "affiliate_url": null
     },
     "hook": "Everyone tells you to buy more bins. That is not why your cabinet stays messy.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-03-003.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-03-003.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-09-04_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-04-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-04-001.mp4",
@@ -5991,11 +6059,12 @@
       "affiliate_url": null
     },
     "hook": "218,780 people have bought this exact 18x18 pillow insert.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-04-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-04-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-09-04_002",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-04-002.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-04-002.mp4",
@@ -6017,11 +6086,12 @@
       "affiliate_url": "https://eliandelm.sjv.io/E092ZX"
     },
     "hook": "Your mattress isn't the problem. Pillows haven't changed shape in 70 years.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-04-002.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-04-002.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-09-04_003",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-04-003.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-04-003.mp4",
@@ -6043,11 +6113,12 @@
       "affiliate_url": null
     },
     "hook": "Buying more bins won't fix a cabinet where the back six inches are functionally gone.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-04-003.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-04-003.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-09-05_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-05-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-05-001.mp4",
@@ -6068,11 +6139,12 @@
       "affiliate_url": null
     },
     "hook": "218,780 ratings on one pillow insert. That number doesn't lie.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-05-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-05-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-09-06_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-06-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-06-001.mp4",
@@ -6093,11 +6165,12 @@
       "affiliate_url": "https://www.amazon.com/dp/B00LS9UD2M?tag=goldenhomep0a-20"
     },
     "hook": "147,666 ratings on a $9.98 shower liner. That number doesn't happen by accident.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-06-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-06-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-09-06_003",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-06-003.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-06-003.mp4",
@@ -6119,11 +6192,12 @@
       "affiliate_url": "https://eliandelm.sjv.io/E092ZX"
     },
     "hook": "Everyone blames the mattress for a stiff neck by morning. The pillow is usually the actual problem.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-06-003.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-06-003.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-09-07_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-07-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-07-001.mp4",
@@ -6144,11 +6218,12 @@
       "affiliate_url": null
     },
     "hook": "349,735 people reviewed this $19.88 scale. Almost none mention the price.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-07-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-07-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-09-07_002",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-07-002.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-07-002.mp4",
@@ -6170,11 +6245,12 @@
       "affiliate_url": null
     },
     "hook": "Everyone tells you to buy more bins. Your under-sink cabinet doesn't need more bins, it needs the vertical space back.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-07-002.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-07-002.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-09-07_003",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-07-003.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-07-003.mp4",
@@ -6195,7 +6271,8 @@
       "affiliate_url": "https://www.amazon.com/dp/B07Y39ZXV7?tag=goldenhomep0a-20"
     },
     "hook": "Everyone tells you to buy more hangers. That's not why your rod is jammed.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-07-003.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-07-003.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "id": "carousel-2026-09-07-B0DGF616XN",
@@ -6235,7 +6312,7 @@
   },
   {
     "name": "reel_repurpose_2026-09-07_902",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-07-902.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-07-902.mp4",
@@ -6249,11 +6326,12 @@
       "#reviewbreakdown"
     ],
     "hook": "I read all 38,159 reviews on the $26.99 pull.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-07-902.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-07-902.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_repurpose_2026-09-07_903",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-07-903.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-07-903.mp4",
@@ -6267,11 +6345,12 @@
       "#kitchendesign"
     ],
     "hook": "HGTV named the trend; skipped the $26.99 price.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-07-903.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-07-903.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_repurpose_2026-09-07_904",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-07-904.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-07-904.mp4",
@@ -6285,11 +6364,12 @@
       "#diytips"
     ],
     "hook": "One measurement decides if this $26.99 fix works.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-07-904.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-07-904.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_repurpose_2026-09-07_905",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-07-905.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-07-905.mp4",
@@ -6303,11 +6383,12 @@
       "#amazonfinds"
     ],
     "hook": "Two products. Under $52. Whole kitchen changes.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-07-905.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-07-905.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-09-08_003",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-08-003.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-08-003.mp4",
@@ -6328,11 +6409,12 @@
       "affiliate_url": "https://www.amazon.com/dp/B08CYBPMJC?tag=goldenhomep0a-20"
     },
     "hook": "A towel's GSM number tells you more than how soft it feels folded on the shelf.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-08-003.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-08-003.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-09-09_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-09-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-09-001.mp4",
@@ -6353,11 +6435,12 @@
       "affiliate_url": null
     },
     "hook": "349,735 people rated this scale. Almost none of them are athletes.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-09-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-09-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-09-09_002",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-09-002.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-09-002.mp4",
@@ -6378,11 +6461,12 @@
       "affiliate_url": "https://www.amazon.com/dp/B00U6HREPQ?tag=goldenhomep0a-20"
     },
     "hook": "133,326 ratings on one mattress protector. Only 4.6 stars slipped through.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-09-002.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-09-002.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-09-09_003",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-09-003.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-09-003.mp4",
@@ -6403,11 +6487,12 @@
       "affiliate_url": "https://www.amazon.com/dp/B01FXN3E74?tag=goldenhomep0a-20"
     },
     "hook": "Bad-tasting tap water usually gets blamed on old pipes. More often it's a filter that's overdue for a swap.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-09-003.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-09-003.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-09-10_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-10-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-10-001.mp4",
@@ -6428,7 +6513,8 @@
       "affiliate_url": null
     },
     "hook": "133,040 ratings later, these blackout curtains still average 4.6 stars.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-10-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-10-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-09-10_002",
@@ -6457,7 +6543,7 @@
   },
   {
     "name": "reel_2026-09-10_003",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-10-003.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-10-003.mp4",
@@ -6479,11 +6565,12 @@
       "affiliate_url": null
     },
     "hook": "Open the cabinet under your sink and count how many things fall out.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-10-003.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-10-003.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-09-11_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-11-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-11-001.mp4",
@@ -6504,11 +6591,12 @@
       "affiliate_url": null
     },
     "hook": "133,040 ratings later, this $9.47 blackout curtain still holds a 4.6.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-11-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-11-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-09-11_002",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-11-002.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-11-002.mp4",
@@ -6530,7 +6618,8 @@
       "affiliate_url": "https://eliandelm.sjv.io/E092ZX"
     },
     "hook": "Stacking a second pillow doesn't fix a shoulder problem. It just gives you a second wrong pillow.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-11-002.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-11-002.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-09-11_003",
@@ -6577,7 +6666,7 @@
   },
   {
     "name": "reel_2026-09-12_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-12-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-12-001.mp4",
@@ -6598,7 +6687,8 @@
       "affiliate_url": "https://www.amazon.com/dp/B0714K41PB?tag=goldenhomep0a-20"
     },
     "hook": "126,992 ratings on a $20 pillow insert set. Only 4.6 stars stayed high.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-12-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-12-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-09-12_002",
@@ -6644,7 +6734,7 @@
   },
   {
     "name": "reel_2026-09-13_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-13-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-13-001.mp4",
@@ -6665,11 +6755,12 @@
       "affiliate_url": "https://www.amazon.com/dp/B00NX0WXQI?tag=goldenhomep0a-20"
     },
     "hook": "113,235 reviews. 4.6 stars. For a $13 sheet set, that's rare.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-13-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-13-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-09-14_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-14-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-14-001.mp4",
@@ -6690,7 +6781,8 @@
       "affiliate_url": "https://www.amazon.com/dp/B01F5K9YNS?tag=goldenhomep0a-20"
     },
     "hook": "112,629 people rated this shower mat. 4.5 stars is hard to fake at that scale.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-14-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-14-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_repurpose_2026-09-14_901",
@@ -6712,7 +6804,7 @@
   },
   {
     "name": "reel_repurpose_2026-09-14_902",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-14-902.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-14-902.mp4",
@@ -6727,11 +6819,12 @@
       "#foodstorage"
     ],
     "hook": "28,028 reviewers agree on this $30 container set",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-14-902.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-14-902.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_repurpose_2026-09-14_903",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-14-903.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-14-903.mp4",
@@ -6746,11 +6839,12 @@
       "#organizedhome"
     ],
     "hook": "$46.99 for the drawer that fixed my dark cabinet",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-14-903.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-14-903.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_repurpose_2026-09-14_904",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-14-904.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-14-904.mp4",
@@ -6765,7 +6859,8 @@
       "#kitchenorganization"
     ],
     "hook": "$17.72 bin ends my loose-snack pile forever",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-14-904.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-14-904.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_repurpose_2026-09-14_905",
@@ -6787,7 +6882,7 @@
   },
   {
     "name": "reel_2026-09-15_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-15-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-15-001.mp4",
@@ -6808,11 +6903,12 @@
       "affiliate_url": null
     },
     "hook": "133,040 ratings later, these blackout curtains still average 4.6 stars.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-15-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-15-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-09-15_002",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-15-002.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-15-002.mp4",
@@ -6833,11 +6929,12 @@
       "affiliate_url": "https://www.amazon.com/dp/B00NX0WXQI?tag=goldenhomep0a-20"
     },
     "hook": "113,235 reviews. 4.6 stars. For a $13 sheet set, that's rare.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-15-002.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-15-002.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-09-15_003",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-15-003.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-15-003.mp4",
@@ -6858,11 +6955,12 @@
       "affiliate_url": null
     },
     "hook": "A cup of flour isn't a measurement. It's a guess with a lid on it.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-15-003.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-15-003.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-09-16_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-16-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-16-001.mp4",
@@ -6883,7 +6981,8 @@
       "affiliate_url": null
     },
     "hook": "133,371 reviews on one blackout curtain. That's not a coincidence.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-16-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-16-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "id": "carousel-2026-09-16-B0B56CHMSC",
@@ -6905,7 +7004,7 @@
   },
   {
     "name": "reel_2026-09-17_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-17-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-17-001.mp4",
@@ -6926,11 +7025,12 @@
       "affiliate_url": null
     },
     "hook": "133,371 people rated these blackout curtains. Here's what that number means.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-17-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-17-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-09-18_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-18-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-18-001.mp4",
@@ -6951,11 +7051,12 @@
       "affiliate_url": null
     },
     "hook": "133,371 people rated these blackout curtains. That number is the review.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-18-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-18-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-09-19_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-19-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-19-001.mp4",
@@ -6976,11 +7077,12 @@
       "affiliate_url": null
     },
     "hook": "133,371 people rated these blackout curtains before you even looked at them.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-19-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-19-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-09-20_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-20-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-20-001.mp4",
@@ -7001,11 +7103,12 @@
       "affiliate_url": null
     },
     "hook": "106,545 people rated this mattress protector. 4.5 stars.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-20-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-20-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-09-21_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-21-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-21-001.mp4",
@@ -7026,7 +7129,8 @@
       "affiliate_url": null
     },
     "hook": "106,545 people rated this twin mattress protector. It still sits at 4.5 stars.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-21-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-21-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "id": "carousel-2026-09-21-B0157T2ENY",
@@ -7048,7 +7152,7 @@
   },
   {
     "name": "reel_repurpose_2026-09-21_901",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-21-901.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-21-901.mp4",
@@ -7063,11 +7167,12 @@
       "#smallspacedecor"
     ],
     "hook": "A $16 plug-in sconce is trending. Does it work?",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-21-901.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-21-901.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_repurpose_2026-09-21_902",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-21-902.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-21-902.mp4",
@@ -7081,11 +7186,12 @@
       "#budgetlighting"
     ],
     "hook": "Why your $16 sconce won't light your hallway",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-21-902.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-21-902.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_repurpose_2026-09-21_903",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-21-903.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-21-903.mp4",
@@ -7100,7 +7206,8 @@
       "#cozyaesthetic"
     ],
     "hook": "$11.99 fairy lights beat a $16 sconce for glow",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-21-903.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-21-903.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_repurpose_2026-09-21_904",
@@ -7121,7 +7228,7 @@
   },
   {
     "name": "reel_repurpose_2026-09-21_905",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-21-905.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-21-905.mp4",
@@ -7136,11 +7243,12 @@
       "#homedecorfinds"
     ],
     "hook": "I built the viral cozy corner for $90, not $16",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-21-905.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-21-905.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-09-22_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-22-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-22-001.mp4",
@@ -7161,7 +7269,8 @@
       "affiliate_url": "https://www.amazon.com/dp/B0157T2ENY?tag=goldenhomep0a-20"
     },
     "hook": "179,574 people rated this blanket. Only 4.6 of them average a complaint.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-22-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-22-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "id": "carousel-2026-09-22-B00R55CIRQ",
@@ -7183,7 +7292,7 @@
   },
   {
     "name": "reel_2026-09-23_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-23-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-23-001.mp4",
@@ -7204,7 +7313,8 @@
       "affiliate_url": "https://www.amazon.com/dp/B07PMFVC9X?tag=goldenhomep0a-20"
     },
     "hook": "106,656 people rated this mattress protector. Almost none mention leaks.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-23-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-23-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "id": "carousel-2026-09-23-B07PMFVC9X",
@@ -7226,7 +7336,7 @@
   },
   {
     "name": "reel_2026-09-24_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-24-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-24-001.mp4",
@@ -7247,11 +7357,12 @@
       "affiliate_url": null
     },
     "hook": "106,545 reviews on one twin mattress protector. That's not a fluke.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-24-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-24-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-09-25_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-25-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-25-001.mp4",
@@ -7272,7 +7383,8 @@
       "affiliate_url": "https://www.amazon.com/dp/B01IE7P2VW?tag=goldenhomep0a-20"
     },
     "hook": "140,548 ratings, 4.6 stars, and almost nobody mentions thread count.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-25-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-25-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "id": "carousel-2026-09-25-B01IE7P2VW",
@@ -7294,7 +7406,7 @@
   },
   {
     "name": "reel_2026-09-26_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-26-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-26-001.mp4",
@@ -7315,7 +7427,8 @@
       "affiliate_url": null
     },
     "hook": "106,545 reviews, 4.5 stars, $12.99 \u2014 that combination doesn't happen for a bad seal.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-26-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-26-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "id": "carousel-2026-09-26-B0F24MHHFD",
@@ -7353,7 +7466,7 @@
   },
   {
     "name": "reel_2026-09-27_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-27-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-27-001.mp4",
@@ -7374,11 +7487,12 @@
       "affiliate_url": null
     },
     "hook": "Your old dial scale is basically a guessing game.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-27-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-27-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-09-27_002",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-27-002.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-27-002.mp4",
@@ -7399,11 +7513,12 @@
       "affiliate_url": "https://www.amazon.com/dp/B00LS9UD2M?tag=goldenhomep0a-20"
     },
     "hook": "Why is your bathroom floor always wet after a shower?",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-27-002.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-27-002.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-09-27_003",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-27-003.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-27-003.mp4",
@@ -7424,11 +7539,12 @@
       "affiliate_url": "https://www.amazon.com/dp/B0157T2ENY?tag=goldenhomep0a-20"
     },
     "hook": "Ever kick the blanket off then grab it right back?",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-27-003.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-27-003.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-09-28_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-28-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-28-001.mp4",
@@ -7449,11 +7565,12 @@
       "affiliate_url": null
     },
     "hook": "A cup tips over on the bed and everyone panics.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-28-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-28-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-09-28_002",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-28-002.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-28-002.mp4",
@@ -7474,11 +7591,12 @@
       "affiliate_url": null
     },
     "hook": "Sagging pillows get blamed on the cover. The problem is what's stuffed inside it.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-28-002.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-28-002.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_2026-09-28_003",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-28-003.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-28-003.mp4",
@@ -7499,7 +7617,8 @@
       "affiliate_url": null
     },
     "hook": "A cup of flour isn't a measurement. It's a guess with a lid on it.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-28-003.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-28-003.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "id": "carousel-2026-09-28-B09FX7TFJV",
@@ -7519,7 +7638,7 @@
   },
   {
     "name": "reel_repurpose_2026-09-28_901",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-28-901.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-28-901.mp4",
@@ -7533,11 +7652,12 @@
       "#amazonhome"
     ],
     "hook": "77,562 reviews say this $35 insert beats a $200 duvet",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-28-901.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-28-901.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_repurpose_2026-09-28_902",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-28-902.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-28-902.mp4",
@@ -7551,11 +7671,12 @@
       "#bedroommakeover"
     ],
     "hook": "The $27.99 fix for a bed that looks mismatched",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-28-902.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-28-902.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_repurpose_2026-09-28_903",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-28-903.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-28-903.mp4",
@@ -7569,11 +7690,12 @@
       "#fallbedroom"
     ],
     "hook": "$11.99 makes your pillows look like a hotel's",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-28-903.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-28-903.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_repurpose_2026-09-28_904",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-28-904.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-28-904.mp4",
@@ -7587,7 +7709,8 @@
       "#hotelbedathome"
     ],
     "hook": "Skip printed pillows \u2014 I buy $20.26 inserts instead",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-28-904.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-28-904.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "name": "reel_repurpose_2026-09-28_905",
@@ -7609,7 +7732,7 @@
   },
   {
     "name": "reel_2026-09-29_001",
-    "status": "ready",
+    "status": "superseded_2026-09-30",
     "script_path": "automation/scripts/reel-2026-09-29-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-29-001.mp4",
@@ -7630,7 +7753,8 @@
       "affiliate_url": "https://www.amazon.com/dp/B09FX7TFJV?tag=goldenhomep0a-20"
     },
     "hook": "Everyone blames the cleaner. It's actually the cloth.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-29-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-29-001.mp4",
+    "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
     "id": "carousel-2026-09-29-B07P5NBRL5",
