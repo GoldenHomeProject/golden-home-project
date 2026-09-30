@@ -5218,5 +5218,19 @@
     "posted": false,
     "source": "pinterest_pipeline",
     "drop_observed_to": null
+  },
+  {
+    "id": "pin-2026-09-30-B07TLWRZTT",
+    "asin": "B07TLWRZTT",
+    "board": "Home Organization Finds",
+    "title": "Home Organization Ideas: 100Pcs Bats Halloween Decorations: Halloween\u2026 \u2014 $5.69",
+    "description": "LUDILO 100Pcs Bats Halloween Decorations: Halloween\u2026 for home organization ideas. Rated 4.5\u2605 across 10,057 reviews \u00b7 $5.69. Prices were accurate when this was published and change often. Tap through for the current listing. Amazon affiliate link \u2014 we may earn a commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B07TLWRZTT?tag=goldenhomep0a-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-09-30-B07TLWRZTT.png",
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-09-30-B07TLWRZTT.png",
+    "queued_at": "2026-09-30T10:10:34.411265Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null
   }
 ]
