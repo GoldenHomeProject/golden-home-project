@@ -285,6 +285,47 @@ BOARD_MAP = [
 ]
 DEFAULT_BOARD = ("Home Organization Finds", "minimal organized home")
 
+# ---------------------------------------------------------------- gift lane
+# Added 2026-09-30. From October to Christmas the highest-intent home searches on
+# Pinterest are gift searches ("gifts under $25", "hostess gift", "stocking stuffers"),
+# and GHP had zero gift pins. A gift pin is a new angle on a product we may already
+# have pinned, so it is allowed once per product even if the product was pinned before.
+GIFT_BOARD = ("Gifts Under $25 for the Home", "wrapped gift cozy home")
+GIFT_MAX_PRICE = 25.0
+GIFT_MIN_REVIEWS = 2000
+# Things people actually give. An under-sink rack is not a gift; a throw blanket is.
+GIFT_WORDS = ("throw", "blanket", "towel", "kettle", "pitcher", "candle", "diffuser",
+              "lazy susan", "turntable", "sheet set", "pillowcase", "mug", "night light",
+              "spice", "jar", "tray", "basket", "coaster", "vase", "frame", "slipper",
+              "robe", "tumbler", "string light", "wreath")
+
+
+def gift_share(now: datetime) -> int:
+    """1 gift pin in every N, by season; 0 = gift lane off."""
+    md = (now.month, now.day)
+    if (10, 1) <= md <= (10, 31):
+        return 3
+    if (11, 1) <= md <= (12, 20):
+        return 2
+    return 0
+
+
+def gift_eligible(e: dict) -> bool:
+    blob = (str(e.get("product_name", "")) + " " + " ".join(e.get("categories") or [])).lower()
+    if e.get("status") != "live" or not any(w in blob for w in GIFT_WORDS):
+        return False
+    # Consumables and chores are not gifts: "pitcher" matched Brita replacement
+    # filters and "towel" matched microfiber cleaning cloths.
+    if any(w in blob for w in ("filter", "replacement", "refill", "cleaning", "cloth",
+                               "insert", "liner", "protector", "trash", "toilet")):
+        return False
+    m = re.search(r"[\d,]+\.\d{2}", str(e.get("verified_price") or ""))
+    s = re.search(r"\d+(?:\.\d+)?", str(e.get("verified_stars") or ""))
+    r = re.search(r"[\d,]+", str(e.get("verified_reviews") or ""))
+    return bool(m and 5 <= float(m.group().replace(",", "")) <= GIFT_MAX_PRICE
+                and s and float(s.group()) >= 4.5
+                and r and int(r.group().replace(",", "")) >= GIFT_MIN_REVIEWS)
+
 
 def load_json(p: Path, default):
     if p.exists():
@@ -463,6 +504,7 @@ _BOARD_HOOK = {
     "Outdoor & Patio": "Make the Patio Yours",
     "Home Storage Solutions": "Storage That Works",
     "Home Organization Finds": "The Find Worth Sharing",
+    "Gifts Under $25 for the Home": "A Gift They'll Actually Use",
 }
 
 
@@ -501,6 +543,7 @@ _BOARD_SEARCH = {
     "Home Storage Solutions":     "home storage solutions",
     "Home Organization Finds":    "home organization ideas",
     "Bedroom Storage & Bedding":  "bedroom storage ideas",
+    "Gifts Under $25 for the Home": "gift ideas under $25",
 }
 
 
@@ -904,6 +947,30 @@ def main() -> int:
     date_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     made = 0
 
+    # Gift lane: in season, 1 in every N slots goes to a gift pin, best-reviewed first,
+    # each product at most one gift pin ever.
+    n_gift = gift_share(datetime.now(timezone.utc))
+    if n_gift:
+        gifted = {p.get("asin") for p in queue if p.get("board") == GIFT_BOARD[0]}
+        gifts = [dict(e, _gift=True) for e in entries
+                 if gift_eligible(e) and e.get("asin") not in gifted]
+        gifts.sort(key=lambda e: int(re.sub(r"\D", "", str(e.get("verified_reviews"))) or 0),
+                   reverse=True)
+        # Two listings named "Queen Size 4 Piece Sheet Set" are one gift idea, not two.
+        seen_names, uniq = {p.get("gift_key") for p in queue if p.get("gift_key")}, []
+        for e in gifts:
+            key = str(e.get("product_name", "")).lower()[:40]
+            if key not in seen_names:
+                seen_names.add(key); uniq.append(e)
+        gifts = uniq
+        mixed, gi = [], 0
+        for e in entries:
+            if gi < len(gifts) and len(mixed) % n_gift == 0:
+                mixed.append(gifts[gi]); gi += 1
+            mixed.append(e)
+        entries = mixed
+        print(f"  [gift] {len(gifts)} gift-eligible; 1 in {n_gift} slots is a gift pin")
+
     for entry in entries:
         if made >= args.max:
             break
@@ -921,13 +988,17 @@ def main() -> int:
             print(f"  [skip] {asin} {why} — {(entry.get('product_name') or '')[:44]}")
             continue
         drop = DROPS.get(asin)
-        if not args.force and already_queued(asin, queue) and not drop:
+        gift = bool(entry.get("_gift"))
+        if gift and any(p.get("asin") == asin and p.get("board") == GIFT_BOARD[0]
+                        for p in queue):
+            continue          # one gift pin per product
+        if not args.force and already_queued(asin, queue) and not drop and not gift:
             continue
         if drop and any(p.get("asin") == asin
                         and p.get("drop_observed_to") == drop.get("observed_to")
                         for p in queue):
             continue          # already pinned THIS drop; don't repeat it
-        board, board_q = board_for(entry)
+        board, board_q = GIFT_BOARD if gift else board_for(entry)
         copy = claude_copy(entry, board) or template_copy(entry, board)
         # Do not WRITE an angle that is out of season. The product is usually fine —
         # floating shelves, laundry hampers and storage carts sell all year — but
@@ -966,7 +1037,7 @@ def main() -> int:
         if not pexels_q or not _photo_matches_product(pexels_q, name):
             pexels_q = _product_photo_query(name, board_q)
 
-        bg_path = PINS_DIR / f"bg-{date_str}-{asin}.jpg"
+        bg_path = PINS_DIR / f"bg-{date_str}-{asin}{'-gift' if gift else ''}.jpg"
         # Product image FIRST, stock photo second. A pin whose picture does not contain
         # the product cannot be saved or clicked, which is what our own pins were doing.
         pname = str(entry.get("product_name") or "")
@@ -989,7 +1060,7 @@ def main() -> int:
             price,
             board=board,
         )
-        img_path = PINS_DIR / f"pin-{date_str}-{asin}.png"
+        img_path = PINS_DIR / f"pin-{date_str}-{asin}{'-gift' if gift else ''}.png"
         img.save(img_path, "PNG", optimize=True)
 
         # Direct-to-Amazon by default, hub for roughly one pin in four.
@@ -1003,11 +1074,11 @@ def main() -> int:
         # Keeping one in four on hubs preserves on-site traffic (hubs carry their own
         # /dp/ links and feed SEO), without putting a detour in front of the majority.
         hub = blog_url_for(entry)
-        use_hub = hub and (len(queue) % 4 == 3)
+        use_hub = hub and (len(queue) % 4 == 3) and not gift   # gift shoppers go straight to the product
         link = hub if use_hub else build_affiliate_url(asin, "pinterest")
         rel = str(img_path.relative_to(ROOT))
         queue.append({
-            "id": f"pin-{date_str}-{asin}",
+            "id": f"pin-{date_str}-{asin}" + ("-gift" if gift else ""),
             "asin": asin,
             "board": board,
             "title": _drop_title(copy["title"], DROPS.get(asin))[:100],
@@ -1019,6 +1090,7 @@ def main() -> int:
             "posted": False,
             "source": "pinterest_pipeline",
             "drop_observed_to": (DROPS.get(asin) or {}).get("observed_to"),
+            "gift_key": str(entry.get("product_name", "")).lower()[:40] if gift else None,
         })
         made += 1
         print(f"  [pin] {asin} board={board!r} link={'blog' if link.startswith(SITE) else 'amazon'} -> {rel}")
