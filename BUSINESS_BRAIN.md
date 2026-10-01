@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-10-01 (Strategy & Outreach 9am)
+# Last updated: 2026-10-01 (Affiliate Optimizer 10am)
 # ============================================================
 
 ---
@@ -945,7 +945,25 @@ Agent configs live in `/private/tmp/golden-home-project/automation/agents/`.
   - **Oct 2 (THIS WEEK)**: eufy follow-up — influencer@eufylife.com (fall sale ends Oct 11 — must send)
   - **Oct 4**: Winix — check reply; if silent try website form or LinkedIn
   - **Oct 7**: Liberty Hardware follow-up (marketing@libertyhardware.com) OR apply via CJ/ShareASale portal
+  - **Oct 2 (THIS WEEK)**: eufy follow-up — influencer@eufylife.com (fall sale ends Oct 11 — SEND TODAY)
+  - **Oct 4**: Winix — check reply; if silent try website form or LinkedIn
+  - **Oct 7**: Liberty Hardware follow-up (marketing@libertyhardware.com) OR apply via CJ/ShareASale portal
   - **Oct 7**: Zinus follow-up (collab@zinus.com) OR apply via FlexOffers portal
+
+- [ ] **🚨 CJ DEACTIVATION — DAY OF (Oct 1, 2026-10-01)** — Today is Oct 1. Dormancy window has arrived. **IAN: log into CJ publisher portal NOW.** If Wayfair/GreenLife/Levoit applications were submitted Sep 30, check approval status. If NOT submitted, apply today — 90-day reactivation window starts if dormancy triggers. AliExpress 9% (CID 7711902) advertiser relationship preserved through dormancy. Any CJ commission before end of Oct 1 still prevents dormancy. Content Engine: all Oct 1 scripts (peel-and-stick cabinet wrap, Halloween porch, Mamma Mia) should embed AliExpress product links (CID 7711902) for storage bins/organizer accessories where product overlap exists. (Affiliate Optimizer 2026-10-01)
+
+- [ ] **🆕 HIGH-AOV OPPORTUNITIES — OCT 1 (Affiliate Optimizer 2026-10-01)**
+  - **Peel-and-stick cabinet contact paper** ($12-23, Trend Scout Oct 1 #1) — TikTok #rentalkitchen + @ironhearthome format. ZERO GHP coverage since Sep 23 flag = 8 days unscripted. Amazon goldenhomep0a-20 — IAN: search "peel and stick contact paper wood grain oak kitchen cabinet" in Associates. Renter-safe, no paint, instant before/after, kitchen arc slot 1 of 3.
+  - **Battery-operated orange Halloween LED lights** ($12-15) — Oct 7 DEADLINE = 6 DAYS. TikTok "Front Porch Halloween Decor DIY" discover page active. Pairs with poseable skeleton $25 + drop cloth mummy columns $6 = $43 renter porch transformation. Amazon goldenhomep0a-20 — IAN: search "battery operated orange Halloween string lights outdoor timer" in Associates. CRITICAL: must script AND render by Oct 5 to post by Oct 7.
+  - **Peel-and-stick removable wallpaper (terracotta/sage)** ($19-35, Trend Scout Oct 1 #2) — confirmed #1 renter decor format fall 2026 across TikTok + Pinterest. NuWallpaper mass-market entry point. Amazon goldenhomep0a-20 — IAN: search "peel and stick removable wallpaper roll terracotta" in Associates. Pairs with dark cottagecore bedroom arc.
+  - **Cozy October reset audio arc** — Algorithm is actively pushing fall home content Oct 1. 3 viral audios active simultaneously (Hocus Pocus remix, Mazzy Star "Fade Into You," "After All Seasons Change"). Any fall transformation video gets organic algorithm boost this week. Content Engine: brief to use cozy October audio trend framing on all Oct 1-7 scripts.
+  - **Nancy Meyers renter kitchen** ($47, Alexandra Gater window CLOSING) — Gater has NOT posted since Sep 19 (12 days). Our window to own the RENTER BUDGET VERSION closes Oct 3-5. TODAY is the last viable scripting day to beat Gater. Budget: wooden bowl $12 + linen dish towels $14 + fresh florals $8 + brass canister $13 = $47. Amazon goldenhomep0a-20 ready. Hook: "I don't rent a cottage in Provence. $47. Same rental kitchen. Nancy Meyers would approve."
+
+- [ ] **REVENUE INTELLIGENCE UPDATE — OCT 1 (Affiliate Optimizer 2026-10-01)**
+  - **Highest-commission active partner with content gap:** Mamma Mia 24-30% — 20th+ consecutive Trend Scout day ZERO scripts. Revenue math: $49 × 27% avg = **$13.23/sale** vs Amazon equivalent $49 × 4% = **$1.96/sale**. Every day unscripted = 6.75x revenue lost per sale opportunity. UNBREAKABLE Content Engine mandate.
+  - **Highest absolute per-sale partner:** Homary up to 12% on $800+ AOV = **up to $96/sale**. IAN Awin express signup + Lauren reply STILL PENDING (accepted invitation Sep 29). This is the highest single-sale revenue opportunity in the entire portfolio. IAN: complete Awin express signup immediately and send affiliate ID to Lauren at affiliate@homary.com.
+  - **Highest unrealized commission (blocked by IAN action):** Rewarx 50% recurring — Awin invitation resent Sep 21, acceptance still pending 10+ days. IAN: log into Awin browser dashboard → accept Advertiser ID 129153 → reply to studio@rewarx.com for Golden10 promo code.
+  - **Halloween content revenue math:** Halloween porch $43 × 6% Amazon = $2.58/sale, but HIGH VOLUME (peak Oct 7-15, national audience, neighbor-tagging share rate). Plus Audible $20 + Prime $12 bounties stackable on same cozy fall content. Total revenue stack per viewer conversion: up to ~$35.
 
 ---
 *This file is automatically updated by agents. Human review recommended weekly.*
