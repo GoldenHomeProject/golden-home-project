@@ -45,7 +45,12 @@ LOG_PATH = REPO_ROOT / "social" / "pinterest_post_log.json"
 # truth for "already posted" and for the daily cap.
 LEDGER_PATH = Path.home() / ".ghp-engagement" / "pinterest_posted_ledger.json"
 PROFILE_DIR = Path.home() / ".config" / "ghp-chromium"
-CHROMIUM_BIN = "/usr/bin/chromium"
+# Playwright's bundled Chromium, not /usr/bin/chromium (v142). On 2026-09-30 a one-off
+# script opened the shared ghp-chromium profile with the bundled build (v149), which
+# upgraded the profile; v142 then crashed on launch (Trace/breakpoint trap) and every
+# job on this profile stopped. Profiles only migrate forward, so every user of the
+# profile must use the same (newest) build. None = Playwright's own bundled binary.
+CHROMIUM_BIN = None
 # Use /pin-builder/ — /pin-creation-tool/ renders a different layout that
 # lacks the title field and publish button (board-dropdown-save-button count 0).
 PIN_BUILDER_URL = "https://www.pinterest.com/pin-builder/"

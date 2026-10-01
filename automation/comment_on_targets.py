@@ -47,7 +47,12 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 LOG_PATH = REPO_ROOT / "social" / "engagement_log.json"
 TARGETS_PATH = REPO_ROOT / "automation" / "comment_targets.json"
 PROFILE_DIR = Path.home() / ".config" / "ghp-chromium"
-CHROMIUM_BIN = "/usr/bin/chromium"
+# Playwright's bundled Chromium, not /usr/bin/chromium (v142). On 2026-09-30 a one-off
+# script opened the shared ghp-chromium profile with the bundled build (v149), which
+# upgraded the profile; v142 then crashed on launch (Trace/breakpoint trap) and every
+# job on this profile stopped. Profiles only migrate forward, so every user of the
+# profile must use the same (newest) build. None = Playwright's own bundled binary.
+CHROMIUM_BIN = None
 
 DAILY_CAP = 5
 RECOMMENT_DAYS = 7  # don't comment on same handle within this window

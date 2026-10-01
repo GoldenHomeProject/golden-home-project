@@ -65,7 +65,12 @@ assert NEW_TAG not in DEAD_TAGS
 USERNAME = "goldenhomeprojectllc"
 CREATED_URL = f"https://www.pinterest.com/{USERNAME}/_created/"
 PROFILE_DIR = Path.home() / ".config" / "ghp-chromium"
-CHROMIUM_BIN = "/usr/bin/chromium"
+# Playwright's bundled Chromium, not /usr/bin/chromium (v142). On 2026-09-30 a one-off
+# script opened the shared ghp-chromium profile with the bundled build (v149), which
+# upgraded the profile; v142 then crashed on launch (Trace/breakpoint trap) and every
+# job on this profile stopped. Profiles only migrate forward, so every user of the
+# profile must use the same (newest) build. None = Playwright's own bundled binary.
+CHROMIUM_BIN = None
 STATE_DIR = Path.home() / ".ghp-engagement"
 LEDGER_PATH = STATE_DIR / "pin_repoint_ledger.json"
 INVENTORY_PATH = STATE_DIR / "pin_repoint_inventory.json"
