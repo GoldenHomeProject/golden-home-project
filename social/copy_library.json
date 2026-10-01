@@ -3214,6 +3214,52 @@
           }
         ]
       }
+    ],
+    "DESIGN": [
+      {
+        "hook_category": "question",
+        "hook": "Ever get slapped by a cold wet curtain mid-shower?",
+        "beat1": "Thin liners trap steam and cling right to your arm or leg the second the water heats up. They also grime up fast along the bottom edge, which is the part you see every single morning.",
+        "turn": "This is an Oeko-tex certified liner, meaning it's been tested for harmful substances, in a standard size that fits most shower rods and tubs. Over a hundred thousand people rate it 4.5 stars.",
+        "result": "A liner that hangs where it should instead of wrapping around you, for about $9.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close-up in a steamy shower of a hand pushing a clinging plastic curtain liner away from a bare arm, water droplets on skin",
+            "on_screen_text": "That wet curtain slap again",
+            "voiceover": "Ever get slapped by a cold wet curtain mid-shower?"
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Close-up of the bottom edge of a shower curtain liner in a tiled bathroom, slightly discolored and clinging to the tub wall",
+            "on_screen_text": "thin liners cling and grime up",
+            "voiceover": "Thin liners trap steam and cling right to you, and the bottom edge grimes up faster than you'd think."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Hands clipping a new shower curtain liner onto rings on a standard shower rod above a bathtub",
+            "on_screen_text": "Oeko-tex certified, standard size",
+            "voiceover": "This one's Oeko-tex certified, tested for harmful substances, and sized to fit a standard tub and rod."
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "Wide shot of a clean bathroom with the shower curtain and liner hanging flat and straight along the tub",
+            "on_screen_text": "rated 4.5 stars by thousands",
+            "voiceover": "Over a hundred thousand people have rated it 4.5 stars."
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "Person stepping into the shower with the curtain hanging straight and still, no clinging, calm morning light",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "A liner that stays where it's hung, for about $9. Comment {KEYWORD} and I'll send the link."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
