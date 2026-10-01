@@ -5481,6 +5481,22 @@
       "verified_stars": "4.5",
       "verified_reviews": 10057,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B083TCZDMT",
+      "product_name": "Contigo Byron Vacuum-Insulated Stainless Steel Travel Mug, Licorice, 16oz | Leak-Proof Lid, Thermalock Insulation, Hot 6",
+      "categories": [
+        "kitchen",
+        "Kitchen"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B083TCZDMT?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-10-01",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$12.49",
+      "verified_stars": "4.5",
+      "verified_reviews": 44931,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
