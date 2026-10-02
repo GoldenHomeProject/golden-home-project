@@ -39,6 +39,22 @@ PEXELS_API_KEY = os.environ.get("PEXELS_API_KEY", "").strip()
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36")
 SECS = 8
+# Each Pexels clip is used once. Three frame gift pins all got clip 8947326 on 2026-10-02;
+# Pinterest treats a picture it has already seen as stale, so a reused clip is a weak pin.
+USED = Path.home() / ".ghp-engagement" / "pexels_video_used.json"
+
+
+def _used() -> set:
+    try:
+        return set(json.loads(USED.read_text()))
+    except (OSError, ValueError):
+        return set()
+
+
+def _mark_used(vid) -> None:
+    u = _used() | {vid}
+    USED.parent.mkdir(parents=True, exist_ok=True)
+    USED.write_text(json.dumps(sorted(u)))
 UNSAFE = ("bar", "pub", "whisky", "whiskey", "beer", "wine", "cocktail", "alcohol",
           "smoking", "cigarette", "casino", "bikini", "lingerie", "nude", "party")
 
@@ -139,7 +155,7 @@ def make_video_pin(queries: list[str], subject: str, headline: str, product_name
             for v in _search(q):
                 if checked >= tries:
                     return None
-                if v.get("id") in seen or (v.get("duration") or 0) < 5:
+                if v.get("id") in seen or v.get("id") in _used() or (v.get("duration") or 0) < 5:
                     continue
                 seen.add(v.get("id"))
                 words = _slug_words(v)
@@ -181,6 +197,7 @@ def make_video_pin(queries: list[str], subject: str, headline: str, product_name
                 if _ff("-t", f"{dur}", "-i", str(src), "-i", str(ov), "-filter_complex", fc,
                        "-t", f"{dur}", "-an", "-c:v", "libx264", "-preset", "veryfast",
                        "-crf", "21", "-movflags", "+faststart", str(out_mp4)):
+                    _mark_used(v.get("id"))
                     return out_mp4
     return None
 
