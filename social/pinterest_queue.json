@@ -5346,13 +5346,13 @@
     "image_path": "social/pinterest/video/pin-2026-10-02-B08XVP48KQ-gift.mp4",
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-02-B08XVP48KQ-gift.png",
     "queued_at": "2026-10-02T10:11:45.366889Z",
-    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": "upsimples 8x10 picture frames",
     "fallback_image_path": "social/pinterest/pin-2026-10-02-B08XVP48KQ-gift.png",
     "media": "video",
-    "posted_at": "2026-10-02T18:40:44Z"
+    "posted": true,
+    "posted_at": "2026-10-02T18:48:05Z"
   },
   {
     "id": "pin-2026-10-02-B01M0AGUPO-gift",
