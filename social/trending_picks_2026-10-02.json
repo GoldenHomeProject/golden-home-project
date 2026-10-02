@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-10-02",
+  "category": "Bath Linens",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-bath-towels-and-linens.html",
+  "picks": [
+    {
+      "asin": "B010S5VXKC",
+      "name": "Amazon Basics Fast Drying Cotton Washcloths for Bathroom",
+      "price": "$16.72",
+      "rating": 4.6,
+      "reviews": 76003,
+      "rank": 2
+    },
+    {
+      "asin": "B078HWZJWS",
+      "name": "M-bestl 2 Pack Microfiber Hair Towel Wrap with Button,Quick Dry(Pink&B",
+      "price": "$8.48",
+      "rating": 4.6,
+      "reviews": 22540,
+      "rank": 14
+    },
+    {
+      "asin": "B09FX7TFJV",
+      "name": "MR.SIGA Microfiber Cleaning Cloths",
+      "price": "$16.75",
+      "rating": 4.7,
+      "reviews": 105048,
+      "rank": 17
+    },
+    {
+      "asin": "B007JCHA6E",
+      "name": "Utopia Towels 24 Pack Washcloths",
+      "price": "$24.98",
+      "rating": 4.6,
+      "reviews": 75335,
+      "rank": 4
+    },
+    {
+      "asin": "B08S31RWBK",
+      "name": "Hicober Microfiber Hair Towel Wrap for Women",
+      "price": "$12.99",
+      "rating": 4.6,
+      "reviews": 35108,
+      "rank": 7
+    },
+    {
+      "asin": "B07B6GC5GY",
+      "name": "Amazon Basics Cotton Washcloths",
+      "price": "$10.49",
+      "rating": 4.6,
+      "reviews": 11122,
+      "rank": 8
+    }
+  ]
+}
