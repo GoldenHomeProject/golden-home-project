@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -40,9 +41,11 @@ def main() -> int:
         _, board_q = pp.board_for(e) if e else ("", "")
         vq = [q for q in dict.fromkeys(queries_for(name) + [f"{pp._product_photo_query(name, board_q)} close up"]) if q]
         mp4 = pp.PINS_DIR / "video" / f"{pin['id']}.mp4"
-        headline = pin.get("title", "").split(":")[-1].split("—")[0].strip() or pp._short_name(name)
         print(f"[upgrade] {pin['id']} — {subject}")
-        if not make_video_pin(vq, subject, pp._fit(pin.get("title", ""), 60), pp._short_name(name),
+        # Search phrase + clean product name. The pin title ran long and got cut mid-phrase
+        # ("…Pillowcase Set Reduces"); the price already has its own chip on the video.
+        headline = f"{pp._search_phrase(pin['board']).title()}: {pp._strip_brand(pp._short_name(name, limit=40))}"
+        if not make_video_pin(vq, subject, headline, pp._short_name(name),
                               str(e.get("verified_price") or ""), pp._search_phrase(pin["board"]), mp4):
             print("  no clean clip — keeping the still")
             continue

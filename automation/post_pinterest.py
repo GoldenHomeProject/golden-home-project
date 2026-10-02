@@ -209,6 +209,14 @@ def publish_pin(pin: dict, dry: bool) -> str:
             return f"upload_failed:{e}"
         jitter(3, 6)
 
+        # Pinterest's "New! Media library" tooltip sits over the upload card; dismiss it.
+        try:
+            if page.get_by_role("button", name="Got it").count():
+                page.get_by_role("button", name="Got it").first.click()
+                jitter(0.5, 1.0)
+        except Exception:
+            pass
+
         # Video pins upload, then Pinterest transcodes before the form is usable.
         # Wait until the title field is ready and no upload/processing notice remains.
         if pin.get("media") == "video" or str(img).endswith(".mp4"):
@@ -225,7 +233,11 @@ def publish_pin(pin: dict, dry: bool) -> str:
                 if page.get_by_text(re.compile(r"isn.t encoded in H\.264", re.I)).count():
                     ctx.close()
                     return "upload_failed:codec"
-                if title_ok and not busy:
+                try:
+                    loaded = page.locator("video").count() > 0
+                except Exception:
+                    loaded = False
+                if title_ok and not busy and loaded:
                     ready = True
                     break
                 time.sleep(5)
@@ -331,7 +343,9 @@ def publish_pin(pin: dict, dry: bool) -> str:
         try:
             page.wait_for_selector(
                 "text=/you created a pin|see your pin|your pin has been/i",
-                timeout=12000)
+                # A video pin is still spinning after 20 s; closing the browser then
+                # cancels the publish (2026-10-02: two video attempts lost this way).
+                timeout=90000 if video else 12000)
             confirmed = True
         except Exception:
             confirmed = False
