@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-10-02T11:32:19.887420Z",
+  "date": "2026-10-02",
+  "seq": 1,
+  "hook_category": "scene",
+  "hook": "Your desk has a permanent ring from that water bottle.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "A hand lifting a plastic water bottle off a wooden home office desk, revealing a faint water ring underneath, morning light from a window.",
+      "on_screen_text": "That ring on your desk",
+      "voiceover": "Your desk has a ring from that water bottle. Again."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Close-up of condensation beads running down the side of a clear plastic cup on a wood table, water pooling at the base.",
+      "on_screen_text": "Condensation, not your imagination",
+      "voiceover": "Thin cups sweat the second the ice starts working, so moisture ends up on your desk or nightstand instead of in the cup."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "A hand holding a stainless steel tumbler by its side handle, straw visible, set on a dry wooden desk next to a laptop, no ring underneath.",
+      "on_screen_text": "Double-wall, handle, built-in straw",
+      "voiceover": "This tumbler is double-wall insulated, with a handle to carry it and a straw built in, so the cold stays inside instead of dripping down the sides."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "A tumbler with a straw sitting on a kitchen counter next to a full water pitcher, in a bright home kitchen.",
+      "on_screen_text": "Full 30 ounces, one fill",
+      "voiceover": "It's rated 4.7 stars from over two hundred thousand people, and it holds a full 30 ounces, enough to get most people through a workday without a refill."
+    },
+    {
+      "n": 5,
+      "duration_sec": 5,
+      "visual_prompt": "A person walking out the front door of a home holding the tumbler by its handle, keys in the other hand, morning daylight.",
+      "on_screen_text": "Comment STANLEY for the link",
+      "voiceover": "No more wiping down your desk before a meeting, and it's about $32. Comment STANLEY and I'll send the link."
+    }
+  ],
+  "caption": "Your desk has a permanent ring from that water bottle.\n\nThin cups sweat the moment ice hits them, so moisture ends up wherever they're sitting instead of staying inside the cup. On a wood desk or nightstand, that turns into a ring you have to wipe down before company or coworkers walk by.\n\nThis tumbler is double-wall insulated with a built-in handle and straw, so it holds the cold in rather than letting it sweat through to whatever it's sitting on. It's rated 4.7 stars from about two hundred thousand reviews.\n\nThat's one less thing to wipe down before a meeting, and it holds a full 30 ounces for about $32.\n\nComment STANLEY and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "This tumbler is double-wall insulated with a built-in handle and straw, so it holds the cold in rather than letting it sweat through to whatever it's sitting on. It's rated 4.7 stars from about two hu",
+  "affiliate_strategy": {
+    "primary_product": "STANLEY Quencher H2.0 Tumbler with Handle and Straw 30 oz",
+    "dm_keyword": "STANLEY",
+    "amazon_asin": "B0CP9YB3Q4",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B0CP9YB3Q4?tag=goldenhomep0a-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": null
+  }
+}
