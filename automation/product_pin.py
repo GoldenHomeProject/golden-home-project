@@ -47,8 +47,12 @@ FOOT_H = int(PIN_H * BAND["foot"])
 
 def render_product_pin(headline: str, product_name: str, price: str,
                        photo: Path | None, kicker: str = "", updated: str = "",
-                       footer: str = "goldenhomeproject.com") -> Image.Image:
-    canvas = Image.new("RGB", (PIN_W, PIN_H), WHITE)
+                       footer: str = "goldenhomeproject.com",
+                       window: bool = False) -> Image.Image:
+    """window=True: the photo card is left TRANSPARENT (RGBA) so a video can play
+    behind it — the video pin is this exact layout with motion in the card. The card
+    rectangle is returned in img.info["card"] as (x, y, w, h)."""
+    canvas = Image.new("RGBA" if window else "RGB", (PIN_W, PIN_H), WHITE)
     draw = ImageDraw.Draw(canvas)
 
     # ---- measure the type block before drawing anything ----------------------
@@ -91,7 +95,15 @@ def render_product_pin(headline: str, product_name: str, price: str,
     card_top = head_h + 24
     card_h = PIN_H - FOOT_H - card_top - 24
     card_w = PIN_W - 2 * MARGIN
-    if photo and Path(photo).exists():
+    if window:
+        hole = Image.new("L", (PIN_W, PIN_H), 255)
+        ImageDraw.Draw(hole).rounded_rectangle(
+            [MARGIN, card_top, MARGIN + card_w, card_top + card_h],
+            radius=RADIUS["card"], fill=0)
+        canvas.putalpha(hole)
+        draw = ImageDraw.Draw(canvas)
+        canvas.info["card"] = (MARGIN, card_top, card_w, card_h)
+    elif photo and Path(photo).exists():
         im = Image.open(photo).convert("RGB")
         # Our pins were consistently dark and muddy; Pinterest rewards bright and airy.
         im = ImageEnhance.Brightness(im).enhance(1.14)
@@ -99,8 +111,9 @@ def render_product_pin(headline: str, product_name: str, price: str,
         im = _cover(im, card_w, card_h)
     else:
         im = Image.new("RGB", (card_w, card_h), PLACEHOLDER)
-    rounded = _rounded(im, RADIUS["card"])
-    canvas.paste(rounded, (MARGIN, card_top), rounded)
+    if not window:
+        rounded = _rounded(im, RADIUS["card"])
+        canvas.paste(rounded, (MARGIN, card_top), rounded)
 
     # price chip, bottom-left of the photo
     if price:

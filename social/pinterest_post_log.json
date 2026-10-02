@@ -2359,6 +2359,20 @@
       "pin_id": "pin-2026-09-28-B0028JURDQ",
       "board": "Home Storage Solutions",
       "link": "https://www.amazon.com/dp/B0028JURDQ?tag=goldenhomep0a-20&ascsubtag=pinterest"
+    },
+    {
+      "ts": "2026-10-02T17:55:24Z",
+      "action": "board_fallback",
+      "pin_id": "pin-2026-10-01-B00NX0WXQI-gift",
+      "wanted": "Gifts Under $25 for the Home",
+      "used": "Home Organization Finds"
+    },
+    {
+      "ts": "2026-10-02T17:58:55Z",
+      "action": "pin_published",
+      "pin_id": "pin-2026-10-01-B00NX0WXQI-gift",
+      "board": "Gifts Under $25 for the Home",
+      "link": "https://www.amazon.com/dp/B00NX0WXQI?tag=goldenhomep0a-20&ascsubtag=pinterest"
     }
   ]
 }

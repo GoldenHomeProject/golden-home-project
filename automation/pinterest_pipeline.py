@@ -1063,6 +1063,26 @@ def main() -> int:
         img_path = PINS_DIR / f"pin-{date_str}-{asin}{'-gift' if gift else ''}.png"
         img.save(img_path, "PNG", optimize=True)
 
+        # Gift pins go out as VIDEO pins when a clean real-footage clip can be found
+        # (automation/video_pin.py: Pexels HD, no faces, subject is the main focus).
+        # The still above stays as the fallback. Videos are built and posted on the Pi,
+        # so they live in an untracked folder — social/pinterest is already ~360 MB in
+        # git and GitHub Pages has a 1 GB cap.
+        video_rel = None
+        if gift:
+            try:
+                from video_pin import make_video_pin, queries_for
+                subject = _strip_brand(_short_name(name, limit=60))
+                vq = [q for q in dict.fromkeys(
+                    queries_for(name) + [f"{_product_photo_query(name, board_q)} close up", pexels_q]) if q]
+                mp4 = PINS_DIR / "video" / f"pin-{date_str}-{asin}-gift.mp4"
+                if make_video_pin(vq, subject,
+                                  copy.get("overlay_hook") or _short_name(name),
+                                  _short_name(name), price, _search_phrase(board), mp4):
+                    video_rel = str(mp4.relative_to(ROOT))
+            except Exception as e:  # noqa: BLE001 — a video must never cost the still pin
+                print(f"  [video] {asin} failed ({e}); posting the still")
+
         # Direct-to-Amazon by default, hub for roughly one pin in four.
         #
         # Evidence, 2026-08-30: Pinterest is the only channel that has produced sales.
@@ -1084,7 +1104,9 @@ def main() -> int:
             "title": _drop_title(copy["title"], DROPS.get(asin))[:100],
             "description": _drop_desc(copy["description"], DROPS.get(asin))[:500],
             "link": link,
-            "image_path": rel,
+            "image_path": video_rel or rel,
+            "media": "video" if video_rel else "image",
+            "fallback_image_path": rel if video_rel else None,
             "image_url": f"{RAW_GH_BASE}/{rel}",
             "queued_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
             "posted": False,

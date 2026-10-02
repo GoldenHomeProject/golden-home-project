@@ -41,3 +41,6 @@ automation/broll_assets/ov_*.png
 automation/broll_assets/reel_silent.mp4
 automation/broll_assets/concat.txt
 automation/broll_assets/vo.*
+
+# Video pins are built and posted on the Pi only (repo is already large; Pages caps at 1 GB).
+social/pinterest/video/

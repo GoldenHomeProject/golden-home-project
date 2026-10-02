@@ -27,6 +27,7 @@ import argparse
 import datetime as dt
 import json
 import random
+import re
 import sys
 import time
 from pathlib import Path
@@ -51,6 +52,14 @@ PROFILE_DIR = Path.home() / ".config" / "ghp-chromium"
 # job on this profile stopped. Profiles only migrate forward, so every user of the
 # profile must use the same (newest) build. None = Playwright's own bundled binary.
 CHROMIUM_BIN = None
+# Video pins need a browser that can decode H.264: Pinterest checks the upload with the
+# browser's own player, and Playwright's bundled Chromium ships without proprietary codecs
+# (canPlayType('avc1') == '' vs 'probably' for Debian's /usr/bin/chromium, 2026-10-02).
+# The main profile was migrated to v149 and can't be opened by v142, so video posting
+# uses its own profile, signed in to Pinterest once by the owner:
+#     automation/run_pinterest_video_login.sh   (then sign in via Raspberry Pi Connect)
+SYSTEM_CHROMIUM = "/usr/bin/chromium"
+VIDEO_PROFILE_DIR = Path.home() / ".config" / "ghp-chromium-video"
 # Use /pin-builder/ — /pin-creation-tool/ renders a different layout that
 # lacks the title field and publish button (board-dropdown-save-button count 0).
 PIN_BUILDER_URL = "https://www.pinterest.com/pin-builder/"
@@ -166,9 +175,10 @@ def publish_pin(pin: dict, dry: bool) -> str:
         return "missing_image"
 
     with sync_playwright() as p:
+        video = str(img).endswith(".mp4")
         ctx = p.chromium.launch_persistent_context(
-            user_data_dir=str(PROFILE_DIR),
-            executable_path=CHROMIUM_BIN,
+            user_data_dir=str(VIDEO_PROFILE_DIR if video else PROFILE_DIR),
+            executable_path=SYSTEM_CHROMIUM if video else CHROMIUM_BIN,
             headless=False,  # xvfb-run provides the display
             viewport={"width": 1280, "height": 900},
             locale="en-US",
@@ -183,7 +193,9 @@ def publish_pin(pin: dict, dry: bool) -> str:
 
         if detect_login_wall(page):
             ctx.close()
-            return "login_wall"
+            # The video profile is optional: if it isn't signed in, the caller posts
+            # the still instead of stopping the whole run.
+            return "upload_failed:video_profile_not_signed_in" if video else "login_wall"
         if detect_block(page):
             log_event("blocked", pin["id"], where="builder")
             ctx.close()
@@ -196,6 +208,31 @@ def publish_pin(pin: dict, dry: bool) -> str:
             ctx.close()
             return f"upload_failed:{e}"
         jitter(3, 6)
+
+        # Video pins upload, then Pinterest transcodes before the form is usable.
+        # Wait until the title field is ready and no upload/processing notice remains.
+        if pin.get("media") == "video" or str(img).endswith(".mp4"):
+            ready = False
+            for _ in range(36):                      # up to ~3 minutes
+                try:
+                    busy = page.get_by_text(re.compile(r"uploading|processing", re.I)).count()
+                    title_ok = page.locator("textarea[id^='pin-draft-title']").first.is_visible()
+                except Exception:
+                    busy, title_ok = 1, False
+                # Pinterest checks the codec with the BROWSER's own decoder. A browser
+                # without H.264 (Playwright's bundled Chromium) gets "This video isn't
+                # encoded in H.264 or H.265" while the title field looks ready.
+                if page.get_by_text(re.compile(r"isn.t encoded in H\.264", re.I)).count():
+                    ctx.close()
+                    return "upload_failed:codec"
+                if title_ok and not busy:
+                    ready = True
+                    break
+                time.sleep(5)
+            if not ready:
+                ctx.close()
+                return "video_not_ready"
+            jitter(2, 4)
 
         # First-run onboarding tour ("Great Pins made easy") overlays the
         # builder and silently swallows the publish click. Dismiss it.
@@ -329,6 +366,13 @@ def main() -> int:
     def _is_collage(pin):
         return pin.get("format") == "collage"
 
+    # A gift pin is a new angle on a product, aimed at a different search ("gifts
+    # under $25"), so it may post even if the product was pinned before. One per
+    # product: the generator only ever builds one, and the per-pin-id ledger check
+    # stops it posting twice.
+    def _is_gift(pin):
+        return bool(pin.get("gift_key")) or str(pin.get("id", "")).endswith("-gift")
+
     # The off-niche block was only ever applied when GENERATING pins, so entries that
     # entered the queue before it existed kept publishing. On 2026-09-14 this account
     # pinned a Bluey kids' water bottle, an Owala bottle and a stadium seat — all from
@@ -380,7 +424,7 @@ def main() -> int:
                and not _dead_season(p)
                and p["id"] not in led_ids
                and (p.get("asin") not in led_asins
-                    or _is_drop(p) or _is_collage(p))]
+                    or _is_drop(p) or _is_collage(p) or _is_gift(p))]
     # Order by expected value, not by age.
     #   0. price drops    — highest buyer intent, and the freshest thing we know
     #   1. proven themes  — bathroom/bedroom textiles, the only products that have ever
@@ -405,6 +449,9 @@ def main() -> int:
         # build at most one a day, so promoting them costs almost nothing.
         if _is_drop(pin) or _is_collage(pin):
             return 0
+        # Oct-Dec, gift searches are the highest-intent searches we can win.
+        if _is_gift(pin) and dt.date.today().month in (10, 11, 12):
+            return 1
         blob = f"{pin.get('title','')} {pin.get('description','')} {pin.get('board','')}".lower()
         return 1 if (_WORDS and any(w in blob for w in _WORDS)) else 2
 
@@ -419,6 +466,13 @@ def main() -> int:
     done = 0
     for pin in pending[:remaining]:
         result = publish_pin(pin, args.dry)
+        # A video pin that fails to upload or process goes out as its still image
+        # instead of costing the slot. Never retried after a click that may have landed.
+        if (pin.get("media") == "video" and pin.get("fallback_image_path")
+                and result.startswith(("upload_failed", "video_not_ready", "missing_image"))):
+            print(f"[pinterest] {pin['id']}: video {result.split(':')[0]} — posting the still")
+            result = publish_pin(dict(pin, image_path=pin["fallback_image_path"],
+                                      media="image"), args.dry)
         print(f"[pinterest] {pin['id']}: {result}")
         if result in ("published",):
             ledger_record(pin)  # FIRST: durable, git-proof record
