@@ -5246,15 +5246,15 @@
     "title": "Gift Ideas Under $25: Queen Size 4 Piece Sheet Set \u2014 $24.99",
     "description": "Queen Size 4 Piece Sheet Set for gift ideas under $25. Rated 4.5\u2605 across 454,120 reviews \u00b7 $24.99. Prices were accurate when this was published and change often. Tap through for the current listing. Amazon affiliate link \u2014 we may earn a commission at no extra cost to you.",
     "link": "https://www.amazon.com/dp/B06WWRCZXX?tag=goldenhomep0a-20&ascsubtag=pinterest",
-    "image_path": "social/pinterest/video/pin-2026-10-01-B06WWRCZXX-gift.mp4",
+    "image_path": "social/pinterest/pin-2026-10-01-B06WWRCZXX-gift.png",
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-01-B06WWRCZXX-gift.png",
     "queued_at": "2026-10-01T10:10:57.897287Z",
     "posted": false,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": "queen size 4 piece sheet set",
-    "fallback_image_path": "social/pinterest/pin-2026-10-01-B06WWRCZXX-gift.png",
-    "media": "video"
+    "fallback_image_path": null,
+    "media": "image"
   },
   {
     "id": "pin-2026-10-01-B08616PS69-gift",
@@ -5269,7 +5269,9 @@
     "posted": false,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
-    "gift_key": "bedsure satin pillowcases queen set of 2"
+    "gift_key": "bedsure satin pillowcases queen set of 2",
+    "fallback_image_path": null,
+    "media": "image"
   },
   {
     "id": "pin-2026-10-01-B0157T2ENY-gift",
@@ -5341,13 +5343,16 @@
     "title": "Gallery Wall Frame Ideas: upsimples 8x10 Picture Frames Under $25",
     "description": "upsimples 8x10 picture frames are priced at $17.99, keeping them under the $25 mark for budget-friendly home decor or hostess gifts. An 8x10 frame fits standard photo prints and documents without custom matting, a practical pick for gallery walls, desks, or shelves. Group a few together for a cohesive display without overspending. Tap through for current pricing and frame details. Amazon affiliate \u2014 small commission at no extra cost to you.",
     "link": "https://www.amazon.com/dp/B08XVP48KQ?tag=goldenhomep0a-20&ascsubtag=pinterest",
-    "image_path": "social/pinterest/pin-2026-10-02-B08XVP48KQ-gift.png",
+    "image_path": "social/pinterest/video/pin-2026-10-02-B08XVP48KQ-gift.mp4",
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-02-B08XVP48KQ-gift.png",
     "queued_at": "2026-10-02T10:11:45.366889Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
-    "gift_key": "upsimples 8x10 picture frames"
+    "gift_key": "upsimples 8x10 picture frames",
+    "fallback_image_path": "social/pinterest/pin-2026-10-02-B08XVP48KQ-gift.png",
+    "media": "video",
+    "posted_at": "2026-10-02T18:40:44Z"
   },
   {
     "id": "pin-2026-10-02-B01M0AGUPO-gift",
