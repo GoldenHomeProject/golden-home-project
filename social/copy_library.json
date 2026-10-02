@@ -3260,6 +3260,52 @@
           }
         ]
       }
+    ],
+    "QUILTED": [
+      {
+        "hook_category": "confrontation",
+        "hook": "Everyone washes their sheets. Nobody touches what's underneath.",
+        "beat1": "Sheets only cover the top layer. Sweat, spills, and everyday dust work their way past that into the mattress itself, where you can't just toss it in the wash.",
+        "turn": "A quilted mattress pad made for a deep pocket mattress adds a soft, breathable layer between you and the mattress that actually comes off and washes. It's rated 4.6 stars from over a hundred and sixty thousand people.",
+        "result": "Your mattress stays protected instead of just your sheets, for about $19.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Hands pulling a fitted sheet off the corner of a mattress in a sunlit bedroom, exposing bare mattress underneath",
+            "on_screen_text": "Nobody checks under the sheets",
+            "voiceover": "Everyone washes their sheets. Nobody touches what's underneath."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Close-up of a bare mattress surface with natural light showing texture and slight wear, no sheets on it",
+            "on_screen_text": "The mattress takes the hit",
+            "voiceover": "Sheets only cover the top layer. Sweat, spills, and everyday dust work past that, straight into the mattress, where you can't just throw it in the wash."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Hands smoothing a quilted white mattress pad over the corner of a mattress, pulling the deep pocket fabric snug around the edge",
+            "on_screen_text": "A washable layer goes on first",
+            "voiceover": "A quilted pad made for a deep mattress slides over the whole thing first, soft and breathable, so it's that layer taking the wear instead."
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "Wide shot of a fully made bed with white quilted mattress pad visible at the edges before sheets go back on",
+            "on_screen_text": "Over a hundred thousand people rate it 4.6",
+            "voiceover": "It's rated 4.6 stars from over a hundred and sixty thousand people, and it comes off and washes whenever you need."
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "Hands tucking the fitted edge of a white mattress pad snugly around a mattress corner, finished bed in soft morning light",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "Your mattress gets protected instead of just your sheets, for about nineteen dollars. Comment {KEYWORD} and I'll send the link."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {

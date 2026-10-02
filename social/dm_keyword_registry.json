@@ -882,6 +882,24 @@
       "source": "trending",
       "keyword": "DESIGN",
       "promoted_at": "2026-10-01T12:20:56Z"
+    },
+    {
+      "asin": "B00NESCOY0",
+      "product_name": "Queen Mattress Pad, Quilted Mattress Protector Topper fits 16\" Deep Pocket | White, Soft Breathable Fitted Mattress Cove",
+      "categories": [
+        "home",
+        "Bedding"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B00NESCOY0?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-09-21",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$18.69",
+      "verified_stars": "4.6",
+      "verified_reviews": 160318,
+      "discovery_source": "harvest_catalogue",
+      "keyword": "QUILTED",
+      "promoted_at": "2026-10-02T12:20:18Z"
     }
   ],
   "_vetted_doc": "Verified-live Amazon ASINs cleared for blog/SEO/IG-caption use but NOT yet wired to a Meta comment-to-DM automation. Promote to `entries` (with a unique keyword) only AFTER creating the matching Meta Business Suite automation. Always use https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20 \u2014 never search URLs.",
@@ -5027,22 +5045,6 @@
       "verified_stars": "4.8",
       "verified_reviews": 5181,
       "discovery_source": "back_to_college_2026"
-    },
-    {
-      "asin": "B00NESCOY0",
-      "product_name": "Queen Mattress Pad, Quilted Mattress Protector Topper fits 16\" Deep Pocket | White, Soft Breathable Fitted Mattress Cove",
-      "categories": [
-        "home",
-        "Bedding"
-      ],
-      "affiliate_url": "https://www.amazon.com/dp/B00NESCOY0?tag=goldenhomep0a-20",
-      "status": "live",
-      "verified_at": "2026-09-21",
-      "verified_method": "best_seller_grid",
-      "verified_price": "$18.69",
-      "verified_stars": "4.6",
-      "verified_reviews": 160318,
-      "discovery_source": "harvest_catalogue"
     },
     {
       "asin": "B01M0AGUPO",
