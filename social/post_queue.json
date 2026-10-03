@@ -7858,10 +7858,10 @@
   },
   {
     "name": "reel_2026-10-03_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-03-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-03-001.mp4",
     "caption": "Everyone washes their sheets. Nobody touches what's underneath.\n\nSheets only cover the top layer. Sweat, spills, and everyday dust work their way past that into the mattress itself, where you can't just toss it in the wash.\n\nA quilted mattress pad made for a deep pocket mattress adds a soft, breathable layer between you and the mattress that actually comes off and washes. It's rated 4.6 stars from over a hundred and sixty thousand people.\n\nYour mattress stays protected instead of just your sheets, for about $19.\n\nComment QUILTED and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -7878,22 +7878,7 @@
       "affiliate_network": "amazon",
       "affiliate_url": "https://www.amazon.com/dp/B00NESCOY0?tag=goldenhomep0a-20"
     },
-    "hook": "Everyone washes their sheets. Nobody touches what's underneath."
-  },
-  {
-    "id": "carousel-2026-10-03-B00NESCOY0",
-    "media_type": "CAROUSEL_ALBUM",
-    "image_urls": [
-      "https://goldenhomeproject.com/social/carousels/2026-10-03-B00NESCOY0/slide-1.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-03-B00NESCOY0/slide-2.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-03-B00NESCOY0/slide-3.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-03-B00NESCOY0/slide-4.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-03-B00NESCOY0/slide-5.png"
-    ],
-    "caption": "Your mattress protector shouldn't slide off by 3am.\n\nA quilted mattress protector built with a deep pocket is made to wrap a thick mattress and stay put overnight \u2014 no bunching, no re-tucking halfway through the night. Save this for later so you're not stuck trying to remember what to search for.\n\nIt's a soft, breathable, white fitted cover that fits mattresses up to 16 inches deep, so it works with pillow-tops and memory foam without sliding around.\n\nComment QUILTED or DM me QUILTED for the link.\n\n#BeddingEssentials #MattressProtector #BedroomOrganization #HomeOrganizing #SleepSetup",
-    "asin": "B00NESCOY0",
-    "keyword": "QUILTED",
-    "queued_at": "2026-10-03T12:09:24.646277Z",
-    "source": "carousel_generator"
+    "hook": "Everyone washes their sheets. Nobody touches what's underneath.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-03-001.mp4"
   }
 ]
