@@ -5370,12 +5370,13 @@
     "image_path": "social/pinterest/video/pin-2026-10-02-B01M0AGUPO-gift.mp4",
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-02-B01M0AGUPO-gift.png",
     "queued_at": "2026-10-02T10:12:01.550190Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": "king pillow cases set of 2 - ultra soft ",
     "fallback_image_path": "social/pinterest/pin-2026-10-02-B01M0AGUPO-gift.png",
-    "media": "video"
+    "media": "video",
+    "posted_at": "2026-10-03T13:43:30Z"
   },
   {
     "id": "pin-2026-10-02-B083TCZDMT-gift",
