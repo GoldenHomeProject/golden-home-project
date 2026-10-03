@@ -5250,12 +5250,13 @@
     "image_path": "social/pinterest/pin-2026-10-01-B06WWRCZXX-gift.png",
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-01-B06WWRCZXX-gift.png",
     "queued_at": "2026-10-01T10:10:57.897287Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": "queen size 4 piece sheet set",
     "fallback_image_path": null,
-    "media": "image"
+    "media": "image",
+    "posted_at": "2026-10-03T01:16:24Z"
   },
   {
     "id": "pin-2026-10-01-B08616PS69-gift",
