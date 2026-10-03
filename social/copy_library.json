@@ -3306,6 +3306,52 @@
           }
         ]
       }
+    ],
+    "OEKO": [
+      {
+        "hook_category": "mistake",
+        "hook": "Stop buying a shower liner that clings to your leg.",
+        "beat1": "Thin plastic liners billow in as the water heats up, so they stick to your skin halfway through a shower. Cheap liners also hold onto soap film and mildew spots fast, so they look dingy within weeks no matter how often you wipe them down.",
+        "turn": "This is an Oeko-tex certified liner in the standard size, made to hang flat along the tub instead of ballooning inward. People rate it 4.5 stars, and over a hundred thousand reviews are on it.",
+        "result": "A liner that stays put and still looks clean after regular use, for about $9.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close shot of a hand pulling a shower curtain liner away from a wet leg in a tiled shower",
+            "on_screen_text": "When the liner sticks to you",
+            "voiceover": "Stop buying a shower liner that clings to your leg."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Steam rising in a shower stall with a thin plastic liner billowing inward against the water stream",
+            "on_screen_text": "Hot water pulls it right in",
+            "voiceover": "As the water heats up, thin liners billow inward and stick to your skin. Cheap ones also collect soap film and mildew spots within weeks."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Hands hanging a clean white shower curtain liner on a rod, liner hanging flat against the tub wall",
+            "on_screen_text": "A liner made to hang flat",
+            "voiceover": "This Oeko-tex certified liner comes in the standard size and is built to hang flat against the tub instead of ballooning toward you."
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "Wide shot of a tidy bathroom shower area with a clean curtain liner and folded towels nearby",
+            "on_screen_text": "Over a hundred thousand rate it",
+            "voiceover": "People rate it four and a half stars, and over a hundred thousand reviews are behind it."
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "Hand closing a shower curtain fully, liner sitting flush against the tub edge, bathroom bright and clean",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "A liner that stays in place and still looks clean, for about nine dollars. Comment {KEYWORD} and I'll send the link."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
