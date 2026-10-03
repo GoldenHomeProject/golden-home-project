@@ -134,11 +134,21 @@ def git_sync_state() -> None:
 def posted_today(log: dict) -> int:
     # Count from BOTH the repo log and the out-of-repo ledger; the repo log
     # gets wiped by the daily reset jobs, which used to break the daily cap.
-    today = dt.datetime.utcnow().strftime("%Y-%m-%d")
+    # The day is the Pi's LOCAL day (America/New_York), not UTC. The 21:15 run lands at
+    # ~01:15Z, i.e. "tomorrow" in UTC, so it used up the next morning's cap and the 09:40
+    # run posted nothing — every pin went out in the evening (found 2026-10-03).
+    today = dt.datetime.now().date()
+
+    def _local_day(ts: str):
+        try:
+            return dt.datetime.strptime(ts[:19], "%Y-%m-%dT%H:%M:%S").replace(
+                tzinfo=dt.timezone.utc).astimezone().date()
+        except ValueError:
+            return None
     from_log = sum(1 for e in log.get("events", [])
-                   if e.get("action") == "pin_published" and e.get("ts", "").startswith(today))
+                   if e.get("action") == "pin_published" and _local_day(e.get("ts", "")) == today)
     from_ledger = sum(1 for e in load_ledger().get("posted", [])
-                      if e.get("ts", "").startswith(today))
+                      if _local_day(e.get("ts", "")) == today)
     return max(from_log, from_ledger)
 
 
