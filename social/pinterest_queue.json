@@ -5488,7 +5488,9 @@
     "posted": false,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
-    "gift_key": "bedsure gentlesoft white throw blanket f"
+    "gift_key": "bedsure gentlesoft white throw blanket f",
+    "blocked": true,
+    "blocked_reason": "blank photo card (no matching photo found) \u2014 2026-10-03"
   },
   {
     "id": "pin-2026-10-03-B0103XVVME-gift",
@@ -5505,7 +5507,9 @@
     "posted": false,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
-    "gift_key": "white classic luxury white hand towels -"
+    "gift_key": "white classic luxury white hand towels -",
+    "blocked": true,
+    "blocked_reason": "blank photo card (no matching photo found) \u2014 2026-10-03"
   },
   {
     "id": "pin-2026-10-03-B078HWZJWS-gift",

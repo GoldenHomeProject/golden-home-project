@@ -16,5 +16,7 @@ sleep 2
 rm -f "$PROFILE"/Singleton* 2>/dev/null
 
 cd "$REPO" || exit 1
+# Last guard: never publish a pin whose photo card is the blank placeholder.
+/usr/bin/python3 automation/hold_blank_pins.py || true
 rm -f "$HOME/.config/ghp-chromium-video"/Singleton{Lock,Cookie,Socket} 2>/dev/null || true
 exec xvfb-run -a "$PY" automation/post_pinterest.py --max "$MAX" --no-dry

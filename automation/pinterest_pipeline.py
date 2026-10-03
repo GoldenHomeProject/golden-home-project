@@ -1051,6 +1051,12 @@ def main() -> int:
         if bg_ok and not _photo_matches_product(pexels_q, name):
             print(f"  [pin] {asin} no relevant photo for {pexels_q!r} — text-only card")
             bg_ok = False
+        # No photo, no pin. The "text-only card" is the product layout with an empty grey
+        # photo box, and on Pinterest it reads as a broken pin — two gift pins went live
+        # that way on 2026-10-02. Skip the product today; it can be tried again tomorrow.
+        if not bg_ok:
+            print(f"  [skip] {asin} no usable photo — not publishing a blank card")
+            continue
 
         price = entry.get("verified_price", "")
         img = compose_pin(
