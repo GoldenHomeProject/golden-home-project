@@ -5320,10 +5320,11 @@
     "image_path": "social/pinterest/pin-2026-10-01-B07P5NBRL5-gift.png",
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-01-B07P5NBRL5-gift.png",
     "queued_at": "2026-10-01T10:12:59.059210Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
-    "gift_key": "bedsure queen sheet set - 4 pieces soft,"
+    "gift_key": "bedsure queen sheet set - 4 pieces soft,",
+    "posted_at": "2026-10-03T13:41:21Z"
   },
   {
     "id": "pin-2026-10-01-B073H8STZ7-gift",
