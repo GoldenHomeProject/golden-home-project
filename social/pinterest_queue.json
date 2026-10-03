@@ -5336,10 +5336,11 @@
     "image_path": "social/pinterest/pin-2026-10-01-B073H8STZ7-gift.png",
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-01-B073H8STZ7-gift.png",
     "queued_at": "2026-10-01T10:13:44.193609Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
-    "gift_key": "utopia bedding ultra soft fleece bed bla"
+    "gift_key": "utopia bedding ultra soft fleece bed bla",
+    "posted_at": "2026-10-03T13:42:25Z"
   },
   {
     "id": "pin-2026-10-02-B08XVP48KQ-gift",
