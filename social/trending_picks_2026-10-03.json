@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-10-03",
+  "category": "Seasonal D\u00e9cor",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-seasonal-decor.html",
+  "picks": [
+    {
+      "asin": "B07HMRZSWT",
+      "name": "1000 sqft Spider Webs Halloween Decorations with 30 Fake Spiders",
+      "price": "$13.99",
+      "rating": 4.6,
+      "reviews": 5301,
+      "rank": 2
+    },
+    {
+      "asin": "B07H4HHNQK",
+      "name": "Sattiyrch 15\" Wreath Hanger for Front Door",
+      "price": "$6.99",
+      "rating": 4.7,
+      "reviews": 30518,
+      "rank": 10
+    },
+    {
+      "asin": "B01LC94KFS",
+      "name": "AerWo Halloween Decoration Black Lace Spiderweb Fireplace Mantle Scarf",
+      "price": "$12.99",
+      "rating": 4.7,
+      "reviews": 8207,
+      "rank": 15
+    },
+    {
+      "asin": "B00JR5N0JM",
+      "name": "Minetom Fairy Lights Plug in",
+      "price": "$8.99",
+      "rating": 4.5,
+      "reviews": 13054,
+      "rank": 30
+    },
+    {
+      "asin": "B07TWF8JZ1",
+      "name": "OCATO 200\" Halloween Decorations Spider Web Outdoor +59\" Giant Spider",
+      "price": "$17.99",
+      "rating": 4.5,
+      "reviews": 5781,
+      "rank": 4
+    },
+    {
+      "asin": "B07F897P1G",
+      "name": "Wreath Hanger,Christmas Decorations Adjustable Wreath Hanger for Front",
+      "price": "$9.99",
+      "rating": 4.6,
+      "reviews": 8019,
+      "rank": 20
+    }
+  ]
+}
