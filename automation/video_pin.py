@@ -111,30 +111,72 @@ def _slug_words(v: dict) -> set[str]:
     return set(re.findall(r"[a-z]+", (v.get("url") or "").lower()))
 
 
-def _frame_ok(frame: Path, subject: str) -> tuple[bool, str]:
-    """One Claude look at a frame: shows the subject, no face, bright and brand-safe."""
-    sys.path.insert(0, str(Path(__file__).parent))
+def _small_file(v: dict) -> str | None:
+    """Lowest rendition >= 540px — enough to judge a clip without downloading it in HD."""
+    files = [f for f in v.get("video_files") or []
+             if f.get("file_type") == "video/mp4" and f.get("width") and f.get("height")
+             and min(f["width"], f["height"]) >= 540]
+    files.sort(key=lambda f: min(f["width"], f["height"]))
+    return files[0]["link"] if files else None
+
+
+def _get(url: str, dest: Path) -> bool:
+    try:
+        with request.urlopen(request.Request(url, headers={"User-Agent": UA}), timeout=90) as r:
+            dest.write_bytes(r.read())
+        return True
+    except Exception as e:  # noqa: BLE001
+        print(f"  [video] download failed: {e}")
+        return False
+
+
+def _contact_sheet(src: Path, dur: float, out: Path) -> bool:
+    """Three frames across the part of the clip we would use (start, middle, end), side by
+    side. One frame let a clip through whose second half was a blank white wall."""
+    span = min(SECS, dur)
+    ts = [span * 0.12, span * 0.5, span * 0.88]
+    parts = []
+    for i, t in enumerate(ts):
+        f = out.with_name(f"{out.stem}-{i}.jpg")
+        if not _ff("-ss", f"{t:.2f}", "-i", str(src), "-frames:v", "1",
+                   "-vf", "scale=480:480:force_original_aspect_ratio=increase,crop=480:480",
+                   str(f)):
+            return False
+        parts.append(f)
+    return _ff("-i", str(parts[0]), "-i", str(parts[1]), "-i", str(parts[2]),
+               "-filter_complex", "[0][1][2]hstack=3", str(out))
+
+
+def _judge(sheet: Path, subject: str) -> dict:
+    """Claude looks at the 3-frame sheet and scores the clip as a Pinterest video."""
     try:
         from _claude_api import _load_token_file
         _load_token_file()
     except Exception:
         pass
-    prompt = (f"Read the image file {frame} and judge it as background footage for a "
-              f"home-products Pinterest pin about: {subject}.\n"
-              "Reply with ONLY a JSON object: {\"shows_subject\": true/false (true ONLY if the subject is the clear main focus, filling a good part of the frame — not a corner or background detail, AND the same product type and material the subject names — e.g. a chunky knit is NOT a fleece throw; colour does not matter), "
-              "\"face_visible\": true/false, \"bright_clean_home\": true/false, "
-              "\"note\": \"<10 words>\"}. face_visible is true if any person's face is "
-              "recognisable, even partly. Hands and bodies without faces are fine.")
+    prompt = (
+        f"Read the image file {sheet}. It is three frames (start, middle, end) from one "
+        f"stock clip we might use in a Pinterest video pin for: {subject}.\n"
+        "Judge strictly. Reply with ONLY a JSON object:\n"
+        "{\"item_in_all_frames\": true/false — the actual OBJECT (e.g. a pillowcase on a "
+        "pillow, a folded towel, a framed picture, a mug) is recognisable and prominent in "
+        "ALL three frames. A close-up of fabric texture alone is FALSE; an empty wall is FALSE,\n"
+        " \"material_match\": true/false — the SAME product type and material as named, not "
+        "a related one: a flask or thermos is not a travel mug, an open cup is not a lidded "
+        "tumbler, a chunky knit is not fleece, a towel is not a blanket. Colour does not "
+        "matter. A shopper who clicks should see the kind of thing the video showed,\n"
+        " \"face_visible\": true/false — any recognisable human face, even partly,\n"
+        " \"score\": 1-10 — how appealing and scroll-stopping this is as a Pinterest home "
+        "video: bright, styled, clean, inviting. 7 = good, 9 = magazine quality,\n"
+        " \"shot\": \"wide\" or \"detail\",\n"
+        " \"note\": \"<12 words>\"}")
     try:
         out = subprocess.run(["claude", "-p", "--allowedTools", "Read", "--max-turns", "3"],
-                             input=prompt, capture_output=True, text=True, timeout=150).stdout
+                             input=prompt, capture_output=True, text=True, timeout=180).stdout
         m = re.search(r"\{.*\}", out, re.S)
-        d = json.loads(m.group()) if m else {}
+        return json.loads(m.group()) if m else {}
     except Exception as e:  # noqa: BLE001
-        return False, f"check failed: {e}"
-    ok = bool(d.get("shows_subject")) and not d.get("face_visible", True) \
-        and bool(d.get("bright_clean_home"))
-    return ok, str(d.get("note") or d)[:80]
+        return {"note": f"check failed: {e}"}
 
 
 def _ff(*args: str) -> bool:
@@ -144,62 +186,127 @@ def _ff(*args: str) -> bool:
     return r.returncode == 0
 
 
+def clean_headline(h: str, limit: int = 58) -> str:
+    """Never ship a cut-off headline ("…Set of 2 - Ultra Soft…"): drop the spec tail after
+    a dash/comma when the name was truncated or is too long, then trim to whole words."""
+    cut_off = bool(re.search(r"…|\.\.\.", h))
+    h = re.sub(r"…|\.\.\.", "", h).strip()
+    if cut_off or len(h) > limit:
+        head = re.split(r"\s[-–|]\s|,", h)[0].strip()
+        h = head if len(head) >= 12 else h
+    while len(h) > limit:
+        h = h.rsplit(" ", 1)[0]
+    return h.rstrip(" -–,|:")
+
+
+MIN_SCORE = 7
+LEAD_SCORE = 8
+MAX_JUDGED = 6
+
+
+def item_headline(product_name: str, kicker: str) -> str | None:
+    """'Gift Ideas Under $25: Stainless Travel Mug' — the search phrase plus WHAT the
+    product is, never its brand ("Contigo Byron Vacuum-Insulated" read like a part number)."""
+    n = product_name.lower()
+    item = next((i for i in ITEMS if i in n), "")
+    mat = next((m for m in MATERIALS if m in n), "")
+    if not item or not kicker:
+        return None
+    return f"{kicker.title()}: {(mat + ' ' + item).strip().title()}"
+
+
 def make_video_pin(queries: list[str], subject: str, headline: str, product_name: str,
-                   price: str, kicker: str, out_mp4: Path, tries: int = 4) -> Path | None:
-    """Build the video pin; None means use the still pin."""
-    subject_words = {w for w in re.findall(r"[a-z]+", subject.lower()) if len(w) > 3}
-    seen, checked = set(), 0
+                   price: str, kicker: str, out_mp4: Path, tries: int = MAX_JUDGED) -> Path | None:
+    """Build the best video pin we can, or None (the caller ships the still pin).
+
+    1. Screen up to MAX_JUDGED unused clips cheaply (small rendition, 3-frame sheet).
+    2. Keep clips where the item is visible throughout, material matches, no face,
+       score >= MIN_SCORE. Rank by score.
+    3. Two good clips -> a two-shot edit (wide first, then detail) with a crossfade;
+       one -> a single 8 s shot. Download only the winners in HD.
+    """
+    judged, seen = [], set()
     with tempfile.TemporaryDirectory() as td:
         td = Path(td)
         for q in queries:
+            if len(judged) >= tries:
+                break
             for v in _search(q):
-                if checked >= tries:
-                    return None
-                if v.get("id") in seen or v.get("id") in _used() or (v.get("duration") or 0) < 5:
+                if len(judged) >= tries:
+                    break
+                vid = v.get("id")
+                if vid in seen or vid in _used() or (v.get("duration") or 0) < 6:
                     continue
-                seen.add(v.get("id"))
-                words = _slug_words(v)
-                if words & set(UNSAFE):
+                seen.add(vid)
+                if _slug_words(v) & set(UNSAFE) or not _best_file(v):
                     continue
-                link = _best_file(v)
-                if not link:
+                small = _small_file(v)
+                lo = td / f"{vid}-lo.mp4"
+                if not small or not _get(small, lo):
                     continue
-                src = td / f"{v['id']}.mp4"
-                try:
-                    with request.urlopen(request.Request(link, headers={"User-Agent": UA}),
-                                         timeout=60) as r:
-                        src.write_bytes(r.read())
-                except Exception as e:  # noqa: BLE001
-                    print(f"  [video] download failed: {e}")
+                sheet = td / f"{vid}-sheet.jpg"
+                if not _contact_sheet(lo, float(v.get("duration") or SECS), sheet):
                     continue
-                frame = td / f"{v['id']}.jpg"
-                mid = min(SECS, float(v.get("duration") or SECS)) / 2
-                if not _ff("-ss", f"{mid:.1f}", "-i", str(src), "-frames:v", "1",
-                           "-vf", "scale=720:-2", str(frame)):
-                    continue
-                checked += 1
-                ok, note = _frame_ok(frame, subject)
-                print(f"  [video] pexels {v['id']} ({q!r}): {'OK' if ok else 'reject'} — {note}")
-                if not ok:
-                    continue
+                d = _judge(sheet, subject)
+                ok = (d.get("item_in_all_frames") and d.get("material_match")
+                      and d.get("face_visible") is False
+                      and int(d.get("score") or 0) >= MIN_SCORE)
+                judged.append((int(d.get("score") or 0) if ok else 0, v, d))
+                print(f"  [video] pexels {vid} ({q!r}): "
+                      f"{'OK ' + str(d.get('score')) if ok else 'reject'} — {str(d.get('note'))[:70]}")
 
-                overlay = render_product_pin(headline, product_name, price, None,
-                                             kicker=kicker, window=True)
-                x, y, w, h = overlay.info["card"]
-                ov = td / "overlay.png"
-                overlay.save(ov)
-                dur = min(SECS, float(v.get("duration") or SECS))
-                fc = (f"color=c=white:s={PIN_W}x{PIN_H}:d={dur}[bg];"
-                      f"[0:v]scale={w}:{h}:force_original_aspect_ratio=increase,"
-                      f"crop={w}:{h},eq=brightness=0.03:saturation=1.05,fps=30,setsar=1[v];"
-                      f"[bg][v]overlay={x}:{y}:shortest=1[b];[b][1:v]overlay=0:0,format=yuv420p")
-                out_mp4.parent.mkdir(parents=True, exist_ok=True)
-                if _ff("-t", f"{dur}", "-i", str(src), "-i", str(ov), "-filter_complex", fc,
-                       "-t", f"{dur}", "-an", "-c:v", "libx264", "-preset", "veryfast",
-                       "-crf", "21", "-movflags", "+faststart", str(out_mp4)):
-                    _mark_used(v.get("id"))
-                    return out_mp4
-    return None
+        good = sorted([j for j in judged if j[0] >= MIN_SCORE], key=lambda j: -j[0])
+        # The lead clip has to be genuinely strong; a second shot may be merely good.
+        if not good or good[0][0] < LEAD_SCORE:
+            return None
+        picks = good[:2]
+        # Wide shot first, detail second, when we have one of each.
+        picks.sort(key=lambda j: 0 if j[2].get("shot") == "wide" else 1)
+        srcs = []
+        for _, v, _ in picks:
+            hd = td / f"{v['id']}-hd.mp4"
+            if _get(_best_file(v), hd):
+                srcs.append((hd, float(v.get("duration") or SECS), v["id"]))
+        if not srcs:
+            return None
+
+        overlay = render_product_pin(item_headline(product_name, kicker) or clean_headline(headline),
+                                     product_name, price, None,
+                                     kicker=kicker, window=True)
+        x, y, w, h = overlay.info["card"]
+        ov = td / "overlay.png"
+        overlay.save(ov)
+        grade = (f"scale={w}:{h}:force_original_aspect_ratio=increase,crop={w}:{h},"
+                 "eq=contrast=1.04:brightness=0.03:saturation=1.07,unsharp=5:5:0.5,"
+                 "fps=30,setsar=1,format=yuv420p")
+        args, fc = [], ""
+        if len(srcs) == 2:
+            seg, xf = 4.6, 0.8                     # 4.6 + 4.6 - 0.8 = 8.4 s
+            total = seg * 2 - xf
+            for i, (s, dur, _) in enumerate(srcs):
+                # stay inside the 8 s window the contact sheet was judged on
+                args += ["-ss", "0.4", "-t", f"{seg}", "-i", str(s)]
+            fc = (f"[0:v]{grade}[a];[1:v]{grade}[b];"
+                  f"[a][b]xfade=transition=fade:duration={xf}:offset={seg - xf}[v];")
+        else:
+            s, dur, _ = srcs[0]
+            total = min(SECS, dur)
+            args += ["-t", f"{total}", "-i", str(s)]
+            fc = f"[0:v]{grade}[v];"
+        n = len(srcs)
+        args += ["-i", str(ov)]
+        fc += (f"color=c=white:s={PIN_W}x{PIN_H}:d={total}[bg];"
+               f"[bg][v]overlay={x}:{y}:shortest=1[b];[b][{n}:v]overlay=0:0,format=yuv420p")
+        out_mp4.parent.mkdir(parents=True, exist_ok=True)
+        if not _ff(*args, "-filter_complex", fc, "-t", f"{total:.2f}", "-an",
+                   "-c:v", "libx264", "-preset", "medium", "-crf", "18",
+                   "-movflags", "+faststart", str(out_mp4)):
+            return None
+        for _, _, vid in srcs:
+            _mark_used(vid)
+        print(f"  [video] built {'two-shot' if n == 2 else 'single-shot'} "
+              f"(scores {[p[0] for p in picks]}) -> {out_mp4.name}")
+        return out_mp4
 
 
 if __name__ == "__main__":
