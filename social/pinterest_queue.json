@@ -5268,12 +5268,13 @@
     "image_path": "social/pinterest/video/pin-2026-10-01-B08616PS69-gift.mp4",
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-01-B08616PS69-gift.png",
     "queued_at": "2026-10-01T10:11:17.621282Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": "bedsure satin pillowcases queen set of 2",
     "fallback_image_path": "social/pinterest/pin-2026-10-01-B08616PS69-gift.png",
-    "media": "video"
+    "media": "video",
+    "posted_at": "2026-10-03T01:17:09Z"
   },
   {
     "id": "pin-2026-10-01-B0157T2ENY-gift",
