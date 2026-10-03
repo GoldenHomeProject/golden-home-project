@@ -5286,10 +5286,11 @@
     "image_path": "social/pinterest/pin-2026-10-01-B0157T2ENY-gift.png",
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-01-B0157T2ENY-gift.png",
     "queued_at": "2026-10-01T10:11:33.156881Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
-    "gift_key": "bedsure gentlesoft fleece bed blankets q"
+    "gift_key": "bedsure gentlesoft fleece bed blankets q",
+    "posted_at": "2026-10-03T01:18:08Z"
   },
   {
     "id": "pin-2026-10-01-B00NX0WXQI-gift",
