@@ -5207,9 +5207,10 @@
     "image_path": "social/pinterest/pin-2026-09-29-B092VQMW7T.png",
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-09-29-B092VQMW7T.png",
     "queued_at": "2026-09-29T10:10:49.138095Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
-    "drop_observed_to": null
+    "drop_observed_to": null,
+    "posted_at": "2026-10-03T01:15:30Z"
   },
   {
     "id": "pin-2026-09-29-B07531HM8Q",
@@ -5263,15 +5264,15 @@
     "title": "Home Gifts Under $25: Satin Queen Pillowcase Set Reduces Hair Frizz",
     "description": "A queen-size set of two satin pillowcases, priced at $7.99 and marketed as a silk alternative for reducing hair frizz and skin friction overnight. Satin's smoother surface creates less drag against hair and skin than standard cotton, which is why pillowcases like this show up repeatedly in budget bedding and gift-under-$25 roundups. Standard queen fit, set of two, easy care. Works as a small stand-alone gift or an add-on to a larger bedroom gift. Amazon affiliate \u2014 small commission at no extra c",
     "link": "https://www.amazon.com/dp/B08616PS69?tag=goldenhomep0a-20&ascsubtag=pinterest",
-    "image_path": "social/pinterest/pin-2026-10-01-B08616PS69-gift.png",
+    "image_path": "social/pinterest/video/pin-2026-10-01-B08616PS69-gift.mp4",
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-01-B08616PS69-gift.png",
     "queued_at": "2026-10-01T10:11:17.621282Z",
     "posted": false,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": "bedsure satin pillowcases queen set of 2",
-    "fallback_image_path": null,
-    "media": "image"
+    "fallback_image_path": "social/pinterest/pin-2026-10-01-B08616PS69-gift.png",
+    "media": "video"
   },
   {
     "id": "pin-2026-10-01-B0157T2ENY-gift",
@@ -5361,13 +5362,15 @@
     "title": "Gift Ideas Under $25: King Pillow Cases Set of 2 - Ultra Soft Cozy\u2026 \u2014 $15.99",
     "description": "King Pillow Cases Set of 2 - Ultra Soft Cozy\u2026 for gift ideas under $25. Rated 4.6\u2605 across 59,870 reviews \u00b7 $15.99. Prices were accurate when this was published and change often. Tap through for the current listing. Amazon affiliate link \u2014 we may earn a commission at no extra cost to you.",
     "link": "https://www.amazon.com/dp/B01M0AGUPO?tag=goldenhomep0a-20&ascsubtag=pinterest",
-    "image_path": "social/pinterest/pin-2026-10-02-B01M0AGUPO-gift.png",
+    "image_path": "social/pinterest/video/pin-2026-10-02-B01M0AGUPO-gift.mp4",
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-02-B01M0AGUPO-gift.png",
     "queued_at": "2026-10-02T10:12:01.550190Z",
     "posted": false,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
-    "gift_key": "king pillow cases set of 2 - ultra soft "
+    "gift_key": "king pillow cases set of 2 - ultra soft ",
+    "fallback_image_path": "social/pinterest/pin-2026-10-02-B01M0AGUPO-gift.png",
+    "media": "video"
   },
   {
     "id": "pin-2026-10-02-B083TCZDMT-gift",
@@ -5406,13 +5409,15 @@
     "title": "Gift Ideas Under $25: upsimples 11x14 Picture Frame \u2014 $6.99",
     "description": "upsimples 11x14 Picture Frame for gift ideas under $25. Rated 4.5\u2605 across 41,774 reviews \u00b7 $6.99. Prices were accurate when this was published and change often. Tap through for the current listing. Amazon affiliate link \u2014 we may earn a commission at no extra cost to you.",
     "link": "https://www.amazon.com/dp/B0BQR2BQYZ?tag=goldenhomep0a-20&ascsubtag=pinterest",
-    "image_path": "social/pinterest/pin-2026-10-02-B0BQR2BQYZ-gift.png",
+    "image_path": "social/pinterest/video/pin-2026-10-02-B0BQR2BQYZ-gift.mp4",
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-02-B0BQR2BQYZ-gift.png",
     "queued_at": "2026-10-02T10:13:33.320156Z",
     "posted": false,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
-    "gift_key": "upsimples 11x14 picture frame"
+    "gift_key": "upsimples 11x14 picture frame",
+    "fallback_image_path": "social/pinterest/pin-2026-10-02-B0BQR2BQYZ-gift.png",
+    "media": "video"
   },
   {
     "id": "pin-2026-10-02-B0B1CNJL7N-gift",
@@ -5421,12 +5426,14 @@
     "title": "Gift Ideas Under $25: upsimples 8x10 Picture Frame \u2014 $5.39",
     "description": "upsimples 8x10 Picture Frame for gift ideas under $25. Rated 4.5\u2605 across 41,433 reviews \u00b7 $5.39. Prices were accurate when this was published and change often. Tap through for the current listing. Amazon affiliate link \u2014 we may earn a commission at no extra cost to you.",
     "link": "https://www.amazon.com/dp/B0B1CNJL7N?tag=goldenhomep0a-20&ascsubtag=pinterest",
-    "image_path": "social/pinterest/pin-2026-10-02-B0B1CNJL7N-gift.png",
+    "image_path": "social/pinterest/video/pin-2026-10-02-B0B1CNJL7N-gift.mp4",
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-02-B0B1CNJL7N-gift.png",
     "queued_at": "2026-10-02T10:14:32.097011Z",
     "posted": false,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
-    "gift_key": "upsimples 8x10 picture frame"
+    "gift_key": "upsimples 8x10 picture frame",
+    "fallback_image_path": "social/pinterest/pin-2026-10-02-B0B1CNJL7N-gift.png",
+    "media": "video"
   }
 ]
