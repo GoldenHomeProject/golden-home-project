@@ -7858,10 +7858,10 @@
   },
   {
     "name": "reel_2026-10-04_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-04-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-04-001.mp4",
     "caption": "Your couch cushions go flat before anyone even sits down.\n\nMost decorative covers ship empty or paired with thin inserts that pack down fast. Within a few weeks of leaning, sitting, and tossing them aside, the corners go flimsy and the middle caves in. The cover still looks fine folded up, but propped against a couch back or a headboard it just looks tired.\n\nThis is a set of four 18x18 pillow inserts with plush, down alternative fill, made to fill out covers instead of leaving them saggy. Over a hundred thousand people rate it 4.6 stars.\n\nCovers that used to sag go full and rounded again, for about $20.\n\nComment DECORATIVE and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -7878,14 +7878,15 @@
       "affiliate_network": "amazon",
       "affiliate_url": "https://www.amazon.com/dp/B0714K41PB?tag=goldenhomep0a-20"
     },
-    "hook": "Your couch cushions go flat before anyone even sits down."
+    "hook": "Your couch cushions go flat before anyone even sits down.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-04-001.mp4"
   },
   {
     "name": "reel_2026-10-04_002",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-04-002.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-04-002.mp4",
     "caption": "Your throw pillows look flat for one dumb reason.\n\nPillow covers are usually cut generous, but the insert that ships with them is often a size down or just thin. That mismatch means the corners never fill out, so the pillow looks sunken even right after you fluff it.\n\nThese are 18 by 18 inserts, matched to the standard cover size, so they push fabric into every corner instead of leaving slack. Shoppers rate them 4.6 stars across roughly two hundred thousand reviews.\n\nCovers hold their square shape on the couch or bed instead of caving in at the edges, and a set runs about $16.\n\nComment INSERTS and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -7902,14 +7903,15 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "Your throw pillows look flat for one dumb reason."
+    "hook": "Your throw pillows look flat for one dumb reason.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-04-002.mp4"
   },
   {
     "name": "reel_2026-10-04_003",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-04-003.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-04-003.mp4",
     "caption": "You wake up with hair static and a cheek crease.\n\nCotton pillowcases have enough texture to catch on hair and skin while you toss and turn. That grip is what pulls hair into frizz and presses fold lines into your face by morning.\n\nThis satin pillowcase set swaps that rough cotton surface for something smoother across your queen pillow, so hair and skin move instead of catching overnight.\n\nA less friction-heavy surface to sleep on, on a set of two, for about $7.99.\n\nComment SATIN and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -7926,7 +7928,8 @@
       "affiliate_network": "amazon",
       "affiliate_url": "https://www.amazon.com/dp/B08616PS69?tag=goldenhomep0a-20"
     },
-    "hook": "You wake up with hair static and a cheek crease."
+    "hook": "You wake up with hair static and a cheek crease.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-04-003.mp4"
   },
   {
     "id": "carousel-2026-10-04-B099S9DXT7",
