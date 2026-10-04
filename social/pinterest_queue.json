@@ -5406,10 +5406,11 @@
     "image_path": "social/pinterest/pin-2026-10-02-B09RNB8MTQ-gift.png",
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-02-B09RNB8MTQ-gift.png",
     "queued_at": "2026-10-02T10:13:18.163846Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
-    "gift_key": "contigo byron 2.0 stainless steel travel"
+    "gift_key": "contigo byron 2.0 stainless steel travel",
+    "posted_at": "2026-10-04T13:40:31Z"
   },
   {
     "id": "pin-2026-10-02-B0BQR2BQYZ-gift",
