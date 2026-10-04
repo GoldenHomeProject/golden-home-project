@@ -3352,6 +3352,52 @@
           }
         ]
       }
+    ],
+    "CERTIFIED": [
+      {
+        "hook_category": "mistake",
+        "hook": "Stop buying shower liners that reek of chemicals.",
+        "beat1": "Most cheap vinyl liners come out of the package with a sharp plastic smell that lingers for days. They also tend to cling straight to your arms and legs the second the water runs, which is its own small daily annoyance.",
+        "turn": "This one is Oeko-tex certified, meaning it's tested against a long list of harmful substances before it ever reaches your bathroom. It's a standard size, so it drops right onto a regular shower or tub rod without any guesswork.",
+        "result": "You get a liner that isn't off-gassing next to you in a hot shower, for about $9. Over a hundred thousand people have rated it 4.5 stars.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close-up of a hand pulling back a plastic shower curtain liner in a steamy bathroom, water droplets visible on the vinyl.",
+            "on_screen_text": "Stop buying smelly liners",
+            "voiceover": "Stop buying shower liners that reek of chemicals."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Shot from inside the tub looking at a shower liner clinging wet against the side of the tub wall, steam in the air.",
+            "on_screen_text": "That plastic smell lingers for days",
+            "voiceover": "Most cheap vinyl liners come out of the package with a sharp plastic smell that sticks around, and they cling straight to your skin the second the water runs."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Hands hanging a new shower curtain liner on a rod over a standard bathtub, smoothing it into place.",
+            "on_screen_text": "Oeko-tex certified, standard size",
+            "voiceover": "This liner is Oeko-tex certified, tested against a long list of harmful substances, and it's a standard size that fits a regular shower or tub rod."
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "Wide shot of a clean, well-lit bathroom with a plain shower curtain liner hanging neatly, morning light through a small window.",
+            "on_screen_text": "Over 100,000 people rate it 4.5 stars",
+            "voiceover": "Over a hundred thousand people have rated it 4.5 stars."
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "Person stepping into the shower, pulling the liner closed behind them, calm and unbothered, steam rising.",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "For about nine dollars, you get a liner that isn't off-gassing next to you in a hot shower. Comment {KEYWORD} and I'll send the link."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
