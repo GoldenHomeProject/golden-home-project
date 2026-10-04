@@ -7725,31 +7725,6 @@
     "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
-    "name": "reel_2026-09-30_001",
-    "status": "ready",
-    "script_path": "automation/scripts/reel-2026-09-30-001.json",
-    "media_type": "REELS",
-    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-30-001.mp4",
-    "caption": "You flip the pillow again, hunting the cool side.\n\nHeat gets trapped between the mattress and a thick top sheet, especially in a bedroom that holds warmth overnight. Once the fabric warms up it stays warm, so you end up flipping, kicking off the blanket, or moving to the cool spot on the bed.\n\nThis Bedsure queen sheet set is built as soft, breathable, cooling bed sheets in four pieces, and it's Oeko-Tex certified with easy care instructions. Over a hundred thousand people have rated it 4.6 stars.\n\nFor a queen bed that runs warm, a set built around breathability instead of extra layers is a simple swap, and it comes in at about $16.\n\nComment BREATHABLE and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
-    "hashtags": [
-      "#amazonhomefinds",
-      "#homehacks2026",
-      "#smallspacesolutions"
-    ],
-    "affiliate": {
-      "primary_product": "Bedsure Queen Sheet Set - 4 Pieces Soft, Breathable, Cooling Bed Sheets | Hotel Luxury Bedding, Oeko-Tex , Easy Care, De",
-      "dm_keyword": "BREATHABLE",
-      "amazon_asin": "B07P5NBRL5",
-      "amazon_affiliate_url": "https://www.amazon.com/dp/B07P5NBRL5?tag=goldenhomep0a-20",
-      "asin_pending": false,
-      "fallback_brands": [],
-      "affiliate_network": "amazon",
-      "affiliate_url": "https://www.amazon.com/dp/B07P5NBRL5?tag=goldenhomep0a-20"
-    },
-    "hook": "You flip the pillow again, hunting the cool side.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-09-30-001.mp4"
-  },
-  {
     "id": "carousel-2026-09-30-B09CSS6YL4",
     "media_type": "CAROUSEL_ALBUM",
     "image_urls": [
