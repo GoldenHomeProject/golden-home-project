@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-10-04",
+  "category": "Kitchen",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-kitchen-gadgets.html",
+  "picks": [
+    {
+      "asin": "B0113UZJE2",
+      "name": "Etekcity Food Kitchen Scale",
+      "price": "$9.99",
+      "rating": 4.6,
+      "reviews": 177552,
+      "rank": 3
+    },
+    {
+      "asin": "B07YP2VH4B",
+      "name": "KitchenAid Classic Multifunction Can Opener and Bottle Opener Easy to",
+      "price": "$14.99",
+      "rating": 4.6,
+      "reviews": 89792,
+      "rank": 5
+    },
+    {
+      "asin": "B08J8GZXKZ",
+      "name": "KITCHENAID Ribbed Soft Silicone Oven Mitt 2-Pack Set",
+      "price": "$11.25",
+      "rating": 4.7,
+      "reviews": 14049,
+      "rank": 10
+    },
+    {
+      "asin": "B0C3QZ7SNF",
+      "name": "Cisily Sponge Holder for Kitchen Sink",
+      "price": "$12.59",
+      "rating": 4.6,
+      "reviews": 15175,
+      "rank": 19
+    },
+    {
+      "asin": "B0B6PLG6G2",
+      "name": "125Pcs 8 Inch Square Air Fryer Liners Disposable for 5-8QT",
+      "price": "$9.97",
+      "rating": 4.6,
+      "reviews": 33743,
+      "rank": 24
+    },
+    {
+      "asin": "B0028JURDQ",
+      "name": "FoodSaver Custom Length Vacuum Sealer Bags Multipack",
+      "price": "$28.49",
+      "rating": 4.8,
+      "reviews": 28254,
+      "rank": 26
+    }
+  ]
+}
