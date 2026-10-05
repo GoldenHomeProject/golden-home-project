@@ -5534,10 +5534,11 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-03-B078HWZJWS-gift.png",
     "queued_at": "2026-10-03T10:13:36.302210Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
-    "gift_key": "m-bestl 2 pack microfiber hair towel wra"
+    "gift_key": "m-bestl 2 pack microfiber hair towel wra",
+    "posted_at": "2026-10-05T13:41:30Z"
   },
   {
     "id": "pin-2026-10-03-B0B8DXN3K2-gift",
