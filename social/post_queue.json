@@ -7930,5 +7930,77 @@
     "keyword": "STRIP",
     "queued_at": "2026-10-04T12:58:34.977299Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_2026-10-05_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-05-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "The sun wakes you up before your alarm does.\n\nMost bedroom curtains let a thin edge of light through where the panel meets the window frame or the fabric is just too light to block it. That sliver is enough to end sleep early, especially with an east-facing window in summer.\n\nThese are blackout panels made to cover the full width of a standard window and cut that light off at the source. People rate them 4.6 stars across a huge number of reviews, mostly for exactly this.\n\nThe room stays dark until you decide otherwise, not until the sun decides for you, and the two-panel set runs about ten dollars.\n\nComment WIDE and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "NICETOWN Black Blackout Curtains for Bedroom 42\" Wide x 63\" Long 2 Pan",
+      "dm_keyword": "WIDE",
+      "amazon_asin": "B01CS31R94",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01CS31R94?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "The sun wakes you up before your alarm does."
+  },
+  {
+    "name": "reel_2026-10-05_002",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-05-002.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Cotton pillowcases are quietly wrecking your hair overnight.\n\nRougher fabric grabs onto hair and skin while you toss and turn, so strands get tugged and your face creases against the fabric by morning. It also traps heat against your cheek all night.\n\nThis satin pillowcase, similar to silk, gives hair and skin less to catch on and has a cooling feel, with an envelope closure and a queen set of two. It's rated 4.5 stars from over three hundred thousand reviewers.\n\nLess tugging overnight and a cooler surface to sleep on, for about $7.\n\nComment BEDSURE and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Bedsure Satin Pillowcase, Similar to Silk Pillow Cases Queen Size Set of 2, Cooling Pillow Case Covers with Envelope Clo",
+      "dm_keyword": "BEDSURE",
+      "amazon_asin": "B0725WFLMB",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B0725WFLMB?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B0725WFLMB?tag=goldenhomep0a-20"
+    },
+    "hook": "Cotton pillowcases are quietly wrecking your hair overnight."
+  },
+  {
+    "name": "reel_2026-10-05_003",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-05-003.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Stop buying pillowcases separate from your sheets.\n\nA fitted sheet wears out a season before the pillowcases do, so you end up with one drawer holding three different whites that don't quite match. Then a guest room or a new mattress means starting from zero again, hunting down a flat sheet and pillowcases that fit the same bed.\n\nThis is a queen four piece set, so the flat sheet, fitted sheet, and both pillowcases arrive as one match, one size, one drawer. Almost half a million people have rated it 4.5 stars.\n\nOne set covers the whole bed with nothing left to hunt down separately, and it runs about $21.\n\nComment SIZE and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Queen Size 4 Piece Sheet Set",
+      "dm_keyword": "SIZE",
+      "amazon_asin": "B01M16WBW1",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01M16WBW1?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Stop buying pillowcases separate from your sheets."
   }
 ]

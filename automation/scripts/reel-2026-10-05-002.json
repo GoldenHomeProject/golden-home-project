@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-10-05T12:56:38.416989Z",
+  "date": "2026-10-05",
+  "seq": 2,
+  "hook_category": "mistake",
+  "hook": "Cotton pillowcases are quietly wrecking your hair overnight.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of a hand lifting a strand of hair off a wrinkled cotton pillowcase in soft morning bedroom light.",
+      "on_screen_text": "cotton is wrecking your hair",
+      "voiceover": "Cotton pillowcases are quietly wrecking your hair overnight."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Overhead shot of someone sleeping, cheek pressed into a cotton pillow, fabric creased against their skin.",
+      "on_screen_text": "friction happens while you sleep",
+      "voiceover": "Rougher fabric grabs onto hair and skin as you toss and turn, tugging strands and creasing your face by morning."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Hands smoothing a satin pillowcase onto a pillow, tucking the envelope closure flap neatly underneath.",
+      "on_screen_text": "a smoother surface changes that",
+      "voiceover": "This one's satin, similar to silk, so there's less for hair and skin to catch on, plus a cooling feel and an envelope closure to keep it in place."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Two folded satin pillowcases stacked on a made queen bed, natural light from a nearby window.",
+      "on_screen_text": "comes as a queen set of two",
+      "voiceover": "It comes as a queen set of two, and over three hundred thousand people rate it four and a half stars."
+    },
+    {
+      "n": 5,
+      "duration_sec": 5,
+      "visual_prompt": "Hand fluffing a satin pillow on a cozy made bed, soft morning light, relaxed and inviting.",
+      "on_screen_text": "Comment BEDSURE for the link",
+      "voiceover": "Less tugging on your hair, a cooler pillow to sleep on, for about seven dollars. Comment BEDSURE and I'll send the link."
+    }
+  ],
+  "caption": "Cotton pillowcases are quietly wrecking your hair overnight.\n\nRougher fabric grabs onto hair and skin while you toss and turn, so strands get tugged and your face creases against the fabric by morning. It also traps heat against your cheek all night.\n\nThis satin pillowcase, similar to silk, gives hair and skin less to catch on and has a cooling feel, with an envelope closure and a queen set of two. It's rated 4.5 stars from over three hundred thousand reviewers.\n\nLess tugging overnight and a cooler surface to sleep on, for about $7.\n\nComment BEDSURE and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "This satin pillowcase, similar to silk, gives hair and skin less to catch on and has a cooling feel, with an envelope closure and a queen set of two. It's rated 4.5 stars from over three hundred thous",
+  "affiliate_strategy": {
+    "primary_product": "Bedsure Satin Pillowcase, Similar to Silk Pillow Cases Queen Size Set of 2, Cooling Pillow Case Covers with Envelope Clo",
+    "dm_keyword": "BEDSURE",
+    "amazon_asin": "B0725WFLMB",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B0725WFLMB?tag=goldenhomep0a-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": "https://www.amazon.com/dp/B0725WFLMB?tag=goldenhomep0a-20"
+  }
+}
