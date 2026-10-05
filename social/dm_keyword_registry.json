@@ -5535,6 +5535,38 @@
       "verified_stars": "4.5",
       "verified_reviews": 44931,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B07H1B724W",
+      "product_name": "Sattiyrch 12\" Front Door Wreath Hanger, Ultra Slim Metal Over Door Hook, Damage-Free Hanging for Seasonal & Year-Round W",
+      "categories": [
+        "home",
+        "Seasonal D\u00e9cor"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B07H1B724W?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-10-05",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$5.19",
+      "verified_stars": "4.7",
+      "verified_reviews": 16291,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B092VPGJB9",
+      "product_name": "Amazon Basics 13 Gallon Flextra Strength Tall Kitchen Drawstring Trash Bags, Tear Resistant, 120 count",
+      "categories": [
+        "home",
+        "Cleaning"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B092VPGJB9?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-10-05",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$14.38",
+      "verified_stars": "4.6",
+      "verified_reviews": 27641,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
