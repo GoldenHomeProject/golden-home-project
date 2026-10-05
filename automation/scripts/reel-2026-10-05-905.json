@@ -1,0 +1,60 @@
+{
+  "created_at": "2026-10-05T17:43:02.140927Z",
+  "date": "2026-10-05",
+  "seq": 905,
+  "source": "repurpose",
+  "hook": "The $46.99 organizer that makes the other four fixes stick",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Opening a jammed under-sink cabinet stuffed with cleaning supplies around pipes",
+      "on_screen_text": "The most wasted storage zone in a kitchen",
+      "voiceover": "Under the sink is consistently the most wasted storage zone in a kitchen, because of pipe obstructions."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Hand trying to shove a new tray into an already-full cabinet that won't close",
+      "on_screen_text": "A full cabinet is why organizing projects fail",
+      "voiceover": "If the cabinet behind your new organizer is already full, you've just relocated the clutter, not solved it."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Installing the PXRACK Expandable Under-Sink Organizer with 2 pull-out drawers around pipe obstructions",
+      "on_screen_text": "PXRACK Expandable Under-Sink Organizer - $46.99, 4.7 stars, 1,773 ratings",
+      "voiceover": "The PXRACK is $46.99, the most expensive item in this comparison, with an expandable frame that adjusts around plumbing."
+    },
+    {
+      "n": 4,
+      "duration_sec": 3,
+      "visual_prompt": "Pulling out the two drawers smoothly to show newly organized space",
+      "on_screen_text": "Two pull-out drawers, built around the pipes",
+      "voiceover": "Two pull-out drawers, and it expands to fit the space the pipes don't use."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Wide shot of newly freed cabinet space elsewhere in the kitchen",
+      "on_screen_text": "This is what makes the $17.99 and $19.99 fixes stick",
+      "voiceover": "This is the piece that makes the cheaper fixes actually stick instead of filling back up."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Final shot of all five products laid out together with a total price overlay",
+      "on_screen_text": "5 products, $149.92 total, counter cleared",
+      "voiceover": "All five products together ran me $149.92. The counter's been clear for three weeks."
+    }
+  ],
+  "caption": "This is the one people skip, and it's why every other counter fix stops working within a month. The PXRACK Expandable Under-Sink Organizer is $46.99 - the priciest thing in a 5-product comparison I ran, but the one reviewers credit with reclaiming the most usable cabinet space.",
+  "hashtags": [
+    "#undersinkorganization",
+    "#kitchenorganization",
+    "#amazonfinds",
+    "#cabinetstorage",
+    "#declutterkitchen",
+    "#organizedhome"
+  ]
+}

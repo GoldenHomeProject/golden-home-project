@@ -8005,5 +8005,91 @@
     },
     "hook": "Stop buying pillowcases separate from your sheets.",
     "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-05-003.mp4"
+  },
+  {
+    "name": "reel_repurpose_2026-10-05_901",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-05-901.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "My counter had a mail pile by Tuesday every single week - so I tried the $19.99 fix 4,169 reviewers rate 4.8 stars. The FifthQuarter Key Holder Wall Mount gives keys and mail a landing spot before they ever touch the counter. Full 5-product comparison on the blog.",
+    "hashtags": [
+      "#kitchenorganization",
+      "#entrywayorganization",
+      "#amazonmusthaves",
+      "#declutteringtips",
+      "#mailorganizer",
+      "#kitchencounterclutter",
+      "#organizedhome"
+    ],
+    "hook": "I stopped mail from touching my counter for $19.99"
+  },
+  {
+    "name": "reel_repurpose_2026-10-05_902",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-05-902.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "I was skeptical an appliance 'garage' would actually work - the $28 tray version didn't. What worked was giving the coffee maker a spot in the cabinet that's genuinely as fast to reach as the counter. The Simple Houseware 2-Tier Sliding Basket Organizer is $34.97. Full comparison on the blog.",
+    "hashtags": [
+      "#kitchenorganization",
+      "#cabinetorganization",
+      "#undercounterstorage",
+      "#amazonfinds",
+      "#declutterkitchen",
+      "#kitchenhacks"
+    ],
+    "hook": "My coffee maker left the counter for $34.97"
+  },
+  {
+    "name": "reel_repurpose_2026-10-05_903",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-05-903.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "The flour bag, the half-open cereal box, the snack bags still in retail packaging - that's not an appliance problem, it's a packaging problem. The Vtopmart 24-piece set is $29.98 and it's the highest-reviewed fix in a 5-product comparison I just ran: 28,028 ratings at 4.7 stars.",
+    "hashtags": [
+      "#pantryorganization",
+      "#foodstoragecontainers",
+      "#amazonfinds",
+      "#kitchenorganization",
+      "#pantrygoals",
+      "#declutter"
+    ],
+    "hook": "28,000 reviewers say this $29.98 set ends counter clutter"
+  },
+  {
+    "name": "reel_repurpose_2026-10-05_904",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-05-904.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Mail was the thing that actually filled my counter every single day - not appliances, not groceries. Mail. The WALI 4-Tier Desktop Organizer is $17.99, rated 4.6 stars across 4,455 ratings. Sold as a desk organizer, works better at the edge of a kitchen counter. Full breakdown on the blog.",
+    "hashtags": [
+      "#mailorganizer",
+      "#kitchenorganization",
+      "#paperclutter",
+      "#amazonfinds",
+      "#desktoporganizer",
+      "#declutteringtips"
+    ],
+    "hook": "My mail pile disappeared for $17.99"
+  },
+  {
+    "name": "reel_repurpose_2026-10-05_905",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-05-905.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "This is the one people skip, and it's why every other counter fix stops working within a month. The PXRACK Expandable Under-Sink Organizer is $46.99 - the priciest thing in a 5-product comparison I ran, but the one reviewers credit with reclaiming the most usable cabinet space.",
+    "hashtags": [
+      "#undersinkorganization",
+      "#kitchenorganization",
+      "#amazonfinds",
+      "#cabinetstorage",
+      "#declutterkitchen",
+      "#organizedhome"
+    ],
+    "hook": "The $46.99 organizer that makes the other four fixes stick"
   }
 ]

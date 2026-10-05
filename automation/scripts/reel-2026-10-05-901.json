@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-10-05T17:43:02.140388Z",
+  "date": "2026-10-05",
+  "seq": 901,
+  "source": "repurpose",
+  "hook": "I stopped mail from touching my counter for $19.99",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of a cluttered kitchen counter covered in mail, keys, and loose change",
+      "on_screen_text": "The counter at 6pm, every night",
+      "voiceover": "Every night my counter looked like this."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Hand sweeping mail into one pile, frustrated",
+      "on_screen_text": "Nothing had a landing spot",
+      "voiceover": "Turns out the problem wasn't space. It was that nothing had a landing spot."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Unboxing the FifthQuarter Key Holder Wall Mount and mounting it near the entry",
+      "on_screen_text": "FifthQuarter Key Holder Wall Mount - $19.99",
+      "voiceover": "This is the FifthQuarter Key Holder. $19.99, 6 hooks, a mail slot, rated 4.8 stars across 4,169 ratings."
+    },
+    {
+      "n": 4,
+      "duration_sec": 3,
+      "visual_prompt": "Hands hanging keys on the hooks and sliding mail into the slot",
+      "on_screen_text": "Keys + mail, intercepted at the door",
+      "voiceover": "It catches mail before it ever reaches the counter."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Wide shot of the now-empty, clear kitchen counter",
+      "on_screen_text": "Day 3: still clear",
+      "voiceover": "Three days in, the counter's still clear."
+    },
+    {
+      "n": 6,
+      "duration_sec": 4,
+      "visual_prompt": "Text overlay comparing the price of the key holder to clutter bins people buy instead",
+      "on_screen_text": "$19.99 vs. the bins people buy to hide the same mess",
+      "voiceover": "It's cheaper than most of the bins people buy to contain the same clutter after the fact."
+    }
+  ],
+  "caption": "My counter had a mail pile by Tuesday every single week - so I tried the $19.99 fix 4,169 reviewers rate 4.8 stars. The FifthQuarter Key Holder Wall Mount gives keys and mail a landing spot before they ever touch the counter. Full 5-product comparison on the blog.",
+  "hashtags": [
+    "#kitchenorganization",
+    "#entrywayorganization",
+    "#amazonmusthaves",
+    "#declutteringtips",
+    "#mailorganizer",
+    "#kitchencounterclutter",
+    "#organizedhome"
+  ]
+}

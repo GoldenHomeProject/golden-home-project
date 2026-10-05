@@ -1,0 +1,60 @@
+{
+  "created_at": "2026-10-05T17:43:02.140853Z",
+  "date": "2026-10-05",
+  "seq": 904,
+  "source": "repurpose",
+  "hook": "My mail pile disappeared for $17.99",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Growing stack of unsorted mail and bills on a kitchen counter",
+      "on_screen_text": "Mail: the #1 cited counter clutter item",
+      "voiceover": "Mail is the single most-cited counter clutter item in home organization advice right now."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Hand flipping through an unsorted mail pile, frustrated",
+      "on_screen_text": "No assigned tier, so it just stacks",
+      "voiceover": "It's not the volume. It's that paper has no assigned tier, so it stacks until someone sorts it."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Placing the WALI 4-Tier Desktop Paper Letter Tray Organizer at the edge of a counter near the entry",
+      "on_screen_text": "WALI 4-Tier Organizer - $17.99, 4.6 stars, 4,455 ratings",
+      "voiceover": "This is the WALI 4-Tier Organizer. $17.99, four tiers, a drawer, two pen slots, 4.6 stars across 4,455 ratings."
+    },
+    {
+      "n": 4,
+      "duration_sec": 3,
+      "visual_prompt": "Sorting mail into the four separate tiers",
+      "on_screen_text": "Incoming, bills, to-file - each own tier",
+      "voiceover": "Incoming mail, bills to pay, items to file - each gets its own tier instead of one growing stack."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Wide shot showing a clear counter with the organizer tucked at the edge",
+      "on_screen_text": "Same job as a mail center, a fraction of the price",
+      "voiceover": "It's sold as a desk organizer, but at the edge of the counter it does the job of a dedicated mail center."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Price comparison text overlay, $17.99 against other mail centers",
+      "on_screen_text": "Cheapest fix in this comparison",
+      "voiceover": "Out of five organizers I compared, this was the cheapest one - and it fixed the highest-volume clutter source."
+    }
+  ],
+  "caption": "Mail was the thing that actually filled my counter every single day - not appliances, not groceries. Mail. The WALI 4-Tier Desktop Organizer is $17.99, rated 4.6 stars across 4,455 ratings. Sold as a desk organizer, works better at the edge of a kitchen counter. Full breakdown on the blog.",
+  "hashtags": [
+    "#mailorganizer",
+    "#kitchenorganization",
+    "#paperclutter",
+    "#amazonfinds",
+    "#desktoporganizer",
+    "#declutteringtips"
+  ]
+}

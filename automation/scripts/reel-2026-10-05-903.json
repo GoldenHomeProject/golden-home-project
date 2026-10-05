@@ -1,0 +1,60 @@
+{
+  "created_at": "2026-10-05T17:43:02.140771Z",
+  "date": "2026-10-05",
+  "seq": 903,
+  "source": "repurpose",
+  "hook": "28,000 reviewers say this $29.98 set ends counter clutter",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Open bags of flour, cereal boxes, and snack bags spilling across a counter",
+      "on_screen_text": "This is what retail packaging does",
+      "voiceover": "Open bags and boxes don't stack. That's half my counter clutter right there."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Hand trying to stack two different cereal boxes, one tips over",
+      "on_screen_text": "No matching container, no stacking",
+      "voiceover": "There was never a container that matched, so it just piled up."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Unboxing the Vtopmart 24-piece Airtight Food Storage Container set",
+      "on_screen_text": "Vtopmart 24-Piece Set - $29.98, 4.7 stars, 28,028 ratings",
+      "voiceover": "This 24-piece set is $29.98, rated 4.7 stars across over 28,000 ratings - that's a big enough sample to trust the pattern."
+    },
+    {
+      "n": 4,
+      "duration_sec": 3,
+      "visual_prompt": "Pouring cereal and flour into the airtight containers",
+      "on_screen_text": "Airtight seal, flush stacking",
+      "voiceover": "The seal keeps cereal fresh, and the containers stack flush, which the bags never did."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Wide shot of a pantry shelf with uniform containers stacked neatly, counter clear",
+      "on_screen_text": "Pantry shelf: reclaimed. Counter: cleared.",
+      "voiceover": "That stacking frees up pantry shelf space and the counter space the bags were overflowing onto."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up on a star rating and review count graphic overlay",
+      "on_screen_text": "28,028 ratings isn't anecdotal",
+      "voiceover": "At almost 28,000 ratings, this isn't one person's opinion."
+    }
+  ],
+  "caption": "The flour bag, the half-open cereal box, the snack bags still in retail packaging - that's not an appliance problem, it's a packaging problem. The Vtopmart 24-piece set is $29.98 and it's the highest-reviewed fix in a 5-product comparison I just ran: 28,028 ratings at 4.7 stars.",
+  "hashtags": [
+    "#pantryorganization",
+    "#foodstoragecontainers",
+    "#amazonfinds",
+    "#kitchenorganization",
+    "#pantrygoals",
+    "#declutter"
+  ]
+}

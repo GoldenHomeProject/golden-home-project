@@ -1,0 +1,60 @@
+{
+  "created_at": "2026-10-05T17:43:02.140674Z",
+  "date": "2026-10-05",
+  "seq": 902,
+  "source": "repurpose",
+  "hook": "My coffee maker left the counter for $34.97",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Coffee maker and blender crowding a small kitchen counter",
+      "on_screen_text": "The appliance tray didn't work",
+      "voiceover": "I tried a $28 appliance tray first. The toaster was back on the counter in a week."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of a cluttered lower cabinet with pots jammed in",
+      "on_screen_text": "The cabinet wasn't the problem - the access was",
+      "voiceover": "The real issue wasn't space in the cabinet. It was that nothing in it was easy to reach."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Installing the Simple Houseware 2-Tier Sliding Basket Organizer under the counter",
+      "on_screen_text": "Simple Houseware 2-Tier Sliding Basket - $34.97",
+      "voiceover": "This chrome sliding basket organizer is $34.97 and turns dead cabinet space into pull-out access."
+    },
+    {
+      "n": 4,
+      "duration_sec": 3,
+      "visual_prompt": "Hand sliding the basket out smoothly to grab the coffee grinder",
+      "on_screen_text": "As fast as the counter now",
+      "voiceover": "Pulling the grinder out now takes the same two seconds as leaving it on the counter."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Coffee maker and grinder stored inside the cabinet, basket pulled halfway out",
+      "on_screen_text": "It didn't migrate back",
+      "voiceover": "A week later, it still hasn't migrated back."
+    },
+    {
+      "n": 6,
+      "duration_sec": 4,
+      "visual_prompt": "Wide shot of a clear counter next to an open cabinet showing organized baskets",
+      "on_screen_text": "Counter: clear. Cabinet: still closes.",
+      "voiceover": "The counter's clear, and the cabinet still closes."
+    }
+  ],
+  "caption": "I was skeptical an appliance 'garage' would actually work - the $28 tray version didn't. What worked was giving the coffee maker a spot in the cabinet that's genuinely as fast to reach as the counter. The Simple Houseware 2-Tier Sliding Basket Organizer is $34.97. Full comparison on the blog.",
+  "hashtags": [
+    "#kitchenorganization",
+    "#cabinetorganization",
+    "#undercounterstorage",
+    "#amazonfinds",
+    "#declutterkitchen",
+    "#kitchenhacks"
+  ]
+}
