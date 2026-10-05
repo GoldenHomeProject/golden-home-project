@@ -2,32 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://goldenhomeproject.com/</loc>
-    <lastmod>2026-10-04</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://goldenhomeproject.com/blog/</loc>
-    <lastmod>2026-10-04</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://goldenhomeproject.com/links.html</loc>
-    <lastmod>2026-10-04</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://goldenhomeproject.com/about.html</loc>
-    <lastmod>2026-10-04</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://goldenhomeproject.com/contact.html</loc>
-    <lastmod>2026-10-04</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://goldenhomeproject.com/privacy.html</loc>
-    <lastmod>2026-10-04</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <priority>0.4</priority>
   </url>
   <url>
@@ -411,6 +411,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://goldenhomeproject.com/blog/posts/2026-10-05-28-dollar-kitchen-counter-drop-zone-fix.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://goldenhomeproject.com/blog/posts/best-bath-towels-and-linens.html</loc>
     <lastmod>2026-10-02</lastmod>
     <priority>0.9</priority>
@@ -462,7 +467,7 @@
   </url>
   <url>
     <loc>https://goldenhomeproject.com/blog/posts/best-storage-bins.html</loc>
-    <lastmod>2026-09-24</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <priority>0.9</priority>
   </url>
 </urlset>
