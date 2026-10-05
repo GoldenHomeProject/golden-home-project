@@ -5478,10 +5478,11 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-03-B07H4HHNQK-gift.png",
     "queued_at": "2026-10-03T10:11:38.756233Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
-    "gift_key": "sattiyrch 15\" wreath hanger for front do"
+    "gift_key": "sattiyrch 15\" wreath hanger for front do",
+    "posted_at": "2026-10-05T13:40:31Z"
   },
   {
     "id": "pin-2026-10-03-B0BPLB81LX-gift",
