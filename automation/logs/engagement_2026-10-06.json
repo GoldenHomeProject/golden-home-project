@@ -3,8 +3,8 @@
   "agent": "engagement-monitor",
   "metrics": {
     "subscribers": 6660,
-    "total_views": 24463,
-    "total_videos": 228
+    "total_views": 24549,
+    "total_videos": 229
   },
   "top_videos": [
     {
@@ -38,14 +38,8 @@
       "comments": 1
     },
     {
-      "title": "106,545 reviews, 4.5 stars, $12.99 \u2014 that combination doesn'",
-      "views": 66,
-      "likes": 0,
-      "comments": 1
-    },
-    {
-      "title": "The sun wakes you up before your alarm does #shorts #amazonf",
-      "views": 47,
+      "title": "Stop buying pillowcases separate from your sheets #shorts #a",
+      "views": 48,
       "likes": 0,
       "comments": 1
     },
@@ -56,9 +50,15 @@
       "comments": 1
     },
     {
-      "title": "Stop buying pillowcases separate from your sheets #shorts #a",
-      "views": 44,
+      "title": "The sun wakes you up before your alarm does #shorts #amazonf",
+      "views": 45,
       "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Stop buying thin curtains that let morning light in #shorts ",
+      "views": 36,
+      "likes": 1,
       "comments": 1
     },
     {
@@ -70,6 +70,7 @@
   ],
   "comments_responded": 0,
   "actions_taken": [
+    "New comment on video: \ud83d\udccc SHOP ALL PRODUCTS \u2014 Amazon links:<br><br>\u2460 NICET",
     "Updated BUSINESS_BRAIN.md metrics"
   ]
 }
