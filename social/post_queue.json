@@ -8070,10 +8070,10 @@
   },
   {
     "name": "reel_2026-10-06_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-06-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-06-001.mp4",
     "caption": "You wake up with hair static and a cheek crease.\n\nCotton pillowcases have enough texture to catch on hair and skin while you toss and turn. That grip is what pulls hair into frizz and presses fold lines into your face by morning.\n\nThis satin pillowcase set swaps that rough cotton surface for something smoother across your queen pillow, so hair and skin move instead of catching overnight.\n\nA less friction-heavy surface to sleep on, on a set of two, for about $7.99.\n\nComment SATIN and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -8090,14 +8090,15 @@
       "affiliate_network": "amazon",
       "affiliate_url": "https://www.amazon.com/dp/B08616PS69?tag=goldenhomep0a-20"
     },
-    "hook": "You wake up with hair static and a cheek crease."
+    "hook": "You wake up with hair static and a cheek crease.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-06-001.mp4"
   },
   {
     "name": "reel_2026-10-06_002",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-06-002.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-06-002.mp4",
     "caption": "Something spills and it goes straight through your sheets.\n\nA fitted sheet only covers the surface, not what's underneath it. Once liquid gets past the sheet, it soaks into the mattress itself, and that's where stains and odors settle in for good. Deeper mattresses make it worse, since a lot of covers just don't reach far enough down to seal the corners.\n\nThis one is waterproof and built with a deep pocket that fits mattresses up to fifteen inches thick, so it sits between the sheet and the mattress and catches spills before they ever get through. Over a hundred thousand people have rated it 4.5 stars.\n\nThe sheet on top still looks and feels normal, but the mattress underneath stays clean, dry, and protected, for about twenty dollars.\n\nComment FULL and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -8114,14 +8115,15 @@
       "affiliate_network": "amazon",
       "affiliate_url": "https://www.amazon.com/dp/B07PMFVC9X?tag=goldenhomep0a-20"
     },
-    "hook": "Something spills and it goes straight through your sheets."
+    "hook": "Something spills and it goes straight through your sheets.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-06-002.mp4"
   },
   {
     "name": "reel_2026-10-06_003",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-06-003.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-06-003.mp4",
     "caption": "Stop buying thin curtains that let morning light in.\n\nMost curtain fabric is woven loose enough that light still gets through, especially along the top and side edges where panels don't quite meet. So sunrise, streetlights, or a neighbor's porch light end up in the room anyway, even with the curtains closed.\n\nThese are blackout panels made to cover the whole window and stop light at the source instead of just filtering it. Over a hundred thousand people have rated this two panel set 4.6 stars for bedrooms exactly like this.\n\nFor about $10, you get a window that goes properly dark instead of glowing at sunrise or under a streetlight, with two panels included for a standard window.\n\nComment BEDROOM and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -8138,7 +8140,8 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "Stop buying thin curtains that let morning light in."
+    "hook": "Stop buying thin curtains that let morning light in.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-06-003.mp4"
   },
   {
     "id": "carousel-2026-10-06-B00DU5SRIY",
