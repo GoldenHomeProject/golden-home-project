@@ -5552,10 +5552,11 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-03-B0B8DXN3K2-gift.png",
     "queued_at": "2026-10-03T10:14:21.381416Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
-    "gift_key": "dkbslik mulberry silk pillow cases stand"
+    "gift_key": "dkbslik mulberry silk pillow cases stand",
+    "posted_at": "2026-10-06T01:15:26Z"
   },
   {
     "id": "pin-2026-10-04-B0D8PSDMYH-gift",
