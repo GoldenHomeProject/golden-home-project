@@ -5570,10 +5570,11 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-04-B0D8PSDMYH-gift.png",
     "queued_at": "2026-10-04T10:11:52.344012Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
-    "gift_key": "doqaus ice cube tray with lid and bin,4 "
+    "gift_key": "doqaus ice cube tray with lid and bin,4 ",
+    "posted_at": "2026-10-06T01:16:30Z"
   },
   {
     "id": "pin-2026-10-04-B00JR5N0JM-gift",
