@@ -126,6 +126,12 @@ jobs:
                       continue
                   if it.get("posted_at") or it.get("pin_id") or it.get("status") == "posted":
                       continue
+                  # Withdrawn entries will never post, so their media is not needed:
+                  # "superseded_*" (178 old IG posts retired 2026-09-26/30) and "blocked"
+                  # pins. Counting them as pending kept ~180 old videos/carousels staged and
+                  # pushed _site past the 900 MB guard on 2026-10-06.
+                  if str(it.get("status", "")).startswith("superseded") or it.get("blocked"):
+                      continue
                   pending += 1
                   cand = [it.get("video_url"), it.get("image_url")]
                   cand += it.get("image_urls") or []
