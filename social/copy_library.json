@@ -3444,6 +3444,52 @@
           }
         ]
       }
+    ],
+    "STANDARD": [
+      {
+        "hook_category": "scene",
+        "hook": "Your shower liner keeps sticking to your leg.",
+        "beat1": "Thin vinyl liners billow inward from water pressure and the vacuum created as steam fills the shower, so the plastic ends up clinging right to you. A lot of them also carry a strong chemical smell straight out of the package.",
+        "turn": "This liner is Oeko-tex certified, meaning it's tested for harmful substances, and it comes in a standard size to fit most tubs. Over a hundred thousand shoppers have rated it 4.5 stars.",
+        "result": "A plainer, calmer shower for about $9.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close-up in a bathroom shower of a hand peeling a clear plastic shower liner off a leg while water runs",
+            "on_screen_text": "The clingy liner problem",
+            "voiceover": "Your shower liner keeps sticking to your leg."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Person unboxing a folded plastic shower liner on a bathroom counter, slightly wrinkling their nose at it",
+            "on_screen_text": "Why cheap liners billow and smell",
+            "voiceover": "Thin vinyl liners trap air and billow inward, and a lot of them smell like chemicals right out of the box."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Hands clipping a shower curtain liner onto rings on a shower rod in a standard-size bathtub alcove",
+            "on_screen_text": "Oeko-tex certified, standard size",
+            "voiceover": "This one is Oeko-tex certified, so it's tested for harmful substances, and it comes in a standard size that fits most tubs."
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "Wide shot of a clean, calm bathroom with the shower liner hanging flat against the tub",
+            "on_screen_text": "Highly rated by shoppers",
+            "voiceover": "Over a hundred thousand people have rated it four and a half stars."
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "Person stepping into the shower with the liner hanging still and flat, no clinging, calm bathroom light",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "A calmer shower for about nine dollars. Comment {KEYWORD} and I'll send the link."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
