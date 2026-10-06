@@ -5809,10 +5809,11 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-06-B0DZFGTCLR-gift.png",
     "queued_at": "2026-10-06T10:15:34.945472Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
-    "gift_key": "candle warmer lamp with timer home decor"
+    "gift_key": "candle warmer lamp with timer home decor",
+    "posted_at": "2026-10-06T13:40:32Z"
   },
   {
     "id": "pin-2026-10-06-B09TDGCLP6-gift",
