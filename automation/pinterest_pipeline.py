@@ -30,7 +30,7 @@ import json
 import re
 import os
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib import parse, request
 
@@ -938,6 +938,18 @@ def main() -> int:
             entries.append(explore[xi]); xi += 1
     print(f"  [mix] {len(drops)} price-drop, {len(proven)} proven-theme, "
           f"{len(explore)} exploratory (1 in {every} pins explores)")
+
+    # TRENDING NOW goes first: anything on Amazon's best-seller charts in the last 3 days.
+    # Ian, 2026-10-06: "make sure you are putting out trending products". Only 4 of 32 pins
+    # posted 9/29-10/6 were on a current chart; the lanes above rank drops and old proven
+    # themes ahead of what is selling today.
+    trend_now = set()
+    for f in sorted((SOCIAL).glob("trending_picks_*.json"))[-3:]:
+        d = load_json(f, {})
+        trend_now |= {p.get("asin") for p in (d if isinstance(d, list) else d.get("picks", []))}
+    hot = [e for e in entries if e.get("asin") in trend_now]
+    entries = hot + [e for e in entries if e.get("asin") not in trend_now]
+    print(f"  [trending] {len(hot)} products on this week's charts lead the run")
     if not entries:
         print("ERROR: no registry entries", file=sys.stderr)
         return 1
@@ -992,7 +1004,13 @@ def main() -> int:
         if gift and any(p.get("asin") == asin and p.get("board") == GIFT_BOARD[0]
                         for p in queue):
             continue          # one gift pin per product
-        if not args.force and already_queued(asin, queue) and not drop and not gift:
+        # A product back on the charts earns a FRESH pin if its last one is 30+ days old:
+        # Pinterest treats a new image as new content, and it is selling again now.
+        last = max((p.get("queued_at", "") for p in queue if p.get("asin") == asin), default="")
+        recharted = asin in trend_now and last and last[:10] < (
+            datetime.now(timezone.utc) - timedelta(days=30)).strftime("%Y-%m-%d")
+        if not args.force and already_queued(asin, queue) and not drop and not gift \
+                and not recharted:
             continue
         if drop and any(p.get("asin") == asin
                         and p.get("drop_observed_to") == drop.get("observed_to")
@@ -1119,6 +1137,7 @@ def main() -> int:
             "source": "pinterest_pipeline",
             "drop_observed_to": (DROPS.get(asin) or {}).get("observed_to"),
             "gift_key": str(entry.get("product_name", "")).lower()[:40] if gift else None,
+            "recharted": bool(recharted),
         })
         made += 1
         print(f"  [pin] {asin} board={board!r} link={'blog' if link.startswith(SITE) else 'amazon'} -> {rel}")

@@ -448,7 +448,7 @@ def main() -> int:
                and not _dead_season(p)
                and p["id"] not in led_ids
                and (p.get("asin") not in led_asins
-                    or _is_drop(p) or _is_collage(p) or _is_gift(p))]
+                    or _is_drop(p) or _is_collage(p) or _is_gift(p) or p.get("recharted"))]
     # Order by expected value, not by age.
     #   0. price drops    — highest buyer intent, and the freshest thing we know
     #   1. proven themes  — bathroom/bedroom textiles, the only products that have ever
@@ -466,20 +466,41 @@ def main() -> int:
     except Exception:
         _WORDS = ()
 
+    # Products on Amazon's best-seller charts in the last 3 days. Ian, 2026-10-06: "make sure
+    # you are putting out trending products". Only 4 of the 32 pins posted 9/29-10/6 were on
+    # a current chart — the bands below favoured price drops and old proven themes, so a
+    # product selling right now waited behind catalogue items from August.
+    import glob as _glob
+    _trend = set()
+    for _f in sorted(_glob.glob(str(REPO_ROOT / "social" / "trending_picks_*.json")))[-3:]:
+        try:
+            _d = json.loads(Path(_f).read_text())
+            _trend |= {p.get("asin") for p in (_d if isinstance(_d, list) else _d.get("picks", []))}
+        except (OSError, ValueError):
+            pass
+
     def _band(pin):
+        trending = pin.get("asin") in _trend
+        q4_gift = _is_gift(pin) and dt.date.today().month in (10, 11, 12)
         # Collages rank with price drops. Pinterest saves collage Pins ~2x more often
         # than single-product Pins, and saves are the only amplification this account
         # has — 205 impressions with 0 saves is what no amplification looks like. We
         # build at most one a day, so promoting them costs almost nothing.
         if _is_drop(pin) or _is_collage(pin):
             return 0
-        # Oct-Dec, gift searches are the highest-intent searches we can win.
-        if _is_gift(pin) and dt.date.today().month in (10, 11, 12):
+        # Selling right now AND a gift angle in gift season: the best pin we can post.
+        if trending and q4_gift:
+            return 0
+        # Oct-Dec, gift searches are the highest-intent searches we can win; a product
+        # on today's chart is the next best thing.
+        if trending or q4_gift:
             return 1
         blob = f"{pin.get('title','')} {pin.get('description','')} {pin.get('board','')}".lower()
-        return 1 if (_WORDS and any(w in blob for w in _WORDS)) else 2
+        return 2 if (_WORDS and any(w in blob for w in _WORDS)) else 3
 
     pending.sort(key=_band)
+    print(f"[pinterest] {sum(1 for p in pending if p.get('asin') in _trend)} of "
+          f"{len(pending)} pending pins are on this week's best-seller charts")
     if not pending:
         print("[pinterest] queue empty — nothing to post. Run pinterest_pipeline.py to refill.")
         return 0
