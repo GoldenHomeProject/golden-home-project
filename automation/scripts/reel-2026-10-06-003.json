@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-10-06T12:22:59.314180Z",
+  "date": "2026-10-06",
+  "seq": 3,
+  "hook_category": "mistake",
+  "hook": "Stop buying thin curtains that let morning light in.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "A bedroom window at early morning, a thin strip of sunlight cutting across the bed through a small gap in the curtains.",
+      "on_screen_text": "The light sneaks in anyway",
+      "voiceover": "Stop buying thin curtains that let morning light in."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Close-up of a hand holding up a curtain panel to the window, daylight glowing straight through the thin fabric.",
+      "on_screen_text": "Thin fabric never actually blocks it",
+      "voiceover": "Regular curtains are woven loose enough that sunrise, streetlights, or headlights still get through, especially along the top and side edges."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Hands hanging a heavy black curtain panel on a rod, the bedroom noticeably darkening as it falls into place.",
+      "on_screen_text": "Built to block light completely",
+      "voiceover": "These are blackout panels made to cover the whole window, closing off the gaps where thin curtains always leak."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "A fully darkened bedroom with the black curtains closed and someone sleeping peacefully, no light visible at the edges.",
+      "on_screen_text": "Over a hundred thousand shoppers agree",
+      "voiceover": "This two panel set is rated 4.6 stars by over a hundred thousand people, made to fit a standard window."
+    },
+    {
+      "n": 5,
+      "duration_sec": 5,
+      "visual_prompt": "Morning shot of someone pulling the black curtains open, soft light spilling in as they stretch and sit up on the bed.",
+      "on_screen_text": "Comment BEDROOM for the link",
+      "voiceover": "For about ten dollars, you get a window that actually goes dark when you want it to. Comment BEDROOM and I'll send the link."
+    }
+  ],
+  "caption": "Stop buying thin curtains that let morning light in.\n\nMost curtain fabric is woven loose enough that light still gets through, especially along the top and side edges where panels don't quite meet. So sunrise, streetlights, or a neighbor's porch light end up in the room anyway, even with the curtains closed.\n\nThese are blackout panels made to cover the whole window and stop light at the source instead of just filtering it. Over a hundred thousand people have rated this two panel set 4.6 stars for bedrooms exactly like this.\n\nFor about $10, you get a window that goes properly dark instead of glowing at sunrise or under a streetlight, with two panels included for a standard window.\n\nComment BEDROOM and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "These are blackout panels made to cover the whole window and stop light at the source instead of just filtering it. Over a hundred thousand people have rated this two panel set 4.6 stars for bedrooms ",
+  "affiliate_strategy": {
+    "primary_product": "NICETOWN Black Blackout Curtains for Bedroom 42\" Wide x 63\" Long 2 Pan",
+    "dm_keyword": "BEDROOM",
+    "amazon_asin": "B01CS31R94",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B01CS31R94?tag=goldenhomep0a-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": null
+  }
+}

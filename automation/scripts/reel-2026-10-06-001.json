@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-10-06T12:22:59.220336Z",
+  "date": "2026-10-06",
+  "seq": 1,
+  "hook_category": "scene",
+  "hook": "You wake up with hair static and a cheek crease.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of a person's cheek pressed into a plain cotton pillowcase in early morning light, a faint crease line visible on the skin",
+      "on_screen_text": "That morning cheek crease again",
+      "voiceover": "You wake up with hair static and a cheek crease."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Macro shot of loose hair strands caught in the woven texture of a cotton pillowcase on a bed",
+      "on_screen_text": "Cotton grips hair and skin",
+      "voiceover": "Regular cotton pillowcases catch on hair and skin all night, so both get tugged and pressed until you get up."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Hands smoothing a beige satin pillowcase over a pillow on a made queen bed, fabric catching soft light",
+      "on_screen_text": "Satin lets hair glide instead",
+      "voiceover": "This queen set of two satin pillowcases gives you a smoother surface, so hair slides instead of catching and your skin isn't pressed against rough fabric."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Two folded beige satin pillowcases stacked neatly on a shelf next to a made bed",
+      "on_screen_text": "Rated four and a half stars",
+      "voiceover": "About three hundred thousand people have rated this set four and a half stars."
+    },
+    {
+      "n": 5,
+      "duration_sec": 5,
+      "visual_prompt": "Morning shot of someone fluffing a pillow in satin beige pillowcases on a sunlit bed, relaxed and unhurried",
+      "on_screen_text": "Comment SATIN for the link",
+      "voiceover": "A smoother start to your morning, on a set of two, for about eight dollars. Comment SATIN and I'll send the link."
+    }
+  ],
+  "caption": "You wake up with hair static and a cheek crease.\n\nCotton pillowcases have enough texture to catch on hair and skin while you toss and turn. That grip is what pulls hair into frizz and presses fold lines into your face by morning.\n\nThis satin pillowcase set swaps that rough cotton surface for something smoother across your queen pillow, so hair and skin move instead of catching overnight.\n\nA less friction-heavy surface to sleep on, on a set of two, for about $7.99.\n\nComment SATIN and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "This satin pillowcase set swaps that rough cotton surface for something smoother across your queen pillow, so hair and skin move instead of catching overnight.",
+  "affiliate_strategy": {
+    "primary_product": "Bedsure Satin Pillowcases Queen Set of 2, Similar to Silk Pillow Case Beige | Reduces Hair Frizz & Skin Friction, Decora",
+    "dm_keyword": "SATIN",
+    "amazon_asin": "B08616PS69",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B08616PS69?tag=goldenhomep0a-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": "https://www.amazon.com/dp/B08616PS69?tag=goldenhomep0a-20"
+  }
+}
