@@ -8052,10 +8052,10 @@
   },
   {
     "name": "reel_repurpose_2026-10-05_905",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-05-905.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-05-905.mp4",
     "caption": "This is the one people skip, and it's why every other counter fix stops working within a month. The PXRACK Expandable Under-Sink Organizer is $46.99 - the priciest thing in a 5-product comparison I ran, but the one reviewers credit with reclaiming the most usable cabinet space.",
     "hashtags": [
       "#undersinkorganization",
@@ -8065,6 +8065,7 @@
       "#declutterkitchen",
       "#organizedhome"
     ],
-    "hook": "The $46.99 organizer that makes the other four fixes stick"
+    "hook": "The $46.99 organizer that makes the other four fixes stick",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-05-905.mp4"
   }
 ]
