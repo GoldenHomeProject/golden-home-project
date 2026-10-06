@@ -7725,31 +7725,6 @@
     "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
-    "name": "reel_2026-10-01_001",
-    "status": "ready",
-    "script_path": "automation/scripts/reel-2026-10-01-001.json",
-    "media_type": "REELS",
-    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-01-001.mp4",
-    "caption": "Stop waiting for your shower liner to turn yellow and stiff.\n\nCheap liners break down fast once soap scum and steam get into the plastic. That's why they turn stiff, yellow, or start smelling within a season, no matter how often you clean around them.\n\nThis liner is Oeko-tex certified, so it's tested for harmful substances before it ever hangs in your bathroom. It comes in a standard size, and over a hundred thousand people rate it 4.5 stars.\n\nFor about nine dollars, you get a straightforward swap that fits a standard tub without any guesswork on sizing.\n\nComment BAROSSA and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
-    "hashtags": [
-      "#amazonhomefinds",
-      "#homehacks2026",
-      "#smallspacesolutions"
-    ],
-    "affiliate": {
-      "primary_product": "Barossa Design Oeko-tex Certified Shower Curtain Liner Standard Size",
-      "dm_keyword": "BAROSSA",
-      "amazon_asin": "B08QRFZ6TH",
-      "amazon_affiliate_url": "https://www.amazon.com/dp/B08QRFZ6TH?tag=goldenhomep0a-20",
-      "asin_pending": false,
-      "fallback_brands": [],
-      "affiliate_network": "amazon",
-      "affiliate_url": null
-    },
-    "hook": "Stop waiting for your shower liner to turn yellow and stiff.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-01-001.mp4"
-  },
-  {
     "id": "carousel-2026-10-01-B07ZL2BFMP",
     "media_type": "CAROUSEL_ALBUM",
     "image_urls": [
