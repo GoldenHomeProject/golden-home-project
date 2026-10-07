@@ -8142,5 +8142,78 @@
     "keyword": "PASTE",
     "queued_at": "2026-10-06T13:47:04.009010Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_2026-10-07_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-07-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "If you rent, you can't change the closet. You can only change what's hanging in it.\n\nBulky plastic and wood hangers are the real reason a closet feels small \u2014 each one eats an inch of rod that could hold another shirt. Straps slide off smooth surfaces, shoulders lose their shape, and the rod fills up long before the closet actually does.\n\nAmazon Basics' slim velvet non-slip hangers are built for exactly this: a narrow profile that fits more garments on the same rod, plus a velvet surface that keeps straps and shoulders from sliding off. Rating sits at 4.8 stars across 235,105 reviews \u2014 enough closets running the same test to call it settled.\n\nMore hangers fit on the same rod, and what's on them stays put. $20.99 for the set.\n\nComment CLOTHES and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers",
+      "dm_keyword": "CLOTHES",
+      "amazon_asin": "B00FXNAAW2",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B00FXNAAW2?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "If you rent, you can't change the closet. You can only change what's hanging in it."
+  },
+  {
+    "name": "reel_2026-10-07_002",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-07-002.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Watch the back basket slide right out to you.\n\nUnder a kitchen sink, pipes and a disposal carve the space into odd gaps, so bottles and sprays end up shoved in the back. Every time you need the one thing in the corner, you end up pulling half the cabinet out first.\n\nThis two-tier sliding basket organizer sits low in that space and slides forward so the back row comes to you instead of your arm going in after it. It's a new chrome listing on Amazon, so there's no rating yet.\n\nEverything under the sink stays visible and reachable instead of stacked in a pile, for about $35.\n\nComment LINK and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #kitchenorganization #smallspacesolutions #undersinkstorage",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#kitchenorganization",
+      "#smallspacesolutions",
+      "#undersinkstorage"
+    ],
+    "affiliate": {
+      "primary_product": "Simple Houseware 2-Tier Sliding Basket Organizer (chrome, under-sink)",
+      "dm_keyword": "LINK",
+      "amazon_asin": "B01M0TS64K",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01M0TS64K?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Watch the back basket slide right out to you."
+  },
+  {
+    "name": "reel_2026-10-07_003",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-07-003.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Your throw pillows look flat for one dumb reason.\n\nPillow covers are usually cut generous, but the insert that ships with them is often a size down or just thin. That mismatch means the corners never fill out, so the pillow looks sunken even right after you fluff it.\n\nThese are 18 by 18 inserts, matched to the standard cover size, so they push fabric into every corner instead of leaving slack. Shoppers rate them 4.6 stars across roughly two hundred thousand reviews.\n\nCovers hold their square shape on the couch or bed instead of caving in at the edges, and a set runs about $16.\n\nComment INSERTS and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Utopia Bedding 18x18 Pillow Inserts",
+      "dm_keyword": "INSERTS",
+      "amazon_asin": "B01NBNDC1T",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01NBNDC1T?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Your throw pillows look flat for one dumb reason."
   }
 ]

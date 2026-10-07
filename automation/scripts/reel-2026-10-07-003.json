@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-10-07T12:16:46.676190Z",
+  "date": "2026-10-07",
+  "seq": 3,
+  "hook_category": "mistake",
+  "hook": "Your throw pillows look flat for one dumb reason.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of a slightly deflated throw pillow on a couch, corners sagging, soft natural daylight in a living room.",
+      "on_screen_text": "The corners always cave in",
+      "voiceover": "Your throw pillows look flat for one dumb reason."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Hand pressing into the empty corner of a pillow cover on a sofa, showing the gap where the insert falls short.",
+      "on_screen_text": "The insert is too small",
+      "voiceover": "Most covers are cut generous, but the insert inside is often thinner or a size down, so the corners never fill out and the whole pillow looks sunken."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Hands pushing a full, squared pillow insert into a fabric cover on a bed, corners popping out square as it's tucked in.",
+      "on_screen_text": "Sized to fill every corner",
+      "voiceover": "This is an 18 by 18 insert built to match that exact cover size, so it pushes into every corner instead of leaving empty space."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "A couch with several plump, squared throw pillows arranged neatly in soft afternoon light.",
+      "on_screen_text": "Rated 4.6 stars by shoppers",
+      "voiceover": "It's one of those basics people don't think twice about, and roughly two hundred thousand shoppers rate it 4.6 stars."
+    },
+    {
+      "n": 5,
+      "duration_sec": 5,
+      "visual_prompt": "Person fluffing a finished, full throw pillow on a made bed, satisfied, cozy warm home light.",
+      "on_screen_text": "Comment INSERTS for the link",
+      "voiceover": "Your pillows finally hold their shape on the couch or the bed. Comment INSERTS and I'll send the link."
+    }
+  ],
+  "caption": "Your throw pillows look flat for one dumb reason.\n\nPillow covers are usually cut generous, but the insert that ships with them is often a size down or just thin. That mismatch means the corners never fill out, so the pillow looks sunken even right after you fluff it.\n\nThese are 18 by 18 inserts, matched to the standard cover size, so they push fabric into every corner instead of leaving slack. Shoppers rate them 4.6 stars across roughly two hundred thousand reviews.\n\nCovers hold their square shape on the couch or bed instead of caving in at the edges, and a set runs about $16.\n\nComment INSERTS and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "These are 18 by 18 inserts, matched to the standard cover size, so they push fabric into every corner instead of leaving slack. Shoppers rate them 4.6 stars across roughly two hundred thousand reviews",
+  "affiliate_strategy": {
+    "primary_product": "Utopia Bedding 18x18 Pillow Inserts",
+    "dm_keyword": "INSERTS",
+    "amazon_asin": "B01NBNDC1T",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B01NBNDC1T?tag=goldenhomep0a-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": null
+  }
+}

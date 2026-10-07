@@ -1,0 +1,62 @@
+{
+  "created_at": "2026-10-07T12:16:46.668351Z",
+  "date": "2026-10-07",
+  "seq": 2,
+  "hook_category": "satisfying_fix",
+  "hook": "Watch the back basket slide right out to you.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of a hand pulling a chrome wire basket smoothly out from under a kitchen sink cabinet, bottles visible inside it",
+      "on_screen_text": "no more digging in back",
+      "voiceover": "Watch the back basket slide right out to you."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Photo looking into an open under-sink cabinet, two pipes running down the middle with cleaning bottles crowded around them",
+      "on_screen_text": "pipes split your cabinet in half",
+      "voiceover": "Pipes and a disposal carve that space into odd gaps, so bottles end up shoved in the back and you're pulling everything out just to reach one thing."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Hands setting a two-tier chrome sliding basket unit into the empty space under a kitchen sink, straddling the pipes",
+      "on_screen_text": "two tiers, straddles the pipes",
+      "voiceover": "This two-tier sliding basket organizer sits low around those pipes and slides forward, so the back row comes to you instead of your arm going in after it."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Overhead photo of a kitchen sink cabinet with dish soap, sponges, and spray bottles arranged on a low sliding chrome shelf",
+      "on_screen_text": "built for the under-sink spot",
+      "voiceover": "It's sized for that low, wide spot under a kitchen sink, made for bottles and sprays rather than tall items."
+    },
+    {
+      "n": 5,
+      "duration_sec": 5,
+      "visual_prompt": "Person crouched at an open kitchen cabinet, easily lifting a bottle from a fully extended sliding basket, natural kitchen light",
+      "on_screen_text": "Comment LINK for the link",
+      "voiceover": "Everything under the sink stays visible and reachable instead of stacked in a pile, for about thirty five dollars. Comment LINK and I'll send the link."
+    }
+  ],
+  "caption": "Watch the back basket slide right out to you.\n\nUnder a kitchen sink, pipes and a disposal carve the space into odd gaps, so bottles and sprays end up shoved in the back. Every time you need the one thing in the corner, you end up pulling half the cabinet out first.\n\nThis two-tier sliding basket organizer sits low in that space and slides forward so the back row comes to you instead of your arm going in after it. It's a new chrome listing on Amazon, so there's no rating yet.\n\nEverything under the sink stays visible and reachable instead of stacked in a pile, for about $35.\n\nComment LINK and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #kitchenorganization #smallspacesolutions #undersinkstorage",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#kitchenorganization",
+    "#smallspacesolutions",
+    "#undersinkstorage"
+  ],
+  "specific_falsifiable_detail": "This two-tier sliding basket organizer sits low in that space and slides forward so the back row comes to you instead of your arm going in after it. It's a new chrome listing on Amazon, so there's no ",
+  "affiliate_strategy": {
+    "primary_product": "Simple Houseware 2-Tier Sliding Basket Organizer (chrome, under-sink)",
+    "dm_keyword": "LINK",
+    "amazon_asin": "B01M0TS64K",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B01M0TS64K?tag=goldenhomep0a-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": null
+  }
+}
