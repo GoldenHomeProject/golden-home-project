@@ -5892,11 +5892,12 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-07-B071LPY75P-gift.png",
     "queued_at": "2026-10-07T10:12:03.854971Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": "americanflat 16x20 poster frame - engine",
-    "recharted": false
+    "recharted": false,
+    "posted_at": "2026-10-07T13:40:31Z"
   },
   {
     "id": "pin-2026-10-07-B0B6PLG6G2",
