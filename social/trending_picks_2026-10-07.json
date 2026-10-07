@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-10-07",
+  "category": "Home",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-home-organization-products.html",
+  "picks": [
+    {
+      "asin": "B00FXNAAW2",
+      "name": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers",
+      "price": "$19.99",
+      "rating": 4.8,
+      "reviews": 237350,
+      "rank": 2
+    },
+    {
+      "asin": "B079M8FPTW",
+      "name": "Rubbermaid Brilliance Tritan Plastic Food Storage Containers BPA Free",
+      "price": "$23.73",
+      "rating": 4.7,
+      "reviews": 59804,
+      "rank": 3
+    },
+    {
+      "asin": "B0C3QZ7SNF",
+      "name": "Cisily Sponge Holder for Kitchen Sink",
+      "price": "$11.19",
+      "rating": 4.6,
+      "reviews": 15220,
+      "rank": 11
+    },
+    {
+      "asin": "B0B2F55P76",
+      "name": "Adhesive Wall Hooks No Drill Clear Heavy Duty",
+      "price": "$11.04",
+      "rating": 4.5,
+      "reviews": 51562,
+      "rank": 15
+    },
+    {
+      "asin": "B0GYF91BXB",
+      "name": "HOMESURE Supports 200lbs Heavy Duty Moving Bags",
+      "price": "$23.74",
+      "rating": 4.7,
+      "reviews": 9465,
+      "rank": 20
+    },
+    {
+      "asin": "B0CSPKSCP2",
+      "name": "Winisok Waterproof Under Sink Mat 34\" x 22\"",
+      "price": "$17.99",
+      "rating": 4.7,
+      "reviews": 8437,
+      "rank": 36
+    }
+  ]
+}
