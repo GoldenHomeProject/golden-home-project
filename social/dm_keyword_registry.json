@@ -948,6 +948,24 @@
       "source": "trending",
       "keyword": "STANDARD",
       "promoted_at": "2026-10-06T12:21:04Z"
+    },
+    {
+      "asin": "B0108XRHJU",
+      "product_name": "Poo-Pourri Before-You-Go Toilet Spray, Original Citrus, 4 Fl Oz | Bathroom Odor Deodorizer with Essential Oils, for Home",
+      "categories": [
+        "home",
+        "Home D\u00e9cor"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0108XRHJU?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-09-09",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$11.39",
+      "verified_stars": "4.7",
+      "verified_reviews": 99570,
+      "discovery_source": "harvest_catalogue",
+      "keyword": "POURRI",
+      "promoted_at": "2026-10-07T12:20:40Z"
     }
   ],
   "_vetted_doc": "Verified-live Amazon ASINs cleared for blog/SEO/IG-caption use but NOT yet wired to a Meta comment-to-DM automation. Promote to `entries` (with a unique keyword) only AFTER creating the matching Meta Business Suite automation. Always use https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20 \u2014 never search URLs.",
@@ -4097,22 +4115,6 @@
       "verified_price": "$8.99",
       "verified_stars": "4.7",
       "verified_reviews": 5426,
-      "discovery_source": "harvest_catalogue"
-    },
-    {
-      "asin": "B0108XRHJU",
-      "product_name": "Poo-Pourri Before-You-Go Toilet Spray, Original Citrus, 4 Fl Oz | Bathroom Odor Deodorizer with Essential Oils, for Home",
-      "categories": [
-        "home",
-        "Home D\u00e9cor"
-      ],
-      "affiliate_url": "https://www.amazon.com/dp/B0108XRHJU?tag=goldenhomep0a-20",
-      "status": "live",
-      "verified_at": "2026-09-09",
-      "verified_method": "best_seller_grid",
-      "verified_price": "$11.39",
-      "verified_stars": "4.7",
-      "verified_reviews": 99570,
       "discovery_source": "harvest_catalogue"
     },
     {

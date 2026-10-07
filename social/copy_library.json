@@ -3490,6 +3490,52 @@
           }
         ]
       }
+    ],
+    "POURRI": [
+      {
+        "hook_category": "confrontation",
+        "hook": "Everyone sprays air freshener after. That's already too late.",
+        "beat1": "Bathroom odor is awkward in shared homes, especially with guests around or when you're using someone else's bathroom. By the time an air freshener covers the smell after the fact, the room has already made its impression.",
+        "turn": "Poo-Pourri's citrus spray goes onto the toilet water before you go, so it traps odor at the source instead of fighting it in the air afterward. Nearly a hundred thousand people rate it 4.7 stars.",
+        "result": "For about $11, it's small enough to keep in a bathroom drawer, overnight bag, or purse for whenever the moment calls for it.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "A hand sets a small spray bottle down on a bathroom counter next to the sink, soft morning light coming through a window",
+            "on_screen_text": "After doesn't work. Before does.",
+            "voiceover": "Everyone sprays air freshener after. That's already too late."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "A home bathroom door left slightly open with hallway light spilling in, toilet visible in soft focus",
+            "on_screen_text": "Too late once it's in the air",
+            "voiceover": "By the time you spray the air, the smell already left the bowl and filled the room."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Close-up of a hand spraying a small bottle into the toilet bowl water before sitting down",
+            "on_screen_text": "Spray the water, not the air",
+            "voiceover": "This one works backwards. A few sprays onto the water before you go, and the citrus oils trap the odor before it can rise."
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "Small spray bottle sitting among other toiletries on a bathroom shelf, soft natural light, close-up still life",
+            "on_screen_text": "4.7 stars, nearly 100k ratings",
+            "voiceover": "Nearly a hundred thousand people rate it 4.7 stars."
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "Hand tucking the small spray bottle into a bathroom drawer next to hand towels, drawer closing gently",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "One small bottle, about eleven dollars, tucked away for whenever you need it. Comment {KEYWORD} and I'll send the link."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
