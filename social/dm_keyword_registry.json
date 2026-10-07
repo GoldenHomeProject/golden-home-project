@@ -5607,6 +5607,86 @@
       "verified_stars": "4.7",
       "verified_reviews": 5223,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B01LWP8AL2",
+      "product_name": "Amazon Basics 3-Shelf Adjustable Heavy Duty Steel Wire Rack Storage Shelving Organizer with Storage Space, Versatility a",
+      "categories": [
+        "home",
+        "Home"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B01LWP8AL2?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-10-07",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$26.36",
+      "verified_stars": "4.6",
+      "verified_reviews": 263946,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0CS62J2G5",
+      "product_name": "RELEANY Washable Area Rug, 5'x7', Brick/Brown/Green | Non-Slip, Water Repellent, Pet Friendly, Easy to Clean, Vintage Fl",
+      "categories": [
+        "home",
+        "Home D\u00e9cor"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0CS62J2G5?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-10-07",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$33.99",
+      "verified_stars": "4.5",
+      "verified_reviews": 10239,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B071LPY75P",
+      "product_name": "Americanflat 16x20 Poster Frame - Engineered Wood - Black | Polished plexiglass front, hangs vertical or horizontal, saw",
+      "categories": [
+        "home",
+        "Home D\u00e9cor"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B071LPY75P?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-10-07",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$19.54",
+      "verified_stars": "4.5",
+      "verified_reviews": 41377,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0CSPKSCP2",
+      "product_name": "Winisok Waterproof Under Sink Mat 34\" x 22\", Silicone Mat, Dark Gray | Raised Edge Traps Spills & Leaks, Shelf Liner, Ca",
+      "categories": [
+        "home",
+        "Home"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0CSPKSCP2?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-10-07",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$17.99",
+      "verified_stars": "4.7",
+      "verified_reviews": 8436,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0035G078Q",
+      "product_name": "Swiffer WetJet Multi-Purpose Floor Cleaner Solution with Febreze Refill, Hardwood Floor Cleaner, Lavender Scent, 1.25 Li",
+      "categories": [
+        "home",
+        "Cleaning"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0035G078Q?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-10-07",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$12.94",
+      "verified_stars": "4.8",
+      "verified_reviews": 133134,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
