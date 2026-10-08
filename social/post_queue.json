@@ -7725,31 +7725,6 @@
     "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
-    "name": "reel_2026-10-02_001",
-    "status": "ready",
-    "script_path": "automation/scripts/reel-2026-10-02-001.json",
-    "media_type": "REELS",
-    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-02-001.mp4",
-    "caption": "Your desk has a permanent ring from that water bottle.\n\nThin cups sweat the moment ice hits them, so moisture ends up wherever they're sitting instead of staying inside the cup. On a wood desk or nightstand, that turns into a ring you have to wipe down before company or coworkers walk by.\n\nThis tumbler is double-wall insulated with a built-in handle and straw, so it holds the cold in rather than letting it sweat through to whatever it's sitting on. It's rated 4.7 stars from about two hundred thousand reviews.\n\nThat's one less thing to wipe down before a meeting, and it holds a full 30 ounces for about $32.\n\nComment STANLEY and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
-    "hashtags": [
-      "#amazonhomefinds",
-      "#homehacks2026",
-      "#smallspacesolutions"
-    ],
-    "affiliate": {
-      "primary_product": "STANLEY Quencher H2.0 Tumbler with Handle and Straw 30 oz",
-      "dm_keyword": "STANLEY",
-      "amazon_asin": "B0CP9YB3Q4",
-      "amazon_affiliate_url": "https://www.amazon.com/dp/B0CP9YB3Q4?tag=goldenhomep0a-20",
-      "asin_pending": false,
-      "fallback_brands": [],
-      "affiliate_network": "amazon",
-      "affiliate_url": null
-    },
-    "hook": "Your desk has a permanent ring from that water bottle.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-02-001.mp4"
-  },
-  {
     "name": "reel_2026-10-02_003",
     "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-02-003.json",
