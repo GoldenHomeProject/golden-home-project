@@ -5591,10 +5591,11 @@
     "fallback_image_path": "social/pinterest/pin-2026-10-04-B00JR5N0JM-gift.png",
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-04-B00JR5N0JM-gift.png",
     "queued_at": "2026-10-04T10:13:02.951236Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
-    "gift_key": "minetom fairy lights plug in, 33ft 100le"
+    "gift_key": "minetom fairy lights plug in, 33ft 100le",
+    "posted_at": "2026-10-08T01:15:34Z"
   },
   {
     "id": "pin-2026-10-04-B0F8HFLNQG-gift",
