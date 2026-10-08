@@ -8212,10 +8212,10 @@
   },
   {
     "name": "reel_2026-10-08_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-08-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-08-001.mp4",
     "caption": "Why does a blanket this light still feel warm?\n\nThick comforters trap heat, but they're heavy and hard to wash, and in a warm room they turn suffocating fast. That's usually why people end up kicking off the top layer in the middle of the night.\n\nThis is a brushed microfiber fleece blanket, lightweight and breathable instead of bulky. Over ninety thousand people have rated it 4.5 stars.\n\nA queen-size layer that adds warmth without the weight, for about $18.\n\nComment ULTRA and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -8232,14 +8232,15 @@
       "affiliate_network": "amazon",
       "affiliate_url": "https://www.amazon.com/dp/B073H8STZ7?tag=goldenhomep0a-20"
     },
-    "hook": "Why does a blanket this light still feel warm?"
+    "hook": "Why does a blanket this light still feel warm?",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-08-001.mp4"
   },
   {
     "name": "reel_2026-10-08_002",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-08-002.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-08-002.mp4",
     "caption": "Everyone sprays air freshener after. That's already too late.\n\nBathroom odor is awkward in shared homes, especially with guests around or when you're using someone else's bathroom. By the time an air freshener covers the smell after the fact, the room has already made its impression.\n\nPoo-Pourri's citrus spray goes onto the toilet water before you go, so it traps odor at the source instead of fighting it in the air afterward. Nearly a hundred thousand people rate it 4.7 stars.\n\nFor about $11, it's small enough to keep in a bathroom drawer, overnight bag, or purse for whenever the moment calls for it.\n\nComment POURRI and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -8256,6 +8257,7 @@
       "affiliate_network": "amazon",
       "affiliate_url": "https://www.amazon.com/dp/B0108XRHJU?tag=goldenhomep0a-20"
     },
-    "hook": "Everyone sprays air freshener after. That's already too late."
+    "hook": "Everyone sprays air freshener after. That's already too late.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-08-002.mp4"
   }
 ]
