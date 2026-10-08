@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-10-08T12:25:45.297985Z",
+  "date": "2026-10-08",
+  "seq": 2,
+  "hook_category": "confrontation",
+  "hook": "Everyone sprays air freshener after. That's already too late.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "A hand sets a small spray bottle down on a bathroom counter next to the sink, soft morning light coming through a window",
+      "on_screen_text": "After doesn't work. Before does.",
+      "voiceover": "Everyone sprays air freshener after. That's already too late."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "A home bathroom door left slightly open with hallway light spilling in, toilet visible in soft focus",
+      "on_screen_text": "Too late once it's in the air",
+      "voiceover": "By the time you spray the air, the smell already left the bowl and filled the room."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Close-up of a hand spraying a small bottle into the toilet bowl water before sitting down",
+      "on_screen_text": "Spray the water, not the air",
+      "voiceover": "This one works backwards. A few sprays onto the water before you go, and the citrus oils trap the odor before it can rise."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Small spray bottle sitting among other toiletries on a bathroom shelf, soft natural light, close-up still life",
+      "on_screen_text": "4.7 stars, nearly 100k ratings",
+      "voiceover": "Nearly a hundred thousand people rate it 4.7 stars."
+    },
+    {
+      "n": 5,
+      "duration_sec": 5,
+      "visual_prompt": "Hand tucking the small spray bottle into a bathroom drawer next to hand towels, drawer closing gently",
+      "on_screen_text": "Comment POURRI for the link",
+      "voiceover": "One small bottle, about eleven dollars, tucked away for whenever you need it. Comment POURRI and I'll send the link."
+    }
+  ],
+  "caption": "Everyone sprays air freshener after. That's already too late.\n\nBathroom odor is awkward in shared homes, especially with guests around or when you're using someone else's bathroom. By the time an air freshener covers the smell after the fact, the room has already made its impression.\n\nPoo-Pourri's citrus spray goes onto the toilet water before you go, so it traps odor at the source instead of fighting it in the air afterward. Nearly a hundred thousand people rate it 4.7 stars.\n\nFor about $11, it's small enough to keep in a bathroom drawer, overnight bag, or purse for whenever the moment calls for it.\n\nComment POURRI and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "Poo-Pourri's citrus spray goes onto the toilet water before you go, so it traps odor at the source instead of fighting it in the air afterward. Nearly a hundred thousand people rate it 4.7 stars.",
+  "affiliate_strategy": {
+    "primary_product": "Poo-Pourri Before-You-Go Toilet Spray, Original Citrus, 4 Fl Oz | Bathroom Odor Deodorizer with Essential Oils, for Home",
+    "dm_keyword": "POURRI",
+    "amazon_asin": "B0108XRHJU",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B0108XRHJU?tag=goldenhomep0a-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": "https://www.amazon.com/dp/B0108XRHJU?tag=goldenhomep0a-20"
+  }
+}

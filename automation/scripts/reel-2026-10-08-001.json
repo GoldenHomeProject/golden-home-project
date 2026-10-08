@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-10-08T12:25:45.280154Z",
+  "date": "2026-10-08",
+  "seq": 1,
+  "hook_category": "question",
+  "hook": "Why does a blanket this light still feel warm?",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of hands pulling a soft grey blanket up over the corner of a bed in early morning light",
+      "on_screen_text": "Light blanket, still this warm?",
+      "voiceover": "Why does a blanket this light still feel warm?"
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "A thick, puffy comforter being folded and stuffed onto a closet shelf, looking bulky and overstuffed",
+      "on_screen_text": "Heavy doesn't mean warmer",
+      "voiceover": "Thick comforters trap heat but they're heavy, and on a warm night they just feel suffocating."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Hands shaking out a grey fleece blanket so it settles smoothly over a queen-size bed",
+      "on_screen_text": "Plush microfiber, queen size",
+      "voiceover": "This one's a plush microfiber fleece blanket, made to feel warm while staying light and breathable."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Close-up of a hand running across the folded texture of a grey fleece blanket at the foot of a bed",
+      "on_screen_text": "4.5 stars, tens of thousands",
+      "voiceover": "Over ninety thousand people have rated it 4.5 stars."
+    },
+    {
+      "n": 5,
+      "duration_sec": 5,
+      "visual_prompt": "Wide shot of a made queen bed with the grey fleece blanket draped neatly, soft morning light through a window",
+      "on_screen_text": "Comment ULTRA for the link",
+      "voiceover": "A warm layer without the bulk, for about eighteen dollars. Comment ULTRA and I'll send the link."
+    }
+  ],
+  "caption": "Why does a blanket this light still feel warm?\n\nThick comforters trap heat, but they're heavy and hard to wash, and in a warm room they turn suffocating fast. That's usually why people end up kicking off the top layer in the middle of the night.\n\nThis is a brushed microfiber fleece blanket, lightweight and breathable instead of bulky. Over ninety thousand people have rated it 4.5 stars.\n\nA queen-size layer that adds warmth without the weight, for about $18.\n\nComment ULTRA and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "This is a brushed microfiber fleece blanket, lightweight and breathable instead of bulky. Over ninety thousand people have rated it 4.5 stars.",
+  "affiliate_strategy": {
+    "primary_product": "Utopia Bedding Ultra Soft Fleece Bed Blanket Queen Size Grey (90x90 Inches) | Microfiber Plush Warm Lightweight Breathab",
+    "dm_keyword": "ULTRA",
+    "amazon_asin": "B073H8STZ7",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B073H8STZ7?tag=goldenhomep0a-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": "https://www.amazon.com/dp/B073H8STZ7?tag=goldenhomep0a-20"
+  }
+}
