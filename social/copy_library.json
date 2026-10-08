@@ -3536,6 +3536,52 @@
           }
         ]
       }
+    ],
+    "ULTRA": [
+      {
+        "hook_category": "question",
+        "hook": "Why does a blanket this light still feel warm?",
+        "beat1": "Thick comforters trap heat, but they're heavy and hard to wash, and in a warm room they turn suffocating fast. That's usually why people end up kicking off the top layer in the middle of the night.",
+        "turn": "This is a brushed microfiber fleece blanket, lightweight and breathable instead of bulky. Over ninety thousand people have rated it 4.5 stars.",
+        "result": "A queen-size layer that adds warmth without the weight, for about $18.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close-up of hands pulling a soft grey blanket up over the corner of a bed in early morning light",
+            "on_screen_text": "Light blanket, still this warm?",
+            "voiceover": "Why does a blanket this light still feel warm?"
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "A thick, puffy comforter being folded and stuffed onto a closet shelf, looking bulky and overstuffed",
+            "on_screen_text": "Heavy doesn't mean warmer",
+            "voiceover": "Thick comforters trap heat but they're heavy, and on a warm night they just feel suffocating."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Hands shaking out a grey fleece blanket so it settles smoothly over a queen-size bed",
+            "on_screen_text": "Plush microfiber, queen size",
+            "voiceover": "This one's a plush microfiber fleece blanket, made to feel warm while staying light and breathable."
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "Close-up of a hand running across the folded texture of a grey fleece blanket at the foot of a bed",
+            "on_screen_text": "4.5 stars, tens of thousands",
+            "voiceover": "Over ninety thousand people have rated it 4.5 stars."
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "Wide shot of a made queen bed with the grey fleece blanket draped neatly, soft morning light through a window",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "A warm layer without the bulk, for about eighteen dollars. Comment {KEYWORD} and I'll send the link."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
