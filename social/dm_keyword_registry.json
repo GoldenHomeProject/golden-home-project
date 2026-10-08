@@ -5689,6 +5689,86 @@
       "verified_stars": "4.8",
       "verified_reviews": 133134,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B01D5TM5QE",
+      "product_name": "FoodSaver Custom Fit Vacuum Sealer Rolls, Airtight Food Storage and Sous Vide Rolls, BPA-Free, 11 x 16' (Pack of 3)",
+      "categories": [
+        "home",
+        "Home"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B01D5TM5QE?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-10-08",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$26.99",
+      "verified_stars": "4.8",
+      "verified_reviews": 19712,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B07WKBYXRC",
+      "product_name": "ARCH&M Exfoliating Washcloth & Japanese Shower Towel, 3 Pack, Body Scrubber | Japanese Washcloth, Korean Back Scrubber T",
+      "categories": [
+        "home",
+        "Bath Linens"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B07WKBYXRC?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-10-08",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$9.99",
+      "verified_stars": "4.5",
+      "verified_reviews": 15047,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0DGYQPDS3",
+      "product_name": "Kitsch x Harry Potter Microfiber Hair Towel Wrap for Women - Ravenclaw | Ultra Absorbent Microfiber Hair Towels for All ",
+      "categories": [
+        "home",
+        "Bath Linens"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0DGYQPDS3?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-10-08",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$14.99",
+      "verified_stars": "4.5",
+      "verified_reviews": 9180,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0811PXNBJ",
+      "product_name": "StorageWorks Storage Basket for Shelves, Storage Bins, Beige, 2-Pack | Large, With Reinforced PU Handles, Metal Frame, S",
+      "categories": [
+        "home",
+        "Home Storage"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0811PXNBJ?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-10-08",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$29.99",
+      "verified_stars": "4.6",
+      "verified_reviews": 6059,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B004QJGW6C",
+      "product_name": "Sterilite Clip Box, Stackable Clear Plastic Bins- Large, 6-Pack | Storage Containers with Latching Lids for Writing, Art",
+      "categories": [
+        "home",
+        "Home Storage"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B004QJGW6C?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-10-08",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$32.83",
+      "verified_stars": "4.7",
+      "verified_reviews": 8022,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
