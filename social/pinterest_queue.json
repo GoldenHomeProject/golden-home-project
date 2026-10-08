@@ -5609,10 +5609,11 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-04-B0F8HFLNQG-gift.png",
     "queued_at": "2026-10-04T10:14:27.906109Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
-    "gift_key": "lifewit expandable silverware drawer org"
+    "gift_key": "lifewit expandable silverware drawer org",
+    "posted_at": "2026-10-08T01:16:36Z"
   },
   {
     "id": "pin-2026-10-04-B0CTJGJL2T-gift",
