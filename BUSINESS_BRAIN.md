@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-10-07 (Affiliate Optimizer 10am)
+# Last updated: 2026-10-08 (Email Monitor 8am)
 # ============================================================
 
 ---
@@ -2516,3 +2516,30 @@ Angle that's working: **behavioral pain-point hooks** ("you do X without realizi
 - **REVENUE PRIORITY STACK (Oct 7, Affiliate Optimizer 10am):** 🚨 Amazon $40 Prime bounty (**CLOSES TODAY — FINAL HOURS**) > 🚨 Halloween porch (**ABSOLUTE DEADLINE = TODAY — last day ever**) > Rewarx 50% recurring (IAN-blocked **DAY 19**) > Mamma Mia 24-30% (**27th+ consecutive day ZERO content**, $13.23–$26.70/sale) > Dreame Impact 5%+ (ACTIVE, zero links, $10-40/sale uncaptured) > Homary 12%/$96/sale (Lauren **Day 10** waiting) > Promeed 12% (verify tracking links, NOT Amazon) > Best Choice 15% (1-click unactioned) > Syruvia 20% (ACTIVE zero fall content) > CJ AliExpress 9% (dormancy Day 8).
 - **IAN PRIORITY ACTIONS (Oct 7, ranked by urgency):** (1) 🚨 **POST AMAZON PRIME CONTENT + BUILD PRIME LINKS NOW** — $40 bounty CLOSES TODAY, drops to $12 tomorrow permanently (Creator Central → Menu → Promotions → Amazon Subscription Programs); (2) 🚨 **POST HALLOWEEN PORCH CONTENT TODAY** — ABSOLUTE DEADLINE, window closes permanently after Oct 7 (no competitors posted, entire window belongs to GHP); (3) **Fix GitHub Pages deployment failure** — commit 20c932d failed (thread 1a1118ccea0e3923) — IAN check GitHub Actions → Deploy site to Pages; (4) **Accept Rewarx Awin ID 129153** — 50% recurring, DAY 19 blocked; (5) **Complete Homary Awin express signup + email Lauren** — affiliate@homary.com, Day 10; (6) **Build Dreame tracking links in Impact dashboard** — program ACTIVE, fall sale running, zero revenue captured; (7) **Complete Pinterest Instagram upload** — log into pinterest.com/goldenhomeprojectllc/_tpd_social (recurring failure Oct 5, Oct 7); (8) **Accept Best Choice Products on Impact** — pre-approved 15%, 1-click; (9) **Check CJ portal** — Wayfair/GreenLife/Levoit application status (dormancy Day 8); (10) **Verify Oct 7 Content Engine scripts** use Promeed Impact tracking links for bedding/pillowcase hooks (12% vs 4% Amazon).
 
+
+
+---
+
+## October 2026 Email Monitor Update (2026-10-08 8am ET)
+
+**AMAZON PRIME BIG DEAL DAYS — NOW ENDED:**
+- Amazon affiliate notification "Prime Big Deal Days Ends Oct 7" (Oct 7, 17:00 UTC, thread 1a1174eeaa5c892d): confirms Prime Big Deal Days ended Oct 7. $40/Prime signup bounty window is NOW CLOSED — permanently dropped to $12/signup. All Prime bounty content opportunities for Oct 6-7 have passed. Regular rate ($12) remains active through Dec 31.
+
+**OUTSTANDING IAN ACTIONS (still unresolved from prior runs):**
+- 🚨 **GitHub Pages deployment failure** — commit 20c932d, "Deploy site to Pages" workflow (thread 1a1118ccea0e3923, Oct 6). IAN: check GitHub Actions → Deploy site to Pages → failed run. Fix and re-run or push a corrective commit.
+- 🚨 **Pinterest Instagram sync failure** — recurring (Oct 5 + Oct 7). IAN: log into Pinterest → goldenhomeprojectllc → _tpd_social to complete upload.
+- **Halloween porch window CLOSED** — Oct 7 was the absolute deadline; this content window is permanently past. Remove from priority stack.
+
+**REVENUE PRIORITY STACK UPDATE (Oct 8):** Rewarx 50% recurring (IAN-blocked **DAY 20**) > Mamma Mia 24-30% (**28th+ consecutive day ZERO content**, $13.23–$26.70/sale) > Dreame Impact 5%+ (ACTIVE, fall sale, zero tracking links = zero revenue) > Homary 12%/$96/sale (Lauren **Day 11** waiting) > Promeed 12% ACTIVE (verify tracking links on bedding scripts) > Best Choice 15% (1-click unactioned) > Syruvia 20% ACTIVE (garment steamer/rice dispenser/candle warmer = zero fall content) > CJ AliExpress 9% (dormancy Day 9, 90-day window to Dec 31) > Amazon Prime $12/signup (ongoing; $40 window closed) > eufy follow-up due Oct 9 (fall sale ends Oct 11).
+
+**IAN PRIORITY ACTIONS (Oct 8, ranked by urgency):**
+(1) **Fix GitHub Pages deployment failure** — commit 20c932d (thread 1a1118ccea0e3923);
+(2) **Accept Rewarx Awin ID 129153** — 50% recurring, DAY 20 blocked;
+(3) **Mamma Mia after-first $47 script** — 28th+ consecutive day, UNBREAKABLE;
+(4) **Build Dreame tracking links in Impact dashboard** — ACTIVE program, fall sale, zero revenue;
+(5) **Complete Homary Awin express signup + email Lauren** (affiliate@homary.com, Day 11);
+(6) **Complete Pinterest Instagram upload** (pinterest.com/goldenhomeprojectllc/_tpd_social);
+(7) **Accept Best Choice Products Impact** (1-click, 15%);
+(8) **Check CJ portal** — AliExpress/Wayfair/GreenLife/Levoit status (dormancy Day 9);
+(9) **eufy follow-up due OCT 9** — send 2nd touch; fall sale ends Oct 11;
+(10) **Verify Content Engine scripts** use Promeed tracking links for bedding/pillowcase hooks.
