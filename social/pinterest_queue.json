@@ -5645,10 +5645,11 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-04-B0D1VMFWYN-gift.png",
     "queued_at": "2026-10-04T10:16:15.675552Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
-    "gift_key": "lyshin silk pillow cases 2 pack standard"
+    "gift_key": "lyshin silk pillow cases 2 pack standard",
+    "posted_at": "2026-10-08T13:41:40Z"
   },
   {
     "id": "pin-2026-10-04-B0C2LS4FGL-gift",
