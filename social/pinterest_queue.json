@@ -5717,10 +5717,11 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-05-B07F897P1G-gift.png",
     "queued_at": "2026-10-05T10:14:55.294504Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
-    "gift_key": "wreath hanger,christmas decorations adju"
+    "gift_key": "wreath hanger,christmas decorations adju",
+    "posted_at": "2026-10-09T13:41:34Z"
   },
   {
     "id": "pin-2026-10-05-B0CS12LZLS-gift",
