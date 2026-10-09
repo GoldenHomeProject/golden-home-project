@@ -5681,10 +5681,11 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-05-B07C41SYJ7-gift.png",
     "queued_at": "2026-10-05T10:11:24.969911Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
-    "gift_key": "amazon basics soft and thick cotton hand"
+    "gift_key": "amazon basics soft and thick cotton hand",
+    "posted_at": "2026-10-09T01:16:20Z"
   },
   {
     "id": "pin-2026-10-05-B07H1B724W-gift",
