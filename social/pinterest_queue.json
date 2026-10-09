@@ -5663,10 +5663,11 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-04-B0C2LS4FGL-gift.png",
     "queued_at": "2026-10-04T10:17:56.447620Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
-    "gift_key": "american veteran towel, hand towels for "
+    "gift_key": "american veteran towel, hand towels for ",
+    "posted_at": "2026-10-09T01:15:25Z"
   },
   {
     "id": "pin-2026-10-05-B07C41SYJ7-gift",
