@@ -8237,10 +8237,10 @@
   },
   {
     "name": "reel_2026-10-09_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-09-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-09-001.mp4",
     "caption": "If you rent, you can't change the closet. You can only change what's hanging in it.\n\nBulky plastic and wood hangers are the real reason a closet feels small \u2014 each one eats an inch of rod that could hold another shirt. Straps slide off smooth surfaces, shoulders lose their shape, and the rod fills up long before the closet actually does.\n\nAmazon Basics' slim velvet non-slip hangers are built for exactly this: a narrow profile that fits more garments on the same rod, plus a velvet surface that keeps straps and shoulders from sliding off. Rating sits at 4.8 stars across 235,105 reviews \u2014 enough closets running the same test to call it settled.\n\nMore hangers fit on the same rod, and what's on them stays put. $20.99 for the set.\n\nComment CLOTHES and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -8257,14 +8257,15 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "If you rent, you can't change the closet. You can only change what's hanging in it."
+    "hook": "If you rent, you can't change the closet. You can only change what's hanging in it.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-09-001.mp4"
   },
   {
     "name": "reel_2026-10-09_002",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-09-002.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-09-002.mp4",
     "caption": "Something spills and it goes straight through your sheets.\n\nA fitted sheet only covers the surface, not what's underneath it. Once liquid gets past the sheet, it soaks into the mattress itself, and that's where stains and odors settle in for good. Deeper mattresses make it worse, since a lot of covers just don't reach far enough down to seal the corners.\n\nThis one is waterproof and built with a deep pocket that fits mattresses up to fifteen inches thick, so it sits between the sheet and the mattress and catches spills before they ever get through. Over a hundred thousand people have rated it 4.5 stars.\n\nThe sheet on top still looks and feels normal, but the mattress underneath stays clean, dry, and protected, for about twenty dollars.\n\nComment FULL and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -8281,14 +8282,15 @@
       "affiliate_network": "amazon",
       "affiliate_url": "https://www.amazon.com/dp/B07PMFVC9X?tag=goldenhomep0a-20"
     },
-    "hook": "Something spills and it goes straight through your sheets."
+    "hook": "Something spills and it goes straight through your sheets.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-09-002.mp4"
   },
   {
     "name": "reel_2026-10-09_003",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-09-003.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-09-003.mp4",
     "caption": "Stop stuffing pillow covers with the wrong size insert.\n\nPillow covers are usually cut to a specific size, but the insert stuffed inside them often isn't a real match. When the insert runs smaller or flatter than the cover, the corners cave in and the whole pillow looks deflated no matter how nice the fabric is.\n\nThe Utopia Bedding 18x18 Pillow Inserts are cut to that exact 18 by 18 size, so they line up with a standard cover instead of leaving gaps. Over two hundred thousand people have rated them 4.6 stars.\n\nThe corners fill out edge to edge instead of caving in, and it runs about sixteen dollars.\n\nComment INSERTS and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -8305,7 +8307,8 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "Stop stuffing pillow covers with the wrong size insert."
+    "hook": "Stop stuffing pillow covers with the wrong size insert.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-09-003.mp4"
   },
   {
     "id": "carousel-2026-10-09-B073H8STZ7",
