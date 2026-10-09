@@ -1,0 +1,32 @@
+{
+  "captured_at": "2026-10-09",
+  "category": "Cleaning",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-cleaning-supplies.html",
+  "picks": [
+    {
+      "asin": "B092VPGJB9",
+      "name": "Amazon Basics 13 Gallon Flextra Strength Tall Kitchen Drawstring Trash",
+      "price": "$17.08",
+      "rating": 4.6,
+      "reviews": 45674,
+      "rank": 9
+    },
+    {
+      "asin": "B00SXC85IQ",
+      "name": "Affresh Dishwasher Cleaner",
+      "price": "$8.98",
+      "rating": 4.6,
+      "reviews": 80984,
+      "rank": 21
+    },
+    {
+      "asin": "B00W5D1MDE",
+      "name": "Clorox Toilet Bowl Cleaner Clinging Bleach Gel",
+      "price": "$5.29",
+      "rating": 4.8,
+      "reviews": 46582,
+      "rank": 26
+    }
+  ]
+}
