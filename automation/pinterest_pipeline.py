@@ -966,7 +966,9 @@ def main() -> int:
         gifted = {p.get("asin") for p in queue if p.get("board") == GIFT_BOARD[0]}
         gifts = [dict(e, _gift=True) for e in entries
                  if gift_eligible(e) and e.get("asin") not in gifted]
-        gifts.sort(key=lambda e: int(re.sub(r"\D", "", str(e.get("verified_reviews"))) or 0),
+        # Gift ideas that are ALSO on this week's best-seller charts first, then by reviews.
+        gifts.sort(key=lambda e: (e.get("asin") in trend_now,
+                                  int(re.sub(r"\D", "", str(e.get("verified_reviews"))) or 0)),
                    reverse=True)
         # Two listings named "Queen Size 4 Piece Sheet Set" are one gift idea, not two.
         seen_names, uniq = {p.get("gift_key") for p in queue if p.get("gift_key")}, []

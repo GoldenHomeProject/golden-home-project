@@ -493,10 +493,15 @@ def main() -> int:
             return 0
         # Oct-Dec, gift searches are the highest-intent searches we can win; a product
         # on today's chart is the next best thing.
-        if trending or q4_gift:
+        # Trending beats a non-trending gift pin: 10/6-10/9 posted 12 gift pins and only 2
+        # chart products, because gifts and trending shared a band and the gifts were
+        # queued first.
+        if trending:
             return 1
+        if q4_gift:
+            return 2
         blob = f"{pin.get('title','')} {pin.get('description','')} {pin.get('board','')}".lower()
-        return 2 if (_WORDS and any(w in blob for w in _WORDS)) else 3
+        return 3 if (_WORDS and any(w in blob for w in _WORDS)) else 4
 
     pending.sort(key=_band)
     print(f"[pinterest] {sum(1 for p in pending if p.get('asin') in _trend)} of "
