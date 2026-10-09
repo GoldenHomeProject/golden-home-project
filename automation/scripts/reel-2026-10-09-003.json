@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-10-09T12:15:15.621847Z",
+  "date": "2026-10-09",
+  "seq": 3,
+  "hook_category": "mistake",
+  "hook": "Stop stuffing pillow covers with the wrong size insert.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of hands fluffing a square throw pillow on a couch, one corner looking slightly caved in and empty",
+      "on_screen_text": "Stop using the wrong size insert",
+      "voiceover": "Stop stuffing your pillow covers with whatever insert you can find."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Hand pressing into the empty corner of a pillow on a bed, showing the fabric sinking in where there's no fill",
+      "on_screen_text": "The corners are always the problem",
+      "voiceover": "Covers are cut to a set size, but the insert inside often isn't a real match, so the corners cave in and the pillow looks flat."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Hands sliding a plump square pillow insert into an open pillow cover, lining up the corners",
+      "on_screen_text": "Sized to match an 18x18 cover",
+      "voiceover": "The Utopia Bedding 18x18 Pillow Inserts are cut to that exact 18 by 18 size, so they line up with a standard cover instead of leaving gaps."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "A few finished square pillows stacked neatly on a made bed, corners full and square",
+      "on_screen_text": "4.6 stars from over 200,000 shoppers",
+      "voiceover": "Over two hundred thousand people rate these inserts 4.6 stars, and it runs about sixteen dollars for inserts sized to match your covers."
+    },
+    {
+      "n": 5,
+      "duration_sec": 5,
+      "visual_prompt": "Wide shot of a styled couch or bed with full, plump pillows, a hand giving a final fluff",
+      "on_screen_text": "Comment INSERTS for the link",
+      "voiceover": "Full corners, no gaps, a cover that finally looks the way it's supposed to. Comment INSERTS and I'll send the link."
+    }
+  ],
+  "caption": "Stop stuffing pillow covers with the wrong size insert.\n\nPillow covers are usually cut to a specific size, but the insert stuffed inside them often isn't a real match. When the insert runs smaller or flatter than the cover, the corners cave in and the whole pillow looks deflated no matter how nice the fabric is.\n\nThe Utopia Bedding 18x18 Pillow Inserts are cut to that exact 18 by 18 size, so they line up with a standard cover instead of leaving gaps. Over two hundred thousand people have rated them 4.6 stars.\n\nThe corners fill out edge to edge instead of caving in, and it runs about sixteen dollars.\n\nComment INSERTS and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "The Utopia Bedding 18x18 Pillow Inserts are cut to that exact 18 by 18 size, so they line up with a standard cover instead of leaving gaps. Over two hundred thousand people have rated them 4.6 stars.",
+  "affiliate_strategy": {
+    "primary_product": "Utopia Bedding 18x18 Pillow Inserts",
+    "dm_keyword": "INSERTS",
+    "amazon_asin": "B01NBNDC1T",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B01NBNDC1T?tag=goldenhomep0a-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": null
+  }
+}
