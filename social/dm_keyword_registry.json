@@ -5771,6 +5771,54 @@
       "verified_stars": "4.7",
       "verified_reviews": 8022,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B07XFQVN57",
+      "product_name": "Kitsch Satin Pillowcase with Zipper - Standard Size, Ivory | Softer Than Silk Pillow Cases, Smooth Cooling Satin Pillow ",
+      "categories": [
+        "home",
+        "Bedding"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B07XFQVN57?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-10-09",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$18.99",
+      "verified_stars": "4.6",
+      "verified_reviews": 31218,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B087JJ3M15",
+      "product_name": "BEDELITE Satin Pillowcases, Queen Size 20x30 Inch, Dark Grey, Set of 2 | Similar to Silk Pillow Cases, Soft and Cooling,",
+      "categories": [
+        "home",
+        "Bedding"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B087JJ3M15?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-10-09",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$5.79",
+      "verified_stars": "4.6",
+      "verified_reviews": 59709,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0C5FHSPHV",
+      "product_name": "CGK Extra Deep King Single Fitted Sheet Only - Steel Blue | Easily Fits 18 inch to 24 inch Mattress, Soft, Wrinkle Free,",
+      "categories": [
+        "home",
+        "Bedding"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0C5FHSPHV?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-10-09",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$24.99",
+      "verified_stars": "4.5",
+      "verified_reviews": 55982,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
