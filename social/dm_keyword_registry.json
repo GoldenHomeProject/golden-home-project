@@ -984,6 +984,24 @@
       "discovery_source": "harvest_catalogue",
       "keyword": "ULTRA",
       "promoted_at": "2026-10-08T12:20:27Z"
+    },
+    {
+      "asin": "B07236M4HC",
+      "product_name": "AmazerBath Plastic Shower Curtain Clear Premium PEVA, Clear Shower Curtain Heavy Duty 8G, Weighted Shower Curtains for B",
+      "categories": [
+        "home",
+        "Bath"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B07236M4HC?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-08-23",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$9.48",
+      "verified_stars": "4.6",
+      "verified_reviews": 92528,
+      "discovery_source": "harvest_catalogue",
+      "keyword": "AMAZERBATH",
+      "promoted_at": "2026-10-09T12:20:30Z"
     }
   ],
   "_vetted_doc": "Verified-live Amazon ASINs cleared for blog/SEO/IG-caption use but NOT yet wired to a Meta comment-to-DM automation. Promote to `entries` (with a unique keyword) only AFTER creating the matching Meta Business Suite automation. Always use https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20 \u2014 never search URLs.",
@@ -2314,22 +2332,6 @@
       "verified_price": "$12.84",
       "verified_stars": "4.7",
       "verified_reviews": 143837,
-      "discovery_source": "harvest_catalogue"
-    },
-    {
-      "asin": "B07236M4HC",
-      "product_name": "AmazerBath Plastic Shower Curtain Clear Premium PEVA, Clear Shower Curtain Heavy Duty 8G, Weighted Shower Curtains for B",
-      "categories": [
-        "home",
-        "Bath"
-      ],
-      "affiliate_url": "https://www.amazon.com/dp/B07236M4HC?tag=goldenhomep0a-20",
-      "status": "live",
-      "verified_at": "2026-08-23",
-      "verified_method": "best_seller_grid",
-      "verified_price": "$9.48",
-      "verified_stars": "4.6",
-      "verified_reviews": 92528,
       "discovery_source": "harvest_catalogue"
     },
     {
