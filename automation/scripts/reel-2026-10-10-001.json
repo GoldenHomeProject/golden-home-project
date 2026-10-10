@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-10-10T11:32:47.220082Z",
+  "date": "2026-10-10",
+  "seq": 1,
+  "hook_category": "scene",
+  "hook": "Your shower curtain keeps clinging to your leg mid-shower.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close shot inside a shower stall, water running, a clear plastic curtain pressed against someone's calf as they step back from it",
+      "on_screen_text": "Curtain sticking to your leg?",
+      "voiceover": "Your shower curtain keeps clinging to your leg mid-shower."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Wide shot of a shower stall with the curtain billowing inward while the shower water runs, steam visible",
+      "on_screen_text": "Thin liners get pulled in",
+      "voiceover": "Running water pulls the air out of the shower, and a light curtain just gets dragged along with it."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Hands hanging a clear plastic shower curtain on a rod, the bottom hem visibly weighted and sitting flat near the tub edge",
+      "on_screen_text": "Weighted hem, heavy duty PEVA",
+      "voiceover": "This one's clear heavy duty PEVA with a weighted bottom, so it hangs close to the tub instead of flying at you."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Shower running with the clear curtain hanging straight and still against the tub, no billowing, water visible behind it",
+      "on_screen_text": "Rated 4.6 by thousands",
+      "voiceover": "About ninety thousand people have rated it 4.6 stars."
+    },
+    {
+      "n": 5,
+      "duration_sec": 5,
+      "visual_prompt": "Person stepping into the shower and closing the curtain behind them, curtain staying put against the tub wall",
+      "on_screen_text": "Comment AMAZERBATH for the link",
+      "voiceover": "Less reaching over to peel plastic off your leg, more just showering, for about nine dollars. Comment AMAZERBATH and I'll send the link."
+    }
+  ],
+  "caption": "Your shower curtain keeps clinging to your leg mid-shower.\n\nRunning water pulls air out of the shower stall, and a light curtain gets dragged inward right along with it. Thin liners have nothing weighing the bottom down, so they billow and stick the second the water gets going.\n\nThis AmazerBath curtain is clear heavy duty 8G PEVA with a weighted bottom, so it hangs close to the tub instead of flying at you. About ninety thousand people have rated it 4.6 stars.\n\nLess reaching over to peel plastic off your leg, more just showering. It runs about nine dollars.\n\nComment AMAZERBATH and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "This AmazerBath curtain is clear heavy duty 8G PEVA with a weighted bottom, so it hangs close to the tub instead of flying at you. About ninety thousand people have rated it 4.6 stars.",
+  "affiliate_strategy": {
+    "primary_product": "AmazerBath Plastic Shower Curtain Clear Premium PEVA, Clear Shower Curtain Heavy Duty 8G, Weighted Shower Curtains for B",
+    "dm_keyword": "AMAZERBATH",
+    "amazon_asin": "B07236M4HC",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B07236M4HC?tag=goldenhomep0a-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": "https://www.amazon.com/dp/B07236M4HC?tag=goldenhomep0a-20"
+  }
+}

@@ -8300,5 +8300,29 @@
     "keyword": "ULTRA",
     "queued_at": "2026-10-09T14:00:34.378966Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_2026-10-10_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-10-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Your shower curtain keeps clinging to your leg mid-shower.\n\nRunning water pulls air out of the shower stall, and a light curtain gets dragged inward right along with it. Thin liners have nothing weighing the bottom down, so they billow and stick the second the water gets going.\n\nThis AmazerBath curtain is clear heavy duty 8G PEVA with a weighted bottom, so it hangs close to the tub instead of flying at you. About ninety thousand people have rated it 4.6 stars.\n\nLess reaching over to peel plastic off your leg, more just showering. It runs about nine dollars.\n\nComment AMAZERBATH and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "AmazerBath Plastic Shower Curtain Clear Premium PEVA, Clear Shower Curtain Heavy Duty 8G, Weighted Shower Curtains for B",
+      "dm_keyword": "AMAZERBATH",
+      "amazon_asin": "B07236M4HC",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B07236M4HC?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B07236M4HC?tag=goldenhomep0a-20"
+    },
+    "hook": "Your shower curtain keeps clinging to your leg mid-shower."
   }
 ]
