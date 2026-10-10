@@ -6010,11 +6010,12 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-08-B00FXNAAW2.png",
     "queued_at": "2026-10-08T10:10:18.618655Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
-    "recharted": true
+    "recharted": true,
+    "posted_at": "2026-10-10T01:15:30Z"
   },
   {
     "id": "pin-2026-10-08-B0C3QZ7SNF",
