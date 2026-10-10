@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-10",
+  "agent": "engagement-monitor",
+  "metrics": {
+    "subscribers": 6660,
+    "total_views": 24833,
+    "total_videos": 233
+  },
+  "top_videos": [
+    {
+      "title": "Stop buying thin curtains that let morning light in #shorts ",
+      "views": 165,
+      "likes": 2,
+      "comments": 1
+    },
+    {
+      "title": "Everyone sprays air freshener after. That's already too late",
+      "views": 138,
+      "likes": 1,
+      "comments": 1
+    },
+    {
+      "title": "Stop waiting for your shower liner to turn yellow and stiff ",
+      "views": 130,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Everyone washes their sheets. Nobody touches what's undernea",
+      "views": 115,
+      "likes": 1,
+      "comments": 1
+    },
+    {
+      "title": "You wake up with hair static and a cheek crease #shorts #ama",
+      "views": 85,
+      "likes": 1,
+      "comments": 1
+    },
+    {
+      "title": "Stop stuffing pillow covers with the wrong size insert #shor",
+      "views": 77,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Stop buying pillowcases separate from your sheets #shorts #a",
+      "views": 63,
+      "likes": 1,
+      "comments": 1
+    },
+    {
+      "title": "Your throw pillows look flat for one dumb reason #shorts #am",
+      "views": 52,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "The sun wakes you up before your alarm does #shorts #amazonf",
+      "views": 45,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Your shower curtain keeps clinging to your leg mid-shower #s",
+      "views": 4,
+      "likes": 0,
+      "comments": 1
+    }
+  ],
+  "comments_responded": 0,
+  "actions_taken": [
+    "New comment on video: \ud83d\udccc SHOP ALL PRODUCTS \u2014 Amazon links:<br><br>\u2460 Amaze",
+    "Updated BUSINESS_BRAIN.md metrics"
+  ]
+}
