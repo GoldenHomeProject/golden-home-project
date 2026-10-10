@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-10-10",
+  "category": "Bedding",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-bedding-essentials.html",
+  "picks": [
+    {
+      "asin": "B0C1NM42PN",
+      "name": "BEDLORE Waterproof Mattress Protector",
+      "price": "$26.99",
+      "rating": 4.6,
+      "reviews": 27622,
+      "rank": 4
+    },
+    {
+      "asin": "B0BPLB81LX",
+      "name": "Bedsure GentleSoft White Throw Blanket for Couch",
+      "price": "$13.49",
+      "rating": 4.6,
+      "reviews": 27613,
+      "rank": 7
+    },
+    {
+      "asin": "B0725WFLMB",
+      "name": "Bedsure Satin Pillowcases Queen Set of 2",
+      "price": "$7.99",
+      "rating": 4.5,
+      "reviews": 322577,
+      "rank": 8
+    },
+    {
+      "asin": "B07XFQVN57",
+      "name": "Kitsch Satin Pillowcase with Zipper",
+      "price": "$18.99",
+      "rating": 4.6,
+      "reviews": 31225,
+      "rank": 9
+    },
+    {
+      "asin": "B07YKLSMFM",
+      "name": "Bedsure Comforter Duvet Insert",
+      "price": "$34.99",
+      "rating": 4.7,
+      "reviews": 77827,
+      "rank": 10
+    },
+    {
+      "asin": "B07PCQKTCN",
+      "name": "Bedsure Prewashed Duvet Cover Queen",
+      "price": "$27.99",
+      "rating": 4.5,
+      "reviews": 38634,
+      "rank": 11
+    }
+  ]
+}
