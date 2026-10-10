@@ -3628,6 +3628,52 @@
           }
         ]
       }
+    ],
+    "INCH": [
+      {
+        "hook_category": "scene",
+        "hook": "Headlights sweep across your ceiling at two in the morning.",
+        "beat1": "Most curtains are made to look good, not to actually block light. Streetlights, headlights, and early sunrise slip in through thin fabric and around the edges of the panel.",
+        "turn": "These NICETOWN panels are a hundred percent blackout, built to block light and heat and help cut outside noise. Close to eighty thousand people rate them 4.8 stars.",
+        "result": "That's a genuinely dark, quieter bedroom for about $24 for the pair.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "A dim bedroom at night, headlight glare sweeping across the ceiling and wall through a gap in thin curtains",
+            "on_screen_text": "Headlights sweep across your ceiling",
+            "voiceover": "Headlights sweep across your ceiling at two in the morning."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Close-up of thin curtain fabric backlit by streetlight, a bright sliver of light running down the edge of the window frame",
+            "on_screen_text": "Thin curtains just don't block it",
+            "voiceover": "Most curtains are made to look good, not to actually block light, so it sneaks in around the edges and right through the fabric."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Hands drawing two long white curtain panels fully closed across a bedroom window, the room going noticeably darker",
+            "on_screen_text": "These are built to block it fully",
+            "voiceover": "These NICETOWN panels are a hundred percent blackout, built to stop light and heat from pushing through, and made to help cut outside noise too."
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "A bedroom window fully covered by two long white curtain panels reaching almost to the floor, the room shaded and even",
+            "on_screen_text": "Close to 80,000 rate them 4.8",
+            "voiceover": "Close to eighty thousand people rate these 4.8 stars, and they come as two panels sized for an eighty four inch window."
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "Someone pulling a blanket up in bed in a fully dark room, the window hidden behind closed curtains",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "A genuinely dark, quieter room for about twenty four dollars. Comment {KEYWORD} and I'll send the link."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
