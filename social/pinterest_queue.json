@@ -6156,11 +6156,12 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-09-B07XFQVN57-gift.png",
     "queued_at": "2026-10-09T10:14:21.020762Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": "kitsch satin pillowcase with zipper - st",
-    "recharted": false
+    "recharted": false,
+    "posted_at": "2026-10-10T13:40:30Z"
   },
   {
     "id": "pin-2026-10-09-B08WPQ12XX",
