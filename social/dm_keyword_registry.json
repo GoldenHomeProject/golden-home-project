@@ -5821,6 +5821,38 @@
       "verified_stars": "4.5",
       "verified_reviews": 55982,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B07QHNC81Z",
+      "product_name": "CGK Extra Deep Queen Single Fitted Sheet Only - White | Easily Fits 18 inch to 24 inch Mattress, Soft, Wrinkle Free, Bre",
+      "categories": [
+        "home",
+        "Bedding"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B07QHNC81Z?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-10-10",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$19.99",
+      "verified_stars": "4.5",
+      "verified_reviews": 55993,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0FFGNQH3H",
+      "product_name": "BEoffer 2 Pack Microfiber Hair Towel XL 41\" x 24\" Fast Dry, Soft, Absorbent | Without Frizz Hair Towel Wrap for Women Lo",
+      "categories": [
+        "home",
+        "Bath Linens"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0FFGNQH3H?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-10-10",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$9.49",
+      "verified_stars": "4.6",
+      "verified_reviews": 15450,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
