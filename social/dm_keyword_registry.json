@@ -1020,6 +1020,24 @@
       "discovery_source": "harvest_catalogue",
       "keyword": "INCH",
       "promoted_at": "2026-10-10T12:20:34Z"
+    },
+    {
+      "asin": "B08DTH86Q2",
+      "product_name": "Utopia Bedding Gusset Bed Pillow, Hotel Pillows Queen Size Set of 2, White | Cotton Blended Down alternative pillows for",
+      "categories": [
+        "home",
+        "Home & Kitchen"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B08DTH86Q2?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-08-23",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$24.77",
+      "verified_stars": "4.5",
+      "verified_reviews": 79136,
+      "discovery_source": "harvest_catalogue",
+      "keyword": "GUSSET",
+      "promoted_at": "2026-10-11T12:20:26Z"
     }
   ],
   "_vetted_doc": "Verified-live Amazon ASINs cleared for blog/SEO/IG-caption use but NOT yet wired to a Meta comment-to-DM automation. Promote to `entries` (with a unique keyword) only AFTER creating the matching Meta Business Suite automation. Always use https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20 \u2014 never search URLs.",
@@ -2478,22 +2496,6 @@
       "verified_price": "$18.39",
       "verified_stars": "4.6",
       "verified_reviews": 75628,
-      "discovery_source": "harvest_catalogue"
-    },
-    {
-      "asin": "B08DTH86Q2",
-      "product_name": "Utopia Bedding Gusset Bed Pillow, Hotel Pillows Queen Size Set of 2, White | Cotton Blended Down alternative pillows for",
-      "categories": [
-        "home",
-        "Home & Kitchen"
-      ],
-      "affiliate_url": "https://www.amazon.com/dp/B08DTH86Q2?tag=goldenhomep0a-20",
-      "status": "live",
-      "verified_at": "2026-08-23",
-      "verified_method": "best_seller_grid",
-      "verified_price": "$24.77",
-      "verified_stars": "4.5",
-      "verified_reviews": 79136,
       "discovery_source": "harvest_catalogue"
     },
     {

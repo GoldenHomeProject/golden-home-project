@@ -3674,6 +3674,52 @@
           }
         ]
       }
+    ],
+    "GUSSET": [
+      {
+        "hook_category": "mistake",
+        "hook": "Your pillow at home never feels like a hotel's.",
+        "beat1": "Most pillows sold for home are just a flat pouch of fill, so they cave in the middle and go thin by morning. Hotel pillows hold their shape because of a side panel, called a gusset, stitched around the edge to keep the loft from collapsing.",
+        "turn": "This set adds that same gusset construction to a cotton blended shell filled with down alternative, and it comes as two queen pillows instead of one. About eighty thousand people have rated it 4.5 stars.",
+        "result": "You get the taller, firmer support side sleepers and back sleepers both ask for, for about $25 for the pair.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "A hand presses down on a plush white pillow on a neatly made hotel-style bed, watching it spring back",
+            "on_screen_text": "Hotels don't use flat pillows",
+            "voiceover": "Your pillow at home never feels like a hotel's."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Close-up of someone folding a thin, deflated bed pillow in half with one hand, showing how little fill is left in the middle",
+            "on_screen_text": "Most pillows cave in the middle",
+            "voiceover": "Most pillows sold for home are just a flat pouch of fill, so they sink in the middle and go thin by morning."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Hands turning a pillow sideways to show the thick stitched edge panel along the seam before placing it back on the bed",
+            "on_screen_text": "That side seam holds the shape",
+            "voiceover": "Hotel pillows hold their shape because of a stitched side panel, called a gusset, that keeps the loft from collapsing. This set uses that same construction, with a cotton blended shell and down alternative fill, in a pack of two queen pillows."
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "Two matching white pillows propped side by side against headboard pillows in a bright bedroom",
+            "on_screen_text": "About eighty thousand people agree",
+            "voiceover": "About eighty thousand people have rated it 4.5 stars."
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "Someone sinking their head into a plump pillow and settling in for sleep, the pillow still holding its height around their neck",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "That's the taller, firmer support side and back sleepers both ask for, for about twenty five dollars for the pair. Comment {KEYWORD} and I'll send the link."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
