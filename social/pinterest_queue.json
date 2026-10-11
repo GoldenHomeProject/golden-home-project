@@ -6195,11 +6195,12 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-09-B010S5VXKC.png",
     "queued_at": "2026-10-09T10:15:11.730343Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
-    "recharted": true
+    "recharted": true,
+    "posted_at": "2026-10-11T01:16:19Z"
   },
   {
     "id": "pin-2026-10-09-B0DGYQPDS3-gift",
