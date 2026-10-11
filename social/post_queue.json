@@ -8300,5 +8300,29 @@
     },
     "hook": "Your shower curtain keeps clinging to your leg mid-shower.",
     "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-10-001.mp4"
+  },
+  {
+    "name": "reel_2026-10-11_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-11-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Headlights sweep across your ceiling at two in the morning.\n\nMost curtains are made to look good, not to actually block light. Streetlights, headlights, and early sunrise slip in through thin fabric and around the edges of the panel.\n\nThese NICETOWN panels are a hundred percent blackout, built to block light and heat and help cut outside noise. Close to eighty thousand people rate them 4.8 stars.\n\nThat's a genuinely dark, quieter bedroom for about $24 for the pair.\n\nComment INCH and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "NICETOWN White 100% Blackout Curtains 84 inch Long for Bedroom 2 Pieces | Thermal Insulated, Noise Reducing, Heat Blocki",
+      "dm_keyword": "INCH",
+      "amazon_asin": "B077RPXSF3",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B077RPXSF3?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B077RPXSF3?tag=goldenhomep0a-20"
+    },
+    "hook": "Headlights sweep across your ceiling at two in the morning."
   }
 ]
