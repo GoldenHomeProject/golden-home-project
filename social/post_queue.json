@@ -8303,10 +8303,10 @@
   },
   {
     "name": "reel_2026-10-11_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-11-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-11-001.mp4",
     "caption": "Headlights sweep across your ceiling at two in the morning.\n\nMost curtains are made to look good, not to actually block light. Streetlights, headlights, and early sunrise slip in through thin fabric and around the edges of the panel.\n\nThese NICETOWN panels are a hundred percent blackout, built to block light and heat and help cut outside noise. Close to eighty thousand people rate them 4.8 stars.\n\nThat's a genuinely dark, quieter bedroom for about $24 for the pair.\n\nComment INCH and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -8323,22 +8323,7 @@
       "affiliate_network": "amazon",
       "affiliate_url": "https://www.amazon.com/dp/B077RPXSF3?tag=goldenhomep0a-20"
     },
-    "hook": "Headlights sweep across your ceiling at two in the morning."
-  },
-  {
-    "id": "carousel-2026-10-11-B07236M4HC",
-    "media_type": "CAROUSEL_ALBUM",
-    "image_urls": [
-      "https://goldenhomeproject.com/social/carousels/2026-10-11-B07236M4HC/slide-1.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-11-B07236M4HC/slide-2.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-11-B07236M4HC/slide-3.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-11-B07236M4HC/slide-4.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-11-B07236M4HC/slide-5.png"
-    ],
-    "caption": "The clear liner that doesn't stick to you mid-shower is a simple fix.\n\nA heavy-duty 8-gauge PEVA liner with a weighted hem stays put against water pressure, resists mildew better than fabric, and holds up to daily use without tearing at the grommets. Save this for later so you remember it next time your liner needs replacing.\n\nComment AMAZERBATH or DM me AMAZERBATH for the link.\n\n#bathroomorganization #showercurtain #homeorganizing #bathroomrefresh #organizedhome",
-    "asin": "B07236M4HC",
-    "keyword": "AMAZERBATH",
-    "queued_at": "2026-10-11T13:40:43.697037Z",
-    "source": "carousel_generator"
+    "hook": "Headlights sweep across your ceiling at two in the morning.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-11-001.mp4"
   }
 ]
