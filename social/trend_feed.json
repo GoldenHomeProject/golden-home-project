@@ -1,130 +1,131 @@
 {
-  "generated_at": "2026-10-10T10:57:25.918121Z",
-  "date": "2026-10-10",
+  "generated_at": "2026-10-11T11:12:07.709525Z",
+  "date": "2026-10-11",
   "opportunities": [
     {
       "rank": 1,
-      "product_category": "weatherstripping & pest-sealing kits",
-      "specific_product": "self-adhesive door draft stopper + silicone window/door sealant kit",
-      "brand": "Amazon generic (Frost King style)",
-      "target_price": "$19",
-      "transformation_hook": "Seal $19 worth of gaps, stop drafts (and bugs) before winter hits",
-      "before_state": "Daylight visible under the door, cold drafty spots by windows, bugs sneaking in through frame gaps",
-      "after_state": "Tight weatherstripped door and sealed window frame, draft-free warm room, pest entry points closed off",
-      "buyer_intent_keywords": [
-        "door draft stopper",
-        "under door sweep",
-        "window sealant kit",
-        "pest exclusion door seal",
-        "weatherstripping kit"
-      ],
-      "scores": {
-        "trend": 8,
-        "transformation": 7,
-        "affiliate": 10,
-        "intent": 9
-      },
-      "composite_score": 34,
-      "why_now": "BHG's pest-exclusion pin (mesh screens, door sweeps, sealants) and HGTV's building-biology fall/winter prep piece are both circulating right now as October temps drop and pests seek warmth indoors."
-    },
-    {
-      "rank": 2,
-      "product_category": "showerheads",
-      "specific_product": "high-pressure filtered rainfall showerhead",
-      "brand": "Amazon generic (AquaBliss/SparkPod style)",
-      "target_price": "$34",
-      "transformation_hook": "$34 showerhead swap turns a weak trickle into a spa-level rainfall shower",
-      "before_state": "Weak, spotty water flow from an old corroded showerhead in a dated bathroom",
-      "after_state": "Full, even rainfall spray from a shiny new fixture, instant spa-like bathroom upgrade",
-      "buyer_intent_keywords": [
-        "best high pressure showerhead",
-        "filtered showerhead",
-        "rain showerhead upgrade",
-        "showerhead for low water pressure"
-      ],
-      "scores": {
-        "trend": 7,
-        "transformation": 9,
-        "affiliate": 10,
-        "intent": 7
-      },
-      "composite_score": 33,
-      "why_now": "Real Simple just ran a plumbing-expert-backed showerhead buying guide, a strong signal that bathroom-upgrade search interest is fresh right now."
-    },
-    {
-      "rank": 3,
-      "product_category": "sofa/couch covers",
-      "specific_product": "Mamma Mia waterproof stretch pet-proof couch cover",
+      "product_category": "couch/sofa covers",
+      "specific_product": "Mamma Mia waterproof stretch sofa cover (pet hair proof)",
       "brand": "Mamma Mia Covers",
-      "target_price": "$54",
-      "transformation_hook": "$54 stretch cover hides a pet-hair-covered couch before guests arrive",
-      "before_state": "Worn, stained, pet-hair-covered couch that looks embarrassing before company shows up",
-      "after_state": "Crisp, tailored-looking couch wrapped in a clean waterproof cover, guest-ready living room",
+      "target_price": "$52",
+      "transformation_hook": "This $52 cover made our thrifted couch look brand new (pet-proof too)",
+      "before_state": "Worn, stained, pet-hair-covered couch that looks years old",
+      "after_state": "Couch looks brand new in under 2 minutes with a smooth, tailored cover",
       "buyer_intent_keywords": [
         "couch cover for pets",
         "waterproof sofa cover",
         "stretch couch cover",
         "pet hair proof couch cover",
-        "sofa cover for dogs"
+        "non slip sofa cover"
       ],
       "scores": {
-        "trend": 6,
+        "trend": 7,
+        "transformation": 10,
+        "affiliate": 9,
+        "intent": 9
+      },
+      "composite_score": 35,
+      "why_now": "BHG's nightly-tidying and 'noticeably neater home' pins plus HGTV's house-guest hosting content signal a living-room-ready wave right as fall hosting season ramps up, and Mamma Mia's 24-30% commission makes this the highest-margin pick."
+    },
+    {
+      "rank": 2,
+      "product_category": "showerheads",
+      "specific_product": "High-pressure filtered rainfall showerhead with handheld combo",
+      "brand": "Amazon generic",
+      "target_price": "$34",
+      "transformation_hook": "$34 showerhead swap turned our shower into a spa in under 5 minutes",
+      "before_state": "Weak, rusty builder-grade showerhead dribbling lukewarm water",
+      "after_state": "Spa-like high-pressure rainfall stream installed in under 5 minutes, no tools",
+      "buyer_intent_keywords": [
+        "high pressure showerhead",
+        "filtered shower head",
+        "rainfall shower head",
+        "low flow showerhead upgrade",
+        "handheld shower head with filter"
+      ],
+      "scores": {
+        "trend": 8,
+        "transformation": 8,
+        "affiliate": 9,
+        "intent": 8
+      },
+      "composite_score": 33,
+      "why_now": "Real Simple just ran a plumbing-expert-backed piece on which showerhead features matter most, a fresh, direct signal for a quick-install bathroom upgrade."
+    },
+    {
+      "rank": 3,
+      "product_category": "headboard alternatives",
+      "specific_product": "Upholstered wall-mounted floating headboard panel",
+      "brand": "Amazon generic",
+      "target_price": "$68",
+      "transformation_hook": "No headboard? This $68 wall panel fixed it in one weekend",
+      "before_state": "Bare mattress pushed against a blank wall, dorm-room vibes",
+      "after_state": "Styled, hotel-like bed wall with a floating upholstered headboard panel",
+      "buyer_intent_keywords": [
+        "headboard alternative",
+        "wall mounted headboard",
+        "no headboard bed ideas",
+        "upholstered headboard panel",
+        "floating headboard"
+      ],
+      "scores": {
+        "trend": 7,
         "transformation": 9,
-        "affiliate": 10,
+        "affiliate": 8,
         "intent": 7
       },
-      "composite_score": 32,
-      "why_now": "HGTV's fall house-guest hosting tips and cozy guest-bedroom pins point to living rooms being refreshed ahead of holiday entertaining, and Mamma Mia's 24-30% commission makes this the highest-margin pick on the list."
+      "composite_score": 31,
+      "why_now": "Apartment Therapy just published '15 headboard alternative ideas' for beds with no headboard, a fresh and highly specific pin pointing straight at this SKU category."
     },
     {
       "rank": 4,
-      "product_category": "headboard alternatives",
-      "specific_product": "wall-mounted upholstered faux headboard panel",
+      "product_category": "cabinet hardware",
+      "specific_product": "Brushed gold/matte black cabinet knob & pull hardware kit (10-pack)",
       "brand": "Amazon generic",
-      "target_price": "$45",
-      "transformation_hook": "$45 wall panel gives a bare mattress a hotel-style headboard in minutes",
-      "before_state": "Mattress pushed against a bare wall with no headboard, bedroom looks unfinished",
-      "after_state": "Upholstered wall-mounted headboard panel framing the bed, polished bedroom focal point",
+      "target_price": "$24",
+      "transformation_hook": "$24 knob swap gave our whole kitchen a boutique makeover",
+      "before_state": "Dated builder-grade cabinets with scuffed plastic knobs",
+      "after_state": "Updated, boutique-kitchen look with matte black or brushed gold pulls",
       "buyer_intent_keywords": [
-        "headboard alternative",
-        "no headboard ideas",
-        "diy faux headboard",
-        "renter friendly headboard",
-        "wall mounted headboard panel"
+        "cabinet knobs and pulls",
+        "kitchen cabinet hardware upgrade",
+        "brushed gold cabinet pulls",
+        "cheap kitchen makeover",
+        "cabinet hardware kit"
       ],
       "scores": {
         "trend": 6,
         "transformation": 9,
-        "affiliate": 7,
-        "intent": 7
+        "affiliate": 9,
+        "intent": 6
       },
-      "composite_score": 29,
-      "why_now": "Apartment Therapy's '15 headboard alternative ideas' pin is actively circulating, pointing to renter-driven bedroom-makeover search demand right now."
+      "composite_score": 30,
+      "why_now": "Apartment Therapy's cabinet-paint transformation pin signals rising kitchen-refresh appetite, and hardware is the lowest-cost, highest-visual-impact companion buy to that trend."
     },
     {
       "rank": 5,
-      "product_category": "room dividers / privacy screens",
-      "specific_product": "folding 3-6 panel room divider screen",
-      "brand": "Best Choice Products",
-      "target_price": "$65",
-      "transformation_hook": "$65 folding screen hides a cluttered corner behind a styled divider instantly",
-      "before_state": "Cluttered corner, exposed storage pile, or awkward open-plan sightline",
-      "after_state": "Clean sightline with a stylish folding screen concealing the mess, instantly tidier room",
+      "product_category": "bathroom storage/organization",
+      "specific_product": "Over-toilet/vertical bathroom storage organizer",
+      "brand": "Amazon generic",
+      "target_price": "$39",
+      "transformation_hook": "This $39 setup organized our tiny bathroom with zero renovation",
+      "before_state": "Cluttered bathroom counter and floor with nowhere to put toiletries",
+      "after_state": "Clean, organized small bathroom with hidden vertical storage and zero clutter",
       "buyer_intent_keywords": [
-        "room divider for apartment",
-        "folding privacy screen",
-        "room divider panels",
-        "studio apartment divider",
-        "hide clutter room divider"
+        "small bathroom storage ideas",
+        "over the toilet storage",
+        "under sink organizer",
+        "bathroom organization on a budget",
+        "space saving bathroom shelf"
       ],
       "scores": {
-        "trend": 5,
+        "trend": 6,
         "transformation": 7,
         "affiliate": 8,
-        "intent": 6
+        "intent": 7
       },
-      "composite_score": 26,
-      "why_now": "Apartment Therapy's pin on using dividers to hide storage and eyesores reflects rising small-space decluttering searches as people reorganize for fall."
+      "composite_score": 28,
+      "why_now": "Real Simple's small-bathroom design piece and BHG's wave of declutter-tip pins both point to appetite for small-space bathroom organization content right now."
     }
   ],
   "raw_signal_count": 85,
