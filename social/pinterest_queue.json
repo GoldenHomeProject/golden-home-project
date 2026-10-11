@@ -6250,11 +6250,12 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-10-B09ZKYQMVD.png",
     "queued_at": "2026-10-10T10:11:29.539009Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
-    "recharted": true
+    "recharted": true,
+    "posted_at": "2026-10-11T13:40:33Z"
   },
   {
     "id": "pin-2026-10-10-B00W5D1MDE",
