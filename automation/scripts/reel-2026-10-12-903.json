@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-10-12T18:27:39.467656Z",
+  "date": "2026-10-12",
+  "seq": 903,
+  "source": "repurpose",
+  "hook": "Renters: this $29.94 fix reverses in 5 minutes",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Shot of a lease agreement page with a highlighted clause about returning fixtures to original condition",
+      "on_screen_text": "Can't drill. Can't modify. Can still swap this.",
+      "voiceover": "If your lease says return the fixtures to original, this still works."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Close-up unscrewing an old showerhead counterclockwise by hand from the shower arm",
+      "on_screen_text": "Step 1: Unscrew old head (counterclockwise)",
+      "voiceover": "Most hand-loosen \u2014 a few need a quarter turn with a wrench."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Close-up wrapping white thread tape clockwise around exposed threads, three to four wraps",
+      "on_screen_text": "Step 2: Thread tape, clockwise, 3-4 wraps",
+      "voiceover": "This is the step people skip, and it's the only one that causes drips."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Hands threading the new AquaCare mounting bracket onto the shower arm clockwise",
+      "on_screen_text": "Step 3: Thread on the new bracket",
+      "voiceover": "No drilling \u2014 it uses the same threaded connection every showerhead in the US connects to."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Snapping the hose and handheld wand into the bracket clip",
+      "on_screen_text": "Step 4: Snap in the hose and wand",
+      "voiceover": "Snap it in and you're done."
+    },
+    {
+      "n": 6,
+      "duration_sec": 4,
+      "visual_prompt": "Stopwatch graphic showing under 5:00, then water turning on with a strong spray",
+      "on_screen_text": "Total time: under 5 minutes",
+      "voiceover": "Start to finish, under five minutes, and it comes off just as fast at move-out."
+    },
+    {
+      "n": 7,
+      "duration_sec": 3,
+      "visual_prompt": "Price tag $29.94 overlay on the finished install, link graphic",
+      "on_screen_text": "$29.94 \u2014 link in bio",
+      "voiceover": "Thirty dollars and zero tools you don't already own."
+    }
+  ],
+  "caption": "No drilling, no landlord call, no permanent change. Here's the exact 4-step install for the $29.94 handheld that's rated 4.5 stars across 50,191 reviews.",
+  "hashtags": [
+    "#renterfriendly",
+    "#apartmenthacks",
+    "#showerheadinstall",
+    "#diyhome",
+    "#smallbathroom",
+    "#rentallife"
+  ]
+}

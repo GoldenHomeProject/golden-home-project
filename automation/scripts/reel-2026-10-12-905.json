@@ -1,0 +1,60 @@
+{
+  "created_at": "2026-10-12T18:27:39.467829Z",
+  "date": "2026-10-12",
+  "seq": 905,
+  "source": "repurpose",
+  "hook": "50,191 reviews, $29.94 price \u2014 here's what convinced me",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Screen-recording style zoom into a review count badge reading '50,191 ratings'",
+      "on_screen_text": "50,191 ratings. Not 500.",
+      "voiceover": "A few hundred reviews, you can buy. Fifty thousand, you really can't."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Scrolling text montage of review snippets: 'weak', 'trickle', 'barely rinses shampoo'",
+      "on_screen_text": "The complaint before: 'weak,' 'trickle'",
+      "voiceover": "Thousands of reviews on factory showerheads say the same three words."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Star rating graphic holding steady at 4.5 across a sliding scale of review count from 100 to 50,000",
+      "on_screen_text": "4.5\u2605 holds steady at 50,191 ratings",
+      "voiceover": "At that volume, the rating is closer to a population survey than a cherry-picked testimonial."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Handheld showerhead product shot with price tag $29.94, spray modes highlighted",
+      "on_screen_text": "$29.94 \u00b7 8 modes \u00b7 Stay Clean nozzles",
+      "voiceover": "The product behind that number: a $29.94 handheld with eight spray modes and scale-resistant nozzles."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Honest caveat text card reading 'It can't create pressure your pipes don't have'",
+      "on_screen_text": "The honest caveat",
+      "voiceover": "It can't manufacture pressure your home's supply line doesn't already deliver \u2014 it just stops wasting what's there."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Final shot of water running strong, link graphic, price tag",
+      "on_screen_text": "$29.94 \u2014 link in bio",
+      "voiceover": "Thirty dollars to test that claim yourself is a low-risk bet."
+    }
+  ],
+  "caption": "I don't trust 'amazing' in a product description. I trust 50,191 people rating the same $29.94 showerhead 4.5 stars. Here's what's actually on the spec sheet \u2014 link in bio.",
+  "hashtags": [
+    "#productresearch",
+    "#showerhead",
+    "#amazonreviews",
+    "#waterpressure",
+    "#bathroomupgrade",
+    "#honestreview"
+  ]
+}

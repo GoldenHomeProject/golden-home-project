@@ -1,0 +1,60 @@
+{
+  "created_at": "2026-10-12T18:27:39.467726Z",
+  "date": "2026-10-12",
+  "seq": 904,
+  "source": "repurpose",
+  "hook": "I spent $89.72 to make my shower feel like a hotel",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Flat lay of three products \u2014 handheld showerhead, squeegee, folded towels \u2014 each with a visible price tag",
+      "on_screen_text": "$29.94 + $19.79 + $39.99",
+      "voiceover": "Three things, eighty-nine dollars and seventy-two cents total."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Handheld showerhead spraying strong water, $29.94 price label visible",
+      "on_screen_text": "Showerhead: $29.94 \u00b7 4.5\u2605 \u00b7 50,191 ratings",
+      "voiceover": "The showerhead fixes the pressure \u2014 eight modes, scale-resistant nozzles."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Squeegee hanging directly on the shower arm by its built-in hook, no suction cup, then being pulled across glass",
+      "on_screen_text": "Squeegee: $19.79 \u00b7 4.8\u2605 \u00b7 7,595 ratings",
+      "voiceover": "More pressure means more water hitting the glass, so this squeegee hangs by a built-in hook \u2014 no suction cup to fall off."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Close-up of thick folded towels, texture visible, 600 GSM label graphic overlay",
+      "on_screen_text": "Towels: $39.99 \u00b7 4.4\u2605 \u00b7 79,026 ratings",
+      "voiceover": "And the towels are 600 GSM Turkish cotton \u2014 hotel sets run that dense, house sets usually run 300 to 400."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Wide shot of a steamy bathroom, clean glass, person wrapped in a thick towel after a shower",
+      "on_screen_text": "79,026 ratings \u2014 the biggest sample on this list",
+      "voiceover": "That's the biggest review sample of anything I've tried this year."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Final flat lay with a total price graphic reading '$89.72 total'",
+      "on_screen_text": "$89.72 total \u2014 all 3 linked",
+      "voiceover": "Less than one nice dinner out, for a shower that doesn't feel like a rental anymore."
+    }
+  ],
+  "caption": "The $89.72 shower upgrade: pressure, glass, and towels \u2014 all three linked in bio, each one picked for a reason.",
+  "hashtags": [
+    "#bathroomupgrade",
+    "#hotelathome",
+    "#showerhead",
+    "#homeupgrade",
+    "#spavibes",
+    "#amazonfinds"
+  ]
+}

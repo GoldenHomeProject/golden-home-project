@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-10-12T18:27:39.467572Z",
+  "date": "2026-10-12",
+  "seq": 902,
+  "source": "repurpose",
+  "hook": "Weak shower pressure? $29.94 fixes scale buildup, not plumbing.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of a trickling showerhead, water barely dripping, slightly annoyed reaction shot",
+      "on_screen_text": "Stop blaming the plumbing",
+      "voiceover": "Your showerhead probably isn't broken."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Macro-style shot of white mineral scale crusted inside a nozzle hole",
+      "on_screen_text": "Hard water scale clogs the nozzle holes",
+      "voiceover": "After three to five years, mineral scale quietly chokes the nozzle holes until you compare it to something better."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Text graphic listing California, Colorado, and New York next to '1.8-2.0 GPM cap'",
+      "on_screen_text": "Some states cap flow at 1.8 GPM",
+      "voiceover": "California, Colorado, and New York now cap new fixtures at 1.8 to 2.0 gallons a minute \u2014 even lower than the federal rule."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Close-up of the AquaCare showerhead nozzle face, rubberized coating texture visible, price tag $29.94 overlay",
+      "on_screen_text": "'Stay Clean' nozzles resist scale",
+      "voiceover": "This $29.94 handheld has a rubberized coating built specifically to resist that buildup."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Split screen: weak dribble on left labeled 'before', strong spray on right labeled 'after'",
+      "on_screen_text": "4.5 stars \u00b7 50,191 ratings",
+      "voiceover": "Fifty thousand ratings holding a 4.5-star average is hard to fake."
+    },
+    {
+      "n": 6,
+      "duration_sec": 4,
+      "visual_prompt": "Hand toggling the wand between rinse mode and power-wash mode, water pattern changing",
+      "on_screen_text": "8 modes \u00b7 2-mode Power Wash",
+      "voiceover": "Rinse mode for the kids, power wash for you."
+    },
+    {
+      "n": 7,
+      "duration_sec": 3,
+      "visual_prompt": "Final shot of the showerhead mounted on a shower arm, price sticker, link graphic",
+      "on_screen_text": "$29.94 \u2014 link in bio",
+      "voiceover": "It's the cheapest fix for scale that a plumber can't undo anyway."
+    }
+  ],
+  "caption": "Your shower isn't broken, it's just full of scale and legally capped at 2.5 GPM. The $29.94 fix for that \u2014 full details in bio.",
+  "hashtags": [
+    "#hardwater",
+    "#showerhead",
+    "#waterpressurefix",
+    "#bathroomhacks",
+    "#mineralbuildup",
+    "#amazonmusthaves"
+  ]
+}

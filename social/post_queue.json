@@ -8366,5 +8366,91 @@
     "keyword": "INCH",
     "queued_at": "2026-10-12T16:18:23.028607Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_repurpose_2026-10-12_901",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-12-901.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "My shower wasn't broken \u2014 it was regulated. Swapped the $29.94 AquaCare handheld in under 5 minutes and the pressure difference is the whole post. Full breakdown + link in bio.",
+    "hashtags": [
+      "#showerhead",
+      "#waterpressure",
+      "#bathroomupgrade",
+      "#hardwaterproblems",
+      "#rentalfriendly",
+      "#amazonfinds",
+      "#homeupgradehacks"
+    ],
+    "hook": "A $29.94 showerhead fixed my weak pressure in 5 minutes"
+  },
+  {
+    "name": "reel_repurpose_2026-10-12_902",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-12-902.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Your shower isn't broken, it's just full of scale and legally capped at 2.5 GPM. The $29.94 fix for that \u2014 full details in bio.",
+    "hashtags": [
+      "#hardwater",
+      "#showerhead",
+      "#waterpressurefix",
+      "#bathroomhacks",
+      "#mineralbuildup",
+      "#amazonmusthaves"
+    ],
+    "hook": "Weak shower pressure? $29.94 fixes scale buildup, not plumbing."
+  },
+  {
+    "name": "reel_repurpose_2026-10-12_903",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-12-903.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "No drilling, no landlord call, no permanent change. Here's the exact 4-step install for the $29.94 handheld that's rated 4.5 stars across 50,191 reviews.",
+    "hashtags": [
+      "#renterfriendly",
+      "#apartmenthacks",
+      "#showerheadinstall",
+      "#diyhome",
+      "#smallbathroom",
+      "#rentallife"
+    ],
+    "hook": "Renters: this $29.94 fix reverses in 5 minutes"
+  },
+  {
+    "name": "reel_repurpose_2026-10-12_904",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-12-904.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "The $89.72 shower upgrade: pressure, glass, and towels \u2014 all three linked in bio, each one picked for a reason.",
+    "hashtags": [
+      "#bathroomupgrade",
+      "#hotelathome",
+      "#showerhead",
+      "#homeupgrade",
+      "#spavibes",
+      "#amazonfinds"
+    ],
+    "hook": "I spent $89.72 to make my shower feel like a hotel"
+  },
+  {
+    "name": "reel_repurpose_2026-10-12_905",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-12-905.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "I don't trust 'amazing' in a product description. I trust 50,191 people rating the same $29.94 showerhead 4.5 stars. Here's what's actually on the spec sheet \u2014 link in bio.",
+    "hashtags": [
+      "#productresearch",
+      "#showerhead",
+      "#amazonreviews",
+      "#waterpressure",
+      "#bathroomupgrade",
+      "#honestreview"
+    ],
+    "hook": "50,191 reviews, $29.94 price \u2014 here's what convinced me"
   }
 ]

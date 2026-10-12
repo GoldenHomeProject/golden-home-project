@@ -1,0 +1,68 @@
+{
+  "created_at": "2026-10-12T18:27:39.467364Z",
+  "date": "2026-10-12",
+  "seq": 901,
+  "source": "repurpose",
+  "hook": "A $29.94 showerhead fixed my weak pressure in 5 minutes",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up shot of a dribbling factory showerhead over a bathtub, weak stream, bathroom lighting, slightly disappointed framing",
+      "on_screen_text": "Is your shower actually broken?",
+      "voiceover": "I thought my shower was broken. It wasn't."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Graphic overlay of a water flow regulation chart showing a 2.5 GPM federal cap over a plumbing diagram",
+      "on_screen_text": "2.5 GPM federal cap since 1992",
+      "voiceover": "Every showerhead sold in the US is capped at 2.5 gallons a minute by federal law \u2014 some states go even lower."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Unboxing shot of the AquaCare handheld showerhead box, price sticker overlay reading $29.94",
+      "on_screen_text": "$29.94 \u00b7 50,191 ratings \u00b7 4.5 stars",
+      "voiceover": "This one has 50,191 ratings and still holds a 4.5-star average \u2014 that's not a number you fake."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Macro shot of the handheld wand cycling through spray modes, water hitting a tiled wall in slow motion",
+      "on_screen_text": "8 spray modes + 2-mode Power Wash",
+      "voiceover": "Eight spray settings on the wand, plus a separate two-mode power wash."
+    },
+    {
+      "n": 5,
+      "duration_sec": 5,
+      "visual_prompt": "Time-lapse hands unscrewing old showerhead, wrapping thread tape clockwise, screwing on new bracket, stopwatch graphic counting up in corner",
+      "on_screen_text": "No tools. No plumber. Under 5 minutes.",
+      "voiceover": "Unscrew the old head, wrap the tape clockwise, screw on the new one \u2014 that's the entire job."
+    },
+    {
+      "n": 6,
+      "duration_sec": 4,
+      "visual_prompt": "Wide shot of a strong water stream hitting shoulders in the shower, steam, satisfied expression",
+      "on_screen_text": "Same pressure, zero waste",
+      "voiceover": "It's not making new pressure \u2014 it's stopping the pressure you already pay for from going to waste."
+    },
+    {
+      "n": 7,
+      "duration_sec": 3,
+      "visual_prompt": "Final product shot with price tag sticker and swipe-up link graphic",
+      "on_screen_text": "$29.94 \u2014 link in bio",
+      "voiceover": "Thirty bucks to test it is cheaper than one plumber visit."
+    }
+  ],
+  "caption": "My shower wasn't broken \u2014 it was regulated. Swapped the $29.94 AquaCare handheld in under 5 minutes and the pressure difference is the whole post. Full breakdown + link in bio.",
+  "hashtags": [
+    "#showerhead",
+    "#waterpressure",
+    "#bathroomupgrade",
+    "#hardwaterproblems",
+    "#rentalfriendly",
+    "#amazonfinds",
+    "#homeupgradehacks"
+  ]
+}
