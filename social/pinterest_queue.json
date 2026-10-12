@@ -5753,10 +5753,11 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-05-B08X6LYL5V-gift.png",
     "queued_at": "2026-10-05T10:17:12.922492Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
-    "gift_key": "phd cake gold long thin metallic birthda"
+    "gift_key": "phd cake gold long thin metallic birthda",
+    "posted_at": "2026-10-12T13:41:47Z"
   },
   {
     "id": "pin-2026-10-05-B0GCBFHCXH-gift",
