@@ -3720,6 +3720,52 @@
           }
         ]
       }
+    ],
+    "COMFORTER": [
+      {
+        "hook_category": "mistake",
+        "hook": "Stop stuffing a thin comforter inside your duvet cover.",
+        "beat1": "A duvet cover looks fine until you shake it out and the comforter bunches in one corner, leaving the rest of the cover empty and flat. That gap is usually the comforter, not the cover.",
+        "turn": "This insert is made to sit inside a duvet cover and fill it out evenly from corner to corner. About eighty thousand people have rated it, averaging 4.7 stars.",
+        "result": "You get a bed that looks full and even under the cover instead of lumpy in the middle, for about $35.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Hands shaking out a duvet cover on a bed, one corner empty and flat while the rest bunches up",
+            "on_screen_text": "Your duvet cover isn't the problem",
+            "voiceover": "Stop stuffing a thin comforter inside your duvet cover."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Close-up of a hand pulling back a duvet cover corner to reveal a bunched, uneven comforter inside",
+            "on_screen_text": "The gap is the comforter, not the cover",
+            "voiceover": "A duvet cover looks fine until you shake it out and the comforter bunches in one corner, leaving the rest of it flat."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Hands tucking a fluffy comforter insert evenly into the corners of a duvet cover on a made bed",
+            "on_screen_text": "An insert made to fill the cover",
+            "voiceover": "This insert is made to sit inside a duvet cover and fill it out evenly from corner to corner."
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "Wide shot of a fully made bed with an even, full duvet, soft daylight through a window",
+            "on_screen_text": "About eighty thousand ratings, 4.7 stars",
+            "voiceover": "About eighty thousand people have rated it, averaging 4.7 stars."
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "Hand smoothing the top of an evenly filled duvet on a neatly made bed",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "You get a bed that looks full and even instead of lumpy in the middle, for about thirty five dollars. Comment {KEYWORD} and I'll send the link."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
