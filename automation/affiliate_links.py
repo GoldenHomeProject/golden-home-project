@@ -31,10 +31,16 @@ ASSOCIATES_TAG = "goldenhomep0a-20"
 # All of these belong to the same Associates account, so commission is unaffected;
 # this only changes which bucket a click is reported under. ascsubtag is still
 # stamped on top for finer-grained (per-date) detail.
+#
+# 2026-10-11: re-created on the new account (the 9/2 IDs died with goldenhomep06-20).
+# Names are exactly what Associates Central assigned — read off "Manage Your Tracking
+# IDs", not assumed. Facebook could not get its own ID ("ghpfb" taken, retries failed)
+# and only re-posts the Instagram reels, so it shares ghpig-20.
 CHANNEL_TAGS = {
-    "pinterest": "goldenhomep0a-20",
-    "instagram": "goldenhomep0a-20",
-    "youtube":   "goldenhomep0a-20",
+    "pinterest": "ghppinterest-20",
+    "instagram": "ghpig-20",
+    "facebook":  "ghpig-20",
+    "youtube":   "ghpyoutube-20",
     "blog":      "goldenhomep0a-20",
     "direct":    "goldenhomep0a-20",
 }
@@ -51,6 +57,7 @@ CHANNELS = {
     "instagram",   # IG posts / DM funnel
     "blog",        # on-site blog CTAs
     "youtube",     # YT descriptions
+    "facebook",    # FB reel cross-posts (shares the IG tracking ID)
     "direct",      # links.html / linktree-style hub
 }
 

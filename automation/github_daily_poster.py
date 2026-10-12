@@ -320,9 +320,10 @@ def amazon(asin, tag, channel=None, date=None):
     """
     # Per-channel tracking ID overrides the account default so Amazon's own
     # Tracking ID report separates YouTube from Instagram from Facebook.
-    CHANNEL_TAGS = {"yt": "goldenhomep0a-20", "youtube": "goldenhomep0a-20",
-                    "ig": "goldenhomep0a-20", "instagram": "goldenhomep0a-20",
-                    "fb": "goldenhomep0a-20"}
+    # Real tracking IDs on the live account (created 2026-10-11; FB shares IG's).
+    CHANNEL_TAGS = {"yt": "ghpyoutube-20", "youtube": "ghpyoutube-20",
+                    "ig": "ghpig-20", "instagram": "ghpig-20",
+                    "fb": "ghpig-20", "facebook": "ghpig-20"}
     tag = CHANNEL_TAGS.get((channel or "").lower(), tag)
     url = f"https://www.amazon.com/dp/{asin}?tag={tag}"
     if channel:
