@@ -8303,10 +8303,10 @@
   },
   {
     "name": "reel_2026-10-12_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-12-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-12-001.mp4",
     "caption": "Your pillow at home never feels like a hotel's.\n\nMost pillows sold for home are just a flat pouch of fill, so they cave in the middle and go thin by morning. Hotel pillows hold their shape because of a side panel, called a gusset, stitched around the edge to keep the loft from collapsing.\n\nThis set adds that same gusset construction to a cotton blended shell filled with down alternative, and it comes as two queen pillows instead of one. About eighty thousand people have rated it 4.5 stars.\n\nYou get the taller, firmer support side sleepers and back sleepers both ask for, for about $25 for the pair.\n\nComment GUSSET and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -8323,14 +8323,15 @@
       "affiliate_network": "amazon",
       "affiliate_url": "https://www.amazon.com/dp/B08DTH86Q2?tag=goldenhomep0a-20"
     },
-    "hook": "Your pillow at home never feels like a hotel's."
+    "hook": "Your pillow at home never feels like a hotel's.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-12-001.mp4"
   },
   {
     "name": "reel_2026-10-12_002",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-12-002.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-12-002.mp4",
     "caption": "Stop stuffing a thin comforter inside your duvet cover.\n\nA duvet cover looks fine until you shake it out and the comforter bunches in one corner, leaving the rest of the cover empty and flat. That gap is usually the comforter, not the cover.\n\nThis insert is made to sit inside a duvet cover and fill it out evenly from corner to corner. About eighty thousand people have rated it, averaging 4.7 stars.\n\nYou get a bed that looks full and even under the cover instead of lumpy in the middle, for about $35.\n\nComment COMFORTER and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -8347,7 +8348,8 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "Stop stuffing a thin comforter inside your duvet cover."
+    "hook": "Stop stuffing a thin comforter inside your duvet cover.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-12-002.mp4"
   },
   {
     "id": "carousel-2026-10-12-B077RPXSF3",
