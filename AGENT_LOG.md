@@ -4797,3 +4797,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** social/carousels/2026-10-12-B077RPXSF3/slide-1.png, social/carousels/2026-10-12-B077RPXSF3/slide-2.png, social/carousels/2026-10-12-B077RPXSF3/slide-3.png, social/carousels/2026-10-12-B077RPXSF3/slide-4.png, social/carousels/2026-10-12-B077RPXSF3/slide-5.png, social/post_queue.json
 **External actions:** Pexels (4 photos) + Claude CLI (slide content)
 **Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B077RPXSF3 carousel.
+
+## 2026-10-12T16:25:56Z — Reel Producer
+**Ran:** Rendered 0/2 MP4s for 2026-10-12 (2 failed)
+**Changed:** none
+**External actions:** none
+**Next agent hint:** No new Reels today — IG Poster should use backlog
