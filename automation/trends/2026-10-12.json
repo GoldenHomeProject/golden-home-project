@@ -1,0 +1,132 @@
+{
+  "generated_at": "2026-10-12T12:43:12.684202Z",
+  "date": "2026-10-12",
+  "opportunities": [
+    {
+      "rank": 1,
+      "product_category": "closet & pantry organization bins",
+      "specific_product": "clear stackable closet organizer bin set with labels",
+      "brand": "Amazon generic",
+      "target_price": "$29",
+      "transformation_hook": "$29 bin system turns a dumping-ground closet into a boutique shelf",
+      "before_state": "Overflowing closet shelf with mismatched boxes, loose clothes, and visible clutter",
+      "after_state": "Matching clear labeled bins stacked neatly, everything visible and color-coordinated",
+      "buyer_intent_keywords": [
+        "closet organization bins",
+        "pantry organization ideas",
+        "declutter closet",
+        "stackable storage bins",
+        "fall organizing hacks"
+      ],
+      "scores": {
+        "trend": 8,
+        "transformation": 9,
+        "affiliate": 10,
+        "intent": 9
+      },
+      "composite_score": 36,
+      "why_now": "BHG, Real Simple, and Apartment Therapy are all running fall declutter/organizing content this week, signaling a seasonal nesting surge ahead of the holidays."
+    },
+    {
+      "rank": 2,
+      "product_category": "cabinet hardware",
+      "specific_product": "brushed gold cabinet pull handles (10-pack)",
+      "brand": "Amazon generic",
+      "target_price": "$24",
+      "transformation_hook": "$24 hardware swap makes builder-grade cabinets look custom",
+      "before_state": "Dated oak cabinets with tarnished brass knobs",
+      "after_state": "Same cabinets with sleek brushed gold pulls, instantly reading as a renovated kitchen",
+      "buyer_intent_keywords": [
+        "cabinet hardware pulls",
+        "kitchen cabinet makeover",
+        "cabinet pull replacement",
+        "budget kitchen update"
+      ],
+      "scores": {
+        "trend": 8,
+        "transformation": 10,
+        "affiliate": 9,
+        "intent": 8
+      },
+      "composite_score": 35,
+      "why_now": "Apartment Therapy's pin this week explicitly frames cabinet painting/hardware as the 'dramatic before-and-after without redoing your whole kitchen' play, a direct editorial signal of rising search interest."
+    },
+    {
+      "rank": 3,
+      "product_category": "sofa covers",
+      "specific_product": "Mamma Mia waterproof stretch couch cover",
+      "brand": "Mamma Mia Covers",
+      "target_price": "$43",
+      "transformation_hook": "$43 cover hides pet hair and stains before holiday guests arrive",
+      "before_state": "Worn, stained, pet-hair-covered couch nobody wants guests to see",
+      "after_state": "Crisp, tailored slipcovered sofa that looks newly upholstered",
+      "buyer_intent_keywords": [
+        "couch cover for pets",
+        "waterproof sofa cover",
+        "stretch couch slipcover",
+        "pet hair couch cover"
+      ],
+      "scores": {
+        "trend": 7,
+        "transformation": 8,
+        "affiliate": 9,
+        "intent": 8
+      },
+      "composite_score": 32,
+      "why_now": "Real Simple's hosting and pre-Thanksgiving content signals a pre-holiday living room refresh moment, and Mamma Mia's 24-30% commission makes this the highest-margin transformation pick available."
+    },
+    {
+      "rank": 4,
+      "product_category": "headboard alternatives",
+      "specific_product": "upholstered wall-mounted headboard panel",
+      "brand": "Amazon generic",
+      "target_price": "$55",
+      "transformation_hook": "$55 wall panel turns a bare bed frame into a boutique-hotel headboard",
+      "before_state": "Mattress pushed against a blank wall with no headboard",
+      "after_state": "Styled wall-mounted upholstered panel framing the bed like a hotel suite",
+      "buyer_intent_keywords": [
+        "headboard alternative",
+        "no headboard ideas",
+        "wall mounted headboard panel",
+        "bedroom headboard upgrade"
+      ],
+      "scores": {
+        "trend": 7,
+        "transformation": 9,
+        "affiliate": 8,
+        "intent": 7
+      },
+      "composite_score": 31,
+      "why_now": "Apartment Therapy published a dedicated 'headboard alternative' roundup this week calling it 'crucial,' an editorial signal that bedroom styling via headboards is about to surface more broadly."
+    },
+    {
+      "rank": 5,
+      "product_category": "small bathroom storage",
+      "specific_product": "bamboo over-the-toilet ladder storage shelf",
+      "brand": "Amazon generic",
+      "target_price": "$38",
+      "transformation_hook": "$38 ladder shelf makes a cramped bathroom feel like a spa",
+      "before_state": "Cluttered countertop and no vertical storage in a tiny bathroom",
+      "after_state": "Styled ladder shelf holding towels and plants, floor and counter clear",
+      "buyer_intent_keywords": [
+        "small bathroom storage ideas",
+        "over the toilet storage",
+        "tiny bathroom organization",
+        "bathroom ladder shelf"
+      ],
+      "scores": {
+        "trend": 7,
+        "transformation": 8,
+        "affiliate": 8,
+        "intent": 7
+      },
+      "composite_score": 30,
+      "why_now": "Real Simple's new piece on transforming a 'tiny bathroom into a luxurious oasis' directly targets the small-bathroom-transformation niche resurfacing in this week's fall content cycle."
+    }
+  ],
+  "raw_signal_count": 85,
+  "sources_used": [
+    "google_trends_daily_us",
+    "pinterest"
+  ]
+}
