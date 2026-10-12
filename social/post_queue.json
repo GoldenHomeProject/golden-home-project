@@ -7725,31 +7725,6 @@
     "superseded_reason": "pre-gate July reel script (invented personal stories); kept for reference"
   },
   {
-    "name": "reel_2026-10-04_002",
-    "status": "ready",
-    "script_path": "automation/scripts/reel-2026-10-04-002.json",
-    "media_type": "REELS",
-    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-04-002.mp4",
-    "caption": "Your throw pillows look flat for one dumb reason.\n\nPillow covers are usually cut generous, but the insert that ships with them is often a size down or just thin. That mismatch means the corners never fill out, so the pillow looks sunken even right after you fluff it.\n\nThese are 18 by 18 inserts, matched to the standard cover size, so they push fabric into every corner instead of leaving slack. Shoppers rate them 4.6 stars across roughly two hundred thousand reviews.\n\nCovers hold their square shape on the couch or bed instead of caving in at the edges, and a set runs about $16.\n\nComment INSERTS and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
-    "hashtags": [
-      "#amazonhomefinds",
-      "#homehacks2026",
-      "#smallspacesolutions"
-    ],
-    "affiliate": {
-      "primary_product": "Utopia Bedding 18x18 Pillow Inserts",
-      "dm_keyword": "INSERTS",
-      "amazon_asin": "B01NBNDC1T",
-      "amazon_affiliate_url": "https://www.amazon.com/dp/B01NBNDC1T?tag=goldenhomep0a-20",
-      "asin_pending": false,
-      "fallback_brands": [],
-      "affiliate_network": "amazon",
-      "affiliate_url": null
-    },
-    "hook": "Your throw pillows look flat for one dumb reason.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-04-002.mp4"
-  },
-  {
     "name": "reel_2026-10-04_003",
     "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-04-003.json",
