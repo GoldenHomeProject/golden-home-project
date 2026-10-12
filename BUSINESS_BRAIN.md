@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-10-11 (Affiliate Optimizer 10am)# ============================================================
+# Last updated: 2026-10-12 (Email Monitor 8am)# ============================================================
 
 ---
 
@@ -2703,3 +2703,18 @@ What the data **does** show, and it's a flag:
 ### Hypothesis to test next week
 **Bet:** visceral "prevent-it-before-it's-gross" hooks outperform numeric-review and kitchen-measurement hooks because they create a visual before/after payoff, not just because they're bathroom-specific.
 **Test:** have Content Engine apply that exact hook structure to 3 non-bathroom categories (e.g., kitchen sponge, mattress protector, pillow). **Success metric:** new videos hit 100+ views by day 3, matching the curtain/air-freshener ramp — versus this week's flat 24–45 view baseline for numeric/kitchen hooks.
+
+---
+
+## October 2026 Impact.com Updates (updated 2026-10-12 Email Monitor 8am)
+
+**Weekly digest received Oct 12, 2026 — Account ID 7104029**
+
+- **Campaign TA3** now featured on the marketplace (Oct 12, 11:04 UTC) — IAN: review in Impact dashboard to assess relevance
+- **Campaign Birdfy** now featured on the marketplace (Oct 12, 10:37 UTC) — bird feeder/garden camera; garden-adjacent, possibly on-niche; IAN: review
+- **Campaign Puracy (54051)** joined the marketplace (Oct 7) — plant-based home cleaning products; potentially ON-NICHE (home cleaning); IAN: review and consider joining
+
+**Other inbox Oct 12:**
+- Skiwarrior ski accessories (off-niche) — DECLINED, polite reply sent
+- Pimlico.io Solana/crypto — spam, ignored
+- ImprovMX setup emails (3) + Apple Developer email — Ian's personal domain/account setup, informational
