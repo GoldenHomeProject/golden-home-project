@@ -854,6 +854,11 @@ def produce_reel(script_path: Path) -> Path | None:
     except Exception as e:
         print(f"  TTS failed ({e}), generating silent track")
         total = sum(float(s.get("duration_sec", 4)) for s in scenes)
+        # AAC cannot go in an .mp3 file ("Error while filtering: Invalid argument"), so
+        # the silent fallback itself crashed and a voice outage killed every reel
+        # (2026-10-12, Microsoft changed the edge-tts endpoint). Write .m4a instead; the
+        # reel still ships with its music bed and on-screen text.
+        audio_path = audio_path.with_suffix(".m4a")
         subprocess.run([
             "ffmpeg", "-y", "-loglevel", "error",
             "-f", "lavfi", "-i", "anullsrc=r=44100:cl=stereo",

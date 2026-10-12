@@ -33,6 +33,9 @@ git -c rebase.autoStash=true pull --rebase --quiet origin main || {
     echo "[pi-reels] pull failed — rendering against local state anyway"
 }
 
+# Microsoft changes the free TTS endpoint every few months and edge-tts ships a fix within
+# days; upgrading each run picks the fix up without anyone touching the Pi.
+/usr/bin/python3 -m pip install --user --upgrade --quiet --break-system-packages edge-tts >/dev/null 2>&1 || true
 /usr/bin/python3 automation/reel_producer.py
 rc=$?
 if [ $rc -ne 0 ]; then
