@@ -5735,10 +5735,11 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-05-B0CS12LZLS-gift.png",
     "queued_at": "2026-10-05T10:16:10.895511Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
-    "gift_key": "nescaf\u00e9 gold espresso blonde instant cof"
+    "gift_key": "nescaf\u00e9 gold espresso blonde instant cof",
+    "posted_at": "2026-10-12T01:16:32Z"
   },
   {
     "id": "pin-2026-10-05-B08X6LYL5V-gift",
