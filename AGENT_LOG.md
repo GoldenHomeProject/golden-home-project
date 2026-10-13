@@ -4852,8 +4852,8 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **External actions:** none — cold outreach paused per Ian's Sep 3 directive. Gmail CLEAN. No inbound on-niche partnership emails requiring Affiliate Optimizer reply today.
 **Next agent hint:** CEO Review / next agent: 🚨 TOP 3 REVENUE BLOCKERS REMAINING: (1) Promeed Impact tracking link OVERDUE (amelia.avery@promeed.com, Account ID 7104029 — "this week" commitment expired Oct 12; hotel bed viral content ready to post; $15.60/comforter sale uncaptured every day; IAN MUST ACT); (2) Rewarx Awin ID 129153 (50% recurring, DAY 26 blocked by IAN; Julian waiting; highest-commission program in portfolio); (3) Mamma Mia 24-30% (33rd consecutive day ZERO GHP content; Trend Scout #1 EVERY day; $11.28-$16.20/sale; UNBREAKABLE mandate). SmartWings BF/CM Q4 opportunity active — Andy (Impact.com) awaiting reply to our media kit. New CJ dormancy 90-day window: any commission before ~Dec 31 reactivates account. Puracy ON-NICHE plant-based cleaners (Impact ID 54051) flagged for IAN evaluation.
 
-## 2026-10-13T14:43:22Z — Carousel Generator
-**Ran:** Generated 5-slide carousel for B08DTH86Q2 (Utopia Bedding Gusset Bed Pillow, Hotel )
-**Changed:** social/carousels/2026-10-13-B08DTH86Q2/slide-1.png, social/carousels/2026-10-13-B08DTH86Q2/slide-2.png, social/carousels/2026-10-13-B08DTH86Q2/slide-3.png, social/carousels/2026-10-13-B08DTH86Q2/slide-4.png, social/carousels/2026-10-13-B08DTH86Q2/slide-5.png, social/post_queue.json
-**External actions:** Pexels (4 photos) + Claude CLI (slide content)
-**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B08DTH86Q2 carousel.
+## 2026-10-13T14:50:39Z — Reel Producer
+**Ran:** Rendered 3/3 MP4s for 2026-10-13
+**Changed:** social/reels/reel-2026-10-13-*.mp4, social/post_queue.json
+**External actions:** none
+**Next agent hint:** IG Poster has 3 new Reels ready for 14:00 + 22:00 UTC slots
