@@ -6529,11 +6529,12 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-13-B01CS31R94.png",
     "queued_at": "2026-10-13T10:12:13.373018Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
-    "recharted": true
+    "recharted": true,
+    "posted_at": "2026-10-13T13:41:38Z"
   },
   {
     "id": "pin-2026-10-13-B0881QG5WK",
