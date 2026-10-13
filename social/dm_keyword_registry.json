@@ -5870,6 +5870,40 @@
       "verified_stars": "4.7",
       "verified_reviews": 14167,
       "discovery_source": "back_to_college_2026"
+    },
+    {
+      "asin": "B0D94YXWSB",
+      "product_name": "LYNK Professional\u00ae Home\u2122 Over the Door Hooks - 9 Hook \u2013 Over the Door Coat Rack - Over the Door Hanger - Hanging Towels or Clothes - Bathroo",
+      "categories": [
+        "dorm",
+        "college",
+        "organization"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0D94YXWSB?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-10-13",
+      "verified_method": "source_dorm/search+dp",
+      "verified_price": "$25.99",
+      "verified_stars": "4.7",
+      "verified_reviews": 17853,
+      "discovery_source": "back_to_college_2026"
+    },
+    {
+      "asin": "B0D277GM56",
+      "product_name": "Kotkn Over the Door Shoe Organizer with 30 Breathable Mesh Pockets - Large Capacity Closet Storage for Men & Women, Hanging Shoe Rack Organi",
+      "categories": [
+        "dorm",
+        "college",
+        "organization"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0D277GM56?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-10-13",
+      "verified_method": "source_dorm/search+dp",
+      "verified_price": "$13.99",
+      "verified_stars": "4.7",
+      "verified_reviews": 1495,
+      "discovery_source": "back_to_college_2026"
     }
   ]
 }
