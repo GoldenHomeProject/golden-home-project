@@ -5789,10 +5789,11 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-06-B0B3WSZ3QP-gift.png",
     "queued_at": "2026-10-06T10:12:32.030853Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
-    "gift_key": "set of 4 non-skid 10-inch lazy susan tur"
+    "gift_key": "set of 4 non-skid 10-inch lazy susan tur",
+    "posted_at": "2026-10-13T01:16:21Z"
   },
   {
     "id": "pin-2026-10-06-B0B9H92YBW-gift",
