@@ -5904,6 +5904,38 @@
       "verified_stars": "4.7",
       "verified_reviews": 1495,
       "discovery_source": "back_to_college_2026"
+    },
+    {
+      "asin": "B0752ZJ5LF",
+      "product_name": "Rubbermaid Brilliance 16-Cup Airtight Food Storage Container with Lid Clear/Grey - optimal for pantry organization flour",
+      "categories": [
+        "home",
+        "Home"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0752ZJ5LF?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-10-13",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$19.99",
+      "verified_stars": "4.7",
+      "verified_reviews": 31715,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B009FR7430",
+      "product_name": "Utopia Towels 12 Pack Premium Wash Cloths Set, 12 by 12 Inches, 100% Cotton Ring Spun, Highly Absorbent and Soft Feel Es",
+      "categories": [
+        "home",
+        "Bath Linens"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B009FR7430?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-10-13",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$15.99",
+      "verified_stars": "4.6",
+      "verified_reviews": 24589,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
