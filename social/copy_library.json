@@ -3766,6 +3766,52 @@
           }
         ]
       }
+    ],
+    "DUVET": [
+      {
+        "hook_category": "mistake",
+        "hook": "Everyone blames the duvet cover. The problem is what's inside it.",
+        "beat1": "A duvet cover can look flat and empty no matter how nice it is if what's stuffed inside doesn't fill it out. Thin or clumped fill leaves the corners sagging and the middle looking deflated. That gap between cover and insert is usually the real issue.",
+        "turn": "The Bedsure Comforter Duvet Insert is made to fill a duvet cover edge to edge so the corners actually hold their shape. Close to eighty thousand people have rated it 4.7 stars.",
+        "result": "The bed goes from flat and lumpy to full and even, for about $35.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close-up of hands lifting the corner of a duvet cover to reveal a flat, sunken comforter underneath, soft morning light on a bed.",
+            "on_screen_text": "The cover isn't the problem",
+            "voiceover": "Everyone blames the duvet cover. The problem is what's inside it."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Overhead shot of a made bed where the duvet corners are visibly sagging and empty, hand smoothing the fabric without it filling out.",
+            "on_screen_text": "Thin fill leaves empty corners",
+            "voiceover": "When the fill is thin or clumped, it can't reach the corners, so the cover looks loose no matter how you shake it out."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Hands tucking a thick, fluffy comforter insert into an open duvet cover, corners of the fabric filling out fully.",
+            "on_screen_text": "A fuller insert, not a new cover",
+            "voiceover": "The Bedsure Comforter Duvet Insert is made to fill a duvet cover edge to edge, so the corners actually hold their shape."
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "Wide shot of a bedroom with a bed covered in a full, evenly puffed duvet, natural window light across the room.",
+            "on_screen_text": "Rated 4.7 stars by thousands",
+            "voiceover": "Close to eighty thousand people have rated it 4.7 stars."
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "Hands smoothing the top of a fully fluffed, even duvet on a made bed, cozy finished bedroom scene.",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "The bed goes from flat and lumpy to full and even, for about $35. Comment {KEYWORD} and I'll send the link."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
