@@ -5771,10 +5771,11 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-05-B0GCBFHCXH-gift.png",
     "queued_at": "2026-10-05T10:18:58.650057Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
-    "gift_key": "stanley transit fliptop mug | leakproof "
+    "gift_key": "stanley transit fliptop mug | leakproof ",
+    "posted_at": "2026-10-13T01:15:26Z"
   },
   {
     "id": "pin-2026-10-06-B0B3WSZ3QP-gift",
