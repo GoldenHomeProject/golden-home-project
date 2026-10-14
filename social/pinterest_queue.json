@@ -5807,10 +5807,11 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-06-B0B9H92YBW-gift.png",
     "queued_at": "2026-10-06T10:14:27.836869Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
-    "gift_key": "setsail towel holder for bathroom wall m"
+    "gift_key": "setsail towel holder for bathroom wall m",
+    "posted_at": "2026-10-14T13:41:31Z"
   },
   {
     "id": "pin-2026-10-06-B0DZFGTCLR-gift",
