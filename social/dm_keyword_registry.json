@@ -1062,6 +1062,18 @@
       "source": "trending",
       "keyword": "DUVET",
       "promoted_at": "2026-10-13T12:20:33Z"
+    },
+    {
+      "asin": "B010S5VXKC",
+      "product_name": "Amazon Basics Fast Drying Cotton Washcloths for Bathroom",
+      "categories": [],
+      "status": "live",
+      "verified_price": "$14.38",
+      "verified_stars": "4.6",
+      "verified_reviews": 76132,
+      "source": "trending",
+      "keyword": "FAST",
+      "promoted_at": "2026-10-14T12:20:36Z"
     }
   ],
   "_vetted_doc": "Verified-live Amazon ASINs cleared for blog/SEO/IG-caption use but NOT yet wired to a Meta comment-to-DM automation. Promote to `entries` (with a unique keyword) only AFTER creating the matching Meta Business Suite automation. Always use https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20 \u2014 never search URLs.",
@@ -2504,22 +2516,6 @@
       "verified_price": "$9.98",
       "verified_stars": "4.5",
       "verified_reviews": 17816,
-      "discovery_source": "harvest_catalogue"
-    },
-    {
-      "asin": "B010S5VXKC",
-      "product_name": "Amazon Basics Fast Drying Cotton Washcloths for Bathroom, Machine Washable, Soft and Highly Absorbent, 12 x 12 in, White",
-      "categories": [
-        "home",
-        "Bath"
-      ],
-      "affiliate_url": "https://www.amazon.com/dp/B010S5VXKC?tag=goldenhomep0a-20",
-      "status": "live",
-      "verified_at": "2026-08-23",
-      "verified_method": "best_seller_grid",
-      "verified_price": "$18.39",
-      "verified_stars": "4.6",
-      "verified_reviews": 75628,
       "discovery_source": "harvest_catalogue"
     },
     {

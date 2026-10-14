@@ -3812,6 +3812,52 @@
           }
         ]
       }
+    ],
+    "FAST": [
+      {
+        "hook_category": "scene",
+        "hook": "You reach for a washcloth and it's still damp.",
+        "beat1": "Thick cotton holds water, and a steamy bathroom with no real airflow keeps a washcloth from drying out between showers. It sits folded on the rod, cool and heavy, until the next person grabs it anyway.",
+        "turn": "These are cotton washcloths made to dry fast, so the one on your hook is actually ready by the next shower instead of still damp. Over seventy-five thousand ratings sit at 4.6 stars.",
+        "result": "A washcloth that's dry and ready every time you reach for it, for about $14.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "A hand reaching for a folded washcloth hanging on a bathroom hook, the fabric looking slightly damp and rumpled, morning light through a steamy mirror",
+            "on_screen_text": "Still damp from yesterday",
+            "voiceover": "You reach for a washcloth and it's still damp."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Close-up of a thick wet washcloth draped over a towel bar in a humid bathroom, condensation on the tile behind it",
+            "on_screen_text": "No airflow, no drying",
+            "voiceover": "Thick cotton holds onto water, and a steamy bathroom with no real airflow keeps it from fully drying between showers."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "A neat stack of folded white cotton washcloths on an open bathroom shelf next to a sink, soft natural light",
+            "on_screen_text": "Made to dry faster",
+            "voiceover": "These are cotton washcloths made to dry fast, so the one on your hook is actually ready the next time you need it."
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "A hand pulling one washcloth from a folded stack on a bathroom counter, shallow depth of field on the texture",
+            "on_screen_text": "Rated 4.6 stars by thousands",
+            "voiceover": "Over seventy-five thousand ratings sit at four point six stars."
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "A washcloth hanging loose and fully dry on a hook, morning light, bathroom counter tidy in the background",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "A dry washcloth every time you reach for it, for about fourteen dollars. Comment {KEYWORD} and I'll send the link."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
