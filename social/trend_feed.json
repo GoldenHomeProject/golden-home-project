@@ -1,131 +1,131 @@
 {
-  "generated_at": "2026-10-13T12:27:16.654328Z",
-  "date": "2026-10-13",
+  "generated_at": "2026-10-14T09:55:07.090616Z",
+  "date": "2026-10-14",
   "opportunities": [
     {
       "rank": 1,
-      "product_category": "couch/sofa covers",
-      "specific_product": "Mamma Mia waterproof pet-proof stretch sofa cover",
-      "brand": "Mamma Mia Covers",
-      "target_price": "$45",
-      "transformation_hook": "Turned a $50 thrift couch into a $2,000 look for $45",
-      "before_state": "Faded, pet-hair-covered, stained sofa cushions with mismatched throw blankets hiding stains",
-      "after_state": "Crisp, tailored, single-tone hotel-style couch with clean lines",
-      "buyer_intent_keywords": [
-        "couch cover for pets",
-        "waterproof sofa slipcover",
-        "stretch couch cover",
-        "pet hair couch protector",
-        "sofa cover no wrinkle"
-      ],
-      "scores": {
-        "trend": 8,
-        "transformation": 10,
-        "affiliate": 10,
-        "intent": 9
-      },
-      "composite_score": 37,
-      "why_now": "BHG and HGTV pins show homeowners actively rejecting 'matching furniture set' looks for curated single pieces, pushing slipcovers as the cheapest instant reset, and Mamma Mia's 24-30% commission makes it the priority partner."
-    },
-    {
-      "rank": 2,
-      "product_category": "headboard alternatives",
-      "specific_product": "Upholstered wall-mounted headboard panel set",
+      "product_category": "kitchen cabinet refacing",
+      "specific_product": "peel-and-stick cabinet door contact paper (woodgrain or matte finish)",
       "brand": "Amazon generic",
-      "target_price": "$89",
-      "transformation_hook": "No headboard to boutique-hotel headboard for $89",
-      "before_state": "Bare wall behind a bed frame with no headboard, pillows sliding down",
-      "after_state": "Padded upholstered headboard wall creating a styled hotel-style focal point",
+      "target_price": "$19",
+      "transformation_hook": "$19 cabinet glow-up \u2014 no paint, no contractor, done in a weekend",
+      "before_state": "Dated, scratched wood-tone kitchen cabinets that look tired and outdated",
+      "after_state": "Sleek matte or woodgrain refreshed cabinets that look custom-built",
       "buyer_intent_keywords": [
-        "headboard alternative",
-        "wall mounted headboard panels",
-        "upholstered headboard cheap",
-        "no headboard ideas",
-        "diy headboard wall"
+        "cabinet makeover without painting",
+        "peel and stick cabinet wrap",
+        "contact paper for kitchen cabinets",
+        "cheap cabinet refacing",
+        "diy cabinet upgrade"
       ],
       "scores": {
-        "trend": 8,
-        "transformation": 9,
+        "trend": 7,
+        "transformation": 10,
         "affiliate": 8,
         "intent": 8
       },
       "composite_score": 33,
-      "why_now": "Apartment Therapy just published '15 headboard alternative ideas,' a direct signal that renters and apartment dwellers are actively searching for no-drill bed upgrades right now."
+      "why_now": "Apartment Therapy's top pin this cycle explicitly pitches a dramatic kitchen before/after without a full remodel, signaling a surge in no-renovation cabinet refresh content."
+    },
+    {
+      "rank": 2,
+      "product_category": "under-cabinet / cabinet lighting",
+      "specific_product": "magnetic LED under-cabinet light strips (stick-on, battery/USB)",
+      "brand": "Amazon generic",
+      "target_price": "$13",
+      "transformation_hook": "$13 magnetic lights turn dark cabinets into a glowing kitchen in 2 minutes",
+      "before_state": "Dim, shadowy cabinet interiors and counters with zero task lighting",
+      "after_state": "Bright, evenly lit cabinets and countertops that look like a high-end remodel",
+      "buyer_intent_keywords": [
+        "magnetic cabinet lighting",
+        "under cabinet led lights no wiring",
+        "battery cabinet lights",
+        "cheap kitchen lighting upgrade",
+        "stick on led lights"
+      ],
+      "scores": {
+        "trend": 8,
+        "transformation": 6,
+        "affiliate": 10,
+        "intent": 9
+      },
+      "composite_score": 33,
+      "why_now": "Real Simple just published an Amazon 'genius home finds' roundup naming magnetic cabinet lighting under $15 as a standout \u2014 a direct purchase-intent signal from a major publisher today."
     },
     {
       "rank": 3,
-      "product_category": "bed pillows / bed styling",
-      "specific_product": "Eli & Elm cervical support side-sleeper pillow + layered pillow stack",
-      "brand": "Eli & Elm",
-      "target_price": "$39",
-      "transformation_hook": "Flat, exhausted bed to 5-star hotel bed for $39",
-      "before_state": "Flat, mismatched pillows and an unstyled, saggy-looking bed",
-      "after_state": "Layered pillow stack with a structured side-sleeper support pillow up front",
+      "product_category": "bedroom headboard alternatives",
+      "specific_product": "upholstered wall-mounted headboard panel / floating wood-shelf headboard",
+      "brand": "Amazon generic",
+      "target_price": "$54",
+      "transformation_hook": "$54 wall panel turns a bare bed into a boutique-hotel headboard",
+      "before_state": "Plain mattress pushed against a bare wall with no headboard",
+      "after_state": "Upholstered or wood-paneled statement headboard wall that looks custom-built",
       "buyer_intent_keywords": [
-        "side sleeper neck pain pillow",
-        "hotel bed pillow stack",
-        "best pillow for neck pain",
-        "how to layer bed pillows",
-        "cervical support pillow"
+        "headboard alternative",
+        "no headboard bed ideas",
+        "wall mounted headboard panel",
+        "diy headboard cheap",
+        "small bedroom headboard ideas"
       ],
       "scores": {
         "trend": 7,
-        "transformation": 8,
-        "affiliate": 9,
+        "transformation": 9,
+        "affiliate": 8,
         "intent": 7
       },
       "composite_score": 31,
-      "why_now": "HGTV and BHG bedroom-styling pins (green bedrooms, guest-room makeovers) are driving bed-styling searches, and neck pain remains a steady high-intent purchase trigger \u2014 plus Eli & Elm's 20% commission."
+      "why_now": "Apartment Therapy just ran a dedicated '15 headboard alternative ideas' pin while HGTV's cozy guest-bedroom content is surging in parallel \u2014 bedroom styling is having a fall moment."
     },
     {
       "rank": 4,
-      "product_category": "entryway organization furniture",
-      "specific_product": "Best Choice Products storage bench with shoe cubbies",
-      "brand": "Best Choice Products",
-      "target_price": "$110",
-      "transformation_hook": "Shoe-pile chaos to an organized entryway bench for $110",
-      "before_state": "Shoes, bags, and coats dumped in a pile by the front door",
-      "after_state": "Clean storage bench with cubbies, seating, and a styled drop zone",
+      "product_category": "door/window draft sealing",
+      "specific_product": "door draft stopper + window insulation shrink film kit",
+      "brand": "Amazon generic",
+      "target_price": "$16",
+      "transformation_hook": "$16 draft kit stops the freeze before it stops your heating bill",
+      "before_state": "Cold drafts leaking under doors and through old windows as temps drop",
+      "after_state": "Sealed, draft-free doors and windows ready for the first freeze warning",
       "buyer_intent_keywords": [
-        "entryway shoe storage bench",
-        "small entryway organization",
-        "shoe cubby bench",
-        "declutter entryway ideas",
-        "mudroom bench"
+        "door draft stopper",
+        "window insulation kit",
+        "stop cold air under door",
+        "winterize house cheap",
+        "draft blocker"
       ],
       "scores": {
         "trend": 7,
-        "transformation": 8,
-        "affiliate": 8,
-        "intent": 7
+        "transformation": 6,
+        "affiliate": 9,
+        "intent": 8
       },
       "composite_score": 30,
-      "why_now": "Real Simple and Martha Stewart both ran decluttering/organizing pins this week (the 'move-out method,' items pros never keep), signaling a fall organizing surge that favors furniture-based storage solutions."
+      "why_now": "'Freeze watch' and '10 day forecast' are actively trending in Google Trends today (Oct 14), marking the exact moment shoppers start winterizing before the season's first cold snap."
     },
     {
       "rank": 5,
-      "product_category": "kitchen counter organization",
-      "specific_product": "Syruvia utensil crock + cutting board caddy set",
-      "brand": "Syruvia",
-      "target_price": "$32",
-      "transformation_hook": "Grease-splattered cluttered counter to a styled kitchen corner for $32",
-      "before_state": "Cluttered counter with loose utensils, grease splatter, and no cabinet order",
-      "after_state": "Styled utensil crock and caddy set on a clean, organized counter",
+      "product_category": "couch/sofa covers",
+      "specific_product": "Mamma Mia waterproof stretch sofa cover (pet-hair-resistant)",
+      "brand": "Mamma Mia Covers",
+      "target_price": "$42",
+      "transformation_hook": "$42 cover hides pet hair and turns a trashed couch into a showroom sofa",
+      "before_state": "Worn, stained, pet-hair-covered couch that looks ready for the dump",
+      "after_state": "Smooth, tailored stretch cover that reads as a brand-new sofa",
       "buyer_intent_keywords": [
-        "kitchen counter organization",
-        "utensil crock organizer",
-        "countertop organizer kitchen",
-        "how to organize kitchen tools",
-        "aesthetic kitchen organizer"
+        "couch cover for pets",
+        "waterproof sofa cover",
+        "stretch couch cover",
+        "pet hair proof couch cover",
+        "cheap sofa makeover"
       ],
       "scores": {
-        "trend": 6,
-        "transformation": 7,
-        "affiliate": 8,
+        "trend": 4,
+        "transformation": 9,
+        "affiliate": 10,
         "intent": 7
       },
-      "composite_score": 28,
-      "why_now": "BHG flagged a 'new culinary decor trend taking over' right alongside Real Simple's cabinet-degreasing tips, pairing kitchen cleaning content with counter-styling interest \u2014 and Syruvia carries a 20% commission."
+      "composite_score": 30,
+      "why_now": "No single trending spike today, but it's a top-commission (24-30%) evergreen transformation format that reliably converts in home Reels, worth queuing alongside the live seasonal signals."
     }
   ],
   "raw_signal_count": 85,
