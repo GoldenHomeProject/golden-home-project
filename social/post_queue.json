@@ -8493,10 +8493,10 @@
   },
   {
     "name": "reel_2026-10-14_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-14-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-14-001.mp4",
     "caption": "Stop buying a new mattress after one spill.\n\nA twin mattress is expensive, and it only takes one spilled drink, a sick night, or a bedwetting accident to ruin it for good. Most standard sheets and thin covers do not seal the surface, so liquid seeps straight into the foam. And a lot of protectors are cut too shallow for a thicker mattress, so they slip off the corners within a week.\n\nThis one is waterproof and cut for a deep pocket, fitting mattresses up to fifteen inches thick so it actually stays put on a twin bed. It's rated 4.5 stars by over a hundred thousand people, which says a lot about how many beds it's already protecting.\n\nYour mattress stays covered instead of stained, whether it's a kid's room, a guest bed, or a dorm twin, for about $13.\n\nComment FITS and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -8513,14 +8513,15 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "Stop buying a new mattress after one spill."
+    "hook": "Stop buying a new mattress after one spill.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-14-001.mp4"
   },
   {
     "name": "reel_2026-10-14_002",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-14-002.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-14-002.mp4",
     "caption": "Stop replacing a mattress over one spill.\n\nSpills, sweat, and dead skin soak into a mattress over years, and once that happens there is no real way to clean it out. Dust mites build up the same way, especially in a bed used every night.\n\nThis queen size protector zips completely around the mattress, so it's fully waterproof and keeps bed bugs and dust mites from getting in or out. It's rated 4.6 stars by over a hundred thousand shoppers.\n\nZip it on once and the mattress underneath stays protected instead of stained or worn out, for about $22.\n\nComment MATTRESS and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -8537,14 +8538,15 @@
       "affiliate_network": "amazon",
       "affiliate_url": "https://www.amazon.com/dp/B00U6HREPQ?tag=goldenhomep0a-20"
     },
-    "hook": "Stop replacing a mattress over one spill."
+    "hook": "Stop replacing a mattress over one spill.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-14-002.mp4"
   },
   {
     "name": "reel_2026-10-14_003",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-14-003.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-14-003.mp4",
     "caption": "Everyone blames the duvet cover. The problem is what's inside it.\n\nA duvet cover can look flat and empty no matter how nice it is if what's stuffed inside doesn't fill it out. Thin or clumped fill leaves the corners sagging and the middle looking deflated. That gap between cover and insert is usually the real issue.\n\nThe Bedsure Comforter Duvet Insert is made to fill a duvet cover edge to edge so the corners actually hold their shape. Close to eighty thousand people have rated it 4.7 stars.\n\nThe bed goes from flat and lumpy to full and even, for about $35.\n\nComment DUVET and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -8561,22 +8563,7 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "Everyone blames the duvet cover. The problem is what's inside it."
-  },
-  {
-    "id": "carousel-2026-10-14-B07YKLSMFM",
-    "media_type": "CAROUSEL_ALBUM",
-    "image_urls": [
-      "https://goldenhomeproject.com/social/carousels/2026-10-14-B07YKLSMFM/slide-1.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-14-B07YKLSMFM/slide-2.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-14-B07YKLSMFM/slide-3.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-14-B07YKLSMFM/slide-4.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-14-B07YKLSMFM/slide-5.png"
-    ],
-    "caption": "Stop folding your blankets into bricks.\nIt ages the fill faster than anything else \u2014 and it's an easy habit to break.\n\nSave this for your next linen closet reset. Comforters lose their loft long before the cover ever looks worn out, especially when they're folded tight or vacuum-packed between seasons.\n\nComment COMFORTER or DM me COMFORTER for the link.\n\n#HomeOrganization #LinenCloset #BedroomOrganization #ClosetGoals #HomeOrganizingTips",
-    "asin": "B07YKLSMFM",
-    "keyword": "COMFORTER",
-    "queued_at": "2026-10-14T12:35:06.235888Z",
-    "source": "carousel_generator"
+    "hook": "Everyone blames the duvet cover. The problem is what's inside it.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-14-003.mp4"
   }
 ]

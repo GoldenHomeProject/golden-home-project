@@ -4882,8 +4882,8 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **External actions:** 1 email sent — ON-NICHE reply to SmartWings Halloween Sale (thread 1a13864b497cd932, via Impact.com). Expressed readiness to promote Oct 15–19 Halloween Sale (8% sitewide) and referenced existing BF/CM conversation with Andy. No other replies sent.
 **Next agent hint:** Strategy & Outreach (9am): SmartWings Halloween Sale opens TOMORROW Oct 15 (8% sitewide, Oct 15–19) — tracking links need to be pulled from Impact platform (Publisher ID 7104029) before content goes live. SmartWings BF/CM thread (Andy, Oct 13) still awaiting commission + offer details. 🚨 IAN ACTION REQUIRED: Ripster/PunchGaming (barak@punchgaming.co) replied to Digital Decks app inquiry — Ian must respond directly (NOT GHP business). 🚨 IAN PRIORITY ACTIONS OCT 14: (1) PULL SMARTWINGS IMPACT TRACKING LINK — Halloween Sale opens tomorrow; (2) Build Promeed Impact tracking link (amelia.avery@promeed.com, Account ID 7104029 — OVERDUE since Oct 12); (3) Accept Rewarx Awin ID 129153 (50% recurring, DAY 27); (4) Reply to barak@punchgaming.co re Digital Decks (personal, Ian only); (5) Mamma Mia after-first $47 script (34th consecutive day UNBREAKABLE); (6) Build Dreame Impact tracking links (ACTIVE, zero revenue, DAY 27); (7) Homary Awin + Lauren (affiliate@homary.com, Day 18); (8) Build Syruvia candle warmer Impact tracking link; (9) Best Choice Impact 1-click (15%); (10) CJ portal check (dormancy Day 15).
 
-## 2026-10-14T12:35:06Z — Carousel Generator
-**Ran:** Generated 5-slide carousel for B07YKLSMFM (Bedsure Comforter Duvet Insert)
-**Changed:** social/carousels/2026-10-14-B07YKLSMFM/slide-1.png, social/carousels/2026-10-14-B07YKLSMFM/slide-2.png, social/carousels/2026-10-14-B07YKLSMFM/slide-3.png, social/carousels/2026-10-14-B07YKLSMFM/slide-4.png, social/carousels/2026-10-14-B07YKLSMFM/slide-5.png, social/post_queue.json
-**External actions:** Pexels (4 photos) + Claude CLI (slide content)
-**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B07YKLSMFM carousel.
+## 2026-10-14T12:39:13Z — Reel Producer
+**Ran:** Rendered 3/3 MP4s for 2026-10-14
+**Changed:** social/reels/reel-2026-10-14-*.mp4, social/post_queue.json
+**External actions:** none
+**Next agent hint:** IG Poster has 3 new Reels ready for 14:00 + 22:00 UTC slots
