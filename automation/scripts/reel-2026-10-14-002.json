@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-10-14T10:49:23.147742Z",
+  "date": "2026-10-14",
+  "seq": 2,
+  "hook_category": "mistake",
+  "hook": "Stop replacing a mattress over one spill.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "A hand wiping up a spilled drink near the corner of a bare mattress in a bedroom, morning light through the window",
+      "on_screen_text": "One spill doesn't mean new mattress",
+      "voiceover": "Stop replacing a mattress over one spill."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Close-up of a bare mattress corner with visible wear and a faint stain, no sheets on the bed",
+      "on_screen_text": "It soaks in and stays",
+      "voiceover": "Spills and sweat soak into a mattress over time, and dust mites build up right along with them."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Hands pulling a white zippered mattress encasement over the corner of a queen bed and closing the zipper",
+      "on_screen_text": "Zips shut, fully waterproof",
+      "voiceover": "This queen protector zips all the way around, so it's fully waterproof and keeps bed bugs and dust mites from getting in or out."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "A made queen bed with a fitted sheet being smoothed over the corner, protector visible underneath at the edge",
+      "on_screen_text": "Over a hundred thousand shoppers rate it",
+      "voiceover": "It's rated 4.6 stars by over a hundred thousand people who've put it on their own bed."
+    },
+    {
+      "n": 5,
+      "duration_sec": 5,
+      "visual_prompt": "Someone sitting on a freshly made bed, smoothing the comforter, cozy bedroom in soft morning light",
+      "on_screen_text": "Comment MATTRESS for the link",
+      "voiceover": "Zip it on once and the mattress underneath stays protected instead of stained, for about $22. Comment MATTRESS and I'll send the link."
+    }
+  ],
+  "caption": "Stop replacing a mattress over one spill.\n\nSpills, sweat, and dead skin soak into a mattress over years, and once that happens there is no real way to clean it out. Dust mites build up the same way, especially in a bed used every night.\n\nThis queen size protector zips completely around the mattress, so it's fully waterproof and keeps bed bugs and dust mites from getting in or out. It's rated 4.6 stars by over a hundred thousand shoppers.\n\nZip it on once and the mattress underneath stays protected instead of stained or worn out, for about $22.\n\nComment MATTRESS and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "This queen size protector zips completely around the mattress, so it's fully waterproof and keeps bed bugs and dust mites from getting in or out. It's rated 4.6 stars by over a hundred thousand shoppe",
+  "affiliate_strategy": {
+    "primary_product": "Utopia Bedding Queen Size Mattress Protector Zippered, 100% Waterproof | Bed Bug & Dust Mite Proof Mattress Encasement, ",
+    "dm_keyword": "MATTRESS",
+    "amazon_asin": "B00U6HREPQ",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B00U6HREPQ?tag=goldenhomep0a-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": "https://www.amazon.com/dp/B00U6HREPQ?tag=goldenhomep0a-20"
+  }
+}
