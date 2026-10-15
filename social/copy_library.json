@@ -3858,6 +3858,52 @@
           }
         ]
       }
+    ],
+    "DRYING": [
+      {
+        "hook_category": "question",
+        "hook": "Why does your washcloth still feel damp tomorrow?",
+        "beat1": "A folded washcloth on a towel bar traps moisture between its layers, especially in a small bathroom with low airflow. By the next shower it still feels damp and starts to smell musty before anyone notices.",
+        "turn": "These Amazon Basics washcloths are cotton and made to dry fast, so they're not sitting damp on the bar all day. Over seventy thousand people rate them 4.6 stars.",
+        "result": "A clean, dry washcloth waiting on the bar instead of a damp one, for about $14 a set.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close-up of a hand touching a folded washcloth hanging on a bathroom towel bar, checking if it's damp",
+            "on_screen_text": "Still damp from yesterday?",
+            "voiceover": "Why does your washcloth still feel damp tomorrow?"
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Overhead shot of a cramped bathroom towel bar with a thick folded washcloth wedged between towels, no airflow around it",
+            "on_screen_text": "Folded cloth, no airflow",
+            "voiceover": "When it's folded thick on a crowded bar, moisture gets trapped between the layers and never fully dries."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Hands unfolding a stack of plain cotton washcloths on a bathroom counter near a sink",
+            "on_screen_text": "Cotton, made to dry fast",
+            "voiceover": "These are plain cotton washcloths built to dry fast, so they're not sitting there damp between uses."
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "Washcloth hanging alone on a bathroom hook, clearly dry, with sunlight coming through a window",
+            "on_screen_text": "Over seventy thousand, 4.6 stars",
+            "voiceover": "Over seventy thousand people rate these cotton washcloths 4.6 stars."
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "Hand pulling a dry, fresh-folded washcloth off a bathroom shelf and using it at the sink",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "A dry washcloth waiting on the bar instead of a damp one, for about fourteen dollars. Comment {KEYWORD} and I'll send the link."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
