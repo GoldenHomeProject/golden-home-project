@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-10-15",
+  "category": "Kitchen",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-kitchen-gadgets.html",
+  "picks": [
+    {
+      "asin": "B0113UZJE2",
+      "name": "Etekcity Food Kitchen Scale",
+      "price": "$13.99",
+      "rating": 4.6,
+      "reviews": 177818,
+      "rank": 6
+    },
+    {
+      "asin": "B07YP2VH4B",
+      "name": "KitchenAid Classic Multifunction Can Opener and Bottle Opener Easy to",
+      "price": "$14.99",
+      "rating": 4.6,
+      "reviews": 79331,
+      "rank": 10
+    },
+    {
+      "asin": "B08J8GZXKZ",
+      "name": "KITCHENAID Ribbed Soft Silicone Oven Mitt 2-Pack Set",
+      "price": "$17.00",
+      "rating": 4.7,
+      "reviews": 14147,
+      "rank": 12
+    },
+    {
+      "asin": "B0B6PLG6G2",
+      "name": "125Pcs 8 Inch Square Air Fryer Liners Disposable for 5-8QT",
+      "price": "$9.99",
+      "rating": 4.6,
+      "reviews": 33867,
+      "rank": 22
+    },
+    {
+      "asin": "B0C3QZ7SNF",
+      "name": "Cisily Sponge Holder for Kitchen Sink",
+      "price": "$13.99",
+      "rating": 4.6,
+      "reviews": 21612,
+      "rank": 24
+    },
+    {
+      "asin": "B0CJF94M8J",
+      "name": "TrendPlain 16oz/470ml Glass Olive Oil Sprayer for Cooking",
+      "price": "$7.99",
+      "rating": 4.6,
+      "reviews": 48468,
+      "rank": 26
+    }
+  ]
+}
