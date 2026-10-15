@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-15",
+  "agent": "engagement-monitor",
+  "metrics": {
+    "subscribers": 6660,
+    "total_views": 25679,
+    "total_videos": 238
+  },
+  "top_videos": [
+    {
+      "title": "Headlights sweep across your ceiling at two in the morning #",
+      "views": 179,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Stop stuffing a thin comforter inside your duvet cover #shor",
+      "views": 170,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Stop buying thin curtains that let morning light in #shorts ",
+      "views": 165,
+      "likes": 2,
+      "comments": 1
+    },
+    {
+      "title": "Headlights sweep across your ceiling at two in the morning #",
+      "views": 143,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Everyone sprays air freshener after. That's already too late",
+      "views": 142,
+      "likes": 1,
+      "comments": 1
+    },
+    {
+      "title": "Your shower curtain keeps clinging to your leg mid-shower #s",
+      "views": 126,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Stop stuffing pillow covers with the wrong size insert #shor",
+      "views": 83,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Your throw pillows look flat for one dumb reason #shorts #am",
+      "views": 52,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Everyone blames the duvet cover. The problem is what's insid",
+      "views": 47,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "You reach for a washcloth and it's still damp #shorts #amazo",
+      "views": 32,
+      "likes": 0,
+      "comments": 1
+    }
+  ],
+  "comments_responded": 0,
+  "actions_taken": [
+    "New comment on video: \ud83d\udccc SHOP ALL PRODUCTS \u2014 Amazon links:<br><br>\u2460 Amazo",
+    "Updated BUSINESS_BRAIN.md metrics"
+  ]
+}
