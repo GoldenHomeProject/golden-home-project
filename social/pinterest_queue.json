@@ -6739,5 +6739,41 @@
     "drop_observed_to": null,
     "gift_key": null,
     "recharted": false
+  },
+  {
+    "id": "pin-2026-10-15-B0C1NM42PN",
+    "asin": "B0C1NM42PN",
+    "board": "Bedroom Storage & Bedding",
+    "title": "Waterproof Mattress Protector Queen Size: Noiseless Deep Pockets Fit 6-18\" Mattresses",
+    "description": "A queen size waterproof mattress protector with deep pockets fits 6 to 18 inch mattresses, covering low profile to pillow top beds. The noiseless fabric blocks spills and allergens without the crinkly plastic sound of older protectors. Priced at $23.99 for Bedroom Storage & Bedding shoppers. Tap through for sizing details. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B0C1NM42PN?tag=ghppinterest-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-10-15-B0C1NM42PN.png",
+    "media": "image",
+    "fallback_image_path": null,
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-15-B0C1NM42PN.png",
+    "queued_at": "2026-10-15T10:11:51.678905Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null,
+    "gift_key": null,
+    "recharted": true
+  },
+  {
+    "id": "pin-2026-10-15-B0D277GM56",
+    "asin": "B0D277GM56",
+    "board": "Closet Organization Ideas",
+    "title": "Closet Organization Ideas: Kotkn Over the Door Shoe Organizer with 30\u2026 \u2014 $13.99",
+    "description": "Kotkn Over the Door Shoe Organizer with 30\u2026 for closet organization ideas. Rated 4.7\u2605 across 1,495 reviews \u00b7 $13.99. Prices were accurate when this was published and change often. Tap through for the current listing. Amazon affiliate link \u2014 we may earn a commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B0D277GM56?tag=ghppinterest-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-10-15-B0D277GM56.png",
+    "media": "image",
+    "fallback_image_path": null,
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-15-B0D277GM56.png",
+    "queued_at": "2026-10-15T10:12:34.520716Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null,
+    "gift_key": null,
+    "recharted": false
   }
 ]
