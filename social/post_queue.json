@@ -8540,5 +8540,29 @@
     },
     "hook": "Everyone blames the duvet cover. The problem is what's inside it.",
     "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-14-003.mp4"
+  },
+  {
+    "name": "reel_2026-10-15_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-15-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "You reach for a washcloth and it's still damp.\n\nThick cotton holds water, and a steamy bathroom with no real airflow keeps a washcloth from drying out between showers. It sits folded on the rod, cool and heavy, until the next person grabs it anyway.\n\nThese are cotton washcloths made to dry fast, so the one on your hook is actually ready by the next shower instead of still damp. Over seventy-five thousand ratings sit at 4.6 stars.\n\nA washcloth that's dry and ready every time you reach for it, for about $14.\n\nComment FAST and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Amazon Basics Fast Drying Cotton Washcloths for Bathroom",
+      "dm_keyword": "FAST",
+      "amazon_asin": "B010S5VXKC",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B010S5VXKC?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "You reach for a washcloth and it's still damp."
   }
 ]

@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-10-15T10:32:08.985382Z",
+  "date": "2026-10-15",
+  "seq": 1,
+  "hook_category": "scene",
+  "hook": "You reach for a washcloth and it's still damp.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "A hand reaching for a folded washcloth hanging on a bathroom hook, the fabric looking slightly damp and rumpled, morning light through a steamy mirror",
+      "on_screen_text": "Still damp from yesterday",
+      "voiceover": "You reach for a washcloth and it's still damp."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Close-up of a thick wet washcloth draped over a towel bar in a humid bathroom, condensation on the tile behind it",
+      "on_screen_text": "No airflow, no drying",
+      "voiceover": "Thick cotton holds onto water, and a steamy bathroom with no real airflow keeps it from fully drying between showers."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "A neat stack of folded white cotton washcloths on an open bathroom shelf next to a sink, soft natural light",
+      "on_screen_text": "Made to dry faster",
+      "voiceover": "These are cotton washcloths made to dry fast, so the one on your hook is actually ready the next time you need it."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "A hand pulling one washcloth from a folded stack on a bathroom counter, shallow depth of field on the texture",
+      "on_screen_text": "Rated 4.6 stars by thousands",
+      "voiceover": "Over seventy-five thousand ratings sit at four point six stars."
+    },
+    {
+      "n": 5,
+      "duration_sec": 5,
+      "visual_prompt": "A washcloth hanging loose and fully dry on a hook, morning light, bathroom counter tidy in the background",
+      "on_screen_text": "Comment FAST for the link",
+      "voiceover": "A dry washcloth every time you reach for it, for about fourteen dollars. Comment FAST and I'll send the link."
+    }
+  ],
+  "caption": "You reach for a washcloth and it's still damp.\n\nThick cotton holds water, and a steamy bathroom with no real airflow keeps a washcloth from drying out between showers. It sits folded on the rod, cool and heavy, until the next person grabs it anyway.\n\nThese are cotton washcloths made to dry fast, so the one on your hook is actually ready by the next shower instead of still damp. Over seventy-five thousand ratings sit at 4.6 stars.\n\nA washcloth that's dry and ready every time you reach for it, for about $14.\n\nComment FAST and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "These are cotton washcloths made to dry fast, so the one on your hook is actually ready by the next shower instead of still damp. Over seventy-five thousand ratings sit at 4.6 stars.",
+  "affiliate_strategy": {
+    "primary_product": "Amazon Basics Fast Drying Cotton Washcloths for Bathroom",
+    "dm_keyword": "FAST",
+    "amazon_asin": "B010S5VXKC",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B010S5VXKC?tag=goldenhomep0a-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": null
+  }
+}
