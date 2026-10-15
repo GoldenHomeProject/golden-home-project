@@ -5843,10 +5843,11 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-06-B09TDGCLP6-gift.png",
     "queued_at": "2026-10-06T10:17:13.555868Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
-    "gift_key": "tenstars microfiber hair towel wrap for "
+    "gift_key": "tenstars microfiber hair towel wrap for ",
+    "posted_at": "2026-10-15T01:15:30Z"
   },
   {
     "id": "pin-2026-10-06-B0C89STMFK-gift",
