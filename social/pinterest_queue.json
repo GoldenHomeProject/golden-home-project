@@ -5861,10 +5861,11 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-06-B0C89STMFK-gift.png",
     "queued_at": "2026-10-06T10:25:32.937319Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
-    "gift_key": "jarlink over the door organizer for bedr"
+    "gift_key": "jarlink over the door organizer for bedr",
+    "posted_at": "2026-10-15T01:16:40Z"
   },
   {
     "id": "pin-2026-10-06-B0GN1TZZ9W-gift",
