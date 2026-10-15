@@ -1,0 +1,136 @@
+{
+  "generated_at": "2026-10-15T09:35:54.756089Z",
+  "date": "2026-10-15",
+  "opportunities": [
+    {
+      "rank": 1,
+      "product_category": "kitchen cabinet refacing",
+      "specific_product": "Peel-and-stick cabinet refacing film + brushed gold cabinet hardware kit",
+      "brand": "Amazon generic (pair with Syruvia kitchen tools, 20% commission, for finishing accessories)",
+      "target_price": "$38",
+      "transformation_hook": "Cabinets look brand new for $38 \u2014 zero demo, zero contractor",
+      "before_state": "Dated, scuffed oak cabinet doors with mismatched, loose knobs",
+      "after_state": "Sleek matte-white cabinet fronts with brushed gold pulls",
+      "buyer_intent_keywords": [
+        "peel and stick cabinet wrap",
+        "cabinet refacing kit",
+        "cheap kitchen cabinet makeover",
+        "cabinet hardware upgrade kit",
+        "diy cabinet paint alternative"
+      ],
+      "scores": {
+        "trend": 8,
+        "transformation": 10,
+        "affiliate": 9,
+        "intent": 9
+      },
+      "composite_score": 36,
+      "why_now": "Real Simple's pin today names kitchen features millennials are actively ditching while Apartment Therapy is pushing cabinet-paint before/afters as the easiest dramatic reno people can do this week."
+    },
+    {
+      "rank": 2,
+      "product_category": "small-space Amazon organization finds",
+      "specific_product": "Magnetic LED cabinet puck lights + foldable step stool + cord organizer bundle",
+      "brand": "Amazon generic",
+      "target_price": "$15",
+      "transformation_hook": "3 Amazon fixes under $15 each that fix dark, cluttered cabinets instantly",
+      "before_state": "Dark, hard-to-see cabinet interiors with tangled cords cluttering the counter",
+      "after_state": "Softly lit cabinets and a clean, cord-free counter",
+      "buyer_intent_keywords": [
+        "magnetic cabinet lights amazon",
+        "under cabinet lighting stick on",
+        "cord organizer kitchen",
+        "foldable step stool small kitchen",
+        "amazon home finds under $15"
+      ],
+      "scores": {
+        "trend": 8,
+        "transformation": 8,
+        "affiliate": 10,
+        "intent": 9
+      },
+      "composite_score": 35,
+      "why_now": "Real Simple's Pinterest feed today is literally titled 'Amazon's genius home finds... all for under $15' \u2014 a direct, same-day purchase-intent signal."
+    },
+    {
+      "rank": 3,
+      "product_category": "bedroom headboard fix",
+      "specific_product": "Wall-mounted channel-tufted upholstered headboard panel (queen)",
+      "brand": "Best Choice Products (furniture, 15% commission)",
+      "target_price": "$64",
+      "transformation_hook": "Turned a bare mattress-on-wall setup into a boutique-hotel headboard for $64",
+      "before_state": "Mattress pushed against a blank bedroom wall with no headboard or bed frame",
+      "after_state": "Channel-tufted upholstered headboard panel mounted directly on the wall",
+      "buyer_intent_keywords": [
+        "headboard alternative",
+        "wall mounted headboard no bed frame",
+        "upholstered headboard panel",
+        "cheap headboard ideas",
+        "diy headboard small bedroom"
+      ],
+      "scores": {
+        "trend": 7,
+        "transformation": 9,
+        "affiliate": 8,
+        "intent": 8
+      },
+      "composite_score": 32,
+      "why_now": "Apartment Therapy's pin today is '15 headboard alternative ideas' \u2014 a recurring pain point for renters surfacing in their feed right now."
+    },
+    {
+      "rank": 4,
+      "product_category": "closet/pantry organization",
+      "specific_product": "Clear stackable bin + label system for closets and pantries",
+      "brand": "Amazon generic",
+      "target_price": "$29",
+      "transformation_hook": "Chaotic closet shelf to color-coded system for $29",
+      "before_state": "Overflowing closet shelf with loose, unlabeled, mismatched containers",
+      "after_state": "Matching clear bins stacked neatly with labels facing outward",
+      "buyer_intent_keywords": [
+        "closet organization bins",
+        "pantry organization labels",
+        "stackable storage bins closet",
+        "declutter closet system",
+        "clear bins with lids"
+      ],
+      "scores": {
+        "trend": 6,
+        "transformation": 7,
+        "affiliate": 9,
+        "intent": 8
+      },
+      "composite_score": 30,
+      "why_now": "Both BHG and Real Simple are running fall decluttering content today ('adding this to our organizing toolbox'), hitting the exact seasonal moment people start this project."
+    },
+    {
+      "rank": 5,
+      "product_category": "room divider / clutter concealment",
+      "specific_product": "3-panel folding room divider screen",
+      "brand": "Best Choice Products (furniture, 15% commission)",
+      "target_price": "$79",
+      "transformation_hook": "Hid the ugly storage corner behind a $79 folding screen",
+      "before_state": "Open apartment corner cluttered with visible storage boxes and exposed shelving",
+      "after_state": "Clean room with a stylish folding screen concealing the mess",
+      "buyer_intent_keywords": [
+        "room divider for small apartment",
+        "folding screen to hide storage",
+        "room divider ideas",
+        "privacy screen bedroom",
+        "decorative partition panel"
+      ],
+      "scores": {
+        "trend": 6,
+        "transformation": 8,
+        "affiliate": 8,
+        "intent": 7
+      },
+      "composite_score": 29,
+      "why_now": "Apartment Therapy's pin today explicitly recommends room dividers to hide storage and eyesores, reflecting a live small-space apartment design trend in their feed."
+    }
+  ],
+  "raw_signal_count": 85,
+  "sources_used": [
+    "google_trends_daily_us",
+    "pinterest"
+  ]
+}
