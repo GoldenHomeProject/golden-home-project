@@ -4917,3 +4917,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** automation/scripts/reel-2026-10-15-*.json, social/post_queue.json
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: scene: You reach for a washcloth and it's still damp.
+
+## 2026-10-15T12:17:57Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B010S5VXKC (Amazon Basics Fast Drying Cotton Washclo)
+**Changed:** social/carousels/2026-10-15-B010S5VXKC/slide-1.png, social/carousels/2026-10-15-B010S5VXKC/slide-2.png, social/carousels/2026-10-15-B010S5VXKC/slide-3.png, social/carousels/2026-10-15-B010S5VXKC/slide-4.png, social/carousels/2026-10-15-B010S5VXKC/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B010S5VXKC carousel.
