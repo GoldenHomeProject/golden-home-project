@@ -6136,7 +6136,9 @@
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": "bedelite satin pillowcases, queen size 2",
-    "recharted": false
+    "recharted": false,
+    "blocked": true,
+    "blocked_reason": "weak gift (giftability 6/10) \u2014 2026-10-16"
   },
   {
     "id": "pin-2026-10-09-B08QRFZ6TH",
@@ -6248,7 +6250,9 @@
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": "beoffer 2 pack microfiber hair towel xl ",
-    "recharted": false
+    "recharted": false,
+    "blocked": true,
+    "blocked_reason": "weak gift (giftability 6/10) \u2014 2026-10-16"
   },
   {
     "id": "pin-2026-10-10-B09ZKYQMVD",
@@ -6651,7 +6655,9 @@
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": "americanflat 18x24 poster frame - engine",
-    "recharted": false
+    "recharted": false,
+    "blocked": true,
+    "blocked_reason": "weak gift (giftability 6/10) \u2014 2026-10-16"
   },
   {
     "id": "pin-2026-10-14-B01M7TTA2S-gift",

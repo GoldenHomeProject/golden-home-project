@@ -201,7 +201,7 @@ def fetch_pexels(query: str, out_path: Path, product: str = "") -> bool:
     key_id = hashlib.sha256(PEXELS_API_KEY.encode()).hexdigest()[:8]
     print(f"  [pexels] key sha256[:8]={key_id}")
     url = (f"https://api.pexels.com/v1/search?query={parse.quote(query)}"
-           f"&per_page=5&orientation=portrait&size=large")
+           f"&per_page=15&orientation=portrait&size=large")
     try:
         req = request.Request(url, headers={
             "Authorization": PEXELS_API_KEY, "User-Agent": _BROWSER_UA})
@@ -214,25 +214,99 @@ def fetch_pexels(query: str, out_path: Path, product: str = "") -> bool:
     if not photos:
         print(f"  [pexels] no results for '{query}'")
         return False
-    chosen, alt, score = _pick_photo(photos, query, product)
-    if chosen is None:
-        print(f"  [pexels] '{query}': {alt} — using the branded card instead")
+    # 2026-10-16 (Ian: "make the content better to engage users"). Three of the last
+    # eight pins used the SAME striped-towel-on-a-hook photo, and a desk-file-organizer
+    # pin showed a hand on a book. Now: a photo is used once, ever, and the best few
+    # text-matched candidates are LOOKED AT before one is accepted.
+    used = _photos_used()
+    ranked = [r for r in _rank_photos(photos, query, product) if r[0].get("id") not in used]
+    if not ranked:
+        print(f"  [pexels] '{query}': no unused candidate matched — branded card instead")
         return False
-    src = chosen.get("src", {}) or {}
-    img_url = src.get("portrait") or src.get("large2x") or src.get("large") or src.get("original")
-    if not img_url:
-        return False
+    for chosen, alt, score in ranked[:3]:
+        src = chosen.get("src", {}) or {}
+        img_url = src.get("portrait") or src.get("large2x") or src.get("large") or src.get("original")
+        if not img_url:
+            continue
+        try:
+            with request.urlopen(request.Request(
+                    img_url, headers={"User-Agent": "GHP-Pinterest/1.0"}), timeout=30) as r:
+                out_path.write_bytes(r.read())
+        except Exception as e:
+            print(f"  [pexels] download failed '{query}': {e}")
+            continue
+        ok, note = _judge_photo(out_path, product or query)
+        print(f"  [pexels] '{query}' #{chosen.get('id')} (match {score}): "
+              f"{'OK' if ok else 'reject'} — {note}")
+        if ok:
+            _mark_photo_used(chosen.get("id"))
+            return True
     try:
-        with request.urlopen(request.Request(
-                img_url, headers={"User-Agent": "GHP-Pinterest/1.0"}), timeout=30) as r:
-            out_path.write_bytes(r.read())
-        print(f"  [pexels] hit '{query}' (match {score}) -> {out_path.name}")
-        if alt:
-            print(f"  [pexels] photo is: {alt[:88]}")
-        return True
-    except Exception as e:
-        print(f"  [pexels] download failed '{query}': {e}")
-        return False
+        out_path.unlink()
+    except OSError:
+        pass
+    return False
+
+
+PHOTOS_USED = Path.home() / ".ghp-engagement" / "pexels_photo_used.json"
+
+
+def _photos_used() -> set:
+    try:
+        return set(json.loads(PHOTOS_USED.read_text()))
+    except (OSError, ValueError):
+        return set()
+
+
+def _mark_photo_used(pid) -> None:
+    if pid is None:
+        return
+    PHOTOS_USED.parent.mkdir(parents=True, exist_ok=True)
+    PHOTOS_USED.write_text(json.dumps(sorted(_photos_used() | {pid})))
+
+
+def _rank_photos(photos: list, query: str, product: str = "") -> list:
+    """Every brand-safe candidate whose own description matches, best first."""
+    want = _alt_words(query) | _alt_words(product)
+    out = []
+    for p in photos:
+        alt = (p.get("alt") or "").strip()
+        aw = _alt_words(alt)
+        if any(u in aw for u in _UNSAFE_ALT) or not _defining_ok(want, aw):
+            continue
+        score = len(want & aw)
+        if score > 0:
+            out.append((p, alt, score))
+    return sorted(out, key=lambda r: -r[2])
+
+
+def _judge_photo(path: Path, subject: str) -> tuple[bool, str]:
+    """One Claude look at the photo: the item is visible and it would stop a scroll.
+    If the check itself cannot run, fall back to the text match (never block the run)."""
+    try:
+        from _claude_api import _load_token_file
+        _load_token_file()
+    except Exception:
+        pass
+    prompt = (
+        f"Read the image file {path}. It may be used as the photo on a Pinterest pin for: "
+        f"{subject}.\nReply with ONLY a JSON object: {{\"shows_item\": true/false — the kind "
+        "of item named (or that item clearly in use) is visible and prominent, not an "
+        "unrelated scene; \"score\": 1-10 — how appealing, bright and save-worthy this is as "
+        "a Pinterest home photo; \"note\": \"<10 words>\"}}")
+    try:
+        import subprocess as _sp
+        out = _sp.run(["claude", "-p", "--allowedTools", "Read", "--max-turns", "3"],
+                      input=prompt, capture_output=True, text=True, timeout=150).stdout
+        m = re.search(r"\{.*\}", out, re.S)
+        d = json.loads(m.group()) if m else None
+    except Exception as e:  # noqa: BLE001
+        d = None
+        print(f"  [pexels] photo check unavailable ({e}); trusting the text match")
+    if not d:
+        return True, "unchecked"
+    # 7 passed a photo its own note called "slightly busy/dim"; 8 = genuinely good.
+    return bool(d.get("shows_item")) and int(d.get("score") or 0) >= 8, str(d.get("note"))[:70]
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from category_identity import dead_season_hit  # noqa: E402
@@ -308,6 +382,38 @@ def gift_share(now: datetime) -> int:
     if (11, 1) <= md <= (12, 20):
         return 2
     return 0
+
+
+GIFT_SCORES = Path.home() / ".ghp-engagement" / "giftability.json"
+
+
+def giftability(entries: list) -> dict:
+    """ASIN -> 1-10 "would someone buy this as a gift for another person". Cached per ASIN,
+    so each product is scored once; one Claude call scores everything new in a batch.
+    If scoring is unavailable, returns the cache only — unscored products wait."""
+    try:
+        cache = json.loads(GIFT_SCORES.read_text())
+    except (OSError, ValueError):
+        cache = {}
+    todo = [e for e in entries if e.get("asin") and e["asin"] not in cache][:60]
+    if todo:
+        listing = "\n".join(f"{e['asin']}: {str(e.get('product_name',''))[:90]} ({e.get('verified_price','')})"
+                            for e in todo)
+        prompt = ("Score each product 1-10 for how likely people are to BUY IT AS A GIFT for "
+                  "someone else (holiday, hostess, stocking stuffer, housewarming). Cozy, "
+                  "personal, pretty or treat-yourself items score high; hardware, cleaning "
+                  "supplies, liners, hooks, utility organizers and refills score low.\n"
+                  f"{listing}\n\nReply with ONLY a JSON object mapping ASIN to score.")
+        try:
+            from _claude_api import call_claude_json
+            got = call_claude_json(prompt, max_turns=2, timeout=180) or {}
+            cache.update({k: int(v) for k, v in got.items() if str(v).isdigit()})
+            GIFT_SCORES.parent.mkdir(parents=True, exist_ok=True)
+            GIFT_SCORES.write_text(json.dumps(cache, indent=1))
+            print(f"  [gift] scored {len(got)} new products for giftability")
+        except Exception as e:  # noqa: BLE001
+            print(f"  [gift] giftability scoring unavailable ({e}); using cached scores only")
+    return cache
 
 
 def gift_eligible(e: dict) -> bool:
@@ -966,6 +1072,10 @@ def main() -> int:
         gifted = {p.get("asin") for p in queue if p.get("board") == GIFT_BOARD[0]}
         gifts = [dict(e, _gift=True) for e in entries
                  if gift_eligible(e) and e.get("asin") not in gifted]
+        # Keyword matching let a towel ring, stick-on hooks and a desk file organizer
+        # onto the gift board. Only products people actually GIVE stay (score >= 7).
+        scores = giftability(gifts)
+        gifts = [g for g in gifts if scores.get(g.get("asin"), 0) >= 7]
         # Gift ideas that are ALSO on this week's best-seller charts first, then by reviews.
         gifts.sort(key=lambda e: (e.get("asin") in trend_now,
                                   int(re.sub(r"\D", "", str(e.get("verified_reviews"))) or 0)),
@@ -1051,6 +1161,19 @@ def main() -> int:
             print(f"  [copy] {asin} rewrote an out-of-season angle ({_stale!r})")
             copy = alt
         name = entry.get("product_name", "")
+        # A headline must say what the pin is about. "A Gift They'll Actually Use" ran on 3
+        # of 8 pins (2026-10-14..16) — the board fallback hooks are generic by design.
+        # Replace any generic or recently used headline with the search phrase + the item.
+        hook = (copy.get("overlay_hook") or "").strip()
+        recent_hooks = {str(p.get("overlay_hook", "")).lower() for p in queue[-60:]}
+        if not hook or hook in _BOARD_HOOK.values() or hook.lower() in recent_hooks:
+            try:
+                from video_pin import item_headline
+                hook = item_headline(name, _search_phrase(board)) or ""
+            except Exception:
+                hook = ""
+            hook = hook or _strip_brand(_short_name(name, limit=46))
+            copy["overlay_hook"] = hook
         pexels_q = (copy.get("pexels_query") or "").strip()
         # Prefer a query built from the product itself; only keep Claude's if it actually
         # relates to the product.
@@ -1139,6 +1262,7 @@ def main() -> int:
             "source": "pinterest_pipeline",
             "drop_observed_to": (DROPS.get(asin) or {}).get("observed_to"),
             "gift_key": str(entry.get("product_name", "")).lower()[:40] if gift else None,
+            "overlay_hook": copy.get("overlay_hook", ""),
             "recharted": bool(recharted),
         })
         made += 1
