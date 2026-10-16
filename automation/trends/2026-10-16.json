@@ -1,0 +1,136 @@
+{
+  "generated_at": "2026-10-16T09:28:11.764713Z",
+  "date": "2026-10-16",
+  "opportunities": [
+    {
+      "rank": 1,
+      "product_category": "kitchen cabinet refresh kit",
+      "specific_product": "Rust-Oleum Cabinet Transformations kit + brushed brass pull handles",
+      "brand": "Amazon generic",
+      "target_price": "$89",
+      "transformation_hook": "Dated oak cabinets to modern two-tone kitchen for $89 in one weekend",
+      "before_state": "Builder-grade oak cabinets, scratched finish, mismatched dated hardware, kitchen feels dark and outdated",
+      "after_state": "Crisp two-tone painted cabinets with matte black lowers, white uppers, and new brushed brass pulls \u2014 kitchen looks custom-renovated",
+      "buyer_intent_keywords": [
+        "cabinet paint kit",
+        "kitchen cabinet makeover",
+        "cabinet hardware upgrade",
+        "how to paint kitchen cabinets",
+        "cheap kitchen remodel"
+      ],
+      "scores": {
+        "trend": 8,
+        "transformation": 10,
+        "affiliate": 9,
+        "intent": 9
+      },
+      "composite_score": 36,
+      "why_now": "Apartment Therapy's active pin cycle is pushing 'paint your cabinets for a dramatic before/after' content, signaling a surge right as fall home-refresh searches peak."
+    },
+    {
+      "rank": 2,
+      "product_category": "couch/sofa covers",
+      "specific_product": "Mamma Mia waterproof stretch sofa cover",
+      "brand": "Mamma Mia Covers",
+      "target_price": "$42",
+      "transformation_hook": "Turn a worn, pet-fur couch into a clean matching-decor sofa for $42",
+      "before_state": "Faded, pet-hair-covered couch with stains and torn cushions dragging down the whole living room",
+      "after_state": "Tight-fitting stretch cover in a fresh neutral tone makes the sofa look brand new and pulls the room together",
+      "buyer_intent_keywords": [
+        "couch cover for dogs",
+        "pet hair proof sofa cover",
+        "stretch couch cover",
+        "cheap sofa makeover",
+        "waterproof couch cover"
+      ],
+      "scores": {
+        "trend": 6,
+        "transformation": 9,
+        "affiliate": 10,
+        "intent": 8
+      },
+      "composite_score": 33,
+      "why_now": "Evergreen pain point (pets + furniture wear) combined with Mamma Mia's 24-30% commission makes this the highest-margin transformation pick available right now."
+    },
+    {
+      "rank": 3,
+      "product_category": "interior paint / accent wall",
+      "specific_product": "Benjamin Moore Color of the Year 2027 sample + accent wall supplies",
+      "brand": "Amazon generic",
+      "target_price": "$38",
+      "transformation_hook": "Repaint one wall in 2027's new Color of the Year and transform a room for $38",
+      "before_state": "Plain builder-white or beige wall makes the room feel flat and generic",
+      "after_state": "Single accent wall in the newly announced Color of the Year gives an instant designer-led refresh",
+      "buyer_intent_keywords": [
+        "Benjamin Moore color of the year 2027",
+        "accent wall paint ideas",
+        "best paint colors 2027",
+        "easy accent wall",
+        "paint color trends"
+      ],
+      "scores": {
+        "trend": 9,
+        "transformation": 8,
+        "affiliate": 7,
+        "intent": 7
+      },
+      "composite_score": 31,
+      "why_now": "Real Simple just broke the Benjamin Moore 2027 Color of the Year announcement today, creating a short news-driven search spike before it goes mainstream."
+    },
+    {
+      "rank": 4,
+      "product_category": "bedroom headboard alternative",
+      "specific_product": "upholstered wall-mounted headboard panel",
+      "brand": "Amazon generic",
+      "target_price": "$65",
+      "transformation_hook": "No headboard to boutique-hotel bed for $65, no tools needed",
+      "after_state": "Plush upholstered panel mounted behind the bed creates a hotel-style focal point instantly",
+      "before_state": "Bare mattress and bed frame pushed against a blank wall looks unfinished and dorm-like",
+      "buyer_intent_keywords": [
+        "headboard alternative",
+        "wall mounted headboard",
+        "no headboard bed ideas",
+        "cheap headboard upgrade",
+        "DIY upholstered headboard"
+      ],
+      "scores": {
+        "trend": 7,
+        "transformation": 8,
+        "affiliate": 8,
+        "intent": 7
+      },
+      "composite_score": 30,
+      "why_now": "Apartment Therapy's pinned '15 headboard alternative ideas' post is actively circulating, directly matching a common no-headboard before/after setup."
+    },
+    {
+      "rank": 5,
+      "product_category": "bathroom organization",
+      "specific_product": "guest bathroom storage caddy + matching accessory set",
+      "brand": "Amazon generic",
+      "target_price": "$34",
+      "transformation_hook": "Cluttered guest bath to spa-ready in 20 minutes for $34",
+      "before_state": "Mismatched bottles, exposed clutter, and dingy accessories make the guest bathroom embarrassing",
+      "after_state": "Matching caddy, soap dispenser, and tray create a tidy, spa-like guest bathroom in minutes",
+      "buyer_intent_keywords": [
+        "guest bathroom ideas",
+        "bathroom organization set",
+        "small bathroom storage",
+        "bathroom accessory set",
+        "spa bathroom on a budget"
+      ],
+      "scores": {
+        "trend": 6,
+        "transformation": 7,
+        "affiliate": 8,
+        "intent": 7
+      },
+      "composite_score": 28,
+      "why_now": "Real Simple's piece on what guests notice first in your bathroom is driving fresh search interest in quick, visible bathroom upgrades."
+    }
+  ],
+  "raw_signal_count": 85,
+  "sources_used": [
+    "google_trends_daily_us",
+    "pinterest"
+  ]
+}
