@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-10-16",
+  "category": "Home Storage",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-storage-bins.html",
+  "picks": [
+    {
+      "asin": "B0711RQMNF",
+      "name": "Amazon Basics Collapsible Fabric Storage Cubes Organizer with Handles",
+      "price": "$17.84",
+      "rating": 4.7,
+      "reviews": 120336,
+      "rank": 2
+    },
+    {
+      "asin": "B00FZVPWTI",
+      "name": "IRIS USA Clear Cases |Made in USA",
+      "price": "$19.99",
+      "rating": 4.7,
+      "reviews": 9290,
+      "rank": 26
+    },
+    {
+      "asin": "B004QJGW6C",
+      "name": "Sterilite Clip Box",
+      "price": "$32.83",
+      "rating": 4.7,
+      "reviews": 9296,
+      "rank": 15
+    },
+    {
+      "asin": "B07SPR2HPT",
+      "name": "SONGMICS Storage Cubes",
+      "price": "$19.99",
+      "rating": 4.7,
+      "reviews": 14080,
+      "rank": 28
+    },
+    {
+      "asin": "B01IR9VAOA",
+      "name": "Household Essentials Foldable Fabric Storage Bins 6 Piece Set",
+      "price": "$24.99",
+      "rating": 4.8,
+      "reviews": 19883,
+      "rank": 29
+    },
+    {
+      "asin": "B07TXL7CPQ",
+      "name": "Amazon Basics Collapsible Cube Storage Bins",
+      "price": "$19.99",
+      "rating": 4.8,
+      "reviews": 22136,
+      "rank": 35
+    }
+  ]
+}
