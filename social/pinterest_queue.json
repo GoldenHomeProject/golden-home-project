@@ -6504,11 +6504,12 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-12-B004QJGW6C.png",
     "queued_at": "2026-10-12T10:11:19.760061Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
-    "recharted": false
+    "recharted": false,
+    "posted_at": "2026-10-16T13:40:33Z"
   },
   {
     "id": "pin-2026-10-12-B0F1L9HJWT",
