@@ -6114,11 +6114,12 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-08-B0CVVVNB9L-gift.png",
     "queued_at": "2026-10-08T10:16:53.501990Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": "miulee boho farmhouse sage green throw p",
-    "recharted": false
+    "recharted": false,
+    "posted_at": "2026-10-16T13:41:24Z"
   },
   {
     "id": "pin-2026-10-09-B087JJ3M15-gift",
