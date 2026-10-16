@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-10-16 (Strategy & Outreach 9am)
+# Last updated: 2026-10-16 (Affiliate Optimizer 10am)
 # ============================================================
 
 ---
@@ -2881,3 +2881,53 @@ What the data **does** show, and it's a flag:
 - **Competitor watch (Oct 16):** Alexandra Gater — 27th+ consecutive no-upload day (no Oct 2026 upload found per web research). Full competitor vacuum continues. Nest With Me: crafts/nursery. DIY Creators: woodworking only. Webster Green accent wall + two-tone kitchen + couch cover = ALL zero competitor coverage confirmed.
 
 - **Amazon picks for Pinterest pipeline (Oct 16) — categories with real August sales:** (1) HOME DECOR/ACCENT WALL: Forest green removable peel-and-stick wallpaper panels (accent wall, solid dark green, repositionable) ~$22-38 — Benjamin Moore Webster Green HC-130 2027 Color of the Year freshly announced (Homes & Gardens, Wallpaper, AT, Living Etc), renter-safe zero-damage accent wall, distinct from all prior wall/decor picks; IAN: search "forest green removable wallpaper peel stick accent wall panels" in Associates for top ASIN; https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20. (2) KITCHEN/HOME IMPROVEMENT: Solid matte black or navy contact paper self-adhesive cabinet vinyl roll ~$12-22 — Trend Scout #1 today, two-tone kitchen renter transformation ($23 lower-cabinet-only wrap), DISTINCT from Oct 14 faux wood grain (solid dark color for two-tone effect vs. wood-look); IAN: search "contact paper self adhesive matte black solid color cabinet vinyl" in Associates for top ASIN; goldenhomep0a-20 tag. (3) LIVING ROOM: Stretch sofa slipcover 3-cushion machine washable ~$40-55 — Trend Scout #2 today (pet hair couch), Mamma Mia Impact 24-30% ACTIVE 36th UNBREAKABLE day, Pinterest Halloween Challenge algorithmic boost through Nov 2 for fall home transformation content, ZERO GHP coverage, confirmed real August sales category (home textiles); IAN: search "stretch couch cover sofa slipcover 3 cushion machine washable" in Associates for top ASIN; goldenhomep0a-20 tag.
+
+### October 2026 Affiliate Updates (updated 2026-10-16 Affiliate Optimizer 10am)
+
+**GMAIL AUDIT RESULT: CLEAN.** Inbox searched `in:inbox newer_than:1d` and `in:inbox is:unread` — zero unread affiliate partnership emails requiring reply. Cold outreach paused per Ian Sep 3 directive. No new inbound on-niche partnership emails actioned.
+
+**PLATFORM STATUS (all require IAN browser login — agent cannot access dashboards directly):**
+
+- **Amazon Associates `goldenhomep0a-20` — ACTIVE.** Tag confirmed correct (NOT closed `goldenhomep06-20`). Aug 2026 sales data confirms these categories convert: home textiles, kitchen accessories, bathroom storage, wall decor, home lighting. 3 fresh Amazon picks added by Strategy & Outreach 9am (forest green wallpaper ~$22-38, matte black contact paper ~$12-22, stretch sofa slipcover ~$40-55). Commission rate 3-8% — lowest in portfolio; use Amazon only when no Impact/Awin partner covers the product category.
+
+- **Impact.com Publisher ID 7104029 — MULTIPLE URGENT OPEN ITEMS:**
+  - 🚨🚨 **SmartWings Halloween Sale (8% sitewide, Oct 15-19)** — OPEN NOW, CLOSES IN 3 DAYS. IAN has NOT yet pulled the Impact tracking link. This is the highest-priority affiliate action for today: pull link from Impact dashboard Publisher ID 7104029 → SmartWings → Create tracking link → use in cozy-horror Halloween content + Mamma Mia cross-sell. Sale ends Oct 19 = 3 days remaining. Missing this window = lost revenue.
+  - 🚨🚨 **Promeed tracking link — DAY 9 OVERDUE.** amelia.avery@promeed.com confirmed partnership active (4th Email Monitor follow-up holding reply sent Oct 16). IAN has SAMPLE-IAN-COOL3-2026 sample in hand + IAN2026F3 promo code. Must build Impact tracking link TODAY and email Amelia to keep partnership alive. Every day without a link = zero commissions on a confirmed partner.
+  - 🚨🚨 **SmartWings BF/CM reply PERMANENTLY FAILED.** Email to notifications@outreach.impact.com confirmed SMTP permanent delivery failure ~11:28 UTC Oct 16 (Email Monitor Oct 16). IAN must contact Andy (SmartWings) DIRECTLY via Impact platform messaging (Publisher ID 7104029) — NOT by email — regarding Black Friday/Cyber Monday commission offer. This is time-sensitive: Q4 commission structures are being set NOW.
+  - 🚨 **Mamma Mia 24-30% commission — ACTIVE, zero content DAY 36.** Impact link exists. Zero videos posted in channel history. Every week of delay = missed $11.28-$14.10/sale (vs Amazon $1.20-$3.30 for same slipcover). Highest-revenue action IAN can take for content pipeline.
+  - **Syruvia candle warmer lamp — 20% Impact vs 6% Amazon.** Impact tracking link not yet built. Building this link = 3.3× revenue on every candle warmer sale vs Amazon. IAN: locate Syruvia in Impact Publisher ID 7104029 → build tracking link.
+  - **Dreame — ACTIVE on Impact, ZERO tracking links DAY 28.** Dreame robot vacuums/mops $200-600+ AOV, ~$10-40/sale uncaptured. IAN: build Dreame tracking links in Impact dashboard.
+  - **Sam's Club Creator program — NEW, up to 20% home goods.** Mass marketplace email received Oct 15 via Impact. IAN: evaluate via Impact dashboard — if home goods category includes cleaning/organization/storage at 20%, this outperforms Amazon on those categories by 3-7×. ACCEPT if confirmed.
+  - **Best Choice Products — 10-15% ACTIVE, 1-click unactioned.** IAN: accept via Impact dashboard (1 click). Confirmed home goods partner, higher than Amazon on patio/outdoor/large home items.
+  - **Puracy — ON-NICHE plant-based cleaners, Impact ID 54051.** IAN: evaluate in Impact dashboard. Plant-based home cleaners = strong GHP audience fit (home improvement + clean living crossover). If commission rate ≥ 8%, accept.
+
+- **Awin — TWO URGENT OPEN ITEMS:**
+  - 🚨 **Rewarx Awin ID 129153 — 50% RECURRING COMMISSION, DAY 30.** MILESTONE: highest commission rate in entire GHP portfolio (50% recurring = software/subscription model). IAN has NOT accepted yet. This is the single highest-priority platform action to take today: go to Awin → find Rewarx ID 129153 → Accept application. Every day without this accepted = 50% recurring revenue uncaptured.
+  - **Homary — DAY 19 NO ACTION.** IAN to complete Awin express signup + email Lauren at affiliate@homary.com. Premium furniture ($200-800+ AOV) at Awin commission rates = high dollar-per-click. 19 days of delay with a known on-niche partner.
+
+- **CJ Affiliate — AliExpress dormancy DAY 16.** AliExpress CID 7711902 dormancy warning issued. IAN: log into CJ portal, generate at least one AliExpress click-through to reset dormancy clock before account is suspended. Also check Wayfair, GreenLife, and Levoit application statuses in CJ dashboard.
+
+**REVENUE PRIORITY RANKING (commission rate descending):**
+1. Rewarx 50% recurring (Awin) — NOT YET ACCEPTED
+2. Mamma Mia 24-30% (Impact) — ACTIVE, ZERO CONTENT
+3. Syruvia 20% candle warmer (Impact) — ACTIVE, NO TRACKING LINK
+4. Sam's Club Creator up to 20% (Impact) — NEEDS EVALUATION
+5. SmartWings 8% Halloween Sale (Impact) — CLOSES OCT 19
+6. Best Choice Products 10-15% (Impact) — 1-CLICK UNACTIONED
+7. Dreame ~5-10% (Impact) — ACTIVE, ZERO LINKS
+8. Amazon 3-8% `goldenhomep0a-20` — ACTIVE, current fallback
+
+**IAN PRIORITY ACTION LIST (Affiliate Optimizer Oct 16 — ranked by urgency + revenue impact):**
+1. 🚨🚨 PULL SMARTWINGS HALLOWEEN SALE IMPACT TRACKING LINK NOW — sale closes Oct 19 (3 days), Publisher ID 7104029
+2. 🚨🚨 BUILD PROMEED IMPACT TRACKING LINK + email amelia.avery@promeed.com — DAY 9 OVERDUE; IAN2026F3 promo + SAMPLE-IAN-COOL3-2026 in hand
+3. 🚨🚨 CONTACT ANDY (SMARTWINGS) VIA IMPACT PLATFORM MESSAGING — SMTP permanently failed, do NOT email; Q4 BF/CM commission re: Black Friday offer
+4. 🚨 ACCEPT REWARX AWIN ID 129153 — 50% recurring, DAY 30, HIGHEST COMMISSION IN PORTFOLIO
+5. Mamma Mia after-first $47 couch cover script (36th consecutive UNBREAKABLE day)
+6. Build Syruvia Impact tracking link (candle warmer lamp 20% vs Amazon 6% = 3.3× revenue per sale)
+7. Build Dreame Impact tracking links (ACTIVE zero links DAY 28, $10-40/sale uncaptured)
+8. Evaluate Sam's Club Creator via Impact dashboard (up to 20% home goods, new program Oct 15)
+9. Accept Best Choice Products Impact 10-15% (1-click unactioned)
+10. Homary: Awin express signup + email Lauren affiliate@homary.com (DAY 19)
+11. Evaluate Puracy Impact ID 54051 (on-niche plant-based cleaners)
+12. CJ portal: reset AliExpress dormancy (DAY 16) + check Wayfair/GreenLife/Levoit status
+13. Fix GitHub Pages deploy failure (commit 20c932d)
