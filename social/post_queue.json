@@ -8559,10 +8559,10 @@
   },
   {
     "name": "reel_2026-10-16_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-16-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-16-001.mp4",
     "caption": "Stop buying a new mattress after one spill.\n\nA twin mattress is expensive, and it only takes one spilled drink, a sick night, or a bedwetting accident to ruin it for good. Most standard sheets and thin covers do not seal the surface, so liquid seeps straight into the foam. And a lot of protectors are cut too shallow for a thicker mattress, so they slip off the corners within a week.\n\nThis one is waterproof and cut for a deep pocket, fitting mattresses up to fifteen inches thick so it actually stays put on a twin bed. It's rated 4.5 stars by over a hundred thousand people, which says a lot about how many beds it's already protecting.\n\nYour mattress stays covered instead of stained, whether it's a kid's room, a guest bed, or a dorm twin, for about $13.\n\nComment FITS and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -8579,14 +8579,15 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "Stop buying a new mattress after one spill."
+    "hook": "Stop buying a new mattress after one spill.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-16-001.mp4"
   },
   {
     "name": "reel_2026-10-16_002",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-16-002.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-16-002.mp4",
     "caption": "Watch the back basket slide right out to you.\n\nUnder a kitchen sink, pipes and a disposal carve the space into odd gaps, so bottles and sprays end up shoved in the back. Every time you need the one thing in the corner, you end up pulling half the cabinet out first.\n\nThis two-tier sliding basket organizer sits low in that space and slides forward so the back row comes to you instead of your arm going in after it. It's a new chrome listing on Amazon, so there's no rating yet.\n\nEverything under the sink stays visible and reachable instead of stacked in a pile, for about $35.\n\nComment LINK and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #kitchenorganization #smallspacesolutions #undersinkstorage",
     "hashtags": [
       "#amazonhomefinds",
@@ -8604,14 +8605,15 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "Watch the back basket slide right out to you."
+    "hook": "Watch the back basket slide right out to you.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-16-002.mp4"
   },
   {
     "name": "reel_2026-10-16_003",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-16-003.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-16-003.mp4",
     "caption": "The sun wakes you up before your alarm does.\n\nMost bedroom curtains let a thin edge of light through where the panel meets the window frame or the fabric is just too light to block it. That sliver is enough to end sleep early, especially with an east-facing window in summer.\n\nThese are blackout panels made to cover the full width of a standard window and cut that light off at the source. People rate them 4.6 stars across a huge number of reviews, mostly for exactly this.\n\nThe room stays dark until you decide otherwise, not until the sun decides for you, and the two-panel set runs about ten dollars.\n\nComment WIDE and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -8628,22 +8630,7 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "The sun wakes you up before your alarm does."
-  },
-  {
-    "id": "carousel-2026-10-16-B00BAGTNAQ",
-    "media_type": "CAROUSEL_ALBUM",
-    "image_urls": [
-      "https://goldenhomeproject.com/social/carousels/2026-10-16-B00BAGTNAQ/slide-1.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-16-B00BAGTNAQ/slide-2.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-16-B00BAGTNAQ/slide-3.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-16-B00BAGTNAQ/slide-4.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-16-B00BAGTNAQ/slide-5.png"
-    ],
-    "caption": "The couch you angle away from photos because of all the pet hair.\n\nPet hair works its way deep into fabric weaves, and single-use lint sheets run out fast. A reusable roller is designed to be used over and over on the same cushions and pet beds without needing replacements.\n\nSave this for later so it's ready before your next deep clean.\n\nComment ROLLER or DM me ROLLER for the link.\n\n#homeorganization #petfriendlyhome #cleaninghacks #livingroomgoals #tidyhome",
-    "asin": "B00BAGTNAQ",
-    "keyword": "ROLLER",
-    "queued_at": "2026-10-16T12:02:15.279828Z",
-    "source": "carousel_generator"
+    "hook": "The sun wakes you up before your alarm does.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-16-003.mp4"
   }
 ]

@@ -4954,8 +4954,8 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: mistake: Stop buying a new mattress after one spill. | satisfying_fix: Watch the back basket slide right out to you. | scene: The sun wakes you up before your alarm does.
 
-## 2026-10-16T12:02:15Z — Carousel Generator
-**Ran:** Generated 5-slide carousel for B00BAGTNAQ (ChomChom Roller Pet Hair Remover (reusab)
-**Changed:** social/carousels/2026-10-16-B00BAGTNAQ/slide-1.png, social/carousels/2026-10-16-B00BAGTNAQ/slide-2.png, social/carousels/2026-10-16-B00BAGTNAQ/slide-3.png, social/carousels/2026-10-16-B00BAGTNAQ/slide-4.png, social/carousels/2026-10-16-B00BAGTNAQ/slide-5.png, social/post_queue.json
-**External actions:** Pexels (4 photos) + Claude CLI (slide content)
-**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B00BAGTNAQ carousel.
+## 2026-10-16T12:07:53Z — Reel Producer
+**Ran:** Rendered 3/3 MP4s for 2026-10-16
+**Changed:** social/reels/reel-2026-10-16-*.mp4, social/post_queue.json
+**External actions:** none
+**Next agent hint:** IG Poster has 3 new Reels ready for 14:00 + 22:00 UTC slots
