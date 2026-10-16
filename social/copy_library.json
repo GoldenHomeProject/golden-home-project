@@ -3904,6 +3904,52 @@
           }
         ]
       }
+    ],
+    "COTTON": [
+      {
+        "hook_category": "mistake",
+        "hook": "Your washcloth never actually dries before the next shower.",
+        "beat1": "Bathrooms stay humid long after the water's off, so a folded, damp washcloth just sits there instead of drying out. Hung on a hook or balled up in a cabinet, thick cotton traps moisture and starts to smell sour by the next use.",
+        "turn": "These Amazon Basics washcloths are cotton built to dry fast, so they're not still damp the next time you reach for one. Over seventy thousand people have rated them, averaging 4.6 stars.",
+        "result": "A set like this means a dry, ready washcloth every time you shower, for about $14.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close-up of a hand touching a slightly damp, bunched-up washcloth hanging on a bathroom hook",
+            "on_screen_text": "It's never actually dry",
+            "voiceover": "Your washcloth never actually dries before the next shower."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Steamy bathroom mirror and a folded wet washcloth sitting on the edge of a tub",
+            "on_screen_text": "Humid air, no airflow",
+            "voiceover": "Bathrooms stay humid long after the water's off, so a folded, damp cloth just sits there instead of drying. Balled up on a hook, it starts to smell sour before you know it."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Hands unfolding a stack of clean cotton washcloths on a bathroom counter",
+            "on_screen_text": "Cotton made to dry fast",
+            "voiceover": "These washcloths are cotton built to dry fast, so they're not still damp the next time you reach for one."
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "A neat stack of folded washcloths on an open bathroom shelf next to towels",
+            "on_screen_text": "Rated 4.6 stars by thousands",
+            "voiceover": "Over seventy thousand people have rated them, averaging 4.6 stars."
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "Person grabbing a fresh, dry washcloth from a shelf before stepping into the shower",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "A set like this means a dry, ready washcloth every time, for about fourteen dollars. Comment {KEYWORD} and I'll send the link."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
