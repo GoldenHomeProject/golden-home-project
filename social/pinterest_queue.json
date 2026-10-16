@@ -6059,11 +6059,12 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-08-B0DG7VPM37-gift.png",
     "queued_at": "2026-10-08T10:14:19.007012Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": "optish over the door hooks, door hanger ",
-    "recharted": false
+    "recharted": false,
+    "posted_at": "2026-10-16T01:16:39Z"
   },
   {
     "id": "pin-2026-10-08-B0CSPKSCP2",
