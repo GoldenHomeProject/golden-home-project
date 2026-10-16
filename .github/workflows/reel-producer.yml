@@ -18,7 +18,7 @@ permissions:
 jobs:
   produce:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 50
 
     steps:
       - uses: actions/checkout@v4
@@ -34,6 +34,9 @@ jobs:
       - name: Install Python deps
         run: pip install Pillow edge-tts numpy pytesseract gradio_client
 
+      - name: Install Claude Code CLI (judges stock clips before they are used)
+        run: npm install -g @anthropic-ai/claude-code
+
       - name: Render Reels
         # PEXELS_API_KEY was never passed into this job, so fetch_pexels_photo()
         # failed every single time and every frame silently fell back to
@@ -45,6 +48,7 @@ jobs:
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           # FLUX.1-schnell renders the product hero frames at true reel resolution.
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
         run: python3 automation/reel_producer.py
 
       - name: Commit Reel MP4s, queue, agent log

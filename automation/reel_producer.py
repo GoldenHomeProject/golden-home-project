@@ -19,6 +19,7 @@ Output per script:
 import asyncio
 import json
 import os
+import re
 import shutil
 import subprocess
 import sys
@@ -473,10 +474,14 @@ def fallback_bg(out_path: Path):
     img.save(out_path, "JPEG", quality=90)
 
 
-def compose_scene_frame(bg_path: Path, on_screen_text: str, out_path: Path,
+def compose_scene_frame(bg_path: Path | None, on_screen_text: str, out_path: Path,
                         accent: bool = False):
-    """Open background, darken bottom third, overlay readable typography."""
-    img = Image.open(bg_path).convert("RGB")
+    """Open background, darken bottom third, overlay readable typography.
+    bg_path=None renders the SAME text treatment on a transparent PNG, to lay over video."""
+    transparent = bg_path is None
+    mode = "RGBA" if transparent else "RGB"
+    img = (Image.new("RGBA", (WIDTH, HEIGHT), (0, 0, 0, 0)) if transparent
+           else Image.open(bg_path).convert("RGB"))
     if img.size != (WIDTH, HEIGHT):
         img = img.resize((WIDTH, HEIGHT), Image.LANCZOS)
 
@@ -489,7 +494,7 @@ def compose_scene_frame(bg_path: Path, on_screen_text: str, out_path: Path,
     odraw.rectangle([(0, 0), (WIDTH, 10)], fill=ACCENT_COLOR + (255,))
     odraw.rectangle([(0, HEIGHT - 10), (WIDTH, HEIGHT)], fill=ACCENT_COLOR + (255,))
 
-    img = Image.alpha_composite(img.convert("RGBA"), overlay).convert("RGB")
+    img = Image.alpha_composite(img.convert("RGBA"), overlay).convert(mode)
     draw = ImageDraw.Draw(img)
 
     text = (on_screen_text or "").strip()
@@ -556,7 +561,7 @@ def compose_scene_frame(bg_path: Path, on_screen_text: str, out_path: Path,
                (WIDTH + widest) // 2 + pad_x, y0 + total_h + pad_y]
         scrim = Image.new("RGBA", (WIDTH, HEIGHT), (0, 0, 0, 0))
         ImageDraw.Draw(scrim).rounded_rectangle(box, radius=28, fill=(0, 0, 0, 150))
-        img = Image.alpha_composite(img.convert("RGBA"), scrim).convert("RGB")
+        img = Image.alpha_composite(img.convert("RGBA"), scrim).convert(mode)
         draw = ImageDraw.Draw(img)
 
         for i, line in enumerate(lines):
@@ -574,7 +579,10 @@ def compose_scene_frame(bg_path: Path, on_screen_text: str, out_path: Path,
     draw.text((48, HEIGHT - SAFE_BOTTOM + 24), "@golden_home_project",
               fill=ACCENT_COLOR, font=wfont)
 
-    img.save(out_path, "JPEG", quality=92, optimize=True)
+    if transparent:
+        img.save(out_path, "PNG")
+    else:
+        img.save(out_path, "JPEG", quality=92, optimize=True)
 
 
 async def render_voiceover(text: str, out_path: Path):
@@ -643,6 +651,161 @@ def ffmpeg_kenburns_scene(frame_path: Path, duration: float, out_path: Path,
         str(out_path),
     ]
     subprocess.run(cmd, check=True)
+
+
+# ---------------------------------------------------------------- scenes, v2
+# 2026-10-16, Ian: "the previous ken burns image posts were not good, stop doing them".
+# A scene is now REAL MOTION: an HD Pexels video clip (free commercial licence) that
+# Claude has looked at (3 frames: shows the scene, no faces, appealing), with the
+# caption laid over it. If no clip passes, the scene is a clean animated brand card —
+# never a still photo with a zoom.
+CARD_BG = (18, 18, 18)
+
+
+def scene_queries(scenes: list, product: str) -> dict:
+    """One Claude call: 2 stock-video searches per scene, in the vocabulary stock sites use.
+    The product-name ladder sent every scene of a reel to the same 'mattress protector fits'
+    search and re-checked the same four clips five times (test, 2026-10-16)."""
+    try:
+        from _claude_api import call_claude_json
+        listing = "\n".join(f"{s.get('n', i + 1)}: {s.get('visual_prompt', '')}"
+                            for i, s in enumerate(scenes))
+        got = call_claude_json(
+            "Write two short Pexels VIDEO search queries (2-4 words, everyday stock-footage "
+            f"vocabulary, no brand names) for each scene of a home-products reel about: {product}."
+            f"\n{listing}\nReply ONLY with JSON mapping scene number to a list of two queries.",
+            max_turns=2, timeout=120) or {}
+        return {int(k): v for k, v in got.items() if isinstance(v, list)}
+    except Exception as e:  # noqa: BLE001
+        print(f"    scene queries unavailable ({e})")
+        return {}
+
+
+_SEEN_THIS_REEL: set = set()
+
+
+def _judge_scene(vp, sheet: Path, visual: str) -> dict:
+    """Does the clip fit this MOMENT (room / action), appealing, no faces? A scene shows a
+    situation, so unlike a product pin it need not show the exact item."""
+    prompt = (f"Read the image file {sheet}: three frames (start, middle, end) of a stock clip "
+              f"for this scene of a home-products reel: {visual}\nReply ONLY with JSON: "
+              "{\"fits\": true/false — shows the same KIND of object or room as the scene (a bed being made, a nightstand, a kitchen cabinet) in all three frames. Camera angle, lighting, decor style and the exact action do NOT matter; a clip of a different object or an unrelated place does not fit. "
+              "frames, \"face_visible\": true/false, \"score\": 1-10 appeal as an Instagram "
+              "home reel shot, \"note\": \"<10 words>\"}")
+    try:
+        from _claude_api import _load_token_file
+        _load_token_file()
+    except Exception:
+        pass
+    try:
+        out = subprocess.run(["claude", "-p", "--allowedTools", "Read", "--max-turns", "3"],
+                             input=prompt, capture_output=True, text=True, timeout=150).stdout
+        m = re.search(r"\{.*\}", out, re.S)
+        return json.loads(m.group()) if m else {}
+    except Exception as e:  # noqa: BLE001
+        return {"note": f"check failed: {e}"}
+
+
+def scene_video_clip(visual: str, product: str, on_text: str, accent: bool,
+                     duration: float, out_path: Path, work_dir: Path,
+                     queries: list | None = None) -> bool:
+    try:
+        import video_pin as vp
+    except Exception as e:  # noqa: BLE001
+        print(f"    video scenes unavailable ({e})")
+        return False
+    queries = list(dict.fromkeys((queries or []) + _query_ladder(visual, "")[:2]))
+    judged = 0
+    for q in queries:
+        for v in vp._search(q):
+            if judged >= 4:
+                return False
+            vid = v.get("id")
+            if (vid in vp._used() or vid in _SEEN_THIS_REEL
+                    or float(v.get("duration") or 0) < duration + 0.6):
+                continue
+            if vp._slug_words(v) & set(vp.UNSAFE) or not vp._best_file(v):
+                continue
+            _SEEN_THIS_REEL.add(vid)
+            lo = work_dir / f"v{vid}-lo.mp4"
+            sheet = work_dir / f"v{vid}-sheet.jpg"
+            small = vp._small_file(v)
+            if not small or not vp._get(small, lo) or not vp._contact_sheet(lo, duration, sheet):
+                continue
+            judged += 1
+            d = _judge_scene(vp, sheet, visual)
+            ok = (d.get("fits") and d.get("face_visible") is False
+                  and int(d.get("score") or 0) >= 7)
+            print(f"    clip {vid} ({q!r}): {'OK ' + str(d.get('score')) if ok else 'reject'}"
+                  f" — {str(d.get('note'))[:60]}")
+            if not ok:
+                continue
+            hd = work_dir / f"v{vid}-hd.mp4"
+            if not vp._get(vp._best_file(v), hd):
+                continue
+            ov = work_dir / f"{out_path.stem}-text.png"
+            compose_scene_frame(None, on_text, ov, accent=accent)
+            fc = (f"[0:v]scale={WIDTH}:{HEIGHT}:force_original_aspect_ratio=increase,"
+                  f"crop={WIDTH}:{HEIGHT},eq=contrast=1.04:brightness=0.02:saturation=1.06,"
+                  f"fps=30,setsar=1[v];[v][1:v]overlay=0:0,format=yuv420p")
+            r = subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", "0.3", "-t",
+                                f"{duration}", "-i", str(hd), "-i", str(ov), "-filter_complex",
+                                fc, "-t", f"{duration}", "-an", "-c:v", "libx264", "-preset",
+                                "medium", "-crf", "21", str(out_path)], capture_output=True)
+            if r.returncode == 0:
+                vp._mark_used(vid)
+                return True
+    return False
+
+
+def _card_layers(on_text: str, accent: bool, bg_out: Path, text_out: Path):
+    """Brand card in the pin system: cream field, kicker, ink headline, gold rule.
+    White-on-black cards looked like an error screen (test, 2026-10-16)."""
+    from brand import CREAM, INK, GOLD, MUTED, font as bfont
+    bg = Image.new("RGB", (WIDTH, HEIGHT), CREAM)
+    d = ImageDraw.Draw(bg)
+    x0 = 90
+    d.rectangle([(x0, SAFE_TOP + 70), (x0 + 22, SAFE_TOP + 92)], fill=GOLD)
+    d.text((x0 + 40, SAFE_TOP + 64), "GOLDEN HOME PROJECT", font=bfont(30), fill=MUTED)
+    d.text((x0, HEIGHT - SAFE_BOTTOM - 10), "@golden_home_project", font=bfont(32), fill=GOLD)
+    bg.save(bg_out)
+    layer = Image.new("RGBA", (WIDTH, HEIGHT), (0, 0, 0, 0))
+    t = ImageDraw.Draw(layer)
+    text = (on_text or "").strip()
+    for size in range(124 if accent else 104, 50, -6):
+        f = bfont(size)
+        words, lines, cur = text.split(), [], ""
+        for w in words:
+            trial = f"{cur} {w}".strip()
+            if f.getlength(trial) <= WIDTH - 2 * x0:
+                cur = trial
+            else:
+                lines.append(cur); cur = w
+        if cur:
+            lines.append(cur)
+        if len(lines) <= 5:
+            break
+    lh = int(size * 1.12)
+    y = int(HEIGHT * 0.5) - (lh * len(lines)) // 2
+    for ln in lines:
+        t.text((x0, y), ln, font=f, fill=INK + (255,))
+        y += lh
+    t.rectangle([(x0, y + 30), (x0 + 140, y + 42)], fill=GOLD + (255,))
+    layer.save(text_out)
+
+
+def kinetic_card_scene(on_text: str, accent: bool, duration: float, out_path: Path,
+                       work_dir: Path):
+    """Brand card with the headline fading and rising into place."""
+    bg = work_dir / f"{out_path.stem}-cardbg.png"
+    ov = work_dir / f"{out_path.stem}-text.png"
+    _card_layers(on_text, accent, bg, ov)
+    fc = (f"[1:v]format=rgba,fade=t=in:st=0:d=0.5:alpha=1[t];"
+          f"[0:v][t]overlay=x=0:y='max(0,60-120*t)',format=yuv420p")
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-loop", "1", "-t", f"{duration}",
+                    "-i", str(bg), "-loop", "1", "-t", f"{duration}", "-i", str(ov),
+                    "-filter_complex", fc, "-t", f"{duration}", "-r", "30", "-c:v", "libx264",
+                    "-preset", "medium", "-crf", "21", str(out_path)], check=True)
 
 
 def pick_music_bed(script: dict) -> Path | None:
@@ -831,17 +994,16 @@ def produce_reel(script_path: Path) -> Path | None:
         clip_path = work_dir / f"clip_{n:02d}.mp4"
 
         print(f"    scene {n}: {visual[:60]}")
-        if not visual or not fetch_scene_bg(visual, bg_path, product_hint, pick=i,
-                                          hero=(i == 0 or i == len(scenes) - 1)):
-            fallback_bg(bg_path)
-
-        compose_scene_frame(bg_path, on_text, frame_path, accent=(n == 1))
-        # Vary the camera move per scene AND per reel. Offsetting by the script stem
-        # means two reels made the same day do not open with the same move, and a
-        # single reel never repeats a move across consecutive scenes.
-        motion_offset = sum(ord(c) for c in script_path.stem) % 8
-        ffmpeg_kenburns_scene(frame_path, duration, clip_path,
-                              motion=(motion_offset + i * 3))
+        # Real footage first; a clean animated card if nothing good exists. The old
+        # still-photo + Ken Burns zoom is retired (Ian, 2026-10-16).
+        if i == 0:
+            _SEEN_THIS_REEL.clear()
+            sq = scene_queries(scenes, product_hint)
+        if not (visual and scene_video_clip(visual, product_hint, on_text, n == 1,
+                                            duration, clip_path, work_dir,
+                                            queries=sq.get(n) or sq.get(i + 1))):
+            print("    no clip passed — animated brand card")
+            kinetic_card_scene(on_text, n == 1, duration, clip_path, work_dir)
         scene_clips.append(clip_path)
 
         if vo:
@@ -942,7 +1104,8 @@ def main():
     # We post one reel a day, so a handful of fresh ones per run keeps the poster
     # stocked without ever approaching the cap - and newest-first means the reel that
     # ships is the one built from the most recent trending data.
-    MAX_PER_RUN = 4
+    # 2 (was 4): each reel now screens real video per scene, and we post one a day.
+    MAX_PER_RUN = 2
     candidates = sorted(candidates, reverse=True)[:MAX_PER_RUN]
     if not candidates:
         print(f"[reel-producer] No unrendered scripts in the last "
