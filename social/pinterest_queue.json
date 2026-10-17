@@ -5984,11 +5984,12 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-07-B0D89V1RX1.png",
     "queued_at": "2026-10-07T10:14:52.806006Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
-    "recharted": true
+    "recharted": true,
+    "posted_at": "2026-10-17T13:40:31Z"
   },
   {
     "id": "pin-2026-10-07-B0BNL5MBMY-gift",
