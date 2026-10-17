@@ -6789,5 +6789,43 @@
     "drop_observed_to": null,
     "gift_key": null,
     "recharted": false
+  },
+  {
+    "id": "pin-2026-10-17-B00FZVPWTI",
+    "asin": "B00FZVPWTI",
+    "board": "Home Storage Solutions",
+    "title": "Craft Supply Storage Ideas: 10-Pack Clear Snap-Lid Bead Cases",
+    "description": "IRIS USA's clear case set comes with 10 medium, Made-in-USA boxes with snap-shut lids, built to keep beads, screws, and small craft parts sorted and visible on a shelf or in a drawer. Stackable, clear sides mean no guessing which bin has what you need. Priced at $19.99 for the full set, that works out to about $2 per container. Tap through for full dimensions and compartment details before you buy. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B00FZVPWTI?tag=ghppinterest-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-10-17-B00FZVPWTI.png",
+    "media": "image",
+    "fallback_image_path": null,
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-17-B00FZVPWTI.png",
+    "queued_at": "2026-10-17T10:15:40.147210Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null,
+    "gift_key": null,
+    "overlay_hook": "10 Clear Cases, Craft Chaos Solved",
+    "recharted": true
+  },
+  {
+    "id": "pin-2026-10-17-B0F9PBTX7L",
+    "asin": "B0F9PBTX7L",
+    "board": "Home Organization Finds",
+    "title": "Streak-Free Glass Cleaner Tips: Sprayway Ammonia-Free Foaming Spray, 2-Pack",
+    "description": "Sprayway's foaming aerosol glass cleaner ships as a 19oz, two-can pack for $12.50 \u2014 ammonia-free and built to cut streaks on mirrors, windows, and shower glass. The foam clings to vertical surfaces, giving it time to break down grime before you wipe, a trait reviewers cite most for shower doors. Tap through for current pricing and pack details. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B0F9PBTX7L?tag=ghppinterest-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-10-17-B0F9PBTX7L.png",
+    "media": "image",
+    "fallback_image_path": null,
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-17-B0F9PBTX7L.png",
+    "queued_at": "2026-10-17T10:18:50.775581Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null,
+    "gift_key": null,
+    "overlay_hook": "Ammonia-Free Foam, Streak-Free Glass",
+    "recharted": false
   }
 ]
