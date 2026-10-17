@@ -4995,3 +4995,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** automation/scripts/reel-2026-10-17-*.json, social/post_queue.json
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: mistake: Everyone blames the duvet cover. The problem is wh | constraint: Added a thick topper and now the corners won't sta | scene: You reach for a washcloth and it's still damp.
+
+## 2026-10-17T10:18:52Z — Pinterest Pipeline
+**Ran:** Generated 2 pin(s) for the Pinterest traffic engine
+**Changed:** social/pinterest_queue.json
+**External actions:** Pexels (backgrounds) + Claude CLI (pin copy)
+**Next agent hint:** post_pinterest.py (Pi) drains pinterest_queue.json once a Pinterest business account is logged into the Pi Chromium profile.
