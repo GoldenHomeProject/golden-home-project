@@ -218,9 +218,9 @@ No single point of failure — the flywheel keeps spinning.
 ## LIVE METRICS (update each week)
 | Metric | Value | Last Updated |
 |--------|-------|--------------|
-| YouTube subscribers | 6,660 | 2026-10-16 |
-| YouTube total views | 25,737 | 2026-10-16 |
-| YouTube videos | 239 | 2026-10-16 |
+| YouTube subscribers | 6,660 | 2026-10-17 |
+| YouTube total views | 25,924 | 2026-10-17 |
+| YouTube videos | 240 | 2026-10-17 |
 | YouTube daily poster | ✅ Working (Apr 1: v5m1cnIER4w, Apr 2: YKPHYXP5eqE) | 2026-04-02 |
 | YouTube OAuth token | ✅ Refreshed 2026-04-03 | 2026-04-03 |
 | Instagram followers | 0 | 2026-04-05 |
