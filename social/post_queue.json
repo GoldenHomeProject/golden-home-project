@@ -7795,7 +7795,7 @@
   },
   {
     "name": "reel_repurpose_2026-10-05_905",
-    "status": "ready",
+    "status": "superseded_2026-10-17",
     "script_path": "automation/scripts/reel-2026-10-05-905.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-05-905.mp4",
@@ -7809,11 +7809,12 @@
       "#organizedhome"
     ],
     "hook": "The $46.99 organizer that makes the other four fixes stick",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-05-905.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-05-905.mp4",
+    "superseded_reason": "Ken Burns-style reel; Ian 2026-10-17 stop them"
   },
   {
     "name": "reel_2026-10-06_001",
-    "status": "ready",
+    "status": "superseded_2026-10-17",
     "script_path": "automation/scripts/reel-2026-10-06-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-06-001.mp4",
@@ -7834,11 +7835,12 @@
       "affiliate_url": "https://www.amazon.com/dp/B08616PS69?tag=goldenhomep0a-20"
     },
     "hook": "You wake up with hair static and a cheek crease.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-06-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-06-001.mp4",
+    "superseded_reason": "Ken Burns-style reel; Ian 2026-10-17 stop them"
   },
   {
     "name": "reel_2026-10-06_002",
-    "status": "ready",
+    "status": "superseded_2026-10-17",
     "script_path": "automation/scripts/reel-2026-10-06-002.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-06-002.mp4",
@@ -7859,11 +7861,12 @@
       "affiliate_url": "https://www.amazon.com/dp/B07PMFVC9X?tag=goldenhomep0a-20"
     },
     "hook": "Something spills and it goes straight through your sheets.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-06-002.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-06-002.mp4",
+    "superseded_reason": "Ken Burns-style reel; Ian 2026-10-17 stop them"
   },
   {
     "name": "reel_2026-10-06_003",
-    "status": "ready",
+    "status": "superseded_2026-10-17",
     "script_path": "automation/scripts/reel-2026-10-06-003.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-06-003.mp4",
@@ -7884,7 +7887,8 @@
       "affiliate_url": null
     },
     "hook": "Stop buying thin curtains that let morning light in.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-06-003.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-06-003.mp4",
+    "superseded_reason": "Ken Burns-style reel; Ian 2026-10-17 stop them"
   },
   {
     "id": "carousel-2026-10-06-B00DU5SRIY",
@@ -7904,7 +7908,7 @@
   },
   {
     "name": "reel_2026-10-07_001",
-    "status": "ready",
+    "status": "superseded_2026-10-17",
     "script_path": "automation/scripts/reel-2026-10-07-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-07-001.mp4",
@@ -7925,11 +7929,12 @@
       "affiliate_url": null
     },
     "hook": "If you rent, you can't change the closet. You can only change what's hanging in it.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-07-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-07-001.mp4",
+    "superseded_reason": "Ken Burns-style reel; Ian 2026-10-17 stop them"
   },
   {
     "name": "reel_2026-10-07_002",
-    "status": "ready",
+    "status": "superseded_2026-10-17",
     "script_path": "automation/scripts/reel-2026-10-07-002.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-07-002.mp4",
@@ -7951,11 +7956,12 @@
       "affiliate_url": null
     },
     "hook": "Watch the back basket slide right out to you.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-07-002.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-07-002.mp4",
+    "superseded_reason": "Ken Burns-style reel; Ian 2026-10-17 stop them"
   },
   {
     "name": "reel_2026-10-07_003",
-    "status": "ready",
+    "status": "superseded_2026-10-17",
     "script_path": "automation/scripts/reel-2026-10-07-003.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-07-003.mp4",
@@ -7976,7 +7982,8 @@
       "affiliate_url": null
     },
     "hook": "Your throw pillows look flat for one dumb reason.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-07-003.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-07-003.mp4",
+    "superseded_reason": "Ken Burns-style reel; Ian 2026-10-17 stop them"
   },
   {
     "id": "carousel-2026-10-07-B0108XRHJU",
@@ -7996,7 +8003,7 @@
   },
   {
     "name": "reel_2026-10-08_001",
-    "status": "ready",
+    "status": "superseded_2026-10-17",
     "script_path": "automation/scripts/reel-2026-10-08-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-08-001.mp4",
@@ -8017,11 +8024,12 @@
       "affiliate_url": "https://www.amazon.com/dp/B073H8STZ7?tag=goldenhomep0a-20"
     },
     "hook": "Why does a blanket this light still feel warm?",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-08-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-08-001.mp4",
+    "superseded_reason": "Ken Burns-style reel; Ian 2026-10-17 stop them"
   },
   {
     "name": "reel_2026-10-08_002",
-    "status": "ready",
+    "status": "superseded_2026-10-17",
     "script_path": "automation/scripts/reel-2026-10-08-002.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-08-002.mp4",
@@ -8042,11 +8050,12 @@
       "affiliate_url": "https://www.amazon.com/dp/B0108XRHJU?tag=goldenhomep0a-20"
     },
     "hook": "Everyone sprays air freshener after. That's already too late.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-08-002.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-08-002.mp4",
+    "superseded_reason": "Ken Burns-style reel; Ian 2026-10-17 stop them"
   },
   {
     "name": "reel_2026-10-09_001",
-    "status": "ready",
+    "status": "superseded_2026-10-17",
     "script_path": "automation/scripts/reel-2026-10-09-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-09-001.mp4",
@@ -8067,11 +8076,12 @@
       "affiliate_url": null
     },
     "hook": "If you rent, you can't change the closet. You can only change what's hanging in it.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-09-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-09-001.mp4",
+    "superseded_reason": "Ken Burns-style reel; Ian 2026-10-17 stop them"
   },
   {
     "name": "reel_2026-10-09_002",
-    "status": "ready",
+    "status": "superseded_2026-10-17",
     "script_path": "automation/scripts/reel-2026-10-09-002.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-09-002.mp4",
@@ -8092,11 +8102,12 @@
       "affiliate_url": "https://www.amazon.com/dp/B07PMFVC9X?tag=goldenhomep0a-20"
     },
     "hook": "Something spills and it goes straight through your sheets.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-09-002.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-09-002.mp4",
+    "superseded_reason": "Ken Burns-style reel; Ian 2026-10-17 stop them"
   },
   {
     "name": "reel_2026-10-09_003",
-    "status": "ready",
+    "status": "superseded_2026-10-17",
     "script_path": "automation/scripts/reel-2026-10-09-003.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-09-003.mp4",
@@ -8117,7 +8128,8 @@
       "affiliate_url": null
     },
     "hook": "Stop stuffing pillow covers with the wrong size insert.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-09-003.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-09-003.mp4",
+    "superseded_reason": "Ken Burns-style reel; Ian 2026-10-17 stop them"
   },
   {
     "id": "carousel-2026-10-09-B073H8STZ7",
@@ -8137,7 +8149,7 @@
   },
   {
     "name": "reel_2026-10-10_001",
-    "status": "ready",
+    "status": "superseded_2026-10-17",
     "script_path": "automation/scripts/reel-2026-10-10-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-10-001.mp4",
@@ -8158,11 +8170,12 @@
       "affiliate_url": "https://www.amazon.com/dp/B07236M4HC?tag=goldenhomep0a-20"
     },
     "hook": "Your shower curtain keeps clinging to your leg mid-shower.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-10-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-10-001.mp4",
+    "superseded_reason": "Ken Burns-style reel; Ian 2026-10-17 stop them"
   },
   {
     "name": "reel_2026-10-11_001",
-    "status": "ready",
+    "status": "superseded_2026-10-17",
     "script_path": "automation/scripts/reel-2026-10-11-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-11-001.mp4",
@@ -8183,11 +8196,12 @@
       "affiliate_url": "https://www.amazon.com/dp/B077RPXSF3?tag=goldenhomep0a-20"
     },
     "hook": "Headlights sweep across your ceiling at two in the morning.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-11-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-11-001.mp4",
+    "superseded_reason": "Ken Burns-style reel; Ian 2026-10-17 stop them"
   },
   {
     "name": "reel_2026-10-12_001",
-    "status": "ready",
+    "status": "superseded_2026-10-17",
     "script_path": "automation/scripts/reel-2026-10-12-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-12-001.mp4",
@@ -8208,11 +8222,12 @@
       "affiliate_url": "https://www.amazon.com/dp/B08DTH86Q2?tag=goldenhomep0a-20"
     },
     "hook": "Your pillow at home never feels like a hotel's.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-12-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-12-001.mp4",
+    "superseded_reason": "Ken Burns-style reel; Ian 2026-10-17 stop them"
   },
   {
     "name": "reel_2026-10-12_002",
-    "status": "ready",
+    "status": "superseded_2026-10-17",
     "script_path": "automation/scripts/reel-2026-10-12-002.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-12-002.mp4",
@@ -8233,7 +8248,8 @@
       "affiliate_url": null
     },
     "hook": "Stop stuffing a thin comforter inside your duvet cover.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-12-002.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-12-002.mp4",
+    "superseded_reason": "Ken Burns-style reel; Ian 2026-10-17 stop them"
   },
   {
     "id": "carousel-2026-10-12-B077RPXSF3",
@@ -8253,7 +8269,7 @@
   },
   {
     "name": "reel_repurpose_2026-10-12_901",
-    "status": "ready",
+    "status": "superseded_2026-10-17",
     "script_path": "automation/scripts/reel-2026-10-12-901.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-12-901.mp4",
@@ -8268,11 +8284,12 @@
       "#homeupgradehacks"
     ],
     "hook": "A $29.94 showerhead fixed my weak pressure in 5 minutes",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-12-901.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-12-901.mp4",
+    "superseded_reason": "Ken Burns-style reel; Ian 2026-10-17 stop them"
   },
   {
     "name": "reel_repurpose_2026-10-12_902",
-    "status": "ready",
+    "status": "superseded_2026-10-17",
     "script_path": "automation/scripts/reel-2026-10-12-902.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-12-902.mp4",
@@ -8286,11 +8303,12 @@
       "#amazonmusthaves"
     ],
     "hook": "Weak shower pressure? $29.94 fixes scale buildup, not plumbing.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-12-902.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-12-902.mp4",
+    "superseded_reason": "Ken Burns-style reel; Ian 2026-10-17 stop them"
   },
   {
     "name": "reel_repurpose_2026-10-12_903",
-    "status": "ready",
+    "status": "superseded_2026-10-17",
     "script_path": "automation/scripts/reel-2026-10-12-903.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-12-903.mp4",
@@ -8304,7 +8322,8 @@
       "#rentallife"
     ],
     "hook": "Renters: this $29.94 fix reverses in 5 minutes",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-12-903.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-12-903.mp4",
+    "superseded_reason": "Ken Burns-style reel; Ian 2026-10-17 stop them"
   },
   {
     "name": "reel_repurpose_2026-10-12_904",
@@ -8325,7 +8344,7 @@
   },
   {
     "name": "reel_repurpose_2026-10-12_905",
-    "status": "ready",
+    "status": "superseded_2026-10-17",
     "script_path": "automation/scripts/reel-2026-10-12-905.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-12-905.mp4",
@@ -8339,11 +8358,12 @@
       "#honestreview"
     ],
     "hook": "50,191 reviews, $29.94 price \u2014 here's what convinced me",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-12-905.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-12-905.mp4",
+    "superseded_reason": "Ken Burns-style reel; Ian 2026-10-17 stop them"
   },
   {
     "name": "reel_2026-10-13_001",
-    "status": "ready",
+    "status": "superseded_2026-10-17",
     "script_path": "automation/scripts/reel-2026-10-13-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-13-001.mp4",
@@ -8364,11 +8384,12 @@
       "affiliate_url": null
     },
     "hook": "A cup of flour isn't a measurement. It's a guess with a lid on it.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-13-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-13-001.mp4",
+    "superseded_reason": "Ken Burns-style reel; Ian 2026-10-17 stop them"
   },
   {
     "name": "reel_2026-10-13_002",
-    "status": "ready",
+    "status": "superseded_2026-10-17",
     "script_path": "automation/scripts/reel-2026-10-13-002.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-13-002.mp4",
@@ -8389,11 +8410,12 @@
       "affiliate_url": null
     },
     "hook": "If you rent, you can't change the closet. You can only change what's hanging in it.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-13-002.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-13-002.mp4",
+    "superseded_reason": "Ken Burns-style reel; Ian 2026-10-17 stop them"
   },
   {
     "name": "reel_2026-10-13_003",
-    "status": "ready",
+    "status": "superseded_2026-10-17",
     "script_path": "automation/scripts/reel-2026-10-13-003.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-13-003.mp4",
@@ -8414,11 +8436,12 @@
       "affiliate_url": "https://www.amazon.com/dp/B077RPXSF3?tag=goldenhomep0a-20"
     },
     "hook": "Headlights sweep across your ceiling at two in the morning.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-13-003.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-13-003.mp4",
+    "superseded_reason": "Ken Burns-style reel; Ian 2026-10-17 stop them"
   },
   {
     "name": "reel_2026-10-14_001",
-    "status": "ready",
+    "status": "superseded_2026-10-17",
     "script_path": "automation/scripts/reel-2026-10-14-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-14-001.mp4",
@@ -8439,11 +8462,12 @@
       "affiliate_url": null
     },
     "hook": "Stop buying a new mattress after one spill.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-14-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-14-001.mp4",
+    "superseded_reason": "Ken Burns-style reel; Ian 2026-10-17 stop them"
   },
   {
     "name": "reel_2026-10-14_002",
-    "status": "ready",
+    "status": "superseded_2026-10-17",
     "script_path": "automation/scripts/reel-2026-10-14-002.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-14-002.mp4",
@@ -8464,11 +8488,12 @@
       "affiliate_url": "https://www.amazon.com/dp/B00U6HREPQ?tag=goldenhomep0a-20"
     },
     "hook": "Stop replacing a mattress over one spill.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-14-002.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-14-002.mp4",
+    "superseded_reason": "Ken Burns-style reel; Ian 2026-10-17 stop them"
   },
   {
     "name": "reel_2026-10-14_003",
-    "status": "ready",
+    "status": "superseded_2026-10-17",
     "script_path": "automation/scripts/reel-2026-10-14-003.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-14-003.mp4",
@@ -8489,11 +8514,12 @@
       "affiliate_url": null
     },
     "hook": "Everyone blames the duvet cover. The problem is what's inside it.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-14-003.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-14-003.mp4",
+    "superseded_reason": "Ken Burns-style reel; Ian 2026-10-17 stop them"
   },
   {
     "name": "reel_2026-10-15_001",
-    "status": "ready",
+    "status": "superseded_2026-10-17",
     "script_path": "automation/scripts/reel-2026-10-15-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-15-001.mp4",
@@ -8514,7 +8540,8 @@
       "affiliate_url": null
     },
     "hook": "You reach for a washcloth and it's still damp.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-15-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-15-001.mp4",
+    "superseded_reason": "Ken Burns-style reel; Ian 2026-10-17 stop them"
   },
   {
     "id": "carousel-2026-10-15-B010S5VXKC",
@@ -8534,7 +8561,7 @@
   },
   {
     "name": "reel_2026-10-16_001",
-    "status": "ready",
+    "status": "superseded_2026-10-17",
     "script_path": "automation/scripts/reel-2026-10-16-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-16-001.mp4",
@@ -8555,11 +8582,12 @@
       "affiliate_url": null
     },
     "hook": "Stop buying a new mattress after one spill.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-16-001.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-16-001.mp4",
+    "superseded_reason": "Ken Burns-style reel; Ian 2026-10-17 stop them"
   },
   {
     "name": "reel_2026-10-16_002",
-    "status": "ready",
+    "status": "superseded_2026-10-17",
     "script_path": "automation/scripts/reel-2026-10-16-002.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-16-002.mp4",
@@ -8581,11 +8609,12 @@
       "affiliate_url": null
     },
     "hook": "Watch the back basket slide right out to you.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-16-002.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-16-002.mp4",
+    "superseded_reason": "Ken Burns-style reel; Ian 2026-10-17 stop them"
   },
   {
     "name": "reel_2026-10-16_003",
-    "status": "ready",
+    "status": "superseded_2026-10-17",
     "script_path": "automation/scripts/reel-2026-10-16-003.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-16-003.mp4",
@@ -8606,6 +8635,7 @@
       "affiliate_url": null
     },
     "hook": "The sun wakes you up before your alarm does.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-16-003.mp4"
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-16-003.mp4",
+    "superseded_reason": "Ken Burns-style reel; Ian 2026-10-17 stop them"
   }
 ]
