@@ -6674,11 +6674,12 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-14-B01M7TTA2S-gift.png",
     "queued_at": "2026-10-14T10:12:57.944469Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": "bath & body works 3-wick candle, mahogan",
-    "recharted": false
+    "recharted": false,
+    "posted_at": "2026-10-17T01:16:29Z"
   },
   {
     "id": "pin-2026-10-14-B0D1VMHS4R-gift",
