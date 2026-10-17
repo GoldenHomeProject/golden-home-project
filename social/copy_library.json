@@ -3950,6 +3950,52 @@
           }
         ]
       }
+    ],
+    "WASHCLOTHS": [
+      {
+        "hook_category": "confrontation",
+        "hook": "That sour smell on your washcloth isn't soap",
+        "beat1": "Washcloths get folded and stacked while they're still damp, so the layers never fully dry between uses. In a humid bathroom that trapped moisture sits there for hours, and that's what starts to smell, not anything wrong with your soap or your skin.",
+        "turn": "Amazon Basics Fast Drying Cotton Washcloths are made to dry faster than a regular folded stack, so they don't sit damp between uses. They're rated 4.6 stars from about seventy-six thousand people who've bought them.",
+        "result": "A washcloth that's actually dry by the next time you reach for it, for about $14.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close-up of a hand lifting a slightly damp folded washcloth off a bathroom shelf, steam faintly visible on a nearby mirror",
+            "on_screen_text": "That smell isn't soap",
+            "voiceover": "That sour smell on your washcloth isn't soap."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Stack of folded washcloths on an open bathroom shelf next to a foggy tile wall, condensation visible",
+            "on_screen_text": "Folded damp, stays damp",
+            "voiceover": "Washcloths get folded and stacked while they're still damp, so the layers never fully dry between uses. In a humid bathroom that moisture just sits there for hours."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Hand draping a single cotton washcloth flat over a towel bar to air out, bathroom light coming through a window",
+            "on_screen_text": "Made to dry faster",
+            "voiceover": "Amazon Basics Fast Drying Cotton Washcloths are made to dry faster than a regular folded stack, so they're not sitting damp when you need them."
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "Hand running fingers over a neat stack of folded cotton washcloths inside a bathroom cabinet",
+            "on_screen_text": "Rated 4.6 stars",
+            "voiceover": "About seventy-six thousand people have rated them 4.6 stars."
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "Hand pulling one fresh washcloth from a tidy stack and holding it up near a sink",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "A washcloth that's actually dry the next time you reach for it, for about fourteen dollars. Comment {KEYWORD} and I'll send the link."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
