@@ -8664,10 +8664,10 @@
   },
   {
     "name": "reel_2026-10-17_002",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-17-002.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-17-002.mp4",
     "caption": "Added a thick topper and now the corners won't stay?\n\nTwin beds with a topper or a thicker mattress get deep fast, and most fitted sheets and protectors are cut for a standard mattress. The corner rides up within a night or two, and whatever spills happens goes straight through to the mattress underneath.\n\nThis protector is waterproof and cut with a deep pocket that stretches to fit up to fifteen inches, so it stays seated over a topper instead of slipping off the corner. Over a hundred thousand people rate it 4.5 stars.\n\nFewer stripped beds, fewer stained mattresses, for about $13.\n\nComment UPTO and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -8684,14 +8684,15 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "Added a thick topper and now the corners won't stay?"
+    "hook": "Added a thick topper and now the corners won't stay?",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-17-002.mp4"
   },
   {
     "name": "reel_2026-10-17_003",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-17-003.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-17-003.mp4",
     "caption": "You reach for a washcloth and it's still damp.\n\nThick cotton holds water, and a steamy bathroom with no real airflow keeps a washcloth from drying out between showers. It sits folded on the rod, cool and heavy, until the next person grabs it anyway.\n\nThese are cotton washcloths made to dry fast, so the one on your hook is actually ready by the next shower instead of still damp. Over seventy-five thousand ratings sit at 4.6 stars.\n\nA washcloth that's dry and ready every time you reach for it, for about $14.\n\nComment FAST and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -8708,22 +8709,7 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "You reach for a washcloth and it's still damp."
-  },
-  {
-    "id": "carousel-2026-10-17-B00BAGTNAQ",
-    "media_type": "CAROUSEL_ALBUM",
-    "image_urls": [
-      "https://goldenhomeproject.com/social/carousels/2026-10-17-B00BAGTNAQ/slide-1.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-17-B00BAGTNAQ/slide-2.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-17-B00BAGTNAQ/slide-3.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-17-B00BAGTNAQ/slide-4.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-17-B00BAGTNAQ/slide-5.png"
-    ],
-    "caption": "The couch cushion you flip before guests sit down.\n\nPet hair buried in upholstery, car seats, and throw blankets doesn't lift with a vacuum \u2014 it needs a roller with bristles that grab the strand itself, not a sticky sheet that runs out after one pass.\n\nSave this for later so it's ready for the next cleanup round. Comment ROLLER or DM me ROLLER for the link.\n\n#homeorganizing #petfriendlyhome #cleaninghacks #organizedhome #petshedding",
-    "asin": "B00BAGTNAQ",
-    "keyword": "ROLLER",
-    "queued_at": "2026-10-17T11:18:22.325702Z",
-    "source": "carousel_generator"
+    "hook": "You reach for a washcloth and it's still damp.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-17-003.mp4"
   }
 ]
