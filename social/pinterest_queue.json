@@ -6731,11 +6731,12 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-14-B0F6LM95F2.png",
     "queued_at": "2026-10-14T10:16:42.590787Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
-    "recharted": false
+    "recharted": false,
+    "posted_at": "2026-10-17T13:41:32Z"
   },
   {
     "id": "pin-2026-10-14-B0DPMS4MWR",
