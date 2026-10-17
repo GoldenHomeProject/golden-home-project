@@ -8637,5 +8637,77 @@
     "hook": "The sun wakes you up before your alarm does.",
     "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-16-003.mp4",
     "superseded_reason": "Ken Burns-style reel; Ian 2026-10-17 stop them"
+  },
+  {
+    "name": "reel_2026-10-17_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-17-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Everyone blames the duvet cover. The problem is what's inside it.\n\nA duvet cover can look flat and empty no matter how nice it is if what's stuffed inside doesn't fill it out. Thin or clumped fill leaves the corners sagging and the middle looking deflated. That gap between cover and insert is usually the real issue.\n\nThe Bedsure Comforter Duvet Insert is made to fill a duvet cover edge to edge so the corners actually hold their shape. Close to eighty thousand people have rated it 4.7 stars.\n\nThe bed goes from flat and lumpy to full and even, for about $35.\n\nComment DUVET and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Bedsure Comforter Duvet Insert",
+      "dm_keyword": "DUVET",
+      "amazon_asin": "B07YKLSMFM",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B07YKLSMFM?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Everyone blames the duvet cover. The problem is what's inside it."
+  },
+  {
+    "name": "reel_2026-10-17_002",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-17-002.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Added a thick topper and now the corners won't stay?\n\nTwin beds with a topper or a thicker mattress get deep fast, and most fitted sheets and protectors are cut for a standard mattress. The corner rides up within a night or two, and whatever spills happens goes straight through to the mattress underneath.\n\nThis protector is waterproof and cut with a deep pocket that stretches to fit up to fifteen inches, so it stays seated over a topper instead of slipping off the corner. Over a hundred thousand people rate it 4.5 stars.\n\nFewer stripped beds, fewer stained mattresses, for about $13.\n\nComment UPTO and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Waterproof Twin Size Mattress Protector fits Upto 15\" Deep Pocket",
+      "dm_keyword": "UPTO",
+      "amazon_asin": "B00MRH9NCK",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B00MRH9NCK?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Added a thick topper and now the corners won't stay?"
+  },
+  {
+    "name": "reel_2026-10-17_003",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-17-003.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "You reach for a washcloth and it's still damp.\n\nThick cotton holds water, and a steamy bathroom with no real airflow keeps a washcloth from drying out between showers. It sits folded on the rod, cool and heavy, until the next person grabs it anyway.\n\nThese are cotton washcloths made to dry fast, so the one on your hook is actually ready by the next shower instead of still damp. Over seventy-five thousand ratings sit at 4.6 stars.\n\nA washcloth that's dry and ready every time you reach for it, for about $14.\n\nComment FAST and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Amazon Basics Fast Drying Cotton Washcloths for Bathroom",
+      "dm_keyword": "FAST",
+      "amazon_asin": "B010S5VXKC",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B010S5VXKC?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "You reach for a washcloth and it's still damp."
   }
 ]

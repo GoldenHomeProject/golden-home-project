@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-10-17T09:53:17.334194Z",
+  "date": "2026-10-17",
+  "seq": 2,
+  "hook_category": "constraint",
+  "hook": "Added a thick topper and now the corners won't stay?",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of hands tucking a fitted sheet corner over a thick twin mattress with a visible foam topper, the corner slipping loose",
+      "on_screen_text": "The corner that never fits",
+      "voiceover": "Added a thick topper and now the corners won't stay?"
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Hands stretching a thin sheet corner over a tall mattress edge, fabric popping off the corner of a twin bed",
+      "on_screen_text": "Regular sheets aren't cut this deep",
+      "voiceover": "Once a twin mattress gets a topper on it, most protectors are just too shallow. The corner rides up in a night or two, and whatever spills happens goes right through."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Hands pulling a fitted waterproof mattress cover down snug over the deep corner of a topped twin mattress",
+      "on_screen_text": "Stretches to fit the depth",
+      "voiceover": "This one's waterproof and cut with a deep pocket that stretches to fit up to fifteen inches, so it actually stays down over the topper."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Overhead photo of a made twin bed corner, protector fully seated smooth under the sheet in soft morning bedroom light",
+      "on_screen_text": "Over 100k rate it 4.5 stars",
+      "voiceover": "Over a hundred thousand people have it on their own twin beds and rate it four point five stars."
+    },
+    {
+      "n": 5,
+      "duration_sec": 5,
+      "visual_prompt": "Hand smoothing a comforter over a neatly made twin bed, corner sitting flat and tidy",
+      "on_screen_text": "Comment UPTO for the link",
+      "voiceover": "That's fewer stripped beds and stained mattresses, for about thirteen dollars. Comment UPTO and I'll send the link."
+    }
+  ],
+  "caption": "Added a thick topper and now the corners won't stay?\n\nTwin beds with a topper or a thicker mattress get deep fast, and most fitted sheets and protectors are cut for a standard mattress. The corner rides up within a night or two, and whatever spills happens goes straight through to the mattress underneath.\n\nThis protector is waterproof and cut with a deep pocket that stretches to fit up to fifteen inches, so it stays seated over a topper instead of slipping off the corner. Over a hundred thousand people rate it 4.5 stars.\n\nFewer stripped beds, fewer stained mattresses, for about $13.\n\nComment UPTO and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "This protector is waterproof and cut with a deep pocket that stretches to fit up to fifteen inches, so it stays seated over a topper instead of slipping off the corner. Over a hundred thousand people ",
+  "affiliate_strategy": {
+    "primary_product": "Waterproof Twin Size Mattress Protector fits Upto 15\" Deep Pocket",
+    "dm_keyword": "UPTO",
+    "amazon_asin": "B00MRH9NCK",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B00MRH9NCK?tag=goldenhomep0a-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": null
+  }
+}
