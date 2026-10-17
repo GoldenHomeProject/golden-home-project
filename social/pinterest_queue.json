@@ -6229,11 +6229,12 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-09-B0DGYQPDS3-gift.png",
     "queued_at": "2026-10-09T10:16:57.367700Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": "kitsch x harry potter microfiber hair to",
-    "recharted": false
+    "recharted": false,
+    "posted_at": "2026-10-17T01:15:25Z"
   },
   {
     "id": "pin-2026-10-10-B0FFGNQH3H-gift",
