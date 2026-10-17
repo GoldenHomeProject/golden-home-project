@@ -83,3 +83,29 @@ def font(size: int, bold: bool = True):
 
 def hex_of(rgb: tuple) -> str:
     return "#%02X%02X%02X" % rgb
+
+
+# ---------------------------------------------------------------- prices
+# Never print an exact price on a static asset. A pin saying "$32.83" is wrong the day the
+# price moves, and Amazon Associates policy only allows displayed prices that are kept
+# current (raised by the marketing department, 2026-10-17). A band stays true.
+import math as _math
+import re as _re
+
+
+def price_band(price) -> str:
+    """'$24.99' -> 'Under $25', '$13.31' -> 'Under $15'. Unparseable -> ''."""
+    m = _re.search(r"\d+(?:\.\d+)?", str(price or "").replace(",", ""))
+    if not m:
+        return ""
+    v = float(m.group())
+    step = 5 if v < 100 else 25
+    top = int(_math.ceil((v + 0.001) / step) * step)
+    return f"Under ${top}"
+
+
+def scrub_prices(text: str) -> str:
+    """Replace every exact '$12.34' in copy with its band ('under $15')."""
+    # Only EXACT prices (with cents). "Under $25" is already a band and must survive.
+    return _re.sub(r"\$\s?\d[\d,]*\.\d{2}\b",
+                   lambda m: price_band(m.group()).replace("Under", "under"), str(text or ""))

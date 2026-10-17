@@ -33,7 +33,7 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageEnhance
 
 from brand import (PIN_W, PIN_H, GOLD, CREAM, INK, GREY, MUTED, WHITE,  # noqa: F401
-                   PLACEHOLDER, MARGIN, TYPE, BAND, RADIUS, font as _font)
+                   PLACEHOLDER, MARGIN, TYPE, BAND, RADIUS, price_band, font as _font)
 from collage_pin import _fit_lines, _cover, _rounded
 
 # The header band is MEASURED, not fixed. A fixed 34% left ~300px of empty cream under
@@ -116,6 +116,7 @@ def render_product_pin(headline: str, product_name: str, price: str,
         canvas.paste(rounded, (MARGIN, card_top), rounded)
 
     # price chip, bottom-left of the photo
+    price = price_band(price) if price else price   # bands, never exact prices
     if price:
         pf = _font(TYPE["price"])
         tw = pf.getlength(price)

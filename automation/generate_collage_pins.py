@@ -149,6 +149,13 @@ def main() -> int:
             cells.append({"image": img if img.exists() else None,
                           "price": str(p.get("price") or "")})
 
+        # A collage with an empty cell ships as grey boxes with price chips (2026-10-17,
+        # "best storage bins": all four cells blank). Never publish that — skip the hub today.
+        missing = sum(1 for c in cells if c["image"] is None)
+        if missing:
+            print(f"  [skip] {slug}: {missing} of {len(cells)} cells have no usable image")
+            continue
+
         prices = [v for v in (_price_val(p.get("price")) for p in picks) if v]
         headline = headline_for(slug, len(picks), max(prices) if prices else None)
         kicker = HUB_HEADLINES.get(slug, ("", "home"))[1]
@@ -175,6 +182,21 @@ def main() -> int:
         print(f"    wrote {out.name} -> {slug}")
 
     QUEUE_PATH.write_text(json.dumps(queue, indent=1))
+    # Commit + push NOW. This job writes the queue at 06:20 and the 06:30 daily-loop does
+    # `git reset --hard origin/main`, which silently erased the entry: only 2 of ~35
+    # collages built since 2026-09-12 ever reached Pinterest (found 2026-10-17).
+    # pinterest_pipeline.py has always pushed immediately for exactly this reason.
+    if made:
+        import subprocess
+        def _git(*a):
+            return subprocess.run(["git", "-C", str(ROOT), *a], capture_output=True, text=True)
+        _git("add", str(QUEUE_PATH), *[str(PINS_DIR / f"{p['id']}.png") for p in queue[-made:]
+                                        if p.get("format") == "collage"])
+        _git("-c", "user.name=GHP Ops", "-c", "user.email=goldenhomeprojectllc@gmail.com",
+             "commit", "-q", "-m", f"collage: {made} pin(s) {datetime.now(timezone.utc):%Y-%m-%d}")
+        _git("-c", "rebase.autoStash=true", "pull", "--rebase", "-q", "origin", "main")
+        r = _git("push", "-q", "origin", "main")
+        print("[collage] queue pushed" if r.returncode == 0 else f"[collage] push failed: {r.stderr[:200]}")
     print(f"[collage] built {made} collage pin(s); queue now {len(queue)}")
     return 0
 

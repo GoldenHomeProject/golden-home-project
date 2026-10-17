@@ -34,7 +34,7 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageEnhance, ImageFont
 
 from brand import (PIN_W, PIN_H, GOLD, CREAM, INK, GREY, MUTED, WHITE,  # noqa: F401
-                   PLACEHOLDER, MARGIN, TYPE, BAND, RADIUS, font as _font)  # noqa: F401
+                   PLACEHOLDER, MARGIN, TYPE, BAND, RADIUS, price_band, font as _font)  # noqa: F401
 
 # Band heights come from the shared scale so the collage and the single-product pin
 # cannot drift apart. See brand.py — these were duplicated constants until 2026-09-22.
@@ -141,7 +141,7 @@ def build_collage_pin(headline: str, subline: str, cells: list, out_path: Path,
         draw.rectangle([(cx, cy), (cx + 62, cy + 58)], fill=GOLD)
         draw.text((cx + 31 - nf.getlength(label) / 2, cy + 12), label, font=nf, fill=INK)
 
-        price = str(cell.get("price") or "").strip()
+        price = price_band(cell.get("price"))   # band, never an exact price
         if price:
             tw = chip_f.getlength(price)
             bx, by = cx + 16, cy + ch - 58

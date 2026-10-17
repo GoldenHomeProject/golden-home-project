@@ -17,7 +17,7 @@ from PIL import Image, ImageDraw
 
 sys.path.insert(0, str(Path(__file__).parent))
 from brand import (PIN_W, PIN_H, GOLD, CREAM, INK, MUTED, WHITE, MARGIN, TYPE,  # noqa: E402
-                   font as _font)
+                   price_band, font as _font)
 
 
 def _wrap(draw, text, f, max_w):
@@ -98,6 +98,7 @@ def render_howto(headline: str, kicker: str, steps: list[str], callout: str, pri
     for ln in cl:
         d.text((x0, ty), ln, font=_font(40), fill=CREAM)
         ty += 50
+    price = price_band(price) if price else price   # bands, never exact prices
     if price:
         pf = _font(TYPE["price"])
         tw = d.textlength(price, font=pf)

@@ -42,6 +42,7 @@ except ImportError:
 
 sys.path.insert(0, str(Path(__file__).parent))
 from affiliate_links import build_affiliate_url  # noqa: E402
+from brand import price_band, scrub_prices  # noqa: E402
 from agent_log import append_log_entry  # noqa: E402
 
 PEXELS_API_KEY = os.environ.get("PEXELS_API_KEY", "").strip()
@@ -486,7 +487,8 @@ def _drop_title(title: str, drop: dict | None) -> str:
     """Front-load a REAL, observed price drop. Never invent or round it up."""
     if not drop:
         return title
-    prefix = f"Price drop ${drop['was']:.2f} -> ${drop['now']:.2f}: "
+    # Exact prices go stale and Associates only allows current ones; say it in a band.
+    prefix = f"Price drop, now {price_band(drop['now']).lower()}: "
     # Budget what is left of the ~100 char line and trim the subject on a WORD
     # boundary. Without this the prefix pushed real titles past the limit and they
     # were sliced mid-word: "...Cooling Silk-Like Pillow Covers with En" and
@@ -497,8 +499,8 @@ def _drop_title(title: str, drop: dict | None) -> str:
 def _drop_desc(desc: str, drop: dict | None) -> str:
     if not drop:
         return desc
-    note = (f"Tracked daily: this was ${drop['was']:.2f} on {drop['observed_from']} and "
-            f"${drop['now']:.2f} on {drop['observed_to']} ({drop['pct']:.0f}% lower). "
+    # No exact prices in copy (they go stale; Associates requires current prices).
+    note = (f"Tracked daily: about {drop['pct']:.0f}% lower than on {drop['observed_from']}. "
             f"Amazon prices move, so check the live listing. ")
     return note + desc
 
@@ -1250,8 +1252,8 @@ def main() -> int:
             "id": f"pin-{date_str}-{asin}" + ("-gift" if gift else ""),
             "asin": asin,
             "board": board,
-            "title": _drop_title(copy["title"], DROPS.get(asin))[:100],
-            "description": _drop_desc(copy["description"], DROPS.get(asin))[:500],
+            "title": scrub_prices(_drop_title(copy["title"], DROPS.get(asin)))[:100],
+            "description": scrub_prices(_drop_desc(copy["description"], DROPS.get(asin)))[:500],
             "link": link,
             "image_path": video_rel or rel,
             "media": "video" if video_rel else "image",
