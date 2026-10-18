@@ -6093,6 +6093,22 @@
       "verified_stars": "4.8",
       "verified_reviews": 17848,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0CF3BDBL2",
+      "product_name": "Windex Glass & Window Cleaner Spray Bottle, Original, 23 oz | Streak-Free Shine, Removes Dirt, Smudges & Fingerprints fr",
+      "categories": [
+        "home",
+        "Cleaning"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0CF3BDBL2?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-10-18",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$6.56",
+      "verified_stars": "4.8",
+      "verified_reviews": 16319,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
