@@ -6831,5 +6831,24 @@
     "gift_key": null,
     "overlay_hook": "Ammonia-Free Foam, Streak-Free Glass",
     "recharted": false
+  },
+  {
+    "id": "pin-2026-10-18-B0CF3BDBL2",
+    "asin": "B0CF3BDBL2",
+    "board": "Home Organization Finds",
+    "title": "Streak-Free Window Cleaning Tips: Windex Original Glass Cleaner 23 oz",
+    "description": "Windex Original Glass & Window Cleaner ships in a 23 oz spray bottle formulated for a streak-free shine on windows, mirrors, and glass surfaces, cutting through dirt, smudges, and fingerprints. Priced at under $10, it's a low-cost addition to an organized cleaning caddy or supply closet. Tap through for current pricing and availability before you stock up. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B0CF3BDBL2?tag=ghppinterest-20&ascsubtag=pinterest",
+    "image_path": "social/pinterest/pin-2026-10-18-B0CF3BDBL2.png",
+    "media": "image",
+    "fallback_image_path": null,
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-18-B0CF3BDBL2.png",
+    "queued_at": "2026-10-18T10:15:54.224522Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null,
+    "gift_key": null,
+    "overlay_hook": "Streak-Free Glass, No Residue",
+    "recharted": false
   }
 ]
