@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-10-18",
+  "category": "Home",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-home-organization-products.html",
+  "picks": [
+    {
+      "asin": "B00FXNAAW2",
+      "name": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers",
+      "price": "$18.89",
+      "rating": 4.8,
+      "reviews": 237890,
+      "rank": 1
+    },
+    {
+      "asin": "B08KXKVT4K",
+      "name": "Vtopmart 25 PCS Clear Plastic Drawer Organizers Set",
+      "price": "$18.99",
+      "rating": 4.7,
+      "reviews": 49930,
+      "rank": 10
+    },
+    {
+      "asin": "B079M8FPTW",
+      "name": "Rubbermaid Brilliance Tritan Plastic Food Storage Containers BPA Free",
+      "price": "$32.48",
+      "rating": 4.7,
+      "reviews": 59924,
+      "rank": 17
+    },
+    {
+      "asin": "B09KT67BL1",
+      "name": "HomeHacks 2 Pack Large Laundry Baskets",
+      "price": "$11.98",
+      "rating": 4.5,
+      "reviews": 26810,
+      "rank": 18
+    },
+    {
+      "asin": "B0BFMKYN12",
+      "name": "DDMY Adhesive Wall Hooks Clear 50lb(Max) Heavy Duty Hanging Sticky-10",
+      "price": "$8.99",
+      "rating": 4.5,
+      "reviews": 40373,
+      "rank": 24
+    },
+    {
+      "asin": "B0GYF91BXB",
+      "name": "HOMESURE Supports 200lbs Heavy Duty Moving Bags",
+      "price": "$23.39",
+      "rating": 4.7,
+      "reviews": 9641,
+      "rank": 26
+    }
+  ]
+}
