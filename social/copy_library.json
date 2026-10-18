@@ -3996,6 +3996,52 @@
           }
         ]
       }
+    ],
+    "PACK": [
+      {
+        "hook_category": "scene",
+        "hook": "You run out of clean washcloths halfway through the week.",
+        "beat1": "Most bathrooms only have a handful of washcloths in rotation, so between laundry loads they run out fast. People end up reaching for a towel, a paper towel, or the same damp one two days in a row.",
+        "turn": "This is a twenty-four pack, so one load of laundry keeps every sink and shower stocked for weeks. It's rated 4.6 stars by around seventy-five thousand people, mostly for having enough to actually stop running out.",
+        "result": "Your linen closet stays stocked instead of scraped bare, for about $20.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "A hand opening a bathroom drawer and finding it nearly empty except for one balled-up washcloth",
+            "on_screen_text": "the drawer is always empty",
+            "voiceover": "You run out of clean washcloths halfway through the week."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "A single damp washcloth hanging over the edge of a bathtub, slightly stained",
+            "on_screen_text": "one cloth doing too much work",
+            "voiceover": "Most homes only have a few in rotation, so between laundry loads you're stuck reusing the same damp one."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Hands stacking a tall pile of folded white washcloths onto a linen closet shelf",
+            "on_screen_text": "a stack that actually lasts",
+            "voiceover": "This pack comes with twenty-four, so one load of laundry keeps every sink stocked for weeks."
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "Close-up of a hand running a washcloth under running water at a bathroom sink",
+            "on_screen_text": "about seventy-five thousand reviews",
+            "voiceover": "It's rated 4.6 stars by around seventy-five thousand people, mostly for just having enough on hand."
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "A person pulling a fresh folded washcloth from a neat stack in an organized bathroom closet",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "Your closet stays stocked instead of scraped bare, for about $20. Comment {KEYWORD} and I'll send the link."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
