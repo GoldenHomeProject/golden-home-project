@@ -6804,12 +6804,13 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-17-B00FZVPWTI.png",
     "queued_at": "2026-10-17T10:15:40.147210Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "10 Clear Cases, Craft Chaos Solved",
-    "recharted": true
+    "recharted": true,
+    "posted_at": "2026-10-18T01:15:32Z"
   },
   {
     "id": "pin-2026-10-17-B0F9PBTX7L",
