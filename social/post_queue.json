@@ -8624,10 +8624,10 @@
   },
   {
     "name": "reel_2026-10-17_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-17-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-17-001.mp4",
     "caption": "Everyone blames the duvet cover. The problem is what's inside it.\n\nA duvet cover can look flat and empty no matter how nice it is if what's stuffed inside doesn't fill it out. Thin or clumped fill leaves the corners sagging and the middle looking deflated. That gap between cover and insert is usually the real issue.\n\nThe Bedsure Comforter Duvet Insert is made to fill a duvet cover edge to edge so the corners actually hold their shape. Close to eighty thousand people have rated it 4.7 stars.\n\nThe bed goes from flat and lumpy to full and even, for about $35.\n\nComment DUVET and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -8644,7 +8644,8 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "Everyone blames the duvet cover. The problem is what's inside it."
+    "hook": "Everyone blames the duvet cover. The problem is what's inside it.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-17-001.mp4"
   },
   {
     "name": "reel_2026-10-17_002",
