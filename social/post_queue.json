@@ -8758,10 +8758,10 @@
   },
   {
     "name": "reel_2026-10-19_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-19-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-19-001.mp4",
     "caption": "You run out of clean washcloths halfway through the week.\n\nMost bathrooms only have a handful of washcloths in rotation, so between laundry loads they run out fast. People end up reaching for a towel, a paper towel, or the same damp one two days in a row.\n\nThis is a twenty-four pack, so one load of laundry keeps every sink and shower stocked for weeks. It's rated 4.6 stars by around seventy-five thousand people, mostly for having enough to actually stop running out.\n\nYour linen closet stays stocked instead of scraped bare, for about $20.\n\nComment PACK and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -8778,6 +8778,7 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "You run out of clean washcloths halfway through the week."
+    "hook": "You run out of clean washcloths halfway through the week.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-19-001.mp4"
   }
 ]
