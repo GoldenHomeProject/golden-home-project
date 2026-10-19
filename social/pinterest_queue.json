@@ -7035,11 +7035,12 @@
     "image_url": "https://goldenhomeproject.com/social/pinterest/howto-2026-10-19-B08KXKVT4K.png",
     "link": "https://www.amazon.com/dp/B08KXKVT4K?tag=ghpbrandb-20&ascsubtag=pinterest_howto_brandB",
     "queued_at": "2026-10-19T04:06:31.293567Z",
-    "posted": false,
+    "posted": true,
     "source": "generate_howto_pins",
     "format": "howto",
     "variant": "B",
-    "ab_exclude": "built before arm copy parity (2026-10-19); still posts"
+    "ab_exclude": "built before arm copy parity (2026-10-19); still posts",
+    "posted_at": "2026-10-19T13:41:22Z"
   },
   {
     "id": "pin-2026-10-19-B07TXL7CPQ",
