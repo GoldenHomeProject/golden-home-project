@@ -1,131 +1,126 @@
 {
-  "generated_at": "2026-10-18T09:19:09.834738Z",
-  "date": "2026-10-18",
+  "generated_at": "2026-10-19T10:29:47.365096Z",
+  "date": "2026-10-19",
   "opportunities": [
     {
       "rank": 1,
-      "product_category": "sofa/couch covers",
+      "product_category": "couch/sofa covers",
       "specific_product": "Mamma Mia waterproof stretch sofa cover",
       "brand": "Mamma Mia Covers",
-      "target_price": "$47",
-      "transformation_hook": "Turn a stained, pet-hair couch into a guest-ready sofa for $47 before the holidays",
-      "before_state": "Worn, pet-hair-covered, stained couch that looks embarrassing before hosting family",
-      "after_state": "Tight, wrinkle-free stretch cover in a neutral tone that looks like a brand new sofa",
+      "target_price": "$55",
+      "transformation_hook": "$55 cover turns a pet-hair disaster couch into a brand-new-looking sofa",
+      "before_state": "Couch covered in pet hair, stains, and worn/faded fabric",
+      "after_state": "Smooth, tailored slipcover look with zero pet hair or stains in sight",
       "buyer_intent_keywords": [
         "waterproof couch cover for pets",
-        "stretch sofa cover no slip",
-        "couch cover for dog hair",
-        "pet friendly sofa slipcover",
-        "sofa cover before guests"
+        "stretch sofa slipcover",
+        "pet hair couch protector",
+        "couch cover for dog stains"
       ],
       "scores": {
-        "trend": 8,
+        "trend": 7,
         "transformation": 9,
         "affiliate": 10,
         "intent": 9
       },
-      "composite_score": 36,
-      "why_now": "BHG/HGTV pins are surfacing 'hosting house guests' content right as pre-Thanksgiving entertaining prep kicks in, and Mamma Mia's 24-30% commission plus the pet-hair angle (apttherapy declutter/refresh themes) makes this the highest-leverage pick."
+      "composite_score": 35,
+      "why_now": "Real Simple's pet-odor/carpet-deodorizer pin shows surging demand for pet-mess home fixes, and sofa covers solve the same problem at a much higher commission rate."
     },
     {
       "rank": 2,
-      "product_category": "cabinet hardware",
-      "specific_product": "brushed gold/matte black cabinet pull 25-pack",
+      "product_category": "cabinet refacing paint kit",
+      "specific_product": "Rust-Oleum Cabinet Transformations kit",
       "brand": "Amazon generic",
-      "target_price": "$24",
-      "transformation_hook": "Swap $24 drawer pulls for a full kitchen glow-up without touching the cabinets",
-      "before_state": "Dated, scuffed builder-grade knobs on tired-looking cabinet boxes",
-      "after_state": "Matching matte-black or brushed-gold pulls that make the whole kitchen look renovated",
+      "target_price": "$89",
+      "transformation_hook": "$89 kit turns dated oak cabinets into a burnt-orange statement kitchen",
+      "before_state": "Dated, scratched wood cabinets in a dark, outdated kitchen",
+      "after_state": "Smooth painted cabinets in an on-trend burnt-orange/warm fall tone",
       "buyer_intent_keywords": [
-        "cheap kitchen cabinet update",
-        "cabinet hardware upgrade",
-        "matte black cabinet pulls",
-        "kitchen makeover on a budget",
-        "cabinet knobs vs pulls"
+        "cabinet paint kit",
+        "how to paint kitchen cabinets",
+        "cabinet refinishing kit amazon",
+        "diy cabinet makeover"
       ],
       "scores": {
-        "trend": 7,
+        "trend": 8,
         "transformation": 10,
-        "affiliate": 10,
+        "affiliate": 7,
         "intent": 8
       },
-      "composite_score": 35,
-      "why_now": "AptTherapy's pin literally frames 'dramatic before and after without redoing your whole kitchen? Paint your cabinets' \u2014 hardware is the zero-skill, zero-mess affiliate version of that exact trending hook, and kitchen is a core Golden Home Project category."
+      "composite_score": 33,
+      "why_now": "HGTV and BHG are both pushing burnt-orange/Behr paint colors this week, and Apartment Therapy is directly promoting 'paint your cabinets' content \u2014 three publisher sources converging on the same look."
     },
     {
       "rank": 3,
-      "product_category": "gutter cleaning tool",
-      "specific_product": "extendable gutter cleaning wand/attachment",
+      "product_category": "room dividers",
+      "specific_product": "4-panel folding privacy screen room divider",
       "brand": "Amazon generic",
-      "target_price": "$34",
-      "transformation_hook": "Clear clogged, leaf-packed gutters without a ladder for $34 before winter",
-      "before_state": "Overflowing gutters stuffed with wet fall leaves, water spilling down the siding",
-      "after_state": "Clean-running gutters cleared from the ground in minutes, no ladder required",
+      "target_price": "$65",
+      "transformation_hook": "$65 room divider hides the clutter and doubles your tiny apartment's rooms",
+      "before_state": "Open studio apartment with visible clutter, storage, or eyesore features",
+      "after_state": "Sectioned-off clean zone created behind a stylish folding screen",
       "buyer_intent_keywords": [
-        "gutter cleaning tool no ladder",
-        "best gutter cleaner attachment",
-        "clogged gutter fall leaves",
-        "gutter wand for hose",
-        "winterize gutters"
+        "room divider for studio apartment",
+        "folding screen divider",
+        "small apartment storage hack",
+        "hide clutter apartment"
       ],
       "scores": {
-        "trend": 8,
-        "transformation": 7,
-        "affiliate": 9,
-        "intent": 9
-      },
-      "composite_score": 33,
-      "why_now": "RealSimple's own pin says shoppers are 'snapping up' this exact genius Amazon gutter tool, and mid-October leaf-fall plus pre-winter home prep urgency makes buyer intent spike right now."
-    },
-    {
-      "rank": 4,
-      "product_category": "decorative throw pillow covers",
-      "specific_product": "Eli & Elm burnt-orange velvet pillow cover set",
-      "brand": "Eli & Elm",
-      "target_price": "$29",
-      "transformation_hook": "Refresh a tired living room for fall with $29 burnt-orange pillow covers",
-      "before_state": "Flat, outdated neutral-gray couch styling that looks stuck in summer",
-      "after_state": "Cozy, on-trend burnt-orange and rust-toned pillow arrangement that reads instantly 'fall'",
-      "buyer_intent_keywords": [
-        "burnt orange throw pillows",
-        "fall living room decor",
-        "velvet pillow covers",
-        "cozy couch pillow refresh",
-        "autumn home decor accents"
-      ],
-      "scores": {
-        "trend": 8,
+        "trend": 6,
         "transformation": 8,
         "affiliate": 9,
         "intent": 7
       },
-      "composite_score": 32,
-      "why_now": "HGTV's pin on burnt-orange paint colors appeared twice in the publisher feed \u2014 a strong duplicate-signal sign that this color is about to peak \u2014 and pillow covers are the $ amount-driven, swappable way to ride it without a repaint."
+      "composite_score": 30,
+      "why_now": "Apartment Therapy's room-divider/declutter tips are gaining traction as fall move-in and winter nesting season ramps up."
     },
     {
-      "rank": 5,
-      "product_category": "headboard alternative",
-      "specific_product": "wall-mounted upholstered headboard panel",
+      "rank": 4,
+      "product_category": "bedroom headboards",
+      "specific_product": "Upholstered wall-mounted headboard panel",
       "brand": "Amazon generic",
-      "target_price": "$65",
-      "transformation_hook": "No headboard? Build one for $65 and transform your whole bedroom wall",
-      "before_state": "Bare mattress pushed against a blank wall with no visual anchor",
-      "after_state": "Upholstered panel headboard that makes the bed look custom and intentional",
+      "target_price": "$79",
+      "transformation_hook": "$79 wall panel gives a bare bed frame an instant boutique-hotel headboard",
+      "before_state": "Bed with no headboard, bare wall, unfinished bedroom look",
+      "after_state": "Upholstered headboard panel creating a cozy, finished bedroom",
       "buyer_intent_keywords": [
-        "headboard alternative ideas",
+        "headboard alternative",
         "wall mounted headboard panel",
-        "no headboard bed fix",
-        "cheap upholstered headboard",
-        "bedroom makeover on a budget"
+        "no headboard bed ideas",
+        "upholstered headboard amazon"
       ],
       "scores": {
         "trend": 6,
-        "transformation": 9,
+        "transformation": 8,
         "affiliate": 8,
         "intent": 7
       },
-      "composite_score": 30,
-      "why_now": "AptTherapy's '15 headboard alternative ideas' pin signals rising search interest for renters solving the no-headboard problem, and it's a clean single-CTA bedroom transformation with strong before/after contrast."
+      "composite_score": 29,
+      "why_now": "Apartment Therapy's '15 headboard alternative ideas' pin is circulating right as fall bedroom-refresh searches pick up."
+    },
+    {
+      "rank": 5,
+      "product_category": "gutter cleaning tools",
+      "specific_product": "Gutter cleaning wand/scoop tool",
+      "brand": "Amazon generic",
+      "target_price": "$32",
+      "transformation_hook": "$32 tool clears clogged gutters without ever climbing a ladder",
+      "before_state": "Leaf-clogged, overflowing gutters before fall rains",
+      "after_state": "Clear, free-flowing gutters cleaned from the ground in minutes",
+      "buyer_intent_keywords": [
+        "gutter cleaning tool",
+        "clean gutters without ladder",
+        "gutter scoop amazon",
+        "fall gutter cleaning hack"
+      ],
+      "scores": {
+        "trend": 6,
+        "transformation": 6,
+        "affiliate": 9,
+        "intent": 8
+      },
+      "composite_score": 29,
+      "why_now": "Real Simple is actively promoting this exact 'genius tool' pin right now, timed to fall gutter-clogging season."
     }
   ],
   "raw_signal_count": 85,
