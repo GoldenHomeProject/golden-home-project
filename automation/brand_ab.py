@@ -192,9 +192,13 @@ def a_collage(headline, kicker, tiles: list[dict], out: Path) -> Path:
         d.text((M, y), ln, font=hf, fill=PAPER)
         y += int(s * 1.02)
     gy = y + 34
-    gap, cols, rows = 20, 2, 3
+    gap, cols = 20, 2
+    rows = max(2, (min(len(tiles), 6) + 1) // 2)   # 4-6 tiles, no empty row
     tw = (W - 2 * M - gap) // cols
     th = (H - 140 - gy - gap * (rows - 1)) // rows
+    if th > 330:   # 4 tiles: no tall empty cards; centre the grid instead
+        gy += (th - 330) * rows // 2
+        th = 330
     fills = [MARIGOLD, PAPER, SAGE, MARIGOLD, PAPER, SAGE]
     for i, t in enumerate(tiles[:6]):
         cx = M + (i % cols) * (tw + gap)
@@ -284,9 +288,13 @@ def b_collage(headline, tiles: list[dict], out: Path) -> Path:
         d.text((M, y), ln, font=hf, fill=B_INK)
         y += int(s * 1.12)
     gy = y + 40
-    cols, rows = 2, 3
+    cols = 2
+    rows = max(2, (min(len(tiles), 6) + 1) // 2)
     tw = (W - 2 * M) // cols
     th = (H - 140 - gy) // rows
+    if th > 330:
+        gy += (th - 330) * rows // 2
+        th = 330
     for r in range(rows + 1):
         d.line([(M, gy + r * th), (W - M, gy + r * th)], fill=B_GOLD, width=2)
     d.line([(M + tw, gy), (M + tw, gy + rows * th)], fill=B_GOLD, width=2)

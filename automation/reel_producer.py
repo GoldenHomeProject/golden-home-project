@@ -283,6 +283,44 @@ def cf_flux(prompt: str, seed: int, out_path: Path, steps: int = 6) -> bool:
         return False
 
 
+_SCENE_ROOMS = (
+    ("under sink|under-sink", "the open cabinet under a kitchen sink, neatly empty"),
+    ("bath|towel|shower", "a calm, bright modern bathroom"),
+    ("closet|hanger|wardrobe", "a tidy walk-in closet with light wood shelves"),
+    ("pantry", "a bright pantry with open shelves"),
+    ("bed|sheet|pillow|blanket|bedroom", "a serene, softly lit modern bedroom"),
+    ("kitchen|cabinet|counter|drawer|liner", "a bright, uncluttered modern kitchen"),
+    ("laundry", "a clean, bright laundry room"),
+    ("patio|porch|outdoor", "a sunny front porch with plants"),
+    ("gift", "a cosy living room corner with soft window light"),
+)
+
+
+def flux_scene(context: str, out_path: Path, seed: int = 0) -> bool:
+    """An AI image of a ROOM, never of the product (marketing dept, 2026-10-18).
+
+    A generated "product in a room" image implies we are showing the real item, and
+    FLUX has never seen the SKU, so a product render can misrepresent it. A generic
+    space for the product's room is honest scene-setting. No people at all, no text.
+    """
+    room = next((r for pat, r in _SCENE_ROOMS if re.search(pat, context or "", re.I)),
+                "a bright, uncluttered modern home interior")
+    full = (f"Interior photograph of {room}. Empty of people, no person, no hands, "
+            "no faces. No products in the foreground. Soft diffused natural window light, "
+            "realistic materials, photorealistic, generous negative space. "
+            "No text, no lettering, no numbers, no logos, no signs, no screens, no watermark")
+    if not cf_flux(full, seed, out_path):
+        return False
+    ok, reason = _ai_image_usable(out_path)
+    if not ok and reason.startswith("too small"):
+        try:
+            ok = min(Image.open(out_path).size) >= 1000
+        except Exception:
+            ok = False
+    print(f"    flux scene {'accepted' if ok else 'REJECTED — ' + reason} ({room})")
+    return ok
+
+
 def flux_image(prompt: str, product: str, out_path: Path, seed: int) -> bool:
     """Generate a product image with FLUX.1-schnell on HuggingFace.
 

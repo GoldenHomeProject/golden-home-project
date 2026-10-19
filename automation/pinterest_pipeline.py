@@ -872,32 +872,49 @@ def _photo_matches_product(query: str, product_name: str) -> bool:
     return bool(q & n)
 
 
-def product_pin_image(product_name: str, out_path: Path, seed: int) -> bool:
-    """A clean, bright studio image OF THE PRODUCT for a pin.
+def scene_pin_image(context: str, out_path: Path, seed: int) -> bool:
+    """AI fallback when no real photo fits: an empty room for the product's space.
 
-    Looked at our own published pins on 2026-09-09 and the problem was obvious: a pin
-    for a "Furinno Toolless 3-Tier Side Table" showed a dark living room with no side
-    table in it; a pin for "Poo-Pourri Toilet Spray" showed unrelated cosmetics bottles.
-    Pexels was answering the scene query, not the product. Nobody saves a dim photo of
-    a stranger's living room — which is exactly what 205 impressions and 0 saves means.
-
-    FLUX renders the product category cleanly and brightly. Same honest framing as the
-    reels: it is a photoreal image of the CATEGORY, never claimed to be the item, and it
-    goes through the same _ai_image_usable screen that rejects rendered text and
-    undersized output.
+    Was product_pin_image(), which had FLUX render the product itself. Marketing dept
+    (2026-10-18): a generated "product in a room" implies we are showing the real item,
+    and FLUX has never seen the SKU. Generic rooms are fine; product renders are not.
+    Real stock photos of the item stay first; this only runs when none is usable.
     """
     try:
         sys.path.insert(0, str(Path(__file__).resolve().parent))
-        from reel_producer import flux_image, _ai_image_usable  # noqa: F401
+        from reel_producer import flux_scene
     except Exception as e:
-        print(f"  [pin-img] FLUX unavailable ({e}); using stock photo")
+        print(f"  [pin-img] FLUX unavailable ({e})")
         return False
+    return flux_scene(context, out_path, seed=seed)
+
+
+def _judge_scene(path: Path) -> tuple[bool, str]:
+    """AI room check: no people, no fake text, reads as a real, save-worthy photo."""
+    try:
+        from _claude_api import _load_token_file
+        _load_token_file()
+    except Exception:
+        pass
     prompt = (
-        "a single {p}, centred on a clean bright surface in a tidy modern home, "
-        "bright airy daylight, soft shadows, minimal uncluttered background, "
-        "generous negative space, crisp focus on the product"
-    ).format(p=product_name[:90])
-    return flux_image(prompt, product_name, out_path, seed=seed)
+        f"Read the image file {path}. It is an AI-generated room photo for a Pinterest pin.\n"
+        "Reply with ONLY a JSON object: {\"people\": true/false - any person, face, hand "
+        "or body part; \"text\": true/false - any letters, signs, labels or screens with "
+        "content; \"score\": 1-10 - how real, bright and save-worthy it looks; "
+        "\"note\": \"<10 words>\"}")
+    try:
+        import subprocess as _sp
+        out = _sp.run(["claude", "-p", "--allowedTools", "Read", "--max-turns", "3"],
+                      input=prompt, capture_output=True, text=True, timeout=150).stdout
+        m = re.search(r"\{.*\}", out, re.S)
+        d = json.loads(m.group()) if m else None
+    except Exception as e:  # noqa: BLE001
+        d = None
+        print(f"  [ai-scene] check unavailable ({e})")
+    if not d:   # unlike stock photos, an unchecked AI image never ships
+        return False, "unchecked"
+    ok = not d.get("people") and not d.get("text") and int(d.get("score") or 0) >= 8
+    return ok, str(d.get("note"))[:70]
 
 
 def compose_pin(bg_path: Path | None, overlay_hook: str, subtitle: str,
@@ -1188,19 +1205,17 @@ def main() -> int:
         # Product image FIRST, stock photo second. A pin whose picture does not contain
         # the product cannot be saved or clicked, which is what our own pins were doing.
         pname = str(entry.get("product_name") or "")
-        bg_ok = False
-        if pname:
-            bg_ok = product_pin_image(pname, bg_path, seed=7000 + (made * 37))
-            if bg_ok:   # AI images get the same look as stock photos: item visible, 8+/10
-                bg_ok, _note = _judge_photo(bg_path, pname)
-                print(f"  [ai-photo] {asin}: {'OK' if bg_ok else 'reject'} — {_note}")
-        if not bg_ok:
-            bg_ok = fetch_pexels(pexels_q, bg_path, product=pname)
-        # If we still can't find a photo that relates to the product, ship the clean
-        # branded card instead of a confident-looking photo of the wrong object.
+        # Real photo FIRST (judged: the item visible, 8+/10). AI never renders the product
+        # (marketing dept, 2026-10-18) — if no real photo fits, an AI room for its space.
+        bg_ok = fetch_pexels(pexels_q, bg_path, product=pname)
         if bg_ok and not _photo_matches_product(pexels_q, name):
-            print(f"  [pin] {asin} no relevant photo for {pexels_q!r} — text-only card")
+            print(f"  [pin] {asin} no relevant photo for {pexels_q!r}")
             bg_ok = False
+        if not bg_ok:
+            bg_ok = scene_pin_image(f"{board} {name}", bg_path, seed=7000 + (made * 37))
+            if bg_ok:
+                bg_ok, _note = _judge_scene(bg_path)
+                print(f"  [ai-scene] {asin}: {'OK' if bg_ok else 'reject'} — {_note}")
         # No photo, no pin. The "text-only card" is the product layout with an empty grey
         # photo box, and on Pinterest it reads as a broken pin — two gift pins went live
         # that way on 2026-10-02. Skip the product today; it can be tried again tomorrow.

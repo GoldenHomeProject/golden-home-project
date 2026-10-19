@@ -26,7 +26,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "automation"))
 
-from collage_pin import build_collage_pin, headline_for, HUB_HEADLINES  # noqa: E402
+from collage_pin import HUB_HEADLINES  # noqa: E402
+from brand import price_band  # noqa: E402
+import brand_ab  # noqa: E402
 from category_identity import in_category  # noqa: E402
 
 SOCIAL = ROOT / "social"
@@ -54,36 +56,42 @@ def _price_val(p) -> float | None:
     return float(m.group(0)) if m else None
 
 
-def cell_image(product: str, out: Path, seed: int) -> bool:
-    """Product image for one cell — FLUX, retried, then a people-free stock photo.
+def tile_types(names: list[str]) -> list[str]:
+    """2-4 word generic item type per product ("Fabric storage cube"), no brand.
 
-    First run of this produced a collage whose cell 01 was a woman rollerblading in a
-    park: FLUX was rejected for rendered text and Pexels answered the product name with
-    a lifestyle photo. A single bad cell discredits the whole pin, so FLUX gets several
-    seeds before we fall back, and the fallback is forced toward object-only imagery.
-    """
+    Collages went typographic on 2026-10-18: the old image cells were FLUX renders of
+    each product, and an AI picture of a specific product implies it is the real item
+    (marketing dept). The type line comes ONLY from the listing name; fallback is the
+    cleaned name itself."""
+    from video_pin import clean_headline
+    from pinterest_pipeline import _strip_brand, _short_name
+    fallback = [clean_headline(_strip_brand(_short_name(n, limit=40)), limit=30) for n in names]
+    prompt = ("For each Amazon product name below, give the generic item type in 2-4 words, "
+              "sentence case, no brand, no adjectives that are not in the name. Reply with "
+              "ONLY a JSON array of strings, same order.\n" + "\n".join(f"- {n}" for n in names))
     try:
-        from reel_producer import flux_image
-        for attempt in range(3):
-            if flux_image(
-                f"a single {product[:80]}, centred on a clean bright surface, "
-                f"bright airy daylight, minimal uncluttered background, "
-                f"product photography, no people",
-                product, out, seed=seed + attempt * 911):
-                return True
-    except Exception as e:
-        print(f"    [cell] flux unavailable: {str(e)[:70]}")
+        import subprocess
+        out = subprocess.run(["claude", "-p", "--max-turns", "1"], input=prompt,
+                             capture_output=True, text=True, timeout=120).stdout
+        got = json.loads(re.search(r"\[.*\]", out, re.S).group())
+        if len(got) == len(names):
+            return [str(t).strip()[:32] or f for t, f in zip(got, fallback)]
+    except Exception as e:  # noqa: BLE001
+        print(f"    [tiles] type naming unavailable ({str(e)[:60]}); using names")
+    return fallback
+
+
+def tile_why(p: dict) -> str:
+    """A verifiable fact only: a size/count from the title, else the rating if well-proven."""
+    why = brand_ab.tape_text(str(p.get("name") or ""))
+    if why:
+        return why
     try:
-        from pinterest_pipeline import fetch_pexels
-        words = [w for w in re.sub(r"[^A-Za-z ]", " ", product).split() if len(w) > 2]
-        q = " ".join(words[-3:]) or product
-        # Pass the product so the photo's OWN description is checked, not just
-        # the query — a collage cell that shows the wrong object discredits the
-        # whole pin, and cell 01 was once a woman rollerblading.
-        return fetch_pexels(f"{q} product still life no people", out, product=product)
-    except Exception as e:
-        print(f"    [cell] pexels failed: {str(e)[:70]}")
-        return False
+        if int(str(p.get("reviews") or 0).replace(",", "")) >= 1000 and p.get("rating"):
+            return f"{p['rating']} stars on Amazon"
+    except ValueError:
+        pass
+    return ""
 
 
 def main() -> int:
@@ -123,7 +131,7 @@ def main() -> int:
         # lies about what it is selling is worse than no collage.
         raw = [p for p in (data.get("picks") or []) if p.get("asin")]
         picks = [p for p in raw
-                 if in_category(p.get("name") or p.get("title") or "", cat)][:4]
+                 if in_category(p.get("name") or p.get("title") or "", cat)][:6]
         if len(picks) < 4:
             print(f"  [skip] {slug}: only {len(picks)} of {len(raw)} picks read as "
                   f"genuinely {cat} — refusing to build a mislabelled collage")
@@ -140,43 +148,38 @@ def main() -> int:
             continue
 
         print(f"  [collage] {slug} from {f.name} ({cat})")
-        cells = []
-        for i, p in enumerate(picks):
-            img = PINS_DIR / f"cell-{date_str}-{p['asin']}.jpg"
-            name = str(p.get("name") or "")
-            if not img.exists():
-                cell_image(name, img, seed=4200 + made * 17 + i)
-            cells.append({"image": img if img.exists() else None,
-                          "price": str(p.get("price") or "")})
-
-        # A collage with an empty cell ships as grey boxes with price chips (2026-10-17,
-        # "best storage bins": all four cells blank). Never publish that — skip the hub today.
-        missing = sum(1 for c in cells if c["image"] is None)
-        if missing:
-            print(f"  [skip] {slug}: {missing} of {len(cells)} cells have no usable image")
-            continue
-
+        types = tile_types([str(p.get("name") or "") for p in picks])
+        tiles = [{"type": t, "why": tile_why(p), "band": price_band(str(p.get("price") or ""))}
+                 for t, p in zip(types, picks)]
         prices = [v for v in (_price_val(p.get("price")) for p in picks) if v]
-        headline = headline_for(slug, len(picks), max(prices) if prices else None)
+        label = HUB_HEADLINES.get(slug, ("Home Finds", "home"))[0]
+        headline = (f"{len(picks)} {label} {price_band(str(max(prices)))}" if prices
+                    else f"{len(picks)} {label} Worth Buying")
         kicker = HUB_HEADLINES.get(slug, ("", "home"))[1]
         out = PINS_DIR / f"{pin_id}.png"
-        build_collage_pin(
-            headline, "Verified 4.5 stars and up", cells, out,
-            updated=datetime.now(timezone.utc).strftime("Updated %B %Y"),
-            kicker=kicker)
+        variant = brand_ab.variant_for(pin_id)   # brand A/B test, see brand_ab.py
+        if variant == "A":
+            brand_ab.a_collage(headline, kicker, tiles, out)
+        else:
+            brand_ab.b_collage(headline, tiles, out)
 
+        # Say only what the picks show (the old line claimed "4.5 stars or higher across
+        # thousands of ratings" for every collage without checking).
+        rts = [float(p["rating"]) for p in picks if str(p.get("rating") or "").replace(".", "", 1).isdigit()]
+        proof = (f"Every pick is rated {min(rts):g} stars or higher. "
+                 if len(rts) == len(picks) and min(rts) >= 4.3 else "")
         queue.append({
             "id": pin_id,
             "asin": picks[0]["asin"],
             "board": "Home Organization Finds",
             "title": headline,
             "description": (
-                f"{headline}. Every pick holds 4.5 stars or higher across thousands of "
-                f"ratings, read off Amazon's live best-seller charts. "
-                f"Prices shown were accurate when published and change often."),
+                f"{headline}. {proof}Picked from Amazon's live best-seller charts. "
+                f"Price ranges were accurate when published and change often."),
             "image_path": str(out.relative_to(ROOT)),   # key every other producer uses
             "link": f"{SITE}/blog/posts/{slug}.html",
             "format": "collage",
+            "variant": variant,
         })
         made += 1
         print(f"    wrote {out.name} -> {slug}")
