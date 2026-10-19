@@ -242,6 +242,47 @@ if not HF_TOKEN:
         HF_TOKEN = ""
 
 
+def _cf_creds() -> tuple[str, str]:
+    tok, acct = os.environ.get("CF_API_TOKEN", ""), os.environ.get("CF_ACCOUNT_ID", "")
+    if not (tok and acct):
+        env = Path.home() / ".ghp-secrets" / "cloudflare.env"   # Pi only, chmod 600
+        try:
+            for line in env.read_text().splitlines():
+                k, _, v = line.partition("=")
+                if k == "CF_API_TOKEN" and not tok:
+                    tok = v.strip()
+                if k == "CF_ACCOUNT_ID" and not acct:
+                    acct = v.strip()
+        except OSError:
+            pass
+    return tok, acct
+
+
+def cf_flux(prompt: str, seed: int, out_path: Path, steps: int = 6) -> bool:
+    """FLUX.1-schnell on Cloudflare Workers AI. Returns a 1024x1024 JPEG; callers crop."""
+    tok, acct = _cf_creds()
+    if not (tok and acct):
+        return False
+    import base64
+    # No "seed": Cloudflare's flux-1-schnell schema rejects it (AiError 5006).
+    body = json.dumps({"prompt": prompt[:2000], "steps": steps}).encode()
+    req = request.Request(
+        f"https://api.cloudflare.com/client/v4/accounts/{acct}/ai/run/@cf/black-forest-labs/flux-1-schnell",
+        data=body, headers={"Authorization": f"Bearer {tok}", "Content-Type": "application/json"})
+    try:
+        with request.urlopen(req, timeout=90) as r:
+            d = json.loads(r.read())
+        img = (d.get("result") or {}).get("image")
+        if not img:
+            print(f"    cloudflare flux: no image ({str(d.get('errors'))[:120]})")
+            return False
+        out_path.write_bytes(base64.b64decode(img))
+        return True
+    except Exception as e:  # noqa: BLE001
+        print(f"    cloudflare flux failed: {str(e)[:120]}")
+        return False
+
+
 def flux_image(prompt: str, product: str, out_path: Path, seed: int) -> bool:
     """Generate a product image with FLUX.1-schnell on HuggingFace.
 
@@ -255,6 +296,37 @@ def flux_image(prompt: str, product: str, out_path: Path, seed: int) -> bool:
     reel shipped a scale face reading "DEON". A powered-down display is both cleaner
     and honest, since we do not know what this unit shows.
     """
+    pos, neg = _attr_clauses(product)
+    full = (
+        f"Editorial product photograph. {prompt}. {product}. "
+        + (", ".join(pos) + ". " if pos else "")
+        # Only mention a screen when the product HAS one: telling FLUX "any display is off"
+        # made it ADD blank TVs and tablets to pins for wall hooks and bins (2026-10-18).
+        + ("Any display or screen is switched off and dark. "
+           if re.search(r"scale|display|screen|clock|timer|thermometer", product, re.I) else "")
+        + "Shot on a full-frame "
+        "camera at f/2.8, soft diffused natural window light, realistic materials and "
+        "true-to-life texture, subtle contact shadows, clean uncluttered composition, "
+        "generous negative space, photorealistic, high detail. "
+        "No text, no lettering, no numbers, no logos, no branding, no watermark"
+        + ((". Avoid: " + ", ".join(neg)) if neg else "")
+    )
+    # Cloudflare Workers AI first (added 2026-10-18): the same FLUX.1-schnell model, free
+    # for ~57 1024px images/day, and it does not run out like the HF ZeroGPU Space did
+    # ("You have exceeded your free ZeroGPU quota" nearly every day since September).
+    if cf_flux(full, seed, out_path):
+        ok, reason = _ai_image_usable(out_path)
+        # Cloudflare returns 1024x1024. That is plenty for a pin's ~900px photo card (and
+        # reels now use real video), so the reel-frame size floor does not apply here.
+        if not ok and reason.startswith("too small"):
+            try:
+                ok = min(Image.open(out_path).size) >= 1000
+            except Exception:
+                ok = False
+        if ok:
+            print(f"    flux image accepted via Cloudflare (seed={seed})")
+            return True
+        print(f"    cloudflare flux image REJECTED — {reason}")
     if not HF_TOKEN:
         print("    ::warning:: HF_TOKEN unset — high-quality AI images unavailable")
         return False
@@ -263,18 +335,6 @@ def flux_image(prompt: str, product: str, out_path: Path, seed: int) -> bool:
     except ImportError:
         print("    gradio_client not installed — skipping FLUX")
         return False
-
-    pos, neg = _attr_clauses(product)
-    full = (
-        f"Editorial product photograph. {prompt}. {product}. "
-        + (", ".join(pos) + ". " if pos else "")
-        + "Any display or screen is switched off and dark. Shot on a full-frame "
-        "camera at f/2.8, soft diffused natural window light, realistic materials and "
-        "true-to-life texture, subtle contact shadows, clean uncluttered composition, "
-        "generous negative space, photorealistic, high detail. "
-        "No text, no lettering, no numbers, no logos, no branding, no watermark"
-        + ((". Avoid: " + ", ".join(neg)) if neg else "")
-    )
     try:
         c = Client("black-forest-labs/FLUX.1-schnell", token=HF_TOKEN)
         r = c.predict(prompt=full, seed=seed, randomize_seed=False,

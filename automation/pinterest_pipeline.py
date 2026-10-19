@@ -1174,7 +1174,9 @@ def main() -> int:
                 hook = item_headline(name, _search_phrase(board)) or ""
             except Exception:
                 hook = ""
-            hook = hook or _strip_brand(_short_name(name, limit=46))
+            if not hook:   # never a cut-off product name ("Clear 50lb(Max)...")
+                from video_pin import clean_headline
+                hook = clean_headline(_strip_brand(_short_name(name, limit=80)), limit=44)
             copy["overlay_hook"] = hook
         pexels_q = (copy.get("pexels_query") or "").strip()
         # Prefer a query built from the product itself; only keep Claude's if it actually
@@ -1189,6 +1191,9 @@ def main() -> int:
         bg_ok = False
         if pname:
             bg_ok = product_pin_image(pname, bg_path, seed=7000 + (made * 37))
+            if bg_ok:   # AI images get the same look as stock photos: item visible, 8+/10
+                bg_ok, _note = _judge_photo(bg_path, pname)
+                print(f"  [ai-photo] {asin}: {'OK' if bg_ok else 'reject'} — {_note}")
         if not bg_ok:
             bg_ok = fetch_pexels(pexels_q, bg_path, product=pname)
         # If we still can't find a photo that relates to the product, ship the clean
@@ -1204,15 +1209,38 @@ def main() -> int:
             continue
 
         price = entry.get("verified_price", "")
-        img = compose_pin(
-            bg_path if bg_ok else None,
-            copy.get("overlay_hook") or _short_name(entry.get("product_name", "")),
-            _short_name(entry.get("product_name", "")),
-            price,
-            board=board,
-        )
         img_path = PINS_DIR / f"pin-{date_str}-{asin}{'-gift' if gift else ''}.png"
-        img.save(img_path, "PNG", optimize=True)
+        # Brand A/B test (Ian, 2026-10-17): each pin is randomly Direction A "Measured" or
+        # Direction B "Golden Hour" by its id, so both arms get the same days, boards and
+        # products. The winner is picked by money; see brand_ab.py / BRAND_REFRESH.md.
+        import brand_ab
+        variant = brand_ab.variant_for(img_path.stem)
+        headline = scrub_prices(copy.get("overlay_hook") or _short_name(entry.get("product_name", "")))
+        if re.search(r"ideas:\s*\w+$", headline, re.I) or len(headline.split()) < 3:
+            # The search-phrase fallback reads as a label ("Home Organization Ideas: Basket").
+            try:
+                from _claude_api import call_claude
+                h = call_claude(
+                    "Write ONE Pinterest pin headline, 3-7 words, for this product: "
+                    f"{name}. Shape: the small problem it fixes, or what fits where "
+                    "(e.g. 'Laundry that stops spilling over', 'Bins that fit a 12 in cube "
+                    "shelf'). No price, no brand, no hype words, no first-person claims. "
+                    "Reply with the headline only.", max_turns=1, timeout=90).strip().strip('"')
+                if 2 < len(h.split()) <= 9 and not fabrication_match(h) and not re.search(r"\$\d", h):
+                    headline = h
+            except Exception as e:  # noqa: BLE001
+                print(f"  [headline] fallback kept ({e})")
+        band = price_band(price)
+        tape = brand_ab.tape_text(name)
+        photo = bg_path if bg_ok else None
+        if variant == "A":
+            stars = str(entry.get("verified_stars") or "").strip()
+            brand_ab.a_product(headline, _search_phrase(board), photo,
+                               tape or (f"{stars} stars on Amazon" if stars else band.lower()),
+                               band, img_path)
+        else:
+            brand_ab.b_product(headline, photo,
+                               " · ".join(x for x in (tape, band.lower()) if x), img_path)
 
         # Gift pins go out as VIDEO pins when a clean real-footage clip can be found
         # (automation/video_pin.py: Pexels HD, no faces, subject is the main focus).
@@ -1246,7 +1274,7 @@ def main() -> int:
         # /dp/ links and feed SEO), without putting a detour in front of the majority.
         hub = blog_url_for(entry)
         use_hub = hub and (len(queue) % 4 == 3) and not gift   # gift shoppers go straight to the product
-        link = hub if use_hub else build_affiliate_url(asin, "pinterest")
+        link = hub if use_hub else build_affiliate_url(asin, "pinterest", subtag=f"brand{variant}")
         rel = str(img_path.relative_to(ROOT))
         queue.append({
             "id": f"pin-{date_str}-{asin}" + ("-gift" if gift else ""),
@@ -1266,6 +1294,7 @@ def main() -> int:
             "gift_key": str(entry.get("product_name", "")).lower()[:40] if gift else None,
             "overlay_hook": copy.get("overlay_hook", ""),
             "recharted": bool(recharted),
+            "variant": variant,              # brand A/B arm (2026-10-18)
         })
         made += 1
         print(f"  [pin] {asin} board={board!r} link={'blog' if link.startswith(SITE) else 'amazon'} -> {rel}")
