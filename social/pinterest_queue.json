@@ -6079,11 +6079,12 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-08-B0CSPKSCP2.png",
     "queued_at": "2026-10-08T10:14:40.236506Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
-    "recharted": false
+    "recharted": false,
+    "posted_at": "2026-10-19T01:16:17Z"
   },
   {
     "id": "pin-2026-10-08-B079M8FPTW",
