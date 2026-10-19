@@ -807,6 +807,9 @@ HONESTY RULE — NON-NEGOTIABLE (docs/BRAND_VOICE.md). Nobody here owns or has u
 product. NEVER write "I tried", "I bought", "my kitchen/closet", or any invented anecdote
 or personal result. Write in second person or plain description, from the verifiable facts
 only: rating, review count, price, stated specs, what reviewers repeatedly report.
+The pin photo is a stock photo or a generic room, NOT this exact item: never write
+"this one", "shown", "pictured" or "in the photo". Frame the space or problem, then the
+product type.
 
 VOICE (revised 2026-08-26). GHP is the desk that reads Amazon's best-seller charts daily
 and keeps the prices — not a person telling a story about their home. Lead with something
@@ -915,6 +918,36 @@ def _judge_scene(path: Path) -> tuple[bool, str]:
         return False, "unchecked"
     ok = not d.get("people") and not d.get("text") and int(d.get("score") or 0) >= 8
     return ok, str(d.get("note"))[:70]
+
+
+_AI_XMP = (
+    '<?xpacket begin="" id="W5M0MpCehiHzreSzNTczkc9d"?>'
+    '<x:xmpmeta xmlns:x="adobe:ns:meta/"><rdf:RDF '
+    'xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">'
+    '<rdf:Description rdf:about="" '
+    'xmlns:Iptc4xmpExt="http://iptc.org/std/Iptc4xmpExt/2008-02-29/">'
+    '<Iptc4xmpExt:DigitalSourceType>http://cv.iptc.org/newscodes/digitalsourcetype/'
+    'compositeWithTrainedAlgorithmicMedia</Iptc4xmpExt:DigitalSourceType>'
+    '</rdf:Description></rdf:RDF></x:xmpmeta><?xpacket end="w"?>')
+
+
+def label_ai_image(path: Path) -> None:
+    """Write IPTC DigitalSourceType into the finished pin (marketing dept, 2026-10-18).
+
+    We disclose because the room image IS AI, not because Pinterest might detect it.
+    Pillow drops the generator's own metadata when it composites, so the label is
+    written onto the final file. Real-photo pins don't get it."""
+    from PIL import Image as _Im
+    from PIL.PngImagePlugin import PngInfo
+    info = PngInfo()
+    info.add_itxt("XML:com.adobe.xmp", _AI_XMP)
+    _Im.open(path).save(path, "PNG", pnginfo=info, optimize=True)
+
+
+# A stock photo is never the exact ASIN, and an AI room has no product in it at all, so
+# copy must not point at the picture as if it were the item (marketing dept, 2026-10-18).
+_POINTS_AT_PHOTO = re.compile(
+    r"\b(this one|shown( here| above| below)?|pictured|in the (photo|picture|image)|as seen)\b", re.I)
 
 
 def compose_pin(bg_path: Path | None, overlay_hook: str, subtitle: str,
@@ -1168,6 +1201,15 @@ def main() -> int:
                 continue
             print(f"  [copy] {asin} rewrote fabricated experience ({_fake!r})")
             copy = alt
+        _pt = _POINTS_AT_PHOTO.search(" ".join(str(copy.get(k, "")) for k in
+                                               ("title", "description", "overlay_hook")))
+        if _pt:
+            alt = template_copy(entry, board)
+            if _POINTS_AT_PHOTO.search(f"{alt.get('title','')} {alt.get('description','')}"):
+                print(f"  [skip] {asin} copy points at the photo ({_pt.group()!r})")
+                continue
+            print(f"  [copy] {asin} rewrote copy pointing at the photo ({_pt.group()!r})")
+            copy = alt
 
         _stale = dead_season_hit(
             f"{copy.get('title','')} {copy.get('description','')}")
@@ -1207,6 +1249,7 @@ def main() -> int:
         pname = str(entry.get("product_name") or "")
         # Real photo FIRST (judged: the item visible, 8+/10). AI never renders the product
         # (marketing dept, 2026-10-18) — if no real photo fits, an AI room for its space.
+        ai_bg = False
         bg_ok = fetch_pexels(pexels_q, bg_path, product=pname)
         if bg_ok and not _photo_matches_product(pexels_q, name):
             print(f"  [pin] {asin} no relevant photo for {pexels_q!r}")
@@ -1215,6 +1258,7 @@ def main() -> int:
             bg_ok = scene_pin_image(f"{board} {name}", bg_path, seed=7000 + (made * 37))
             if bg_ok:
                 bg_ok, _note = _judge_scene(bg_path)
+                ai_bg = bg_ok
                 print(f"  [ai-scene] {asin}: {'OK' if bg_ok else 'reject'} — {_note}")
         # No photo, no pin. The "text-only card" is the product layout with an empty grey
         # photo box, and on Pinterest it reads as a broken pin — two gift pins went live
@@ -1245,8 +1289,11 @@ def main() -> int:
                     headline = h
             except Exception as e:  # noqa: BLE001
                 print(f"  [headline] fallback kept ({e})")
+        if _POINTS_AT_PHOTO.search(headline):
+            from video_pin import clean_headline
+            headline = clean_headline(_strip_brand(_short_name(name, limit=80)), limit=44)
         band = price_band(price)
-        tape = brand_ab.tape_text(name)
+        tape = brand_ab.tape_text(name)   # listing title only, never read off the photo
         photo = bg_path if bg_ok else None
         if variant == "A":
             stars = str(entry.get("verified_stars") or "").strip()
@@ -1256,6 +1303,8 @@ def main() -> int:
         else:
             brand_ab.b_product(headline, photo,
                                " · ".join(x for x in (tape, band.lower()) if x), img_path)
+        if ai_bg:
+            label_ai_image(img_path)
 
         # Gift pins go out as VIDEO pins when a clean real-footage clip can be found
         # (automation/video_pin.py: Pexels HD, no faces, subject is the main focus).
@@ -1296,7 +1345,10 @@ def main() -> int:
             "asin": asin,
             "board": board,
             "title": scrub_prices(_drop_title(copy["title"], DROPS.get(asin)))[:100],
-            "description": scrub_prices(_drop_desc(copy["description"], DROPS.get(asin)))[:500],
+            # Video gift pins are real footage; the AI note belongs to the still only.
+            "description": (scrub_prices(_drop_desc(copy["description"], DROPS.get(asin)))[:470]
+                            + " Room image is AI-generated." if ai_bg and not video_rel else
+                            scrub_prices(_drop_desc(copy["description"], DROPS.get(asin)))[:500]),
             "link": link,
             "image_path": video_rel or rel,
             "media": "video" if video_rel else "image",
@@ -1310,6 +1362,7 @@ def main() -> int:
             "overlay_hook": copy.get("overlay_hook", ""),
             "recharted": bool(recharted),
             "variant": variant,              # brand A/B arm (2026-10-18)
+            "ai_image": ai_bg and not video_rel,   # disclosed in file metadata + description
         })
         made += 1
         print(f"  [pin] {asin} board={board!r} link={'blog' if link.startswith(SITE) else 'amazon'} -> {rel}")
