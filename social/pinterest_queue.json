@@ -6884,7 +6884,9 @@
     "gift_key": null,
     "overlay_hook": "25 Bins, One Tidy Drawer",
     "recharted": true,
-    "variant": "B"
+    "variant": "B",
+    "blocked": true,
+    "blocked_reason": "A/B render test: AI image added a blank TV/tablet; fixed 2026-10-18"
   },
   {
     "id": "pin-2026-10-19-B0BFMKYN12",
@@ -6904,6 +6906,48 @@
     "gift_key": null,
     "overlay_hook": "Adhesive Wall Hooks Clear 50lb(Max)\u2026",
     "recharted": true,
+    "variant": "A",
+    "blocked": true,
+    "blocked_reason": "A/B render test: AI image added a blank TV/tablet; fixed 2026-10-18"
+  },
+  {
+    "id": "pin-2026-10-19-B09KT67BL1",
+    "asin": "B09KT67BL1",
+    "board": "Home Organization Finds",
+    "title": "Home Organization Ideas: HomeHacks 2 Pack Large Laundry Baskets \u2014 under $15",
+    "description": "HomeHacks 2 Pack Large Laundry Baskets for home organization ideas. Rated 4.5\u2605 across 26,211 reviews \u00b7 under $15. Prices were accurate when this was published and change often. Tap through for the current listing. Amazon affiliate link \u2014 we may earn a commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B09KT67BL1?tag=ghppinterest-20&ascsubtag=pinterest_brandA",
+    "image_path": "social/pinterest/pin-2026-10-19-B09KT67BL1.png",
+    "media": "image",
+    "fallback_image_path": null,
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-19-B09KT67BL1.png",
+    "queued_at": "2026-10-19T03:12:33.402939Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null,
+    "gift_key": null,
+    "overlay_hook": "Home Organization Ideas: Basket",
+    "recharted": true,
     "variant": "A"
+  },
+  {
+    "id": "pin-2026-10-19-B01IR9VAOA",
+    "asin": "B01IR9VAOA",
+    "board": "Home Storage Solutions",
+    "title": "Closet Organization Ideas: 6-Piece Foldable Fabric Storage Bins with Grommet Handles",
+    "description": "This 6-piece foldable fabric storage bin set uses strong poly-woven fabric with sturdy chipboard side panels to hold its shape, plus grommet handles for easy pulling off shelves. At under $20, it's priced for outfitting a full closet, pantry, or playroom shelf in one order. Tap through for sizing and material details before you buy. Amazon affiliate \u2014 small commission at no extra cost to you.",
+    "link": "https://www.amazon.com/dp/B01IR9VAOA?tag=ghppinterest-20&ascsubtag=pinterest_brandB",
+    "image_path": "social/pinterest/pin-2026-10-19-B01IR9VAOA.png",
+    "media": "image",
+    "fallback_image_path": null,
+    "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-19-B01IR9VAOA.png",
+    "queued_at": "2026-10-19T03:13:14.180433Z",
+    "posted": false,
+    "source": "pinterest_pipeline",
+    "drop_observed_to": null,
+    "gift_key": null,
+    "overlay_hook": "6 Foldable Bins, $15.99",
+    "recharted": true,
+    "variant": "B"
   }
 ]
