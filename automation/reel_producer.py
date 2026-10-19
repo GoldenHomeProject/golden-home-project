@@ -768,9 +768,16 @@ def scene_queries(scenes: list, product: str) -> dict:
         from _claude_api import call_claude_json
         listing = "\n".join(f"{s.get('n', i + 1)}: {s.get('visual_prompt', '')}"
                             for i, s in enumerate(scenes))
+        # Ask for what stock footage HAS: the object or the room, not a micro-action.
+        # "hand squeezing limp pillow" returned grapefruit and hot dogs; 4 of 6 scenes in
+        # reel-2026-10-18-003 fell back to text cards (2026-10-19).
         got = call_claude_json(
             "Write two short Pexels VIDEO search queries (2-4 words, everyday stock-footage "
             f"vocabulary, no brand names) for each scene of a home-products reel about: {product}."
+            " Describe the OBJECT or the ROOM as it commonly appears in stock video (e.g. "
+            "'sofa throw pillows', 'made bed white sheets', 'kitchen drawer organized'), never "
+            "a specific hand action, a person, or a before/after. Also give key \"0\": two "
+            "broad queries for the room this product lives in (e.g. 'cozy living room sofa')."
             f"\n{listing}\nReply ONLY with JSON mapping scene number to a list of two queries.",
             max_turns=2, timeout=120) or {}
         return {int(k): v for k, v in got.items() if isinstance(v, list)}
@@ -806,13 +813,24 @@ def _judge_scene(vp, sheet: Path, visual: str) -> dict:
 
 def scene_video_clip(visual: str, product: str, on_text: str, accent: bool,
                      duration: float, out_path: Path, work_dir: Path,
-                     queries: list | None = None) -> bool:
+                     queries: list | None = None, room: list | None = None) -> bool:
     try:
         import video_pin as vp
     except Exception as e:  # noqa: BLE001
         print(f"    video scenes unavailable ({e})")
         return False
     queries = list(dict.fromkeys((queries or []) + _query_ladder(visual, "")[:2]))
+    if _clip_pass(vp, queries, visual, on_text, accent, duration, out_path, work_dir):
+        return True
+    # Broad fallback: a real shot of the product's ROOM beats a text card (2026-10-19).
+    if room:
+        print("    trying the room fallback")
+        return _clip_pass(vp, room, f"a {product or 'home'} setting: {', '.join(room)}",
+                          on_text, accent, duration, out_path, work_dir)
+    return False
+
+
+def _clip_pass(vp, queries, visual, on_text, accent, duration, out_path, work_dir) -> bool:
     judged = 0
     for q in queries:
         for v in vp._search(q):
@@ -1059,6 +1077,21 @@ def ffmpeg_concat_with_audio(clip_paths: list[Path], audio_path: Path,
     concat_list.unlink(missing_ok=True)
 
 
+class ReelHeld(Exception):
+    """Not enough real footage: hold the reel rather than ship a stack of text cards."""
+
+
+def clean_on_text(t: str) -> str:
+    """The card font has no star glyph (rendered '4.6▯'), and exact prices go stale on a
+    posted video; GHP shows price bands only."""
+    from brand import price_band
+    t = re.sub(r"\s*[\u2605\u2B50\u2729\u272A\u272D\u2606]\uFE0F?", " stars", str(t or ""))
+    # exact prices only (with cents); "Under $20" is already a band (scrub_prices had the
+    # same "Under under" bug, 2026-10-18)
+    t = re.sub(r"\$\d[\d,]*\.\d{2}", lambda m: price_band(m.group()).lower(), t)
+    return re.sub(r"\s{2,}", " ", t).strip()
+
+
 def produce_reel(script_path: Path) -> Path | None:
     script = json.loads(script_path.read_text())
     scenes = script.get("scenes", [])
@@ -1083,7 +1116,7 @@ def produce_reel(script_path: Path) -> Path | None:
     for i, scene in enumerate(scenes):
         n = scene.get("n", i + 1)
         visual = scene.get("visual_prompt", "").strip()
-        on_text = scene.get("on_screen_text", "")
+        on_text = clean_on_text(scene.get("on_screen_text", ""))
         vo = scene.get("voiceover", "").strip()
         duration = float(scene.get("duration_sec", 4))
 
@@ -1097,15 +1130,27 @@ def produce_reel(script_path: Path) -> Path | None:
         if i == 0:
             _SEEN_THIS_REEL.clear()
             sq = scene_queries(scenes, product_hint)
-        if not (visual and scene_video_clip(visual, product_hint, on_text, n == 1,
-                                            duration, clip_path, work_dir,
-                                            queries=sq.get(n) or sq.get(i + 1))):
+            real = 0
+        if visual and scene_video_clip(visual, product_hint, on_text, n == 1,
+                                       duration, clip_path, work_dir,
+                                       queries=sq.get(n) or sq.get(i + 1),
+                                       room=sq.get(0)):
+            real += 1
+        else:
             print("    no clip passed — animated brand card")
             kinetic_card_scene(on_text, n == 1, duration, clip_path, work_dir)
         scene_clips.append(clip_path)
 
         if vo:
             voiceover_full.append(vo)
+
+    # At least half the scenes must be real footage, or the reel is a slideshow of text
+    # cards (reel-2026-10-18-003 went out with 4 of 6). Hold it; the poster uses another.
+    if real * 2 < len(scenes):
+        for f in work_dir.iterdir():
+            f.unlink()
+        work_dir.rmdir()
+        raise ReelHeld(f"only {real}/{len(scenes)} scenes found real footage")
 
     audio_path = work_dir / "voiceover.mp3"
     vo_text = " ... ".join(voiceover_full) if voiceover_full else script.get("hook", "")
@@ -1175,7 +1220,8 @@ def main():
     for back in range(LOOKBACK_DAYS + 1):
         day = (base - timedelta(days=back)).strftime("%Y-%m-%d")
         candidates += sorted(SCRIPT_DIR.glob(f"reel-{day}-*.json"))
-    candidates = [c for c in candidates if not (REEL_DIR / f"{c.stem}.mp4").exists()]
+    candidates = [c for c in candidates if not (REEL_DIR / f"{c.stem}.mp4").exists()
+                  and not (REEL_DIR / f"{c.stem}.held").exists()]
     # The lookback window reaches back past the 2026-08-26 honesty rules, so the
     # backlog still holds scripts with invented experience. One rendered here with
     # "SO I GAVE UP" burned into the frame. On-screen text was never gated - only
@@ -1226,6 +1272,10 @@ def main():
             else:
                 failures += 1
                 print(f"  produce_reel returned None for {script_path.name}")
+        except ReelHeld as e:
+            (REEL_DIR / f"{script_path.stem}.held").write_text(str(e))
+            print(f"  HELD {script_path.name} — {e}")
+            attempted -= 1   # held, not rendered and not failed
         except Exception as e:
             failures += 1
             print(f"  ERROR producing {script_path.name}: {e}")
