@@ -4042,6 +4042,52 @@
           }
         ]
       }
+    ],
+    "HOME": [
+      {
+        "hook_category": "scene",
+        "hook": "Your shower curtain keeps clinging to your leg.",
+        "beat1": "Hot water creates a draft of steam inside the shower, and a light liner with no weight at the bottom gets pulled right into that airflow. With nothing anchoring the hem, it swings in and sticks to wet skin instead of hanging flat.",
+        "turn": "This liner has magnets sewn along the bottom edge and twelve button holes across the top, so it hangs weighted and secured instead of floating around. It's rated 4.6 stars by about seventy thousand people.",
+        "result": "The curtain stays against the tub wall, the water stays inside the tub, and it's about $9.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close shot inside a shower, a hand peeling a wet plastic liner off a bare leg as water runs in the background",
+            "on_screen_text": "Curtain clinging to your leg",
+            "voiceover": "Your shower curtain keeps clinging to your leg."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Steam rising in a bathroom, a thin shower liner visibly billowing inward near the tub while water runs",
+            "on_screen_text": "Steam pulls it right toward you",
+            "voiceover": "Hot water stirs up a draft, and a light liner with no weight at the bottom just swings in with it."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Hands running along the bottom hem of a white shower liner next to the tub wall, feeling the weighted edge sit flat",
+            "on_screen_text": "Magnets hold the bottom in place",
+            "voiceover": "This one has magnets along the bottom edge and twelve button holes up top, so it hangs flat against the tub instead of floating toward you."
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "A folded white fabric shower liner being set on a bathroom shelf next to a washing machine door",
+            "on_screen_text": "Hotel white, machine washable",
+            "voiceover": "It's a standard hotel-style white, machine washable, and about seventy thousand people rate it 4.6 stars."
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "Wide shot of a shower running with the liner hanging flat and still against the tub wall, no gap at the sides",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "The curtain stays put, the water stays in the tub, and it's about nine dollars. Comment {KEYWORD} and I'll send the link."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
