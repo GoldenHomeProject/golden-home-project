@@ -4,10 +4,10 @@
     "lifetime_follows": 25,
     "lifetime_likes": 33,
     "lifetime_comments": 7,
-    "last_session": "comments-2026-10-19T1406Z",
+    "last_session": "2026-10-19-2331-pi",
     "blocked_at": null,
-    "last_updated": "2026-10-19T14:09:12Z",
-    "total_actions": 689,
+    "last_updated": "2026-10-19T23:32:12Z",
+    "total_actions": 690,
     "lifetime_dms": 34,
     "lifetime_comments_outbound": 76
   },
@@ -36590,6 +36590,113 @@
       "post_url": "https://www.instagram.com/lifeinjeneral/p/DdDP3EWFCz0/",
       "text": "Nervous system reset is real \u2014 I noticed sticking to a wind-down routine with the lights off helped mine way more than a sound machine ever did, what's been working for your little one's cues?",
       "caption_seen": ""
+    },
+    {
+      "timestamp": "2026-10-19T23:32:12Z",
+      "action": "inbox_sweep",
+      "target": "self",
+      "session": "2026-10-19-2331-pi",
+      "requests_count": 0,
+      "inbox_count": 0,
+      "notifications_count": 23,
+      "requests": [],
+      "inbox": [],
+      "notifications": [
+        {
+          "handle": "choiceheavendeals",
+          "action": "liked your reel. 1d"
+        },
+        {
+          "handle": "choiceheavendeals",
+          "action": "liked your reel. 1d"
+        },
+        {
+          "handle": "choiceheavendeals",
+          "action": "liked your reel. 1d"
+        },
+        {
+          "handle": "choiceheavendeals",
+          "action": "liked your reel. 1d"
+        },
+        {
+          "handle": "choiceheavendeals",
+          "action": "liked your reel. 1d"
+        },
+        {
+          "handle": "choiceheavendeals",
+          "action": "liked your reel. 1d"
+        },
+        {
+          "handle": "choiceheavendeals",
+          "action": "liked your reel. 1d"
+        },
+        {
+          "handle": "choiceheavendeals",
+          "action": "liked your reel. 1d"
+        },
+        {
+          "handle": "choiceheavendeals",
+          "action": "liked your reel. 1d"
+        },
+        {
+          "handle": "choiceheavendeals",
+          "action": "liked your reel. 1d"
+        },
+        {
+          "handle": "choiceheavendeals",
+          "action": "liked your reel. 1d"
+        },
+        {
+          "handle": "choiceheavendeals",
+          "action": "liked your post. 1d"
+        },
+        {
+          "handle": "choiceheavendeals",
+          "action": "liked your reel. 1d"
+        },
+        {
+          "handle": "choiceheavendeals",
+          "action": "liked your reel. 1d"
+        },
+        {
+          "handle": "choiceheavendeals",
+          "action": "liked your reel. 1d"
+        },
+        {
+          "handle": "choiceheavendeals",
+          "action": "liked your reel. 1d"
+        },
+        {
+          "handle": "choiceheavendeals",
+          "action": "liked your reel. 1d"
+        },
+        {
+          "handle": "choiceheavendeals",
+          "action": "liked your reel. 1d"
+        },
+        {
+          "handle": "choiceheavendeals",
+          "action": "liked your reel. 1d"
+        },
+        {
+          "handle": "choiceheavendeals",
+          "action": "liked your post. 1d"
+        },
+        {
+          "handle": "choiceheavendeals",
+          "action": "started following you. 1d"
+        },
+        {
+          "handle": "choiceheavendeals",
+          "action": "liked your comment: Those pink tulips with the gold lanterns are the perfect spring combo! The whol...\u00a0more 2d"
+        },
+        {
+          "handle": "mcmillansonia",
+          "action": "liked your comment: Restock videos hit different \u2014 there's something so satisfying about everything...\u00a0more 16 Sept"
+        }
+      ],
+      "untapped_warm": [],
+      "dry_run": false
     }
   ]
 }
