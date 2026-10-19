@@ -70,6 +70,11 @@ def tile_types(names: list[str]) -> list[str]:
               "sentence case, no brand, no adjectives that are not in the name. Reply with "
               "ONLY a JSON array of strings, same order.\n" + "\n".join(f"- {n}" for n in names))
     try:
+        from _claude_api import _load_token_file
+        _load_token_file()
+    except Exception:
+        pass
+    try:
         import subprocess
         out = subprocess.run(["claude", "-p", "--max-turns", "1"], input=prompt,
                              capture_output=True, text=True, timeout=120).stdout
@@ -147,6 +152,7 @@ def main() -> int:
             print(f"  [skip] {slug}: hub no longer lists 4 of these picks")
             continue
 
+        picks = picks[:len(picks) // 2 * 2]   # 4 or 6: a 2-column grid with a hole looks broken
         print(f"  [collage] {slug} from {f.name} ({cat})")
         types = tile_types([str(p.get("name") or "") for p in picks])
         tiles = [{"type": t, "why": tile_why(p), "band": price_band(str(p.get("price") or ""))}
