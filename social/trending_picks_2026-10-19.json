@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-10-19",
+  "category": "Bath",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-bathroom-essentials.html",
+  "picks": [
+    {
+      "asin": "B08QRFZ6TH",
+      "name": "Barossa Design Oeko-tex Certified Shower Curtain Liner Standard Size",
+      "price": "$8.94",
+      "rating": 4.5,
+      "reviews": 101927,
+      "rank": 1
+    },
+    {
+      "asin": "B01HI1W1V4",
+      "name": "Etekcity Digital Body Weight Bathroom Scale",
+      "price": "$16.83",
+      "rating": 4.7,
+      "reviews": 173845,
+      "rank": 11
+    },
+    {
+      "asin": "B010S5VXKC",
+      "name": "Amazon Basics Fast Drying Cotton Washcloths for Bathroom",
+      "price": "$14.38",
+      "rating": 4.6,
+      "reviews": 76214,
+      "rank": 12
+    },
+    {
+      "asin": "B00P7VW2H6",
+      "name": "Clorox Toilet Plunger with Hideaway Holder Caddy Heavy-Duty Compact De",
+      "price": "$13.97",
+      "rating": 4.5,
+      "reviews": 18783,
+      "rank": 17
+    },
+    {
+      "asin": "B08WPQ12XX",
+      "name": "AquaCare 8-mode High Pressure Handheld Shower Head with 2-mode Power W",
+      "price": "$29.94",
+      "rating": 4.5,
+      "reviews": 50767,
+      "rank": 25
+    },
+    {
+      "asin": "B08CRPWQHB",
+      "name": "BigFoot Clear Shower Curtain",
+      "price": "$11.99",
+      "rating": 4.5,
+      "reviews": 59829,
+      "rank": 3
+    }
+  ]
+}
