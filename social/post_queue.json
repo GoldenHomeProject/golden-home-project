@@ -8683,10 +8683,10 @@
   },
   {
     "name": "reel_2026-10-18_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-18-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-18-001.mp4",
     "caption": "Stop buying thin curtains that let morning light in.\n\nMost curtain fabric is woven loose enough that light still gets through, especially along the top and side edges where panels don't quite meet. So sunrise, streetlights, or a neighbor's porch light end up in the room anyway, even with the curtains closed.\n\nThese are blackout panels made to cover the whole window and stop light at the source instead of just filtering it. Over a hundred thousand people have rated this two panel set 4.6 stars for bedrooms exactly like this.\n\nFor about $10, you get a window that goes properly dark instead of glowing at sunrise or under a streetlight, with two panels included for a standard window.\n\nComment BEDROOM and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -8703,7 +8703,8 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "Stop buying thin curtains that let morning light in."
+    "hook": "Stop buying thin curtains that let morning light in.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-18-001.mp4"
   },
   {
     "name": "reel_2026-10-18_002",
