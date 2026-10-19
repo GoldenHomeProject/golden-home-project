@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-10-18 (Affiliate Optimizer 10am)
+# Last updated: 2026-10-19 (Strategy & Outreach 9am)
 # ============================================================
 
 ---
@@ -3107,3 +3107,35 @@ Note: almost every video shows exactly 1 comment — these are the bot's own "SH
 8. Evaluate Sam's Club Creator via Impact dashboard (up to 20% home goods).
 9. Accept Best Choice Products Impact 10-15% (1-click unactioned).
 10. CJ portal: AliExpress dormancy DAY 18 + Wayfair/GreenLife/Levoit status check.
+
+---
+
+### October 2026 Visual Trend Insights (updated 2026-10-19 Strategy & Outreach 9am)
+
+Built on: Email Monitor 12:10 UTC (Gmail CLEAN — Zlike Hair Awin OFF-NICHE IAN decline via Awin dashboard; Cloudflare email routing verification IAN action needed); Trend Scout Oct 19 (top-3: couch cover #1 Mamma Mia 39th day, dated oak cabinets custom matte #2, room divider #3); Content Engine Oct 19 (1 script: washcloths hook). Cold outreach PAUSED per Ian Sep 3 directive.
+
+**CONTENT IDEA 1 — BOOKSHELF ROOM DIVIDER / ZONE CREATION**
+Trend Scout #3 today: "$65 room divider hides the clutter and defines the space." TikTok "Bookshelf Wealth" aesthetic crossed 1.7M+ views; open bookshelf dividers are a confirmed Pinterest 2026 trend for zone-creating in small apartments (Japandi, sustainable material, renter-safe). The VISUAL short-video format = open-plan apartment chaos → two fully defined zones (living + dining) with freestanding 5-shelf bookcase divider. Renter-safe (freestanding, zero tools), $55-85 price point, instant architectural transformation. Pinterest saves strong because the "bookshelf as wall" creates the illusion of a second room. Zero GHP coverage on room divider / zone-creation format. DISTINCT from: wood slat wall Oct 11 (decorative accent wall, NOT functional divider); none of the 19 prior October content slots covers zone-creation. Hook: "My living room and dining room were the same room. $65. Same apartment. I made two rooms."
+
+**CONTENT IDEA 2 — GREIGE/TAUPE CABINET CONTACT PAPER (ORGANIC MODERN KITCHEN)**
+Trend Scout #2 today: "dated oak cabinets custom matte finish." TikTok "Organic Modern" kitchen = #1 breakout aesthetic 2026 (38,900 posts, per QS Supplies Oct 2026 survey confirmed Oct 15). The specific product gap: warm greige/taupe/warm-beige MATTE contact paper roll — DISTINCT from all prior contact paper picks: black/navy (Oct 16, two-tone dark), walnut faux wood grain (Oct 14, wood-look), white/cream (Oct 1, modern white), oak grain (Oct 5). Greige/taupe = the organic modern neutral completing the Organic Modern palette that no GHP content has executed. Format: dated oak cabinets → warm organic modern kitchen in 3 hours, $15-20. Hook: "I've looked at these oak cabinets for 3 years. $18. Same cabinets. It looks like a catalog kitchen." Pairs with bamboo utensil crock (Oct 15) for multi-product organic modern kitchen arc.
+
+**CONTENT IDEA 3 — FRIENDSGIVING/THANKSGIVING TABLE TRANSFORMATION**
+Peak Pinterest save window opening TODAY: Oct 19 = 38 days before Thanksgiving (Nov 26). Pinterest "Thanksgiving tablescape" and "Friendsgiving table" saves spike in the Oct 19–Nov 5 window — this is the highest-velocity early-adopter window for this format. 2026 confirmed color direction: deep cranberry/rust + warm neutral + natural wood (Homes & Gardens, nashvillemoms.com 2026). ZERO GHP dining table transformation content in channel history. The full-table transformation format is completely uncovered. Budget: kraft paper runner $9 + pillar candles varied heights 3-pack $13 + linen cloth napkins 8-pack $19 = $41 total. Hook: "My dining table was where mail went to die. $41. Same table. My friends thought I hired a stylist." Pairs with Amazon linen napkin pick below. DISTINCT from: kraft paper runner (Oct 10 Amazon pick — table surface only, NOT a full transformation).
+
+**Competitor watch (Oct 19):** Alexandra Gater: no October 2026 video found in web search — 30th+ consecutive no-upload day confirmed. Nancy Meyers renter kitchen and Friendsgiving table formats remain uncovered by any major competitor. Nest With Me: crafts only. DIY Creators: woodworking only. All 3 GHP content ideas = zero competitor coverage.
+
+- **Amazon picks for Pinterest pipeline (Oct 19) — categories with real August sales:** (1) LIVING ROOM/RENTER: Freestanding 5-shelf bookcase / open room divider ladder shelf ~$55-85 — Trend Scout #3 today, "Bookshelf Wealth" TikTok 1.7M+ views, renter-safe zone-creation format, zero prior GHP coverage; DISTINCT from all prior Oct picks; IAN: search "freestanding 5 shelf bookcase open room divider ladder bookshelf" in Associates for top ASIN; https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20. (2) KITCHEN/RENTER: Warm greige/taupe/beige matte self-adhesive contact paper roll ~$13-22 — Trend Scout #2 today (dated oak cabinets), Organic Modern TikTok #1 aesthetic 2026; DISTINCT from black Oct 16, walnut Oct 14, white Oct 1, oak grain Oct 5; greige = missing color slot; IAN: search "contact paper greige taupe beige matte self adhesive cabinet kitchen roll" in Associates for top ASIN; goldenhomep0a-20 tag. (3) DINING/HOSTING: Linen cloth napkins set of 8 fall earthy tones (rust/sage/cream/oatmeal) ~$16-24 — Friendsgiving/Thanksgiving table transformation, peak Pinterest "Thanksgiving tablescape" save velocity starts NOW (Oct 19, 38 days out); DISTINCT from kraft paper runner Oct 10 (table surface, not linens) and all prior textile picks (dining, not bedroom/living room); IAN: search "linen cloth napkins set 8 fall earthy rust sage cream thanksgiving" in Associates for top ASIN; goldenhomep0a-20 tag.
+
+### October 2026 Affiliate Updates (updated 2026-10-19 Strategy & Outreach 9am)
+
+🚨🚨🚨 **SMARTWINGS HALLOWEEN SALE CLOSES TODAY OCT 19** — Impact.com Publisher ID 7104029 → SmartWings partner page → pull tracking link + confirm participation via platform messaging (NOT email, SMTP permanently bounced). Final window.
+
+**IAN PRIORITY ACTIONS (Oct 19 — from Strategy & Outreach):**
+1. 🚨🚨🚨 SMARTWINGS HALLOWEEN SALE — CLOSES TODAY. Impact platform (NOT email).
+2. 🚨🚨 BUILD PROMEED IMPACT TRACKING LINK — DAY 12 OVERDUE. amelia.avery@promeed.com, IAN2026F3 + SAMPLE-IAN-COOL3-2026.
+3. 🚨🚨 CONTACT ANDY (SMARTWINGS BF/CM) VIA IMPACT PLATFORM MESSAGING.
+4. 🚨 ACCEPT REWARX AWIN ID 129153 — 50% RECURRING, DAY 33.
+5. DECLINE ZLIKE HAIR (Awin) via Awin dashboard — OFF-NICHE.
+6. VERIFY CLOUDFLARE EMAIL ROUTING (click link in Cloudflare email thread 1a153c39b0af6b94).
+7. MAMMA MIA AFTER-FIRST $47 SCRIPT — 39th UNBREAKABLE day (24-30% ACTIVE).
