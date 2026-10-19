@@ -387,8 +387,10 @@ def main() -> int:
     def _is_drop(pin):
         return "Price drop" in (pin.get("title") or "")
 
+    # How-to pins (2026-10-19) are the other high-save format: a new angle on a product,
+    # so like collages they may post even if that product was pinned before.
     def _is_collage(pin):
-        return pin.get("format") == "collage"
+        return pin.get("format") in ("collage", "howto")
 
     # A gift pin is a new angle on a product, aimed at a different search ("gifts
     # under $25"), so it may post even if the product was pinned before. One per

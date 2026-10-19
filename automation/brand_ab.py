@@ -136,7 +136,8 @@ def a_product(headline, kicker, photo: Path | None, tape: str, band: str, out: P
     return out
 
 
-def a_howto(headline, kicker, steps: list[str], tape: str, out: Path) -> Path:
+def a_howto(headline, kicker, steps: list[str], tape: str, out: Path,
+            footer: str = "Save this before you shop.") -> Path:
     """Tape across the top, a lettered A/B/C measuring diagram, three lettered steps."""
     c = Image.new("RGBA", (W, H), PAPER + (255,))
     a_tape(c, (0 - 12, 0 - 12, W + 12), tape, h=96)
@@ -174,7 +175,7 @@ def a_howto(headline, kicker, steps: list[str], tape: str, out: Path) -> Path:
             d.text((M + 76, ly), ln, font=sf, fill=BODY)
             ly += 40
         y = max(y + 74, ly + 22)
-    d.text((M, H - 92), "Save for move-in day.", font=F("DMSans-Bold.ttf", 30), fill=PINE)
+    d.text((M, H - 92), footer, font=F("DMSans-Bold.ttf", 30), fill=PINE)
     a_mark(d, W - M - 56, H - 104, 56)
     out.parent.mkdir(parents=True, exist_ok=True)
     c.convert("RGB").save(out, "PNG", optimize=True)
