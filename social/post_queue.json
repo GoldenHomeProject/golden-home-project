@@ -8780,5 +8780,91 @@
     },
     "hook": "You run out of clean washcloths halfway through the week.",
     "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-19-001.mp4"
+  },
+  {
+    "name": "reel_repurpose_2026-10-19_901",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-19-901.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "I got quoted $5,000-$20,000 to replace my oak cabinets. Instead I spent $89 on a kit, plus $91 more for a second one, and ended up with the burnt-orange HGTV and BHG are both pushing this week. Full breakdown \u2014 tinting, cure time, what actually went wrong \u2014 on the blog.",
+    "hashtags": [
+      "#cabinetmakeover",
+      "#oakcabinets",
+      "#paintedcabinets",
+      "#kitchenonabudget",
+      "#diykitchen",
+      "#cabinettransformation",
+      "#homerenovation"
+    ],
+    "hook": "I painted my oak cabinets for $89, not $12,000"
+  },
+  {
+    "name": "reel_repurpose_2026-10-19_902",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-19-902.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "The burnt-orange cabinets flooding Pinterest this week aren't coming pre-mixed out of an $89 box \u2014 they're a custom tint job on top of it. Here's exactly what DIYers are asking the paint counter for, and why two people with the same kit get different results. Full writeup linked.",
+    "hashtags": [
+      "#cabinetpaint",
+      "#burntorangekitchen",
+      "#terracottakitchen",
+      "#behrpaint",
+      "#diycabinets",
+      "#kitchenmakeover"
+    ],
+    "hook": "The $89 cabinet kit doesn't come in burnt-orange"
+  },
+  {
+    "name": "reel_repurpose_2026-10-19_903",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-19-903.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "The $89 price tag on this cabinet kit is the headline, not the real number. Between the second kit most kitchens need and the actual cure time, I'm budgeting closer to $180 and three weeks before I'd call it finished. What reviewers wish they'd known before starting, on the blog.",
+    "hashtags": [
+      "#cabinetkit",
+      "#rustoleum",
+      "#diyrenovation",
+      "#kitchenreno",
+      "#cabinetpainting",
+      "#homeimprovementtips"
+    ],
+    "hook": "My $89 cabinet kit actually cost $180, here's why"
+  },
+  {
+    "name": "reel_repurpose_2026-10-19_904",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-19-904.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Matte black hardware is the detail that makes a repainted cabinet look like an actual renovation instead of a weekend paint job. Doors are already off the hinges for cure time, so this is a one-hour add, not a second project. The pulls I'd order (38,159 ratings, 4.7 stars) are linked in the full post.",
+    "hashtags": [
+      "#matteblackhardware",
+      "#cabinetpulls",
+      "#kitchenhardware",
+      "#cabinetmakeover",
+      "#diykitchen",
+      "#kitchenupdate"
+    ],
+    "hook": "$27 of hardware is why this paint job looks finished"
+  },
+  {
+    "name": "reel_repurpose_2026-10-19_905",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-19-905.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "The cabinets are already empty for cure time \u2014 that's the one point in a kitchen's life where organizing the corner cabinet costs nothing extra. Add $25 in non-skid turntables and $20 in towels that actually match the new color, and the $89 paint job stops looking like an isolated change. Full list and links on the blog.",
+    "hashtags": [
+      "#kitchenorganization",
+      "#lazysusan",
+      "#cabinetorganizer",
+      "#kitchenmakeover",
+      "#smallkitchenideas",
+      "#homeorganizing"
+    ],
+    "hook": "$45 in extras while the cabinets are already empty"
   }
 ]

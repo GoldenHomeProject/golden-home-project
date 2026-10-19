@@ -1,0 +1,60 @@
+{
+  "created_at": "2026-10-19T16:06:35.075892Z",
+  "date": "2026-10-19",
+  "seq": 905,
+  "source": "repurpose",
+  "hook": "$45 in extras while the cabinets are already empty",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Wide shot of empty cabinet interiors, doors removed, counters covered in cabinet contents",
+      "on_screen_text": "Cure time = cabinets already empty",
+      "voiceover": "While the paint cures, every cabinet interior is already emptied out."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Corner cabinet shelf with jumbled cans and jars, clearly disorganized",
+      "on_screen_text": "The corner cabinet nobody fixes",
+      "voiceover": "This is the one time fixing the corner cabinet costs zero extra disruption."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Set of 4 non-skid lazy susan turntables being placed into an empty cabinet shelf",
+      "on_screen_text": "$24.99 for 4, non-skid base",
+      "voiceover": "A set of four non-skid turntables is $24.99 \u2014 no slide when they rotate."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Jars and cans arranged neatly on a turntable, hand spinning it",
+      "on_screen_text": "No installation, just drop in",
+      "voiceover": "No installation. They just sit on the shelf as-is."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Stack of neutral cream hand towels folded next to finished burnt-orange cabinets",
+      "on_screen_text": "$20 for a 4-pack",
+      "voiceover": "Then $20 on plain cotton towels, because old towels make new cabinets look unfinished by contrast."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Final wide shot of a complete kitchen: burnt-orange cabinets, black hardware, organized shelves, new towels",
+      "on_screen_text": "$89 kit \u2192 full kitchen reset",
+      "voiceover": "Altogether, under $230 turns one paint job into a finished room."
+    }
+  ],
+  "caption": "The cabinets are already empty for cure time \u2014 that's the one point in a kitchen's life where organizing the corner cabinet costs nothing extra. Add $25 in non-skid turntables and $20 in towels that actually match the new color, and the $89 paint job stops looking like an isolated change. Full list and links on the blog.",
+  "hashtags": [
+    "#kitchenorganization",
+    "#lazysusan",
+    "#cabinetorganizer",
+    "#kitchenmakeover",
+    "#smallkitchenideas",
+    "#homeorganizing"
+  ]
+}

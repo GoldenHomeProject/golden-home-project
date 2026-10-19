@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-10-19T16:06:35.075606Z",
+  "date": "2026-10-19",
+  "seq": 903,
+  "source": "repurpose",
+  "hook": "My $89 cabinet kit actually cost $180, here's why",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of kit label showing '200 sq ft coverage'",
+      "on_screen_text": "200 sq ft per kit",
+      "voiceover": "The label says 200 square feet \u2014 that's about 20 to 25 doors and drawers."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Wide shot of a full kitchen with a double run of upper and lower cabinets",
+      "on_screen_text": "Double-run kitchen = 2 kits",
+      "voiceover": "A double run of upper and lower cabinets almost always needs two kits, not one."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Open window with a fan running while deglosser fumes visibly waft, person wearing a mask",
+      "on_screen_text": "Ventilate \u2014 really ventilate",
+      "voiceover": "Reviewers all say the same thing: the deglosser smell needs real airflow, not a cracked window."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Close-up of bond coat being applied in thin, even strokes, slightly tacky texture visible",
+      "on_screen_text": "2-3 thin coats, not 1 heavy coat",
+      "voiceover": "The bond coat has to go on thin, two or three light coats, or it stays tacky."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Calendar graphic flipping from Day 1 to Day 21 with cabinet doors off hinges throughout",
+      "on_screen_text": "Full cure: 1-3 weeks",
+      "voiceover": "Dry to touch is 2 hours. Full cure is 1 to 3 weeks, with doors off the hinges that whole time."
+    },
+    {
+      "n": 6,
+      "duration_sec": 4,
+      "visual_prompt": "Trash bag being tied off with solvent rags and tape visible inside, placed outside",
+      "on_screen_text": "Bag rags as you go",
+      "voiceover": "And solvent-soaked rags don't sit in the kitchen trash can for a week \u2014 bag them as you go."
+    },
+    {
+      "n": 7,
+      "duration_sec": 3,
+      "visual_prompt": "Final cost graphic showing $89 plus $91 equals $180",
+      "on_screen_text": "$89 \u2192 $180 realistic total",
+      "voiceover": "Budget $180 and three weeks, not $89 and a weekend."
+    }
+  ],
+  "caption": "The $89 price tag on this cabinet kit is the headline, not the real number. Between the second kit most kitchens need and the actual cure time, I'm budgeting closer to $180 and three weeks before I'd call it finished. What reviewers wish they'd known before starting, on the blog.",
+  "hashtags": [
+    "#cabinetkit",
+    "#rustoleum",
+    "#diyrenovation",
+    "#kitchenreno",
+    "#cabinetpainting",
+    "#homeimprovementtips"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "created_at": "2026-10-19T16:06:35.075125Z",
+  "date": "2026-10-19",
+  "seq": 901,
+  "source": "repurpose",
+  "hook": "I painted my oak cabinets for $89, not $12,000",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of a handwritten contractor estimate reading $5,000-$20,000 next to dated glossy orange oak cabinets",
+      "on_screen_text": "$5,000-$20,000",
+      "voiceover": "Every quote I got for these cabinets started at five figures."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Hand running along dated glossy orange-toned oak cabinet door, camera close on wood grain",
+      "on_screen_text": "The wood's fine. The color isn't.",
+      "voiceover": "The wood underneath is structurally fine \u2014 it's just orange and shiny."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Unboxing an $89 cabinet paint kit on a kitchen counter, box label visible",
+      "on_screen_text": "$89 kit",
+      "voiceover": "This $89 kit is behind most of the 'paint your cabinets' posts right now."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Wiping cabinet door with deglosser cloth, grease residue visible before the wipe",
+      "on_screen_text": "Step 1: strip the grease",
+      "voiceover": "First pass is deglosser \u2014 it won't grip over kitchen grime."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Paint counter employee tinting a can of bonding coat to match a burnt-orange chip",
+      "on_screen_text": "Custom-tinted, not pre-mixed",
+      "voiceover": "It doesn't ship burnt-orange \u2014 you bring the bonding coat in and get it tinted."
+    },
+    {
+      "n": 6,
+      "duration_sec": 4,
+      "visual_prompt": "Reveal shot of finished burnt-orange cabinets with new black hardware in a full kitchen",
+      "on_screen_text": "Two kits, full kitchen",
+      "voiceover": "A full kitchen runs two kits, so closer to $160 to $180 total."
+    },
+    {
+      "n": 7,
+      "duration_sec": 3,
+      "visual_prompt": "Text card showing math: $180 versus $20,000 replacement quote crossed out",
+      "on_screen_text": "1-2% of replacement cost",
+      "voiceover": "Still under 2 percent of what replacement quoted me."
+    }
+  ],
+  "caption": "I got quoted $5,000-$20,000 to replace my oak cabinets. Instead I spent $89 on a kit, plus $91 more for a second one, and ended up with the burnt-orange HGTV and BHG are both pushing this week. Full breakdown \u2014 tinting, cure time, what actually went wrong \u2014 on the blog.",
+  "hashtags": [
+    "#cabinetmakeover",
+    "#oakcabinets",
+    "#paintedcabinets",
+    "#kitchenonabudget",
+    "#diykitchen",
+    "#cabinettransformation",
+    "#homerenovation"
+  ]
+}

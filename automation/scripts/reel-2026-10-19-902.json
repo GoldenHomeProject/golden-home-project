@@ -1,0 +1,60 @@
+{
+  "created_at": "2026-10-19T16:06:35.075409Z",
+  "date": "2026-10-19",
+  "seq": 902,
+  "source": "repurpose",
+  "hook": "The $89 cabinet kit doesn't come in burnt-orange",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Cabinet kit box on a counter, label showing fixed colors Dark, Linen, Espresso, White",
+      "on_screen_text": "Fixed colors only",
+      "voiceover": "The $89 kit everyone's using ships in five colors \u2014 none of them burnt-orange."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Phone screen scrolling Pinterest burnt-orange terracotta kitchen cabinets",
+      "on_screen_text": "So where's this color from?",
+      "voiceover": "So where's the color everyone's posting actually coming from?"
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Hand carrying a can of bonding coat into a paint store counter",
+      "on_screen_text": "The bonding coat gets custom-tinted",
+      "voiceover": "DIYers are taking the bonding coat itself in and having it tinted to a specific chip."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Close-up of a paint counter tinting machine dispensing orange pigment into a can",
+      "on_screen_text": "Tint ratio changes the outcome",
+      "voiceover": "That's also why results vary more than a pre-mixed paint \u2014 tint ratio and coat count both shift the final tone."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Two side-by-side cabinet doors, one lighter terracotta, one deeper burnt-orange, same base kit",
+      "on_screen_text": "Same kit, two different results",
+      "voiceover": "Same $89 kit, two different outcomes, depending on how it's tinted and applied."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Finished kitchen shot, burnt-orange cabinets catching window light",
+      "on_screen_text": "What reviewers get right",
+      "voiceover": "Get the tint and the coats right, and this is what's possible for under $200."
+    }
+  ],
+  "caption": "The burnt-orange cabinets flooding Pinterest this week aren't coming pre-mixed out of an $89 box \u2014 they're a custom tint job on top of it. Here's exactly what DIYers are asking the paint counter for, and why two people with the same kit get different results. Full writeup linked.",
+  "hashtags": [
+    "#cabinetpaint",
+    "#burntorangekitchen",
+    "#terracottakitchen",
+    "#behrpaint",
+    "#diycabinets",
+    "#kitchenmakeover"
+  ]
+}
