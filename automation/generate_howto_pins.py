@@ -141,13 +141,14 @@ def main() -> int:
         band = price_band(str(p.get("price") or ""))
         out = (Path("/tmp/howto") if args.dry else PINS_DIR) / f"{pin_id}.png"
         variant = brand_ab.variant_for(pin_id)   # brand A/B test, see brand_ab.py
+        # Both arms get IDENTICAL words (marketing dept, 2026-10-19): only the look differs.
+        steps = steps + [f"Check them against the listing: {tape}" if tape
+                         else "Then check them against the size on the listing."]
+        line = f"Our pick lists {tape}" if tape else "A · B · C — 3 numbers, 2 minutes"
         if variant == "A":
-            brand_ab.a_howto(headline, kicker, steps,
-                             f"Our pick lists {tape}" if tape else "A · B · C — 3 numbers, 2 minutes", out)
+            brand_ab.a_howto(headline, kicker, steps, line, out)
         else:
-            brand_ab.b_howto(headline, steps + [f"Check them against the listing: {tape}" if tape
-                                       else "Then check them against the size on the listing."],
-                             kicker[:1].upper() + kicker[1:], out)
+            brand_ab.b_howto(headline, steps, line, out, kicker=kicker)
         if args.dry:
             made += 1
             print(f"  [dry] {asin} {variant} {typ!r} tape={tape!r} steps={steps}")

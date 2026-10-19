@@ -149,7 +149,8 @@ def a_howto(headline, kicker, steps: list[str], tape: str, out: Path,
         d.text((M, y), ln, font=hf, fill=PINE)
         y += int(s * 1.02)
     # diagram: a cabinet in Sage with A (width), B (depth), C (height) callouts
-    gy, gx0, gx1, gh = y + 92, M + 120, W - M - 120, 360   # room above for the A callout
+    gh = 360 if len(steps) <= 3 else 290   # a 4th step needs the room
+    gy, gx0, gx1 = y + 92, M + 120, W - M - 120   # room above for the A callout
     d.rounded_rectangle([gx0, gy, gx1, gy + gh], radius=18, fill=SAGE, outline=PINE, width=5)
     d.rectangle([gx0 + 30, gy + gh * 0.55, gx1 - 30, gy + gh * 0.55 + 10], fill=PINE)
     d.rounded_rectangle([gx0 + 60, gy + 40, gx0 + 200, gy + gh * 0.55 - 10], radius=8, fill=PAPER, outline=PINE, width=3)
@@ -175,6 +176,13 @@ def a_howto(headline, kicker, steps: list[str], tape: str, out: Path,
             d.text((M + 76, ly), ln, font=sf, fill=BODY)
             ly += 40
         y = max(y + 74, ly + 22)
+    for step in steps[3:4]:   # the listing check: not a measurement, so a tick, not a letter
+        d.ellipse([M, y, M + 52, y + 52], fill=PINE)
+        d.line([(M + 14, y + 27), (M + 23, y + 37), (M + 39, y + 17)], fill=MARIGOLD, width=6)
+        ly = y + 6
+        for ln in _wrap(d, step, sf, W - 2 * M - 80)[:2]:
+            d.text((M + 76, ly), ln, font=sf, fill=BODY)
+            ly += 40
     d.text((M, H - 92), footer, font=F("DMSans-Bold.ttf", 30), fill=PINE)
     a_mark(d, W - M - 56, H - 104, 56)
     out.parent.mkdir(parents=True, exist_ok=True)
@@ -228,12 +236,25 @@ def b_wordmark(d, y):
     d.text(((W - d.textlength(t, font=f)) / 2, y), t, font=f, fill=B_WORD)
 
 
-def b_product(headline, photo: Path | None, meta: str, out: Path) -> Path:
+def b_kicker(d, y, kicker):
+    """B's kicker: small caps beside the gold rule, so B carries the same words as A."""
+    if kicker:
+        d.text((M + 96, y), kicker.upper(), font=F("WorkSans-SemiBold.ttf", 22), fill=B_META)
+
+
+def b_footer(d, footer):
+    if footer:
+        f = F("WorkSans-SemiBold.ttf", 28)
+        d.text(((W - d.textlength(footer, font=f)) / 2, H - 128), footer, font=f, fill=B_INK)
+
+
+def b_product(headline, photo: Path | None, meta: str, out: Path, kicker: str = "") -> Path:
     c = Image.new("RGB", (W, H), B_WHITE)
     if photo and Path(photo).exists():
         c.paste(_cover(Image.open(photo).convert("RGB"), W, 1000), (0, 0))
     d = ImageDraw.Draw(c)
     d.rectangle([M, 1050, M + 72, 1054], fill=B_GOLD)
+    b_kicker(d, 1039, kicker)
     hf, lines, s = _fit(d, headline, "Fraunces-SemiBold.ttf", range(72, 48, -4), W - 2 * M, 3)
     y = 1076
     for ln in lines:
@@ -249,11 +270,13 @@ def b_product(headline, photo: Path | None, meta: str, out: Path) -> Path:
     return out
 
 
-def b_howto(headline, steps: list[str], meta: str, out: Path) -> Path:
+def b_howto(headline, steps: list[str], meta: str, out: Path, kicker: str = "",
+            footer: str = "Save this before you shop.") -> Path:
     """Typographic: white ground, serif headline, numbered steps separated by gold rules."""
     c = Image.new("RGB", (W, H), B_WHITE)
     d = ImageDraw.Draw(c)
     d.rectangle([M, 120, M + 72, 124], fill=B_GOLD)
+    b_kicker(d, 109, kicker)
     hf, lines, s = _fit(d, headline, "Fraunces-SemiBold.ttf", range(76, 52, -4), W - 2 * M, 3)
     y = 150
     for ln in lines:
@@ -262,7 +285,7 @@ def b_howto(headline, steps: list[str], meta: str, out: Path) -> Path:
     d.text((M, y + 10), meta, font=F("WorkSans-Regular.ttf", 26), fill=B_META)
     y += 90
     nf, sf = F("Fraunces-SemiBold.ttf", 64), F("WorkSans-Regular.ttf", 32)
-    avail = H - 150 - y
+    avail = H - 190 - y   # room for the footer line
     per = avail // max(1, len(steps[:4]))
     for i, step in enumerate(steps[:4], 1):
         d.line([(M, y), (W - M, y)], fill=B_GOLD, width=2)
@@ -272,17 +295,19 @@ def b_howto(headline, steps: list[str], meta: str, out: Path) -> Path:
             d.text((M + 100, ly), ln, font=sf, fill=B_INK)
             ly += 44
         y += per
+    b_footer(d, footer)
     b_wordmark(d, H - 70)
     out.parent.mkdir(parents=True, exist_ok=True)
     c.save(out, "PNG", optimize=True)
     return out
 
 
-def b_collage(headline, tiles: list[dict], out: Path) -> Path:
+def b_collage(headline, tiles: list[dict], out: Path, kicker: str = "") -> Path:
     """Typographic gift guide: white ground, serif numerals, gold hairline grid."""
     c = Image.new("RGB", (W, H), B_WHITE)
     d = ImageDraw.Draw(c)
     d.rectangle([M, 100, M + 72, 104], fill=B_GOLD)
+    b_kicker(d, 89, kicker)
     hf, lines, s = _fit(d, headline, "Fraunces-SemiBold.ttf", range(76, 52, -4), W - 2 * M, 3)
     y = 130
     for ln in lines:

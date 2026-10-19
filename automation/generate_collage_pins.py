@@ -167,7 +167,7 @@ def main() -> int:
         if variant == "A":
             brand_ab.a_collage(headline, kicker, tiles, out)
         else:
-            brand_ab.b_collage(headline, tiles, out)
+            brand_ab.b_collage(headline, tiles, out, kicker=kicker)
 
         # Say only what the picks show (the old line claimed "4.5 stars or higher across
         # thousands of ratings" for every collage without checking).

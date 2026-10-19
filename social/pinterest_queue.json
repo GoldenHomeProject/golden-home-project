@@ -7020,7 +7020,8 @@
   "image_path": "social/pinterest/collage-2026-10-19-best-home-organization-products.png",
   "link": "https://goldenhomeproject.com/blog/posts/best-home-organization-products.html?v=B",
   "format": "collage",
-  "variant": "B"
+  "variant": "B",
+  "ab_exclude": "built before arm copy parity (2026-10-19); still posts"
  },
  {
   "id": "howto-2026-10-19-B08KXKVT4K",
@@ -7035,6 +7036,7 @@
   "posted": false,
   "source": "generate_howto_pins",
   "format": "howto",
-  "variant": "B"
+  "variant": "B",
+  "ab_exclude": "built before arm copy parity (2026-10-19); still posts"
  }
 ]

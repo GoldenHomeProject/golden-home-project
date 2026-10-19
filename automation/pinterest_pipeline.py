@@ -1271,14 +1271,16 @@ def main() -> int:
         band = price_band(price)
         tape = brand_ab.tape_text(name)   # listing title only, never read off the photo
         photo = bg_path if bg_ok else None
+        # Both arms carry IDENTICAL words (marketing dept, 2026-10-19): kicker, headline,
+        # one detail (size from the title, else the rating) and the price band.
+        stars = str(entry.get("verified_stars") or "").strip()
+        detail = tape or (f"{stars} stars on Amazon" if stars else "")
         if variant == "A":
-            stars = str(entry.get("verified_stars") or "").strip()
             brand_ab.a_product(headline, _search_phrase(board), photo,
-                               tape or (f"{stars} stars on Amazon" if stars else band.lower()),
-                               band, img_path)
+                               detail or band.lower(), band, img_path)
         else:
-            brand_ab.b_product(headline, photo,
-                               " · ".join(x for x in (tape, band.lower()) if x), img_path)
+            brand_ab.b_product(headline, photo, " · ".join(x for x in (detail, band.lower()) if x),
+                               img_path, kicker=_search_phrase(board))
 
         # Gift pins go out as VIDEO pins when a clean real-footage clip can be found
         # (automation/video_pin.py: Pexels HD, no faces, subject is the main focus).
