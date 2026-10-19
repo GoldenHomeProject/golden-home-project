@@ -645,6 +645,7 @@ details p{{margin-top:10px;color:#c8c4bc;font-size:15px}}
 We refresh this with what's actually trending. If it helped, tomorrow's is worth a look.</div>
   <a class="back-link" href="/blog/">&larr; More posts</a>
 </div>
+<script>/* brand A/B arm from a Pinterest pin (?v=A|B): retag Amazon links client-side. No param = the page's own tag. Canonical URL is unaffected. */(function(){{var v=new URLSearchParams(location.search).get("v");var t={{A:"ghpbranda-20",B:"ghpbrandb-20"}}[v];if(!t)return;document.querySelectorAll('a[href*="amazon.com/dp/"]').forEach(function(a){{try{{var u=new URL(a.href);u.searchParams.set("tag",t);u.searchParams.set("ascsubtag","pinterest_hub_brand"+v);a.href=u.toString();}}catch(e){{}}}});}})();</script>
 </body>
 </html>
 """

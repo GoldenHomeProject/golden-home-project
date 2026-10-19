@@ -1338,7 +1338,7 @@ def main() -> int:
         # /dp/ links and feed SEO), without putting a detour in front of the majority.
         hub = blog_url_for(entry)
         use_hub = hub and (len(queue) % 4 == 3) and not gift   # gift shoppers go straight to the product
-        link = hub if use_hub else build_affiliate_url(asin, "pinterest", subtag=f"brand{variant}",
+        link = f"{hub}?v={variant}" if use_hub else build_affiliate_url(asin, "pinterest", subtag=f"brand{variant}",
                                                                      tag=BRAND_TAGS[variant])
         rel = str(img_path.relative_to(ROOT))
         queue.append({

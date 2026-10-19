@@ -183,7 +183,7 @@ def main() -> int:
                 f"{headline}. {proof}Picked from Amazon's live best-seller charts. "
                 f"Price ranges were accurate when published and change often."),
             "image_path": str(out.relative_to(ROOT)),   # key every other producer uses
-            "link": f"{SITE}/blog/posts/{slug}.html",
+            "link": f"{SITE}/blog/posts/{slug}.html?v={variant}",   # hub retags by arm
             "format": "collage",
             "variant": variant,
         })
