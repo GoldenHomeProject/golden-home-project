@@ -4,12 +4,12 @@
     "lifetime_follows": 25,
     "lifetime_likes": 33,
     "lifetime_comments": 7,
-    "last_session": "2026-10-19-1334-pi",
+    "last_session": "comments-2026-10-19T1406Z",
     "blocked_at": null,
-    "last_updated": "2026-10-19T13:34:53Z",
-    "total_actions": 687,
+    "last_updated": "2026-10-19T14:09:12Z",
+    "total_actions": 689,
     "lifetime_dms": 34,
-    "lifetime_comments_outbound": 74
+    "lifetime_comments_outbound": 76
   },
   "actions": [
     {
@@ -36572,6 +36572,24 @@
       ],
       "untapped_warm": [],
       "dry_run": false
+    },
+    {
+      "timestamp": "2026-10-19T14:07:38Z",
+      "action": "comment_posted",
+      "target": "breathing.room.home",
+      "session": "comments-2026-10-19T1406Z",
+      "post_url": "https://www.instagram.com/breathing.room.home/p/DeS1-FQGk_K/",
+      "text": "Tell-tale sign of a hoarding setup fighting back: assigning a \"one in, one out\" rule for whatever surface this is clearing keeps it from refilling in a week. What's your trigger for the next pass \u2014 a ",
+      "caption_seen": ""
+    },
+    {
+      "timestamp": "2026-10-19T14:09:12Z",
+      "action": "comment_posted",
+      "target": "lifeinjeneral",
+      "session": "comments-2026-10-19T1406Z",
+      "post_url": "https://www.instagram.com/lifeinjeneral/p/DdDP3EWFCz0/",
+      "text": "Nervous system reset is real \u2014 I noticed sticking to a wind-down routine with the lights off helped mine way more than a sound machine ever did, what's been working for your little one's cues?",
+      "caption_seen": ""
     }
   ]
 }
