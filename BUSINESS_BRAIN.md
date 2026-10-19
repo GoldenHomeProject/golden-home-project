@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-10-19 (Strategy & Outreach 9am)
+# Last updated: 2026-10-19 (Affiliate Optimizer 10am)
 # ============================================================
 
 ---
@@ -3138,4 +3138,67 @@ Peak Pinterest save window opening TODAY: Oct 19 = 38 days before Thanksgiving (
 4. 🚨 ACCEPT REWARX AWIN ID 129153 — 50% RECURRING, DAY 33.
 5. DECLINE ZLIKE HAIR (Awin) via Awin dashboard — OFF-NICHE.
 6. VERIFY CLOUDFLARE EMAIL ROUTING (click link in Cloudflare email thread 1a153c39b0af6b94).
+
+### October 2026 Affiliate Updates (updated 2026-10-19 Affiliate Optimizer 10am)
+
+Built on: Email Monitor 12:10 UTC (Zlike Hair Awin OFF-NICHE — IAN decline via Awin dashboard; Cloudflare routing verification — IAN click link); Strategy & Outreach 13:08 UTC (bookshelf room divider zone creation, greige/taupe contact paper organic modern kitchen, Friendsgiving/Thanksgiving table transformation Oct 19–Nov 5 window, Amazon picks Oct 19); Trend Scout Oct 19 top-3: couch cover #1 (Mamma Mia 39th day), dated oak cabinets matte #2, room divider #3; Content Engine Oct 19 (1 script: washcloths hook). Cold outreach PAUSED per Ian Sep 3 directive.
+
+**GMAIL AUDIT (Oct 19, 10am ET run):** `in:inbox newer_than:1d` returned 3 threads. Two already reviewed by prior agents (Zlike Hair Awin OFF-NICHE, Cloudflare routing). **NEW (not in prior logs): Impact.com "Updates Digest"** (Oct 19, 12:36 UTC, thread 1a1542970bde603d) — weekly marketplace notifications. Contents: AppSumo (Oct 16, OFF-NICHE software deals), TA3 (Oct 15, unclear/likely off-niche), Kerastase Australia (Oct 14, OFF-NICHE luxury haircare), **Shelter Tools (Oct 13, POTENTIALLY ON-NICHE home improvement/tools — IAN evaluate via Impact dashboard)**, Lifeboost Coffee LLC (Oct 12, OFF-NICHE coffee), SmallRig (Oct 12, OFF-NICHE camera gear), OGLmove (Oct 12, OFF-NICHE activewear). Zero on-niche home brand personal invitations in this digest. No new SmartWings campaign updates, no new commission change notices. "Shelter Tools" is the only potentially on-niche entry — IAN should check Impact dashboard for category + commission rate before joining.
+
+**PLATFORM STATUS:**
+
+- **Amazon Associates `goldenhomep0a-20` — ACTIVE.** Oct 19 Trend Scout top-3: couch cover #1 (Mamma Mia 39th UNBREAKABLE), dated oak matte #2, room divider #3. Strategy & Outreach (13:08 UTC) added 3 Oct 19 picks: freestanding bookcase $55-85 (room divider), greige contact paper $13-22 (organic modern kitchen), linen napkins set $16-24 (Friendsgiving peak window opens today). Bounties unchanged: $12/Prime (Oct 8–Dec 31), $20/Audible (Sep 8–Dec 15), $0.25/Subscribe & Save.
+
+- **Impact.com Publisher ID 7104029:**
+  - 🚨🚨🚨 **SmartWings Halloween Sale 8% — CLOSES TODAY OCT 19 (FINAL HOURS).** Email permanently bounced. IAN MUST access Impact dashboard NOW → SmartWings partner page → pull tracking link → confirm participation via platform messaging. This is the absolute last day. Revenue window: $8-$32/sale on $100-$400 AOV.
+  - 🚨🚨 **SmartWings BF/CM Q4 — Impact platform messaging only.** Hard bounce Oct 16. Q4 Black Friday/Cyber Monday commission structure being finalized now — every additional day forfeits Q4 rate-setting position.
+  - 🚨🚨 **Promeed 12% — tracking link DAY 12 OVERDUE.** amelia.avery@promeed.com following up (4 times total). IAN2026F3 + SAMPLE-IAN-COOL3-2026 in hand. Build Impact deep link today. 3× Amazon revenue per click on silk pillowcase content.
+  - 🚨 **Mamma Mia 24-30% — ACTIVE, zero content DAY 39.** $11-$16/sale vs Amazon $1.40 = 10× revenue gap widens daily.
+  - **Syruvia 20%** — tracking link for candle warmer not built. $6/sale vs Amazon $1.80 = 3.3×.
+  - **Dreame 5%+ ACTIVE — zero tracking links DAY 31.** $10-$40/sale uncaptured on $200-800 AOV robot vacuums. Compounding daily.
+  - **Sam's Club Creator up to 20% home goods** — pending evaluation. If cleaning/organization qualifies at 20%, outperforms Amazon 3-7×.
+  - **Best Choice Products 10-15%** — pre-approved, 1-click unactioned.
+  - **Puracy ID 54051** — plant-based cleaners, pending evaluation.
+  - **Shelter Tools** — joined Impact marketplace Oct 13. Potentially ON-NICHE (home improvement/tools). IAN evaluate via Impact dashboard (search "Shelter Tools") before joining.
+
+- **Awin:**
+  - 🚨 **Rewarx ID 129153 — 50% RECURRING, DAY 33 (IAN-BLOCKED).** Highest commission in portfolio. Julian waiting at studio@rewarx.com.
+  - **Homary merchant 91447 — DAY 22.** Lauren at affiliate@homary.com waiting for Awin express signup. $96/sale (12% on $800+ AOV).
+  - Pending ON-NICHE accepts (browser): Tribesigns, SimpleProject 10%, Promeed HerbalRX 20%, CozySpiritStudio 20%, OKUN.
+  - Pending OFF-NICHE declines (browser): FED Fitness, CICYBELL, HealSend, Everblog US, **Zlike Hair (new Oct 19, Email Monitor confirmed OFF-NICHE hair brand)**.
+
+- **CJ Affiliate — AliExpress CID 7711902 dormancy DAY 19 of 90-day window (~Dec 31 deadline).** IAN: check Wayfair (7%), GreenLife (5%), Levoit (5%) application status via CJ portal.
+
+**HIGH-AOV OPPORTUNITY SCAN (Oct 19):**
+- **Smart home/window treatments ($100-400):** SmartWings 8% — **CLOSES TODAY.** $8-$32/sale. Act now.
+- **Couch covers ($47-54):** Mamma Mia 24-30% ACTIVE — DAY 39, ZERO content. $11-$16/sale gap = 10× Amazon.
+- **Silk/linen bedding ($40-80):** Promeed 12% ACTIVE — DAY 12 OVERDUE tracking link.
+- **Robot vacuums ($100-350):** Dreame ACTIVE — zero links DAY 31.
+- **Home furnishings ($200-800):** Homary 12% Awin — $96/sale, DAY 22.
+- **Friendsgiving/Thanksgiving table ($41 budget):** Amazon goldenhomep0a-20 — peak Pinterest save window OPENS TODAY (Oct 19–Nov 5). Linen napkins + pillar candles + kraft runner.
+
+**REVENUE PRIORITY RANKING (Oct 19):**
+1. Rewarx 50% recurring (Awin ID 129153) — DAY 33 NOT ACCEPTED
+2. Mamma Mia 24-30% (Impact) — ACTIVE, ZERO CONTENT DAY 39
+3. Syruvia 20% (Impact) — ACTIVE, NO TRACKING LINK
+4. Sam's Club Creator up to 20% (Impact) — NEEDS EVALUATION
+5. SmartWings 8% Halloween Sale (Impact) — **CLOSES TODAY FINAL HOURS**
+6. Best Choice Products 10-15% (Impact) — 1-CLICK UNACTIONED
+7. Promeed 12% (Impact) — LINK DAY 12 OVERDUE
+8. Dreame ~5-10% (Impact) — ACTIVE, ZERO LINKS DAY 31
+9. Amazon 3-8% `goldenhomep0a-20` — ACTIVE, fallback
+
+**IAN PRIORITY ACTIONS (Oct 19 — Affiliate Optimizer):**
+1. 🚨🚨🚨 **SMARTWINGS HALLOWEEN SALE — CLOSES TODAY (FINAL HOURS).** Impact.com → Publisher ID 7104029 → SmartWings → pull tracking link + confirm via platform messaging. NOT email.
+2. 🚨🚨 **CONTACT ANDY (SMARTWINGS BF/CM) VIA IMPACT PLATFORM MESSAGING.** Hard bounce confirmed. Q4 rates being set NOW.
+3. 🚨🚨 **BUILD PROMEED IMPACT TRACKING LINK — DAY 12 OVERDUE.** amelia.avery@promeed.com; IAN2026F3 + SAMPLE-IAN-COOL3-2026.
+4. 🚨 **ACCEPT REWARX AWIN ID 129153** — 50% recurring, DAY 33, highest in portfolio.
+5. **MAMMA MIA AFTER-FIRST $47 SCRIPT** — 39th UNBREAKABLE day (24-30% ACTIVE, Impact tracking link exists).
+6. **DECLINE ZLIKE HAIR (Awin)** via Awin dashboard — OFF-NICHE hair brand (Email Monitor Oct 19).
+7. **EVALUATE SHELTER TOOLS on Impact marketplace** — potentially on-niche home improvement; check Impact dashboard for category + commission.
+8. Build Dreame Impact tracking links (ACTIVE, zero revenue, DAY 31).
+9. Build Syruvia Impact tracking link (candle warmer, 20% = 3.3× Amazon).
+10. Evaluate Sam's Club Creator via Impact dashboard (up to 20% home goods).
+11. Accept Best Choice Products Impact 10-15% (1-click unactioned).
+12. CJ portal: AliExpress dormancy DAY 19 + Wayfair/GreenLife/Levoit application status check.
 7. MAMMA MIA AFTER-FIRST $47 SCRIPT — 39th UNBREAKABLE day (24-30% ACTIVE).
