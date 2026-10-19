@@ -41,7 +41,7 @@ except ImportError:
     sys.exit(2)
 
 sys.path.insert(0, str(Path(__file__).parent))
-from affiliate_links import build_affiliate_url  # noqa: E402
+from affiliate_links import build_affiliate_url, BRAND_TAGS  # noqa: E402
 from brand import price_band, scrub_prices  # noqa: E402
 from agent_log import append_log_entry  # noqa: E402
 
@@ -1338,7 +1338,8 @@ def main() -> int:
         # /dp/ links and feed SEO), without putting a detour in front of the majority.
         hub = blog_url_for(entry)
         use_hub = hub and (len(queue) % 4 == 3) and not gift   # gift shoppers go straight to the product
-        link = hub if use_hub else build_affiliate_url(asin, "pinterest", subtag=f"brand{variant}")
+        link = hub if use_hub else build_affiliate_url(asin, "pinterest", subtag=f"brand{variant}",
+                                                                     tag=BRAND_TAGS[variant])
         rel = str(img_path.relative_to(ROOT))
         queue.append({
             "id": f"pin-{date_str}-{asin}" + ("-gift" if gift else ""),

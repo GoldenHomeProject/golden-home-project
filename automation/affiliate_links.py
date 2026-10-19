@@ -46,6 +46,11 @@ CHANNEL_TAGS = {
 }
 
 
+# Brand A/B test (2026-10-18): Pinterest product pins carry the arm's tracking ID so
+# Associates splits revenue by brand look. IDs created 2026-10-19 with Ian's go.
+BRAND_TAGS = {"A": "ghpbranda-20", "B": "ghpbrandb-20"}
+
+
 def tag_for(channel: str) -> str:
     """Tracking ID for a channel, falling back to the original account tag."""
     return CHANNEL_TAGS.get((channel or "").lower(), ASSOCIATES_TAG)
@@ -62,7 +67,8 @@ CHANNELS = {
 }
 
 
-def build_affiliate_url(asin: str, channel: str, *, subtag: str | None = None) -> str:
+def build_affiliate_url(asin: str, channel: str, *, subtag: str | None = None,
+                        tag: str | None = None) -> str:
     """Return a monetizable /dp/ affiliate URL with channel attribution.
 
     asin:    10-char Amazon ASIN (validated loosely).
@@ -78,7 +84,7 @@ def build_affiliate_url(asin: str, channel: str, *, subtag: str | None = None) -
     ascsubtag = channel if not subtag else f"{channel}_{subtag}"
     return (
         f"https://www.amazon.com/dp/{asin}"
-        f"?tag={tag_for(channel)}&ascsubtag={ascsubtag}"
+        f"?tag={tag or tag_for(channel)}&ascsubtag={ascsubtag}"
     )
 
 
