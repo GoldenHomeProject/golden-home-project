@@ -293,7 +293,9 @@ def _judge_photo(path: Path, subject: str) -> tuple[bool, str]:
         f"Read the image file {path}. It may be used as the photo on a Pinterest pin for: "
         f"{subject}.\nReply with ONLY a JSON object: {{\"shows_item\": true/false — the kind "
         "of item named (or that item clearly in use) is visible and prominent, not an "
-        "unrelated scene; \"score\": 1-10 — how appealing, bright and save-worthy this is as "
+        "unrelated scene, AND it does not visibly contradict the name (a busy patterned or "
+        "lace curtain for a clear/plain/white one, a different colour or material named in "
+        "the title) and shows no nudity or suggestive imagery, even in prints; \"score\": 1-10 — how appealing, bright and save-worthy this is as "
         "a Pinterest home photo; \"note\": \"<10 words>\"}}")
     try:
         import subprocess as _sp
@@ -937,7 +939,7 @@ def _judge_scene(path: Path) -> tuple[bool, str]:
         print(f"  [ai-scene] check unavailable ({e})")
     if not d:   # unlike stock photos, an unchecked AI image never ships
         return False, "unchecked"
-    ok = not d.get("people") and not d.get("text") and int(d.get("score") or 0) >= 8
+    ok = not d.get("people") and not d.get("text") and int(d.get("score") or 0) >= 7
     return ok, str(d.get("note"))[:70]
 
 
@@ -1280,8 +1282,11 @@ def main() -> int:
         import brand_ab
         variant = brand_ab.variant_for(img_path.stem)
         headline = scrub_prices(copy.get("overlay_hook") or _short_name(entry.get("product_name", "")))
+        _hw = {w for w in re.findall(r"[a-z0-9]+", headline.lower()) if len(w) > 2}
+        _nw = set(re.findall(r"[a-z0-9]+", name.lower()))
+        name_like = bool(_hw) and len(_hw & _nw) / len(_hw) >= 0.7   # "LiBa Shower Curtain PEVA 8G"
         if (not copy.get("overlay_hook") or re.search(r"ideas:\s*\w+$", headline, re.I)
-                or len(headline.split()) < 3):
+                or len(headline.split()) < 3 or "$" in headline or name_like):
             # No hook = template copy, and the fallback is the product name with its brand.
             # The search-phrase fallback reads as a label ("Home Organization Ideas: Basket").
             try:
@@ -1292,13 +1297,15 @@ def main() -> int:
                     "(e.g. 'Laundry that stops spilling over', 'Bins that fit a 12 in cube "
                     "shelf'). No price, no brand, no hype words, no first-person claims. "
                     "Reply with the headline only.", max_turns=1, timeout=90).strip().strip('"')
-                if 2 < len(h.split()) <= 9 and not fabrication_match(h) and not re.search(r"\$\d", h):
+                if 2 < len(h.split()) <= 9 and not fabrication_match(h) and "$" not in h:
                     headline = h
             except Exception as e:  # noqa: BLE001
                 print(f"  [headline] fallback kept ({e})")
         if _POINTS_AT_PHOTO.search(headline):
             from video_pin import clean_headline
             headline = clean_headline(_strip_brand(_short_name(name, limit=80)), limit=44)
+        if "$" in headline:   # bands live in the chip, never an exact-ish "$8" headline
+            headline = re.sub(r"\s*(under|for|just|only)?\s*\$\d[\d.,]*", "", headline, flags=re.I).strip(" -—,:")
         band = price_band(price)
         tape = brand_ab.tape_text(name)   # listing title only, never read off the photo
         photo = bg_path if bg_ok else None
