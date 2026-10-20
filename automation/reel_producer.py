@@ -285,6 +285,9 @@ def cf_flux(prompt: str, seed: int, out_path: Path, steps: int = 6) -> bool:
 
 _SCENE_ROOMS = (
     ("under sink|under-sink", "the open cabinet under a kitchen sink, neatly empty"),
+    ("desk|lamp|office|monitor", "a bright home office desk by a window"),
+    ("shoe|entry|coat|key holder", "a tidy entryway with a bench and hooks"),
+    ("garage|tool", "a clean, organized garage wall"),
     ("bath|towel|shower", "a calm, bright modern bathroom"),
     ("closet|hanger|wardrobe", "a tidy walk-in closet with light wood shelves"),
     ("pantry", "a bright pantry with open shelves"),
