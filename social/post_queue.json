@@ -8852,5 +8852,29 @@
     ],
     "hook": "$45 in extras while the cabinets are already empty",
     "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-19-905.mp4"
+  },
+  {
+    "name": "reel_2026-10-20_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-20-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Your shower curtain keeps clinging to your leg.\n\nHot water creates a draft of steam inside the shower, and a light liner with no weight at the bottom gets pulled right into that airflow. With nothing anchoring the hem, it swings in and sticks to wet skin instead of hanging flat.\n\nThis liner has magnets sewn along the bottom edge and twelve button holes across the top, so it hangs weighted and secured instead of floating around. It's rated 4.6 stars by about seventy thousand people.\n\nThe curtain stays against the tub wall, the water stays inside the tub, and it's about $9.\n\nComment HOME and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "N&Y HOME Fabric Shower Curtain Liner with Magnets Standard Size, White | Hotel Quality, 12 Button Holes, Machine Washabl",
+      "dm_keyword": "HOME",
+      "amazon_asin": "B078YNC9G9",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B078YNC9G9?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B078YNC9G9?tag=goldenhomep0a-20"
+    },
+    "hook": "Your shower curtain keeps clinging to your leg."
   }
 ]
