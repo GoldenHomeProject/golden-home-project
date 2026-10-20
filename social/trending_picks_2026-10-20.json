@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-10-20",
+  "category": "Cleaning",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-cleaning-supplies.html",
+  "picks": [
+    {
+      "asin": "B092VPGJB9",
+      "name": "Amazon Basics 13 Gallon Flextra Strength Tall Kitchen Drawstring Trash",
+      "price": "$19.24",
+      "rating": 4.6,
+      "reviews": 53746,
+      "rank": 11
+    },
+    {
+      "asin": "B000ST1DZO",
+      "name": "Drano Max Gel Drain Clog Remover & Cleaner",
+      "price": "$5.17",
+      "rating": 4.5,
+      "reviews": 78088,
+      "rank": 16
+    },
+    {
+      "asin": "B07ZGHZVRY",
+      "name": "Clorox ToiletWand Toilet Cleaning Kit",
+      "price": "$20.41",
+      "rating": 4.7,
+      "reviews": 145818,
+      "rank": 29
+    },
+    {
+      "asin": "B0035G078Q",
+      "name": "Swiffer WetJet Multi-Purpose Floor Cleaner Solution with Febreze Refil",
+      "price": "$12.94",
+      "rating": 4.8,
+      "reviews": 136149,
+      "rank": 31
+    },
+    {
+      "asin": "B00SXC85IQ",
+      "name": "Affresh Dishwasher Cleaner",
+      "price": "$8.98",
+      "rating": 4.6,
+      "reviews": 81148,
+      "rank": 33
+    },
+    {
+      "asin": "B087WMXFPV",
+      "name": "Sprayway Glass Cleaner Foaming Aerosol Spray",
+      "price": "$16.33",
+      "rating": 4.8,
+      "reviews": 17881,
+      "rank": 36
+    }
+  ]
+}
