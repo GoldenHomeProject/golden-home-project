@@ -480,6 +480,11 @@ def main() -> int:
             _trend |= {p.get("asin") for p in (_d if isinstance(_d, list) else _d.get("picks", []))}
         except (OSError, ValueError):
             pass
+    try:   # all-category chart scan (chart_scan.py, 2026-10-20)
+        _cn = json.loads((REPO_ROOT / "social" / "chart_now.json").read_text())
+        _trend |= {i.get("asin") for i in _cn.get("items", [])}
+    except (OSError, ValueError):
+        pass
 
     def _band(pin):
         trending = pin.get("asin") in _trend

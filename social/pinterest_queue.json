@@ -810,7 +810,10 @@
   "queued_at": "2026-08-09T10:10:31.587869Z",
   "posted": false,
   "source": "pinterest_pipeline",
-  "drop_observed_to": "2026-08-08"
+  "drop_observed_to": "2026-08-08",
+  "blocked": true,
+  "allow_repin": true,
+  "blocked_reason": "old pre-refresh design, mostly raw Amazon-name titles; retired for chart-led pins in the new design (2026-10-20)"
  },
  {
   "id": "pin-2026-08-09-B0CP9YB3Q4",
@@ -4226,7 +4229,10 @@
   "queued_at": "2026-09-18T10:11:44.868604Z",
   "posted": false,
   "source": "pinterest_pipeline",
-  "drop_observed_to": null
+  "drop_observed_to": null,
+  "blocked": true,
+  "allow_repin": true,
+  "blocked_reason": "old pre-refresh design, mostly raw Amazon-name titles; retired for chart-led pins in the new design (2026-10-20)"
  },
  {
   "id": "pin-2026-09-18-B0798CX2Q9",
@@ -4287,7 +4293,10 @@
   "queued_at": "2026-09-18T18:39:02.424555Z",
   "posted": false,
   "source": "pinterest_pipeline",
-  "drop_observed_to": null
+  "drop_observed_to": null,
+  "blocked": true,
+  "allow_repin": true,
+  "blocked_reason": "old pre-refresh design, mostly raw Amazon-name titles; retired for chart-led pins in the new design (2026-10-20)"
  },
  {
   "id": "pin-2026-09-18-B07F897P1G",
@@ -4301,7 +4310,10 @@
   "queued_at": "2026-09-18T18:39:23.371097Z",
   "posted": false,
   "source": "pinterest_pipeline",
-  "drop_observed_to": null
+  "drop_observed_to": null,
+  "blocked": true,
+  "allow_repin": true,
+  "blocked_reason": "old pre-refresh design, mostly raw Amazon-name titles; retired for chart-led pins in the new design (2026-10-20)"
  },
  {
   "id": "pin-2026-09-18-B0BWJDW3BX",
@@ -4420,7 +4432,10 @@
   "queued_at": "2026-09-19T10:10:44.937052Z",
   "posted": false,
   "source": "pinterest_pipeline",
-  "drop_observed_to": null
+  "drop_observed_to": null,
+  "blocked": true,
+  "allow_repin": true,
+  "blocked_reason": "old pre-refresh design, mostly raw Amazon-name titles; retired for chart-led pins in the new design (2026-10-20)"
  },
  {
   "id": "pin-2026-09-19-B077RPXSF3",
@@ -4527,7 +4542,10 @@
   "queued_at": "2026-09-19T10:16:33.173235Z",
   "posted": false,
   "source": "pinterest_pipeline",
-  "drop_observed_to": null
+  "drop_observed_to": null,
+  "blocked": true,
+  "allow_repin": true,
+  "blocked_reason": "old pre-refresh design, mostly raw Amazon-name titles; retired for chart-led pins in the new design (2026-10-20)"
  },
  {
   "id": "pin-2026-09-19-B092VQDGWL",
@@ -4541,7 +4559,10 @@
   "queued_at": "2026-09-19T10:17:25.131474Z",
   "posted": false,
   "source": "pinterest_pipeline",
-  "drop_observed_to": null
+  "drop_observed_to": null,
+  "blocked": true,
+  "allow_repin": true,
+  "blocked_reason": "old pre-refresh design, mostly raw Amazon-name titles; retired for chart-led pins in the new design (2026-10-20)"
  },
  {
   "id": "pin-2026-09-20-B07B6GC5GY",
@@ -4991,7 +5012,10 @@
   "queued_at": "2026-09-23T10:13:37.497235Z",
   "posted": false,
   "source": "pinterest_pipeline",
-  "drop_observed_to": null
+  "drop_observed_to": null,
+  "blocked": true,
+  "allow_repin": true,
+  "blocked_reason": "old pre-refresh design, mostly raw Amazon-name titles; retired for chart-led pins in the new design (2026-10-20)"
  },
  {
   "id": "pin-2026-09-24-B0B8DXN3K2",
@@ -5035,7 +5059,10 @@
   "queued_at": "2026-09-24T10:10:49.223321Z",
   "posted": false,
   "source": "pinterest_pipeline",
-  "drop_observed_to": null
+  "drop_observed_to": null,
+  "blocked": true,
+  "allow_repin": true,
+  "blocked_reason": "old pre-refresh design, mostly raw Amazon-name titles; retired for chart-led pins in the new design (2026-10-20)"
  },
  {
   "id": "pin-2026-09-25-B0F3332VRX",
@@ -5109,7 +5136,10 @@
   "queued_at": "2026-09-26T10:11:33.502586Z",
   "posted": false,
   "source": "pinterest_pipeline",
-  "drop_observed_to": null
+  "drop_observed_to": null,
+  "blocked": true,
+  "allow_repin": true,
+  "blocked_reason": "old pre-refresh design, mostly raw Amazon-name titles; retired for chart-led pins in the new design (2026-10-20)"
  },
  {
   "id": "pin-2026-09-27-B0BG7TFVB2",
@@ -5198,7 +5228,10 @@
   "queued_at": "2026-09-28T10:12:50.314587Z",
   "posted": false,
   "source": "pinterest_pipeline",
-  "drop_observed_to": null
+  "drop_observed_to": null,
+  "blocked": true,
+  "allow_repin": true,
+  "blocked_reason": "old pre-refresh design, mostly raw Amazon-name titles; retired for chart-led pins in the new design (2026-10-20)"
  },
  {
   "id": "pin-2026-09-29-B092VQMW7T",
@@ -5227,7 +5260,10 @@
   "queued_at": "2026-09-29T10:11:15.488025Z",
   "posted": false,
   "source": "pinterest_pipeline",
-  "drop_observed_to": null
+  "drop_observed_to": null,
+  "blocked": true,
+  "allow_repin": true,
+  "blocked_reason": "old pre-refresh design, mostly raw Amazon-name titles; retired for chart-led pins in the new design (2026-10-20)"
  },
  {
   "id": "pin-2026-09-30-B07TLWRZTT",
@@ -5241,7 +5277,10 @@
   "queued_at": "2026-09-30T10:10:34.411265Z",
   "posted": false,
   "source": "pinterest_pipeline",
-  "drop_observed_to": null
+  "drop_observed_to": null,
+  "blocked": true,
+  "allow_repin": true,
+  "blocked_reason": "old pre-refresh design, mostly raw Amazon-name titles; retired for chart-led pins in the new design (2026-10-20)"
  },
  {
   "id": "pin-2026-10-01-B06WWRCZXX-gift",
@@ -5970,7 +6009,10 @@
   "source": "pinterest_pipeline",
   "drop_observed_to": null,
   "gift_key": null,
-  "recharted": true
+  "recharted": true,
+  "blocked": true,
+  "allow_repin": true,
+  "blocked_reason": "old pre-refresh design, mostly raw Amazon-name titles; retired for chart-led pins in the new design (2026-10-20)"
  },
  {
   "id": "pin-2026-10-07-B0D89V1RX1",
@@ -6332,7 +6374,10 @@
   "source": "pinterest_pipeline",
   "drop_observed_to": null,
   "gift_key": null,
-  "recharted": true
+  "recharted": true,
+  "blocked": true,
+  "allow_repin": true,
+  "blocked_reason": "old pre-refresh design, mostly raw Amazon-name titles; retired for chart-led pins in the new design (2026-10-20)"
  },
  {
   "id": "pin-2026-10-10-B092VPGJB9",
@@ -6369,7 +6414,10 @@
   "source": "pinterest_pipeline",
   "drop_observed_to": null,
   "gift_key": null,
-  "recharted": false
+  "recharted": false,
+  "blocked": true,
+  "allow_repin": true,
+  "blocked_reason": "old pre-refresh design, mostly raw Amazon-name titles; retired for chart-led pins in the new design (2026-10-20)"
  },
  {
   "id": "pin-2026-10-11-B07QHNC81Z",
@@ -6387,7 +6435,10 @@
   "source": "pinterest_pipeline",
   "drop_observed_to": null,
   "gift_key": null,
-  "recharted": false
+  "recharted": false,
+  "blocked": true,
+  "allow_repin": true,
+  "blocked_reason": "old pre-refresh design, mostly raw Amazon-name titles; retired for chart-led pins in the new design (2026-10-20)"
  },
  {
   "id": "pin-2026-10-11-B01LWP8AL2",
@@ -6405,7 +6456,10 @@
   "source": "pinterest_pipeline",
   "drop_observed_to": null,
   "gift_key": null,
-  "recharted": false
+  "recharted": false,
+  "blocked": true,
+  "allow_repin": true,
+  "blocked_reason": "old pre-refresh design, mostly raw Amazon-name titles; retired for chart-led pins in the new design (2026-10-20)"
  },
  {
   "id": "pin-2026-10-11-B0CS62J2G5",
@@ -6423,7 +6477,10 @@
   "source": "pinterest_pipeline",
   "drop_observed_to": null,
   "gift_key": null,
-  "recharted": false
+  "recharted": false,
+  "blocked": true,
+  "allow_repin": true,
+  "blocked_reason": "old pre-refresh design, mostly raw Amazon-name titles; retired for chart-led pins in the new design (2026-10-20)"
  },
  {
   "id": "pin-2026-10-11-B0035G078Q",
@@ -6441,7 +6498,10 @@
   "source": "pinterest_pipeline",
   "drop_observed_to": null,
   "gift_key": null,
-  "recharted": false
+  "recharted": false,
+  "blocked": true,
+  "allow_repin": true,
+  "blocked_reason": "old pre-refresh design, mostly raw Amazon-name titles; retired for chart-led pins in the new design (2026-10-20)"
  },
  {
   "id": "pin-2026-10-11-B01D5TM5QE",
@@ -6459,7 +6519,10 @@
   "source": "pinterest_pipeline",
   "drop_observed_to": null,
   "gift_key": null,
-  "recharted": false
+  "recharted": false,
+  "blocked": true,
+  "allow_repin": true,
+  "blocked_reason": "old pre-refresh design, mostly raw Amazon-name titles; retired for chart-led pins in the new design (2026-10-20)"
  },
  {
   "id": "pin-2026-10-12-B07WKBYXRC",
@@ -6496,7 +6559,10 @@
   "source": "pinterest_pipeline",
   "drop_observed_to": null,
   "gift_key": null,
-  "recharted": false
+  "recharted": false,
+  "blocked": true,
+  "allow_repin": true,
+  "blocked_reason": "old pre-refresh design, mostly raw Amazon-name titles; retired for chart-led pins in the new design (2026-10-20)"
  },
  {
   "id": "pin-2026-10-12-B004QJGW6C",
@@ -6533,7 +6599,10 @@
   "source": "pinterest_pipeline",
   "drop_observed_to": null,
   "gift_key": null,
-  "recharted": false
+  "recharted": false,
+  "blocked": true,
+  "allow_repin": true,
+  "blocked_reason": "old pre-refresh design, mostly raw Amazon-name titles; retired for chart-led pins in the new design (2026-10-20)"
  },
  {
   "id": "pin-2026-10-13-B01CS31R94",
@@ -6608,7 +6677,10 @@
   "source": "pinterest_pipeline",
   "drop_observed_to": null,
   "gift_key": null,
-  "recharted": true
+  "recharted": true,
+  "blocked": true,
+  "allow_repin": true,
+  "blocked_reason": "old pre-refresh design, mostly raw Amazon-name titles; retired for chart-led pins in the new design (2026-10-20)"
  },
  {
   "id": "pin-2026-10-13-B009FR7430",
@@ -6626,7 +6698,10 @@
   "source": "pinterest_pipeline",
   "drop_observed_to": null,
   "gift_key": null,
-  "recharted": false
+  "recharted": false,
+  "blocked": true,
+  "allow_repin": true,
+  "blocked_reason": "old pre-refresh design, mostly raw Amazon-name titles; retired for chart-led pins in the new design (2026-10-20)"
  },
  {
   "id": "pin-2026-10-13-B0752ZJ5LF",
@@ -6644,7 +6719,10 @@
   "source": "pinterest_pipeline",
   "drop_observed_to": null,
   "gift_key": null,
-  "recharted": false
+  "recharted": false,
+  "blocked": true,
+  "allow_repin": true,
+  "blocked_reason": "old pre-refresh design, mostly raw Amazon-name titles; retired for chart-led pins in the new design (2026-10-20)"
  },
  {
   "id": "pin-2026-10-14-B071LPY3RH-gift",
@@ -6758,7 +6836,10 @@
   "source": "pinterest_pipeline",
   "drop_observed_to": null,
   "gift_key": null,
-  "recharted": false
+  "recharted": false,
+  "blocked": true,
+  "allow_repin": true,
+  "blocked_reason": "old pre-refresh design, mostly raw Amazon-name titles; retired for chart-led pins in the new design (2026-10-20)"
  },
  {
   "id": "pin-2026-10-15-B0C1NM42PN",
@@ -6776,7 +6857,10 @@
   "source": "pinterest_pipeline",
   "drop_observed_to": null,
   "gift_key": null,
-  "recharted": true
+  "recharted": true,
+  "blocked": true,
+  "allow_repin": true,
+  "blocked_reason": "old pre-refresh design, mostly raw Amazon-name titles; retired for chart-led pins in the new design (2026-10-20)"
  },
  {
   "id": "pin-2026-10-15-B0D277GM56",
@@ -6794,7 +6878,10 @@
   "source": "pinterest_pipeline",
   "drop_observed_to": null,
   "gift_key": null,
-  "recharted": false
+  "recharted": false,
+  "blocked": true,
+  "allow_repin": true,
+  "blocked_reason": "old pre-refresh design, mostly raw Amazon-name titles; retired for chart-led pins in the new design (2026-10-20)"
  },
  {
   "id": "pin-2026-10-17-B00FZVPWTI",
@@ -6833,7 +6920,10 @@
   "drop_observed_to": null,
   "gift_key": null,
   "overlay_hook": "Ammonia-Free Foam, Streak-Free Glass",
-  "recharted": false
+  "recharted": false,
+  "blocked": true,
+  "allow_repin": true,
+  "blocked_reason": "old pre-refresh design, mostly raw Amazon-name titles; retired for chart-led pins in the new design (2026-10-20)"
  },
  {
   "id": "pin-2026-10-18-B0CF3BDBL2",
@@ -6852,7 +6942,10 @@
   "drop_observed_to": null,
   "gift_key": null,
   "overlay_hook": "Streak-Free Glass, No Residue",
-  "recharted": false
+  "recharted": false,
+  "blocked": true,
+  "allow_repin": true,
+  "blocked_reason": "old pre-refresh design, mostly raw Amazon-name titles; retired for chart-led pins in the new design (2026-10-20)"
  },
  {
   "id": "collage-2026-10-18-best-home-decor-finds",

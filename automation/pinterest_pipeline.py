@@ -443,6 +443,19 @@ def load_json(p: Path, default):
     return default
 
 
+def chart_now(max_age_days: int = 3) -> list[dict]:
+    """social/chart_now.json if fresh: proven products on today's charts, best rank first."""
+    try:
+        d = json.loads((SOCIAL / "chart_now.json").read_text())
+        age = datetime.now(timezone.utc) - datetime.fromisoformat(d["captured_at"])
+        if age.days > max_age_days:
+            return []
+        return sorted(d.get("items") or [],
+                      key=lambda x: (x.get("rank") or 99, -(x.get("reviews") or 0)))
+    except (OSError, ValueError, KeyError):
+        return []
+
+
 def trending_entries(days: int = 21) -> list[dict]:
     """Products from the daily trending scrape, shaped like registry entries.
 
@@ -457,6 +470,14 @@ def trending_entries(days: int = 21) -> list[dict]:
     Marked status="live" because that verification is what the gate exists to prove.
     """
     out = []
+    # Freshest first: today's all-category chart scan (chart_scan.py, 2026-10-20).
+    for it in chart_now():
+        out.append({
+            "asin": it["asin"], "product_name": it.get("name") or "",
+            "categories": ["home", it.get("category") or ""], "status": "live",
+            "verified_price": it.get("price"), "verified_stars": str(it.get("rating") or ""),
+            "verified_reviews": it.get("reviews"), "added_at": "chart",
+        })
     for path in sorted(SOCIAL.glob("trending_picks_*.json"), reverse=True)[:days]:
         try:
             data = json.loads(path.read_text())
@@ -954,7 +975,8 @@ def compose_pin(bg_path: Path | None, overlay_hook: str, subtitle: str,
 
 
 def already_queued(asin: str, queue: list[dict]) -> bool:
-    return any(p.get("asin") == asin for p in queue)
+    # allow_repin: retired only for its old design (2026-10-20), not for the product.
+    return any(p.get("asin") == asin and not p.get("allow_repin") for p in queue)
 
 
 def main() -> int:
@@ -1081,7 +1103,11 @@ def main() -> int:
     for f in sorted((SOCIAL).glob("trending_picks_*.json"))[-3:]:
         d = load_json(f, {})
         trend_now |= {p.get("asin") for p in (d if isinstance(d, list) else d.get("picks", []))}
+    # ...plus every proven product on today's all-category scan (chart_scan.py).
+    chart_rank = {it["asin"]: i for i, it in enumerate(chart_now())}
+    trend_now |= set(chart_rank)
     hot = [e for e in entries if e.get("asin") in trend_now]
+    hot.sort(key=lambda e: chart_rank.get(e.get("asin"), 10**6))   # best-ranked first
     entries = hot + [e for e in entries if e.get("asin") not in trend_now]
     print(f"  [trending] {len(hot)} products on this week's charts lead the run")
     if not entries:
