@@ -16,7 +16,10 @@ set -a
 [ -f "$HOME/.ghp-secrets/claude.env" ] && . "$HOME/.ghp-secrets/claude.env"
 set +a
 
-"$HOME/.ghp-engagement/venv/bin/python" automation/pinterest_pipeline.py --max "${1:-4}"
+# Also log outside the repo: social/pinterest_cron.log is git-tracked and the 06:30
+# `git reset --hard` erases it, which hid why copy fell back to templates (2026-10-20).
+"$HOME/.ghp-engagement/venv/bin/python" automation/pinterest_pipeline.py --max "${1:-4}" \
+  2>&1 | tee -a "$HOME/.ghp-engagement/pinterest_generate.log"
 
 git add social/pinterest_queue.json social/pinterest/ 2>/dev/null || true
 if git diff --staged --quiet; then

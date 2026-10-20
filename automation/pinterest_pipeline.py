@@ -1157,7 +1157,10 @@ def main() -> int:
                         for p in queue):
             continue          # already pinned THIS drop; don't repeat it
         board, board_q = GIFT_BOARD if gift else board_for(entry)
-        copy = claude_copy(entry, board) or template_copy(entry, board)
+        copy = claude_copy(entry, board)
+        if not copy:   # say so: a silent template fallback shipped brand-name pins 2026-10-20
+            print(f"  [copy] {asin} Claude copy unavailable — template copy")
+            copy = template_copy(entry, board)
         # Do not WRITE an angle that is out of season. The product is usually fine —
         # floating shelves, laundry hampers and storage carts sell all year — but
         # "Floating Shelves for Bedside & Dorm Room" is aimed at a search that
@@ -1251,7 +1254,9 @@ def main() -> int:
         import brand_ab
         variant = brand_ab.variant_for(img_path.stem)
         headline = scrub_prices(copy.get("overlay_hook") or _short_name(entry.get("product_name", "")))
-        if re.search(r"ideas:\s*\w+$", headline, re.I) or len(headline.split()) < 3:
+        if (not copy.get("overlay_hook") or re.search(r"ideas:\s*\w+$", headline, re.I)
+                or len(headline.split()) < 3):
+            # No hook = template copy, and the fallback is the product name with its brand.
             # The search-phrase fallback reads as a label ("Home Organization Ideas: Basket").
             try:
                 from _claude_api import call_claude
