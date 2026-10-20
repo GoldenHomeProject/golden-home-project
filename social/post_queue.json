@@ -8819,10 +8819,10 @@
   },
   {
     "name": "reel_repurpose_2026-10-19_904",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-19-904.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-19-904.mp4",
     "caption": "Matte black hardware is the detail that makes a repainted cabinet look like an actual renovation instead of a weekend paint job. Doors are already off the hinges for cure time, so this is a one-hour add, not a second project. The pulls I'd order (38,159 ratings, 4.7 stars) are linked in the full post.",
     "hashtags": [
       "#matteblackhardware",
@@ -8832,14 +8832,15 @@
       "#diykitchen",
       "#kitchenupdate"
     ],
-    "hook": "$27 of hardware is why this paint job looks finished"
+    "hook": "$27 of hardware is why this paint job looks finished",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-19-904.mp4"
   },
   {
     "name": "reel_repurpose_2026-10-19_905",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-19-905.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-19-905.mp4",
     "caption": "The cabinets are already empty for cure time \u2014 that's the one point in a kitchen's life where organizing the corner cabinet costs nothing extra. Add $25 in non-skid turntables and $20 in towels that actually match the new color, and the $89 paint job stops looking like an isolated change. Full list and links on the blog.",
     "hashtags": [
       "#kitchenorganization",
@@ -8849,6 +8850,7 @@
       "#smallkitchenideas",
       "#homeorganizing"
     ],
-    "hook": "$45 in extras while the cabinets are already empty"
+    "hook": "$45 in extras while the cabinets are already empty",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-19-905.mp4"
   }
 ]
