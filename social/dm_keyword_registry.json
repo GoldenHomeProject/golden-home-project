@@ -6140,6 +6140,38 @@
       "verified_stars": "4.6",
       "verified_reviews": 9274,
       "discovery_source": "back_to_college_2026"
+    },
+    {
+      "asin": "B07VQZSLDW",
+      "product_name": "upsimples 11x14 Picture Frame, Gallery Wall Frames Set of 5, Black | Photo Frame Collage Wall Decor, 11 x 14 Frame, 8x10",
+      "categories": [
+        "home",
+        "Home D\u00e9cor"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B07VQZSLDW?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-10-20",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$19.99",
+      "verified_stars": "4.6",
+      "verified_reviews": 72982,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0B96BHXBM",
+      "product_name": "Laundry Bags Mesh Wash Bags(4Pcs,16 x 20 Inches),delicate laundry bag for College,Dorm,Storage",
+      "categories": [
+        "home",
+        "Home"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0B96BHXBM?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-10-20",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$8.99",
+      "verified_stars": "4.7",
+      "verified_reviews": 8959,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
