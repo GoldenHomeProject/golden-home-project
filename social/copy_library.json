@@ -4088,6 +4088,52 @@
           }
         ]
       }
+    ],
+    "HOOK": [
+      {
+        "hook_category": "scene",
+        "hook": "Your shower curtain screeches every time you pull it shut",
+        "beat1": "Plain plastic hooks grip the rod instead of rolling along it, so the curtain catches, sticks, and drags with every pull. Over time those same hooks rust and leave orange streaks on the rod and curtain.",
+        "turn": "These Titanker hooks are metal and rust resistant, built as double glide rings so each one rolls smoothly along the rod instead of catching. Thousands rate them around 4.6 stars for how easily the curtain moves after swapping them in.",
+        "result": "Your curtain opens and closes in one smooth pull instead of a fight, and the whole set runs about $7.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close-up of a hand yanking a shower curtain along a rod, the curtain bunching and catching at one hook",
+            "on_screen_text": "That screech every time you shower",
+            "voiceover": "Your shower curtain screeches every time you pull it shut."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Close-up on a plastic shower curtain hook rubbing against a metal rod, slightly rusted with an orange streak",
+            "on_screen_text": "Plastic hooks grip, not glide",
+            "voiceover": "Basic hooks grip the rod instead of rolling, so they stick, drag, and over time they rust and stain the rod."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Hands clipping small metal ring hooks onto a shower curtain and rod, the rings rolling freely along the bar",
+            "on_screen_text": "Metal rings that roll, not rust",
+            "voiceover": "These metal double glide rings roll right along the rod instead of catching, and they're built to resist rust."
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "Wide shot of a full shower curtain with matching metal rings evenly spaced along the rod",
+            "on_screen_text": "Thousands rate it 4.6 stars",
+            "voiceover": "Thousands of people rate these around four point six stars for how much smoother the curtain feels."
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "Hand sliding a shower curtain shut in one smooth motion, rings gliding quietly along the rod",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "One smooth pull, no screech, no snag, for about seven dollars. Comment {KEYWORD} and I'll send the link."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
