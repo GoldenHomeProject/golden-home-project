@@ -5139,3 +5139,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** social/reels/reel-2026-10-20-*.mp4, social/post_queue.json
 **External actions:** none
 **Next agent hint:** IG Poster has 2 new Reels ready for 14:00 + 22:00 UTC slots
+
+## 2026-10-20T09:48:56Z — Trend Scout
+**Ran:** Scanned 2 sources (google_trends_daily_us, pinterest) -> 85 items, ranked 5 opportunities
+**Changed:** automation/trends/2026-10-20.json, social/trend_feed.json
+**External actions:** reddit_pi_cache + google_trends + pinterest_rss + amazon_movers_pi_cache
+**Next agent hint:** Content Engine: today's top-3 opportunities are: Kitchen cabinets transformed for $89 — n, $52 cover turns a pet-hair-covered couch, $38 of peel-and-stick wallpaper turns a
