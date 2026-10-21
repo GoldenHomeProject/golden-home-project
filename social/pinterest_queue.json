@@ -7402,14 +7402,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-20-B0158EQJSY-gift.png",
     "queued_at": "2026-10-20T10:54:47.327966Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": "bedsure gentlesoft sherpa fleece throw b",
     "overlay_hook": "Cozy Sherpa Throw Under $25",
     "recharted": false,
     "variant": "B",
-    "ai_image": true
+    "ai_image": true,
+    "posted_at": "2026-10-21T01:15:32Z"
   },
   {
     "id": "pin-2026-10-20-B0F332CCLK",
