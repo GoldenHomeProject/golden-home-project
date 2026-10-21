@@ -8769,10 +8769,10 @@
   },
   {
     "name": "reel_repurpose_2026-10-19_902",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-19-902.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-19-902.mp4",
     "caption": "The burnt-orange cabinets flooding Pinterest this week aren't coming pre-mixed out of an $89 box \u2014 they're a custom tint job on top of it. Here's exactly what DIYers are asking the paint counter for, and why two people with the same kit get different results. Full writeup linked.",
     "hashtags": [
       "#cabinetpaint",
@@ -8782,7 +8782,8 @@
       "#diycabinets",
       "#kitchenmakeover"
     ],
-    "hook": "The $89 cabinet kit doesn't come in burnt-orange"
+    "hook": "The $89 cabinet kit doesn't come in burnt-orange",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-19-902.mp4"
   },
   {
     "name": "reel_repurpose_2026-10-19_903",
