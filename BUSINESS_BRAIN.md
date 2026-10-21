@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-10-21 (Strategy & Outreach 9am)
+# Last updated: 2026-10-21 (Affiliate Optimizer 10am)
 # ============================================================
 
 ---
@@ -3309,3 +3309,70 @@ Built on: Email Monitor 12:00 UTC (Gmail CLEAN — Google Analytics report + Woo
 **Competitor watch (Oct 21):** Alexandra Gater — 32nd+ consecutive no-upload day confirmed (no October 2026 video in web search). vidIQ channel stats show 985K subscribers, last updated Oct 17, 2026 with no new October upload confirmed. Longest anomalous no-upload gap in documented GHP channel history continues. All 3 content ideas today (fluted wall panels, Thanksgiving kitchen prep, dead corner shelf) = ZERO competitor coverage. Renter + dollar-specificity moat intact through Oct 21.
 
 - **Amazon picks for Pinterest pipeline (Oct 21) — categories with real August sales:** (1) HOME IMPROVEMENT/DECOR: Peel-and-stick 3D fluted wall panel set, PVC textured renter-safe, 6-pack ~$35-48 — confirmed 2026 mainstream home upgrade, extreme before/after visual contrast, bathroom accent wall or TV backdrop, DISTINCT from all prior wall/surface picks (flat vs. textured 3D); IAN: search "peel and stick 3D fluted wall panels PVC textured bathroom accent" in Associates for top ASIN; https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20. (2) KITCHEN/HOSTING: Bamboo expandable drawer organizer kitchen adjustable divider set ~$14-22 — Thanksgiving kitchen prep station format, 35 days to Nov 26 (peak Pinterest saves window NOW), serving utensil hosting organization; DISTINCT from glass canister set Oct 20 (aesthetic display), greige contact paper Oct 19, all prior kitchen picks; IAN: search "bamboo expandable drawer organizer kitchen adjustable divider" in Associates for top ASIN; goldenhomep0a-20 tag. (3) LIVING ROOM/BEDROOM: Freestanding 5-tier corner ladder shelf ~$55-75 — Trend Scout Oct 21 #3 "cluttered corner hidden for $68," dead apartment corner transformation, zero drilling renter-safe; DISTINCT from freestanding room-divider bookcase Oct 19 (zone creation vs. corner-specific dead zone activation); IAN: search "freestanding 5 tier corner ladder shelf bedroom white walnut" in Associates for top ASIN; goldenhomep0a-20 tag.
+
+### October 2026 Affiliate Updates (updated 2026-10-21 Affiliate Optimizer 10am)
+
+Built on: Email Monitor 12:00 UTC (Gmail CLEAN — Stripe promo + Supabase infrastructure + Woot spam; zero new brand/affiliate emails; Mamma Mia 41st UNBREAKABLE day flagged); Strategy & Outreach 13:09 UTC (3D fluted wall panels ~$42 renter feature wall [zero GHP coverage, ZERO competitor], Thanksgiving kitchen prep station $56 [35 days to Nov 26], dead corner shelf vignette $64 [Trend Scout #3]; Alexandra Gater 32nd+ consecutive no-upload day; Amazon picks: fluted panels $35-48, bamboo drawer organizer $14-22, corner ladder shelf $55-75); Trend Scout Oct 21 (top-3: dated oak cabinets moody $9x [#1], pet-hair couch $52 Mamma Mia 41st UNBREAKABLE day [#2], cluttered corner $68 [#3]). Cold outreach PAUSED per Ian Sep 3 directive.
+
+**GMAIL AUDIT (Oct 21, 10am ET):** Confirmed same 5 threads from past 48h already reviewed by prior agents — 3 already triaged by Email Monitor Oct 21 (Stripe promo Oct 20, Supabase Oct 20, Woot Oct 20) + 2 already triaged by Email Monitor Oct 20 (Google Analytics Oct 19, Woot Oct 19). Zero new emails arrived today (Oct 21) as of this run. **Gmail CLEAN.** No on-niche brand partnership offers, no affiliate invitations, no inbound brand deals.
+
+**PLATFORM STATUS (Oct 21):**
+
+- **Amazon Associates `goldenhomep0a-20` — ACTIVE.** Oct 21 Trend Scout top-3: dated oak cabinets moody $9x [#1], pet-hair couch $52 Mamma Mia 41st UNBREAKABLE day [#2], cluttered corner $68 [#3]. Strategy & Outreach Oct 21 Amazon picks: (1) Peel-and-stick 3D fluted wall panels 6-pack ~$35-48 [HOME IMPROVEMENT, extreme renter before/after, ZERO GHP coverage]; (2) Bamboo expandable drawer organizer ~$14-22 [KITCHEN/HOSTING, Thanksgiving kitchen prep, 35 days to Nov 26]; (3) Freestanding 5-tier corner ladder shelf ~$55-75 [LIVING ROOM/BEDROOM, dead corner activation, Trend Scout #3]. Bounties UNCHANGED: $12/Prime signup (Oct 8–Dec 31), $20/Audible (Sep 8–Dec 15), $0.25/Subscribe & Save. Halloween indoor corner format (Oct 20 Strategy: adhesive stickers $8-12 + fairy lights $14 + pillar candles $11 = $35-37) — window CLOSES OCT 31 (10 days from today).
+
+- **Impact.com Publisher ID 7104029:**
+  - ✅ **SmartWings Halloween Sale — CLOSED OCT 19. Fully removed from active priority.**
+  - 🚨🚨 **SmartWings BF/CM Q4 — DAY 9 (since hard bounce Oct 16). Impact platform messaging ONLY.** All email to notifications@outreach.impact.com PERMANENTLY BOUNCED. IAN must log into Impact.com → SmartWings partner page → platform messaging to reach Andy. Q4 Black Friday/Cyber Monday commission structure being finalized NOW. Every additional day forfeits Q4 rate-setting position and placement. Revenue: $8-$32/sale on $100-$400 AOV with elevated Q4 commission.
+  - 🚨🚨 **Promeed 12% — Impact tracking link DAY 14 OVERDUE.** amelia.avery@promeed.com. IAN2026F3 promo + SAMPLE-IAN-COOL3-2026 sample codes in hand. Build Impact deep link today: Impact dashboard → Promeed partner → create tracking link → send to Amelia. Thanksgiving bedding upgrade window opens NOW (35 days out). 3× Amazon revenue per click.
+  - 🚨 **Mamma Mia 24-30% — ACTIVE, ZERO CONTENT DAY 41.** Trend Scout #2 today ($52 pet-hair couch). After-first format = 6,037-view confirmed average. $11-$16/sale vs Amazon $1.40-$1.60 on same content slot. Non-negotiable UNBREAKABLE mandate.
+  - **Syruvia 20%** — zero tracking links built. Candle warmer lamp $29 = $6/sale vs Amazon $1.80. Halloween/cozy season = peak candle warmer relevance window right now (10 days to Oct 31).
+  - **Dreame 5%+ ACTIVE (confirmed Sep 20) — zero tracking links, DAY 33.** $10-$40+/sale uncaptured on $200-800 robot vacuum AOV. IAN: Impact dashboard → Dreame → build tracking link.
+  - **Best Choice Products 10-15% — pre-approved, 1-click join STILL unactioned.** Home baskets, garden, storage benches — all on-niche.
+  - **Shelter Tools — joined Impact marketplace Oct 13.** Potentially on-niche home improvement/tools. IAN: Impact dashboard → search "Shelter Tools" → evaluate category + commission rate.
+  - **Chime Mattress ID 56440 — joined Sep 25, pending IAN evaluation.** Bedroom transformation (Thanksgiving/holiday reset = peak window NOW). IAN: Impact dashboard → check commission rate and terms.
+  - **Puracy ID 54051 — pending evaluation.** Plant-based cleaners, pairs with bathroom/kitchen transformation.
+
+- **Awin:**
+  - 🚨 **Rewarx ID 129153 — 50% RECURRING COMMISSION, DAY 35 (IAN-BLOCKED).** Highest commission in entire GHP portfolio. Julian at studio@rewarx.com waiting. Awin browser dashboard → accept → reply studio@rewarx.com for Golden10 promo code. Every day = compounding recurring revenue forfeited.
+  - **Homary merchant 91447 — DAY 24.** Lauren at affiliate@homary.com. $96/sale (12% on $800+ AOV home furnishings). IAN: complete Awin express signup + send affiliate ID to Lauren.
+  - Pending ON-NICHE accepts (browser): Tribesigns (industrial bookshelves/home office), SimpleProject 10% (bathroom remodel), Promeed HerbalRX 20% (pillow), CozySpiritStudio 20% (wall art), OKUN (home improvement).
+  - Pending OFF-NICHE declines (browser): FED Fitness, CICYBELL, HealSend, Everblog US, Zlike Hair (OFF-NICHE hair brand confirmed Oct 19).
+
+- **CJ Affiliate — AliExpress CID 7711902 dormancy DAY 21 of 90-day reactivation window (~Dec 31, 2026 deadline).** Advertiser relationship preserved. IAN: log into CJ portal → check Wayfair (7%), GreenLife Cookware (5%), Levoit (5%) application status — any single commission reactivates account. Content Engine: embed AliExpress CJ links in peel-and-stick wallpaper + cabinet content (interior home product overlap).
+
+**HIGH-AOV OPPORTUNITY SCAN (Oct 21):**
+- **Couch covers ($47-54):** Mamma Mia 24-30% ACTIVE — DAY 41 UNSCRIPTED. Trend Scout #2 today. $11-$16/sale = 10× Amazon.
+- **3D fluted wall panels ($35-48):** Amazon goldenhomep0a-20 ready. Strategy & Outreach #1 today. CONFIRMED 2026 mainstream upgrade. Extreme before/after visual = high share rate. ZERO GHP + ZERO competitor coverage.
+- **Robot vacuums ($100-350):** Dreame ACTIVE — zero tracking links DAY 33. $10-$40+/sale uncaptured.
+- **Silk/linen bedding ($40-80):** Promeed 12% ACTIVE — tracking link DAY 14 OVERDUE. Thanksgiving bedding upgrade window NOW.
+- **Smart home/window treatments ($100-400):** SmartWings BF/CM Q4 — Impact messaging DAY 9.
+- **Home furnishings ($200-800):** Homary 12% Awin — $96/sale, DAY 24 unactioned.
+- **Dead corner shelf ($55-75):** Trend Scout Oct 21 #3 + Strategy & Outreach pick. Amazon ready.
+- **Thanksgiving hosting ($52-56):** Bamboo drawer organizer kitchen prep format — peak Pinterest save window NOW through Nov 10.
+- **Halloween indoor corner ($33-37):** Adhesive stickers + fairy lights + pillar candles = $35. CLOSES OCT 31 (10 days). Amazon ready.
+
+**REVENUE PRIORITY RANKING (Oct 21):**
+1. Rewarx 50% recurring (Awin ID 129153) — DAY 35 NOT ACCEPTED (IAN-blocked)
+2. Mamma Mia 24-30% (Impact) — ACTIVE, ZERO CONTENT DAY 41
+3. Syruvia 20% (Impact) — ACTIVE, NO TRACKING LINK
+4. SmartWings BF/CM Q4 (Impact platform messaging) — DAY 9 since hard bounce, Q4 rates being set NOW
+5. Promeed 12% (Impact) — LINK DAY 14 OVERDUE
+6. Best Choice Products 10-15% (Impact) — 1-CLICK UNACTIONED
+7. Dreame ~5-10% (Impact) — ACTIVE, ZERO LINKS DAY 33
+8. Homary 12% (Awin) — $96/sale, DAY 24 UNACTIONED
+9. Amazon 3-8% `goldenhomep0a-20` — ACTIVE, fallback
+
+**IAN PRIORITY ACTIONS (Oct 21 — Affiliate Optimizer):**
+1. 🚨🚨 **CONTACT ANDY (SMARTWINGS BF/CM) VIA IMPACT PLATFORM MESSAGING.** Impact.com → Publisher ID 7104029 → SmartWings partner page → platform messaging. NOT email (permanent SMTP bounce). Q4 rates being set NOW — DAY 9.
+2. 🚨🚨 **BUILD PROMEED IMPACT TRACKING LINK — DAY 14 OVERDUE.** Impact dashboard → Promeed → create deep link → reply amelia.avery@promeed.com. IAN2026F3 + SAMPLE-IAN-COOL3-2026 in hand.
+3. 🚨 **ACCEPT REWARX AWIN ID 129153** — 50% recurring, DAY 35, highest commission in portfolio. Awin browser dashboard → accept → reply Julian at studio@rewarx.com for Golden10 promo code.
+4. **MAMMA MIA AFTER-FIRST $52 SCRIPT** — 41st UNBREAKABLE day (24-30% ACTIVE, Trend Scout #2 Oct 21, Impact link exists). After-first format = 6,037 confirmed avg views.
+5. **HALLOWEEN INDOOR CORNER — $35 adhesive stickers + fairy lights + pillar candles.** Amazon goldenhomep0a-20. Window CLOSES OCT 31 (10 days). Zero competitor coverage. High share-rate ("neighbor tags neighbor" format).
+6. **ACCEPT BEST CHOICE PRODUCTS (Impact)** — 10-15% pre-approved, 1-click join. Home baskets/outdoor storage = on-niche.
+7. **EVALUATE SHELTER TOOLS** — Impact dashboard, joined Oct 13. On-niche home improvement tools; check category + commission before joining.
+8. Build Dreame Impact tracking link (ACTIVE confirmed Sep 20, zero revenue captured, DAY 33).
+9. Build Syruvia Impact tracking link (candle warmer lamp $29, 20% = $6/sale, peak Halloween/cozy window NOW).
+10. DECLINE ZLIKE HAIR (Awin) via Awin browser dashboard — OFF-NICHE hair brand.
+11. VERIFY CLOUDFLARE email routing — IAN click verification link in thread 1a153c39b0af6b94.
+12. CJ portal: check Wayfair/GreenLife/Levoit application status. AliExpress dormancy DAY 21 of 90-day window.
+13. IAN: review Google Analytics Sep 22–Oct 19 report in Gmail (thread 1a1555864afb1785).
