@@ -6174,6 +6174,38 @@
       "verified_stars": "4.7",
       "verified_reviews": 8959,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B08CZDYNF7",
+      "product_name": "Ultrean Food Scale, Digital Kitchen Scale with LCD Display, Weight Grams and Ounces for Baking Cooking and Meal Prep, 6 ",
+      "categories": [
+        "kitchen",
+        "Kitchen"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B08CZDYNF7?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-10-21",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$6.98",
+      "verified_stars": "4.6",
+      "verified_reviews": 22377,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0C6HW47RH",
+      "product_name": "Chyhomenyc 2 Panels White Kitchen Curtains 36 Inch Length Tier Curtain | Faux Linen Textured, Small Cafe Curtain, Light ",
+      "categories": [
+        "home",
+        "Window Treatments"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0C6HW47RH?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-10-21",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$8.97",
+      "verified_stars": "4.6",
+      "verified_reviews": 8145,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
