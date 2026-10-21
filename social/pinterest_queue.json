@@ -7147,14 +7147,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-19-B07TXL7CPQ.png",
     "queued_at": "2026-10-19T10:11:10.064333Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "Cube Bins That Fold Flat",
     "recharted": false,
     "variant": "B",
-    "ai_image": true
+    "ai_image": true,
+    "posted_at": "2026-10-21T01:16:41Z"
   },
   {
     "id": "pin-2026-10-19-B09CKSCYF8",
