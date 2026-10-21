@@ -8878,5 +8878,29 @@
     "keyword": "PACK",
     "queued_at": "2026-10-20T12:26:08.332892Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_2026-10-21_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-21-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Your shower curtain screeches every time you pull it shut\n\nPlain plastic hooks grip the rod instead of rolling along it, so the curtain catches, sticks, and drags with every pull. Over time those same hooks rust and leave orange streaks on the rod and curtain.\n\nThese Titanker hooks are metal and rust resistant, built as double glide rings so each one rolls smoothly along the rod instead of catching. Thousands rate them around 4.6 stars for how easily the curtain moves after swapping them in.\n\nYour curtain opens and closes in one smooth pull instead of a fight, and the whole set runs about $7.\n\nComment HOOK and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Titanker Shower Curtain Hooks Rings, Rust Resistant Metal Double Glide Shower Hooks Rings for Bathroom Shower Rods Curta",
+      "dm_keyword": "HOOK",
+      "amazon_asin": "B081YQBPSS",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B081YQBPSS?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B081YQBPSS?tag=goldenhomep0a-20"
+    },
+    "hook": "Your shower curtain screeches every time you pull it shut"
   }
 ]
