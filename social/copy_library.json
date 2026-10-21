@@ -4134,6 +4134,52 @@
           }
         ]
       }
+    ],
+    "PANELS": [
+      {
+        "hook_category": "constraint",
+        "hook": "Ground floor bedroom means everyone outside sees you at night.",
+        "beat1": "Thin curtains look fine in daylight, but once the lamp goes on, anyone walking past can see straight through to the silhouette inside. Most everyday curtain fabric just isn't built to block a room from either direction.",
+        "turn": "These are blackout panels made for exactly that: a tighter weave that cuts the light coming in and the view going out. People rate them 4.7 stars across over sixty thousand reviews.",
+        "result": "Two 52 by 84 inch panels cover a standard window with the grommet top sliding right onto your existing rod, for about $15.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "A ground-floor bedroom window at dusk, lamp glowing inside, thin curtains letting a visible silhouette show through to the yard outside",
+            "on_screen_text": "Ground floor, lights on, no privacy",
+            "voiceover": "Ground floor bedroom means everyone outside sees you at night."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Close-up hand pulling back a thin, sheer curtain panel to show how much light and shadow passes through the fabric",
+            "on_screen_text": "Regular curtains aren't built for this",
+            "voiceover": "Thin curtains look fine in daylight, but once the lamp goes on, anyone walking past can see straight through. Most everyday fabric just isn't made to block a room both ways."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Hands sliding a thick, solid-colored grommet curtain panel onto a round metal curtain rod in a bedroom",
+            "on_screen_text": "Thicker weave, grommet top, easy hang",
+            "voiceover": "These are blackout panels made for exactly that, a tighter weave that cuts the light coming in and the view going out."
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "Wide shot of a bedroom window fully covered by two dark curtain panels, soft lamp light staying contained inside the room",
+            "on_screen_text": "4.7 stars, over 60,000 reviews",
+            "voiceover": "People rate them 4.7 stars across over sixty thousand reviews."
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "Morning shot of a bedroom with blackout curtains closed, room still dim and calm while light shows at the window edges outside",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "Two panels cover a standard window and slide right onto your existing rod, for about fifteen dollars. Comment {KEYWORD} and I'll send the link."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
