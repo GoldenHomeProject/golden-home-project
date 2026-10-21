@@ -1,47 +1,47 @@
 {
-  "generated_at": "2026-10-20T09:48:56.083253Z",
-  "date": "2026-10-20",
+  "generated_at": "2026-10-21T09:49:42.398193Z",
+  "date": "2026-10-21",
   "opportunities": [
     {
       "rank": 1,
-      "product_category": "kitchen cabinet refacing",
-      "specific_product": "Rust-Oleum Cabinet Transformations kit (no-sand cabinet paint + new hardware)",
-      "brand": "Rust-Oleum",
-      "target_price": "$89",
-      "transformation_hook": "Kitchen cabinets transformed for $89 \u2014 no demo, no contractor",
-      "before_state": "Dated oak cabinets with yellowing finish, scuffed doors, and tarnished brass hardware",
-      "after_state": "Matte charcoal or warm-white cabinets with sleek new hardware that looks custom-built",
+      "product_category": "kitchen cabinet refresh",
+      "specific_product": "cabinet paint kit + matte black hardware swap",
+      "brand": "Rust-Oleum / Amazon generic",
+      "target_price": "$94",
+      "transformation_hook": "Dated oak cabinets to moody color for $94 \u2014 zero demo",
+      "before_state": "Builder-grade honey-oak or yellowed white cabinets with dated brass pulls",
+      "after_state": "Painted deep burnt-orange or sage cabinet fronts with new matte black hardware",
       "buyer_intent_keywords": [
         "cabinet paint kit",
-        "kitchen cabinet makeover",
-        "how to paint kitchen cabinets",
-        "cabinet refacing kit",
-        "kitchen on a budget"
+        "painting kitchen cabinets without sanding",
+        "burnt orange kitchen cabinets",
+        "cabinet hardware swap",
+        "diy kitchen refresh"
       ],
       "scores": {
-        "trend": 7,
+        "trend": 9,
         "transformation": 10,
         "affiliate": 9,
-        "intent": 9
+        "intent": 8
       },
-      "composite_score": 35,
-      "why_now": "Two separate HGTV/BHG Pinterest pins this week spotlight trending cabinet-friendly paint colors, signaling a fall cabinet-refresh wave is surfacing."
+      "composite_score": 36,
+      "why_now": "Three separate Pinterest publishers (HGTV twice, BHG, Apartment Therapy) are all pushing cabinet-color and paint content this week, signaling a breakout aesthetic trend before it hits mainstream search."
     },
     {
       "rank": 2,
-      "product_category": "couch/sofa covers",
-      "specific_product": "Mamma Mia waterproof stretch sofa cover (pet hair + spill proof)",
+      "product_category": "couch covers",
+      "specific_product": "Mamma Mia waterproof stretch sofa cover",
       "brand": "Mamma Mia Covers",
       "target_price": "$52",
-      "transformation_hook": "$52 cover turns a pet-hair-covered couch into a showroom sofa in 10 minutes",
-      "before_state": "Worn sofa buried in dog/cat hair, stains, and pilling fabric",
-      "after_state": "Smooth, tailored-looking slipcover in a neutral tone that hides hair and stains completely",
+      "transformation_hook": "Pet-hair couch to hotel-clean for $52 \u2014 no reupholstery",
+      "before_state": "Shredded, pet-hair-covered, stained couch before holiday guests arrive",
+      "after_state": "Tailored stretch cover in a clean solid color, styled with throw pillows",
       "buyer_intent_keywords": [
-        "couch cover for pet hair",
+        "couch cover for pets",
         "waterproof sofa cover",
-        "stretch slipcover",
-        "dog hair proof couch cover",
-        "pet friendly sofa cover"
+        "stretch couch cover",
+        "sofa cover for dog hair",
+        "pet friendly couch cover"
       ],
       "scores": {
         "trend": 6,
@@ -50,82 +50,82 @@
         "intent": 8
       },
       "composite_score": 33,
-      "why_now": "Real Simple's pet-odor content is actively trending on Pinterest right now, and fall shedding season is pushing pet owners toward protective covers \u2014 highest-commission brand match for this angle."
+      "why_now": "Fall hosting-season content (HGTV's guest-ready home pins) is surging right as pre-holiday couch cleanup searches spike, and Mamma Mia carries the highest commission rate in the catalog."
     },
     {
       "rank": 3,
-      "product_category": "accent wall wallpaper",
-      "specific_product": "removable peel-and-stick terracotta/burnt-orange textured wallpaper",
-      "brand": "Amazon generic (e.g. RoomMates / Tempaper)",
-      "target_price": "$38",
-      "transformation_hook": "$38 of peel-and-stick wallpaper turns a blank wall into a designer accent in one afternoon",
-      "before_state": "Plain builder-beige wall with no focal point",
-      "after_state": "Rich burnt-orange/terracotta textured accent wall that looks professionally painted",
+      "product_category": "room dividers / storage screens",
+      "specific_product": "folding room divider screen",
+      "brand": "Best Choice Products / Amazon generic",
+      "target_price": "$68",
+      "transformation_hook": "Cluttered corner hidden for $68 in one afternoon",
+      "before_state": "Messy open shelving, exposed laundry or exercise gear cluttering a corner",
+      "after_state": "Clean folding screen concealing the mess, room instantly feels styled",
       "buyer_intent_keywords": [
-        "peel and stick wallpaper",
-        "burnt orange accent wall",
-        "removable wallpaper renter friendly",
-        "terracotta wall decor",
-        "temporary wallpaper"
-      ],
-      "scores": {
-        "trend": 8,
-        "transformation": 9,
-        "affiliate": 8,
-        "intent": 7
-      },
-      "composite_score": 32,
-      "why_now": "HGTV ran two separate pins this week on designer-approved burnt orange paint colors, and BHG confirms a nationwide shift toward this warm shade \u2014 the aesthetic is peaking just before mainstream retail catches up."
-    },
-    {
-      "rank": 4,
-      "product_category": "bedroom headboards",
-      "specific_product": "upholstered wall-mounted headboard panel",
-      "brand": "Best Choice Products",
-      "target_price": "$75",
-      "transformation_hook": "$75 headboard panel turns a bed-against-the-wall into a hotel-style bedroom",
-      "before_state": "Mattress pushed against a bare wall, no headboard, pillows sliding down behind it",
-      "after_state": "Tufted upholstered headboard panel mounted on the wall, bed now looks intentional and finished",
-      "buyer_intent_keywords": [
-        "headboard alternative",
-        "wall mounted headboard",
-        "upholstered headboard no bed frame",
-        "cheap headboard ideas",
-        "bedroom makeover on a budget"
+        "room divider for storage",
+        "folding screen divider",
+        "hide clutter room divider",
+        "apartment storage divider",
+        "privacy screen small space"
       ],
       "scores": {
         "trend": 7,
-        "transformation": 9,
+        "transformation": 8,
         "affiliate": 8,
         "intent": 7
       },
-      "composite_score": 31,
-      "why_now": "Apartment Therapy just ran a dedicated pin on '15 headboard alternative ideas,' signaling renters and small-space owners are actively searching for no-headboard fixes right now."
+      "composite_score": 30,
+      "why_now": "Apartment Therapy's publisher pins this week explicitly recommend room dividers to hide storage eyesores, aligning with peak fall decluttering content."
     },
     {
-      "rank": 5,
-      "product_category": "carpet & pet odor eliminators",
-      "specific_product": "best-selling pet odor carpet deodorizing spray/powder",
-      "brand": "Amazon generic (e.g. Arm & Hammer / Angry Orange)",
-      "target_price": "$15",
-      "transformation_hook": "$15 spray turns a pet-smell-stained carpet fresh again in one weekend clean",
-      "before_state": "Carpet with visible pet stains and lingering odor guests notice at the door",
-      "after_state": "Fresh-smelling, visibly cleaner carpet with stain spots lifted",
+      "rank": 4,
+      "product_category": "headboard alternatives",
+      "specific_product": "upholstered wall-mounted headboard panel",
+      "brand": "Amazon generic",
+      "target_price": "$76",
+      "transformation_hook": "Bare mattress wall to boutique-hotel bed for $76",
+      "before_state": "Bed frame with no headboard, bare wall exposed above the mattress",
+      "after_state": "Upholstered wall panel installed as a headboard with styled bedding",
       "buyer_intent_keywords": [
-        "pet odor eliminator carpet",
-        "carpet deodorizer for dogs",
-        "get pet smell out of carpet",
-        "best pet odor remover",
-        "dog smell house"
+        "headboard alternative",
+        "wall mounted headboard",
+        "no headboard ideas",
+        "upholstered headboard panel",
+        "diy headboard cheap"
       ],
       "scores": {
         "trend": 6,
-        "transformation": 6,
-        "affiliate": 10,
-        "intent": 9
+        "transformation": 9,
+        "affiliate": 7,
+        "intent": 6
       },
-      "composite_score": 31,
-      "why_now": "Real Simple's Pinterest content this week directly calls out Amazon's best-selling sub-$15 pet odor eliminators, confirming active shopper demand right now."
+      "composite_score": 28,
+      "why_now": "Apartment Therapy just published a dedicated '15 headboard alternative ideas' roundup, pointing to rising interest in low-cost bedroom focal-point fixes."
+    },
+    {
+      "rank": 5,
+      "product_category": "kitchen gadgets / tools",
+      "specific_product": "Syruvia ingredient keeper + drawer organizer set",
+      "brand": "Syruvia",
+      "target_price": "$19",
+      "transformation_hook": "Rock-hard pantry chaos solved for $19 \u2014 no more clumped sugar",
+      "before_state": "Cluttered pantry drawer with hardened brown sugar and loose gadgets",
+      "after_state": "Organized drawer with labeled keeper and tool organizer set",
+      "buyer_intent_keywords": [
+        "brown sugar keeper",
+        "pantry organization tools",
+        "kitchen drawer organizer",
+        "small kitchen gadgets amazon",
+        "ingredient storage keeper"
+      ],
+      "scores": {
+        "trend": 5,
+        "transformation": 6,
+        "affiliate": 9,
+        "intent": 7
+      },
+      "composite_score": 27,
+      "why_now": "Real Simple just spotlighted a cheap, massively-reviewed kitchen keeper tool \u2014 exactly the kind of tiny-price impulse buy that converts best on Reels."
     }
   ],
   "raw_signal_count": 85,
