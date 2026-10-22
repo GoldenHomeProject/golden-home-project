@@ -4180,6 +4180,52 @@
           }
         ]
       }
+    ],
+    "GENTLESOFT": [
+      {
+        "hook_category": "mistake",
+        "hook": "Stop buying a heated blanket just for couch time.",
+        "beat1": "Electric throws need an outlet, come with heat settings to fuss with, and feel bulky for something you only use for an hour on the couch. Most of the time all you actually want is warmth without the plug.",
+        "turn": "The Bedsure GentleSoft Sherpa Fleece Throw skips the cord entirely and relies on thick, warm fleece instead. Almost a hundred thousand people rate it 4.7 stars for that same no-plug couch warmth.",
+        "result": "For about $17, it turns any spot on the couch into the warm one, no outlet required.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "A hand reaching for a thin, flat throw blanket folded over the arm of a couch, room looking slightly chilly",
+            "on_screen_text": "Stop buying a heated blanket",
+            "voiceover": "Stop buying a heated blanket just for couch time."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Close-up of an electric blanket cord plugged into a wall outlet behind a couch, remote control with heat settings on the cushion",
+            "on_screen_text": "Cords. Settings. Overkill.",
+            "voiceover": "Electric throws need an outlet, have heat settings to fuss with, and feel bulky for something you use for an hour on the couch."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Hands unfolding a thick, fuzzy sherpa fleece throw blanket and pulling it over legs on a couch, close-up on the fleece texture",
+            "on_screen_text": "No cord, just thick fleece",
+            "voiceover": "This sherpa fleece throw is just thick and warm on its own, no plug, no settings, just pull it over your lap."
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "Wide shot of a cozy living room couch with the fleece throw draped over the arm, soft evening lamp light",
+            "on_screen_text": "4.7 stars, basically everyone's couch",
+            "voiceover": "Almost a hundred thousand people rate it 4.7 stars for that same no-plug couch warmth."
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "Person relaxed on the couch fully wrapped in the fleece throw, content expression, warm evening light through the window",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "For about seventeen dollars, it turns any spot on the couch into the warm one. Comment {KEYWORD} and I'll send the link."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
