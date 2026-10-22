@@ -7314,14 +7314,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-20-B08BZFRQLS.png",
     "queued_at": "2026-10-20T10:45:53.245295Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "3 Magnets Keep It From Billowing",
     "recharted": true,
     "variant": "A",
-    "ai_image": true
+    "ai_image": true,
+    "posted_at": "2026-10-22T01:16:30Z"
   },
   {
     "id": "pin-2026-10-20-B0B3544GYM",
