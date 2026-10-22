@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-10-22 (Strategy & Outreach 9am)
+# Last updated: 2026-10-22 (Affiliate Optimizer 10am)
 # ============================================================
 
 ---
@@ -3385,3 +3385,70 @@ Built on: Email Monitor 12:00 UTC (Gmail CLEAN — Stripe promo + Supabase infra
 **Competitor watch (Oct 22):** Alexandra Gater — vidIQ page (last updated Oct 17, 985K subs) shows a "375 Sq Ft Studio Apartment Makeover *COLOURFUL, BOHO STYLE!" video, but Oct 21 Strategy & Outreach confirmed 32nd+ consecutive no-upload day via daily checks. If this is a new video, the format is small-space colourful apartment makeover — NOT kitchen drawer organization or magnetic spice format. Our kitchen makeover formats remain uncovered. Nest With Me: crafts (confirmed). DIY Creators: woodworking (confirmed). All 3 content ideas today = zero competitor coverage on these specific formats. Neo Deco brass trend independently confirmed by Axios via Pinterest 2026 Predicts report (pendant lamps and brass details = active searches).
 
 - **Amazon picks for Pinterest pipeline (Oct 22) — categories with real August sales:** (1) KITCHEN: Magnetic spice jars set with labels 12-pack for fridge/refrigerator ~$22-28 — Trend Scout #1 today "$28 Kitchen Makeover in One Weekend," confirmed TikTok fridge org 1.9B+ views, renter-safe zero-drill, DISTINCT from all prior kitchen picks; IAN: search "magnetic spice jars set labels fridge refrigerator 12 pack" in Associates for top ASIN; https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20. (2) HOME ORGANIZATION: Woven seagrass storage baskets with lids set of 3 ~$28-38 — Trend Scout #2 today "$65 Fix for Cluttered Room Before Guests," living room guest-reset pre-Thanksgiving (34 days to Nov 26), Pinterest fall room decor +58%, DISTINCT from corner shelf Oct 21 and bamboo org Oct 21; IAN: search "woven seagrass storage basket with lid set 3 living room" in Associates for top ASIN; goldenhomep0a-20 tag. (3) KITCHEN: Bamboo adjustable drawer organizer dividers kitchen utensils set ~$18-26 — Trend Scout #3 today "$24 Kitchen Drawer Fix Everyone's Copying," satisfying TikTok reveal format, DISTINCT from bamboo expandable drawer Oct 21 (Thanksgiving cooking prep vs. general drawer reveal); IAN: search "bamboo adjustable drawer organizer dividers kitchen utensils set" in Associates for top ASIN; goldenhomep0a-20 tag.
+
+### October 2026 Affiliate Updates (updated 2026-10-22 Affiliate Optimizer 10am)
+
+Built on: Email Monitor 12:00 UTC (Gmail CLEAN — Google Cloud ToS update only; Mamma Mia 42nd UNBREAKABLE day); Strategy & Outreach 13:25 UTC (magnetic fridge spice organizer $26 [Trend Scout #1, 1.9B+ TikTok fridge org views, ZERO GHP coverage], living room pre-Thanksgiving guest reset $65 [34 days to Nov 26], Mamma Mia 42nd UNBREAKABLE; Amazon picks: magnetic spice jars 12-pack ~$22-28, woven seagrass baskets 3-pack ~$28-38, bamboo adjustable drawer organizer ~$18-26); Trend Scout Oct 22 (top-3: $28 Kitchen Makeover in One Weekend [#1], $65 Fix for Cluttered Room Before Guests [#2], $24 Kitchen Drawer Fix Everyone's Copying [#3]). Cold outreach PAUSED per Ian Sep 3 directive.
+
+**GMAIL AUDIT (Oct 22, 10am ET):** Confirmed same 1 thread already triaged by Email Monitor 12:00 UTC (Google Cloud ToS update Oct 22 02:31 UTC — platform legal notice, no action). **Gmail CLEAN.** Zero new on-niche brand deals, affiliate invitations, or inbound partnership emails. No inbound brand emails requiring reply.
+
+**PLATFORM STATUS (Oct 22):**
+
+- **Amazon Associates `goldenhomep0a-20` — ACTIVE.** Oct 22 Strategy & Outreach Amazon picks: (1) Magnetic spice jars set with labels 12-pack ~$22-28 [KITCHEN, Trend Scout #1 "$28 Kitchen Makeover in One Weekend," TikTok fridge org 1.9B+ views, renter-safe zero-drill, ZERO GHP coverage; search "magnetic spice jars set labels fridge refrigerator 12 pack"; goldenhomep0a-20]; (2) Woven seagrass storage baskets with lids set of 3 ~$28-38 [HOME ORGANIZATION, Trend Scout #2 "$65 Fix for Cluttered Room Before Guests," living room guest-reset, 34 days to Thanksgiving Nov 26; search "woven seagrass storage basket with lid set 3 living room"; goldenhomep0a-20]; (3) Bamboo adjustable drawer organizer dividers kitchen ~$18-26 [KITCHEN, Trend Scout #3 "$24 Kitchen Drawer Fix Everyone's Copying," satisfying TikTok reveal format; search "bamboo adjustable drawer organizer dividers kitchen utensils set"; goldenhomep0a-20]. Bounties UNCHANGED: $12/Prime signup (Oct 8–Dec 31), $20/Audible (Sep 8–Dec 15), $0.25/Subscribe & Save. **Halloween indoor corner format CLOSES OCT 31 (9 days from today) — URGENT.**
+
+- **Impact.com Publisher ID 7104029:**
+  - 🚨🚨 **SmartWings BF/CM Q4 — DAY 10 (since hard bounce Oct 16). Impact platform messaging ONLY.** All email to notifications@outreach.impact.com PERMANENTLY BOUNCED. IAN must log into Impact.com → SmartWings partner page → platform messaging to reach Andy. Q4 Black Friday/Cyber Monday commission structure being finalized NOW. Every additional day forfeits Q4 rate-setting position and revenue. Revenue: $8-$32/sale on $100-$400 AOV.
+  - 🚨🚨 **Promeed 12% — Impact tracking link DAY 15 OVERDUE.** amelia.avery@promeed.com. IAN2026F3 promo + SAMPLE-IAN-COOL3-2026 sample codes in hand. Build Impact deep link: Impact dashboard → Promeed partner → create tracking link → send to Amelia. Thanksgiving bedding upgrade window = NOW (34 days to Nov 26). 3× Amazon revenue per click.
+  - 🚨 **Mamma Mia 24-30% — ACTIVE, ZERO CONTENT DAY 42.** Trend Scout #2 today ($65 Fix for Cluttered Room Before Guests aligns with couch cover). After-first format = 6,037-view confirmed average. $11-$16/sale vs Amazon $1.40. UNBREAKABLE mandate — non-negotiable every single day.
+  - **Syruvia 20%** — zero tracking links built. Candle warmer lamp $29 = $6/sale vs Amazon $1.80. Halloween/cozy season peak window = 9 days left (closes Oct 31). URGENT.
+  - **Dreame 5%+ ACTIVE (confirmed Sep 20) — zero tracking links, DAY 34.** $10-$40+/sale uncaptured on $200-800 robot vacuum AOV. IAN: Impact dashboard → Dreame → build tracking link.
+  - **Best Choice Products 10-15% — pre-approved, 1-click join STILL unactioned.** Home baskets, garden, storage benches — all on-niche.
+  - **Shelter Tools** — Impact marketplace, joined Oct 13. Potentially on-niche home improvement/tools. IAN evaluate category + commission.
+  - **Chime Mattress ID 56440** — joined Sep 25. Bedroom transformation = Thanksgiving/holiday peak window NOW. IAN evaluate.
+  - **Puracy ID 54051** — pending. Plant-based cleaners, pairs with bathroom/kitchen transformation.
+
+- **Awin:**
+  - 🚨 **Rewarx ID 129153 — 50% RECURRING COMMISSION, DAY 36 (IAN-BLOCKED).** Highest commission in entire GHP portfolio. Julian at studio@rewarx.com waiting. Awin browser dashboard → accept → reply studio@rewarx.com for Golden10 promo code.
+  - **Homary merchant 91447 — DAY 25.** Lauren at affiliate@homary.com. $96/sale (12% on $800+ AOV home furnishings). IAN: complete Awin express signup + send affiliate ID to Lauren.
+  - Pending ON-NICHE accepts (browser): Tribesigns (industrial bookshelves/home office), SimpleProject 10% (bathroom remodel), Promeed HerbalRX 20% (pillow), CozySpiritStudio 20% (wall art), OKUN (home improvement).
+  - Pending OFF-NICHE declines (browser): FED Fitness, CICYBELL, HealSend, Everblog US, Zlike Hair (OFF-NICHE hair brand).
+
+- **CJ Affiliate — AliExpress CID 7711902 dormancy DAY 22 of 90-day reactivation window (~Dec 31, 2026 deadline).** Advertiser relationship preserved. IAN: log into CJ portal → check Wayfair (7%), GreenLife Cookware (5%), Levoit (5%) application status — any single commission reactivates account.
+
+**HIGH-AOV OPPORTUNITY SCAN (Oct 22):**
+- **Couch covers ($47-54):** Mamma Mia 24-30% ACTIVE — DAY 42 UNSCRIPTED. $11-$16/sale = 10× Amazon. Non-negotiable.
+- **Magnetic fridge spice organizer ($22-28):** Strategy & Outreach #1 today. TikTok 1.9B+ fridge org views. ZERO GHP coverage. Amazon ready. Renter-safe zero-drill = broad audience.
+- **Robot vacuums ($100-350):** Dreame ACTIVE — zero tracking links DAY 34. $10-$40+/sale uncaptured.
+- **Silk/linen bedding ($40-80):** Promeed 12% ACTIVE — tracking link DAY 15 OVERDUE. Thanksgiving upgrade window NOW.
+- **Smart home/window treatments ($100-400):** SmartWings BF/CM Q4 — Impact messaging DAY 10.
+- **Home furnishings ($200-800):** Homary 12% Awin — $96/sale, DAY 25 unactioned.
+- **Living room guest reset ($65):** Trend Scout #2 today woven baskets + tray + lumbar. 34 days to Thanksgiving.
+- **Kitchen drawer organize ($18-26):** Trend Scout #3 today bamboo adjustable. TikTok reveal format viral.
+- **Halloween indoor corner ($33-37):** CLOSES OCT 31 (9 days). URGENT. Adhesive stickers + fairy lights + pillar candles. Amazon goldenhomep0a-20 ready.
+- **Candle warmer lamp ($29, Syruvia 20%):** Halloween/cozy peak = 9 days left. $6/sale vs Amazon $1.80. URGENT window.
+
+**REVENUE PRIORITY RANKING (Oct 22):**
+1. Rewarx 50% recurring (Awin ID 129153) — DAY 36 NOT ACCEPTED (IAN-blocked)
+2. Mamma Mia 24-30% (Impact) — ACTIVE, ZERO CONTENT DAY 42
+3. Syruvia 20% (Impact) — ACTIVE, NO TRACKING LINK (Halloween window = 9 days)
+4. SmartWings BF/CM Q4 (Impact platform messaging) — DAY 10 since hard bounce
+5. Promeed 12% (Impact) — LINK DAY 15 OVERDUE
+6. Best Choice Products 10-15% (Impact) — 1-CLICK UNACTIONED
+7. Dreame ~5-10% (Impact) — ACTIVE, ZERO LINKS DAY 34
+8. Homary 12% (Awin) — $96/sale, DAY 25 UNACTIONED
+9. Amazon 3-8% `goldenhomep0a-20` — ACTIVE, fallback
+
+**IAN PRIORITY ACTIONS (Oct 22 — Affiliate Optimizer):**
+1. 🚨🚨 **CONTACT ANDY (SMARTWINGS BF/CM) VIA IMPACT PLATFORM MESSAGING.** Impact.com → Publisher ID 7104029 → SmartWings partner page → platform messaging. NOT email (permanent SMTP bounce). Q4 rates being set NOW — DAY 10.
+2. 🚨🚨 **BUILD PROMEED IMPACT TRACKING LINK — DAY 15 OVERDUE.** Impact dashboard → Promeed → create deep link → reply amelia.avery@promeed.com. IAN2026F3 + SAMPLE-IAN-COOL3-2026 in hand. Thanksgiving bedding window OPEN NOW.
+3. 🚨 **ACCEPT REWARX AWIN ID 129153** — 50% recurring, DAY 36, highest commission in portfolio. Awin browser dashboard → accept → reply Julian at studio@rewarx.com.
+4. **MAMMA MIA AFTER-FIRST $52 SCRIPT** — 42nd UNBREAKABLE day (24-30% ACTIVE). After-first format = 6,037 confirmed avg views. Content Engine or IAN write now.
+5. **HALLOWEEN INDOOR CORNER + SYRUVIA CANDLE WARMER** — 9 days left (Oct 31). Both URGENT. Amazon $35 corner format; Syruvia $29 candle warmer 20% = $6/sale in peak season.
+6. **ACCEPT BEST CHOICE PRODUCTS (Impact)** — 10-15% pre-approved, 1-click join. Home baskets/outdoor storage = on-niche.
+7. **EVALUATE SHELTER TOOLS + CHIME MATTRESS** — Impact dashboard. Both potentially on-niche with Q4 seasonal upside.
+8. Build Dreame Impact tracking link (ACTIVE confirmed Sep 20, zero revenue captured, DAY 34).
+9. Build Syruvia Impact tracking link (candle warmer $29, 20% = $6/sale, Halloween window closes Oct 31 = 9 days).
+10. DECLINE ZLIKE HAIR (Awin) via Awin browser dashboard — OFF-NICHE hair brand.
+11. VERIFY CLOUDFLARE email routing — IAN click verification link in thread 1a153c39b0af6b94.
+12. CJ portal: check Wayfair/GreenLife/Levoit application status. AliExpress dormancy DAY 22 of 90-day window.
+13. IAN: review Google Analytics Sep 22–Oct 19 report in Gmail (thread 1a1555864afb1785).
