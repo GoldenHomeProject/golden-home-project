@@ -8902,5 +8902,29 @@
     "keyword": "HOME",
     "queued_at": "2026-10-21T12:35:28.605723Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_2026-10-22_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-22-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Ground floor bedroom means everyone outside sees you at night.\n\nThin curtains look fine in daylight, but once the lamp goes on, anyone walking past can see straight through to the silhouette inside. Most everyday curtain fabric just isn't built to block a room from either direction.\n\nThese are blackout panels made for exactly that: a tighter weave that cuts the light coming in and the view going out. People rate them 4.7 stars across over sixty thousand reviews.\n\nTwo 52 by 84 inch panels cover a standard window with the grommet top sliding right onto your existing rod, for about $15.\n\nComment PANELS and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "NICETOWN Black Out Curtains for Bedroom 84 Inches Long, W52xL84, 2 Panels | Light Reducing Thermal Drapes Solid Grommet ",
+      "dm_keyword": "PANELS",
+      "amazon_asin": "B015SJ8AM2",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B015SJ8AM2?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B015SJ8AM2?tag=goldenhomep0a-20"
+    },
+    "hook": "Ground floor bedroom means everyone outside sees you at night."
   }
 ]
