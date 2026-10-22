@@ -1,131 +1,131 @@
 {
-  "generated_at": "2026-10-21T09:49:42.398193Z",
-  "date": "2026-10-21",
+  "generated_at": "2026-10-22T09:49:28.126688Z",
+  "date": "2026-10-22",
   "opportunities": [
     {
       "rank": 1,
       "product_category": "kitchen cabinet refresh",
-      "specific_product": "cabinet paint kit + matte black hardware swap",
-      "brand": "Rust-Oleum / Amazon generic",
-      "target_price": "$94",
-      "transformation_hook": "Dated oak cabinets to moody color for $94 \u2014 zero demo",
-      "before_state": "Builder-grade honey-oak or yellowed white cabinets with dated brass pulls",
-      "after_state": "Painted deep burnt-orange or sage cabinet fronts with new matte black hardware",
+      "specific_product": "peel-and-stick cabinet door wrap / contact paper film",
+      "brand": "Amazon generic",
+      "target_price": "$28",
+      "transformation_hook": "$28 Kitchen Makeover in One Weekend (No Paint, No Pros)",
+      "before_state": "dated, scratched wood-tone or laminate cabinets with sticky grime and visible wear",
+      "after_state": "crisp matte-white or bold solid-color cabinet doors that look custom-painted",
       "buyer_intent_keywords": [
-        "cabinet paint kit",
-        "painting kitchen cabinets without sanding",
-        "burnt orange kitchen cabinets",
-        "cabinet hardware swap",
-        "diy kitchen refresh"
+        "cabinet makeover on a budget",
+        "peel and stick cabinet wrap",
+        "how to update kitchen cabinets without painting",
+        "cheap kitchen renovation ideas",
+        "contact paper cabinets before after"
       ],
       "scores": {
-        "trend": 9,
+        "trend": 8,
         "transformation": 10,
         "affiliate": 9,
-        "intent": 8
+        "intent": 9
       },
       "composite_score": 36,
-      "why_now": "Three separate Pinterest publishers (HGTV twice, BHG, Apartment Therapy) are all pushing cabinet-color and paint content this week, signaling a breakout aesthetic trend before it hits mainstream search."
+      "why_now": "AptTherapy's viral 'paint your cabinets for a dramatic before/after' pin is surfacing right as fall home-refresh searches climb, and peel-and-stick wraps capture the same transformation without the painting labor."
     },
     {
       "rank": 2,
-      "product_category": "couch covers",
-      "specific_product": "Mamma Mia waterproof stretch sofa cover",
-      "brand": "Mamma Mia Covers",
-      "target_price": "$52",
-      "transformation_hook": "Pet-hair couch to hotel-clean for $52 \u2014 no reupholstery",
-      "before_state": "Shredded, pet-hair-covered, stained couch before holiday guests arrive",
-      "after_state": "Tailored stretch cover in a clean solid color, styled with throw pillows",
+      "product_category": "room divider screens",
+      "specific_product": "4-panel folding room divider screen",
+      "brand": "Amazon generic",
+      "target_price": "$65",
+      "transformation_hook": "$65 Fix for a Cluttered Room Before Guests Arrive",
+      "before_state": "open-plan apartment with visible storage bins, exercise equipment, or a cluttered eyesore corner",
+      "after_state": "zoned, hotel-cozy space with the mess hidden behind a stylish fabric-paneled divider",
       "buyer_intent_keywords": [
-        "couch cover for pets",
-        "waterproof sofa cover",
-        "stretch couch cover",
-        "sofa cover for dog hair",
-        "pet friendly couch cover"
-      ],
-      "scores": {
-        "trend": 6,
-        "transformation": 9,
-        "affiliate": 10,
-        "intent": 8
-      },
-      "composite_score": 33,
-      "why_now": "Fall hosting-season content (HGTV's guest-ready home pins) is surging right as pre-holiday couch cleanup searches spike, and Mamma Mia carries the highest commission rate in the catalog."
-    },
-    {
-      "rank": 3,
-      "product_category": "room dividers / storage screens",
-      "specific_product": "folding room divider screen",
-      "brand": "Best Choice Products / Amazon generic",
-      "target_price": "$68",
-      "transformation_hook": "Cluttered corner hidden for $68 in one afternoon",
-      "before_state": "Messy open shelving, exposed laundry or exercise gear cluttering a corner",
-      "after_state": "Clean folding screen concealing the mess, room instantly feels styled",
-      "buyer_intent_keywords": [
-        "room divider for storage",
+        "room divider for apartment",
         "folding screen divider",
-        "hide clutter room divider",
-        "apartment storage divider",
-        "privacy screen small space"
+        "hide storage in small space",
+        "decluttering before thanksgiving guests",
+        "studio apartment room divider"
       ],
       "scores": {
         "trend": 7,
         "transformation": 8,
-        "affiliate": 8,
-        "intent": 7
+        "affiliate": 9,
+        "intent": 9
       },
-      "composite_score": 30,
-      "why_now": "Apartment Therapy's publisher pins this week explicitly recommend room dividers to hide storage eyesores, aligning with peak fall decluttering content."
+      "composite_score": 33,
+      "why_now": "AptTherapy's room-divider styling tip and HGTV's house-guest hosting content are both trending just as pre-Thanksgiving decluttering searches ramp up."
+    },
+    {
+      "rank": 3,
+      "product_category": "kitchen drawer & cabinet organizers",
+      "specific_product": "Syruvia stackable drawer/cabinet organizer bin set",
+      "brand": "Syruvia",
+      "target_price": "$24",
+      "transformation_hook": "$24 Kitchen Drawer Fix Everyone's Copying",
+      "before_state": "overflowing junk drawer and chaotic cabinet with mismatched lids and utensils",
+      "after_state": "labeled, zoned drawer and cabinet with every item visible and in its place",
+      "buyer_intent_keywords": [
+        "kitchen drawer organizer",
+        "cabinet organization ideas",
+        "declutter kitchen cupboards",
+        "pantry organization bins",
+        "small kitchen storage hacks"
+      ],
+      "scores": {
+        "trend": 7,
+        "transformation": 7,
+        "affiliate": 9,
+        "intent": 9
+      },
+      "composite_score": 32,
+      "why_now": "RealSimple's cupboard/drawer storage tip is trending into fall organizing season, and Syruvia's 20% commission makes this a strong-margin pick to pair with it."
     },
     {
       "rank": 4,
-      "product_category": "headboard alternatives",
-      "specific_product": "upholstered wall-mounted headboard panel",
-      "brand": "Amazon generic",
-      "target_price": "$76",
-      "transformation_hook": "Bare mattress wall to boutique-hotel bed for $76",
-      "before_state": "Bed frame with no headboard, bare wall exposed above the mattress",
-      "after_state": "Upholstered wall panel installed as a headboard with styled bedding",
+      "product_category": "sofa covers",
+      "specific_product": "Mamma Mia waterproof stretch sofa cover",
+      "brand": "Mamma Mia Covers",
+      "target_price": "$52",
+      "transformation_hook": "$52 Couch Transformation Before Holiday Guests",
+      "before_state": "worn, stained, pet-haired couch that's embarrassing to host on",
+      "after_state": "crisp, tailored-looking slipcover that reads brand-new for under $60",
       "buyer_intent_keywords": [
-        "headboard alternative",
-        "wall mounted headboard",
-        "no headboard ideas",
-        "upholstered headboard panel",
-        "diy headboard cheap"
+        "pet hair couch cover",
+        "waterproof sofa slipcover",
+        "stretch couch cover for dogs",
+        "sofa cover before thanksgiving",
+        "easy couch makeover"
       ],
       "scores": {
         "trend": 6,
-        "transformation": 9,
-        "affiliate": 7,
-        "intent": 6
+        "transformation": 8,
+        "affiliate": 8,
+        "intent": 8
       },
-      "composite_score": 28,
-      "why_now": "Apartment Therapy just published a dedicated '15 headboard alternative ideas' roundup, pointing to rising interest in low-cost bedroom focal-point fixes."
+      "composite_score": 30,
+      "why_now": "HGTV's house-guest hosting content and the approaching November hosting rush are driving searches for fast, cheap couch refreshes, and Mamma Mia's 24-30% commission is the highest-margin option this week."
     },
     {
       "rank": 5,
-      "product_category": "kitchen gadgets / tools",
-      "specific_product": "Syruvia ingredient keeper + drawer organizer set",
-      "brand": "Syruvia",
-      "target_price": "$19",
-      "transformation_hook": "Rock-hard pantry chaos solved for $19 \u2014 no more clumped sugar",
-      "before_state": "Cluttered pantry drawer with hardened brown sugar and loose gadgets",
-      "after_state": "Organized drawer with labeled keeper and tool organizer set",
+      "product_category": "headboard alternatives",
+      "specific_product": "wall-mounted upholstered headboard panel",
+      "brand": "Amazon generic",
+      "target_price": "$45",
+      "transformation_hook": "$45 Headboard Hack for a Bed With No Headboard",
+      "before_state": "bare mattress and bed frame pushed against a blank wall",
+      "after_state": "boutique-hotel-style padded headboard wall that anchors the whole room",
       "buyer_intent_keywords": [
-        "brown sugar keeper",
-        "pantry organization tools",
-        "kitchen drawer organizer",
-        "small kitchen gadgets amazon",
-        "ingredient storage keeper"
+        "headboard alternative",
+        "no headboard ideas",
+        "wall mounted headboard panel",
+        "cheap bedroom upgrade",
+        "upholstered headboard diy"
       ],
       "scores": {
-        "trend": 5,
-        "transformation": 6,
-        "affiliate": 9,
+        "trend": 6,
+        "transformation": 8,
+        "affiliate": 8,
         "intent": 7
       },
-      "composite_score": 27,
-      "why_now": "Real Simple just spotlighted a cheap, massively-reviewed kitchen keeper tool \u2014 exactly the kind of tiny-price impulse buy that converts best on Reels."
+      "composite_score": 29,
+      "why_now": "AptTherapy's '15 headboard alternative ideas' pin is gaining traction as bedroom-refresh content ramps into cozy season."
     }
   ],
   "raw_signal_count": 85,
