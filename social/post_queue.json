@@ -8480,22 +8480,6 @@
     "superseded_reason": "Ken Burns-style reel; Ian 2026-10-17 stop them"
   },
   {
-    "id": "carousel-2026-10-15-B010S5VXKC",
-    "media_type": "CAROUSEL_ALBUM",
-    "image_urls": [
-      "https://goldenhomeproject.com/social/carousels/2026-10-15-B010S5VXKC/slide-1.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-15-B010S5VXKC/slide-2.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-15-B010S5VXKC/slide-3.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-15-B010S5VXKC/slide-4.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-15-B010S5VXKC/slide-5.png"
-    ],
-    "caption": "That musty towel smell isn't a cleaning problem \u2014 it's a drying problem.\n\nThick, folded washcloths trap moisture and never fully dry between uses, which is where that sour smell comes from. A thinner, fast-drying cotton weave spread out (not folded) and rotated through a full stack solves it without extra scrubbing.\n\nSave this for later so you remember the fix next time you're restocking the bathroom. \ud83e\uddfa\n\nComment FAST or DM me FAST for the link.\n\n#HomeOrganization #BathroomOrganization #OrganizingTips #CleanHome #SmallBathroomIdeas",
-    "asin": "B010S5VXKC",
-    "keyword": "FAST",
-    "queued_at": "2026-10-15T12:17:57.820141Z",
-    "source": "carousel_generator"
-  },
-  {
     "name": "reel_2026-10-16_001",
     "status": "superseded_2026-10-17",
     "script_path": "automation/scripts/reel-2026-10-16-001.json",
