@@ -7292,14 +7292,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-20-B07HMRZSWT.png",
     "queued_at": "2026-10-20T10:44:15.124226Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "1000 Sqft of Stretch Cobwebs",
     "recharted": true,
     "variant": "A",
-    "ai_image": false
+    "ai_image": false,
+    "posted_at": "2026-10-22T01:15:25Z"
   },
   {
     "id": "pin-2026-10-20-B08BZFRQLS",
