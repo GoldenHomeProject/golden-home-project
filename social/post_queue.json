@@ -8918,5 +8918,29 @@
     "keyword": "HOOK",
     "queued_at": "2026-10-22T12:39:47.871374Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_2026-10-23_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-23-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Stop buying a heated blanket just for couch time.\n\nElectric throws need an outlet, come with heat settings to fuss with, and feel bulky for something you only use for an hour on the couch. Most of the time all you actually want is warmth without the plug.\n\nThe Bedsure GentleSoft Sherpa Fleece Throw skips the cord entirely and relies on thick, warm fleece instead. Almost a hundred thousand people rate it 4.7 stars for that same no-plug couch warmth.\n\nFor about $17, it turns any spot on the couch into the warm one, no outlet required.\n\nComment GENTLESOFT and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Bedsure GentleSoft Sherpa Fleece Throw Blanket for Couch, Non-Heated, Thick & Warm Cozy Comfort Christmas Blanket for Wi",
+      "dm_keyword": "GENTLESOFT",
+      "amazon_asin": "B0158EQJSY",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B0158EQJSY?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B0158EQJSY?tag=goldenhomep0a-20"
+    },
+    "hook": "Stop buying a heated blanket just for couch time."
   }
 ]
