@@ -2997,6 +2997,20 @@
       "pin_id": "pin-2026-10-20-B00FXNABPI",
       "board": "Home Organization Finds",
       "link": "https://www.amazon.com/dp/B00FXNABPI?tag=ghpbranda-20&ascsubtag=pinterest_brandA"
+    },
+    {
+      "ts": "2026-10-23T01:16:22Z",
+      "action": "board_fallback",
+      "pin_id": "pin-2026-10-20-B0F332CCLK",
+      "wanted": "Bedroom Storage & Bedding",
+      "used": "Home Organization Finds"
+    },
+    {
+      "ts": "2026-10-23T01:16:34Z",
+      "action": "pin_published",
+      "pin_id": "pin-2026-10-20-B0F332CCLK",
+      "board": "Bedroom Storage & Bedding",
+      "link": "https://www.amazon.com/dp/B0F332CCLK?tag=ghpbranda-20&ascsubtag=pinterest_brandA"
     }
   ]
 }
