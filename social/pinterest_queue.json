@@ -7884,7 +7884,9 @@
     "image_path": "social/pinterest/collage-2026-10-23-best-bedding-essentials.png",
     "link": "https://goldenhomeproject.com/blog/posts/best-bedding-essentials.html?v=B",
     "format": "collage",
-    "variant": "B"
+    "variant": "B",
+    "posted": true,
+    "posted_at": "2026-10-23T13:41:25Z"
   },
   {
     "id": "howto-2026-10-23-B07SPR2HPT",
