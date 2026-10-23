@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-10-23 (Strategy & Outreach 9am)
+# Last updated: 2026-10-23 (Affiliate Optimizer 10am)
 # ============================================================
 
 ---
@@ -3394,3 +3394,69 @@ Built on: Email Monitor 12:00 UTC (Gmail CLEAN — Stripe promo + Supabase infra
 **Competitor watch (Oct 23):** Alexandra Gater — web search could not confirm any new October 2026 upload (vidIQ Oct 17 shows 985K subs; the "375 Sq Ft Colourful Boho Studio" result may be an older video with renewed views, not a new Oct 2026 upload). 33rd+ consecutive no-upload day. If any of today's 3 content ideas publish before she returns, GHP holds the renter-specific format on all three. Nest With Me: crafts/knitting (confirmed). DIY Creators: woodworking (confirmed). Halloween smart bulb room atmosphere + Thanksgiving charcuterie serveware + nightstand bedtime ritual = ZERO competitor coverage. Renter + dollar-specificity moat fully intact.
 
 - **Amazon picks for Pinterest pipeline (Oct 23) — categories with real August sales:** (1) SEASONAL/HOME DECOR: Color-changing smart bulb E26 2-pack app-controlled no hub required ~$18-25 — HALLOWEEN, 8 days to Oct 31 SATURDAY extended peak window, Gen Z TikTok whole-room atmosphere format (7M+ views), zero-install renter-safe (screw in only), DISTINCT from Oct 20 adhesive sticker + fairy lights corner install; IAN: search "color changing smart bulb E26 no hub app controlled 2 pack" in Associates for top ASIN; https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20. (2) KITCHEN/HOSTING: Large wood charcuterie serving board with juice groove handle ~$35-45 — Thanksgiving 33 days (Nov 26), charcuterie boards as 2026 Thanksgiving centerpiece trend confirmed, peak Pinterest serveware saves window NOW, "board as decor" format, DISTINCT from all prior kitchen + hosting picks (first serveware/food-table format in pipeline); IAN: search "large wood charcuterie board with juice groove handle" in Associates for top ASIN; goldenhomep0a-20 tag. (3) BEDROOM/WELLNESS: Plug-in essential oil diffuser wood grain base bedroom ~$22-30 — bedtime ritual nightstand corner format, cozy season sleep wellness TikTok surge Oct-Nov, ZERO prior GHP coverage on nightstand/bedside space, renter-safe plug-in, high visual contrast before/after; IAN: search "essential oil diffuser plug in wood grain bedroom nightstand" in Associates for top ASIN; goldenhomep0a-20 tag.
+
+### October 2026 Affiliate Updates (updated 2026-10-23 Affiliate Optimizer 10am)
+
+Built on: Email Monitor 12:10 UTC (Gmail CLEAN — GitHub Actions disable warning + prior Google Cloud ToS notice; zero new brand/affiliate emails; Mamma Mia 43rd UNBREAKABLE day); Strategy & Outreach 13:14 UTC (Halloween orange/amber smart bulb room atmosphere $19 [8 days to Oct 31 SATURDAY, Gen Z 7M+ views, DISTINCT from Oct 20 corner], Thanksgiving charcuterie serveware $62 [33 days to Nov 26, first serveware format], bedtime ritual nightstand corner $50 [ZERO prior GHP coverage], competitor watch Oct 23 [Gater 33rd+ no-upload]; Amazon picks Oct 23); Trend Scout Oct 23 (top-3: $38 contact paper vs $3,000 cabinet repaint [#1], $46 Mamma Mia couch cover [#2, 43rd UNBREAKABLE], $29 peel-and-stick wall roll [#3]). Cold outreach PAUSED per Ian Sep 3 directive.
+
+**GMAIL AUDIT (Oct 23, 10am ET):** 2 inbox threads found. (1) 🆕 NEW — Awin "Shortcut Chat Affiliate Program" invitation (13:28 UTC, thread 1a168f2fee02f7f7, Awin merchant 131137) — arrived AFTER Email Monitor 8am run. "Shortcut Chat" = tech/chat app, OFF-NICHE. IAN: DECLINE via Awin browser dashboard (help@awin.com bounces per established pattern). (2) GitHub "weekly-draw-keeper" disable warning (05:47 UTC, already logged by Email Monitor Oct 23). **Zero on-niche brand partnership emails. Gmail CLEAN.**
+
+**PLATFORM STATUS (Oct 23):**
+
+- **Amazon Associates `goldenhomep0a-20` — ACTIVE.** Oct 23 Trend Scout top-3: $38 contact paper vs $3,000 cabinet repaint [#1], $46 Mamma Mia couch cover [#2, 43rd UNBREAKABLE day], $29 peel-and-stick wall roll [#3]. Strategy & Outreach Oct 23 Amazon picks: (1) Color-changing smart bulb E26 2-pack ~$18-25 [HALLOWEEN, 8 days to Oct 31 SATURDAY, Gen Z 7M+ views, whole-room atmosphere, DISTINCT from Oct 20 corner]; (2) Large wood charcuterie board juice groove ~$35-45 [KITCHEN/HOSTING, Thanksgiving 33 days, boards-as-centerpiece 2026 trend]; (3) Plug-in essential oil diffuser wood grain ~$22-30 [BEDROOM/WELLNESS, nightstand ritual, ZERO prior GHP coverage]. 🚨 **HALLOWEEN SMART BULB — 8 DAYS TO OCT 31 SATURDAY. HARDEST DEADLINE IN CONTENT CALENDAR. Script and post immediately.** Bounties UNCHANGED: $12/Prime signup (Oct 8–Dec 31), $20/Audible (Sep 8–Dec 15), $0.25/Subscribe & Save.
+
+- **Impact.com Publisher ID 7104029:**
+  - 🚨🚨 **SmartWings BF/CM Q4 — DAY 11 (since hard bounce Oct 16). Impact platform messaging ONLY.** All email to notifications@outreach.impact.com PERMANENTLY BOUNCED. IAN must log into Impact.com → SmartWings partner page → platform messaging to reach Andy. Q4 Black Friday/Cyber Monday commission structure being finalized NOW. Revenue: $8-$32/sale on $100-$400 AOV with elevated Q4 rates.
+  - 🚨🚨 **Promeed 12% — Impact tracking link DAY 16 OVERDUE.** amelia.avery@promeed.com; IAN2026F3 promo + SAMPLE-IAN-COOL3-2026 sample codes in hand. Build Impact deep link: Impact dashboard → Promeed → create tracking link → reply Amelia. Thanksgiving/holiday bedding upgrade content window NOW (33 days out). 3× Amazon revenue per click.
+  - 🚨 **Mamma Mia 24-30% — ACTIVE, ZERO CONTENT DAY 43.** Trend Scout #2 today ($46 couch cover). After-first format = 6,037-view confirmed average. $11-$16/sale vs Amazon $1.40-$1.60. NON-NEGOTIABLE MANDATE every additional day unscripted.
+  - **Syruvia 20%** — zero tracking links. Candle warmer lamp $29 = $6/sale vs Amazon $1.80 (3.3×). Halloween/cozy season peak = NOW. 8 days to Oct 31 — peak candle warmer relevance window.
+  - **Dreame 5%+ ACTIVE (confirmed Sep 20) — zero tracking links, DAY 35.** $10-$40+/sale uncaptured on $200-800 robot vacuum AOV. IAN: Impact dashboard → Dreame → build tracking link.
+  - **Best Choice Products 10-15% — pre-approved, 1-click join STILL unactioned.** Home baskets, outdoor benches, garden storage — all on-niche.
+  - **Shelter Tools — joined Impact marketplace Oct 13.** IAN: evaluate via Impact dashboard (category + commission) before joining.
+  - **Chime Mattress ID 56440 — joined Sep 25, pending IAN evaluation.** Bedroom/holiday reset = peak window NOW. IAN: check commission rate and terms via Impact dashboard.
+  - **Puracy ID 54051 — pending evaluation.** Plant-based cleaners, pairs with bathroom/kitchen transformation content.
+
+- **Awin:**
+  - 🚨 **Rewarx ID 129153 — 50% RECURRING COMMISSION, DAY 37 (IAN-BLOCKED).** Highest commission in entire GHP portfolio. Every additional day = compounding recurring revenue permanently forfeited. Awin browser dashboard → accept Advertiser 129153 → reply Julian at studio@rewarx.com for Golden10 promo code.
+  - **Homary merchant 91447 — DAY 26.** Lauren at affiliate@homary.com. $96/sale (12% on $800+ AOV home furnishings). IAN: complete Awin express signup + send affiliate link/ID to Lauren.
+  - 🆕 **Shortcut Chat (Awin merchant 131137) — INVITED OCT 23.** OFF-NICHE tech/chat app (not home/decor/organization). IAN: DECLINE via Awin browser dashboard (help@awin.com bounces per pattern).
+  - Pending ON-NICHE accepts (browser): Tribesigns (industrial bookshelves/home office), SimpleProject 10% (bathroom remodel eco-friendly), Promeed HerbalRX 20% (pillow), CozySpiritStudio 20% (wall art), OKUN (home improvement).
+  - Pending OFF-NICHE declines (browser): FED Fitness, CICYBELL, HealSend, Everblog US, Zlike Hair, Shortcut Chat 131137 (NEW TODAY).
+
+- **CJ Affiliate — AliExpress CID 7711902 dormancy DAY 23 of 90-day reactivation window (~Dec 31, 2026 deadline).** Advertiser relationship preserved. Content Engine: embed AliExpress CJ links in peel-and-stick wall roll + contact paper scripts (interior home product = 9% CJ commission slot). IAN: log into CJ portal → check Wayfair (7%), GreenLife Cookware (5%), Levoit (5%) application status — any single approval reactivates account.
+
+**HIGH-AOV OPPORTUNITY SCAN (Oct 23):**
+- **Halloween smart bulb room atmosphere ($18-22):** Amazon goldenhomep0a-20. 8 DAYS TO OCT 31 SATURDAY — hardest content deadline. Gen Z TikTok 7M+ views, zero competitor coverage, renter-safe zero-install. Script TODAY.
+- **Couch covers ($46-52):** Mamma Mia 24-30% ACTIVE — DAY 43 UNSCRIPTED. Trend Scout #2. $11-$16/sale = 10× Amazon.
+- **Robot vacuums ($100-350):** Dreame ACTIVE 5%+ — zero tracking links DAY 35. $10-$40+/sale uncaptured.
+- **Silk/linen bedding ($40-80):** Promeed 12% ACTIVE — tracking link DAY 16 OVERDUE. Holiday bedding upgrade window NOW.
+- **Smart home/window treatments ($100-400):** SmartWings BF/CM Q4 — Impact messaging DAY 11. Q4 rates being set.
+- **Home furnishings ($200-800):** Homary 12% Awin — $96/sale, DAY 26 unactioned.
+- **Thanksgiving charcuterie serveware ($62-72):** Amazon goldenhomep0a-20. 33 days to Nov 26, peak Pinterest saves window NOW.
+- **Bedtime ritual nightstand ($45-57):** Amazon goldenhomep0a-20. ZERO prior GHP coverage — diffuser + tray + LED candle. Cozy season TikTok surge Oct-Nov.
+- **Kitchen appliances:** Syruvia 20% ACTIVE — zero tracking links, peak candle warmer window NOW (Oct 31 closing).
+
+**REVENUE PRIORITY RANKING (Oct 23):**
+1. Rewarx 50% recurring (Awin ID 129153) — DAY 37 NOT ACCEPTED (IAN-blocked)
+2. Mamma Mia 24-30% (Impact) — ACTIVE, ZERO CONTENT DAY 43
+3. Syruvia 20% (Impact) — ACTIVE, NO TRACKING LINK (Halloween/cozy peak NOW)
+4. SmartWings BF/CM Q4 (Impact platform messaging) — DAY 11 since hard bounce
+5. Promeed 12% (Impact) — LINK DAY 16 OVERDUE
+6. Best Choice Products 10-15% (Impact) — 1-CLICK UNACTIONED
+7. Dreame ~5-10% (Impact) — ACTIVE, ZERO LINKS DAY 35
+8. Homary 12% (Awin) — $96/sale, DAY 26 UNACTIONED
+9. Amazon 3-8% `goldenhomep0a-20` — ACTIVE, fallback
+
+**IAN PRIORITY ACTIONS (Oct 23 — Affiliate Optimizer):**
+1. 🚨🚨 **CONTACT ANDY (SMARTWINGS BF/CM) VIA IMPACT PLATFORM MESSAGING.** Impact.com → Publisher ID 7104029 → SmartWings partner page → platform messaging. NOT email (permanent SMTP bounce). DAY 11 — Q4 rates being finalized NOW.
+2. 🚨🚨 **BUILD PROMEED IMPACT TRACKING LINK — DAY 16 OVERDUE.** Impact dashboard → Promeed → create deep link → reply amelia.avery@promeed.com. IAN2026F3 + SAMPLE-IAN-COOL3-2026 in hand.
+3. 🚨 **ACCEPT REWARX AWIN ID 129153** — 50% recurring, DAY 37, highest commission in portfolio. Awin browser dashboard → accept → reply Julian at studio@rewarx.com for Golden10 promo code.
+4. 🚨 **HALLOWEEN SMART BULB — 8 DAYS TO OCT 31 SATURDAY.** Content Engine: script color-changing smart bulb E26 2-pack $18-22 [hook: "I didn't hang a single thing on my walls. $19 smart bulbs. Same apartment. It looked like a haunted hotel."]. Amazon goldenhomep0a-20. HARDEST deadline in content calendar — script and post before Oct 31.
+5. **MAMMA MIA AFTER-FIRST $46 SCRIPT** — 43rd UNBREAKABLE day (24-30% ACTIVE, Trend Scout #2 Oct 23, Impact link active). After-first format = 6,037 confirmed average views.
+6. **DECLINE SHORTCUT CHAT (Awin merchant 131137)** — OFF-NICHE tech/chat app. Via Awin browser dashboard.
+7. **ACCEPT BEST CHOICE PRODUCTS (Impact)** — 10-15% pre-approved, 1-click.
+8. Build Dreame Impact tracking link (ACTIVE confirmed Sep 20, DAY 35 zero revenue captured).
+9. Build Syruvia Impact tracking link (candle warmer lamp $29, 20% = $6/sale, peak Halloween/cozy season NOW).
+10. DECLINE all OFF-NICHE Awin invites via browser: FED Fitness, CICYBELL, HealSend, Everblog US, Zlike Hair, Shortcut Chat 131137 (new today).
+11. CJ portal: AliExpress dormancy DAY 23 + Wayfair/GreenLife/Levoit application status.
+12. IAN: review Google Analytics Sep 22–Oct 19 performance report in Gmail (thread 1a1555864afb1785).
