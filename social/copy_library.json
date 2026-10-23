@@ -4226,6 +4226,52 @@
           }
         ]
       }
+    ],
+    "GREY": [
+      {
+        "hook_category": "mistake",
+        "hook": "Short curtains make your whole bedroom look smaller.",
+        "beat1": "Most curtain panels are cut for an average window, so on a taller window they stop short of the floor and leave a gap at the top where light sneaks in. That gap is also why a room never feels fully dark, even with the lights off and the shades down.",
+        "turn": "These NICETOWN panels run 84 inches long with a grommet top, so they hang higher on the rod and drop closer to the floor, covering more of the window. Close to sixty thousand people have rated them 4.7 stars.",
+        "result": "For about $16 for the two-panel set, the room reads bigger, darker, and more finished without replacing the window or the rod.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "A hand pulling closed a short curtain panel that stops well above a sunlit windowsill, a bright gap of light visible underneath, bedroom in soft morning light.",
+            "on_screen_text": "Short curtains shrink the room",
+            "voiceover": "Short curtains make your whole bedroom look smaller."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Close-up of bright daylight spilling through a gap at the top and bottom of a curtain onto a bedroom floor, dust motes visible in the light beam.",
+            "on_screen_text": "That gap lets the light win",
+            "voiceover": "Most panels are cut for an average window, so on a taller one they stop short and leave gaps top and bottom. That's why a room never really feels dark, even with the lights off."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Hands threading grey grommet curtain rings onto a curtain rod, long grey fabric panel unfurling toward the floor near a bedroom window.",
+            "on_screen_text": "84 inches, grommet top, full drop",
+            "voiceover": "These run eighty-four inches long with a grommet top, so they sit higher on the rod and reach closer to the floor, covering more of the window."
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "Wide shot of a bedroom with grey curtains fully drawn, the room noticeably dim and calm compared to a sunlit hallway outside the door.",
+            "on_screen_text": "Close to 60,000 people, 4.7 stars",
+            "voiceover": "Close to sixty thousand people have rated these grey blackout panels 4.7 stars."
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "Person sitting on a made bed in a fully darkened bedroom, curtains drawn edge to edge, soft lamp light, calm and quiet mood.",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "Two panels, about sixteen dollars, and the window actually gets covered. Comment {KEYWORD} and I'll send the link."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
