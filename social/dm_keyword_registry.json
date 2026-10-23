@@ -6243,6 +6243,38 @@
       "verified_stars": "4.6",
       "verified_reviews": 2543,
       "discovery_source": "back_to_college_2026"
+    },
+    {
+      "asin": "B0CSFJR66V",
+      "product_name": "BEDELITE Ribbed Fleece Throw Blanket for Couch, Cream, 50\"x60\" | Ultra-Soft Plush Fleece, Cozy, Warm Yet Lightweight, Ri",
+      "categories": [
+        "home",
+        "Bedding"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0CSFJR66V?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-10-23",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$13.29",
+      "verified_stars": "4.5",
+      "verified_reviews": 5054,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B07R9ZKW43",
+      "product_name": "12 Cups Silicone Muffin Pans for Baking Cupcake Pan Nonstick Silicone Molds | Regular size, 1Pack, For Egg Bites, Muffin",
+      "categories": [
+        "kitchen",
+        "Kitchen"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B07R9ZKW43?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-10-23",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$6.99",
+      "verified_stars": "4.5",
+      "verified_reviews": 18440,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
