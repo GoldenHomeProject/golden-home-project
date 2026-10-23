@@ -1,0 +1,136 @@
+{
+  "generated_at": "2026-10-23T09:45:45.361543Z",
+  "date": "2026-10-23",
+  "opportunities": [
+    {
+      "rank": 1,
+      "product_category": "kitchen cabinet refacing",
+      "specific_product": "Peel-and-stick cabinet wrap / adhesive cabinet film",
+      "brand": "Amazon generic (Yenhome/VViViD adhesive film)",
+      "target_price": "$38",
+      "transformation_hook": "$38 roll vs $3,000 cabinet repaint \u2014 full kitchen redo in a weekend",
+      "before_state": "Dated, scuffed wood-grain or builder-beige cabinets dragging down the whole kitchen",
+      "after_state": "Matte dark-green or warm-wood cabinet doors that look custom-painted, no brushes involved",
+      "buyer_intent_keywords": [
+        "peel and stick cabinet wrap",
+        "cabinet refacing without painting",
+        "contact paper for kitchen cabinets",
+        "kitchen cabinet makeover cheap",
+        "dark green cabinet film"
+      ],
+      "scores": {
+        "trend": 8,
+        "transformation": 10,
+        "affiliate": 9,
+        "intent": 9
+      },
+      "composite_score": 36,
+      "why_now": "Apartment Therapy's cabinet-paint pin and the 2027 Benjamin Moore color forecast are both pushing 'repaint your cabinets, not your kitchen' as the budget reno hack of the moment."
+    },
+    {
+      "rank": 2,
+      "product_category": "sofa/couch covers",
+      "specific_product": "Mamma Mia stretch waterproof couch cover",
+      "brand": "Mamma Mia Covers (24-30% commission)",
+      "target_price": "$46",
+      "transformation_hook": "$46 cover turns a pet-hair-covered couch into a showroom sofa before guests arrive",
+      "before_state": "Worn, stained, pet-hair-matted couch nobody wants to sit on",
+      "after_state": "Crisp, tailored-looking sofa that photographs like new furniture",
+      "buyer_intent_keywords": [
+        "couch cover for pets",
+        "waterproof sofa slipcover",
+        "stretch couch cover",
+        "hide couch stains",
+        "pet hair proof sofa cover"
+      ],
+      "scores": {
+        "trend": 7,
+        "transformation": 9,
+        "affiliate": 10,
+        "intent": 9
+      },
+      "composite_score": 35,
+      "why_now": "HGTV's 'hosting house guests' pin signals the pre-holiday living-room scramble starting right after Halloween, and pet-hair couch covers are a reliable high-commission Reels staple."
+    },
+    {
+      "rank": 3,
+      "product_category": "accent wall / peel-and-stick wallpaper",
+      "specific_product": "Removable peel-and-stick wallpaper in burnt orange or dark green",
+      "brand": "Amazon generic (RoomMates/NuWallpaper)",
+      "target_price": "$29",
+      "transformation_hook": "$29 roll gives one wall a $0-damage-deposit color makeover in an afternoon",
+      "before_state": "Flat, builder-white wall with zero personality",
+      "after_state": "Moody dark-green or burnt-orange accent wall matching 2027's buzziest paint colors",
+      "buyer_intent_keywords": [
+        "peel and stick wallpaper",
+        "removable accent wall",
+        "dark green accent wall",
+        "burnt orange paint alternative",
+        "renter friendly wall makeover"
+      ],
+      "scores": {
+        "trend": 9,
+        "transformation": 8,
+        "affiliate": 8,
+        "intent": 7
+      },
+      "composite_score": 32,
+      "why_now": "Three publishers (HGTV, BHG, Real Simple/Benjamin Moore) are independently pushing burnt orange and dark green as the next big paint colors, converging into one clear color-trend signal."
+    },
+    {
+      "rank": 4,
+      "product_category": "bathroom deep-clean tools",
+      "specific_product": "Pumice stone toilet bowl ring remover / electric spin scrubber",
+      "brand": "Amazon generic (Pumie, Tilswall)",
+      "target_price": "$16",
+      "transformation_hook": "$16 tool erases years-old toilet bowl rings in under 2 minutes on camera",
+      "before_state": "Stubborn brown/orange mineral rings staining the toilet bowl despite regular cleaning",
+      "after_state": "Bright white bowl, oddly-satisfying stain-free reveal",
+      "buyer_intent_keywords": [
+        "toilet bowl ring remover",
+        "how to remove toilet stains",
+        "pumice stone toilet cleaner",
+        "hard water ring toilet",
+        "best toilet bowl cleaner"
+      ],
+      "scores": {
+        "trend": 6,
+        "transformation": 9,
+        "affiliate": 9,
+        "intent": 7
+      },
+      "composite_score": 31,
+      "why_now": "Real Simple's piece today on why toilet bowls ring even with regular cleaning is exactly the problem-aware content that converts into an oddly-satisfying before/after Reel."
+    },
+    {
+      "rank": 5,
+      "product_category": "clutter-hiding storage / room dividers",
+      "specific_product": "Folding room divider / privacy screen",
+      "brand": "Best Choice Products (15% commission)",
+      "target_price": "$68",
+      "transformation_hook": "$68 folding screen hides a cluttered corner in one 15-second pan shot",
+      "before_state": "Open studio or shared room with exposed storage bins, laundry, or a messy desk in frame",
+      "after_state": "Clean sightline with a stylish folding screen concealing the mess entirely",
+      "buyer_intent_keywords": [
+        "room divider for small apartment",
+        "folding privacy screen",
+        "hide clutter divider",
+        "studio apartment organization",
+        "decorative room screen"
+      ],
+      "scores": {
+        "trend": 6,
+        "transformation": 7,
+        "affiliate": 8,
+        "intent": 8
+      },
+      "composite_score": 29,
+      "why_now": "Apartment Therapy's room-divider and decluttering pins both landed this week, tapping into the fresh-start organization mood that typically spikes right before the holidays."
+    }
+  ],
+  "raw_signal_count": 85,
+  "sources_used": [
+    "google_trends_daily_us",
+    "pinterest"
+  ]
+}
