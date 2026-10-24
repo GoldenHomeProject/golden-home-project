@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-24",
+  "agent": "engagement-monitor",
+  "metrics": {
+    "subscribers": 6660,
+    "total_views": 26429,
+    "total_videos": 247
+  },
+  "top_videos": [
+    {
+      "title": "You reach for a washcloth and it's still damp #shorts #amazo",
+      "views": 184,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Added a thick topper and now the corners won't stay? #shorts",
+      "views": 96,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Ground floor bedroom means everyone outside sees you at nigh",
+      "views": 93,
+      "likes": 0,
+      "comments": 2
+    },
+    {
+      "title": "The sun wakes you up before your alarm does #shorts #amazonf",
+      "views": 76,
+      "likes": 1,
+      "comments": 1
+    },
+    {
+      "title": "Stop buying thin curtains that let morning light in #shorts ",
+      "views": 66,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "A cup tips over on the bed and everyone panics #shorts #amaz",
+      "views": 56,
+      "likes": 1,
+      "comments": 1
+    },
+    {
+      "title": "Sagging pillows get blamed on the cover. The problem is what",
+      "views": 45,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "You run out of clean washcloths halfway through the week #sh",
+      "views": 32,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "You reach for a washcloth and it's still damp #shorts #amazo",
+      "views": 31,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Short curtains make your whole bedroom look smaller #shorts ",
+      "views": 26,
+      "likes": 0,
+      "comments": 1
+    }
+  ],
+  "comments_responded": 0,
+  "actions_taken": [
+    "New comment on video: \ud83d\udccc SHOP ALL PRODUCTS \u2014 Amazon links:<br><br>\u2460 NICET",
+    "Updated BUSINESS_BRAIN.md metrics"
+  ]
+}
