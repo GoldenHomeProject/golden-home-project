@@ -384,6 +384,12 @@ def main() -> int:
     led = load_ledger()
     led_ids = {e.get("pin_id") for e in led.get("posted", [])}
     led_asins = {e.get("asin") for e in led.get("posted", []) if e.get("asin")}
+    # No product twice in 30 days, whatever the angle (gift, recharted, how-to): the same
+    # ASIN went out 3-4 times in five weeks, and repetitive pins are a low-quality signal
+    # (distribution fell to ~0 from Oct 9, 2026). Collages are multi-product, so exempt.
+    _cut = (dt.datetime.utcnow() - dt.timedelta(days=30)).strftime("%Y-%m-%d")
+    _recent_asins = {e.get("asin") for e in led.get("posted", [])
+                     if e.get("asin") and str(e.get("ts", "")) >= _cut}
     def _is_drop(pin):
         return "Price drop" in (pin.get("title") or "")
 
@@ -450,7 +456,8 @@ def main() -> int:
                and not _dead_season(p)
                and p["id"] not in led_ids
                and (p.get("asin") not in led_asins
-                    or _is_drop(p) or _is_collage(p) or _is_gift(p) or p.get("recharted"))]
+                    or _is_drop(p) or _is_collage(p) or _is_gift(p) or p.get("recharted"))
+               and (p.get("format") == "collage" or p.get("asin") not in _recent_asins)]
     # Order by expected value, not by age.
     #   0. price drops    — highest buyer intent, and the freshest thing we know
     #   1. proven themes  — bathroom/bedroom textiles, the only products that have ever

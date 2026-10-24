@@ -1351,7 +1351,10 @@ def main() -> int:
         # Keeping one in four on hubs preserves on-site traffic (hubs carry their own
         # /dp/ links and feed SEO), without putting a detour in front of the majority.
         hub = blog_url_for(entry)
-        use_hub = hub and (len(queue) % 4 == 3) and not gift   # gift shoppers go straight to the product
+        # Half of product pins go to our own page (2026-10-24): an account whose pins are
+        # nearly all direct amazon.com affiliate links reads as low-trust to Pinterest, and
+        # distribution fell to ~0 from Oct 9. Gift shoppers still go straight to the product.
+        use_hub = hub and (len(queue) % 2 == 1) and not gift
         link = f"{hub}?v={variant}" if use_hub else build_affiliate_url(asin, "pinterest", subtag=f"brand{variant}",
                                                                      tag=BRAND_TAGS[variant])
         rel = str(img_path.relative_to(ROOT))
