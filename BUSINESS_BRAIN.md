@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-10-24 (Strategy & Outreach 9am)
+# Last updated: 2026-10-24 (Affiliate Optimizer 10am)
 # ============================================================
 
 ---
@@ -3469,3 +3469,70 @@ Built on: Email Monitor 12:10 UTC (Gmail CLEAN — GitHub Actions disable warnin
 **Competitor watch (Oct 24):** Alexandra Gater — CONFIRMED active: "240 Sq Ft Studio (Mid-Century Modern)" ~Oct 15 (471K views, ~9 days old as of Oct 24); also "112 Sq Ft Bedroom for a Couple" ~Sep 24; 986K subs, 168M total views. She is back to regular cadence. Mid-Century Modern = her new arc. Budget/renter/dollar-specific versions are ours. Nest With Me: crafts (confirmed). DIY Creators: woodworking (confirmed). Chaos pantry + robot vacuum + renter mid-century modern = ZERO competitor coverage on these specific formats.
 
 - **Amazon picks for Pinterest pipeline (Oct 24) — categories with real sales (home org, bathroom, bedding, kitchen):** (1) KITCHEN ORGANIZATION: Clear stackable acrylic pantry organizer bins set 4-6 pack ~$18-26 — Trend Scout #3 today "chaos pantry $28," TikTok "re-containering" format with 9M+ view potential (@ohthatskreed 9.3M in one week), renter-safe no drilling, high visual before/after, DISTINCT from all prior kitchen picks (first pantry-interior format); IAN: search "clear acrylic pantry organizer bins set 6 pack food storage" in Associates for top ASIN; https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20. (2) HOME AUTOMATION/CLEANING: Robot vacuum and mop combo self-emptying wifi app-controlled budget-mid tier ~$129-179 — Trend Scout #1 today "robot replaced mop bucket," highest AOV pick this pipeline has had (Amazon $8-14/sale, Dreame Impact 5%+ once IAN builds link $10-40/sale), WishDeck 2026 confirmed trend, time-freedom narrative format, DISTINCT from handheld spin scrubber (Sep 30); IAN: search "robot vacuum mop combo self-emptying wifi app controlled hard floor" in Associates for top ASIN; goldenhomep0a-20 tag. (3) KITCHEN/RENTER: Walnut wood grain contact paper roll peel-and-stick for countertop/furniture/shelf ~$16-22 — Trend Scout Oct 23 #1 "contact paper vs $3,000 cabinet repaint" (repeat signal), Gater mid-century modern competitor response (budget renter version), Pinterest fall kitchen decor +376% confirmed, dual-use (countertops + shelves + furniture), DISTINCT from peel-and-stick wall roll (Trend Scout #3 Oct 23 = wall-specific, not countertop); IAN: search "walnut wood grain contact paper roll peel stick countertop furniture shelf" in Associates for top ASIN; goldenhomep0a-20 tag.
+
+### October 2026 Affiliate Updates (updated 2026-10-24 Affiliate Optimizer 10am)
+
+Built on: Email Monitor 13:00 UTC (Gmail — 4 threads: GitHub PR #7 closed, GitHub external CI fail not ours, Shortcut Chat Awin OFF-NICHE declined by Email Monitor via help@awin.com, charity-billionaire-keeper warning; zero on-niche brand deals; Mamma Mia 44th UNBREAKABLE day); Strategy & Outreach 14:00 UTC (chaos pantry reset $28 [Trend Scout #3, re-containering format], robot vacuum/mop $129-179 [Trend Scout #1, Dreame affiliate angle DAY 36], Gater mid-century modern competitor alert confirmed, Amazon picks Oct 24); Trend Scout Oct 24 (top-3: robot vacuum/mop $129-179 [#1], Mamma Mia $49 couch cover [#2, 44th UNBREAKABLE], chaos pantry $28 [#3]). Cold outreach PAUSED per Ian Sep 3 directive.
+
+**GMAIL AUDIT (Oct 24, 10am ET):** 3 inbox threads found. (1) Shortcut Chat Awin invitation thread 1a168f2fee02f7f7 — Email Monitor sent decline to help@awin.com (Oct 24 12:08 UTC); BOUNCED (postmaster@zanox.onmicrosoft.com: "group only accepts messages from people in its organization"). **CONFIRMS PATTERN: Awin accepts/declines are BROWSER-ONLY — email to help@awin.com always bounces. Do not attempt email declines to Awin. IAN must use Awin browser dashboard.** (2) GitHub PR #7 closed — no action. (3) GitHub ahmet/awesome-web3 CI fail — not our repo. **Zero on-niche brand partnership emails. Gmail CLEAN.**
+
+**LESSONS LEARNED (Oct 24):** Awin email declines always bounce — postmaster@zanox.onmicrosoft.com confirms help@awin.com rejects external senders. Email Monitor should NOT attempt email declines to Awin. All Awin accepts/declines are browser-only actions. Pattern confirmed permanently.
+
+**PLATFORM STATUS (Oct 24):**
+
+- **Amazon Associates `goldenhomep0a-20` — ACTIVE.** Oct 24 Trend Scout top-3: robot vacuum/mop $129-179 [#1 = DIRECT SIGNAL to build Dreame Impact link], Mamma Mia $49 couch cover [#2, 44th UNBREAKABLE day], chaos pantry $28 [#3]. Strategy & Outreach Oct 24 Amazon picks: (1) Clear acrylic pantry bins 4-6 pack ~$18-26 [first pantry-interior format in pipeline, re-containering TikTok 9M+ views]; (2) Robot vacuum/mop combo ~$129-179 [highest AOV in pipeline, Dreame Impact 5%+ beats Amazon 3-4%]; (3) Walnut contact paper roll ~$16-22 [Trend Scout Oct 23 #1 repeat + Gater mid-century modern competitor response]. 🚨 **HALLOWEEN SMART BULB — 7 DAYS TO OCT 31 SATURDAY. HARDEST DEADLINE.** Bounties UNCHANGED: $12/Prime (Oct 8–Dec 31), $20/Audible (Sep 8–Dec 15), $0.25/Subscribe & Save.
+
+- **Impact.com Publisher ID 7104029:**
+  - 🚨🚨 **SmartWings BF/CM Q4 — DAY 12 (since hard bounce Oct 16). Impact platform messaging ONLY.** All email to notifications@outreach.impact.com PERMANENTLY BOUNCED. IAN: Impact.com → Publisher ID 7104029 → SmartWings partner page → platform messaging to reach Andy. Q4 commission structure being finalized NOW. Revenue: $8-$32/sale on $100-$400 AOV.
+  - 🚨🚨 **Promeed 12% — Impact tracking link DAY 17 OVERDUE.** amelia.avery@promeed.com; IAN2026F3 + SAMPLE-IAN-COOL3-2026 codes in hand. Holiday bedding upgrade window NOW (32 days to Nov 26). 3× Amazon revenue per click.
+  - 🚨 **Mamma Mia 24-30% — ACTIVE, ZERO CONTENT DAY 44.** Trend Scout #2 today ($49 couch cover). After-first format = 6,037-view confirmed average. $11-$16/sale vs Amazon $1.40-$1.60. NON-NEGOTIABLE MANDATE.
+  - **Dreame 5%+ ACTIVE (confirmed Sep 20) — zero tracking links, DAY 36.** 🚨 Trend Scout #1 TODAY = direct revenue signal. $10-$40+/sale on $200-$800 AOV. Build Dreame Impact link NOW — robot vacuum/mop content is actively trending. IAN: Impact dashboard → Dreame → build tracking link.
+  - **Syruvia 20%** — zero tracking links. Candle warmer lamp $29 = $6/sale vs Amazon $1.80 (3.3×). Peak Halloween/cozy window: 7 days to Oct 31 SATURDAY.
+  - **Best Choice Products 10-15% — pre-approved, 1-click join STILL unactioned.** Home baskets, outdoor benches, garden storage — all on-niche.
+  - **Shelter Tools — on Impact marketplace Oct 13.** IAN: evaluate category + commission via Impact dashboard before joining.
+  - **Chime Mattress ID 56440 — pending IAN evaluation.** Bedroom/holiday reset = peak window NOW.
+  - **Puracy ID 54051 — pending evaluation.** Plant-based cleaners, pairs with kitchen/bathroom content.
+
+- **Awin:**
+  - 🚨 **Rewarx ID 129153 — 50% RECURRING COMMISSION, DAY 38 (IAN-BLOCKED).** Highest commission in entire GHP portfolio. Awin browser dashboard → accept Advertiser 129153 → reply Julian at studio@rewarx.com for Golden10 promo code.
+  - **Homary merchant 91447 — DAY 27.** Lauren at affiliate@homary.com. $96/sale (12% on $800+ AOV home furnishings). IAN: complete Awin express signup + send affiliate ID to Lauren.
+  - **Shortcut Chat (Awin merchant 131137) — OFF-NICHE, decline PENDING VIA BROWSER.** Email Monitor decline to help@awin.com BOUNCED (confirmed Oct 24). IAN: Awin browser dashboard → decline merchant 131137.
+  - Pending ON-NICHE accepts (browser): Tribesigns, SimpleProject 10%, Promeed HerbalRX 20%, CozySpiritStudio 20%, OKUN.
+  - Pending OFF-NICHE declines (browser): FED Fitness, CICYBELL, HealSend, Everblog US, Zlike Hair, Shortcut Chat 131137.
+
+- **CJ Affiliate — AliExpress CID 7711902 dormancy DAY 24 of 90-day reactivation window (~Dec 31, 2026 deadline).** Advertiser relationship preserved. Content Engine: embed AliExpress CJ links in pantry organizer + contact paper scripts (interior home product overlap). IAN: CJ portal → check Wayfair (7%), GreenLife Cookware (5%), Levoit (5%) application status.
+
+**HIGH-AOV OPPORTUNITY SCAN (Oct 24):**
+- **Robot vacuum/mop ($129-179):** Dreame 5%+ ACTIVE on Impact, DAY 36 zero tracking links. 🚨 Trend Scout #1 TODAY = DIRECT REVENUE SIGNAL. Amazon fallback $8-14/sale. Dreame Impact link = 5-10× revenue lift on all robot vacuum content. Build link NOW.
+- **Couch covers ($47-54):** Mamma Mia 24-30% ACTIVE — DAY 44 UNSCRIPTED. $11-$16/sale = 10× Amazon.
+- **Halloween smart bulb ($18-22):** 7 DAYS TO OCT 31 SATURDAY. Whole-room atmosphere format, Gen Z TikTok 7M+ views. Hardest content deadline.
+- **Silk/linen bedding ($40-80):** Promeed 12% ACTIVE — tracking link DAY 17 OVERDUE. Holiday window NOW.
+- **Smart home/window treatments ($100-400):** SmartWings BF/CM Q4 — Impact messaging DAY 12. Q4 rates being finalized.
+- **Home furnishings ($200-800):** Homary 12% Awin — $96/sale, DAY 27 unactioned.
+- **Kitchen appliances:** Syruvia 20% ACTIVE — zero links, candle warmer peak window NOW (7 days to Oct 31).
+- **Pantry organization ($28):** Amazon goldenhomep0a-20. Clear acrylic bins, re-containering format, TikTok 9M+ views. First pantry-interior slot in pipeline.
+
+**REVENUE PRIORITY RANKING (Oct 24):**
+1. Rewarx 50% recurring (Awin ID 129153) — DAY 38, IAN-blocked
+2. Mamma Mia 24-30% (Impact) — ACTIVE, ZERO CONTENT DAY 44
+3. Dreame 5%+ (Impact) — ACTIVE, ZERO LINKS DAY 36 (Trend Scout #1 TODAY)
+4. Syruvia 20% (Impact) — ACTIVE, NO LINK (Halloween peak, 7 days to Oct 31)
+5. SmartWings BF/CM Q4 (Impact platform messaging) — DAY 12 since hard bounce
+6. Promeed 12% (Impact) — LINK DAY 17 OVERDUE
+7. Best Choice Products 10-15% (Impact) — 1-click unactioned
+8. Homary 12% (Awin) — $96/sale, DAY 27 unactioned
+9. Amazon 3-8% `goldenhomep0a-20` — ACTIVE, fallback
+
+**IAN PRIORITY ACTIONS (Oct 24 — Affiliate Optimizer):**
+1. 🚨🚨 **CONTACT ANDY (SMARTWINGS BF/CM) VIA IMPACT PLATFORM MESSAGING.** Impact.com → Publisher ID 7104029 → SmartWings partner page → platform messaging. NOT email (permanent SMTP bounce). DAY 12 — Q4 rates being finalized NOW.
+2. 🚨🚨 **BUILD PROMEED IMPACT TRACKING LINK — DAY 17 OVERDUE.** Impact dashboard → Promeed → create deep link → reply amelia.avery@promeed.com.
+3. 🚨🚨 **BUILD DREAME IMPACT TRACKING LINK — Trend Scout #1 TODAY.** Impact dashboard → Dreame → build tracking link. Robot vacuum/mop trending NOW = revenue captured for free on existing content momentum.
+4. 🚨 **ACCEPT REWARX AWIN ID 129153** — 50% recurring, DAY 38. Awin browser dashboard → accept → reply Julian at studio@rewarx.com for Golden10.
+5. **HALLOWEEN SMART BULB — 7 DAYS TO OCT 31 SATURDAY.** Content Engine: script color-changing E26 2-pack $18-22. Hook: "I didn't hang a single thing on my walls. $19 smart bulbs. Same apartment." Amazon goldenhomep0a-20.
+6. **MAMMA MIA AFTER-FIRST $49 SCRIPT** — DAY 44 UNBREAKABLE.
+7. **DECLINE SHORTCUT CHAT VIA AWIN BROWSER DASHBOARD** (merchant 131137) — email declined by Email Monitor but BOUNCED (confirmed). Browser only.
+8. Accept Best Choice Products (Impact) — 10-15%, 1-click.
+9. Build Syruvia Impact tracking link (candle warmer $29, 20%, Oct 31 peak closing).
+10. Accept pending ON-NICHE Awin: Tribesigns, SimpleProject 10%, Promeed HerbalRX 20%, CozySpiritStudio 20%, OKUN.
+11. Decline OFF-NICHE Awin via browser: FED Fitness, CICYBELL, HealSend, Everblog US, Zlike Hair, Shortcut Chat 131137.
+12. CJ portal: AliExpress dormancy DAY 24 + Wayfair/GreenLife/Levoit application status.
