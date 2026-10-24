@@ -8933,5 +8933,29 @@
     "keyword": "PANELS",
     "queued_at": "2026-10-23T12:18:57.784562Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_2026-10-24_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-24-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Short curtains make your whole bedroom look smaller.\n\nMost curtain panels are cut for an average window, so on a taller window they stop short of the floor and leave a gap at the top where light sneaks in. That gap is also why a room never feels fully dark, even with the lights off and the shades down.\n\nThese NICETOWN panels run 84 inches long with a grommet top, so they hang higher on the rod and drop closer to the floor, covering more of the window. Close to sixty thousand people have rated them 4.7 stars.\n\nFor about $16 for the two-panel set, the room reads bigger, darker, and more finished without replacing the window or the rod.\n\nComment GREY and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "NICETOWN Grey Blackout Curtains for Bedroom 84 Inches Long, 2 Panels, W52 | Thermal Drapes Grommet Room Darkening Light ",
+      "dm_keyword": "GREY",
+      "amazon_asin": "B015SJ7RYY",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B015SJ7RYY?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B015SJ7RYY?tag=goldenhomep0a-20"
+    },
+    "hook": "Short curtains make your whole bedroom look smaller."
   }
 ]
