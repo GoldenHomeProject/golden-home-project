@@ -4272,6 +4272,52 @@
           }
         ]
       }
+    ],
+    "ALYVIA": [
+      {
+        "hook_category": "scene",
+        "hook": "Your shower curtain keeps clinging to your leg.",
+        "beat1": "Thin curtains billow and suction toward you the second hot water starts running. Without any weight at the bottom, the fabric has nothing to hold it in place against the airflow.",
+        "turn": "This one adds three magnets along the hem so the bottom stays put against the tub, and the fabric itself is a soft, waterproof cloth close to what hotels use. It's rated 4.5 stars by over sixty thousand reviewers.",
+        "result": "The curtain stays where you hung it instead of drifting into the shower, and it's machine washable for about ten dollars.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close-up in a bathroom shower of a hand pushing a clinging white fabric curtain away from a leg while water runs.",
+            "on_screen_text": "the cling nobody warns you about",
+            "voiceover": "Your shower curtain keeps clinging to your leg."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Steam rising in a bathroom as a thin curtain bows inward toward the tub while the shower runs.",
+            "on_screen_text": "thin fabric, zero weight at the bottom",
+            "voiceover": "Thin curtains billow and suction toward you the second hot water starts running, because there's nothing at the bottom holding them in place."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Hand lifting the bottom hem of a white fabric shower curtain to show a small magnet sewn into the edge, tub and tile in the background.",
+            "on_screen_text": "magnets sewn into the hem",
+            "voiceover": "This one adds three magnets along the hem so the bottom stays against the tub, in a soft, waterproof cloth close to what hotels use."
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "A clean white fabric shower curtain hanging straight and flat against a bathtub in a tidy, well-lit bathroom.",
+            "on_screen_text": "over sixty thousand people rate it",
+            "voiceover": "It's rated 4.5 stars by over sixty thousand reviewers."
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "Wide shot of a tidy bathroom with a crisp white shower curtain hanging neatly against the tub, soft natural light coming through a nearby window.",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "The curtain stays where you hung it instead of drifting into the shower, and it's machine washable for about ten dollars. Comment {KEYWORD} and I'll send the link."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {

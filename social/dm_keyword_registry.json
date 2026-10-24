@@ -1212,6 +1212,24 @@
       "discovery_source": "harvest_catalogue",
       "keyword": "GREY",
       "promoted_at": "2026-10-23T12:20:26Z"
+    },
+    {
+      "asin": "B08BZFRQLS",
+      "product_name": "ALYVIA SPRING Waterproof Fabric Shower Curtain or Liner White, 72x72 | 3 Magnets, Soft Cloth & Hotel Quality, Machine Wa",
+      "categories": [
+        "home",
+        "Bath"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B08BZFRQLS?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-08-23",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$9.98",
+      "verified_stars": "4.5",
+      "verified_reviews": 60901,
+      "discovery_source": "harvest_catalogue",
+      "keyword": "ALYVIA",
+      "promoted_at": "2026-10-24T12:20:49Z"
     }
   ],
   "_vetted_doc": "Verified-live Amazon ASINs cleared for blog/SEO/IG-caption use but NOT yet wired to a Meta comment-to-DM automation. Promote to `entries` (with a unique keyword) only AFTER creating the matching Meta Business Suite automation. Always use https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20 \u2014 never search URLs.",
@@ -2399,22 +2417,6 @@
       "verified_stars": "4.5",
       "verified_reviews": 9638,
       "discovery_source": "merge_trending"
-    },
-    {
-      "asin": "B08BZFRQLS",
-      "product_name": "ALYVIA SPRING Waterproof Fabric Shower Curtain or Liner White, 72x72 | 3 Magnets, Soft Cloth & Hotel Quality, Machine Wa",
-      "categories": [
-        "home",
-        "Bath"
-      ],
-      "affiliate_url": "https://www.amazon.com/dp/B08BZFRQLS?tag=goldenhomep0a-20",
-      "status": "live",
-      "verified_at": "2026-08-23",
-      "verified_method": "best_seller_grid",
-      "verified_price": "$9.98",
-      "verified_stars": "4.5",
-      "verified_reviews": 60901,
-      "discovery_source": "harvest_catalogue"
     },
     {
       "asin": "B0CJ56M8D4",
