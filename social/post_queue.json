@@ -8936,10 +8936,10 @@
   },
   {
     "name": "reel_2026-10-24_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-24-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-24-001.mp4",
     "caption": "Short curtains make your whole bedroom look smaller.\n\nMost curtain panels are cut for an average window, so on a taller window they stop short of the floor and leave a gap at the top where light sneaks in. That gap is also why a room never feels fully dark, even with the lights off and the shades down.\n\nThese NICETOWN panels run 84 inches long with a grommet top, so they hang higher on the rod and drop closer to the floor, covering more of the window. Close to sixty thousand people have rated them 4.7 stars.\n\nFor about $16 for the two-panel set, the room reads bigger, darker, and more finished without replacing the window or the rod.\n\nComment GREY and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -8956,22 +8956,7 @@
       "affiliate_network": "amazon",
       "affiliate_url": "https://www.amazon.com/dp/B015SJ7RYY?tag=goldenhomep0a-20"
     },
-    "hook": "Short curtains make your whole bedroom look smaller."
-  },
-  {
-    "id": "carousel-2026-10-24-B0158EQJSY",
-    "media_type": "CAROUSEL_ALBUM",
-    "image_urls": [
-      "https://goldenhomeproject.com/social/carousels/2026-10-24-B0158EQJSY/slide-1.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-24-B0158EQJSY/slide-2.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-24-B0158EQJSY/slide-3.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-24-B0158EQJSY/slide-4.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-24-B0158EQJSY/slide-5.png"
-    ],
-    "caption": "The couch spot that's always cold has an easy fix.\n\nSave this for later \u2014 it's the fix for the nights you end up wrapped in a hoodie instead of relaxing on the couch. A thick sherpa fleece throw blanket adds warmth without turning up the heat, and skips the cords and overheating worries that come with heated blankets.\n\nComment GENTLESOFT or DM me GENTLESOFT for the link.\n\n#homeorganization #cozyhome #livingroomdecor #homecomfort #throwblanket",
-    "asin": "B0158EQJSY",
-    "keyword": "GENTLESOFT",
-    "queued_at": "2026-10-24T11:46:42.739893Z",
-    "source": "carousel_generator"
+    "hook": "Short curtains make your whole bedroom look smaller.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-24-001.mp4"
   }
 ]
