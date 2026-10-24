@@ -1,131 +1,126 @@
 {
-  "generated_at": "2026-10-23T09:45:45.361543Z",
-  "date": "2026-10-23",
+  "generated_at": "2026-10-24T09:17:25.002798Z",
+  "date": "2026-10-24",
   "opportunities": [
     {
       "rank": 1,
-      "product_category": "kitchen cabinet refacing",
-      "specific_product": "Peel-and-stick cabinet wrap / adhesive cabinet film",
-      "brand": "Amazon generic (Yenhome/VViViD adhesive film)",
-      "target_price": "$38",
-      "transformation_hook": "$38 roll vs $3,000 cabinet repaint \u2014 full kitchen redo in a weekend",
-      "before_state": "Dated, scuffed wood-grain or builder-beige cabinets dragging down the whole kitchen",
-      "after_state": "Matte dark-green or warm-wood cabinet doors that look custom-painted, no brushes involved",
+      "product_category": "robot vacuum/mop combo",
+      "specific_product": "AI wet-dry robot vacuum and mop combo",
+      "brand": "Amazon generic (Roborock-style)",
+      "target_price": "$259",
+      "transformation_hook": "We let a robot replace our mop bucket for $259 \u2014 floors after 1 run",
+      "before_state": "Sticky, crumb-covered kitchen floor with a mop and bucket sitting out",
+      "after_state": "Streak-free, spotless floor with the robot docked and self-cleaning",
       "buyer_intent_keywords": [
-        "peel and stick cabinet wrap",
-        "cabinet refacing without painting",
-        "contact paper for kitchen cabinets",
-        "kitchen cabinet makeover cheap",
-        "dark green cabinet film"
-      ],
-      "scores": {
-        "trend": 8,
-        "transformation": 10,
-        "affiliate": 9,
-        "intent": 9
-      },
-      "composite_score": 36,
-      "why_now": "Apartment Therapy's cabinet-paint pin and the 2027 Benjamin Moore color forecast are both pushing 'repaint your cabinets, not your kitchen' as the budget reno hack of the moment."
-    },
-    {
-      "rank": 2,
-      "product_category": "sofa/couch covers",
-      "specific_product": "Mamma Mia stretch waterproof couch cover",
-      "brand": "Mamma Mia Covers (24-30% commission)",
-      "target_price": "$46",
-      "transformation_hook": "$46 cover turns a pet-hair-covered couch into a showroom sofa before guests arrive",
-      "before_state": "Worn, stained, pet-hair-matted couch nobody wants to sit on",
-      "after_state": "Crisp, tailored-looking sofa that photographs like new furniture",
-      "buyer_intent_keywords": [
-        "couch cover for pets",
-        "waterproof sofa slipcover",
-        "stretch couch cover",
-        "hide couch stains",
-        "pet hair proof sofa cover"
-      ],
-      "scores": {
-        "trend": 7,
-        "transformation": 9,
-        "affiliate": 10,
-        "intent": 9
-      },
-      "composite_score": 35,
-      "why_now": "HGTV's 'hosting house guests' pin signals the pre-holiday living-room scramble starting right after Halloween, and pet-hair couch covers are a reliable high-commission Reels staple."
-    },
-    {
-      "rank": 3,
-      "product_category": "accent wall / peel-and-stick wallpaper",
-      "specific_product": "Removable peel-and-stick wallpaper in burnt orange or dark green",
-      "brand": "Amazon generic (RoomMates/NuWallpaper)",
-      "target_price": "$29",
-      "transformation_hook": "$29 roll gives one wall a $0-damage-deposit color makeover in an afternoon",
-      "before_state": "Flat, builder-white wall with zero personality",
-      "after_state": "Moody dark-green or burnt-orange accent wall matching 2027's buzziest paint colors",
-      "buyer_intent_keywords": [
-        "peel and stick wallpaper",
-        "removable accent wall",
-        "dark green accent wall",
-        "burnt orange paint alternative",
-        "renter friendly wall makeover"
+        "best robot vacuum mop combo",
+        "robot vacuum for pet hair",
+        "self-cleaning mop vacuum",
+        "robot vacuum black friday deal"
       ],
       "scores": {
         "trend": 9,
         "transformation": 8,
         "affiliate": 8,
-        "intent": 7
+        "intent": 9
       },
-      "composite_score": 32,
-      "why_now": "Three publishers (HGTV, BHG, Real Simple/Benjamin Moore) are independently pushing burnt orange and dark green as the next big paint colors, converging into one clear color-trend signal."
+      "composite_score": 34,
+      "why_now": "Apartment Therapy's top pin today frames AI wet-dry vacuums as the 'ultimate floor mopping hack,' and fall indoor-cleaning season is ramping up search volume."
+    },
+    {
+      "rank": 2,
+      "product_category": "couch/sofa covers",
+      "specific_product": "Mamma Mia waterproof stretch sofa cover",
+      "brand": "Mamma Mia Covers",
+      "target_price": "$49",
+      "transformation_hook": "Covered our stained couch for $49 before guests arrived",
+      "before_state": "Faded, pet-haired, stained couch nobody wants to sit on",
+      "after_state": "Crisp, tailored-looking slipcover that reads brand-new for holiday guests",
+      "buyer_intent_keywords": [
+        "couch cover for pets",
+        "waterproof sofa cover",
+        "stretch couch cover",
+        "sofa cover for dogs"
+      ],
+      "scores": {
+        "trend": 7,
+        "transformation": 9,
+        "affiliate": 9,
+        "intent": 8
+      },
+      "composite_score": 33,
+      "why_now": "HGTV and RealSimple pins are both pushing 'guest-ready' fall/winter hosting prep, and a worn or pet-haired couch is the #1 pre-party eyesore \u2014 high-commission brand fits this surge directly."
+    },
+    {
+      "rank": 3,
+      "product_category": "pantry/kitchen organizers",
+      "specific_product": "Syruvia drawer & pantry organizer set",
+      "brand": "Syruvia",
+      "target_price": "$28",
+      "transformation_hook": "Organized our chaos pantry for $28 before Thanksgiving hosting",
+      "before_state": "Cluttered pantry shelf with mismatched boxes and loose snacks",
+      "after_state": "Labeled bins and clear containers lined up like a magazine pantry",
+      "buyer_intent_keywords": [
+        "pantry organization bins",
+        "kitchen drawer organizer set",
+        "lazy susan for cabinet",
+        "pantry storage containers"
+      ],
+      "scores": {
+        "trend": 7,
+        "transformation": 7,
+        "affiliate": 9,
+        "intent": 8
+      },
+      "composite_score": 31,
+      "why_now": "RealSimple and HGTV are both publishing kitchen-declutter-for-hosting content this week, directly driving pantry/drawer organizer search intent ahead of holiday prep."
     },
     {
       "rank": 4,
-      "product_category": "bathroom deep-clean tools",
-      "specific_product": "Pumice stone toilet bowl ring remover / electric spin scrubber",
-      "brand": "Amazon generic (Pumie, Tilswall)",
-      "target_price": "$16",
-      "transformation_hook": "$16 tool erases years-old toilet bowl rings in under 2 minutes on camera",
-      "before_state": "Stubborn brown/orange mineral rings staining the toilet bowl despite regular cleaning",
-      "after_state": "Bright white bowl, oddly-satisfying stain-free reveal",
+      "product_category": "cabinet refresh kit",
+      "specific_product": "Peel-and-stick cabinet door film + hardware upgrade kit",
+      "brand": "Amazon generic",
+      "target_price": "$68",
+      "transformation_hook": "Transformed our kitchen cabinets for $68 without a single renovation",
+      "before_state": "Dated, scuffed wood cabinets with mismatched old hardware",
+      "after_state": "Smooth, modern matte-finish cabinets with new matte-black pulls",
       "buyer_intent_keywords": [
-        "toilet bowl ring remover",
-        "how to remove toilet stains",
-        "pumice stone toilet cleaner",
-        "hard water ring toilet",
-        "best toilet bowl cleaner"
+        "peel and stick cabinet cover",
+        "cabinet hardware upgrade",
+        "kitchen cabinet makeover on a budget",
+        "self adhesive cabinet film"
       ],
       "scores": {
         "trend": 6,
         "transformation": 9,
-        "affiliate": 9,
+        "affiliate": 7,
         "intent": 7
       },
-      "composite_score": 31,
-      "why_now": "Real Simple's piece today on why toilet bowls ring even with regular cleaning is exactly the problem-aware content that converts into an oddly-satisfying before/after Reel."
+      "composite_score": 29,
+      "why_now": "Apartment Therapy's Behr-tied pin on painting cabinets for a 'dramatic before and after' is circulating today, priming shoppers for cheap cabinet-makeover alternatives."
     },
     {
       "rank": 5,
-      "product_category": "clutter-hiding storage / room dividers",
-      "specific_product": "Folding room divider / privacy screen",
-      "brand": "Best Choice Products (15% commission)",
-      "target_price": "$68",
-      "transformation_hook": "$68 folding screen hides a cluttered corner in one 15-second pan shot",
-      "before_state": "Open studio or shared room with exposed storage bins, laundry, or a messy desk in frame",
-      "after_state": "Clean sightline with a stylish folding screen concealing the mess entirely",
+      "product_category": "neck support pillow",
+      "specific_product": "Eli & Elm contour cervical pillow for side sleepers",
+      "brand": "Eli & Elm",
+      "target_price": "$44",
+      "transformation_hook": "Swapped our flat pillow for a $44 one and fixed our neck pain",
+      "before_state": "Flat, lumpy pillow and a stiff-neck morning routine",
+      "after_state": "Contoured pillow on a styled, cozy-season bed setup",
       "buyer_intent_keywords": [
-        "room divider for small apartment",
-        "folding privacy screen",
-        "hide clutter divider",
-        "studio apartment organization",
-        "decorative room screen"
+        "best pillow for neck pain side sleeper",
+        "cervical support pillow",
+        "contour pillow side sleeper",
+        "neck pain pillow"
       ],
       "scores": {
-        "trend": 6,
-        "transformation": 7,
+        "trend": 5,
+        "transformation": 6,
         "affiliate": 8,
         "intent": 8
       },
-      "composite_score": 29,
-      "why_now": "Apartment Therapy's room-divider and decluttering pins both landed this week, tapping into the fresh-start organization mood that typically spikes right before the holidays."
+      "composite_score": 27,
+      "why_now": "Fall bedroom-nesting pins are surging on Pinterest, and cozy-season sleep upgrades carry steady high buyer intent independent of today's broader trend noise."
     }
   ],
   "raw_signal_count": 85,
