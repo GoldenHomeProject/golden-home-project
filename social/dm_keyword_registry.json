@@ -6277,6 +6277,22 @@
       "verified_stars": "4.5",
       "verified_reviews": 18440,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0BWDK5RNZ",
+      "product_name": "Navy Blue and Greyish White Blackout Curtains for Living Room 84 Inch Long | Estelar Textiler Ombre Room Darkening Bedro",
+      "categories": [
+        "home",
+        "Window Treatments"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0BWDK5RNZ?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-10-24",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$21.65",
+      "verified_stars": "4.7",
+      "verified_reviews": 13483,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
