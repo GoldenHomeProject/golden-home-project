@@ -1,126 +1,131 @@
 {
-  "generated_at": "2026-10-24T09:17:25.002798Z",
-  "date": "2026-10-24",
+  "generated_at": "2026-10-25T09:35:00.004040Z",
+  "date": "2026-10-25",
   "opportunities": [
     {
       "rank": 1,
-      "product_category": "robot vacuum/mop combo",
-      "specific_product": "AI wet-dry robot vacuum and mop combo",
-      "brand": "Amazon generic (Roborock-style)",
-      "target_price": "$259",
-      "transformation_hook": "We let a robot replace our mop bucket for $259 \u2014 floors after 1 run",
-      "before_state": "Sticky, crumb-covered kitchen floor with a mop and bucket sitting out",
-      "after_state": "Streak-free, spotless floor with the robot docked and self-cleaning",
+      "product_category": "kitchen cabinet refacing hardware",
+      "specific_product": "Self-adhesive cabinet door panels + brushed gold cabinet pull kit",
+      "brand": "Amazon generic",
+      "target_price": "$39",
+      "transformation_hook": "$39 kitchen glow-up: swap dated cabinets for a boutique look",
+      "before_state": "Scratched, dated oak cabinets with mismatched tarnished knobs",
+      "after_state": "Sleek painted-look panels with brushed gold pulls for a boutique-kitchen feel",
       "buyer_intent_keywords": [
-        "best robot vacuum mop combo",
-        "robot vacuum for pet hair",
-        "self-cleaning mop vacuum",
-        "robot vacuum black friday deal"
+        "cabinet hardware kit",
+        "peel and stick cabinet panels",
+        "kitchen cabinet makeover on a budget",
+        "gold cabinet pulls",
+        "small kitchen renovation ideas"
       ],
       "scores": {
-        "trend": 9,
-        "transformation": 8,
-        "affiliate": 8,
-        "intent": 9
+        "trend": 7,
+        "transformation": 10,
+        "affiliate": 9,
+        "intent": 8
       },
       "composite_score": 34,
-      "why_now": "Apartment Therapy's top pin today frames AI wet-dry vacuums as the 'ultimate floor mopping hack,' and fall indoor-cleaning season is ramping up search volume."
+      "why_now": "HGTV and Apartment Therapy pins today both spotlight small-kitchen and cabinet-painting transformations, signaling fall nesting demand for low-cost kitchen refreshes."
     },
     {
       "rank": 2,
+      "product_category": "wet-dry floor vacuum",
+      "specific_product": "Cordless wet/dry vacuum mop (Roborock F25-style)",
+      "brand": "Amazon generic / Roborock",
+      "target_price": "$299",
+      "transformation_hook": "Ditch the mop bucket: $299 vacuum that washes floors for you",
+      "before_state": "Sticky, streaky floors and a mop bucket mess",
+      "after_state": "Streak-free, dry floors in one pass, bucket retired for good",
+      "buyer_intent_keywords": [
+        "wet dry vacuum mop",
+        "roborock f25",
+        "best floor cleaner for pet hair",
+        "self cleaning mop vacuum",
+        "no more mop bucket"
+      ],
+      "scores": {
+        "trend": 8,
+        "transformation": 8,
+        "affiliate": 7,
+        "intent": 9
+      },
+      "composite_score": 32,
+      "why_now": "Apartment Therapy's 'ditch the mop bucket' pin is live today, pushing wet/dry vacuum demand as fall cleaning ramps up before holiday hosting season."
+    },
+    {
+      "rank": 3,
       "product_category": "couch/sofa covers",
-      "specific_product": "Mamma Mia waterproof stretch sofa cover",
+      "specific_product": "Mamma Mia waterproof stretch pet-proof sofa cover",
       "brand": "Mamma Mia Covers",
-      "target_price": "$49",
-      "transformation_hook": "Covered our stained couch for $49 before guests arrived",
-      "before_state": "Faded, pet-haired, stained couch nobody wants to sit on",
-      "after_state": "Crisp, tailored-looking slipcover that reads brand-new for holiday guests",
+      "target_price": "$47",
+      "transformation_hook": "$47 fix for a shredded, pet-hair-covered couch",
+      "before_state": "Stained, clawed-up couch covered in pet hair",
+      "after_state": "Crisp, tailored-looking sofa that hides wear and sheds hair easily",
       "buyer_intent_keywords": [
         "couch cover for pets",
         "waterproof sofa cover",
         "stretch couch cover",
-        "sofa cover for dogs"
+        "pet hair proof furniture cover",
+        "dog scratch couch protector"
+      ],
+      "scores": {
+        "trend": 5,
+        "transformation": 9,
+        "affiliate": 10,
+        "intent": 8
+      },
+      "composite_score": 32,
+      "why_now": "Fall indoor season plus Apartment Therapy's 'hide eyesore features' pin today reinforces interest in quick furniture disguises, and Mamma Mia's 24-30% commission makes it the highest-margin pick."
+    },
+    {
+      "rank": 4,
+      "product_category": "bedroom headboards",
+      "specific_product": "Wall-mounted upholstered headboard panel set",
+      "brand": "Amazon generic",
+      "target_price": "$59",
+      "transformation_hook": "$59 headboard hack turns a bare bed into a boutique-hotel look",
+      "before_state": "Bare mattress pushed against a blank wall, no headboard",
+      "after_state": "Upholstered panel wall creating a boutique hotel-style bed",
+      "buyer_intent_keywords": [
+        "headboard alternative",
+        "wall mounted headboard panels",
+        "no headboard bed ideas",
+        "diy upholstered headboard",
+        "small bedroom makeover"
       ],
       "scores": {
         "trend": 7,
         "transformation": 9,
-        "affiliate": 9,
-        "intent": 8
+        "affiliate": 8,
+        "intent": 7
       },
-      "composite_score": 33,
-      "why_now": "HGTV and RealSimple pins are both pushing 'guest-ready' fall/winter hosting prep, and a worn or pet-haired couch is the #1 pre-party eyesore \u2014 high-commission brand fits this surge directly."
+      "composite_score": 31,
+      "why_now": "Apartment Therapy's '15 headboard alternative ideas' pin is trending today, signaling a bedroom-refresh wave ahead of winter nesting season."
     },
     {
-      "rank": 3,
-      "product_category": "pantry/kitchen organizers",
-      "specific_product": "Syruvia drawer & pantry organizer set",
-      "brand": "Syruvia",
-      "target_price": "$28",
-      "transformation_hook": "Organized our chaos pantry for $28 before Thanksgiving hosting",
-      "before_state": "Cluttered pantry shelf with mismatched boxes and loose snacks",
-      "after_state": "Labeled bins and clear containers lined up like a magazine pantry",
+      "rank": 5,
+      "product_category": "decorative throw pillows / neck pillows",
+      "specific_product": "Eli & Elm side-sleeper neck pillow + burnt-orange velvet throw pillow covers",
+      "brand": "Eli & Elm",
+      "target_price": "$35",
+      "transformation_hook": "$35 swap turns a flat, achy bed into a cozy burnt-orange retreat",
+      "before_state": "Flat mismatched pillows, neck pain from an old pillow, dated color palette",
+      "after_state": "Supportive side-sleeper pillow plus on-trend burnt-orange velvet throw pillows",
       "buyer_intent_keywords": [
-        "pantry organization bins",
-        "kitchen drawer organizer set",
-        "lazy susan for cabinet",
-        "pantry storage containers"
+        "side sleeper neck pain pillow",
+        "burnt orange throw pillows",
+        "fall bedroom refresh",
+        "best pillow for neck pain",
+        "cozy bedroom decor ideas"
       ],
       "scores": {
         "trend": 7,
         "transformation": 7,
         "affiliate": 9,
-        "intent": 8
-      },
-      "composite_score": 31,
-      "why_now": "RealSimple and HGTV are both publishing kitchen-declutter-for-hosting content this week, directly driving pantry/drawer organizer search intent ahead of holiday prep."
-    },
-    {
-      "rank": 4,
-      "product_category": "cabinet refresh kit",
-      "specific_product": "Peel-and-stick cabinet door film + hardware upgrade kit",
-      "brand": "Amazon generic",
-      "target_price": "$68",
-      "transformation_hook": "Transformed our kitchen cabinets for $68 without a single renovation",
-      "before_state": "Dated, scuffed wood cabinets with mismatched old hardware",
-      "after_state": "Smooth, modern matte-finish cabinets with new matte-black pulls",
-      "buyer_intent_keywords": [
-        "peel and stick cabinet cover",
-        "cabinet hardware upgrade",
-        "kitchen cabinet makeover on a budget",
-        "self adhesive cabinet film"
-      ],
-      "scores": {
-        "trend": 6,
-        "transformation": 9,
-        "affiliate": 7,
         "intent": 7
       },
-      "composite_score": 29,
-      "why_now": "Apartment Therapy's Behr-tied pin on painting cabinets for a 'dramatic before and after' is circulating today, priming shoppers for cheap cabinet-makeover alternatives."
-    },
-    {
-      "rank": 5,
-      "product_category": "neck support pillow",
-      "specific_product": "Eli & Elm contour cervical pillow for side sleepers",
-      "brand": "Eli & Elm",
-      "target_price": "$44",
-      "transformation_hook": "Swapped our flat pillow for a $44 one and fixed our neck pain",
-      "before_state": "Flat, lumpy pillow and a stiff-neck morning routine",
-      "after_state": "Contoured pillow on a styled, cozy-season bed setup",
-      "buyer_intent_keywords": [
-        "best pillow for neck pain side sleeper",
-        "cervical support pillow",
-        "contour pillow side sleeper",
-        "neck pain pillow"
-      ],
-      "scores": {
-        "trend": 5,
-        "transformation": 6,
-        "affiliate": 8,
-        "intent": 8
-      },
-      "composite_score": 27,
-      "why_now": "Fall bedroom-nesting pins are surging on Pinterest, and cozy-season sleep upgrades carry steady high buyer intent independent of today's broader trend noise."
+      "composite_score": 30,
+      "why_now": "HGTV's burnt-orange paint-color pin plus the seasonal shift into fall nesting makes warm-toned textile refreshes and neck-support pillows both hot, and Eli & Elm's 20% commission adds margin."
     }
   ],
   "raw_signal_count": 85,
