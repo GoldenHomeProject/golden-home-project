@@ -8933,5 +8933,78 @@
     },
     "hook": "Short curtains make your whole bedroom look smaller.",
     "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-24-001.mp4"
+  },
+  {
+    "name": "reel_2026-10-25_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-25-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Watch the back basket slide right out to you.\n\nUnder a kitchen sink, pipes and a disposal carve the space into odd gaps, so bottles and sprays end up shoved in the back. Every time you need the one thing in the corner, you end up pulling half the cabinet out first.\n\nThis two-tier sliding basket organizer sits low in that space and slides forward so the back row comes to you instead of your arm going in after it. It's a new chrome listing on Amazon, so there's no rating yet.\n\nEverything under the sink stays visible and reachable instead of stacked in a pile, for about $35.\n\nComment LINK and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #kitchenorganization #smallspacesolutions #undersinkstorage",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#kitchenorganization",
+      "#smallspacesolutions",
+      "#undersinkstorage"
+    ],
+    "affiliate": {
+      "primary_product": "Simple Houseware 2-Tier Sliding Basket Organizer (chrome, under-sink)",
+      "dm_keyword": "LINK",
+      "amazon_asin": "B01M0TS64K",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01M0TS64K?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Watch the back basket slide right out to you."
+  },
+  {
+    "name": "reel_2026-10-25_002",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-25-002.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Everyone blames the duvet cover. The problem is what's inside it.\n\nA duvet cover can look flat and empty no matter how nice it is if what's stuffed inside doesn't fill it out. Thin or clumped fill leaves the corners sagging and the middle looking deflated. That gap between cover and insert is usually the real issue.\n\nThe Bedsure Comforter Duvet Insert is made to fill a duvet cover edge to edge so the corners actually hold their shape. Close to eighty thousand people have rated it 4.7 stars.\n\nThe bed goes from flat and lumpy to full and even, for about $35.\n\nComment DUVET and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Bedsure Comforter Duvet Insert",
+      "dm_keyword": "DUVET",
+      "amazon_asin": "B07YKLSMFM",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B07YKLSMFM?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Everyone blames the duvet cover. The problem is what's inside it."
+  },
+  {
+    "name": "reel_2026-10-25_003",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-25-003.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Your throw pillows look flat for one dumb reason.\n\nPillow covers are usually cut generous, but the insert that ships with them is often a size down or just thin. That mismatch means the corners never fill out, so the pillow looks sunken even right after you fluff it.\n\nThese are 18 by 18 inserts, matched to the standard cover size, so they push fabric into every corner instead of leaving slack. Shoppers rate them 4.6 stars across roughly two hundred thousand reviews.\n\nCovers hold their square shape on the couch or bed instead of caving in at the edges, and a set runs about $16.\n\nComment INSERTS and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Utopia Bedding 18x18 Pillow Inserts",
+      "dm_keyword": "INSERTS",
+      "amazon_asin": "B01NBNDC1T",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01NBNDC1T?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Your throw pillows look flat for one dumb reason."
   }
 ]
