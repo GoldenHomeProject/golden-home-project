@@ -8961,10 +8961,10 @@
   },
   {
     "name": "reel_2026-10-25_002",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-25-002.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-25-002.mp4",
     "caption": "Everyone blames the duvet cover. The problem is what's inside it.\n\nA duvet cover can look flat and empty no matter how nice it is if what's stuffed inside doesn't fill it out. Thin or clumped fill leaves the corners sagging and the middle looking deflated. That gap between cover and insert is usually the real issue.\n\nThe Bedsure Comforter Duvet Insert is made to fill a duvet cover edge to edge so the corners actually hold their shape. Close to eighty thousand people have rated it 4.7 stars.\n\nThe bed goes from flat and lumpy to full and even, for about $35.\n\nComment DUVET and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -8981,14 +8981,15 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "Everyone blames the duvet cover. The problem is what's inside it."
+    "hook": "Everyone blames the duvet cover. The problem is what's inside it.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-25-002.mp4"
   },
   {
     "name": "reel_2026-10-25_003",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-25-003.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-25-003.mp4",
     "caption": "Your throw pillows look flat for one dumb reason.\n\nPillow covers are usually cut generous, but the insert that ships with them is often a size down or just thin. That mismatch means the corners never fill out, so the pillow looks sunken even right after you fluff it.\n\nThese are 18 by 18 inserts, matched to the standard cover size, so they push fabric into every corner instead of leaving slack. Shoppers rate them 4.6 stars across roughly two hundred thousand reviews.\n\nCovers hold their square shape on the couch or bed instead of caving in at the edges, and a set runs about $16.\n\nComment INSERTS and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -9005,22 +9006,7 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "Your throw pillows look flat for one dumb reason."
-  },
-  {
-    "id": "carousel-2026-10-25-B015SJ7RYY",
-    "media_type": "CAROUSEL_ALBUM",
-    "image_urls": [
-      "https://goldenhomeproject.com/social/carousels/2026-10-25-B015SJ7RYY/slide-1.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-25-B015SJ7RYY/slide-2.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-25-B015SJ7RYY/slide-3.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-25-B015SJ7RYY/slide-4.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-25-B015SJ7RYY/slide-5.png"
-    ],
-    "caption": "Street light bleeding across your bedroom ceiling isn't a you problem \u2014 it's a window problem.\n\nSave this for later if your blinds let the parking lot lights win every night. Thermal, grommet-top, room-darkening panels in grey work on the actual gap, not just the glass.\n\nComment GREY or DM me GREY for the link.\n\n#bedroomorganization #homeorganizing #blackoutcurtains #windowtreatments #organizedhome",
-    "asin": "B015SJ7RYY",
-    "keyword": "GREY",
-    "queued_at": "2026-10-25T12:14:20.290943Z",
-    "source": "carousel_generator"
+    "hook": "Your throw pillows look flat for one dumb reason.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-25-003.mp4"
   }
 ]
