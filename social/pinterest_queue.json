@@ -7558,14 +7558,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-21-B01N20YR6B.png",
     "queued_at": "2026-10-21T10:16:58.198490Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "No-Glue Privacy, Stained-Glass Look",
     "recharted": true,
     "variant": "B",
-    "ai_image": false
+    "ai_image": false,
+    "posted_at": "2026-10-25T13:41:22Z"
   },
   {
     "id": "collage-2026-10-21-best-cleaning-supplies",
