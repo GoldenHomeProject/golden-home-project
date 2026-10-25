@@ -1,12 +1,12 @@
 {
- "captured_at": "2026-10-24T09:40:59+00:00",
+ "captured_at": "2026-10-25T09:40:59+00:00",
  "items": [
   {
    "asin": "B0FDWLX8QP",
    "name": "8 Pack Extra Large Clothes Storage Bins with Lids, Clear | Storage Bags with Reinforced Handles & Heavy-Duty Zippers, Mo",
    "price": "$29.99",
    "rating": 4.8,
-   "reviews": 5023,
+   "reviews": 5025,
    "rank": 1,
    "category": "Home Storage",
    "source": "bestsellers"
@@ -16,7 +16,7 @@
    "name": "Amazon Basics Collapsible Fabric Storage Cubes Organizer with Handles, Sturdy Storage Bins for Organization, 10.5\" x 10.",
    "price": "$17.84",
    "rating": 4.7,
-   "reviews": 120482,
+   "reviews": 120496,
    "rank": 2,
    "category": "Home Storage",
    "source": "bestsellers"
@@ -26,18 +26,8 @@
    "name": "YaFex Curtain Rods 32-144 Inch, Heavy Duty 1 Inch Adjustable Curtain Rod for Windows, Black Extra Long Window Treatment ",
    "price": "$25.99",
    "rating": 4.6,
-   "reviews": 5245,
-   "rank": 4,
-   "category": "Home D\u00e9cor",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B0D89V1RX1",
-   "name": "2x6 Hallway Washable Runner Rug : Vintage Soft Kitchen Laundry Runner with Non Slip Backing Farmhouse Entryway Living Ro",
-   "price": "$16.99",
-   "rating": 4.6,
-   "reviews": 11186,
-   "rank": 6,
+   "reviews": 5268,
+   "rank": 5,
    "category": "Home D\u00e9cor",
    "source": "bestsellers"
   },
@@ -46,38 +36,18 @@
    "name": "Etekcity Food Kitchen Scale, Digital Grams and Ounces, 11lb | Tare function, ideal for baking, weight loss, keto, meal p",
    "price": "$10.99",
    "rating": 4.6,
-   "reviews": 178052,
-   "rank": 7,
+   "reviews": 178073,
+   "rank": 6,
    "category": "Kitchen",
    "source": "bestsellers"
   },
   {
-   "asin": "B0CTJGJL2T",
-   "name": "GODONLIF Candle Warmer Lamp with Timer, Birthday Gifts for Women Home Decor | 24h Cycle Timer Dimmable Wax Melt Warmer w",
-   "price": "$21.99",
+   "asin": "B0D89V1RX1",
+   "name": "2x6 Hallway Washable Runner Rug : Vintage Soft Kitchen Laundry Runner with Non Slip Backing Farmhouse Entryway Living Ro",
+   "price": "$16.99",
    "rating": 4.6,
-   "reviews": 11599,
-   "rank": 8,
-   "category": "Home D\u00e9cor",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B0DZFGTCLR",
-   "name": "Innqoo Candle Warmer Lamp with Timer Home Decor Birthday Gifts for Women | Dimmable Candle Warmer for Jar Candles, Heigh",
-   "price": "$21.99",
-   "rating": 4.5,
-   "reviews": 6422,
-   "rank": 9,
-   "category": "Home D\u00e9cor",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B0BR3STN87",
-   "name": "Linen Total Blackout Curtains for Bedroom Living Room 84 Inch, Cream | 100% Blackout Shield Linen Textured Back Tab/Rod ",
-   "price": "$32.97",
-   "rating": 4.5,
-   "reviews": 9173,
-   "rank": 10,
+   "reviews": 11210,
+   "rank": 7,
    "category": "Home D\u00e9cor",
    "source": "bestsellers"
   },
@@ -86,7 +56,17 @@
    "name": "Utopia Bedding 18x18 Pillow Inserts, White Throw Pillows for Couch, 2 Pack | 100% Virgin Filling, Indoor Cushion Inserts",
    "price": "$17.89",
    "rating": 4.6,
-   "reviews": 219716,
+   "reviews": 219730,
+   "rank": 9,
+   "category": "Home D\u00e9cor",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B0CTJGJL2T",
+   "name": "GODONLIF Candle Warmer Lamp with Timer, Birthday Gifts for Women Home Decor | 24h Cycle Timer Dimmable Wax Melt Warmer w",
+   "price": "$21.99",
+   "rating": 4.6,
+   "reviews": 11624,
    "rank": 11,
    "category": "Home D\u00e9cor",
    "source": "bestsellers"
@@ -96,9 +76,19 @@
    "name": "KitchenAid Classic Multifunction Can Opener and Bottle Opener Easy to Use, Razor Sharp Stainless Steel Cutting Wheel, So",
    "price": "$14.99",
    "rating": 4.6,
-   "reviews": 86852,
-   "rank": 13,
+   "reviews": 86864,
+   "rank": 12,
    "category": "Kitchen",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B0DZFGTCLR",
+   "name": "Innqoo Candle Warmer Lamp with Timer Home Decor Birthday Gifts for Women | Dimmable Candle Warmer for Jar Candles, Heigh",
+   "price": "$21.99",
+   "rating": 4.5,
+   "reviews": 6446,
+   "rank": 12,
+   "category": "Home D\u00e9cor",
    "source": "bestsellers"
   },
   {
@@ -106,7 +96,17 @@
    "name": "NICETOWN Black Blackout Curtains for Bedroom 42\" wide x 63\" Long 2 Panels | Solid Grommet Thermal Insulated Drapes, Nois",
    "price": "$9.98",
    "rating": 4.6,
-   "reviews": 134192,
+   "reviews": 134215,
+   "rank": 13,
+   "category": "Home D\u00e9cor",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B0F3332VRX",
+   "name": "MIULEE Blackout Curtains for Bedroom 2 Panels 40 x 84 Inch Long Black | Thermal Insulated, Halloween Living Room Darkeni",
+   "price": "$13.12",
+   "rating": 4.6,
+   "reviews": 7748,
    "rank": 14,
    "category": "Home D\u00e9cor",
    "source": "bestsellers"
@@ -116,19 +116,9 @@
    "name": "Ultrean Food Scale, Digital Kitchen Scale with LCD Display, Weight Grams and Ounces for Baking Cooking and Meal Prep, 6 ",
    "price": "$6.98",
    "rating": 4.6,
-   "reviews": 22417,
+   "reviews": 22436,
    "rank": 16,
    "category": "Kitchen",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B0F3332VRX",
-   "name": "MIULEE Blackout Curtains for Bedroom 2 Panels 40 x 84 Inch Long Black | Thermal Insulated, Halloween Living Room Darkeni",
-   "price": "$13.12",
-   "rating": 4.6,
-   "reviews": 7725,
-   "rank": 16,
-   "category": "Home D\u00e9cor",
    "source": "bestsellers"
   },
   {
@@ -136,7 +126,7 @@
    "name": "Utopia Bedding Throw Pillows, Decorative 18x18 pillow inserts, Set of 4 | Down alternative pillow insert with plush fluf",
    "price": "$25.49",
    "rating": 4.6,
-   "reviews": 128880,
+   "reviews": 128904,
    "rank": 18,
    "category": "Home D\u00e9cor",
    "source": "bestsellers"
@@ -146,8 +136,8 @@
    "name": "KitchenAid All Purpose Kitchen Shears with Protective Sheath Durable Stainless Steel Scissors, Dishwasher Safe, Soft Gri",
    "price": "$9.99",
    "rating": 4.8,
-   "reviews": 72808,
-   "rank": 18,
+   "reviews": 72825,
+   "rank": 19,
    "category": "Kitchen",
    "source": "bestsellers"
   },
@@ -156,7 +146,7 @@
    "name": "GORILLA GRIP\u00ae Extra Long Rug Grippers for Hardwood Floor, Reusable, Black | Dual-Sided Adhesives Pads Keep Area Rugs Cor",
    "price": "$11.49",
    "rating": 4.5,
-   "reviews": 31663,
+   "reviews": 31677,
    "rank": 19,
    "category": "Home D\u00e9cor",
    "source": "bestsellers"
@@ -166,8 +156,8 @@
    "name": "Amazon Basics Digital Kitchen Scale with LCD Display, Tare Function, Multiple Units, Weighs up to 11 Pounds, Batteries I",
    "price": "$11.14",
    "rating": 4.7,
-   "reviews": 119884,
-   "rank": 21,
+   "reviews": 119915,
+   "rank": 20,
    "category": "Kitchen",
    "source": "bestsellers"
   },
@@ -176,28 +166,8 @@
    "name": "Homaxy 100% Cotton Waffle Weave Kitchen Dish Cloths 6-Pack, Dark Grey | 12 x 12 Inches, Ultra Soft Absorbent Dish Towels",
    "price": "$8.98",
    "rating": 4.5,
-   "reviews": 41559,
+   "reviews": 41567,
    "rank": 22,
-   "category": "Kitchen",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B07SPR2HPT",
-   "name": "SONGMICS Storage Cubes, Set of 6, 11-Inch Foldable Closet Organizers | Non-Woven Fabric Bins with Double Handles, for Sh",
-   "price": "$19.99",
-   "rating": 4.7,
-   "reviews": 14092,
-   "rank": 22,
-   "category": "Home Storage",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B079M8FPTW",
-   "name": "Rubbermaid Brilliance Tritan Plastic Food Storage Containers BPA Free Airtight Lids Ideal for Lunch Meal Prep & Leftover",
-   "price": "$32.48",
-   "rating": 4.7,
-   "reviews": 59992,
-   "rank": 24,
    "category": "Kitchen",
    "source": "bestsellers"
   },
@@ -206,18 +176,8 @@
    "name": "Cisily Sponge Holder for Kitchen Sink, Sink Organizer with Brush Holder | Black Kitchen Countertop Organizers and Storag",
    "price": "$13.99",
    "rating": 4.6,
-   "reviews": 15500,
-   "rank": 25,
-   "category": "Kitchen",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B0B6PLG6G2",
-   "name": "125Pcs 8 Inch Square Air Fryer Liners Disposable for 5-8QT, Parchment Paper | Non-Stick, Unbleached Food Grade, Waterpro",
-   "price": "$9.99",
-   "rating": 4.6,
-   "reviews": 34000,
-   "rank": 26,
+   "reviews": 15517,
+   "rank": 23,
    "category": "Kitchen",
    "source": "bestsellers"
   },
@@ -226,9 +186,19 @@
    "name": "IRIS USA Clear Cases |Made in USA| Plastic Box Organizers (10-Pack)- Medium | Bead Storage Organizing Containers with Sn",
    "price": "$19.99",
    "rating": 4.7,
-   "reviews": 9295,
-   "rank": 27,
+   "reviews": 9297,
+   "rank": 23,
    "category": "Home Storage",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B079M8FPTW",
+   "name": "Rubbermaid Brilliance Tritan Plastic Food Storage Containers BPA Free Airtight Lids Ideal for Lunch Meal Prep & Leftover",
+   "price": "$32.48",
+   "rating": 4.7,
+   "reviews": 59996,
+   "rank": 25,
+   "category": "Kitchen",
    "source": "bestsellers"
   },
   {
@@ -236,29 +206,9 @@
    "name": "TrendPlain 16oz/470ml Glass Olive Oil Sprayer for Cooking \u2013 2 in 1 Olive Oil Dispenser Bottle for Kitchen Gadgets and Ai",
    "price": "$7.99",
    "rating": 4.6,
-   "reviews": 49026,
-   "rank": 28,
+   "reviews": 49068,
+   "rank": 27,
    "category": "Kitchen",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B0F5X4FM3Q",
-   "name": "0.5 Sec Instant Read Meat Thermometer Digital for Cooking, Red | NIST \u00b10.5\u2109 Precision Food Thermometer, Kitchen Gadgets ",
-   "price": "$16.99",
-   "rating": 4.8,
-   "reviews": 8510,
-   "rank": 29,
-   "category": "Kitchen",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B07VQZSLDW",
-   "name": "upsimples 11x14 Picture Frame, Gallery Wall Frames Set of 5, Black | Photo Frame Collage Wall Decor, 11 x 14 Frame, 8x10",
-   "price": "$22.99",
-   "rating": 4.6,
-   "reviews": 73018,
-   "rank": 30,
-   "category": "Home D\u00e9cor",
    "source": "bestsellers"
   },
   {
@@ -266,9 +216,19 @@
    "name": "ChrisDowa Blackout Curtains for Bedroom and Living Room 63 Inches Long | 2 Panels Set, Thermal Insulated, Light Blocking",
    "price": "$10.99",
    "rating": 4.6,
-   "reviews": 31954,
-   "rank": 32,
+   "reviews": 31971,
+   "rank": 28,
    "category": "Home D\u00e9cor",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B0B6PLG6G2",
+   "name": "125Pcs 8 Inch Square Air Fryer Liners Disposable for 5-8QT, Parchment Paper | Non-Stick, Unbleached Food Grade, Waterpro",
+   "price": "$9.99",
+   "rating": 4.6,
+   "reviews": 34016,
+   "rank": 29,
+   "category": "Kitchen",
    "source": "bestsellers"
   },
   {
@@ -276,19 +236,59 @@
    "name": "AMZSEVEN 40 Pack Metal Curtain Rings with Clips, 1.26 in ID, Black | Curtain clip rings fit rods up to 1 inch in diamete",
    "price": "$9.99",
    "rating": 4.6,
-   "reviews": 26511,
-   "rank": 33,
+   "reviews": 26522,
+   "rank": 31,
+   "category": "Home D\u00e9cor",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B07SPR2HPT",
+   "name": "SONGMICS Storage Cubes, Set of 6, 11-Inch Foldable Closet Organizers | Non-Woven Fabric Bins with Double Handles, for Sh",
+   "price": "$19.99",
+   "rating": 4.7,
+   "reviews": 14097,
+   "rank": 31,
+   "category": "Home Storage",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B0F5X4FM3Q",
+   "name": "0.5 Sec Instant Read Meat Thermometer Digital for Cooking, Red | NIST \u00b10.5\u2109 Precision Food Thermometer, Kitchen Gadgets ",
+   "price": "$16.99",
+   "rating": 4.8,
+   "reviews": 8520,
+   "rank": 31,
+   "category": "Kitchen",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B08XVP48KQ",
+   "name": "upsimples 8x10 Picture Frames, Gallery Wall Frames Set of 5, Black | Photo Frame Collage Wall Decor, 8 x 10 Frame, 5x7 F",
+   "price": "$13.99",
+   "rating": 4.6,
+   "reviews": 73029,
+   "rank": 32,
    "category": "Home D\u00e9cor",
    "source": "bestsellers"
   },
   {
    "asin": "B08J8GZXKZ",
    "name": "KITCHENAID Ribbed Soft Silicone Oven Mitt 2-Pack Set, 7.5\"x13\", Milkshake Tan",
-   "price": "$17.00",
+   "price": "$15.99",
    "rating": 4.7,
-   "reviews": 14262,
-   "rank": 34,
+   "reviews": 14267,
+   "rank": 33,
    "category": "Kitchen",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B08SBYPF14",
+   "name": "MIULEE 100% Blackout Linen Curtains for Bedroom 52x84 Inches Natural Beige | Room Darkening, Light Blocking, Thermal Ins",
+   "price": "$25.95",
+   "rating": 4.6,
+   "reviews": 10620,
+   "rank": 33,
+   "category": "Home D\u00e9cor",
    "source": "bestsellers"
   },
   {
@@ -296,9 +296,19 @@
    "name": "Bath & Body Works 3-Wick Candle, Mahogany Teakwood Intense, Soy Wax Blend | Room-Filling Warm Home Scent with Strong Thr",
    "price": "$21.49",
    "rating": 4.5,
-   "reviews": 9140,
+   "reviews": 9143,
    "rank": 34,
    "category": "Home D\u00e9cor",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B0028JURDQ",
+   "name": "FoodSaver Custom Length Vacuum Sealer Bags Multipack, 5 Count Rolls for Airtight Food Storage and Sous Vide - Compatible",
+   "price": "$29.99",
+   "rating": 4.8,
+   "reviews": 28339,
+   "rank": 35,
+   "category": "Kitchen",
    "source": "bestsellers"
   },
   {
@@ -306,7 +316,7 @@
    "name": "Household Essentials Foldable Fabric Storage Bins 6 Piece Set, Strong Poly-Woven Fabric, Sturdy Chipboard Sides, Grommet",
    "price": "$24.99",
    "rating": 4.8,
-   "reviews": 19901,
+   "reviews": 19903,
    "rank": 35,
    "category": "Home Storage",
    "source": "bestsellers"
@@ -316,8 +326,8 @@
    "name": "12 Cups Silicone Muffin Pans for Baking Cupcake Pan Nonstick Silicone Molds | Regular size, 1Pack, For Egg Bites, Muffin",
    "price": "$6.99",
    "rating": 4.5,
-   "reviews": 18447,
-   "rank": 35,
+   "reviews": 18452,
+   "rank": 36,
    "category": "Kitchen",
    "source": "bestsellers"
   },
@@ -326,18 +336,8 @@
    "name": "PHD CAKE Gold Long Thin Metallic Birthday Candles, Cake Candles, Birthday Parties, Wedding Decorations, Party Candles, C",
    "price": "$5.99",
    "rating": 4.8,
-   "reviews": 7328,
-   "rank": 35,
-   "category": "Home D\u00e9cor",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B08SBYPF14",
-   "name": "MIULEE 100% Blackout Linen Curtains for Bedroom 52x84 Inches Natural Beige | Room Darkening, Light Blocking, Thermal Ins",
-   "price": "$25.95",
-   "rating": 4.6,
-   "reviews": 10589,
-   "rank": 36,
+   "reviews": 7333,
+   "rank": 38,
    "category": "Home D\u00e9cor",
    "source": "bestsellers"
   },
@@ -346,17 +346,7 @@
    "name": "ChefAide 5 Pieces Silicone Spatulas Set, Heat Resistant Rubber Spatula | Food Grade Silicone, Heat Resistant Up to 600\u00b0F",
    "price": "$8.99",
    "rating": 4.8,
-   "reviews": 6854,
-   "rank": 37,
-   "category": "Kitchen",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B0028JURDQ",
-   "name": "FoodSaver Custom Length Vacuum Sealer Bags Multipack, 5 Count Rolls for Airtight Food Storage and Sous Vide - Compatible",
-   "price": "$29.99",
-   "rating": 4.8,
-   "reviews": 28335,
+   "reviews": 6865,
    "rank": 38,
    "category": "Kitchen",
    "source": "bestsellers"
