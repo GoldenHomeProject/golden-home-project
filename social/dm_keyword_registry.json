@@ -6295,6 +6295,23 @@
       "verified_stars": "4.7",
       "verified_reviews": 13483,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0BD6X8HJD",
+      "product_name": "Over-the-Door-Shoe-Organizer, Hanging Organizers 20+ Pairs Large Pocket Shoes Holder Storage, Hanging Shoe Rack for Closet, Shoe Organizer f",
+      "categories": [
+        "dorm",
+        "college",
+        "organization"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0BD6X8HJD?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-10-25",
+      "verified_method": "source_dorm/search+dp",
+      "verified_price": "$24.99",
+      "verified_stars": "4.5",
+      "verified_reviews": 4314,
+      "discovery_source": "back_to_college_2026"
     }
   ]
 }
