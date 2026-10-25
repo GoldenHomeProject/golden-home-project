@@ -4318,6 +4318,52 @@
           }
         ]
       }
+    ],
+    "BIGFOOT": [
+      {
+        "hook_category": "scene",
+        "hook": "Your shower curtain clings to your leg every time.",
+        "beat1": "That clinging happens because steam and water pull a thin curtain inward, and it sticks to wet skin instead of hanging flat. Cheap liners also pick up a cloudy yellow tint after enough showers, which makes the whole bathroom look dingy even when it's clean.",
+        "turn": "A plain clear vinyl curtain is built to do one simple job: hang flat against the rod and let light through instead of fighting you in the shower. It stays basic and see-through on purpose, so there's less going on for steam to grab onto.",
+        "result": "You get a curtain that looks clean and stays out of your way, for about $12.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "A hand pushing a clinging, wet shower curtain away from a bare leg mid-shower, steam in the air, realistic bathroom lighting",
+            "on_screen_text": "It clings to your leg",
+            "voiceover": "Your shower curtain clings to your leg every time."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Close-up of steam fogging a bathroom mirror and tile while a thin curtain billows and sticks to the shower wall",
+            "on_screen_text": "Steam pulls thin curtains inward",
+            "voiceover": "Steam and water pull a thin curtain in, so it sticks to you instead of hanging flat, and over time it turns cloudy and yellow."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Hands clipping a clear vinyl shower curtain onto a rod with rings, light passing through the clear material into the bathroom",
+            "on_screen_text": "Clear vinyl, hangs flat",
+            "voiceover": "A clear vinyl curtain is built to do one simple thing: hang flat against the rod and let light through instead of fighting you."
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "A calm, clean bathroom shot with the clear curtain hanging still and straight along the tub, soft natural light coming through it",
+            "on_screen_text": "Nearly sixty thousand people rated it",
+            "voiceover": "Close to sixty thousand people have rated this clear curtain 4.5 stars, and it runs about twelve dollars."
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "Someone stepping into the shower and pulling the clear curtain closed easily, it stays in place against the tub wall",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "No more peeling a wet curtain off your skin. Comment {KEYWORD} and I'll send the link."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
