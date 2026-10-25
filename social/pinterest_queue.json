@@ -7494,14 +7494,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-21-B08DTH86Q2.png",
     "queued_at": "2026-10-21T10:13:15.743191Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "Hotel-Style Comfort, Queen Set of 2",
     "recharted": true,
     "variant": "A",
-    "ai_image": true
+    "ai_image": true,
+    "posted_at": "2026-10-25T01:16:36Z"
   },
   {
     "id": "pin-2026-10-21-B07C9HL1G1",

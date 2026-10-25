@@ -3060,6 +3060,20 @@
       "pin_id": "pin-2026-10-21-B07YP2VH4B",
       "board": "Kitchen Organization Ideas",
       "link": "https://goldenhomeproject.com/blog/posts/best-kitchen-gadgets.html?v=A"
+    },
+    {
+      "ts": "2026-10-25T01:16:24Z",
+      "action": "board_fallback",
+      "pin_id": "pin-2026-10-21-B08DTH86Q2",
+      "wanted": "Bedroom Storage & Bedding",
+      "used": "Home Organization Finds"
+    },
+    {
+      "ts": "2026-10-25T01:16:35Z",
+      "action": "pin_published",
+      "pin_id": "pin-2026-10-21-B08DTH86Q2",
+      "board": "Bedroom Storage & Bedding",
+      "link": "https://www.amazon.com/dp/B08DTH86Q2?tag=ghpbranda-20&ascsubtag=pinterest_brandA"
     }
   ]
 }
