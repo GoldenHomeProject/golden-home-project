@@ -4364,6 +4364,52 @@
           }
         ]
       }
+    ],
+    "CLEAR": [
+      {
+        "hook_category": "mistake",
+        "hook": "Stop hanging a heavy curtain in a tiny bathroom.",
+        "beat1": "Most bathrooms only get light from one bulb and maybe a small window, so whatever curtain hangs over the tub either lets that light through or blocks it. A thick, patterned curtain can make an already small room feel like a closet the second it's pulled shut.",
+        "turn": "The BigFoot Clear Shower Curtain is just that, clear, so the tub and shower area stay bright instead of going dim behind fabric. Close to sixty thousand people have rated it 4.5 stars.",
+        "result": "The room reads bigger and brighter the second you pull it shut, for about $12.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "A hand pulling a heavy, dark patterned shower curtain closed across a small bathtub, the bathroom looking dim and cramped",
+            "on_screen_text": "This curtain is the problem",
+            "voiceover": "Stop hanging a heavy curtain in a tiny bathroom."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Overhead bathroom light fixture casting limited glow into a small tiled bathroom with a closed opaque shower curtain blocking most of it",
+            "on_screen_text": "One bulb, no window",
+            "voiceover": "Most bathrooms run on one bulb and maybe a window, so a thick curtain blocks what little light you've got, and the whole room shrinks the second it's closed."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Hand sliding a clear plastic shower curtain along a rod, light visibly passing through the clear material into the tub area",
+            "on_screen_text": "Just swap it for clear",
+            "voiceover": "The BigFoot Clear Shower Curtain stays see-through, so light keeps moving through the shower area instead of stopping at the curtain."
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "A bright, open-feeling bathroom with a clear shower curtain pulled across the tub, the full room visible through it",
+            "on_screen_text": "Close to sixty thousand rate it 4.5",
+            "voiceover": "Close to sixty thousand people have rated it 4.5 stars."
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "Person stepping toward a bright bathtub with a clear curtain drawn, the room looking open and sunlit",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "The room looks bigger the second you close it, for about twelve dollars. Comment {KEYWORD} and I'll send the link."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
