@@ -1,0 +1,134 @@
+{
+  "generated_at": "2026-10-26T10:44:29.333030Z",
+  "date": "2026-10-26",
+  "opportunities": [
+    {
+      "rank": 1,
+      "product_category": "bed headboards / wall decor",
+      "specific_product": "Wall-mounted upholstered headboard panel",
+      "brand": "Amazon generic",
+      "target_price": "$89",
+      "transformation_hook": "I fixed my awkward bare wall above the bed for $89",
+      "before_state": "Bare, blank wall above the bed with no headboard, pillows sliding flat against drywall",
+      "after_state": "Plush upholstered headboard panel mounted on the wall, bed instantly looks like a boutique hotel suite",
+      "buyer_intent_keywords": [
+        "headboard alternative",
+        "wall mounted headboard",
+        "no headboard ideas",
+        "upholstered headboard panel",
+        "small bedroom headboard"
+      ],
+      "scores": {
+        "trend": 8,
+        "transformation": 9,
+        "affiliate": 9,
+        "intent": 8
+      },
+      "composite_score": 34,
+      "why_now": "Both HGTV and Apartment Therapy pushed 'filling the space above your headboard' and 'headboard alternative' content this week, signaling a fresh search spike for this exact bedroom fix."
+    },
+    {
+      "rank": 2,
+      "product_category": "couch / sofa covers",
+      "specific_product": "Mamma Mia waterproof stretch sofa cover",
+      "brand": "Mamma Mia Covers",
+      "target_price": "$52",
+      "transformation_hook": "Hid my pet-hair-covered couch for $52 before guests arrived",
+      "before_state": "Worn, stained, pet-hair-covered couch nobody wants to sit on right before hosting season",
+      "after_state": "Crisp, tailored-looking slipcover that makes the couch look brand new in under 10 minutes",
+      "buyer_intent_keywords": [
+        "couch cover for pets",
+        "waterproof sofa cover",
+        "stretch couch cover",
+        "sofa cover for dog hair",
+        "slipcover for couch"
+      ],
+      "scores": {
+        "trend": 7,
+        "transformation": 9,
+        "affiliate": 9,
+        "intent": 9
+      },
+      "composite_score": 34,
+      "why_now": "HGTV's 'prepare for fall and winter celebrations' and small-living-room pins signal a seasonal wave of pre-hosting living room refreshes, and Mamma Mia's pet-hair angle captures it at 24-30% commission."
+    },
+    {
+      "rank": 3,
+      "product_category": "kitchen cabinet hardware & paint",
+      "specific_product": "Cabinet paint kit + brushed gold pulls bundle",
+      "brand": "Amazon generic",
+      "target_price": "$38",
+      "transformation_hook": "Turned my dated kitchen cabinets into a $38 designer look",
+      "before_state": "Scratched, outdated builder-grade cabinets with mismatched old knobs",
+      "after_state": "Freshly painted cabinet fronts with matching modern pulls for a boutique-kitchen feel",
+      "buyer_intent_keywords": [
+        "cabinet hardware",
+        "kitchen cabinet paint kit",
+        "cabinet pulls",
+        "small kitchen makeover",
+        "cabinet paint colors"
+      ],
+      "scores": {
+        "trend": 7,
+        "transformation": 10,
+        "affiliate": 8,
+        "intent": 8
+      },
+      "composite_score": 33,
+      "why_now": "HGTV's small-kitchen-transformation pins and Apartment Therapy's 'paint your cabinets for a dramatic before/after' post are both live today, pointing to imminent kitchen-refresh search volume."
+    },
+    {
+      "rank": 4,
+      "product_category": "room dividers / privacy screens",
+      "specific_product": "Best Choice Products 3-panel folding room divider",
+      "brand": "Best Choice Products",
+      "target_price": "$64",
+      "transformation_hook": "Hid my cluttered storage corner for $64 with one screen",
+      "before_state": "Open corner crammed with visible bins, laundry, and clutter in a small apartment",
+      "after_state": "Clean, styled room divider concealing the mess, making the apartment feel instantly bigger and calmer",
+      "buyer_intent_keywords": [
+        "room divider for apartment",
+        "folding privacy screen",
+        "hide clutter divider",
+        "small space room divider"
+      ],
+      "scores": {
+        "trend": 6,
+        "transformation": 8,
+        "affiliate": 8,
+        "intent": 7
+      },
+      "composite_score": 29,
+      "why_now": "Apartment Therapy's exact tip today \u2014 'use room dividers to hide storage or any eyesore features' \u2014 is a direct, current content prompt for this product."
+    },
+    {
+      "rank": 5,
+      "product_category": "bedroom pillows / sleep support",
+      "specific_product": "Eli & Elm Side Sleeper Pillow",
+      "brand": "Eli & Elm",
+      "target_price": "$45",
+      "transformation_hook": "Fixed my neck pain and my bed's sloppy pillow pile for $45",
+      "before_state": "Flat, mismatched pillows and nagging neck pain from sleeping on the wrong support",
+      "after_state": "Neatly stacked, hotel-style pillow arrangement with a side-sleeper pillow that fixes neck pain",
+      "buyer_intent_keywords": [
+        "side sleeper pillow",
+        "neck pain pillow",
+        "best pillow for neck pain",
+        "bedroom pillow refresh"
+      ],
+      "scores": {
+        "trend": 5,
+        "transformation": 7,
+        "affiliate": 8,
+        "intent": 7
+      },
+      "composite_score": 27,
+      "why_now": "Bedroom-refresh content (nursery redesign, headboard fixes) is trending on Pinterest right now, and pairing a wellness angle with bedroom styling rides that wave at 20% commission."
+    }
+  ],
+  "raw_signal_count": 85,
+  "sources_used": [
+    "google_trends_daily_us",
+    "pinterest"
+  ]
+}
