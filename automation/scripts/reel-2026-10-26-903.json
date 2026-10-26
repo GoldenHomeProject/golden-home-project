@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-10-26T15:43:54.481819Z",
+  "date": "2026-10-26",
+  "seq": 903,
+  "source": "repurpose",
+  "hook": "$15.98 curtains make a flat wall look architectural",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Bare wall panel set mounted alone with no drapery, mattress in frame, looking plain",
+      "on_screen_text": "The panel wall alone still looks flat",
+      "voiceover": "A $59 panel wall on its own still reads like four rectangles stuck to drywall."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Reference shot of a boutique hotel room with floor-to-ceiling drapery along the headboard wall, away from any actual window",
+      "on_screen_text": "Hotels drape walls, not just windows",
+      "voiceover": "Boutique hotel rooms run floor-to-ceiling drapery along the headboard wall even when the window is somewhere else."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Hands mounting a curtain rod above and visibly wider than the panel wall",
+      "on_screen_text": "Rod wider than the panel wall",
+      "voiceover": "Mount a rod a little wider than your panel set, and the drapery visually extends the whole feature."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Product graphic of grey blackout curtain panels with overlay showing 4.7 stars, 61,995 ratings, $15.98",
+      "on_screen_text": "4.7 stars, 61,995 ratings, $15.98/pair",
+      "voiceover": "These thermal-lined blackout panels are $15.98 for the pair \u2014 less than a third of the panel set's own price."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Dimmed bedroom with a single lamp on, panel wall and pillow stack glowing as the focal point",
+      "on_screen_text": "Dark room = panel wall becomes the focus",
+      "voiceover": "Block the daylight and the panel wall and pillow stack become the thing your eye lands on."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Final wide styled shot of the complete headboard wall with drapery flanking it",
+      "on_screen_text": "Under $16. Reads like architecture.",
+      "voiceover": "Sixteen dollars, and the ceiling reads taller than it is."
+    }
+  ],
+  "caption": "The detail that turns a $59 panel wall into something that reads 'designed' instead of 'patched' is drapery that has nothing to do with an actual window. Breakdown and exact curtain pick on the blog.",
+  "hashtags": [
+    "#blackoutcurtains",
+    "#hotelstyledecor",
+    "#bedroommakeoverideas",
+    "#boutiquehotellook",
+    "#rentalfriendlydecor",
+    "#headboardhack",
+    "#apartmenttherapy"
+  ]
+}

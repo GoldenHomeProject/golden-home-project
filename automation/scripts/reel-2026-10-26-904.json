@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-10-26T15:43:54.481969Z",
+  "date": "2026-10-26",
+  "seq": 904,
+  "source": "repurpose",
+  "hook": "The $7.92 layer most bedroom makeovers skip",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Extreme close-up of a foam panel tile edge, showing a slightly stiff, geometric corner line",
+      "on_screen_text": "Foam panels have a hard edge",
+      "voiceover": "However nice the fabric, a foam-core panel has a stiff, geometric edge up close."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Reference shot of a hotel room with a sheer fabric layer visible behind heavier drapery",
+      "on_screen_text": "Hotels soften that edge with sheers",
+      "voiceover": "Hotel rooms break that line with a layer of sheer fabric between the drapery and the wall."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Product graphic of white sheer curtain panels with overlay showing 4.7 stars, 17,073 reviews, $7.92",
+      "on_screen_text": "4.7 stars, 17,073 reviews, $7.92/pair",
+      "voiceover": "This sheer set is $7.92 for the pair \u2014 the cheapest single thing in this whole setup."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Hands hanging sheer curtains on a second inner rod closer to the wall, layered behind a blackout panel",
+      "on_screen_text": "Inner rod, closer to the wall",
+      "voiceover": "Hang it on a second rod closer to the wall, behind the blackout panel, and it breaks up where the tiles meet bare drywall."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Before and after of the panel wall with and without the sheer layer visible",
+      "on_screen_text": "This is the detail that gets skipped",
+      "voiceover": "It's under eight dollars and it's the most commonly missing piece in before-and-afters that don't quite land."
+    },
+    {
+      "n": 6,
+      "duration_sec": 2,
+      "visual_prompt": "Final wide shot of the bedroom with soft diffused daylight through the sheer layer",
+      "on_screen_text": "$7.92. Don't skip it.",
+      "voiceover": "Cheapest line item. Easiest one to forget."
+    }
+  ],
+  "caption": "This is the eight-dollar layer I keep seeing missing from panel-wall makeovers that almost land but don't. Full writeup on the blog.",
+  "hashtags": [
+    "#sheercurtains",
+    "#bedroomdecorideas",
+    "#boutiquehotelbedroom",
+    "#budgetdecorhacks",
+    "#apartmenttherapy",
+    "#headboardalternative",
+    "#curtainlayering"
+  ]
+}

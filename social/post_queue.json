@@ -9023,5 +9023,95 @@
     "keyword": "ALYVIA",
     "queued_at": "2026-10-26T13:45:56.352733Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_repurpose_2026-10-26_901",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-26-901.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "I ran the numbers on the $59 panel-wall trend that's all over Apartment Therapy right now. A real upholstered headboard runs $250-$400 and needs a stud. This doesn't. Full breakdown and the exact shelf, pillow, and curtain picks on the blog \u2014 link in bio.",
+    "hashtags": [
+      "#renterfriendlydecor",
+      "#apartmenttherapy",
+      "#headboardalternative",
+      "#boutiquehotelbedroom",
+      "#budgetbedroommakeover",
+      "#nodrillingdecor",
+      "#smallapartmentliving"
+    ],
+    "hook": "A $59 panel wall faked my boutique hotel headboard"
+  },
+  {
+    "name": "reel_repurpose_2026-10-26_902",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-26-902.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "I went looking for the one detail that makes a hotel bed photo work, and it's not the headboard \u2014 it's the gusset in the pillow seam. Full comparison on the blog, link in bio.",
+    "hashtags": [
+      "#hotelbedpillows",
+      "#gussetedpillows",
+      "#bedroommakeover",
+      "#boutiquehotelbed",
+      "#budgetbedroomdecor",
+      "#amazonhomefinds",
+      "#pillowstacking"
+    ],
+    "hook": "$24.77 pillows do more work than your headboard"
+  },
+  {
+    "name": "reel_repurpose_2026-10-26_903",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-26-903.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "The detail that turns a $59 panel wall into something that reads 'designed' instead of 'patched' is drapery that has nothing to do with an actual window. Breakdown and exact curtain pick on the blog.",
+    "hashtags": [
+      "#blackoutcurtains",
+      "#hotelstyledecor",
+      "#bedroommakeoverideas",
+      "#boutiquehotellook",
+      "#rentalfriendlydecor",
+      "#headboardhack",
+      "#apartmenttherapy"
+    ],
+    "hook": "$15.98 curtains make a flat wall look architectural"
+  },
+  {
+    "name": "reel_repurpose_2026-10-26_904",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-26-904.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "This is the eight-dollar layer I keep seeing missing from panel-wall makeovers that almost land but don't. Full writeup on the blog.",
+    "hashtags": [
+      "#sheercurtains",
+      "#bedroomdecorideas",
+      "#boutiquehotelbedroom",
+      "#budgetdecorhacks",
+      "#apartmenttherapy",
+      "#headboardalternative",
+      "#curtainlayering"
+    ],
+    "hook": "The $7.92 layer most bedroom makeovers skip"
+  },
+  {
+    "name": "reel_repurpose_2026-10-26_905",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-26-905.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "I sized this hack down for anyone whose bedroom is under 120 square feet, because the full-size version actually makes a small room look smaller. Full list on the blog.",
+    "hashtags": [
+      "#smallbedroomideas",
+      "#apartmenttherapy",
+      "#budgetbedroommakeover",
+      "#rentalfriendlydecor",
+      "#headboardalternative",
+      "#smallspacedecor",
+      "#bedroomhacks"
+    ],
+    "hook": "Small bedroom version of the $59 hack: $85 total"
   }
 ]

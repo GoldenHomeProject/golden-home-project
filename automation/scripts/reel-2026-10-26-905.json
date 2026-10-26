@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-10-26T15:43:54.482177Z",
+  "date": "2026-10-26",
+  "seq": 905,
+  "source": "repurpose",
+  "hook": "Small bedroom version of the $59 hack: $85 total",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Small, narrow bedroom with a compact window and tight wall space around the bed",
+      "on_screen_text": "Small room, small window",
+      "voiceover": "Small bedrooms usually come with small windows, and that changes the math on this whole trick."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Visual comparison graphic of 84-inch drapery overwhelming a 40-inch window frame",
+      "on_screen_text": "Standard drapery overwhelms a small window",
+      "voiceover": "Eighty-four-inch drapery sized for a standard window overwhelms a forty-inch one instead of flattering it."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Product graphic of black 40x63 curtain panels with overlay showing 4.5 stars, 6,578 ratings, $9.98",
+      "on_screen_text": "40x63 curtains, 4.5 stars, $9.98/pair",
+      "voiceover": "Scale the drapery down with the room \u2014 this set is built for exactly the smaller window, nine ninety-eight for the pair."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "A reduced 3-tile panel set on a small wall with only one floating shelf instead of a full three-shelf set",
+      "on_screen_text": "One shelf, not the full 3-set",
+      "voiceover": "Drop to a single shelf instead of the full three-shelf set if wall space is tight."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Full styled small-room shot: panel wall, pillow stack, scaled curtains, and one shelf",
+      "on_screen_text": "Panels + curtains + 1 shelf = under $85",
+      "voiceover": "Panel set, the smaller curtains, and one shelf keeps the whole look under eighty-five dollars total."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Final wide shot of the small bedroom looking open and styled rather than cramped",
+      "on_screen_text": "Scaled down, not skipped",
+      "voiceover": "The trick doesn't get skipped in a small room \u2014 it just gets sized to fit it."
+    }
+  ],
+  "caption": "I sized this hack down for anyone whose bedroom is under 120 square feet, because the full-size version actually makes a small room look smaller. Full list on the blog.",
+  "hashtags": [
+    "#smallbedroomideas",
+    "#apartmenttherapy",
+    "#budgetbedroommakeover",
+    "#rentalfriendlydecor",
+    "#headboardalternative",
+    "#smallspacedecor",
+    "#bedroomhacks"
+  ]
+}

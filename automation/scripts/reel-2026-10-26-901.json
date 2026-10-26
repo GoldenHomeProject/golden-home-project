@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-10-26T15:43:54.481303Z",
+  "date": "2026-10-26",
+  "seq": 901,
+  "source": "repurpose",
+  "hook": "A $59 panel wall faked my boutique hotel headboard",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Bare mattress pushed against a blank bedroom wall, flat overhead light, no headboard in frame",
+      "on_screen_text": "The $59 fix nobody drills for",
+      "voiceover": "This is the most common before photo in bedroom makeovers right now."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Close-up graphic of a real upholstered headboard price tag reading $250-$400 next to a stud finder beeping against drywall",
+      "on_screen_text": "Real headboards: $250-$400 + a stud",
+      "voiceover": "Real upholstered headboards start at $250 and bolt into studs you can't predict in a rental."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Unboxing a flat-packed wall panel set, foam-and-fabric tiles and Z-bracket hardware laid out on the floor",
+      "on_screen_text": "$59 panel set, no stud required",
+      "voiceover": "This panel set runs $59, weighs under 5 pounds per tile, and hangs on a drywall anchor."
+    },
+    {
+      "n": 4,
+      "duration_sec": 3,
+      "visual_prompt": "Hands leveling and mounting a single upholstered panel tile onto a wall using a drywall anchor",
+      "on_screen_text": "Z-bracket. Drywall anchor. Done.",
+      "voiceover": "No stud finder, no bolting into a bed frame."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Two floating shelves mounted on either side of the panel wall at lamp height, styled with small decor",
+      "on_screen_text": "+$15.99 shelf set = hotel nook look",
+      "voiceover": "Add a flanking shelf set and the flat wall starts reading like an architectural feature."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Wide final shot of the styled bed: panel wall, pillow stack, and drapery flanking the headboard",
+      "on_screen_text": "Total: under $85",
+      "voiceover": "Panels, pillows, and drapery \u2014 still cheaper than one real headboard."
+    }
+  ],
+  "caption": "I ran the numbers on the $59 panel-wall trend that's all over Apartment Therapy right now. A real upholstered headboard runs $250-$400 and needs a stud. This doesn't. Full breakdown and the exact shelf, pillow, and curtain picks on the blog \u2014 link in bio.",
+  "hashtags": [
+    "#renterfriendlydecor",
+    "#apartmenttherapy",
+    "#headboardalternative",
+    "#boutiquehotelbedroom",
+    "#budgetbedroommakeover",
+    "#nodrillingdecor",
+    "#smallapartmentliving"
+  ]
+}

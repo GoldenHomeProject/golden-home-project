@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-10-26T15:43:54.481652Z",
+  "date": "2026-10-26",
+  "seq": 902,
+  "source": "repurpose",
+  "hook": "$24.77 pillows do more work than your headboard",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Split screen: a flat two-pillow bed on the left, a boutique hotel bed with a graduated pillow stack on the right",
+      "on_screen_text": "Flat bed vs. hotel bed",
+      "voiceover": "Strip a hotel bed photo down to what's actually doing the work, and it's not the headboard."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Extreme close-up of a pillow seam, fingers pointing to the gusseted side panel stitched into the edge",
+      "on_screen_text": "The gusset is the detail",
+      "voiceover": "That extra strip of fabric in the seam is called a gusset, and it's the reason hotel pillows hold loft instead of going flat."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Amazon-listing-style graphic overlay showing 4.5 stars, 79,136 ratings, and $24.77 price on a queen pillow pair",
+      "on_screen_text": "4.5 stars, 79,136 ratings, $24.77/pair",
+      "voiceover": "This queen gusseted pillow set is $24.77 for two, and it's one of the highest-reviewed pillow listings on Amazon."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Hands stacking four pillows in graduated height on a made bed, standard pillows in back and a folded sham in front",
+      "on_screen_text": "4-6 pillows, graduated height",
+      "voiceover": "Buy two sets, stack standard pillows in back and a folded sham in front \u2014 that's the layering hotels actually use."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Wide shot of the finished bed with full pillow stack in front of the panel wall",
+      "on_screen_text": "Two sets = just under $50",
+      "voiceover": "Two sets runs just under fifty dollars, still inside the budget of the panel wall itself."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Before and after split screen of the same bed frame with only the pillows changed",
+      "on_screen_text": "Same bed. Different pillows.",
+      "voiceover": "The headboard didn't change. The pillows did."
+    }
+  ],
+  "caption": "I went looking for the one detail that makes a hotel bed photo work, and it's not the headboard \u2014 it's the gusset in the pillow seam. Full comparison on the blog, link in bio.",
+  "hashtags": [
+    "#hotelbedpillows",
+    "#gussetedpillows",
+    "#bedroommakeover",
+    "#boutiquehotelbed",
+    "#budgetbedroomdecor",
+    "#amazonhomefinds",
+    "#pillowstacking"
+  ]
+}
