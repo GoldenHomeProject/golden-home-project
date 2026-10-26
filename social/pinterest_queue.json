@@ -7694,14 +7694,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-22-B07PZF3QS3.png",
     "queued_at": "2026-10-22T10:15:02.203588Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "Dishwasher-Safe Shears With Protective Sheath",
     "recharted": true,
     "variant": "A",
-    "ai_image": true
+    "ai_image": true,
+    "posted_at": "2026-10-26T01:16:37Z"
   },
   {
     "id": "pin-2026-10-22-B06X421WJ6",
