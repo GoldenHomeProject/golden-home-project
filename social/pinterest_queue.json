@@ -7516,14 +7516,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-21-B07C9HL1G1.png",
     "queued_at": "2026-10-21T10:14:51.294856Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "100% Blackout, Thermal Insulated",
     "recharted": true,
     "variant": "B",
-    "ai_image": false
+    "ai_image": false,
+    "posted_at": "2026-10-26T13:41:27Z"
   },
   {
     "id": "pin-2026-10-21-B00MRH9NCK",
