@@ -7651,14 +7651,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-22-B09FX7TFJV.png",
     "queued_at": "2026-10-22T10:12:53.547433Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "Streak-Free Shine, No Lint",
     "recharted": true,
     "variant": "B",
-    "ai_image": false
+    "ai_image": false,
+    "posted_at": "2026-10-26T01:15:32Z"
   },
   {
     "id": "pin-2026-10-22-B0BWJDW3BX",
