@@ -8983,5 +8983,29 @@
     },
     "hook": "Your throw pillows look flat for one dumb reason.",
     "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-25-003.mp4"
+  },
+  {
+    "name": "reel_2026-10-26_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-26-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Your shower curtain clings to your leg every time.\n\nThat clinging happens because steam and water pull a thin curtain inward, and it sticks to wet skin instead of hanging flat. Cheap liners also pick up a cloudy yellow tint after enough showers, which makes the whole bathroom look dingy even when it's clean.\n\nA plain clear vinyl curtain is built to do one simple job: hang flat against the rod and let light through instead of fighting you in the shower. It stays basic and see-through on purpose, so there's less going on for steam to grab onto.\n\nYou get a curtain that looks clean and stays out of your way, for about $12.\n\nComment BIGFOOT and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "BigFoot Clear Shower Curtain",
+      "dm_keyword": "BIGFOOT",
+      "amazon_asin": "B08CRPWQHB",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B08CRPWQHB?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Your shower curtain clings to your leg every time."
   }
 ]
