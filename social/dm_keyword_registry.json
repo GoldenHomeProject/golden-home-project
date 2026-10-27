@@ -6377,6 +6377,38 @@
       "verified_stars": "4.7",
       "verified_reviews": 1545,
       "discovery_source": "back_to_college_2026"
+    },
+    {
+      "asin": "B08CF4BF25",
+      "product_name": "MontoPack Unscented Tea Light Candles 45 Pack | 4 Hours, White, Smokeless, Dripless Small Votive Paraffin Tealights | Lo",
+      "categories": [
+        "home",
+        "Home D\u00e9cor"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B08CF4BF25?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-10-27",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$7.99",
+      "verified_stars": "4.6",
+      "verified_reviews": 24157,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B087WMXFPV",
+      "product_name": "Sprayway Glass Cleaner Foaming Aerosol Spray, 15oz, Pack of 6 | Ammonia-Free, Streakless, Fast-Acting | Cleans & Polishe",
+      "categories": [
+        "home",
+        "Cleaning"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B087WMXFPV?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-10-27",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$16.24",
+      "verified_stars": "4.8",
+      "verified_reviews": 17992,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
