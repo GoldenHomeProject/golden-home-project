@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-10-26 (Affiliate Optimizer 10am)
+# Last updated: 2026-10-27 (Affiliate Optimizer 10am)
 # ============================================================
 
 ---
@@ -3543,5 +3543,71 @@ Bet: nighttime/bedroom-annoyance hooks outperform daytime-chore hooks because th
 - **SLIM OVER-THE-TOILET STORAGE TOWER — bathroom "dead vertical space" reveal, confirmed Amazon Oct 2026 coverage.** Homes & Gardens Oct 2026 article ("I Just Found the Cure to Crowded Bathroom Countertops Hiding on Amazon — And It Unlocks a Space I'd Overlooked") and ET Online Amazon bathroom organization roundup both flag freestanding over-the-toilet slim storage towers as a trending small-bathroom solution. SpaceKeeper 3-Tier and similar units, $30-45, freestanding zero drilling, renter-safe. Format: "dead space beside the toilet" → organized 3-shelf tower reveal. Pinterest vertical bathroom storage searches peak fall. DISTINCT from: under-sink organizer (different zone, different format), all prior GHP kitchen/bedroom picks. Zero GHP coverage on toilet-adjacent vertical storage. Hook: "My bathroom had a toilet and four square feet of empty air beside it. $35. Same bathroom. I have storage I didn't know existed."
 
 **Competitor watch (Oct 26):** Alexandra Gater — last confirmed video "240 Sq Ft Studio (Mid-Century Modern)" Oct 17 (~471K views per vidIQ Oct 19); next upload expected Oct 28–Nov 5 (2–3 week cadence). Monitor daily — if she posts a November cozy/hosting or Thanksgiving angle this week, accelerate GHP Thanksgiving/BFCM content immediately. Nest With Me: crafts (confirmed unchanged). DIY Creators: woodworking (confirmed unchanged). Zero competitor coverage confirmed on under-sink bathroom expandable shelf, window gel cling, and over-toilet storage formats. Trend Scout Oct 26 top-3: bare wall above bed, pet-hair couch $52, dated kitchen cabinets. Content Engine Oct 26: 1 script (shower curtain). Halloween window cling = zero Content Engine coverage — script immediately, 5 days.
+
+### October 2026 Affiliate Updates (updated 2026-10-27 Affiliate Optimizer 10am)
+
+Built on: Email Monitor 12:10 UTC (Gmail CLEAN — Instagram follow notification only; 0 brand/affiliate emails; Mamma Mia 47th UNBREAKABLE day); Strategy & Outreach 13:25 UTC (under-sink expandable shelf $21-25, Halloween window gel clings $20-25 [LAST CALL 4 days to Oct 31 SATURDAY, ZERO Content Engine script], over-toilet slim tower $30-45; Gater next upload Oct 28–Nov 5); Trend Scout Oct 27 (top-3: closet org $39 [#1], pet-hair couch [#2, 47th UNBREAKABLE], bare bed wall [#3]); Content Engine Oct 27 (3 scripts: closet $39, pet-hair couch, bare bed wall — NOT Halloween window cling, still zero scripts for that format after 2 days flagging). Cold outreach PAUSED per Ian Sep 3 directive.
+
+**GMAIL AUDIT (Oct 27, 10am ET):** Email Monitor confirmed CLEAN at 12:10 UTC. Additional Affiliate Optimizer Gmail search: 0 new affiliate/brand emails, 0 platform notifications, 0 commission change notices since Oct 26. **Gmail CLEAN.**
+
+**PLATFORM STATUS (Oct 27):**
+
+- **Amazon Associates `goldenhomep0a-20` — ACTIVE.** Today's Trend Scout top-3: closet organizer $39 [#1], pet-hair couch cover [#2, 47th UNBREAKABLE Mamma Mia day], bare wall above bed [#3]. Strategy & Outreach Oct 27 Amazon picks: (1) Adjustable expandable under-sink cabinet organizer ~$21-25 [BATHROOM/ORG, TikTok viral Oct 2026, hidden-cabinet reveal, zero tools]; (2) Halloween window gel clings pumpkin/ghost/bat 20-30 pcs ~$8-12 [SEASONAL/HALLOWEEN, LAST CALL 4 DAYS TO OCT 31 SATURDAY, ZERO GHP script, renter window-exterior format]; (3) Slim over-the-toilet freestanding 3-tier storage tower ~$30-45 [BATHROOM/SMALL SPACE, Oct 2026 confirmed Amazon trend]. Bounties ACTIVE (no changes detected): $12/Prime signup (Oct 8–Dec 31), $20/Audible (Sep 8–Dec 15), $0.25/Subscribe & Save. 🚨 **NEW BFCM FLAG: 31 DAYS TO BLACK FRIDAY NOV 27.** Amazon BFCM = the highest-commission-per-click window of Q4 2026. Robot vacuums, silk bedding, standing desks, kitchen appliances all see 30-50% off + elevated affiliate traffic. Content that goes LIVE in weeks 1-3 of November (Nov 1-20) rides the pre-BFCM search spike AND earns full commission. IAN: build a 3-video BFCM prep series NOW: (a) Robot vacuum vs. mopping "$8 of effort vs. this" — Dreame or Amazon fallback; (b) Bedding gift guide "the $67 upgrade I buy everyone" — Promeed 12%; (c) Smart home gift guide "the $29 smart bulb everyone needs" — Syruvia 20%.
+
+- **Impact.com Publisher ID 7104029:**
+  - 🚨🚨 **SmartWings BF/CM Q4 — DAY 15+ since hard bounce Oct 16.** All email permanently bounced. IAN: Impact.com → Publisher ID 7104029 → SmartWings partner page → platform messaging. Q4 BF/CM commission structure for window treatments = highest-AOV affiliate window of the year ($100-$400 AOV). Every additional day without Andy's BF/CM rates is a missed window to build pre-BFCM SmartWings content (31 days to Black Friday Nov 27).
+  - 🚨🚨 **Promeed 12% — Impact tracking link DAY 20 OVERDUE.** amelia.avery@promeed.com; IAN2026F3 + SAMPLE-IAN-COOL3-2026 in hand. Impact dashboard → Promeed → create deep link → reply Amelia. Thanksgiving/holiday bedding window NOW (31 days to BFCM). 3× Amazon revenue per click.
+  - 🚨 **Mamma Mia 24-30% — ACTIVE, ZERO CONTENT DAY 47.** Trend Scout #2 today ($52 pet-hair couch cover). After-first format = 6,037-view confirmed average. $11-$16/sale vs Amazon $1.40-$1.60. NON-NEGOTIABLE MANDATE every additional day unscripted.
+  - **Syruvia 20%** — zero tracking links. Candle warmer lamp $29 = $5.80/sale vs Amazon $1.16 (5×). BFCM gift guide angle opens Nov 1 — zero content means zero BFCM revenue from highest-margin kitchen appliance partner. IAN: build Syruvia tracking link NOW (Impact dashboard → Syruvia → create link).
+  - **Dreame 5%+ ACTIVE — zero tracking links, DAY 38.** BFCM alert: robot vacuum/mop combos = #1 BFCM home tech category ($200-$400 AOV, $10-$40/sale at 5%, vs Amazon $8-$14). Every day without Dreame links = uncaptured BFCM revenue. IAN: Impact dashboard → Dreame → build tracking links TODAY. 31 days to Black Friday — BFCM prep content must go live Nov 1-10 to ride the pre-sale search spike.
+  - **Best Choice Products 10-15% — pre-approved, 1-click join STILL unactioned.** Home baskets, outdoor benches, garden/patio storage — on-niche. Perfect BFCM gift-under-$50 format.
+  - **Chime Mattress ID 56440 — pending IAN evaluation.** BFCM = peak mattress-buying window. IAN: check commission rate via Impact dashboard.
+  - **Puracy ID 54051 — pending evaluation.** Plant-based cleaners, bathroom/kitchen content tie-in.
+  - **Shelter Tools — joined Oct 13, pending IAN category/commission evaluation.**
+
+- **Awin:**
+  - 🚨 **Rewarx ID 129153 — 50% RECURRING COMMISSION, DAY 41 (IAN-BLOCKED).** Every additional day = compounding recurring revenue permanently forfeited. Highest commission in entire GHP portfolio. Awin browser dashboard → accept Advertiser 129153 → reply Julian at studio@rewarx.com for Golden10 promo code.
+  - **Homary merchant 91447 — DAY 30.** Lauren at affiliate@homary.com. $96/sale (12% on $800+ AOV home furnishings). BFCM: premium home furnishings = top-tier gift content. IAN: complete Awin express signup + send affiliate ID to Lauren.
+  - Pending ON-NICHE accepts (browser): Tribesigns (bookshelves/home office), SimpleProject 10% (eco bathroom remodel), Promeed HerbalRX 20% (pillow), CozySpiritStudio 20% (wall art), OKUN (home improvement).
+  - Pending OFF-NICHE declines (browser): FED Fitness, CICYBELL, HealSend, Everblog US, Zlike Hair, Shortcut Chat 131137. NOTE: Shortcut Chat email decline BOUNCED Oct 24 — IAN must decline via Awin browser dashboard directly (postmaster@zanox.onmicrosoft.com rejects external email).
+
+- **CJ Affiliate — AliExpress CID 7711902 dormancy DAY 26 of 90-day reactivation window (~Dec 30, 2026 deadline).** Advertiser relationship preserved. Content Engine: embed AliExpress CJ links in bathroom cabinet + kitchen org + closet scripts (interior home product = 9% CJ commission slot). IAN: log into publishers.cj.com → verify account active → check Wayfair (7%), GreenLife Cookware (5%), Levoit (5%) application status. Any single approved commission reactivates the account.
+
+**HIGH-AOV OPPORTUNITY SCAN (Oct 27):**
+- 🚨 **Halloween final push — 4 DAYS TO OCT 31 SATURDAY.** Window gel clings ($8-12) + orange battery string lights ($10-15) = $20-25 total, Amazon goldenhomep0a-20. Zero Content Engine scripts generated for this specific format despite being flagged for 2 days. This is the last renter-safe exterior window format in the Halloween window — no other GHP content covers this zone. Script TODAY or the window closes permanently.
+- **Couch covers ($52):** Mamma Mia 24-30% ACTIVE — DAY 47 UNSCRIPTED. $11-$16/sale = 10× Amazon. Trend Scout #2 today.
+- 🚨 **BFCM 31 DAYS (Nov 27):** Highest revenue window of Q4. Critical gaps: (a) Dreame robot vacuum Impact links — zero links DAY 38 ($10-$40/sale uncaptured); (b) Syruvia Impact link — zero links, 20% = $5.80/sale candle warmers uncaptured; (c) SmartWings BF/CM rates — DAY 15 no contact (Impact messaging only). Pre-BFCM content must be live Nov 1-10 to capture search spike. Start NOW.
+- **Silk/linen bedding ($40-80):** Promeed 12% ACTIVE — tracking link DAY 20 OVERDUE. Thanksgiving/holiday bedding window NOW.
+- **Smart home/window treatments ($100-400):** SmartWings BF/CM Q4 pending Andy confirmation (Impact messaging DAY 15). Q4 elevated rates.
+- **Home furnishings ($200-800):** Homary 12% Awin — $96/sale, DAY 30 unactioned. BFCM = premium gift content.
+- **Under-sink bathroom organizer ($21-25):** Amazon goldenhomep0a-20. TikTok viral Oct 2026. Renter "hidden cabinet reveal" format. Zero GHP coverage. Script NOW.
+- **Over-toilet storage tower ($30-45):** Amazon goldenhomep0a-20. Oct 2026 Homes & Gardens confirmed. Zero GHP coverage.
+- **Closet organization ($39):** Trend Scout #1 today. Amazon goldenhomep0a-20. Content Engine scripts today's top-3 including this slot.
+
+**REVENUE PRIORITY RANKING (Oct 27):**
+1. Rewarx 50% recurring (Awin ID 129153) — DAY 41 NOT ACCEPTED (IAN-blocked)
+2. Mamma Mia 24-30% (Impact) — ACTIVE, ZERO CONTENT DAY 47
+3. Syruvia 20% (Impact) — ACTIVE, NO TRACKING LINK (BFCM peak window opens Nov 1)
+4. SmartWings BF/CM Q4 (Impact platform messaging) — DAY 15+ since hard bounce
+5. Promeed 12% (Impact) — LINK DAY 20 OVERDUE
+6. Best Choice Products 10-15% (Impact) — 1-CLICK UNACTIONED
+7. Dreame ~5-10% (Impact) — ACTIVE, ZERO LINKS DAY 38 (BFCM highest-AOV gap)
+8. Homary 12% (Awin) — $96/sale, DAY 30 UNACTIONED
+9. Amazon 3-8% `goldenhomep0a-20` — ACTIVE, fallback
+
+**IAN PRIORITY ACTIONS (Oct 27 — Affiliate Optimizer):**
+1. 🚨🚨 **CONTACT ANDY (SMARTWINGS BF/CM) VIA IMPACT PLATFORM MESSAGING.** Impact.com → Publisher ID 7104029 → SmartWings partner page → platform messaging. NOT email (permanent SMTP bounce). DAY 15 — BF/CM rates being finalized with 31 days to Black Friday.
+2. 🚨🚨 **BUILD PROMEED IMPACT TRACKING LINK — DAY 20 OVERDUE.** Impact dashboard → Promeed → create deep link → reply amelia.avery@promeed.com. IAN2026F3 + SAMPLE-IAN-COOL3-2026 in hand.
+3. 🚨🚨 **HALLOWEEN WINDOW GEL CLINGS — 4 DAYS TO OCT 31 SATURDAY.** Zero Content Engine script generated. Brief Content Engine immediately: gel clings ($8-12) + orange battery string lights ($10-15) = $20-25 total, hook "My windows looked like November in October. $23. Same apartment. You can see the orange glow from the parking lot." Amazon goldenhomep0a-20.
+4. 🚨 **ACCEPT REWARX AWIN ID 129153** — 50% recurring, DAY 41, highest commission in portfolio. Awin browser dashboard → accept → reply Julian at studio@rewarx.com for Golden10 promo code.
+5. 🚨 **BUILD DREAME IMPACT TRACKING LINKS — BFCM 31 DAYS.** Impact dashboard → Dreame → create tracking links. Robot vacuum BFCM = $10-$40/sale vs Amazon $8-$14; pre-BFCM content must be live Nov 1-10. DAY 38 without links.
+6. **BUILD SYRUVIA IMPACT TRACKING LINK.** Impact dashboard → Syruvia → create link. Candle warmer lamp $29 × 20% = $5.80/sale vs Amazon $1.16. BFCM gift guide window opens Nov 1.
+7. **MAMMA MIA AFTER-FIRST $52 SCRIPT** — DAY 47 UNBREAKABLE (24-30% ACTIVE, Trend Scout #2 Oct 27). After-first format = 6,037 confirmed avg views.
+8. **ACCEPT BEST CHOICE PRODUCTS (Impact)** — 10-15% pre-approved, 1-click join.
+9. **DECLINE SHORTCUT CHAT (Awin merchant 131137) VIA AWIN BROWSER DASHBOARD** — email decline bounced Oct 24, must be done via browser.
+10. CJ portal: AliExpress dormancy DAY 26 + verify Wayfair/GreenLife/Levoit applications.
+11. Complete Homary Awin express signup (merchant 91447, DAY 30) — send affiliate ID to Lauren at affiliate@homary.com.
+12. DECLINE all pending OFF-NICHE Awin invites via browser: FED Fitness, CICYBELL, HealSend, Everblog US, Zlike Hair, Shortcut Chat 131137.
+13. ACCEPT ON-NICHE Awin invites via browser: Tribesigns (bookshelves), SimpleProject (eco bathroom 10%), Promeed HerbalRX (20% pillow), CozySpiritStudio (20% wall art), OKUN (home improvement).
 
 - **Amazon picks for Pinterest pipeline (Oct 26) — categories with real sales (home org, bathroom storage, bedding, kitchen):** (1) BATHROOM/ORGANIZATION: Adjustable expandable under-sink cabinet organizer shelf with pull-out drawer ~$21-25 — confirmed TikTok viral Oct 2026 ("The Spicy Shelf" format), hidden-cabinet-reveal format, zero tools zero drilling renter-safe, holds 40 lbs, adjustable width/depth/height, DISTINCT from all prior GHP kitchen/living picks (first under-sink bathroom organizer in pipeline); IAN: search "expandable under sink organizer with pull out drawer adjustable" in Associates for top ASIN; https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20. (2) SEASONAL/HALLOWEEN: Halloween window gel clings pumpkin ghost bat set 20-30 pieces peel-clean glass ~$8-12 — LAST CALL 5 DAYS TO OCT 31 SATURDAY, zero-damage renter format (peel-clean from glass), exterior-facing window decoration visible from outside, high neighbor-tag share mechanic, DISTINCT from all prior GHP Halloween picks (window = new zone); IAN: search "halloween window gel clings pumpkin ghost bat set peel clean" in Associates for top ASIN; goldenhomep0a-20 tag. (3) BATHROOM/SMALL SPACE: Slim over-the-toilet freestanding storage tower 3-tier spacesaver ~$30-45 — confirmed Oct 2026 Amazon coverage (Homes & Gardens + ET Online roundup), dead-vertical-space reveal format, freestanding zero drilling renter-safe, Pinterest bathroom storage saves peak fall, DISTINCT from under-sink organizer (different bathroom zone, different format); IAN: search "over the toilet storage tower freestanding 3 tier spacesaver bathroom" in Associates for top ASIN; goldenhomep0a-20 tag.
