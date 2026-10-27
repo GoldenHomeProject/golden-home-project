@@ -7610,14 +7610,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-22-B081YQBPSS.png",
     "queued_at": "2026-10-22T10:10:37.042781Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "Rust-Proof Hooks, Smooth Glide",
     "recharted": true,
     "variant": "A",
-    "ai_image": true
+    "ai_image": true,
+    "posted_at": "2026-10-27T01:15:29Z"
   },
   {
     "id": "pin-2026-10-22-B075QKDKMV",
