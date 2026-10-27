@@ -5488,8 +5488,8 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **External actions:** 1 decline email sent — Tech Nerdiness (info@technerdiness.com) pitch for tech/app publication collaboration (OFF-NICHE per lesson #7). No revenue impact — correctly declined off-niche deal. Novo.co (fintech credit card promo), Google Ads security notice, Pinterest recommendations — no action taken.
 **Next agent hint:** Gmail CLEAN — no brand deals accepted today. Tech Nerdiness mismatch (sent to wrong address "DriveMail Team") + off-niche tech, declined. No new affiliate notifications or partner actions required.
 
-## 2026-10-27T12:54:28Z — Carousel Generator
-**Ran:** Generated 5-slide carousel for B07QHNC81Z (CGK Extra Deep Queen Single Fitted Sheet)
-**Changed:** social/carousels/2026-10-27-B07QHNC81Z/slide-1.png, social/carousels/2026-10-27-B07QHNC81Z/slide-2.png, social/carousels/2026-10-27-B07QHNC81Z/slide-3.png, social/carousels/2026-10-27-B07QHNC81Z/slide-4.png, social/carousels/2026-10-27-B07QHNC81Z/slide-5.png, social/post_queue.json
-**External actions:** Pexels (4 photos) + Claude CLI (slide content)
-**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B07QHNC81Z carousel.
+## 2026-10-27T13:02:27Z — Reel Producer
+**Ran:** Rendered 2/2 MP4s for 2026-10-27
+**Changed:** social/reels/reel-2026-10-27-*.mp4, social/post_queue.json
+**External actions:** none
+**Next agent hint:** IG Poster has 2 new Reels ready for 14:00 + 22:00 UTC slots

@@ -9117,10 +9117,10 @@
   },
   {
     "name": "reel_2026-10-27_002",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-27-002.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-27-002.mp4",
     "caption": "You flip the pillow again, hunting the cool side.\n\nHeat gets trapped between the mattress and a thick top sheet, especially in a bedroom that holds warmth overnight. Once the fabric warms up it stays warm, so you end up flipping, kicking off the blanket, or moving to the cool spot on the bed.\n\nThis Bedsure queen sheet set is built as soft, breathable, cooling bed sheets in four pieces, and it's Oeko-Tex certified with easy care instructions. Over a hundred thousand people have rated it 4.6 stars.\n\nFor a queen bed that runs warm, a set built around breathability instead of extra layers is a simple swap, and it comes in at about $16.\n\nComment BREATHABLE and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -9137,14 +9137,15 @@
       "affiliate_network": "amazon",
       "affiliate_url": "https://www.amazon.com/dp/B07P5NBRL5?tag=goldenhomep0a-20"
     },
-    "hook": "You flip the pillow again, hunting the cool side."
+    "hook": "You flip the pillow again, hunting the cool side.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-27-002.mp4"
   },
   {
     "name": "reel_2026-10-27_003",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-27-003.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-27-003.mp4",
     "caption": "A cup tips over on the bed and everyone panics.\n\nTwin beds take the most spills \u2014 kids climbing up with juice, a dog on the covers, a late-night glass of water. Once liquid gets past the sheet it sits in the mattress itself, and by then wiping it up does nothing. Thicker mattresses make it worse because a regular sheet barely stretches over the corners, let alone anything underneath it.\n\nThis protector is waterproof and stretches over mattresses up to fifteen inches deep, so it actually reaches the corners instead of popping off. Over a hundred thousand people have rated it 4.5 stars.\n\nOne spill becomes a five minute wipe-down instead of a ruined mattress, and it runs about $13.\n\nComment TWIN and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -9161,22 +9162,7 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "A cup tips over on the bed and everyone panics."
-  },
-  {
-    "id": "carousel-2026-10-27-B07QHNC81Z",
-    "media_type": "CAROUSEL_ALBUM",
-    "image_urls": [
-      "https://goldenhomeproject.com/social/carousels/2026-10-27-B07QHNC81Z/slide-1.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-27-B07QHNC81Z/slide-2.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-27-B07QHNC81Z/slide-3.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-27-B07QHNC81Z/slide-4.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-27-B07QHNC81Z/slide-5.png"
-    ],
-    "caption": "Most fitted sheets are cut shallower than pillow-top mattresses actually run.\n\nSave this before your next sheet order. The spot sheets fail first is the corner \u2014 elastic stitched only there instead of running the full hem gives out fast, and if your mattress sits in the 18 to 24 inch range, standard 'deep pocket' sizing won't reach at all.\n\nThis queen fitted sheet (sold alone, in white) is cut specifically for that 18 to 24 inch range \u2014 soft, wrinkle-resistant, breathable. Comment EXTRA or DM me EXTRA for the link. [affiliate \u2014 I earn if you buy via my link]\n\n#ad #extradeepfittedsheet #bedroomorganization #amazonhomefinds",
-    "asin": "B07QHNC81Z",
-    "keyword": "EXTRA",
-    "queued_at": "2026-10-27T12:54:28.508415Z",
-    "source": "carousel_generator"
+    "hook": "A cup tips over on the bed and everyone panics.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-27-003.mp4"
   }
 ]
