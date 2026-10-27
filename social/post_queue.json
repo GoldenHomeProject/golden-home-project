@@ -9037,10 +9037,10 @@
   },
   {
     "name": "reel_repurpose_2026-10-26_903",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-26-903.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-26-903.mp4",
     "caption": "The detail that turns a $59 panel wall into something that reads 'designed' instead of 'patched' is drapery that has nothing to do with an actual window. Breakdown and exact curtain pick on the blog.",
     "hashtags": [
       "#blackoutcurtains",
@@ -9051,7 +9051,8 @@
       "#headboardhack",
       "#apartmenttherapy"
     ],
-    "hook": "$15.98 curtains make a flat wall look architectural"
+    "hook": "$15.98 curtains make a flat wall look architectural",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-26-903.mp4"
   },
   {
     "name": "reel_repurpose_2026-10-26_904",
@@ -9073,10 +9074,10 @@
   },
   {
     "name": "reel_repurpose_2026-10-26_905",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-26-905.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-26-905.mp4",
     "caption": "I sized this hack down for anyone whose bedroom is under 120 square feet, because the full-size version actually makes a small room look smaller. Full list on the blog.",
     "hashtags": [
       "#smallbedroomideas",
@@ -9087,6 +9088,7 @@
       "#smallspacedecor",
       "#bedroomhacks"
     ],
-    "hook": "Small bedroom version of the $59 hack: $85 total"
+    "hook": "Small bedroom version of the $59 hack: $85 total",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-26-905.mp4"
   }
 ]
