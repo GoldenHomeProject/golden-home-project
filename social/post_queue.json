@@ -9090,5 +9090,77 @@
     ],
     "hook": "Small bedroom version of the $59 hack: $85 total",
     "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-26-905.mp4"
+  },
+  {
+    "name": "reel_2026-10-27_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-27-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Stop waiting for your shower liner to turn yellow and stiff.\n\nCheap liners break down fast once soap scum and steam get into the plastic. That's why they turn stiff, yellow, or start smelling within a season, no matter how often you clean around them.\n\nThis liner is Oeko-tex certified, so it's tested for harmful substances before it ever hangs in your bathroom. It comes in a standard size, and over a hundred thousand people rate it 4.5 stars.\n\nFor about nine dollars, you get a straightforward swap that fits a standard tub without any guesswork on sizing.\n\nComment BAROSSA and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Barossa Design Oeko-tex Certified Shower Curtain Liner Standard Size",
+      "dm_keyword": "BAROSSA",
+      "amazon_asin": "B08QRFZ6TH",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B08QRFZ6TH?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Stop waiting for your shower liner to turn yellow and stiff."
+  },
+  {
+    "name": "reel_2026-10-27_002",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-27-002.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "You flip the pillow again, hunting the cool side.\n\nHeat gets trapped between the mattress and a thick top sheet, especially in a bedroom that holds warmth overnight. Once the fabric warms up it stays warm, so you end up flipping, kicking off the blanket, or moving to the cool spot on the bed.\n\nThis Bedsure queen sheet set is built as soft, breathable, cooling bed sheets in four pieces, and it's Oeko-Tex certified with easy care instructions. Over a hundred thousand people have rated it 4.6 stars.\n\nFor a queen bed that runs warm, a set built around breathability instead of extra layers is a simple swap, and it comes in at about $16.\n\nComment BREATHABLE and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Bedsure Queen Sheet Set - 4 Pieces Soft, Breathable, Cooling Bed Sheets | Hotel Luxury Bedding, Oeko-Tex , Easy Care, De",
+      "dm_keyword": "BREATHABLE",
+      "amazon_asin": "B07P5NBRL5",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B07P5NBRL5?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B07P5NBRL5?tag=goldenhomep0a-20"
+    },
+    "hook": "You flip the pillow again, hunting the cool side."
+  },
+  {
+    "name": "reel_2026-10-27_003",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-27-003.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "A cup tips over on the bed and everyone panics.\n\nTwin beds take the most spills \u2014 kids climbing up with juice, a dog on the covers, a late-night glass of water. Once liquid gets past the sheet it sits in the mattress itself, and by then wiping it up does nothing. Thicker mattresses make it worse because a regular sheet barely stretches over the corners, let alone anything underneath it.\n\nThis protector is waterproof and stretches over mattresses up to fifteen inches deep, so it actually reaches the corners instead of popping off. Over a hundred thousand people have rated it 4.5 stars.\n\nOne spill becomes a five minute wipe-down instead of a ruined mattress, and it runs about $13.\n\nComment TWIN and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Waterproof Twin Size Mattress Protector fits Upto 15\" Deep Pocket",
+      "dm_keyword": "TWIN",
+      "amazon_asin": "B00MRH9NCK",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B00MRH9NCK?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "A cup tips over on the bed and everyone panics."
   }
 ]
