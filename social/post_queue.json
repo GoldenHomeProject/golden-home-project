@@ -8559,31 +8559,6 @@
     "superseded_reason": "Ken Burns-style reel; Ian 2026-10-17 stop them"
   },
   {
-    "name": "reel_2026-10-18_002",
-    "status": "ready",
-    "script_path": "automation/scripts/reel-2026-10-18-002.json",
-    "media_type": "REELS",
-    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-18-002.mp4",
-    "caption": "A cup tips over on the bed and everyone panics.\n\nTwin beds take the most spills \u2014 kids climbing up with juice, a dog on the covers, a late-night glass of water. Once liquid gets past the sheet it sits in the mattress itself, and by then wiping it up does nothing. Thicker mattresses make it worse because a regular sheet barely stretches over the corners, let alone anything underneath it.\n\nThis protector is waterproof and stretches over mattresses up to fifteen inches deep, so it actually reaches the corners instead of popping off. Over a hundred thousand people have rated it 4.5 stars.\n\nOne spill becomes a five minute wipe-down instead of a ruined mattress, and it runs about $13.\n\nComment TWIN and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
-    "hashtags": [
-      "#amazonhomefinds",
-      "#homehacks2026",
-      "#smallspacesolutions"
-    ],
-    "affiliate": {
-      "primary_product": "Waterproof Twin Size Mattress Protector fits Upto 15\" Deep Pocket",
-      "dm_keyword": "TWIN",
-      "amazon_asin": "B00MRH9NCK",
-      "amazon_affiliate_url": "https://www.amazon.com/dp/B00MRH9NCK?tag=goldenhomep0a-20",
-      "asin_pending": false,
-      "fallback_brands": [],
-      "affiliate_network": "amazon",
-      "affiliate_url": null
-    },
-    "hook": "A cup tips over on the bed and everyone panics.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-18-002.mp4"
-  },
-  {
     "name": "reel_2026-10-18_003",
     "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-18-003.json",
