@@ -7675,14 +7675,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-22-B0BWJDW3BX.png",
     "queued_at": "2026-10-22T10:13:42.090775Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "Privacy Curtains Under $14",
     "recharted": true,
     "variant": "A",
-    "ai_image": false
+    "ai_image": false,
+    "posted_at": "2026-10-27T01:16:26Z"
   },
   {
     "id": "pin-2026-10-22-B07PZF3QS3",
