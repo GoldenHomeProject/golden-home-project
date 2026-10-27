@@ -7719,14 +7719,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-22-B06X421WJ6.png",
     "queued_at": "2026-10-22T10:16:01.431459Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "Fit More Clothes, Less Closet Space",
     "recharted": true,
     "variant": "B",
-    "ai_image": true
+    "ai_image": true,
+    "posted_at": "2026-10-27T13:41:22Z"
   },
   {
     "id": "collage-2026-10-22-best-bedding-essentials",
