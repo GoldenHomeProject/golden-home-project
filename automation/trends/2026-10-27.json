@@ -1,0 +1,136 @@
+{
+  "generated_at": "2026-10-27T10:12:29.450278Z",
+  "date": "2026-10-27",
+  "opportunities": [
+    {
+      "rank": 1,
+      "product_category": "closet organization systems",
+      "specific_product": "stackable closet storage bins + tiered shelf organizer set",
+      "brand": "Amazon generic",
+      "target_price": "$39",
+      "transformation_hook": "I organized my entire closet for $39 in one afternoon",
+      "before_state": "Cluttered closet floor piled with clothes, loose shoes, and mismatched bins with no visible system",
+      "after_state": "Color-coded, labeled bins on tiered shelves with every item visible and a clear floor",
+      "buyer_intent_keywords": [
+        "closet organizer bins",
+        "closet storage system",
+        "small closet organization ideas",
+        "stackable closet bins",
+        "closet declutter before and after"
+      ],
+      "scores": {
+        "trend": 8,
+        "transformation": 10,
+        "affiliate": 9,
+        "intent": 9
+      },
+      "composite_score": 36,
+      "why_now": "Real Simple, Apartment Therapy, and Martha Stewart pins are all pushing fall closet cleanouts simultaneously this week, signaling peak seasonal search intent."
+    },
+    {
+      "rank": 2,
+      "product_category": "couch/sofa covers",
+      "specific_product": "Mamma Mia waterproof stretch sofa cover (pet hair proof)",
+      "brand": "Mamma Mia Covers",
+      "target_price": "$52",
+      "transformation_hook": "Covered my pet-hair-covered couch for $52 and it looks brand new",
+      "before_state": "Faded, stained couch covered in visible pet hair with worn, sagging cushions",
+      "after_state": "Sofa looks like a brand-new showroom piece wrapped in a tight stretch slipcover",
+      "buyer_intent_keywords": [
+        "waterproof couch cover",
+        "pet hair proof sofa cover",
+        "stretch sofa slipcover",
+        "couch cover for dogs",
+        "washable sofa cover"
+      ],
+      "scores": {
+        "trend": 6,
+        "transformation": 8,
+        "affiliate": 10,
+        "intent": 8
+      },
+      "composite_score": 32,
+      "why_now": "HGTV's 'small space living room feel bigger' pin is driving living-room refresh searches, and Mamma Mia's 24-30% commission makes this the highest-margin pick this week."
+    },
+    {
+      "rank": 3,
+      "product_category": "headboard alternatives / wall decor",
+      "specific_product": "upholstered wall-mounted headboard panel",
+      "brand": "Amazon generic",
+      "target_price": "$68",
+      "transformation_hook": "Turned my bare bed wall into a $68 boutique-hotel headboard",
+      "before_state": "Bed pushed against a blank, awkward wall with no headboard or focal point",
+      "after_state": "Padded upholstered headboard panel mounted on the wall creating a boutique-hotel look",
+      "buyer_intent_keywords": [
+        "headboard alternative",
+        "wall mounted headboard",
+        "no headboard ideas",
+        "upholstered headboard panel",
+        "decor above bed"
+      ],
+      "scores": {
+        "trend": 7,
+        "transformation": 9,
+        "affiliate": 8,
+        "intent": 7
+      },
+      "composite_score": 31,
+      "why_now": "Both HGTV and Apartment Therapy published 'no headboard' / 'awkward space above headboard' pins this week, a rare double signal on the same micro-niche."
+    },
+    {
+      "rank": 4,
+      "product_category": "kitchen cabinet hardware",
+      "specific_product": "brushed gold cabinet pulls and knobs set (30-pack)",
+      "brand": "Amazon generic",
+      "target_price": "$29",
+      "transformation_hook": "Swapped my cabinet handles for $29 and my kitchen looks renovated",
+      "before_state": "Dated builder-grade cabinets with old brass or plastic knobs",
+      "after_state": "Same cabinets instantly modernized with sleek brushed-gold pulls",
+      "buyer_intent_keywords": [
+        "cabinet hardware kit",
+        "kitchen cabinet pulls",
+        "modern cabinet knobs",
+        "budget kitchen update",
+        "cabinet hardware replacement"
+      ],
+      "scores": {
+        "trend": 7,
+        "transformation": 9,
+        "affiliate": 8,
+        "intent": 7
+      },
+      "composite_score": 31,
+      "why_now": "Apartment Therapy's cabinet-painting-with-Behr pin and HGTV's tiny-kitchen pin both point to low-cost kitchen refreshes as the dominant Pinterest kitchen trend right now."
+    },
+    {
+      "rank": 5,
+      "product_category": "wet/dry cordless vacuum mop",
+      "specific_product": "Roborock F25-style cordless wet-dry vacuum",
+      "brand": "Amazon generic (Roborock)",
+      "target_price": "$299",
+      "transformation_hook": "Replaced my mop bucket with a $299 gadget and my floors look brand new",
+      "before_state": "Sticky, streaky floors and a bulky mop-and-bucket setup taking up closet space",
+      "after_state": "Self-cleaning cordless vacuum-mop leaving streak-free floors in one pass",
+      "buyer_intent_keywords": [
+        "wet dry vacuum mop",
+        "cordless mop vacuum combo",
+        "self cleaning mop",
+        "best floor cleaning gadget",
+        "Roborock wet dry vacuum"
+      ],
+      "scores": {
+        "trend": 8,
+        "transformation": 6,
+        "affiliate": 7,
+        "intent": 8
+      },
+      "composite_score": 29,
+      "why_now": "Apartment Therapy named this specific product category this week as 'the ultimate floor mopping hack,' and cleaning gadgets consistently top Amazon Movers & Shakers in Home & Kitchen."
+    }
+  ],
+  "raw_signal_count": 85,
+  "sources_used": [
+    "google_trends_daily_us",
+    "pinterest"
+  ]
+}
