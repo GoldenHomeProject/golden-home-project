@@ -8976,10 +8976,10 @@
   },
   {
     "name": "reel_repurpose_2026-10-26_901",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-26-901.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-26-901.mp4",
     "caption": "I ran the numbers on the $59 panel-wall trend that's all over Apartment Therapy right now. A real upholstered headboard runs $250-$400 and needs a stud. This doesn't. Full breakdown and the exact shelf, pillow, and curtain picks on the blog \u2014 link in bio.",
     "hashtags": [
       "#renterfriendlydecor",
@@ -8990,7 +8990,8 @@
       "#nodrillingdecor",
       "#smallapartmentliving"
     ],
-    "hook": "A $59 panel wall faked my boutique hotel headboard"
+    "hook": "A $59 panel wall faked my boutique hotel headboard",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-26-901.mp4"
   },
   {
     "name": "reel_repurpose_2026-10-26_902",
@@ -9144,10 +9145,10 @@
   },
   {
     "name": "reel_2026-10-28_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-28-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-28-001.mp4",
     "caption": "Your mattress topper is deeper than your sheet's pocket.\n\nMost fitted sheets are cut for a standard mattress, so once you add a thick topper or a pillow-top, the pocket runs out of room. The corners stretch as far as they can, then let go in the middle of the night, usually around the same spot.\n\nThis one is sized specifically for that gap, an extra deep fitted sheet only that fits mattresses eighteen to twenty-four inches thick, in a soft, wrinkle-free fabric. It's rated 4.5 stars by over fifty thousand people who bought it.\n\nThe sheet actually reaches all the way around a tall mattress instead of fighting it, for about $20.\n\nComment EXTRA and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -9164,22 +9165,7 @@
       "affiliate_network": "amazon",
       "affiliate_url": "https://www.amazon.com/dp/B07QHNC81Z?tag=goldenhomep0a-20"
     },
-    "hook": "Your mattress topper is deeper than your sheet's pocket."
-  },
-  {
-    "id": "carousel-2026-10-28-B087JJ3M15",
-    "media_type": "CAROUSEL_ALBUM",
-    "image_urls": [
-      "https://goldenhomeproject.com/social/carousels/2026-10-28-B087JJ3M15/slide-1.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-28-B087JJ3M15/slide-2.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-28-B087JJ3M15/slide-3.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-28-B087JJ3M15/slide-4.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-28-B087JJ3M15/slide-5.png"
-    ],
-    "caption": "Your pillowcase might be working against your skincare routine every night.\n\nCotton pulls at skin and hair while you sleep, which can mean more sleep creases and more frizz by morning. Swapping to a soft, cooling-finish fabric is one of the easiest overnight fixes \u2014 no new routine required, just a different surface to rest on.\n\nSave this for later so you remember the fix.\n\nComment BEDELITE or DM me BEDELITE for the link.\n\n#homeorganization #bedroomrefresh #beddinggoals #hometips",
-    "asin": "B087JJ3M15",
-    "keyword": "BEDELITE",
-    "queued_at": "2026-10-28T13:42:25.049638Z",
-    "source": "carousel_generator"
+    "hook": "Your mattress topper is deeper than your sheet's pocket.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-28-001.mp4"
   }
 ]
