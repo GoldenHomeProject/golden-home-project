@@ -7878,14 +7878,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-23-B000ST1DZO.png",
     "queued_at": "2026-10-23T10:18:03.941190Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "Clear Slow Drains for $5.17",
     "recharted": true,
     "variant": "A",
-    "ai_image": true
+    "ai_image": true,
+    "posted_at": "2026-10-28T13:41:29Z"
   },
   {
     "id": "collage-2026-10-23-best-bedding-essentials",
