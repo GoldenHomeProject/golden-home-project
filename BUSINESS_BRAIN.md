@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-10-28 (Strategy & Outreach 9am)
+# Last updated: 2026-10-28 (Affiliate Optimizer 10am)
 # ============================================================
 
 ---
@@ -3623,3 +3623,68 @@ Built on: Email Monitor 12:10 UTC (Gmail CLEAN — Instagram follow notification
 🚨 **HALLOWEEN LAST CALL (3 DAYS TO OCT 31 SATURDAY):** Window gel clings + orange battery string lights = ZERO GHP script after 3+ days flagged. TikTok/IG format (NOT Pinterest this late — insufficient runway): "My windows looked like November in October. $23. Same apartment. You can see the orange glow from the parking lot." Amazon goldenhomep0a-20. Content Engine must script immediately — hard close in 3 days.
 
 - **Amazon picks for Pinterest pipeline (Oct 26) — categories with real sales (home org, bathroom storage, bedding, kitchen):** (1) BATHROOM/ORGANIZATION: Adjustable expandable under-sink cabinet organizer shelf with pull-out drawer ~$21-25 — confirmed TikTok viral Oct 2026 ("The Spicy Shelf" format), hidden-cabinet-reveal format, zero tools zero drilling renter-safe, holds 40 lbs, adjustable width/depth/height, DISTINCT from all prior GHP kitchen/living picks (first under-sink bathroom organizer in pipeline); IAN: search "expandable under sink organizer with pull out drawer adjustable" in Associates for top ASIN; https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20. (2) SEASONAL/HALLOWEEN: Halloween window gel clings pumpkin ghost bat set 20-30 pieces peel-clean glass ~$8-12 — LAST CALL 5 DAYS TO OCT 31 SATURDAY, zero-damage renter format (peel-clean from glass), exterior-facing window decoration visible from outside, high neighbor-tag share mechanic, DISTINCT from all prior GHP Halloween picks (window = new zone); IAN: search "halloween window gel clings pumpkin ghost bat set peel clean" in Associates for top ASIN; goldenhomep0a-20 tag. (3) BATHROOM/SMALL SPACE: Slim over-the-toilet freestanding storage tower 3-tier spacesaver ~$30-45 — confirmed Oct 2026 Amazon coverage (Homes & Gardens + ET Online roundup), dead-vertical-space reveal format, freestanding zero drilling renter-safe, Pinterest bathroom storage saves peak fall, DISTINCT from under-sink organizer (different bathroom zone, different format); IAN: search "over the toilet storage tower freestanding 3 tier spacesaver bathroom" in Associates for top ASIN; goldenhomep0a-20 tag.
+
+### October 2026 Affiliate Updates (updated 2026-10-28 Affiliate Optimizer 10am)
+
+Built on: Email Monitor 12:19 UTC (Gmail CLEAN — 0 brand/affiliate emails; Impact weekly digest = Squarespace OFF-NICHE only; Mamma Mia 48th UNBREAKABLE day); Strategy & Outreach 13:10 UTC (robot vacuum time-freedom BFCM [Trend Scout #1], Thanksgiving tablescape $40 [Pinterest peak save velocity starts THIS WEEK, 29 days to Nov 26], velvet hanger closet reveal [$39]; Gater NO NEW UPLOAD as of Oct 28, expected Oct 29–Nov 5); Trend Scout Oct 28 (top-3: robot vacuum $199 [#1], pet-hair couch [#2, Mamma Mia 48th], kitchen cabinet repaint [#3]); Content Engine Oct 28 (1 script: mattress topper/sheet corner). Cold outreach PAUSED per Ian Sep 3 directive.
+
+**GMAIL AUDIT (Oct 28, 10am ET):** Email Monitor confirmed CLEAN at 12:19 UTC — 0 brand/affiliate emails, Impact weekly digest = Squarespace OFF-NICHE only. Affiliate Optimizer additional Gmail search (after 12:19 UTC): 0 new affiliate/brand emails, 0 platform invitations, 0 commission change notices. **Gmail CLEAN — no inbound on-niche partnership emails.**
+
+**PLATFORM STATUS (Oct 28):**
+
+- **Amazon Associates `goldenhomep0a-20` — ACTIVE.** Today's Trend Scout top-3: robot vacuum $199 [#1], pet-hair couch cover [#2, 48th UNBREAKABLE Mamma Mia day], kitchen cabinet repaint [#3]. Strategy & Outreach Oct 28 Amazon picks confirmed: (1) Slim velvet hangers 50-pack ~$20-28 [HOME ORG/CLOSET, Trend Scout #1, TikTok/YouTube viral 100K–500K+]; (2) LED flameless taper candles 6-pack ~$14-20 [HOME DECOR/SEASONAL, Thanksgiving tablescape, Pinterest peak save velocity starts THIS WEEK]; (3) Robot vacuum mop combo self-emptying ~$129-199 [HOME CLEANING/HIGH AOV, Trend Scout #1, BFCM 29 DAYS]. Bounties ACTIVE (no changes detected): $12/Prime signup (Oct 8–Dec 31), $20/Audible (Sep 8–Dec 15), $0.25/Subscribe & Save. 🚨 **BFCM NOW 29 DAYS (Nov 27, 2026).** Robot vacuum confirmed as HIGHEST-AOV BFCM opportunity by BOTH Trend Scout and Strategy & Outreach today — this is the clearest BFCM signal yet. Pre-BFCM content must be live Nov 1-10 to ride pre-sale search spike; start scripting NOW.
+
+- **Impact.com Publisher ID 7104029 (no new invitations):**
+  - 🚨🚨 **SmartWings BF/CM Q4 — DAY 17.** All email permanently bounced. IAN: Impact.com → Publisher ID 7104029 → SmartWings partner page → platform messaging for Andy. Q4 BF/CM elevated rates on window treatments = highest-AOV affiliate window of the year ($100–$400 AOV). 29 days to Black Friday — BF/CM rates being finalized NOW.
+  - 🚨🚨 **Promeed 12% — Impact tracking link DAY 22 OVERDUE.** Thanksgiving/holiday bedding gift guide window NOW. IAN: Impact dashboard → Promeed → create deep link → reply amelia.avery@promeed.com. IAN2026F3 + SAMPLE-IAN-COOL3-2026 in hand. 3× Amazon revenue per click.
+  - 🚨 **Mamma Mia 24-30% — ACTIVE, ZERO CONTENT DAY 49.** Trend Scout #2 today ($52 pet-hair couch cover). After-first format = 6,037-view confirmed average. $11–$16/sale vs Amazon $1.40. NON-NEGOTIABLE MANDATE — every additional day unscripted is GHP's highest uncaptured revenue.
+  - **Dreame 5%+ ACTIVE — zero tracking links, DAY 39.** Robot vacuum confirmed BFCM highest-AOV opportunity by BOTH Trend Scout and Strategy today — double signal. $10–$40/sale vs Amazon $8–$14. Pre-BFCM content live Nov 1-10 = maximum BFCM revenue. IAN: Impact dashboard → Dreame → build tracking links TODAY.
+  - **Syruvia 20% ACTIVE — zero tracking links, zero fall content.** Candle warmer lamp $29 × 20% = $5.80/sale vs Amazon $1.16 (5×). BFCM gift guide window opens Nov 1 — zero Syruvia content = zero BFCM kitchen revenue. IAN: Impact dashboard → Syruvia → create tracking link.
+  - **Best Choice Products 10-15% — pre-approved, 1-click join STILL unactioned.** BFCM gift-under-$50 basket/bench format. IAN: Impact dashboard → Best Choice → join.
+  - **Chime Mattress ID 56440 — pending IAN evaluation.** BFCM peak mattress window.
+  - **Shelter Tools — joined Oct 13, pending IAN category/commission evaluation.**
+
+- **Awin:**
+  - 🚨 **Rewarx ID 129153 — 50% RECURRING COMMISSION, DAY 43 (IAN-BLOCKED).** Highest commission in entire GHP portfolio. Every additional day = compounding recurring revenue permanently forfeited. IAN: Awin browser dashboard → accept Advertiser 129153 → reply Julian at studio@rewarx.com for Golden10 promo code.
+  - **Homary merchant 91447 — DAY 31.** $96/sale (12% on $800+ AOV). Lauren at affiliate@homary.com. BFCM: premium home furnishings = top-tier gift content for high-AOV clicks. IAN: complete Awin express signup → send affiliate ID to Lauren.
+  - Pending ON-NICHE accepts (browser): Tribesigns (bookshelves/home office), SimpleProject 10% (eco bathroom remodel), Promeed HerbalRX 20% (anti-aging pillow), CozySpiritStudio 20% (wall art posters), OKUN (home improvement).
+  - Pending OFF-NICHE declines (browser): FED Fitness, CICYBELL, HealSend, Everblog US, Zlike Hair, Shortcut Chat 131137 (email bounced Oct 24 — browser only).
+
+- **CJ Affiliate — AliExpress CID 7711902 dormancy DAY 27 of 90-day reactivation window (~Dec 30, 2026 deadline).** Advertiser relationship preserved. Content Engine: embed AliExpress CJ links in closet/bathroom/kitchen scripts = 9% interior home product. IAN: check Wayfair (7%), GreenLife (5%), Levoit (5%) application status via publishers.cj.com.
+
+**HIGH-AOV OPPORTUNITY SCAN (Oct 28):**
+- 🚨🚨 **HALLOWEEN HARD CLOSE — 3 DAYS TO OCT 31 SATURDAY.** Window gel clings ($8-12) + orange battery string lights ($10-15) = $20-25 total, Amazon goldenhomep0a-20. ZERO GHP script generated after 4+ days flagged. TikTok/IG only (Pinterest no longer viable at 3 days). This is the absolute last viable window for renter-exterior Halloween format. Script TODAY or the opportunity closes permanently with the calendar.
+- 🚨 **Couch covers ($52):** Mamma Mia 24-30% ACTIVE — DAY 49 UNSCRIPTED. $11–$16/sale = 10× Amazon. Trend Scout #2 today. The highest per-sale revenue in the portfolio on confirmed-viral format. Every additional day is permanent revenue loss.
+- 🚨🚨 **BFCM 29 DAYS — ROBOT VACUUM IS #1 BFCM SIGNAL.** Trend Scout #1 + Strategy confirmed time-freedom format. Dreame 5%+ Impact (zero links DAY 39 = $10–$40/sale uncaptured). Pre-BFCM content live Nov 1-10 = maximum BFCM revenue capture. Amazon goldenhomep0a-20 fallback until IAN builds Dreame Impact links.
+- **Thanksgiving tablescape ($38-48):** Pinterest PEAK SAVE VELOCITY starts THIS WEEK per Strategy & Outreach. 29 days to Nov 26. LED flameless taper candles + linen runner + dried botanicals = $38-48 total. Zero GHP coverage. Script this week to catch Pinterest save window.
+- **Silk/linen bedding ($40-80):** Promeed 12% ACTIVE — tracking link DAY 22 OVERDUE. Holiday/Thanksgiving bedding gift guide window opening NOW.
+- **Velvet hanger closet reveal ($28-40):** Trend Scout #1 Oct 28, Strategy confirmed TikTok/YouTube viral format. Zero GHP coverage. Amazon goldenhomep0a-20.
+- **Standing desk/home office ($80-200):** Tribesigns Awin invitation pending IAN browser accept.
+- **Home furnishings ($200-800):** Homary 12% Awin — $96/sale, DAY 31 unactioned. BFCM peak gift content.
+
+**REVENUE PRIORITY RANKING (Oct 28):**
+1. Rewarx 50% recurring (Awin ID 129153) — DAY 43 NOT ACCEPTED (IAN-blocked)
+2. Mamma Mia 24-30% (Impact) — ACTIVE, ZERO CONTENT DAY 49
+3. Syruvia 20% (Impact) — ACTIVE, NO TRACKING LINK (BFCM window opens Nov 1)
+4. SmartWings BF/CM Q4 (Impact platform messaging) — DAY 17 since hard bounce
+5. Promeed 12% (Impact) — LINK DAY 22 OVERDUE (holiday bedding window NOW)
+6. Dreame ~5-10% (Impact) — ACTIVE, ZERO LINKS DAY 39 (BFCM highest-AOV gap)
+7. Best Choice Products 10-15% (Impact) — 1-CLICK UNACTIONED
+8. Homary 12% (Awin) — $96/sale, DAY 31 UNACTIONED
+9. Amazon 3-8% `goldenhomep0a-20` — ACTIVE, volume fallback
+
+**IAN PRIORITY ACTIONS (Oct 28 — Affiliate Optimizer):**
+1. 🚨🚨 **HALLOWEEN WINDOW GEL CLINGS — 3 DAYS HARD CLOSE (OCT 31 SATURDAY).** Zero Content Engine script after 4+ days flagged. Brief Content Engine NOW: gel clings ($8-12) + orange battery string lights ($10-15) = $23 total. Hook: "My windows looked like November in October. $23. Same apartment. You can see the orange glow from the parking lot." Amazon goldenhomep0a-20. TikTok/IG format only (Pinterest too slow at 3 days).
+2. 🚨🚨 **CONTACT ANDY (SMARTWINGS BF/CM) VIA IMPACT PLATFORM MESSAGING — DAY 17.** Impact.com → Publisher ID 7104029 → SmartWings → platform messaging. NOT email (permanent bounce). 29 days to Black Friday.
+3. 🚨🚨 **BUILD PROMEED IMPACT TRACKING LINK — DAY 22 OVERDUE.** Impact dashboard → Promeed → create deep link → reply amelia.avery@promeed.com.
+4. 🚨 **ACCEPT REWARX AWIN ID 129153** — 50% recurring, DAY 43. Awin browser dashboard → accept → reply Julian at studio@rewarx.com for Golden10 promo code.
+5. 🚨 **BUILD DREAME IMPACT TRACKING LINKS — BFCM 29 DAYS.** Impact dashboard → Dreame → create tracking links. Robot vacuum = double-confirmed BFCM #1 signal today (Trend Scout + Strategy). DAY 39 without links.
+6. **BUILD SYRUVIA IMPACT TRACKING LINK.** Impact dashboard → Syruvia → create link. 20% × $29 candle warmer = $5.80/sale. BFCM gift guide opens Nov 1.
+7. **MAMMA MIA AFTER-FIRST $52 SCRIPT** — DAY 49 UNBREAKABLE (24-30% ACTIVE, Trend Scout #2 Oct 28).
+8. **THANKSGIVING TABLESCAPE SCRIPT** — Pinterest peak save velocity starts THIS WEEK. 29 days to Nov 26. LED taper candles + linen runner + botanicals = $38-48. Zero GHP coverage. Script this week.
+9. **ACCEPT BEST CHOICE PRODUCTS (Impact)** — 10-15% pre-approved, 1-click join. BFCM gift-under-$50 format.
+10. **DECLINE SHORTCUT CHAT (Awin merchant 131137) VIA AWIN BROWSER DASHBOARD** — email bounced Oct 24.
+11. CJ portal: AliExpress dormancy DAY 27 + verify Wayfair/GreenLife/Levoit applications.
+12. Complete Homary Awin express signup (merchant 91447, DAY 31) — send affiliate ID to Lauren at affiliate@homary.com.
+13. DECLINE all pending OFF-NICHE Awin invites via browser: FED Fitness, CICYBELL, HealSend, Everblog US, Zlike Hair, Shortcut Chat 131137.
+14. ACCEPT ON-NICHE Awin invites via browser: Tribesigns, SimpleProject 10%, Promeed HerbalRX 20%, CozySpiritStudio 20%, OKUN.
