@@ -1,0 +1,136 @@
+{
+  "generated_at": "2026-10-28T11:00:02.379240Z",
+  "date": "2026-10-28",
+  "opportunities": [
+    {
+      "rank": 1,
+      "product_category": "wet/dry vacuum mops",
+      "specific_product": "Cordless wet-dry vacuum mop (Tineco iFloor / Bissell CrossWave style)",
+      "brand": "Amazon generic (Tineco/Bissell)",
+      "target_price": "$199",
+      "transformation_hook": "Ditched the mop bucket for a $199 machine that vacuums AND mops in one pass",
+      "before_state": "Sticky kitchen floor, mop bucket, dirty mop water, visible streaks and pet hair",
+      "after_state": "Streak-free, dry-to-the-touch floor finished in one pass, no bucket in sight",
+      "buyer_intent_keywords": [
+        "best wet dry vacuum mop",
+        "vacuum and mop in one",
+        "cordless floor cleaner for pet hair",
+        "self cleaning mop vacuum",
+        "floor mopping hack"
+      ],
+      "scores": {
+        "trend": 9,
+        "transformation": 9,
+        "affiliate": 9,
+        "intent": 9
+      },
+      "composite_score": 36,
+      "why_now": "Apartment Therapy's pinned hack ('the ultimate floor mopping hack: don't') is pushing wet-dry vacuum mops into feed rotation right as pre-holiday deep cleaning searches ramp up."
+    },
+    {
+      "rank": 2,
+      "product_category": "sofa/couch covers",
+      "specific_product": "Mamma Mia waterproof stretch sofa cover, pet-hair-proof weave",
+      "brand": "Mamma Mia Covers (24-30% commission)",
+      "target_price": "$54",
+      "transformation_hook": "Covered our shredded, pet-hair-covered couch for $54 and it looks brand new",
+      "before_state": "Worn, stained couch covered in pet hair and claw snags, mismatched throw blankets hiding damage",
+      "after_state": "Crisp, tailored-looking slipcover, zero visible pet hair, couch looks newly upholstered",
+      "buyer_intent_keywords": [
+        "couch cover for dogs",
+        "pet hair proof sofa cover",
+        "waterproof stretch couch cover",
+        "cheap way to cover old couch",
+        "sofa slipcover that stays in place"
+      ],
+      "scores": {
+        "trend": 7,
+        "transformation": 9,
+        "affiliate": 10,
+        "intent": 8
+      },
+      "composite_score": 34,
+      "why_now": "No single trending spike, but fall means more indoor pet-and-couch time, this is the highest-commission SKU in our lineup and converts year-round on a before/after hook."
+    },
+    {
+      "rank": 3,
+      "product_category": "kitchen cabinet refacing",
+      "specific_product": "Peel-and-stick cabinet door film / cabinet paint kit (Rust-Oleum Cabinet Transformations style)",
+      "brand": "Amazon generic",
+      "target_price": "$89",
+      "transformation_hook": "Repainted our entire kitchen cabinets for $89 instead of a $12k reno",
+      "before_state": "Dated, scratched, builder-grade brown or oak cabinet fronts",
+      "after_state": "Smooth, matte-painted or wood-grain-film cabinets that look custom-built",
+      "buyer_intent_keywords": [
+        "how to paint kitchen cabinets without sanding",
+        "cabinet refacing kit",
+        "peel and stick cabinet wrap",
+        "budget kitchen makeover",
+        "cabinet paint kit reviews"
+      ],
+      "scores": {
+        "trend": 7,
+        "transformation": 10,
+        "affiliate": 8,
+        "intent": 8
+      },
+      "composite_score": 33,
+      "why_now": "Apartment Therapy explicitly pitched 'a dramatic before and after without redoing your whole kitchen? Paint your cabinets' this week, and HGTV's small-kitchen and burnt-orange-paint pins reinforce kitchen refresh as the active aesthetic lane."
+    },
+    {
+      "rank": 4,
+      "product_category": "headboard alternatives",
+      "specific_product": "Wall-mounted upholstered headboard panel (no-frame, floating install)",
+      "brand": "Amazon generic",
+      "target_price": "$129",
+      "transformation_hook": "Filled the awkward blank wall above our bed for $129, no headboard required",
+      "before_state": "Bare, awkward wall space above a bed with no headboard, empty and unfinished-looking",
+      "after_state": "Upholstered panel wall anchors the bed like a built-in headboard, room feels finished",
+      "buyer_intent_keywords": [
+        "headboard alternative ideas",
+        "bed with no headboard decor",
+        "wall mounted headboard panel",
+        "what to put above bed with no headboard",
+        "cheap headboard replacement"
+      ],
+      "scores": {
+        "trend": 6,
+        "transformation": 9,
+        "affiliate": 9,
+        "intent": 7
+      },
+      "composite_score": 31,
+      "why_now": "Both HGTV ('filling that awkward space above your headboard') and Apartment Therapy ('15 headboard alternative ideas') pinned this exact problem in the same week, a rare cross-publisher signal convergence."
+    },
+    {
+      "rank": 5,
+      "product_category": "room dividers",
+      "specific_product": "4-panel folding room divider screen",
+      "brand": "Amazon generic",
+      "target_price": "$69",
+      "transformation_hook": "Hid our cluttered storage corner for $69 before guests arrived",
+      "before_state": "Open corner stacked with bins, laundry, or exposed storage visible from the main living space",
+      "after_state": "Clean sightline, folding screen conceals the mess, room photographs like a styled space",
+      "buyer_intent_keywords": [
+        "room divider to hide clutter",
+        "folding screen for storage",
+        "small apartment room divider",
+        "hide eyesore in living room",
+        "cheap privacy screen for bedroom"
+      ],
+      "scores": {
+        "trend": 6,
+        "transformation": 7,
+        "affiliate": 8,
+        "intent": 6
+      },
+      "composite_score": 27,
+      "why_now": "Apartment Therapy's room-divider storage-hiding tip lands right as Real Simple and BHG pins pivot toward fall/winter guest-prep and decluttering content ahead of the holiday hosting season."
+    }
+  ],
+  "raw_signal_count": 85,
+  "sources_used": [
+    "google_trends_daily_us",
+    "pinterest"
+  ]
+}

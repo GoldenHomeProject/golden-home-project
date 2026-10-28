@@ -1,131 +1,131 @@
 {
-  "generated_at": "2026-10-27T10:12:29.450278Z",
-  "date": "2026-10-27",
+  "generated_at": "2026-10-28T11:00:02.379240Z",
+  "date": "2026-10-28",
   "opportunities": [
     {
       "rank": 1,
-      "product_category": "closet organization systems",
-      "specific_product": "stackable closet storage bins + tiered shelf organizer set",
-      "brand": "Amazon generic",
-      "target_price": "$39",
-      "transformation_hook": "I organized my entire closet for $39 in one afternoon",
-      "before_state": "Cluttered closet floor piled with clothes, loose shoes, and mismatched bins with no visible system",
-      "after_state": "Color-coded, labeled bins on tiered shelves with every item visible and a clear floor",
+      "product_category": "wet/dry vacuum mops",
+      "specific_product": "Cordless wet-dry vacuum mop (Tineco iFloor / Bissell CrossWave style)",
+      "brand": "Amazon generic (Tineco/Bissell)",
+      "target_price": "$199",
+      "transformation_hook": "Ditched the mop bucket for a $199 machine that vacuums AND mops in one pass",
+      "before_state": "Sticky kitchen floor, mop bucket, dirty mop water, visible streaks and pet hair",
+      "after_state": "Streak-free, dry-to-the-touch floor finished in one pass, no bucket in sight",
       "buyer_intent_keywords": [
-        "closet organizer bins",
-        "closet storage system",
-        "small closet organization ideas",
-        "stackable closet bins",
-        "closet declutter before and after"
+        "best wet dry vacuum mop",
+        "vacuum and mop in one",
+        "cordless floor cleaner for pet hair",
+        "self cleaning mop vacuum",
+        "floor mopping hack"
       ],
       "scores": {
-        "trend": 8,
-        "transformation": 10,
+        "trend": 9,
+        "transformation": 9,
         "affiliate": 9,
         "intent": 9
       },
       "composite_score": 36,
-      "why_now": "Real Simple, Apartment Therapy, and Martha Stewart pins are all pushing fall closet cleanouts simultaneously this week, signaling peak seasonal search intent."
+      "why_now": "Apartment Therapy's pinned hack ('the ultimate floor mopping hack: don't') is pushing wet-dry vacuum mops into feed rotation right as pre-holiday deep cleaning searches ramp up."
     },
     {
       "rank": 2,
-      "product_category": "couch/sofa covers",
-      "specific_product": "Mamma Mia waterproof stretch sofa cover (pet hair proof)",
-      "brand": "Mamma Mia Covers",
-      "target_price": "$52",
-      "transformation_hook": "Covered my pet-hair-covered couch for $52 and it looks brand new",
-      "before_state": "Faded, stained couch covered in visible pet hair with worn, sagging cushions",
-      "after_state": "Sofa looks like a brand-new showroom piece wrapped in a tight stretch slipcover",
+      "product_category": "sofa/couch covers",
+      "specific_product": "Mamma Mia waterproof stretch sofa cover, pet-hair-proof weave",
+      "brand": "Mamma Mia Covers (24-30% commission)",
+      "target_price": "$54",
+      "transformation_hook": "Covered our shredded, pet-hair-covered couch for $54 and it looks brand new",
+      "before_state": "Worn, stained couch covered in pet hair and claw snags, mismatched throw blankets hiding damage",
+      "after_state": "Crisp, tailored-looking slipcover, zero visible pet hair, couch looks newly upholstered",
       "buyer_intent_keywords": [
-        "waterproof couch cover",
-        "pet hair proof sofa cover",
-        "stretch sofa slipcover",
         "couch cover for dogs",
-        "washable sofa cover"
+        "pet hair proof sofa cover",
+        "waterproof stretch couch cover",
+        "cheap way to cover old couch",
+        "sofa slipcover that stays in place"
       ],
       "scores": {
-        "trend": 6,
-        "transformation": 8,
+        "trend": 7,
+        "transformation": 9,
         "affiliate": 10,
         "intent": 8
       },
-      "composite_score": 32,
-      "why_now": "HGTV's 'small space living room feel bigger' pin is driving living-room refresh searches, and Mamma Mia's 24-30% commission makes this the highest-margin pick this week."
+      "composite_score": 34,
+      "why_now": "No single trending spike, but fall means more indoor pet-and-couch time, this is the highest-commission SKU in our lineup and converts year-round on a before/after hook."
     },
     {
       "rank": 3,
-      "product_category": "headboard alternatives / wall decor",
-      "specific_product": "upholstered wall-mounted headboard panel",
+      "product_category": "kitchen cabinet refacing",
+      "specific_product": "Peel-and-stick cabinet door film / cabinet paint kit (Rust-Oleum Cabinet Transformations style)",
       "brand": "Amazon generic",
-      "target_price": "$68",
-      "transformation_hook": "Turned my bare bed wall into a $68 boutique-hotel headboard",
-      "before_state": "Bed pushed against a blank, awkward wall with no headboard or focal point",
-      "after_state": "Padded upholstered headboard panel mounted on the wall creating a boutique-hotel look",
+      "target_price": "$89",
+      "transformation_hook": "Repainted our entire kitchen cabinets for $89 instead of a $12k reno",
+      "before_state": "Dated, scratched, builder-grade brown or oak cabinet fronts",
+      "after_state": "Smooth, matte-painted or wood-grain-film cabinets that look custom-built",
       "buyer_intent_keywords": [
-        "headboard alternative",
-        "wall mounted headboard",
-        "no headboard ideas",
-        "upholstered headboard panel",
-        "decor above bed"
+        "how to paint kitchen cabinets without sanding",
+        "cabinet refacing kit",
+        "peel and stick cabinet wrap",
+        "budget kitchen makeover",
+        "cabinet paint kit reviews"
       ],
       "scores": {
         "trend": 7,
-        "transformation": 9,
+        "transformation": 10,
         "affiliate": 8,
-        "intent": 7
+        "intent": 8
       },
-      "composite_score": 31,
-      "why_now": "Both HGTV and Apartment Therapy published 'no headboard' / 'awkward space above headboard' pins this week, a rare double signal on the same micro-niche."
+      "composite_score": 33,
+      "why_now": "Apartment Therapy explicitly pitched 'a dramatic before and after without redoing your whole kitchen? Paint your cabinets' this week, and HGTV's small-kitchen and burnt-orange-paint pins reinforce kitchen refresh as the active aesthetic lane."
     },
     {
       "rank": 4,
-      "product_category": "kitchen cabinet hardware",
-      "specific_product": "brushed gold cabinet pulls and knobs set (30-pack)",
+      "product_category": "headboard alternatives",
+      "specific_product": "Wall-mounted upholstered headboard panel (no-frame, floating install)",
       "brand": "Amazon generic",
-      "target_price": "$29",
-      "transformation_hook": "Swapped my cabinet handles for $29 and my kitchen looks renovated",
-      "before_state": "Dated builder-grade cabinets with old brass or plastic knobs",
-      "after_state": "Same cabinets instantly modernized with sleek brushed-gold pulls",
+      "target_price": "$129",
+      "transformation_hook": "Filled the awkward blank wall above our bed for $129, no headboard required",
+      "before_state": "Bare, awkward wall space above a bed with no headboard, empty and unfinished-looking",
+      "after_state": "Upholstered panel wall anchors the bed like a built-in headboard, room feels finished",
       "buyer_intent_keywords": [
-        "cabinet hardware kit",
-        "kitchen cabinet pulls",
-        "modern cabinet knobs",
-        "budget kitchen update",
-        "cabinet hardware replacement"
+        "headboard alternative ideas",
+        "bed with no headboard decor",
+        "wall mounted headboard panel",
+        "what to put above bed with no headboard",
+        "cheap headboard replacement"
       ],
       "scores": {
-        "trend": 7,
+        "trend": 6,
         "transformation": 9,
-        "affiliate": 8,
+        "affiliate": 9,
         "intent": 7
       },
       "composite_score": 31,
-      "why_now": "Apartment Therapy's cabinet-painting-with-Behr pin and HGTV's tiny-kitchen pin both point to low-cost kitchen refreshes as the dominant Pinterest kitchen trend right now."
+      "why_now": "Both HGTV ('filling that awkward space above your headboard') and Apartment Therapy ('15 headboard alternative ideas') pinned this exact problem in the same week, a rare cross-publisher signal convergence."
     },
     {
       "rank": 5,
-      "product_category": "wet/dry cordless vacuum mop",
-      "specific_product": "Roborock F25-style cordless wet-dry vacuum",
-      "brand": "Amazon generic (Roborock)",
-      "target_price": "$299",
-      "transformation_hook": "Replaced my mop bucket with a $299 gadget and my floors look brand new",
-      "before_state": "Sticky, streaky floors and a bulky mop-and-bucket setup taking up closet space",
-      "after_state": "Self-cleaning cordless vacuum-mop leaving streak-free floors in one pass",
+      "product_category": "room dividers",
+      "specific_product": "4-panel folding room divider screen",
+      "brand": "Amazon generic",
+      "target_price": "$69",
+      "transformation_hook": "Hid our cluttered storage corner for $69 before guests arrived",
+      "before_state": "Open corner stacked with bins, laundry, or exposed storage visible from the main living space",
+      "after_state": "Clean sightline, folding screen conceals the mess, room photographs like a styled space",
       "buyer_intent_keywords": [
-        "wet dry vacuum mop",
-        "cordless mop vacuum combo",
-        "self cleaning mop",
-        "best floor cleaning gadget",
-        "Roborock wet dry vacuum"
+        "room divider to hide clutter",
+        "folding screen for storage",
+        "small apartment room divider",
+        "hide eyesore in living room",
+        "cheap privacy screen for bedroom"
       ],
       "scores": {
-        "trend": 8,
-        "transformation": 6,
-        "affiliate": 7,
-        "intent": 8
+        "trend": 6,
+        "transformation": 7,
+        "affiliate": 8,
+        "intent": 6
       },
-      "composite_score": 29,
-      "why_now": "Apartment Therapy named this specific product category this week as 'the ultimate floor mopping hack,' and cleaning gadgets consistently top Amazon Movers & Shakers in Home & Kitchen."
+      "composite_score": 27,
+      "why_now": "Apartment Therapy's room-divider storage-hiding tip lands right as Real Simple and BHG pins pivot toward fall/winter guest-prep and decluttering content ahead of the holiday hosting season."
     }
   ],
   "raw_signal_count": 85,
