@@ -8559,31 +8559,6 @@
     "superseded_reason": "Ken Burns-style reel; Ian 2026-10-17 stop them"
   },
   {
-    "name": "reel_2026-10-18_003",
-    "status": "ready",
-    "script_path": "automation/scripts/reel-2026-10-18-003.json",
-    "media_type": "REELS",
-    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-18-003.mp4",
-    "caption": "Sagging pillows get blamed on the cover. The problem is what's stuffed inside it.\n\nA cover looks exactly as full as the insert underneath it. If the corners look empty or the middle caves in, that's an insert problem, not a cover problem \u2014 and inserts are the cheaper half of that pair to replace. Every cover you already own stays in use.\n\nThe Utopia Bedding 18x18 Pillow Inserts are the standard size for the most common throw pillow cover sold. 218,437 people have rated them, averaging 4.6 stars \u2014 a review count that size is close to a consensus for a basic home item.\n\nFull-looking pillows on the covers already on your couch, no replacements needed. $13.49.\n\nComment BEDDING and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
-    "hashtags": [
-      "#amazonhomefinds",
-      "#homehacks2026",
-      "#smallspacesolutions"
-    ],
-    "affiliate": {
-      "primary_product": "Utopia Bedding 18x18 Pillow Inserts",
-      "dm_keyword": "BEDDING",
-      "amazon_asin": "B01NBNDC1T",
-      "amazon_affiliate_url": "https://www.amazon.com/dp/B01NBNDC1T?tag=goldenhomep0a-20",
-      "asin_pending": false,
-      "fallback_brands": [],
-      "affiliate_network": "amazon",
-      "affiliate_url": null
-    },
-    "hook": "Sagging pillows get blamed on the cover. The problem is what's stuffed inside it.",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-18-003.mp4"
-  },
-  {
     "name": "reel_2026-10-19_001",
     "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-19-001.json",
