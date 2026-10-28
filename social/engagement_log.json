@@ -4,12 +4,12 @@
     "lifetime_follows": 25,
     "lifetime_likes": 33,
     "lifetime_comments": 7,
-    "last_session": "2026-10-28-1335-pi",
+    "last_session": "comments-2026-10-28T1409Z",
     "blocked_at": null,
-    "last_updated": "2026-10-28T13:36:32Z",
-    "total_actions": 711,
+    "last_updated": "2026-10-28T14:11:06Z",
+    "total_actions": 713,
     "lifetime_dms": 34,
-    "lifetime_comments_outbound": 78
+    "lifetime_comments_outbound": 80
   },
   "actions": [
     {
@@ -38640,6 +38640,24 @@
       ],
       "untapped_warm": [],
       "dry_run": false
+    },
+    {
+      "timestamp": "2026-10-28T14:09:43Z",
+      "action": "comment_posted",
+      "target": "cindyology",
+      "session": "comments-2026-10-28T1409Z",
+      "post_url": "https://www.instagram.com/cindyology/p/DXNcpg7DsE5/",
+      "text": "Low ash content is a nice selling point \u2014 do fireplace glass logs put off much heat, or are they mostly ambiance with your gas insert?",
+      "caption_seen": ""
+    },
+    {
+      "timestamp": "2026-10-28T14:11:06Z",
+      "action": "comment_posted",
+      "target": "horderly",
+      "session": "comments-2026-10-28T1409Z",
+      "post_url": "https://www.instagram.com/horderly/p/DehtV6lFGSU/",
+      "text": "This bin method works great until labels fall off \u2014 anyone else just use a label maker directly on the lid now?",
+      "caption_seen": ""
     }
   ]
 }
