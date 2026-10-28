@@ -9141,5 +9141,29 @@
     },
     "hook": "A cup tips over on the bed and everyone panics.",
     "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-27-003.mp4"
+  },
+  {
+    "name": "reel_2026-10-28_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-28-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Your mattress topper is deeper than your sheet's pocket.\n\nMost fitted sheets are cut for a standard mattress, so once you add a thick topper or a pillow-top, the pocket runs out of room. The corners stretch as far as they can, then let go in the middle of the night, usually around the same spot.\n\nThis one is sized specifically for that gap, an extra deep fitted sheet only that fits mattresses eighteen to twenty-four inches thick, in a soft, wrinkle-free fabric. It's rated 4.5 stars by over fifty thousand people who bought it.\n\nThe sheet actually reaches all the way around a tall mattress instead of fighting it, for about $20.\n\nComment EXTRA and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "CGK Extra Deep Queen Single Fitted Sheet Only - White | Easily Fits 18 inch to 24 inch Mattress, Soft, Wrinkle Free, Bre",
+      "dm_keyword": "EXTRA",
+      "amazon_asin": "B07QHNC81Z",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B07QHNC81Z?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B07QHNC81Z?tag=goldenhomep0a-20"
+    },
+    "hook": "Your mattress topper is deeper than your sheet's pocket."
   }
 ]
