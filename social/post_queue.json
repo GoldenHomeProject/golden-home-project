@@ -8994,10 +8994,10 @@
   },
   {
     "name": "reel_repurpose_2026-10-26_902",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-26-902.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-26-902.mp4",
     "caption": "I went looking for the one detail that makes a hotel bed photo work, and it's not the headboard \u2014 it's the gusset in the pillow seam. Full comparison on the blog, link in bio.",
     "hashtags": [
       "#hotelbedpillows",
@@ -9008,7 +9008,8 @@
       "#amazonhomefinds",
       "#pillowstacking"
     ],
-    "hook": "$24.77 pillows do more work than your headboard"
+    "hook": "$24.77 pillows do more work than your headboard",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-26-902.mp4"
   },
   {
     "name": "reel_repurpose_2026-10-26_903",
@@ -9068,10 +9069,10 @@
   },
   {
     "name": "reel_2026-10-27_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-27-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-27-001.mp4",
     "caption": "Stop waiting for your shower liner to turn yellow and stiff.\n\nCheap liners break down fast once soap scum and steam get into the plastic. That's why they turn stiff, yellow, or start smelling within a season, no matter how often you clean around them.\n\nThis liner is Oeko-tex certified, so it's tested for harmful substances before it ever hangs in your bathroom. It comes in a standard size, and over a hundred thousand people rate it 4.5 stars.\n\nFor about nine dollars, you get a straightforward swap that fits a standard tub without any guesswork on sizing.\n\nComment BAROSSA and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -9088,7 +9089,8 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "Stop waiting for your shower liner to turn yellow and stiff."
+    "hook": "Stop waiting for your shower liner to turn yellow and stiff.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-27-001.mp4"
   },
   {
     "name": "reel_2026-10-27_002",
