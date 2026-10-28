@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-10-28",
+  "category": "Home D\u00e9cor",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-home-decor-finds.html",
+  "picks": [
+    {
+      "asin": "B0F6LM95F2",
+      "name": "YaFex Curtain Rods 32-144 Inch",
+      "price": "$25.99",
+      "rating": 4.6,
+      "reviews": 5319,
+      "rank": 6
+    },
+    {
+      "asin": "B0D89V1RX1",
+      "name": "2x6 Hallway Washable Runner Rug : Vintage Soft Kitchen Laundry Runner",
+      "price": "$16.99",
+      "rating": 4.6,
+      "reviews": 11258,
+      "rank": 7
+    },
+    {
+      "asin": "B0BR3STN87",
+      "name": "Linen Total Blackout Curtains for Bedroom Living Room 84 Inch",
+      "price": "$32.97",
+      "rating": 4.5,
+      "reviews": 9210,
+      "rank": 8
+    },
+    {
+      "asin": "B01NBNDC1T",
+      "name": "Utopia Bedding 18x18 pillow inserts",
+      "price": "$17.89",
+      "rating": 4.6,
+      "reviews": 219796,
+      "rank": 9
+    },
+    {
+      "asin": "B0CTJGJL2T",
+      "name": "GODONLIF Candle Warmer Lamp with Timer",
+      "price": "$21.99",
+      "rating": 4.6,
+      "reviews": 11681,
+      "rank": 11
+    },
+    {
+      "asin": "B0815BLNX1",
+      "name": "GORILLA GRIP\u00ae Extra Long Rug Grippers for Hardwood Floor",
+      "price": "$11.49",
+      "rating": 4.5,
+      "reviews": 31726,
+      "rank": 17
+    }
+  ]
+}
