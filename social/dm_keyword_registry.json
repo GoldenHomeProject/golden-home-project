@@ -6411,6 +6411,54 @@
       "verified_stars": "4.8",
       "verified_reviews": 17992,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B08D9RNB1D",
+      "product_name": "Leafeon 150 Pack Ornament Hooks for Christmas - Essential Christmas Ornament Hangers - Perfect Xmas Ornament Hangers for",
+      "categories": [
+        "home",
+        "Seasonal D\u00e9cor"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B08D9RNB1D?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-10-28",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$5.99",
+      "verified_stars": "4.6",
+      "verified_reviews": 6154,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B07TXL7CPQ",
+      "product_name": "Amazon Basics Collapsible Cube Storage Bins, Space-Saving, Organizing Fabric Bins with Handles, 10.5 x 10.5 x 11 inches,",
+      "categories": [
+        "home",
+        "Home Storage"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B07TXL7CPQ?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-10-28",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$17.99",
+      "verified_stars": "4.8",
+      "verified_reviews": 22166,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B07D1C5S71",
+      "product_name": "Turbie Twist Microfiber Hair Towel | Super Absorbent, Hands-Free Drying Wrap - Reduces Frizz, Breakage & Heat Damage - L",
+      "categories": [
+        "home",
+        "Bath Linens"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B07D1C5S71?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-10-28",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$19.98",
+      "verified_stars": "4.7",
+      "verified_reviews": 26108,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
