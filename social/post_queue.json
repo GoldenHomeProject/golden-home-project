@@ -9145,10 +9145,10 @@
   },
   {
     "name": "reel_2026-10-29_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-29-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-29-001.mp4",
     "caption": "Everyone wants silk pillowcases. Nobody wants the price tag.\n\nReal silk is expensive and needs special washing, which is exactly why most people give up on it after one search. The soft, cool feel is the part everyone actually wants, not the upkeep.\n\nThis satin set is built to feel like that silk alternative without the silk price, and it comes as a pair so both pillows match. Nearly sixty thousand people have rated it 4.6 stars.\n\nA queen set of two for about $6 means you can try the cooling, smooth feel without committing to a silk budget.\n\nComment BEDELITE and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -9165,22 +9165,7 @@
       "affiliate_network": "amazon",
       "affiliate_url": "https://www.amazon.com/dp/B087JJ3M15?tag=goldenhomep0a-20"
     },
-    "hook": "Everyone wants silk pillowcases. Nobody wants the price tag."
-  },
-  {
-    "id": "carousel-2026-10-29-B0C5FHSPHV",
-    "media_type": "CAROUSEL_ALBUM",
-    "image_urls": [
-      "https://goldenhomeproject.com/social/carousels/2026-10-29-B0C5FHSPHV/slide-1.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-29-B0C5FHSPHV/slide-2.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-29-B0C5FHSPHV/slide-3.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-29-B0C5FHSPHV/slide-4.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-29-B0C5FHSPHV/slide-5.png"
-    ],
-    "caption": "Deep mattresses eat fitted sheets for breakfast.\n\nIf your mattress is on the thicker side, regular fitted sheets won't reach the corners, and you end up re-tucking the sheet every night. A fitted sheet made for 18 to 24 inch mattresses is cut deep enough to actually stay put \u2014 soft, wrinkle-free fabric, no elastic straps needed.\n\nSave this for the next time you're sheet shopping.\n\nComment KING or DM me KING for the link.\n\n#homeorganization #bedroommakeover #bedroomdecor #organizedhome #smallspaceliving",
-    "asin": "B0C5FHSPHV",
-    "keyword": "KING",
-    "queued_at": "2026-10-29T13:53:01.963737Z",
-    "source": "carousel_generator"
+    "hook": "Everyone wants silk pillowcases. Nobody wants the price tag.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-29-001.mp4"
   }
 ]
