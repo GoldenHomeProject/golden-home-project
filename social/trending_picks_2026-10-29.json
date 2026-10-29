@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-10-29",
+  "category": "Home",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-home-organization-products.html",
+  "picks": [
+    {
+      "asin": "B00FXNABPI",
+      "name": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers f",
+      "price": "$13.58",
+      "rating": 4.8,
+      "reviews": 238535,
+      "rank": 1
+    },
+    {
+      "asin": "B079M8FPTW",
+      "name": "Rubbermaid Brilliance Tritan Plastic Food Storage Containers BPA Free",
+      "price": "$27.60",
+      "rating": 4.7,
+      "reviews": 17889,
+      "rank": 14
+    },
+    {
+      "asin": "B0C3QZ7SNF",
+      "name": "Cisily Sponge Holder for Kitchen Sink",
+      "price": "$13.99",
+      "rating": 4.6,
+      "reviews": 15575,
+      "rank": 17
+    },
+    {
+      "asin": "B0753NHZVQ",
+      "name": "Command Large Utility Hooks",
+      "price": "$11.99",
+      "rating": 4.6,
+      "reviews": 39357,
+      "rank": 20
+    },
+    {
+      "asin": "B0CJ56M8D4",
+      "name": "Veken Shower Caddy 6-Pack",
+      "price": "$17.99",
+      "rating": 4.6,
+      "reviews": 15941,
+      "rank": 24
+    },
+    {
+      "asin": "B0GYF91BXB",
+      "name": "HOMESURE Supports 200lbs Heavy Duty Moving Bags",
+      "price": "$29.99",
+      "rating": 4.7,
+      "reviews": 9794,
+      "rank": 25
+    }
+  ]
+}
