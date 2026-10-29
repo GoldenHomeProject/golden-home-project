@@ -7972,14 +7972,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-24-B06X9NQ8GX.png",
     "queued_at": "2026-10-24T10:12:52.380983Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "Precise Portions, No Guesswork",
     "recharted": true,
     "variant": "A",
-    "ai_image": false
+    "ai_image": false,
+    "posted_at": "2026-10-29T01:16:44Z"
   },
   {
     "id": "pin-2026-10-24-B0F5X4FM3Q",
