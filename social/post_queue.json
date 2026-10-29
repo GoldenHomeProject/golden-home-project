@@ -9142,5 +9142,29 @@
     },
     "hook": "Your mattress topper is deeper than your sheet's pocket.",
     "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-28-001.mp4"
+  },
+  {
+    "name": "reel_2026-10-29_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-29-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Everyone wants silk pillowcases. Nobody wants the price tag.\n\nReal silk is expensive and needs special washing, which is exactly why most people give up on it after one search. The soft, cool feel is the part everyone actually wants, not the upkeep.\n\nThis satin set is built to feel like that silk alternative without the silk price, and it comes as a pair so both pillows match. Nearly sixty thousand people have rated it 4.6 stars.\n\nA queen set of two for about $6 means you can try the cooling, smooth feel without committing to a silk budget.\n\nComment BEDELITE and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "BEDELITE Satin Pillowcases, Queen Size 20x30 Inch, Dark Grey, Set of 2 | Similar to Silk Pillow Cases, Soft and Cooling,",
+      "dm_keyword": "BEDELITE",
+      "amazon_asin": "B087JJ3M15",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B087JJ3M15?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B087JJ3M15?tag=goldenhomep0a-20"
+    },
+    "hook": "Everyone wants silk pillowcases. Nobody wants the price tag."
   }
 ]

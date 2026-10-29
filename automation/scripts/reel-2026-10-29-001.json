@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-10-29T11:58:04.007045Z",
+  "date": "2026-10-29",
+  "seq": 1,
+  "hook_category": "confrontation",
+  "hook": "Everyone wants silk pillowcases. Nobody wants the price tag.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of a hand smoothing a dark grey satin pillowcase on a made bed, soft morning light from a window",
+      "on_screen_text": "Silk look, not silk price",
+      "voiceover": "Everyone wants silk pillowcases. Nobody wants the price tag."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Hands checking a care label on a silk-look pillowcase near a laundry basket, slightly cluttered bedroom corner",
+      "on_screen_text": "The upkeep is the real cost",
+      "voiceover": "Real silk feels great but the washing rules and the price scare most people off before they even try it."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Two dark grey satin pillowcases laid side by side on a bed, hand smoothing the fabric to show sheen",
+      "on_screen_text": "A pair, matched, same feel",
+      "voiceover": "This set gives you that same soft, cooling satin feel, and it comes as two pillowcases so your whole bed matches."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Overhead shot of a queen bed with two pillows in dark grey satin pillowcases, hand fluffing one pillow",
+      "on_screen_text": "Nearly sixty thousand people agree",
+      "voiceover": "Nearly sixty thousand people have rated it 4.6 stars, mostly for that cool, smooth feel night after night."
+    },
+    {
+      "n": 5,
+      "duration_sec": 5,
+      "visual_prompt": "Person resting their cheek on a dark grey satin pillowcase in a cozy, softly lit bedroom, eyes closed",
+      "on_screen_text": "Comment BEDELITE for the link",
+      "voiceover": "A queen set of two for about six dollars, so you can test that silk feel without the silk budget. Comment BEDELITE and I'll send the link."
+    }
+  ],
+  "caption": "Everyone wants silk pillowcases. Nobody wants the price tag.\n\nReal silk is expensive and needs special washing, which is exactly why most people give up on it after one search. The soft, cool feel is the part everyone actually wants, not the upkeep.\n\nThis satin set is built to feel like that silk alternative without the silk price, and it comes as a pair so both pillows match. Nearly sixty thousand people have rated it 4.6 stars.\n\nA queen set of two for about $6 means you can try the cooling, smooth feel without committing to a silk budget.\n\nComment BEDELITE and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "This satin set is built to feel like that silk alternative without the silk price, and it comes as a pair so both pillows match. Nearly sixty thousand people have rated it 4.6 stars.",
+  "affiliate_strategy": {
+    "primary_product": "BEDELITE Satin Pillowcases, Queen Size 20x30 Inch, Dark Grey, Set of 2 | Similar to Silk Pillow Cases, Soft and Cooling,",
+    "dm_keyword": "BEDELITE",
+    "amazon_asin": "B087JJ3M15",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B087JJ3M15?tag=goldenhomep0a-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": "https://www.amazon.com/dp/B087JJ3M15?tag=goldenhomep0a-20"
+  }
+}
