@@ -1290,6 +1290,24 @@
       "discovery_source": "harvest_catalogue",
       "keyword": "BEDELITE",
       "promoted_at": "2026-10-28T12:21:03Z"
+    },
+    {
+      "asin": "B0C5FHSPHV",
+      "product_name": "CGK Extra Deep King Single Fitted Sheet Only - Steel Blue | Easily Fits 18 inch to 24 inch Mattress, Soft, Wrinkle Free,",
+      "categories": [
+        "home",
+        "Bedding"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0C5FHSPHV?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-10-09",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$24.99",
+      "verified_stars": "4.5",
+      "verified_reviews": 55982,
+      "discovery_source": "harvest_catalogue",
+      "keyword": "KING",
+      "promoted_at": "2026-10-29T12:21:32Z"
     }
   ],
   "_vetted_doc": "Verified-live Amazon ASINs cleared for blog/SEO/IG-caption use but NOT yet wired to a Meta comment-to-DM automation. Promote to `entries` (with a unique keyword) only AFTER creating the matching Meta Business Suite automation. Always use https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20 \u2014 never search URLs.",
@@ -5906,22 +5924,6 @@
       "verified_price": "$18.99",
       "verified_stars": "4.6",
       "verified_reviews": 31218,
-      "discovery_source": "harvest_catalogue"
-    },
-    {
-      "asin": "B0C5FHSPHV",
-      "product_name": "CGK Extra Deep King Single Fitted Sheet Only - Steel Blue | Easily Fits 18 inch to 24 inch Mattress, Soft, Wrinkle Free,",
-      "categories": [
-        "home",
-        "Bedding"
-      ],
-      "affiliate_url": "https://www.amazon.com/dp/B0C5FHSPHV?tag=goldenhomep0a-20",
-      "status": "live",
-      "verified_at": "2026-10-09",
-      "verified_method": "best_seller_grid",
-      "verified_price": "$24.99",
-      "verified_stars": "4.5",
-      "verified_reviews": 55982,
       "discovery_source": "harvest_catalogue"
     },
     {

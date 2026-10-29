@@ -4502,6 +4502,52 @@
           }
         ]
       }
+    ],
+    "KING": [
+      {
+        "hook_category": "scene",
+        "hook": "You tug one corner and the opposite corner pops loose.",
+        "beat1": "Deep mattresses taller than a standard mattress stretch a regular fitted sheet past its limit. The elastic can't reach all the way around, so pulling one corner tight lifts the opposite one right off. It usually happens in the middle of the night, not when you're making the bed.",
+        "turn": "This one is cut specifically for deep mattresses, sized to fit eighteen to twenty four inches, in a soft, wrinkle-resistant steel blue that reaches every corner without fighting the fabric.",
+        "result": "That means no more remaking the bed at midnight, just a sheet that actually stays put, for about $25.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close-up of hands pulling a fitted sheet corner on a tall mattress while the opposite corner slips off the edge in a bedroom.",
+            "on_screen_text": "That corner always pops loose",
+            "voiceover": "You tug one corner and the opposite corner pops loose."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "A hand resting flat against the thick side of a tall mattress, showing how far it rises above the bed frame.",
+            "on_screen_text": "Your mattress is deeper than you think",
+            "voiceover": "A regular fitted sheet is cut for a shallow mattress, so once the mattress gets this tall, the fabric just runs out of stretch."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Hands smoothing a steel blue fitted sheet corner snugly over a deep mattress edge.",
+            "on_screen_text": "Cut for 18 to 24 inches",
+            "voiceover": "This one's made specifically for the sheet part, sized for an eighteen to twenty four inch mattress, in a soft steel blue that resists wrinkles."
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "A fully made bed with a steel blue fitted sheet pulled taut and smooth at every corner, morning light through a window.",
+            "on_screen_text": "Thousands rate it 4.5 stars",
+            "voiceover": "Over fifty five thousand people rate it 4.5 stars for fitting that exact depth."
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "Someone sitting on the edge of a neatly made bed with a steel blue fitted sheet, smoothing the top with one hand.",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "No more waking up to a bare mattress corner, just a sheet that stays put, for about twenty five dollars. Comment {KEYWORD} and I'll send the link."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
