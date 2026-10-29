@@ -7538,14 +7538,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-21-B00MRH9NCK.png",
     "queued_at": "2026-10-21T10:16:07.660830Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "An Organizing Win",
     "recharted": true,
     "variant": "A",
-    "ai_image": true
+    "ai_image": true,
+    "posted_at": "2026-10-29T13:41:32Z"
   },
   {
     "id": "pin-2026-10-21-B01N20YR6B",
