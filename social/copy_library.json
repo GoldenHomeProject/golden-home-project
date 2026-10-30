@@ -4548,6 +4548,52 @@
           }
         ]
       }
+    ],
+    "LEMOMO": [
+      {
+        "hook_category": "mistake",
+        "hook": "Stop blaming your thermostat for a hot bedroom.",
+        "beat1": "Ordinary curtains let afternoon sun pour straight through the fabric, and that light carries heat into the room long after the sun moves on. Walls and air soak it up, so the room stays warm well into the evening.",
+        "turn": "These are thermal insulated blackout panels, two of them, built to block that heat along with the light instead of just filtering it. With over fifty thousand ratings averaging 4.6 stars, plenty of people have noticed the room runs darker and steadier because of it.",
+        "result": "A room that stays cooler in the day and goes properly dark at night, for about $14.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "A hand pulls back a thin curtain and bright afternoon sunlight floods into a bedroom, warming the air near the window",
+            "on_screen_text": "Not your thermostat's fault",
+            "voiceover": "Stop blaming your thermostat for a hot bedroom."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Close-up of sunlight passing through sheer curtain fabric onto a bed, dust motes visible in the warm light",
+            "on_screen_text": "Thin curtains let heat in too",
+            "voiceover": "Regular curtains let sun pour straight through, and that light brings heat with it that lingers long after sunset."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Hands drawing two black curtain panels closed across a bedroom window, the room dimming as the panels meet in the middle",
+            "on_screen_text": "Blocks light and heat together",
+            "voiceover": "These blackout panels are thermal insulated, so they hold back the heat along with the light, not just one or the other."
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "Wide shot of a bedroom window fully covered by long black curtain panels reaching near the floor, the room noticeably darker and cooler-looking",
+            "on_screen_text": "Over fifty thousand ratings, 4.6 stars",
+            "voiceover": "Over fifty thousand people have rated these 4.6 stars for exactly that."
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "A person sleeping peacefully in a dark, calm bedroom with the curtains fully closed and morning light blocked out",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "A cooler room by day and a darker one by night, for about fourteen dollars. Comment {KEYWORD} and I'll send the link."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
