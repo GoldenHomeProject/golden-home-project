@@ -9152,10 +9152,10 @@
   },
   {
     "name": "reel_2026-10-30_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-30-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-30-001.mp4",
     "caption": "You tug one corner and the opposite corner pops loose.\n\nDeep mattresses taller than a standard mattress stretch a regular fitted sheet past its limit. The elastic can't reach all the way around, so pulling one corner tight lifts the opposite one right off. It usually happens in the middle of the night, not when you're making the bed.\n\nThis one is cut specifically for deep mattresses, sized to fit eighteen to twenty four inches, in a soft, wrinkle-resistant steel blue that reaches every corner without fighting the fabric.\n\nThat means no more remaking the bed at midnight, just a sheet that actually stays put, for about $25.\n\nComment KING and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -9172,22 +9172,7 @@
       "affiliate_network": "amazon",
       "affiliate_url": "https://www.amazon.com/dp/B0C5FHSPHV?tag=goldenhomep0a-20"
     },
-    "hook": "You tug one corner and the opposite corner pops loose."
-  },
-  {
-    "id": "carousel-2026-10-30-B07FVMNNQ3",
-    "media_type": "CAROUSEL_ALBUM",
-    "image_urls": [
-      "https://goldenhomeproject.com/social/carousels/2026-10-30-B07FVMNNQ3/slide-1.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-30-B07FVMNNQ3/slide-2.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-30-B07FVMNNQ3/slide-3.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-30-B07FVMNNQ3/slide-4.png",
-      "https://goldenhomeproject.com/social/carousels/2026-10-30-B07FVMNNQ3/slide-5.png"
-    ],
-    "caption": "Your room is never actually dark \u2014 and it's probably not the blinds.\n\nSave this for later: a quick rundown on why light sneaks in around curtains, and what actually blocks it (hint: it's the fabric, not just how wide you hang it). Thermal-insulated, room-darkening panels work on both problems at once \u2014 light and temperature.\n\nComment LEMOMO or DM me LEMOMO for the link.\n\n#homeorganization #bedroomdecor #blackoutcurtains #windowtreatments #cozyhome",
-    "asin": "B07FVMNNQ3",
-    "keyword": "LEMOMO",
-    "queued_at": "2026-10-30T13:45:39.301892Z",
-    "source": "carousel_generator"
+    "hook": "You tug one corner and the opposite corner pops loose.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-30-001.mp4"
   }
 ]
