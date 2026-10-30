@@ -8936,9 +8936,10 @@
     "image_url": "https://goldenhomeproject.com/social/pinterest/howto-2026-10-30-B0CJ56M8D4.png",
     "link": "https://www.amazon.com/dp/B0CJ56M8D4?tag=ghpbrandb-20&ascsubtag=pinterest_howto_brandB",
     "queued_at": "2026-10-30T10:25:06.122539Z",
-    "posted": false,
+    "posted": true,
     "source": "generate_howto_pins",
     "format": "howto",
-    "variant": "B"
+    "variant": "B",
+    "posted_at": "2026-10-30T13:41:40Z"
   }
 ]
