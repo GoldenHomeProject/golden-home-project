@@ -7930,14 +7930,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-24-B08CZDYNF7.png",
     "queued_at": "2026-10-24T10:11:01.875151Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "Ultrean Food Scale",
     "recharted": false,
     "variant": "B",
-    "ai_image": true
+    "ai_image": true,
+    "posted_at": "2026-10-30T01:15:30Z"
   },
   {
     "id": "pin-2026-10-24-B0714K41PB",
