@@ -9149,5 +9149,29 @@
     },
     "hook": "Everyone wants silk pillowcases. Nobody wants the price tag.",
     "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-29-001.mp4"
+  },
+  {
+    "name": "reel_2026-10-30_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-30-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "You tug one corner and the opposite corner pops loose.\n\nDeep mattresses taller than a standard mattress stretch a regular fitted sheet past its limit. The elastic can't reach all the way around, so pulling one corner tight lifts the opposite one right off. It usually happens in the middle of the night, not when you're making the bed.\n\nThis one is cut specifically for deep mattresses, sized to fit eighteen to twenty four inches, in a soft, wrinkle-resistant steel blue that reaches every corner without fighting the fabric.\n\nThat means no more remaking the bed at midnight, just a sheet that actually stays put, for about $25.\n\nComment KING and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "CGK Extra Deep King Single Fitted Sheet Only - Steel Blue | Easily Fits 18 inch to 24 inch Mattress, Soft, Wrinkle Free,",
+      "dm_keyword": "KING",
+      "amazon_asin": "B0C5FHSPHV",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B0C5FHSPHV?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B0C5FHSPHV?tag=goldenhomep0a-20"
+    },
+    "hook": "You tug one corner and the opposite corner pops loose."
   }
 ]
