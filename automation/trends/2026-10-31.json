@@ -1,0 +1,136 @@
+{
+  "generated_at": "2026-10-31T10:44:50.545011Z",
+  "date": "2026-10-31",
+  "opportunities": [
+    {
+      "rank": 1,
+      "product_category": "bathroom hard water stain removal",
+      "specific_product": "Pumice scouring stick for toilets, tubs & tile",
+      "brand": "Amazon generic (Pumie-style)",
+      "target_price": "$9",
+      "transformation_hook": "Erase years of hard water stains in one $9 swipe",
+      "before_state": "Toilet bowl and tub ringed with yellow-brown hard water stains and limescale buildup",
+      "after_state": "Porcelain and tile restored to bright white, stain-free shine",
+      "buyer_intent_keywords": [
+        "hard water stain remover",
+        "toilet ring remover",
+        "limescale remover tub",
+        "pumice stone for toilet bowl",
+        "bathtub stain cleaner"
+      ],
+      "scores": {
+        "trend": 7,
+        "transformation": 9,
+        "affiliate": 10,
+        "intent": 9
+      },
+      "composite_score": 35,
+      "why_now": "Real Simple's 2026 bathroom trend piece on spa-like self-care is running alongside their own publisher pin pushing the Pumie scouring stick as the viral hard-water fix right now."
+    },
+    {
+      "rank": 2,
+      "product_category": "cordless wet-dry vacuum mop",
+      "specific_product": "2-in-1 cordless vacuum and mop combo",
+      "brand": "Amazon generic",
+      "target_price": "$149",
+      "transformation_hook": "Ditch the mop bucket: one $149 machine vacuums and mops in a single pass",
+      "before_state": "Sticky, crumb-covered kitchen floor with a mop bucket sitting in the corner",
+      "after_state": "Streak-free, bone-dry floors finished in under 10 minutes, no bucket needed",
+      "buyer_intent_keywords": [
+        "wet dry vacuum mop",
+        "cordless mop vacuum combo",
+        "self cleaning mop vacuum",
+        "best floor cleaner for hard floors",
+        "mop and vacuum in one"
+      ],
+      "scores": {
+        "trend": 8,
+        "transformation": 9,
+        "affiliate": 8,
+        "intent": 8
+      },
+      "composite_score": 33,
+      "why_now": "Apartment Therapy's top pin today pitches 'the ultimate floor mopping hack: don't' around AI wet-dry vacuums, a publisher aesthetic that's about to cross into mainstream search."
+    },
+    {
+      "rank": 3,
+      "product_category": "couch covers",
+      "specific_product": "Mamma Mia waterproof stretch sofa cover",
+      "brand": "Mamma Mia Covers",
+      "target_price": "$52",
+      "transformation_hook": "Hide a pet-hair-wrecked couch under a $52 stretch cover in 5 minutes",
+      "before_state": "Worn, pet-hair-covered, stained couch cushions",
+      "after_state": "Crisp, tailored-looking sofa that reads brand new",
+      "buyer_intent_keywords": [
+        "waterproof couch cover for pets",
+        "stretch sofa slipcover",
+        "pet hair couch cover",
+        "sofa cover for dogs",
+        "washable couch cover"
+      ],
+      "scores": {
+        "trend": 6,
+        "transformation": 9,
+        "affiliate": 9,
+        "intent": 8
+      },
+      "composite_score": 32,
+      "why_now": "HGTV's living-room pins today focus on budget small-space refreshes; a couch cover is the fastest reset available and carries Mamma Mia's 24-30% commission."
+    },
+    {
+      "rank": 4,
+      "product_category": "bedroom headboard alternative + pillow refresh",
+      "specific_product": "Eli & Elm cervical side-sleeper pillow + wall-mounted faux headboard panel",
+      "brand": "Eli & Elm",
+      "target_price": "$68",
+      "transformation_hook": "Fill the awkward wall above a headboard-less bed for $68 and fix neck pain too",
+      "before_state": "Bare wall above a bed with no headboard and flat, worn-out pillows",
+      "after_state": "Styled accent wall with a faux headboard panel and plump, supportive pillows",
+      "buyer_intent_keywords": [
+        "headboard alternative",
+        "wall decor above bed",
+        "side sleeper neck pain pillow",
+        "faux headboard",
+        "bedroom wall ideas no headboard"
+      ],
+      "scores": {
+        "trend": 7,
+        "transformation": 8,
+        "affiliate": 8,
+        "intent": 7
+      },
+      "composite_score": 30,
+      "why_now": "HGTV and Apartment Therapy both published pins this week on styling the wall above a headboard-less bed, a cross-source signal worth acting on now."
+    },
+    {
+      "rank": 5,
+      "product_category": "small-kitchen tool organization",
+      "specific_product": "Syruvia countertop and drawer kitchen tool organizer set",
+      "brand": "Syruvia",
+      "target_price": "$34",
+      "transformation_hook": "Turn a cluttered tiny kitchen counter into a magazine-ready setup for $34",
+      "before_state": "Cramped counter buried in loose utensils, cutting boards, and gadgets",
+      "after_state": "Clean, organized counter with every tool in its labeled spot",
+      "buyer_intent_keywords": [
+        "small kitchen organization ideas",
+        "kitchen drawer organizer",
+        "countertop utensil organizer",
+        "tiny kitchen storage hacks",
+        "kitchen tool organizer set"
+      ],
+      "scores": {
+        "trend": 6,
+        "transformation": 8,
+        "affiliate": 9,
+        "intent": 6
+      },
+      "composite_score": 29,
+      "why_now": "HGTV's top kitchen pin today is about packing style into tiny kitchens, and Syruvia's 20% commission makes a tool organizer the easiest affiliate layer to pair with that trend."
+    }
+  ],
+  "raw_signal_count": 85,
+  "sources_used": [
+    "google_trends_daily_us",
+    "pinterest"
+  ]
+}
