@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-10-30 (Affiliate Optimizer 10am)
+# Last updated: 2026-10-31 (Strategy & Outreach 9am)
 # ============================================================
 
 ---
@@ -3844,3 +3844,26 @@ Built on: Email Monitor 13:00 UTC (Gmail CLEAN — 1 decline kupia.io crypto OFF
 15. Complete Homary Awin express signup (merchant 91447, DAY 33) — send affiliate ID to Lauren at affiliate@homary.com.
 16. DECLINE OFF-NICHE Awin invites via browser: FED Fitness, CICYBELL, HealSend, Everblog US, Zlike Hair, Shortcut Chat 131137.
 17. ACCEPT ON-NICHE Awin invites via browser: Tribesigns, SimpleProject 10%, Promeed HerbalRX 20%, CozySpiritStudio 20%, OKUN.
+
+### October 2026 Visual Trend Insights (updated 2026-10-31 Strategy & Outreach 9am)
+
+**Context:** Today is Halloween AND November pivot day. Algorithm shifts Halloween → Cozy November at midnight. Trend Scout Oct 31 top-3: (1) Hard water stains electric descaler [NEW #1], (2) Robot vacuum/mop $149 [#2, triple-confirmed BFCM signal], (3) Pet-hair couch cover $52 [#3, Mamma Mia DAY 52]. Content Engine scripted thermostat/bedroom — NOT Holiday pivot content. Email Monitor CLEAN. BFCM 27 days. Thanksgiving 26 days.
+
+**1. CANDLE WARMER LAMP — PUBLISH COZY NOVEMBER PIVOT TODAY.**
+TikTok #candlewarmer confirmed: 94M+ cumulative views, ACTIVE. Stylish wooden bases + gold-arm + glass-shade design drives saves. Retro BAUBUY version selling out on TikTok Shop. ZERO GHP coverage after 28+ days active trend. Syruvia 20% Impact partner (IAN tracking link overdue). Amazon goldenhomep0a-20 fallback ~$25-35. BFCM gift guide window opens Nov 1. Hook: "Halloween's over. Same shelf. 10 minutes. $29. November starts now." Content Engine: prioritize this script today — highest urgency unscripted product.
+
+**2. THANKSGIVING TABLESCAPE — PINTEREST PEAK SAVE WINDOW OPENS NOW.**
+Trendalytics FW2026 confirms: moody jewel tones (burgundy, plum), cozy nostalgia, raw silk runners, unglazed ceramics, chunky wool placemats. Trend is away from literal harvest decor toward elevated modernism. Tablescape = Pinterest's #1 saved format Oct 31–Nov 25. 26 days to Thanksgiving = maximum lead time for organic saves to compound. Format: "$47 transformed my builder-basic dining table. My family thinks I hired someone." Budget: linen runner $18 + LED taper candles $12 + cloth napkins $17 = $47. goldenhomep0a-20.
+
+**3. HARD WATER STAINS ELECTRIC DESCALER — FIRST APPEARANCE AS TREND SCOUT #1.**
+Trend Scout ranked it #1 Oct 31 (first-ever top signal for this category). Bathroom transformation category — dramatic before/after visual potential. Products: YARNA/iSpring/Eddy/Scalesweeper electronic descalers ~$40-80. No current GHP partner; Amazon goldenhomep0a-20. Script note: whole-house units prevent new scale buildup on pipes — pair with CLR-type spray for existing surface stains to ensure accuracy. Hook: "My shower door had 3 years of hard water stains. This $[X] gadget. Same bathroom. Zero scrubbing."
+
+**COMPETITOR UPDATE (Oct 31):**
+- Alexandra Gater (985K subs): DAY 14 of gap (last upload Oct 17 "240 Sq Ft Studio"). Upload expected any day — window Oct 29–Nov 5. GATER ALERT ACTIVE. If she posts Thanksgiving/cozy content, accelerate our tablescape script immediately.
+- Nest With Me: Crafts focus — no overlap with our renter/transformation niche this week.
+- DIY Creators (Glen): Woodworking — no overlap this week.
+
+**Amazon picks for Pinterest pipeline (Oct 31):**
+1. **Candle warmer lamp E12 adjustable brightness ~$25-35** [HOME DECOR/SEASONAL] — TikTok viral 94M+ views, Cozy November arc TODAY, BFCM gift window opens Nov 1. Wooden base + warm glow = Pinterest saves magnet. Syruvia 20% Impact OR goldenhomep0a-20 (tag: goldenhomep0a-20). IAN: search "candle warmer lamp adjustable E12 wooden" in Associates.
+2. **Thanksgiving linen table runner + LED taper candles ~$30-47** [HOLIDAY DECOR] — Pinterest peak save velocity starts this week (26 days to Nov 26). Moody jewel tone + earth tone confirmed FW2026. Tablescape = highest Pinterest save rate format Nov 1-25. goldenhomep0a-20. IAN: search "linen table runner natural" + "LED taper candles" in Associates.
+3. **Robot vacuum mop combo self-emptying ~$149-199** [HOME APPLIANCES/BFCM] — BFCM 27 days, Trend Scout Oct 31 #2 (triple-confirmed), Dreame 5%+ Impact partner (IAN needs to build link). Amazon goldenhomep0a-20 fallback: search "robot vacuum mop combo self-emptying under $200" in Associates (Dreame D10 Plus, Roomba Combo). Pre-BFCM content Nov 1-10 = maximum commission capture. goldenhomep0a-20.
