@@ -6465,6 +6465,22 @@
       "verified_stars": "4.7",
       "verified_reviews": 26108,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B09Y2DFWD5",
+      "product_name": "SpaceDresser Sheer Voile Curtains for Living Room 84 Inch Long 2 Panels | White Sheer Voile Curtains, Rod Pocket Light F",
+      "categories": [
+        "home",
+        "Window Treatments"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B09Y2DFWD5?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-10-31",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$7.11",
+      "verified_stars": "4.7",
+      "verified_reviews": 13195,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
