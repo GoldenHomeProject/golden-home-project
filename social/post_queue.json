@@ -9156,5 +9156,29 @@
     },
     "hook": "You tug one corner and the opposite corner pops loose.",
     "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-30-001.mp4"
+  },
+  {
+    "name": "reel_2026-10-31_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-10-31-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Stop blaming your thermostat for a hot bedroom.\n\nOrdinary curtains let afternoon sun pour straight through the fabric, and that light carries heat into the room long after the sun moves on. Walls and air soak it up, so the room stays warm well into the evening.\n\nThese are thermal insulated blackout panels, two of them, built to block that heat along with the light instead of just filtering it. With over fifty thousand ratings averaging 4.6 stars, plenty of people have noticed the room runs darker and steadier because of it.\n\nA room that stays cooler in the day and goes properly dark at night, for about $14.\n\nComment LEMOMO and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "LEMOMO Blackout Curtains 52 x 84 inches Long Black Curtains Set of 2 Panels Thermal Insulated Room Darkening Curtains fo",
+      "dm_keyword": "LEMOMO",
+      "amazon_asin": "B07FVMNNQ3",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B07FVMNNQ3?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B07FVMNNQ3?tag=goldenhomep0a-20"
+    },
+    "hook": "Stop blaming your thermostat for a hot bedroom."
   }
 ]
