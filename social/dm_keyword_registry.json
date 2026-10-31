@@ -1326,6 +1326,24 @@
       "discovery_source": "harvest_catalogue",
       "keyword": "LEMOMO",
       "promoted_at": "2026-10-30T12:21:19Z"
+    },
+    {
+      "asin": "B07RZRH662",
+      "product_name": "Pillow Covers Queen Size Set of 4, Soft and Comfy Pillow Cases, White | Hotel-Style Comfort, Extra Soft With Envelop Clo",
+      "categories": [
+        "home",
+        "Bedding"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B07RZRH662?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-09-24",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$11.99",
+      "verified_stars": "4.6",
+      "verified_reviews": 51065,
+      "discovery_source": "harvest_catalogue",
+      "keyword": "COMFY",
+      "promoted_at": "2026-10-31T12:20:53Z"
     }
   ],
   "_vetted_doc": "Verified-live Amazon ASINs cleared for blog/SEO/IG-caption use but NOT yet wired to a Meta comment-to-DM automation. Promote to `entries` (with a unique keyword) only AFTER creating the matching Meta Business Suite automation. Always use https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20 \u2014 never search URLs.",
@@ -5460,22 +5478,6 @@
       "verified_price": "$7.34",
       "verified_stars": "4.5",
       "verified_reviews": 21574,
-      "discovery_source": "harvest_catalogue"
-    },
-    {
-      "asin": "B07RZRH662",
-      "product_name": "Pillow Covers Queen Size Set of 4, Soft and Comfy Pillow Cases, White | Hotel-Style Comfort, Extra Soft With Envelop Clo",
-      "categories": [
-        "home",
-        "Bedding"
-      ],
-      "affiliate_url": "https://www.amazon.com/dp/B07RZRH662?tag=goldenhomep0a-20",
-      "status": "live",
-      "verified_at": "2026-09-24",
-      "verified_method": "best_seller_grid",
-      "verified_price": "$11.99",
-      "verified_stars": "4.6",
-      "verified_reviews": 51065,
       "discovery_source": "harvest_catalogue"
     },
     {
