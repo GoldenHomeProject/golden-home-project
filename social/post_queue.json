@@ -8577,24 +8577,6 @@
     "hook": "I painted my oak cabinets for $89, not $12,000"
   },
   {
-    "name": "reel_repurpose_2026-10-19_903",
-    "status": "ready",
-    "script_path": "automation/scripts/reel-2026-10-19-903.json",
-    "media_type": "REELS",
-    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-19-903.mp4",
-    "caption": "The $89 price tag on this cabinet kit is the headline, not the real number. Between the second kit most kitchens need and the actual cure time, I'm budgeting closer to $180 and three weeks before I'd call it finished. What reviewers wish they'd known before starting, on the blog.",
-    "hashtags": [
-      "#cabinetkit",
-      "#rustoleum",
-      "#diyrenovation",
-      "#kitchenreno",
-      "#cabinetpainting",
-      "#homeimprovementtips"
-    ],
-    "hook": "My $89 cabinet kit actually cost $180, here's why",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-19-903.mp4"
-  },
-  {
     "name": "reel_repurpose_2026-10-19_904",
     "status": "ready",
     "script_path": "automation/scripts/reel-2026-10-19-904.json",
