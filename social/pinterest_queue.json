@@ -8039,14 +8039,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-24-B08B555PFG.png",
     "queued_at": "2026-10-24T10:19:47.931536Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "40 Curtain Rings, No Sewing",
     "recharted": true,
     "variant": "B",
-    "ai_image": true
+    "ai_image": true,
+    "posted_at": "2026-10-31T01:15:31Z"
   },
   {
     "id": "collage-2026-10-24-best-blackout-curtains",
