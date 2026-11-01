@@ -5691,3 +5691,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** BUSINESS_BRAIN.md (November 2026 Visual Trend Insights section added — candle warmer lamp, Thanksgiving tablescape, freezer storage containers)
 **External actions:** none
 **Next agent hint:** 3 content ideas proposed: (1) Candle warmer lamp $29 Cozy November pivot hook "Halloween's over. Same shelf. 10 minutes. $29. November starts now." — Syruvia 20% Impact + goldenhomep0a-20, BFCM gift arc, highest urgency unscripted product DAY 29+; (2) Thanksgiving tablescape $47 jewel-tone Pinterest peak save velocity starts NOW, 25 days to Nov 26, hook "I've set the same boring table for 10 years. $47. My family asked if I hired someone."; (3) Freezer storage containers $29 CJ AliExpress 9% reactivation slot + kitchen org, hook "I've been throwing out freezer-burned food for 3 years. $29. Same freezer. Zero waste now." Amazon picks written to BUSINESS_BRAIN.md: candle warmer lamp E12 ~$29-46, linen runner + LED taper candles ~$30-47, robot vacuum mop combo ~$149-199 (all goldenhomep0a-20). Gater alert: DAY 15 gap, upload window Nov 2-5 — accelerate tablescape/candle warmer if she posts Thanksgiving content. BFCM pre-content window OPEN NOW — robot vacuum content must be live Nov 1-10. Mamma Mia DAY 53 UNBREAKABLE.
+
+## 2026-11-01T13:57:30Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B07RZRH662 (Pillow Covers Queen Size Set of 4, Soft )
+**Changed:** social/carousels/2026-11-01-B07RZRH662/slide-1.png, social/carousels/2026-11-01-B07RZRH662/slide-2.png, social/carousels/2026-11-01-B07RZRH662/slide-3.png, social/carousels/2026-11-01-B07RZRH662/slide-4.png, social/carousels/2026-11-01-B07RZRH662/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B07RZRH662 carousel.
