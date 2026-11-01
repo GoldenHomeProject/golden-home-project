@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-11-01T12:16:33.466543Z",
+  "date": "2026-11-01",
+  "seq": 1,
+  "hook_category": "scene",
+  "hook": "You make the bed but it never looks hotel-crisp.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "A hand smoothing the top of a made bed, pillows stacked at the headboard in natural morning light",
+      "on_screen_text": "Never looks hotel crisp",
+      "voiceover": "You make the bed but it never looks hotel-crisp."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Close-up of a pillow with a visible zipper ridge and a corner poking out from under a loose pillowcase",
+      "on_screen_text": "It's the closure, not the sheets",
+      "voiceover": "Regular pillowcases have a loose or zippered end, so the pillow shifts and pokes out around the edges."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Hands folding the open end flap of a white pillowcase over a pillow, tucking it in",
+      "on_screen_text": "The flap tucks it in fully",
+      "voiceover": "This set closes with a fold-over envelope end instead, so the pillow stays fully covered with no gap."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Four matching white pillows lined up evenly against a headboard in a tidy bedroom",
+      "on_screen_text": "Four matching covers, one set",
+      "voiceover": "It comes as a set of four in white, and over fifty thousand people rate it 4.6 stars."
+    },
+    {
+      "n": 5,
+      "duration_sec": 5,
+      "visual_prompt": "Wide shot of a finished bed with neatly stacked matching pillows, soft daylight through a window",
+      "on_screen_text": "Comment COMFY for the link",
+      "voiceover": "For about twelve dollars your whole pillow row matches and looks pulled together. Comment COMFY and I'll send the link."
+    }
+  ],
+  "caption": "You make the bed but it never looks hotel-crisp.\n\nRegular pillowcases often have a loose or zippered end, so pillows shift inside and poke out around the edges. That little gap is enough to make an otherwise made bed look unfinished.\n\nThis set uses an envelope closure that folds over and tucks the pillow in fully instead of a loose or zippered opening. That keeps all four pillows looking the same across the top of the bed.\n\nFor about $12 you get a matching set of four, so the whole pillow row looks pulled together instead of mismatched.\n\nComment COMFY and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "This set uses an envelope closure that folds over and tucks the pillow in fully instead of a loose or zippered opening. That keeps all four pillows looking the same across the top of the bed.",
+  "affiliate_strategy": {
+    "primary_product": "Pillow Covers Queen Size Set of 4, Soft and Comfy Pillow Cases, White | Hotel-Style Comfort, Extra Soft With Envelop Clo",
+    "dm_keyword": "COMFY",
+    "amazon_asin": "B07RZRH662",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B07RZRH662?tag=goldenhomep0a-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": "https://www.amazon.com/dp/B07RZRH662?tag=goldenhomep0a-20"
+  }
+}

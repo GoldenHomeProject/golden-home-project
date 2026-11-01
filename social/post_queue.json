@@ -9163,5 +9163,29 @@
     },
     "hook": "Stop blaming your thermostat for a hot bedroom.",
     "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-31-001.mp4"
+  },
+  {
+    "name": "reel_2026-11-01_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-01-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "You make the bed but it never looks hotel-crisp.\n\nRegular pillowcases often have a loose or zippered end, so pillows shift inside and poke out around the edges. That little gap is enough to make an otherwise made bed look unfinished.\n\nThis set uses an envelope closure that folds over and tucks the pillow in fully instead of a loose or zippered opening. That keeps all four pillows looking the same across the top of the bed.\n\nFor about $12 you get a matching set of four, so the whole pillow row looks pulled together instead of mismatched.\n\nComment COMFY and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Pillow Covers Queen Size Set of 4, Soft and Comfy Pillow Cases, White | Hotel-Style Comfort, Extra Soft With Envelop Clo",
+      "dm_keyword": "COMFY",
+      "amazon_asin": "B07RZRH662",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B07RZRH662?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B07RZRH662?tag=goldenhomep0a-20"
+    },
+    "hook": "You make the bed but it never looks hotel-crisp."
   }
 ]
