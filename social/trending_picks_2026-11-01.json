@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-11-01",
+  "category": "Bedding",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-bedding-essentials.html",
+  "picks": [
+    {
+      "asin": "B0C1NM42PN",
+      "name": "BEDLORE Waterproof Mattress Protector",
+      "price": "$26.99",
+      "rating": 4.6,
+      "reviews": 28872,
+      "rank": 3
+    },
+    {
+      "asin": "B0BPLB81LX",
+      "name": "Bedsure GentleSoft White Throw Blanket for Couch",
+      "price": "$13.49",
+      "rating": 4.6,
+      "reviews": 28519,
+      "rank": 5
+    },
+    {
+      "asin": "B0725WFLMB",
+      "name": "Bedsure Satin Pillowcases Queen Set of 2",
+      "price": "$6.99",
+      "rating": 4.5,
+      "reviews": 323239,
+      "rank": 7
+    },
+    {
+      "asin": "B0714K41PB",
+      "name": "Utopia Bedding Throw Pillows",
+      "price": "$25.49",
+      "rating": 4.6,
+      "reviews": 129029,
+      "rank": 26
+    },
+    {
+      "asin": "B07PCQKTCN",
+      "name": "Bedsure Prewashed Duvet Cover Queen",
+      "price": "$19.99",
+      "rating": 4.5,
+      "reviews": 38752,
+      "rank": 9
+    },
+    {
+      "asin": "B0157T2ENY",
+      "name": "Bedsure Fleece Bed Blankets Queen Size Grey",
+      "price": "$19.99",
+      "rating": 4.6,
+      "reviews": 180638,
+      "rank": 11
+    }
+  ]
+}
