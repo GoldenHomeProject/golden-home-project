@@ -1344,6 +1344,18 @@
       "discovery_source": "harvest_catalogue",
       "keyword": "COMFY",
       "promoted_at": "2026-10-31T12:20:53Z"
+    },
+    {
+      "asin": "B08WPQ12XX",
+      "product_name": "AquaCare 8-mode High Pressure Handheld Shower Head with 2-mode Power W",
+      "categories": [],
+      "status": "live",
+      "verified_price": "$29.94",
+      "verified_stars": "4.5",
+      "verified_reviews": 50915,
+      "source": "trending",
+      "keyword": "AQUACARE",
+      "promoted_at": "2026-11-01T13:20:33Z"
     }
   ],
   "_vetted_doc": "Verified-live Amazon ASINs cleared for blog/SEO/IG-caption use but NOT yet wired to a Meta comment-to-DM automation. Promote to `entries` (with a unique keyword) only AFTER creating the matching Meta Business Suite automation. Always use https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20 \u2014 never search URLs.",
@@ -2680,22 +2692,6 @@
       "verified_price": "$11.69",
       "verified_stars": "4.5",
       "verified_reviews": 6605,
-      "discovery_source": "harvest_catalogue"
-    },
-    {
-      "asin": "B08WPQ12XX",
-      "product_name": "AquaCare 8-mode High Pressure Handheld Shower Head with 2-mode Power Wash | Stay Clean Nozzles, Dual Power Wash for Tub,",
-      "categories": [
-        "home",
-        "Bath"
-      ],
-      "affiliate_url": "https://www.amazon.com/dp/B08WPQ12XX?tag=goldenhomep0a-20",
-      "status": "live",
-      "verified_at": "2026-08-23",
-      "verified_method": "best_seller_grid",
-      "verified_price": "$29.94",
-      "verified_stars": "4.5",
-      "verified_reviews": 50191,
       "discovery_source": "harvest_catalogue"
     },
     {

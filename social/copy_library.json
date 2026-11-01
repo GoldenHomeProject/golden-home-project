@@ -4640,6 +4640,52 @@
           }
         ]
       }
+    ],
+    "AQUACARE": [
+      {
+        "hook_category": "mistake",
+        "hook": "Weak water pressure isn't your pipes. It's your showerhead.",
+        "beat1": "Most bathrooms still have the plain fixed head that came with the house, and it only does one thing: a single steady stream. When the building's water pressure is already low, that one setting is the whole experience, every single day.",
+        "turn": "This handheld head gives you eight spray modes plus a 2-mode power wash setting, so you can switch from a wide rinse to a stronger, more focused stream right from your hand. It's rated 4.5 stars by over fifty thousand people.",
+        "result": "You get a shower that actually adjusts to what you want that day, for about $30.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close-up of a hand turning on a plain, old showerhead in a tiled shower, water trickling out weakly",
+            "on_screen_text": "Not your pipes. Your showerhead.",
+            "voiceover": "Weak water pressure isn't your pipes. It's your showerhead."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Wide shot of a plain bathroom shower wall with a basic fixed showerhead, steam in the air",
+            "on_screen_text": "One setting, every single day",
+            "voiceover": "Most showerheads only do one thing, a single steady stream, so if the water pressure's already low, that's your whole shower, every day."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Hand holding a handheld shower head with a textured dial, thumb switching between spray settings as water changes pattern",
+            "on_screen_text": "Eight modes, one switch",
+            "voiceover": "This one's handheld with eight spray modes and a power wash setting, so you switch from a wide rinse to a stronger stream right in your hand."
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "Hand adjusting the showerhead mounted on a slide bar in a modern bathroom, water flowing in a focused jet pattern",
+            "on_screen_text": "Rated 4.5 stars",
+            "voiceover": "It's rated 4.5 stars by over fifty thousand people who've already put it in their own shower."
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "Person's hand under the running shower water, steam rising, relaxed posture, bathroom background softly lit",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "A shower that actually matches your mood, for about thirty dollars. Comment {KEYWORD} and I'll send the link."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
