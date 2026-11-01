@@ -8232,14 +8232,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-26-B0F3332VRX.png",
     "queued_at": "2026-10-26T10:10:56.584588Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "Block Light, Cut Heat Loss",
     "recharted": true,
     "variant": "B",
-    "ai_image": true
+    "ai_image": true,
+    "posted_at": "2026-11-01T14:41:46Z"
   },
   {
     "id": "pin-2026-10-26-B00U6HREPQ",
