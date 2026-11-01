@@ -6483,6 +6483,38 @@
       "verified_stars": "4.7",
       "verified_reviews": 13195,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B084TC8D4L",
+      "product_name": "Gas One 12 Pack 6 Hour Chafing Fuel - Food Warmer for Chafing Dish Buffet Set - Reusable Liquid Safe Fuel With Wick & Li",
+      "categories": [
+        "kitchen",
+        "Kitchen"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B084TC8D4L?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-11-01",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$24.99",
+      "verified_stars": "4.7",
+      "verified_reviews": 11323,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0B6H9JF8N",
+      "product_name": "Reynolds Kitchens Slow Cooker Liners, Regular Size, Fits 3-8 Quarts, 20ct | Fits 3-8 Qt Round and Oval Slow Cookers, No-",
+      "categories": [
+        "kitchen",
+        "Kitchen"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0B6H9JF8N?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-11-01",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$7.63",
+      "verified_stars": "4.8",
+      "verified_reviews": 7437,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
