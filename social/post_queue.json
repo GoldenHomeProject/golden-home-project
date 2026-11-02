@@ -8577,24 +8577,6 @@
     "hook": "I painted my oak cabinets for $89, not $12,000"
   },
   {
-    "name": "reel_repurpose_2026-10-19_905",
-    "status": "ready",
-    "script_path": "automation/scripts/reel-2026-10-19-905.json",
-    "media_type": "REELS",
-    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-19-905.mp4",
-    "caption": "The cabinets are already empty for cure time \u2014 that's the one point in a kitchen's life where organizing the corner cabinet costs nothing extra. Add $25 in non-skid turntables and $20 in towels that actually match the new color, and the $89 paint job stops looking like an isolated change. Full list and links on the blog.",
-    "hashtags": [
-      "#kitchenorganization",
-      "#lazysusan",
-      "#cabinetorganizer",
-      "#kitchenmakeover",
-      "#smallkitchenideas",
-      "#homeorganizing"
-    ],
-    "hook": "$45 in extras while the cabinets are already empty",
-    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-19-905.mp4"
-  },
-  {
     "name": "reel_2026-10-20_001",
     "status": "awaiting_video",
     "script_path": "automation/scripts/reel-2026-10-20-001.json",
