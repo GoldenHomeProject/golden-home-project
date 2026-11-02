@@ -1,12 +1,12 @@
 {
- "captured_at": "2026-11-01T10:41:03+00:00",
+ "captured_at": "2026-11-02T10:41:03+00:00",
  "items": [
   {
    "asin": "B00FXNAAW2",
    "name": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers, Closet Organizer, Black, 50-Pack",
    "price": "$16.99",
    "rating": 4.8,
-   "reviews": 238681,
+   "reviews": 238705,
    "rank": 1,
    "category": "Home",
    "source": "bestsellers"
@@ -16,7 +16,7 @@
    "name": "Amazon Basics Collapsible Fabric Storage Cubes Organizer with Handles, Sturdy Storage Bins for Organization, 10.5\" x 10.",
    "price": "$17.84",
    "rating": 4.7,
-   "reviews": 120587,
+   "reviews": 120591,
    "rank": 1,
    "category": "Home Storage",
    "source": "bestsellers"
@@ -26,7 +26,7 @@
    "name": "Barossa Design Oeko-tex Certified Shower Curtain Liner Standard Size, Clear | Waterproof PEVA, Rustproof Grommets, 3 Bot",
    "price": "$8.95",
    "rating": 4.5,
-   "reviews": 102441,
+   "reviews": 102446,
    "rank": 1,
    "category": "Bath",
    "source": "bestsellers"
@@ -36,19 +36,9 @@
    "name": "BigFoot Clear Shower Curtain - 72x72 Odorless Plastic with Magnets, Washable Long Bathroom Curtain - Premium PEVA Waterp",
    "price": "$9.98",
    "rating": 4.5,
-   "reviews": 60024,
-   "rank": 3,
+   "reviews": 60027,
+   "rank": 2,
    "category": "Bath",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B0C1NM42PN",
-   "name": "BEDLORE Waterproof Mattress Protector, Queen Size Mattress Pad Noiseless | Deep Pockets Fit 6\"-18\" Mattresses, Soft Brea",
-   "price": "$26.99",
-   "rating": 4.6,
-   "reviews": 28872,
-   "rank": 3,
-   "category": "Bedding",
    "source": "bestsellers"
   },
   {
@@ -56,9 +46,19 @@
    "name": "KitchenAid Classic Multifunction Can Opener and Bottle Opener Easy to Use, Razor Sharp Stainless Steel Cutting Wheel, So",
    "price": "$15.99",
    "rating": 4.6,
-   "reviews": 86956,
-   "rank": 4,
+   "reviews": 86959,
+   "rank": 3,
    "category": "Kitchen",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B0C1NM42PN",
+   "name": "BEDLORE Waterproof Mattress Protector, Queen Size Mattress Pad Noiseless | Deep Pockets Fit 6\"-18\" Mattresses, Soft Brea",
+   "price": "$26.99",
+   "rating": 4.6,
+   "reviews": 28879,
+   "rank": 3,
+   "category": "Bedding",
    "source": "bestsellers"
   },
   {
@@ -66,7 +66,7 @@
    "name": "Hicober Microfiber Hair Towel Wrap for Women, Blue Grey Pink, 3-Pack | Soft, highly absorbent wrap helps hair dry faster",
    "price": "$12.99",
    "rating": 4.6,
-   "reviews": 35366,
+   "reviews": 35370,
    "rank": 5,
    "category": "Bath Linens",
    "source": "bestsellers"
@@ -76,7 +76,7 @@
    "name": "Bedsure GentleSoft White Throw Blanket for Couch - Christmas Thanksgiving Decorations for Home Room Decor, Cozy Fleece B",
    "price": "$13.49",
    "rating": 4.6,
-   "reviews": 28515,
+   "reviews": 28548,
    "rank": 5,
    "category": "Bedding",
    "source": "bestsellers"
@@ -86,19 +86,29 @@
    "name": "GODONLIF Candle Warmer Lamp with Timer, Birthday Gifts for Women Home Decor | 24h Cycle Timer Dimmable Wax Melt Warmer w",
    "price": "$21.99",
    "rating": 4.6,
-   "reviews": 11766,
+   "reviews": 11773,
    "rank": 5,
    "category": "Home D\u00e9cor",
    "source": "bestsellers"
   },
   {
-   "asin": "B0113UZJE2",
-   "name": "Etekcity Food Kitchen Scale, Digital Grams and Ounces, 11lb | Tare function, ideal for baking, weight loss, keto, meal p",
-   "price": "$13.99",
+   "asin": "B08D9RNB1D",
+   "name": "Leafeon 150 Pack Ornament Hooks for Christmas - Essential Christmas Ornament Hangers - Perfect Xmas Ornament Hangers for",
+   "price": "$6.99",
    "rating": 4.6,
-   "reviews": 178199,
+   "reviews": 6155,
+   "rank": 5,
+   "category": "Seasonal D\u00e9cor",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B01NBNDC1T",
+   "name": "Utopia Bedding 18x18 pillow inserts, White Throw Pillows for Couch, 2 Pack | 100% Virgin Filling, Indoor Cushion Inserts",
+   "price": "$17.89",
+   "rating": 4.6,
+   "reviews": 219887,
    "rank": 6,
-   "category": "Kitchen",
+   "category": "Home D\u00e9cor",
    "source": "bestsellers"
   },
   {
@@ -106,9 +116,39 @@
    "name": "Titanker Shower Curtain Hooks Rings, Rust Resistant Metal Double Glide Shower Hooks Rings for Bathroom Shower Rods Curta",
    "price": "$6.99",
    "rating": 4.6,
-   "reviews": 63841,
+   "reviews": 63846,
    "rank": 6,
    "category": "Bath",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B08BZFRQLS",
+   "name": "ALYVIA SPRING Waterproof Fabric Shower Curtain or Liner White, 72x72 | 3 Magnets, Soft Cloth & Hotel Quality, Machine Wa",
+   "price": "$9.98",
+   "rating": 4.5,
+   "reviews": 62042,
+   "rank": 7,
+   "category": "Bath",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B06X421WJ6",
+   "name": "Utopia Home Plastic Hangers 50 Pack \u2013 Space Saving Clothes Hanger White | Durable & strong | Closet organizer & storage ",
+   "price": "$21.84",
+   "rating": 4.7,
+   "reviews": 50147,
+   "rank": 7,
+   "category": "Home",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B07F897P1G",
+   "name": "Wreath Hanger,Christmas Decorations Adjustable Wreath Hanger for Front Door | Over The Door Hooks Organizer 20 lbs, Home",
+   "price": "$8.99",
+   "rating": 4.6,
+   "reviews": 8114,
+   "rank": 7,
+   "category": "Seasonal D\u00e9cor",
    "source": "bestsellers"
   },
   {
@@ -116,8 +156,8 @@
    "name": "YaFex Curtain Rods 32-144 Inch, Heavy Duty 1 Inch Adjustable Curtain Rod for Windows, Black Extra Long Window Treatment ",
    "price": "$24.69",
    "rating": 4.6,
-   "reviews": 5378,
-   "rank": 6,
+   "reviews": 5380,
+   "rank": 7,
    "category": "Home D\u00e9cor",
    "source": "bestsellers"
   },
@@ -126,29 +166,9 @@
    "name": "Bedsure Satin Pillowcases Queen Set of 2, Similar to Silk Pillow Cases Grey | Silky Pillowcase for Hair and Skin, Decora",
    "price": "$6.99",
    "rating": 4.5,
-   "reviews": 323237,
-   "rank": 7,
+   "reviews": 323246,
+   "rank": 8,
    "category": "Bedding",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B01NBNDC1T",
-   "name": "Utopia Bedding 18x18 pillow inserts, White Throw Pillows for Couch, 2 Pack | 100% Virgin Filling, Indoor Cushion Inserts",
-   "price": "$17.89",
-   "rating": 4.6,
-   "reviews": 219876,
-   "rank": 7,
-   "category": "Home D\u00e9cor",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B08BZFRQLS",
-   "name": "ALYVIA SPRING Waterproof Fabric Shower Curtain or Liner White, 72x72 | 3 Magnets, Soft Cloth & Hotel Quality, Machine Wa",
-   "price": "$9.98",
-   "rating": 4.5,
-   "reviews": 62037,
-   "rank": 7,
-   "category": "Bath",
    "source": "bestsellers"
   },
   {
@@ -156,47 +176,27 @@
    "name": "Amazon Basics Fast Drying Cotton Washcloths for Bathroom, Machine Washable, Soft and Highly Absorbent, 12 x 12 in, White",
    "price": "$13.63",
    "rating": 4.6,
-   "reviews": 76351,
+   "reviews": 76352,
    "rank": 8,
    "category": "Bath",
    "source": "bestsellers"
   },
   {
-   "asin": "B007JCHA6E",
-   "name": "Utopia Towels 24 Pack Washcloths, 12x12 in, 100% Cotton, White | Premium 100% Ring Spun Cotton Face Cloths Absorbent, Fa",
-   "price": "$20.99",
-   "rating": 4.6,
-   "reviews": 75905,
-   "rank": 8,
-   "category": "Bath Linens",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B00W5D1MDE",
-   "name": "Clorox Toilet Bowl Cleaner Clinging Bleach Gel, Kills 99.9% of Bacteria and Viruses, Ocean Mist, 24 Fl Oz, Pack of 2",
-   "price": "$5.29",
-   "rating": 4.8,
-   "reviews": 63728,
-   "rank": 8,
-   "category": "Cleaning",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B06X421WJ6",
-   "name": "Utopia Home Plastic Hangers 50 Pack \u2013 Space Saving Clothes Hanger White | Durable & strong | Closet organizer & storage ",
-   "price": "$21.84",
+   "asin": "B0B3544GYM",
+   "name": "OWENIE White Sheer Curtains 84 inches Long 2 Panels Set For Living Room | Sheer White Curtain for Bedroom, Rod Pocket Li",
+   "price": "$7.92",
    "rating": 4.7,
-   "reviews": 50146,
+   "reviews": 17582,
    "rank": 8,
-   "category": "Home",
+   "category": "Window Treatments",
    "source": "bestsellers"
   },
   {
    "asin": "B0D89V1RX1",
    "name": "2x6 Hallway Washable Runner Rug : Vintage Soft Kitchen Laundry Runner with Non Slip Backing Farmhouse Entryway Living Ro",
-   "price": "$16.99",
+   "price": "$16.14",
    "rating": 4.6,
-   "reviews": 11338,
+   "reviews": 11346,
    "rank": 8,
    "category": "Home D\u00e9cor",
    "source": "bestsellers"
@@ -206,9 +206,29 @@
    "name": "Etekcity Digital Body Weight Bathroom Scale, 6mm Tempered Glass, 400 lbs | Large Blue LCD Backlight Display, High Precis",
    "price": "$16.83",
    "rating": 4.7,
-   "reviews": 187362,
+   "reviews": 187368,
    "rank": 9,
    "category": "Bath",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B0113UZJE2",
+   "name": "Etekcity Food Kitchen Scale, Digital Grams and Ounces, 11lb | Tare function, ideal for baking, weight loss, keto, meal p",
+   "price": "$13.99",
+   "rating": 4.6,
+   "reviews": 178209,
+   "rank": 9,
+   "category": "Kitchen",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B00W5D1MDE",
+   "name": "Clorox Toilet Bowl Cleaner Clinging Bleach Gel, Kills 99.9% of Bacteria and Viruses, Ocean Mist, 24 Fl Oz, Pack of 2",
+   "price": "$5.24",
+   "rating": 4.8,
+   "reviews": 63728,
+   "rank": 9,
+   "category": "Cleaning",
    "source": "bestsellers"
   },
   {
@@ -216,29 +236,9 @@
    "name": "Bedsure Prewashed Duvet Cover Queen, Bedding Set with Zipper Closure, White | Ultra Soft, Relaxed Texture, Breathable Co",
    "price": "$19.99",
    "rating": 4.5,
-   "reviews": 38752,
+   "reviews": 38753,
    "rank": 9,
    "category": "Bedding",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B0B3544GYM",
-   "name": "OWENIE White Sheer Curtains 84 inches Long 2 Panels Set For Living Room | Sheer White Curtain for Bedroom, Rod Pocket Li",
-   "price": "$7.92",
-   "rating": 4.7,
-   "reviews": 17576,
-   "rank": 9,
-   "category": "Window Treatments",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B07F897P1G",
-   "name": "Wreath Hanger,Christmas Decorations Adjustable Wreath Hanger for Front Door | Over The Door Hooks Organizer 20 lbs, Home",
-   "price": "$8.99",
-   "rating": 4.6,
-   "reviews": 8115,
-   "rank": 9,
-   "category": "Seasonal D\u00e9cor",
    "source": "bestsellers"
   },
   {
@@ -246,28 +246,28 @@
    "name": "LiBa Shower Curtain PEVA 8G, 72x72 Inch Waterproof Clear | Non-toxic shower curtain, waterproof plastic shower curtain, ",
    "price": "$9.99",
    "rating": 4.6,
-   "reviews": 148358,
+   "reviews": 148359,
    "rank": 10,
    "category": "Bath",
    "source": "bestsellers"
   },
   {
-   "asin": "B0F3332VRX",
-   "name": "MIULEE Blackout Curtains for Bedroom 2 Panels 40 x 84 Inch Long Black | Thermal Insulated, Halloween Living Room Darkeni",
-   "price": "$13.12",
+   "asin": "B007JCHA6E",
+   "name": "Utopia Towels 24 Pack Washcloths, 12x12 in, 100% Cotton, White | Premium 100% Ring Spun Cotton Face Cloths Absorbent, Fa",
+   "price": "$20.99",
    "rating": 4.6,
-   "reviews": 7884,
+   "reviews": 75908,
    "rank": 10,
-   "category": "Home D\u00e9cor",
+   "category": "Bath Linens",
    "source": "bestsellers"
   },
   {
-   "asin": "B0157T2ENY",
-   "name": "Bedsure Fleece Bed Blankets Queen Size Grey - Soft Cozy Warm Halloween Fall Throw Blanket Lightweight Room Home Decor, C",
-   "price": "$19.99",
-   "rating": 4.6,
-   "reviews": 180633,
-   "rank": 11,
+   "asin": "B08BBZKSTS",
+   "name": "Queen Size Mattress Protector Waterproof,Absorbent Fitted Sheet | up to 18\" Deep Pocket,Mattress Cover Queen Size Bed Sh",
+   "price": "$13.99",
+   "rating": 4.5,
+   "reviews": 19302,
+   "rank": 10,
    "category": "Bedding",
    "source": "bestsellers"
   },
@@ -276,9 +276,19 @@
    "name": "NICETOWN Black Blackout Curtains for Bedroom 42\" wide x 63\" Long 2 Panels | Solid Grommet Thermal Insulated Drapes, Nois",
    "price": "$9.88",
    "rating": 4.6,
-   "reviews": 134375,
+   "reviews": 134379,
    "rank": 11,
    "category": "Home D\u00e9cor",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B09FX7TFJV",
+   "name": "MR.SIGA Microfiber Cleaning Cloths, Streak Free Microfiber Towels, 12 Pack | All-purpose microfiber cloths, ultra absorb",
+   "price": "$16.75",
+   "rating": 4.7,
+   "reviews": 105474,
+   "rank": 11,
+   "category": "Bath Linens",
    "source": "bestsellers"
   },
   {
@@ -286,7 +296,7 @@
    "name": "KitchenAid All Purpose Kitchen Shears with Protective Sheath Durable Stainless Steel Scissors, Dishwasher Safe, Soft Gri",
    "price": "$9.99",
    "rating": 4.8,
-   "reviews": 72903,
+   "reviews": 72908,
    "rank": 11,
    "category": "Kitchen",
    "source": "bestsellers"
@@ -296,29 +306,9 @@
    "name": "Dynamene Waffle Shower Curtain 256 GSM Heavy Duty Fabric 72\"x72\" White | Thick Textured Cloth, Weighted Hem, Water Repel",
    "price": "$15.98",
    "rating": 4.6,
-   "reviews": 26886,
+   "reviews": 26887,
    "rank": 11,
    "category": "Bath",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B07B6GC5GY",
-   "name": "Amazon Basics Cotton Washcloths, Lightweight Quick-Dry, Absorbent Face and Body Towel Set, 12\" x 12\", White, 12-Pack",
-   "price": "$9.58",
-   "rating": 4.6,
-   "reviews": 11245,
-   "rank": 11,
-   "category": "Bath Linens",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B08D9RNB1D",
-   "name": "Leafeon 150 Pack Ornament Hooks for Christmas - Essential Christmas Ornament Hangers - Perfect Xmas Ornament Hangers for",
-   "price": "$6.99",
-   "rating": 4.6,
-   "reviews": 6155,
-   "rank": 11,
-   "category": "Seasonal D\u00e9cor",
    "source": "bestsellers"
   },
   {
@@ -326,59 +316,29 @@
    "name": "Utopia Bedding Gusset Bed Pillow, Hotel Pillows Queen Size Set of 2, White | Cotton Blended Down alternative pillows for",
    "price": "$29.89",
    "rating": 4.5,
-   "reviews": 80588,
+   "reviews": 80586,
    "rank": 12,
    "category": "Bedding",
    "source": "bestsellers"
   },
   {
-   "asin": "B075QKDKMV",
-   "name": "Amazon Basics Kids Velvet Non-Slip Space Saving Clothes Hangers with Shoulder Notches, Sturdy Closet Organizer for Baby/",
-   "price": "$15.49",
-   "rating": 4.8,
-   "reviews": 79219,
-   "rank": 12,
-   "category": "Home",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B07C41SYJ7",
-   "name": "Amazon Basics Soft and Thick Cotton Hand Towels for Bath, Kitchen, Gym, 16 x 26 in, White, 12-Pack",
-   "price": "$19.99",
+   "asin": "B07B6GC5GY",
+   "name": "Amazon Basics Cotton Washcloths, Lightweight Quick-Dry, Absorbent Face and Body Towel Set, 12\" x 12\", White, 12-Pack",
+   "price": "$9.58",
    "rating": 4.6,
-   "reviews": 19399,
+   "reviews": 11246,
    "rank": 12,
    "category": "Bath Linens",
    "source": "bestsellers"
   },
   {
-   "asin": "B0BR3STN87",
-   "name": "Linen Total Blackout Curtains for Bedroom Living Room 84 Inch, Cream | 100% Blackout Shield Linen Textured Back Tab/Rod ",
-   "price": "$32.97",
+   "asin": "B0F3332VRX",
+   "name": "MIULEE Blackout Curtains for Bedroom 2 Panels 40 x 84 Inch Long Black | Thermal Insulated, Halloween Living Room Darkeni",
+   "price": "$14.58",
    "rating": 4.5,
-   "reviews": 9235,
+   "reviews": 7888,
    "rank": 12,
    "category": "Home D\u00e9cor",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B09FX7TFJV",
-   "name": "MR.SIGA Microfiber Cleaning Cloths, Streak Free Microfiber Towels, 12 Pack | All-purpose microfiber cloths, ultra absorb",
-   "price": "$16.75",
-   "rating": 4.7,
-   "reviews": 105464,
-   "rank": 13,
-   "category": "Bath Linens",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B08BBZKSTS",
-   "name": "Queen Size Mattress Protector Waterproof,Absorbent Fitted Sheet | up to 18\" Deep Pocket,Mattress Cover Queen Size Bed Sh",
-   "price": "$12.59",
-   "rating": 4.5,
-   "reviews": 19302,
-   "rank": 13,
-   "category": "Bedding",
    "source": "bestsellers"
   },
   {
@@ -386,9 +346,69 @@
    "name": "Nanspring Linen Curtains 84 Inch 7ft for Living Room Back Tab Ivory Natural | Cream Beige, Semi Sheer Light Filtering Pr",
    "price": "$13.98",
    "rating": 4.7,
-   "reviews": 7405,
+   "reviews": 7406,
+   "rank": 12,
+   "category": "Window Treatments",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B0157T2ENY",
+   "name": "Bedsure Fleece Bed Blankets Queen Size Grey - Soft Cozy Warm Winter Throw Blanket Lightweight Room Home Decor, Christmas",
+   "price": "$19.99",
+   "rating": 4.6,
+   "reviews": 180656,
+   "rank": 13,
+   "category": "Bedding",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B07C9HL1G1",
+   "name": "H.VERSAILTEX 100% Blackout Linen Curtains 84\"L 2 Panels Natural | Total Black Out Drapes, Room Darkening Thermal Insulat",
+   "price": "$27.95",
+   "rating": 4.6,
+   "reviews": 26123,
    "rank": 13,
    "category": "Window Treatments",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B0BR3STN87",
+   "name": "Linen Total Blackout Curtains for Bedroom Living Room 84 Inch, Cream | 100% Blackout Shield Linen Textured Back Tab/Rod ",
+   "price": "$32.97",
+   "rating": 4.5,
+   "reviews": 9236,
+   "rank": 13,
+   "category": "Home D\u00e9cor",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B075QKDKMV",
+   "name": "Amazon Basics Kids Velvet Non-Slip Space Saving Clothes Hangers with Shoulder Notches, Sturdy Closet Organizer for Baby/",
+   "price": "$15.49",
+   "rating": 4.8,
+   "reviews": 79218,
+   "rank": 14,
+   "category": "Home",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B07WKBYXRC",
+   "name": "ARCH&M Exfoliating Washcloth & Japanese Shower Towel, 3 Pack, Body Scrubber | Japanese Washcloth, Korean Back Scrubber T",
+   "price": "$9.99",
+   "rating": 4.5,
+   "reviews": 15202,
+   "rank": 14,
+   "category": "Bath Linens",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B084TC8D4L",
+   "name": "Gas One 12 Pack 6 Hour Chafing Fuel - Food Warmer for Chafing Dish Buffet Set - Reusable Liquid Safe Fuel With Wick & Li",
+   "price": "$24.99",
+   "rating": 4.7,
+   "reviews": 11324,
+   "rank": 14,
+   "category": "Kitchen",
    "source": "bestsellers"
   },
   {
@@ -397,58 +417,8 @@
    "price": "$25.49",
    "rating": 4.6,
    "reviews": 129029,
-   "rank": 14,
-   "category": "Home D\u00e9cor",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B07C9HL1G1",
-   "name": "H.VERSAILTEX 100% Blackout Linen Curtains 84\"L 2 Panels Natural | Total Black Out Drapes, Room Darkening Thermal Insulat",
-   "price": "$27.95",
-   "rating": 4.6,
-   "reviews": 26121,
-   "rank": 14,
-   "category": "Window Treatments",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B084TC8D4L",
-   "name": "Gas One 12 Pack 6 Hour Chafing Fuel - Food Warmer for Chafing Dish Buffet Set - Reusable Liquid Safe Fuel With Wick & Li",
-   "price": "$24.99",
-   "rating": 4.7,
-   "reviews": 11323,
-   "rank": 14,
-   "category": "Kitchen",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B08KXKVT4K",
-   "name": "Vtopmart 25 Pack Clear Plastic Drawer Organizers with Non-slip Rubber Pads | 4-Size Versatile Makeup Organizer, Storage ",
-   "price": "$18.99",
-   "rating": 4.7,
-   "reviews": 49479,
-   "rank": 15,
-   "category": "Home",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B0815BLNX1",
-   "name": "GORILLA GRIP\u00ae Extra Long Rug Grippers for Hardwood Floor, Reusable, Black | Dual-Sided Adhesives Pads Keep Area Rugs Cor",
-   "price": "$11.49",
-   "rating": 4.5,
-   "reviews": 31765,
    "rank": 15,
    "category": "Home D\u00e9cor",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B07WKBYXRC",
-   "name": "ARCH&M Exfoliating Washcloth & Japanese Shower Towel, 3 Pack, Body Scrubber | Japanese Washcloth, Korean Back Scrubber T",
-   "price": "$9.99",
-   "rating": 4.5,
-   "reviews": 15200,
-   "rank": 15,
-   "category": "Bath Linens",
    "source": "bestsellers"
   },
   {
@@ -456,329 +426,19 @@
    "name": "GORILLA GRIP Bath Tub Shower Mat, Bathtub Floor Liner, 35x16 Clear | Patented Large Mats, Machine Washable, Suction Cups",
    "price": "$23.79",
    "rating": 4.5,
-   "reviews": 112453,
-   "rank": 16,
+   "reviews": 112456,
+   "rank": 15,
    "category": "Bath",
    "source": "bestsellers"
   },
   {
-   "asin": "B078HWZJWS",
-   "name": "M-bestl 2 Pack Microfiber Hair Towel Wrap with Button,Quick Dry(Pink&Beige) | Hair Drying Towel for Women,lightweight,An",
-   "price": "$8.98",
-   "rating": 4.6,
-   "reviews": 22691,
-   "rank": 16,
-   "category": "Bath Linens",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B07236M4HC",
-   "name": "AmazerBath Plastic Shower Curtain Clear Premium PEVA, Clear Shower Curtain Heavy Duty 8G, Weighted Shower Curtains for B",
-   "price": "$9.98",
-   "rating": 4.6,
-   "reviews": 93004,
-   "rank": 17,
-   "category": "Bath",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B01N20YR6B",
-   "name": "rabbitgoo Rainbow Window Privacy Film, Stained Glass Cling, 17.5\" x 78.7\" | Decorative Static Sticker, Non-Adhesive Reus",
-   "price": "$7.99",
-   "rating": 4.5,
-   "reviews": 80807,
-   "rank": 17,
-   "category": "Window Treatments",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B01M0AGUPO",
-   "name": "King Pillow Cases Set of 2 - Ultra Soft Cozy Pillowcase Covers - White | Hotel Quality, Comfortable Bedding for Women, M",
-   "price": "$15.99",
-   "rating": 4.6,
-   "reviews": 61065,
-   "rank": 17,
-   "category": "Bedding",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B07HMRZSWT",
-   "name": "1000 sqft Spider Webs Halloween Decorations with 30 Fake Spiders | Super Stretch Cobwebs for Halloween Indoor and Outdoo",
-   "price": "$14.49",
-   "rating": 4.5,
-   "reviews": 5368,
-   "rank": 17,
-   "category": "Seasonal D\u00e9cor",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B00U6HREPQ",
-   "name": "Utopia Bedding Waterproof Mattress Protector Queen Size, Zippered Mattress Encasement Bed Bug and Dust Mite Proof, Absor",
-   "price": "$27.99",
-   "rating": 4.6,
-   "reviews": 134599,
-   "rank": 18,
-   "category": "Bedding",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B06X9NQ8GX",
-   "name": "Amazon Basics Digital Kitchen Scale with LCD Display, Tare Function, Multiple Units, Weighs up to 11 Pounds, Batteries I",
-   "price": "$11.14",
-   "rating": 4.7,
-   "reviews": 120099,
-   "rank": 18,
-   "category": "Kitchen",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B000ST1DZO",
-   "name": "Drano Max Gel Drain Clog Remover & Cleaner, Safe for All Pipes/Septic, 32oz | Works on Tough Hair, Grease, Soap & Food C",
-   "price": "$5.17",
-   "rating": 4.5,
-   "reviews": 78291,
-   "rank": 19,
-   "category": "Cleaning",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B015SJ7RYY",
-   "name": "NICETOWN Grey Blackout Curtains for Bedroom 84 Inches Long, 2 Panels, W52\" | Thermal Drapes Grommet Room Darkening Light",
-   "price": "$19.49",
-   "rating": 4.7,
-   "reviews": 62450,
-   "rank": 19,
-   "category": "Window Treatments",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B07H4HHNQK",
-   "name": "Sattiyrch 15\" Wreath Hanger for Front Door, Over the Door Wreath Hook | No drilling or screws,closes normally,holds up t",
-   "price": "$5.59",
-   "rating": 4.7,
-   "reviews": 30615,
-   "rank": 19,
-   "category": "Seasonal D\u00e9cor",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B078R3NDPH",
-   "name": "Ultra Soft Pillow Protectors with Zipper - Standard Size - Set of 4 - White | 100% Protection Against Stains, Dust & Dir",
-   "price": "$9.99",
-   "rating": 4.7,
-   "reviews": 27237,
-   "rank": 20,
-   "category": "Bedding",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B0103XVVME",
-   "name": "White Classic Luxury White Hand Towels - 100% Turkish Cotton, 16x30, 6 Pack | Soft, Highly Absorbent 650 GSM Bathroom Ha",
-   "price": "$22.99",
-   "rating": 4.5,
-   "reviews": 25289,
-   "rank": 20,
-   "category": "Bath Linens",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B0B6H9JF8N",
-   "name": "Reynolds Kitchens Slow Cooker Liners, Regular Size, Fits 3-8 Quarts, 20ct | Fits 3-8 Qt Round and Oval Slow Cookers, No-",
-   "price": "$7.63",
-   "rating": 4.8,
-   "reviews": 7437,
-   "rank": 20,
-   "category": "Kitchen",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B0DZFGTCLR",
-   "name": "Candle Warmer Lamp with Timer Home Decor birthday gifts for women | Dimmable Candle Warmer for Jar Candles, Height Adjus",
-   "price": "$21.99",
-   "rating": 4.5,
-   "reviews": 6589,
-   "rank": 20,
-   "category": "Home D\u00e9cor",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B0753NHZVQ",
-   "name": "Command Large Utility Hooks, 7-Hooks, 12-Strips, Organize Damage-Free | Damage-Free Hanging Wall Hooks with Adhesive Str",
-   "price": "$11.99",
-   "rating": 4.6,
-   "reviews": 39373,
-   "rank": 21,
-   "category": "Home",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B0BZZDPPRX",
-   "name": "All-Purpose Stainless Steel Shower Squeegee for Shower Glass Door with 2 Adhesive Hooks, Bathroom Cleaner Tool Household",
-   "price": "$9.98",
-   "rating": 4.5,
-   "reviews": 18669,
-   "rank": 21,
-   "category": "Bath",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B0BDRGFZRF",
-   "name": "Simplebrand Black Sheer Curtains 84 Inches Long 2 Panels for Living Room | Light Filtering, Rod Pocket, Solid Color, Ele",
-   "price": "$7.97",
-   "rating": 4.7,
-   "reviews": 12108,
-   "rank": 21,
-   "category": "Window Treatments",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B077RPXSF3",
-   "name": "NICETOWN White 100% Blackout Curtains 84 inch Long for Bedroom 2 Pieces | Thermal Insulated, Noise Reducing, Heat Blocki",
+   "asin": "B07C41SYJ7",
+   "name": "Amazon Basics Soft and Thick Cotton Hand Towels for Bath, Kitchen, Gym, 16 x 26 in, White, 12-Pack",
    "price": "$19.99",
-   "rating": 4.8,
-   "reviews": 79676,
-   "rank": 22,
-   "category": "Window Treatments",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B0CJ56M8D4",
-   "name": "Veken Shower Caddy 6-Pack, Dual Soap Holders, Adhesive Rack Shelves, Black | Advanced Rustproof Design, Large Capacity, ",
-   "price": "$17.99",
    "rating": 4.6,
-   "reviews": 15995,
-   "rank": 22,
-   "category": "Home",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B00MRH9NCK",
-   "name": "Utopia Bedding 100% Waterproof Twin Size Mattress Protector Noiseless | Deep Pockets Fits 15\" Mattress, Soft, Breathable",
-   "price": "$12.34",
-   "rating": 4.5,
-   "reviews": 108316,
-   "rank": 23,
-   "category": "Bedding",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B0897859VJ",
-   "name": "GOSHI Exfoliating Shower Towel - Long Body Scrubber, Grey | rip-resistant, rapid-drying, exfoliating long washcloth for ",
-   "price": "$16.99",
-   "rating": 4.6,
-   "reviews": 22897,
-   "rank": 23,
+   "reviews": 19401,
+   "rank": 15,
    "category": "Bath Linens",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B00R55CIRQ",
-   "name": "Clorox Corner Toilet Bowl Brush with Under Rim Scrubber, Includes Corner Storage Caddy, White",
-   "price": "$8.99",
-   "rating": 4.6,
-   "reviews": 6486,
-   "rank": 23,
-   "category": "Bath",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B08WPQ12XX",
-   "name": "AquaCare 8-mode High Pressure Handheld Shower Head with 2-mode Power Wash | Stay Clean Nozzles, Dual Power Wash for Tub,",
-   "price": "$29.94",
-   "rating": 4.5,
-   "reviews": 50940,
-   "rank": 24,
-   "category": "Bath",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B07WMQP4SF",
-   "name": "Homaxy 100% Cotton Waffle Weave Kitchen Dish Cloths 6-Pack, Dark Grey | 12 x 12 Inches, Ultra Soft Absorbent Dish Towels",
-   "price": "$8.99",
-   "rating": 4.5,
-   "reviews": 41642,
-   "rank": 24,
-   "category": "Kitchen",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B0BZDLT95R",
-   "name": "Joydeco 100% Blackout Curtains for Bedroom - Nature Linen 84 Inch Long | Light Blocking 2 Panels Set, Rod Pocket & Back ",
-   "price": "$21.84",
-   "rating": 4.6,
-   "reviews": 10844,
-   "rank": 24,
-   "category": "Window Treatments",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B0DLWDVZCD",
-   "name": "TEECK Shower Curtain Rod, 32-80 inch Adjustable Spring Tension Curtain Rod, Never Rust Anti-Slip Shower Curtain Rod for ",
-   "price": "$15.99",
-   "rating": 4.5,
-   "reviews": 31413,
-   "rank": 25,
-   "category": "Bath",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B0B8DXN3K2",
-   "name": "DKBslik Mulberry Silk Pillow Cases Standard Size with Zipper, Ash Blue | Silk Pillowcase for Hair and Skin, Anti Acne Co",
-   "price": "$7.34",
-   "rating": 4.5,
-   "reviews": 22059,
-   "rank": 25,
-   "category": "Bedding",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B00FZVPWTI",
-   "name": "IRIS USA Clear Cases |Made in USA| Plastic Box Organizers (10-Pack)- Medium | Bead Storage Organizing Containers with Sn",
-   "price": "$19.99",
-   "rating": 4.7,
-   "reviews": 9300,
-   "rank": 25,
-   "category": "Home Storage",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B087T2M1YX",
-   "name": "Titanker Shower Curtain Liner Clear Plastic Shower Liner 72 x 72 Lightweight Waterproof PEVA Shower Curtains for Bathroo",
-   "price": "$6.99",
-   "rating": 4.5,
-   "reviews": 20970,
-   "rank": 26,
-   "category": "Bath",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B079M8FPTW",
-   "name": "Rubbermaid Brilliance Tritan Plastic Food Storage Containers BPA Free Airtight Lids Ideal for Lunch Meal Prep & Leftover",
-   "price": "$27.60",
-   "rating": 4.7,
-   "reviews": 18952,
-   "rank": 26,
-   "category": "Kitchen",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B0035G078Q",
-   "name": "Swiffer WetJet Multi-Purpose Floor Cleaner Solution with Febreze Refill, Hardwood Floor Cleaner, Lavender Scent, 1.25 Li",
-   "price": "$12.94",
-   "rating": 4.8,
-   "reviews": 142326,
-   "rank": 27,
-   "category": "Cleaning",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B08SBYPF14",
-   "name": "MIULEE 100% Blackout Linen Curtains for Bedroom 52x84 Inches Natural Beige | Room Darkening, Light Blocking, Thermal Ins",
-   "price": "$24.94",
-   "rating": 4.6,
-   "reviews": 10715,
-   "rank": 27,
-   "category": "Home D\u00e9cor",
    "source": "bestsellers"
   },
   {
@@ -787,18 +447,218 @@
    "price": "$8.98",
    "rating": 4.6,
    "reviews": 8578,
-   "rank": 27,
+   "rank": 15,
    "category": "Seasonal D\u00e9cor",
    "source": "bestsellers"
   },
   {
-   "asin": "B0881QG5WK",
-   "name": "ChrisDowa Blackout Curtains for Bedroom and Living Room 63 Inches Long | 2 Panels Set, Thermal Insulated, Light Blocking",
-   "price": "$10.99",
+   "asin": "B01M0AGUPO",
+   "name": "King Pillow Cases Set of 2 - Ultra Soft Cozy Pillowcase Covers - White | Hotel Quality, Comfortable Bedding for Women, M",
+   "price": "$15.99",
    "rating": 4.6,
-   "reviews": 32053,
-   "rank": 28,
+   "reviews": 61076,
+   "rank": 16,
+   "category": "Bedding",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B07H4HHNQK",
+   "name": "Sattiyrch 15\" Wreath Hanger for Front Door, Over the Door Wreath Hook | No drilling or screws,closes normally,holds up t",
+   "price": "$5.59",
+   "rating": 4.7,
+   "reviews": 30614,
+   "rank": 16,
+   "category": "Seasonal D\u00e9cor",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B078HWZJWS",
+   "name": "M-bestl 2 Pack Microfiber Hair Towel Wrap with Button,Quick Dry(Pink&Beige) | Hair Drying Towel for Women,lightweight,An",
+   "price": "$8.98",
+   "rating": 4.6,
+   "reviews": 22693,
+   "rank": 16,
+   "category": "Bath Linens",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B06X9NQ8GX",
+   "name": "Amazon Basics Digital Kitchen Scale with LCD Display, Tare Function, Multiple Units, Weighs up to 11 Pounds, Batteries I",
+   "price": "$11.14",
+   "rating": 4.7,
+   "reviews": 120112,
+   "rank": 17,
+   "category": "Kitchen",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B08KXKVT4K",
+   "name": "Vtopmart 25 Pack Clear Plastic Drawer Organizers with Non-slip Rubber Pads | 4-Size Versatile Makeup Organizer, Storage ",
+   "price": "$18.99",
+   "rating": 4.7,
+   "reviews": 49487,
+   "rank": 17,
+   "category": "Home",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B0815BLNX1",
+   "name": "GORILLA GRIP\u00ae Extra Long Rug Grippers for Hardwood Floor, Reusable, Black | Dual-Sided Adhesives Pads Keep Area Rugs Cor",
+   "price": "$11.79",
+   "rating": 4.5,
+   "reviews": 31774,
+   "rank": 17,
    "category": "Home D\u00e9cor",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B07236M4HC",
+   "name": "AmazerBath Plastic Shower Curtain Clear Premium PEVA, Clear Shower Curtain Heavy Duty 8G, Weighted Shower Curtains for B",
+   "price": "$9.98",
+   "rating": 4.6,
+   "reviews": 93005,
+   "rank": 18,
+   "category": "Bath",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B01N20YR6B",
+   "name": "rabbitgoo Rainbow Window Privacy Film, Stained Glass Cling, 17.5\" x 78.7\" | Decorative Static Sticker, Non-Adhesive Reus",
+   "price": "$7.99",
+   "rating": 4.5,
+   "reviews": 80810,
+   "rank": 18,
+   "category": "Window Treatments",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B078R3NDPH",
+   "name": "Ultra Soft Pillow Protectors with Zipper - Standard Size - Set of 4 - White | 100% Protection Against Stains, Dust & Dir",
+   "price": "$9.99",
+   "rating": 4.7,
+   "reviews": 27243,
+   "rank": 18,
+   "category": "Bedding",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B00U6HREPQ",
+   "name": "Utopia Bedding Waterproof Mattress Protector Queen Size, Zippered Mattress Encasement Bed Bug and Dust Mite Proof, Absor",
+   "price": "$27.99",
+   "rating": 4.6,
+   "reviews": 134600,
+   "rank": 19,
+   "category": "Bedding",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B015SJ7RYY",
+   "name": "NICETOWN Grey Blackout Curtains for Bedroom 84 Inches Long, 2 Panels, W52\" | Thermal Drapes Grommet Room Darkening Light",
+   "price": "$15.98",
+   "rating": 4.7,
+   "reviews": 62455,
+   "rank": 19,
+   "category": "Window Treatments",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B0103XVVME",
+   "name": "White Classic Luxury White Hand Towels - 100% Turkish Cotton, 16x30, 6 Pack | Soft, Highly Absorbent 650 GSM Bathroom Ha",
+   "price": "$22.99",
+   "rating": 4.5,
+   "reviews": 25292,
+   "rank": 19,
+   "category": "Bath Linens",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B08SBYPF14",
+   "name": "MIULEE 100% Blackout Linen Curtains for Bedroom 52x84 Inches Natural Beige | Room Darkening, Light Blocking, Thermal Ins",
+   "price": "$24.94",
+   "rating": 4.6,
+   "reviews": 10718,
+   "rank": 20,
+   "category": "Home D\u00e9cor",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B0BZZDPPRX",
+   "name": "All-Purpose Stainless Steel Shower Squeegee for Shower Glass Door with 2 Adhesive Hooks, Bathroom Cleaner Tool Household",
+   "price": "$9.98",
+   "rating": 4.5,
+   "reviews": 18670,
+   "rank": 21,
+   "category": "Bath",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B0BZDLT95R",
+   "name": "Joydeco 100% Blackout Curtains for Bedroom - Nature Linen 84 Inch Long | Light Blocking 2 Panels Set, Rod Pocket & Back ",
+   "price": "$21.84",
+   "rating": 4.6,
+   "reviews": 10844,
+   "rank": 21,
+   "category": "Window Treatments",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B0B8DXN3K2",
+   "name": "DKBslik Mulberry Silk Pillow Cases Standard Size with Zipper, Ash Blue | Silk Pillowcase for Hair and Skin, Anti Acne Co",
+   "price": "$7.34",
+   "rating": 4.5,
+   "reviews": 22059,
+   "rank": 22,
+   "category": "Bedding",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B0BDRGFZRF",
+   "name": "Simplebrand Black Sheer Curtains 84 Inches Long 2 Panels for Living Room | Light Filtering, Rod Pocket, Solid Color, Ele",
+   "price": "$7.97",
+   "rating": 4.7,
+   "reviews": 12113,
+   "rank": 22,
+   "category": "Window Treatments",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B0DZFGTCLR",
+   "name": "Candle Warmer Lamp with Timer Home Decor birthday gifts for women | Dimmable Candle Warmer for Jar Candles, Height Adjus",
+   "price": "$21.99",
+   "rating": 4.5,
+   "reviews": 6590,
+   "rank": 22,
+   "category": "Home D\u00e9cor",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B00R55CIRQ",
+   "name": "Clorox Corner Toilet Bowl Brush with Under Rim Scrubber, Includes Corner Storage Caddy, White",
+   "price": "$9.79",
+   "rating": 4.6,
+   "reviews": 6485,
+   "rank": 22,
+   "category": "Bath",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B0753NHZVQ",
+   "name": "Command Large Utility Hooks, 7-Hooks, 12-Strips, Organize Damage-Free | Damage-Free Hanging Wall Hooks with Adhesive Str",
+   "price": "$11.99",
+   "rating": 4.6,
+   "reviews": 39374,
+   "rank": 23,
+   "category": "Home",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B0897859VJ",
+   "name": "GOSHI Exfoliating Shower Towel - Long Body Scrubber, Grey | rip-resistant, rapid-drying, exfoliating long washcloth for ",
+   "price": "$19.32",
+   "rating": 4.6,
+   "reviews": 22899,
+   "rank": 23,
+   "category": "Bath Linens",
    "source": "bestsellers"
   },
   {
@@ -806,29 +666,9 @@
    "name": "SpaceDresser Sheer Voile Curtains for Living Room 84 Inch Long 2 Panels | White Sheer Voile Curtains, Rod Pocket Light F",
    "price": "$7.11",
    "rating": 4.7,
-   "reviews": 13201,
-   "rank": 29,
+   "reviews": 13200,
+   "rank": 23,
    "category": "Window Treatments",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B0B2F55P76",
-   "name": "Adhesive Wall Hooks No Drill Clear Heavy Duty, 13LB Sticky 12 Pack | Waterproof Transparent Sticky Hooks for Hanging, 13",
-   "price": "$12.99",
-   "rating": 4.5,
-   "reviews": 51747,
-   "rank": 30,
-   "category": "Home",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B0C3QZ7SNF",
-   "name": "Cisily Sponge Holder for Kitchen Sink, Sink Organizer with Brush Holder | Black Kitchen Countertop Organizers and Storag",
-   "price": "$13.99",
-   "rating": 4.6,
-   "reviews": 15609,
-   "rank": 30,
-   "category": "Kitchen",
    "source": "bestsellers"
   },
   {
@@ -837,26 +677,186 @@
    "price": "$8.98",
    "rating": 4.5,
    "reviews": 13139,
-   "rank": 30,
+   "rank": 23,
    "category": "Seasonal D\u00e9cor",
    "source": "bestsellers"
   },
   {
-   "asin": "B09N7JN28X",
-   "name": "OVZME Bedroom Curtains 2 Panel Sets 84\" Inch Length - Transparent Light Weight Soft Window Treatment Panels for Study Ro",
-   "price": "$9.99",
+   "asin": "B0B6H9JF8N",
+   "name": "Reynolds Kitchens Slow Cooker Liners, Regular Size, Fits 3-8 Quarts, 20ct | Fits 3-8 Qt Round and Oval Slow Cookers, No-",
+   "price": "$7.63",
+   "rating": 4.8,
+   "reviews": 7437,
+   "rank": 23,
+   "category": "Kitchen",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B079M8FPTW",
+   "name": "Rubbermaid Brilliance Tritan Plastic Food Storage Containers BPA Free Airtight Lids Ideal for Lunch Meal Prep & Leftover",
+   "price": "$32.48",
    "rating": 4.7,
-   "reviews": 11423,
+   "reviews": 18951,
+   "rank": 24,
+   "category": "Kitchen",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B00MRH9NCK",
+   "name": "Utopia Bedding 100% Waterproof Twin Size Mattress Protector Noiseless | Deep Pockets Fits 15\" Mattress, Soft, Breathable",
+   "price": "$12.99",
+   "rating": 4.5,
+   "reviews": 108333,
+   "rank": 25,
+   "category": "Bedding",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B077RPXSF3",
+   "name": "NICETOWN White 100% Blackout Curtains 84 inch Long for Bedroom 2 Pieces | Thermal Insulated, Noise Reducing, Heat Blocki",
+   "price": "$19.99",
+   "rating": 4.8,
+   "reviews": 79680,
+   "rank": 25,
+   "category": "Window Treatments",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B08WPQ12XX",
+   "name": "AquaCare 8-mode High Pressure Handheld Shower Head with 2-mode Power Wash | Stay Clean Nozzles, Dual Power Wash for Tub,",
+   "price": "$29.94",
+   "rating": 4.5,
+   "reviews": 50941,
+   "rank": 25,
+   "category": "Bath",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B07WMQP4SF",
+   "name": "Homaxy 100% Cotton Waffle Weave Kitchen Dish Cloths 6-Pack, Dark Grey | 12 x 12 Inches, Ultra Soft Absorbent Dish Towels",
+   "price": "$8.99",
+   "rating": 4.5,
+   "reviews": 41645,
+   "rank": 25,
+   "category": "Kitchen",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B0CJ56M8D4",
+   "name": "Veken Shower Caddy 6-Pack, Dual Soap Holders, Adhesive Rack Shelves, Black | Advanced Rustproof Design, Large Capacity, ",
+   "price": "$19.99",
+   "rating": 4.6,
+   "reviews": 16006,
+   "rank": 25,
+   "category": "Home",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B0B2F55P76",
+   "name": "Adhesive Wall Hooks No Drill Clear Heavy Duty, 13LB Sticky 12 Pack | Waterproof Transparent Sticky Hooks for Hanging, 13",
+   "price": "$12.99",
+   "rating": 4.5,
+   "reviews": 51749,
+   "rank": 26,
+   "category": "Home",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B0881QG5WK",
+   "name": "ChrisDowa Blackout Curtains for Bedroom and Living Room 63 Inches Long | 2 Panels Set, Thermal Insulated, Light Blocking",
+   "price": "$10.99",
+   "rating": 4.6,
+   "reviews": 32056,
+   "rank": 27,
+   "category": "Home D\u00e9cor",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B07HMRZSWT",
+   "name": "1000 sqft Spider Webs Halloween Decorations with 30 Fake Spiders | Super Stretch Cobwebs for Halloween Indoor and Outdoo",
+   "price": "$14.49",
+   "rating": 4.5,
+   "reviews": 5369,
+   "rank": 27,
+   "category": "Seasonal D\u00e9cor",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B0035G078Q",
+   "name": "Swiffer WetJet Multi-Purpose Floor Cleaner Solution with Febreze Refill, Hardwood Floor Cleaner, Lavender Scent, 1.25 Li",
+   "price": "$12.94",
+   "rating": 4.8,
+   "reviews": 142285,
+   "rank": 28,
+   "category": "Cleaning",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B087T2M1YX",
+   "name": "Titanker Shower Curtain Liner Clear Plastic Shower Liner 72 x 72 Lightweight Waterproof PEVA Shower Curtains for Bathroo",
+   "price": "$6.99",
+   "rating": 4.5,
+   "reviews": 20970,
+   "rank": 28,
+   "category": "Bath",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B0C3QZ7SNF",
+   "name": "Cisily Sponge Holder for Kitchen Sink, Sink Organizer with Brush Holder | Black Kitchen Countertop Organizers and Storag",
+   "price": "$13.99",
+   "rating": 4.6,
+   "reviews": 15611,
+   "rank": 28,
+   "category": "Kitchen",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B011CBJGZK",
+   "name": "Amazer Shower Curtain Hooks, Decorative Rust Proof Stainless Steel Shower Curtain Hooks for Bathroom Shower Rods Set of ",
+   "price": "$6.99",
+   "rating": 4.6,
+   "reviews": 37161,
+   "rank": 29,
+   "category": "Bath",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B0028JURDQ",
+   "name": "FoodSaver Custom Length Vacuum Sealer Bags Multipack, 5 Count Rolls for Airtight Food Storage and Sous Vide - Compatible",
+   "price": "$26.85",
+   "rating": 4.8,
+   "reviews": 28373,
+   "rank": 29,
+   "category": "Kitchen",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B07SPR2HPT",
+   "name": "SONGMICS Storage Cubes, Set of 6, 11-Inch Foldable Closet Organizers | Non-Woven Fabric Bins with Double Handles, for Sh",
+   "price": "$16.98",
+   "rating": 4.7,
+   "reviews": 14111,
+   "rank": 29,
+   "category": "Home Storage",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B0B8KW1955",
+   "name": "Chyhomenyc Ivory Sheer Curtains 84 Inches Long for Living Room, 2 Panels | Light Filtering, Voile Drapes, Rod Pocket, Wi",
+   "price": "$7.99",
+   "rating": 4.7,
+   "reviews": 9667,
    "rank": 30,
    "category": "Window Treatments",
    "source": "bestsellers"
   },
   {
-   "asin": "B07RZRH662",
-   "name": "Pillow Cases Queen Size Set of 4, Ultra Soft Comfy Pillow Covers, White | Comfortable Pillow Sham like Pillowcases with ",
-   "price": "$11.99",
-   "rating": 4.6,
-   "reviews": 73012,
+   "asin": "B073H8STZ7",
+   "name": "Utopia Bedding Ultra Soft Fleece Bed Blanket Queen Size Grey (90x90 Inches) | Microfiber Plush Warm Lightweight Breathab",
+   "price": "$18.99",
+   "rating": 4.5,
+   "reviews": 94345,
    "rank": 31,
    "category": "Bedding",
    "source": "bestsellers"
@@ -866,88 +866,18 @@
    "name": "TrendPlain 16oz Olive Oil Sprayer for Cooking, Silicone Pad, Black | Olive Oil Dispenser Bottle, Oil Dispenser For Kitch",
    "price": "$8.99",
    "rating": 4.6,
-   "reviews": 49400,
+   "reviews": 49422,
    "rank": 31,
    "category": "Kitchen",
    "source": "bestsellers"
   },
   {
-   "asin": "B07SPR2HPT",
-   "name": "SONGMICS Storage Cubes, Set of 6, 11-Inch Foldable Closet Organizers | Non-Woven Fabric Bins with Double Handles, for Sh",
-   "price": "$19.99",
-   "rating": 4.7,
-   "reviews": 14111,
+   "asin": "B0F24MHHFD",
+   "name": "dancemoon JustHang Shower Squeegee with Built-in Hook, 10-Inch Black | Award-Winning Design, All-One-Piece Soft-Touch Si",
+   "price": "$19.79",
+   "rating": 4.8,
+   "reviews": 9897,
    "rank": 31,
-   "category": "Home Storage",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B0BZL5GWVL",
-   "name": "Vitafit Bathroom Scale for Body Weight Accuracy 0.1lb, Weight Scale 400lb | Professional Factory Since 2001 Digital Weig",
-   "price": "$15.99",
-   "rating": 4.6,
-   "reviews": 12130,
-   "rank": 31,
-   "category": "Bath",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B073H8STZ7",
-   "name": "Utopia Bedding Ultra Soft Fleece Bed Blanket Queen Size Grey (90x90 Inches) | Microfiber Plush Warm Lightweight Breathab",
-   "price": "$18.99",
-   "rating": 4.5,
-   "reviews": 94326,
-   "rank": 32,
-   "category": "Bedding",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B078YNC9G9",
-   "name": "N&Y HOME Fabric Shower Curtain Liner with Magnets Standard Size, White | Hotel Quality, 12 Button Holes, Machine Washabl",
-   "price": "$8.96",
-   "rating": 4.6,
-   "reviews": 70083,
-   "rank": 32,
-   "category": "Bath",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B01M7TTA2S",
-   "name": "Bath & Body Works 3-Wick Candle, Mahogany Teakwood Intense, Soy Wax Blend | Room-Filling Warm Home Scent with Strong Thr",
-   "price": "$21.49",
-   "rating": 4.5,
-   "reviews": 9168,
-   "rank": 32,
-   "category": "Home D\u00e9cor",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B09TRDT1KF",
-   "name": "Ultimate Comfort Pillow Protectors with Zipper Standard Size - Set of 4 | Bed Bug & Dust Mite Proof Pillow Cases - 100% ",
-   "price": "$12.99",
-   "rating": 4.6,
-   "reviews": 71065,
-   "rank": 33,
-   "category": "Bedding",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B01GCLYV5K",
-   "name": "NICETOWN Black out Curtain Blinds for Bedroom 2 Panels 42\" Wide by 63\" Long | Rod Pocket Thermal Insulated shades, Noise",
-   "price": "$11.99",
-   "rating": 4.6,
-   "reviews": 48059,
-   "rank": 33,
-   "category": "Window Treatments",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B011CBJGZK",
-   "name": "Amazer Shower Curtain Hooks, Decorative Rust Proof Stainless Steel Shower Curtain Hooks for Bathroom Shower Rods Set of ",
-   "price": "$6.99",
-   "rating": 4.6,
-   "reviews": 37132,
-   "rank": 33,
    "category": "Bath",
    "source": "bestsellers"
   },
@@ -956,49 +886,9 @@
    "name": "125Pcs 8 Inch Square Air Fryer Liners Disposable for 5-8QT, Parchment Paper | Non-Stick, Unbleached Food Grade, Waterpro",
    "price": "$9.99",
    "rating": 4.6,
-   "reviews": 34106,
-   "rank": 33,
+   "reviews": 34107,
+   "rank": 32,
    "category": "Kitchen",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B087WMXFPV",
-   "name": "Sprayway Foaming Glass Cleaner | Fresh Scent | 15 oz. | Pack of 6 | Ammonia-Free, Streak-Free Shine, Fast-Drying | for W",
-   "price": "$16.50",
-   "rating": 4.8,
-   "reviews": 18075,
-   "rank": 33,
-   "category": "Cleaning",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B0028JURDQ",
-   "name": "FoodSaver Custom Length Vacuum Sealer Bags Multipack, 5 Count Rolls for Airtight Food Storage and Sous Vide - Compatible",
-   "price": "$26.85",
-   "rating": 4.8,
-   "reviews": 28373,
-   "rank": 34,
-   "category": "Kitchen",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B0B8KW1955",
-   "name": "Chyhomenyc Ivory Sheer Curtains 84 Inches Long for Living Room, 2 Panels | Light Filtering, Voile Drapes, Rod Pocket, Wi",
-   "price": "$7.99",
-   "rating": 4.7,
-   "reviews": 9667,
-   "rank": 34,
-   "category": "Window Treatments",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B0F24MHHFD",
-   "name": "dancemoon JustHang Shower Squeegee with Built-in Hook, 10-Inch Black | Award-Winning Design, All-One-Piece Soft-Touch Si",
-   "price": "$19.79",
-   "rating": 4.8,
-   "reviews": 9883,
-   "rank": 35,
-   "category": "Bath",
    "source": "bestsellers"
   },
   {
@@ -1006,19 +896,69 @@
    "name": "Affresh Dishwasher Cleaner, Mess-Free Deep-Cleaning Tablet, 6 Month Supply | Helps Power Away Smells from Limescale & Mi",
    "price": "$8.98",
    "rating": 4.6,
-   "reviews": 81304,
-   "rank": 36,
+   "reviews": 81306,
+   "rank": 33,
    "category": "Cleaning",
    "source": "bestsellers"
   },
   {
-   "asin": "B07YKLSMFM",
-   "name": "Bedsure Comforter Duvet Insert, Quilted Bedding Blanket, OEKO-TEX | People & Editor-Tested Comforter, Down Alternative F",
-   "price": "$34.99",
-   "rating": 4.7,
-   "reviews": 78219,
-   "rank": 36,
+   "asin": "B07RZRH662",
+   "name": "Pillow Cases Queen Size Set of 4, Ultra Soft Comfy Pillow Covers, White | Comfortable Pillow Sham like Pillowcases with ",
+   "price": "$11.99",
+   "rating": 4.6,
+   "reviews": 73014,
+   "rank": 33,
    "category": "Bedding",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B078YNC9G9",
+   "name": "N&Y HOME Fabric Shower Curtain Liner with Magnets Standard Size, White | Hotel Quality, 12 Button Holes, Machine Washabl",
+   "price": "$8.96",
+   "rating": 4.6,
+   "reviews": 70081,
+   "rank": 33,
+   "category": "Bath",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B09TRDT1KF",
+   "name": "Ultimate Comfort Pillow Protectors with Zipper Standard Size - Set of 4 | Bed Bug & Dust Mite Proof Pillow Cases - 100% ",
+   "price": "$12.99",
+   "rating": 4.6,
+   "reviews": 71078,
+   "rank": 34,
+   "category": "Bedding",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B01GCLYV5K",
+   "name": "NICETOWN Black out Curtain Blinds for Bedroom 2 Panels 42\" Wide by 63\" Long | Rod Pocket Thermal Insulated shades, Noise",
+   "price": "$11.99",
+   "rating": 4.6,
+   "reviews": 48063,
+   "rank": 34,
+   "category": "Window Treatments",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B0100V7F4W",
+   "name": "White Classic Luxury Cotton Washcloths 13x13 Inch - 650 GSM Turkish Cotton | Hotel, Spa, Bathroom Face Towel | 12 Pack",
+   "price": "$21.99",
+   "rating": 4.6,
+   "reviews": 22766,
+   "rank": 34,
+   "category": "Bath Linens",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B00FZVPWTI",
+   "name": "IRIS USA Clear Cases |Made in USA| Plastic Box Organizers (10-Pack)- Medium | Bead Storage Organizing Containers with Sn",
+   "price": "$19.99",
+   "rating": 4.7,
+   "reviews": 9301,
+   "rank": 34,
+   "category": "Home Storage",
    "source": "bestsellers"
   },
   {
@@ -1026,28 +966,28 @@
    "name": "RYB HOME Short Grey Blackout Curtains for Small Bedroom Kitchen Cafe Window | Thermal Insulating, UV Blocking, Privacy P",
    "price": "$9.98",
    "rating": 4.6,
-   "reviews": 30527,
-   "rank": 36,
+   "reviews": 30529,
+   "rank": 35,
    "category": "Window Treatments",
    "source": "bestsellers"
   },
   {
-   "asin": "B08B555PFG",
-   "name": "AMZSEVEN 40 Pack Metal Curtain Rings with Clips, 1.26 in ID, Black | Curtain clip rings fit rods up to 1 inch in diamete",
-   "price": "$9.99",
-   "rating": 4.6,
-   "reviews": 26572,
-   "rank": 36,
-   "category": "Home D\u00e9cor",
+   "asin": "B087WMXFPV",
+   "name": "Sprayway Foaming Glass Cleaner | Fresh Scent | 15 oz. | Pack of 6 | Ammonia-Free, Streak-Free Shine, Fast-Drying | for W",
+   "price": "$16.41",
+   "rating": 4.8,
+   "reviews": 18066,
+   "rank": 35,
+   "category": "Cleaning",
    "source": "bestsellers"
   },
   {
    "asin": "B09ZKYQMVD",
    "name": "Vtopmart 4 Pack Small Clear Stackable Storage Drawers, Fits Narrow Spaces | Multi-Use Plastic Bins for Bathroom Cabinet ",
-   "price": "$23.99",
+   "price": "$22.99",
    "rating": 4.7,
    "reviews": 8748,
-   "rank": 36,
+   "rank": 35,
    "category": "Bath",
    "source": "bestsellers"
   },
@@ -1056,39 +996,29 @@
    "name": "ChefAide 5 Pieces Silicone Spatulas Set, Heat Resistant Rubber Spatula | Food Grade Silicone, Heat Resistant Up to 600\u00b0F",
    "price": "$8.99",
    "rating": 4.8,
-   "reviews": 6929,
-   "rank": 36,
+   "reviews": 6932,
+   "rank": 35,
    "category": "Kitchen",
    "source": "bestsellers"
   },
   {
-   "asin": "B07ZH3QVSV",
-   "name": "RYB HOME Blackout French Door Curtain, No Drill, W26 x L69, Black, 1 Panel | Self Adhesive, Privacy, Thermal Insulated, ",
-   "price": "$12.85",
-   "rating": 4.5,
-   "reviews": 17519,
-   "rank": 37,
-   "category": "Window Treatments",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B0D1BZJSX4",
-   "name": "YASONIC Shower Caddy Adhesive, Rustproof Shower Shelves for Inside Shower | Large Capacity Shower Organizer, 6 Pack Bath",
-   "price": "$16.98",
-   "rating": 4.6,
-   "reviews": 9033,
-   "rank": 37,
-   "category": "Bath",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B0C2LS4FGL",
-   "name": "100% Cotton Turkish Hand Towels for Bathroom Set Soft Face Towel, Navy Blue | 16x28\" Large 600 GSM Weight 4 Piece Face H",
+   "asin": "B09KT67BL1",
+   "name": "HomeHacks 2 Pack Large Laundry Baskets, Laundry Hampers Bags (Grey 75Lx2) | Waterproof, Freestanding, Collapsible Clothe",
    "price": "$19.99",
    "rating": 4.5,
-   "reviews": 7913,
-   "rank": 37,
-   "category": "Bath Linens",
+   "reviews": 27003,
+   "rank": 36,
+   "category": "Home",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B09N7JN28X",
+   "name": "OVZME Bedroom Curtains 2 Panel Sets 84\" Inch Length - Transparent Light Weight Soft Window Treatment Panels for Study Ro",
+   "price": "$9.99",
+   "rating": 4.7,
+   "reviews": 11425,
+   "rank": 36,
+   "category": "Window Treatments",
    "source": "bestsellers"
   },
   {
@@ -1097,18 +1027,58 @@
    "price": "$16.19",
    "rating": 4.8,
    "reviews": 8612,
-   "rank": 38,
-   "category": "Home",
+   "rank": 36,
+   "category": "Kitchen",
    "source": "bestsellers"
   },
   {
-   "asin": "B0C6HW47RH",
-   "name": "Chyhomenyc 2 Panels White Kitchen Curtains 36 Inch Length Tier Curtain | Faux Linen Textured, Small Cafe Curtain, Light ",
-   "price": "$9.97",
-   "rating": 4.6,
-   "reviews": 8208,
-   "rank": 38,
+   "asin": "B0C2LS4FGL",
+   "name": "100% Cotton Turkish Hand Towels for Bathroom Set Soft Face Towel, Navy Blue | 16x28\" Large 600 GSM Weight 4 Piece Face H",
+   "price": "$19.99",
+   "rating": 4.5,
+   "reviews": 7915,
+   "rank": 36,
+   "category": "Bath Linens",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B07YKLSMFM",
+   "name": "Bedsure Comforter Duvet Insert, Quilted Bedding Blanket, OEKO-TEX | People & Editor-Tested Comforter, Down Alternative F",
+   "price": "$34.99",
+   "rating": 4.7,
+   "reviews": 78227,
+   "rank": 37,
+   "category": "Bedding",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B07ZH3QVSV",
+   "name": "RYB HOME Blackout French Door Curtain, No Drill, W26 x L69, Black, 1 Panel | Self Adhesive, Privacy, Thermal Insulated, ",
+   "price": "$12.85",
+   "rating": 4.5,
+   "reviews": 17520,
+   "rank": 37,
    "category": "Window Treatments",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B01M7TTA2S",
+   "name": "Bath & Body Works 3-Wick Candle, Mahogany Teakwood Intense, Soy Wax Blend | Room-Filling Warm Home Scent with Strong Thr",
+   "price": "$21.49",
+   "rating": 4.5,
+   "reviews": 9171,
+   "rank": 37,
+   "category": "Home D\u00e9cor",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B08B555PFG",
+   "name": "AMZSEVEN 40 Pack Metal Curtain Rings with Clips, 1.26 in ID, Black | Curtain clip rings fit rods up to 1 inch in diamete",
+   "price": "$9.99",
+   "rating": 4.6,
+   "reviews": 26571,
+   "rank": 38,
+   "category": "Home D\u00e9cor",
    "source": "bestsellers"
   }
  ]
