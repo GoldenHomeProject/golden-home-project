@@ -3312,6 +3312,20 @@
       "pin_id": "pin-2026-10-26-B0F3332VRX",
       "board": "Bedroom Storage & Bedding",
       "link": "https://goldenhomeproject.com/blog/posts/best-blackout-curtains.html?v=B"
+    },
+    {
+      "ts": "2026-11-02T02:15:28Z",
+      "action": "board_fallback",
+      "pin_id": "pin-2026-10-26-B00U6HREPQ",
+      "wanted": "Bedroom Storage & Bedding",
+      "used": "Home Organization Finds"
+    },
+    {
+      "ts": "2026-11-02T02:15:39Z",
+      "action": "pin_published",
+      "pin_id": "pin-2026-10-26-B00U6HREPQ",
+      "board": "Bedroom Storage & Bedding",
+      "link": "https://www.amazon.com/dp/B00U6HREPQ?tag=ghpbranda-20&ascsubtag=pinterest_brandA"
     }
   ]
 }
