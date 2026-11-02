@@ -8276,14 +8276,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-26-B015SJ7RYY.png",
     "queued_at": "2026-10-26T10:13:34.549125Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "Block Light, Cut Drafts, No Drilling",
     "recharted": true,
     "variant": "A",
-    "ai_image": false
+    "ai_image": false,
+    "posted_at": "2026-11-02T02:16:56Z"
   },
   {
     "id": "pin-2026-10-26-B087T2M1YX",
