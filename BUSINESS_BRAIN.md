@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-11-01 (Affiliate Optimizer 10am)
+# Last updated: 2026-11-02 (Affiliate Optimizer 10am)
 # ============================================================
 
 ---
@@ -4084,3 +4084,78 @@ Bet: the Thanksgiving-hosting couch-cover angle (Trend Scout's #1 pick, composit
 - **Candle warmer lamp $29 — Cozy November Arc DAY 2, 30+ days overdue, TikTok confirmed viral, Syruvia 20% Impact.** Multiple sources confirm this is a TikTok-confirmed trend (Apartment Therapy, Bustle, Stylist, Billboard, Ideal Home — ALL confirm). Sourcy.ai trend tracker confirms GROWING score in 2026. Seasonal timing: the transition from Halloween → November is the highest-performing moment to launch this content (viewers are actively restyling their spaces). Format: show Halloween items being put away → shelf or nightstand reset → candle warmer lamp ON → warm golden light + candle wax melting → ambient "November" atmosphere reveal. Syruvia 20% Impact = $5.80/sale vs Amazon 6% = $1.16/sale (5× revenue gap). Baubuy wooden-base glass-shade version and Sziqiqi are the top TikTok Shop sellers. BFCM gift guide arc anchor — this is a gift item. Amazon goldenhomep0a-20 tag fallback. IAN: search "candle warmer lamp adjustable height E12 bulb" in Associates. Hook: "Halloween's over. I pulled this out and my apartment doesn't feel like October anymore. $29."
 - **Alexandra Gater competitor status (Nov 2): NO new upload confirmed.** DAY 16 of upload gap (last video Sep 19 Nancy Meyers studio). Expected window: Nov 2 (today, Sunday) or Nov 5 (Wednesday) per her 1-2 week cadence. ZERO competitor coverage on pumice stick cleaning arc, peel-and-stick cabinet renter kitchen, or candle warmer Cozy November format. Monitor daily — if she posts Thanksgiving or kitchen content, accelerate those slots immediately.
 - **Amazon picks for Pinterest pipeline (Nov 2) — goldenhomep0a-20 tag:** (1) BATHROOM CLEANING: Pumice stone toilet bowl cleaner with handle ~$7-12 (Pumie SSH or equivalent) — Trend Scout #1 TODAY, TikTok-viral instant-reveal visual, bathroom arc Ep 3; IAN: search "pumice stone toilet ring cleaner handle" in Associates for top ASIN; https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20. (2) KITCHEN: Peel-and-stick contact paper cabinet wrap marble/wood grain ~$12-32 — Trend Scout #2 TODAY, kitchen cabinet renter transformation format, Pinterest peak; IAN: search "peel and stick contact paper cabinet wrap marble" in Associates for top ASIN; https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20. (3) HOME DECOR/COZY: Candle warmer lamp adjustable height E12 ~$25-35 — DAY 2 Cozy November arc, TikTok 94M+ views confirmed, BFCM gift slot; Syruvia 20% Impact primary, Amazon fallback; IAN: search "candle warmer lamp adjustable E12 bulb" in Associates for top ASIN; https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20.
+
+### November 2026 Affiliate Updates (updated 2026-11-02 Affiliate Optimizer 10am)
+
+Built on: Email Monitor 12:13 UTC (Gmail CLEAN — 3 Pinterest recommendations only; zero brand/affiliate; Mamma Mia DAY 54 UNBREAKABLE); Strategy & Outreach 13:34 UTC (pumice stick $8 toilet ring NEW Trend Scout #1 confirmed, peel-and-stick cabinet wrap $32 NEW Trend Scout #2, candle warmer Cozy November DAY 2, Gater DAY 16); Trend Scout Nov 2 13:03 UTC (top-3: pumice stick $8 toilet ring [#1 NEW], peel-and-stick cabinet wrap $32 [#2 NEW], Mamma Mia couch cover $46 [#3 DAY 54]); Content Engine Nov 2 14:07 UTC (2 shower pressure scripts — NOT candle warmer [DAY 31], NOT pumice stick, NOT Mamma Mia). Cold outreach PAUSED per Ian Sep 3 directive.
+
+**GMAIL DIRECT AUDIT (post-Email Monitor 12:13 UTC):**
+- 1 new email: Impact.com "Updates Digest" (13:29 UTC) — see NEW INTELLIGENCE below.
+- Tech Nerdiness collaboration thread (Oct 26) — off-niche tech publication pitch, already declined by prior run (reply sent Oct 27), thread closed with courtesy ACK (Oct 29). No action.
+- Gmail CLEAN — ZERO inbound on-niche brand deals. ZERO new affiliate partner emails.
+
+**NEW INTELLIGENCE — Impact.com Updates Digest (Nov 2, 13:29 UTC):**
+- 🚨 **YEEDI-Amazon Seller-US (campaign 57605) JOINED Impact marketplace TODAY at 11:38 UTC.** YEEDI is a robot vacuum and floor washing robot brand competing in the $150-300 segment alongside Dreame. BFCM timing is PERFECT — 25 days to Black Friday. IAN: Impact dashboard → search "YEEDI" → join campaign 57605 → build tracking link. Pairs with Dreame (Impact) for robot vacuum BFCM content. Could be the faster-to-join robot vacuum link while Dreame links are still unbuilt (DAY 45).
+- MitoQ Global (campaign 58976) joined marketplace — supplements/health brand, OFF-NICHE. Skip.
+
+**PLATFORM STATUS (Nov 2):**
+- **Amazon Associates `goldenhomep0a-20` — ACTIVE.** Today's Trend Scout top-3: pumice stick $8 [#1 NEW], peel-and-stick cabinet wrap $32 [#2 NEW], Mamma Mia couch cover $46 [#3 DAY 54]. Bounties ACTIVE: $12/Prime (through Dec 31), $20/Audible (through Dec 15), $0.25/Subscribe & Save. BFCM 25 DAYS. Today's Amazon priority content slots: (1) candle warmer lamp ~$29-46 [Cozy November DAY 3, Syruvia 20% primary], (2) pumice stick $8 [NEW Trend Scout #1, bathroom arc Ep 3], (3) robot vacuum mop combo ~$149-199 [BFCM pre-content window OPEN, YEEDI 57605 just joined + Dreame], (4) peel-and-stick cabinet wrap $32 [NEW Trend Scout #2, renter kitchen].
+- **Impact.com (Publisher ID 7104029):**
+  - 🚨🚨 **YEEDI-Amazon Seller-US (57605) NEW TODAY.** Robot vacuum brand just joined marketplace. IAN: join campaign immediately. BFCM 25 days = perfect timing. $150-300 AOV range.
+  - 🚨🚨 **SmartWings BF/CM Q4 — DAY 22.** Email permanently bounced; platform messaging ONLY. IAN: Impact → Publisher ID 7104029 → SmartWings → platform messaging for Andy. 25 days to Black Friday.
+  - 🚨🚨 **Promeed 12% — Impact tracking link DAY 28 OVERDUE.** Holiday bedding gift window OPEN. IAN: Impact → Promeed → deep link → reply amelia.avery@promeed.com. Promo codes IAN2026F3 + SAMPLE-IAN-COOL3-2026 in hand.
+  - 🚨🚨 **Mamma Mia 24-30% — ACTIVE, ZERO CONTENT DAY 54.** Trend Scout #3 TODAY. $11-$16/sale. After-first format confirmed 6,037-view hook. NON-NEGOTIABLE MANDATE.
+  - 🚨🚨 **Dreame 5%+ — ZERO tracking links DAY 45.** BFCM pre-content window OPEN NOW (content must be LIVE Nov 1-10). $7.50-$17.50/sale. IAN: Impact → Dreame → build tracking links. NOTE: YEEDI 57605 (new today) may be faster to set up while Dreame links remain unbuilt.
+  - 🚨🚨 **Syruvia 20% — ZERO tracking links, Cozy November DAY 3.** $5.80/sale vs Amazon $1.16 (5× gap). DAY 3 of arc with zero links = revenue forfeited daily. IAN: Impact → Syruvia → create tracking link.
+  - **Best Choice Products 10-15% — 1-click join UNACTIONED.** BFCM gift window OPEN. IAN: Impact → Best Choice → join (1 click).
+- **Awin:**
+  - 🚨 **Rewarx ID 129153 — 50% RECURRING, DAY 48 IAN-BLOCKED.** Highest commission in GHP portfolio. IAN: Awin browser → accept Advertiser 129153 → reply Julian at studio@rewarx.com for Golden10 promo code.
+  - **Homary merchant 91447 — DAY 36 UNACTIONED.** $96/sale (12% on ~$800 AOV). Lauren at affiliate@homary.com. BFCM premium window OPEN. IAN: complete Awin express signup → send affiliate ID to Lauren.
+  - Pending ON-NICHE accepts (browser): Tribesigns, SimpleProject 10%, Promeed HerbalRX 20%, CozySpiritStudio 20%, OKUN.
+- **CJ Affiliate — AliExpress CID 7711902 dormancy DAY 32 of 90-day window (~Dec 30, 2026 deadline, 58 days remain).** Pumice stick + peel-and-stick cabinet wrap may also have CJ options. IAN: check publishers.cj.com for Wayfair (7%), GreenLife (5%), Levoit (5%) application status.
+
+**HIGH-AOV OPPORTUNITIES (Nov 2):**
+- 🚨🚨 **CANDLE WARMER LAMP — Cozy November DAY 3.** TikTok 94M-166M+ views. Syruvia 20% = $5.80/sale. ZERO GHP scripts DAY 31. Hook: "Halloween's over. I pulled this out and my apartment doesn't feel like October anymore. $29." Baubuy wooden-base glass-shade top seller.
+- 🚨🚨 **ROBOT VACUUM ($149-350) — BFCM 25 DAYS, PRE-CONTENT WINDOW OPEN.** YEEDI 57605 just joined Impact TODAY + Dreame zero links DAY 45. Content must be LIVE Nov 1-10. Hook: "I mopped every Saturday for 5 years."
+- 🚨 **Mamma Mia couch cover — DAY 54 UNSCRIPTED.** $11-$16/sale = 10× Amazon. Trend Scout #3 TODAY. Absolute mandate.
+- **Pumice stick $8 toilet ring — Trend Scout #1 TODAY NEW.** Bathroom arc Ep 3. goldenhomep0a-20. Hook: "I've been buying CLR for 4 years. $8. Gone in 90 seconds."
+- **Peel-and-stick cabinet wrap $32 — Trend Scout #2 TODAY NEW.** Renter kitchen format. Pinterest peak. goldenhomep0a-20.
+- **Silk/linen bedding (Promeed 12%) — tracking link DAY 28 overdue.** Holiday bedding gift window open.
+- **Home furnishings Homary (Awin 12%, $96/sale) — DAY 36 unactioned.** BFCM peak window OPEN.
+
+**REVENUE PRIORITY RANKING (Nov 2):**
+1. Rewarx 50% recurring (Awin ID 129153) — DAY 48 IAN-BLOCKED
+2. Mamma Mia 24-30% (Impact) — ACTIVE, ZERO CONTENT DAY 54 ($11-$16/sale)
+3. Syruvia 20% (Impact) — ACTIVE, NO TRACKING LINK, Cozy November DAY 3 ($5.80/sale)
+4. 🚨 **YEEDI 57605 (Impact) — NEW TODAY.** Robot vacuum BFCM, join immediately.
+5. SmartWings BF/CM Q4 (Impact platform messaging) — DAY 22
+6. Promeed 12% (Impact) — LINK DAY 28 OVERDUE, holiday bedding NOW
+7. Dreame ~5-10% (Impact) — ACTIVE, ZERO LINKS DAY 45, BFCM PRE-CONTENT OPEN
+8. Homary 12% (Awin) — $96/sale, DAY 36 UNACTIONED, BFCM premium window OPEN
+9. Best Choice Products 10-15% (Impact) — 1-CLICK UNACTIONED, BFCM window OPEN
+10. Amazon Associates goldenhomep0a-20 — ACTIVE, BFCM 25 days
+11. CJ AliExpress 9% — DORMANCY DAY 32 (58 days remain)
+
+**LESSONS LEARNED (Nov 2):**
+- Content Engine is now 31+ days into the candle warmer Cozy November window without a single script — highest-urgency unscripted product in pipeline. Recommend MANDATORY NEXT SCRIPT override field in BUSINESS_BRAIN.md.
+- Content Engine scripted shower pressure today (not pumice stick, not candle warmer, not robot vacuum) — a NEW Trend Scout #1 signal went unscripted on its debut day.
+
+**IAN PRIORITY ACTIONS (Nov 2) — ranked by urgency:**
+1. 🚨🚨 **JOIN YEEDI Impact campaign 57605 — NEW TODAY, BFCM 25 DAYS.** Impact dashboard → search "YEEDI" → join campaign 57605 → build tracking link. Robot vacuum brand, perfect BFCM timing. Faster path to robot vacuum link than Dreame (DAY 45 unbuilt).
+2. 🚨🚨 **BUILD SYRUVIA IMPACT TRACKING LINK.** Cozy November DAY 3 — every day without link = revenue forfeited. Impact → Syruvia → create tracking link. 20% × $29 = $5.80/sale.
+3. 🚨🚨 **SCRIPT CANDLE WARMER LAMP.** DAY 31 overdue. "Halloween's over. I pulled this out and my apartment doesn't feel like October anymore. $29." goldenhomep0a-20 + Syruvia link when built.
+4. 🚨🚨 **BUILD DREAME IMPACT TRACKING LINKS — BFCM 25 DAYS.** Impact → Dreame → build links. Pre-content window closes ~Nov 10. DAY 45 zero links.
+5. 🚨🚨 **CONTACT ANDY (SMARTWINGS BF/CM) VIA IMPACT PLATFORM MESSAGING — DAY 22.** Impact → Publisher ID 7104029 → SmartWings → platform messaging. 25 days to Black Friday.
+6. 🚨🚨 **BUILD PROMEED IMPACT TRACKING LINK — DAY 28 OVERDUE.** Impact → Promeed → deep link → reply amelia.avery@promeed.com.
+7. 🚨🚨 **SCRIPT ROBOT VACUUM TIME-FREEDOM FORMAT** — BFCM pre-content window OPEN. Hook: "I mopped every Saturday for 5 years." Use YEEDI or Dreame link.
+8. 🚨🚨 **SCRIPT PUMICE STICK $8 TOILET RING** — Trend Scout #1 TODAY, bathroom arc Ep 3, zero GHP coverage. Hook: "I've been buying CLR for 4 years. $8. Gone in 90 seconds."
+9. 🚨 **REWARX Awin ID 129153 — 50% recurring DAY 48 IAN-BLOCKED.** Awin browser → accept → reply Julian at studio@rewarx.com.
+10. 🚨 **MAMMA MIA DAY 54 UNBREAKABLE.** Trend Scout #3 TODAY.
+11. **SCRIPT PEEL-AND-STICK CABINET WRAP $32** — Trend Scout #2 TODAY, renter kitchen arc, zero GHP coverage.
+12. **SCRIPT THANKSGIVING TABLESCAPE ($30-47)** — Pinterest peak NOW, 24 days to Nov 26.
+13. Complete Homary Awin express signup (merchant 91447, DAY 36) — Lauren at affiliate@homary.com. BFCM premium window OPEN.
+14. ACCEPT ON-NICHE Awin invites via browser: Tribesigns, SimpleProject 10%, Promeed HerbalRX 20%, CozySpiritStudio 20%, OKUN.
+15. JOIN Best Choice Products (Impact, 1-click) — BFCM gift-under-$50 window OPEN.
+16. CJ portal: check Wayfair/GreenLife/Levoit application status; AliExpress dormancy DAY 32 (58 days remain).
+
+**Context:** Today is November 2 (Monday). BFCM is 25 days away (Nov 27). Thanksgiving is 24 days away (Nov 26). Robot vacuum pre-BFCM content window OPEN NOW — must be LIVE Nov 1-10. Alexandra Gater: DAY 17 of upload gap (expected Nov 2 or Nov 5). Trend Scout Nov 2 top-3: pumice stick $8 [#1 NEW], peel-and-stick cabinet wrap $32 [#2 NEW], Mamma Mia couch cover $46 [#3 DAY 54]. Content Engine: 2 shower pressure scripts (NOT candle warmer, NOT pumice stick). Gmail CLEAN post-audit.
