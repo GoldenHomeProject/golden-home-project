@@ -4686,6 +4686,52 @@
           }
         ]
       }
+    ],
+    "MODE": [
+      {
+        "hook_category": "confrontation",
+        "hook": "Weak shower pressure isn't your plumbing's fault",
+        "beat1": "Most shower heads only come with one spray pattern, so when the water pressure feels thin, there's no way to adjust it. The flow you're stuck with is the flow you get, no matter what you're actually trying to rinse off.",
+        "turn": "This handheld shower head has eight spray modes plus two power wash settings, so you can switch to something stronger when you need it. Over fifty thousand people rate it 4.5 stars.",
+        "result": "You get a spray that actually matches what you're doing in the shower, for about $30.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close-up of hands under a running showerhead in a tiled bathroom, water streaming weakly over fingers",
+            "on_screen_text": "Not your plumbing's fault",
+            "voiceover": "Weak shower pressure isn't always your plumbing's fault."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Close-up shot of an old showerhead's single spray pattern hitting a shower wall, water falling in one steady stream",
+            "on_screen_text": "One setting, no options",
+            "voiceover": "Most shower heads only give you one spray pattern, so when it feels weak, there's nowhere else for the water to go."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Hand turning the mode dial on a handheld shower head, water changing from a gentle spray to a stronger stream",
+            "on_screen_text": "Eight modes, two power settings",
+            "voiceover": "This one has eight spray modes, plus two power wash settings that push more pressure right where you point it."
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "Person standing in a shower with water hitting their shoulders, steam rising, hand holding the detached showerhead",
+            "on_screen_text": "Fifty thousand people agree",
+            "voiceover": "Over fifty thousand people rate it four point five stars."
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "Hand resting the handheld showerhead back in its wall mount after a shower, bathroom in soft morning light",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "Eight modes, two power settings, for about thirty dollars. Comment {KEYWORD} and I'll send the link."
+          }
+        ]
+      }
     ]
   },
   "hashtag_pools": {
