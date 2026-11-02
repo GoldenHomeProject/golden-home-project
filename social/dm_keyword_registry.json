@@ -6511,6 +6511,23 @@
       "verified_stars": "4.8",
       "verified_reviews": 7437,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0CRGNKHVW",
+      "product_name": "YASONIC 3 Tier Rolling Cart, Heavy Duty Metal Utility Cart with Wheel Black",
+      "categories": [
+        "dorm",
+        "college",
+        "organization"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0CRGNKHVW?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-11-02",
+      "verified_method": "source_dorm/search+dp",
+      "verified_price": "$30.59",
+      "verified_stars": "4.7",
+      "verified_reviews": 2015,
+      "discovery_source": "back_to_college_2026"
     }
   ]
 }
