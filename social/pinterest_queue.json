@@ -8298,14 +8298,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-26-B087T2M1YX.png",
     "queued_at": "2026-10-26T10:14:35.937236Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "Waterproof Liner, Splash-Free Floors",
     "recharted": true,
     "variant": "A",
-    "ai_image": true
+    "ai_image": true,
+    "posted_at": "2026-11-02T14:41:28Z"
   },
   {
     "id": "pin-2026-10-26-B0BDRGFZRF",
