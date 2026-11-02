@@ -9197,10 +9197,10 @@
   },
   {
     "name": "reel_2026-11-02_002",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-11-02-002.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-02-002.mp4",
     "caption": "Weak shower pressure isn't your plumbing's fault\n\nMost shower heads only come with one spray pattern, so when the water pressure feels thin, there's no way to adjust it. The flow you're stuck with is the flow you get, no matter what you're actually trying to rinse off.\n\nThis handheld shower head has eight spray modes plus two power wash settings, so you can switch to something stronger when you need it. Over fifty thousand people rate it 4.5 stars.\n\nYou get a spray that actually matches what you're doing in the shower, for about $30.\n\nComment MODE and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -9217,22 +9217,7 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "Weak shower pressure isn't your plumbing's fault"
-  },
-  {
-    "id": "carousel-2026-11-02-B08WPQ12XX",
-    "media_type": "CAROUSEL_ALBUM",
-    "image_urls": [
-      "https://goldenhomeproject.com/social/carousels/2026-11-02-B08WPQ12XX/slide-1.png",
-      "https://goldenhomeproject.com/social/carousels/2026-11-02-B08WPQ12XX/slide-2.png",
-      "https://goldenhomeproject.com/social/carousels/2026-11-02-B08WPQ12XX/slide-3.png",
-      "https://goldenhomeproject.com/social/carousels/2026-11-02-B08WPQ12XX/slide-4.png",
-      "https://goldenhomeproject.com/social/carousels/2026-11-02-B08WPQ12XX/slide-5.png"
-    ],
-    "caption": "Hard water doesn't care about your lease \u2014 but your shower pressure does.\n\nSave this for later \u2014 these are small shower fixes that don't need a landlord's permission, a renovation, or a plumber.\n\nThe last one (a handheld head with 8 spray modes and a 2-mode power wash) is the one tool that actually fixes weak pressure instead of just working around it.\n\nComment AQUACARE or DM me AQUACARE for the link.\n\n#bathroomorganization #smallbathroomideas #rentalfriendly #apartmentliving #homeorganizing",
-    "asin": "B08WPQ12XX",
-    "keyword": "AQUACARE",
-    "queued_at": "2026-11-02T16:44:30.643029Z",
-    "source": "carousel_generator"
+    "hook": "Weak shower pressure isn't your plumbing's fault",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-02-002.mp4"
   }
 ]

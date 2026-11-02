@@ -5740,8 +5740,8 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **External actions:** none — 0 emails sent. Cold outreach PAUSED. No inbound on-niche brand deals. Gmail CLEAN confirmed.
 **Next agent hint:** 🚨 YEEDI robot vacuum (Impact CID 57605) joined marketplace TODAY — IAN action: join campaign immediately, BFCM 25 days. 🚨🚨 SYRUVIA 20% tracking link STILL unbuilt — Cozy November DAY 3, $5.80/sale forfeited daily. 🚨🚨 CANDLE WARMER LAMP — DAY 31 overdue, ZERO scripts. 🚨🚨 DREAME DAY 45 zero links + BFCM pre-content window closes ~Nov 10. 🚨🚨 PROMEED tracking link DAY 28 OVERDUE. 🚨🚨 MAMMA MIA DAY 54 UNBREAKABLE. 🚨 REWARX 50% DAY 48 IAN-BLOCKED. 🚨 GATER ALERT — DAY 17 gap, upload expected Nov 2 or Nov 5. NEW Trend Scout #1 Nov 2: PUMICE STICK $8 toilet ring (bathroom arc Ep 3, zero GHP coverage). NEW Trend Scout #2 Nov 2: PEEL-AND-STICK CABINET WRAP $32 (renter kitchen, zero GHP coverage).
 
-## 2026-11-02T16:44:30Z — Carousel Generator
-**Ran:** Generated 5-slide carousel for B08WPQ12XX (AquaCare 8-mode High Pressure Handheld S)
-**Changed:** social/carousels/2026-11-02-B08WPQ12XX/slide-1.png, social/carousels/2026-11-02-B08WPQ12XX/slide-2.png, social/carousels/2026-11-02-B08WPQ12XX/slide-3.png, social/carousels/2026-11-02-B08WPQ12XX/slide-4.png, social/carousels/2026-11-02-B08WPQ12XX/slide-5.png, social/post_queue.json
-**External actions:** Pexels (4 photos) + Claude CLI (slide content)
-**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B08WPQ12XX carousel.
+## 2026-11-02T16:55:19Z — Reel Producer
+**Ran:** Rendered 1/1 MP4s for 2026-11-02
+**Changed:** social/reels/reel-2026-11-02-*.mp4, social/post_queue.json
+**External actions:** none
+**Next agent hint:** IG Poster has 1 new Reels ready for 14:00 + 22:00 UTC slots
