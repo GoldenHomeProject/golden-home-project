@@ -144,8 +144,9 @@ def build_problem_fix(items, pin_id, v, out):
     got = claude_json(
         f"Product title: {name}\nWrite a Pinterest 'problem -> fix' pin. JSON: "
         '{"headline": "<4-8 words naming the everyday problem>", "problem": "<one sentence, '
-        'the frustrating moment, under 18 words>", "fix": "<one sentence: what this kind of '
-        'item changes, from the title only, under 18 words>", "photo_query": "<2-4 word stock '
+        'the frustrating moment, under 18 words>", "fix": "<one sentence naming the '
+        'feature from the title that addresses it, under 18 words; describe the feature, do '
+        'NOT promise results (no keeps/stays/never/will)>", "photo_query": "<2-4 word stock '
         'photo search for the room or moment, no people>", "title": "<Pinterest title <=90 '
         'chars: search phrase first>"}\n' + RULES)
     if not got or honest(got, [name]):
@@ -158,7 +159,11 @@ def build_problem_fix(items, pin_id, v, out):
         ok = ok and pp._judge_scene(bg)[0]
     pf.problem_fix(v, pp._search_phrase(board), got["headline"], got["problem"], got["fix"],
                    bg if ok else None, detail_of(it), band_of(it), out)
-    return dict(asin=it["asin"], board=board, title=got["title"],
+    title = got["title"]
+    _tw = set(re.findall(r"[a-z]+", title.lower())); _nw = set(re.findall(r"[a-z]+", name.lower()))
+    if _tw and len(_tw & _nw) / len(_tw) >= 0.6:   # a raw product name is not a pin title
+        title = f"{pp._search_phrase(board).title()}: {got['headline']}"
+    return dict(asin=it["asin"], board=board, title=title,
                 desc=f"{got['problem']} {got['fix']} {detail_of(it)}, {band_of(it).lower()} when we checked.",
                 tag="pf", ai=False)
 
