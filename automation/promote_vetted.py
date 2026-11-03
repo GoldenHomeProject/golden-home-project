@@ -362,6 +362,13 @@ Return STRICT JSON only:
         return None
     v.setdefault("hook_category", "problem_solution")
     v["reel_format"] = reel_format
+    # The CTA must name the product's DM keyword (filled in later from {KEYWORD}). Claude
+    # sometimes writes its own word ("Comment SHEET"), which the DM funnel never answers.
+    for sc in v.get("scenes") or []:
+        for k in ("on_screen_text", "voiceover"):
+            if isinstance(sc.get(k), str):
+                sc[k] = re.sub(r"\b(Comment|DM me|comment)\s+(?!\{KEYWORD\})[A-Z][A-Z0-9]{2,}\b",
+                               lambda m: f"{m.group(1)} {{KEYWORD}}", sc[k])
 
     # Enforce the honesty rule in code, not just in the prompt.
     banned = re.compile(r"\b(i (found|bought|tried|own|tested|used)|my (kitchen|bathroom|"
