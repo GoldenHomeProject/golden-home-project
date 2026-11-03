@@ -364,7 +364,8 @@ def build_description(title, products, tag, channel="yt"):
         lines.append(f"   ➡️ {amazon(p['asin'], tag, channel=channel)}")
     lines += [
         "", "Everything is linked above. Ships fast from Amazon.",
-        "🏠 More home finds: goldenhomeproject.com",
+        # Links in a Short's description are not tappable in the Shorts player; this page is.
+        "🔗 Every product from our videos: goldenhomeproject.com/links.html?src=yt",
         "👉 Follow: @goldenhomeproject",
         "", "⚠️ As an Amazon Associate I earn from qualifying purchases.",
         "", "#amazonfinds #homedecor #homeorganization #roomtransformation #shorts",
@@ -599,6 +600,12 @@ def main():
                 + "\n\nAll links in bio — goldenhomeproject.com 🔗\n\n"
                 + "#amazonfinds #homedecor #homeorganization #roomtransformation"
             )
+        # Instagram captions cannot carry links. Say exactly where the product is (2026-11-03:
+        # "link in bio" led to a page with no product links at all).
+        if "From our videos" not in ig_caption:
+            note = "\n\n🔗 This product: tap the link in our bio → 'From our videos' at the top."
+            i = ig_caption.find("\n#")
+            ig_caption = ig_caption[:i] + note + ig_caption[i:] if i > 0 else ig_caption + note
         ig_id = post_ig_reel(video_file, ig_caption, meta_tokens, video_dir=video_dir)
 
     print(f"\n  Posting to Facebook Page...")
