@@ -157,7 +157,7 @@ def build_problem_fix(items, pin_id, v, out):
     if not ok:
         ok = pp.scene_pin_image(f"{board} {name}", bg, seed=random.randint(1, 9999))
         ok = ok and pp._judge_scene(bg)[0]
-    pf.problem_fix(v, pp._search_phrase(board), got["headline"], got["problem"], got["fix"],
+    _draw(pf.problem_fix, v, pp._search_phrase(board), got["headline"], got["problem"], got["fix"],
                    bg if ok else None, detail_of(it), band_of(it), out)
     title = got["title"]
     _tw = set(re.findall(r"[a-z]+", title.lower())); _nw = set(re.findall(r"[a-z]+", name.lower()))
@@ -203,7 +203,7 @@ def build_versus(items, pin_id, v, out):
             print(f"  [fmt] versus rejected: {why}")
             continue
         got["left"]["band"], got["right"]["band"] = band_of(a), band_of(b2)
-        pf.versus(v, cat.lower(), got["headline"], got["left"], got["right"], out)
+        _draw(pf.versus, v, cat.lower(), got["headline"], got["left"], got["right"], out)
         board = pp.board_for({"product_name": a["name"]})[0]
         return dict(asin=a["asin"], board=board, title=got["title"],
                     desc=(f"{got['headline']} Option 1: {got['left']['type']}. Option 2: "
@@ -225,7 +225,7 @@ def build_mistakes(items, pin_id, v, out):
         print(f"  [fmt] mistakes rejected: {got and honest(got, [it['name']])}")
         return None
     headline = f"3 mistakes people make buying {got['type']}"
-    pf.mistakes(v, pp._search_phrase(board), headline, got["items"], out)
+    _draw(pf.mistakes, v, pp._search_phrase(board), headline, got["items"], out)
     return dict(asin=it["asin"], board=board, title=got["title"],
                 desc=" ".join(f"{x['mistake']}: {x['instead']}" for x in got["items"]),
                 tag="mk", ai=False)
@@ -236,7 +236,7 @@ def build_size_guide(items, pin_id, v, out):
     fx = FACTS[key]
     pool = [i for i in items if i["category"] in fx["cats"]] or items
     it = pool[0]
-    pf.size_guide(v, fx["kicker"], fx["headline"], fx["rows"], fx["note"], out)
+    _draw(pf.size_guide, v, fx["kicker"], fx["headline"], fx["rows"], fx["note"], out)
     board = pp.board_for({"product_name": it["name"]})[0]
     return dict(asin=it["asin"], board=board, title=f"{fx['headline']}: quick reference"[:90],
                 desc=f"{fx['headline']}. {fx['note']} Save this for when you shop.", tag="sg", ai=False)
@@ -272,7 +272,7 @@ def build_room_cart(items, pin_id, v, out):
         tb = price_band(f"${total:.2f}")
         rows = [{"type": x["type"], "why": x["why"], "band": band_of(p)} for x, p in zip(got["items"], picks)]
         headline = f"Refresh a {got['room']} for {tb.lower()}"
-        pf.room_cart(v, cat.lower(), headline, rows, f"All {len(picks)} for {tb.lower()}", out)
+        _draw(pf.room_cart, v, cat.lower(), headline, rows, f"All {len(picks)} for {tb.lower()}", out)
         board = pp.board_for({"product_name": picks[0]["name"]})[0]
         return dict(asin=picks[0]["asin"], board=board, title=got["title"],
                     desc=f"{headline}: " + ", ".join(r["type"] for r in rows) +
@@ -305,9 +305,64 @@ def build_checklist(items, pin_id, v, out):
     if not got or len(got.get("items") or []) < 5 or honest(got, [it["name"]]):
         print(f"  [fmt] checklist rejected: {got and honest(got, [it['name']])}")
         return None
-    pf.checklist(v, job, got["headline"], got["items"], out)
+    _draw(pf.checklist, v, job, got["headline"], got["items"], out)
     return dict(asin=it["asin"], board=board, title=got["title"],
                 desc=got["headline"] + ": " + "; ".join(got["items"]) + ".", tag="cl", ai=False)
+
+
+LAST_DRAW: dict = {}
+
+
+def _draw(fn, *args):
+    """Render a format and remember the call, so the same words can be re-drawn for IG."""
+    LAST_DRAW.update(fn=fn, args=args)
+    return fn(*args)
+
+
+def render_ig(out: Path) -> bool:
+    """Replay the last format at Instagram feed size (4:5, 1080x1350)."""
+    if not LAST_DRAW:
+        return False
+    import brand_ab as _b
+    saved = (pf.W, pf.H, _b.W, _b.H)
+    pf.W, pf.H, _b.W, _b.H = 1080, 1350, 1080, 1350
+    try:
+        LAST_DRAW["fn"](*LAST_DRAW["args"][:-1], out)
+        return True
+    finally:
+        pf.W, pf.H, _b.W, _b.H = saved
+
+
+IG_QUEUE = SOCIAL / "post_queue.json"
+IG_LEDGER = SOCIAL / "ig_format_posts.json"
+IG_TAGS = {"Bath": "#bathroomorganization #smallbathroomideas", "Bedding": "#bedroomdecor #cozybedroom",
+           "Kitchen": "#kitchenorganization #kitchenhacks", "Cleaning": "#cleaningtips #cleaninghacks"}
+
+
+def queue_ig(fmt: str, pin_id: str, meta: dict) -> None:
+    """First in line on Instagram: the IG poster takes the first ready entry, so one rotating
+    format a day replaces the same-template carousel/reel backlog (Ian, 2026-11-03)."""
+    out = SOCIAL / "instagram" / f"{pin_id}.png"
+    out.parent.mkdir(parents=True, exist_ok=True)
+    if not render_ig(out):
+        return
+    tags = IG_TAGS.get(meta.get("cat", ""), "#homeorganization #organizedhome")
+    caption = (f"{meta['title']}\n\n{meta['desc']}\n\nSave this for later.\n\n"
+               "🔗 This product: tap the link in our bio → 'From our videos' at the top.\n\n"
+               "As an Amazon Associate we earn from qualifying purchases.\n\n"
+               f"{tags} #amazonfinds #homefinds")
+    q = json.loads(IG_QUEUE.read_text())
+    lst = q if isinstance(q, list) else q.setdefault("queue", [])
+    lst.insert(0, {"id": f"ig-{pin_id}", "name": meta["title"][:60], "media_type": "IMAGE",
+                   "image_url": f"{SITE}/{out.relative_to(ROOT)}", "caption": caption[:2100],
+                   "status": "ready", "source": "generate_format_pins", "format": fmt,
+                   "asin": meta["asin"], "queued_at": datetime.now(timezone.utc).isoformat()})
+    IG_QUEUE.write_text(json.dumps(q, indent=2))
+    led = json.loads(IG_LEDGER.read_text()) if IG_LEDGER.exists() else []
+    led.append({"date": datetime.now().strftime("%Y-%m-%d"), "hook": meta["title"],
+                "asin": meta["asin"], "name": meta.get("name", ""), "format": fmt})
+    IG_LEDGER.write_text(json.dumps(led[-60:], indent=1))
+    print(f"  [fmt] also queued first on Instagram: {out.name}")
 
 
 BUILDERS = dict(problem_fix=build_problem_fix, versus=build_versus, mistakes=build_mistakes,
@@ -329,6 +384,7 @@ def main() -> int:
         return 1
     date_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     made = 0
+    ig_done = False
     for fmt in order:
         if made >= args.max:
             break
@@ -358,6 +414,12 @@ def main() -> int:
         print(f"  [fmt] {fmt} {variant} -> {out.name} | {meta['title']}")
         if args.dry:
             continue
+        if not ig_done:
+            try:
+                queue_ig(fmt, pin_id, meta)
+                ig_done = True
+            except Exception as e:  # noqa: BLE001
+                print(f"  [fmt] instagram queue failed: {e}")
         queue.append({
             "id": pin_id, "asin": meta["asin"], "board": meta["board"],
             "title": meta["title"][:100],
@@ -377,7 +439,8 @@ def main() -> int:
 
         def _git(*a):
             return subprocess.run(["git", "-C", str(ROOT), *a], capture_output=True, text=True)
-        _git("add", str(QUEUE_PATH), str(PINS_DIR))
+        _git("add", str(QUEUE_PATH), str(PINS_DIR), str(IG_QUEUE), str(IG_LEDGER),
+             str(SOCIAL / "instagram"))
         _git("-c", "user.name=GHP Ops", "-c", "user.email=goldenhomeprojectllc@gmail.com",
              "commit", "-q", "-m", f"formats: {made} pin(s) {date_str}")
         _git("-c", "rebase.autoStash=true", "pull", "--rebase", "-q", "origin", "main")

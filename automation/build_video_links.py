@@ -58,6 +58,16 @@ def recent_videos() -> list[dict]:
         out.append({"date": d["date"], "hook": (d.get("title") or s.get("hook") or "").strip(),
                     "asin": asin, "name": _strip_brand(_short_name(name, limit=70)),
                     "yt": d.get("youtube")})
+    # Rotating-format feed posts (generate_format_pins.py) point at this page too.
+    try:
+        for e in reversed(json.loads((ROOT / "social" / "ig_format_posts.json").read_text())):
+            if e.get("date", "") >= cut and e.get("asin") not in seen:
+                seen.add(e["asin"])
+                out.append({"date": e["date"], "hook": e.get("hook", ""), "asin": e["asin"],
+                            "name": e.get("name") or "", "yt": None})
+    except (OSError, ValueError):
+        pass
+    out.sort(key=lambda v: v["date"], reverse=True)
     return out
 
 
@@ -84,7 +94,7 @@ def section(videos: list[dict]) -> str:
 .vp-btn{{display:inline-block;margin-top:8px;font-size:.85rem;font-weight:600;color:var(--gold,#d4a745)}}
 </style>
 <section class="vp-wrap" id="from-videos">
-<h2>From our videos</h2>
+<h2>From our videos &amp; posts</h2>
 <p class="vp-sub">Saw something in a Reel or Short? It's here, newest first. Amazon affiliate links:
 we may earn a small commission at no extra cost to you.</p>
 {''.join(cards)}
