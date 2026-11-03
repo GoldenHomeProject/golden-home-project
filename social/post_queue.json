@@ -9203,5 +9203,77 @@
     },
     "hook": "Weak shower pressure isn't your plumbing's fault",
     "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-02-002.mp4"
+  },
+  {
+    "name": "reel_2026-11-03_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-03-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Stop buying thin curtains that let morning light in.\n\nMost curtain fabric is woven loose enough that light still gets through, especially along the top and side edges where panels don't quite meet. So sunrise, streetlights, or a neighbor's porch light end up in the room anyway, even with the curtains closed.\n\nThese are blackout panels made to cover the whole window and stop light at the source instead of just filtering it. Over a hundred thousand people have rated this two panel set 4.6 stars for bedrooms exactly like this.\n\nFor about $10, you get a window that goes properly dark instead of glowing at sunrise or under a streetlight, with two panels included for a standard window.\n\nComment BEDROOM and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "NICETOWN Black Blackout Curtains for Bedroom 42\" Wide x 63\" Long 2 Pan",
+      "dm_keyword": "BEDROOM",
+      "amazon_asin": "B01CS31R94",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01CS31R94?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Stop buying thin curtains that let morning light in."
+  },
+  {
+    "name": "reel_2026-11-03_002",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-03-002.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "You flip the pillow again, hunting the cool side.\n\nHeat gets trapped between the mattress and a thick top sheet, especially in a bedroom that holds warmth overnight. Once the fabric warms up it stays warm, so you end up flipping, kicking off the blanket, or moving to the cool spot on the bed.\n\nThis Bedsure queen sheet set is built as soft, breathable, cooling bed sheets in four pieces, and it's Oeko-Tex certified with easy care instructions. Over a hundred thousand people have rated it 4.6 stars.\n\nFor a queen bed that runs warm, a set built around breathability instead of extra layers is a simple swap, and it comes in at about $16.\n\nComment BREATHABLE and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Bedsure Queen Sheet Set - 4 Pieces Soft, Breathable, Cooling Bed Sheets | Hotel Luxury Bedding, Oeko-Tex , Easy Care, De",
+      "dm_keyword": "BREATHABLE",
+      "amazon_asin": "B07P5NBRL5",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B07P5NBRL5?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B07P5NBRL5?tag=goldenhomep0a-20"
+    },
+    "hook": "You flip the pillow again, hunting the cool side."
+  },
+  {
+    "name": "reel_2026-11-03_003",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-03-003.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Cotton pillowcases are quietly wrecking your hair overnight.\n\nRougher fabric grabs onto hair and skin while you toss and turn, so strands get tugged and your face creases against the fabric by morning. It also traps heat against your cheek all night.\n\nThis satin pillowcase, similar to silk, gives hair and skin less to catch on and has a cooling feel, with an envelope closure and a queen set of two. It's rated 4.5 stars from over three hundred thousand reviewers.\n\nLess tugging overnight and a cooler surface to sleep on, for about $7.\n\nComment BEDSURE and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Bedsure Satin Pillowcase, Similar to Silk Pillow Cases Queen Size Set of 2, Cooling Pillow Case Covers with Envelope Clo",
+      "dm_keyword": "BEDSURE",
+      "amazon_asin": "B0725WFLMB",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B0725WFLMB?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B0725WFLMB?tag=goldenhomep0a-20"
+    },
+    "hook": "Cotton pillowcases are quietly wrecking your hair overnight."
   }
 ]
