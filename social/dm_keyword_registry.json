@@ -1368,6 +1368,24 @@
       "source": "trending",
       "keyword": "MODE",
       "promoted_at": "2026-11-02T13:21:01Z"
+    },
+    {
+      "asin": "B0043P0IAK",
+      "product_name": "Scotch-Brite Zero Scratch Scrub Sponge, 6 Pack | Kitchen Sponges for Cleaning Home, Bathroom, Effective + Gentle Dish Sc",
+      "categories": [
+        "home",
+        "Cleaning"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0043P0IAK?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-11-03",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$5.99",
+      "verified_stars": "4.8",
+      "verified_reviews": 66710,
+      "discovery_source": "harvest_catalogue",
+      "keyword": "SCOTCH",
+      "promoted_at": "2026-11-03T13:20:27Z"
     }
   ],
   "_vetted_doc": "Verified-live Amazon ASINs cleared for blog/SEO/IG-caption use but NOT yet wired to a Meta comment-to-DM automation. Promote to `entries` (with a unique keyword) only AFTER creating the matching Meta Business Suite automation. Always use https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20 \u2014 never search URLs.",
@@ -6587,22 +6605,6 @@
       "verified_price": "$19.99",
       "verified_stars": "4.5",
       "verified_reviews": 6038,
-      "discovery_source": "harvest_catalogue"
-    },
-    {
-      "asin": "B0043P0IAK",
-      "product_name": "Scotch-Brite Zero Scratch Scrub Sponge, 6 Pack | Kitchen Sponges for Cleaning Home, Bathroom, Effective + Gentle Dish Sc",
-      "categories": [
-        "home",
-        "Cleaning"
-      ],
-      "affiliate_url": "https://www.amazon.com/dp/B0043P0IAK?tag=goldenhomep0a-20",
-      "status": "live",
-      "verified_at": "2026-11-03",
-      "verified_method": "best_seller_grid",
-      "verified_price": "$5.99",
-      "verified_stars": "4.8",
-      "verified_reviews": 66710,
       "discovery_source": "harvest_catalogue"
     }
   ]
