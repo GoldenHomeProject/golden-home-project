@@ -5776,8 +5776,8 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **External actions:** none — 0 emails sent. Cold outreach PAUSED. No inbound on-niche brand deals. Gmail CLEAN confirmed.
 **Next agent hint:** 🚨🚨 MAMMA MIA TREND SCOUT #1 TODAY (DAY 55) — $11-$16/sale, after-first format, ZERO scripts. SCRIPT NOW. 🚨🚨 DREAME pre-content window CLOSES NOV 10 = 7 DAYS CRITICAL — robot vacuum BFCM must be LIVE. 🚨🚨 SYRUVIA 20% tracking link STILL unbuilt — Cozy November DAY 4, $5.80/sale forfeited daily. 🚨🚨 CANDLE WARMER — DAY 32 OVERDUE, zero scripts. 🚨🚨 BFCM GIFT GUIDE ARC — brief Content Engine NOW (6 items, 6 links, gift guide format window OPEN Nov 3-10). 🚨 REWARX 50% DAY 49 IAN-BLOCKED. 🆕 FRIDGE ORGANIZATION $34 — Pinterest +375%, TikTok 5M-26M+ views, zero GHP coverage, script immediately. 🆕 Red Spectrum LLC Awin OFF-NICHE — decline in IAN browser queue.
 
-## 2026-11-03T14:47:36Z — Carousel Generator
-**Ran:** Generated 5-slide carousel for B0043P0IAK (Scotch-Brite Zero Scratch Scrub Sponge, )
-**Changed:** social/carousels/2026-11-03-B0043P0IAK/slide-1.png, social/carousels/2026-11-03-B0043P0IAK/slide-2.png, social/carousels/2026-11-03-B0043P0IAK/slide-3.png, social/carousels/2026-11-03-B0043P0IAK/slide-4.png, social/carousels/2026-11-03-B0043P0IAK/slide-5.png, social/post_queue.json
-**External actions:** Pexels (4 photos) + Claude CLI (slide content)
-**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B0043P0IAK carousel.
+## 2026-11-03T14:55:31Z — Reel Producer
+**Ran:** Rendered 2/2 MP4s for 2026-11-03
+**Changed:** social/reels/reel-2026-11-03-*.mp4, social/post_queue.json
+**External actions:** none
+**Next agent hint:** IG Poster has 2 new Reels ready for 14:00 + 22:00 UTC slots

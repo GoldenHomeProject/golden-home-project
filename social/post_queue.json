@@ -9230,10 +9230,10 @@
   },
   {
     "name": "reel_2026-11-03_002",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-11-03-002.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-03-002.mp4",
     "caption": "You flip the pillow again, hunting the cool side.\n\nHeat gets trapped between the mattress and a thick top sheet, especially in a bedroom that holds warmth overnight. Once the fabric warms up it stays warm, so you end up flipping, kicking off the blanket, or moving to the cool spot on the bed.\n\nThis Bedsure queen sheet set is built as soft, breathable, cooling bed sheets in four pieces, and it's Oeko-Tex certified with easy care instructions. Over a hundred thousand people have rated it 4.6 stars.\n\nFor a queen bed that runs warm, a set built around breathability instead of extra layers is a simple swap, and it comes in at about $16.\n\nComment BREATHABLE and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -9250,14 +9250,15 @@
       "affiliate_network": "amazon",
       "affiliate_url": "https://www.amazon.com/dp/B07P5NBRL5?tag=goldenhomep0a-20"
     },
-    "hook": "You flip the pillow again, hunting the cool side."
+    "hook": "You flip the pillow again, hunting the cool side.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-03-002.mp4"
   },
   {
     "name": "reel_2026-11-03_003",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-11-03-003.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-03-003.mp4",
     "caption": "Cotton pillowcases are quietly wrecking your hair overnight.\n\nRougher fabric grabs onto hair and skin while you toss and turn, so strands get tugged and your face creases against the fabric by morning. It also traps heat against your cheek all night.\n\nThis satin pillowcase, similar to silk, gives hair and skin less to catch on and has a cooling feel, with an envelope closure and a queen set of two. It's rated 4.5 stars from over three hundred thousand reviewers.\n\nLess tugging overnight and a cooler surface to sleep on, for about $7.\n\nComment BEDSURE and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -9274,22 +9275,7 @@
       "affiliate_network": "amazon",
       "affiliate_url": "https://www.amazon.com/dp/B0725WFLMB?tag=goldenhomep0a-20"
     },
-    "hook": "Cotton pillowcases are quietly wrecking your hair overnight."
-  },
-  {
-    "id": "carousel-2026-11-03-B0043P0IAK",
-    "media_type": "CAROUSEL_ALBUM",
-    "image_urls": [
-      "https://goldenhomeproject.com/social/carousels/2026-11-03-B0043P0IAK/slide-1.png",
-      "https://goldenhomeproject.com/social/carousels/2026-11-03-B0043P0IAK/slide-2.png",
-      "https://goldenhomeproject.com/social/carousels/2026-11-03-B0043P0IAK/slide-3.png",
-      "https://goldenhomeproject.com/social/carousels/2026-11-03-B0043P0IAK/slide-4.png",
-      "https://goldenhomeproject.com/social/carousels/2026-11-03-B0043P0IAK/slide-5.png"
-    ],
-    "caption": "Your dish sponge might be the reason that nonstick pan stopped being nonstick.\n\nNot every scrubber is safe for every surface \u2014 the wrong one breaks down coatings, scratches glass stovetops, and turns into a germ magnet faster than it looks. Save this for later so you remember to rotate and replace sponges before that happens.\n\nComment SCOTCH or DM me SCOTCH for the link.\n\n#HomeOrganization #CleaningTips #KitchenHacks #TidyHome #CleanHome",
-    "asin": "B0043P0IAK",
-    "keyword": "SCOTCH",
-    "queued_at": "2026-11-03T14:47:36.974053Z",
-    "source": "carousel_generator"
+    "hook": "Cotton pillowcases are quietly wrecking your hair overnight.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-03-003.mp4"
   }
 ]
