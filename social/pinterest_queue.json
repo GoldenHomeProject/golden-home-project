@@ -8320,14 +8320,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-26-B0BDRGFZRF.png",
     "queued_at": "2026-10-26T10:16:17.945713Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "Soft Light, Still Private",
     "recharted": true,
     "variant": "A",
-    "ai_image": true
+    "ai_image": true,
+    "posted_at": "2026-11-03T02:15:28Z"
   },
   {
     "id": "pin-2026-10-26-B07PMFVC9X",
