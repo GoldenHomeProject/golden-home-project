@@ -193,6 +193,54 @@ def recent_hooks(limit: int = 15) -> list[str]:
     return out
 
 
+# Ian, 2026-11-03: every reel followed one problem -> fix arc. The structure now rotates;
+# reel_producer.py gives each structure its own on-screen style (FORMAT_STYLE).
+REEL_STRUCTURES = {
+    "problem_fix": """STRUCTURE (5 scenes, ~20 s total, voiceover reads naturally as one piece):
+  1. Hook: the moment/problem. On-screen text = the hook, cut to 3-7 words.
+  2. Why it happens / the relatable detail (keep it true in general, not a personal story).
+  3. The fix: what this product does, in plain words, tied to the problem.
+  4. Proof, ONCE and conversational (ONLY if reviews are 1,000+; otherwise who it suits).
+  5. Payoff + CTA: the result for the viewer, then "Comment {KEYWORD} and I'll send the link." """,
+    "countdown": """STRUCTURE: COUNTDOWN (5 scenes, ~20 s):
+  1. Hook, no numbers in it: e.g. "Signs your sheets are the wrong size".
+  2-4. Three short, concrete signs or reasons, counting down (the on-screen text is the
+     sign itself, 3-7 words; do NOT write the number, it is drawn on screen). The last
+     one leads into what this product does, from its name.
+  5. Payoff + CTA: "Comment {KEYWORD} and I'll send the link." """,
+    "versus": """STRUCTURE: THIS VS THAT (5 scenes, ~20 s). Give every scene a "label" field:
+  1. Hook: a comparison question (label ""), e.g. "Straps or deep pockets?"
+  2. The usual approach people try (label "The usual way").
+  3. Where it falls short, true in general (label "The catch").
+  4. This product's approach, only from its name (label "The swap").
+  5. Who it suits + CTA "Comment {KEYWORD} and I'll send the link." (label "Worth it if").""",
+    "mistake": """STRUCTURE: COMMON MISTAKE (5 scenes, ~20 s). Give every scene a "label" field:
+  1. Hook: "Stop ..." or "Don't ..." about a common habit (label "").
+  2. Why it backfires, true in general (label "The mistake").
+  3. What to do instead (label "Instead").
+  4. How this product does that, only from its name (label "The fix").
+  5. CTA "Comment {KEYWORD} and I'll send the link." (label "Save this").""",
+    "pov": """STRUCTURE: POV (5 scenes, ~20 s), second person, present tense:
+  1. Hook starting "POV:" e.g. "POV: the fitted sheet finally stays on".
+  2-4. The moment unfolding, one short beat per scene (3-7 word on-screen lines), the
+     product's named feature appearing in scene 3 or 4.
+  5. CTA "Comment {KEYWORD} and I'll send the link." """,
+}
+
+
+def next_structure() -> str:
+    """Least-recently-used structure across the copy library's newest variants."""
+    try:
+        lib = json.loads(ce.COPY_LIBRARY_PATH.read_text())
+        recent = [v.get("reel_format") or "problem_fix"
+                  for vs in (lib.get("variants") or {}).values() for v in vs][-20:]
+    except (OSError, ValueError):
+        recent = []
+    order = list(REEL_STRUCTURES)
+    last = {f: max([i for i, r in enumerate(recent) if r == f], default=-1) for f in order}
+    return min(order, key=lambda f: last[f])
+
+
 def build_variant(entry: dict, keyword: str) -> dict | None:
     """Write a script for THIS product, from its real numbers.
 
@@ -228,6 +276,8 @@ def build_variant(entry: dict, keyword: str) -> dict | None:
     avoid_block = ("\n".join(f"- {h}" for h in avoid)
                    if avoid else "- (nothing published yet)")
 
+    reel_format = next_structure()
+    structure_block = REEL_STRUCTURES[reel_format]   # interpolated value: braces stay literal
     prompt = f"""Write a short vertical-video script for ONE Amazon product.
 
 PRODUCT (these are the only facts you may state):
@@ -259,15 +309,7 @@ familiar annoyance, or the small win. Rules:
     * Tiny satisfying fix: "Watch the whole back row slide out to you."
     * Question: "Why does the fitted sheet always pop off the same corner?"
 
-STRUCTURE (5 scenes, ~20 s total, voiceover reads naturally as one piece):
-  1. Hook: the moment/problem. On-screen text = the hook, cut to 3-7 words.
-  2. Why it happens / the relatable detail (keep it true in general, not a personal story).
-  3. The fix: what this product does, in plain words, tied to the problem.
-  4. Proof, ONCE and conversational (ONLY if reviews are 1,000+; otherwise use this scene
-     for who it suits or how it fits the space, and never mention reviews at all): "over a hundred thousand people rate it 4.5 stars" or
-     "about $13" (round the numbers; never read out 106,545).
-  5. Payoff + CTA: the result for the viewer, then "Comment {{KEYWORD}} and I'll send the link."
-     (write the literal token {{KEYWORD}}; it is filled in later).
+{structure_block}
 
 FEATURES: describe only what the product NAME states (e.g. "two-tier", "sliding",
 "waterproof", "fits up to 15 inch"). Never claim accuracy, durability, materials, quietness,
@@ -296,7 +338,7 @@ Return STRICT JSON only:
   "turn": "2 sentences: what the product does about it. Mention {reviews_fmt} reviews at {entry.get('verified_stars')} stars at most once, rounded.",
   "result": "1-2 sentences on the outcome for the reader, plus the price {entry.get('verified_price')} rounded (about $X).",
   "scenes": [
-    {{"n": 1, "duration_sec": 3, "visual_prompt": "...", "on_screen_text": "Hook in 3-7 words", "voiceover": "..."}},
+    {{"n": 1, "duration_sec": 3, "visual_prompt": "...", "on_screen_text": "Hook in 3-7 words", "voiceover": "...", "label": "(only for structures that ask for labels)"}},
     {{"n": 2, "duration_sec": 4, "visual_prompt": "...", "on_screen_text": "...", "voiceover": "..."}},
     {{"n": 3, "duration_sec": 4, "visual_prompt": "...", "on_screen_text": "...", "voiceover": "..."}},
     {{"n": 4, "duration_sec": 4, "visual_prompt": "...", "on_screen_text": "...", "voiceover": "..."}},
@@ -319,6 +361,7 @@ Return STRICT JSON only:
         print(f"  [skip] {entry.get('asin')}: script missing {missing}")
         return None
     v.setdefault("hook_category", "problem_solution")
+    v["reel_format"] = reel_format
 
     # Enforce the honesty rule in code, not just in the prompt.
     banned = re.compile(r"\b(i (found|bought|tried|own|tested|used)|my (kitchen|bathroom|"

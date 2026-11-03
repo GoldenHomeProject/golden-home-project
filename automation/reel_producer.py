@@ -585,11 +585,126 @@ def fallback_bg(out_path: Path):
     img.save(out_path, "JPEG", quality=90)
 
 
+# ---------------------------------------------------------------- reel text styles
+# Ian, 2026-11-03: the reels all looked the same. One style per reel, so a reel stays
+# coherent while consecutive days look different. Set by produce_reel().
+REEL_STYLES = ("box", "caption_top", "lower_third", "big_number", "label_pill")
+FORMAT_STYLE = {"countdown": "big_number", "checklist": "big_number", "versus": "label_pill",
+                "mistake": "label_pill", "pov": "caption_top", "problem_fix": None}
+REEL_STYLE = {"name": "box", "n": 1, "total": 5, "label": ""}
+CREAM_RGB, INK_RGB = (250, 246, 238), (34, 32, 29)
+
+
+def pick_reel_style(script: dict, stem: str) -> str:
+    style = FORMAT_STYLE.get(str(script.get("reel_format") or ""))
+    if style:
+        return style
+    # No format (older scripts): rotate by the reel's date + sequence so days differ.
+    digits = "".join(ch for ch in stem if ch.isdigit())
+    plain = ("box", "caption_top", "lower_third")
+    return plain[int(digits[-6:] or 0) % len(plain)]
+
+
+def _wrap_lines(text: str, font, max_w: int) -> list[str]:
+    lines, cur = [], ""
+    for w in text.split():
+        t = f"{cur} {w}".strip()
+        if font.getlength(t) <= max_w:
+            cur = t
+        else:
+            if cur:
+                lines.append(cur)
+            cur = w
+    return lines + ([cur] if cur else [])
+
+
+def _fit_text(text: str, sizes, max_w: int, max_lines: int):
+    for size in sizes:
+        f = find_font(size)
+        lines = _wrap_lines(text, f, max_w)
+        if len(lines) <= max_lines and all(f.getlength(l) <= max_w for l in lines):
+            return f, lines, size
+    return f, lines[:max_lines], size
+
+
+def styled_overlay(text: str, out_path: Path) -> bool:
+    """Draw the current reel style onto a transparent PNG. False = use the classic box."""
+    st = REEL_STYLE["name"]
+    if st == "box":
+        return False
+    img = Image.new("RGBA", (WIDTH, HEIGHT), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    n, total = REEL_STYLE["n"], REEL_STYLE["total"]
+    text = (text or "").strip()
+
+    if st == "caption_top":
+        f, lines, size = _fit_text(text, range(96, 50, -6), WIDTH - 160, 4)
+        y = SAFE_TOP + 140
+        for ln in lines:
+            w = f.getlength(ln)
+            d.text(((WIDTH - w) // 2, y), ln, font=f, fill=TEXT_COLOR,
+                   stroke_width=8, stroke_fill=(0, 0, 0))
+            y += int(size * 1.18)
+
+    elif st == "lower_third":
+        f, lines, size = _fit_text(text, range(76, 44, -4), WIDTH - 260, 3)
+        lh = int(size * 1.2)
+        h = lh * len(lines) + 70
+        y1 = HEIGHT - SAFE_BOTTOM - 60
+        y0 = y1 - h
+        d.rounded_rectangle([60, y0, WIDTH - 60, y1], radius=24, fill=CREAM_RGB + (240,))
+        d.rectangle([60, y0 + 24, 72, y1 - 24], fill=ACCENT_COLOR + (255,))
+        y = y0 + 35
+        for ln in lines:
+            d.text((110, y), ln, font=f, fill=INK_RGB)
+            y += lh
+
+    elif st == "big_number":
+        if 1 < n < total:                       # the middle scenes count down 3, 2, 1
+            num = str(total - n)
+            nf = find_font(300)
+            d.text((90, SAFE_TOP + 40), num, font=nf, fill=ACCENT_COLOR,
+                   stroke_width=10, stroke_fill=(0, 0, 0))
+        f, lines, size = _fit_text(text, range(84, 46, -6), WIDTH - 180, 4)
+        y = int(HEIGHT * 0.55)
+        for ln in lines:
+            d.text((90, y), ln, font=f, fill=TEXT_COLOR, stroke_width=7, stroke_fill=(0, 0, 0))
+            y += int(size * 1.18)
+
+    elif st == "label_pill":
+        label = REEL_STYLE.get("label") or ""
+        y = SAFE_TOP + 120
+        if label:
+            lf = find_font(44)
+            lw = lf.getlength(label.upper())
+            d.rounded_rectangle([(WIDTH - lw) // 2 - 34, y, (WIDTH + lw) // 2 + 34, y + 84],
+                                radius=42, fill=ACCENT_COLOR + (255,))
+            d.text(((WIDTH - lw) // 2, y + 16), label.upper(), font=lf, fill=INK_RGB)
+            y += 130
+        f, lines, size = _fit_text(text, range(88, 48, -6), WIDTH - 200, 4)
+        lh = int(size * 1.2)
+        box = [70, y, WIDTH - 70, y + lh * len(lines) + 60]
+        d.rounded_rectangle(box, radius=26, fill=(255, 255, 255, 230))
+        yy = y + 30
+        for ln in lines:
+            d.text(((WIDTH - f.getlength(ln)) // 2, yy), ln, font=f, fill=INK_RGB)
+            yy += lh
+    else:
+        return False
+
+    hf = find_font(34)
+    d.text((48, HEIGHT - SAFE_BOTTOM + 24), "@golden_home_project", fill=ACCENT_COLOR, font=hf)
+    img.save(out_path, "PNG")
+    return True
+
+
 def compose_scene_frame(bg_path: Path | None, on_screen_text: str, out_path: Path,
                         accent: bool = False):
     """Open background, darken bottom third, overlay readable typography.
     bg_path=None renders the SAME text treatment on a transparent PNG, to lay over video."""
     transparent = bg_path is None
+    if transparent and styled_overlay(on_screen_text, out_path):
+        return
     mode = "RGBA" if transparent else "RGB"
     img = (Image.new("RGBA", (WIDTH, HEIGHT), (0, 0, 0, 0)) if transparent
            else Image.open(bg_path).convert("RGB"))
@@ -1140,7 +1255,10 @@ def produce_reel(script_path: Path) -> Path | None:
         print(f"    scene {n}: {visual[:60]}")
         # Real footage first; a clean animated card if nothing good exists. The old
         # still-photo + Ken Burns zoom is retired (Ian, 2026-10-16).
+        REEL_STYLE.update(n=n, total=len(scenes), label=str(scene.get("label") or ""))
         if i == 0:
+            REEL_STYLE["name"] = pick_reel_style(script, stem)
+            print(f"    style: {REEL_STYLE['name']} (format: {script.get('reel_format') or '-'})")
             _SEEN_THIS_REEL.clear()
             sq = scene_queries(scenes, product_hint)
             real = 0

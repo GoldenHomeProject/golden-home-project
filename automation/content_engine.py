@@ -417,6 +417,7 @@ def generate_scripts(opportunities: list[dict], n: int = DAILY_SCRIPT_COUNT) -> 
         scripts.append({
             "hook_category": variant["hook_category"],
             "hook": variant["hook"],
+            "reel_format": variant.get("reel_format") or "problem_fix",
             "scenes": scenes,
             "caption": caption,
             "hashtags": hashtags,
