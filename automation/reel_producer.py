@@ -308,9 +308,19 @@ def flux_scene(context: str, out_path: Path, seed: int = 0) -> bool:
     """
     room = next((r for pat, r in _SCENE_ROOMS if re.search(pat, context or "", re.I)),
                 "a bright, uncluttered modern home interior")
-    full = (f"Interior photograph of {room}. Empty of people, no person, no hands, "
-            "no faces. No products in the foreground. Soft diffused natural window light, "
-            "realistic materials, photorealistic, generous negative space. "
+    # Vary the look (Ian, 2026-11-03: every pin was the same bright, empty white room).
+    import random as _r
+    style = _r.choice(["warm Scandinavian", "modern farmhouse", "boho with rattan and plants",
+                       "mid-century modern", "coastal, soft blues and linen",
+                       "moody, deep green walls and brass", "cozy cottage", "warm minimalist, oak and cream"])
+    light = _r.choice(["soft morning light", "golden late-afternoon sun", "warm evening lamp light",
+                       "bright overcast daylight"])
+    lived = _r.choice(["a folded throw and a stack of books", "a plant and a woven basket",
+                       "a mug on a tray", "linen textures and a small vase of stems",
+                       "a few framed prints"])
+    full = (f"Interior photograph of {room}, {style} style, {light}, lived-in with {lived}. "
+            "Empty of people, no person, no hands, no faces. No products in the foreground. "
+            "Realistic materials, photorealistic, natural composition, eye-level angle. "
             "No text, no lettering, no numbers, no logos, no signs, no screens, no watermark")
     if not cf_flux(full, seed, out_path):
         return False
