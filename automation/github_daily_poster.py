@@ -56,6 +56,19 @@ def already_posted_sources():
     return seen
 
 
+def _chart_asins():
+    try:
+        d = json.loads((REPO_ROOT / "social" / "chart_now.json").read_text())
+        if (datetime.now(timezone.utc) - datetime.fromisoformat(d["captured_at"])).days > 3:
+            return set()
+        return {i["asin"] for i in d.get("items", [])}
+    except Exception:  # noqa: BLE001  - no scan means no filter, never no post
+        return set()
+
+
+_ON_CHART = _chart_asins()
+
+
 def pick_dynamic_entry(date_str, lookback_days=7):
     """Build a daily-poster entry from today's reel-producer output.
 
@@ -105,6 +118,10 @@ def pick_dynamic_entry(date_str, lookback_days=7):
             # Without an ASIN we cannot attribute revenue, so skip rather than
             # post an unattributed reel that would degrade prediction #8.
             print(f"  [dynamic] {script_path.name} has no amazon_asin — skipping")
+            continue
+        # Only products selling NOW (Ian, 2026-11-04: "only post trending ones").
+        if _ON_CHART and asin not in _ON_CHART:
+            print(f"  [dynamic] {script_path.name} {asin} not on today's chart - skipping")
             continue
         title = (data.get("hook") or data.get("title") or "").strip().rstrip(".")
         if not title:

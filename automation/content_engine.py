@@ -395,6 +395,11 @@ def generate_scripts(opportunities: list[dict], n: int = DAILY_SCRIPT_COUNT) -> 
     # Products on today's best-seller chart first (Ian, 2026-11-04: 4 of the last 8 reels
     # featured products no longer charting), then the least-used hook category.
     on_chart = chart_now_asins()
+    if on_chart:   # Ian, 2026-11-04: only trending products, no non-chart fallback
+        pool = [kv for kv in pool if by_kw[kv[0]].get("asin") in on_chart]
+        if not pool:
+            print("[content-engine] no variants for today's chart products - writing none")
+            return []
     pool.sort(key=lambda kv: (by_kw[kv[0]].get("asin") not in on_chart,
                               hook_counts.get(kv[1].get("hook_category", ""), 0)))
     print(f"[content-engine] {sum(1 for kw, _ in pool if by_kw[kw].get('asin') in on_chart)} "
