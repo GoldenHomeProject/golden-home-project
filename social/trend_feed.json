@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-11-03T12:36:15.784514Z",
-  "date": "2026-11-03",
+  "generated_at": "2026-11-04T12:52:50.285666Z",
+  "date": "2026-11-04",
   "opportunities": [
     {
       "rank": 1,
       "product_category": "couch/sofa covers",
-      "specific_product": "Mamma Mia waterproof stretch sofa cover",
+      "specific_product": "Mamma Mia waterproof stretch sofa slipcover",
       "brand": "Mamma Mia Covers",
-      "target_price": "$45",
-      "transformation_hook": "I covered my pet-hair couch for $45 before guests arrive",
-      "before_state": "Faded, pet-hair-covered, stained couch nobody wants to sit on before holiday guests show up",
-      "after_state": "Crisp, tailored slipcover transforms the couch into a magazine-ready centerpiece in under 10 minutes",
+      "target_price": "$42",
+      "transformation_hook": "$42 cover turns a pet-hair couch into guest-ready in 10 minutes",
+      "before_state": "Faded, stained, pet-hair-covered couch cushions nobody wants guests to see",
+      "after_state": "Crisp, tailored-looking slipcovered sofa that photographs like new",
       "buyer_intent_keywords": [
         "couch cover for pets",
-        "waterproof sofa slipcover",
-        "stretch couch cover",
-        "pet hair proof couch cover",
+        "waterproof sofa cover",
+        "stretch slipcover couch",
+        "pet hair couch cover",
         "sofa cover before Thanksgiving"
       ],
       "scores": {
@@ -25,107 +25,107 @@
         "intent": 9
       },
       "composite_score": 36,
-      "why_now": "Thanksgiving hosting season plus HGTV's 'dress up the space above your couch' pin is driving living-room refresh searches right now"
+      "why_now": "Pre-Thanksgiving hosting prep plus Apartment Therapy's pet-owner/apartment content is pushing pet-friendly furniture fixes right as holiday guest visits get booked."
     },
     {
       "rank": 2,
-      "product_category": "kitchen cabinet hardware",
-      "specific_product": "brushed gold cabinet knob and pull refresh kit",
-      "brand": "Amazon generic",
-      "target_price": "$28",
-      "transformation_hook": "Swapped my cabinet hardware for $28 and my kitchen looks renovated",
-      "before_state": "Dated, scratched builder-grade knobs make the whole kitchen feel old and cheap",
-      "after_state": "New brushed gold pulls instantly make cabinets look custom and high-end with zero demo work",
+      "product_category": "storage furniture",
+      "specific_product": "Best Choice Products storage ottoman bench",
+      "brand": "Best Choice Products",
+      "target_price": "$89",
+      "transformation_hook": "$89 storage bench hides holiday clutter guests never see",
+      "before_state": "Cluttered entryway or living room with shoes, blankets, and toys strewn everywhere",
+      "after_state": "Tidy storage bench that swallows the clutter and adds extra seating",
       "buyer_intent_keywords": [
-        "cabinet hardware kit",
-        "cheap kitchen upgrade",
-        "gold cabinet knobs",
-        "kitchen cabinet pulls",
-        "budget kitchen makeover"
-      ],
-      "scores": {
-        "trend": 7,
-        "transformation": 10,
-        "affiliate": 10,
-        "intent": 8
-      },
-      "composite_score": 35,
-      "why_now": "Apartment Therapy's viral 'paint your cabinets for a dramatic before/after' pin is pushing cheap kitchen-refresh searches ahead of holiday hosting"
-    },
-    {
-      "rank": 3,
-      "product_category": "closet/entryway storage bins",
-      "specific_product": "stackable fabric storage bin organization system",
-      "brand": "Amazon generic",
-      "target_price": "$34",
-      "transformation_hook": "I decluttered my entryway for $34 before Thanksgiving guests arrive",
-      "before_state": "Coats, shoes, and car clutter piled up in a chaotic entry closet nobody wants guests to see",
-      "after_state": "Labeled, stacked bins turn the same closet into an organized, guest-ready entryway in one afternoon",
-      "buyer_intent_keywords": [
-        "entryway organization bins",
-        "closet storage system",
-        "declutter before Thanksgiving",
-        "coat closet organizer",
-        "fabric storage bins"
+        "storage ottoman bench",
+        "entryway storage bench",
+        "hidden storage furniture",
+        "small space storage ottoman",
+        "living room clutter solution"
       ],
       "scores": {
         "trend": 7,
         "transformation": 8,
-        "affiliate": 10,
+        "affiliate": 9,
+        "intent": 8
+      },
+      "composite_score": 32,
+      "why_now": "BHG's 'best impression on guests' content and Apartment Therapy's room-divider/hide-clutter pins show a clear pre-Thanksgiving decluttering wave."
+    },
+    {
+      "rank": 3,
+      "product_category": "kitchen organization tools",
+      "specific_product": "Syruvia lazy Susan + drawer organizer set",
+      "brand": "Syruvia",
+      "target_price": "$24",
+      "transformation_hook": "$24 turntable set makes your Thanksgiving kitchen feel cozy, not chaotic",
+      "before_state": "Jumbled cabinets, overflowing pantry, and cluttered counters mid holiday-cooking crunch",
+      "after_state": "Organized, styled counters and cabinets with turntables and labeled bins",
+      "buyer_intent_keywords": [
+        "kitchen counter organizer",
+        "pantry organization bins",
+        "lazy susan cabinet",
+        "kitchen clutter solution",
+        "Thanksgiving kitchen prep"
+      ],
+      "scores": {
+        "trend": 7,
+        "transformation": 8,
+        "affiliate": 8,
         "intent": 9
       },
-      "composite_score": 34,
-      "why_now": "Real Simple's 'what organizing pros get rid of in November' pin is spiking pre-holiday declutter intent right as guests start booking travel"
+      "composite_score": 32,
+      "why_now": "Real Simple's 'cozy kitchen without clutter' pin lands right as Thanksgiving cooking prep is driving urgent kitchen organization searches."
     },
     {
       "rank": 4,
-      "product_category": "headboard alternative",
-      "specific_product": "wall-mounted upholstered headboard panel",
-      "brand": "Best Choice Products",
-      "target_price": "$89",
-      "transformation_hook": "No headboard? I fixed my bare bed wall for $89",
-      "before_state": "Bare, empty wall above the bed with a headboard-less frame that looks unfinished",
-      "after_state": "Plush upholstered panel instantly makes the bedroom feel like a boutique hotel suite",
+      "product_category": "bedroom wall decor and pillows",
+      "specific_product": "Eli & Elm side-sleeper pillow + floating wall shelf set",
+      "brand": "Eli & Elm",
+      "target_price": "$56",
+      "transformation_hook": "$56 pillow + shelf combo fixes neck pain and that empty wall above the bed",
+      "before_state": "Bare wall above the headboard and flat, unsupportive pillows causing morning neck pain",
+      "after_state": "Styled floating shelves above the bed with a supportive, propped pillow stack",
       "buyer_intent_keywords": [
-        "headboard alternative",
-        "no headboard ideas",
-        "wall mounted headboard panel",
-        "upholstered headboard cheap",
-        "above bed decor"
+        "pillow for neck pain side sleeper",
+        "above headboard decor",
+        "floating shelves bedroom",
+        "empty wall above bed ideas",
+        "cheap bedroom makeover"
       ],
       "scores": {
-        "trend": 8,
+        "trend": 6,
         "transformation": 9,
         "affiliate": 8,
         "intent": 7
       },
-      "composite_score": 32,
-      "why_now": "Both HGTV ('dress up space above your headboard') and Apartment Therapy ('15 headboard alternative ideas') surfaced this exact problem in the same week, signaling a cross-platform aesthetic trend"
+      "composite_score": 30,
+      "why_now": "HGTV and Apartment Therapy are both pushing 'fill the empty space above your bed' content this week, pairing naturally with Eli & Elm's wellness-pillow angle."
     },
     {
       "rank": 5,
-      "product_category": "cozy ambient lighting",
-      "specific_product": "warm LED floor lamp with dimmable layered lighting",
+      "product_category": "fireplace and mantel decor",
+      "specific_product": "Decorative fireplace screen + mantel garland set",
       "brand": "Amazon generic",
-      "target_price": "$39",
-      "transformation_hook": "Made my living room feel like a cabin for $39 with one lamp",
-      "before_state": "Harsh overhead 'big light' makes the living room feel cold and uninviting as nights get darker",
-      "after_state": "Warm layered floor lamp lighting turns the same room into a cozy winter sanctuary",
+      "target_price": "$38",
+      "transformation_hook": "$38 mantel refresh turns a bare fireplace into a holiday showpiece",
+      "before_state": "Plain, dated fireplace with a bare, undecorated mantel",
+      "after_state": "Painted screen and garland-styled mantel ready for the holiday season",
       "buyer_intent_keywords": [
-        "cozy floor lamp",
-        "layered lighting living room",
-        "warm LED lamp",
-        "fall winter home lighting",
-        "no overhead light ideas"
+        "fireplace screen decorative",
+        "christmas mantel garland",
+        "fireplace makeover ideas",
+        "christmas mantel decor",
+        "painted fireplace ideas"
       ],
       "scores": {
-        "trend": 8,
+        "trend": 7,
         "transformation": 8,
-        "affiliate": 8,
+        "affiliate": 7,
         "intent": 7
       },
-      "composite_score": 31,
-      "why_now": "Apartment Therapy's 'banish the big light, layer lighting like a pro' pin is riding the seasonal shift into shorter, darker days"
+      "composite_score": 29,
+      "why_now": "Martha Stewart's painted-fireplace pins and HGTV's Christmas tree/ribbon content signal mantel styling searches are about to peak as households start decorating for the season."
     }
   ],
   "raw_signal_count": 85,
