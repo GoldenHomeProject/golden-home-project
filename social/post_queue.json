@@ -9274,5 +9274,29 @@
     },
     "hook": "Cotton pillowcases are quietly wrecking your hair overnight.",
     "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-03-003.mp4"
+  },
+  {
+    "name": "reel_2026-11-04_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-04-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Stop using the green scrubber on your nonstick pans.\n\nRegular scouring pads look tough but they bite into a coated pan's surface a tiny bit every wash. Those scratches add up quietly, and a pan that used to release food easily starts sticking and looking dull months before it should.\n\nThis sponge is designed to scrub stuck-on food without scratching the surface underneath, so it works on pans, counters, and bathroom fixtures alike. It's rated 4.8 stars from over sixty thousand reviews, and it comes as a six pack.\n\nThat means a fresh sponge at every sink without re-ordering constantly, and pans and surfaces that stay looking newer longer. It's about six dollars for the whole pack.\n\nComment SCOTCH and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Scotch-Brite Zero Scratch Scrub Sponge, 6 Pack | Kitchen Sponges for Cleaning Home, Bathroom, Effective + Gentle Dish Sc",
+      "dm_keyword": "SCOTCH",
+      "amazon_asin": "B0043P0IAK",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B0043P0IAK?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B0043P0IAK?tag=goldenhomep0a-20"
+    },
+    "hook": "Stop using the green scrubber on your nonstick pans."
   }
 ]

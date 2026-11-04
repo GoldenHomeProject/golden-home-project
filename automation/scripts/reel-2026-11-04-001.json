@@ -1,0 +1,62 @@
+{
+  "created_at": "2026-11-04T13:28:24.998738Z",
+  "date": "2026-11-04",
+  "seq": 1,
+  "hook_category": "mistake",
+  "hook": "Stop using the green scrubber on your nonstick pans.",
+  "reel_format": "problem_fix",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of hands scrubbing a nonstick frying pan at a kitchen sink with a worn green scouring pad, soap suds on the surface.",
+      "on_screen_text": "Stop scrubbing pans like this",
+      "voiceover": "Stop using the green scrubber on your nonstick pans."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Close-up of a nonstick pan surface under kitchen light showing faint scratch marks with a bit of food residue caught in them.",
+      "on_screen_text": "Scratches build before you notice",
+      "voiceover": "Regular scouring pads bite into the coating a little every time, so pans dull and start sticking faster than they should."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Hands scrubbing a pot at the kitchen sink with a soft sponge, suds covering the pot and a stack of dishes nearby.",
+      "on_screen_text": "Scrubs hard, skips the scratches",
+      "voiceover": "This sponge is built to scrub without scratching, so it cleans pots and counters without wearing down the finish underneath."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Overhead shot of a kitchen sink caddy holding a couple of sponges, with a bathroom sink visible in the background through a doorway.",
+      "on_screen_text": "One sponge for every sink",
+      "voiceover": "Over sixty thousand people rate it close to five stars, and the six pack means there's one for the kitchen and one for the bathroom."
+    },
+    {
+      "n": 5,
+      "duration_sec": 5,
+      "visual_prompt": "A clean pan and a sponge resting on a drying rack beside the sink, morning light coming through a kitchen window.",
+      "on_screen_text": "Comment SCOTCH for the link",
+      "voiceover": "Your pans and counters hold up longer, and it's about six dollars for the pack. Comment SCOTCH and I'll send the link."
+    }
+  ],
+  "caption": "Stop using the green scrubber on your nonstick pans.\n\nRegular scouring pads look tough but they bite into a coated pan's surface a tiny bit every wash. Those scratches add up quietly, and a pan that used to release food easily starts sticking and looking dull months before it should.\n\nThis sponge is designed to scrub stuck-on food without scratching the surface underneath, so it works on pans, counters, and bathroom fixtures alike. It's rated 4.8 stars from over sixty thousand reviews, and it comes as a six pack.\n\nThat means a fresh sponge at every sink without re-ordering constantly, and pans and surfaces that stay looking newer longer. It's about six dollars for the whole pack.\n\nComment SCOTCH and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "This sponge is designed to scrub stuck-on food without scratching the surface underneath, so it works on pans, counters, and bathroom fixtures alike. It's rated 4.8 stars from over sixty thousand revi",
+  "affiliate_strategy": {
+    "primary_product": "Scotch-Brite Zero Scratch Scrub Sponge, 6 Pack | Kitchen Sponges for Cleaning Home, Bathroom, Effective + Gentle Dish Sc",
+    "dm_keyword": "SCOTCH",
+    "amazon_asin": "B0043P0IAK",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B0043P0IAK?tag=goldenhomep0a-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": "https://www.amazon.com/dp/B0043P0IAK?tag=goldenhomep0a-20"
+  }
+}
