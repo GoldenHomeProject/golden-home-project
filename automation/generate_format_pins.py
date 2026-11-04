@@ -423,7 +423,8 @@ def main() -> int:
         queue.append({
             "id": pin_id, "asin": meta["asin"], "board": meta["board"],
             "title": meta["title"][:100],
-            "description": (meta["desc"].strip() + " " + DISCLOSURE)[:500],
+            "description": (meta["desc"].strip() + " Tap through to see it on Amazon. "
+                            + DISCLOSURE)[:500],
             "link": link_for(meta["asin"], variant, meta["tag"]),
             "image_path": str(out.relative_to(ROOT)),
             "image_url": f"{SITE}/{out.relative_to(ROOT)}",

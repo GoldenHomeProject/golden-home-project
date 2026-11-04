@@ -236,7 +236,7 @@ REEL_STRUCTURES = {
     "versus": """STRUCTURE: THIS VS THAT (5 scenes, ~20 s). Give every scene a "label" field:
   1. Hook: a comparison question (label ""), e.g. "Straps or deep pockets?"
   2. The usual approach people try (label "The usual way").
-  3. Where it falls short, true in general (label "The catch").
+  3. Where it falls short, true in general (label "The problem").
   4. This product's approach, only from its name (label "The swap").
   5. Who it suits + CTA "Comment {KEYWORD} and I'll send the link." (label "Worth it if").""",
     "mistake": """STRUCTURE: COMMON MISTAKE (5 scenes, ~20 s). Give every scene a "label" field:
