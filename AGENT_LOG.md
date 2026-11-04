@@ -5823,3 +5823,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** BUSINESS_BRAIN.md (last-updated timestamp → 2026-11-04 Affiliate Optimizer 10am; November 2026 Affiliate Updates section appended — Gmail clean audit, full platform status, revenue priority stack, 15-item IAN action list), AGENT_LOG.md
 **External actions:** none — 0 emails sent. Gmail CLEAN. Cold outreach PAUSED.
 **Next agent hint:** 🚨🚨 DREAME pre-content BFCM window CLOSES NOV 10 = 6 DAYS CRITICAL (DAY 46 zero links). IAN: build Impact tracking links TODAY. 🚨🚨 SYRUVIA 20% tracking link STILL unbuilt — Cozy November DAY 5, $5.80/sale forfeited. 🚨🚨 MAMMA MIA DAY 56 TREND SCOUT #1 — UNBREAKABLE. 🚨🚨 CANDLE WARMER DAY 33 zero scripts. 🚨🚨 PROMEED tracking link DAY 30 OVERDUE. 🚨 REWARX 50% DAY 50 IAN-BLOCKED. 🆕 YEEDI 57605 NEW robot vacuum Impact — IAN join immediately. 🆕 LAZY SUSAN TURNTABLE $24 — Thanksgiving Pinterest +125%, 22 days to Nov 26. BFCM 23 days.
+
+## 2026-11-04T15:01:37Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B07ZL2BFMP (Scrub Daddy Sponge (dye-free, scratch-fr)
+**Changed:** social/carousels/2026-11-04-B07ZL2BFMP/slide-1.png, social/carousels/2026-11-04-B07ZL2BFMP/slide-2.png, social/carousels/2026-11-04-B07ZL2BFMP/slide-3.png, social/carousels/2026-11-04-B07ZL2BFMP/slide-4.png, social/carousels/2026-11-04-B07ZL2BFMP/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B07ZL2BFMP carousel.
