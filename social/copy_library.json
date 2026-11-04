@@ -4778,6 +4778,53 @@
           }
         ]
       }
+    ],
+    "SIMILAR": [
+      {
+        "hook_category": "mistake",
+        "hook": "Stop blaming your shampoo for the morning frizz.",
+        "beat1": "Cotton pillowcases grip onto hair strands overnight, so when you shift in your sleep the fabric tugs and pulls instead of letting hair glide across it. That same friction is what presses creases into skin, and those lines take longer to fade out each year.",
+        "turn": "A satin pillowcase set like this grey queen two-pack is made so hair and skin slide against the fabric instead of catching on it. It's rated 4.5 stars across roughly 323,000 reviews.",
+        "result": "Less tugging overnight for about $7, for a set of two queen pillowcases.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "A woman waking up in bed with soft morning light through the blinds, touching tangled hair while looking in a bedroom mirror.",
+            "on_screen_text": "Signs it's not your shampoo",
+            "voiceover": "Stop blaming your shampoo for the morning frizz."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Close-up of hair strands caught against the woven texture of a cotton pillowcase, a hand smoothing the hair back.",
+            "on_screen_text": "Hair snags on rough fabric",
+            "voiceover": "Cotton grips onto your hair all night, so it tugs instead of letting strands glide."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Close-up of a cheek resting on a pillow with a faint crease line visible in soft morning light.",
+            "on_screen_text": "Creases that take longer to fade",
+            "voiceover": "That same friction presses lines into your skin, and they stick around longer every year."
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "Hands pulling a grey satin pillowcase over a pillow on a made queen bed.",
+            "on_screen_text": "A smoother surface changes both",
+            "voiceover": "This grey satin pillowcase set is made so hair and skin slide instead of catch overnight."
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "A finished queen bed with two grey satin pillowcases, hands fluffing a pillow in soft natural light.",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "A set of two queen pillowcases for about seven dollars. Comment {KEYWORD} and I'll send the link."
+          }
+        ],
+        "reel_format": "countdown"
+      }
     ]
   },
   "hashtag_pools": {
