@@ -6606,6 +6606,38 @@
       "verified_stars": "4.5",
       "verified_reviews": 6038,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0BB31CL9N",
+      "product_name": "SpaceDresser Sheer Voile Window Treatment Rod Pocket Curtain Panels for Kitchen Bedroom Living Room Drapes Sunlight Filt",
+      "categories": [
+        "home",
+        "Window Treatments"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0BB31CL9N?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-11-04",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$9.95",
+      "verified_stars": "4.7",
+      "verified_reviews": 12983,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B075L81JP5",
+      "product_name": "Aquabliss SFC100 Daily Revitalize Shower Filter Replacement Cartridge | Vitamin C shower filter replacement cartridge, f",
+      "categories": [
+        "home",
+        "Bath"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B075L81JP5?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-11-04",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$17.99",
+      "verified_stars": "4.7",
+      "verified_reviews": 20820,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
