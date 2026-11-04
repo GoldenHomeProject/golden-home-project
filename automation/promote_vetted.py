@@ -150,9 +150,34 @@ def _descriptor(cats: list[str]) -> str:
     return ""
 
 
+def chart_now_asins(max_age_days: int = 3) -> set:
+    """ASINs on today's all-category best-seller scan (chart_scan.py), if it is fresh."""
+    try:
+        d = json.loads((Path(__file__).resolve().parent.parent / "social" / "chart_now.json").read_text())
+        from datetime import datetime as _dt, timezone as _tz
+        if (_dt.now(_tz.utc) - _dt.fromisoformat(d["captured_at"])).days > max_age_days:
+            return set()
+        return {i["asin"] for i in d.get("items", [])}
+    except (OSError, ValueError, KeyError):
+        return set()
+
+
 def trending_pool(days: int = 10) -> list[dict]:
-    """Today's scraped best-sellers, shaped like registry entries."""
+    """Today's scraped best-sellers, shaped like registry entries. The all-category chart
+    scan (118 proven products a day) comes first; the 6-a-day trending feed after it."""
     out, seen = [], set()
+    try:
+        cn = json.loads((ROOT / "social" / "chart_now.json").read_text())
+        for it in cn.get("items", []):
+            if it["asin"] in seen:
+                continue
+            seen.add(it["asin"])
+            out.append({"asin": it["asin"], "product_name": it.get("name") or "",
+                        "categories": ["home", it.get("category") or ""], "status": "live",
+                        "verified_price": it.get("price"), "verified_stars": str(it.get("rating") or ""),
+                        "verified_reviews": it.get("reviews"), "source": "chart"})
+    except (OSError, ValueError):
+        pass
     for path in sorted((ROOT / "social").glob("trending_picks_*.json"), reverse=True)[:days]:
         try:
             data = json.loads(path.read_text())
@@ -481,8 +506,10 @@ def main() -> int:
                 " ".join(e.get("categories", []) or [])).lower()
         return 1 if any(w in blob for w in PROVEN) else 0
 
+    # Selling TODAY first (Ian, 2026-11-04), then proven themes, then review depth.
+    on_chart = chart_now_asins()
     for entry in sorted(vetted,
-                        key=lambda e: (proven_rank(e),
+                        key=lambda e: (e.get("asin") in on_chart, proven_rank(e),
                                        _reviews_value(e.get("verified_reviews"))),
                         reverse=True):
         if not entry.get("asin") or not entry.get("verified_reviews"):

@@ -283,6 +283,18 @@ def _pick_hashtags(library: dict, registry_entry: dict, max_tags: int = 4) -> li
     return seen[:max_tags] if seen else ["#amazonhomefinds"]
 
 
+
+def chart_now_asins(max_age_days: int = 3) -> set:
+    """ASINs on today's all-category best-seller scan (chart_scan.py), if it is fresh."""
+    try:
+        d = json.loads((Path(__file__).resolve().parent.parent / "social" / "chart_now.json").read_text())
+        from datetime import datetime as _dt, timezone as _tz
+        if (_dt.now(_tz.utc) - _dt.fromisoformat(d["captured_at"])).days > max_age_days:
+            return set()
+        return {i["asin"] for i in d.get("items", [])}
+    except (OSError, ValueError, KeyError):
+        return set()
+
 def generate_scripts(opportunities: list[dict], n: int = DAILY_SCRIPT_COUNT) -> list[dict]:
     """Pick N variants from copy_library.json, balanced across hook categories
     and avoiding 7-day repetition. opportunities is accepted for backward compat
@@ -380,7 +392,13 @@ def generate_scripts(opportunities: list[dict], n: int = DAILY_SCRIPT_COUNT) -> 
 
     hook_counts = recent_hook_categories(days=7)
     random.shuffle(pool)  # tiebreak randomness
-    pool.sort(key=lambda kv: hook_counts.get(kv[1].get("hook_category", ""), 0))
+    # Products on today's best-seller chart first (Ian, 2026-11-04: 4 of the last 8 reels
+    # featured products no longer charting), then the least-used hook category.
+    on_chart = chart_now_asins()
+    pool.sort(key=lambda kv: (by_kw[kv[0]].get("asin") not in on_chart,
+                              hook_counts.get(kv[1].get("hook_category", ""), 0)))
+    print(f"[content-engine] {sum(1 for kw, _ in pool if by_kw[kw].get('asin') in on_chart)} "
+          f"of {len(pool)} candidate variants are on today's chart")
 
     picked = []
     used_kws = []
