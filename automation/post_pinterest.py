@@ -397,7 +397,7 @@ def main() -> int:
     # so like collages they may post even if that product was pinned before.
     def _is_collage(pin):
         return pin.get("format") in ("collage", "howto", "problem_fix", "versus", "mistakes",
-                                     "size_guide", "room_cart", "checklist")
+                                     "size_guide", "room_cart", "checklist", "gift_guide", "deals")
 
     # A gift pin is a new angle on a product, aimed at a different search ("gifts
     # under $25"), so it may post even if the product was pinned before. One per

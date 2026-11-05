@@ -371,7 +371,88 @@ def queue_ig(fmt: str, pin_id: str, meta: dict) -> None:
     print(f"  [fmt] also queued first on Instagram: {out.name}")
 
 
-BUILDERS = dict(problem_fix=build_problem_fix, versus=build_versus, mistakes=build_mistakes,
+
+# ------------------------------------------------------------------ Q4 holiday (2026-11-05)
+def holiday_note() -> str:
+    """Generic shipping reminder Dec 1-18; never an Amazon date promise."""
+    d = datetime.now()
+    return " Order by mid-December for the best chance of Christmas delivery." if d.month == 12 and d.day <= 18 else ""
+
+
+def gift_season() -> bool:
+    d = datetime.now()
+    return (d.month == 11) or (d.month == 12 and d.day <= 20)
+
+
+def deals_window() -> bool:
+    d = datetime.now()
+    return d.month == 11 and 25 <= d.day <= 30          # Black Friday - Cyber Monday 2026
+
+
+def _gift_collage(v, headline, tiles, out):
+    if v == "A":
+        return brand_ab.a_collage(headline, "gift guide", tiles, out)
+    return brand_ab.b_collage(headline, tiles, out, kicker="gift guide")
+
+
+def build_gift_guide(items, pin_id, v, out):
+    """A gift-guide pin for one recipient/budget page (gift_guides.py), least recently used."""
+    guides = json.loads((SOCIAL / "gift_guides.json").read_text())
+    q = json.loads(QUEUE_PATH.read_text())
+    last = {}
+    for e in q:
+        if e.get("format") == "gift_guide":
+            last[e.get("guide")] = max(last.get(e.get("guide"), ""), e.get("queued_at", ""))
+    slug = min(guides, key=lambda k: last.get(k, ""))
+    gd = guides[slug]
+    picks = gd["picks"][:6]
+    tiles = [{"type": p["type"], "why": brand_ab.tape_text(p["name"]) or f"{p['rating']} stars on Amazon",
+              "band": price_band(str(p.get("price") or ""))} for p in picks]
+    headline = gd["title"]
+    if sum(1 for e in q if e.get("format") == "gift_guide") % 2 == 0:
+        _draw(_gift_collage, v, headline, tiles, out)     # replayable at IG size
+    else:
+        rows = [{"type": t["type"], "why": t["why"], "band": t["band"]} for t in tiles[:5]]
+        _draw(pf.room_cart, v, "gift guide", headline, rows, "Save this for your gift list", out)
+    asin = picks[0]["asin"]
+    return dict(asin=asin, board=pp.GIFT_BOARD[0], title=(headline if gd['search'].lower() in headline.lower()
+                                              else f"{gd['search'].title()}: {headline}")[:95],
+                desc=(f"{headline}: " + ", ".join(t["type"] for t in tiles) +
+                      ". Each one rated 4.5 stars or higher across thousands of ratings." + holiday_note()),
+                tag="gift", ai=False, guide=slug, link=f"{SITE}/blog/posts/{slug}.html?v={v}")
+
+
+def build_deals(items, pin_id, v, out):
+    """Black Friday - Cyber Monday: products whose price really dropped (price_drops.py)."""
+    drops = pp.price_drops_map()
+    on = {i["asin"]: i for i in items}
+    rows = []
+    for asin, d in drops.items():
+        it = on.get(asin)
+        if not it:
+            continue
+        rows.append({"type": it["name"], "why": "Price dropped this week",
+                     "band": f"Now {price_band(str(d.get('now'))).lower()}", "asin": asin})
+    if len(rows) < 3:
+        print(f"  [fmt] deals: only {len(rows)} verified drops on chart products - skipping")
+        return None
+    names = [r["type"] for r in rows[:5]]
+    got = claude_json("Titles:\n" + "\n".join(f"- {n}" for n in names) +
+                      "\nGive each a generic item type, 2-4 words, Title Case, same order. JSON: "
+                      '{"types": ["..."]}\n' + RULES)
+    types = (got or {}).get("types") or []
+    for r, t in zip(rows, types):
+        r["type"] = t
+    _draw(pf.room_cart, v, "black friday deals", "Home organization deals this week",
+          [{k: r[k] for k in ("type", "why", "band")} for r in rows[:5]],
+          "Verified price drops, check the listing", out)
+    return dict(asin=rows[0]["asin"], board="Home Organization Finds",
+                title="Black Friday Home Organization Deals: Verified Price Drops",
+                desc=("Home organization picks whose Amazon price really dropped this week: "
+                      + ", ".join(r["type"] for r in rows[:5]) + ". Prices move fast; check the "
+                      "current price before you buy."), tag="deal", ai=False)
+
+BUILDERS = dict(gift_guide=build_gift_guide, deals=build_deals, problem_fix=build_problem_fix, versus=build_versus, mistakes=build_mistakes,
                 size_guide=build_size_guide, room_cart=build_room_cart, checklist=build_checklist)
 
 
@@ -384,6 +465,10 @@ def main() -> int:
     queue = json.loads(QUEUE_PATH.read_text())
     last = used_recently(queue)
     order = [args.only] if args.only else sorted(FORMATS, key=lambda f: last.get(f, ""))
+    if not args.only and gift_season():
+        order = ["gift_guide"] + order          # Q4: one of each day's slots is a gift guide
+    if not args.only and deals_window():
+        order = ["deals"] + order               # Nov 25-30: verified price-drop roundup
     items = chart_items()
     if not items:
         print("[fmt] no fresh chart scan — nothing to build")
@@ -405,6 +490,8 @@ def main() -> int:
                 made += 1
             continue
         pin_id = f"{fmt}-{date_str}"
+        if fmt == "gift_guide" and not (SOCIAL / "gift_guides.json").exists():
+            continue
         if any(e.get("id") == pin_id for e in queue):
             continue
         variant = brand_ab.variant_for(pin_id)
@@ -429,13 +516,14 @@ def main() -> int:
         queue.append({
             "id": pin_id, "asin": meta["asin"], "board": meta["board"],
             "title": meta["title"][:100],
-            "description": (meta["desc"].strip() + " Tap through to see it on Amazon. "
+            "description": (meta["desc"].strip() + holiday_note() + " Tap through to see it on Amazon. "
                             + DISCLOSURE)[:500],
-            "link": link_for(meta["asin"], variant, meta["tag"]),
+            "link": meta.get("link") or link_for(meta["asin"], variant, meta["tag"]),
             "image_path": str(out.relative_to(ROOT)),
             "image_url": f"{SITE}/{out.relative_to(ROOT)}",
             "queued_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
             "posted": False, "source": "generate_format_pins", "format": fmt, "variant": variant,
+            "guide": meta.get("guide"),
         })
     if not args.dry and made:
         # collage/howto generators wrote their own entries; merge ours on top of the latest file

@@ -1363,7 +1363,9 @@ def main() -> int:
             "asin": asin,
             "board": board,
             "title": scrub_prices(_drop_title(copy["title"], DROPS.get(asin)))[:100],
-            "description": scrub_prices(_drop_desc(copy["description"], DROPS.get(asin)))[:500],
+            "description": (scrub_prices(_drop_desc(copy["description"], DROPS.get(asin)))[:430]
+                            + (" Order by mid-December for the best chance of Christmas delivery."
+                               if datetime.now().month == 12 and datetime.now().day <= 18 else "")),
             "link": link,
             "image_path": video_rel or rel,
             "media": "video" if video_rel else "image",
