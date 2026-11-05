@@ -8535,14 +8535,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-28-B0897859VJ.png",
     "queued_at": "2026-10-28T10:10:51.525220Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "Rip-Resistant Towel, Dries Fast",
     "recharted": true,
     "variant": "A",
-    "ai_image": true
+    "ai_image": true,
+    "posted_at": "2026-11-05T02:15:30Z"
   },
   {
     "id": "pin-2026-10-28-B00NESCOY0",
