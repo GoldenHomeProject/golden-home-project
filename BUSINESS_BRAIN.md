@@ -829,7 +829,7 @@ Agent configs live in `/private/tmp/golden-home-project/automation/agents/`.
 1. **Bulk posting kills Meta accounts** — max 1 IG post/day, Saturdays only for now
 2. **Product roundups fail** — 50-200 views. Transformation format = 5,779 views. Never revert.
 3. **Pollinations 429** — only 1-2 concurrent requests max. Add sleep(8) between calls.
-4. **Specific dollar amounts convert** — "$47" > "affordable". Always use exact cost.
+4. ~~**Specific dollar amounts convert** — always use exact cost.~~ **SUPERSEDED 2026-10-17:** price BANDS only ("under $25"). Exact prices go stale and Associates only allows current prices; specificity comes from sizes/counts in the listing instead.
 5. **Series content compounds** — Room by Room series drives follows, not just views.
 6. **Long-form = real money** — 15-20 affiliate links per video vs 3-4 in Shorts.
 7. **Off-niche deals hurt trust** — declined HermanRx (telehealth). Stick to home.
