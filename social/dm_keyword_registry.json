@@ -6653,6 +6653,54 @@
       "verified_stars": "4.7",
       "verified_reviews": 20820,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0BQX38CCH",
+      "product_name": "MontoPack Unscented Tea Light Candles 100 Pack | 4 hours, White, Smokeless, Dripless Small Votive Paraffin Tealights | L",
+      "categories": [
+        "home",
+        "Home D\u00e9cor"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0BQX38CCH?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-11-05",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$15.99",
+      "verified_stars": "4.6",
+      "verified_reviews": 24181,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B01N2SAIN7",
+      "product_name": "Brite Star Tinsel Icicles (Silver, 3000 Strands)",
+      "categories": [
+        "home",
+        "Seasonal D\u00e9cor"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B01N2SAIN7?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-11-05",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$14.15",
+      "verified_stars": "4.6",
+      "verified_reviews": 8129,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B07CJ2V1LR",
+      "product_name": "JMEXSUSS 300 LED Remote Control Curtain Lights, Plug in Fairy Curtain Lights Outdoor, Window Wall Hanging String Lights ",
+      "categories": [
+        "home",
+        "Seasonal D\u00e9cor"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B07CJ2V1LR?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-11-05",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$16.99",
+      "verified_stars": "4.6",
+      "verified_reviews": 13348,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
