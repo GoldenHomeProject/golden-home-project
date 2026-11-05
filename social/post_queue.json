@@ -9299,5 +9299,77 @@
     },
     "hook": "Stop using the green scrubber on your nonstick pans.",
     "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-04-001.mp4"
+  },
+  {
+    "name": "reel_2026-11-05_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-05-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Cotton pillowcases are quietly wrecking your hair overnight.\n\nRougher fabric grabs onto hair and skin while you toss and turn, so strands get tugged and your face creases against the fabric by morning. It also traps heat against your cheek all night.\n\nThis satin pillowcase, similar to silk, gives hair and skin less to catch on and has a cooling feel, with an envelope closure and a queen set of two. It's rated 4.5 stars from over three hundred thousand reviewers.\n\nLess tugging overnight and a cooler surface to sleep on, for about $7.\n\nComment BEDSURE and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Bedsure Satin Pillowcase, Similar to Silk Pillow Cases Queen Size Set of 2, Cooling Pillow Case Covers with Envelope Clo",
+      "dm_keyword": "BEDSURE",
+      "amazon_asin": "B0725WFLMB",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B0725WFLMB?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B0725WFLMB?tag=goldenhomep0a-20"
+    },
+    "hook": "Cotton pillowcases are quietly wrecking your hair overnight."
+  },
+  {
+    "name": "reel_2026-11-05_002",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-05-002.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Your shower curtain screeches every time you pull it shut\n\nPlain plastic hooks grip the rod instead of rolling along it, so the curtain catches, sticks, and drags with every pull. Over time those same hooks rust and leave orange streaks on the rod and curtain.\n\nThese Titanker hooks are metal and rust resistant, built as double glide rings so each one rolls smoothly along the rod instead of catching. Thousands rate them around 4.6 stars for how easily the curtain moves after swapping them in.\n\nYour curtain opens and closes in one smooth pull instead of a fight, and the whole set runs about $7.\n\nComment HOOK and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Titanker Shower Curtain Hooks Rings, Rust Resistant Metal Double Glide Shower Hooks Rings for Bathroom Shower Rods Curta",
+      "dm_keyword": "HOOK",
+      "amazon_asin": "B081YQBPSS",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B081YQBPSS?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B081YQBPSS?tag=goldenhomep0a-20"
+    },
+    "hook": "Your shower curtain screeches every time you pull it shut"
+  },
+  {
+    "name": "reel_2026-11-05_003",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-05-003.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "The number on your scale never matches twice.\n\nOld dial scales drift depending on where they sit on the tile, and the needle can land in a different spot every time you step on. Usually that's a worn spring or an uneven floor, not your weight actually changing overnight.\n\nThis one skips the needle entirely and gives you a plain digital readout instead. It's the kind of simple design that's earned a 4.7 star rating from over three hundred thousand people.\n\nA number you can actually trust each morning, for about $17.\n\nComment BODY and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Etekcity Digital Body Weight Bathroom Scale",
+      "dm_keyword": "BODY",
+      "amazon_asin": "B01HI1W1V4",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01HI1W1V4?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "The number on your scale never matches twice."
   }
 ]

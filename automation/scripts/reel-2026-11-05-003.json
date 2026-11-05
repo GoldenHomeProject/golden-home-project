@@ -1,0 +1,62 @@
+{
+  "created_at": "2026-11-05T13:42:53.693521Z",
+  "date": "2026-11-05",
+  "seq": 3,
+  "hook_category": "scene",
+  "hook": "The number on your scale never matches twice.",
+  "reel_format": "problem_fix",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Bare feet stepping onto a bathroom scale on tile floor in soft morning light",
+      "on_screen_text": "Same you, different number",
+      "voiceover": "The number on your scale never matches twice."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Close-up of an old analog bathroom scale dial with the needle resting slightly off-center, feet nearby on tile",
+      "on_screen_text": "It's not your weight, it's the scale",
+      "voiceover": "Old dial scales drift depending on the floor, and the needle can land somewhere new every time you step on."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Overhead shot of bare feet standing on a slim digital bathroom scale with a lit display, tucked in a bathroom corner",
+      "on_screen_text": "One clear number, every time",
+      "voiceover": "This one gives you a plain digital number instead of a needle to interpret, so what you see is what you get."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "A digital bathroom scale sitting against a bathroom wall next to a folded towel and bath mat",
+      "on_screen_text": "Rated 4.7 stars, home use",
+      "voiceover": "It's rated 4.7 stars from over three hundred thousand people who use it every morning."
+    },
+    {
+      "n": 5,
+      "duration_sec": 5,
+      "visual_prompt": "A person stepping off a digital bathroom scale onto a bath mat in a bright bathroom",
+      "on_screen_text": "Comment BODY for the link",
+      "voiceover": "A number you can actually trust each morning, for about $17. Comment BODY and I'll send the link."
+    }
+  ],
+  "caption": "The number on your scale never matches twice.\n\nOld dial scales drift depending on where they sit on the tile, and the needle can land in a different spot every time you step on. Usually that's a worn spring or an uneven floor, not your weight actually changing overnight.\n\nThis one skips the needle entirely and gives you a plain digital readout instead. It's the kind of simple design that's earned a 4.7 star rating from over three hundred thousand people.\n\nA number you can actually trust each morning, for about $17.\n\nComment BODY and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "This one skips the needle entirely and gives you a plain digital readout instead. It's the kind of simple design that's earned a 4.7 star rating from over three hundred thousand people.",
+  "affiliate_strategy": {
+    "primary_product": "Etekcity Digital Body Weight Bathroom Scale",
+    "dm_keyword": "BODY",
+    "amazon_asin": "B01HI1W1V4",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B01HI1W1V4?tag=goldenhomep0a-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": null
+  }
+}
