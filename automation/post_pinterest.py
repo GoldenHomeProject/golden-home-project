@@ -518,6 +518,9 @@ def main() -> int:
         blob = f"{pin.get('title','')} {pin.get('description','')} {pin.get('board','')}".lower()
         return 3 if (_WORDS and any(w in blob for w in _WORDS)) else 4
 
+    # Newest first WITHIN a band (2026-11-05): FIFO left today's gift guide behind 44 pins
+    # from late October. Pinterest rewards fresh pins, and chart status is checked today.
+    pending.sort(key=lambda p: str(p.get("queued_at") or "") or str(p.get("id", "")), reverse=True)
     pending.sort(key=_band)
     print(f"[pinterest] {sum(1 for p in pending if p.get('asin') in _trend)} of "
           f"{len(pending)} pending pins are on this week's best-seller charts")
