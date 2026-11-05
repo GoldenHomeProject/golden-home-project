@@ -825,6 +825,7 @@ Agent configs live in `/private/tmp/golden-home-project/automation/agents/`.
 ---
 
 ## LESSONS LEARNED (never forget)
+- **2026-11-05 — The Gmail is shared LLC-wide; GHP agents never answer non-GHP mail.** goldenhomeprojectllc@gmail.com receives mail for EVERY Golden Home Project LLC business: Charity Billionaire (smart contracts, audits, crypto/Base), the iOS apps (DriveMail Voice, B2Gaudio, Digital Decks, CommonHealth, Mandemic), Apple Developer/App Store, Telasight, and LLC legal/tax/banking. On 10/30 the Email Monitor declined KupiaSec, a smart-contract audit firm the Charity Billionaire team was in real talks with, as "off-niche crypto" and said the company runs no smart contracts. Rule: a GHP agent sends email ONLY in a clearly GHP home-content thread (on-niche home brand, or a GHP affiliate-platform thread). Everything else gets NO reply, no "off-niche" declines; it is logged in AGENT_LOG.md under "FOR MARKETING DEPT / IAN — not GHP". If unsure, it is not GHP. The Marketing department answers for every other business. (Scope guard is in the Email Monitor, Strategy & Outreach and Affiliate Optimizer routine prompts.)
 1. **Bulk posting kills Meta accounts** — max 1 IG post/day, Saturdays only for now
 2. **Product roundups fail** — 50-200 views. Transformation format = 5,779 views. Never revert.
 3. **Pollinations 429** — only 1-2 concurrent requests max. Add sleep(8) between calls.
