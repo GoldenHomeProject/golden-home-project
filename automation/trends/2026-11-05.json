@@ -1,0 +1,136 @@
+{
+  "generated_at": "2026-11-05T12:57:05.219670Z",
+  "date": "2026-11-05",
+  "opportunities": [
+    {
+      "rank": 1,
+      "product_category": "couch/sofa covers",
+      "specific_product": "Mamma Mia waterproof stretch sofa cover",
+      "brand": "Mamma Mia Covers",
+      "target_price": "$54",
+      "transformation_hook": "$54 couch cover hides pet hair and stains before holiday guests walk in",
+      "before_state": "Shredded, pet-hair-covered couch with visible stains right before Thanksgiving guests arrive",
+      "after_state": "Smooth, hotel-like stretch cover transforms the couch in under 2 minutes, pet hair gone from view",
+      "buyer_intent_keywords": [
+        "couch cover for dogs",
+        "pet hair proof sofa cover",
+        "waterproof couch cover",
+        "stretch sofa slipcover",
+        "covers for couch holiday guests"
+      ],
+      "scores": {
+        "trend": 8,
+        "transformation": 9,
+        "affiliate": 8,
+        "intent": 9
+      },
+      "composite_score": 34,
+      "why_now": "Holiday-hosting pins ('best impression for guests') plus a cozy throw-blanket trend on Pinterest are driving fast living-room fixes before Thanksgiving."
+    },
+    {
+      "rank": 2,
+      "product_category": "wet-dry vacuum mop",
+      "specific_product": "cordless wet/dry vacuum mop (Roborock-style)",
+      "brand": "Amazon generic",
+      "target_price": "$249",
+      "transformation_hook": "$249 vacuum mop turns a sticky, crumb-covered floor spotless in one pass",
+      "before_state": "Sticky kitchen floor covered in crumbs, pet hair, and dried spills after months of neglect",
+      "after_state": "Streak-free, mirror-clean floor vacuumed and mopped in a single motorized pass",
+      "buyer_intent_keywords": [
+        "wet dry vacuum mop",
+        "cordless floor cleaner",
+        "best vacuum for sticky floors",
+        "vacuum and mop combo",
+        "Roborock alternative"
+      ],
+      "scores": {
+        "trend": 8,
+        "transformation": 9,
+        "affiliate": 7,
+        "intent": 8
+      },
+      "composite_score": 32,
+      "why_now": "Apartment Therapy's viral 'ultimate floor mopping hack' pin is pushing wet-dry vacuum mops into mainstream searches as households deep-clean for holiday hosting."
+    },
+    {
+      "rank": 3,
+      "product_category": "entryway/mudroom storage",
+      "specific_product": "wall-mounted shoe and coat storage bench with hooks",
+      "brand": "Amazon generic",
+      "target_price": "$89",
+      "transformation_hook": "$89 entryway bench turns a shoe pile into a mudroom guests compliment",
+      "before_state": "Chaotic entryway floor buried in loose shoes, boots, and coats piling up by the door",
+      "after_state": "Organized bench-and-hook system with every coat, boot, and bag tucked into its own spot",
+      "buyer_intent_keywords": [
+        "entryway storage bench",
+        "mudroom organization ideas",
+        "shoe storage small entryway",
+        "coat hook organizer",
+        "mudroom bench with storage"
+      ],
+      "scores": {
+        "trend": 7,
+        "transformation": 8,
+        "affiliate": 9,
+        "intent": 7
+      },
+      "composite_score": 31,
+      "why_now": "HGTV's mudroom/laundry combo pin is trending as colder weather and incoming holiday guest traffic make entryway clutter visibly urgent to fix."
+    },
+    {
+      "rank": 4,
+      "product_category": "kitchen knife sharpener",
+      "specific_product": "Syruvia handheld knife sharpener",
+      "brand": "Syruvia",
+      "target_price": "$19",
+      "transformation_hook": "$19 sharpener turns a dull turkey knife into a butter-smooth carver",
+      "before_state": "Dull kitchen knife tearing through a turkey or tomato instead of slicing cleanly",
+      "after_state": "Razor-sharp blade gliding through meat and vegetables in one clean, effortless stroke",
+      "buyer_intent_keywords": [
+        "knife sharpener for turkey",
+        "best knife sharpener",
+        "how to sharpen kitchen knives",
+        "Thanksgiving carving knife",
+        "handheld knife sharpener"
+      ],
+      "scores": {
+        "trend": 6,
+        "transformation": 8,
+        "affiliate": 9,
+        "intent": 7
+      },
+      "composite_score": 30,
+      "why_now": "Real Simple's knife-sharpener pin is gaining traction just as Thanksgiving turkey-carving searches spike over the next two weeks."
+    },
+    {
+      "rank": 5,
+      "product_category": "cozy layered lighting",
+      "specific_product": "warm-glow floor lamp and plug-in string light bundle",
+      "brand": "Amazon generic",
+      "target_price": "$42",
+      "transformation_hook": "$42 lighting switch turns a harsh, bare-bulb room into a warm winter sanctuary",
+      "before_state": "Dim living room lit by a single harsh overhead bulb, flat and uninviting",
+      "after_state": "Softly layered floor lamp and string lights creating a warm, magazine-cozy winter glow",
+      "buyer_intent_keywords": [
+        "cozy lighting ideas",
+        "layered lighting living room",
+        "warm floor lamp",
+        "fall winter home decor lighting",
+        "string lights indoor cozy"
+      ],
+      "scores": {
+        "trend": 7,
+        "transformation": 7,
+        "affiliate": 8,
+        "intent": 7
+      },
+      "composite_score": 29,
+      "why_now": "Apartment Therapy's 'banish the big light' layered-lighting pin is surfacing as shortening days push cozy fall/winter aesthetics to peak on Pinterest."
+    }
+  ],
+  "raw_signal_count": 85,
+  "sources_used": [
+    "google_trends_daily_us",
+    "pinterest"
+  ]
+}
