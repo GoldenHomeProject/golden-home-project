@@ -155,7 +155,7 @@ jobs:
           # ---- stage ---------------------------------------------------------------
           kept = skipped = 0
           kept_b = skipped_b = 0
-          for d in ("social/carousels", "social/reels", "social/pinterest"):
+          for d in ("social/carousels", "social/reels", "social/pinterest", "social/instagram"):
               src = Path(d)
               if not src.is_dir():
                   continue

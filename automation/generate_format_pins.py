@@ -26,6 +26,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "automation"))
 
 import brand_ab  # noqa: E402
+from PIL import Image  # noqa: E402
 import pin_formats as pf  # noqa: E402
 from affiliate_links import BRAND_TAGS, build_affiliate_url  # noqa: E402
 from brand import price_band  # noqa: E402
@@ -342,10 +343,15 @@ IG_TAGS = {"Bath": "#bathroomorganization #smallbathroomideas", "Bedding": "#bed
 def queue_ig(fmt: str, pin_id: str, meta: dict) -> None:
     """First in line on Instagram: the IG poster takes the first ready entry, so one rotating
     format a day replaces the same-template carousel/reel backlog (Ian, 2026-11-03)."""
-    out = SOCIAL / "instagram" / f"{pin_id}.png"
-    out.parent.mkdir(parents=True, exist_ok=True)
-    if not render_ig(out):
+    png = SOCIAL / "instagram" / f"{pin_id}.png"
+    png.parent.mkdir(parents=True, exist_ok=True)
+    if not render_ig(png):
         return
+    # Instagram's Graph API takes JPEG only ("Only photo or video can be accepted",
+    # 2026-11-05 with a PNG). Convert, keep the JPEG, drop the intermediate PNG.
+    out = png.with_suffix(".jpg")
+    Image.open(png).convert("RGB").save(out, "JPEG", quality=92, optimize=True)
+    png.unlink()
     tags = IG_TAGS.get(meta.get("cat", ""), "#homeorganization #organizedhome")
     caption = (f"{meta['title']}\n\n{meta['desc']}\n\nSave this for later.\n\n"
                "🔗 This product: tap the link in our bio → 'From our videos' at the top.\n\n"
