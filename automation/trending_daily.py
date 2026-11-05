@@ -382,12 +382,24 @@ KEYWORD_COPY = {
 GENERIC_COPY = ["Proven, everyday-useful design", "Loved across a huge number of reviews", "High value for the price"]
 
 
-def _benefits(title: str) -> list[str]:
-    t = title.lower()
-    for kw, lines in KEYWORD_COPY.items():
-        if kw in t:
-            return lines
-    return GENERIC_COPY
+def _benefits(p: dict) -> list[str]:
+    """Three lines we can stand behind (2026-11-05). KEYWORD_COPY attached canned claims to
+    any title containing a keyword ("Keeps drinks cold for hours", "Holds up wash after
+    wash", "Instant, accurate reads") that nobody had verified. Now: the rating and review
+    count, the chart rank, and a size or count only if the listing title states it."""
+    import sys as _sys
+    _sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from brand_ab import tape_text
+    lines = []
+    if p.get("rating") and p.get("reviews"):
+        lines.append(f"Rated {p['rating']}\u2605 across {int(p['reviews']):,} ratings")
+    if p.get("rank"):
+        lines.append(f"#{p['rank']} on Amazon's best-seller chart for its category")
+    fact = tape_text(p.get("title") or "")
+    if fact:
+        lines.append(f"Per the listing: {fact}")
+    lines.append("Check the live listing for current price and delivery")
+    return lines[:3]
 
 
 def _badge(pick: dict, i: int, picks: list[dict]) -> str:
@@ -470,9 +482,9 @@ def build_post(picks: list[dict], today: date, cat_label: str) -> tuple[str, str
       <div class="product-name">{esc(_clean_title(p["title"]))}</div>
       <div class="product-rating">{p.get("rating","?")}&#9733; &middot; {(p.get("reviews") or 0):,}+ ratings &middot; ~{esc(p.get("price",""))}</div>
       <ul class="value-stack">
-        <li><strong>{esc(_benefits(p["title"])[0])}</strong></li>
-        <li>{esc(_benefits(p["title"])[1])}</li>
-        <li>{esc(_benefits(p["title"])[2])}</li>
+        <li><strong>{esc(_benefits(p)[0])}</strong></li>
+        <li>{esc(_benefits(p)[1])}</li>
+        <li>{esc(_benefits(p)[2])}</li>
       </ul>
       <a class="cta" href="{afurl(p["asin"])}" rel="sponsored nofollow noopener" target="_blank">Check current price on Amazon &rarr;</a>
     </div>'''
