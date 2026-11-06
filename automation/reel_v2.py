@@ -724,11 +724,18 @@ def build(s: dict, out_path: Path, work: Path) -> Path:
                            "disorganized. A spotless styled showroom does NOT fit. No people in "
                            "focus", work, need=5.0))
     if not hook_clip:
-        # No shot of the problem: open on the first product instead, and drop any hook line
-        # that promises a mess ("If your porch looks like this..." over a tidy wreath, 11/06).
-        hook_clip = clip_for[s["items"][0]["asin"]]
-        if re.search(r"looks like this|doing too much|stop |never stay|this is why", s["hook"], re.I):
-            s["hook"] = f"{space.capitalize()} upgrades that just make sense."
+        # No shot of the problem: open on an inviting shot of its own (reusing product 1's
+        # clip held one white cup on screen for 9 s, gift 11/06), and drop any hook line
+        # that promises a mess ("If your porch looks like this..." over a tidy wreath).
+        gift = s["format"] == "gift"
+        hook_clip = (find_clip(["wrapping gifts", "christmas gifts", "gift box"] if gift
+                               else [f"cozy {space}", f"{space} interior", "home interior"],
+                               "hands wrapping gifts or wrapped gifts, warm and inviting" if gift
+                               else f"an attractive, real {space}", work, need=5.0)
+                     or clip_for[s["items"][0]["asin"]])
+        if gift or re.search(r"looks like this|doing too much|stop |never stay|this is why", s["hook"], re.I):
+            s["hook"] = ("Easy gifts that never miss." if gift
+                         else f"{space.capitalize()} upgrades that just make sense.")
     segs = segments(s)
     vo = voice(segs, work)
     for sg in segs:
