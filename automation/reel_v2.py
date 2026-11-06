@@ -376,7 +376,7 @@ def find_clip(queries, visual: str, work: Path, need: float = 2.6, cap: int = 10
             if judged >= 3 or judged_total >= cap:
                 break
             vid = v.get("id")
-            if (vid in vp._used() or vid in rp._SEEN_THIS_REEL or float(v.get("duration") or 0) < need
+            if (_blocked(vid) or vid in rp._SEEN_THIS_REEL or float(v.get("duration") or 0) < need
                     or vp._slug_words(v) & set(vp.UNSAFE) or not vp._best_file(v)):
                 continue
             rp._SEEN_THIS_REEL.add(vid)
@@ -397,7 +397,7 @@ def find_clip(queries, visual: str, work: Path, need: float = 2.6, cap: int = 10
                 continue
             hd = work / f"v{vid}.mp4"
             if vp._get(vp._best_file(v), hd):
-                vp._mark_used(vid)
+                _mark_test(vid)
                 return hd
     return None
 
@@ -472,7 +472,7 @@ def match_footage(items: list, space: str, n: int, work: Path, budget: int = 22)
                 if idx in got or per_q >= 3 or judged >= budget:
                     break
                 vid = v.get("id")
-                if (vid in vp._used() or vid in rp._SEEN_THIS_REEL or float(v.get("duration") or 0) < 4.5
+                if (_blocked(vid) or vid in rp._SEEN_THIS_REEL or float(v.get("duration") or 0) < 4.5
                         or vp._slug_words(v) & set(vp.UNSAFE) or not vp._best_file(v)):
                     continue
                 rp._SEEN_THIS_REEL.add(vid)
@@ -495,11 +495,32 @@ def match_footage(items: list, space: str, n: int, work: Path, budget: int = 22)
                     hd = work / f"v{vid}.mp4"
                     # one retry: a TLS timeout lost a matched clip on 11/06
                     if vp._get(vp._best_file(v), hd) or vp._get(vp._best_file(v), hd):
-                        vp._mark_used(vid)
+                        _mark_test(vid)
                         got[open_idx[k]] = hd
             if idx in got:
                 break
     return got
+
+
+TEST_CLIPS = ROOT / "social" / "reel_v2_test_clips.json"
+
+
+def _test_clips() -> set:
+    try:
+        return set(json.loads(TEST_CLIPS.read_text()))
+    except (OSError, ValueError):
+        return set()
+
+
+def _blocked(vid) -> bool:
+    """Used by a POSTED video elsewhere. Unposted v2 test renders keep their own ledger, so
+    re-rendering a test doesn't burn the best clips (KITCHEN found 1 of 4 on 11/06 because
+    its earlier test clips were all marked used)."""
+    return vid in vp._used() and vid not in _test_clips()
+
+
+def _mark_test(vid) -> None:
+    TEST_CLIPS.write_text(json.dumps(sorted(_test_clips() | {vid})))
 
 
 def _native30(v: dict) -> bool:
