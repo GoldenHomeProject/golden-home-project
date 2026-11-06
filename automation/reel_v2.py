@@ -63,7 +63,7 @@ FORMATS = {
                    "one messy space together"),
     "before_after": dict(n=3, promise="Before and after, under {band}", ask="items that take "
                          "ONE space from messy to organized"),
-    "makes_sense": dict(n=4, promise="Things that just make sense", ask="clever, "
+    "makes_sense": dict(n=3, promise="Things that just make sense", ask="clever, "
                         "everyday-useful items for one room"),
     "renter": dict(n=3, promise="Renters, save this", ask="renter-friendly items (no drilling, "
                    "adhesive, over-the-door, tension or freestanding)"),
@@ -467,7 +467,7 @@ def _judge_kinds(sheet: Path, kinds: list, space: str) -> dict:
         return {"note": f"check failed: {e}"}
 
 
-def match_footage(items: list, space: str, n: int, work: Path, budget: int = 30) -> dict:
+def match_footage(items: list, space: str, n: int, work: Path, budget: int = 36) -> dict:
     """Ranked picks -> {index: clip} for the picks real stock footage actually shows."""
     got, judged = {}, 0
     for idx, it in enumerate(items):
