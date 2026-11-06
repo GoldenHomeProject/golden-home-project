@@ -9808,14 +9808,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-11-06-B0100V7F4W.png",
     "queued_at": "2026-11-06T11:14:56.601179Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "650 GSM Softness, 12-Pack Washcloths",
     "recharted": true,
     "variant": "A",
-    "ai_image": true
+    "ai_image": true,
+    "posted_at": "2026-11-06T14:41:32Z"
   },
   {
     "id": "gift_guide-2026-11-06",
