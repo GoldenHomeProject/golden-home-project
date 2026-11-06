@@ -762,6 +762,11 @@ def build(s: dict, out_path: Path, work: Path) -> Path:
         raise RuntimeError(f"only {len(chosen)} of {n} picks have matching footage")
     s["items"] = [it for it, _ in chosen]
     s["promise"] = _promise(s["format"], s["items"])
+    # the keyword must name something on screen: "WRAP" survived after the hair wrap dropped
+    shown = " ".join([space] + [i["type"] for i in s["items"]]).lower()
+    if s["keyword"].lower().rstrip("s") not in shown:
+        s["keyword"] = _unique_keyword(space.split()[::-1], space, s["format"],
+                                       [i["type"] for i in s["items"]])
     clip_for = {it["asin"]: c for it, c in chosen}
     hook_clip = (find_clip([s["items"][0]["problem_query"], f"messy {space}", f"{space} interior", space],
                            f"a real {space} that fits this opening line: \"{s['hook']}\". If the "
@@ -893,12 +898,18 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--format", default="fixes3", choices=list(FORMATS))
     ap.add_argument("--out", default=str(ROOT / "social" / "reels" / "v2_test"))
+    ap.add_argument("--from-script", help="re-render an earlier test's script JSON (same products)")
+    ap.add_argument("--drop", nargs="*", default=[], help="ASINs to leave out of --from-script")
     args = ap.parse_args()
     s = None
+    if args.from_script:
+        s = json.loads(Path(args.from_script).read_text())
+        s["items"] = [i for i in s["items"] if i["asin"] not in set(args.drop)]
+        args.format = s["format"]
     for attempt in range(4):
-        s = write_script(args.format, strict=attempt < 3)
         if s:
             break
+        s = write_script(args.format, strict=attempt < 3)
     if not s:
         print("[v2] could not write a script")
         return 1
