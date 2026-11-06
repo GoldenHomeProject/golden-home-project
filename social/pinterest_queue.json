@@ -9616,14 +9616,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-11-04-B0B8DXN3K2.png",
     "queued_at": "2026-11-04T11:13:20.481571Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "Less Hair Friction, Fewer Creases",
     "recharted": true,
     "variant": "B",
-    "ai_image": true
+    "ai_image": true,
+    "posted_at": "2026-11-06T02:15:39Z"
   },
   {
     "id": "mistakes-2026-11-04",
