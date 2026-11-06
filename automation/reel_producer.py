@@ -1288,18 +1288,13 @@ def produce_reel(script_path: Path) -> Path | None:
     try:
         asyncio.run(render_voiceover(vo_text, audio_path))
     except Exception as e:
-        print(f"  TTS failed ({e}), generating silent track")
-        total = sum(float(s.get("duration_sec", 4)) for s in scenes)
-        # AAC cannot go in an .mp3 file ("Error while filtering: Invalid argument"), so
-        # the silent fallback itself crashed and a voice outage killed every reel
-        # (2026-10-12, Microsoft changed the edge-tts endpoint). Write .m4a instead; the
-        # reel still ships with its music bed and on-screen text.
-        audio_path = audio_path.with_suffix(".m4a")
-        subprocess.run([
-            "ffmpeg", "-y", "-loglevel", "error",
-            "-f", "lavfi", "-i", "anullsrc=r=44100:cl=stereo",
-            "-t", str(total), "-c:a", "aac", str(audio_path),
-        ], check=True)
+        # No silent reels (2026-11-06): the old fallback shipped music-only videos during
+        # the edge-tts outage, and two were published (reel-2026-10-12-002, -10-13-003).
+        # Hold the reel instead; it renders on the next run once the voice works.
+        for f in work_dir.iterdir():
+            f.unlink()
+        work_dir.rmdir()
+        raise ReelHeld(f"voiceover failed ({str(e)[:120]})")
 
     out_path = REEL_DIR / f"{stem}.mp4"
     music_path = pick_music_bed(script)
@@ -1313,9 +1308,21 @@ def produce_reel(script_path: Path) -> Path | None:
         f.unlink()
     work_dir.rmdir()
 
+    # Belt and braces: a voiced reel measures about -20 dB mean, music-only about -37 dB.
+    vol = mean_volume_db(out_path)
+    if vol is not None and vol < -30:
+        out_path.rename(out_path.with_suffix(".silent.mp4"))
+        raise ReelHeld(f"audio too quiet ({vol:.1f} dB mean) - voiceover missing")
     size_kb = out_path.stat().st_size // 1024
-    print(f"  ✓ {out_path.name} ({size_kb} KB)")
+    print(f"  ✓ {out_path.name} ({size_kb} KB, {vol if vol is not None else '?'} dB mean)")
     return out_path
+
+
+def mean_volume_db(path: Path):
+    r = subprocess.run(["ffmpeg", "-hide_banner", "-i", str(path), "-af", "volumedetect",
+                        "-vn", "-f", "null", "-"], capture_output=True, text=True)
+    m = re.search(r"mean_volume:\s*(-?[\d.]+) dB", r.stderr)
+    return float(m.group(1)) if m else None
 
 
 def update_queue(script_path: Path, video_path: Path):
