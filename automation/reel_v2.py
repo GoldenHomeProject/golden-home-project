@@ -277,10 +277,10 @@ def shot(src: Path, start: float, dur: float, out: Path) -> Path:
     frames = 12
     vf = (f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps=30,"
           f"zoompan=z='if(lt(on,{frames}),1.06-0.06*on/{frames},1)':d=1:"
-          f"x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s={W}x{H}:fps=30,{GRADE},format=yuv420p")
+          f"x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s={W}x{H}:fps=30,{GRADE},scale=out_range=tv,format=yuv420p")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{start:.2f}", "-t", f"{dur:.2f}",
                     "-i", str(src), "-vf", vf, "-an", "-r", "30", "-c:v", "libx264", "-preset",
-                    "veryfast", "-crf", "20", str(out)], check=True)
+                    "veryfast", "-crf", "20", "-color_range", "tv", str(out)], check=True)
     return out
 
 
@@ -471,16 +471,22 @@ def build(s: dict, out_path: Path, work: Path) -> Path:
     inputs, fc, prev, off = [], [], "[0:v]", 0.0
     for v in vids:
         inputs += ["-i", str(v)]
+    # Trim every segment to exactly what its xfade consumes: leftover frames after a
+    # transition deadlocked ffmpeg 7.1 for 40 min (renter, 2026-11-06).
+    for i in range(len(vids)):
+        keep = segs[i]["dur"] + (trans[i][1] if i < len(trans) else 0.0) + 0.04
+        fc.append(f"[{i}:v]trim=duration={keep:.3f},setpts=PTS-STARTPTS,fps=30[t{i}]")
+    prev = "[t0]"
     for i in range(1, len(vids)):
         kind, td = trans[i - 1]
         off += segs[i - 1]["dur"]
         lab = f"[x{i}]"
-        fc.append(f"{prev}[{i}:v]xfade=transition={kind}:duration={td}:offset={off:.3f}{lab}")
+        fc.append(f"{prev}[t{i}]xfade=transition={kind}:duration={td}:offset={off:.3f}{lab}")
         prev = lab
     joined = work / "joined.mp4"
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *inputs, "-filter_complex", ";".join(fc),
                     "-map", prev, "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", str(joined)],
-                   check=True)
+                   check=True, timeout=600)
     # overlays: item cards (slide up 40 px, 180 ms), CTA card, karaoke captions
     ass = captions(segs, work / "caps.ass")
     ov_in, ov_fc, last, k = [], [], "[0:v]", 1
