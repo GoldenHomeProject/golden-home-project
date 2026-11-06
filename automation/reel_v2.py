@@ -176,8 +176,11 @@ def segments(s: dict) -> list[dict]:
             {"kind": "promise", "say": s["promise"]}]
     for n, it in enumerate(s["items"], 1):
         band = it["band"].lower()
-        segs.append({"kind": "item", "n": n, "item": it,
-                     "say": f"{it['type']}, {band}. {it['benefit']}."})
+        # "things that just make sense" is rapid-fire (spec: ~1 s per item): name + band
+        # spoken, the benefit lives on the card. 4 full items ran 26.8 s on 2026-11-06.
+        say = (f"{it['type']}, {band}." if s["format"] == "makes_sense"
+               else f"{it['type']}, {band}. {it['benefit']}.")
+        segs.append({"kind": "item", "n": n, "item": it, "say": say})
     segs.append({"kind": "cta", "say": f"Comment {s['keyword']} and we'll reply with the links."})
     return segs
 
@@ -382,14 +385,21 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
             continue
         style = "Hook" if sg["kind"] in ("hook", "promise") else "Cap"
         ws = sg["words"]
+        # Caption lines never cross a comma or full stop ("Hooks under" / "$15 heavy duty"
+        # read badly on 11/06): phrase lengths come from the script text, word times from TTS.
+        stops, acc = set(), 0
+        for ph in re.split(r"[,.!?:;]", sg["say"]):
+            acc += len(ph.split())
+            stops.add(acc)
+        if acc != len(ws):
+            stops = set()               # TTS split words differently; fall back to length only
         lines, cur = [], []
         for k, w in enumerate(ws):
-            # a spoken pause (comma / full stop) starts a new line, so "under $10" and the
-            # benefit never share one caption
-            if cur and w[0] - (ws[k - 1][0] + ws[k - 1][1]) > 0.18:
+            cur.append(w)
+            if style == "Cap" and (k + 1) in stops:
                 lines.append(cur)
                 cur = []
-            cur.append(w)
+                continue
             if style == "Cap" and (len(cur) >= 4 or len(" ".join(x[2] for x in cur)) > 22):
                 lines.append(cur)
                 cur = []
