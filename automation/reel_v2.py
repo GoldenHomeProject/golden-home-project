@@ -733,7 +733,11 @@ def build(s: dict, out_path: Path, work: Path) -> Path:
                                else [f"cozy {space}", f"{space} interior", "home interior"],
                                "hands wrapping gifts or wrapped gifts, warm and inviting" if gift
                                else f"an attractive, real {space}", work, need=5.0)
-                     or clip_for[s["items"][0]["asin"]])
+                     or (clip_for[s["items"][0]["asin"]] if s["format"] == "makes_sense" else None))
+        if not hook_clip:
+            # opening on product 1's clip held one shot ~9 s (before_after 11/06); only the
+            # rapid-fire format can afford it. Others retry with a fresh script.
+            raise RuntimeError("no usable opening shot")
         if gift or re.search(r"looks like this|doing too much|stop |never stay|this is why", s["hook"], re.I):
             s["hook"] = ("Easy gifts that never miss." if gift
                          else f"{space.capitalize()} upgrades that just make sense.")
