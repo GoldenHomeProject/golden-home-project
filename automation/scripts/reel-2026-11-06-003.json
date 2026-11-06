@@ -1,0 +1,62 @@
+{
+  "created_at": "2026-11-06T13:27:00.832901Z",
+  "date": "2026-11-06",
+  "seq": 3,
+  "hook_category": "mistake",
+  "hook": "Stop hanging a heavy curtain in a tiny bathroom.",
+  "reel_format": "problem_fix",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "A hand pulling a heavy, dark patterned shower curtain closed across a small bathtub, the bathroom looking dim and cramped",
+      "on_screen_text": "This curtain is the problem",
+      "voiceover": "Stop hanging a heavy curtain in a tiny bathroom."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Overhead bathroom light fixture casting limited glow into a small tiled bathroom with a closed opaque shower curtain blocking most of it",
+      "on_screen_text": "One bulb, no window",
+      "voiceover": "Most bathrooms run on one bulb and maybe a window, so a thick curtain blocks what little light you've got, and the whole room shrinks the second it's closed."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Hand sliding a clear plastic shower curtain along a rod, light visibly passing through the clear material into the tub area",
+      "on_screen_text": "Just swap it for clear",
+      "voiceover": "The BigFoot Clear Shower Curtain stays see-through, so light keeps moving through the shower area instead of stopping at the curtain."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "A bright, open-feeling bathroom with a clear shower curtain pulled across the tub, the full room visible through it",
+      "on_screen_text": "Close to sixty thousand rate it 4.5",
+      "voiceover": "Close to sixty thousand people have rated it 4.5 stars."
+    },
+    {
+      "n": 5,
+      "duration_sec": 5,
+      "visual_prompt": "Person stepping toward a bright bathtub with a clear curtain drawn, the room looking open and sunlit",
+      "on_screen_text": "Comment CLEAR for the link",
+      "voiceover": "The room looks bigger the second you close it, for about twelve dollars. Comment CLEAR and I'll send the link."
+    }
+  ],
+  "caption": "Stop hanging a heavy curtain in a tiny bathroom.\n\nMost bathrooms only get light from one bulb and maybe a small window, so whatever curtain hangs over the tub either lets that light through or blocks it. A thick, patterned curtain can make an already small room feel like a closet the second it's pulled shut.\n\nThe BigFoot Clear Shower Curtain is just that, clear, so the tub and shower area stay bright instead of going dim behind fabric. Close to sixty thousand people have rated it 4.5 stars.\n\nThe room reads bigger and brighter the second you pull it shut, for about $12.\n\nComment CLEAR and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "The BigFoot Clear Shower Curtain is just that, clear, so the tub and shower area stay bright instead of going dim behind fabric. Close to sixty thousand people have rated it 4.5 stars.",
+  "affiliate_strategy": {
+    "primary_product": "BigFoot Clear Shower Curtain",
+    "dm_keyword": "CLEAR",
+    "amazon_asin": "B08CRPWQHB",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B08CRPWQHB?tag=goldenhomep0a-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": null
+  }
+}

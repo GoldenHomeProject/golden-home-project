@@ -9388,5 +9388,77 @@
     "keyword": "SPONGE",
     "queued_at": "2026-11-05T15:13:09.377702Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_2026-11-06_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-06-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Your old dial scale is basically a guessing game.\n\nDial scales have a needle that swings past the number you're trying to read, and the glass fogs or shifts after years of use. Most people just round to the nearest five pounds and call it good.\n\nThis is a digital bathroom scale, so instead of squinting at a needle you get a number straight on the display. It's rated 4.7 stars across more than three hundred thousand reviews.\n\nYou get a clear readout each time you step on, no guessing involved, and it runs about $17.\n\nComment BODY and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Etekcity Digital Body Weight Bathroom Scale",
+      "dm_keyword": "BODY",
+      "amazon_asin": "B01HI1W1V4",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01HI1W1V4?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Your old dial scale is basically a guessing game."
+  },
+  {
+    "name": "reel_2026-11-06_002",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-06-002.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "If you rent, you can't change the closet. You can only change what's hanging in it.\n\nBulky plastic and wood hangers are the real reason a closet feels small \u2014 each one eats an inch of rod that could hold another shirt. Straps slide off smooth surfaces, shoulders lose their shape, and the rod fills up long before the closet actually does.\n\nAmazon Basics' slim velvet non-slip hangers are built for exactly this: a narrow profile that fits more garments on the same rod, plus a velvet surface that keeps straps and shoulders from sliding off. Rating sits at 4.8 stars across 235,105 reviews \u2014 enough closets running the same test to call it settled.\n\nMore hangers fit on the same rod, and what's on them stays put. $20.99 for the set.\n\nComment CLOTHES and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers",
+      "dm_keyword": "CLOTHES",
+      "amazon_asin": "B00FXNAAW2",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B00FXNAAW2?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "If you rent, you can't change the closet. You can only change what's hanging in it."
+  },
+  {
+    "name": "reel_2026-11-06_003",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-06-003.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Stop hanging a heavy curtain in a tiny bathroom.\n\nMost bathrooms only get light from one bulb and maybe a small window, so whatever curtain hangs over the tub either lets that light through or blocks it. A thick, patterned curtain can make an already small room feel like a closet the second it's pulled shut.\n\nThe BigFoot Clear Shower Curtain is just that, clear, so the tub and shower area stay bright instead of going dim behind fabric. Close to sixty thousand people have rated it 4.5 stars.\n\nThe room reads bigger and brighter the second you pull it shut, for about $12.\n\nComment CLEAR and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "BigFoot Clear Shower Curtain",
+      "dm_keyword": "CLEAR",
+      "amazon_asin": "B08CRPWQHB",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B08CRPWQHB?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Stop hanging a heavy curtain in a tiny bathroom."
   }
 ]
