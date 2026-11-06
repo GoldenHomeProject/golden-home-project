@@ -4877,6 +4877,58 @@
         ],
         "reel_format": "versus"
       }
+    ],
+    "CASES": [
+      {
+        "hook_category": "mistake",
+        "hook": "Cotton is the hidden culprit behind your frizzy mornings.",
+        "beat1": "Cotton fibers are rough and pull moisture out of hair overnight, so strands snag against the fabric every time you turn. That friction is also what presses sleep creases into skin by morning.",
+        "turn": "A smoother, lower-friction surface lets hair and skin glide instead of catching on rough fibers. This queen set of two grey satin pillowcases is built around that idea, and it's rated 4.5 stars across about 323,000 reviews.",
+        "result": "For about $7, it's a small swap for the pillow drawer that addresses the actual cause of the tangling and creasing, not just the symptom.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Morning light across an unmade bed, loose hair strands caught on a wrinkled cotton pillowcase.",
+            "on_screen_text": "Cotton is the hidden culprit",
+            "voiceover": "Cotton is the hidden culprit behind your frizzy mornings.",
+            "label": ""
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Close-up of a hand smoothing tangled hair strands against the rough woven texture of a pillowcase.",
+            "on_screen_text": "Rough fibers grip hair all night",
+            "voiceover": "Cotton fibers are rough and pull moisture out of hair overnight, so strands snag with every turn, and that same friction presses creases into skin.",
+            "label": "The mistake"
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "A hand running fingers across a smooth, slightly sheened grey fabric laid over a pillow.",
+            "on_screen_text": "Look for a smoother weave",
+            "voiceover": "The fix is a smoother, lower-friction fabric that lets hair and skin glide instead of catching.",
+            "label": "Instead"
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "Two grey satin pillowcases arranged neatly on queen pillows on a made bed.",
+            "on_screen_text": "Grey satin, queen set of two",
+            "voiceover": "This queen set of two grey satin pillowcases is built for exactly that, and it holds 4.5 stars across about 323,000 reviews.",
+            "label": "The fix"
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "Hands fluffing a grey pillow in a soft, cozy bedroom corner.",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "For about $7, it's an easy swap for your pillow drawer. Comment {KEYWORD} and I'll send the link.",
+            "label": "Save this"
+          }
+        ],
+        "reel_format": "mistake"
+      }
     ]
   },
   "hashtag_pools": {
