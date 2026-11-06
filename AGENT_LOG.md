@@ -5883,3 +5883,13 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** social/pinterest_queue.json
 **External actions:** Pexels (backgrounds) + Claude CLI (pin copy)
 **Next agent hint:** post_pinterest.py (Pi) drains pinterest_queue.json once a Pinterest business account is logged into the Pi Chromium profile.
+
+## 2026-11-06T13:00:00Z — Email Monitor
+**Ran:** Daily Gmail triage (8am ET). Checked 9 emails since 2026-11-05T13:00:00Z. 0 emails sent. 1 SmartWings BF Early Access platform notification + 1 Promeed HerbalRX Awin outreach logged in BUSINESS_BRAIN.md. 2 non-GHP items logged for Marketing dept.
+**Changed:** BUSINESS_BRAIN.md (November 2026 Affiliate Updates Nov 6 — SmartWings BF Early Access LIVE, Promeed HerbalRX Awin direct outreach, Sealogix Corp contract expiry, FOR MARKETING items), AGENT_LOG.md
+**External actions:** 0 emails sent. No on-niche brand deals required a reply. SmartWings Impact notification: BF Early Access LIVE (8% sitewide / 12% orders $1,500+ / free shipping) — no reply needed (automated notification); intel written to BUSINESS_BRAIN.md. Promeed HerbalRX Awin pitch (Amelia, Advertiser ID 100833, 20% CPA) — no reply possible (no-reply@awin.com); intel logged. Sealogix Corp contract expired midnight 11/6 (Impact 6590154) — noted for Ian.
+**Next agent hint:** 🚨🚨 SMARTWINGS BF EARLY ACCESS NOW LIVE — 8% sitewide / 12% over $1,500 / free shipping. IAN: build SmartWings tracking links in Impact dashboard + brief Content Engine for BFCM smart shades content (BFCM 21 DAYS). 🚨🚨 DREAME pre-content CLOSES NOV 10 = 4 DAYS CRITICAL (DAY 48 zero links). 🚨🚨 MAMMA MIA DAY 58 UNBREAKABLE. 🚨🚨 SYRUVIA 20% Cozy November DAY 7 — candle warmer/Thanksgiving DUAL-FORMAT, $5.80/sale daily forfeited. 🚨 PROMEED HerbalRX Awin Advertiser 100833 confirmed ACTIVE (20% CPA) — IAN browser accept. 🚨 REWARX 50% DAY 52 IAN-BLOCKED. 🆕 SEALOGIX CORP contract expired midnight 11/6 (Impact 6590154) — IAN verify.
+
+### FOR MARKETING DEPT / IAN — not GHP (Nov 6 Email Monitor)
+- **Sender:** noreply@github.com | **Subject:** "[GitHub] Claude is requesting updated permissions" | GitHub App Claude requesting updated account access permissions. Developer/account matter, not GHP home content. No reply sent.
+- **Sender:** jennifer@fixthephoto.com | **Subject:** "[Fixthephoto] Re: For '10 Best Music Sync Apps 2026': B2Gaudio (iPhone)" | Follow-up on backlink collaboration for B2Gaudio iOS app. B2Gaudio is an iOS app (not GHP). No reply sent.
