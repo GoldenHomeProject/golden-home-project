@@ -439,7 +439,9 @@ def _judge_kinds(sheet: Path, kinds: list, space: str) -> dict:
               "it could belong in is NOT enough), and its colour/material must not contradict the "
               "listing: colour, pattern, style and design must match (gold tinsel is not silver "
               "tinsel; frosted film is not a rainbow stained-glass film). The product must be the "
-              "main subject, not a small or blurry part of the frame."
+              "main subject, not a small or blurry part of the frame. It must be the PRODUCT "
+              "ITSELF, not what it holds or works with: a sponge is not a sponge holder, a jug of oil "
+              "is not an oil sprayer, a plant is not a planter."
               "\nReply ONLY JSON: {\"shows\": <index of the ONE kind the clip clearly shows "
               "(that kind of object, or one being used), or -1 if none>, "
               "\"face_visible\": true/false (a person's face is clearly visible), "
@@ -807,8 +809,8 @@ def build(s: dict, out_path: Path, work: Path) -> Path:
     trans = []
     for i, sg in enumerate(segs[:-1]):
         nxt = segs[i + 1]
-        # 0.12 s (~4 frames): 0.25 s dissolves showed double exposures (Marketing 11/06)
-        trans.append(("fade", 0.04) if nxt["kind"] == "promise" else ("fade", 0.12))
+        # hard cut (1 frame): 0.25 s and 0.12 s dissolves both showed double exposures
+        trans.append(("fade", 0.04))
     vids = [segment_video(sg, sg["clips"], work, i, trans[i][1] if i < len(trans) else 0.0)
             for i, sg in enumerate(segs)]
     # join with xfade at the exact spoken boundaries
@@ -843,7 +845,7 @@ def build(s: dict, out_path: Path, work: Path) -> Path:
             continue
         t0, t1 = sg["start"], sg["start"] + sg["dur"]
         ov_in += ["-loop", "1", "-t", f"{t1 + 0.5:.2f}", "-i", str(png)]
-        t0 += 0.12                       # after the cut has landed
+        t0 += 0.1                        # after the cut has landed
         fo = max(t0 + 0.3, t1 - 0.15)    # gone before the next transition starts
         ov_fc.append(f"[{k}:v]format=rgba,fade=in:st={t0:.2f}:d=0.15:alpha=1,"
                      f"fade=out:st={fo:.2f}:d=0.15:alpha=1[o{k}]")
