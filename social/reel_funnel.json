@@ -46,5 +46,177 @@
     "band": "Under $15"
    }
   ]
+ },
+ "BEDROOMS": {
+  "date": "2026-11-06",
+  "reel": "v2-stop_doing-20261106-1638.mp4",
+  "page": "https://goldenhomeproject.com/r/bedrooms",
+  "format": "stop_doing",
+  "posted": false,
+  "items": [
+   {
+    "asin": "B07PCQKTCN",
+    "type": "Prewashed Duvet Cover",
+    "band": "Under $20"
+   },
+   {
+    "asin": "B0725WFLMB",
+    "type": "Satin Pillowcases",
+    "band": "Under $10"
+   }
+  ]
+ },
+ "COZY": {
+  "date": "2026-11-06",
+  "reel": "v2-gift-20261106-1659.mp4",
+  "page": "https://goldenhomeproject.com/r/cozy",
+  "format": "gift",
+  "posted": false,
+  "items": [
+   {
+    "asin": "B07H7D8YH3",
+    "type": "Mini String Lights",
+    "band": "Under $10"
+   },
+   {
+    "asin": "B0725WFLMB",
+    "type": "Satin Pillowcases",
+    "band": "Under $10"
+   },
+   {
+    "asin": "B001GM60LE",
+    "type": "English Breakfast Tea",
+    "band": "Under $15"
+   }
+  ]
+ },
+ "FRONT": {
+  "date": "2026-11-06",
+  "reel": "v2-stop_doing-20261106-1555.mp4",
+  "page": "https://goldenhomeproject.com/r/front",
+  "format": "stop_doing",
+  "posted": false,
+  "items": [
+   {
+    "asin": "B07F897P1G",
+    "type": "Wreath Hanger",
+    "band": "Under $10"
+   },
+   {
+    "asin": "B07H7D8YH3",
+    "type": "Clear String Lights",
+    "band": "Under $10"
+   },
+   {
+    "asin": "B00JR5N0JM",
+    "type": "Fairy Lights",
+    "band": "Under $10"
+   }
+  ]
+ },
+ "BEDROOMX": {
+  "date": "2026-11-06",
+  "reel": "v2-before_after-20261106-1612.mp4",
+  "page": "https://goldenhomeproject.com/r/bedroomx",
+  "format": "before_after",
+  "posted": false,
+  "items": [
+   {
+    "asin": "B01CS31R94",
+    "type": "Grommet Blackout Curtains",
+    "band": "Under $10"
+   },
+   {
+    "asin": "B0D89V1RX1",
+    "type": "Vintage Runner Rug",
+    "band": "Under $20"
+   }
+  ]
+ },
+ "KITCHEN": {
+  "date": "2026-11-06",
+  "reel": "v2-makes_sense-20261106-1620.mp4",
+  "page": "https://goldenhomeproject.com/r/kitchen",
+  "format": "makes_sense",
+  "posted": false,
+  "items": [
+   {
+    "asin": "B0C3QZ7SNF",
+    "type": "Sink Sponge Organizer",
+    "band": "Under $15"
+   },
+   {
+    "asin": "B079M8FPTW",
+    "type": "Stackable Food Containers",
+    "band": "Under $35"
+   },
+   {
+    "asin": "B0113UZJE2",
+    "type": "Digital Kitchen Scale",
+    "band": "Under $15"
+   }
+  ]
+ },
+ "GIFTS": {
+  "date": "2026-11-06",
+  "reel": "v2-gift-20261106-1628.mp4",
+  "page": "https://goldenhomeproject.com/r/gifts",
+  "format": "gift",
+  "posted": false,
+  "items": [
+   {
+    "asin": "B0FB7LKQXV",
+    "type": "Insulated Tumbler Cup",
+    "band": "Under $25"
+   },
+   {
+    "asin": "B01M7TTA2S",
+    "type": "Three Wick Candle",
+    "band": "Under $25"
+   }
+  ]
+ },
+ "RENTAL": {
+  "date": "2026-11-06",
+  "reel": "v2-renter-20261106-1646.mp4",
+  "page": "https://goldenhomeproject.com/r/rental",
+  "format": "renter",
+  "posted": false,
+  "items": [
+   {
+    "asin": "B08QRFZ6TH",
+    "type": "Shower Curtain Liner",
+    "band": "Under $10"
+   },
+   {
+    "asin": "B0D89V1RX1",
+    "type": "Runner Rug",
+    "band": "Under $20"
+   }
+  ]
+ },
+ "SHELF": {
+  "date": "2026-11-06",
+  "reel": "v2-before_after-20261106-1714.mp4",
+  "page": "https://goldenhomeproject.com/r/shelf",
+  "format": "before_after",
+  "posted": false,
+  "items": [
+   {
+    "asin": "B09FX7TFJV",
+    "type": "Microfiber Cleaning Cloths",
+    "band": "Under $20"
+   },
+   {
+    "asin": "B07C41SYJ7",
+    "type": "Cotton Hand Towels",
+    "band": "Under $20"
+   },
+   {
+    "asin": "B0897859VJ",
+    "type": "Exfoliating Body Scrubber",
+    "band": "Under $20"
+   }
+  ]
  }
 }

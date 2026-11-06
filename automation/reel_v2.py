@@ -133,7 +133,8 @@ def write_script(fmt: str, strict: bool = True) -> dict | None:
         f"Best-selling Amazon products:\n{lst}\n\nWrite a 15-20 second vertical-video script. "
         f"Format: {fmt}. Pick {spec['ask']}: rank up to {spec['n'] + 3}, best first (only the "
         f"first {spec['n']} that have matching stock footage are used). Reply ONLY JSON:\n"
-        '{"keyword": "<ONE everyday word, 4-8 letters, naming the space or theme, e.g. SHOWER>", '
+        '{"keywords": ["<3 options: ONE everyday word each, 4-8 letters, naming the space, theme '
+        'or a product, e.g. SHOWER, CURTAIN, COZY>"], '
         '"hook": "<scene-first, second person, under 12 words, NO digits; you may adapt one of: '
         + " | ".join(bank) + '>", "space": "<the room or spot, 1-3 words>", '
         '"items": [{"i": <index>, "type": "<generic item, 2-4 words, Title Case; keep a word for '
@@ -186,7 +187,8 @@ def write_script(fmt: str, strict: bool = True) -> dict | None:
         print(f"  [v2] rejected hook: {hook}")
         return None
     promise = _promise(fmt, items[:spec["n"]])
-    kw = _unique_keyword(got.get("keyword", ""), got.get("space", ""), fmt)
+    kw = _unique_keyword(got.get("keywords") or [got.get("keyword", "")], got.get("space", ""), fmt,
+                         [i["type"] for i in items])
     return {"format": fmt, "hook": hook, "promise": promise, "space": got.get("space", ""),
             "items": items, "keyword": kw}
 
@@ -211,20 +213,23 @@ def _taken_keywords(days: int = 60) -> set:
         pass
     cut = (datetime.now() - timedelta(days=days)).strftime("%Y-%m-%d")
     try:
-        # only POSTED reels hold a keyword; unposted test renders don't ("BEDROOMX", 11/06)
-        taken |= {k for k, e in json.loads(FUNNEL.read_text()).items()
-                  if e.get("posted") and e.get("date", "") >= cut}
+        # every rendered reel holds its keyword: two test reels both took KITCHEN on 11/06
+        # and the second overwrote the first one's /r/kitchen page (wrong products)
+        taken |= {k for k, e in json.loads(FUNNEL.read_text()).items() if e.get("date", "") >= cut}
     except (OSError, ValueError):
         pass
     return taken
 
 
-def _unique_keyword(kw: str, space: str, fmt: str) -> str:
+def _unique_keyword(kws, space: str, fmt: str, types: list | None = None) -> str:
     """One word per reel, so a comment gets exactly this reel's links. 2026-11-06: test
     reels said "Comment LINKS" (no bot answers it) and "CLOTHES" (answered with an
     unrelated product) - a dead funnel."""
     taken = _taken_keywords()
-    words = [kw] + space.split()[::-1] + [{"gift": "GIFTS", "renter": "RENTER"}.get(fmt, "")]
+    kws = [kws] if isinstance(kws, str) else list(kws or [])
+    kw = kws[0] if kws else ""
+    words = (kws + space.split()[::-1] + [{"gift": "GIFTS", "renter": "RENTER"}.get(fmt, "")]
+             + [(t.split() or [""])[-1] for t in (types or [])])
     for w in words:
         w = re.sub(r"[^A-Za-z]", "", w or "").upper()
         if 4 <= len(w) <= 9 and w not in taken:
