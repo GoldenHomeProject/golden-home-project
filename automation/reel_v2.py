@@ -200,6 +200,22 @@ def write_script(fmt: str, strict: bool = True) -> dict | None:
             "items": items, "keyword": kw}
 
 
+def rewrite_benefits(items: list) -> None:
+    """Older test scripts carry spec-sheet benefits ("precise tare function weighing");
+    Marketing 11/06 wants plain buyer language from the title facts only, same gates."""
+    lst = "\n".join(f"{n}: {i['name']}" for n, i in enumerate(items))
+    got = _claude_json(f"Amazon listing titles:\n{lst}\n\nFor each, write what it does for the buyer in "
+                       "plain words, 3-6 words, from facts in THAT title only (e.g. 'sponge, brush and "
+                       "soap in one spot', 'warm glow for any room'). No spec-sheet wording, no speed, "
+                       "durability or result claims the title doesn't make, no first person, no digits "
+                       "unless in the title, no '$'. Reply ONLY JSON: {\"benefits\": [\"...\"]}")
+    for i, b in zip(items, (got or {}).get("benefits") or []):
+        allowed = set(re.findall(r"\d+", i["name"]))
+        if (b and "$" not in b and not fabrication_match(b) and len(b.split()) <= 7
+                and all(n in allowed for n in re.findall(r"\d+", b))):
+            i["benefit"] = b.strip().rstrip(".")
+
+
 def _promise(fmt: str, items: list) -> str:
     """Price band of the dearest pick that made the reel (band only, never exact)."""
     spec = FORMATS[fmt]
@@ -906,6 +922,7 @@ def main() -> int:
         s = json.loads(Path(args.from_script).read_text())
         s["items"] = [i for i in s["items"] if i["asin"] not in set(args.drop)]
         args.format = s["format"]
+        rewrite_benefits(s["items"])
     for attempt in range(4):
         if s:
             break
