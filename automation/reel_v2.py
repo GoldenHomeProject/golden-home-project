@@ -390,8 +390,11 @@ def _judge_kinds(sheet: Path, kinds: list, space: str) -> dict:
     prompt = (f"Read the image file {sheet}: three frames (start, middle, end) of a stock clip "
               f"for a home-products reel set in a {space}.\nProduct kinds:\n"
               + "\n".join(f"{i}: {k}" for i, k in enumerate(kinds)) +
+              "\nThe object itself must be clearly visible and recognizable in most frames (a room "
+              "it could belong in is NOT enough), and its colour/material must not contradict the "
+              "name (gold tinsel is not silver tinsel; a plain tree is not a birch tree lamp)."
               "\nReply ONLY JSON: {\"shows\": <index of the ONE kind the clip clearly shows "
-              "(that kind of object, or one being used) in most frames, or -1 if none>, "
+              "(that kind of object, or one being used), or -1 if none>, "
               "\"face_visible\": true/false (a person's face is clearly visible), "
               "\"text_visible\": true/false (readable brand names, logos or on-screen text), "
               "\"nsfw\": true/false (nudity, underwear, suggestive), "
@@ -604,6 +607,7 @@ WrapStyle: 0
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Cap,Montserrat ExtraBold,82,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,7,3,2,80,{SAFE_RIGHT + 60},560,1
+Style: Tag,Montserrat ExtraBold,64,&H0097DC3D,&H0097DC3D,&H00000000,&H64000000,0,0,0,0,100,100,6,0,1,6,2,7,80,{SAFE_RIGHT + 60},{SAFE_TOP + 10},1
 Style: Hook,Montserrat ExtraBold,104,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,8,3,8,80,{SAFE_RIGHT + 60},{SAFE_TOP + 120},1
 
 [Events]
@@ -611,6 +615,9 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 """
     ev = []
     for sg in segs:
+        if sg.get("tag"):
+            ev.append(f"Dialogue: 1,{_ass_time(sg['start'])},{_ass_time(sg['start'] + sg['dur'])},"
+                      f"Tag,,0,0,0,,{sg['tag']}")
         if sg["kind"] == "cta":
             continue
         style = "Hook" if sg["kind"] in ("hook", "promise") else "Cap"
@@ -685,6 +692,16 @@ def build(s: dict, out_path: Path, work: Path) -> Path:
             sg["clips"] = [clip_for[sg["item"]["asin"]]]   # one continuous, matching shot
         else:
             sg["clips"] = [hook_clip]   # hook -> promise is one shot; CTA returns to it (loop)
+    if s["format"] == "before_after":
+        # the format promises a reveal: BEFORE on the opening shot, AFTER on a finished space
+        after = find_clip([f"organized {space}", f"styled {space}", f"clean {space}", f"decorated {space}"],
+                          f"the same kind of space ({space}) looking tidy, styled and finished: "
+                          "the 'after' shot", work, need=4.0)
+        for sg in segs:
+            if sg["kind"] in ("hook", "promise"):
+                sg["tag"] = "BEFORE"
+            elif sg["kind"] == "cta" and after:
+                sg["clips"], sg["tag"] = [after], "AFTER"
     real = sum(1 for sg in segs for c in sg["clips"] if c is not hook_clip) + 1
     print(f"    footage: {real} real clips")
     # per-segment video with transition tails

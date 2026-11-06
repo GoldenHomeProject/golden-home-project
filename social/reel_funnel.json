@@ -22,5 +22,29 @@
     "band": "Under $10"
    }
   ]
+ },
+ "PORCH": {
+  "date": "2026-11-06",
+  "reel": "v2-before_after-20261106-1525.mp4",
+  "page": "https://goldenhomeproject.com/r/porch",
+  "format": "before_after",
+  "posted": false,
+  "items": [
+   {
+    "asin": "B07F897P1G",
+    "type": "Wreath Hanger",
+    "band": "Under $10"
+   },
+   {
+    "asin": "B07X7H7C7V",
+    "type": "Birch Tree Lamp",
+    "band": "Under $20"
+   },
+   {
+    "asin": "B01N2SAIN7",
+    "type": "Tinsel Icicles",
+    "band": "Under $15"
+   }
+  ]
  }
 }
