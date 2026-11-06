@@ -211,7 +211,9 @@ def _taken_keywords(days: int = 60) -> set:
         pass
     cut = (datetime.now() - timedelta(days=days)).strftime("%Y-%m-%d")
     try:
-        taken |= {k for k, e in json.loads(FUNNEL.read_text()).items() if e.get("date", "") >= cut}
+        # only POSTED reels hold a keyword; unposted test renders don't ("BEDROOMX", 11/06)
+        taken |= {k for k, e in json.loads(FUNNEL.read_text()).items()
+                  if e.get("posted") and e.get("date", "") >= cut}
     except (OSError, ValueError):
         pass
     return taken
