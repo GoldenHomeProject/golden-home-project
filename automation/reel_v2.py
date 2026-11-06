@@ -462,7 +462,7 @@ def _judge_kinds(sheet: Path, kinds: list, space: str) -> dict:
         return {"note": f"check failed: {e}"}
 
 
-def match_footage(items: list, space: str, n: int, work: Path, budget: int = 22) -> dict:
+def match_footage(items: list, space: str, n: int, work: Path, budget: int = 30) -> dict:
     """Ranked picks -> {index: clip} for the picks real stock footage actually shows."""
     got, judged = {}, 0
     for idx, it in enumerate(items):
