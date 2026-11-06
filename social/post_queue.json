@@ -9290,10 +9290,10 @@
   },
   {
     "name": "reel_2026-11-05_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-11-05-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-05-001.mp4",
     "caption": "Cotton pillowcases are quietly wrecking your hair overnight.\n\nRougher fabric grabs onto hair and skin while you toss and turn, so strands get tugged and your face creases against the fabric by morning. It also traps heat against your cheek all night.\n\nThis satin pillowcase, similar to silk, gives hair and skin less to catch on and has a cooling feel, with an envelope closure and a queen set of two. It's rated 4.5 stars from over three hundred thousand reviewers.\n\nLess tugging overnight and a cooler surface to sleep on, for about $7.\n\nComment BEDSURE and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -9310,7 +9310,8 @@
       "affiliate_network": "amazon",
       "affiliate_url": "https://www.amazon.com/dp/B0725WFLMB?tag=goldenhomep0a-20"
     },
-    "hook": "Cotton pillowcases are quietly wrecking your hair overnight."
+    "hook": "Cotton pillowcases are quietly wrecking your hair overnight.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-05-001.mp4"
   },
   {
     "name": "reel_2026-11-05_002",
