@@ -723,6 +723,7 @@ def build(s: dict, out_path: Path, work: Path) -> Path:
                            "this), the shot must SHOW that problem: messy, cluttered, bare or "
                            "disorganized. A spotless styled showroom does NOT fit. No people in "
                            "focus", work, need=5.0))
+    problem_shot = bool(hook_clip)
     if not hook_clip:
         # No shot of the problem: open on an inviting shot of its own (reusing product 1's
         # clip held one white cup on screen for 9 s, gift 11/06), and drop any hook line
@@ -736,6 +737,10 @@ def build(s: dict, out_path: Path, work: Path) -> Path:
         if gift or re.search(r"looks like this|doing too much|stop |never stay|this is why", s["hook"], re.I):
             s["hook"] = ("Easy gifts that never miss." if gift
                          else f"{space.capitalize()} upgrades that just make sense.")
+        if s["format"] in ("stop_doing", "before_after", "fixes3"):
+            # nothing on screen to stop / fix / be "before": promise upgrades instead
+            amt = (re.search(r"\$\d+", _promise("fixes3", s["items"])) or [""])[0]
+            s["promise"] = f"{len(s['items'])} upgrades under {amt}" if amt else "Upgrades that make sense"
     segs = segments(s)
     vo = voice(segs, work)
     for sg in segs:
@@ -743,7 +748,7 @@ def build(s: dict, out_path: Path, work: Path) -> Path:
             sg["clips"] = [clip_for[sg["item"]["asin"]]]   # one continuous, matching shot
         else:
             sg["clips"] = [hook_clip]   # hook -> promise is one shot; CTA returns to it (loop)
-    if s["format"] == "before_after":
+    if s["format"] == "before_after" and problem_shot:
         # the format promises a reveal: BEFORE on the opening shot, AFTER on a finished space
         after = find_clip([f"organized {space}", f"styled {space}", f"clean {space}", f"decorated {space}"],
                           f"the same kind of space ({space}) looking tidy, styled and finished: "
