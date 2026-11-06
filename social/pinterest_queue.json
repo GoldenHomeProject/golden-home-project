@@ -9446,14 +9446,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-11-03-B078HWZJWS.png",
     "queued_at": "2026-11-03T11:13:13.314110Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "2-Pack Quick-Dry Hair Towel Wrap",
     "recharted": true,
     "variant": "B",
-    "ai_image": true
+    "ai_image": true,
+    "posted_at": "2026-11-06T02:17:34Z"
   },
   {
     "id": "pin-2026-11-03-B07H4HHNQK",
