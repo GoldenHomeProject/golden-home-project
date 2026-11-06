@@ -147,7 +147,7 @@ def write_script(fmt: str, strict: bool = True) -> dict | None:
         "No first person, no claims beyond the titles, no prices or '$'.")
     if not got or len(got.get("items") or []) < spec["n"]:
         return None
-    items, seen = [], set()
+    items, seen, kinds = [], set(), set()
     for x in got["items"]:
         try:
             c = cand[int(x["i"])]
@@ -155,11 +155,14 @@ def write_script(fmt: str, strict: bool = True) -> dict | None:
             continue
         allowed = set(re.findall(r"\d+", c["name"]))
         txt = f"{x.get('type', '')} {x.get('benefit', '')}"
-        if ("$" in txt or fabrication_match(txt) or c["asin"] in seen
+        # one of each kind: "Clear String Lights" + "Fairy Lights" both ran on 11/06
+        kind = re.sub(r"s$", "", (x.get("type", "").split() or [""])[-1].lower())
+        if ("$" in txt or fabrication_match(txt) or c["asin"] in seen or kind in kinds
                 or any(n not in allowed for n in re.findall(r"\d+", txt))):
-            print(f"  [v2] skipped item text: {txt}")
+            print(f"  [v2] skipped item: {txt}")
             continue
         seen.add(c["asin"])
+        kinds.add(kind)
         items.append({**x, "asin": c["asin"], "name": c["name"], "rating": c.get("rating"),
                       "reviews": c.get("reviews"), "chart_rank": c.get("rank"),
                       "price": c.get("price"), "band": price_band(str(c.get("price") or ""))})
@@ -714,8 +717,13 @@ def build(s: dict, out_path: Path, work: Path) -> Path:
                            "line points at a problem (looks like this, doing too much, stop doing "
                            "this), the shot must SHOW that problem: messy, cluttered, bare or "
                            "disorganized. A spotless styled showroom does NOT fit. No people in "
-                           "focus", work, need=5.0)
-                 or clip_for[s["items"][0]["asin"]])
+                           "focus", work, need=5.0))
+    if not hook_clip:
+        # No shot of the problem: open on the first product instead, and drop any hook line
+        # that promises a mess ("If your porch looks like this..." over a tidy wreath, 11/06).
+        hook_clip = clip_for[s["items"][0]["asin"]]
+        if re.search(r"looks like this|doing too much|stop |never stay|this is why", s["hook"], re.I):
+            s["hook"] = f"{space.capitalize()} upgrades that just make sense."
     segs = segments(s)
     vo = voice(segs, work)
     for sg in segs:
