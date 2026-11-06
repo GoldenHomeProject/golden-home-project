@@ -782,10 +782,10 @@ def build(s: dict, out_path: Path, work: Path) -> Path:
     s["items"] = [it for it, _ in chosen]
     s["promise"] = _promise(s["format"], s["items"])
     # the keyword must name something on screen: "WRAP" survived after the hair wrap dropped
-    shown = " ".join([space] + [i["type"] for i in s["items"]]).lower()
+    shown = " ".join([space, s["hook"]] + [i["type"] for i in s["items"]]).lower()
     if s["keyword"].lower().rstrip("s") not in shown:
-        s["keyword"] = _unique_keyword(space.split()[::-1], space, s["format"],
-                                       [i["type"] for i in s["items"]])
+        s["keyword"] = _unique_keyword([(i["type"].split() or [""])[-1] for i in s["items"]],
+                                       space, s["format"], [i["type"] for i in s["items"]])
     clip_for = {it["asin"]: c for it, c in chosen}
     hook_clip = (find_clip([s["items"][0]["problem_query"], f"messy {space}", f"{space} interior", space],
                            f"a real {space} that fits this opening line: \"{s['hook']}\". If the "
@@ -808,7 +808,7 @@ def build(s: dict, out_path: Path, work: Path) -> Path:
             # opening on product 1's clip held one shot ~9 s (before_after 11/06); only the
             # rapid-fire format can afford it. Others retry with a fresh script.
             raise RuntimeError("no usable opening shot")
-        if gift or re.search(r"looks like this|doing too much|stop |never stay|this is why", s["hook"], re.I):
+        if gift or re.search(r"looks? like this|doing too much|stop |never stay|this is why|bare|messy|cluttered", s["hook"], re.I):
             s["hook"] = ("Easy gifts that never miss." if gift
                          else f"{space.capitalize()} upgrades that just make sense.")
         if s["format"] in ("stop_doing", "before_after", "fixes3"):
