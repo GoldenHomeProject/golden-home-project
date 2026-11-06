@@ -163,6 +163,11 @@ def write_script(fmt: str, strict: bool = True) -> dict | None:
         txt = f"{x.get('type', '')} {x.get('benefit', '')}"
         # one of each kind: "Clear String Lights" + "Fairy Lights" both ran on 11/06
         kind = re.sub(r"s$", "", (x.get("type", "").split() or [""])[-1].lower())
+        # "Similar to Silk" is satin: never name a product after what it only resembles
+        like = {w.lower() for w in re.findall(r"(?:similar to|like|faux|imitation)\s+(\w+)", c["name"], re.I)}
+        if like & set(re.findall(r"\w+", txt.lower())):
+            print(f"  [v2] skipped item (resemblance named as material): {txt}")
+            continue
         if ("$" in txt or fabrication_match(txt) or c["asin"] in seen or kind in kinds
                 or any(n not in allowed for n in re.findall(r"\d+", txt))):
             print(f"  [v2] skipped item: {txt}")
