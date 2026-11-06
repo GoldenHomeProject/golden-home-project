@@ -32,7 +32,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install Python deps
-        run: pip install Pillow edge-tts numpy pytesseract gradio_client
+        run: pip install Pillow numpy pytesseract gradio_client -r automation/requirements-tts.txt
 
       - name: Install Claude Code CLI (judges stock clips before they are used)
         run: npm install -g @anthropic-ai/claude-code

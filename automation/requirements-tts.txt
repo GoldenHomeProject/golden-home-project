@@ -1,0 +1,5 @@
+# Single pin for edge-tts, used by the reel-producer workflow, run_pi_reels.sh and
+# the presenter venv. 7.2.8 got HTTP 403 from Microsoft starting 2026-10-12; 7.3.0/7.3.1
+# (2026-10-13) fixed it. When TTS fails, reel_producer ships music-only reels, so if
+# a new 403 shows up, bump this pin.
+edge-tts==7.3.1
