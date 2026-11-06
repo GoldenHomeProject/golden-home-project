@@ -127,7 +127,9 @@ def write_script(fmt: str) -> dict | None:
         '"benefit": "<one benefit from THAT title only, 3-7 words, no digits unless in the title>", '
         '"problem_query": "<2-4 word stock-video search for the messy/problem moment, no people>", '
         '"solution_query": "<2-4 word stock-video search for the organized/solved result>"}]}\n'
-        "Rules: no first person, no claims beyond the titles, no prices or '$'.")
+        "Rules: every item must directly fix the exact problem the hook shows in that space, "
+        "and no two items may be the same kind of product (no two towels, no two bins). "
+        "No first person, no claims beyond the titles, no prices or '$'.")
     if not got or len(got.get("items") or []) != spec["n"]:
         return None
     items = []
@@ -281,7 +283,9 @@ def shot(src: Path, start: float, dur: float, out: Path) -> Path:
 
 def segment_video(sg: dict, clips: list[Path], work: Path, idx: int, tail: float) -> Path:
     """Cut the segment into 0.8-1.8 s shots across its clips; pad `tail` for the transition."""
-    total = sg["dur"] + tail
+    # +0.2 s spare: shots round down to whole frames, and an xfade whose first input is even
+    # one frame short of offset+duration silently drops the rest (fixes3 froze its CTA 11/06)
+    total = sg["dur"] + tail + 0.2
     n = max(len(clips), math.ceil(total / 1.6))
     each = total / n
     shots = []
@@ -362,7 +366,7 @@ def captions(segs: list, out: Path) -> Path:
 ScriptType: v4.00+
 PlayResX: {W}
 PlayResY: {H}
-WrapStyle: 2
+WrapStyle: 0
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -386,7 +390,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
                 lines.append(cur)
                 cur = []
             cur.append(w)
-            if len(cur) >= (4 if style == "Cap" else 3) or len(" ".join(x[2] for x in cur)) > 22:
+            if style == "Cap" and (len(cur) >= 4 or len(" ".join(x[2] for x in cur)) > 22):
                 lines.append(cur)
                 cur = []
         if cur:
