@@ -793,11 +793,21 @@ def build(s: dict, out_path: Path, work: Path) -> Path:
             s["promise"] = f"{len(s['items'])} upgrades under {amt}" if amt else "Upgrades that make sense"
     segs = segments(s)
     vo = voice(segs, work)
+    # Marketing 11/06: the opening shot held ~5 s across hook + promise; the promise beat
+    # gets a second lived-in shot so no opening shot holds much past 2 s
+    gift = s["format"] == "gift"
+    promise_clip = find_clip(["wrapped gifts pile", "christmas presents", "gifts under tree"] if gift
+                             else [f"cozy {space}", f"lived in {space}", f"{space} morning"],
+                             "a pile of wrapped gifts or a cozy holiday room, no people in focus" if gift
+                             else f"a different real, lived-in {space} (not a staged showroom, not a "
+                             "product close-up)", work, need=3.0) or hook_clip
     for sg in segs:
         if sg["kind"] == "item":
             sg["clips"] = [clip_for[sg["item"]["asin"]]]   # one continuous, matching shot
+        elif sg["kind"] == "promise":
+            sg["clips"] = [promise_clip]
         else:
-            sg["clips"] = [hook_clip]   # hook -> promise is one shot; CTA returns to it (loop)
+            sg["clips"] = [hook_clip]   # CTA returns to the opening shot (loop)
     if s["format"] == "before_after" and problem_shot:
         # the format promises a reveal: BEFORE on the opening shot, AFTER on a finished space
         after = find_clip([f"organized {space}", f"styled {space}", f"clean {space}", f"decorated {space}"],
