@@ -106,9 +106,12 @@ def candidates(fmt: str) -> list[dict]:
         return [dict(p, category="Gift") for p in g["picks"]]
     items = pp.chart_now()
     if fmt == "renter":
-        items = [i for i in items if re.search(r"no drill|adhesive|over the door|tension|"
-                                               r"freestanding|stick|removable|renter", i["name"], re.I)]
-        return items[:12]
+        # no-install items count too (stock rarely films adhesive hooks; renter failed 11/06)
+        items = [i for i in items if re.search(
+            r"no drill|adhesive|over the door|over-the-door|tension|freestanding|stick|removable|"
+            r"renter|plug.?in|cordless|rechargeable|rolling|cart|lamp|rug|basket|stackable|"
+            r"shelf|shelves|curtain|mirror|hanger", i["name"], re.I)]
+        return items[:16]
     by = {}
     for i in items:
         if i.get("category") != "Movers":
