@@ -1,5 +1,17 @@
 [
   {
+    "id": "ig-gift_guide-2026-11-06",
+    "name": "First Apartment Gifts Under $30",
+    "media_type": "IMAGE",
+    "image_url": "https://goldenhomeproject.com/social/instagram/gift_guide-2026-11-06.jpg",
+    "caption": "First Apartment Gifts Under $30\n\nFirst Apartment Gifts Under $30: Candle Warmer Lamp, Scented Candle, Insulated Tumbler, Throw Blanket, Satin Pillowcases, Hair Towel Wrap. Each one rated 4.5 stars or higher across thousands of ratings.\n\nSave this for later.\n\n\ud83d\udd17 This product: tap the link in our bio \u2192 'From our videos' at the top.\n\nAs an Amazon Associate we earn from qualifying purchases.\n\n#homeorganization #organizedhome #amazonfinds #homefinds",
+    "status": "ready",
+    "source": "generate_format_pins",
+    "format": "gift_guide",
+    "asin": "B0DZFGTCLR",
+    "queued_at": "2026-11-06T11:20:02.415684+00:00"
+  },
+  {
     "name": "reel_2026-05-26_001",
     "status": "awaiting_video",
     "script_path": "automation/scripts/reel-2026-05-26-001.json",
