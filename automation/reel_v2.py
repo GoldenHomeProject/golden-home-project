@@ -139,7 +139,9 @@ def write_script(fmt: str, strict: bool = True) -> dict | None:
         + " | ".join(bank) + '>", "space": "<the room or spot, 1-3 words>", '
         '"items": [{"i": <index>, "type": "<generic item, 2-4 words, Title Case; keep a word for '
         'its distinctive look if the title has one, e.g. Rainbow Window Film, Velvet Hangers>", '
-        '"benefit": "<one benefit from THAT title only, 3-7 words, no digits unless in the title>", '
+        '"benefit": "<what it does for the buyer in plain words, 3-6 words, from facts in THAT title '
+        'only, e.g. sponge, brush and soap in one spot / warm glow for any room; not spec-sheet '
+        'wording, no speed/durability/result claims the title does not make, no digits unless in the title>", '
         '"problem_query": "<2-4 word stock-video search for the messy/problem moment, no people>", '
         '"solution_query": "<2-4 word stock-video search that would show THIS kind of product or it in use>"}]}\n'
         "Rules: every item must directly fix the exact problem the hook shows in that space, "
@@ -202,7 +204,7 @@ def _promise(fmt: str, items: list) -> str:
     return spec["promise"].format(n=len(items), band=amt).replace("under  ", "").strip()
 
 
-def _taken_keywords(days: int = 60) -> set:
+def _taken_keywords(days: int = 60, fmt: str = "") -> set:
     """Keywords the comment-reply bot already answers: registry (one product each) and
     reel keywords from the last `days` (each answers with that reel's own page)."""
     taken = set()
@@ -215,7 +217,9 @@ def _taken_keywords(days: int = 60) -> set:
     try:
         # every rendered reel holds its keyword: two test reels both took KITCHEN on 11/06
         # and the second overwrote the first one's /r/kitchen page (wrong products)
-        taken |= {k for k, e in json.loads(FUNNEL.read_text()).items() if e.get("date", "") >= cut}
+        # ...except an unposted test of the SAME format: a re-render replaces it (and its page)
+        taken |= {k for k, e in json.loads(FUNNEL.read_text()).items() if e.get("date", "") >= cut
+                  and (e.get("posted") or e.get("format") != fmt)}
     except (OSError, ValueError):
         pass
     return taken
@@ -225,7 +229,7 @@ def _unique_keyword(kws, space: str, fmt: str, types: list | None = None) -> str
     """One word per reel, so a comment gets exactly this reel's links. 2026-11-06: test
     reels said "Comment LINKS" (no bot answers it) and "CLOTHES" (answered with an
     unrelated product) - a dead funnel."""
-    taken = _taken_keywords()
+    taken = _taken_keywords(fmt=fmt)
     kws = [kws] if isinstance(kws, str) else list(kws or [])
     kw = kws[0] if kws else ""
     words = (kws + space.split()[::-1] + [{"gift": "GIFTS", "renter": "RENTER"}.get(fmt, "")]
@@ -433,7 +437,9 @@ def _judge_kinds(sheet: Path, kinds: list, space: str) -> dict:
               + "\n".join(f"{i}: {k}" for i, k in enumerate(kinds)) +
               "\nThe object itself must be clearly visible and recognizable in most frames (a room "
               "it could belong in is NOT enough), and its colour/material must not contradict the "
-              "name (gold tinsel is not silver tinsel; a plain tree is not a birch tree lamp)."
+              "listing: colour, pattern, style and design must match (gold tinsel is not silver "
+              "tinsel; frosted film is not a rainbow stained-glass film). The product must be the "
+              "main subject, not a small or blurry part of the frame."
               "\nReply ONLY JSON: {\"shows\": <index of the ONE kind the clip clearly shows "
               "(that kind of object, or one being used), or -1 if none>, "
               "\"face_visible\": true/false (a person's face is clearly visible), "
@@ -477,7 +483,8 @@ def match_footage(items: list, space: str, n: int, work: Path, budget: int = 22)
                 per_q += 1
                 judged += 1
                 open_idx = [j for j in range(len(items)) if j not in got]
-                d = _judge_kinds(sheet, [items[j]["type"].lower() for j in open_idx], space)
+                d = _judge_kinds(sheet, [f"{items[j]['type'].lower()} (listing: {items[j]['name'][:90]})"
+                                         for j in open_idx], space)
                 k = d.get("shows")
                 ok = (isinstance(k, int) and 0 <= k < len(open_idx) and d.get("face_visible") is False
                       and d.get("text_visible") is False and not d.get("nsfw")
@@ -671,6 +678,12 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
             stops.add(acc)
         if acc != len(ws):
             stops = set()               # TTS split words differently; fall back to length only
+        if sg["kind"] == "item":
+            # Marketing 11/06: the card already says name + price; the caption is the benefit
+            sl = sorted(stops)
+            skip = sl[1] if len(sl) > 2 else len(ws)
+            ws = ws[skip:]
+            stops = {x - skip for x in stops if x > skip}
         lines, cur = [], []
         for k, w in enumerate(ws):
             cur.append(w)
@@ -737,8 +750,8 @@ def build(s: dict, out_path: Path, work: Path) -> Path:
         hook_clip = (find_clip(["wrapping gifts", "christmas gifts", "gift box"] if gift
                                else [f"cozy {space}", f"{space} interior", "home interior"],
                                "hands wrapping gifts or wrapped gifts, warm and inviting" if gift
-                               else f"an attractive, real {space}", work, need=5.0)
-                     or (clip_for[s["items"][0]["asin"]] if s["format"] == "makes_sense" else None))
+                               else f"a real, lived-in {space} (ordinary or a bit cluttered; not a "
+                               "staged showroom and not a close-up of a product)", work, need=5.0))
         if not hook_clip:
             # opening on product 1's clip held one shot ~9 s (before_after 11/06); only the
             # rapid-fire format can afford it. Others retry with a fresh script.
@@ -773,7 +786,8 @@ def build(s: dict, out_path: Path, work: Path) -> Path:
     trans = []
     for i, sg in enumerate(segs[:-1]):
         nxt = segs[i + 1]
-        trans.append(("fade", 0.04) if nxt["kind"] == "promise" else ("fade", 0.25))
+        # 0.12 s (~4 frames): 0.25 s dissolves showed double exposures (Marketing 11/06)
+        trans.append(("fade", 0.04) if nxt["kind"] == "promise" else ("fade", 0.12))
     vids = [segment_video(sg, sg["clips"], work, i, trans[i][1] if i < len(trans) else 0.0)
             for i, sg in enumerate(segs)]
     # join with xfade at the exact spoken boundaries
@@ -808,9 +822,10 @@ def build(s: dict, out_path: Path, work: Path) -> Path:
             continue
         t0, t1 = sg["start"], sg["start"] + sg["dur"]
         ov_in += ["-loop", "1", "-t", f"{t1 + 0.5:.2f}", "-i", str(png)]
-        fo = max(t0 + 0.3, t1 - 0.2)
-        ov_fc.append(f"[{k}:v]format=rgba,fade=in:st={t0:.2f}:d=0.25:alpha=1,"
-                     f"fade=out:st={fo:.2f}:d=0.2:alpha=1[o{k}]")
+        t0 += 0.12                       # after the cut has landed
+        fo = max(t0 + 0.3, t1 - 0.15)    # gone before the next transition starts
+        ov_fc.append(f"[{k}:v]format=rgba,fade=in:st={t0:.2f}:d=0.15:alpha=1,"
+                     f"fade=out:st={fo:.2f}:d=0.15:alpha=1[o{k}]")
         ov_fc.append(f"{last}[o{k}]overlay=0:0:enable='between(t,{t0:.2f},{t1:.2f})'[v{k}]")
         last, k = f"[v{k}]", k + 1
     ov_fc.append(f"{last}ass={ass}[vout]")
