@@ -211,7 +211,10 @@ def rewrite_benefits(items: list) -> None:
                        "unless in the title, no '$'. Reply ONLY JSON: {\"benefits\": [\"...\"]}")
     for i, b in zip(items, (got or {}).get("benefits") or []):
         allowed = set(re.findall(r"\d+", i["name"]))
+        claims = set(re.findall(r"\b(longer|faster|seconds?|instantly|never|lasts?|forever|"
+                                r"durable|guaranteed|best|perfect|fresh(?:er)?)\b", b.lower()))
         if (b and "$" not in b and not fabrication_match(b) and len(b.split()) <= 7
+                and not (claims - set(re.findall(r"\w+", i["name"].lower())))
                 and all(n in allowed for n in re.findall(r"\d+", b))):
             i["benefit"] = b.strip().rstrip(".")
 
