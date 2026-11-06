@@ -369,9 +369,10 @@ def find_clip(queries, visual: str, work: Path, need: float = 2.6, cap: int = 10
                 continue
             judged += 1
             judged_total += 1
-            d = rp._judge_scene(vp, sheet, visual)
+            d = _judge_shot(sheet, visual)
             note = str(d.get("note") or "").lower()
-            ok = (d.get("fits") and d.get("face_visible") is False and int(d.get("score") or 0) >= 7
+            ok = (d.get("fits") and d.get("face_visible") is False and d.get("text_visible") is False
+                  and not d.get("nsfw") and int(d.get("score") or 0) >= 7
                   and not re.search(r"\breject|(?<!no )visible (brand|logo|label|text)|brand (label|name)s? "
                                     r"(is |are )?visible|readable (brand|label|text)", note))
             print(f"    clip {vid} ({q!r}): {'OK' if ok else 'reject'} — {str(d.get('note'))[:50]}")
@@ -382,6 +383,33 @@ def find_clip(queries, visual: str, work: Path, need: float = 2.6, cap: int = 10
                 vp._mark_used(vid)
                 return hd
     return None
+
+
+def _ask_json(prompt: str) -> dict:
+    try:
+        from _claude_api import _load_token_file
+        _load_token_file()
+    except Exception:
+        pass
+    try:
+        out = subprocess.run(["claude", "-p", "--allowedTools", "Read", "--max-turns", "3"],
+                             input=prompt, capture_output=True, text=True, timeout=150).stdout
+        m = re.search(r"\{.*\}", out, re.S)
+        return json.loads(m.group()) if m else {}
+    except Exception as e:  # noqa: BLE001
+        return {"note": f"check failed: {e}"}
+
+
+def _judge_shot(sheet: Path, visual: str) -> dict:
+    """Scene shots (hook / after): same structured flags as product shots. rp._judge_scene
+    has no text flag; a candle with a readable "TUSCANY" label opened the 11/06 gift reel."""
+    return _ask_json(
+        f"Read the image file {sheet}: three frames (start, middle, end) of a stock clip. "
+        f"Wanted shot: {visual}\nReply ONLY JSON: {{\"fits\": true/false (the clip shows that "
+        "shot in most frames), \"face_visible\": true/false (a person's face is clearly "
+        "visible), \"text_visible\": true/false (readable brand names, labels, logos or "
+        "on-screen text anywhere, including product labels and screens), \"nsfw\": true/false, "
+        "\"score\": 1-10 appeal as an Instagram home reel shot, \"note\": \"<10 words>\"}}")
 
 
 def _judge_kinds(sheet: Path, kinds: list, space: str) -> dict:
