@@ -65,7 +65,7 @@ jobs:
           # added later.
           shopt -s nullglob
           for f in *.html; do cp "$f" _site/; done
-          for p in blog assets images products sitemap.xml robots.txt CNAME .nojekyll; do
+          for p in blog r assets images products sitemap.xml robots.txt CNAME .nojekyll; do
             [ -e "$p" ] && cp -r "$p" _site/ || true
           done
           # Small, permanently referenced media.

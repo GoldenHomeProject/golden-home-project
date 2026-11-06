@@ -6,8 +6,12 @@ trending videos that go viral and sell product". v2 looks native, not branded:
   * word-by-word karaoke captions (edge-tts word boundaries), white Montserrat ExtraBold with
     a black stroke, the current word in Coral; no boxes, no gold
   * hook in the first 1.2 s, a promise, 3 items (~5 s each), CTA + loop, 15-22 s total
-  * a cut every 0.8-1.8 s, 106->100% punch-in per cut, a whip between items
-  * one grade across all stock, music ducked under Ava (+10% rate)
+  * smooth, not choppy (Ian 11/06): one continuous shot per beat, no zoom pulses, 24/25 fps
+    stock conformed instead of frame-duplicated, a 0.25 s dissolve between beats
+  * every product shot shows that kind of product; picks without matching footage drop out
+  * one keyword per reel -> goldenhomeproject.com/r/<keyword> with exactly the reel's
+    products (ghpig-20), answered by pi/dm-funnel/dm-funnel.py
+  * one grade across all stock, music ducked under Ava (+12% rate)
   * item cards: type + price-band chip + one benefit from the listing title (no product photo:
     Amazon product images can't be used off Amazon)
 
@@ -44,6 +48,10 @@ FXB = "/usr/share/fonts/truetype/montserrat/Montserrat-ExtraBold.ttf"
 FSB = "/usr/share/fonts/truetype/montserrat/Montserrat-SemiBold.ttf"
 VOICE, RATE = "en-US-AvaNeural", "+12%"
 HOOK_LEDGER = ROOT / "social" / "reel_v2_hooks.json"
+FUNNEL = ROOT / "social" / "reel_funnel.json"      # keyword -> this reel's products (dm-funnel.py)
+PAGES = ROOT / "r"                                  # goldenhomeproject.com/r/<keyword>
+SITE = "https://goldenhomeproject.com"
+IG_TAG = "ghpig-20"                                 # Instagram's Associates tracking ID
 
 HOOK_BANK = ["If your sink cabinet looks like this…", "Stop stacking your pans like this.",
              "Renters, you need these.", "POV: your closet finally works.",
@@ -51,16 +59,16 @@ HOOK_BANK = ["If your sink cabinet looks like this…", "Stop stacking your pans
              "Things that just make sense for a tiny kitchen.", "Your entryway is doing too much."]
 
 FORMATS = {
-    "fixes3": dict(n=3, promise="{n} fixes under {band}", ask="3 complementary items that fix "
+    "fixes3": dict(n=3, promise="{n} fixes under {band}", ask="complementary items that fix "
                    "one messy space together"),
-    "before_after": dict(n=3, promise="Before and after, under {band}", ask="3 items that take "
+    "before_after": dict(n=3, promise="Before and after, under {band}", ask="items that take "
                          "ONE space from messy to organized"),
-    "makes_sense": dict(n=4, promise="Things that just make sense", ask="4 clever, "
+    "makes_sense": dict(n=4, promise="Things that just make sense", ask="clever, "
                         "everyday-useful items for one room"),
-    "renter": dict(n=3, promise="Renters, save this", ask="3 renter-friendly items (no drilling, "
+    "renter": dict(n=3, promise="Renters, save this", ask="renter-friendly items (no drilling, "
                    "adhesive, over-the-door, tension or freestanding)"),
-    "gift": dict(n=3, promise="Gifts under {band} they'll actually use", ask="3 giftable items"),
-    "stop_doing": dict(n=3, promise="Stop doing this", ask="3 items that each replace a common "
+    "gift": dict(n=3, promise="Gifts under {band} they'll actually use", ask="giftable items"),
+    "stop_doing": dict(n=3, promise="Stop doing this", ask="items that each replace a common "
                        "bad habit in one room"),
 }
 
@@ -109,7 +117,7 @@ def candidates(fmt: str) -> list[dict]:
     return by[random.choice(cats)][:12] if cats else items[:12]
 
 
-def write_script(fmt: str) -> dict | None:
+def write_script(fmt: str, strict: bool = True) -> dict | None:
     spec = FORMATS[fmt]
     cand = candidates(fmt)
     if len(cand) < spec["n"]:
@@ -120,55 +128,158 @@ def write_script(fmt: str) -> dict | None:
     lst = "\n".join(f"{i}: {c['name']}" for i, c in enumerate(cand))
     got = _claude_json(
         f"Best-selling Amazon products:\n{lst}\n\nWrite a 15-20 second vertical-video script. "
-        f"Format: {fmt}. Pick {spec['ask']} (exactly {spec['n']}). Reply ONLY JSON:\n"
-        '{"hook": "<scene-first, second person, under 12 words, NO digits; you may adapt one of: '
+        f"Format: {fmt}. Pick {spec['ask']}: rank up to {spec['n'] + 3}, best first (only the "
+        f"first {spec['n']} that have matching stock footage are used). Reply ONLY JSON:\n"
+        '{"keyword": "<ONE everyday word, 4-8 letters, naming the space or theme, e.g. SHOWER>", '
+        '"hook": "<scene-first, second person, under 12 words, NO digits; you may adapt one of: '
         + " | ".join(bank) + '>", "space": "<the room or spot, 1-3 words>", '
-        '"items": [{"i": <index>, "type": "<generic item, 2-4 words, Title Case>", '
+        '"items": [{"i": <index>, "type": "<generic item, 2-4 words, Title Case; keep a word for '
+        'its distinctive look if the title has one, e.g. Rainbow Window Film, Velvet Hangers>", '
         '"benefit": "<one benefit from THAT title only, 3-7 words, no digits unless in the title>", '
         '"problem_query": "<2-4 word stock-video search for the messy/problem moment, no people>", '
-        '"solution_query": "<2-4 word stock-video search for the organized/solved result>"}]}\n'
+        '"solution_query": "<2-4 word stock-video search that would show THIS kind of product or it in use>"}]}\n'
         "Rules: every item must directly fix the exact problem the hook shows in that space, "
         "and no two items may be the same kind of product (no two towels, no two bins). "
+        f"Return {spec['n'] + 3} items (at least {spec['n'] + 2}) if the list allows. The video uses real stock footage of each "
+        "kind of product, so prefer items that are commonly filmed (hangers, baskets, bins, "
+        "jars, towels, blankets, mugs, candles, lamps, plants, rugs, pillows, organizers on a "
+        "shelf) over parts rarely filmed (rods, brackets, squeegees, hooks, adapters). "
         "No first person, no claims beyond the titles, no prices or '$'.")
-    if not got or len(got.get("items") or []) != spec["n"]:
+    if not got or len(got.get("items") or []) < spec["n"]:
         return None
-    items = []
+    items, seen = [], set()
     for x in got["items"]:
         try:
             c = cand[int(x["i"])]
         except (KeyError, ValueError, IndexError):
-            return None
+            continue
         allowed = set(re.findall(r"\d+", c["name"]))
         txt = f"{x.get('type', '')} {x.get('benefit', '')}"
-        if "$" in txt or fabrication_match(txt) or any(n not in allowed for n in re.findall(r"\d+", txt)):
-            print(f"  [v2] rejected item text: {txt}")
-            return None
-        items.append({**x, "asin": c["asin"], "name": c["name"],
-                      "band": price_band(str(c.get("price") or ""))})
+        if ("$" in txt or fabrication_match(txt) or c["asin"] in seen
+                or any(n not in allowed for n in re.findall(r"\d+", txt))):
+            print(f"  [v2] skipped item text: {txt}")
+            continue
+        seen.add(c["asin"])
+        items.append({**x, "asin": c["asin"], "name": c["name"], "rating": c.get("rating"),
+                      "reviews": c.get("reviews"), "chart_rank": c.get("rank"),
+                      "price": c.get("price"), "band": price_band(str(c.get("price") or ""))})
+    # more ranked picks than slots: footage decides which ones make it (match_footage)
+    if len(items) < spec["n"] + (2 if strict else 0):
+        print(f"  [v2] only {len(items)} usable picks ranked")
+        return None
+    # Ian 11/06: only trending products we sell. Every pick must be on today's chart scan
+    # (gift reels: on a gift-guide page, which is itself built from the chart + vetted list).
+    ok = ({i["asin"] for i in pp.chart_now()} if fmt != "gift"
+          else {p["asin"] for g in json.loads((ROOT / "social" / "gift_guides.json").read_text()).values()
+                for p in g["picks"]})
+    if any(i["asin"] not in ok for i in items):
+        print("  [v2] a pick is not on today's chart - rejected")
+        return None
     hook = got.get("hook", "").strip()
     if re.search(r"\d", hook) or len(hook.split()) > 12 or fabrication_match(hook):
         print(f"  [v2] rejected hook: {hook}")
         return None
-    prices = [float(re.sub(r"[^\d.]", "", str(c.get("price") or "0")) or 0) for c in
-              (cand[int(x["i"])] for x in got["items"])]
-    band = price_band(f"${max(prices):.2f}") if prices else ""
-    amt = (re.search(r"\$\d+", band) or [""])[0] if band else ""
-    promise = spec["promise"].format(n=spec["n"], band=amt).replace("under  ", "").strip()
-    kw = _keyword_for(items[0]["asin"])
+    promise = _promise(fmt, items[:spec["n"]])
+    kw = _unique_keyword(got.get("keyword", ""), got.get("space", ""), fmt)
     return {"format": fmt, "hook": hook, "promise": promise, "space": got.get("space", ""),
             "items": items, "keyword": kw}
 
 
-def _keyword_for(asin: str) -> str:
-    """The comment-reply funnel answers registry keywords; reuse the first item's."""
+def _promise(fmt: str, items: list) -> str:
+    """Price band of the dearest pick that made the reel (band only, never exact)."""
+    spec = FORMATS[fmt]
+    prices = [float(re.sub(r"[^\d.]", "", str(i.get("price") or "0")) or 0) for i in items]
+    band = price_band(f"${max(prices):.2f}") if prices else ""
+    amt = (re.search(r"\$\d+", band) or [""])[0] if band else ""
+    return spec["promise"].format(n=len(items), band=amt).replace("under  ", "").strip()
+
+
+def _taken_keywords(days: int = 60) -> set:
+    """Keywords the comment-reply bot already answers: registry (one product each) and
+    reel keywords from the last `days` (each answers with that reel's own page)."""
+    taken = set()
     try:
         reg = json.loads((ROOT / "social" / "dm_keyword_registry.json").read_text())
-        for e in reg.get("entries", []):
-            if e.get("asin") == asin and e.get("keyword"):
-                return e["keyword"].upper()
+        taken |= {str(e.get("keyword") or "").upper() for e in reg.get("entries", [])}
     except (OSError, ValueError):
         pass
-    return "LINKS"
+    cut = (datetime.now() - timedelta(days=days)).strftime("%Y-%m-%d")
+    try:
+        taken |= {k for k, e in json.loads(FUNNEL.read_text()).items() if e.get("date", "") >= cut}
+    except (OSError, ValueError):
+        pass
+    return taken
+
+
+def _unique_keyword(kw: str, space: str, fmt: str) -> str:
+    """One word per reel, so a comment gets exactly this reel's links. 2026-11-06: test
+    reels said "Comment LINKS" (no bot answers it) and "CLOTHES" (answered with an
+    unrelated product) - a dead funnel."""
+    taken = _taken_keywords()
+    words = [kw] + space.split()[::-1] + [{"gift": "GIFTS", "renter": "RENTER"}.get(fmt, "")]
+    for w in words:
+        w = re.sub(r"[^A-Za-z]", "", w or "").upper()
+        if 4 <= len(w) <= 9 and w not in taken:
+            return w
+    base = re.sub(r"[^A-Za-z]", "", kw or space or "HOME").upper()[:7] or "HOME"
+    for suffix in "SXYZ":
+        if base + suffix not in taken:
+            return base + suffix
+    return base + datetime.now().strftime("%d")
+
+
+def publish_links(s: dict, reel: str) -> str:
+    """goldenhomeproject.com/r/<keyword>: exactly this reel's products, Instagram-tagged,
+    plus the funnel entry the comment-reply bot answers. Returns the page URL."""
+    import html
+    kw = s["keyword"]
+    slug = kw.lower()
+    PAGES.mkdir(exist_ok=True)
+    head = (ROOT / "blog" / "posts" / "best-bathroom-essentials.html").read_text().split("<body>")[0]
+    title = f"{s['promise'].rstrip('.')}: the picks from our video"
+    url = f"{SITE}/r/{slug}"
+    head = re.sub(r"<title>.*?</title>", f"<title>{html.escape(title)} | Golden Home Project</title>",
+                  head, flags=re.S)
+    head = re.sub(r'(<link rel="canonical" href=")[^"]*', lambda m: m.group(1) + url, head)
+    head = re.sub(r'(<meta property="og:title" content=")[^"]*', lambda m: m.group(1) + html.escape(title), head)
+    head = re.sub(r'(<meta property="og:url" content=")[^"]*', lambda m: m.group(1) + url, head)
+    head = head.replace("<head>", '<head>\n  <meta name="robots" content="noindex">', 1)
+    sub = f"reel_{slug}_{datetime.now():%Y%m%d}"
+    cards = []
+    for n, it in enumerate(s["items"], 1):
+        facts = " &middot; ".join(x for x in (
+            f"{it['rating']}&#9733;" if it.get("rating") else "",
+            f"{int(it['reviews']):,}+ ratings" if it.get("reviews") else "",
+            html.escape(it["band"].lower())) if x)
+        cards.append(f"""    <div class="product-card">
+      <span class="pick-badge">{n}. {html.escape(it['type'])}</span>
+      <div class="product-name">{html.escape(it['name'])}</div>
+      <div class="product-rating">{facts}</div>
+      <ul class="value-stack"><li>{html.escape(it['benefit'])}</li></ul>
+      <a class="cta" href="https://www.amazon.com/dp/{it['asin']}?tag={IG_TAG}&amp;ascsubtag={sub}" rel="sponsored nofollow noopener" target="_blank">See it on Amazon &rarr;</a>
+    </div>""")
+    (PAGES / f"{slug}.html").write_text(f"""{head}<body>
+<div class="wrap">
+  <h1>{html.escape(title)}</h1>
+  <div class="affiliate-disclosure">As an Amazon Associate, Golden Home Project earns from qualifying purchases. Prices change often; check the live listing.</div>
+  <div class="intro"><p>Every product in the video, in order. Each one is a current Amazon best-seller with thousands of ratings. We have not tested these ourselves; the ratings are the evidence.</p></div>
+  <section class="post-section">
+{chr(10).join(cards)}
+  </section>
+  <a class="back-link" href="/links.html">&larr; More finds from our videos</a>
+</div>
+</body>
+</html>
+""")
+    try:
+        fun = json.loads(FUNNEL.read_text()) if FUNNEL.exists() else {}
+    except ValueError:
+        fun = {}
+    fun[kw] = {"date": datetime.now().strftime("%Y-%m-%d"), "reel": reel, "page": url,
+               "format": s["format"], "posted": False,
+               "items": [{k: it.get(k) for k in ("asin", "type", "band")} for it in s["items"]]}
+    FUNNEL.write_text(json.dumps(fun, indent=1))
+    return url
 
 
 def segments(s: dict) -> list[dict]:
@@ -234,16 +345,18 @@ def voice(segs: list, work: Path) -> Path:
 
 
 # ------------------------------------------------------------------ footage
-def find_clip(queries, visual: str, work: Path, need: float = 2.6) -> Path | None:
+def find_clip(queries, visual: str, work: Path, need: float = 2.6, cap: int = 10) -> Path | None:
     """Specific search first, then broader ones (stock libraries rarely have the exact
     micro-moment: "stained bare mattress" found nothing usable on 2026-11-06)."""
     if isinstance(queries, str):
         queries = [queries]
     judged_total = 0
+    visual += ". Reject it if readable brand names, logos or on-screen text are visible."
     for q in dict.fromkeys(q for q in queries if q):
         judged = 0
-        for v in vp._search(q):
-            if judged >= 3 or judged_total >= 10:
+        # 30/60 fps first: they play with no conform at all (24/25 fps get sped up 1.2x)
+        for v in sorted(vp._search(q), key=lambda v: 0 if _native30(v) else 1):
+            if judged >= 3 or judged_total >= cap:
                 break
             vid = v.get("id")
             if (vid in vp._used() or vid in rp._SEEN_THIS_REEL or float(v.get("duration") or 0) < need
@@ -257,7 +370,10 @@ def find_clip(queries, visual: str, work: Path, need: float = 2.6) -> Path | Non
             judged += 1
             judged_total += 1
             d = rp._judge_scene(vp, sheet, visual)
-            ok = d.get("fits") and d.get("face_visible") is False and int(d.get("score") or 0) >= 7
+            note = str(d.get("note") or "").lower()
+            ok = (d.get("fits") and d.get("face_visible") is False and int(d.get("score") or 0) >= 7
+                  and not re.search(r"\breject|(?<!no )visible (brand|logo|label|text)|brand (label|name)s? "
+                                    r"(is |are )?visible|readable (brand|label|text)", note))
             print(f"    clip {vid} ({q!r}): {'OK' if ok else 'reject'} — {str(d.get('note'))[:50]}")
             if not ok:
                 continue
@@ -268,35 +384,149 @@ def find_clip(queries, visual: str, work: Path, need: float = 2.6) -> Path | Non
     return None
 
 
+def _judge_kinds(sheet: Path, kinds: list, space: str) -> dict:
+    """One look per clip, answered against every still-unfilled product kind: a sheer
+    curtain clip rejected for "blackout curtains" is exactly what "sheer curtains" needs."""
+    prompt = (f"Read the image file {sheet}: three frames (start, middle, end) of a stock clip "
+              f"for a home-products reel set in a {space}.\nProduct kinds:\n"
+              + "\n".join(f"{i}: {k}" for i, k in enumerate(kinds)) +
+              "\nReply ONLY JSON: {\"shows\": <index of the ONE kind the clip clearly shows "
+              "(that kind of object, or one being used) in most frames, or -1 if none>, "
+              "\"face_visible\": true/false (a person's face is clearly visible), "
+              "\"text_visible\": true/false (readable brand names, logos or on-screen text), "
+              "\"nsfw\": true/false (nudity, underwear, suggestive), "
+              "\"score\": 1-10 appeal as an Instagram home reel shot, \"note\": \"<10 words>\"}")
+    try:
+        from _claude_api import _load_token_file
+        _load_token_file()
+    except Exception:
+        pass
+    try:
+        out = subprocess.run(["claude", "-p", "--allowedTools", "Read", "--max-turns", "3"],
+                             input=prompt, capture_output=True, text=True, timeout=150).stdout
+        m = re.search(r"\{.*\}", out, re.S)
+        return json.loads(m.group()) if m else {}
+    except Exception as e:  # noqa: BLE001
+        return {"note": f"check failed: {e}"}
+
+
+def match_footage(items: list, space: str, n: int, work: Path, budget: int = 22) -> dict:
+    """Ranked picks -> {index: clip} for the picks real stock footage actually shows."""
+    got, judged = {}, 0
+    for idx, it in enumerate(items):
+        if len(got) >= n or judged >= budget:
+            break
+        for q in dict.fromkeys([it["solution_query"], it["type"].lower()]):
+            per_q = 0
+            for v in sorted(vp._search(q), key=lambda v: 0 if _native30(v) else 1):
+                if idx in got or per_q >= 3 or judged >= budget:
+                    break
+                vid = v.get("id")
+                if (vid in vp._used() or vid in rp._SEEN_THIS_REEL or float(v.get("duration") or 0) < 4.5
+                        or vp._slug_words(v) & set(vp.UNSAFE) or not vp._best_file(v)):
+                    continue
+                rp._SEEN_THIS_REEL.add(vid)
+                lo, sheet = work / f"v{vid}-lo.mp4", work / f"v{vid}-sheet.jpg"
+                small = vp._small_file(v)
+                if not small or not vp._get(small, lo) or not vp._contact_sheet(lo, 4.5, sheet):
+                    continue
+                per_q += 1
+                judged += 1
+                open_idx = [j for j in range(len(items)) if j not in got]
+                d = _judge_kinds(sheet, [items[j]["type"].lower() for j in open_idx], space)
+                k = d.get("shows")
+                ok = (isinstance(k, int) and 0 <= k < len(open_idx) and d.get("face_visible") is False
+                      and d.get("text_visible") is False and not d.get("nsfw")
+                      and int(d.get("score") or 0) >= 6)     # relevance first; 6 = a fine shot
+                who = items[open_idx[k]]["type"] if ok else "-"
+                print(f"    clip {vid} ({q!r}): {'-> ' + who if ok else 'reject'} — {str(d.get('note'))[:50]}")
+                if ok:
+                    hd = work / f"v{vid}.mp4"
+                    # one retry: a TLS timeout lost a matched clip on 11/06
+                    if vp._get(vp._best_file(v), hd) or vp._get(vp._best_file(v), hd):
+                        vp._mark_used(vid)
+                        got[open_idx[k]] = hd
+            if idx in got:
+                break
+    return got
+
+
+def _native30(v: dict) -> bool:
+    fps = [f.get("fps") or 0 for f in v.get("video_files") or [] if f.get("fps")]
+    return bool(fps) and any(abs(x - 30) < 1 or abs(x - 60) < 1.5 for x in fps)
+
+
 GRADE = ("eq=contrast=1.08:saturation=1.06:brightness=0.0,"
          "colorbalance=rs=0.03:gs=0.01:bs=-0.03:rm=0.02:bm=-0.02")
 
 
-def shot(src: Path, start: float, dur: float, out: Path) -> Path:
-    """One cut: crop to 9:16, 106->100% punch-in over 0.4 s, the shared grade."""
-    frames = 12
-    vf = (f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps=30,"
-          f"zoompan=z='if(lt(on,{frames}),1.06-0.06*on/{frames},1)':d=1:"
-          f"x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s={W}x{H}:fps=30,{GRADE},scale=out_range=tv,format=yuv420p")
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{start:.2f}", "-t", f"{dur:.2f}",
-                    "-i", str(src), "-vf", vf, "-an", "-r", "30", "-c:v", "libx264", "-preset",
-                    "veryfast", "-crf", "20", "-color_range", "tv", str(out)], check=True)
+def _fps(p: Path) -> float:
+    r = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v", "-show_entries",
+                        "stream=r_frame_rate", "-of", "csv=p=0", str(p)], capture_output=True, text=True)
+    try:
+        a, b = (r.stdout.strip() or "30/1").split("/")
+        return float(a) / float(b)
+    except ValueError:
+        return 30.0
+
+
+def _conform(src: Path) -> tuple[str, float]:
+    """Filter that plays every source frame once at 30 fps, and the speed it implies.
+    Ian 2026-11-06, v2 renter: "the video seems choppy". Half of Pexels is 24/25 fps;
+    fps=30 duplicated every 5th frame (judder). 50/60 fps halve cleanly; 24/25 fps
+    are conformed (played 1.2-1.25x) instead of padded with repeated frames."""
+    r = _fps(src)
+    pre = ""
+    if r > 40:
+        pre, r = f"fps={r / 2:.3f}:round=near,", r / 2
+    speed = 30.0 / r if abs(r - 30) > 0.5 else 1.0
+    return pre + (f"setpts=PTS/{speed:.4f}," if speed != 1.0 else ""), speed
+
+
+def shot(src: Path, start: float, dur: float, out: Path, speed: float | None = None) -> Path:
+    """One continuous cut: crop to 9:16, the shared grade, no zoom (the 106->100% punch-in
+    on every cut read as the picture jumping in and out). `speed` < 1 slows a clip that is
+    too short (smooth slow motion beats a freeze); tpad only guards the frame count."""
+    pre, native = _conform(src)
+    speed = speed or native
+    if speed != native:
+        pre = pre.split("setpts")[0] + f"setpts=PTS/{speed:.4f},"
+    vf = (f"{pre}scale={W}:{H}:force_original_aspect_ratio=increase:flags=lanczos,crop={W}:{H},"
+          f"fps=30,{GRADE},scale=out_range=tv,format=yuv420p,tpad=stop_mode=clone:stop_duration=1")
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{start:.2f}", "-t",
+                    f"{dur * speed + 0.1:.2f}", "-i", str(src), "-vf", vf, "-an", "-t", f"{dur:.3f}",
+                    "-r", "30", "-c:v", "libx264", "-preset", "veryfast", "-crf", "18",
+                    "-color_range", "tv", str(out)], check=True)
     return out
 
 
+_CURSOR: dict = {}          # clip -> next unused source second, so a reused clip moves on
+
+
 def segment_video(sg: dict, clips: list[Path], work: Path, idx: int, tail: float) -> Path:
-    """Cut the segment into 0.8-1.8 s shots across its clips; pad `tail` for the transition."""
-    # +0.2 s spare: shots round down to whole frames, and an xfade whose first input is even
-    # one frame short of offset+duration silently drops the rest (fixes3 froze its CTA 11/06)
+    """One continuous shot per clip (problem, then solution on the benefit line); never
+    ping-pong between clips. Pad `tail` for the dissolve into the next beat."""
+    # +0.2 s spare: an xfade whose first input is one frame short drops the rest
     total = sg["dur"] + tail + 0.2
-    n = max(len(clips), math.ceil(total / 1.6))
-    each = total / n
+    if len(clips) == 2 and sg.get("split"):
+        lens = [sg["split"], total - sg["split"]]
+    else:
+        clips = clips[:1]
+        lens = [total]
     shots = []
-    for k in range(n):
-        c = clips[k % len(clips)]
+    for k, (c, ln) in enumerate(zip(clips, lens)):
+        speed = _conform(c)[1]
         cd = _dur(c)
-        st = min(max(0.2, (k // len(clips)) * each * 1.1 + 0.3), max(0.0, cd - each - 0.1))
-        shots.append(shot(c, st, each, work / f"s{idx}_{k}.mp4"))
+        st = _CURSOR.get(c, 0.3)
+        if st + ln * speed > cd - 0.1:
+            st = max(0.0, min(0.3, cd - ln * speed - 0.1))
+        if st + ln * speed > cd - 0.1:            # clip shorter than the beat: slow it down
+            speed = max(0.5, (cd - st - 0.1) / ln)
+        # advance by what is SEEN (not the transition padding), so the same clip continues
+        # seamlessly in the next beat (hook -> promise)
+        seen = ln - (tail + 0.2 if k == len(lens) - 1 else 0.0)
+        _CURSOR[c] = st + seen * speed
+        shots.append(shot(c, st, ln, work / f"s{idx}_{k}.mp4", speed))
     lst = work / f"seg{idx}.txt"
     lst.write_text("".join(f"file '{s}'\n" for s in shots))
     out = work / f"seg{idx}.mp4"
@@ -350,7 +580,7 @@ def cta_card(kw: str, out: Path) -> Path:
         d.text(((W - SAFE_RIGHT + 60 - tw) / 2, cy), txt, font=big, fill=fill,
                stroke_width=8, stroke_fill=(0, 0, 0))
         cy += 118
-    s = "or shop at goldenhomeproject.com"
+    s = f"or goldenhomeproject.com/r/{kw.lower()}"
     d.text(((W - SAFE_RIGHT + 60 - d.textlength(s, font=small)) / 2, cy + 30), s, font=small,
            fill=(255, 255, 255), stroke_width=5, stroke_fill=(0, 0, 0))
     w = "golden home"
@@ -414,7 +644,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
                 for wj, (_, _, w2) in enumerate(line):
                     w2 = w2.replace("{", "").replace("}", "")
                     if wj == wi:
-                        parts.append("{\\c&H4E5AFF&\\fscx85\\fscy85\\t(0,80,\\fscx100\\fscy100)}"
+                        parts.append("{\\c&H4E5AFF&\\fscx94\\fscy94\\t(0,100,\\fscx100\\fscy100)}"
                                      + w2 + "{\\r}")
                     else:
                         parts.append(w2)
@@ -428,43 +658,40 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 def build(s: dict, out_path: Path, work: Path) -> Path:
     work.mkdir(parents=True, exist_ok=True)
     rp._SEEN_THIS_REEL.clear()
+    _CURSOR.clear()
+    space = s.get("space") or "home"
+    n = FORMATS[s["format"]]["n"]
+    # Footage decides which ranked picks make the reel. Ian 11/06: "make sure ... everything
+    # matches". Each product needs a clip that shows that kind of product (or it in use);
+    # stock rarely has e.g. a tension shower rod, so those picks drop out rather than
+    # sitting over an unrelated shot.
+    got = match_footage(s["items"], space, n, work)
+    chosen = [(s["items"][j], got[j]) for j in sorted(got)][:n]
+    for it in s["items"]:
+        print(f"    {'matched' if any(it is c[0] for c in chosen) else 'no footage'}: {it['type']}")
+    if len(chosen) < max(2, n - 1):         # "2 fixes" beats a product over the wrong shot
+        raise RuntimeError(f"only {len(chosen)} of {n} picks have matching footage")
+    s["items"] = [it for it, _ in chosen]
+    s["promise"] = _promise(s["format"], s["items"])
+    clip_for = {it["asin"]: c for it, c in chosen}
+    hook_clip = (find_clip([s["items"][0]["problem_query"], f"messy {space}", f"{space} interior", space],
+                           f"a real {space} that fits this opening line: \"{s['hook']}\" "
+                           "(messy or ordinary is fine; no people in focus)", work, need=5.0)
+                 or clip_for[s["items"][0]["asin"]])
     segs = segments(s)
     vo = voice(segs, work)
-    # footage
-    space = s.get("space") or "home"
-    pq = s["items"][0]["problem_query"]
-    hook_clip = (find_clip([pq], f"{pq} in a {space} (the problem the hook names)", work)
-                 or find_clip([f"messy {space}", f"cluttered {space}", f"{space} interior"],
-                              f"a {space}, ideally lived-in or a bit messy", work)
-                 # fixes3 "shower" 2026-11-06: nothing judged usable; any real room of that kind
-                 or find_clip([i["problem_query"] for i in s["items"][1:]]
-                              + [f"{space}", "home interior", "apartment interior"],
-                              f"any real {space} or home interior, no people in focus", work))
-    if not hook_clip:
-        raise RuntimeError("no usable opening clip")
     for sg in segs:
-        if sg["kind"] == "hook":
-            sg["clips"] = [hook_clip]
-        elif sg["kind"] == "promise":
-            c = find_clip([f"organized {space}", f"clean {space}", f"{space} interior"],
-                          f"a tidy, organized {space}", work)
-            sg["clips"] = [c] if c else [hook_clip]
-        elif sg["kind"] == "item":
-            it = sg["item"]
-            a = find_clip([it["problem_query"], f"messy {space}"],
-                          f"the everyday problem a {it['type'].lower()} solves, in a {space}", work)
-            b = find_clip([it["solution_query"], it["type"].lower(), f"organized {space}"],
-                          f"a {it['type'].lower()} or the tidy result it gives, in a {space}", work)
-            sg["clips"] = [c for c in (a, b) if c] or [hook_clip]
+        if sg["kind"] == "item":
+            sg["clips"] = [clip_for[sg["item"]["asin"]]]   # one continuous, matching shot
         else:
-            sg["clips"] = [hook_clip]          # CTA on the hook clip: the reel loops
+            sg["clips"] = [hook_clip]   # hook -> promise is one shot; CTA returns to it (loop)
     real = sum(1 for sg in segs for c in sg["clips"] if c is not hook_clip) + 1
     print(f"    footage: {real} real clips")
     # per-segment video with transition tails
     trans = []
     for i, sg in enumerate(segs[:-1]):
         nxt = segs[i + 1]
-        trans.append(("slideleft", 0.2) if sg["kind"] == "item" and nxt["kind"] == "item" else ("fade", 0.05))
+        trans.append(("fade", 0.04) if nxt["kind"] == "promise" else ("fade", 0.25))
     vids = [segment_video(sg, sg["clips"], work, i, trans[i][1] if i < len(trans) else 0.0)
             for i, sg in enumerate(segs)]
     # join with xfade at the exact spoken boundaries
@@ -499,9 +726,10 @@ def build(s: dict, out_path: Path, work: Path) -> Path:
             continue
         t0, t1 = sg["start"], sg["start"] + sg["dur"]
         ov_in += ["-loop", "1", "-t", f"{t1 + 0.5:.2f}", "-i", str(png)]
-        ov_fc.append(f"[{k}:v]format=rgba,fade=in:st={t0:.2f}:d=0.18:alpha=1[o{k}]")
-        ov_fc.append(f"{last}[o{k}]overlay=0:'40*max(0,1-(t-{t0:.2f})/0.18)':"
-                     f"enable='between(t,{t0:.2f},{t1:.2f})'[v{k}]")
+        fo = max(t0 + 0.3, t1 - 0.2)
+        ov_fc.append(f"[{k}:v]format=rgba,fade=in:st={t0:.2f}:d=0.25:alpha=1,"
+                     f"fade=out:st={fo:.2f}:d=0.2:alpha=1[o{k}]")
+        ov_fc.append(f"{last}[o{k}]overlay=0:0:enable='between(t,{t0:.2f},{t1:.2f})'[v{k}]")
         last, k = f"[v{k}]", k + 1
     ov_fc.append(f"{last}ass={ass}[vout]")
     # audio: Ava over a ducked music bed
@@ -532,8 +760,8 @@ def main() -> int:
     ap.add_argument("--out", default=str(ROOT / "social" / "reels" / "v2_test"))
     args = ap.parse_args()
     s = None
-    for _ in range(3):
-        s = write_script(args.format)
+    for attempt in range(4):
+        s = write_script(args.format, strict=attempt < 3)
         if s:
             break
     if not s:
@@ -545,6 +773,7 @@ def main() -> int:
     out = Path(args.out) / f"v2-{args.format}-{stamp}.mp4"
     work = Path("/tmp") / f"reelv2-{args.format}-{stamp}"
     build(s, out, work)
+    s["page"] = publish_links(s, out.name)
     (out.with_suffix(".json")).write_text(json.dumps(s, indent=1))
     try:
         led = json.loads(HOOK_LEDGER.read_text()) if HOOK_LEDGER.exists() else []

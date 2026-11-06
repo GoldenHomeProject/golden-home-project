@@ -33,6 +33,9 @@ import urllib.error
 
 ROOT = Path(os.environ.get("GHP_REPO_DIR", str(Path.home() / "golden-home-project")))
 REGISTRY = ROOT / "social" / "dm_keyword_registry.json"
+# v2 reels (reel_v2.py): one keyword per reel -> that reel's own page listing exactly its
+# products (goldenhomeproject.com/r/<keyword>). Checked before the one-product registry.
+REEL_FUNNEL = ROOT / "social" / "reel_funnel.json"
 ENGAGEMENT_LOG = ROOT / "social" / "engagement_log.json"
 TOKENS_FILE = ROOT / "automation" / "logs" / "meta_tokens.json"
 STATE_DIR = Path.home() / ".ghp-dm-funnel"
@@ -137,6 +140,12 @@ def affiliate_url(entry: dict) -> str:
 
 def reply_template(keyword: str, entry: dict) -> str:
     """Public comment reply containing the actual affiliate link + FTC disclosure."""
+    if entry.get("page"):
+        # A v2 reel: every product from the video on one short page (IG comment links are
+        # not tappable, so a short URL people can type beats three long Amazon links).
+        names = ", ".join(i.get("type", "") for i in entry.get("items", []) if i.get("type"))
+        return (f"Here you go! Everything from this video ({names}): {entry['page']} "
+                f"#ad — as an Amazon Associate we earn from qualifying purchases. \U0001f3e1")
     url = affiliate_url(entry)
     name = entry.get("product_name", "the product").split("(")[0].strip()
     return (
@@ -156,6 +165,13 @@ def main() -> int:
         for e in registry.get("entries", [])
         if e.get("status") == "live"
     }
+    try:
+        reel_kw = json.loads(REEL_FUNNEL.read_text()) if REEL_FUNNEL.exists() else {}
+    except ValueError:
+        reel_kw = {}
+    # reel keywords first (dict order = match order below); each is unique per reel
+    live_keywords = {**{k.upper(): e for k, e in reel_kw.items() if e.get("page")},
+                     **{k: e for k, e in live_keywords.items() if k not in reel_kw}}
     if not live_keywords:
         log("No live keywords in registry. Exiting.")
         return 0
@@ -211,7 +227,7 @@ def main() -> int:
                         "from": c.get("username"),
                         "keyword": matched,
                         "asin": entry.get("asin"),
-                        "link": affiliate_url(entry),
+                        "link": entry.get("page") or affiliate_url(entry),
                         "via": "pi/dm-funnel",
                     }
                 )
