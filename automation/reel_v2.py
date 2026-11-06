@@ -682,8 +682,11 @@ def build(s: dict, out_path: Path, work: Path) -> Path:
     s["promise"] = _promise(s["format"], s["items"])
     clip_for = {it["asin"]: c for it, c in chosen}
     hook_clip = (find_clip([s["items"][0]["problem_query"], f"messy {space}", f"{space} interior", space],
-                           f"a real {space} that fits this opening line: \"{s['hook']}\" "
-                           "(messy or ordinary is fine; no people in focus)", work, need=5.0)
+                           f"a real {space} that fits this opening line: \"{s['hook']}\". If the "
+                           "line points at a problem (looks like this, doing too much, stop doing "
+                           "this), the shot must SHOW that problem: messy, cluttered, bare or "
+                           "disorganized. A spotless styled showroom does NOT fit. No people in "
+                           "focus", work, need=5.0)
                  or clip_for[s["items"][0]["asin"]])
     segs = segments(s)
     vo = voice(segs, work)
