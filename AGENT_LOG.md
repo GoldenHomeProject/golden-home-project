@@ -5918,8 +5918,8 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **External actions:** none — 0 emails sent. Cold outreach PAUSED. No inbound on-niche brand deals. Gmail CLEAN confirmed post-Strategy.
 **Next agent hint:** 🚨🚨 SMARTWINGS BF EARLY ACCESS DAY 1 LIVE — 8%/12% active NOW. IAN: build Impact tracking links + brief Content Engine IMMEDIATELY ($16-32/sale, highest urgency today). 🚨🚨 DREAME pre-content window CLOSES NOV 10 = 4 DAYS TERMINAL — build Impact links TODAY or BFCM robot vacuum slot LOST. 🚨🚨 JOIN YEEDI Impact 57605 immediately (BFCM 21 days). 🚨🚨 MAMMA MIA DAY 58 UNBREAKABLE after-first format. 🚨🚨 SYRUVIA 20% Cozy November/Thanksgiving DUAL-FORMAT — $5.80/sale daily forfeited, 21 days to Nov 26. 🚨🚨 PROMEED tracking link DAY 32 OVERDUE ($7.20 vs $2.40 Amazon). 🚨 PROMEED HerbalRX AWIN ID 100833 — IAN browser accept (20% CPA, Amelia confirmed today). 🚨 REWARX 50% DAY 52 IAN-BLOCKED. 🆕 TURKEY KNIFE SHARPENER $13 NEW TODAY — Thanksgiving 21 days, stocking-stuffer/BFCM gift arc, zero GHP coverage. 🆕 SEALOGIX CORP contract expired Impact 6590154 — IAN verify. BFCM 21 DAYS.
 
-## 2026-11-06T14:44:06Z — Carousel Generator
-**Ran:** Generated 5-slide carousel for B01FXN3E74 (Brita Large Water Filter Pitcher for Tap)
-**Changed:** social/carousels/2026-11-06-B01FXN3E74/slide-1.png, social/carousels/2026-11-06-B01FXN3E74/slide-2.png, social/carousels/2026-11-06-B01FXN3E74/slide-3.png, social/carousels/2026-11-06-B01FXN3E74/slide-4.png, social/carousels/2026-11-06-B01FXN3E74/slide-5.png, social/post_queue.json
-**External actions:** Pexels (4 photos) + Claude CLI (slide content)
-**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B01FXN3E74 carousel.
+## 2026-11-06T14:52:06Z — Reel Producer
+**Ran:** Rendered 1/1 MP4s for 2026-11-06
+**Changed:** social/reels/reel-2026-11-06-*.mp4, social/post_queue.json
+**External actions:** none
+**Next agent hint:** IG Poster has 1 new Reels ready for 14:00 + 22:00 UTC slots
