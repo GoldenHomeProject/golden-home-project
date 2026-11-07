@@ -397,7 +397,8 @@ def main() -> int:
     # so like collages they may post even if that product was pinned before.
     def _is_collage(pin):
         return pin.get("format") in ("collage", "howto", "problem_fix", "versus", "mistakes",
-                                     "size_guide", "room_cart", "checklist", "gift_guide", "deals")
+                                     "size_guide", "room_cart", "checklist", "gift_guide", "deals",
+                                     "reel_v2")
 
     # A gift pin is a new angle on a product, aimed at a different search ("gifts
     # under $25"), so it may post even if the product was pinned before. One per
@@ -458,7 +459,9 @@ def main() -> int:
                and p["id"] not in led_ids
                and (p.get("asin") not in led_asins
                     or _is_drop(p) or _is_collage(p) or _is_gift(p) or p.get("recharted"))
-               and (p.get("format") == "collage" or p.get("asin") not in _recent_asins)]
+               and (p.get("format") in ("collage", "reel_v2") or p.get("asin") not in _recent_asins)
+               # v2 reel pins (Ian-approved 2026-11-07) go out on their reel's day, not before
+               and str(p.get("not_before") or "") <= dt.datetime.now().strftime("%Y-%m-%d")]
     # Order by expected value, not by age.
     #   0. price drops    — highest buyer intent, and the freshest thing we know
     #   1. proven themes  — bathroom/bedroom textiles, the only products that have ever
