@@ -763,6 +763,40 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 
 
 # ------------------------------------------------------------------ assemble
+CLIP_CACHE = Path.home() / ".ghp-engagement" / "reel_v2_clips"
+
+
+def _vid_of(p: Path) -> int:
+    return int(re.search(r"v(\d+)", p.name).group(1))
+
+
+def _cached(vid) -> Path:
+    """A locked clip: the cached HD file, or the same Pexels video fetched again by id."""
+    CLIP_CACHE.mkdir(parents=True, exist_ok=True)
+    dest = CLIP_CACHE / f"v{vid}.mp4"
+    if not dest.exists():
+        from urllib import request
+        req = request.Request(f"https://api.pexels.com/videos/videos/{vid}",
+                              headers={"Authorization": vp.PEXELS_API_KEY, "User-Agent": vp.UA})
+        v = json.loads(request.urlopen(req, timeout=20).read())
+        if not vp._get(vp._best_file(v), dest):
+            raise RuntimeError(f"locked clip {vid} unavailable")
+    return dest
+
+
+def _lock(s: dict, hook_clip: Path, promise_clip: Path, clip_for: dict, problem_shot: bool) -> None:
+    """Remember the exact shots, so a copy-only re-render (--from-script) keeps the footage:
+    the judge varies run to run, and KITCHEN lost its sponge-holder clip on a re-render 11/06."""
+    import shutil
+    CLIP_CACHE.mkdir(parents=True, exist_ok=True)
+    for c in [hook_clip, promise_clip, *clip_for.values()]:
+        if c.parent != CLIP_CACHE and not (CLIP_CACHE / c.name).exists():
+            shutil.copy2(c, CLIP_CACHE / c.name)
+    s["clip_ids"] = {"hook": _vid_of(hook_clip), "promise": _vid_of(promise_clip),
+                     "problem_shot": problem_shot,
+                     "items": {a: _vid_of(c) for a, c in clip_for.items()}}
+
+
 def build(s: dict, out_path: Path, work: Path) -> Path:
     work.mkdir(parents=True, exist_ok=True)
     rp._SEEN_THIS_REEL.clear()
@@ -773,8 +807,12 @@ def build(s: dict, out_path: Path, work: Path) -> Path:
     # matches". Each product needs a clip that shows that kind of product (or it in use);
     # stock rarely has e.g. a tension shower rod, so those picks drop out rather than
     # sitting over an unrelated shot.
-    got = match_footage(s["items"], space, n, work)
-    chosen = [(s["items"][j], got[j]) for j in sorted(got)][:n]
+    lock = s.get("clip_ids")
+    if lock:
+        chosen = [(it, _cached(lock["items"][it["asin"]])) for it in s["items"] if it["asin"] in lock["items"]]
+    else:
+        got = match_footage(s["items"], space, n, work)
+        chosen = [(s["items"][j], got[j]) for j in sorted(got)][:n]
     for it in s["items"]:
         print(f"    {'matched' if any(it is c[0] for c in chosen) else 'no footage'}: {it['type']}")
     if len(chosen) < max(2, n - 1):         # "2 fixes" beats a product over the wrong shot
@@ -787,13 +825,13 @@ def build(s: dict, out_path: Path, work: Path) -> Path:
         s["keyword"] = _unique_keyword([(i["type"].split() or [""])[-1] for i in s["items"]],
                                        space, s["format"], [i["type"] for i in s["items"]])
     clip_for = {it["asin"]: c for it, c in chosen}
-    hook_clip = (find_clip([s["items"][0]["problem_query"], f"messy {space}", f"{space} interior", space],
+    hook_clip = _cached(lock["hook"]) if lock else (find_clip([s["items"][0]["problem_query"], f"messy {space}", f"{space} interior", space],
                            f"a real {space} that fits this opening line: \"{s['hook']}\". If the "
                            "line points at a problem (looks like this, doing too much, stop doing "
                            "this), the shot must SHOW that problem: messy, cluttered, bare or "
                            "disorganized. A spotless styled showroom does NOT fit. No people in "
                            "focus", work, need=5.0))
-    problem_shot = bool(hook_clip)
+    problem_shot = lock.get("problem_shot", True) if lock else bool(hook_clip)
     if not hook_clip:
         # No shot of the problem: open on an inviting shot of its own (reusing product 1's
         # clip held one white cup on screen for 9 s, gift 11/06), and drop any hook line
@@ -828,11 +866,12 @@ def build(s: dict, out_path: Path, work: Path) -> Path:
     # Marketing 11/06: the opening shot held ~5 s across hook + promise; the promise beat
     # gets a second lived-in shot so no opening shot holds much past 2 s
     gift = s["format"] == "gift"
-    promise_clip = find_clip(["wrapped gifts pile", "christmas presents", "gifts under tree"] if gift
+    promise_clip = _cached(lock["promise"]) if lock else find_clip(["wrapped gifts pile", "christmas presents", "gifts under tree"] if gift
                              else [f"cozy {space}", f"lived in {space}", f"{space} morning"],
                              "a pile of wrapped gifts or a cozy holiday room, no people in focus" if gift
                              else f"a different real, lived-in {space} (not a staged showroom, not a "
                              "product close-up)", work, need=3.0) or hook_clip
+    _lock(s, hook_clip, promise_clip, clip_for, problem_shot)
     for sg in segs:
         if sg["kind"] == "item":
             sg["clips"] = [clip_for[sg["item"]["asin"]]]   # one continuous, matching shot
@@ -933,7 +972,8 @@ def main() -> int:
         s = json.loads(Path(args.from_script).read_text())
         s["items"] = [i for i in s["items"] if i["asin"] not in set(args.drop)]
         args.format = s["format"]
-        rewrite_benefits(s["items"])
+        if not s.get("clip_ids"):
+            rewrite_benefits(s["items"])
     for attempt in range(4):
         if s:
             break
