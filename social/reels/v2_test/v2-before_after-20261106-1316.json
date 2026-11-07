@@ -1,0 +1,39 @@
+{
+ "format": "before_after",
+ "hook": "This is why your counters never stay clean.",
+ "promise": "Before and after, under $15",
+ "space": "kitchen counter",
+ "items": [
+  {
+   "i": 8,
+   "type": "Sink Sponge Holder",
+   "benefit": "organizes sink with built-in brush holder",
+   "problem_query": "cluttered kitchen sink",
+   "solution_query": "organized sink caddy",
+   "asin": "B0C3QZ7SNF",
+   "name": "Cisily Sponge Holder for Kitchen Sink, Sink Organizer with Brush Holder | Black Kitchen Countertop Organizers and Storag",
+   "band": "Under $15"
+  },
+  {
+   "i": 7,
+   "type": "Olive Oil Sprayer",
+   "benefit": "mess-free oil dispensing for cooking",
+   "problem_query": "messy counter oil bottle",
+   "solution_query": "sleek oil sprayer counter",
+   "asin": "B0CJF94M8J",
+   "name": "TrendPlain 16oz Olive Oil Sprayer for Cooking, Silicone Pad, Black | Olive Oil Dispenser Bottle, Oil Dispenser For Kitch",
+   "band": "Under $10"
+  },
+  {
+   "i": 1,
+   "type": "Digital Kitchen Scale",
+   "benefit": "tare function makes meal prep easy",
+   "problem_query": "cluttered kitchen counter",
+   "solution_query": "clean counter kitchen scale",
+   "asin": "B0113UZJE2",
+   "name": "Etekcity Food Kitchen Scale, Digital Grams and Ounces, 11lb | Tare function, ideal for baking, weight loss, keto, meal p",
+   "band": "Under $15"
+  }
+ ],
+ "keyword": "LINKS"
+}

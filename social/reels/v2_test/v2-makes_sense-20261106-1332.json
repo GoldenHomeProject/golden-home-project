@@ -1,0 +1,49 @@
+{
+ "format": "makes_sense",
+ "hook": "POV: your closet finally works.",
+ "promise": "Things that just make sense",
+ "space": "closet",
+ "items": [
+  {
+   "i": 0,
+   "type": "Velvet Slim Hangers",
+   "benefit": "space-saving, non-slip hold",
+   "problem_query": "cluttered closet rod",
+   "solution_query": "neat velvet hangers closet",
+   "asin": "B00FXNAAW2",
+   "name": "Amazon Basics Slim Velvet Non-Slip Space Saving Suit Clothes Hangers, Closet Organizer, Black, 50-Pack",
+   "band": "Under $20"
+  },
+  {
+   "i": 2,
+   "type": "Command Utility Hooks",
+   "benefit": "damage-free adhesive hanging",
+   "problem_query": "overflowing coat pile",
+   "solution_query": "organized hanging coats hooks",
+   "asin": "B0753NHZVQ",
+   "name": "Command Large Utility Hooks, 7-Hooks, 12-Strips, Organize Damage-Free | Damage-Free Hanging Wall Hooks with Adhesive Str",
+   "band": "Under $15"
+  },
+  {
+   "i": 4,
+   "type": "No-Drill Wall Hooks",
+   "benefit": "heavy duty, no drilling",
+   "problem_query": "bare closet wall",
+   "solution_query": "hooks holding scarves wall",
+   "asin": "B0B2F55P76",
+   "name": "Adhesive Wall Hooks No Drill Clear Heavy Duty, 13LB Sticky 12 Pack | Waterproof Transparent Sticky Hooks for Hanging, 13",
+   "band": "Under $15"
+  },
+  {
+   "i": 6,
+   "type": "Command Wire Hooks",
+   "benefit": "damage-free, no tools",
+   "problem_query": "messy closet shelf",
+   "solution_query": "hooks holding bags closet",
+   "asin": "B0751TRS6Y",
+   "name": "Command Small White Wire Hooks, 16 Hooks, 24 Strips | Damage-Free Hanging with Adhesive No Tools Wall Hooks for Hanging ",
+   "band": "Under $15"
+  }
+ ],
+ "keyword": "CLOTHES"
+}

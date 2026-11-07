@@ -1,0 +1,52 @@
+{
+ "format": "before_after",
+ "hook": "Bathroom shelf upgrades that just make sense.",
+ "promise": "3 upgrades under $20",
+ "space": "Bathroom Shelf",
+ "items": [
+  {
+   "i": 2,
+   "type": "Microfiber Cleaning Cloths",
+   "benefit": "ultra absorbent all-purpose cloths",
+   "problem_query": "smudged bathroom mirror",
+   "solution_query": "microfiber cleaning cloth",
+   "asin": "B09FX7TFJV",
+   "name": "MR.SIGA Microfiber Cleaning Cloths, Streak Free Microfiber Towels, 12 Pack | All-purpose microfiber cloths, ultra absorb",
+   "rating": 4.7,
+   "reviews": 105533,
+   "chart_rank": 11,
+   "price": "$16.75",
+   "band": "Under $20"
+  },
+  {
+   "i": 3,
+   "type": "Cotton Hand Towels",
+   "benefit": "soft thick cotton towels",
+   "problem_query": "wrinkled towel pile",
+   "solution_query": "folded white hand towels",
+   "asin": "B07C41SYJ7",
+   "name": "Amazon Basics Soft and Thick Cotton Hand Towels for Bath, Kitchen, Gym, 16 x 26 in, White, 12-Pack",
+   "rating": 4.6,
+   "reviews": 19414,
+   "chart_rank": 12,
+   "price": "$19.99",
+   "band": "Under $20"
+  },
+  {
+   "i": 6,
+   "type": "Exfoliating Body Scrubber",
+   "benefit": "rip-resistant rapid-drying exfoliating",
+   "problem_query": "cluttered shower caddy",
+   "solution_query": "shower body scrubber",
+   "asin": "B0897859VJ",
+   "name": "GOSHI Exfoliating Shower Towel - Long Body Scrubber, Grey | rip-resistant, rapid-drying, exfoliating long washcloth for ",
+   "rating": 4.6,
+   "reviews": 22920,
+   "chart_rank": 22,
+   "price": "$19.99",
+   "band": "Under $20"
+  }
+ ],
+ "keyword": "SHELF",
+ "page": "https://goldenhomeproject.com/r/shelf"
+}

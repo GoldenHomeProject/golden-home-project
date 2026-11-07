@@ -1,0 +1,38 @@
+{
+ "format": "makes_sense",
+ "hook": "If your living room looks bare this holiday season.",
+ "promise": "Things that just make sense",
+ "space": "Living Room",
+ "items": [
+  {
+   "i": 0,
+   "type": "Ornament Hooks",
+   "benefit": "hangs ornaments on tree branches",
+   "problem_query": "bare christmas tree",
+   "solution_query": "ornament hooks closeup",
+   "asin": "B08D9RNB1D",
+   "name": "Leafeon 150 Pack Ornament Hooks for Christmas - Essential Christmas Ornament Hangers - Perfect Xmas Ornament Hangers for",
+   "rating": 4.6,
+   "reviews": 6158,
+   "chart_rank": 2,
+   "price": "$6.99",
+   "band": "Under $10"
+  },
+  {
+   "i": 2,
+   "type": "Clear String Lights",
+   "benefit": "warm glow for tree or garland",
+   "problem_query": "dark christmas tree",
+   "solution_query": "string lights tree",
+   "asin": "B07H7D8YH3",
+   "name": "Minetom Clear Christmas String Lights 100 Count 20 Feet Incandescent Bulb | Mini Lights for Indoor Xmas Tree Garland Bir",
+   "rating": 4.6,
+   "reviews": 8585,
+   "chart_rank": 12,
+   "price": "$8.98",
+   "band": "Under $10"
+  }
+ ],
+ "keyword": "HOLIDAY",
+ "page": "https://goldenhomeproject.com/r/holiday"
+}

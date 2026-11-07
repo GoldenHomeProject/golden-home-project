@@ -9379,10 +9379,10 @@
   },
   {
     "name": "reel_2026-11-06_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-11-06-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-06-001.mp4",
     "caption": "Your old dial scale is basically a guessing game.\n\nDial scales have a needle that swings past the number you're trying to read, and the glass fogs or shifts after years of use. Most people just round to the nearest five pounds and call it good.\n\nThis is a digital bathroom scale, so instead of squinting at a needle you get a number straight on the display. It's rated 4.7 stars across more than three hundred thousand reviews.\n\nYou get a clear readout each time you step on, no guessing involved, and it runs about $17.\n\nComment BODY and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -9399,7 +9399,8 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "Your old dial scale is basically a guessing game."
+    "hook": "Your old dial scale is basically a guessing game.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-06-001.mp4"
   },
   {
     "name": "reel_2026-11-06_002",

@@ -1,0 +1,52 @@
+{
+ "format": "stop_doing",
+ "hook": "Kitchen upgrades that just make sense.",
+ "promise": "3 upgrades under $35",
+ "space": "Kitchen",
+ "items": [
+  {
+   "i": 8,
+   "type": "Sink Sponge Holder",
+   "benefit": "organizes sink with brush holder",
+   "problem_query": "cluttered messy sink",
+   "solution_query": "sink sponge holder",
+   "asin": "B0C3QZ7SNF",
+   "name": "Cisily Sponge Holder for Kitchen Sink, Sink Organizer with Brush Holder | Black Kitchen Countertop Organizers and Storag",
+   "rating": 4.6,
+   "reviews": 15668,
+   "chart_rank": 31,
+   "price": "$13.99",
+   "band": "Under $15"
+  },
+  {
+   "i": 6,
+   "type": "Waffle Weave Towels",
+   "benefit": "ultra soft absorbent cotton towels",
+   "problem_query": "stained dish towel",
+   "solution_query": "folded dish towels",
+   "asin": "B07WMQP4SF",
+   "name": "Homaxy 100% Cotton Waffle Weave Kitchen Dish Cloths 6-Pack, Dark Grey | 12 x 12 Inches, Ultra Soft Absorbent Dish Towels",
+   "rating": 4.5,
+   "reviews": 41690,
+   "chart_rank": 27,
+   "price": "$9.99",
+   "band": "Under $10"
+  },
+  {
+   "i": 10,
+   "type": "Brilliance Food Containers",
+   "benefit": "airtight leakproof BPA-free storage",
+   "problem_query": "mismatched plastic containers",
+   "solution_query": "stacked food containers",
+   "asin": "B079M8FPTW",
+   "name": "Rubbermaid Brilliance Food Storage Containers, BPA-Free, 3.2-Cup, 5-Count | Airtight and Leakproof, BPA-Free Tritan Plas",
+   "rating": 4.7,
+   "reviews": 18974,
+   "chart_rank": 34,
+   "price": "$32.48",
+   "band": "Under $35"
+  }
+ ],
+ "keyword": "KITCHEN",
+ "page": "https://goldenhomeproject.com/r/kitchen"
+}

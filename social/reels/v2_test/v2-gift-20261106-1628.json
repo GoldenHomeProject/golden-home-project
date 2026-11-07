@@ -1,0 +1,38 @@
+{
+ "format": "gift",
+ "hook": "Gift table upgrades that just make sense.",
+ "promise": "Gifts under $25 they'll actually use",
+ "space": "gift table",
+ "items": [
+  {
+   "i": 2,
+   "type": "Insulated Tumbler Cup",
+   "benefit": "keeps drinks cold with straw",
+   "problem_query": "plain gift box",
+   "solution_query": "insulated tumbler cup",
+   "asin": "B0FB7LKQXV",
+   "name": "STANLEY Quencher H2.0 Flow State Tumbler, 40 oz, Cranberry | Handle and Straw | 3-Position Lid | Cup Holder Compatible f",
+   "rating": 4.7,
+   "reviews": 204529,
+   "chart_rank": null,
+   "price": "$22.50",
+   "band": "Under $25"
+  },
+  {
+   "i": 1,
+   "type": "Three Wick Candle",
+   "benefit": "fills room with warm scent",
+   "problem_query": "plain gift box",
+   "solution_query": "three wick candle",
+   "asin": "B01M7TTA2S",
+   "name": "Bath & Body Works 3-Wick Candle, Mahogany Teakwood Intense, Soy Wax Blend | Room-Filling Warm Home Scent with Strong Thr",
+   "rating": 4.5,
+   "reviews": 9194,
+   "chart_rank": null,
+   "price": "$21.49",
+   "band": "Under $25"
+  }
+ ],
+ "keyword": "GIFTS",
+ "page": "https://goldenhomeproject.com/r/gifts"
+}

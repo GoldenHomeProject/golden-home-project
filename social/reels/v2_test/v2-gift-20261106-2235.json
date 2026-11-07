@@ -1,0 +1,55 @@
+{
+ "format": "gift",
+ "hook": "This one's for the friend who always says they don't need anything.",
+ "promise": "Gifts for the friend who doesn't need anything",
+ "space": "Cozy Corner",
+ "items": [
+  {
+   "i": 1,
+   "type": "3-Wick Scented Candle",
+   "benefit": "warm scent fills the room",
+   "problem_query": "bland empty room",
+   "solution_query": "lit candle burning",
+   "asin": "B01M7TTA2S",
+   "name": "Bath & Body Works 3-Wick Candle, Mahogany Teakwood Intense, Soy Wax Blend | Room-Filling Warm Home Scent with Strong Thr",
+   "rating": 4.5,
+   "reviews": 9194,
+   "chart_rank": null,
+   "price": "$21.49",
+   "band": "Under $25",
+   "line": "A three-wick candle that fills the whole room with warm scent."
+  },
+  {
+   "i": 4,
+   "type": "Satin Pillowcases",
+   "benefit": "silky feel for hair and skin",
+   "problem_query": "wrinkled cotton pillowcase",
+   "solution_query": "satin pillowcase bed",
+   "asin": "B0725WFLMB",
+   "name": "Bedsure Satin Pillowcases Queen Set of 2, Similar to Silk Pillow Cases Grey | Silky Pillowcase for Hair and Skin, Decora",
+   "rating": 4.5,
+   "reviews": 323369,
+   "chart_rank": null,
+   "price": "$6.99",
+   "band": "Under $10",
+   "line": "Satin pillowcases. Silky on hair and skin, and under ten bucks."
+  }
+ ],
+ "keyword": "COZY",
+ "page": "https://goldenhomeproject.com/r/cozy",
+ "clip_ids": {
+  "hook": 38970268,
+  "promise": 34632270,
+  "problem_shot": true,
+  "items": {
+   "B01M7TTA2S": 5641527,
+   "B0725WFLMB": 6279035
+  }
+ },
+ "onscreen": "Gifts for the friend who 'doesn't need anything'",
+ "vo": {
+  "hook": "This one's for the friend who always says they don't need anything.",
+  "tip": "Bundle them. Instant self-care night. You're welcome.",
+  "cta": "Comment COZY for both links."
+ }
+}

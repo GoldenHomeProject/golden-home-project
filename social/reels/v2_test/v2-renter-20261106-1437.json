@@ -1,0 +1,39 @@
+{
+ "format": "renter",
+ "hook": "Small apartment? Steal these.",
+ "promise": "Renters, save this",
+ "space": "bathroom",
+ "items": [
+  {
+   "i": 7,
+   "type": "Tension Shower Rod",
+   "benefit": "Never rust, anti-slip, no drilling",
+   "problem_query": "sagging shower curtain",
+   "solution_query": "sturdy shower curtain rod",
+   "asin": "B0DLWDVZCD",
+   "name": "TEECK Shower Curtain Rod, 32-80 inch Adjustable Spring Tension Curtain Rod, Never Rust Anti-Slip Shower Curtain Rod for ",
+   "band": "Under $15"
+  },
+  {
+   "i": 4,
+   "type": "Shower Squeegee",
+   "benefit": "Adhesive hooks included, no drilling",
+   "problem_query": "water spots glass door",
+   "solution_query": "clean shower glass door",
+   "asin": "B0BZZDPPRX",
+   "name": "All-Purpose Stainless Steel Shower Squeegee for Shower Glass Door with 2 Adhesive Hooks, Bathroom Cleaner Tool Household",
+   "band": "Under $10"
+  },
+  {
+   "i": 10,
+   "type": "Shower Caddy",
+   "benefit": "Adhesive rack, dual soap holders",
+   "problem_query": "cluttered shower shelf",
+   "solution_query": "organized shower caddy",
+   "asin": "B0CJ56M8D4",
+   "name": "Veken Shower Caddy 6-Pack, Dual Soap Holders, Adhesive Rack Shelves, Black | Advanced Rustproof Design, Large Capacity, ",
+   "band": "Under $20"
+  }
+ ],
+ "keyword": "LINKS"
+}

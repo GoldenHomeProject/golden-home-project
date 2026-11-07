@@ -1,0 +1,52 @@
+{
+ "format": "gift",
+ "hook": "Easy gifts that never miss.",
+ "promise": "Gifts under $15 they'll actually use",
+ "space": "Bedroom",
+ "items": [
+  {
+   "i": 1,
+   "type": "Mini String Lights",
+   "benefit": "Indoor incandescent mini lights",
+   "problem_query": "dark bedroom corner",
+   "solution_query": "string lights bedroom",
+   "asin": "B07H7D8YH3",
+   "name": "Minetom Clear Christmas String Lights 100 Count 20 Feet Incandescent Bulb | Mini Lights for Indoor Xmas Tree Garland Bir",
+   "rating": 4.6,
+   "reviews": 8585,
+   "chart_rank": null,
+   "price": "$8.98",
+   "band": "Under $10"
+  },
+  {
+   "i": 5,
+   "type": "Satin Pillowcases",
+   "benefit": "Silky pillowcase for hair and skin",
+   "problem_query": "wrinkled cotton pillowcase",
+   "solution_query": "satin pillowcases bed",
+   "asin": "B0725WFLMB",
+   "name": "Bedsure Satin Pillowcases Queen Set of 2, Similar to Silk Pillow Cases Grey | Silky Pillowcase for Hair and Skin, Decora",
+   "rating": 4.5,
+   "reviews": 323369,
+   "chart_rank": null,
+   "price": "$6.99",
+   "band": "Under $10"
+  },
+  {
+   "i": 3,
+   "type": "English Breakfast Tea",
+   "benefit": "Smooth flavourful robust black tea",
+   "problem_query": "empty tea cup",
+   "solution_query": "tea bags box",
+   "asin": "B001GM60LE",
+   "name": "Twinings English Breakfast Black Tea Individually Wrapped Bags, 100 Count (Pack of 1), Smooth, Flavourful, and Robust, C",
+   "rating": 4.8,
+   "reviews": 20274,
+   "chart_rank": null,
+   "price": "$12.38",
+   "band": "Under $15"
+  }
+ ],
+ "keyword": "COZY",
+ "page": "https://goldenhomeproject.com/r/cozy"
+}

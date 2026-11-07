@@ -1,0 +1,38 @@
+{
+ "format": "stop_doing",
+ "hook": "Bedroom upgrades that just make sense.",
+ "promise": "Stop doing this",
+ "space": "Bedroom",
+ "items": [
+  {
+   "i": 2,
+   "type": "Prewashed Duvet Cover",
+   "benefit": "ultra soft breathable cotton bedding",
+   "problem_query": "wrinkled bed sheets",
+   "solution_query": "duvet cover bedding",
+   "asin": "B07PCQKTCN",
+   "name": "Bedsure Prewashed Duvet Cover Queen, Bedding Set with Zipper Closure, White | Ultra Soft, Relaxed Texture, Breathable Co",
+   "rating": 4.5,
+   "reviews": 38696,
+   "chart_rank": 8,
+   "price": "$19.99",
+   "band": "Under $20"
+  },
+  {
+   "i": 3,
+   "type": "Satin Pillowcases",
+   "benefit": "silky smooth for hair and skin",
+   "problem_query": "wrinkled pillow case",
+   "solution_query": "satin pillowcase closeup",
+   "asin": "B0725WFLMB",
+   "name": "Bedsure Satin Pillowcases Queen Set of 2, Similar to Silk Pillow Cases Grey | Silky Pillowcase for Hair and Skin, Decora",
+   "rating": 4.5,
+   "reviews": 323369,
+   "chart_rank": 9,
+   "price": "$6.99",
+   "band": "Under $10"
+  }
+ ],
+ "keyword": "BEDROOMS",
+ "page": "https://goldenhomeproject.com/r/bedrooms"
+}

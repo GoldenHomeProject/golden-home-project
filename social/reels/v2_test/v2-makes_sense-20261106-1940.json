@@ -1,0 +1,38 @@
+{
+ "format": "makes_sense",
+ "hook": "Your kitchen needs these.",
+ "promise": "Things that just make sense",
+ "space": "Kitchen",
+ "items": [
+  {
+   "i": 10,
+   "type": "Stackable Food Containers",
+   "benefit": "airtight, leakproof food storage",
+   "problem_query": "cluttered fridge containers",
+   "solution_query": "stacked food storage containers",
+   "asin": "B079M8FPTW",
+   "name": "Rubbermaid Brilliance Food Storage Containers, BPA-Free, 3.2-Cup, 5-Count | Airtight and Leakproof, BPA-Free Tritan Plas",
+   "rating": 4.7,
+   "reviews": 18974,
+   "chart_rank": 34,
+   "price": "$32.48",
+   "band": "Under $35"
+  },
+  {
+   "i": 1,
+   "type": "Digital Kitchen Scale",
+   "benefit": "helps with baking, keto, meal prep",
+   "problem_query": "cluttered kitchen counter",
+   "solution_query": "digital kitchen scale weighing",
+   "asin": "B0113UZJE2",
+   "name": "Etekcity Food Kitchen Scale, Digital Grams and Ounces, 11lb | Tare function, ideal for baking, weight loss, keto, meal p",
+   "rating": 4.6,
+   "reviews": 178316,
+   "chart_rank": 8,
+   "price": "$13.99",
+   "band": "Under $15"
+  }
+ ],
+ "keyword": "KITCHEN",
+ "page": "https://goldenhomeproject.com/r/kitchen"
+}

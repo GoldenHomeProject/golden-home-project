@@ -1,0 +1,38 @@
+{
+ "format": "before_after",
+ "hook": "Your bedroom is doing too much.",
+ "promise": "Before and after, under $20",
+ "space": "Bedroom",
+ "items": [
+  {
+   "i": 3,
+   "type": "Grommet Blackout Curtains",
+   "benefit": "Thermal insulated, noise reducing drapes",
+   "problem_query": "bright sunlight bedroom window",
+   "solution_query": "blackout curtains bedroom window",
+   "asin": "B01CS31R94",
+   "name": "NICETOWN Black Blackout Curtains for Bedroom 42\" wide x 63\" Long 2 Panels | Solid Grommet Thermal Insulated Drapes, Nois",
+   "rating": 4.6,
+   "reviews": 134480,
+   "chart_rank": 8,
+   "price": "$9.88",
+   "band": "Under $10"
+  },
+  {
+   "i": 1,
+   "type": "Vintage Runner Rug",
+   "benefit": "Soft, non-slip backing runner rug",
+   "problem_query": "bare bedroom floor",
+   "solution_query": "runner rug bedroom floor",
+   "asin": "B0D89V1RX1",
+   "name": "2x6 Hallway Washable Runner Rug : Vintage Soft Kitchen Laundry Runner with Non Slip Backing Farmhouse Entryway Living Ro",
+   "rating": 4.6,
+   "reviews": 11435,
+   "chart_rank": 4,
+   "price": "$16.14",
+   "band": "Under $20"
+  }
+ ],
+ "keyword": "BEDROOMX",
+ "page": "https://goldenhomeproject.com/r/bedroomx"
+}

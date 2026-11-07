@@ -1,0 +1,52 @@
+{
+ "format": "before_after",
+ "hook": "Your porch is doing too much.",
+ "promise": "Before and after, under $20",
+ "space": "front porch",
+ "items": [
+  {
+   "i": 1,
+   "type": "Wreath Hanger",
+   "benefit": "adjustable over-the-door hook organizer",
+   "problem_query": "cluttered front door",
+   "solution_query": "wreath hanger door",
+   "asin": "B07F897P1G",
+   "name": "Wreath Hanger,Christmas Decorations Adjustable Wreath Hanger for Front Door | Over The Door Hooks Organizer 20 lbs, Home",
+   "rating": 4.6,
+   "reviews": 8120,
+   "chart_rank": 11,
+   "price": "$8.99",
+   "band": "Under $10"
+  },
+  {
+   "i": 7,
+   "type": "Birch Tree Lamp",
+   "benefit": "warm white light up tree lamp",
+   "problem_query": "empty porch corner",
+   "solution_query": "lighted birch tree",
+   "asin": "B07X7H7C7V",
+   "name": "PEIDUO Christmas Decorations, 2FT Birch Tree with LED Lights, Warm White Light up Tree Lamp, Artificial Trees for Home T",
+   "rating": 4.5,
+   "reviews": 6042,
+   "chart_rank": 37,
+   "price": "$19.99",
+   "band": "Under $20"
+  },
+  {
+   "i": 6,
+   "type": "Tinsel Icicles",
+   "benefit": "silver tinsel icicle strands",
+   "problem_query": "bare porch railing",
+   "solution_query": "tinsel icicle garland",
+   "asin": "B01N2SAIN7",
+   "name": "Brite Star Tinsel Icicles (Silver, 3000 Strands)",
+   "rating": 4.6,
+   "reviews": 8129,
+   "chart_rank": 31,
+   "price": "$14.15",
+   "band": "Under $15"
+  }
+ ],
+ "keyword": "PORCH",
+ "page": "https://goldenhomeproject.com/r/porch"
+}

@@ -1,0 +1,39 @@
+{
+ "format": "fixes3",
+ "hook": "Your linen closet is doing too much.",
+ "promise": "3 fixes under $25",
+ "space": "Linen closet",
+ "items": [
+  {
+   "i": 8,
+   "type": "Turkish Cotton Washcloths",
+   "benefit": "soft hotel-spa quality face towel",
+   "problem_query": "messy towel pile",
+   "solution_query": "folded washcloths stack",
+   "asin": "B0100V7F4W",
+   "name": "White Classic Luxury Cotton Washcloths 13x13 Inch - 650 GSM Turkish Cotton | Hotel, Spa, Bathroom Face Towel | 12 Pack",
+   "band": "Under $25"
+  },
+  {
+   "i": 5,
+   "type": "Turkish Hand Towels",
+   "benefit": "soft, highly absorbent bathroom towel",
+   "problem_query": "cluttered bathroom shelf",
+   "solution_query": "neat hand towel stack",
+   "asin": "B0103XVVME",
+   "name": "White Classic Luxury White Hand Towels - 100% Turkish Cotton, 16x30, 6 Pack | Soft, Highly Absorbent 650 GSM Bathroom Ha",
+   "band": "Under $25"
+  },
+  {
+   "i": 0,
+   "type": "Hair Towel Wrap",
+   "benefit": "helps hair dry faster",
+   "problem_query": "tangled wet towel",
+   "solution_query": "hair towel wrap bun",
+   "asin": "B08S31RWBK",
+   "name": "Hicober Microfiber Hair Towel Wrap for Women, Blue Grey Pink, 3-Pack | Soft, highly absorbent wrap helps hair dry faster",
+   "band": "Under $15"
+  }
+ ],
+ "keyword": "LINKS"
+}

@@ -1,0 +1,38 @@
+{
+ "format": "renter",
+ "hook": "Renters, you need these.",
+ "promise": "Renters, save this",
+ "space": "Apartment",
+ "items": [
+  {
+   "i": 1,
+   "type": "Shower Curtain Liner",
+   "benefit": "waterproof, rustproof grommets, certified",
+   "problem_query": "water splashing bathroom floor",
+   "solution_query": "clear shower curtain",
+   "asin": "B08QRFZ6TH",
+   "name": "Barossa Design Oeko-tex Certified Shower Curtain Liner Standard Size, Clear | Waterproof PEVA, Rustproof Grommets, 3 Bot",
+   "rating": 4.5,
+   "reviews": 102616,
+   "chart_rank": 1,
+   "price": "$8.95",
+   "band": "Under $10"
+  },
+  {
+   "i": 5,
+   "type": "Runner Rug",
+   "benefit": "washable, non-slip farmhouse look",
+   "problem_query": "empty bare hallway floor",
+   "solution_query": "runner rug hallway",
+   "asin": "B0D89V1RX1",
+   "name": "2x6 Hallway Washable Runner Rug : Vintage Soft Kitchen Laundry Runner with Non Slip Backing Farmhouse Entryway Living Ro",
+   "rating": 4.6,
+   "reviews": 11435,
+   "chart_rank": 4,
+   "price": "$16.14",
+   "band": "Under $20"
+  }
+ ],
+ "keyword": "RENTAL",
+ "page": "https://goldenhomeproject.com/r/rental"
+}

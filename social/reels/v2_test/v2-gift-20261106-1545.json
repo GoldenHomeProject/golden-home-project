@@ -1,0 +1,38 @@
+{
+ "format": "gift",
+ "hook": "Things that just make sense for a cozy night in.",
+ "promise": "Gifts under $15 they'll actually use",
+ "space": "Cozy Night In",
+ "items": [
+  {
+   "i": 2,
+   "type": "Christmas String Lights",
+   "benefit": "Warm indoor holiday glow",
+   "problem_query": "dark empty corner",
+   "solution_query": "string lights glow",
+   "asin": "B07H7D8YH3",
+   "name": "Minetom Clear Christmas String Lights 100 Count 20 Feet Incandescent Bulb | Mini Lights for Indoor Xmas Tree Garland Bir",
+   "rating": 4.6,
+   "reviews": 8582,
+   "chart_rank": null,
+   "price": "$8.98",
+   "band": "Under $10"
+  },
+  {
+   "i": 4,
+   "type": "English Breakfast Tea",
+   "benefit": "Smooth, flavourful, robust taste",
+   "problem_query": "empty mug counter",
+   "solution_query": "tea bags steeping",
+   "asin": "B001GM60LE",
+   "name": "Twinings English Breakfast Black Tea Individually Wrapped Bags, 100 Count (Pack of 1), Smooth, Flavourful, and Robust, C",
+   "rating": 4.8,
+   "reviews": 20274,
+   "chart_rank": null,
+   "price": "$12.38",
+   "band": "Under $15"
+  }
+ ],
+ "keyword": "COZY",
+ "page": "https://goldenhomeproject.com/r/cozy"
+}

@@ -1,0 +1,66 @@
+{
+ "format": "makes_sense",
+ "hook": "If your bed looks like this\u2026",
+ "promise": "Things that just make sense",
+ "space": "Bedroom",
+ "items": [
+  {
+   "i": 2,
+   "type": "White Duvet Cover",
+   "benefit": "Ultra soft relaxed texture",
+   "problem_query": "wrinkled bed sheets",
+   "solution_query": "white duvet cover",
+   "asin": "B07PCQKTCN",
+   "name": "Bedsure Prewashed Duvet Cover Queen, Bedding Set with Zipper Closure, White | Ultra Soft, Relaxed Texture, Breathable Co",
+   "rating": 4.5,
+   "reviews": 38696,
+   "chart_rank": 8,
+   "price": "$19.99",
+   "band": "Under $20"
+  },
+  {
+   "i": 3,
+   "type": "Satin Pillowcases",
+   "benefit": "Silky for hair and skin",
+   "problem_query": "frizzy hair pillow",
+   "solution_query": "satin pillowcase bed",
+   "asin": "B0725WFLMB",
+   "name": "Bedsure Satin Pillowcases Queen Set of 2, Similar to Silk Pillow Cases Grey | Silky Pillowcase for Hair and Skin, Decora",
+   "rating": 4.5,
+   "reviews": 323369,
+   "chart_rank": 9,
+   "price": "$6.99",
+   "band": "Under $10"
+  },
+  {
+   "i": 4,
+   "type": "Gusset Bed Pillow",
+   "benefit": "Hotel quality cotton blend",
+   "problem_query": "flat lumpy pillow",
+   "solution_query": "fluffy bed pillows",
+   "asin": "B08DTH86Q2",
+   "name": "Utopia Bedding Gusset Bed Pillow, Hotel Pillows Queen Size Set of 2, White | Cotton Blended Down alternative pillows for",
+   "rating": 4.5,
+   "reviews": 80658,
+   "chart_rank": 11,
+   "price": "$29.89",
+   "band": "Under $30"
+  },
+  {
+   "i": 9,
+   "type": "Zippered Pillow Protectors",
+   "benefit": "Protects against stains and dust",
+   "problem_query": "dusty pillow closeup",
+   "solution_query": "pillow protector zipper",
+   "asin": "B078R3NDPH",
+   "name": "Ultra Soft Pillow Protectors with Zipper - Standard Size - Set of 4 - White | 100% Protection Against Stains, Dust & Dir",
+   "rating": 4.7,
+   "reviews": 27334,
+   "chart_rank": 22,
+   "price": "$9.99",
+   "band": "Under $10"
+  }
+ ],
+ "keyword": "BEDROOMS",
+ "page": "https://goldenhomeproject.com/r/bedrooms"
+}

@@ -1,0 +1,62 @@
+{
+ "format": "makes_sense",
+ "hook": "Your kitchen needs these.",
+ "promise": "Things that just make sense",
+ "space": "Kitchen",
+ "items": [
+  {
+   "i": 8,
+   "type": "Sink Sponge Organizer",
+   "benefit": "sponge and brush stored together",
+   "problem_query": "messy sink sponge",
+   "solution_query": "sink organizer sponge holder",
+   "asin": "B0C3QZ7SNF",
+   "name": "Cisily Sponge Holder for Kitchen Sink, Sink Organizer with Brush Holder | Black Kitchen Countertop Organizers and Storag",
+   "rating": 4.6,
+   "reviews": 15668,
+   "chart_rank": 31,
+   "price": "$13.99",
+   "band": "Under $15"
+  },
+  {
+   "i": 10,
+   "type": "Stackable Food Containers",
+   "benefit": "airtight leakproof food storage",
+   "problem_query": "cluttered fridge containers",
+   "solution_query": "stacked food storage containers",
+   "asin": "B079M8FPTW",
+   "name": "Rubbermaid Brilliance Food Storage Containers, BPA-Free, 3.2-Cup, 5-Count | Airtight and Leakproof, BPA-Free Tritan Plas",
+   "rating": 4.7,
+   "reviews": 18974,
+   "chart_rank": 34,
+   "price": "$32.48",
+   "band": "Under $35"
+  },
+  {
+   "i": 1,
+   "type": "Digital Kitchen Scale",
+   "benefit": "accurate weighing for recipes",
+   "problem_query": "cluttered kitchen counter",
+   "solution_query": "digital kitchen scale weighing",
+   "asin": "B0113UZJE2",
+   "name": "Etekcity Food Kitchen Scale, Digital Grams and Ounces, 11lb | Tare function, ideal for baking, weight loss, keto, meal p",
+   "rating": 4.6,
+   "reviews": 178316,
+   "chart_rank": 8,
+   "price": "$13.99",
+   "band": "Under $15"
+  }
+ ],
+ "keyword": "KITCHEN",
+ "page": "https://goldenhomeproject.com/r/kitchen",
+ "clip_ids": {
+  "hook": 8580888,
+  "promise": 5453401,
+  "problem_shot": false,
+  "items": {
+   "B0C3QZ7SNF": 10573366,
+   "B079M8FPTW": 8581131,
+   "B0113UZJE2": 7964597
+  }
+ }
+}
