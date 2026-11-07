@@ -4,7 +4,7 @@
   "reel": "v2-fixes3-20261106-2242.mp4",
   "page": "https://goldenhomeproject.com/r/window",
   "format": "fixes3",
-  "posted": false,
+  "posted": true,
   "items": [
    {
     "asin": "B07C9HL1G1",
@@ -16,7 +16,8 @@
     "type": "Sheer Curtains",
     "band": "Under $10"
    }
-  ]
+  ],
+  "post_on": "2026-11-09"
  },
  "PORCH": {
   "date": "2026-11-06",
@@ -66,7 +67,7 @@
   "reel": "v2-gift-20261106-2252.mp4",
   "page": "https://goldenhomeproject.com/r/cozy",
   "format": "gift",
-  "posted": false,
+  "posted": true,
   "items": [
    {
     "asin": "B01M7TTA2S",
@@ -78,7 +79,8 @@
     "type": "Satin Pillowcases",
     "band": "Under $10"
    }
-  ]
+  ],
+  "post_on": "2026-11-11"
  },
  "FRONT": {
   "date": "2026-11-06",
@@ -128,7 +130,7 @@
   "reel": "v2-makes_sense-20261106-2256.mp4",
   "page": "https://goldenhomeproject.com/r/kitchen",
   "format": "makes_sense",
-  "posted": false,
+  "posted": true,
   "items": [
    {
     "asin": "B0113UZJE2",
@@ -145,7 +147,8 @@
     "type": "Sink Sponge Organizer",
     "band": "Under $15"
    }
-  ]
+  ],
+  "post_on": "2026-11-07"
  },
  "GIFTS": {
   "date": "2026-11-06",

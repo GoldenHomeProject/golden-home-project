@@ -1,0 +1,79 @@
+{
+ "2026-11-07": {
+  "date": "2026-11-07",
+  "title": "POV: meal prep Sunday finally works",
+  "video_file": "v2_test/v2-makes_sense-20261106-2256.mp4",
+  "video_dir": "reels",
+  "products": [
+   {
+    "name": "Digital Kitchen Scale",
+    "price": "under $15",
+    "asin": "B0113UZJE2"
+   },
+   {
+    "name": "Stackable Food Containers",
+    "price": "under $35",
+    "asin": "B079M8FPTW"
+   },
+   {
+    "name": "Sink Sponge Organizer",
+    "price": "under $15",
+    "asin": "B0C3QZ7SNF"
+   }
+  ],
+  "caption_override": "POV: meal prep Sunday finally works 🥗\n\nStep one: stop eyeballing portions.\nStep two: a whole week of lunches on one shelf. They seal tight, so no leaks in your bag.\nStep three, the one nobody talks about: a home for your sponge that isn’t the sink.\n\nEach one’s under $35. Comment KITCHEN and we’ll reply with the links, or type goldenhomeproject.com/r/kitchen\n\n#ad As an Amazon Associate we earn from qualifying purchases.\n\n#mealprep #mealprepsunday #kitchenorganization #amazonhomefinds #kitchenhacks",
+  "ig": true,
+  "source": "social/reels/v2_test/v2-makes_sense-20261106-2256.json",
+  "keyword": "KITCHEN",
+  "page": "https://goldenhomeproject.com/r/kitchen",
+  "variant": "v2"
+ },
+ "2026-11-09": {
+  "date": "2026-11-09",
+  "title": "Tell me you have bad curtains without telling me",
+  "video_file": "v2_test/v2-fixes3-20261106-2242.mp4",
+  "video_dir": "reels",
+  "products": [
+   {
+    "name": "Blackout Curtains",
+    "price": "under $30",
+    "asin": "B07C9HL1G1"
+   },
+   {
+    "name": "Sheer Curtains",
+    "price": "under $10",
+    "asin": "B0B3544GYM"
+   }
+  ],
+  "caption_override": "Tell me you have bad curtains without telling me 🪟\n\nBright bedroom at 6 a.m.? Living room a fishbowl at night?\nBlackout panels where you sleep. Dark at noon.\nSheers where you live. Daylight in, nosy neighbors out.\nHang both. Instant hotel look.\n\nBoth under $30. Comment WINDOW and we’ll reply with the links, or type goldenhomeproject.com/r/window\n\n#ad As an Amazon Associate we earn from qualifying purchases.\n\n#curtains #bedroomdecor #livingroomdecor #amazonhomefinds #homedecorideas",
+  "ig": true,
+  "source": "social/reels/v2_test/v2-fixes3-20261106-2242.json",
+  "keyword": "WINDOW",
+  "page": "https://goldenhomeproject.com/r/window",
+  "variant": "v2"
+ },
+ "2026-11-11": {
+  "date": "2026-11-11",
+  "title": "Gifts for the friend who doesn’t need anything",
+  "video_file": "v2_test/v2-gift-20261106-2252.mp4",
+  "video_dir": "reels",
+  "products": [
+   {
+    "name": "3-Wick Scented Candle",
+    "price": "under $25",
+    "asin": "B01M7TTA2S"
+   },
+   {
+    "name": "Satin Pillowcases",
+    "price": "under $10",
+    "asin": "B0725WFLMB"
+   }
+  ],
+  "caption_override": "Gifts for the friend who ‘doesn’t need anything’ 🎁\n\nA three-wick candle that fills the whole room with warm scent.\nSatin pillowcases. Silky on hair and skin, and under ten bucks.\nBundle them. Instant self-care night. You’re welcome.\n\nComment COZY and we’ll reply with the links, or type goldenhomeproject.com/r/cozy\n\n#ad As an Amazon Associate we earn from qualifying purchases.\n\n#giftideas #giftsforher #christmasgifts #selfcare #amazonfinds",
+  "ig": true,
+  "source": "social/reels/v2_test/v2-gift-20261106-2252.json",
+  "keyword": "COZY",
+  "page": "https://goldenhomeproject.com/r/cozy",
+  "variant": "v2"
+ }
+}

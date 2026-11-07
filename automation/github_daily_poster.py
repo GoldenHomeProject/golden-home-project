@@ -33,6 +33,24 @@ LOGS_DIR    = Path(__file__).parent / "logs"
 LOGS_DIR.mkdir(exist_ok=True)
 
 
+V2_SCHEDULE = REPO_ROOT / "social" / "reel_v2_schedule.json"
+
+
+def pick_v2_entry(date_str):
+    """Ian-approved v2 trend reels (2026-11-07), one per scheduled date. They take the
+    daily slot on alternate days so v1 and v2 run at the same hour for the comparison."""
+    try:
+        e = json.loads(V2_SCHEDULE.read_text()).get(date_str)
+    except (OSError, ValueError):
+        return None
+    if not e or e.get("source") in already_posted_sources():
+        return None
+    if not (REELS_DIR / e["video_file"]).exists():
+        print(f"  [v2] {e['video_file']} missing - falling back to v1")
+        return None
+    return e
+
+
 def already_posted_sources():
     """Script paths this poster has already shipped, read off its own logs.
 
@@ -543,6 +561,9 @@ def main():
     # of prediction #8 (parallel-channel attribution) testable.
     entry = next((e for e in APRIL_CALENDAR if e["date"] == today), None)
     source = "calendar"
+    if not entry:
+        entry = pick_v2_entry(today)
+        source = "reel_v2" if entry else None
     if not entry:
         entry = pick_dynamic_entry(today)
         source = "reel_producer" if entry else None
