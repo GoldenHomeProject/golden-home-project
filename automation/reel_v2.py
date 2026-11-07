@@ -810,7 +810,7 @@ def build(s: dict, out_path: Path, work: Path) -> Path:
             raise RuntimeError("no usable opening shot")
         if gift or re.search(r"looks? like this|doing too much|stop |never stay|this is why|bare|messy|cluttered", s["hook"], re.I):
             s["hook"] = ("The easiest yes on their list." if gift
-                         else f"Your {space} needs these.")
+                         else f"Your {space.lower()} needs these.")
         if s["format"] in ("stop_doing", "before_after", "fixes3"):
             # nothing on screen to stop / fix / be "before": promise upgrades instead
             amt = (re.search(r"\$\d+", _promise("fixes3", s["items"])) or [""])[0]
@@ -822,7 +822,7 @@ def build(s: dict, out_path: Path, work: Path) -> Path:
     if _bigrams(s["hook"]) & _bigrams(s["promise"]) or (
             {w for w in re.findall(r"[a-z]+", s["hook"].lower()) if len(w) > 4}
             & {w for w in re.findall(r"[a-z]+", s["promise"].lower()) if len(w) > 4}):
-        s["hook"] = f"Your {space} needs these." if "needs these" not in s["promise"].lower() else "Steal these."
+        s["hook"] = f"Your {space.lower()} needs these." if "needs these" not in s["promise"].lower() else "Steal these."
     segs = segments(s)
     vo = voice(segs, work)
     # Marketing 11/06: the opening shot held ~5 s across hook + promise; the promise beat
