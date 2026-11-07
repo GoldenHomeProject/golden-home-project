@@ -6748,6 +6748,22 @@
       "verified_stars": "4.7",
       "verified_reviews": 1555,
       "discovery_source": "back_to_college_2026"
+    },
+    {
+      "asin": "B0070G7IS4",
+      "product_name": "Brite Star 1000 Strands 18 inch Icicles, Silver",
+      "categories": [
+        "home",
+        "Seasonal D\u00e9cor"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0070G7IS4?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-11-07",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$7.47",
+      "verified_stars": "4.6",
+      "verified_reviews": 8131,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
