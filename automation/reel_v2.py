@@ -411,15 +411,16 @@ def voice(segs: list, work: Path) -> Path:
         words = asyncio.run(_tts(sg["say"], mp3))
         if not mp3.exists() or mp3.stat().st_size < 2000 or not words:
             raise RuntimeError(f"voice failed on segment {i}")
-        d = _dur(mp3)
+        spoken = min(_dur(mp3), words[-1][0] + words[-1][1] + 0.15)
         gap = 0.08
-        sg.update(start=t, dur=max(d + gap, 1.0 if sg["kind"] == "hook" else 1.2),
+        sg.update(start=t, dur=max(spoken + gap, 1.0 if sg["kind"] == "hook" else 1.2),
                   words=[(t + o, du, w) for o, du, w in words])
         if sg["kind"] == "cta":
-            sg["dur"] = max(sg["dur"], 2.6)
+            sg["dur"] = max(sg["dur"], 2.3)   # Marketing: end card <= ~2.5 s
         wav = work / f"vo{i}.wav"
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(mp3), "-af",
-                        f"apad=whole_dur={sg['dur']}", "-ar", "44100", "-ac", "2", str(wav)], check=True)
+                        f"atrim=0:{spoken:.3f},apad=whole_dur={sg['dur']}", "-ar", "44100", "-ac", "2",
+                        str(wav)], check=True)
         parts.append(wav)
         t += sg["dur"]
     lst = work / "vo.txt"
@@ -509,7 +510,8 @@ def _judge_kinds(sheet: Path, kinds: list, space: str) -> dict:
               "listing: colour, pattern, style and design must match (gold tinsel is not silver "
               "tinsel; frosted film is not a rainbow stained-glass film). The product must be the "
               "main subject, not a small or blurry part of the frame. It must be the PRODUCT "
-              "ITSELF, not what it holds or works with: a sponge is not a sponge holder, a jug of oil "
+              "ITSELF, not what it holds or works with; a counted feature in the listing must be "
+              "visible (a 3-wick candle shows three wicks, a 2-tier rack shows two tiers): a sponge is not a sponge holder, a jug of oil "
               "is not an oil sprayer, a plant is not a planter."
               "\nReply ONLY JSON: {\"shows\": <index of the ONE kind the clip clearly shows "
               "(that kind of object, or one being used), or -1 if none>, "
@@ -876,7 +878,13 @@ def build(s: dict, out_path: Path, work: Path) -> Path:
     # sitting over an unrelated shot.
     lock = s.get("clip_ids")
     if lock:
+        rp._SEEN_THIS_REEL.update(lock.get("avoid") or [])
         chosen = [(it, _cached(lock["items"][it["asin"]])) for it in s["items"] if it["asin"] in lock["items"]]
+        loose = [it for it in s["items"] if it["asin"] not in lock["items"]]
+        if loose:                              # e.g. COZY's candle clip had 1 wick, not 3
+            got = match_footage(loose, space, len(loose), work)
+            chosen += [(loose[j], got[j]) for j in sorted(got)]
+            chosen.sort(key=lambda c: s["items"].index(c[0]))
     else:
         got = match_footage(s["items"], space, n, work)
         chosen = [(s["items"][j], got[j]) for j in sorted(got)][:n]

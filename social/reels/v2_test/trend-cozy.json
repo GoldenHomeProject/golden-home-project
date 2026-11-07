@@ -42,9 +42,11 @@
   "promise": 34632270,
   "problem_shot": true,
   "items": {
-   "B01M7TTA2S": 5641527,
    "B0725WFLMB": 6279035
-  }
+  },
+  "avoid": [
+   5641527
+  ]
  },
  "onscreen": "Gifts for the friend who 'doesn't need anything'",
  "vo": {
