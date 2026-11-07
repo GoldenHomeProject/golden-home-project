@@ -53,6 +53,14 @@ PAGES = ROOT / "r"                                  # goldenhomeproject.com/r/<k
 SITE = "https://goldenhomeproject.com"
 IG_TAG = "ghpig-20"                                 # Instagram's Associates tracking ID
 
+# Marketing 11/06 trend rules (after Ian: "not sure these scripts are any good"): one moment /
+# person / problem per reel, a trend-format on-screen hook, outcome lines, one aha tip, a
+# conversational close + CTA with keyword and price band.
+TREND_HOOKS = ["POV: ...", "This is your sign to ...", "Tell me you ... without telling me",
+               "Things nobody tells you about ...", "If you [relatable situation]...",
+               "Gifts for the friend who ...", "The [room] upgrade nobody talks about"]
+BANNED = re.compile(r"upgrades? that just make sense|things that just make sense|\b\d+ upgrades? under|"
+                    r"\b(i|i'm|i've|my|me)\b|we (use|love|tested|own)", re.I)
 HOOK_BANK = ["If your sink cabinet looks like this…", "Stop stacking your pans like this.",
              "Renters, you need these.", "POV: your closet finally works.",
              "This is why your counters never stay clean.", "Small apartment? Steal these.",
@@ -135,16 +143,29 @@ def write_script(fmt: str, strict: bool = True) -> dict | None:
         f"first {spec['n']} that have matching stock footage are used). Reply ONLY JSON:\n"
         '{"keywords": ["<3 options: ONE everyday word each, 4-8 letters, naming the space, theme '
         'or a product, e.g. SHOWER, CURTAIN, COZY>"], '
-        '"hook": "<scene-first, second person, under 12 words, NO digits; you may adapt one of: '
-        + " | ".join(bank) + '>", "space": "<the room or spot, 1-3 words>", '
+        '"moment": "<ONE moment, person or problem this reel is about, e.g. meal prep Sunday, '
+        'bad curtains, the friend who never needs anything>", '
+        '"onscreen": "<the big on-screen hook, under 10 words, NO digits, using one of these trend '
+        'formats: ' + " | ".join(TREND_HOOKS) + '>", '
+        '"hook": "<the spoken hook, second person, conversational, under 14 words, NO digits>", '
+        '"space": "<the room or spot, 1-3 words>", '
+        '"tip": "<ONE aha tip or twist before the CTA, under 8 words, e.g. Hang both. Instant hotel '
+        'look. / Bundle them. Instant self-care night. Must not mention a number of items>", '
+        '"close": "<a short conversational close, under 8 words, no price, no digits>", '
         '"items": [{"i": <index>, "type": "<generic item, 2-4 words, Title Case; keep a word for '
         'its distinctive look if the title has one, e.g. Rainbow Window Film, Velvet Hangers>", '
+        '"line": "<the spoken line for this item: the OUTCOME for the viewer in the moment, under '
+        '12 words, e.g. Step one: stop eyeballing portions. / Sheers where you live. Daylight in, '
+        'nosy neighbors out. Never a feature list; only facts the title supports>", '
         '"benefit": "<what it does for the buyer in plain words, 3-6 words, from facts in THAT title '
         'only, e.g. sponge, brush and soap in one spot / warm glow for any room; not spec-sheet '
         'wording, no speed/durability/result claims the title does not make, no digits unless in the title>", '
         '"problem_query": "<2-4 word stock-video search for the messy/problem moment, no people>", '
         '"solution_query": "<2-4 word stock-video search that would show THIS kind of product or it in use>"}]}\n'
-        "Rules: every item must directly fix the exact problem the hook shows in that space, "
+        "Rules: the whole reel is about the ONE moment; every item must serve it. Banned: "
+        "'upgrades that just make sense', 'things that just make sense', 'X upgrades under $Y', "
+        "spec-sheet wording, any first-person use claim, a statistic as the first line. "
+        "Every item must directly fix the exact problem the hook shows in that space, "
         "and no two items may be the same kind of product (no two towels, no two bins). "
         f"Return {spec['n'] + 3} items (at least {spec['n'] + 2}) if the list allows. The video uses real stock footage of each "
         "kind of product, so prefer items that are commonly filmed (hangers, baskets, bins, "
@@ -190,14 +211,27 @@ def write_script(fmt: str, strict: bool = True) -> dict | None:
         print("  [v2] a pick is not on today's chart - rejected")
         return None
     hook = got.get("hook", "").strip()
-    if re.search(r"\d", hook) or len(hook.split()) > 12 or fabrication_match(hook):
-        print(f"  [v2] rejected hook: {hook}")
-        return None
+    onscreen = got.get("onscreen", "").strip().rstrip(".")
+    tip, close = got.get("tip", "").strip(), got.get("close", "").strip()
+    for t in (hook, onscreen, tip, close):
+        if (not t or re.search(r"\d|\$", t) or BANNED.search(t) or fabrication_match(t)
+                or len(t.split()) > 14):
+            print(f"  [v2] rejected script line: {t!r}")
+            return None
+    for i in items:
+        ln = (i.get("line") or "").strip()
+        allowed = set(re.findall(r"\d+", i["name"]))
+        if (not ln or BANNED.search(ln) or fabrication_match(ln) or "$" in ln or len(ln.split()) > 14
+                or any(n not in allowed for n in re.findall(r"\d+", ln))):
+            i["line"] = f"{i['type']}. {i['benefit'][:1].upper()}{i['benefit'][1:]}."
+        else:
+            i["line"] = ln
     promise = _promise(fmt, items[:spec["n"]])
     kw = _unique_keyword(got.get("keywords") or [got.get("keyword", "")], got.get("space", ""), fmt,
                          [i["type"] for i in items])
-    return {"format": fmt, "hook": hook, "promise": promise, "space": got.get("space", ""),
-            "items": items, "keyword": kw}
+    return {"format": fmt, "hook": hook, "promise": got.get("moment") or promise,
+            "space": got.get("space", ""), "items": items, "keyword": kw, "onscreen": onscreen,
+            "vo": {"hook": hook, "tip": tip, "close": close}}
 
 
 def rewrite_benefits(items: list) -> None:
@@ -324,6 +358,17 @@ def publish_links(s: dict, reel: str) -> str:
 
 
 def segments(s: dict) -> list[dict]:
+    if s.get("vo"):
+        # Trend script (Marketing 11/06, after Ian: "not sure these scripts are any good"):
+        # big on-screen hook + spoken hook, one outcome line per product, a tip, a close + CTA
+        v = s["vo"]
+        segs = [{"kind": "hook", "say": v["hook"], "onscreen": s.get("onscreen")}]
+        for n, it in enumerate(s["items"], 1):
+            segs.append({"kind": "item", "n": n, "item": it, "say": it["line"], "custom": True})
+        if v.get("tip"):
+            segs.append({"kind": "tip", "say": v["tip"]})
+        segs.append({"kind": "cta", "say": v["cta"]})
+        return segs
     segs = [{"kind": "hook", "say": s["hook"]},
             {"kind": "promise", "say": s["promise"]}]
     for n, it in enumerate(s["items"], 1):
@@ -668,11 +713,15 @@ def item_card(it: dict, n: int, out: Path) -> Path:
     return out
 
 
-def cta_card(kw: str, out: Path) -> Path:
+def cta_card(kw: str, out: Path, note: str = "") -> Path:
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
     big, small, wm = _font(FXB, 96), _font(FSB, 44), _font(FXB, 34)
     cy = 760
+    if note:                                  # e.g. "Each one's under $35"
+        nf = _font(FXB, 60)
+        d.text(((W - SAFE_RIGHT + 60 - d.textlength(note, font=nf)) / 2, cy - 100), note, font=nf,
+               fill=MINT, stroke_width=6, stroke_fill=(0, 0, 0))
     for txt, fill in (("Comment", (255, 255, 255)), (kw, CORAL), ("for the links", (255, 255, 255))):
         tw = d.textlength(txt, font=big)
         d.text(((W - SAFE_RIGHT + 60 - tw) / 2, cy), txt, font=big, fill=fill,
@@ -715,7 +764,12 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
                       f"Tag,,0,0,0,,{sg['tag']}")
         if sg["kind"] == "cta":
             continue
-        style = "Hook" if sg["kind"] in ("hook", "promise") else "Cap"
+        style = "Hook" if sg["kind"] in ("hook", "promise", "tip") else "Cap"
+        if sg.get("onscreen"):
+            # trend hook: the big line sits on screen, the spoken hook runs as captions
+            ev.append(f"Dialogue: 1,{_ass_time(sg['start'])},{_ass_time(sg['start'] + sg['dur'])},"
+                      f"Hook,,0,0,0,,{sg['onscreen'].replace('{', '').replace('}', '')}")
+            style = "Cap"
         ws = sg["words"]
         # Caption lines never cross a comma or full stop ("Hooks under" / "$15 heavy duty"
         # read badly on 11/06): phrase lengths come from the script text, word times from TTS.
@@ -725,7 +779,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
             stops.add(acc)
         if acc != len(ws):
             stops = set()               # TTS split words differently; fall back to length only
-        if sg["kind"] == "item":
+        if sg["kind"] == "item" and not sg.get("custom"):
             # Marketing 11/06: the card already says name + price; the caption is the benefit
             sl = sorted(stops)
             skip = sl[1] if len(sl) > 2 else len(ws)
@@ -818,10 +872,12 @@ def build(s: dict, out_path: Path, work: Path) -> Path:
     if len(chosen) < max(2, n - 1):         # "2 fixes" beats a product over the wrong shot
         raise RuntimeError(f"only {len(chosen)} of {n} picks have matching footage")
     s["items"] = [it for it, _ in chosen]
-    s["promise"] = _promise(s["format"], s["items"])
+    trend = bool(s.get("vo"))                # authored trend script: copy is final
+    if not trend:
+        s["promise"] = _promise(s["format"], s["items"])
     # the keyword must name something on screen: "WRAP" survived after the hair wrap dropped
     shown = " ".join([space, s["hook"]] + [i["type"] for i in s["items"]]).lower()
-    if s["keyword"].lower().rstrip("s") not in shown:
+    if not trend and s["keyword"].lower().rstrip("s") not in shown:
         s["keyword"] = _unique_keyword([(i["type"].split() or [""])[-1] for i in s["items"]],
                                        space, s["format"], [i["type"] for i in s["items"]])
     clip_for = {it["asin"]: c for it, c in chosen}
@@ -857,10 +913,17 @@ def build(s: dict, out_path: Path, work: Path) -> Path:
     def _bigrams(t):
         w = re.findall(r"[a-z']+", t.lower())
         return {" ".join(w[k:k + 2]) for k in range(len(w) - 1)}
-    if _bigrams(s["hook"]) & _bigrams(s["promise"]) or (
+    if not trend and _bigrams(s["hook"]) & _bigrams(s["promise"]) or not trend and (
             {w for w in re.findall(r"[a-z]+", s["hook"].lower()) if len(w) > 4}
             & {w for w in re.findall(r"[a-z]+", s["promise"].lower()) if len(w) > 4}):
         s["hook"] = f"Your {space.lower()} needs these." if "needs these" not in s["promise"].lower() else "Steal these."
+    if s.get("vo") and not s["vo"].get("cta"):
+        amt = (re.search(r"\$\d+", _promise("fixes3", s["items"])) or [""])[0]
+        k = len(s["items"])
+        s["cta_note"] = (f"Both under {amt}" if k == 2 else f"Each one's under {amt}") if amt else ""
+        s["vo"]["cta"] = " ".join(x for x in (s["vo"].get("close", ""),
+                                              f"{s['cta_note']}." if s["cta_note"] else "",
+                                              f"Comment {s['keyword']} for the links.") if x)
     segs = segments(s)
     vo = voice(segs, work)
     # Marketing 11/06: the opening shot held ~5 s across hook + promise; the promise beat
@@ -875,7 +938,7 @@ def build(s: dict, out_path: Path, work: Path) -> Path:
     for sg in segs:
         if sg["kind"] == "item":
             sg["clips"] = [clip_for[sg["item"]["asin"]]]   # one continuous, matching shot
-        elif sg["kind"] == "promise":
+        elif sg["kind"] in ("promise", "tip"):
             sg["clips"] = [promise_clip]
         else:
             sg["clips"] = [hook_clip]   # CTA returns to the opening shot (loop)
@@ -926,7 +989,7 @@ def build(s: dict, out_path: Path, work: Path) -> Path:
         if sg["kind"] == "item":
             png = item_card(sg["item"], sg["n"], work / f"card{sg['n']}.png")
         elif sg["kind"] == "cta":
-            png = cta_card(s["keyword"], work / "cta.png")
+            png = cta_card(s["keyword"], work / "cta.png", s.get("cta_note", ""))
         else:
             continue
         t0, t1 = sg["start"], sg["start"] + sg["dur"]
@@ -985,7 +1048,8 @@ def main() -> int:
           [(i["type"], i["band"], i["benefit"]) for i in s["items"]])
     stamp = datetime.now().strftime("%Y%m%d-%H%M")
     out = Path(args.out) / f"v2-{args.format}-{stamp}.mp4"
-    work = Path("/tmp") / f"reelv2-{args.format}-{stamp}"
+    # SD card, not /tmp: /tmp is an 8 GB RAM disk and 65 test work dirs filled it (11/06)
+    work = Path.home() / ".ghp-engagement" / "reel_v2_work" / f"reelv2-{args.format}-{stamp}"
     build(s, out, work)
     s["page"] = publish_links(s, out.name)
     (out.with_suffix(".json")).write_text(json.dumps(s, indent=1))
