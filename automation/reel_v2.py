@@ -797,6 +797,9 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
                 cur = []
         if cur:
             lines.append(cur)
+        # never strand one word on its own line ("Sunday", KITCHEN trend 11/06)
+        if len(lines) > 1 and len(lines[-1]) == 1:
+            lines[-2] += lines.pop()
         seg_end = sg["start"] + sg["dur"]
         for li, line in enumerate(lines):
             nxt = lines[li + 1][0][0] if li + 1 < len(lines) else seg_end
