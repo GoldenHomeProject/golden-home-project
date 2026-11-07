@@ -866,7 +866,7 @@ def build(s: dict, out_path: Path, work: Path) -> Path:
     # Marketing 11/06: the opening shot held ~5 s across hook + promise; the promise beat
     # gets a second lived-in shot so no opening shot holds much past 2 s
     gift = s["format"] == "gift"
-    promise_clip = _cached(lock["promise"]) if lock else find_clip(["wrapped gifts pile", "christmas presents", "gifts under tree"] if gift
+    promise_clip = _cached(lock["promise"]) if lock and lock.get("promise") else find_clip(["wrapped gifts pile", "christmas presents", "gifts under tree"] if gift
                              else [f"cozy {space}", f"lived in {space}", f"{space} morning"],
                              "a pile of wrapped gifts or a cozy holiday room, no people in focus" if gift
                              else f"a different real, lived-in {space} (not a staged showroom, not a "
