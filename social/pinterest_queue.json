@@ -9905,14 +9905,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-11-07-B0815BLNX1.png",
     "queued_at": "2026-11-07T11:13:55.976060Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "Keep Rugs From Sliding",
     "recharted": true,
     "variant": "A",
-    "ai_image": true
+    "ai_image": true,
+    "posted_at": "2026-11-07T14:41:38Z"
   },
   {
     "id": "collage-2026-11-07-best-bath-towels-and-linens",
