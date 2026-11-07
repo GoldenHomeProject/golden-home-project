@@ -9924,5 +9924,21 @@
   "link": "https://goldenhomeproject.com/blog/posts/best-bath-towels-and-linens.html?v=B",
   "format": "collage",
   "variant": "B"
+ },
+ {
+  "id": "gift_guide-2026-11-07",
+  "asin": "B0DZFGTCLR",
+  "board": "Gifts Under $25 for the Home",
+  "title": "Hostess Gifts Under $20",
+  "description": "Hostess Gifts Under $20: Candle Warmer Lamp, Travel Coffee Mug, Fleece Throw Blanket, Silk Pillowcase, String Lights, Black Tea. Each one rated 4.5 stars or higher across thousands of ratings. Tap through to see it on Amazon. Amazon affiliate \u2014 small commission at no extra cost to you.",
+  "link": "https://goldenhomeproject.com/blog/posts/hostess-gifts-under-20.html?v=B",
+  "image_path": "social/pinterest/gift_guide-2026-11-07.png",
+  "image_url": "https://goldenhomeproject.com/social/pinterest/gift_guide-2026-11-07.png",
+  "queued_at": "2026-11-07T11:20:02.669011Z",
+  "posted": false,
+  "source": "generate_format_pins",
+  "format": "gift_guide",
+  "variant": "B",
+  "guide": "hostess-gifts-under-20"
  }
 ]
