@@ -809,7 +809,7 @@ def build(s: dict, out_path: Path, work: Path) -> Path:
             # rapid-fire format can afford it. Others retry with a fresh script.
             raise RuntimeError("no usable opening shot")
         if gift or re.search(r"looks? like this|doing too much|stop |never stay|this is why|bare|messy|cluttered", s["hook"], re.I):
-            s["hook"] = ("Easy gifts that never miss." if gift
+            s["hook"] = ("The easiest yes on their list." if gift
                          else f"Your {space} needs these.")
         if s["format"] in ("stop_doing", "before_after", "fixes3"):
             # nothing on screen to stop / fix / be "before": promise upgrades instead
