@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-11-07 (Strategy & Outreach 9am)
+# Last updated: 2026-11-07 (Affiliate Optimizer 10am)
 # ============================================================
 
 ---
@@ -4451,3 +4451,80 @@ Built on: Email Monitor 13:00 UTC (8 emails; 1 decline sent — Social Growth co
   1. **HOME ORG/KITCHEN: Fridge organizer bins clear set ~$18-28** — Pinterest "fridge organization aesthetic" +375% (Pinterest Predicts 2026), highest rising storage search term on Pinterest this year, visual transformation anchor for "fridge reset" script, Thanksgiving prep dual angle (organized fridge = confident host), BFCM under-$30 gift impulse. Zero GHP coverage. IAN: search "fridge organizer bins set clear" in Associates for top ASIN; https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20.
   2. **HOME ORG/GIFT: Label maker with tape ~$18-25** — TikTok Shop shelf labels category +233% YoY (Dropified 2026), BFCM stocking stuffer under-$25 practical gift, pantry ASMR content anchor, TikTok creator challenge Nov 1–Dec 1 2026 peak window, label makers sell out when viral — high impulse purchase. IAN: search "label maker with tape cartridge included" in Associates for top ASIN; https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20.
   3. **HOME ORG/LAUNDRY: Over-washer dryer shelving unit ~$40-55** — Pinterest "small space laundry room organization" +390% (Pinterest Predicts 2026 — HIGHEST storage growth stat), Thanksgiving guest-ready angle, highest before/after visual impact per dollar in home organization, synergy with woven baskets already in pipeline, zero competitor coverage (Gater DAY 21 gap). IAN: search "over washer dryer shelving unit laundry room" in Associates for top ASIN; https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20.
+
+### November 2026 Affiliate Updates (updated 2026-11-07 Affiliate Optimizer 10am)
+
+**GMAIL DIRECT SCAN (post-Strategy 14:00 UTC):** CONFIRMED CLEAN — 1 inbox thread: Pinterest "Modern Bedroom, Window Seat Design" (Nov 7, 01:03 UTC) = same promotional email already classified by Email Monitor 8am. Zero new emails after Email Monitor's 13:00 UTC run. Zero inbound on-niche GHP partnership emails. Zero emails sent. Cold outreach PAUSED per Ian Sep 3 directive.
+
+**PLATFORM STATUS:**
+
+- **AMAZON goldenhomep0a-20 ACTIVE — BFCM 20 DAYS (Nov 27).** No new bounties, category commission changes, or promotions detected since Nov 6. Standing bounties unchanged: Audible $20/signup through Dec 15, Prime $12/signup through Dec 31, Subscribe & Save $0.25/signup ongoing. BFCM pre-content window: **3 DAYS TERMINAL** (robot vacuum content must be LIVE by Nov 10). New content slots confirmed from Strategy Nov 7: Fridge Reset $38 (Pinterest +375%), Label maker $20 (TikTok +233%), Laundry room $85 (Pinterest +390% — HIGHEST storage search growth in all of Pinterest Predicts 2026).
+
+- **IMPACT.COM:**
+  - **Mamma Mia 24-30% — DAY 59 TREND SCOUT #1 TODAY ($47 couch cover).** Revenue: $47 × 27% avg = **$12.69/sale** vs goldenhomep0a-20 $47 × 4% = **$1.88/sale** (6.75× multiplier). After-first hook = 6,037-view avg format. UNBREAKABLE mandate — 59 days zero content.
+  - **Dreame 5%+ — DAY 49 ZERO TRACKING LINKS. BFCM pre-content window CLOSES NOV 10 = 3 DAYS TERMINAL.** Robot vacuum content must render today (Nov 7) or tomorrow (Nov 8) to publish by Nov 10. Impact dashboard → Dreame US program → deep link builder.
+  - **YEEDI 57605 (Impact) — DAY 5.** Robot vacuum brand. IAN: log into Impact dashboard → search "YEEDI" (campaign 57605) → join immediately. BFCM 20 days. Two active robot vacuum programs (YEEDI + Dreame) = maximum coverage.
+  - **SmartWings BF Early Access — DAY 2.** 8% sitewide / 12% orders $1,500+ / free shipping ACTIVE. $16-32/sale. IAN: build Impact tracking links + brief Content Engine for smart shades BFCM content. Contact Andy via Impact platform messaging only (email permanently bounced).
+  - **Syruvia 20% — Cozy November DAY 8. ZERO tracking links. ZERO scripts.** Revenue gap: $29 × 20% = **$5.80/sale** daily forfeited (vs $1.16/sale Amazon = 5× gap). Candle warmer / Thanksgiving tablescape DUAL-FORMAT confirmed. 20 days to Nov 26. IAN: build Syruvia tracking link in Impact IMMEDIATELY.
+  - **Promeed 12% — DAY 33 OVERDUE.** Tracking link unbuilt since Oct 5. BFCM bedding gift window OPEN. $7.20/sale vs $2.40 Amazon.
+  - **Best Choice Products 10-15% — 1-click pre-approved, unactioned since April.** BFCM gift-under-$50 window OPEN. IAN: Impact dashboard → click JOIN.
+  - **Sealogix Corp — contract expired midnight 11/6 (Impact 6590154).** IAN: verify niche in Impact dashboard; if on-niche and generating commissions, re-join; if off-niche/unused, no action needed.
+
+- **CJ AFFILIATE — AliExpress dormancy DAY 37 of 90** (53 days remain, ~Dec 30 deadline). No new invitations. Status unchanged from Nov 6.
+
+- **AWIN:**
+  - **Rewarx 50% recurring (ID 129153): DAY 53 IAN-BLOCKED.** Every additional day = 50% recurring commission permanently lost. Highest-commission program in entire portfolio.
+  - **Homary 12%/$96/sale (ID 91447): DAY 41 Lauren waiting.** BFCM premium window OPEN. IAN: complete Awin express signup → send affiliate ID to Lauren at affiliate@homary.com.
+  - **Promeed HerbalRX (ID 100833): 20% CPA ACTIVE** — Amelia confirmed Nov 6. IAN: browser accept via Awin dashboard (no-reply@awin.com, cannot email).
+  - ON-NICHE browser accepts still pending: Tribesigns (industrial bookshelves), SimpleProject (99013, 10%+), OKUN (home improvement), CozySpiritStudio (130331, 20% wall art).
+
+**HIGH-AOV OPPORTUNITY SCAN:**
+  - **Robot vacuums ($129-349):** Trend Scout Nov 7 #2 ($129 mop combo). Dreame 5%+ (3-day TERMINAL); YEEDI 57605 DAY 5 (IAN join immediately). Top BFCM TikTok Shop category. $6.45-17.45/sale.
+  - **Mamma Mia couch cover ($47):** 24-30% = $11.28-$14.10/sale. Trend Scout #1 DAY 59. Zero GHP content ever.
+  - **SmartWings smart shades ($200-400 avg):** BF Early Access Day 2. 8%/12% = $16-$180+/sale.
+  - **Candle warmer / Thanksgiving tablescape ($29-59):** Syruvia 20% (zero links, DAY 8). DUAL-FORMAT confirmed. 20 days to Nov 26.
+  - **Fridge Reset ($38 — NEW):** Amazon goldenhomep0a-20. Pinterest +375%. Thanksgiving prep dual angle. Zero GHP coverage.
+  - **Laundry room transformation ($85 — NEW):** Amazon goldenhomep0a-20. Pinterest +390% HIGHEST 2026 storage growth. Thanksgiving guest-ready. Gater DAY 21 gap = zero competitor coverage.
+  - **Label maker / pantry label makeover ($18-25):** Amazon goldenhomep0a-20. TikTok +233%. BFCM stocking stuffer. TikTok creator challenge peak window.
+  - **Silk/linen bedding ($40-80):** Promeed 12% DAY 33 OVERDUE. BFCM bedding gift window OPEN.
+  - **Homary furniture ($800+ AOV):** 12% = $96+/sale. DAY 41 BFCM window OPEN.
+  - **Entryway storage bench ($79-99):** Trend Scout #3 Nov 7 ($35 mudroom). Thanksgiving guests hook. BFCM high-AOV.
+  - **Air purifiers ($50-150):** No new programs. Levoit CJ status unknown (IAN check CJ portal).
+  - **Standing desk/home office:** Tribesigns Awin browser accept pending.
+
+**KEY DELTAS vs Nov 6 Affiliate Optimizer:**
+  - Dreame: 3 DAYS (was 4) — TERMINAL confirmed; robot vacuum content must render TODAY
+  - SmartWings: Day 2 BF Early Access (active, confirmed)
+  - Fridge Reset $38 NEW today (Pinterest +375% — zero GHP coverage)
+  - Laundry room $85 NEW today (Pinterest +390% HIGHEST 2026 storage growth)
+  - Label maker $20 NEW today (TikTok +233%, BFCM stocking stuffer)
+  - Gater DAY 21 upload gap (confirmed longest in 2026)
+  - Turkey knife sharpener: Thanksgiving 20 days (was 21)
+  - BFCM: 20 days (was 21)
+  - Trend Scout today: Mamma Mia #1 ($47), robot vacuum #2 ($129 mop), entryway #3 ($35)
+  - Content Engine today: 3 scripts (mop spill reaction, couch throw pillows, short bathroom curtains) — Mamma Mia NOT scripted (DAY 59 continues), robot vacuum NOT scripted (3-day TERMINAL approaching)
+
+**LESSONS LEARNED:**
+  - Laundry room transformation ($85) is now the single highest Pinterest search growth data point in all of Pinterest Predicts 2026 (+390%). Zero competitor coverage. Thanksgiving guest-ready angle amplifies urgency. This should be in the top-5 content priority queue.
+  - Fridge Reset is a rare dual-use content slot: saves money (food waste) + Thanksgiving prep = TWO natural hooks in one script. Pinterest +375% official confirmation.
+  - Robot vacuum content MUST render by EOD Nov 7 or Nov 8 to make the Nov 10 BFCM pre-content deadline — 3 days is now the terminal constraint on this $7-17/sale revenue opportunity.
+
+**IAN PRIORITY ACTIONS — NOV 7 (ranked by urgency × revenue):**
+  1. 🚨🚨 **BUILD DREAME TRACKING LINKS IN IMPACT — CLOSES NOV 10 = 3 DAYS TERMINAL.** Impact dashboard → Dreame US program → deep link builder → brief Content Engine TODAY for robot vacuum render.
+  2. 🚨🚨 **JOIN YEEDI (Impact campaign 57605) + BUILD LINK** — BFCM 20 days; Impact dashboard → search "YEEDI" → join → build link.
+  3. 🚨🚨 **BUILD SMARTWINGS IMPACT TRACKING LINKS** — Day 2 BF Early Access, $16-32/sale active NOW. Impact dashboard → SmartWings → tracking links + message Andy.
+  4. 🚨🚨 **BUILD SYRUVIA 20% TRACKING LINK IN IMPACT** — Cozy November DAY 8, $5.80/sale daily forfeited. Impact → Syruvia → build deep tracking link.
+  5. 🚨🚨 **Script CANDLE WARMER / THANKSGIVING TABLESCAPE DUAL ARC** — Syruvia 20% primary. Single script serves Cozy November + Thanksgiving table. $59 bundle. 20 days to Nov 26. Hook: "I've set the same boring Thanksgiving table for 10 years. $59. Same table. The candle warmer makes it glow."
+  6. 🚨🚨 **Script ROBOT VACUUM BFCM time-freedom format — render TODAY/TOMORROW.** Must post by Nov 10 (3 DAYS TERMINAL). Hook: "I mopped every Saturday for 5 years. $129. Same apartment. I haven't touched a mop since." Use Dreame or YEEDI tracking link (not Amazon).
+  7. 🚨🚨 **BUILD PROMEED 12% TRACKING LINK** — DAY 33 OVERDUE. Impact → Promeed → deep links for silk pillowcase + CoolRest comforter.
+  8. 🚨 **Script TURKEY KNIFE SHARPENER $13** — Thanksgiving 20 days. goldenhomep0a-20. Hook: "Your turkey knife is making Thanksgiving harder. $13."
+  9. 🚨 **Accept PROMEED HerbalRX Awin ID 100833** — 20% CPA active. Awin browser dashboard.
+  10. 🚨 **Accept REWARX Awin ID 129153** — 50% recurring, DAY 53; Awin browser → accept → reply studio@rewarx.com for Golden10 promo code.
+  11. Script FRIDGE RESET $38 — Pinterest +375%, Thanksgiving dual angle, zero GHP coverage, goldenhomep0a-20.
+  12. Script LAUNDRY ROOM TRANSFORMATION $85 — Pinterest +390% HIGHEST growth, Thanksgiving guest-ready, Gater DAY 21, goldenhomep0a-20.
+  13. Script PANTRY LABEL MAKEOVER $58 — TikTok +233%, BFCM stocking stuffer under $25, goldenhomep0a-20.
+  14. Verify SEALOGIX CORP — Impact 6590154 expired midnight 11/6.
+  15. Complete HOMARY Awin express signup (merchant 91447) — affiliate ID to Lauren at affiliate@homary.com (DAY 41, BFCM window OPEN).
+  16. Accept BEST CHOICE PRODUCTS on Impact.com — 1-click pre-approved 15%, BFCM window OPEN.
+  17. CJ portal audit — AliExpress dormancy DAY 37 (53 days remain); check Levoit/Wayfair/GreenLife status.
+  18. Accept ON-NICHE Awin browser invites: Tribesigns, SimpleProject, OKUN, CozySpiritStudio.
