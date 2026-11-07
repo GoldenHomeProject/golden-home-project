@@ -1,7 +1,7 @@
 {
  "WINDOW": {
   "date": "2026-11-06",
-  "reel": "v2-fixes3-20261106-1901.mp4",
+  "reel": "v2-fixes3-20261106-2242.mp4",
   "page": "https://goldenhomeproject.com/r/window",
   "format": "fixes3",
   "posted": false,
@@ -63,7 +63,7 @@
  },
  "COZY": {
   "date": "2026-11-06",
-  "reel": "v2-gift-20261106-1759.mp4",
+  "reel": "v2-gift-20261106-2244.mp4",
   "page": "https://goldenhomeproject.com/r/cozy",
   "format": "gift",
   "posted": false,
@@ -125,14 +125,14 @@
  },
  "KITCHEN": {
   "date": "2026-11-06",
-  "reel": "v2-makes_sense-20261106-1855.mp4",
+  "reel": "v2-makes_sense-20261106-2238.mp4",
   "page": "https://goldenhomeproject.com/r/kitchen",
   "format": "makes_sense",
   "posted": false,
   "items": [
    {
-    "asin": "B0C3QZ7SNF",
-    "type": "Sink Sponge Organizer",
+    "asin": "B0113UZJE2",
+    "type": "Digital Kitchen Scale",
     "band": "Under $15"
    },
    {
@@ -141,8 +141,8 @@
     "band": "Under $35"
    },
    {
-    "asin": "B0113UZJE2",
-    "type": "Digital Kitchen Scale",
+    "asin": "B0C3QZ7SNF",
+    "type": "Sink Sponge Organizer",
     "band": "Under $15"
    }
   ]

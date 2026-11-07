@@ -1,0 +1,56 @@
+{
+ "format": "fixes3",
+ "hook": "Bright bedroom at 6 a.m.? Living room a fishbowl at night?",
+ "promise": "Bad curtains, fixed",
+ "space": "Living Room",
+ "items": [
+  {
+   "i": 2,
+   "type": "Blackout Curtains",
+   "benefit": "blocks light fully, insulates room",
+   "problem_query": "bright bare window",
+   "solution_query": "blackout curtains window",
+   "asin": "B07C9HL1G1",
+   "name": "H.VERSAILTEX 100% Blackout Linen Curtains 84\"L 2 Panels Natural | Total Black Out Drapes, Room Darkening Thermal Insulat",
+   "rating": 4.6,
+   "reviews": 26154,
+   "chart_rank": 13,
+   "price": "$27.95",
+   "band": "Under $30",
+   "line": "Blackout panels where you sleep. Dark at noon."
+  },
+  {
+   "i": 0,
+   "type": "Sheer Curtains",
+   "benefit": "soft sheer light, airy look",
+   "problem_query": "harsh sunlight window",
+   "solution_query": "white sheer curtains",
+   "asin": "B0B3544GYM",
+   "name": "OWENIE White Sheer Curtains 84 inches Long 2 Panels Set For Living Room | Sheer White Curtain for Bedroom, Rod Pocket Li",
+   "rating": 4.7,
+   "reviews": 17631,
+   "chart_rank": 9,
+   "price": "$7.92",
+   "band": "Under $10",
+   "line": "Sheers where you live. Daylight in, nosy neighbors out."
+  }
+ ],
+ "keyword": "WINDOW",
+ "page": "https://goldenhomeproject.com/r/window",
+ "onscreen": "Tell me you have bad curtains without telling me",
+ "vo": {
+  "hook": "Bright bedroom at 6 a.m.? Living room a fishbowl at night?",
+  "tip": "Hang both. Instant hotel look.",
+  "cta": "Both under $30. Comment WINDOW for the links."
+ },
+ "cta_note": "Both under $30",
+ "clip_ids": {
+  "hook": 35449771,
+  "promise": 35311246,
+  "problem_shot": false,
+  "items": {
+   "B07C9HL1G1": 35311246,
+   "B0B3544GYM": 36622181
+  }
+ }
+}
