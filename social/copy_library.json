@@ -4929,6 +4929,53 @@
         ],
         "reel_format": "mistake"
       }
+    ],
+    "TEMPERED": [
+      {
+        "hook_category": "question",
+        "hook": "Why can't you ever read the number in a dim bathroom?",
+        "beat1": "Most bathrooms are poorly lit in the early morning, and a lot of scales have small gray screens that wash out under that light. You end up leaning over, squinting, or turning on a brighter light just to see three digits.",
+        "turn": "This one has a large blue LCD with a backlight built into 6mm tempered glass, so the number is lit up and easy to read the moment you step on. It's rated 4.7 stars across roughly 187,000 reviews.",
+        "result": "You get a clear readout without extra light or extra squinting, and it's about $20.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Bare feet stepping onto a bathroom scale on tile floor in soft, dim early-morning light",
+            "on_screen_text": "POV: the number is actually readable",
+            "voiceover": "Why can't you ever read the number in a dim bathroom?"
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Person leaning over, squinting at a dark bathroom floor near a sink, morning shadows across the tile",
+            "on_screen_text": "Squinting in the dark, every morning",
+            "voiceover": "Most bathrooms are dim in the morning, and a dull gray screen just disappears in that light."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Close-up of a bathroom scale with a glowing blue backlit display on a glass surface, floor-level angle",
+            "on_screen_text": "Large blue backlit LCD, tempered glass",
+            "voiceover": "This one's got a big blue LCD with a backlight, set into tempered glass."
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "Feet stepping onto the glass scale in a dim bathroom as the display lights up blue beneath them",
+            "on_screen_text": "No extra light, no leaning over",
+            "voiceover": "You step on, and the number's just lit up and clear, no extra light needed."
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "Hand reaching down to tap the scale awake, blue display glowing, bathroom tile in background",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "Comment {KEYWORD} and I'll send the link."
+          }
+        ],
+        "reel_format": "pov"
+      }
     ]
   },
   "hashtag_pools": {
