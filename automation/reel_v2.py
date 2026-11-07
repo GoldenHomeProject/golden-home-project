@@ -779,6 +779,10 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
             stops.add(acc)
         if acc != len(ws):
             stops = set()               # TTS split words differently; fall back to length only
+        else:
+            # show the script's own tokens, punctuation included ("Bundle them. Instant
+            # self-care night." ran together as one sentence, COZY 11/06)
+            ws = [(t0, du, tok) for (t0, du, _), tok in zip(ws, sg["say"].split())]
         if sg["kind"] == "item" and not sg.get("custom"):
             # Marketing 11/06: the card already says name + price; the caption is the benefit
             sl = sorted(stops)
@@ -797,9 +801,15 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
                 cur = []
         if cur:
             lines.append(cur)
-        # never strand one word on its own line ("Sunday", KITCHEN trend 11/06)
-        if len(lines) > 1 and len(lines[-1]) == 1:
-            lines[-2] += lines.pop()
+        # never strand one word on its own line ("Sunday", "skin," 11/06)
+        k = 1
+        while k < len(lines):
+            if len(lines[k]) == 1 and len(lines[k - 1]) <= 4:
+                lines[k - 1] += lines.pop(k)
+            else:
+                k += 1
+        if len(lines) > 1 and len(lines[0]) == 1:
+            lines[1] = lines.pop(0) + lines[0]
         seg_end = sg["start"] + sg["dur"]
         for li, line in enumerate(lines):
             nxt = lines[li + 1][0][0] if li + 1 < len(lines) else seg_end
