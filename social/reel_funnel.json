@@ -1,7 +1,7 @@
 {
  "WINDOW": {
   "date": "2026-11-06",
-  "reel": "v2-fixes3-20261106-1517.mp4",
+  "reel": "v2-fixes3-20261106-1901.mp4",
   "page": "https://goldenhomeproject.com/r/window",
   "format": "fixes3",
   "posted": false,
@@ -14,11 +14,6 @@
    {
     "asin": "B0B3544GYM",
     "type": "Sheer Curtains",
-    "band": "Under $10"
-   },
-   {
-    "asin": "B01N20YR6B",
-    "type": "Window Privacy Film",
     "band": "Under $10"
    }
   ]
@@ -68,25 +63,20 @@
  },
  "COZY": {
   "date": "2026-11-06",
-  "reel": "v2-gift-20261106-1659.mp4",
+  "reel": "v2-gift-20261106-1759.mp4",
   "page": "https://goldenhomeproject.com/r/cozy",
   "format": "gift",
   "posted": false,
   "items": [
    {
-    "asin": "B07H7D8YH3",
-    "type": "Mini String Lights",
-    "band": "Under $10"
+    "asin": "B01M7TTA2S",
+    "type": "3-Wick Scented Candle",
+    "band": "Under $25"
    },
    {
     "asin": "B0725WFLMB",
     "type": "Satin Pillowcases",
     "band": "Under $10"
-   },
-   {
-    "asin": "B001GM60LE",
-    "type": "English Breakfast Tea",
-    "band": "Under $15"
    }
   ]
  },
@@ -135,7 +125,7 @@
  },
  "KITCHEN": {
   "date": "2026-11-06",
-  "reel": "v2-makes_sense-20261106-1620.mp4",
+  "reel": "v2-makes_sense-20261106-1855.mp4",
   "page": "https://goldenhomeproject.com/r/kitchen",
   "format": "makes_sense",
   "posted": false,
@@ -216,6 +206,63 @@
     "asin": "B0897859VJ",
     "type": "Exfoliating Body Scrubber",
     "band": "Under $20"
+   }
+  ]
+ },
+ "WRAP": {
+  "date": "2026-11-06",
+  "reel": "v2-fixes3-20261106-1823.mp4",
+  "page": "https://goldenhomeproject.com/r/wrap",
+  "format": "fixes3",
+  "posted": false,
+  "items": [
+   {
+    "asin": "B0103XVVME",
+    "type": "Turkish Hand Towels",
+    "band": "Under $25"
+   },
+   {
+    "asin": "B09FX7TFJV",
+    "type": "Microfiber Cleaning Cloths",
+    "band": "Under $20"
+   }
+  ]
+ },
+ "HOLIDAY": {
+  "date": "2026-11-06",
+  "reel": "v2-makes_sense-20261106-1834.mp4",
+  "page": "https://goldenhomeproject.com/r/holiday",
+  "format": "makes_sense",
+  "posted": false,
+  "items": [
+   {
+    "asin": "B08D9RNB1D",
+    "type": "Ornament Hooks",
+    "band": "Under $10"
+   },
+   {
+    "asin": "B07H7D8YH3",
+    "type": "Clear String Lights",
+    "band": "Under $10"
+   }
+  ]
+ },
+ "ROOM": {
+  "date": "2026-11-06",
+  "reel": "v2-fixes3-20261106-1850.mp4",
+  "page": "https://goldenhomeproject.com/r/room",
+  "format": "fixes3",
+  "posted": false,
+  "items": [
+   {
+    "asin": "B07C9HL1G1",
+    "type": "Blackout Curtains",
+    "band": "Under $30"
+   },
+   {
+    "asin": "B0B3544GYM",
+    "type": "Sheer Curtains",
+    "band": "Under $10"
    }
   ]
  }
