@@ -9597,14 +9597,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-11-04-B00JR5N0JM.png",
     "queued_at": "2026-11-04T11:11:54.205951Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "Home Organization Ideas: String Lights",
     "recharted": true,
     "variant": "A",
-    "ai_image": false
+    "ai_image": false,
+    "posted_at": "2026-11-08T02:16:36Z"
   },
   {
     "id": "pin-2026-11-04-B0B8DXN3K2",
