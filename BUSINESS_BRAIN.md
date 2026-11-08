@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-11-08 (Strategy & Outreach 9am)
+# Last updated: 2026-11-08 (Affiliate Optimizer 10am)
 # ============================================================
 
 ---
@@ -4539,3 +4539,84 @@ Built on: Email Monitor 13:00 UTC (8 emails; 1 decline sent — Social Growth co
   1. **BATHROOM/THANKSGIVING: Foaming hand soap pump dispenser refill set ~$12-16** — Homes & Gardens confirms "guest bathroom ready for Thanksgiving guests" = active editorial keyword Nov 2026, Thanksgiving 18 days = urgency driver, guest experience = high social share rate (hosts show before/after to friends), impulse purchase before holiday hosting, lowest price point in today's picks = maximum Pinterest click-through. Zero GHP coverage from guest experience angle. IAN: search "foaming hand soap pump dispenser refill set bathroom" in Associates for top ASIN; https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20.
   2. **HOME ORG/KITCHEN: Kitchen drawer organizer set clear acrylic ~$18-28** — NEW Trend Scout Nov 8 #3 ("junk-drawer kitchen" first appearance in trend feed), TikTok Shop BFCM campaign launches NOV 11 = perfectly timed (3 days), universal pain point (every kitchen has one), ASMR-satisfying format (rubber bands and batteries → clean zones), synergy with label maker already in pipeline, BFCM under-$30 impulse gift. IAN: search "kitchen drawer organizer set clear acrylic dividers" in Associates for top ASIN; https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20.
   3. **HOME DECOR/COZY/GIFT: Vintage crochet doily table mat set ~$10-16** — House Digest 2026 confirms Pinterest doily renaissance ACTIVE ("The Old-School Decor Accessory That Pinterest Says Is Having A Renaissance In 2026"), pairs with candle warmer already in pipeline for cozy corner script, Cozy November arc, unexpectedly high share rate (nostalgia triggers shares), BFCM stocking-stuffer at $10-14 price point = one of the cheapest effective home gifts, amplifies Syruvia 20% tracking link revenue when bundled with candle warmer. IAN: search "vintage crochet doily table mat set decorative" in Associates for top ASIN; https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20.
+
+### November 2026 Affiliate Updates (updated 2026-11-08 Affiliate Optimizer 10am)
+
+**GMAIL DIRECT SCAN (post-Strategy 14:09 UTC):** CONFIRMED CLEAN — Email Monitor 13:00 UTC confirmed 0 new emails Nov 8 (inbox contains only the Nov 7 Pinterest promo already classified). Zero new emails since Strategy's 14:09 UTC run. Zero inbound on-niche GHP partnership emails. Zero emails sent. Cold outreach PAUSED per Ian Sep 3 directive.
+
+**PLATFORM STATUS:**
+
+- **AMAZON goldenhomep0a-20 ACTIVE — BFCM 19 DAYS (Nov 27), Thanksgiving 18 DAYS (Nov 26).** No new bounties, category commission changes, or promotions detected. Standing bounties unchanged: Audible $20/signup through Dec 15, Prime $12/signup, Subscribe & Save $0.25 ongoing. 🚨🚨 TikTok Shop BFCM campaign launches NOV 11 = **3 DAYS** — NEW KEY INTEL from Strategy (not in any prior affiliate entry): all home org/decor content published TODAY through Nov 10 is pre-positioned for TikTok Shop launch discovery amplification. New content slots confirmed today: Guest bathroom Thanksgiving reset $47, Junk-drawer kitchen $34 (Trend Scout #3 FIRST appearance Nov 8), Vintage doily cozy corner $55.
+
+- **IMPACT.COM:**
+  - **Mamma Mia 24-30% — DAY 60 TREND SCOUT #1 TODAY.** Revenue: $47 × 27% avg = **$12.69/sale** vs goldenhomep0a-20 at $1.88/sale (6.75× multiplier). After-first hook = 6,037-view avg format. UNBREAKABLE mandate — 60 days zero content.
+  - **Dreame 5%+ — DAY 50 ZERO TRACKING LINKS. BFCM pre-content window CLOSES NOV 10 = 🚨🚨 2 DAYS TERMINAL.** Robot vacuum content must render TODAY (Nov 8) to publish by Nov 10. If content is not in queue by EOD Nov 8, the BFCM pre-content window is permanently missed. Impact dashboard → Dreame US program → deep link builder → brief Content Engine IMMEDIATELY.
+  - **YEEDI 57605 (Impact) — DAY 6.** Robot vacuum brand. IAN: log into Impact dashboard → search "YEEDI" (campaign 57605) → join immediately. BFCM 19 days. Two robot vacuum programs = maximum BFCM coverage.
+  - **SmartWings BF Early Access — DAY 3.** 8% sitewide / 12% orders $1,500+ / free shipping ACTIVE. $16-32/sale. Build Impact tracking links + brief Content Engine. Contact Andy via Impact platform messaging only (email permanently bounced).
+  - **Syruvia 20% — Cozy November DAY 9. ZERO tracking links. ZERO scripts.** Revenue gap: $29 × 20% = **$5.80/sale** daily forfeited (vs $1.16/sale Amazon = 5× gap). 18 days to Thanksgiving Nov 26. Candle warmer / Thanksgiving tablescape DUAL-FORMAT + vintage doily cozy corner NEW arc (Strategy Nov 8) — three separate scripts possible from one tracking link. IAN: build Syruvia tracking link in Impact IMMEDIATELY.
+  - **Promeed 12% — DAY 34 OVERDUE.** $7.20/sale vs $2.40 Amazon. BFCM bedding gift window OPEN.
+  - **Best Choice Products 10-15% — 1-click pre-approved, unactioned since April.** BFCM gift-under-$50 window OPEN. IAN: Impact dashboard → click JOIN.
+  - **Sealogix Corp — contract expired midnight 11/6 (Impact 6590154).** IAN: verify niche in Impact dashboard — if on-niche, re-join; if off-niche/unused, no action needed.
+
+- **CJ AFFILIATE — AliExpress dormancy DAY 38 of 90** (52 days remain, ~Dec 30 deadline). No new invitations. Status unchanged.
+
+- **AWIN:**
+  - **Rewarx 50% recurring (ID 129153): DAY 54 IAN-BLOCKED.** Every additional day = 50% recurring commission permanently lost. Highest-commission program in portfolio.
+  - **Homary 12%/$96/sale (ID 91447): DAY 42 Lauren waiting.** BFCM premium window OPEN. IAN: complete Awin express signup → send affiliate ID to Lauren at affiliate@homary.com.
+  - **Promeed HerbalRX (ID 100833): 20% CPA ACTIVE** — Amelia confirmed Nov 6. IAN: browser accept via Awin dashboard (no-reply@awin.com, cannot email).
+  - ON-NICHE browser accepts still pending: Tribesigns (industrial bookshelves), SimpleProject (99013, 10%+), OKUN (home improvement), CozySpiritStudio (130331, 20% wall art).
+
+**HIGH-AOV OPPORTUNITY SCAN:**
+  - **Robot vacuums ($129-349):** Trend Scout Nov 8 #2. Dreame 5%+ (2-day TERMINAL); YEEDI 57605 DAY 6 (IAN join immediately). Top BFCM TikTok Shop category. $6.45-17.45/sale.
+  - **Mamma Mia couch cover ($47):** 24-30% = $11.28-$14.10/sale. DAY 60 UNBREAKABLE.
+  - **SmartWings smart shades ($200-400 avg):** BF Early Access Day 3. 8%/12% = $16-$180+/sale.
+  - **Candle warmer / Thanksgiving ($29-59):** Syruvia 20% DAY 9 (zero links). 18 days to Nov 26. THREE content arcs confirmed: (1) Cozy November, (2) Thanksgiving tablescape, (3) Vintage doily cozy corner (Strategy Nov 8).
+  - **Guest bathroom Thanksgiving reset ($47 — NEW today):** Amazon goldenhomep0a-20. Homes & Gardens editorial keyword confirmed. 18 days. Zero GHP coverage.
+  - **Junk-drawer kitchen ($34 — Trend Scout #3 first appearance):** Amazon goldenhomep0a-20. TikTok Shop BFCM launches NOV 11 = 3 DAYS. Universal pain point. ASMR-satisfying visual.
+  - **Vintage doily cozy corner ($55 — NEW today):** Syruvia 20% (candle warmer PRIMARY) + Amazon goldenhomep0a-20 (doily + amber jar). Pinterest doily renaissance confirmed. BFCM stocking-stuffer $10-14.
+  - **Homary furniture ($800+ AOV):** 12% = $96+/sale. DAY 42 BFCM window OPEN.
+  - **Fridge Reset ($38):** Amazon goldenhomep0a-20. Pinterest +375%. Thanksgiving prep dual angle. Zero GHP coverage.
+  - **Laundry room transformation ($85):** Amazon goldenhomep0a-20. Pinterest +390% HIGHEST 2026 storage growth. Zero competitor coverage (Gater DAY 22 gap).
+  - **Air purifiers ($50-150):** Levoit CJ status unknown (IAN check CJ portal).
+  - **Standing desk/home office:** Tribesigns Awin browser accept pending.
+
+**KEY DELTAS vs Nov 7 Affiliate Optimizer:**
+  - Dreame: **2 DAYS TERMINAL** (was 3) — final pre-content deadline is EOD TODAY
+  - Mamma Mia: DAY 60 (was 59)
+  - SmartWings: Day 3 BF Early Access (was Day 2)
+  - Syruvia: DAY 9 Cozy November (was 8), 18 days to Thanksgiving (was 19)
+  - YEEDI: DAY 6 (was 5)
+  - Promeed 12%: DAY 34 OVERDUE (was 33)
+  - Rewarx: DAY 54 IAN-BLOCKED (was 53)
+  - Homary: DAY 42 (was 41)
+  - CJ AliExpress: DAY 38 of 90 (52 days remain, was 37)
+  - BFCM: 19 DAYS (was 20)
+  - **TikTok Shop BFCM launches NOV 11 = 3 DAYS — NEW INTEL from Strategy (not in any prior affiliate entry)**
+  - NEW content slots from Strategy: Guest bathroom Thanksgiving reset $47, Junk-drawer kitchen $34 (first Trend Scout appearance), Vintage doily cozy corner $55
+  - Gater: DAY 22 upload gap (longest in 2026, was 21) — zero competitor coverage all slots
+  - Trend Scout Nov 8 top-3: Mamma Mia couch cover [#1 DAY 60], robot vacuum mop [#2 BFCM 2-day terminal], junk-drawer kitchen [#3 first appearance]
+  - Content Engine Nov 8: 3 scripts (shower curtain, throw pillows, couch cushions) — Mamma Mia NOT scripted (DAY 60 continues), robot vacuum NOT scripted (2-day TERMINAL)
+
+**REVENUE PRIORITY STACK (Nov 8, Affiliate Optimizer):**
+Dreame 2-day TERMINAL (IAN: build tracking links + render robot vacuum content TODAY — $7.45+/sale or permanently missed) > SmartWings BF Day 3 (8%/12% active, IAN: build tracking links + content — $16-32/sale) > Mamma Mia 24-30% DAY 60 UNBREAKABLE ($12.69/sale, 60 days zero) > TikTok Shop BFCM launches NOV 11 = 3 DAYS (brief Content Engine NOW for junk-drawer + guest bathroom) > Syruvia 20% tracking link DAY 9 ($5.80/sale daily forfeited, 18 days to Nov 26) > YEEDI 57605 (IAN join Impact, BFCM 19 days) > Promeed 12% tracking link DAY 34 OVERDUE ($7.20 vs $2.40) > Rewarx 50% recurring DAY 54 IAN-BLOCKED > Promeed HerbalRX Awin 20% (ID 100833, IAN browser accept) > Homary $96/sale DAY 42 BFCM window > CJ AliExpress dormancy DAY 38 (52 days remain).
+
+**IAN PRIORITY ACTIONS — NOV 8 (ranked by urgency × revenue):**
+  1. 🚨🚨🚨 **BUILD DREAME TRACKING LINKS IN IMPACT — CLOSES NOV 10 = 2 DAYS TERMINAL. ACT TODAY.** Impact dashboard → Dreame US program → deep link builder → brief Content Engine IMMEDIATELY for robot vacuum render TODAY. This is the final day to get content in render queue. Miss this = permanently miss the BFCM pre-content window.
+  2. 🚨🚨 **JOIN YEEDI (Impact campaign 57605) + BUILD LINK** — BFCM 19 days; Impact dashboard → search "YEEDI" → join → build link.
+  3. 🚨🚨 **BUILD SMARTWINGS IMPACT TRACKING LINKS** — Day 3 BF Early Access, $16-32/sale active. Impact dashboard → SmartWings → tracking links + message Andy via Impact platform messaging.
+  4. 🚨🚨 **BUILD SYRUVIA 20% TRACKING LINK IN IMPACT** — DAY 9, $5.80/sale daily forfeited, 3 content arcs confirmed. Impact → Syruvia → build deep tracking link.
+  5. 🚨🚨 **Brief Content Engine: TikTok Shop BFCM launches NOV 11 = 3 DAYS.** Junk-drawer kitchen $34 + Guest bathroom Thanksgiving $47 = 2 scripts timed for TikTok Shop discovery launch. Priority alongside Dreame robot vacuum.
+  6. 🚨🚨 **Script MAMMA MIA couch cover — DAY 60 UNBREAKABLE.** After-first format. Hook: "My couch looked like this. $47. Same couch. Nobody knows." 24-30% primary.
+  7. 🚨🚨 **Script CANDLE WARMER / VINTAGE DOILY COZY CORNER DUAL ARC** — Syruvia 20% primary (candle warmer $29) + Amazon doily $12 + amber jar $14 = $55. THREE arcs from one Syruvia tracking link: (1) Cozy November, (2) Thanksgiving tablescape, (3) Doily cozy corner (NEW today). 18 days to Nov 26.
+  8. 🚨🚨 **BUILD PROMEED 12% TRACKING LINK** — DAY 34 OVERDUE. Impact → Promeed → deep links for silk pillowcase + CoolRest comforter.
+  9. 🚨 **Accept PROMEED HerbalRX Awin ID 100833** — 20% CPA active. Awin browser dashboard.
+  10. 🚨 **Accept REWARX Awin ID 129153** — 50% recurring, DAY 54 IAN-BLOCKED. Awin browser → accept → reply studio@rewarx.com for Golden10 promo code.
+  11. Script GUEST BATHROOM THANKSGIVING RESET $47 — Homes & Gardens editorial keyword, 18 days, goldenhomep0a-20.
+  12. Script JUNK-DRAWER KITCHEN CHAOS $34 — Trend Scout #3 first appearance, TikTok Shop BFCM 3 days, goldenhomep0a-20.
+  13. Script FRIDGE RESET $38 — Pinterest +375%, Thanksgiving dual angle, zero GHP coverage, goldenhomep0a-20.
+  14. Script LAUNDRY ROOM TRANSFORMATION $85 — Pinterest +390% HIGHEST growth, Thanksgiving guest-ready, Gater DAY 22 gap, goldenhomep0a-20.
+  15. Verify SEALOGIX CORP — Impact 6590154 expired midnight 11/6; check niche in dashboard.
+  16. Complete HOMARY Awin express signup (merchant 91447) — affiliate ID to Lauren at affiliate@homary.com (DAY 42, BFCM window OPEN).
+  17. Accept BEST CHOICE PRODUCTS on Impact.com — 1-click pre-approved 15%, BFCM gift window OPEN.
+  18. CJ portal audit — AliExpress dormancy DAY 38 (52 days remain); check Wayfair/GreenLife/Levoit status.
+  19. Accept ON-NICHE Awin browser invites: Tribesigns, SimpleProject, OKUN, CozySpiritStudio.
