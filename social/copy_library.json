@@ -4976,6 +4976,53 @@
         ],
         "reel_format": "pov"
       }
+    ],
+    "HAIR": [
+      {
+        "hook_category": "question",
+        "hook": "Why does your cheek have a crease every morning?",
+        "beat1": "Regular cotton pillowcases grip onto hair and skin all night. That friction is what drags on strands while you sleep and presses lines into your face that take a while to fade.",
+        "turn": "This satin pillowcase set lets hair and skin glide across the surface instead of catching on it, which is the whole idea behind switching to satin or silk-style bedding. It's rated 4.5 stars across over 300,000 reviews.",
+        "result": "A smoother surface to wake up on, for about $7.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close-up of a person's cheek pressed into a cotton pillowcase, soft morning light, waking up",
+            "on_screen_text": "That morning pillow crease",
+            "voiceover": "Why does your cheek have a crease every morning?"
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Overhead shot of hair strands tangled against a textured cotton pillowcase",
+            "on_screen_text": "Cotton grips, it doesn't glide",
+            "voiceover": "Regular cotton pillowcases grip onto hair and skin all night, and that friction is what drags on your strands and presses lines into your face."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Hands smoothing a grey satin pillowcase over a pillow on a made bed",
+            "on_screen_text": "Satin lets you glide instead",
+            "voiceover": "A satin pillowcase lets hair and skin slide across the surface instead of catching on it."
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "Person resting their head peacefully on a grey satin pillowcase at night, lamp light",
+            "on_screen_text": "Rated 4.5 stars, 300k plus reviews",
+            "voiceover": "It's rated four point five stars across over three hundred thousand reviews, from people who made the same switch."
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "Bright bedroom shot of a made bed with two grey satin pillowcases, soft natural light",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "A smoother surface to wake up on, for about seven dollars. Comment {KEYWORD} and I'll send the link."
+          }
+        ],
+        "reel_format": "problem_fix"
+      }
     ]
   },
   "hashtag_pools": {
