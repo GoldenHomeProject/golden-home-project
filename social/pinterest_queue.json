@@ -10068,14 +10068,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-11-08-B0070G7IS4.png",
     "queued_at": "2026-11-08T11:17:16.380619Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "1000 Lights, One Roofline",
     "recharted": false,
     "variant": "A",
-    "ai_image": true
+    "ai_image": true,
+    "posted_at": "2026-11-08T14:41:25Z"
   },
   {
     "id": "gift_guide-2026-11-08",
