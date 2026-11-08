@@ -6779,6 +6779,22 @@
       "verified_stars": "4.6",
       "verified_reviews": 8131,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B075CVK9HY",
+      "product_name": "RYB HOME Black Blackout Curtains for Bedroom Living Room 72 inches Long | Room Darkening, Thermal Insulated, Privacy Pro",
+      "categories": [
+        "home",
+        "Window Treatments"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B075CVK9HY?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-11-08",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$14.36",
+      "verified_stars": "4.6",
+      "verified_reviews": 30560,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
