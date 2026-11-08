@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T09:59",
+ "updated": "2026-11-08T08:15",
  "note": "watch_pct = avg watch time / reel length (IG has no 3-second-hold metric). Clicks and orders: Associates report by ascsubtag.",
  "summary": {
   "v1": {
@@ -7,6 +7,12 @@
    "like_count": 0.0,
    "comments_count": 0.0,
    "link_replies": null
+  },
+  "v2": {
+   "reels": 1,
+   "like_count": 0.0,
+   "comments_count": 0.0,
+   "link_replies": 0.0
   }
  },
  "reels": [
@@ -99,6 +105,24 @@
    "watch_pct": null,
    "keyword": null,
    "link_replies": null
+  },
+  {
+   "date": "2026-11-07",
+   "variant": "v2",
+   "title": "POV: meal prep Sunday finally works",
+   "ig_media": "18107241178994766",
+   "youtube": "vgFfW7_9TDY",
+   "length_s": 18.1,
+   "comments_count": 0,
+   "like_count": 0,
+   "permalink": "https://www.instagram.com/reel/DfdEF_VGZC-/",
+   "plays": null,
+   "saves": null,
+   "shares": null,
+   "avg_watch_s": null,
+   "watch_pct": null,
+   "keyword": "KITCHEN",
+   "link_replies": 0
   }
  ]
 }
