@@ -6810,6 +6810,22 @@
       "verified_stars": "4.6",
       "verified_reviews": 30560,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0183SN7H8",
+      "product_name": "Cleanbear Washcloths Set, 100% Cotton, 6-Pack Wash Cloths, 13\u201d x 13\u201d | Soft Large Cotton Washcloths for Showering, Face,",
+      "categories": [
+        "home",
+        "Bath Linens"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0183SN7H8?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-11-09",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$11.84",
+      "verified_stars": "4.7",
+      "verified_reviews": 16308,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
