@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-11-09 (Strategy & Outreach 9am)
+# Last updated: 2026-11-09 (Affiliate Optimizer 10am)
 # ============================================================
 
 ---
@@ -4669,3 +4669,90 @@ Add an explicit on-screen "subscribe for more" CTA in the first 3 seconds of the
 - **Mamma Mia couch cover — 61st consecutive day UNSCRIPTED. Trend Scout likely #1 DAY 61.** UNBREAKABLE MANDATE. After-first format = confirmed 6,037-view average. 24-30% ACTIVE commission.
 - **Competitor watch (Nov 9):** Web search returned no confirmed Alexandra Gater November 2026 upload — consistent with DAY 23+ upload gap, now her longest confirmed gap in 2026. Zero competitor coverage on 48-hour Thanksgiving declutter arc, BFCM colorful cookware, over-sink dish rack, candle warmer, fridge reset, laundry room, guest bathroom. Renter + dollar-specificity moat fully intact.
 - **Amazon picks for Pinterest pipeline (Nov 9) — categories with real August sales:** (1) KITCHEN/BFCM: Colorful nonstick ceramic cookware set ~$47-79 — TikTok viral BFCM cookware campaign confirmed today (Karaca BF Oct 28-Dec 2), HyperSKU kitchenware Q4 beats market, cottagecore fall palette, zero GHP coverage since Sep 13, peak BFCM gifting arc; IAN: search "colorful ceramic nonstick cookware set sage green" in Associates; https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20. (2) KITCHEN/THANKSGIVING: Over-sink dish drying station expandable ~$35-45 — NEW today, Homes & Gardens "kitchen ready for Thanksgiving guests" active editorial keyword, highest-share Thanksgiving cleanup format, renter-safe zero-install, zero GHP coverage; IAN: search "over sink dish drying rack expandable adjustable" in Associates; goldenhomep0a-20 tag. (3) HOME ORGANIZATION/THANKSGIVING: Lazy susan/turntable pantry organizer ~$18-28 — Pinterest "thanksgiving table decor" +125% NOW peak save window, YouCopia SmoothSpin in pipeline, Thanksgiving table AND pantry zone use, 17 days out, Nov 4 Amazon pick still unscripted; IAN: search "lazy susan turntable pantry organizer" in Associates; goldenhomep0a-20 tag.
+
+### November 2026 Affiliate Updates (updated 2026-11-09 Affiliate Optimizer 10am)
+
+**GMAIL DIRECT SCAN (post-Strategy 13:12 UTC):** 1 new email — Impact.com Updates Digest (13:21 UTC, notifications@app.impact.com). Contains 2 new marketplace campaigns:
+- **Mercury - Consumer Banking (CID 57088)** — BANKING/FINANCIAL product. OFF-NICHE per Scope Guard (LLC/legal/tax/bank exception). No action. Logged for Marketing Dept / Ian below.
+- **DayClass (CID 59650)** — Online learning platform. OFF-NICHE per Scope Guard. No action. Logged for Marketing Dept / Ian below.
+No other emails. Zero inbound on-niche GHP partnership emails. Zero emails sent. Cold outreach PAUSED per Ian Sep 3 directive.
+
+**PLATFORM STATUS:**
+
+- **AMAZON goldenhomep0a-20 ACTIVE — BFCM 18 DAYS (Nov 27), Thanksgiving 17 DAYS (Nov 26).** Standing bounties unchanged: Audible $20/signup through Dec 15, Prime $12/signup, Subscribe & Save $0.25 ongoing. 🚨🚨🚨 TikTok Shop BFCM campaign LAUNCHES TOMORROW NOV 11 — from Strategy (Nov 8 + Nov 9): all home org/decor content published TODAY through Nov 11 is positioned for maximum TikTok Shop discovery amplification. New content slots confirmed today by Trend Scout + Strategy: Mamma Mia couch cover $49 [#1], entryway bench $129 [#2], robot vacuum mop $249 [#3], arc floor lamp $79 [#4], Best Choice vintage accent cabinet $159 [#5]; 48-hour Thanksgiving declutter sprint viral confirmed (AOL), colorful ceramic cookware BFCM $47-79, over-sink dish rack Thanksgiving cleanup $38.
+
+- **IMPACT.COM:**
+  - **Mamma Mia 24-30% — DAY 61 TREND SCOUT #1 TODAY.** Revenue: $49 × 27% avg = **$13.23/sale** vs goldenhomep0a-20 at $1.47/sale (9×+ multiplier). After-first hook = 6,037-view avg format. UNBREAKABLE mandate — 61 days zero content.
+  - **Dreame 5%+ — DAY 51 ZERO TRACKING LINKS. BFCM pre-content window CLOSES NOV 10 = 🚨🚨🚨 1 DAY TERMINAL — ABSOLUTE LAST CHANCE.** Robot vacuum content must render TODAY (Nov 9) or BFCM slot is permanently lost. Impact dashboard → Dreame US program → deep link builder → brief Content Engine IMMEDIATELY.
+  - **YEEDI 57605 (Impact) — DAY 7.** Robot vacuum brand, BFCM 18 days. IAN: Impact dashboard → search "YEEDI" (campaign 57605) → join → build links. Pairs with Dreame for dual robot vacuum BFCM coverage.
+  - **SmartWings BF Early Access — DAY 4.** 8% sitewide / 12% orders $1,500+ / free shipping ACTIVE. $16-32/sale. Build Impact tracking links + brief Content Engine. Contact Andy via Impact platform messaging only.
+  - **Syruvia 20% — Cozy November DAY 10. ZERO tracking links.** Revenue gap: $29 × 20% = **$5.80/sale** daily forfeited (vs $1.16/sale Amazon = 5× gap). 17 days to Thanksgiving Nov 26. THREE content arcs confirmed: (1) Cozy November, (2) Thanksgiving tablescape, (3) Vintage doily cozy corner (Strategy Nov 8). IAN: build Syruvia tracking link in Impact IMMEDIATELY.
+  - **Promeed 12% — DAY 35 OVERDUE.** $7.20/sale vs $2.40 Amazon. BFCM bedding gift window OPEN.
+  - **Best Choice Products 10-15% — 1-click pre-approved, unactioned.** TREND SCOUT #5 TODAY — vintage dark wood accent cabinet $159 at 15% = **$23.85/sale**. BFCM gift window OPEN. 1-click accept. IAN: Impact dashboard → click JOIN.
+  - **Sealogix Corp — contract expired midnight 11/6 (Impact 6590154).** IAN: verify niche in Impact dashboard — if on-niche, re-join; if off-niche/unused, no action needed.
+
+- **CJ AFFILIATE — AliExpress dormancy DAY 39 of 90** (~51 days remain to ~Dec 30 deadline). No new invitations. Status unchanged.
+
+- **AWIN:**
+  - **Rewarx 50% recurring (ID 129153): DAY 55 IAN-BLOCKED.** Every additional day = 50% recurring commission permanently lost. Highest-commission program in portfolio.
+  - **Homary 12%/$96/sale (ID 91447): DAY 43 Lauren waiting.** BFCM premium window OPEN. IAN: complete Awin express signup → send affiliate ID to Lauren at affiliate@homary.com.
+  - **Promeed HerbalRX (ID 100833): 20% CPA ACTIVE** — Amelia confirmed Nov 6. IAN: browser accept via Awin dashboard.
+  - ON-NICHE browser accepts still pending: Tribesigns, SimpleProject (99013), OKUN, CozySpiritStudio (130331, 20% wall art).
+
+**HIGH-AOV OPPORTUNITY SCAN (Nov 9):**
+  - **Mamma Mia couch cover ($49):** Impact 24-30% = $11.76-$14.70/sale. DAY 61 Trend Scout #1.
+  - **Entryway bench ($129):** Trend Scout #2. Amazon 5-8% = $6.45-$10.32/sale. Holiday clutter + Thanksgiving guests hook.
+  - **Robot vacuums ($249+):** Trend Scout #3. Dreame 5%+ (1-day TERMINAL); YEEDI 57605 DAY 7. BFCM top category.
+  - **Arc floor lamp ($79):** Trend Scout #4. Amazon 5-8% = $3.95-$6.32/sale. "Banish the big light" Apartment Therapy viral pin.
+  - **Best Choice vintage accent cabinet ($159):** Trend Scout #5. 15% = **$23.85/sale**. 1-click STILL unactioned.
+  - **SmartWings smart shades ($200-400 avg):** BF Early Access Day 4. 8-12% = $16-$180+/sale.
+  - **Homary furniture ($800+ AOV):** 12% = $96+/sale. DAY 43 BFCM window OPEN.
+  - **Colorful ceramic cookware ($47-79):** TikTok viral BFCM confirmed today (Karaca Oct 28-Dec 2). Zero GHP coverage.
+  - **Over-sink dish rack ($35-45):** Thanksgiving cleanup arc. Homes & Gardens editorial keyword. Zero GHP coverage.
+  - **48-hour Thanksgiving declutter ($65-75):** Viral TikTok confirmed (AOL). Multi-room arc, 17 days.
+
+**KEY DELTAS vs Nov 8 Affiliate Optimizer:**
+  - Dreame: **1 DAY TERMINAL** (was 2 — absolute final deadline TODAY)
+  - TikTok Shop BFCM: **TOMORROW NOV 11** (was 3 days)
+  - Mamma Mia: DAY 61 (was 60)
+  - SmartWings: Day 4 BF Early Access (was Day 3)
+  - Syruvia: DAY 10 Cozy November (was 9), 17 days to Thanksgiving (was 18)
+  - YEEDI: DAY 7 (was 6)
+  - Promeed 12%: DAY 35 OVERDUE (was 34)
+  - Rewarx: DAY 55 IAN-BLOCKED (was 54)
+  - Homary: DAY 43 (was 42)
+  - CJ AliExpress: DAY 39 of 90 (~51 days remain, was 38)
+  - BFCM: 18 DAYS (was 19)
+  - **NEW Impact digest Nov 9:** Mercury Banking (CID 57088) OFF-NICHE + DayClass (CID 59650) OFF-NICHE — both logged for Marketing Dept / Ian, no action
+  - **Best Choice vintage accent cabinet $159 at Trend Scout #5 TODAY** — 15% = $23.85/sale, 1-click STILL unactioned
+  - Trend Scout Nov 9: Mamma Mia $49 [#1 DAY 61], entryway bench $129 [#2], robot vacuum mop $249 [#3], arc floor lamp $79 [#4 NEW], Best Choice vintage cabinet $159 [#5]
+  - Gater: DAY 23+ upload gap confirmed by Strategy (longest in 2026, all slots uncovered)
+  - Content Engine Nov 9: not yet run as of this audit
+
+**REVENUE PRIORITY STACK (Nov 9, Affiliate Optimizer):**
+Dreame 1-DAY TERMINAL (IAN: build links + render robot vacuum TODAY or permanently lost) > SmartWings BF Day 4 (8%/12% active, $16-32/sale, build tracking links NOW) > Mamma Mia 24-30% DAY 61 UNBREAKABLE ($13.23/sale, 61 days zero) > TikTok Shop BFCM LAUNCHES TOMORROW (brief Content Engine NOW for 48-hour Thanksgiving arc + cookware + dish rack) > Syruvia 20% tracking link DAY 10 ($5.80/sale daily forfeited, 17 days to Nov 26) > YEEDI 57605 (IAN join Impact, BFCM 18 days) > Best Choice 15% 1-click (Trend Scout #5 TODAY, $23.85/sale on $159 cabinet) > Promeed 12% tracking link DAY 35 OVERDUE ($7.20 vs $2.40) > Rewarx 50% recurring DAY 55 IAN-BLOCKED > Homary $96/sale DAY 43 BFCM window > CJ AliExpress DAY 39 of 90 (51 days remain).
+
+**IAN PRIORITY ACTIONS — NOV 9 (ranked by urgency × revenue):**
+  1. 🚨🚨🚨 **BUILD DREAME IMPACT TRACKING LINKS — CLOSES NOV 10 = TOMORROW. ABSOLUTE LAST CHANCE.** Impact dashboard → Dreame US program → deep link builder → brief Content Engine IMMEDIATELY for robot vacuum render TODAY. After today, BFCM pre-content window is permanently gone.
+  2. 🚨🚨 **JOIN YEEDI (Impact campaign 57605) + BUILD LINK** — BFCM 18 days; robot vacuum content needs both programs for maximum coverage.
+  3. 🚨🚨 **TIKTOK SHOP BFCM LAUNCHES TOMORROW NOV 11** — brief Content Engine NOW: 48-hour Thanksgiving declutter arc, colorful ceramic cookware, over-sink dish rack.
+  4. 🚨🚨 **BUILD SMARTWINGS IMPACT TRACKING LINKS** — Day 4 BF Early Access, $16-32/sale, BFCM 18 days.
+  5. 🚨🚨 **BUILD SYRUVIA 20% TRACKING LINK IN IMPACT** — DAY 10, $5.80/sale daily forfeited, 3 content arcs. Impact → Syruvia → build deep tracking link.
+  6. 🚨🚨 **Script MAMMA MIA couch cover — DAY 61 UNBREAKABLE.** After-first format, $13.23/sale, Trend Scout #1 again today.
+  7. 🚨🚨 **Script CANDLE WARMER / THANKSGIVING / DOILY COZY CORNER ARC** — Syruvia 20% primary, 17 days to Nov 26, 3 scripts from one tracking link.
+  8. 🚨🚨 **BUILD PROMEED 12% TRACKING LINK** — DAY 35 OVERDUE. Impact → Promeed → deep links.
+  9. 🚨🚨 **ACCEPT BEST CHOICE PRODUCTS on Impact.com** — 1-click pre-approved 15%, **$23.85/sale** on $159 vintage cabinet (Trend Scout #5 TODAY), BFCM gift window OPEN. 1-click accept.
+  10. 🚨 **Accept REWARX Awin ID 129153** — 50% recurring, DAY 55 IAN-BLOCKED.
+  11. Script 48-HOUR THANKSGIVING DECLUTTER ARC — viral TikTok confirmed (AOL), 17 days, $65-75 total, goldenhomep0a-20.
+  12. Script COLORFUL CERAMIC COOKWARE BFCM — Karaca BF campaign Oct 28-Dec 2 TikTok Shop confirmed, zero GHP, $47-79, goldenhomep0a-20.
+  13. Script OVER-SINK DISH RACK Thanksgiving cleanup — Homes & Gardens editorial keyword, $38, goldenhomep0a-20.
+  14. Script FRIDGE RESET $38 — Pinterest +375%, Thanksgiving dual angle, goldenhomep0a-20.
+  15. Script LAUNDRY ROOM TRANSFORMATION $85 — Pinterest +390%, Thanksgiving guest-ready, goldenhomep0a-20.
+  16. Verify SEALOGIX CORP — Impact 6590154 expired midnight 11/6; check niche in dashboard.
+  17. Complete HOMARY Awin express signup — affiliate ID to Lauren at affiliate@homary.com (DAY 43, BFCM window OPEN).
+  18. CJ portal audit — AliExpress dormancy DAY 39 (51 days remain); check Levoit/Wayfair/GreenLife status.
+  19. Accept ON-NICHE Awin browser invites: Tribesigns, SimpleProject, OKUN, CozySpiritStudio.
+
+### FOR MARKETING DEPT / IAN — not GHP (Nov 9 Affiliate Optimizer)
+- **Sender:** notifications@app.impact.com | **Subject:** "Updates Digest" (Impact.com, Nov 9 13:21 UTC) | **Mercury - Consumer Banking (CID 57088)** joined Impact marketplace (Nov 4 02:29 UTC) — banking/consumer financial product, OFF-NICHE (LLC/legal/tax/bank Scope Guard exclusion). No reply sent; no GHP action.
+- **Sender:** notifications@app.impact.com | **Subject:** "Updates Digest" (Impact.com, Nov 9 13:21 UTC) | **DayClass (CID 59650)** joined Impact marketplace (Nov 3 22:11 UTC) — online learning/course platform, OFF-NICHE. No reply sent; no GHP action.
