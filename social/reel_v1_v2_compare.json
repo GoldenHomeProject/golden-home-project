@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-08T08:15",
+ "updated": "2026-11-09T08:15",
  "note": "watch_pct = avg watch time / reel length (IG has no 3-second-hold metric). Clicks and orders: Associates report by ascsubtag.",
  "summary": {
   "v1": {
-   "reels": 5,
+   "reels": 6,
    "like_count": 0.0,
    "comments_count": 0.0,
    "link_replies": null
@@ -123,6 +123,24 @@
    "watch_pct": null,
    "keyword": "KITCHEN",
    "link_replies": 0
+  },
+  {
+   "date": "2026-11-08",
+   "variant": "v1",
+   "title": "Your couch cushions go flat before anyone even sits down",
+   "ig_media": "17979516141129359",
+   "youtube": "4EgmMbSGiEM",
+   "length_s": 20.0,
+   "comments_count": 0,
+   "like_count": 0,
+   "permalink": "https://www.instagram.com/reel/Dffq9BrEdDc/",
+   "plays": null,
+   "saves": null,
+   "shares": null,
+   "avg_watch_s": null,
+   "watch_pct": null,
+   "keyword": null,
+   "link_replies": null
   }
  ]
 }
