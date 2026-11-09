@@ -9587,5 +9587,77 @@
     },
     "hook": "Your couch cushions go flat before anyone even sits down.",
     "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-08-003.mp4"
+  },
+  {
+    "name": "reel_2026-11-09_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-09-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Your shower curtain keeps clinging to your leg mid-shower.\n\nRunning water pulls air out of the shower stall, and a light curtain gets dragged inward right along with it. Thin liners have nothing weighing the bottom down, so they billow and stick the second the water gets going.\n\nThis AmazerBath curtain is clear heavy duty 8G PEVA with a weighted bottom, so it hangs close to the tub instead of flying at you. About ninety thousand people have rated it 4.6 stars.\n\nLess reaching over to peel plastic off your leg, more just showering. It runs about nine dollars.\n\nComment AMAZERBATH and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "AmazerBath Plastic Shower Curtain Clear Premium PEVA, Clear Shower Curtain Heavy Duty 8G, Weighted Shower Curtains for B",
+      "dm_keyword": "AMAZERBATH",
+      "amazon_asin": "B07236M4HC",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B07236M4HC?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B07236M4HC?tag=goldenhomep0a-20"
+    },
+    "hook": "Your shower curtain keeps clinging to your leg mid-shower."
+  },
+  {
+    "name": "reel_2026-11-09_002",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-09-002.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Stop buying a shower liner that clings to your leg.\n\nThin plastic liners billow in as the water heats up, so they stick to your skin halfway through a shower. Cheap liners also hold onto soap film and mildew spots fast, so they look dingy within weeks no matter how often you wipe them down.\n\nThis is an Oeko-tex certified liner in the standard size, made to hang flat along the tub instead of ballooning inward. People rate it 4.5 stars, and over a hundred thousand reviews are on it.\n\nA liner that stays put and still looks clean after regular use, for about $9.\n\nComment OEKO and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Barossa Design Oeko-tex Certified Shower Curtain Liner Standard Size",
+      "dm_keyword": "OEKO",
+      "amazon_asin": "B08QRFZ6TH",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B08QRFZ6TH?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Stop buying a shower liner that clings to your leg."
+  },
+  {
+    "name": "reel_2026-11-09_003",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-09-003.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Stop buying thin curtains that let morning light in.\n\nMost curtain fabric is woven loose enough that light still gets through, especially along the top and side edges where panels don't quite meet. So sunrise, streetlights, or a neighbor's porch light end up in the room anyway, even with the curtains closed.\n\nThese are blackout panels made to cover the whole window and stop light at the source instead of just filtering it. Over a hundred thousand people have rated this two panel set 4.6 stars for bedrooms exactly like this.\n\nFor about $10, you get a window that goes properly dark instead of glowing at sunrise or under a streetlight, with two panels included for a standard window.\n\nComment BEDROOM and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "NICETOWN Black Blackout Curtains for Bedroom 42\" Wide x 63\" Long 2 Pan",
+      "dm_keyword": "BEDROOM",
+      "amazon_asin": "B01CS31R94",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01CS31R94?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Stop buying thin curtains that let morning light in."
   }
 ]
