@@ -9750,11 +9750,12 @@
     "image_path": "social/pinterest/room_cart-2026-11-05.png",
     "image_url": "https://goldenhomeproject.com/social/pinterest/room_cart-2026-11-05.png",
     "queued_at": "2026-11-05T11:20:25.373141Z",
-    "posted": false,
+    "posted": true,
     "source": "generate_format_pins",
     "format": "room_cart",
     "variant": "A",
-    "guide": null
+    "guide": null,
+    "posted_at": "2026-11-09T02:15:25Z"
   },
   {
     "id": "pin-2026-11-06-B01N2SAIN7",
