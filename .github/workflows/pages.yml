@@ -41,11 +41,17 @@ on:
       # kept cancelling each other's deploys). Not served: the site copies only *.html.
       - '*.md'
   workflow_dispatch:
+    inputs:
+      redeploy:
+        description: 'Set by the workflow itself after a stalled deploy (do not set by hand)'
+        required: false
+        default: 'no'
 
 permissions:
   contents: read
   pages: write
   id-token: write
+  actions: write   # lets a stalled run queue one fresh deploy (see "Requeue")
 
 concurrency:
   group: pages
@@ -254,10 +260,23 @@ jobs:
           echo "Second attempt also failed — GitHub Pages looks degraded, backing off."
           sleep 180
 
+      # 2026-11-09: GitHub sat on "syncing_files" for 10 min on all three attempts of a
+      # 369 MB artifact that synced in seconds 30 min earlier - a stall on their side.
+      # Instead of failing (a failure email to Ian each time), the first stalled run queues
+      # ONE fresh deploy; only if that one also stalls does the run fail loudly.
       - name: Deploy to Pages (final attempt)
         id: d3
         if: steps.d1.outcome == 'failure' && steps.d2.outcome == 'failure'
+        continue-on-error: ${{ github.event.inputs.redeploy != 'yes' }}
         uses: actions/deploy-pages@v4
+
+      - name: Requeue one fresh deploy after a GitHub stall
+        if: steps.d3.outcome == 'failure' && github.event.inputs.redeploy != 'yes'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          echo "::warning title=Pages stalled::All 3 deploy attempts stalled on GitHub's side; queued one fresh deploy."
+          gh workflow run pages.yml --repo "${{ github.repository }}" --ref main -f redeploy=yes
 
       - name: Report
         run: |
