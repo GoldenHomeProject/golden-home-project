@@ -1,97 +1,47 @@
 {
-  "generated_at": "2026-11-08T11:42:08.938304Z",
-  "date": "2026-11-08",
+  "generated_at": "2026-11-09T13:34:01.798852Z",
+  "date": "2026-11-09",
   "opportunities": [
     {
       "rank": 1,
       "product_category": "couch/sofa covers",
       "specific_product": "Mamma Mia waterproof stretch sofa cover",
       "brand": "Mamma Mia Covers",
-      "target_price": "$42",
-      "transformation_hook": "Turned a torn, pet-hair couch into a Thanksgiving-ready sofa for $42",
-      "before_state": "Worn, stained couch covered in pet hair and claw marks, embarrassing before holiday guests arrive",
-      "after_state": "Smooth, tailored slipcover in a neutral tone that looks brand-new and resists pet hair",
+      "target_price": "$49",
+      "transformation_hook": "Hide pet hair & stains for $49 \u2014 couch looks brand new",
+      "before_state": "Worn, stained couch buried under mismatched throw blankets to hide pet hair and scratches",
+      "after_state": "Smooth, tailored stretch cover turns the same couch into a clean, boutique-look centerpiece in under 5 minutes",
       "buyer_intent_keywords": [
-        "couch cover for pets",
-        "waterproof sofa cover",
-        "stretch couch cover",
-        "pet hair proof couch cover",
-        "sofa cover for dogs"
-      ],
-      "scores": {
-        "trend": 8,
-        "transformation": 10,
-        "affiliate": 9,
-        "intent": 9
-      },
-      "composite_score": 36,
-      "why_now": "Thanksgiving hosting is 18 days out and HGTV's guest-ready mudroom content signals rising 'make the house guest-ready fast' searches, pushing this high-commission pet-proof cover into its peak buying window."
-    },
-    {
-      "rank": 2,
-      "product_category": "robot vacuum/mop",
-      "specific_product": "Roborock F25-style wet-dry vacuum mop combo",
-      "brand": "Amazon generic / Roborock",
-      "target_price": "$299",
-      "transformation_hook": "Replaced a mop bucket and dusty floors with a self-cleaning robot for under $300 this Black Friday",
-      "before_state": "Sticky, crumb-covered kitchen floor with a mop and bucket sitting in the corner",
-      "after_state": "Spotless floors with the robot docked and self-cleaning, zero manual mopping",
-      "buyer_intent_keywords": [
-        "best robot vacuum mop 2026",
-        "robot vacuum black friday deal",
-        "self cleaning mop robot",
-        "roborock dupe",
-        "robot vacuum for pet hair"
-      ],
-      "scores": {
-        "trend": 9,
-        "transformation": 9,
-        "affiliate": 8,
-        "intent": 9
-      },
-      "composite_score": 35,
-      "why_now": "Apartment Therapy's top pin this cycle is explicitly a wet-dry robot vacuum 'mopping hack,' and Real Simple's early Black Friday home-deal coverage is driving peak purchase intent for this category right now."
-    },
-    {
-      "rank": 3,
-      "product_category": "kitchen drawer & cabinet organizers",
-      "specific_product": "Syruvia stackable drawer organizer set",
-      "brand": "Syruvia",
-      "target_price": "$28",
-      "transformation_hook": "Turned a chaotic junk-drawer kitchen into a magazine-worthy setup for $28",
-      "before_state": "Overflowing utensil drawer and cluttered cabinets with mismatched containers",
-      "after_state": "Perfectly stacked, labeled organizers with every tool visible and in its place",
-      "buyer_intent_keywords": [
-        "kitchen drawer organizer",
-        "cabinet organization ideas",
-        "small kitchen storage solutions",
-        "pantry organizer set",
-        "kitchen tool organizer"
+        "couch covers for dogs",
+        "pet hair proof sofa cover",
+        "waterproof couch cover",
+        "stretch sofa slipcover",
+        "covers for scratched couch"
       ],
       "scores": {
         "trend": 7,
-        "transformation": 10,
-        "affiliate": 9,
+        "transformation": 9,
+        "affiliate": 10,
         "intent": 8
       },
       "composite_score": 34,
-      "why_now": "HGTV and Real Simple are both running small-kitchen-transformation and '2027 kitchen trend' content this week, and organizers are the cheapest, lowest-friction way for viewers to replicate the look."
+      "why_now": "Holiday hosting season plus Pinterest's trending denim-sofa aesthetic has shoppers racing to refresh worn couches before guests arrive, and Mamma Mia's 24-30% commission makes this the highest-value pick."
     },
     {
-      "rank": 4,
-      "product_category": "entryway/mudroom storage bench",
-      "specific_product": "Best Choice Products storage bench with shoe cubby",
-      "brand": "Best Choice Products",
-      "target_price": "$110",
-      "transformation_hook": "Turned a shoe-pile entryway into a guest-ready mudroom for $110 before Thanksgiving",
-      "before_state": "Pile of shoes, coats, and bags dumped by the front door",
-      "after_state": "Clean bench with cubbies, hooks, and baskets that guests actually compliment",
+      "rank": 2,
+      "product_category": "entryway/mudroom storage",
+      "specific_product": "wall-mounted entryway storage bench with hooks and cubbies",
+      "brand": "Amazon generic",
+      "target_price": "$129",
+      "transformation_hook": "Entryway chaos to HGTV-style mudroom for $129",
+      "before_state": "Cluttered entryway floor piled with shoes, coats, and bags with no defined drop zone",
+      "after_state": "Organized bench with labeled cubbies, hooks, and seating that looks styled straight out of an HGTV spread",
       "buyer_intent_keywords": [
         "entryway storage bench",
         "mudroom organization ideas",
         "shoe storage bench",
-        "small entryway furniture",
-        "laundry mudroom combo"
+        "small entryway organizer",
+        "coat and shoe rack"
       ],
       "scores": {
         "trend": 7,
@@ -100,32 +50,82 @@
         "intent": 8
       },
       "composite_score": 32,
-      "why_now": "HGTV's top-performing pin this cycle is a mudroom/laundry storage combo, and with Thanksgiving guests arriving in under three weeks, entryway-fix searches are climbing."
+      "why_now": "HGTV's mudroom/laundry storage pin and Real Simple's pre-Thanksgiving 'guest-ready home' cleaning push are both spiking right now, driving urgency around entryway organization."
     },
     {
-      "rank": 5,
-      "product_category": "cervical support pillows",
-      "specific_product": "Eli & Elm side sleeper neck pillow",
-      "brand": "Eli & Elm",
-      "target_price": "$55",
-      "transformation_hook": "Swapped a flat, lumpy pillow for a $55 cervical pillow that fixed neck pain and styled the headboard",
-      "before_state": "Mismatched, flat pillows and a bare wall above an unstyled headboard",
-      "after_state": "Layered, supportive pillow stack that looks curated and solves neck pain for side sleepers",
+      "rank": 3,
+      "product_category": "wet-dry vacuum mop",
+      "specific_product": "cordless self-cleaning wet-dry vacuum mop",
+      "brand": "Amazon generic",
+      "target_price": "$249",
+      "transformation_hook": "Ditch the mop bucket \u2014 spotless floors for $249",
+      "before_state": "Sticky floors, sloshy mop buckets, and dirty mop water splattered across the kitchen",
+      "after_state": "Self-cleaning wet-dry vacuum glides across floors leaving them spotless with zero bucket mess",
       "buyer_intent_keywords": [
-        "pillow for neck pain side sleeper",
-        "cervical support pillow",
-        "best pillow for neck pain 2026",
-        "bedroom headboard decor ideas",
-        "side sleeper pillow"
+        "wet dry vacuum mop",
+        "self cleaning mop",
+        "best mop for hardwood floors",
+        "cordless floor washer",
+        "mop alternative"
+      ],
+      "scores": {
+        "trend": 8,
+        "transformation": 8,
+        "affiliate": 8,
+        "intent": 8
+      },
+      "composite_score": 32,
+      "why_now": "Apartment Therapy's viral 'ultimate floor mopping hack' pin is driving searches for bucket-free wet-dry vacuums right as holiday hosting ramps up cleaning demands."
+    },
+    {
+      "rank": 4,
+      "product_category": "layered lighting / floor lamps",
+      "specific_product": "modern arc floor lamp with warm LED",
+      "brand": "Amazon generic",
+      "target_price": "$79",
+      "transformation_hook": "Banish the 'big light' \u2014 cozy living room glow-up for $79",
+      "before_state": "Dim, flat living room lit only by one harsh overhead 'big light'",
+      "after_state": "Warm, layered glow from a stylish floor lamp creates a cozy, magazine-worthy fall/winter living room",
+      "buyer_intent_keywords": [
+        "floor lamp living room",
+        "warm ambient lighting",
+        "cozy lighting ideas",
+        "arc floor lamp",
+        "layered lighting"
       ],
       "scores": {
         "trend": 6,
         "transformation": 8,
-        "affiliate": 8,
+        "affiliate": 9,
         "intent": 7
       },
-      "composite_score": 29,
-      "why_now": "HGTV's 'dress up the space above your headboard' pin is live right now, giving a styling hook to pair with Eli & Elm's high-commission neck-pain angle as this evergreen search resurfaces."
+      "composite_score": 30,
+      "why_now": "Apartment Therapy's 'banish the big light' layered-lighting pin is surfacing just as shorter November days push shoppers toward cozy lighting fixes."
+    },
+    {
+      "rank": 5,
+      "product_category": "vintage-style accent furniture",
+      "specific_product": "Best Choice Products dark wood vintage-style accent cabinet",
+      "brand": "Best Choice Products",
+      "target_price": "$159",
+      "transformation_hook": "2027's hottest decor trend for $159 \u2014 antique-chic room refresh",
+      "before_state": "Generic, builder-grade living room with no character or focal point",
+      "after_state": "Dark wood accent furniture and vintage-inspired framing give the room a collected, antique-chic look designers are calling the next big trend",
+      "buyer_intent_keywords": [
+        "vintage style furniture",
+        "dark wood accent table",
+        "antique decor trend",
+        "collected home decor",
+        "vintage frames decor"
+      ],
+      "scores": {
+        "trend": 6,
+        "transformation": 7,
+        "affiliate": 8,
+        "intent": 6
+      },
+      "composite_score": 27,
+      "why_now": "Real Simple's 2027 antique-decor trend forecast is prompting early-adopter shoppers to buy vintage-style pieces now, ahead of the mainstream wave, and Best Choice Products offers a 15% commission on furniture."
     }
   ],
   "raw_signal_count": 85,

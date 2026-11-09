@@ -1,0 +1,136 @@
+{
+  "generated_at": "2026-11-09T13:34:01.798852Z",
+  "date": "2026-11-09",
+  "opportunities": [
+    {
+      "rank": 1,
+      "product_category": "couch/sofa covers",
+      "specific_product": "Mamma Mia waterproof stretch sofa cover",
+      "brand": "Mamma Mia Covers",
+      "target_price": "$49",
+      "transformation_hook": "Hide pet hair & stains for $49 \u2014 couch looks brand new",
+      "before_state": "Worn, stained couch buried under mismatched throw blankets to hide pet hair and scratches",
+      "after_state": "Smooth, tailored stretch cover turns the same couch into a clean, boutique-look centerpiece in under 5 minutes",
+      "buyer_intent_keywords": [
+        "couch covers for dogs",
+        "pet hair proof sofa cover",
+        "waterproof couch cover",
+        "stretch sofa slipcover",
+        "covers for scratched couch"
+      ],
+      "scores": {
+        "trend": 7,
+        "transformation": 9,
+        "affiliate": 10,
+        "intent": 8
+      },
+      "composite_score": 34,
+      "why_now": "Holiday hosting season plus Pinterest's trending denim-sofa aesthetic has shoppers racing to refresh worn couches before guests arrive, and Mamma Mia's 24-30% commission makes this the highest-value pick."
+    },
+    {
+      "rank": 2,
+      "product_category": "entryway/mudroom storage",
+      "specific_product": "wall-mounted entryway storage bench with hooks and cubbies",
+      "brand": "Amazon generic",
+      "target_price": "$129",
+      "transformation_hook": "Entryway chaos to HGTV-style mudroom for $129",
+      "before_state": "Cluttered entryway floor piled with shoes, coats, and bags with no defined drop zone",
+      "after_state": "Organized bench with labeled cubbies, hooks, and seating that looks styled straight out of an HGTV spread",
+      "buyer_intent_keywords": [
+        "entryway storage bench",
+        "mudroom organization ideas",
+        "shoe storage bench",
+        "small entryway organizer",
+        "coat and shoe rack"
+      ],
+      "scores": {
+        "trend": 7,
+        "transformation": 9,
+        "affiliate": 8,
+        "intent": 8
+      },
+      "composite_score": 32,
+      "why_now": "HGTV's mudroom/laundry storage pin and Real Simple's pre-Thanksgiving 'guest-ready home' cleaning push are both spiking right now, driving urgency around entryway organization."
+    },
+    {
+      "rank": 3,
+      "product_category": "wet-dry vacuum mop",
+      "specific_product": "cordless self-cleaning wet-dry vacuum mop",
+      "brand": "Amazon generic",
+      "target_price": "$249",
+      "transformation_hook": "Ditch the mop bucket \u2014 spotless floors for $249",
+      "before_state": "Sticky floors, sloshy mop buckets, and dirty mop water splattered across the kitchen",
+      "after_state": "Self-cleaning wet-dry vacuum glides across floors leaving them spotless with zero bucket mess",
+      "buyer_intent_keywords": [
+        "wet dry vacuum mop",
+        "self cleaning mop",
+        "best mop for hardwood floors",
+        "cordless floor washer",
+        "mop alternative"
+      ],
+      "scores": {
+        "trend": 8,
+        "transformation": 8,
+        "affiliate": 8,
+        "intent": 8
+      },
+      "composite_score": 32,
+      "why_now": "Apartment Therapy's viral 'ultimate floor mopping hack' pin is driving searches for bucket-free wet-dry vacuums right as holiday hosting ramps up cleaning demands."
+    },
+    {
+      "rank": 4,
+      "product_category": "layered lighting / floor lamps",
+      "specific_product": "modern arc floor lamp with warm LED",
+      "brand": "Amazon generic",
+      "target_price": "$79",
+      "transformation_hook": "Banish the 'big light' \u2014 cozy living room glow-up for $79",
+      "before_state": "Dim, flat living room lit only by one harsh overhead 'big light'",
+      "after_state": "Warm, layered glow from a stylish floor lamp creates a cozy, magazine-worthy fall/winter living room",
+      "buyer_intent_keywords": [
+        "floor lamp living room",
+        "warm ambient lighting",
+        "cozy lighting ideas",
+        "arc floor lamp",
+        "layered lighting"
+      ],
+      "scores": {
+        "trend": 6,
+        "transformation": 8,
+        "affiliate": 9,
+        "intent": 7
+      },
+      "composite_score": 30,
+      "why_now": "Apartment Therapy's 'banish the big light' layered-lighting pin is surfacing just as shorter November days push shoppers toward cozy lighting fixes."
+    },
+    {
+      "rank": 5,
+      "product_category": "vintage-style accent furniture",
+      "specific_product": "Best Choice Products dark wood vintage-style accent cabinet",
+      "brand": "Best Choice Products",
+      "target_price": "$159",
+      "transformation_hook": "2027's hottest decor trend for $159 \u2014 antique-chic room refresh",
+      "before_state": "Generic, builder-grade living room with no character or focal point",
+      "after_state": "Dark wood accent furniture and vintage-inspired framing give the room a collected, antique-chic look designers are calling the next big trend",
+      "buyer_intent_keywords": [
+        "vintage style furniture",
+        "dark wood accent table",
+        "antique decor trend",
+        "collected home decor",
+        "vintage frames decor"
+      ],
+      "scores": {
+        "trend": 6,
+        "transformation": 7,
+        "affiliate": 8,
+        "intent": 6
+      },
+      "composite_score": 27,
+      "why_now": "Real Simple's 2027 antique-decor trend forecast is prompting early-adopter shoppers to buy vintage-style pieces now, ahead of the mainstream wave, and Best Choice Products offers a 15% commission on furniture."
+    }
+  ],
+  "raw_signal_count": 85,
+  "sources_used": [
+    "google_trends_daily_us",
+    "pinterest"
+  ]
+}
