@@ -3564,6 +3564,20 @@
       "pin_id": "pin-2026-11-06-B0C2LS4FGL",
       "board": "Bathroom Storage Ideas",
       "link": "https://www.amazon.com/dp/B0C2LS4FGL?tag=ghpbranda-20&ascsubtag=pinterest_brandA"
+    },
+    {
+      "ts": "2026-11-09T14:40:32Z",
+      "action": "board_fallback",
+      "pin_id": "pin-2026-11-09-reelv2-window",
+      "wanted": "Bedroom Storage & Bedding",
+      "used": "Home Organization Finds"
+    },
+    {
+      "ts": "2026-11-09T14:40:45Z",
+      "action": "pin_published",
+      "pin_id": "pin-2026-11-09-reelv2-window",
+      "board": "Bedroom Storage & Bedding",
+      "link": "https://goldenhomeproject.com/r/window?src=pin"
     }
   ]
 }
