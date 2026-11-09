@@ -163,6 +163,12 @@ jobs:
                   if not f.is_file():
                       continue
                   rel = str(f)
+                  # Reel v2 test renders (~390 MB, undated names) are not site content; the
+                  # daily poster serves scheduled ones from raw.githubusercontent. They pushed
+                  # the artifact to ~770 MB and a deploy timed out on 2026-11-09.
+                  if "/reels/v2_test/" in rel and rel not in referenced:
+                      skipped += 1
+                      continue
                   m = datepat.search(rel)
                   when = None
                   if m:
