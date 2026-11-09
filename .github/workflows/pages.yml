@@ -37,6 +37,9 @@ on:
       - 'automation/**'
       - 'pi/**'
       - 'docs/**'
+      # Root notes (AGENT_LOG.md is appended by every agent run, 2026-11-09: those pushes
+      # kept cancelling each other's deploys). Not served: the site copies only *.html.
+      - '*.md'
   workflow_dispatch:
 
 permissions:
