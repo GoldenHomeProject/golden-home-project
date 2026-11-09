@@ -10169,14 +10169,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-11-09-B07X7H7C7V.png",
     "queued_at": "2026-11-09T11:17:07.502978Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "Christmas Decorations",
     "recharted": false,
     "variant": "A",
-    "ai_image": true
+    "ai_image": true,
+    "posted_at": "2026-11-09T14:41:49Z"
   },
   {
     "id": "gift_guide-2026-11-09",
