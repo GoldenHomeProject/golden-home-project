@@ -9614,10 +9614,10 @@
   },
   {
     "name": "reel_2026-11-09_002",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-11-09-002.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-09-002.mp4",
     "caption": "Stop buying a shower liner that clings to your leg.\n\nThin plastic liners billow in as the water heats up, so they stick to your skin halfway through a shower. Cheap liners also hold onto soap film and mildew spots fast, so they look dingy within weeks no matter how often you wipe them down.\n\nThis is an Oeko-tex certified liner in the standard size, made to hang flat along the tub instead of ballooning inward. People rate it 4.5 stars, and over a hundred thousand reviews are on it.\n\nA liner that stays put and still looks clean after regular use, for about $9.\n\nComment OEKO and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -9634,7 +9634,8 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "Stop buying a shower liner that clings to your leg."
+    "hook": "Stop buying a shower liner that clings to your leg.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-09-002.mp4"
   },
   {
     "name": "reel_2026-11-09_003",
