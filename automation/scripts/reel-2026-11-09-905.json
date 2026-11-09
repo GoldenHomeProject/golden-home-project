@@ -1,0 +1,68 @@
+{
+  "created_at": "2026-11-09T19:23:51.359772Z",
+  "date": "2026-11-09",
+  "seq": 905,
+  "source": "repurpose",
+  "hook": "I almost didn't buy the $299 robot mop. Here's why I did.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Person standing in kitchen staring skeptically at a mop and bucket, arms crossed",
+      "on_screen_text": "I was skeptical of the $299 price",
+      "voiceover": "A self-washing, self-emptying robot for $299 sounded too good, so I checked the pricing history."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Graphic timeline showing $1,000-$1,300 in 2023 shrinking down to $299 in 2026",
+      "on_screen_text": "Same tech, 2023: $1,000-$1,300",
+      "voiceover": "The same self-cleaning dock mechanism cost three to four times as much eighteen months ago."
+    },
+    {
+      "n": 3,
+      "duration_sec": 3,
+      "visual_prompt": "Comparison chart graphic: premium camera navigation vs simpler obstacle mapping on a budget unit",
+      "on_screen_text": "What's cut: premium navigation hardware",
+      "voiceover": "What got stripped out is premium navigation \u2014 fewer cameras, simpler obstacle mapping. Not the wash-and-empty mechanism."
+    },
+    {
+      "n": 4,
+      "duration_sec": 3,
+      "visual_prompt": "Robot vacuum mapping a clean open-plan kitchen and living room in a single pass, LiDAR beam graphic",
+      "on_screen_text": "Best for: open hard-floor layouts",
+      "voiceover": "These units are built for open hard-floor layouts \u2014 kitchens, living rooms, hallways."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Robot vacuum struggling slightly against thick carpet pile in a heavily-carpeted bedroom",
+      "on_screen_text": "Heavy carpet: less benefit",
+      "voiceover": "Heavy-carpet homes see a lot less benefit from this specific feature set."
+    },
+    {
+      "n": 6,
+      "duration_sec": 4,
+      "visual_prompt": "Calendar graphic showing Black Friday through early December with price staying flat",
+      "on_screen_text": "Price holds through early December",
+      "voiceover": "This pricing tends to hold through early December, not just spike on the one day \u2014 so you're not racing a clock."
+    },
+    {
+      "n": 7,
+      "duration_sec": 3,
+      "visual_prompt": "Clean kitchen floor, robot docked, person relaxed on couch, link icon overlay",
+      "on_screen_text": "My full verdict is on the blog",
+      "voiceover": "My full verdict \u2014 including who should skip this \u2014 is linked in my bio."
+    }
+  ],
+  "caption": "I went in skeptical of a $299 self-washing robot mop. The price history checks out, but it's not for every floor plan. Full verdict \u2014 including who should actually wait \u2014 linked in bio.",
+  "hashtags": [
+    "#blackfridaydeals",
+    "#robotvacuummop",
+    "#shouldibuyit",
+    "#smarthomereview",
+    "#roborock",
+    "#cleaningtiktok",
+    "#homeupgrade"
+  ]
+}

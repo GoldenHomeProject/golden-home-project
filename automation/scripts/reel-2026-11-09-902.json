@@ -1,0 +1,68 @@
+{
+  "created_at": "2026-11-09T19:23:51.359514Z",
+  "date": "2026-11-09",
+  "seq": 902,
+  "source": "repurpose",
+  "hook": "Pet hair owners: here's what the $299 robot mop actually misses",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Dog shedding visibly on a rug next to a hard floor transition strip, robot vacuum approaching in the background",
+      "on_screen_text": "If you have pets, read this first",
+      "voiceover": "Before you buy a $299 robot mop for your pet hair problem, here's what reviewers actually report."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Macro close-up of a robot vacuum's roller brush with hair visibly tangled around it",
+      "on_screen_text": "Not suction. Tangling.",
+      "voiceover": "The recurring complaint isn't suction power \u2014 it's the roller brush tangling with long hair."
+    },
+    {
+      "n": 3,
+      "duration_sec": 3,
+      "visual_prompt": "Robot vacuum mop pad dragging a visible clump of pet hair across a carpet-to-hardwood transition strip",
+      "on_screen_text": "Mop pads drag hair at transitions",
+      "voiceover": "On carpet transition strips, the mop pads can drag hair into corners instead of picking it up."
+    },
+    {
+      "n": 4,
+      "duration_sec": 3,
+      "visual_prompt": "Short-haired cat walking confidently across a clean hard floor the robot just finished",
+      "on_screen_text": "Short hair + hard floors = fine",
+      "voiceover": "Short pet hair on hard floors? These robots handle it well."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Long-haired dog lounging on an area rug, owner kneeling nearby with a hand tool cleaning the rug edge",
+      "on_screen_text": "Long hair + rugs = still manual",
+      "voiceover": "Long-haired dogs and cats on area rugs \u2014 that's where owners report the most manual cleanup afterward."
+    },
+    {
+      "n": 6,
+      "duration_sec": 4,
+      "visual_prompt": "Hand using a $5.99 6-pack scrub sponge on a baseboard near a litter box, before/after wipe visible",
+      "on_screen_text": "$5.99 sponge covers litter box edges",
+      "voiceover": "A six-pack of scrub sponges for $5.99 covers the baseboards and litter box perimeters the robot's edge brush misses."
+    },
+    {
+      "n": 7,
+      "duration_sec": 3,
+      "visual_prompt": "Wide shot of clean living room, robot docked, owner petting dog on clean floor",
+      "on_screen_text": "Full pet-owner breakdown on the blog",
+      "voiceover": "Full breakdown of what pet owners should budget for is linked in my bio."
+    }
+  ],
+  "caption": "Pet hair is one of the top reasons people search this category right now, so I pulled what reviewers with pets actually report \u2014 not the marketing copy. Short answer: short hair on hard floors is fine, long hair on rugs still needs your hands. What closes that gap for $5.99 is in the full post, linked in bio.",
+  "hashtags": [
+    "#petownercleaning",
+    "#robotvacuumreview",
+    "#dogowner",
+    "#cathairproblems",
+    "#blackfridaydeals",
+    "#cleaninghacks",
+    "#roborock"
+  ]
+}

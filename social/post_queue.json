@@ -9676,5 +9676,95 @@
     "keyword": "PITCHER",
     "queued_at": "2026-11-09T16:59:42.480250Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_repurpose_2026-11-09_901",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-09-901.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "A dock that washes and dries its own mop pads used to cost $900-$1,300. This Black Friday it's showing up at $299, and I went through the specs, the pricing history, and what reviewers with pets actually report before deciding if it's a real deal or a sticker reset. Full writeup linked in bio.",
+    "hashtags": [
+      "#robotvacuummop",
+      "#blackfridaydeals",
+      "#roborock",
+      "#selfcleaningrobot",
+      "#cleaningtiktok",
+      "#smarthomedeals",
+      "#petownercleaning"
+    ],
+    "hook": "This robot vacuum mop was $1,300. Now it's $299."
+  },
+  {
+    "name": "reel_repurpose_2026-11-09_902",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-09-902.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Pet hair is one of the top reasons people search this category right now, so I pulled what reviewers with pets actually report \u2014 not the marketing copy. Short answer: short hair on hard floors is fine, long hair on rugs still needs your hands. What closes that gap for $5.99 is in the full post, linked in bio.",
+    "hashtags": [
+      "#petownercleaning",
+      "#robotvacuumreview",
+      "#dogowner",
+      "#cathairproblems",
+      "#blackfridaydeals",
+      "#cleaninghacks",
+      "#roborock"
+    ],
+    "hook": "Pet hair owners: here's what the $299 robot mop actually misses"
+  },
+  {
+    "name": "reel_repurpose_2026-11-09_903",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-09-903.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Nobody mentions the consumables when they post the $299 price. I did the math on mop pads, dustbin bags, and dock solution so you're not surprised in month two. Full cost breakdown linked in bio.",
+    "hashtags": [
+      "#blackfridaydeals",
+      "#robotvacuummop",
+      "#budgetcleaning",
+      "#hiddencosts",
+      "#smarthome",
+      "#roborock",
+      "#cleaningtips"
+    ],
+    "hook": "The $299 robot mop isn't $299. Here's the real yearly cost."
+  },
+  {
+    "name": "reel_repurpose_2026-11-09_904",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-09-904.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "The self-cleaning dock is the whole reason this category jumped from $900+ to $299 \u2014 so I broke down exactly what happens in that wash-wring-dry cycle, and the one failure mode (damp pads = smell) that reviewers flag most. Full post linked in bio.",
+    "hashtags": [
+      "#robotvacuummop",
+      "#selfcleaningrobot",
+      "#blackfridaydeals",
+      "#roborock",
+      "#smarthometech",
+      "#cleaninghacks",
+      "#howitworks"
+    ],
+    "hook": "How a $299 robot actually washes its own mop. No, really."
+  },
+  {
+    "name": "reel_repurpose_2026-11-09_905",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-09-905.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "I went in skeptical of a $299 self-washing robot mop. The price history checks out, but it's not for every floor plan. Full verdict \u2014 including who should actually wait \u2014 linked in bio.",
+    "hashtags": [
+      "#blackfridaydeals",
+      "#robotvacuummop",
+      "#shouldibuyit",
+      "#smarthomereview",
+      "#roborock",
+      "#cleaningtiktok",
+      "#homeupgrade"
+    ],
+    "hook": "I almost didn't buy the $299 robot mop. Here's why I did."
   }
 ]

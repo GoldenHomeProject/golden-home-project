@@ -1,0 +1,68 @@
+{
+  "created_at": "2026-11-09T19:23:51.359227Z",
+  "date": "2026-11-09",
+  "seq": 901,
+  "source": "repurpose",
+  "hook": "This robot vacuum mop was $1,300. Now it's $299.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of a mop bucket sitting in a kitchen corner, slightly dusty, next to a price tag graphic showing $1,300 with a red strikethrough",
+      "on_screen_text": "2023: $1,300",
+      "voiceover": "Two years ago, a self-washing robot mop cost more than my first car payment."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Same kitchen, robot vacuum dock with price tag now reading $299, Black Friday sale banner subtle in background",
+      "on_screen_text": "Black Friday 2026: $299",
+      "voiceover": "This Black Friday, the same self-cleaning dock mechanism is clustering around $299."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Macro shot of robot vacuum dock washing mop pads with visible hot water and rollers, steam rising",
+      "on_screen_text": "Washes its own mop pads in hot water",
+      "voiceover": "The dock washes the mop pads in hot water and wrings them with rollers, so you're not rinsing anything in your sink."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Dustbin compartment opening to show a sealed bag, calendar graphic flipping through 4-7 weeks",
+      "on_screen_text": "Auto-empties for 4-7 weeks",
+      "voiceover": "The dustbin auto-empties into a bag rated for four to seven weeks, depending on your home and your pets."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Split screen: robot gliding over open hardwood floor on one side, mop bucket shoved into a closet corner on the other",
+      "on_screen_text": "Not a full replacement \u2014 yet",
+      "voiceover": "It doesn't replace a mop entirely. Stairs, corners, the strip behind your toilet \u2014 that's still manual."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Reviewer hand pointing at phone screen showing a 4.6-star rating with 195,567 reviews on a backup mop",
+      "on_screen_text": "$35 backup mop covers the gaps",
+      "voiceover": "I'm keeping a $35 spin mop in the closet for exactly those spots."
+    },
+    {
+      "n": 7,
+      "duration_sec": 3,
+      "visual_prompt": "Final shot: robot vacuum parked at its dock, clean kitchen floor reflecting light, text overlay with link icon",
+      "on_screen_text": "Full breakdown + specs on the blog",
+      "voiceover": "I broke down every spec and every reviewer complaint on the blog \u2014 link's in my bio."
+    }
+  ],
+  "caption": "A dock that washes and dries its own mop pads used to cost $900-$1,300. This Black Friday it's showing up at $299, and I went through the specs, the pricing history, and what reviewers with pets actually report before deciding if it's a real deal or a sticker reset. Full writeup linked in bio.",
+  "hashtags": [
+    "#robotvacuummop",
+    "#blackfridaydeals",
+    "#roborock",
+    "#selfcleaningrobot",
+    "#cleaningtiktok",
+    "#smarthomedeals",
+    "#petownercleaning"
+  ]
+}

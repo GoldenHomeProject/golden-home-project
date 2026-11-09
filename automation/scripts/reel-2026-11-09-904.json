@@ -1,0 +1,68 @@
+{
+  "created_at": "2026-11-09T19:23:51.359692Z",
+  "date": "2026-11-09",
+  "seq": 904,
+  "source": "repurpose",
+  "hook": "How a $299 robot actually washes its own mop. No, really.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Robot vacuum driving back toward its dock after a cleaning run, dock lit up and ready",
+      "on_screen_text": "The dock is the entire value prop",
+      "voiceover": "At this price point, the dock is the entire reason to buy \u2014 so let's actually look at what it does."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Macro cutaway animation of the dock base washing mop pads with hot water jets",
+      "on_screen_text": "Step 1: hot water wash",
+      "voiceover": "After a run, the robot docks and the base washes the mop pads with hot water."
+    },
+    {
+      "n": 3,
+      "duration_sec": 3,
+      "visual_prompt": "Animation of rollers wringing a wet mop pad, water draining into the base",
+      "on_screen_text": "Step 2: wring with rollers",
+      "voiceover": "Then it wrings them with rollers instead of leaving them sopping wet."
+    },
+    {
+      "n": 4,
+      "duration_sec": 3,
+      "visual_prompt": "Warm air vents blowing visible heat waves over the mop pads inside the dock, timer graphic showing a few hours",
+      "on_screen_text": "Step 3: warm-air dry, a few hours",
+      "voiceover": "Warm air dries them, usually over a few hours, before the next cycle."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Side-by-side comparison: a damp, slightly discolored mop pad next to a fully dried clean pad, with a small odor-wave graphic over the damp one",
+      "on_screen_text": "Skip this step = sour smell",
+      "voiceover": "Skip or underpower that drying step, and a damp mop pad is the single biggest source of sour smell in cheap wet-dry robots."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Hand wiping down a sticky kitchen floor with a bottle of floor cleaner before setting the robot loose",
+      "on_screen_text": "Do one deep clean first",
+      "voiceover": "One thing the dock won't fix: ground-in sticky residue. Do a manual deep clean before you hand off maintenance to the robot."
+    },
+    {
+      "n": 7,
+      "duration_sec": 3,
+      "visual_prompt": "Clean floor, robot resting quietly at dock, blog link icon overlay",
+      "on_screen_text": "Full mechanism breakdown on the blog",
+      "voiceover": "Every detail on how this cycle works is in the full post, linked in bio."
+    }
+  ],
+  "caption": "The self-cleaning dock is the whole reason this category jumped from $900+ to $299 \u2014 so I broke down exactly what happens in that wash-wring-dry cycle, and the one failure mode (damp pads = smell) that reviewers flag most. Full post linked in bio.",
+  "hashtags": [
+    "#robotvacuummop",
+    "#selfcleaningrobot",
+    "#blackfridaydeals",
+    "#roborock",
+    "#smarthometech",
+    "#cleaninghacks",
+    "#howitworks"
+  ]
+}

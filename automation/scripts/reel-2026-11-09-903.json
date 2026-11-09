@@ -1,0 +1,68 @@
+{
+  "created_at": "2026-11-09T19:23:51.359609Z",
+  "date": "2026-11-09",
+  "seq": 903,
+  "source": "repurpose",
+  "hook": "The $299 robot mop isn't $299. Here's the real yearly cost.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Price tag reading $299 on a robot vacuum box, camera pulls back to reveal a stack of replacement parts boxes next to it",
+      "on_screen_text": "$299 sticker. Not the full story.",
+      "voiceover": "The $299 sticker price doesn't cover the full first year of owning this thing."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of worn, frayed robot vacuum mop pads next to a fresh replacement pair",
+      "on_screen_text": "Mop pads: 3-6 months",
+      "voiceover": "Replacement mop pads typically wear out in three to six months, depending on your floor."
+    },
+    {
+      "n": 3,
+      "duration_sec": 3,
+      "visual_prompt": "Dustbin bag being pulled out and tied off like a kitchen trash bag, drawstring visibly straining",
+      "on_screen_text": "Dustbin bags: same cadence as kitchen trash",
+      "voiceover": "The dustbin bag needs a liner swap on the same cadence as your kitchen trash can."
+    },
+    {
+      "n": 4,
+      "duration_sec": 3,
+      "visual_prompt": "Drawstring trash bag failing and spilling dust, then a tear-resistant bag holding firm side by side",
+      "on_screen_text": "$13.32 for bags that don't rip mid-swap",
+      "voiceover": "Cheap liners split under fine dust \u2014 a tear-resistant pack runs about thirteen dollars and solves that."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Calculator graphic adding up $15-20 next to a quarterly calendar",
+      "on_screen_text": "Real cost: +$15-20 every quarter",
+      "voiceover": "Budget an extra fifteen to twenty dollars a quarter for bags, pads, and dock-cleaning solution."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Robot vacuum's low-bag indicator light blinking red on the dock display",
+      "on_screen_text": "Don't find out at the low-bag light",
+      "voiceover": "That's a better time to learn this than when the low-bag indicator lights up in month two."
+    },
+    {
+      "n": 7,
+      "duration_sec": 3,
+      "visual_prompt": "Clean kitchen floor, robot docked quietly, text overlay with link icon",
+      "on_screen_text": "Full consumables list on the blog",
+      "voiceover": "I listed every consumable and the price on each \u2014 link's in my bio."
+    }
+  ],
+  "caption": "Nobody mentions the consumables when they post the $299 price. I did the math on mop pads, dustbin bags, and dock solution so you're not surprised in month two. Full cost breakdown linked in bio.",
+  "hashtags": [
+    "#blackfridaydeals",
+    "#robotvacuummop",
+    "#budgetcleaning",
+    "#hiddencosts",
+    "#smarthome",
+    "#roborock",
+    "#cleaningtips"
+  ]
+}
