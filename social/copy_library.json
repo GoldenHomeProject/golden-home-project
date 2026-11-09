@@ -5023,6 +5023,53 @@
         ],
         "reel_format": "problem_fix"
       }
+    ],
+    "SKIN": [
+      {
+        "hook_category": "scene",
+        "hook": "You wake up with a crease pressed into your cheek.",
+        "beat1": "Standard cotton pillowcases have texture that grips skin and hair all night instead of letting them move. That friction is what presses lines into your face by morning and tangles hair while you sleep.",
+        "turn": "A satin pillowcase has a smoother surface, so skin and hair slide across it instead of catching. This grey queen set has over 320,000 reviews averaging 4.5 stars.",
+        "result": "For about $7, it's a small swap for a smoother surface to sleep on, hair and skin included.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Soft morning light on a bed, close-up of someone's cheek still showing a faint pillow crease as they start to wake up",
+            "on_screen_text": "The crease on your cheek",
+            "voiceover": "You wake up with a crease pressed into your cheek."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Close-up of fingers gently separating a few strands of tangled hair resting on a cotton pillow",
+            "on_screen_text": "Hair tangles by morning",
+            "voiceover": "Cotton pillowcases grip onto hair overnight, so it tangles and frizzes by the time you wake up."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Overhead shot of a hand pressing lightly on the surface of a cotton pillowcase, showing the rough weave texture up close",
+            "on_screen_text": "Rough fabric presses into skin",
+            "voiceover": "That same texture is what presses lines into your skin while you sleep, not just your hair."
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "Hands smoothing a grey satin pillowcase over a pillow on a made bed, light catching the smooth sheen of the fabric",
+            "on_screen_text": "A smoother surface to sleep on",
+            "voiceover": "A grey satin pillowcase set like this one has a smoother surface, so skin and hair glide instead of catching."
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "Wide shot of a made bed with two grey satin pillowcases in place, soft natural light across the bedroom",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "This set has over 320,000 reviews at 4.5 stars, for about seven dollars. Comment {KEYWORD} and I'll send the link."
+          }
+        ],
+        "reel_format": "countdown"
+      }
     ]
   },
   "hashtag_pools": {
