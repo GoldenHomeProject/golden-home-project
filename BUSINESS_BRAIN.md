@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-11-10 (Strategy & Outreach 9am)
+# Last updated: 2026-11-10 (Affiliate Optimizer 10am)
 # ============================================================
 
 ---
@@ -4682,3 +4682,90 @@ Add an explicit on-screen "subscribe for more" CTA in the first 3 seconds of the
   1. **KITCHEN/THANKSGIVING: Plaid table runner ~$12-18** — "grandma's house" Thanksgiving table aesthetic confirmed (Best Life Oct 2026 HomeGoods), Pinterest Thanksgiving table +60% (Oct 2026 weekly report), cozy autumn plaid photographs beautifully on Pinterest, highest-share Thanksgiving table format (nostalgia triggers), BFCM host gift under $20, pairs with Rae Dunn jar set for complete table styling pin. IAN: search "plaid table runner Thanksgiving autumn fall" in Associates for top ASIN; https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20.
   2. **HOME ORGANIZATION/BFCM: 2-tier pull-out under-sink cabinet organizer ~$24-32** — TikTok viral home products 2026 confirmed (astools.app 2026 roundup, TikTok Shop bathroom cabinet active discover page), renter-safe zero-drilling, "black hole to organized" extreme before/after visual, BFCM under-$35 host gift angle, year-round top seller = evergreen Pinterest pin, universal renter pain point. IAN: search "2 tier pull out under sink cabinet organizer adjustable" in Associates for top ASIN; https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20.
   3. **HOME DECOR/BFCM GIFT: Ceramic mug set with matching tray ~$18-28** — TikTok Shop BFCM host gift curation format (launches TOMORROW Nov 11), "curated $50 home reset gift box" arc, Rae Dunn-inspired cozy aesthetic (confirmed Best Life Oct 2026 HomeGoods top buy), pairs with candle warmer for complete $50 host gift set, Thanksgiving host gift = highest share-rate gift content format, cottagecore cozy November aesthetic. IAN: search "ceramic mug set with wooden tray gift" in Associates for top ASIN; https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20.
+
+### November 2026 Affiliate Updates (updated 2026-11-10 Affiliate Optimizer 10am)
+
+**GMAIL DIRECT SCAN (post-Strategy 13:12 UTC):** 1 new email found — Novo (hello@novo.co, Nov 10 12:15 UTC, thread 1a1c5627b7d156d7, "Juggling rewards categories?") — business banking/fintech cash-back promotional, OFF-NICHE → FOR MARKETING DEPT / IAN: not GHP, no reply sent. Zero inbound on-niche GHP partnership emails. Zero emails sent. Cold outreach PAUSED per Ian Sep 3 directive.
+
+**PLATFORM STATUS:**
+
+- **AMAZON goldenhomep0a-20 ACTIVE — BFCM 17 DAYS (Nov 27), Thanksgiving 16 DAYS (Nov 26).** 🚨🚨🚨 TikTok Shop BFCM launches **TOMORROW NOV 11** — 1 DAY MAXIMUM URGENCY. Home organization = top BFCM TikTok Shop category. Any content posting Nov 11 gets launch-day priority discovery placement. Strategy Nov 10 slots all timed perfectly: "grandma's house" Thanksgiving table $48 (plaid runner + Rae Dunn jar set), pull-out under-sink organizer $27, BFCM curated host gift box $50 (Syruvia candle warmer PRIMARY). Trend Scout Nov 10 top-3: designer sofa look, chaotic shoe pile mudroom, bare couch corner to cozy reading nook. Content Engine Nov 10: 3 scripts (duvet comforter, frizzy hair, shower curtain — none of the high-AOV slots). Standing bounties: Audible $20/signup through Dec 15, Prime $12/signup, Subscribe & Save $0.25 ongoing.
+
+- **IMPACT.COM:**
+  - **Mamma Mia 24-30% — DAY 63 UNBREAKABLE.** Revenue: $47 × 27% avg = **$12.69/sale** vs goldenhomep0a-20 at $1.88/sale (6.75× multiplier). After-first hook = 6,037-view avg format. 63 consecutive days zero content.
+  - **Dreame 5%+ — BFCM PRE-CONTENT WINDOW PERMANENTLY CLOSED (missed Nov 10 deadline).** IAN: build Dreame tracking links this week — the pre-content window is gone but the main BFCM sale is still 17 days away (Nov 27). BFCM launch content can still drive $7.45+/sale.
+  - **YEEDI 57605 (Impact) — DAY 8.** Robot vacuum brand. IAN: log into Impact dashboard → search "YEEDI" (campaign 57605) → join immediately. BFCM 17 days.
+  - **SmartWings BF Early Access — DAY 5.** 8% sitewide / 12% orders $1,500+ / free shipping ACTIVE. $16-32/sale. IAN: build Impact tracking links TODAY — TikTok Shop BFCM launches TOMORROW, smart home is relevant to launch-day feed. Contact Andy via Impact platform messaging only.
+  - **Syruvia 20% — Cozy November DAY 12. ZERO tracking links. ZERO scripts.** Revenue gap: $29 × 20% = **$5.80/sale** daily forfeited (vs $1.16/sale Amazon = 5× gap). 16 days to Thanksgiving Nov 26. Candle warmer = PRIMARY product in BFCM curated host gift box arc ($50 set: candle warmer $29 + doily $12 + amber mug $9). THREE confirmed arcs from one tracking link: (1) Cozy November, (2) Thanksgiving tablescape/"grandma's house" table, (3) BFCM curated host gift box. IAN: build Syruvia tracking link in Impact IMMEDIATELY — TikTok Shop BFCM launches TOMORROW.
+  - **Promeed 12% — DAY 37 OVERDUE.** $7.20/sale vs $2.40 Amazon. BFCM bedding gift window OPEN.
+  - **Best Choice Products 10-15% — 1-click pre-approved, unactioned since April.** BFCM gift-under-$50 window OPEN. IAN: Impact dashboard → click JOIN.
+  - **Sealogix Corp — contract expired midnight 11/6 (Impact 6590154).** IAN: verify niche in dashboard — if on-niche re-join, if off-niche/unused no action needed.
+
+- **CJ AFFILIATE — AliExpress dormancy DAY 39 of 90** (51 days remain, ~Dec 30 deadline). No new invitations. Status unchanged.
+
+- **AWIN:**
+  - **Rewarx 50% recurring (ID 129153): DAY 57 IAN-BLOCKED.** Highest-commission program in portfolio. Every day = 50% recurring commission permanently lost.
+  - **Homary 12%/$96/sale (ID 91447): DAY 44.** BFCM premium window OPEN. IAN: complete Awin express signup → send affiliate ID to Lauren at affiliate@homary.com.
+  - **Promeed HerbalRX (ID 100833): 20% CPA ACTIVE** — Amelia confirmed Nov 6. IAN: browser accept via Awin dashboard (no-reply@awin.com, cannot email).
+  - ON-NICHE browser accepts still pending: Tribesigns (industrial bookshelves), SimpleProject (99013, 10%+), OKUN (home improvement), CozySpiritStudio (130331, 20% wall art).
+
+**HIGH-AOV OPPORTUNITY SCAN:**
+  - **Mamma Mia couch cover ($47):** 24-30% = $11.28-$14.10/sale. DAY 63 UNBREAKABLE.
+  - **SmartWings smart shades ($200-400 avg):** BF Early Access Day 5. 8%/12% = $16-$180+/sale.
+  - **Candle warmer / BFCM host gift box ($29-50):** Syruvia 20% = $5.80/sale from candle warmer alone. DAY 12 zero links. 16 days to Thanksgiving. TikTok Shop BFCM TOMORROW — host gift box format timed for launch-day discovery.
+  - **"Grandma's house" Thanksgiving table ($48):** plaid runner + Rae Dunn jar set, highest-share Thanksgiving format (nostalgia trigger), TikTok Shop BFCM launch-day timing. goldenhomep0a-20.
+  - **Pull-out under-sink cabinet organizer ($27):** TikTok viral home product 2026 confirmed (astools.app), BFCM host gift under $30, zero GHP coverage. goldenhomep0a-20.
+  - **BFCM curated host gift box ($50):** Syruvia 20% candle warmer + Amazon doily + amber mug, TikTok Shop BFCM launch-day format, Thanksgiving host gift dual timing.
+  - **Homary furniture ($800+ AOV):** 12% = $96+/sale. DAY 44 BFCM window OPEN.
+  - **Dreame/YEEDI robot vacuums ($129-349):** 5%+ = $6.45-17.45/sale. Pre-content window closed; BFCM main sale 17 days.
+  - **Fridge Reset ($38):** Amazon goldenhomep0a-20. Pinterest +375%. Thanksgiving prep dual angle. Zero GHP coverage.
+  - **Laundry room transformation ($85):** Amazon goldenhomep0a-20. Pinterest +390% HIGHEST 2026. Gater DAY 25 gap.
+
+**KEY DELTAS vs Nov 9 Affiliate Optimizer:**
+  - Dreame: **PRE-CONTENT WINDOW PERMANENTLY CLOSED** (missed Nov 10 deadline) → pivot to main BFCM sale tracking links
+  - Mamma Mia: DAY 63 (was 61 at Nov 9 Affiliate Optimizer)
+  - SmartWings: DAY 5 BF Early Access (was DAY 4)
+  - Syruvia: DAY 12 Cozy November (was DAY 10 at Nov 9 Affiliate Optimizer)
+  - YEEDI: DAY 8 (was DAY 6)
+  - Promeed 12%: DAY 37 OVERDUE (was DAY 35)
+  - Rewarx: DAY 57 IAN-BLOCKED (was DAY 55)
+  - Homary: DAY 44 (was DAY 42)
+  - CJ AliExpress: DAY 39 of 90 (51 days remain)
+  - BFCM: **17 DAYS** (Nov 27)
+  - Thanksgiving: **16 DAYS** (Nov 26)
+  - **TikTok Shop BFCM: LAUNCHES TOMORROW NOV 11 — 1 DAY MAXIMUM URGENCY**
+  - NEW content slots from Strategy Nov 10: "grandma's house" Thanksgiving table $48, pull-out under-sink organizer $27, BFCM curated host gift box $50 (Syruvia 20% candle warmer PRIMARY)
+  - Novo (hello@novo.co, thread 1a1c5627b7d156d7, Nov 10 12:15 UTC) — banking promo OFF-NICHE, FOR MARKETING DEPT / IAN, no reply sent
+  - Trend Scout Nov 10 top-3: designer sofa look, chaotic shoe pile mudroom, bare couch corner to cozy reading nook
+  - Content Engine Nov 10: duvet comforter, frizzy hair, shower curtain
+  - Gater: DAY 25 (longest 2026 gap confirmed, was 24)
+
+**REVENUE PRIORITY STACK (Nov 10, Affiliate Optimizer):**
+TikTok Shop BFCM TOMORROW NOV 11 = 1 DAY (brief Content Engine NOW: "grandma's house" table $48 + under-sink organizer $27 + BFCM host gift box $50 — highest-traffic home day on TikTok Shop all year) > Mamma Mia 24-30% DAY 63 UNBREAKABLE ($12.69/sale, 63 days zero content) > Syruvia 20% tracking link DAY 12 ($5.80/sale daily forfeited, candle warmer = PRIMARY in host gift box, 3 arcs, 16 days to Thanksgiving) > SmartWings BF Day 5 (8%/12% active, $16-32/sale, IAN: build Impact tracking links) > YEEDI 57605 (IAN join Impact, BFCM 17 days) > Dreame (IAN: build tracking links for main BFCM sale Nov 27 — 17 days) > Promeed 12% DAY 37 OVERDUE ($7.20 vs $2.40) > Rewarx 50% recurring DAY 57 IAN-BLOCKED > Promeed HerbalRX Awin 20% (ID 100833, IAN browser accept) > Homary $96/sale DAY 44 BFCM window > CJ AliExpress dormancy DAY 39 (51 days remain).
+
+**IAN PRIORITY ACTIONS — NOV 10 (ranked by urgency × revenue):**
+  1. 🚨🚨🚨 **TIKTOK SHOP BFCM LAUNCHES TOMORROW NOV 11 — brief Content Engine NOW for 3 slots:** "grandma's house" Thanksgiving table $48 (plaid runner + Rae Dunn jar set, goldenhomep0a-20), pull-out under-sink cabinet organizer $27 (goldenhomep0a-20), BFCM curated host gift box $50 (Syruvia 20% candle warmer PRIMARY + doily + amber mug). All 3 timed for maximum TikTok Shop launch-day discovery. This is the highest-traffic single day for home category on TikTok Shop all year.
+  2. 🚨🚨 **BUILD SYRUVIA 20% TRACKING LINK IN IMPACT — DAY 12.** $5.80/sale daily forfeited. 16 days to Thanksgiving. Candle warmer = PRIMARY product in BFCM host gift box. Impact → Syruvia → build deep tracking link NOW before TikTok Shop launches tomorrow.
+  3. 🚨🚨 **Script MAMMA MIA couch cover — DAY 63 UNBREAKABLE.** After-first format. Hook: "My couch looked like this. $47. Same couch. Nobody knows." 24-30% primary = $12.69/sale.
+  4. 🚨🚨 **BUILD SMARTWINGS IMPACT TRACKING LINKS — Day 5 BF Early Access.** $16-32/sale active. Impact dashboard → SmartWings → tracking links + contact Andy via Impact platform messaging.
+  5. 🚨🚨 **JOIN YEEDI (Impact 57605) + BUILD LINK** — BFCM 17 days. Impact dashboard → "YEEDI" → join → build link.
+  6. 🚨 **BUILD DREAME TRACKING LINKS for main BFCM sale Nov 27** — pre-content window closed but BFCM sale is 17 days. Build deep links now for BFCM launch content.
+  7. 🚨 **BUILD PROMEED 12% TRACKING LINK — DAY 37 OVERDUE.** $7.20/sale vs $2.40. Impact → Promeed → deep links for silk pillowcase + CoolRest comforter.
+  8. Accept **REWARX Awin ID 129153** — 50% recurring, DAY 57 IAN-BLOCKED. Awin browser → accept → reply studio@rewarx.com for Golden10 promo code.
+  9. Accept **PROMEED HerbalRX Awin ID 100833** — 20% CPA active. Awin browser dashboard.
+  10. Script **"GRANDMA'S HOUSE" Thanksgiving table $48** — highest-share Thanksgiving format, TikTok Shop BFCM launch-day timing, goldenhomep0a-20.
+  11. Script **PULL-OUT UNDER-SINK CABINET ORGANIZER $27** — TikTok viral 2026 confirmed, BFCM host gift under $30, goldenhomep0a-20.
+  12. Script **BFCM CURATED HOST GIFT BOX $50** — Syruvia 20% candle warmer PRIMARY, Thanksgiving host gifting arc, TikTok Shop BFCM launch-day format.
+  13. Script **FRIDGE RESET $38** — Pinterest +375%, Thanksgiving dual angle, zero GHP coverage, goldenhomep0a-20.
+  14. Script **LAUNDRY ROOM TRANSFORMATION $85** — Pinterest +390% HIGHEST growth, Gater DAY 25 gap, goldenhomep0a-20.
+  15. Script **"48-HOUR HOST-READY" Thanksgiving declutter sprint $65-75** — viral TikTok confirmed (AOL), 16 days to Thanksgiving, goldenhomep0a-20.
+  16. Script **COLORFUL CERAMIC COOKWARE BFCM self-gift $47-79** — TikTok viral cookware BF campaign confirmed (Karaca), goldenhomep0a-20.
+  17. Script **OVER-SINK DISH DRYING STATION $38** — Homes & Gardens editorial keyword, Thanksgiving cleanup, goldenhomep0a-20.
+  18. Verify **SEALOGIX CORP** — Impact 6590154 expired midnight 11/6; check niche.
+  19. Complete **HOMARY Awin express signup** (ID 91447) — affiliate ID to Lauren at affiliate@homary.com (DAY 44, BFCM window OPEN).
+  20. Accept **BEST CHOICE PRODUCTS on Impact** — 1-click pre-approved 15%, BFCM gift window OPEN.
+  21. **CJ portal audit** — AliExpress dormancy DAY 39 (51 days remain); check Levoit/Wayfair/GreenLife status.
+  22. Accept **ON-NICHE Awin browser invites**: Tribesigns, SimpleProject, OKUN, CozySpiritStudio.
+
+**FOR MARKETING DEPT / IAN — not GHP (Nov 10, Affiliate Optimizer 10am):**
+- **Novo** (hello@novo.co, thread 1a1c5627b7d156d7, Nov 10 12:15 UTC, subject: "Juggling rewards categories?") — business banking cash-back rewards promotional email from Novo business banking platform. OFF-NICHE (fintech/banking). No reply sent.
