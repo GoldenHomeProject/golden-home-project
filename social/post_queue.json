@@ -1,17 +1,5 @@
 [
   {
-    "id": "ig-gift_guide-2026-11-09",
-    "name": "Stocking Stuffers For Adults: Stocking Stuffers for the Home",
-    "media_type": "IMAGE",
-    "image_url": "https://goldenhomeproject.com/social/instagram/gift_guide-2026-11-09.jpg",
-    "caption": "Stocking Stuffers For Adults: Stocking Stuffers for the Home Under $15\n\nStocking Stuffers for the Home Under $15: Hair Towel Wrap, Throw Blanket, Silk Pillowcase, String Lights, Black Tea, Cup Sleeve. Each one rated 4.5 stars or higher across thousands of ratings.\n\nSave this for later.\n\n\ud83d\udd17 This product: tap the link in our bio \u2192 'From our videos' at the top.\n\nAs an Amazon Associate we earn from qualifying purchases.\n\n#homeorganization #organizedhome #amazonfinds #homefinds",
-    "status": "ready",
-    "source": "generate_format_pins",
-    "format": "gift_guide",
-    "asin": "B0DGYQPDS3",
-    "queued_at": "2026-11-09T11:20:02.393202+00:00"
-  },
-  {
     "name": "reel_2026-05-26_001",
     "status": "awaiting_video",
     "script_path": "automation/scripts/reel-2026-05-26-001.json",
