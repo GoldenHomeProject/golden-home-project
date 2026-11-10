@@ -9795,10 +9795,10 @@
   },
   {
     "name": "reel_2026-11-10_002",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-11-10-002.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-10-002.mp4",
     "caption": "Stop blaming your hair products for the morning frizz.\n\nMost pillowcases are cotton, and cotton pulls moisture out of hair and skin overnight while gripping onto both as you move. That friction is what turns smooth hair into tangles and presses a crease into your cheek by morning.\n\nThis is a set of two satin pillowcases in queen size, similar to silk, made for hair and skin. It has 323,000 reviews at 4.5 stars.\n\nA smoother surface for hair and skin to glide on overnight, for about $7.\n\nComment SILK and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -9815,7 +9815,8 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "Stop blaming your hair products for the morning frizz."
+    "hook": "Stop blaming your hair products for the morning frizz.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-10-002.mp4"
   },
   {
     "name": "reel_2026-11-10_003",
