@@ -9768,5 +9768,77 @@
     ],
     "hook": "I almost didn't buy the $299 robot mop. Here's why I did.",
     "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-09-905.mp4"
+  },
+  {
+    "name": "reel_2026-11-10_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-10-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Stop stuffing a thin comforter inside your duvet cover.\n\nA duvet cover looks fine until you shake it out and the comforter bunches in one corner, leaving the rest of the cover empty and flat. That gap is usually the comforter, not the cover.\n\nThis insert is made to sit inside a duvet cover and fill it out evenly from corner to corner. About eighty thousand people have rated it, averaging 4.7 stars.\n\nYou get a bed that looks full and even under the cover instead of lumpy in the middle, for about $35.\n\nComment COMFORTER and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Bedsure Comforter Duvet Insert",
+      "dm_keyword": "COMFORTER",
+      "amazon_asin": "B07YKLSMFM",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B07YKLSMFM?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Stop stuffing a thin comforter inside your duvet cover."
+  },
+  {
+    "name": "reel_2026-11-10_002",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-10-002.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Stop blaming your hair products for the morning frizz.\n\nMost pillowcases are cotton, and cotton pulls moisture out of hair and skin overnight while gripping onto both as you move. That friction is what turns smooth hair into tangles and presses a crease into your cheek by morning.\n\nThis is a set of two satin pillowcases in queen size, similar to silk, made for hair and skin. It has 323,000 reviews at 4.5 stars.\n\nA smoother surface for hair and skin to glide on overnight, for about $7.\n\nComment SILK and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Bedsure Satin Pillowcases Queen Set of 2, Similar to Silk Pillow Cases Grey | Silky Pillowcase for Hair and Skin, Decora",
+      "dm_keyword": "SILK",
+      "amazon_asin": "B0725WFLMB",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B0725WFLMB?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Stop blaming your hair products for the morning frizz."
+  },
+  {
+    "name": "reel_2026-11-10_003",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-10-003.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "The curtain sticks to your leg every shower\n\nThin vinyl liners billow and cling because the water pressure pulls them inward, and a lot of them come wrapped in that sharp new-shower-curtain smell straight out of the package.\n\nThis is an Oeko-tex certified liner in the standard size, so it's tested for harmful substances before it ever gets to your bathroom. Over a hundred thousand people rate it 4.5 stars.\n\nYou hang it and stop thinking about it, no chemical smell, no guessing about what's in the plastic, just a liner in the size your tub already needs. It's about nine dollars.\n\nComment SHOWER and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Barossa Design Oeko-tex Certified Shower Curtain Liner Standard Size",
+      "dm_keyword": "SHOWER",
+      "amazon_asin": "B08QRFZ6TH",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B08QRFZ6TH?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "The curtain sticks to your leg every shower"
   }
 ]

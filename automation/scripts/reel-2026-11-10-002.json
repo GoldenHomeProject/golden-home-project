@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-11-10T13:55:34.677031Z",
+  "date": "2026-11-10",
+  "seq": 2,
+  "hook_category": "mistake",
+  "hook": "Stop blaming your hair products for the morning frizz.",
+  "reel_format": "versus",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of a woman waking up, turning her head on a pillow, hair slightly tangled against the pillowcase fabric, morning light through a window",
+      "on_screen_text": "Not your products. Your pillowcase.",
+      "voiceover": "Stop blaming your hair products for the morning frizz.",
+      "label": ""
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Hands smoothing a plain white cotton pillowcase onto a pillow on a made bed",
+      "on_screen_text": "The usual pillowcase: cotton",
+      "voiceover": "Most of us just grab whatever pillowcase came with the sheet set, usually plain cotton.",
+      "label": "The usual way"
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Close-up of hair strands caught and dragging against the texture of a cotton pillowcase as a head turns",
+      "on_screen_text": "Cotton grips hair and skin",
+      "voiceover": "Cotton fibers grip onto hair and skin all night, pulling moisture out and creating friction every time you shift positions.",
+      "label": "The problem"
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Hands laying a smooth grey satin pillowcase over a pillow, light catching the sheen of the fabric",
+      "on_screen_text": "A satin set made for hair and skin",
+      "voiceover": "This Bedsure satin pillowcase set comes in grey, two to a pack, built specifically for hair and skin.",
+      "label": "The swap"
+    },
+    {
+      "n": 5,
+      "duration_sec": 5,
+      "visual_prompt": "Overhead shot of a made bed with two grey satin pillowcases on the pillows, soft natural light",
+      "on_screen_text": "Comment SILK for the link",
+      "voiceover": "Worth it if you're tired of waking up to tangles. Comment SILK and I'll send the link.",
+      "label": "Worth it if"
+    }
+  ],
+  "caption": "Stop blaming your hair products for the morning frizz.\n\nMost pillowcases are cotton, and cotton pulls moisture out of hair and skin overnight while gripping onto both as you move. That friction is what turns smooth hair into tangles and presses a crease into your cheek by morning.\n\nThis is a set of two satin pillowcases in queen size, similar to silk, made for hair and skin. It has 323,000 reviews at 4.5 stars.\n\nA smoother surface for hair and skin to glide on overnight, for about $7.\n\nComment SILK and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "This is a set of two satin pillowcases in queen size, similar to silk, made for hair and skin. It has 323,000 reviews at 4.5 stars.",
+  "affiliate_strategy": {
+    "primary_product": "Bedsure Satin Pillowcases Queen Set of 2, Similar to Silk Pillow Cases Grey | Silky Pillowcase for Hair and Skin, Decora",
+    "dm_keyword": "SILK",
+    "amazon_asin": "B0725WFLMB",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B0725WFLMB?tag=goldenhomep0a-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": null
+  }
+}

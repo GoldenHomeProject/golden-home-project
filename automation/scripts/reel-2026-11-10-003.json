@@ -1,0 +1,62 @@
+{
+  "created_at": "2026-11-10T13:55:34.686722Z",
+  "date": "2026-11-10",
+  "seq": 3,
+  "hook_category": "scene",
+  "hook": "The curtain sticks to your leg every shower",
+  "reel_format": "problem_fix",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up in a home shower of a hand pulling a wet vinyl curtain liner off a bare leg, water running in the background",
+      "on_screen_text": "It clings to you every time",
+      "voiceover": "The curtain sticks to your leg every shower."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Hands unrolling a folded plastic shower liner out of its packaging on a bathroom counter, slight steam in the room",
+      "on_screen_text": "Thin liners billow and smell like plastic",
+      "voiceover": "It happens because thin liners billow in the water pressure, and most come wrapped in that sharp new-plastic smell."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Hands clipping curtain rings through a plain white liner on a shower rod in a standard home bathroom",
+      "on_screen_text": "Oeko-tex certified, standard size",
+      "voiceover": "This one's Oeko-tex certified in the standard size, tested for harmful substances before it reaches your bathroom."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Wide shot of a clean, simple bathroom with the shower curtain liner hanging straight against a white tub",
+      "on_screen_text": "Rated 4.5 stars by over a hundred thousand",
+      "voiceover": "Over a hundred thousand people rate it 4.5 stars."
+    },
+    {
+      "n": 5,
+      "duration_sec": 5,
+      "visual_prompt": "Someone stepping into the shower, curtain liner hanging flat and still behind them, calm morning light",
+      "on_screen_text": "Comment SHOWER for the link",
+      "voiceover": "You hang it once and stop thinking about it, no smell, no clinging, just a liner that fits your tub. Comment SHOWER and I'll send the link."
+    }
+  ],
+  "caption": "The curtain sticks to your leg every shower\n\nThin vinyl liners billow and cling because the water pressure pulls them inward, and a lot of them come wrapped in that sharp new-shower-curtain smell straight out of the package.\n\nThis is an Oeko-tex certified liner in the standard size, so it's tested for harmful substances before it ever gets to your bathroom. Over a hundred thousand people rate it 4.5 stars.\n\nYou hang it and stop thinking about it, no chemical smell, no guessing about what's in the plastic, just a liner in the size your tub already needs. It's about nine dollars.\n\nComment SHOWER and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "This is an Oeko-tex certified liner in the standard size, so it's tested for harmful substances before it ever gets to your bathroom. Over a hundred thousand people rate it 4.5 stars.",
+  "affiliate_strategy": {
+    "primary_product": "Barossa Design Oeko-tex Certified Shower Curtain Liner Standard Size",
+    "dm_keyword": "SHOWER",
+    "amazon_asin": "B08QRFZ6TH",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B08QRFZ6TH?tag=goldenhomep0a-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": null
+  }
+}
