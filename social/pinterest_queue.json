@@ -10268,14 +10268,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-11-10-B0C3QZ7SNF.png",
     "queued_at": "2026-11-10T11:12:56.234757Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "No More Wet Sponge Puddles",
     "recharted": true,
     "variant": "A",
-    "ai_image": false
+    "ai_image": false,
+    "posted_at": "2026-11-10T14:41:35Z"
   },
   {
     "id": "howto-2026-11-10-B079M8FPTW",
