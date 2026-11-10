@@ -9721,10 +9721,10 @@
   },
   {
     "name": "reel_repurpose_2026-11-09_904",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-11-09-904.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-09-904.mp4",
     "caption": "The self-cleaning dock is the whole reason this category jumped from $900+ to $299 \u2014 so I broke down exactly what happens in that wash-wring-dry cycle, and the one failure mode (damp pads = smell) that reviewers flag most. Full post linked in bio.",
     "hashtags": [
       "#robotvacuummop",
@@ -9735,14 +9735,15 @@
       "#cleaninghacks",
       "#howitworks"
     ],
-    "hook": "How a $299 robot actually washes its own mop. No, really."
+    "hook": "How a $299 robot actually washes its own mop. No, really.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-09-904.mp4"
   },
   {
     "name": "reel_repurpose_2026-11-09_905",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-11-09-905.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-09-905.mp4",
     "caption": "I went in skeptical of a $299 self-washing robot mop. The price history checks out, but it's not for every floor plan. Full verdict \u2014 including who should actually wait \u2014 linked in bio.",
     "hashtags": [
       "#blackfridaydeals",
@@ -9753,6 +9754,7 @@
       "#cleaningtiktok",
       "#homeupgrade"
     ],
-    "hook": "I almost didn't buy the $299 robot mop. Here's why I did."
+    "hook": "I almost didn't buy the $299 robot mop. Here's why I did.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-09-905.mp4"
   }
 ]
