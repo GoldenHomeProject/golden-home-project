@@ -3,19 +3,13 @@
   "agent": "engagement-monitor",
   "metrics": {
     "subscribers": 6660,
-    "total_views": 28016,
-    "total_videos": 264
+    "total_views": 28017,
+    "total_videos": 265
   },
   "top_videos": [
     {
-      "title": "You make the bed but it never looks hotel-crisp #shorts #ama",
-      "views": 224,
-      "likes": 1,
-      "comments": 1
-    },
-    {
       "title": "Stop hanging a heavy curtain in a tiny bathroom #shorts #ama",
-      "views": 125,
+      "views": 124,
       "likes": 0,
       "comments": 1
     },
@@ -27,25 +21,31 @@
     },
     {
       "title": "Stop buying thin curtains that let morning light in #shorts ",
-      "views": 88,
-      "likes": 0,
-      "comments": 1
-    },
-    {
-      "title": "Stop using the green scrubber on your nonstick pans #shorts ",
-      "views": 71,
+      "views": 96,
       "likes": 0,
       "comments": 1
     },
     {
       "title": "Stop buying a shower liner that clings to your leg #shorts #",
-      "views": 33,
+      "views": 76,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Stop using the green scrubber on your nonstick pans #shorts ",
+      "views": 73,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Stop blaming your hair products for the morning frizz #short",
+      "views": 36,
       "likes": 0,
       "comments": 1
     },
     {
       "title": "Cotton pillowcases are quietly wrecking your hair overnight ",
-      "views": 16,
+      "views": 17,
       "likes": 0,
       "comments": 1
     },
@@ -70,6 +70,7 @@
   ],
   "comments_responded": 0,
   "actions_taken": [
+    "New comment on video: \ud83d\udccc SHOP ALL PRODUCTS \u2014 Amazon links:<br><br>\u2460 Bedsu",
     "New comment on video: \ud83d\udccc SHOP ALL PRODUCTS \u2014 Amazon links:<br><br>\u2460 Baros",
     "Updated BUSINESS_BRAIN.md metrics"
   ]
