@@ -1,97 +1,122 @@
 {
-  "generated_at": "2026-11-09T13:34:01.798852Z",
-  "date": "2026-11-09",
+  "generated_at": "2026-11-10T13:13:20.725090Z",
+  "date": "2026-11-10",
   "opportunities": [
     {
       "rank": 1,
       "product_category": "couch/sofa covers",
-      "specific_product": "Mamma Mia waterproof stretch sofa cover",
+      "specific_product": "Mamma Mia waterproof stretch sofa slipcover",
       "brand": "Mamma Mia Covers",
-      "target_price": "$49",
-      "transformation_hook": "Hide pet hair & stains for $49 \u2014 couch looks brand new",
-      "before_state": "Worn, stained couch buried under mismatched throw blankets to hide pet hair and scratches",
-      "after_state": "Smooth, tailored stretch cover turns the same couch into a clean, boutique-look centerpiece in under 5 minutes",
+      "target_price": "$47",
+      "transformation_hook": "Get the $4,000 designer sofa look for $47 before guests arrive",
+      "before_state": "Worn, stained, pet-hair-covered couch nobody wants visible during holiday hosting",
+      "after_state": "Crisp, tailored slipcover matching the trending denim/boucle sofa look, pet hair wipes right off",
       "buyer_intent_keywords": [
-        "couch covers for dogs",
-        "pet hair proof sofa cover",
-        "waterproof couch cover",
-        "stretch sofa slipcover",
-        "covers for scratched couch"
+        "couch covers for pets",
+        "waterproof sofa cover",
+        "stretch slipcover sectional",
+        "pet hair proof couch cover",
+        "sofa cover for dogs"
       ],
       "scores": {
-        "trend": 7,
+        "trend": 8,
         "transformation": 9,
         "affiliate": 10,
-        "intent": 8
+        "intent": 9
       },
-      "composite_score": 34,
-      "why_now": "Holiday hosting season plus Pinterest's trending denim-sofa aesthetic has shoppers racing to refresh worn couches before guests arrive, and Mamma Mia's 24-30% commission makes this the highest-value pick."
+      "composite_score": 36,
+      "why_now": "Pinterest's apttherapy feed is pushing the denim-sofa aesthetic right as Thanksgiving hosting season drives 'hide my ugly couch' searches."
     },
     {
       "rank": 2,
       "product_category": "entryway/mudroom storage",
-      "specific_product": "wall-mounted entryway storage bench with hooks and cubbies",
+      "specific_product": "stackable shoe and boot storage bench with baskets",
       "brand": "Amazon generic",
-      "target_price": "$129",
-      "transformation_hook": "Entryway chaos to HGTV-style mudroom for $129",
-      "before_state": "Cluttered entryway floor piled with shoes, coats, and bags with no defined drop zone",
-      "after_state": "Organized bench with labeled cubbies, hooks, and seating that looks styled straight out of an HGTV spread",
+      "target_price": "$55",
+      "transformation_hook": "Chaotic shoe pile to Pinterest-ready mudroom for $55",
+      "before_state": "Shoes, boots, coats, and bags dumped in a heap by the front door",
+      "after_state": "Organized bench-with-baskets entry zone that looks staged, not stuffed",
       "buyer_intent_keywords": [
         "entryway storage bench",
         "mudroom organization ideas",
-        "shoe storage bench",
+        "shoe storage with baskets",
         "small entryway organizer",
-        "coat and shoe rack"
-      ],
-      "scores": {
-        "trend": 7,
-        "transformation": 9,
-        "affiliate": 8,
-        "intent": 8
-      },
-      "composite_score": 32,
-      "why_now": "HGTV's mudroom/laundry storage pin and Real Simple's pre-Thanksgiving 'guest-ready home' cleaning push are both spiking right now, driving urgency around entryway organization."
-    },
-    {
-      "rank": 3,
-      "product_category": "wet-dry vacuum mop",
-      "specific_product": "cordless self-cleaning wet-dry vacuum mop",
-      "brand": "Amazon generic",
-      "target_price": "$249",
-      "transformation_hook": "Ditch the mop bucket \u2014 spotless floors for $249",
-      "before_state": "Sticky floors, sloshy mop buckets, and dirty mop water splattered across the kitchen",
-      "after_state": "Self-cleaning wet-dry vacuum glides across floors leaving them spotless with zero bucket mess",
-      "buyer_intent_keywords": [
-        "wet dry vacuum mop",
-        "self cleaning mop",
-        "best mop for hardwood floors",
-        "cordless floor washer",
-        "mop alternative"
+        "boot tray storage"
       ],
       "scores": {
         "trend": 8,
         "transformation": 8,
-        "affiliate": 8,
+        "affiliate": 9,
         "intent": 8
       },
-      "composite_score": 32,
-      "why_now": "Apartment Therapy's viral 'ultimate floor mopping hack' pin is driving searches for bucket-free wet-dry vacuums right as holiday hosting ramps up cleaning demands."
+      "composite_score": 33,
+      "why_now": "HGTV's top-performing pin this week is a mudroom/laundry combo, landing right as winter boots and holiday guest coats start piling up at the door."
+    },
+    {
+      "rank": 3,
+      "product_category": "cozy throw blankets",
+      "specific_product": "oversized sherpa fleece throw blanket",
+      "brand": "Amazon generic",
+      "target_price": "$28",
+      "transformation_hook": "Bare, cold couch corner to cozy reading nook for $28",
+      "before_state": "Bare, flat-looking couch corner with no texture or warmth",
+      "after_state": "Layered cozy nook with chunky throw blanket and warm lighting",
+      "buyer_intent_keywords": [
+        "sherpa throw blanket",
+        "oversized cozy blanket",
+        "soft blanket gift",
+        "fleece throw for couch",
+        "best blanket for winter"
+      ],
+      "scores": {
+        "trend": 8,
+        "transformation": 7,
+        "affiliate": 10,
+        "intent": 8
+      },
+      "composite_score": 33,
+      "why_now": "apttherapy is simultaneously pushing 'layer lighting for cozy winter vibes' and luxury blanket gifting right as holiday gift searches ramp up."
     },
     {
       "rank": 4,
-      "product_category": "layered lighting / floor lamps",
-      "specific_product": "modern arc floor lamp with warm LED",
-      "brand": "Amazon generic",
-      "target_price": "$79",
-      "transformation_hook": "Banish the 'big light' \u2014 cozy living room glow-up for $79",
-      "before_state": "Dim, flat living room lit only by one harsh overhead 'big light'",
-      "after_state": "Warm, layered glow from a stylish floor lamp creates a cozy, magazine-worthy fall/winter living room",
+      "product_category": "cervical support pillows",
+      "specific_product": "Eli & Elm side sleeper cervical pillow",
+      "brand": "Eli & Elm",
+      "target_price": "$44",
+      "transformation_hook": "Fix neck pain and a bare headboard wall for $44",
+      "before_state": "Flat mismatched pillows, nagging neck pain, empty wall above the headboard",
+      "after_state": "Styled headboard nook with a supportive pillow stack that looks hotel-bed ready",
       "buyer_intent_keywords": [
-        "floor lamp living room",
-        "warm ambient lighting",
-        "cozy lighting ideas",
-        "arc floor lamp",
-        "layered lighting"
+        "pillow for neck pain side sleeper",
+        "cervical pillow",
+        "best pillow for side sleepers",
+        "neck pain pillow fix",
+        "bedroom headboard decor"
+      ],
+      "scores": {
+        "trend": 6,
+        "transformation": 7,
+        "affiliate": 9,
+        "intent": 9
+      },
+      "composite_score": 31,
+      "why_now": "HGTV's 'space above your headboard' pin is surfacing right as side-sleeper neck pain remedy searches stay steady heading into winter."
+    },
+    {
+      "rank": 5,
+      "product_category": "wall decor / floating shelves",
+      "specific_product": "3-tier floating wall shelf set",
+      "brand": "Amazon generic",
+      "target_price": "$32",
+      "transformation_hook": "Empty wall above the couch styled for $32",
+      "before_state": "Large blank wall above the sofa that feels unfinished and awkward",
+      "after_state": "Curated floating shelf display with books, plants, and frames",
+      "buyer_intent_keywords": [
+        "floating shelves for wall",
+        "wall decor above couch",
+        "living room shelf decor",
+        "floating bookshelf",
+        "large wall decor ideas"
       ],
       "scores": {
         "trend": 6,
@@ -100,32 +125,7 @@
         "intent": 7
       },
       "composite_score": 30,
-      "why_now": "Apartment Therapy's 'banish the big light' layered-lighting pin is surfacing just as shorter November days push shoppers toward cozy lighting fixes."
-    },
-    {
-      "rank": 5,
-      "product_category": "vintage-style accent furniture",
-      "specific_product": "Best Choice Products dark wood vintage-style accent cabinet",
-      "brand": "Best Choice Products",
-      "target_price": "$159",
-      "transformation_hook": "2027's hottest decor trend for $159 \u2014 antique-chic room refresh",
-      "before_state": "Generic, builder-grade living room with no character or focal point",
-      "after_state": "Dark wood accent furniture and vintage-inspired framing give the room a collected, antique-chic look designers are calling the next big trend",
-      "buyer_intent_keywords": [
-        "vintage style furniture",
-        "dark wood accent table",
-        "antique decor trend",
-        "collected home decor",
-        "vintage frames decor"
-      ],
-      "scores": {
-        "trend": 6,
-        "transformation": 7,
-        "affiliate": 8,
-        "intent": 6
-      },
-      "composite_score": 27,
-      "why_now": "Real Simple's 2027 antique-decor trend forecast is prompting early-adopter shoppers to buy vintage-style pieces now, ahead of the mainstream wave, and Best Choice Products offers a 15% commission on furniture."
+      "why_now": "HGTV's 'above the couch' and 'floor-to-ceiling books' pins are both trending this week, signaling a surge in large-wall-styling searches."
     }
   ],
   "raw_signal_count": 85,
