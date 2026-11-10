@@ -5070,6 +5070,58 @@
         ],
         "reel_format": "countdown"
       }
+    ],
+    "COUCH": [
+      {
+        "hook_category": "question",
+        "hook": "Replace the pillows, or just what's inside them?",
+        "beat1": "Throw pillows go flat because the filling compresses over time, not because the cover wears out. People notice the sunken look and assume the whole pillow is done, so they shop for a full replacement set instead of just the part that actually failed.",
+        "turn": "These are 18x18 inserts only, two to a pack, 100% virgin filling, meant to go inside the covers you already own. Shoppers have rated them 4.6 stars across roughly 220,000 reviews.",
+        "result": "You keep the covers you picked out and just swap what's stuffed inside, for about $15.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Hands pressing down on a flat, sunken throw pillow on a living room couch, the fabric cover wrinkling under the pressure",
+            "on_screen_text": "Pillows or just the insides?",
+            "voiceover": "Replace the pillows, or just what's inside them?",
+            "label": ""
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "A person browsing a shelf of boxed throw pillows at a home goods store, picking one up to compare",
+            "on_screen_text": "The usual move: buy all new",
+            "voiceover": "Most people see a flat pillow and go buy a whole new one, cover and all.",
+            "label": "The usual way"
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Close-up of hands unzipping the back of a decorative pillow cover, revealing a thin, compressed insert underneath",
+            "on_screen_text": "The cover was never the issue",
+            "voiceover": "But the cover you liked is usually fine. It's the filling underneath that's gone thin.",
+            "label": "The problem"
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "Hands pulling a plump white square pillow insert out of its plastic packaging and sliding it into an open pillow cover",
+            "on_screen_text": "18x18 insert, two pack",
+            "voiceover": "Utopia Bedding makes an 18 by 18 insert, two per pack, white, 100% virgin filling, made to go inside covers like yours.",
+            "label": "The swap"
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "A couch corner with freshly fluffed, full-looking throw pillows arranged against the armrest in natural daylight",
+            "on_screen_text": "Keep the covers, swap the inside",
+            "voiceover": "If your covers still look good but the pillows don't, this is the part to replace, about $15. Comment {KEYWORD} and I'll send the link.",
+            "label": "Worth it if"
+          }
+        ],
+        "reel_format": "versus"
+      }
     ]
   },
   "hashtag_pools": {
