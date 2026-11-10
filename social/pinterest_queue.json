@@ -10291,5 +10291,21 @@
   "source": "generate_howto_pins",
   "format": "howto",
   "variant": "B"
+ },
+ {
+  "id": "gift_guide-2026-11-10",
+  "asin": "B001GM60LE",
+  "board": "Gifts Under $25 for the Home",
+  "title": "Teacher Gifts Under $15",
+  "description": "Teacher Gifts Under $15: Breakfast Tea, Cup Sleeve, String Lights, Throw Blanket, Hair Towel Wrap, Pillowcase Set. Each one rated 4.5 stars or higher across thousands of ratings. Tap through to see it on Amazon. Amazon affiliate \u2014 small commission at no extra cost to you.",
+  "link": "https://goldenhomeproject.com/blog/posts/teacher-gifts-under-15.html?v=B",
+  "image_path": "social/pinterest/gift_guide-2026-11-10.png",
+  "image_url": "https://goldenhomeproject.com/social/pinterest/gift_guide-2026-11-10.png",
+  "queued_at": "2026-11-10T11:20:02.363252Z",
+  "posted": false,
+  "source": "generate_format_pins",
+  "format": "gift_guide",
+  "variant": "B",
+  "guide": "teacher-gifts-under-15"
  }
 ]
