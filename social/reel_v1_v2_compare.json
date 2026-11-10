@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-09T08:15",
+ "updated": "2026-11-10T08:15",
  "note": "watch_pct = avg watch time / reel length (IG has no 3-second-hold metric). Clicks and orders: Associates report by ascsubtag.",
  "summary": {
   "v1": {
-   "reels": 6,
+   "reels": 7,
    "like_count": 0.0,
    "comments_count": 0.0,
    "link_replies": null
@@ -134,6 +134,24 @@
    "comments_count": 0,
    "like_count": 0,
    "permalink": "https://www.instagram.com/reel/Dffq9BrEdDc/",
+   "plays": null,
+   "saves": null,
+   "shares": null,
+   "avg_watch_s": null,
+   "watch_pct": null,
+   "keyword": null,
+   "link_replies": null
+  },
+  {
+   "date": "2026-11-10",
+   "variant": "v1",
+   "title": "Stop buying a shower liner that clings to your leg",
+   "ig_media": "18121632619969594",
+   "youtube": "ETDT7lcsjkc",
+   "length_s": 20.0,
+   "comments_count": 0,
+   "like_count": 0,
+   "permalink": "https://www.instagram.com/reel/DfioDZ5nFai/",
    "plays": null,
    "saves": null,
    "shares": null,
