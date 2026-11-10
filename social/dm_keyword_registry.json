@@ -6841,6 +6841,22 @@
       "verified_stars": "4.7",
       "verified_reviews": 16308,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0F9WXSVSX",
+      "product_name": "StorageWorks Linen Closet Organizers, Fabric Storage Bin, Beige, 2-Pack | Large, With Reinforced PU Handles, Metal Frame",
+      "categories": [
+        "home",
+        "Home Storage"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0F9WXSVSX?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-11-10",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$29.99",
+      "verified_stars": "4.6",
+      "verified_reviews": 6095,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
