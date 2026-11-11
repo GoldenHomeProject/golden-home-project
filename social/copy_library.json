@@ -5122,6 +5122,58 @@
         ],
         "reel_format": "versus"
       }
+    ],
+    "VIRGIN": [
+      {
+        "hook_category": "mistake",
+        "hook": "Stop buying inserts the same size as your pillow cover.",
+        "beat1": "When a pillow insert matches the cover's exact measurement, the fabric has no extra fill to push against. Over time the corners cave in and the pillow reads as flat on the couch, even if the cover itself is fine.",
+        "turn": "Sizing the insert up from the cover gives the fabric room to fill out properly. These Utopia Bedding 18x18 inserts come as a 2 pack with 100% virgin filling, rated 4.6 stars across roughly 220,000 reviews.",
+        "result": "The result is a fuller, more structured pillow instead of a flat one, for about $15.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Hands adjusting a square throw pillow on a couch, one corner visibly flat and sagging",
+            "on_screen_text": "Same size insert, flat pillow",
+            "voiceover": "Stop buying inserts the same size as your pillow cover.",
+            "label": ""
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Close-up of a pillow cover being unzipped, showing loose fabric bunching around a thin insert",
+            "on_screen_text": "Fabric settles, corners go flat",
+            "voiceover": "When the insert matches the cover exactly, the fabric has nowhere to go, so the corners start to sag.",
+            "label": "The mistake"
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Hand pressing into a full, squared-off pillow propped against couch cushions",
+            "on_screen_text": "Size up for a fuller shape",
+            "voiceover": "Sizing the insert up from the cover gives the fabric extra fill to push into, so the shape holds.",
+            "label": "Instead"
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "Two white square pillow inserts stacked on a couch next to their folded covers",
+            "on_screen_text": "18x18 inserts, two pack",
+            "voiceover": "These Utopia Bedding 18x18 inserts come two to a pack with virgin filling, sitting at 4.6 stars across over 220,000 reviews.",
+            "label": "The fix"
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "Finished couch corner with two plump square pillows arranged neatly against the arm",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "At about $15, they're an easy swap for flat pillows. Comment {KEYWORD} and I'll send the link.",
+            "label": "Save this"
+          }
+        ],
+        "reel_format": "mistake"
+      }
     ]
   },
   "hashtag_pools": {
