@@ -10248,14 +10248,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-11-10-B0B2F55P76.png",
     "queued_at": "2026-11-10T11:12:09.984797Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "Adhesive Wall Hooks No Drill Clear Heavy",
     "recharted": true,
     "variant": "A",
-    "ai_image": true
+    "ai_image": true,
+    "posted_at": "2026-11-11T02:16:28Z"
   },
   {
     "id": "pin-2026-11-10-B0C3QZ7SNF",
