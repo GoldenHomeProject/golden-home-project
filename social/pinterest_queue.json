@@ -9210,14 +9210,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-11-01-B0D1BZJSX4.png",
     "queued_at": "2026-11-01T11:14:06.194304Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "No-drill shower storage that stays put",
     "recharted": true,
     "variant": "B",
-    "ai_image": false
+    "ai_image": false,
+    "posted_at": "2026-11-11T02:17:40Z"
   },
   {
     "id": "pin-2026-11-01-B0C6HW47RH",
