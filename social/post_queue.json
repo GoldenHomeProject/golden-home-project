@@ -9703,10 +9703,10 @@
   },
   {
     "name": "reel_repurpose_2026-11-09_903",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-11-09-903.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-09-903.mp4",
     "caption": "Nobody mentions the consumables when they post the $299 price. I did the math on mop pads, dustbin bags, and dock solution so you're not surprised in month two. Full cost breakdown linked in bio.",
     "hashtags": [
       "#blackfridaydeals",
@@ -9717,7 +9717,8 @@
       "#roborock",
       "#cleaningtips"
     ],
-    "hook": "The $299 robot mop isn't $299. Here's the real yearly cost."
+    "hook": "The $299 robot mop isn't $299. Here's the real yearly cost.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-09-903.mp4"
   },
   {
     "name": "reel_repurpose_2026-11-09_904",
@@ -9759,10 +9760,10 @@
   },
   {
     "name": "reel_2026-11-10_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-11-10-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-10-001.mp4",
     "caption": "Stop stuffing a thin comforter inside your duvet cover.\n\nA duvet cover looks fine until you shake it out and the comforter bunches in one corner, leaving the rest of the cover empty and flat. That gap is usually the comforter, not the cover.\n\nThis insert is made to sit inside a duvet cover and fill it out evenly from corner to corner. About eighty thousand people have rated it, averaging 4.7 stars.\n\nYou get a bed that looks full and even under the cover instead of lumpy in the middle, for about $35.\n\nComment COMFORTER and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -9779,7 +9780,8 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "Stop stuffing a thin comforter inside your duvet cover."
+    "hook": "Stop stuffing a thin comforter inside your duvet cover.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-10-001.mp4"
   },
   {
     "name": "reel_2026-11-10_002",
