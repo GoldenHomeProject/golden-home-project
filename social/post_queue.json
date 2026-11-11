@@ -1,17 +1,5 @@
 [
   {
-    "id": "ig-gift_guide-2026-11-10",
-    "name": "Teacher Gifts Under $15",
-    "media_type": "IMAGE",
-    "image_url": "https://goldenhomeproject.com/social/instagram/gift_guide-2026-11-10.jpg",
-    "caption": "Teacher Gifts Under $15\n\nTeacher Gifts Under $15: Breakfast Tea, Cup Sleeve, String Lights, Throw Blanket, Hair Towel Wrap, Pillowcase Set. Each one rated 4.5 stars or higher across thousands of ratings.\n\nSave this for later.\n\n\ud83d\udd17 This product: tap the link in our bio \u2192 'From our videos' at the top.\n\nAs an Amazon Associate we earn from qualifying purchases.\n\n#homeorganization #organizedhome #amazonfinds #homefinds",
-    "status": "ready",
-    "source": "generate_format_pins",
-    "format": "gift_guide",
-    "asin": "B001GM60LE",
-    "queued_at": "2026-11-10T11:20:02.336915+00:00"
-  },
-  {
     "name": "reel_2026-05-26_001",
     "status": "awaiting_video",
     "script_path": "automation/scripts/reel-2026-05-26-001.json",
