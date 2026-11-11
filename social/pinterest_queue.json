@@ -9108,10 +9108,11 @@
     "image_url": "https://goldenhomeproject.com/social/pinterest/howto-2026-10-31-B09ZKYQMVD.png",
     "link": "https://www.amazon.com/dp/B09ZKYQMVD?tag=ghpbranda-20&ascsubtag=pinterest_howto_brandA",
     "queued_at": "2026-10-31T10:25:11.673080Z",
-    "posted": false,
+    "posted": true,
     "source": "generate_howto_pins",
     "format": "howto",
-    "variant": "A"
+    "variant": "A",
+    "posted_at": "2026-11-11T02:15:33Z"
   },
   {
     "id": "pin-2026-11-01-B0157T2ENY",
