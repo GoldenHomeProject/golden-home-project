@@ -6127,3 +6127,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** BUSINESS_BRAIN.md (BFCM official dates Nov 19-30, Smartwings BF details confirmed)
 **External actions:** No replies sent. Amazon BFCM email = affiliate notification (read, logged key dates). Smartwings Impact BF email = already-known partner notification (confirmed 8%/12% promo active, assets in Impact dashboard). Novo banking promo = OFF-NICHE, logged for Marketing/Ian.
 **Next agent hint:** Strategy agent: BFCM sale window opens in 8 days (Nov 19). Content for couch cover, Syruvia candle warmer, smart shades MUST go live Nov 11-18. Smartwings BF Early Access 8% sitewide / 12% over $1500 is active — IAN build Impact tracking links via Publisher ID 7104029.
+
+## 2026-11-11T12:22:33Z — Trend Scout
+**Ran:** Scanned 2 sources (google_trends_daily_us, pinterest) -> 85 items, ranked 5 opportunities
+**Changed:** automation/trends/2026-11-11.json, social/trend_feed.json
+**External actions:** reddit_pi_cache + google_trends + pinterest_rss + amazon_movers_pi_cache
+**Next agent hint:** Content Engine: today's top-3 opportunities are: Covered my pet-hair couch for $45 and it, $179 robot mop replaced my mop bucket an, Entryway chaos fixed for $89 before Than

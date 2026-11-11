@@ -1,0 +1,136 @@
+{
+  "generated_at": "2026-11-11T12:22:33.658838Z",
+  "date": "2026-11-11",
+  "opportunities": [
+    {
+      "rank": 1,
+      "product_category": "couch/sofa covers",
+      "specific_product": "Mamma Mia waterproof stretch sofa cover (3-seat)",
+      "brand": "Mamma Mia Covers",
+      "target_price": "$45",
+      "transformation_hook": "Covered my pet-hair couch for $45 and it looks brand new before guests arrive",
+      "before_state": "Couch covered in visible pet hair, scratches, and stains, clashing with the room",
+      "after_state": "Sleek, tightly-fitted new-look sofa in a trending color that matches holiday decor",
+      "buyer_intent_keywords": [
+        "couch cover for dogs",
+        "waterproof sofa cover",
+        "stretch couch cover pets",
+        "sofa cover for cats",
+        "denim look couch cover"
+      ],
+      "scores": {
+        "trend": 8,
+        "transformation": 10,
+        "affiliate": 10,
+        "intent": 9
+      },
+      "composite_score": 37,
+      "why_now": "Denim-sofa and pet-friendly-living pins are surging on Apartment Therapy right as holiday hosting puts couches under scrutiny, and Mamma Mia's 24-30% commission makes this the highest-margin pick."
+    },
+    {
+      "rank": 2,
+      "product_category": "robot vacuum-mop",
+      "specific_product": "Budget robot vacuum-mop combo (wet/dry, Roborock-style dupe)",
+      "brand": "Amazon generic",
+      "target_price": "$179",
+      "transformation_hook": "$179 robot mop replaced my mop bucket and my floors have never been this clean",
+      "before_state": "Sticky floor grime and a bulky mop bucket taking over the kitchen floor",
+      "after_state": "Streak-free, spotless floors cleaned hands-free by a robot mop in the background",
+      "buyer_intent_keywords": [
+        "robot mop vacuum combo",
+        "best budget robot vacuum mop",
+        "self cleaning mop robot",
+        "robot vacuum for hardwood floors",
+        "wet dry vacuum robot"
+      ],
+      "scores": {
+        "trend": 9,
+        "transformation": 9,
+        "affiliate": 7,
+        "intent": 8
+      },
+      "composite_score": 33,
+      "why_now": "Apartment Therapy just pushed a wet-dry robot mop as 'the ultimate floor mopping hack,' and cold-weather mess is making floor cleanup top of mind right now."
+    },
+    {
+      "rank": 3,
+      "product_category": "entryway storage bench",
+      "specific_product": "Storage entryway bench with shoe cubbies and hooks",
+      "brand": "Best Choice Products",
+      "target_price": "$89",
+      "transformation_hook": "Entryway chaos fixed for $89 before Thanksgiving guests walk in",
+      "before_state": "Shoes, coats, and bags piled in a cluttered heap by the front door",
+      "after_state": "Organized bench with shoe cubbies and coat hooks, guest-ready entryway",
+      "buyer_intent_keywords": [
+        "entryway storage bench",
+        "shoe storage bench with cubbies",
+        "mudroom bench organizer",
+        "coat and shoe bench",
+        "small entryway organization"
+      ],
+      "scores": {
+        "trend": 7,
+        "transformation": 8,
+        "affiliate": 9,
+        "intent": 7
+      },
+      "composite_score": 31,
+      "why_now": "HGTV's mudroom/laundry storage pin is trending days before Thanksgiving guests start arriving, spiking entryway-organization searches."
+    },
+    {
+      "rank": 4,
+      "product_category": "kitchen cabinet organizers",
+      "specific_product": "Syruvia pull-out cabinet organizer set",
+      "brand": "Syruvia",
+      "target_price": "$34",
+      "transformation_hook": "$34 kitchen organizer fixed my junk-drawer cabinet in 10 minutes",
+      "before_state": "Cluttered, overflowing cabinet with pots and lids falling out",
+      "after_state": "Neatly sliding pull-out organizer with everything visible and in place",
+      "buyer_intent_keywords": [
+        "kitchen cabinet organizer",
+        "pull out pantry organizer",
+        "under cabinet organizer",
+        "lazy susan cabinet",
+        "small kitchen storage hacks"
+      ],
+      "scores": {
+        "trend": 6,
+        "transformation": 7,
+        "affiliate": 9,
+        "intent": 7
+      },
+      "composite_score": 29,
+      "why_now": "HGTV and Real Simple are both pushing 2027 kitchen-trend content right now, priming audiences to shop small-kitchen fixes."
+    },
+    {
+      "rank": 5,
+      "product_category": "peel-and-stick wallpaper",
+      "specific_product": "Removable peel-and-stick wallpaper accent panel",
+      "brand": "Amazon generic",
+      "target_price": "$28",
+      "transformation_hook": "$28 peel-and-stick wall turned my boring rental into a design flex",
+      "before_state": "Plain, boring rental wall with nothing but a nail hole",
+      "after_state": "Bold accent wall with removable wallpaper that looks custom-designed",
+      "buyer_intent_keywords": [
+        "peel and stick wallpaper",
+        "removable wallpaper accent wall",
+        "renter friendly wall decor",
+        "temporary wallpaper kitchen",
+        "self adhesive wall panels"
+      ],
+      "scores": {
+        "trend": 6,
+        "transformation": 8,
+        "affiliate": 8,
+        "intent": 6
+      },
+      "composite_score": 28,
+      "why_now": "Apartment Therapy's renter-friendly makeover and eco-paint pins show rental decor demand rising into the winter nesting season."
+    }
+  ],
+  "raw_signal_count": 85,
+  "sources_used": [
+    "google_trends_daily_us",
+    "pinterest"
+  ]
+}
