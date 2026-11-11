@@ -1,0 +1,3 @@
+no falsifiable detail (needs dimension / review count / % / piece count)
+
+Reviewed: 2026-11-11T13:08:56.377522+00:00

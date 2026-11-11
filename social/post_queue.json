@@ -9859,5 +9859,53 @@
     "keyword": "PITCHER",
     "queued_at": "2026-11-10T15:19:48.580731Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_2026-11-11_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-11-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "You run out of clean washcloths halfway through the week.\n\nMost bathrooms only have a handful of washcloths in rotation, so between laundry loads they run out fast. People end up reaching for a towel, a paper towel, or the same damp one two days in a row.\n\nThis is a twenty-four pack, so one load of laundry keeps every sink and shower stocked for weeks. It's rated 4.6 stars by around seventy-five thousand people, mostly for having enough to actually stop running out.\n\nYour linen closet stays stocked instead of scraped bare, for about $20.\n\nComment PACK and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Utopia Towels 24 Pack Washcloths",
+      "dm_keyword": "PACK",
+      "amazon_asin": "B007JCHA6E",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B007JCHA6E?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "You run out of clean washcloths halfway through the week."
+  },
+  {
+    "name": "reel_2026-11-11_003",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-11-003.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Weak water pressure isn't your pipes. It's your showerhead.\n\nMost bathrooms still have the plain fixed head that came with the house, and it only does one thing: a single steady stream. When the building's water pressure is already low, that one setting is the whole experience, every single day.\n\nThis handheld head gives you eight spray modes plus a 2-mode power wash setting, so you can switch from a wide rinse to a stronger, more focused stream right from your hand. It's rated 4.5 stars by over fifty thousand people.\n\nYou get a shower that actually adjusts to what you want that day, for about $30.\n\nComment AQUACARE and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "AquaCare 8-mode High Pressure Handheld Shower Head with 2-mode Power W",
+      "dm_keyword": "AQUACARE",
+      "amazon_asin": "B08WPQ12XX",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B08WPQ12XX?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Weak water pressure isn't your pipes. It's your showerhead."
   }
 ]
