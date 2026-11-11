@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-11-10 (Affiliate Optimizer 10am)
+# Last updated: 2026-11-11 (Email Monitor 8am)
 # ============================================================
 
 ---
@@ -4769,3 +4769,28 @@ TikTok Shop BFCM TOMORROW NOV 11 = 1 DAY (brief Content Engine NOW: "grandma's h
 
 **FOR MARKETING DEPT / IAN — not GHP (Nov 10, Affiliate Optimizer 10am):**
 - **Novo** (hello@novo.co, thread 1a1c5627b7d156d7, Nov 10 12:15 UTC, subject: "Juggling rewards categories?") — business banking cash-back rewards promotional email from Novo business banking platform. OFF-NICHE (fintech/banking). No reply sent.
+
+---
+
+## EMAIL MONITOR UPDATE — 2026-11-11
+
+### BFCM 2026 OFFICIAL AMAZON DATES CONFIRMED (Email Monitor 8am, Nov 11)
+Amazon Associates sent official Black Friday Week & Cyber Monday announcement:
+- **Sale runs: November 19–30 (12 days)**
+- Black Friday Week starts **Nov 19** (NOT Nov 27 as previously estimated) — 8 full days of early deals before Black Friday Nov 27, then through Cyber Monday Nov 30
+- Creator Toolkit available (templates, product backgrounds): https://m.media-amazon.com/images/G/01/Associates/Marketing/PD26/Prime-Day-Toolkit-2026.zip
+- Early deals LIVE NOW: amazon.com/blackfriday
+
+**Implication:** BFCM content (couch cover, Syruvia candle warmer, robot vacuum, smart shades) must be LIVE by Nov 19 (8 days from today) to ride the opening day traffic spike. Priority content window is now Nov 11-18 (8 days).
+
+### SMARTWINGS BF EARLY ACCESS — CONFIRMED ACTIVE (from Impact.com notification Nov 11 02:52 UTC)
+Smartwings sent official BF promo details via Impact.com:
+- **8% off sitewide** (all products included)
+- **12% off orders over $1,500** (multi-room buyers)
+- Free shipping on all orders
+- Marketing assets/banners available in Impact dashboard
+
+**Note:** notifications@outreach.impact.com email permanently bounced previously (confirmed Oct 16). IAN: Access SmartWings promo assets and build tracking links via Impact dashboard directly (Publisher ID 7104029). Do NOT email notifications@outreach.impact.com.
+
+### FOR MARKETING DEPT / IAN — not GHP (Nov 11, Email Monitor 8am):
+- **Novo** (hello@novo.co, subject: "Juggling rewards categories?", Nov 10 12:15 UTC, thread 1a1c5627b7d156d7) — already logged Nov 10. Business banking cash-back promo. OFF-NICHE. No reply sent.
