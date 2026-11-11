@@ -4,12 +4,12 @@
     "lifetime_follows": 26,
     "lifetime_likes": 33,
     "lifetime_comments": 7,
-    "last_session": "2026-11-11-1341-pi",
+    "last_session": "comments-2026-11-11T1409Z",
     "blocked_at": null,
-    "last_updated": "2026-11-11T13:42:05Z",
-    "total_actions": 753,
+    "last_updated": "2026-11-11T14:12:29Z",
+    "total_actions": 755,
     "lifetime_dms": 34,
-    "lifetime_comments_outbound": 88
+    "lifetime_comments_outbound": 90
   },
   "actions": [
     {
@@ -41922,6 +41922,24 @@
       ],
       "untapped_warm": [],
       "dry_run": false
+    },
+    {
+      "timestamp": "2026-11-11T14:10:17Z",
+      "action": "comment_posted",
+      "target": "shiragill",
+      "session": "comments-2026-11-11T1409Z",
+      "post_url": "https://www.instagram.com/shiragill/p/Dfhp_CsMnPM/",
+      "text": "I don't have the actual caption content \u2014 it came through blank, and I don't have permission to fetch the Instagram URL directly (the request needs your approval). Since the whole point of this commen",
+      "caption_seen": ""
+    },
+    {
+      "timestamp": "2026-11-11T14:12:29Z",
+      "action": "comment_posted",
+      "target": "lifeinjeneral",
+      "session": "comments-2026-11-11T1409Z",
+      "post_url": "https://www.instagram.com/lifeinjeneral/p/DdDP3EWFCz0/",
+      "text": "I can't access the actual post caption \u2014 Instagram requires login and the fetch attempt was blocked, plus no caption text was included in your message (it shows as empty/truncated). Could you paste th",
+      "caption_seen": ""
     }
   ]
 }
