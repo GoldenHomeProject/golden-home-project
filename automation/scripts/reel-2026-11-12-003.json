@@ -1,0 +1,62 @@
+{
+  "created_at": "2026-11-12T14:11:52.290417Z",
+  "date": "2026-11-12",
+  "seq": 3,
+  "hook_category": "mistake",
+  "hook": "Stop trusting that wobbly dial scale in your bathroom.",
+  "reel_format": "problem_fix",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of bare feet stepping onto an old round dial bathroom scale on tile flooring, the needle visibly off-center",
+      "on_screen_text": "That dial scale is lying to you",
+      "voiceover": "Stop trusting that wobbly dial scale in your bathroom."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Overhead shot of a dial scale sitting crooked on textured bathroom tile near a bath mat, needle wavering",
+      "on_screen_text": "Uneven tile throws off the needle",
+      "voiceover": "Dial scales sit unevenly on tile or bath mats, so the needle drifts depending on where you stand, and it swings around before it ever settles."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Feet stepping onto a slim digital bathroom scale, a bright number lighting up on the screen",
+      "on_screen_text": "One flat number, no needle",
+      "voiceover": "A digital scale skips the needle completely and just shows a flat number on the screen, so there's nothing left to squint at or second-guess."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Hand setting a digital scale down flat against a bathroom wall next to a towel rack, screen glowing",
+      "on_screen_text": "Rated 4.7 stars by thousands",
+      "voiceover": "Over three hundred thousand people have rated this one 4.7 stars."
+    },
+    {
+      "n": 5,
+      "duration_sec": 5,
+      "visual_prompt": "Person stepping off a digital scale in a bright bathroom, glancing at the readout with a relaxed expression",
+      "on_screen_text": "Comment SCALE for the link",
+      "voiceover": "You step on, get one clear number, and step off, no more guessing games, and it runs about twenty dollars. Comment SCALE and I'll send the link."
+    }
+  ],
+  "caption": "Stop trusting that wobbly dial scale in your bathroom.\n\nOld dial scales sit unevenly on tile or bath mats, so the needle drifts a few pounds depending on where you stand. Grout lines and uneven flooring make the needle swing before it settles, so you end up guessing which reading to believe.\n\nA digital scale skips the needle entirely and just shows a flat number on a screen, so there's nothing to squint at or second-guess. Over three hundred thousand people have rated this one 4.7 stars.\n\nYou step on, get one clear number, and step off, no guessing games on tile or bath mats. It runs about $20.\n\nComment SCALE and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "A digital scale skips the needle entirely and just shows a flat number on a screen, so there's nothing to squint at or second-guess. Over three hundred thousand people have rated this one 4.7 stars.",
+  "affiliate_strategy": {
+    "primary_product": "Etekcity Digital Body Weight Bathroom Scale",
+    "dm_keyword": "SCALE",
+    "amazon_asin": "B01HI1W1V4",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B01HI1W1V4?tag=goldenhomep0a-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": null
+  }
+}

@@ -9925,5 +9925,77 @@
     "keyword": "PITCHER",
     "queued_at": "2026-11-11T14:49:27.651748Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_2026-11-12_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-12-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "You run out of clean washcloths halfway through the week.\n\nMost bathrooms only have a handful of washcloths in rotation, so between laundry loads they run out fast. People end up reaching for a towel, a paper towel, or the same damp one two days in a row.\n\nThis is a twenty-four pack, so one load of laundry keeps every sink and shower stocked for weeks. It's rated 4.6 stars by around seventy-five thousand people, mostly for having enough to actually stop running out.\n\nYour linen closet stays stocked instead of scraped bare, for about $20.\n\nComment PACK and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Utopia Towels 24 Pack Washcloths",
+      "dm_keyword": "PACK",
+      "amazon_asin": "B007JCHA6E",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B007JCHA6E?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "You run out of clean washcloths halfway through the week."
+  },
+  {
+    "name": "reel_2026-11-12_002",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-12-002.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Your shower curtain keeps clinging to your leg mid-shower.\n\nRunning water pulls air out of the shower stall, and a light curtain gets dragged inward right along with it. Thin liners have nothing weighing the bottom down, so they billow and stick the second the water gets going.\n\nThis AmazerBath curtain is clear heavy duty 8G PEVA with a weighted bottom, so it hangs close to the tub instead of flying at you. About ninety thousand people have rated it 4.6 stars.\n\nLess reaching over to peel plastic off your leg, more just showering. It runs about nine dollars.\n\nComment AMAZERBATH and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "AmazerBath Plastic Shower Curtain Clear Premium PEVA, Clear Shower Curtain Heavy Duty 8G, Weighted Shower Curtains for B",
+      "dm_keyword": "AMAZERBATH",
+      "amazon_asin": "B07236M4HC",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B07236M4HC?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B07236M4HC?tag=goldenhomep0a-20"
+    },
+    "hook": "Your shower curtain keeps clinging to your leg mid-shower."
+  },
+  {
+    "name": "reel_2026-11-12_003",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-12-003.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Stop trusting that wobbly dial scale in your bathroom.\n\nOld dial scales sit unevenly on tile or bath mats, so the needle drifts a few pounds depending on where you stand. Grout lines and uneven flooring make the needle swing before it settles, so you end up guessing which reading to believe.\n\nA digital scale skips the needle entirely and just shows a flat number on a screen, so there's nothing to squint at or second-guess. Over three hundred thousand people have rated this one 4.7 stars.\n\nYou step on, get one clear number, and step off, no guessing games on tile or bath mats. It runs about $20.\n\nComment SCALE and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Etekcity Digital Body Weight Bathroom Scale",
+      "dm_keyword": "SCALE",
+      "amazon_asin": "B01HI1W1V4",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01HI1W1V4?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Stop trusting that wobbly dial scale in your bathroom."
   }
 ]
