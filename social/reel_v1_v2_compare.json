@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T08:15",
+ "updated": "2026-11-12T08:15",
  "note": "watch_pct = avg watch time / reel length (IG has no 3-second-hold metric). Clicks and orders: Associates report by ascsubtag.",
  "summary": {
   "v1": {
@@ -9,7 +9,7 @@
    "link_replies": null
   },
   "v2": {
-   "reels": 1,
+   "reels": 2,
    "like_count": 0.0,
    "comments_count": 0.0,
    "link_replies": 0.0
@@ -159,6 +159,24 @@
    "watch_pct": null,
    "keyword": null,
    "link_replies": null
+  },
+  {
+   "date": "2026-11-11",
+   "variant": "v2",
+   "title": "Gifts for the friend who doesn\u2019t need anything",
+   "ig_media": "18019771013950227",
+   "youtube": "xHIQM1JbwgI",
+   "length_s": 16.6,
+   "comments_count": 0,
+   "like_count": 0,
+   "permalink": "https://www.instagram.com/reel/DfnpQhijuPv/",
+   "plays": null,
+   "saves": null,
+   "shares": null,
+   "avg_watch_s": null,
+   "watch_pct": null,
+   "keyword": "COZY",
+   "link_replies": 0
   }
  ]
 }
