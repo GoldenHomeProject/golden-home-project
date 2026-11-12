@@ -9168,14 +9168,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-11-01-B07YKLSMFM.png",
     "queued_at": "2026-11-01T11:12:53.679406Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "Fill Stays Put, Not Covers",
     "recharted": true,
     "variant": "A",
-    "ai_image": false
+    "ai_image": false,
+    "posted_at": "2026-11-12T02:17:46Z"
   },
   {
     "id": "pin-2026-11-01-B07BYSQ39N",

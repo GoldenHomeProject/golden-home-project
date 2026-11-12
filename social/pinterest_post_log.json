@@ -3683,6 +3683,20 @@
       "pin_id": "pin-2026-11-11-B08J8GZXKZ",
       "board": "Kitchen Organization Ideas",
       "link": "https://www.amazon.com/dp/B08J8GZXKZ?tag=ghpbranda-20&ascsubtag=pinterest_brandA"
+    },
+    {
+      "ts": "2026-11-12T02:17:34Z",
+      "action": "board_fallback",
+      "pin_id": "pin-2026-11-01-B07YKLSMFM",
+      "wanted": "Bedroom Storage & Bedding",
+      "used": "Home Organization Finds"
+    },
+    {
+      "ts": "2026-11-12T02:17:45Z",
+      "action": "pin_published",
+      "pin_id": "pin-2026-11-01-B07YKLSMFM",
+      "board": "Bedroom Storage & Bedding",
+      "link": "https://www.amazon.com/dp/B07YKLSMFM?tag=ghpbranda-20&ascsubtag=pinterest_brandA"
     }
   ]
 }
