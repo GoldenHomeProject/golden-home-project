@@ -10446,14 +10446,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-11-12-B0043P0IAK.png",
     "queued_at": "2026-11-12T11:15:32.702866Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "Scratch-free scrub, 6-pack",
     "recharted": false,
     "variant": "B",
-    "ai_image": false
+    "ai_image": false,
+    "posted_at": "2026-11-12T14:41:22Z"
   },
   {
     "id": "pin-2026-11-12-B08WPQ12XX",
