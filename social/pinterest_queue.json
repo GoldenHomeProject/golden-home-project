@@ -10326,14 +10326,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-11-11-B08J8GZXKZ.png",
     "queued_at": "2026-11-11T11:11:05.137706Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "Heat-Resistant Grip, No Burns",
     "recharted": true,
     "variant": "A",
-    "ai_image": true
+    "ai_image": true,
+    "posted_at": "2026-11-12T02:16:43Z"
   },
   {
     "id": "pin-2026-11-11-B079GB6MGD",
