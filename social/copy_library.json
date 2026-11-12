@@ -5174,6 +5174,53 @@
         ],
         "reel_format": "mistake"
       }
+    ],
+    "NOISELESS": [
+      {
+        "hook_category": "mistake",
+        "hook": "Stop buying mattress protectors that crinkle every time you move",
+        "beat1": "Thin plastic-backed protectors tend to rustle whenever you shift at night, and on a thicker mattress the corners pull loose by morning. That combination of noise and slipping is usually why people stop using one altogether.",
+        "turn": "This one is made with deep pockets sized for mattresses up to 15 inches, so it stays anchored on thicker setups, and it's built to be noiseless. It's rated 4.5 stars with over 100,000 reviews.",
+        "result": "You get a soft, breathable layer that stays put and keeps spills off the mattress without the crinkle, for about $15.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close-up of hands smoothing a white fitted mattress protector over the corner of a bed in soft morning light",
+            "on_screen_text": "POV: it doesn't crinkle anymore",
+            "voiceover": "Stop buying mattress protectors that crinkle every time you move."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Person turning over in bed at night, hand reaching down to tuck a loose protector corner back under a thick mattress",
+            "on_screen_text": "Thin plastic backing. Slides right off",
+            "voiceover": "Most protectors are thin, plastic, and slide off a thicker mattress by morning."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Hands stretching a fabric mattress protector's deep elastic pocket down over a tall mattress edge",
+            "on_screen_text": "Deep pockets fit up to 15 inch",
+            "voiceover": "This one has deep pockets built for mattresses up to fifteen inches, and it's noiseless."
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "Close-up of a glass of water tipping slightly near the edge of a made bed, fabric texture of the protector visible under the sheet",
+            "on_screen_text": "Waterproof, soft, breathable",
+            "voiceover": "It's also waterproof and breathable, rated four and a half stars by over a hundred thousand reviewers."
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "Person smiling and patting down a freshly made bed, then glancing toward the camera",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "If your mattress protector crinkles or slides, comment {KEYWORD} and I'll send the link."
+          }
+        ],
+        "reel_format": "pov"
+      }
     ]
   },
   "hashtag_pools": {
