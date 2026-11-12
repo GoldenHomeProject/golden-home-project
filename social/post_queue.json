@@ -9976,10 +9976,10 @@
   },
   {
     "name": "reel_2026-11-12_003",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-11-12-003.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-12-003.mp4",
     "caption": "Stop trusting that wobbly dial scale in your bathroom.\n\nOld dial scales sit unevenly on tile or bath mats, so the needle drifts a few pounds depending on where you stand. Grout lines and uneven flooring make the needle swing before it settles, so you end up guessing which reading to believe.\n\nA digital scale skips the needle entirely and just shows a flat number on a screen, so there's nothing to squint at or second-guess. Over three hundred thousand people have rated this one 4.7 stars.\n\nYou step on, get one clear number, and step off, no guessing games on tile or bath mats. It runs about $20.\n\nComment SCALE and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -9996,22 +9996,7 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "Stop trusting that wobbly dial scale in your bathroom."
-  },
-  {
-    "id": "carousel-2026-11-12-B01FXN3E74",
-    "media_type": "CAROUSEL_ALBUM",
-    "image_urls": [
-      "https://goldenhomeproject.com/social/carousels/2026-11-12-B01FXN3E74/slide-1.png",
-      "https://goldenhomeproject.com/social/carousels/2026-11-12-B01FXN3E74/slide-2.png",
-      "https://goldenhomeproject.com/social/carousels/2026-11-12-B01FXN3E74/slide-3.png",
-      "https://goldenhomeproject.com/social/carousels/2026-11-12-B01FXN3E74/slide-4.png",
-      "https://goldenhomeproject.com/social/carousels/2026-11-12-B01FXN3E74/slide-5.png"
-    ],
-    "caption": "Stop restocking bottled water every grocery run.\n\nA 10-cup BPA-free pitcher filters tap water right in your fridge, and the included filter lasts about two months before it needs swapping.\n\nSave this for later so you don't lose the filter swap schedule.\n\nComment PITCHER or DM me PITCHER for the link.\n\n#homeorganization #kitchenorganization #waterfilter #budgetfinds #kitchenhacks",
-    "asin": "B01FXN3E74",
-    "keyword": "PITCHER",
-    "queued_at": "2026-11-12T15:41:56.369029Z",
-    "source": "carousel_generator"
+    "hook": "Stop trusting that wobbly dial scale in your bathroom.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-12-003.mp4"
   }
 ]
