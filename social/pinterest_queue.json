@@ -10347,14 +10347,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-11-11-B079GB6MGD.png",
     "queued_at": "2026-11-11T11:11:42.887052Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "100% Cotton 6-Piece Set, $28.99",
     "recharted": true,
     "variant": "B",
-    "ai_image": false
+    "ai_image": false,
+    "posted_at": "2026-11-12T02:15:35Z"
   },
   {
     "id": "pin-2026-11-11-B07XFQVN57",
