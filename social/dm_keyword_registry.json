@@ -6887,6 +6887,57 @@
       "verified_stars": "4.6",
       "verified_reviews": 6095,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0B41MYSGP",
+      "product_name": "BAND-AID Brand Travel Ready Portable First Aid Kit, 80 Piece",
+      "categories": [
+        "dorm",
+        "college",
+        "organization"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0B41MYSGP?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-11-12",
+      "verified_method": "source_dorm/search+dp",
+      "verified_price": "$10.98",
+      "verified_stars": "4.8",
+      "verified_reviews": 14860,
+      "discovery_source": "back_to_college_2026"
+    },
+    {
+      "asin": "B0BZVFG421",
+      "product_name": "Pop Up Laundry Hamper, 70L Collapsible Mesh Basket with Side Pocket, Black",
+      "categories": [
+        "dorm",
+        "college",
+        "organization"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0BZVFG421?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-11-12",
+      "verified_method": "source_dorm/search+dp",
+      "verified_price": "$5.99",
+      "verified_stars": "4.5",
+      "verified_reviews": 4452,
+      "discovery_source": "back_to_college_2026"
+    },
+    {
+      "asin": "B08H5CHQNQ",
+      "product_name": "3-Tier Rolling Utility Cart with Caster Wheels Easy Assembly, Black",
+      "categories": [
+        "dorm",
+        "college",
+        "organization"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B08H5CHQNQ?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-11-12",
+      "verified_method": "source_dorm/search+dp",
+      "verified_price": "$29.89",
+      "verified_stars": "4.5",
+      "verified_reviews": 2847,
+      "discovery_source": "back_to_college_2026"
     }
   ]
 }
