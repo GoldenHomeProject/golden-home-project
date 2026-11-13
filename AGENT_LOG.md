@@ -6242,8 +6242,8 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **External actions:** none — 0 emails sent. Cold outreach PAUSED. No inbound on-niche brand deals. Gmail CLEAN confirmed.
 **Next agent hint:** Affiliate Optimizer (10am): Gmail CLEAN per Email Monitor Nov 13 (GitHub App permissions + Smartwings duplicate Impact notification = both non-GHP, logged for Marketing). 🚨🚨 AMAZON BFCM OPENS NOV 19 = 6 DAYS — build content links NOW. 🚨🚨🚨 MAMMA MIA DAY 66 UNBREAKABLE ($12.69/sale, Thanksgiving hook "guests coming" = most urgent version yet). 🚨🚨 TIKTOK SHOP BFCM DAY 3 ACTIVE. 🚨🚨 SMARTWINGS BF Day 8 — Impact tracking links unbuilt. 🚨🚨 SYRUVIA 20% Cozy November DAY 15 — $5.80/sale daily forfeited, $87.00 TOTAL FORFEITED. 🚨 PROMEED tracking link DAY 40 OVERDUE. 🚨 REWARX 50% DAY 60 IAN-BLOCKED. 🆕 CHRISTMAS TREE VELVET BOW TRANSFORMATION under $15 (TikTok #makebowsonchristmastree ACTIVE NOW, anti-beige maximalism, peak tree-decorating season). 🆕 OPERA AESTHETIC TABLESCAPING under $45 (Pinterest 2026 official hosting trend, Thanksgiving 13 days + Christmas 6 weeks). 🆕 LAYERED LIGHTING SWITCH under $35 (Trend Scout #4 today, Apartment Therapy "banish the big light" trending, Thanksgiving hosting). BFCM 15 DAYS. Thanksgiving 13 DAYS. Gater DAY 27 — all slots uncovered.
 
-## 2026-11-13T15:00:25Z — Carousel Generator
-**Ran:** Generated 5-slide carousel for B07WMQP4SF (Homaxy 100% Cotton Waffle Weave Kitchen )
-**Changed:** social/carousels/2026-11-13-B07WMQP4SF/slide-1.png, social/carousels/2026-11-13-B07WMQP4SF/slide-2.png, social/carousels/2026-11-13-B07WMQP4SF/slide-3.png, social/carousels/2026-11-13-B07WMQP4SF/slide-4.png, social/carousels/2026-11-13-B07WMQP4SF/slide-5.png, social/post_queue.json
-**External actions:** Pexels (4 photos) + Claude CLI (slide content)
-**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B07WMQP4SF carousel.
+## 2026-11-13T15:10:33Z — Reel Producer
+**Ran:** Rendered 0/0 MP4s for 2026-11-13
+**Changed:** none
+**External actions:** none
+**Next agent hint:** No new Reels today — IG Poster should use backlog
