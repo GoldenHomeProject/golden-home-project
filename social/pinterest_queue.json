@@ -8992,14 +8992,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-31-B084TC8D4L.png",
     "queued_at": "2026-10-31T10:13:09.289364Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "6-Hour Burn, 12 Cans Ready",
     "recharted": false,
     "variant": "A",
-    "ai_image": false
+    "ai_image": false,
+    "posted_at": "2026-11-13T14:41:27Z"
   },
   {
     "id": "pin-2026-10-31-B07RZRH662",
