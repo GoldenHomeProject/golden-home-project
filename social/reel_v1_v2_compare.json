@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-12T08:15",
+ "updated": "2026-11-13T08:15",
  "note": "watch_pct = avg watch time / reel length (IG has no 3-second-hold metric). Clicks and orders: Associates report by ascsubtag.",
  "summary": {
   "v1": {
-   "reels": 7,
+   "reels": 8,
    "like_count": 0.0,
    "comments_count": 0.0,
    "link_replies": null
@@ -177,6 +177,24 @@
    "watch_pct": null,
    "keyword": "COZY",
    "link_replies": 0
+  },
+  {
+   "date": "2026-11-12",
+   "variant": "v1",
+   "title": "Stop trusting that wobbly dial scale in your bathroom",
+   "ig_media": "18160087051570752",
+   "youtube": "7MhAr_KGoAA",
+   "length_s": 20.0,
+   "comments_count": 0,
+   "like_count": 0,
+   "permalink": "https://www.instagram.com/reel/DfqIvlhiB61/",
+   "plays": null,
+   "saves": null,
+   "shares": null,
+   "avg_watch_s": null,
+   "watch_pct": null,
+   "keyword": null,
+   "link_replies": null
   }
  ]
 }
