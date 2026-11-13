@@ -10426,14 +10426,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-11-12-B0183SN7H8.png",
     "queued_at": "2026-11-12T11:13:39.098054Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "6-Pack Cotton Washcloths, $11.84",
     "recharted": false,
     "variant": "A",
-    "ai_image": true
+    "ai_image": true,
+    "posted_at": "2026-11-13T02:16:30Z"
   },
   {
     "id": "pin-2026-11-12-B0043P0IAK",
