@@ -1,0 +1,62 @@
+{
+  "created_at": "2026-11-13T13:36:17.962678Z",
+  "date": "2026-11-13",
+  "seq": 1,
+  "hook_category": "scene",
+  "hook": "Your kitchen always has one overworked towel doing everything.",
+  "reel_format": "problem_fix",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "A hand grabbing a worn dish towel off an oven door handle in a home kitchen, mid-reach, late afternoon light",
+      "on_screen_text": "one towel doing everything",
+      "voiceover": "Your kitchen always has one overworked towel doing everything."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Close-up of a single damp, stained dish towel draped over an oven handle next to a cluttered counter with dishes and crumbs",
+      "on_screen_text": "same towel, all day long",
+      "voiceover": "It wipes spills, dries hands, scrubs dishes, and cleans the counter, all in the same shift, and it never gets a chance to actually dry out."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "A neatly folded stack of dark grey waffle weave cotton dish cloths on a kitchen counter, a hand lifting one off the top",
+      "on_screen_text": "six clean cloths, always ready",
+      "voiceover": "These waffle weave cotton cloths come six to a pack, so you grab a fresh one for each job instead of the same damp towel."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "A hand wiping down a kitchen counter with a grey waffle weave cloth, sink and dish rack visible in the background",
+      "on_screen_text": "41,000+ reviews, 4.5 stars",
+      "voiceover": "They're rated 4.5 stars across more than 41,000 reviews, from people who just wanted a towel that keeps up."
+    },
+    {
+      "n": 5,
+      "duration_sec": 5,
+      "visual_prompt": "A kitchen drawer opening to reveal several folded grey waffle weave dish cloths stacked inside, hand closing the drawer",
+      "on_screen_text": "Comment HOMAXY for the link",
+      "voiceover": "Six in rotation means every spill, counter, and dish gets its own clean cloth, for about nine dollars. Comment HOMAXY and I'll send the link."
+    }
+  ],
+  "caption": "Your kitchen always has one overworked towel doing everything.\n\nIt hangs on the oven handle and gets used for spills, hands, dishes, and the counter, all in the same shift. By evening it is damp and a little grim, and it never really gets the chance to dry out before the next job.\n\nThese Homaxy waffle weave cotton cloths come six to a pack, so there is always a dry, clean one instead of reaching for that same towel again. They are rated 4.5 stars with over 41,000 reviews.\n\nSix in rotation means spills, counters, and dishes each get their own cloth instead of one towel doing it all, for about $9.\n\nComment HOMAXY and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "These Homaxy waffle weave cotton cloths come six to a pack, so there is always a dry, clean one instead of reaching for that same towel again. They are rated 4.5 stars with over 41,000 reviews.",
+  "affiliate_strategy": {
+    "primary_product": "Homaxy 100% Cotton Waffle Weave Kitchen Dish Cloths 6-Pack, Dark Grey | 12 x 12 Inches, Ultra Soft Absorbent Dish Towels",
+    "dm_keyword": "HOMAXY",
+    "amazon_asin": "B07WMQP4SF",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B07WMQP4SF?tag=goldenhomep0a-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": null
+  }
+}

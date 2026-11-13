@@ -10000,5 +10000,29 @@
     },
     "hook": "Stop trusting that wobbly dial scale in your bathroom.",
     "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-12-003.mp4"
+  },
+  {
+    "name": "reel_2026-11-13_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-13-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Your kitchen always has one overworked towel doing everything.\n\nIt hangs on the oven handle and gets used for spills, hands, dishes, and the counter, all in the same shift. By evening it is damp and a little grim, and it never really gets the chance to dry out before the next job.\n\nThese Homaxy waffle weave cotton cloths come six to a pack, so there is always a dry, clean one instead of reaching for that same towel again. They are rated 4.5 stars with over 41,000 reviews.\n\nSix in rotation means spills, counters, and dishes each get their own cloth instead of one towel doing it all, for about $9.\n\nComment HOMAXY and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Homaxy 100% Cotton Waffle Weave Kitchen Dish Cloths 6-Pack, Dark Grey | 12 x 12 Inches, Ultra Soft Absorbent Dish Towels",
+      "dm_keyword": "HOMAXY",
+      "amazon_asin": "B07WMQP4SF",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B07WMQP4SF?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Your kitchen always has one overworked towel doing everything."
   }
 ]
