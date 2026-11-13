@@ -9564,10 +9564,11 @@
     "image_path": "social/pinterest/versus-2026-11-03.png",
     "image_url": "https://goldenhomeproject.com/social/pinterest/versus-2026-11-03.png",
     "queued_at": "2026-11-03T16:06:19.395108Z",
-    "posted": false,
+    "posted": true,
     "source": "generate_format_pins",
     "format": "versus",
-    "variant": "A"
+    "variant": "A",
+    "posted_at": "2026-11-13T02:15:34Z"
   },
   {
     "id": "pin-2026-11-04-B0CTJGJL2T",
