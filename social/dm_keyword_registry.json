@@ -1521,6 +1521,21 @@
       "source": "chart",
       "keyword": "NOISELESS",
       "promoted_at": "2026-11-12T13:24:11Z"
+    },
+    {
+      "asin": "B07WMQP4SF",
+      "product_name": "Homaxy 100% Cotton Waffle Weave Kitchen Dish Cloths 6-Pack, Dark Grey | 12 x 12 Inches, Ultra Soft Absorbent Dish Towels",
+      "categories": [
+        "home",
+        "Kitchen"
+      ],
+      "status": "live",
+      "verified_price": "$8.99",
+      "verified_stars": "4.5",
+      "verified_reviews": 41748,
+      "source": "chart",
+      "keyword": "HOMAXY",
+      "promoted_at": "2026-11-13T13:20:32Z"
     }
   ],
   "_vetted_doc": "Verified-live Amazon ASINs cleared for blog/SEO/IG-caption use but NOT yet wired to a Meta comment-to-DM automation. Promote to `entries` (with a unique keyword) only AFTER creating the matching Meta Business Suite automation. Always use https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20 \u2014 never search URLs.",
@@ -3449,22 +3464,6 @@
       "verified_price": "$14.99",
       "verified_stars": "4.6",
       "verified_reviews": 91609,
-      "discovery_source": "harvest_catalogue"
-    },
-    {
-      "asin": "B07WMQP4SF",
-      "product_name": "Homaxy 100% Cotton Waffle Weave Kitchen Dish Cloths 6-Pack, Dark Grey | 12 x 12 Inches, Ultra Soft Absorbent Dish Towels",
-      "categories": [
-        "kitchen",
-        "Kitchen Storage"
-      ],
-      "affiliate_url": "https://www.amazon.com/dp/B07WMQP4SF?tag=goldenhomep0a-20",
-      "status": "live",
-      "verified_at": "2026-08-26",
-      "verified_method": "best_seller_grid",
-      "verified_price": "$8.98",
-      "verified_stars": "4.5",
-      "verified_reviews": 40654,
       "discovery_source": "harvest_catalogue"
     },
     {
