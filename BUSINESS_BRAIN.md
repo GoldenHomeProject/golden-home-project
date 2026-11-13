@@ -4996,3 +4996,87 @@ Mamma Mia 24-30% DAY 65 UNBREAKABLE ($12.69/sale, TikTok Shop Day 2 + BFCM 7-day
 **FOR MARKETING DEPT / IAN — not GHP (Nov 12, Affiliate Optimizer 10am):**
 - **SSA.gov — "Important Information About Your Business Services Online Account"** (noreply@ssa.gov, Nov 12 11:50 UTC, thread 1a1cf988080ca782): Verification code V-98865997 for Ian's Business Services Online account — LLC/government matter. **IAN ACTION LIKELY NEEDED** to complete BSO enrollment/verification. NOT GHP brand email. No reply sent.
 - **Supabase — "Supa Update November 2026"** (Supabase, Nov 11 23:45 UTC, thread 1a1cd006ff548c31): Developer tool monthly newsletter — app/dev-related, NOT GHP. No reply sent.
+
+### November 2026 Affiliate Updates (updated 2026-11-13 Affiliate Optimizer 10am)
+
+**GMAIL POST-STRATEGY SCAN (post-15:25 UTC Nov 13):** 2 emails in inbox:
+(1) **SmartWings "Black Friday Early Access: Save on Smartwings Smart Shades!"** (notifications@outreach.impact.com, Nov 13 02:25 UTC, thread 1a1d2b9d0da88d67) — automated Impact platform affiliate notification confirming BF Early Access sale details: 8% off sitewide, 12% off orders $1,500+, free shipping. Confirms marketing banners + tracking links available in Impact dashboard. Cannot reply (automated no-reply address, SMTP bounced confirmed). Log only — IAN: build SmartWings Impact tracking links via Publisher ID 7104029.
+(2) **GitHub "Claude is requesting updated permissions"** (noreply@github.com, Nov 13 00:01 UTC, thread 1a1d235f68ff1cb4) — GitHub App permissions update. Already logged by Email Monitor Nov 13. NOT GHP. No reply sent.
+
+**PLATFORM STATUS (Nov 13, Affiliate Optimizer 10am ET):**
+
+- **AMAZON goldenhomep0a-20 ACTIVE:**
+  - **BFCM opens NOV 19 = 6 DAYS.** Thanksgiving NOV 26 = 13 DAYS. TikTok Shop BFCM DAY 3 (Nov 11-30 campaign active).
+  - 3 new content slots from Strategy Nov 13: Christmas tree velvet bow transformation under $15 (TikTok #makebowsonchristmastree ACTIVE NOW — peak tree-decorating season), opera aesthetic holiday tablescaping under $45 (Pinterest 2026 "Opera Aesthetic" official hosting trend, Thanksgiving 13 days + Christmas 6 weeks dual window open NOW), cozy layered lighting switch under $35 (Trend Scout #4 today, Apartment Therapy "banish the big light" trending as November days shorten, Thanksgiving hosting urgency).
+
+- **IMPACT:**
+  - **Mamma Mia 24-30% — DAY 66 UNBREAKABLE.** $12.69/sale vs $1.88 Amazon (6.75× multiplier). ZERO content ever produced. TikTok Shop BFCM DAY 3 + Amazon BFCM opens NOV 19 = 6 DAYS + Thanksgiving 13 DAYS = TRIPLE-URGENT MAXIMUM. Thanksgiving hook NOW most urgent iteration: "Thanksgiving guests are coming." After-first format = 6,037 avg views confirmed. Script IMMEDIATELY.
+  - **Dreame 5%+ — IAN build BFCM main tracking links (opens Nov 19 = 6 DAYS).** $6.45+/sale. Pre-content window closed.
+  - **YEEDI 57605 — DAY 11.** Impact → search "YEEDI" → join → build links. BFCM opens 6 DAYS.
+  - **SmartWings BF Early Access — DAY 8.** 8% sitewide / 12% orders $1,500+ / free shipping ACTIVE ($16-32/sale). Today's email (02:25 UTC, thread 1a1d2b9d0da88d67) confirms banners and tracking links available in Impact dashboard. IAN: Publisher ID 7104029 → SmartWings → build tracking links. Do NOT reply to notifications@outreach.impact.com.
+  - **Syruvia 20% — Cozy November DAY 15. ZERO tracking links. ZERO scripts.** Revenue gap: $5.80/sale daily forfeited (vs $1.16/sale Amazon = 5× gap). **$87.00 TOTAL FORFEITED** ($5.80 × 15 days). 13 days to Thanksgiving Nov 26. 6 days to Amazon BFCM opens Nov 19. THREE confirmed arcs: (1) Cozy November, (2) "grandma's house" Thanksgiving table, (3) BFCM curated host gift box $50 (candle warmer PRIMARY). IAN: build Syruvia tracking link in Impact IMMEDIATELY.
+  - **Promeed 12% — DAY 40 OVERDUE.** $7.20/sale vs $2.40 Amazon. BFCM bedding gift window OPEN.
+  - **Best Choice Products 10-15% — 1-click pre-approved, unactioned.** BFCM gift-under-$50 window OPEN. Impact dashboard → click JOIN.
+  - **Sealogix Corp — contract expired midnight 11/6 (Impact 6590154).** IAN: verify niche in dashboard.
+
+- **CJ AFFILIATE — AliExpress dormancy DAY 42 of 90** (48 days remain, ~Dec 30 deadline). No new invitations. Status unchanged.
+
+- **AWIN:**
+  - **Rewarx 50% recurring (ID 129153): DAY 60 IAN-BLOCKED.** Highest-commission program in portfolio. BFCM window makes this critical.
+  - **Homary 12%/$96/sale (ID 91447): DAY 47.** BFCM premium window OPEN. IAN: complete Awin express signup → send affiliate ID to Lauren at affiliate@homary.com.
+  - **Promeed HerbalRX (ID 100833): 20% CPA ACTIVE** — Amelia confirmed Nov 6. IAN: browser accept via Awin dashboard.
+  - ON-NICHE browser accepts still pending: Tribesigns, SimpleProject (99013, 10%+), OKUN, CozySpiritStudio (130331, 20% wall art).
+
+**HIGH-AOV OPPORTUNITY SCAN (Nov 13):**
+  - **Mamma Mia couch cover ($45-47):** 24-30% = $10.80-14.10/sale. DAY 66 UNBREAKABLE. TikTok BFCM Day 3 + Amazon BFCM 6 days + Thanksgiving 13 days = triple-urgent max. Thanksgiving hook "guests coming" = most urgent iteration yet.
+  - **SmartWings smart shades ($200-400 avg):** BF Early Access Day 8 ACTIVE. 8%/12% = $16-80+/sale. Impact assets confirmed available via today's email.
+  - **Opera aesthetic tablescaping ($45):** taper candle holders + velvet runner + gold napkin rings. Pinterest 2026 official "Opera Aesthetic" hosting trend, Thanksgiving 13 days + Christmas 6 weeks DUAL window open NOW. High-save Pinterest category Nov-Dec.
+  - **Christmas tree velvet bow ($8-14 ribbon spool):** TikTok #makebowsonchristmastree ACTIVE NOW. Peak tree-decorating season opening mid-November. Anti-beige maximalist Christmas = dominant TikTok format THIS week. Amazon goldenhomep0a-20. BFCM 6 days amplifies purchase urgency.
+  - **Layered lighting ($35):** warm floor lamp + plug-in string lights. "Banish the big light" Thanksgiving hosting urgency. Zero GHP. Amazon goldenhomep0a-20.
+  - **Candle warmer / BFCM host gift box ($29-50):** Syruvia 20% = $5.80/sale. DAY 15 zero links. $87.00 total forfeited. 6 days to BFCM open.
+  - **Homary furniture ($400+ AOV):** 12% = $96+/sale. DAY 47 BFCM window OPEN.
+  - **Dreame/YEEDI robot vacuums ($129-349):** 5%+ = $6.45-17.45/sale. Main BFCM sale opens Nov 19 = 6 DAYS.
+
+**KEY DELTAS vs Nov 12 Affiliate Optimizer:**
+  - TikTok Shop BFCM: **DAY 3** (was Day 2)
+  - Amazon BFCM opens NOV 19: **6 DAYS** (was 7)
+  - Mamma Mia: DAY 66 (was 65) — Thanksgiving hook NOW most urgent version: "guests coming"
+  - SmartWings BF Early Access: DAY 8 (was 7) — email today (02:25 UTC) confirms banners + tracking links available in Impact dashboard
+  - Syruvia 20% tracking link: DAY 15 (was 14) — **$87.00 total forfeited** (was $81.20)
+  - YEEDI: DAY 11 (was 10)
+  - Promeed 12%: DAY 40 OVERDUE (was 39)
+  - Rewarx: DAY 60 IAN-BLOCKED (was 59)
+  - Homary: DAY 47 (was 46)
+  - CJ AliExpress: DAY 42 of 90 (48 days remain)
+  - NEW Strategy Nov 13 slots: Christmas tree velvet bow under $15 (TikTok ACTIVE NOW), opera aesthetic tablescaping under $45 (Pinterest 2026 official hosting + Thanksgiving/Christmas dual window), layered lighting under $35 (Trend Scout #4 today, Thanksgiving hosting urgency)
+  - FOR MARKETING / IAN: GitHub App Claude permissions update (noreply@github.com, Nov 13 00:01 UTC, thread 1a1d235f68ff1cb4) — GitHub notification, NOT GHP. No reply sent.
+  - Gater: DAY 27 — now matches all-time gap record for 2026, all slots uncovered
+
+**REVENUE PRIORITY STACK (Nov 13, Affiliate Optimizer):**
+Mamma Mia 24-30% DAY 66 UNBREAKABLE ($12.69/sale, TikTok Shop Day 3 + BFCM 6-day window + Thanksgiving 13 days = TRIPLE URGENT MAX) > Syruvia 20% tracking link DAY 15 ($5.80/sale daily forfeited, $87.00 total forfeited, candle warmer = PRIMARY in BFCM host gift box + 2 Thanksgiving arcs, 6 days to BFCM open) > SmartWings BF Day 8 (8%/12% active, $16-32/sale, Impact assets confirmed available) > YEEDI 57605 (IAN join Impact, BFCM 6 days to open) > Dreame (IAN: build tracking links for BFCM main sale opens Nov 19) > Promeed 12% DAY 40 OVERDUE ($7.20 vs $2.40) > Rewarx 50% recurring DAY 60 IAN-BLOCKED > Promeed HerbalRX Awin 20% (ID 100833, IAN browser accept) > Homary $96/sale DAY 47 BFCM window > CJ AliExpress dormancy DAY 42 (48 days remain).
+
+**IAN PRIORITY ACTIONS — NOV 13 (ranked by urgency × revenue):**
+  1. 🚨🚨🚨 **SCRIPT MAMMA MIA COUCH COVER — DAY 66 UNBREAKABLE.** TikTok Shop BFCM DAY 3 + Amazon BFCM opens Nov 19 = 6 DAYS + Thanksgiving 13 DAYS = TRIPLE-URGENT MAXIMUM. After-first format. Hook: "Thanksgiving guests are coming. Same couch. After. Before." 24-30% Impact tracking link primary.
+  2. 🚨🚨🚨 **BUILD SYRUVIA 20% TRACKING LINK IN IMPACT — DAY 15.** $87.00 total forfeited ($5.80/sale × 15 days). 6 days to BFCM open. Candle warmer = PRIMARY in BFCM curated host gift box. THREE arcs from one tracking link.
+  3. 🚨🚨 **BUILD SMARTWINGS IMPACT TRACKING LINKS — Day 8 BF Early Access.** $16-32/sale active. Impact dashboard (Publisher ID 7104029) → SmartWings → tracking links + download marketing assets/banners (confirmed available via today's email 02:25 UTC). Do NOT reply to notifications@outreach.impact.com.
+  4. 🚨🚨 **BUILD PROMEED 12% TRACKING LINK — DAY 40 OVERDUE.** $7.20 vs $2.40 Amazon. Impact → Promeed → deep links.
+  5. 🚨🚨 **BUILD DREAME TRACKING LINKS for BFCM main sale (opens Nov 19 = 6 DAYS).** Pre-content window closed. Main BFCM tracking link = $6.45+/sale.
+  6. 🚨🚨 **Brief Content Engine:** Christmas tree velvet bow under $15 (TikTok #makebowsonchristmastree ACTIVE NOW — peak tree-decorating season, BFCM 6 days) + opera aesthetic tablescaping under $45 (Pinterest 2026 official hosting, Thanksgiving 13 days + Christmas 6 weeks dual window) + layered lighting switch under $35 (Trend Scout #4 today, Thanksgiving hosting urgency) — all 3 new today, all zero GHP coverage, Gater DAY 27 gap.
+  7. 🚨🚨 **JOIN YEEDI (Impact 57605) + BUILD LINK.** BFCM opens 6 DAYS. Impact → search "YEEDI" → join → build link.
+  8. 🚨 **Accept REWARX Awin ID 129153** — 50% recurring, DAY 60 IAN-BLOCKED. Awin browser → accept → reply studio@rewarx.com for Golden10 promo code.
+  9. 🚨 **Accept PROMEED HerbalRX Awin ID 100833** — 20% CPA active. Awin browser dashboard.
+  10. Script COFFEE/TEA STATION COUNTERTOP under $40 — TikTok Shop BFCM Day 3, Thanksgiving morning arc 13 days, tiered mug rack + tray, zero GHP, goldenhomep0a-20.
+  11. Script SHOWER CADDY BLIND SPOT under $25 — highest unaddressed bathroom slot, TikTok millions of views, renter-safe, zero GHP, goldenhomep0a-20.
+  12. Script GIFT WRAP STATION FROM DEAD CORNER under $40 — BFCM Day 3, Nov 11-Dec 24 seasonal window, zero GHP + zero competitor, goldenhomep0a-20.
+  13. Script SYRUVIA CANDLE WARMER BFCM HOST GIFT BOX under $50 — Impact 20% primary ($5.80/sale), 3 arcs, TikTok Shop Day 3.
+  14. Accept BEST CHOICE PRODUCTS on Impact — 1-click pre-approved 15%, BFCM gift window OPEN.
+  15. Complete HOMARY Awin express signup (ID 91447) — affiliate ID to Lauren at affiliate@homary.com (DAY 47, BFCM 6 days to open).
+  16. CJ portal audit — AliExpress dormancy DAY 42 (48 days remain); apply Wayfair/GreenLife/Levoit.
+  17. Accept ON-NICHE Awin browser invites: Tribesigns, SimpleProject, OKUN, CozySpiritStudio.
+  18. Script LINEN CLOSET TIMED RESET under $45 — Corq 2026 #1 org format, Thanksgiving guest-ready 13 days, zero GHP, goldenhomep0a-20.
+  19. Script SPICE DRAWER RESET under $38 — TikTok viral kitchen format, Thanksgiving prep 13 days, goldenhomep0a-20.
+  20. Script GLACIER BLUE WINTER BEDROOM RESET under $55 — Pinterest Predicts 2026 "celestial" official, BFCM gifting arc, peak Nov-Jan save velocity, goldenhomep0a-20.
+  21. Verify SEALOGIX CORP — Impact 6590154 expired midnight 11/6; check niche.
+
+**FOR MARKETING DEPT / IAN — not GHP (Nov 13, Affiliate Optimizer 10am):**
+- **GitHub "Claude is requesting updated permissions"** (noreply@github.com, Nov 13 00:01 UTC, thread 1a1d235f68ff1cb4) — GitHub App Claude requesting additional access. GitHub/developer account notification. NOT GHP brand email. No reply sent. (Also logged by Email Monitor Nov 13.)
