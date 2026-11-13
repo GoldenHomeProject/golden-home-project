@@ -1,0 +1,136 @@
+{
+  "generated_at": "2026-11-13T12:47:45.585711Z",
+  "date": "2026-11-13",
+  "opportunities": [
+    {
+      "rank": 1,
+      "product_category": "sofa/couch covers",
+      "specific_product": "Mamma Mia waterproof stretch sofa cover",
+      "brand": "Mamma Mia Covers",
+      "target_price": "$42",
+      "transformation_hook": "$42 couch fix before Thanksgiving guests arrive",
+      "before_state": "Worn, stained, pet-hair-covered couch nobody wants guests to see",
+      "after_state": "Crisp, tailored-looking sofa that looks brand new in under 5 minutes",
+      "buyer_intent_keywords": [
+        "pet hair couch cover",
+        "waterproof sofa cover stretch",
+        "couch cover for dogs",
+        "sofa slipcover before guests",
+        "easy couch makeover"
+      ],
+      "scores": {
+        "trend": 8,
+        "transformation": 10,
+        "affiliate": 10,
+        "intent": 9
+      },
+      "composite_score": 37,
+      "why_now": "Thanksgiving hosting is days away and pet-owner couch anxiety spikes, while Mamma Mia's 24-30% commission makes this the highest-value conversion of the week"
+    },
+    {
+      "rank": 2,
+      "product_category": "Christmas tree decor kit",
+      "specific_product": "velvet ribbon and ornament garland bundle",
+      "brand": "Amazon generic",
+      "target_price": "$28",
+      "transformation_hook": "$28 bare tree to magazine-cover tree in one Reel",
+      "before_state": "Plain, half-strung Christmas tree with mismatched or missing decorations",
+      "after_state": "Fully styled tree with velvet ribbon spirals, color-coordinated ornaments and bows",
+      "buyer_intent_keywords": [
+        "christmas tree ribbon ideas",
+        "velvet ribbon garland",
+        "how to decorate christmas tree",
+        "tree bow ideas",
+        "christmas tree ornament set"
+      ],
+      "scores": {
+        "trend": 9,
+        "transformation": 9,
+        "affiliate": 9,
+        "intent": 8
+      },
+      "composite_score": 35,
+      "why_now": "HGTV's ribbon-styling pin is actively circulating and mid-November is peak tree-decorating search volume before Thanksgiving weekend trimming"
+    },
+    {
+      "rank": 3,
+      "product_category": "entryway/mudroom storage",
+      "specific_product": "Best Choice Products shoe storage bench with cubbies",
+      "brand": "Best Choice Products",
+      "target_price": "$89",
+      "transformation_hook": "$89 chaos-to-calm mudroom before winter boot season hits",
+      "before_state": "Pile of shoes, coats and bags dumped by the front door",
+      "after_state": "Organized bench with cubbies, hooks and a clean seating spot at the entry",
+      "buyer_intent_keywords": [
+        "mudroom storage bench",
+        "entryway shoe organizer",
+        "shoe cubby bench",
+        "small mudroom ideas",
+        "boot storage winter"
+      ],
+      "scores": {
+        "trend": 7,
+        "transformation": 9,
+        "affiliate": 9,
+        "intent": 8
+      },
+      "composite_score": 33,
+      "why_now": "HGTV's mudroom/laundry combo pin is surfacing right as winter coats and boots start piling up at the door, driving organization-product searches"
+    },
+    {
+      "rank": 4,
+      "product_category": "ambient/layered lighting",
+      "specific_product": "warm-glow floor lamp + plug-in string light set",
+      "brand": "Amazon generic",
+      "target_price": "$35",
+      "transformation_hook": "$35 switch from harsh overhead to cozy layered glow",
+      "before_state": "Room lit by one harsh overhead fixture that feels cold and flat",
+      "after_state": "Warm, layered lighting with a floor lamp and ambient string lights for a cozy winter vibe",
+      "buyer_intent_keywords": [
+        "layered lighting living room",
+        "cozy floor lamp",
+        "ambient lighting ideas fall",
+        "ditch overhead light",
+        "warm light bulbs living room"
+      ],
+      "scores": {
+        "trend": 8,
+        "transformation": 8,
+        "affiliate": 8,
+        "intent": 7
+      },
+      "composite_score": 31,
+      "why_now": "Apartment Therapy's 'banish the big light' lighting-layering trend is gaining traction just as shorter days push people to fix harsh overhead lighting"
+    },
+    {
+      "rank": 5,
+      "product_category": "wall decor",
+      "specific_product": "vintage-style sculptural frame wall mirror",
+      "brand": "Amazon generic",
+      "target_price": "$54",
+      "transformation_hook": "$54 blank wall to designer vintage-mirror focal point",
+      "before_state": "Bare, forgettable wall above a console, headboard or living room sofa",
+      "after_state": "Statement vintage-patina mirror that instantly reads as expensive and designed",
+      "buyer_intent_keywords": [
+        "vintage mirror wall decor",
+        "above headboard decor",
+        "above couch wall ideas",
+        "antique style mirror",
+        "statement wall mirror"
+      ],
+      "scores": {
+        "trend": 7,
+        "transformation": 8,
+        "affiliate": 9,
+        "intent": 6
+      },
+      "composite_score": 30,
+      "why_now": "Real Simple and HGTV pins both point to vintage mirrors and empty-wall styling as an emerging aesthetic right before holiday home-tour content peaks"
+    }
+  ],
+  "raw_signal_count": 85,
+  "sources_used": [
+    "google_trends_daily_us",
+    "pinterest"
+  ]
+}
