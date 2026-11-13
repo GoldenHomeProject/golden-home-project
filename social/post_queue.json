@@ -1,5 +1,17 @@
 [
   {
+    "id": "ig-gift_guide-2026-11-13",
+    "name": "Hostess Gifts Under $20",
+    "media_type": "IMAGE",
+    "image_url": "https://goldenhomeproject.com/social/instagram/gift_guide-2026-11-13.jpg",
+    "caption": "Hostess Gifts Under $20\n\nHostess Gifts Under $20: Candle Warmer Lamp, Insulated Tumbler, Fleece Throw Blanket, Silicone Pot Holders, Throw Pillow Covers, Breakfast Tea. Each one rated 4.5 stars or higher across thousands of ratings.\n\nSave this for later.\n\n\ud83d\udd17 This product: tap the link in our bio \u2192 'From our videos' at the top.\n\nAs an Amazon Associate we earn from qualifying purchases.\n\n#homeorganization #organizedhome #amazonfinds #homefinds",
+    "status": "ready",
+    "source": "generate_format_pins",
+    "format": "gift_guide",
+    "asin": "B0DZFGTCLR",
+    "queued_at": "2026-11-13T11:20:01.843935+00:00"
+  },
+  {
     "name": "reel_2026-05-26_001",
     "status": "awaiting_video",
     "script_path": "automation/scripts/reel-2026-05-26-001.json",
