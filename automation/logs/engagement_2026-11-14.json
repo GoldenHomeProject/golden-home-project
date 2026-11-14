@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-14",
+  "agent": "engagement-monitor",
+  "metrics": {
+    "subscribers": 6660,
+    "total_views": 28327,
+    "total_videos": 267
+  },
+  "top_videos": [
+    {
+      "title": "Stop hanging a heavy curtain in a tiny bathroom #shorts #ama",
+      "views": 124,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "POV: meal prep Sunday finally works #shorts #amazonfinds #ho",
+      "views": 111,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Stop buying thin curtains that let morning light in #shorts ",
+      "views": 97,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Gifts for the friend who doesn\u2019t need anything #shorts #amaz",
+      "views": 94,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Stop buying a shower liner that clings to your leg #shorts #",
+      "views": 81,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Stop trusting that wobbly dial scale in your bathroom #short",
+      "views": 77,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Stop using the green scrubber on your nonstick pans #shorts ",
+      "views": 77,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Stop blaming your hair products for the morning frizz #short",
+      "views": 43,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "Your couch cushions go flat before anyone even sits down #sh",
+      "views": 2,
+      "likes": 0,
+      "comments": 1
+    },
+    {
+      "title": "5 Amazon Home Finds People Are Buying This Week (Nov 8)",
+      "views": 2,
+      "likes": 0,
+      "comments": 0
+    }
+  ],
+  "comments_responded": 0,
+  "actions_taken": [
+    "Updated BUSINESS_BRAIN.md metrics"
+  ]
+}
