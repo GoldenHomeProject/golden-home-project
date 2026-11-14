@@ -1,72 +1,47 @@
 {
-  "generated_at": "2026-11-13T12:47:45.585711Z",
-  "date": "2026-11-13",
+  "generated_at": "2026-11-14T11:55:59.499411Z",
+  "date": "2026-11-14",
   "opportunities": [
     {
       "rank": 1,
-      "product_category": "sofa/couch covers",
+      "product_category": "couch/sofa covers",
       "specific_product": "Mamma Mia waterproof stretch sofa cover",
       "brand": "Mamma Mia Covers",
       "target_price": "$42",
-      "transformation_hook": "$42 couch fix before Thanksgiving guests arrive",
-      "before_state": "Worn, stained, pet-hair-covered couch nobody wants guests to see",
-      "after_state": "Crisp, tailored-looking sofa that looks brand new in under 5 minutes",
+      "transformation_hook": "Hide a stained $1,200 couch for $42 before Thanksgiving guests arrive",
+      "before_state": "Worn, stained, pet-haired couch cushions with visible wear and faded fabric",
+      "after_state": "Sleek, tailored-looking stretch cover transforms the couch in under 5 minutes",
       "buyer_intent_keywords": [
+        "waterproof couch cover",
         "pet hair couch cover",
-        "waterproof sofa cover stretch",
+        "stretch sofa cover",
         "couch cover for dogs",
-        "sofa slipcover before guests",
-        "easy couch makeover"
+        "sofa cover thanksgiving"
       ],
       "scores": {
-        "trend": 8,
+        "trend": 7,
         "transformation": 10,
         "affiliate": 10,
-        "intent": 9
-      },
-      "composite_score": 37,
-      "why_now": "Thanksgiving hosting is days away and pet-owner couch anxiety spikes, while Mamma Mia's 24-30% commission makes this the highest-value conversion of the week"
-    },
-    {
-      "rank": 2,
-      "product_category": "Christmas tree decor kit",
-      "specific_product": "velvet ribbon and ornament garland bundle",
-      "brand": "Amazon generic",
-      "target_price": "$28",
-      "transformation_hook": "$28 bare tree to magazine-cover tree in one Reel",
-      "before_state": "Plain, half-strung Christmas tree with mismatched or missing decorations",
-      "after_state": "Fully styled tree with velvet ribbon spirals, color-coordinated ornaments and bows",
-      "buyer_intent_keywords": [
-        "christmas tree ribbon ideas",
-        "velvet ribbon garland",
-        "how to decorate christmas tree",
-        "tree bow ideas",
-        "christmas tree ornament set"
-      ],
-      "scores": {
-        "trend": 9,
-        "transformation": 9,
-        "affiliate": 9,
         "intent": 8
       },
       "composite_score": 35,
-      "why_now": "HGTV's ribbon-styling pin is actively circulating and mid-November is peak tree-decorating search volume before Thanksgiving weekend trimming"
+      "why_now": "Thanksgiving hosting (Nov 26) is driving last-minute 'hide the couch damage' searches, and Mamma Mia's 24-30% commission makes this the highest-value pick this week."
     },
     {
-      "rank": 3,
+      "rank": 2,
       "product_category": "entryway/mudroom storage",
-      "specific_product": "Best Choice Products shoe storage bench with cubbies",
-      "brand": "Best Choice Products",
-      "target_price": "$89",
-      "transformation_hook": "$89 chaos-to-calm mudroom before winter boot season hits",
-      "before_state": "Pile of shoes, coats and bags dumped by the front door",
-      "after_state": "Organized bench with cubbies, hooks and a clean seating spot at the entry",
+      "specific_product": "Stackable shoe & boot storage bench with wall hooks",
+      "brand": "Amazon generic",
+      "target_price": "$65",
+      "transformation_hook": "Turn a boot-and-coat pile-up into a $65 organized mudroom in one weekend",
+      "before_state": "Tangled coats, scattered boots, and bags dumped by the front door",
+      "after_state": "Bench with cubbies, labeled bins, and wall hooks holding every coat and shoe",
       "buyer_intent_keywords": [
-        "mudroom storage bench",
-        "entryway shoe organizer",
-        "shoe cubby bench",
-        "small mudroom ideas",
-        "boot storage winter"
+        "entryway storage bench",
+        "shoe organizer with hooks",
+        "mudroom storage ideas",
+        "small entryway organization",
+        "boot storage rack"
       ],
       "scores": {
         "trend": 7,
@@ -75,57 +50,82 @@
         "intent": 8
       },
       "composite_score": 33,
-      "why_now": "HGTV's mudroom/laundry combo pin is surfacing right as winter coats and boots start piling up at the door, driving organization-product searches"
+      "why_now": "HGTV's mudroom/laundry storage pin is circulating right as winter coats and boots pile up before the holidays."
+    },
+    {
+      "rank": 3,
+      "product_category": "kitchen prep tools",
+      "specific_product": "Syruvia multi-tool vegetable chopper/prep set",
+      "brand": "Syruvia",
+      "target_price": "$29",
+      "transformation_hook": "Cut Thanksgiving prep time in half with a $29 chopper set",
+      "before_state": "Cutting board buried in half-chopped onions, carrots, and a single dull knife",
+      "after_state": "Prepped veggies sorted into bowls in minutes using the multi-chopper set",
+      "buyer_intent_keywords": [
+        "thanksgiving prep tools",
+        "vegetable chopper set",
+        "kitchen gadgets for holiday cooking",
+        "food prep tools",
+        "easy chopper"
+      ],
+      "scores": {
+        "trend": 7,
+        "transformation": 7,
+        "affiliate": 8,
+        "intent": 9
+      },
+      "composite_score": 31,
+      "why_now": "Thanksgiving is 12 days out and Pinterest's colorful-kitchen content signals a spike in kitchen-tool searches as hosts prep their menus."
     },
     {
       "rank": 4,
       "product_category": "ambient/layered lighting",
-      "specific_product": "warm-glow floor lamp + plug-in string light set",
+      "specific_product": "Warm-glow LED floor lamp + dimmable smart bulbs bundle",
       "brand": "Amazon generic",
-      "target_price": "$35",
-      "transformation_hook": "$35 switch from harsh overhead to cozy layered glow",
-      "before_state": "Room lit by one harsh overhead fixture that feels cold and flat",
-      "after_state": "Warm, layered lighting with a floor lamp and ambient string lights for a cozy winter vibe",
+      "target_price": "$38",
+      "transformation_hook": "Swap one harsh overhead bulb for $38 of warm layered light",
+      "before_state": "Room lit by a single glaring overhead fixture, flat and cold-feeling",
+      "after_state": "Warm floor lamp glow plus dimmable bulbs create a cozy winter-evening feel",
       "buyer_intent_keywords": [
-        "layered lighting living room",
-        "cozy floor lamp",
-        "ambient lighting ideas fall",
-        "ditch overhead light",
-        "warm light bulbs living room"
+        "warm led floor lamp",
+        "dimmable smart bulbs",
+        "cozy living room lighting",
+        "layered lighting ideas",
+        "soft white led bulbs"
       ],
       "scores": {
-        "trend": 8,
+        "trend": 6,
         "transformation": 8,
-        "affiliate": 8,
+        "affiliate": 9,
         "intent": 7
       },
-      "composite_score": 31,
-      "why_now": "Apartment Therapy's 'banish the big light' lighting-layering trend is gaining traction just as shorter days push people to fix harsh overhead lighting"
+      "composite_score": 30,
+      "why_now": "BHG's 'layer lighting like a pro for a cozy winter vibe' pin is surfacing right as days get shorter and cozy-home content peaks."
     },
     {
       "rank": 5,
-      "product_category": "wall decor",
-      "specific_product": "vintage-style sculptural frame wall mirror",
+      "product_category": "wall decor / gallery wall",
+      "specific_product": "Floating wood shelf set + gallery frame bundle",
       "brand": "Amazon generic",
       "target_price": "$54",
-      "transformation_hook": "$54 blank wall to designer vintage-mirror focal point",
-      "before_state": "Bare, forgettable wall above a console, headboard or living room sofa",
-      "after_state": "Statement vintage-patina mirror that instantly reads as expensive and designed",
+      "transformation_hook": "Fill that blank wall above the couch for $54 instead of hiring a designer",
+      "before_state": "Large bare wall above the sofa, awkward and unfinished-looking",
+      "after_state": "Styled floating shelves with framed art and decor filling the space",
       "buyer_intent_keywords": [
-        "vintage mirror wall decor",
-        "above headboard decor",
-        "above couch wall ideas",
-        "antique style mirror",
-        "statement wall mirror"
+        "floating shelves above couch",
+        "gallery wall frame set",
+        "above sofa wall decor",
+        "large wall decor ideas",
+        "living room wall art set"
       ],
       "scores": {
-        "trend": 7,
-        "transformation": 8,
-        "affiliate": 9,
+        "trend": 6,
+        "transformation": 9,
+        "affiliate": 8,
         "intent": 6
       },
-      "composite_score": 30,
-      "why_now": "Real Simple and HGTV pins both point to vintage mirrors and empty-wall styling as an emerging aesthetic right before holiday home-tour content peaks"
+      "composite_score": 29,
+      "why_now": "Two separate HGTV pins this week call out empty wall spaces above couches and headboards as a key styling pain point."
     }
   ],
   "raw_signal_count": 85,
