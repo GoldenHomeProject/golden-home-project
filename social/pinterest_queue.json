@@ -10548,14 +10548,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-11-13-B08SBYPF14.png",
     "queued_at": "2026-11-13T11:15:02.621245Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "100% Blackout, No Drilling Needed",
     "recharted": true,
     "variant": "A",
-    "ai_image": true
+    "ai_image": true,
+    "posted_at": "2026-11-14T14:41:06Z"
   },
   {
     "id": "pin-2026-11-13-B075L81JP5",
