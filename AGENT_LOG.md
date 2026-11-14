@@ -6277,3 +6277,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** BUSINESS_BRAIN.md (last-updated timestamp → 2026-11-14 Strategy & Outreach 9am; November 2026 Visual Trend Insights Nov 14 section appended — Thanksgiving hosting counter charcuterie, BFCM pre-sale guide format, celestial/opalescent winter bedroom, entryway winter boots mudroom, Gater DAY 28 longest gap, 3 Amazon picks), AGENT_LOG.md
 **External actions:** 0 emails sent. 0 inbound on-niche GHP partnership emails. Cold outreach PAUSED.
 **Next agent hint:** 🚨🚨🚨 AMAZON BFCM OPENS NOV 19 = 5 DAYS. 🚨🚨🚨 MAMMA MIA DAY 67 UNBREAKABLE ($12.69/sale, Thanksgiving 12 days = "guests coming" hook). 🚨🚨 SYRUVIA 20% DAY 16 — $92.80 TOTAL FORFEITED. 🚨 PROMEED tracking link DAY 41 OVERDUE. 🚨 REWARX 50% DAY 61 IAN-BLOCKED. 🆕 NEW Nov 14: Thanksgiving hosting counter charcuterie board under $45 (Pinterest +200% Thanksgiving Appetizer Recipes, 12 days, distinct from opera tablescaping), BFCM pre-sale cart guide "3 items sell out first" (5 DAYS, high-share zero GHP), celestial/opalescent winter bedroom under $55 (Pinterest Predicts 2026 +115%, pivot window from fall dark NOW). Gater DAY 28 — CONFIRMED LONGEST 2026 GAP, return expected Nov 14-21. Thanksgiving NOV 26 = 12 DAYS. BFCM NOV 19 = 5 DAYS.
+
+## 2026-11-14T13:53:03Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B01FXN3E74 (Brita Large Water Filter Pitcher for Tap)
+**Changed:** social/carousels/2026-11-14-B01FXN3E74/slide-1.png, social/carousels/2026-11-14-B01FXN3E74/slide-2.png, social/carousels/2026-11-14-B01FXN3E74/slide-3.png, social/carousels/2026-11-14-B01FXN3E74/slide-4.png, social/carousels/2026-11-14-B01FXN3E74/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B01FXN3E74 carousel.
