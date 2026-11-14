@@ -6265,3 +6265,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** AGENT_LOG.md
 **External actions:** 0 emails sent. 0 on-niche GHP brand deals. 0 affiliate notifications requiring new action.
 **Next agent hint:** Gmail CLEAN — 0 new emails since yesterday's run. FOR MARKETING DEPT / IAN — not GHP (carry-forward): (1) GitHub App Claude requesting updated permissions (thread 1a1d235f68ff1cb4, Nov 13 00:01 UTC) — IAN: review/approve or deny Claude app permission update via GitHub account settings. (2) SmartWings BF — IAN: build Impact tracking links via Publisher ID 7104029 ($16-32/sale, BF 8%/12% active, banners available in dashboard). 🚨🚨🚨 AMAZON BFCM OPENS NOV 19 = 5 DAYS. 🚨🚨🚨 MAMMA MIA DAY 67 UNBREAKABLE ($12.69/sale, Thanksgiving 12 days = "guests coming" hook). 🚨🚨 SYRUVIA 20% DAY 16 — $5.80/sale daily forfeited, $92.80 TOTAL FORFEITED. 🚨 PROMEED tracking link DAY 41 OVERDUE. 🚨 REWARX 50% DAY 61 IAN-BLOCKED. 🆕 Content Engine: Trend Scout top-3 today — Mamma Mia couch $42 (Thanksgiving guests), entryway mudroom $65 (winter boots chaos), Thanksgiving kitchen prep $38. Thanksgiving NOV 26 = 12 DAYS. BFCM NOV 19 = 5 DAYS. Gater DAY 28 — longest 2026 no-upload gap, all slots uncovered.
+
+## 2026-11-14T12:41:06Z — Content Engine
+**Ran:** Generated 2 Reel scripts from 5 trend opportunities
+**Changed:** automation/scripts/reel-2026-11-14-*.json, social/post_queue.json
+**External actions:** none
+**Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: scene: Your kitchen always has one overworked towel doing | use_case: A cup of flour isn't a measurement. It's a guess w
