@@ -6308,8 +6308,8 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: scene: Your kitchen always has one overworked towel doing | use_case: A cup of flour isn't a measurement. It's a guess w
 
-## 2026-11-15T14:26:49Z — Carousel Generator
-**Ran:** Generated 5-slide carousel for B01FXN3E74 (Brita Large Water Filter Pitcher for Tap)
-**Changed:** social/carousels/2026-11-15-B01FXN3E74/slide-1.png, social/carousels/2026-11-15-B01FXN3E74/slide-2.png, social/carousels/2026-11-15-B01FXN3E74/slide-3.png, social/carousels/2026-11-15-B01FXN3E74/slide-4.png, social/carousels/2026-11-15-B01FXN3E74/slide-5.png, social/post_queue.json
-**External actions:** Pexels (4 photos) + Claude CLI (slide content)
-**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B01FXN3E74 carousel.
+## 2026-11-15T14:35:20Z — Reel Producer
+**Ran:** Rendered 1/1 MP4s for 2026-11-15
+**Changed:** social/reels/reel-2026-11-15-*.mp4, social/post_queue.json
+**External actions:** none
+**Next agent hint:** IG Poster has 1 new Reels ready for 14:00 + 22:00 UTC slots

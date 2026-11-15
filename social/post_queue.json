@@ -10100,10 +10100,10 @@
   },
   {
     "name": "reel_2026-11-15_002",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-11-15-002.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-15-002.mp4",
     "caption": "A cup of flour isn't a measurement. It's a guess with a lid on it.\n\nScoop the cup and pack it, or spoon the flour in loose \u2014 the amount that lands in the bowl shifts either way, which is why two people can follow the same recipe and pull two different loaves out of the oven. Weight settles the argument: 120 grams is 120 grams no matter how it got there. The same scale also portions coffee, splits dough into equal pieces, and confirms a package's weight before a trip to the post office.\n\nThe Etekcity Food Kitchen Scale is a compact digital scale that reads exactly what's placed on it, so a recipe stops being an estimate. It carries 176,516 reviews at a 4.6-star average \u2014 a sample large enough that the score reflects how it performs across kitchens, not just one.\n\nRecipes you already make turn out the same way twice, without changing anything else about how you cook. It's $10.99.\n\nComment FOOD and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -10120,22 +10120,7 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "A cup of flour isn't a measurement. It's a guess with a lid on it."
-  },
-  {
-    "id": "carousel-2026-11-15-B01FXN3E74",
-    "media_type": "CAROUSEL_ALBUM",
-    "image_urls": [
-      "https://goldenhomeproject.com/social/carousels/2026-11-15-B01FXN3E74/slide-1.png",
-      "https://goldenhomeproject.com/social/carousels/2026-11-15-B01FXN3E74/slide-2.png",
-      "https://goldenhomeproject.com/social/carousels/2026-11-15-B01FXN3E74/slide-3.png",
-      "https://goldenhomeproject.com/social/carousels/2026-11-15-B01FXN3E74/slide-4.png",
-      "https://goldenhomeproject.com/social/carousels/2026-11-15-B01FXN3E74/slide-5.png"
-    ],
-    "caption": "Half your fridge shouldn't be bottled water.\n\nSave this for later \u2014 a countertop pitcher with a built-in filter turns tap water into drinking water on the spot, and the filter is rated to last two months before you swap it. BPA-free, 10-cup capacity, and one standard filter included to get started.\n\nComment PITCHER or DM me PITCHER for the link.\n\n#HomeOrganization #KitchenOrganization #WaterFilter #SmallKitchenTips #BudgetHomeFinds",
-    "asin": "B01FXN3E74",
-    "keyword": "PITCHER",
-    "queued_at": "2026-11-15T14:26:49.042722Z",
-    "source": "carousel_generator"
+    "hook": "A cup of flour isn't a measurement. It's a guess with a lid on it.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-15-002.mp4"
   }
 ]
