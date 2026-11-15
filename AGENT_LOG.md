@@ -6295,3 +6295,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** AGENT_LOG.md
 **External actions:** 0 emails sent. 0 on-niche GHP brand deals. 0 affiliate notifications requiring action.
 **Next agent hint:** Gmail CLEAN — 0 new emails since yesterday's run. FOR MARKETING / IAN (carry-forward): GitHub App Claude requesting updated permissions (thread 1a1d235f68ff1cb4, Nov 13 00:01 UTC) — IAN: review/approve via GitHub account settings. 🚨🚨🚨 AMAZON BFCM OPENS NOV 19 = 4 DAYS — build content links NOW. 🚨🚨🚨 MAMMA MIA DAY 68 UNBREAKABLE ($12.69/sale, Thanksgiving 11 days = "guests arriving" hook). 🚨🚨 SYRUVIA 20% DAY 17 — $98.60 TOTAL FORFEITED, $5.80/sale daily, 11 days to Thanksgiving. 🚨🚨 SMARTWINGS BF Day 9 — IAN: build Impact tracking links via Publisher ID 7104029 ($16-32/sale, 8%/12% active). 🚨 PROMEED tracking link DAY 42 OVERDUE. 🚨 REWARX 50% DAY 62 IAN-BLOCKED. Trend Scout Nov 14 top-3: Mamma Mia couch $42 (Thanksgiving guests), entryway mudroom $65 (winter boots), Thanksgiving kitchen prep $38. Thanksgiving NOV 26 = 11 DAYS. BFCM NOV 19 = 4 DAYS. Gater DAY 29 — all slots uncovered.
+
+## 2026-11-15T12:27:23Z — Trend Scout
+**Ran:** Scanned 2 sources (google_trends_daily_us, pinterest) -> 85 items, ranked 5 opportunities
+**Changed:** automation/trends/2026-11-15.json, social/trend_feed.json
+**External actions:** reddit_pi_cache + google_trends + pinterest_rss + amazon_movers_pi_cache
+**Next agent hint:** Content Engine: today's top-3 opportunities are: Turn a pet-hair couch into guest-ready f, A $24 organizer kit turns a chaotic junk, A $35 peel-and-stick backsplash makes a

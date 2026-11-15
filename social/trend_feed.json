@@ -1,131 +1,131 @@
 {
-  "generated_at": "2026-11-14T11:55:59.499411Z",
-  "date": "2026-11-14",
+  "generated_at": "2026-11-15T12:27:23.531464Z",
+  "date": "2026-11-15",
   "opportunities": [
     {
       "rank": 1,
       "product_category": "couch/sofa covers",
       "specific_product": "Mamma Mia waterproof stretch sofa cover",
       "brand": "Mamma Mia Covers",
-      "target_price": "$42",
-      "transformation_hook": "Hide a stained $1,200 couch for $42 before Thanksgiving guests arrive",
-      "before_state": "Worn, stained, pet-haired couch cushions with visible wear and faded fabric",
-      "after_state": "Sleek, tailored-looking stretch cover transforms the couch in under 5 minutes",
+      "target_price": "$49",
+      "transformation_hook": "Turn a pet-hair couch into guest-ready for under $50 before Thanksgiving",
+      "before_state": "Worn, stained, pet-hair-covered couch nobody wants guests to see",
+      "after_state": "Smooth, snug, stain-proof slipcover that looks like a brand-new sofa in 10 minutes",
       "buyer_intent_keywords": [
-        "waterproof couch cover",
-        "pet hair couch cover",
-        "stretch sofa cover",
-        "couch cover for dogs",
-        "sofa cover thanksgiving"
+        "couch cover for pets",
+        "waterproof sofa cover",
+        "stretch couch slipcover",
+        "sofa cover for dog hair",
+        "cheap couch makeover"
       ],
       "scores": {
         "trend": 7,
         "transformation": 10,
-        "affiliate": 10,
-        "intent": 8
+        "affiliate": 9,
+        "intent": 9
       },
       "composite_score": 35,
-      "why_now": "Thanksgiving hosting (Nov 26) is driving last-minute 'hide the couch damage' searches, and Mamma Mia's 24-30% commission makes this the highest-value pick this week."
+      "why_now": "Thanksgiving hosting is days away and Apartment Therapy's denim-sofa pin has shoppers eyeing low-cost couch refreshes over new furniture."
     },
     {
       "rank": 2,
-      "product_category": "entryway/mudroom storage",
-      "specific_product": "Stackable shoe & boot storage bench with wall hooks",
-      "brand": "Amazon generic",
-      "target_price": "$65",
-      "transformation_hook": "Turn a boot-and-coat pile-up into a $65 organized mudroom in one weekend",
-      "before_state": "Tangled coats, scattered boots, and bags dumped by the front door",
-      "after_state": "Bench with cubbies, labeled bins, and wall hooks holding every coat and shoe",
+      "product_category": "kitchen drawer & cabinet organizers",
+      "specific_product": "Syruvia expandable drawer organizer set",
+      "brand": "Syruvia",
+      "target_price": "$24",
+      "transformation_hook": "A $24 organizer kit turns a chaotic junk drawer Pinterest-ready before Thanksgiving cooking",
+      "before_state": "Jumbled utensil drawer and cluttered cabinets making holiday meal prep stressful",
+      "after_state": "Neatly sectioned drawers and labeled bins with everything visible and in reach",
       "buyer_intent_keywords": [
-        "entryway storage bench",
-        "shoe organizer with hooks",
-        "mudroom storage ideas",
-        "small entryway organization",
-        "boot storage rack"
+        "kitchen drawer organizer",
+        "cabinet organization ideas",
+        "Thanksgiving kitchen prep",
+        "pantry organizer bins",
+        "utensil drawer divider"
       ],
       "scores": {
         "trend": 7,
-        "transformation": 9,
+        "transformation": 8,
         "affiliate": 9,
         "intent": 8
       },
-      "composite_score": 33,
-      "why_now": "HGTV's mudroom/laundry storage pin is circulating right as winter coats and boots pile up before the holidays."
+      "composite_score": 32,
+      "why_now": "Kitchen-organization interest spikes every year in the week before Thanksgiving as hosts race to prep their cooking space."
     },
     {
       "rank": 3,
-      "product_category": "kitchen prep tools",
-      "specific_product": "Syruvia multi-tool vegetable chopper/prep set",
-      "brand": "Syruvia",
-      "target_price": "$29",
-      "transformation_hook": "Cut Thanksgiving prep time in half with a $29 chopper set",
-      "before_state": "Cutting board buried in half-chopped onions, carrots, and a single dull knife",
-      "after_state": "Prepped veggies sorted into bowls in minutes using the multi-chopper set",
+      "product_category": "kitchen backsplash",
+      "specific_product": "peel-and-stick subway tile backsplash",
+      "brand": "Amazon generic",
+      "target_price": "$35",
+      "transformation_hook": "A $35 peel-and-stick backsplash makes a dated kitchen look renovated in one afternoon",
+      "before_state": "Dingy, outdated painted wall or old grout-stained tile behind the stove",
+      "after_state": "Clean subway-tile backsplash that looks like a full renovation",
       "buyer_intent_keywords": [
-        "thanksgiving prep tools",
-        "vegetable chopper set",
-        "kitchen gadgets for holiday cooking",
-        "food prep tools",
-        "easy chopper"
+        "peel and stick backsplash",
+        "removable kitchen tile",
+        "cheap kitchen upgrade",
+        "backsplash ideas",
+        "rental kitchen makeover"
       ],
       "scores": {
-        "trend": 7,
-        "transformation": 7,
-        "affiliate": 8,
-        "intent": 9
+        "trend": 6,
+        "transformation": 10,
+        "affiliate": 7,
+        "intent": 8
       },
       "composite_score": 31,
-      "why_now": "Thanksgiving is 12 days out and Pinterest's colorful-kitchen content signals a spike in kitchen-tool searches as hosts prep their menus."
+      "why_now": "BHG is actively warning readers about backsplash 'faux pas,' pushing Pinterest audiences toward easy, mistake-proof peel-and-stick fixes."
     },
     {
       "rank": 4,
-      "product_category": "ambient/layered lighting",
-      "specific_product": "Warm-glow LED floor lamp + dimmable smart bulbs bundle",
-      "brand": "Amazon generic",
-      "target_price": "$38",
-      "transformation_hook": "Swap one harsh overhead bulb for $38 of warm layered light",
-      "before_state": "Room lit by a single glaring overhead fixture, flat and cold-feeling",
-      "after_state": "Warm floor lamp glow plus dimmable bulbs create a cozy winter-evening feel",
+      "product_category": "entryway/mudroom storage",
+      "specific_product": "Best Choice Products storage bench with hooks",
+      "brand": "Best Choice Products",
+      "target_price": "$89",
+      "transformation_hook": "An $89 bench-and-hook combo turns a shoe-and-coat pile-up into a magazine mudroom",
+      "before_state": "Shoes, bags, and winter coats piled by the front door",
+      "after_state": "Organized bench seating with coat hooks and shoe storage tucked neatly by the entry",
       "buyer_intent_keywords": [
-        "warm led floor lamp",
-        "dimmable smart bulbs",
-        "cozy living room lighting",
-        "layered lighting ideas",
-        "soft white led bulbs"
+        "entryway storage bench",
+        "mudroom organization ideas",
+        "shoe storage with bench",
+        "coat hook rack",
+        "small entryway makeover"
       ],
       "scores": {
-        "trend": 6,
-        "transformation": 8,
-        "affiliate": 9,
+        "trend": 7,
+        "transformation": 9,
+        "affiliate": 8,
         "intent": 7
       },
-      "composite_score": 30,
-      "why_now": "BHG's 'layer lighting like a pro for a cozy winter vibe' pin is surfacing right as days get shorter and cozy-home content peaks."
+      "composite_score": 31,
+      "why_now": "HGTV's mudroom/laundry pin is surfacing right as winter coats and holiday guest traffic make entryway clutter unavoidable."
     },
     {
       "rank": 5,
-      "product_category": "wall decor / gallery wall",
-      "specific_product": "Floating wood shelf set + gallery frame bundle",
-      "brand": "Amazon generic",
-      "target_price": "$54",
-      "transformation_hook": "Fill that blank wall above the couch for $54 instead of hiring a designer",
-      "before_state": "Large bare wall above the sofa, awkward and unfinished-looking",
-      "after_state": "Styled floating shelves with framed art and decor filling the space",
+      "product_category": "cervical support pillows",
+      "specific_product": "Eli & Elm side sleeper cervical pillow",
+      "brand": "Eli & Elm",
+      "target_price": "$55",
+      "transformation_hook": "A $55 pillow swap fixes the 'stiff neck every morning' problem side sleepers complain about",
+      "before_state": "Flat, worn-out pillow leaving side sleepers with neck and shoulder pain",
+      "after_state": "Contoured cervical pillow that keeps the spine aligned for pain-free mornings",
       "buyer_intent_keywords": [
-        "floating shelves above couch",
-        "gallery wall frame set",
-        "above sofa wall decor",
-        "large wall decor ideas",
-        "living room wall art set"
+        "pillow for neck pain",
+        "side sleeper pillow",
+        "cervical support pillow",
+        "best pillow for shoulder pain",
+        "stiff neck fix"
       ],
       "scores": {
-        "trend": 6,
-        "transformation": 9,
-        "affiliate": 8,
-        "intent": 6
+        "trend": 5,
+        "transformation": 6,
+        "affiliate": 9,
+        "intent": 8
       },
-      "composite_score": 29,
-      "why_now": "Two separate HGTV pins this week call out empty wall spaces above couches and headboards as a key styling pain point."
+      "composite_score": 28,
+      "why_now": "Bedroom-refresh content like HGTV's 'above the headboard' pin is trending alongside cold-weather neck-pain complaints, making pillow swaps an easy next-step CTA."
     }
   ],
   "raw_signal_count": 85,
