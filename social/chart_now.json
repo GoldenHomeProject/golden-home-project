@@ -1,12 +1,12 @@
 {
- "captured_at": "2026-11-13T10:40:59+00:00",
+ "captured_at": "2026-11-15T10:41:16+00:00",
  "items": [
   {
    "asin": "B0711RQMNF",
    "name": "Amazon Basics Collapsible Fabric Storage Cubes Organizer with Handles, Sturdy Storage Bins for Organization, 10.5\" x 10.",
    "price": "$15.14",
    "rating": 4.7,
-   "reviews": 120767,
+   "reviews": 120782,
    "rank": 1,
    "category": "Home Storage",
    "source": "bestsellers"
@@ -16,8 +16,8 @@
    "name": "KITCHENAID Ribbed Soft Silicone Oven Mitt 2-Pack Set, 7.5\"x13\", Milkshake Tan",
    "price": "$11.49",
    "rating": 4.7,
-   "reviews": 14456,
-   "rank": 8,
+   "reviews": 14479,
+   "rank": 7,
    "category": "Kitchen",
    "source": "bestsellers"
   },
@@ -26,7 +26,7 @@
    "name": "KitchenAid Classic Multifunction Can Opener and Bottle Opener Easy to Use, Razor Sharp Stainless Steel Cutting Wheel, So",
    "price": "$15.99",
    "rating": 4.6,
-   "reviews": 90282,
+   "reviews": 92707,
    "rank": 9,
    "category": "Kitchen",
    "source": "bestsellers"
@@ -36,8 +36,18 @@
    "name": "Etekcity Food Kitchen Scale, Digital Grams and Ounces, 11lb | Tare function, ideal for baking, weight loss, keto, meal p",
    "price": "$13.99",
    "rating": 4.6,
-   "reviews": 178379,
-   "rank": 10,
+   "reviews": 178415,
+   "rank": 11,
+   "category": "Kitchen",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B0B6PLG6G2",
+   "name": "125Pcs 8 Inch Square Air Fryer Liners Disposable for 5-8QT, Parchment Paper | Non-Stick, Unbleached Food Grade, Waterpro",
+   "price": "$8.99",
+   "rating": 4.6,
+   "reviews": 34258,
+   "rank": 12,
    "category": "Kitchen",
    "source": "bestsellers"
   },
@@ -46,19 +56,29 @@
    "name": "Household Essentials Foldable Fabric Storage Bins 6 Piece Set, Strong Poly-Woven Fabric, Sturdy Chipboard Sides, Grommet",
    "price": "$14.42",
    "rating": 4.7,
-   "reviews": 7669,
-   "rank": 11,
+   "reviews": 7674,
+   "rank": 13,
    "category": "Home Storage",
    "source": "bestsellers"
   },
   {
-   "asin": "B0B6PLG6G2",
-   "name": "125Pcs 8 Inch Square Air Fryer Liners Disposable for 5-8QT, Parchment Paper | Non-Stick, Unbleached Food Grade, Waterpro",
-   "price": "$8.99",
-   "rating": 4.6,
-   "reviews": 34238,
-   "rank": 12,
+   "asin": "B084TC8D4L",
+   "name": "Gas One 12 Pack 6 Hour Chafing Fuel - Food Warmer for Chafing Dish Buffet Set - Reusable Liquid Safe Fuel With Wick & Li",
+   "price": "$24.99",
+   "rating": 4.7,
+   "reviews": 11395,
+   "rank": 16,
    "category": "Kitchen",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B004QJGW6C",
+   "name": "Sterilite Clip Box, Stackable Clear Plastic Bins- Large, 6-Pack | Storage Containers with Latching Lids for Writing, Art",
+   "price": "$34.99",
+   "rating": 4.7,
+   "reviews": 9241,
+   "rank": 16,
+   "category": "Home Storage",
    "source": "bestsellers"
   },
   {
@@ -66,18 +86,8 @@
    "name": "KitchenAid All Purpose Kitchen Shears with Protective Sheath Durable Stainless Steel Scissors, Dishwasher Safe, Soft Gri",
    "price": "$9.99",
    "rating": 4.8,
-   "reviews": 73043,
-   "rank": 14,
-   "category": "Kitchen",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B06X9NQ8GX",
-   "name": "Amazon Basics Digital Kitchen Scale with LCD Display, Tare Function, Multiple Units, Weighs up to 11 Pounds, Batteries I",
-   "price": "$11.14",
-   "rating": 4.7,
-   "reviews": 120382,
-   "rank": 19,
+   "reviews": 73055,
+   "rank": 17,
    "category": "Kitchen",
    "source": "bestsellers"
   },
@@ -86,17 +96,27 @@
    "name": "TrendPlain 16oz Olive Oil Sprayer for Cooking, Silicone Pad, Black | Olive Oil Dispenser Bottle, Oil Dispenser For Kitch",
    "price": "$8.99",
    "rating": 4.6,
-   "reviews": 50009,
-   "rank": 22,
+   "reviews": 50095,
+   "rank": 20,
+   "category": "Kitchen",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B06X9NQ8GX",
+   "name": "Amazon Basics Digital Kitchen Scale with LCD Display, Tare Function, Multiple Units, Weighs up to 11 Pounds, Batteries I",
+   "price": "$11.14",
+   "rating": 4.7,
+   "reviews": 120428,
+   "rank": 23,
    "category": "Kitchen",
    "source": "bestsellers"
   },
   {
    "asin": "B07SPR2HPT",
    "name": "SONGMICS Storage Cubes, Set of 6, 11-Inch Foldable Closet Organizers | Non-Woven Fabric Bins with Double Handles, for Sh",
-   "price": "$16.98",
+   "price": "$19.99",
    "rating": 4.7,
-   "reviews": 14132,
+   "reviews": 14140,
    "rank": 23,
    "category": "Home Storage",
    "source": "bestsellers"
@@ -106,8 +126,8 @@
    "name": "0.5 Sec Instant Read Meat Thermometer Digital for Cooking, Red | NIST \u00b10.5\u2109 Precision Food Thermometer, Kitchen Gadgets ",
    "price": "$19.99",
    "rating": 4.8,
-   "reviews": 8766,
-   "rank": 23,
+   "reviews": 8780,
+   "rank": 24,
    "category": "Kitchen",
    "source": "bestsellers"
   },
@@ -116,18 +136,8 @@
    "name": "Homaxy 100% Cotton Waffle Weave Kitchen Dish Cloths 6-Pack, Dark Grey | 12 x 12 Inches, Ultra Soft Absorbent Dish Towels",
    "price": "$8.99",
    "rating": 4.5,
-   "reviews": 41748,
-   "rank": 24,
-   "category": "Kitchen",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B084TC8D4L",
-   "name": "Gas One 12 Pack 6 Hour Chafing Fuel - Food Warmer for Chafing Dish Buffet Set - Reusable Liquid Safe Fuel With Wick & Li",
-   "price": "$24.99",
-   "rating": 4.7,
-   "reviews": 11381,
-   "rank": 27,
+   "reviews": 41759,
+   "rank": 25,
    "category": "Kitchen",
    "source": "bestsellers"
   },
@@ -136,8 +146,38 @@
    "name": "Cisily Sponge Holder for Kitchen Sink, Sink Organizer with Brush Holder | Black Kitchen Countertop Organizers and Storag",
    "price": "$13.99",
    "rating": 4.6,
-   "reviews": 15762,
+   "reviews": 15801,
+   "rank": 26,
+   "category": "Kitchen",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B00MUEHPGQ",
+   "name": "PriorityChef Large 15oz Potato Ricer, Heavy Duty Stainless Steel Potato Masher and Ricer Kitchen Tool, Press and Mash Ki",
+   "price": "$27.99",
+   "rating": 4.6,
+   "reviews": 15070,
    "rank": 28,
+   "category": "Kitchen",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B0CHGFG64S",
+   "name": "ChefAide 5 Pieces Silicone Spatulas Set, Heat Resistant Rubber Spatula | Food Grade Silicone, Heat Resistant Up to 600\u00b0F",
+   "price": "$8.99",
+   "rating": 4.8,
+   "reviews": 7086,
+   "rank": 29,
+   "category": "Kitchen",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B0028JURDQ",
+   "name": "FoodSaver Custom Length Vacuum Sealer Bags Multipack, 5 Count Rolls for Airtight Food Storage and Sous Vide - Compatible",
+   "price": "$23.17",
+   "rating": 4.8,
+   "reviews": 28415,
+   "rank": 30,
    "category": "Kitchen",
    "source": "bestsellers"
   },
@@ -146,28 +186,8 @@
    "name": "IRIS USA Clear Cases |Made in USA| Plastic Box Organizers (10-Pack)- Medium | Bead Storage Organizing Containers with Sn",
    "price": "$19.99",
    "rating": 4.7,
-   "reviews": 9151,
-   "rank": 29,
-   "category": "Home Storage",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B0CHGFG64S",
-   "name": "ChefAide 5 Pieces Silicone Spatulas Set, Heat Resistant Rubber Spatula | Food Grade Silicone, Heat Resistant Up to 600\u00b0F",
-   "price": "$8.99",
-   "rating": 4.8,
-   "reviews": 7069,
-   "rank": 32,
-   "category": "Kitchen",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B0811PXNBJ",
-   "name": "StorageWorks Storage Basket for Shelves, Storage Bins, Beige, 2-Pack | Large, With Reinforced PU Handles, Metal Frame, S",
-   "price": "$29.99",
-   "rating": 4.6,
-   "reviews": 6098,
-   "rank": 33,
+   "reviews": 9153,
+   "rank": 30,
    "category": "Home Storage",
    "source": "bestsellers"
   },
@@ -176,29 +196,29 @@
    "name": "KitchenAid Ribbed Soft Silicone Pot Holder 2-Pack Set, Milkshake Tan, 7\"x9\"",
    "price": "$8.49",
    "rating": 4.6,
-   "reviews": 10915,
-   "rank": 35,
+   "reviews": 10927,
+   "rank": 32,
    "category": "Kitchen",
    "source": "bestsellers"
   },
   {
-   "asin": "B07TXL7CPQ",
-   "name": "Amazon Basics Collapsible Cube Storage Bins, Space-Saving, Organizing Fabric Bins with Handles, 10.5 x 10.5 x 11 inches,",
-   "price": "$17.99",
-   "rating": 4.8,
-   "reviews": 22200,
-   "rank": 37,
+   "asin": "B003OAJGJO",
+   "name": "Crock-Pot Oval Manual Slow Cooker, Stainless Steel, 7-Quart | 7-Quart Capacity, Serves 8+ People, High/Low Cook Settings",
+   "price": "$31.99",
+   "rating": 4.6,
+   "reviews": 63150,
+   "rank": 34,
+   "category": "Kitchen",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B0811PXNBJ",
+   "name": "StorageWorks Storage Basket for Shelves, Storage Bins, Beige, 2-Pack | Large, With Reinforced PU Handles, Metal Frame, S",
+   "price": "$29.99",
+   "rating": 4.6,
+   "reviews": 6100,
+   "rank": 36,
    "category": "Home Storage",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B079M8FPTW",
-   "name": "Rubbermaid Brilliance Plastic Food Storage Containers, 3.2-Cup, 5-Count | Airtight and Leakproof, BPA-Free Tritan Plasti",
-   "price": "$32.48",
-   "rating": 4.7,
-   "reviews": 18999,
-   "rank": 37,
-   "category": "Kitchen",
    "source": "bestsellers"
   }
  ]
