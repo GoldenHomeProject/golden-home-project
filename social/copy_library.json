@@ -5268,6 +5268,53 @@
         ],
         "reel_format": "problem_fix"
       }
+    ],
+    "WAFFLE": [
+      {
+        "hook_category": "question",
+        "hook": "Why does your kitchen towel smell by Wednesday?",
+        "beat1": "One thin towel usually ends up wiping counters, drying hands, and mopping spills all in the same day. It never fully dries between uses, so it starts smelling sour long before trash day. A single cloth just can't keep up with everything a kitchen throws at it.",
+        "turn": "This is a 6-pack of waffle weave cotton dish cloths, so there's always a dry one in rotation instead of one overworked rag. It's rated 4.5 stars across nearly 42,000 reviews, which is a lot of kitchens relying on the same six cloths.",
+        "result": "Rotating through six instead of one means less time smelling sour and more time actually drying, for about $9.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close-up of a hand picking up a damp, slightly grayish dish towel off a kitchen counter near the sink",
+            "on_screen_text": "Why your towel smells by Wednesday",
+            "voiceover": "Why does your kitchen towel smell by Wednesday?"
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Hand wringing out a damp dish towel over a kitchen sink, water still dripping from it",
+            "on_screen_text": "Still damp when you grab it again",
+            "voiceover": "Sign one: it's still damp every time you reach for it."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "A single dish towel draped over an oven handle, used for drying hands, wiping a spill, and covering a bowl on the counter nearby",
+            "on_screen_text": "One towel doing every job",
+            "voiceover": "Sign two: it's doing hand-drying, counter-wiping, and spill duty all at once."
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "Overhead shot of a stack of folded dark grey waffle weave dish cloths on a kitchen counter next to a sink",
+            "on_screen_text": "Streaks left behind on the counter",
+            "voiceover": "Sign three: it's too thin to actually dry anything. A six pack of waffle weave cotton cloths means there's always a fresh one waiting."
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "Hand pulling one grey waffle weave dish cloth from a neat folded stack of six in a kitchen drawer",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "Nearly 42,000 reviews, 4.5 stars, and about nine dollars for six. Comment {KEYWORD} and I'll send the link."
+          }
+        ],
+        "reel_format": "countdown"
+      }
     ]
   },
   "hashtag_pools": {
