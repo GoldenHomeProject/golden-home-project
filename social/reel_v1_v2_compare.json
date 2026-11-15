@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-13T08:15",
+ "updated": "2026-11-15T08:15",
  "note": "watch_pct = avg watch time / reel length (IG has no 3-second-hold metric). Clicks and orders: Associates report by ascsubtag.",
  "summary": {
   "v1": {
-   "reels": 8,
+   "reels": 9,
    "like_count": 0.0,
    "comments_count": 0.0,
    "link_replies": null
@@ -188,6 +188,24 @@
    "comments_count": 0,
    "like_count": 0,
    "permalink": "https://www.instagram.com/reel/DfqIvlhiB61/",
+   "plays": null,
+   "saves": null,
+   "shares": null,
+   "avg_watch_s": null,
+   "watch_pct": null,
+   "keyword": null,
+   "link_replies": null
+  },
+  {
+   "date": "2026-11-14",
+   "variant": "v1",
+   "title": "A cup of flour isn't a measurement. It's a guess with a lid on it",
+   "ig_media": "18034184183909463",
+   "youtube": "Ny5TBqPdFHg",
+   "length_s": 20.0,
+   "comments_count": 0,
+   "like_count": 0,
+   "permalink": "https://www.instagram.com/reel/DfvIQx7lYbF/",
    "plays": null,
    "saves": null,
    "shares": null,
