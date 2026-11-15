@@ -3,13 +3,13 @@
   "title": "Housewarming Gifts for New Homeowners Under $25",
   "search": "housewarming gifts for new homeowners",
   "cap": 25,
-  "updated": "2026-11-13",
+  "updated": "2026-11-15",
   "picks": [
    {
     "asin": "B0DZFGTCLR",
     "name": "Candle Warmer Lamp with Timer Home Decor Birthday Gifts for Women | Dimmable Candle Warmer for Jar Candles, Height Adjus",
     "type": "Candle Warmer Lamp",
-    "why": "Dimmable, height-adjustable candle warmer lamp lights jar candles with a timer.",
+    "why": "Dimmable warmer with timer adds cozy decor lighting to a new home.",
     "price": "$19.99",
     "rating": 4.5,
     "reviews": 5354
@@ -18,25 +18,34 @@
     "asin": "B01M7TTA2S",
     "name": "Bath & Body Works 3-Wick Candle, Mahogany Teakwood Intense, Soy Wax Blend | Room-Filling Warm Home Scent with Strong Thr",
     "type": "Scented Candle",
-    "why": "3-wick soy wax candle fills a new living space with warm scent.",
+    "why": "Room-filling scent brings warm ambiance to a freshly moved-into space.",
     "price": "$21.49",
     "rating": 4.5,
     "reviews": 9117
    },
    {
-    "asin": "B0CSFJR66V",
-    "name": "BEDELITE Ribbed Fleece Throw Blanket for Couch, Cream, 50\"x60\" | Ultra-Soft Plush Fleece, Cozy, Warm Yet Lightweight, Ri",
+    "asin": "B0157T2ENY",
+    "name": "Bedsure GentleSoft Fleece Bed Blankets Queen Size Grey - Soft Cozy Warm Fall Throw Blanket Halloween Decorations Lightwe",
     "type": "Throw Blanket",
-    "why": "Ribbed fleece throw blanket fits a couch in a newly furnished living room.",
-    "price": "$13.29",
-    "rating": 4.5,
-    "reviews": 5054
+    "why": "Soft fleece queen blanket adds cozy warmth to a new bedroom.",
+    "price": "$19.98",
+    "rating": 4.6,
+    "reviews": 179574
+   },
+   {
+    "asin": "B08J8H7BQG",
+    "name": "KitchenAid Ribbed Soft Silicone Pot Holder 2-Pack Set, Milkshake Tan, 7\"x9\"",
+    "type": "Pot Holder Set",
+    "why": "Pot holder set equips a new kitchen with practical essentials.",
+    "price": "$8.49",
+    "rating": 4.6,
+    "reviews": 10927
    },
    {
     "asin": "B0CVVVNB9L",
     "name": "MIULEE Boho Farmhouse Sage Green Throw Pillow Covers 18x18 Inch Set of 4 Mordern Nordic Cushion Covers Soft Corduroy Spring Home Decor for C",
     "type": "Throw Pillow Covers",
-    "why": "Set of four corduroy pillow covers brings farmhouse style to a new home.",
+    "why": "Set of four covers refreshes living room decor affordably.",
     "price": "$16.99",
     "rating": 4.6,
     "reviews": 3203
@@ -44,20 +53,11 @@
    {
     "asin": "B0725WFLMB",
     "name": "Bedsure Satin Pillowcase, Similar to Silk Pillow Cases Queen Size Set of 2, Cooling Pillow Case Covers with Envelope Clo",
-    "type": "Satin Pillowcase Set",
-    "why": "Set of two satin pillowcases with envelope closure suits any new bedroom.",
+    "type": "Satin Pillowcases",
+    "why": "Queen set of two upgrades bedroom bedding in the new house.",
     "price": "$6.99",
     "rating": 4.5,
     "reviews": 321211
-   },
-   {
-    "asin": "B08J8H7BQG",
-    "name": "KitchenAid Ribbed Soft Silicone Pot Holder 2-Pack Set, Milkshake Tan, 7\"x9\"",
-    "type": "Pot Holder Set",
-    "why": "Two-pack silicone pot holders help equip a new home kitchen.",
-    "price": "$8.49",
-    "rating": 4.6,
-    "reviews": 10915
    }
   ]
  },
@@ -65,131 +65,7 @@
   "title": "First Apartment Gifts Under $30",
   "search": "first apartment gifts",
   "cap": 30,
-  "updated": "2026-11-13",
-  "picks": [
-   {
-    "asin": "B0DZFGTCLR",
-    "name": "Candle Warmer Lamp with Timer Home Decor Birthday Gifts for Women | Dimmable Candle Warmer for Jar Candles, Height Adjus",
-    "type": "Candle Warmer Lamp",
-    "why": "Dimmable, height-adjustable lamp with timer designed for jar candles.",
-    "price": "$19.99",
-    "rating": 4.5,
-    "reviews": 5354
-   },
-   {
-    "asin": "B0FB7LKQXV",
-    "name": "STANLEY Quencher H2.0 Flow State Tumbler, 40 oz, Cranberry | Handle and Straw | 3-Position Lid | Cup Holder Compatible f",
-    "type": "Insulated Tumbler",
-    "why": "40 oz tumbler with handle, straw, 3-position lid, fits cup holders.",
-    "price": "$22.50",
-    "rating": 4.7,
-    "reviews": 204529
-   },
-   {
-    "asin": "B01M7TTA2S",
-    "name": "Bath & Body Works 3-Wick Candle, Mahogany Teakwood Intense, Soy Wax Blend | Room-Filling Warm Home Scent with Strong Thr",
-    "type": "Scented Candle",
-    "why": "3-wick soy wax candle with strong scent throw for a home.",
-    "price": "$21.49",
-    "rating": 4.5,
-    "reviews": 9117
-   },
-   {
-    "asin": "B0158EQJSY",
-    "name": "Bedsure GentleSoft Sherpa Fleece Throw Blanket for Couch, Non-Heated, Thick & Warm Cozy Comfort Christmas Blanket for Wi",
-    "type": "Sherpa Throw Blanket",
-    "why": "Thick sherpa fleece throw blanket for a couch, warm for winter.",
-    "price": "$16.99",
-    "rating": 4.7,
-    "reviews": 98006
-   },
-   {
-    "asin": "B08J8H7BQG",
-    "name": "KitchenAid Ribbed Soft Silicone Pot Holder 2-Pack Set, Milkshake Tan, 7\"x9\"",
-    "type": "Silicone Pot Holders",
-    "why": "2-pack ribbed silicone pot holders sized 7x9 inches for a kitchen.",
-    "price": "$8.49",
-    "rating": 4.6,
-    "reviews": 10915
-   },
-   {
-    "asin": "B0CVVVNB9L",
-    "name": "MIULEE Boho Farmhouse Sage Green Throw Pillow Covers 18x18 Inch Set of 4 Mordern Nordic Cushion Covers Soft Corduroy Spring Home Decor for C",
-    "type": "Throw Pillow Covers",
-    "why": "Set of four 18x18 boho corduroy cushion covers for home decor.",
-    "price": "$16.99",
-    "rating": 4.6,
-    "reviews": 3203
-   }
-  ]
- },
- "hostess-gifts-under-20": {
-  "title": "Hostess Gifts Under $20",
-  "search": "hostess gifts",
-  "cap": 20,
-  "updated": "2026-11-13",
-  "picks": [
-   {
-    "asin": "B0DZFGTCLR",
-    "name": "Candle Warmer Lamp with Timer Home Decor Birthday Gifts for Women | Dimmable Candle Warmer for Jar Candles, Height Adjus",
-    "type": "Candle Warmer Lamp",
-    "why": "Dimmable candle warmer with timer, cozy home decor for their space.",
-    "price": "$19.99",
-    "rating": 4.5,
-    "reviews": 5354
-   },
-   {
-    "asin": "B0FB7RPM1G",
-    "name": "STANLEY Quencher H2.0 Flow State Tumbler, 30 oz, Cranberry | Handle and Straw | 3-Position Lid | Cup Holder Compatible f",
-    "type": "Insulated Tumbler",
-    "why": "30 oz tumbler with handle, straw, and 3-position lid for daily use.",
-    "price": "$20.00",
-    "rating": 4.7,
-    "reviews": 204611
-   },
-   {
-    "asin": "B0CSFJR66V",
-    "name": "BEDELITE Ribbed Fleece Throw Blanket for Couch, Cream, 50\"x60\" | Ultra-Soft Plush Fleece, Cozy, Warm Yet Lightweight, Ri",
-    "type": "Fleece Throw Blanket",
-    "why": "Soft ribbed fleece throw adds cozy warmth to their couch.",
-    "price": "$13.29",
-    "rating": 4.5,
-    "reviews": 5054
-   },
-   {
-    "asin": "B08J8H7BQG",
-    "name": "KitchenAid Ribbed Soft Silicone Pot Holder 2-Pack Set, Milkshake Tan, 7\"x9\"",
-    "type": "Silicone Pot Holders",
-    "why": "2-pack silicone pot holders, practical for a host who cooks.",
-    "price": "$8.49",
-    "rating": 4.6,
-    "reviews": 10915
-   },
-   {
-    "asin": "B0CVVVNB9L",
-    "name": "MIULEE Boho Farmhouse Sage Green Throw Pillow Covers 18x18 Inch Set of 4 Mordern Nordic Cushion Covers Soft Corduroy Spring Home Decor for C",
-    "type": "Throw Pillow Covers",
-    "why": "Set of 4 sage green corduroy covers refresh their living room decor.",
-    "price": "$16.99",
-    "rating": 4.6,
-    "reviews": 3203
-   },
-   {
-    "asin": "B001GM60LE",
-    "name": "Twinings English Breakfast Black Tea Individually Wrapped Bags, 100 Count (Pack of 1), Smooth, Flavourful, and Robust, C",
-    "type": "Breakfast Tea",
-    "why": "100 individually wrapped bags of smooth, flavourful English breakfast tea.",
-    "price": "$12.38",
-    "rating": 4.8,
-    "reviews": 20274
-   }
-  ]
- },
- "white-elephant-gifts-under-25": {
-  "title": "White Elephant Gifts Under $25 People Actually Want",
-  "search": "white elephant gift ideas",
-  "cap": 25,
-  "updated": "2026-11-13",
+  "updated": "2026-11-15",
   "picks": [
    {
     "asin": "B0DZFGTCLR",
@@ -213,51 +89,140 @@
     "asin": "B01M7TTA2S",
     "name": "Bath & Body Works 3-Wick Candle, Mahogany Teakwood Intense, Soy Wax Blend | Room-Filling Warm Home Scent with Strong Thr",
     "type": "Scented Candle",
-    "why": "3-wick soy wax candle in a warm Mahogany Teakwood scent.",
+    "why": "3-wick soy wax candle fills a new apartment with scent.",
     "price": "$21.49",
     "rating": 4.5,
     "reviews": 9117
    },
    {
-    "asin": "B0158EQJSY",
-    "name": "Bedsure GentleSoft Sherpa Fleece Throw Blanket for Couch, Non-Heated, Thick & Warm Cozy Comfort Christmas Blanket for Wi",
-    "type": "Fleece Throw Blanket",
-    "why": "Sherpa fleece throw blanket made for the couch.",
-    "price": "$16.99",
-    "rating": 4.7,
-    "reviews": 98006
-   },
-   {
-    "asin": "B0DGYQPDS3",
-    "name": "Kitsch x Harry Potter Microfiber Hair Towel Wrap for Women - Ravenclaw | Ultra Absorbent Microfiber Hair Towels for All ",
-    "type": "Hair Towel Wrap",
-    "why": "Ravenclaw-themed microfiber hair towel wrap for Harry Potter fans.",
-    "price": "$14.99",
-    "rating": 4.5,
-    "reviews": 9180
+    "asin": "B0157T2ENY",
+    "name": "Bedsure GentleSoft Fleece Bed Blankets Queen Size Grey - Soft Cozy Warm Fall Throw Blanket Halloween Decorations Lightwe",
+    "type": "Fleece Blanket",
+    "why": "Queen-size fleece blanket adds warmth to a new living space.",
+    "price": "$19.98",
+    "rating": 4.6,
+    "reviews": 179574
    },
    {
     "asin": "B08J8H7BQG",
     "name": "KitchenAid Ribbed Soft Silicone Pot Holder 2-Pack Set, Milkshake Tan, 7\"x9\"",
     "type": "Pot Holder Set",
-    "why": "2-pack silicone pot holder set for kitchen use.",
+    "why": "Silicone pot holder set equips a first kitchen for cooking.",
     "price": "$8.49",
     "rating": 4.6,
-    "reviews": 10915
+    "reviews": 10927
+   },
+   {
+    "asin": "B0CVVVNB9L",
+    "name": "MIULEE Boho Farmhouse Sage Green Throw Pillow Covers 18x18 Inch Set of 4 Mordern Nordic Cushion Covers Soft Corduroy Spring Home Decor for C",
+    "type": "Throw Pillow Covers",
+    "why": "Set of 4 pillow covers brings farmhouse style to decor.",
+    "price": "$16.99",
+    "rating": 4.6,
+    "reviews": 3203
    }
   ]
  },
- "stocking-stuffers-for-the-home-under-15": {
-  "title": "Stocking Stuffers for the Home Under $15",
-  "search": "stocking stuffers for adults",
-  "cap": 15,
-  "updated": "2026-11-13",
+ "hostess-gifts-under-20": {
+  "title": "Hostess Gifts Under $20",
+  "search": "hostess gifts",
+  "cap": 20,
+  "updated": "2026-11-15",
   "picks": [
+   {
+    "asin": "B0DZFGTCLR",
+    "name": "Candle Warmer Lamp with Timer Home Decor Birthday Gifts for Women | Dimmable Candle Warmer for Jar Candles, Height Adjus",
+    "type": "Candle Warmer Lamp",
+    "why": "Dimmable lamp with timer warms jar candles without an open flame.",
+    "price": "$19.99",
+    "rating": 4.5,
+    "reviews": 5354
+   },
+   {
+    "asin": "B08J8H7BQG",
+    "name": "KitchenAid Ribbed Soft Silicone Pot Holder 2-Pack Set, Milkshake Tan, 7\"x9\"",
+    "type": "Pot Holder Set",
+    "why": "Two-pack of ribbed silicone pot holders for the kitchen.",
+    "price": "$8.49",
+    "rating": 4.6,
+    "reviews": 10927
+   },
+   {
+    "asin": "B001GM60LE",
+    "name": "Twinings English Breakfast Black Tea Individually Wrapped Bags, 100 Count (Pack of 1), Smooth, Flavourful, and Robust, C",
+    "type": "Black Tea",
+    "why": "Individually wrapped breakfast tea bags, smooth and flavourful, 100 count.",
+    "price": "$12.38",
+    "rating": 4.8,
+    "reviews": 20274
+   },
+   {
+    "asin": "B0CVVVNB9L",
+    "name": "MIULEE Boho Farmhouse Sage Green Throw Pillow Covers 18x18 Inch Set of 4 Mordern Nordic Cushion Covers Soft Corduroy Spring Home Decor for C",
+    "type": "Throw Pillow Covers",
+    "why": "Set of four sage green corduroy pillow covers for home decor.",
+    "price": "$16.99",
+    "rating": 4.6,
+    "reviews": 3203
+   },
+   {
+    "asin": "B0158EQJSY",
+    "name": "Bedsure GentleSoft Sherpa Fleece Throw Blanket for Couch, Non-Heated, Thick & Warm Cozy Comfort Christmas Blanket for Wi",
+    "type": "Sherpa Throw Blanket",
+    "why": "Sherpa fleece throw blanket for the couch with a Christmas design.",
+    "price": "$16.99",
+    "rating": 4.7,
+    "reviews": 98006
+   },
+   {
+    "asin": "B0BYB99QZQ",
+    "name": "Sok It JavaSok Iced Coffee & Cold Soda Insulated Neoprene Cup Sleeve (Like Fine China, Medium: 22-28oz)",
+    "type": "Cup Sleeve",
+    "why": "Insulated neoprene sleeve fits medium 22-28oz iced coffee or soda cups.",
+    "price": "$16.99",
+    "rating": 4.8,
+    "reviews": 34332
+   }
+  ]
+ },
+ "white-elephant-gifts-under-25": {
+  "title": "White Elephant Gifts Under $25 People Actually Want",
+  "search": "white elephant gift ideas",
+  "cap": 25,
+  "updated": "2026-11-15",
+  "picks": [
+   {
+    "asin": "B0DZFGTCLR",
+    "name": "Candle Warmer Lamp with Timer Home Decor Birthday Gifts for Women | Dimmable Candle Warmer for Jar Candles, Height Adjus",
+    "type": "Candle Warmer Lamp",
+    "why": "Dimmable timer and adjustable height make jar candles safer to burn.",
+    "price": "$19.99",
+    "rating": 4.5,
+    "reviews": 5354
+   },
+   {
+    "asin": "B0FB7LKQXV",
+    "name": "STANLEY Quencher H2.0 Flow State Tumbler, 40 oz, Cranberry | Handle and Straw | 3-Position Lid | Cup Holder Compatible f",
+    "type": "Insulated Tumbler",
+    "why": "Built-in handle, straw, and 3-position lid fit most cup holders.",
+    "price": "$22.50",
+    "rating": 4.7,
+    "reviews": 204529
+   },
+   {
+    "asin": "B01M7TTA2S",
+    "name": "Bath & Body Works 3-Wick Candle, Mahogany Teakwood Intense, Soy Wax Blend | Room-Filling Warm Home Scent with Strong Thr",
+    "type": "Scented Candle",
+    "why": "Three wicks and soy wax blend give a room-filling warm scent.",
+    "price": "$21.49",
+    "rating": 4.5,
+    "reviews": 9117
+   },
    {
     "asin": "B0DGYQPDS3",
     "name": "Kitsch x Harry Potter Microfiber Hair Towel Wrap for Women - Ravenclaw | Ultra Absorbent Microfiber Hair Towels for All ",
     "type": "Hair Towel Wrap",
-    "why": "Ravenclaw design pairs Harry Potter fandom with an absorbent microfiber hair towel.",
+    "why": "Harry Potter Ravenclaw design adds playful fandom flair to hair care.",
     "price": "$14.99",
     "rating": 4.5,
     "reviews": 9180
@@ -266,25 +231,60 @@
     "asin": "B08J8H7BQG",
     "name": "KitchenAid Ribbed Soft Silicone Pot Holder 2-Pack Set, Milkshake Tan, 7\"x9\"",
     "type": "Silicone Pot Holders",
-    "why": "Two ribbed silicone pot holders in a 7x9 inch size for kitchen use.",
+    "why": "Soft silicone pot holder set brings stylish color into any kitchen.",
     "price": "$8.49",
     "rating": 4.6,
-    "reviews": 10915
+    "reviews": 10927
    },
    {
-    "asin": "B0D1VMHS4R",
-    "name": "LYSHIN Silk Pillow Cases Standard Size with Hidden Zipper, Champagne | 19 Momme Mulberry Silk Pillowcase for Skin and Ha",
-    "type": "Silk Pillowcase",
-    "why": "Mulberry silk pillowcase with hidden zipper designed for skin and hair.",
-    "price": "$6.43",
+    "asin": "B0CVVVNB9L",
+    "name": "MIULEE Boho Farmhouse Sage Green Throw Pillow Covers 18x18 Inch Set of 4 Mordern Nordic Cushion Covers Soft Corduroy Spring Home Decor for C",
+    "type": "Throw Pillow Covers",
+    "why": "Set of four corduroy covers refreshes a couch with boho farmhouse style.",
+    "price": "$16.99",
+    "rating": 4.6,
+    "reviews": 3203
+   }
+  ]
+ },
+ "stocking-stuffers-for-the-home-under-15": {
+  "title": "Stocking Stuffers for the Home Under $15",
+  "search": "stocking stuffers for adults",
+  "cap": 15,
+  "updated": "2026-11-15",
+  "picks": [
+   {
+    "asin": "B0DGYQPDS3",
+    "name": "Kitsch x Harry Potter Microfiber Hair Towel Wrap for Women - Ravenclaw | Ultra Absorbent Microfiber Hair Towels for All ",
+    "type": "Hair Towel Wrap",
+    "why": "Ravenclaw-themed microfiber wrap for drying hair after a shower.",
+    "price": "$14.99",
     "rating": 4.5,
-    "reviews": 8823
+    "reviews": 9180
+   },
+   {
+    "asin": "B08J8H7BQG",
+    "name": "KitchenAid Ribbed Soft Silicone Pot Holder 2-Pack Set, Milkshake Tan, 7\"x9\"",
+    "type": "Pot Holder Set",
+    "why": "Two-pack ribbed silicone pot holders in milkshake tan, 7x9 inches.",
+    "price": "$8.49",
+    "rating": 4.6,
+    "reviews": 10927
+   },
+   {
+    "asin": "B0725WFLMB",
+    "name": "Bedsure Satin Pillowcase, Similar to Silk Pillow Cases Queen Size Set of 2, Cooling Pillow Case Covers with Envelope Clo",
+    "type": "Satin Pillowcase Set",
+    "why": "Queen-size set of two cooling satin pillowcases with envelope closure.",
+    "price": "$6.99",
+    "rating": 4.5,
+    "reviews": 321211
    },
    {
     "asin": "B001GM60LE",
     "name": "Twinings English Breakfast Black Tea Individually Wrapped Bags, 100 Count (Pack of 1), Smooth, Flavourful, and Robust, C",
-    "type": "Breakfast Tea Bags",
-    "why": "100 individually wrapped English Breakfast tea bags for a cozy routine.",
+    "type": "Black Tea Bags",
+    "why": "100 individually wrapped English Breakfast tea bags for brewing.",
     "price": "$12.38",
     "rating": 4.8,
     "reviews": 20274
@@ -292,8 +292,8 @@
    {
     "asin": "B0F5V316HG",
     "name": "Sok It JavaSok Iced Coffee & Cold Soda Insulated Neoprene Cup Sleeve (The Pumpkin Gallery, Medium: 22-28oz)",
-    "type": "Insulated Cup Sleeve",
-    "why": "Insulated neoprene sleeve fits 22-28oz iced coffee or cold soda cups.",
+    "type": "Cup Sleeve",
+    "why": "Pumpkin-print neoprene sleeve fits 22-28oz iced coffee or soda cups.",
     "price": "$6.80",
     "rating": 4.8,
     "reviews": 34346
@@ -301,8 +301,8 @@
    {
     "asin": "B07H7D8YH3",
     "name": "Minetom Clear Christmas String Lights 100 Count 20 Feet Incandescent Bulb | Mini Lights for Indoor Xmas Tree Garland Bir",
-    "type": "Christmas String Lights",
-    "why": "20 feet of 100 clear mini lights for indoor Christmas tree decorating.",
+    "type": "String Lights",
+    "why": "100-count, 20-foot clear incandescent lights for trees or garland.",
     "price": "$8.98",
     "rating": 4.6,
     "reviews": 8579
@@ -313,22 +313,13 @@
   "title": "Teacher Gifts Under $15",
   "search": "teacher gifts",
   "cap": 15,
-  "updated": "2026-11-13",
+  "updated": "2026-11-15",
   "picks": [
-   {
-    "asin": "B0DGYQPDS3",
-    "name": "Kitsch x Harry Potter Microfiber Hair Towel Wrap for Women - Ravenclaw | Ultra Absorbent Microfiber Hair Towels for All ",
-    "type": "Hair Towel Wrap",
-    "why": "Ravenclaw microfiber hair towel wrap for getting ready at home",
-    "price": "$14.99",
-    "rating": 4.5,
-    "reviews": 9180
-   },
    {
     "asin": "B0CSFJR66V",
     "name": "BEDELITE Ribbed Fleece Throw Blanket for Couch, Cream, 50\"x60\" | Ultra-Soft Plush Fleece, Cozy, Warm Yet Lightweight, Ri",
     "type": "Throw Blanket",
-    "why": "Cream fleece throw blanket, 50x60 inches, for couch at home",
+    "why": "Cream fleece throw blanket, 50x60 inches, sized for a couch at home.",
     "price": "$13.29",
     "rating": 4.5,
     "reviews": 5054
@@ -336,17 +327,17 @@
    {
     "asin": "B08J8H7BQG",
     "name": "KitchenAid Ribbed Soft Silicone Pot Holder 2-Pack Set, Milkshake Tan, 7\"x9\"",
-    "type": "Pot Holder Set",
-    "why": "KitchenAid silicone pot holder 2-pack, 7x9 inches, for kitchen or classroom",
+    "type": "Pot Holder",
+    "why": "Silicone pot holder two-pack, milkshake tan, for kitchen use at home.",
     "price": "$8.49",
     "rating": 4.6,
-    "reviews": 10915
+    "reviews": 10927
    },
    {
     "asin": "B0725WFLMB",
     "name": "Bedsure Satin Pillowcase, Similar to Silk Pillow Cases Queen Size Set of 2, Cooling Pillow Case Covers with Envelope Clo",
-    "type": "Satin Pillowcase Set",
-    "why": "Queen size set of two satin pillowcases with envelope closure",
+    "type": "Pillowcase",
+    "why": "Satin pillowcase set of two, queen size, with envelope closure.",
     "price": "$6.99",
     "rating": 4.5,
     "reviews": 321211
@@ -354,8 +345,8 @@
    {
     "asin": "B001GM60LE",
     "name": "Twinings English Breakfast Black Tea Individually Wrapped Bags, 100 Count (Pack of 1), Smooth, Flavourful, and Robust, C",
-    "type": "Black Tea Bags",
-    "why": "100 individually wrapped English Breakfast tea bags for desk or home",
+    "type": "Tea",
+    "why": "100 individually wrapped English breakfast tea bags for desk breaks.",
     "price": "$12.38",
     "rating": 4.8,
     "reviews": 20274
@@ -364,10 +355,19 @@
     "asin": "B0F5V316HG",
     "name": "Sok It JavaSok Iced Coffee & Cold Soda Insulated Neoprene Cup Sleeve (The Pumpkin Gallery, Medium: 22-28oz)",
     "type": "Cup Sleeve",
-    "why": "Insulated neoprene sleeve fits iced coffee or cold soda cups",
+    "why": "Insulated neoprene sleeve fits iced coffee or cold soda cups.",
     "price": "$6.80",
     "rating": 4.8,
     "reviews": 34346
+   },
+   {
+    "asin": "B07H7D8YH3",
+    "name": "Minetom Clear Christmas String Lights 100 Count 20 Feet Incandescent Bulb | Mini Lights for Indoor Xmas Tree Garland Bir",
+    "type": "String Lights",
+    "why": "Clear string lights, 100 count, 20 feet, for tree or desk decor.",
+    "price": "$8.98",
+    "rating": 4.6,
+    "reviews": 8579
    }
   ]
  }
