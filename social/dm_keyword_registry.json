@@ -6984,6 +6984,23 @@
       "verified_stars": "4.5",
       "verified_reviews": 9033,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0FQLM8YBL",
+      "product_name": "Brita Metro Small 6-Cup Water Filter Pitcher with BritaPlus Filter, Clear",
+      "categories": [
+        "dorm",
+        "college",
+        "organization"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0FQLM8YBL?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-11-15",
+      "verified_method": "source_dorm/search+dp",
+      "verified_price": "$21.17",
+      "verified_stars": "4.5",
+      "verified_reviews": 1810,
+      "discovery_source": "back_to_college_2026"
     }
   ]
 }
