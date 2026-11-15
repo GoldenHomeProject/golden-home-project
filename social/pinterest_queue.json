@@ -10572,14 +10572,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-11-13-B075L81JP5.png",
     "queued_at": "2026-11-13T11:17:05.101114Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "Softer Skin, Simple Filter Swap",
     "recharted": false,
     "variant": "A",
-    "ai_image": false
+    "ai_image": false,
+    "posted_at": "2026-11-15T02:16:17Z"
   },
   {
     "id": "gift_guide-2026-11-13",
