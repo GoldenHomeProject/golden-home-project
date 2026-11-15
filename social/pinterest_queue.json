@@ -10648,14 +10648,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-11-15-B003OAJGJO.png",
     "queued_at": "2026-11-15T11:13:53.063712Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "7-Quart Slow Cooker, Serves 8+",
     "recharted": false,
     "variant": "B",
-    "ai_image": true
+    "ai_image": true,
+    "posted_at": "2026-11-15T14:41:39Z"
   },
   {
     "id": "pin-2026-11-15-B0811PXNBJ",
