@@ -9877,14 +9877,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-11-07-B0B6PLG6G2.png",
     "queued_at": "2026-11-07T11:11:53.601883Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "125 Liners, Zero Basket Scrubbing",
     "recharted": true,
     "variant": "B",
-    "ai_image": true
+    "ai_image": true,
+    "posted_at": "2026-11-15T02:15:27Z"
   },
   {
     "id": "pin-2026-11-07-B0BR3STN87",
