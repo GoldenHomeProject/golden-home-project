@@ -10748,14 +10748,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-11-16-B01CS31R94.png",
     "queued_at": "2026-11-16T11:12:29.759104Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "Darker Mornings for $9.47",
     "recharted": true,
     "variant": "B",
-    "ai_image": true
+    "ai_image": true,
+    "posted_at": "2026-11-16T14:41:52Z"
   },
   {
     "id": "pin-2026-11-16-B0F6LM95F2",
