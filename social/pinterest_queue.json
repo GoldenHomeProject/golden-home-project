@@ -9377,14 +9377,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-11-02-B07D1C5S71.png",
     "queued_at": "2026-11-02T11:17:47.142445Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "Hands-Free Drying, Less Frizz",
     "recharted": false,
     "variant": "A",
-    "ai_image": false
+    "ai_image": false,
+    "posted_at": "2026-11-16T02:17:20Z"
   },
   {
     "id": "collage-2026-11-02-best-bedding-essentials",
