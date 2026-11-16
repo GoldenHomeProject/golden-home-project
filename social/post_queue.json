@@ -10122,5 +10122,77 @@
     },
     "hook": "A cup of flour isn't a measurement. It's a guess with a lid on it.",
     "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-15-002.mp4"
+  },
+  {
+    "name": "reel_2026-11-16_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-16-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Stop buying shower liners that reek of chemicals.\n\nMost cheap vinyl liners come out of the package with a sharp plastic smell that lingers for days. They also tend to cling straight to your arms and legs the second the water runs, which is its own small daily annoyance.\n\nThis one is Oeko-tex certified, meaning it's tested against a long list of harmful substances before it ever reaches your bathroom. It's a standard size, so it drops right onto a regular shower or tub rod without any guesswork.\n\nYou get a liner that isn't off-gassing next to you in a hot shower, for about $9. Over a hundred thousand people have rated it 4.5 stars.\n\nComment CERTIFIED and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Barossa Design Oeko-tex Certified Shower Curtain Liner Standard Size",
+      "dm_keyword": "CERTIFIED",
+      "amazon_asin": "B08QRFZ6TH",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B08QRFZ6TH?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Stop buying shower liners that reek of chemicals."
+  },
+  {
+    "name": "reel_2026-11-16_002",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-16-002.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Your old dial scale is basically a guessing game.\n\nDial scales have a needle that swings past the number you're trying to read, and the glass fogs or shifts after years of use. Most people just round to the nearest five pounds and call it good.\n\nThis is a digital bathroom scale, so instead of squinting at a needle you get a number straight on the display. It's rated 4.7 stars across more than three hundred thousand reviews.\n\nYou get a clear readout each time you step on, no guessing involved, and it runs about $17.\n\nComment BODY and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Etekcity Digital Body Weight Bathroom Scale",
+      "dm_keyword": "BODY",
+      "amazon_asin": "B01HI1W1V4",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01HI1W1V4?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Your old dial scale is basically a guessing game."
+  },
+  {
+    "name": "reel_2026-11-16_003",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-16-003.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Your washcloth never actually dries before the next shower.\n\nBathrooms stay humid long after the water's off, so a folded, damp washcloth just sits there instead of drying out. Hung on a hook or balled up in a cabinet, thick cotton traps moisture and starts to smell sour by the next use.\n\nThese Amazon Basics washcloths are cotton built to dry fast, so they're not still damp the next time you reach for one. Over seventy thousand people have rated them, averaging 4.6 stars.\n\nA set like this means a dry, ready washcloth every time you shower, for about $14.\n\nComment COTTON and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Amazon Basics Fast Drying Cotton Washcloths for Bathroom",
+      "dm_keyword": "COTTON",
+      "amazon_asin": "B010S5VXKC",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B010S5VXKC?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Your washcloth never actually dries before the next shower."
   }
 ]
