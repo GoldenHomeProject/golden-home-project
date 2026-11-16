@@ -5127,3 +5127,30 @@ No file write needed — here's the review directly:
 
 ### Hypothesis to test next week
 Ship the Mamma Mia couch cover script in the confirmed "after-first" hook format (reveal result in the first 2 seconds — OpusClip data shows a 6,037-view average vs. this week's 50–220 baseline). Measure: 72h views against that baseline, and whether the Syruvia/Mamma Mia tracking links register a single click or sale in Impact by next Friday.
+
+---
+
+### Email Monitor — 2026-11-16 (8am ET)
+
+**Gmail scan since 2026-11-15T13:00:00Z — 2 new threads:**
+
+**(1) Smartwings Impact "Earn More This Black Friday with SmartWings | Up to 15% Off + Free Shipping"** (notifications@outreach.impact.com, Nov 16 00:51 UTC, thread 1a1e1d65fd14408d):
+**🚨 RATE UPGRADE CONFIRMED — SmartWings BF sale is NOW OFFICIALLY LIVE (no longer "Early Access").**
+- Previous Early Access rates: 8% sitewide / 12% over $1,500 / free shipping
+- **New LIVE BF rates: 10% sitewide / 15% over $1,500 / free shipping** = $20-60+/sale on $200-400 avg orders
+- Cannot reply (notifications@outreach.impact.com confirmed bounced; Impact platform automated sender). IAN: Access tracking links + marketing assets in Impact dashboard (Publisher ID 7104029). Do NOT email notifications@outreach.impact.com.
+
+**(2) Instagram "Someone started following you on Instagram"** (noreply@mail.instagram.com, Nov 16 08:01 UTC, thread 1a1e3604c1c9f086):
+Routine follower notification for GHP's @golden_home_project account. No action required. No reply.
+
+**Current day counts (Nov 16):**
+- Mamma Mia DAY 69 UNBREAKABLE ($12.69/sale)
+- Syruvia DAY 18 ZERO LINKS ($5.80 × 18 = **$104.40 total forfeited**)
+- SmartWings BF DAY 10 — NOW LIVE at **10%/15%** (upgraded from 8%/12%)
+- Amazon BFCM opens NOV 19 = **3 DAYS**
+- Thanksgiving NOV 26 = **10 DAYS**
+- Gater DAY 30 (longest 2026 no-upload gap confirmed)
+
+**Updated IAN Priority Action (Nov 16):**
+1. 🚨🚨🚨 BUILD SMARTWINGS IMPACT TRACKING LINKS — BF sale NOW LIVE at 10%/15% (was 8%/12%). Impact dashboard Publisher ID 7104029. 3 days to Amazon BFCM = maximum urgency to have all links ready NOW.
+2. All prior IAN actions from Nov 13 Affiliate Optimizer priority stack remain active (Mamma Mia script, Syruvia tracking link, Dreame links, YEEDI join, etc.).
