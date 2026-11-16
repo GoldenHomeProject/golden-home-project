@@ -5315,6 +5315,58 @@
         ],
         "reel_format": "countdown"
       }
+    ],
+    "FILLING": [
+      {
+        "hook_category": "question",
+        "hook": "Why do throw pillow covers always look saggy?",
+        "beat1": "Decorative pillow covers are usually cut a size bigger than the insert inside, so the fabric can drape instead of looking stuffed. If the insert itself is thin or already compressed, that extra room just becomes empty corners and a flat middle instead of a full shape.",
+        "turn": "Utopia Bedding's 18x18 inserts come as a two pack with 100% virgin filling made for indoor cushions, and shoppers have rated them 4.6 stars across about 220,000 reviews.",
+        "result": "For a couch that needs two or more covers filled out, that's a full, square-cornered look for about $15.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Hands fluffing a throw pillow on a couch, the cover's corners sagging and empty",
+            "on_screen_text": "Why pillows look saggy",
+            "voiceover": "Why do throw pillow covers always look saggy?",
+            "label": ""
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "A person stuffing an old, flattened cushion into a new decorative pillow cover on a bed",
+            "on_screen_text": "Reusing an old flat cushion",
+            "voiceover": "Most people just stuff an old pillow or cushion into the new cover.",
+            "label": "The usual way"
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Close up of a pillow cover corner hanging empty while the insert bunches in the middle on a couch",
+            "on_screen_text": "Empty corners, flat middle",
+            "voiceover": "That insert is already compressed, so the corners stay empty and the middle goes flat.",
+            "label": "The problem"
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "Hands unpacking two square white pillow inserts from plastic packaging on a living room floor",
+            "on_screen_text": "Two 18x18 inserts, virgin filling",
+            "voiceover": "These are 18 by 18 inch inserts, a two pack with 100% virgin filling made for indoor cushions.",
+            "label": "The swap"
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "A finished couch with two full, square pillows propped against the arm in natural light",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "Worth it if your covers keep looking empty instead of full. Comment {KEYWORD} and I'll send the link.",
+            "label": "Worth it if"
+          }
+        ],
+        "reel_format": "versus"
+      }
     ]
   },
   "hashtag_pools": {
