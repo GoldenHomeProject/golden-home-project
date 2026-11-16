@@ -6337,3 +6337,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** automation/scripts/reel-2026-11-16-*.json, social/post_queue.json
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: mistake: Stop buying shower liners that reek of chemicals. | mistake: Your old dial scale is basically a guessing game. | mistake: Your washcloth never actually dries before the nex
+
+## 2026-11-16T16:37:44Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B0B3WSZ3QP (Set of 4 Non-Skid 10-Inch Lazy Susan Tur)
+**Changed:** social/carousels/2026-11-16-B0B3WSZ3QP/slide-1.png, social/carousels/2026-11-16-B0B3WSZ3QP/slide-2.png, social/carousels/2026-11-16-B0B3WSZ3QP/slide-3.png, social/carousels/2026-11-16-B0B3WSZ3QP/slide-4.png, social/carousels/2026-11-16-B0B3WSZ3QP/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B0B3WSZ3QP carousel.
