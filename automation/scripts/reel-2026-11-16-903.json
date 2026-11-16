@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-11-16T19:10:38.813907Z",
+  "date": "2026-11-16",
+  "seq": 903,
+  "source": "repurpose",
+  "hook": "A $20 set that ends the dirty-spatula scramble mid-turkey.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Wide shot of a stove with four burners active and an oven door glowing from a turkey inside, one spatula being rinsed frantically in the sink.",
+      "on_screen_text": "4 burners. 1 turkey. 1 spatula?",
+      "voiceover": "Nobody tells you the second Thanksgiving bottleneck isn't chopping \u2014 it's not having a clean spatula."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "The Umite Chef 33-piece utensil set fully laid out in its stand on a clean counter, labeled price card '$19.99' beside it.",
+      "on_screen_text": "$19.99. 33 pieces. 4.5 stars.",
+      "voiceover": "This set is $19.99 for 33 pieces \u2014 tongs, basting brush, spatulas, whisk, ladles \u2014 backed by 30,314 ratings."
+    },
+    {
+      "n": 3,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of a silicone spatula sliding across a hot non-stick pan with no melting, no scratching, steam rising.",
+      "on_screen_text": "Rated for high heat.",
+      "voiceover": "Reviewers say the silicone heads hold up at high heat without melting or scratching non-stick pans."
+    },
+    {
+      "n": 4,
+      "duration_sec": 3,
+      "visual_prompt": "The organized utensil stand on a tidy counter cut against an earlier clip of the chaotic half-chopped cutting board.",
+      "on_screen_text": "No mid-prep wash. No scramble.",
+      "voiceover": "With this many pieces, you're not washing one spatula just to reuse it for the next dish."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Simple price comparison graphic: '$19.99 for 33 pieces' versus an icon of a cluttered mismatched utensil drawer with a strike-through.",
+      "on_screen_text": "Priced to replace the whole drawer.",
+      "voiceover": "At under $20 for all of this, it's cheaper than replacing your mismatched drawer one piece at a time."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Closing card showing five compared product thumbnails in a row with a blog icon and 'link in bio' text.",
+      "on_screen_text": "4 more tools compared \u2192 link in bio.",
+      "voiceover": "This is one of five under-$25 tools I checked against actual Thanksgiving prep \u2014 rest is on the blog."
+    }
+  ],
+  "caption": "The chopper fixes your cutting board. This $19.99 set fixes the second mess \u2014 four burners going, oven full, and one spatula doing everything. 33 pieces, 30,314 ratings, priced to replace your whole mismatched drawer. Full comparison on the blog (link in bio).",
+  "hashtags": [
+    "#KitchenUtensils",
+    "#ThanksgivingCooking",
+    "#SiliconeUtensils",
+    "#HolidayKitchen",
+    "#AmazonFinds",
+    "#MealPrep",
+    "#CookingTools"
+  ]
+}

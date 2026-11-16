@@ -1,0 +1,68 @@
+{
+  "created_at": "2026-11-16T19:10:38.814148Z",
+  "date": "2026-11-16",
+  "seq": 905,
+  "source": "repurpose",
+  "hook": "A $12 thermometer reads your turkey in 2 seconds.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Oven door held open too long with heat visibly escaping, someone cutting into a turkey breast to check doneness out of frustration.",
+      "on_screen_text": "The #1 Thanksgiving failure.",
+      "voiceover": "The most common Thanksgiving failure isn't the sides \u2014 it's a turkey pulled too early or too late."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Product graphic of the Alpha Grillers digital thermometer with overlay text '$12.31 \u00b7 4.8 stars \u00b7 91,526 ratings'.",
+      "on_screen_text": "The highest star rating on this list.",
+      "voiceover": "At $12.31, this thermometer has a 4.8-star average across 91,526 ratings \u2014 higher than every other tool I checked."
+    },
+    {
+      "n": 3,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of the foldable probe inserting into a turkey breast, digital readout number climbing and then locking almost instantly.",
+      "on_screen_text": "1-2 second read.",
+      "voiceover": "It's listed as a 1-2 second read, which is the actual requirement for checking a 15-pound bird fast."
+    },
+    {
+      "n": 4,
+      "duration_sec": 3,
+      "visual_prompt": "Graphic overlay of '165\u00b0F' stamped on a turkey breast and thigh diagram, USDA guidance text beneath it.",
+      "on_screen_text": "165\u00b0F. Breast and thigh.",
+      "voiceover": "USDA guidance calls for 165 degrees in the thickest part of the breast and thigh \u2014 the margin for error is narrow."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "An old dial thermometer stuck mid-read for several seconds while the oven door stays open, heat visibly shimmering out.",
+      "on_screen_text": "Dial thermometers cost you heat.",
+      "voiceover": "Older dial models take 15 to 20 seconds to stabilize \u2014 that's heat lost every time you check."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "The thermometer's probe folding flat for storage, backlit display glowing in a dim kitchen at night.",
+      "on_screen_text": "Built for repeat holiday use.",
+      "voiceover": "Reviewers say the backlit display and foldable probe hold up year after year, not just one season."
+    },
+    {
+      "n": 7,
+      "duration_sec": 3,
+      "visual_prompt": "Closing roundup card with all five compared products thumbnailed and a blog icon with 'link in bio'.",
+      "on_screen_text": "5 tools compared \u2192 link in bio.",
+      "voiceover": "This is one of five tools I checked against what Thanksgiving actually requires \u2014 full breakdown's on the blog."
+    }
+  ],
+  "caption": "The highest-rated tool on my entire Thanksgiving prep list isn't the chopper \u2014 it's this $12.31 thermometer with a 4.8-star average across 91,526 ratings. A 1-2 second read is the difference between a turkey pulled at the right moment and one guessed at. Full comparison on the blog (link in bio).",
+  "hashtags": [
+    "#TurkeyThermometer",
+    "#ThanksgivingTurkey",
+    "#MeatThermometer",
+    "#HolidayCooking",
+    "#KitchenGadgets",
+    "#TurkeyTips",
+    "#AmazonFinds"
+  ]
+}

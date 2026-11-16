@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-11-16T19:10:38.813559Z",
+  "date": "2026-11-16",
+  "seq": 901,
+  "source": "repurpose",
+  "hook": "95,851 people already solved your onion problem for $25.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Overhead shot of a cluttered cutting board: half-chopped onions, scattered carrot peels, one visibly dull knife catching dim light.",
+      "on_screen_text": "12 days till Thanksgiving.",
+      "voiceover": "Thanksgiving's 12 days out and my cutting board already looks like this."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Clean graphic card styled like an Amazon listing snippet: '95,851 ratings \u00b7 4.5 stars \u00b7 $24.97' over a product shot of the Fullstar Pro chopper.",
+      "on_screen_text": "95,851 ratings. 4.5 stars. $24.97.",
+      "voiceover": "This chopper has almost 100,000 ratings \u2014 that's not a launch spike, that's survived."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Close-up hand loading a whole onion into the chopper hopper, pressing down once, diced onion dropping cleanly into the attached catch container.",
+      "on_screen_text": "One press. Uniform dice.",
+      "voiceover": "Load it, press once, get a uniform dice in about the time it takes to hand-chop a quarter of an onion."
+    },
+    {
+      "n": 4,
+      "duration_sec": 3,
+      "visual_prompt": "Four small bowls lined up: evenly diced onion, carrot, celery, and bell pepper \u2014 the mirepoix base \u2014 shot from directly above.",
+      "on_screen_text": "Your stuffing + gravy base, handled.",
+      "voiceover": "Reviewers say onions, carrots, celery, and peppers come out evenly sized every single time."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Split shot: a tomato turning mushy instead of diced in the chopper, then a close-up of the blade grid with food residue stuck in the gaps.",
+      "on_screen_text": "The catch: soft produce gets mushy.",
+      "voiceover": "It's built for firm vegetables \u2014 tomatoes and avocado aren't its job, and the blades need a careful hand-wash."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Text-forward closing card with the five compared products thumbnailed in a row and an arrow pointing to 'link in bio'.",
+      "on_screen_text": "Full breakdown + 4 more tools \u2192 link in bio.",
+      "voiceover": "I lined this up against four other under-$25 Thanksgiving prep tools \u2014 full breakdown's on the blog."
+    }
+  ],
+  "caption": "Thanksgiving is 12 days out and my cutting board is already a crime scene. I pulled the actual Amazon numbers on the $24.97 chopper with 95,851 ratings before deciding if it earns counter space \u2014 plus 4 more under-$25 prep tools I compared against it. Full breakdown on the blog (link in bio).",
+  "hashtags": [
+    "#ThanksgivingPrep",
+    "#VegetableChopper",
+    "#KitchenGadgets",
+    "#AmazonFinds",
+    "#HolidayCooking",
+    "#MealPrepTips",
+    "#BudgetKitchen"
+  ]
+}

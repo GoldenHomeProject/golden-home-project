@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-11-16T19:10:38.814041Z",
+  "date": "2026-11-16",
+  "seq": 904,
+  "source": "repurpose",
+  "hook": "The $7 tool stuffing ratios actually need this year.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of flour being packed unevenly into a measuring cup, overflowing slightly, then leveled off inconsistently.",
+      "on_screen_text": "Measuring cups lie.",
+      "voiceover": "Flour volume changes depending on how you scoop it \u2014 that's a real problem for pie crust ratios."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "The Ultrean digital kitchen scale on a counter, LCD display lit, price graphic overlay '$6.98 \u00b7 4.6 stars \u00b7 22,377 ratings'.",
+      "on_screen_text": "$6.98. 4.6 stars. 22,377 ratings.",
+      "voiceover": "This is the cheapest tool on my whole list, and it has the highest star average of anything I checked."
+    },
+    {
+      "n": 3,
+      "duration_sec": 3,
+      "visual_prompt": "Flour-dusted hand pressing the tare button on the scale, display resetting cleanly to zero.",
+      "on_screen_text": "Tare resets between ingredients.",
+      "voiceover": "Reviewers say the display stays readable with wet or floury hands, and tare zeroes out between ingredients."
+    },
+    {
+      "n": 4,
+      "duration_sec": 3,
+      "visual_prompt": "Time-lapse of five different dry ingredients being added sequentially into one mixing bowl sitting on the scale, weight ticking up each time.",
+      "on_screen_text": "5 ingredients. 1 bowl. 1 scale.",
+      "voiceover": "That matters when a stuffing recipe calls for five dry ingredients added to the same bowl in sequence."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Split shot: stuffing bread cubes weighed precisely on the scale versus the same bread cubes scooped unevenly into a measuring cup.",
+      "on_screen_text": "Weight doesn't lie. Volume does.",
+      "voiceover": "Stuffing bread-to-liquid, pie crust flour-to-fat \u2014 these ratios are written in weight for a reason."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Closing graphic: '5 tools, 1 Thanksgiving prep list' with small icons of all five compared products and a blog link callout.",
+      "on_screen_text": "The lowest-risk buy on this list \u2192 link in bio.",
+      "voiceover": "This is the lowest-risk purchase on the whole list \u2014 full breakdown is linked in bio."
+    }
+  ],
+  "caption": "This is the cheapest thing on my Thanksgiving prep list at $6.98 \u2014 and it has the highest star rating of anything I checked. Stuffing and pie crust ratios are written in weight for a reason your measuring cups can't fix. Full comparison on the blog (link in bio).",
+  "hashtags": [
+    "#KitchenScale",
+    "#ThanksgivingBaking",
+    "#PieCrustTips",
+    "#StuffingRecipe",
+    "#BakingTools",
+    "#AmazonKitchenFinds",
+    "#HolidayBaking"
+  ]
+}

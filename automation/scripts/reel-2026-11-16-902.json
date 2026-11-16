@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-11-16T19:10:38.813796Z",
+  "date": "2026-11-16",
+  "seq": 902,
+  "source": "repurpose",
+  "hook": "The $25 chopper and the $25 slicer solve different problems.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Two product boxes side by side on a counter, both with a '$24.97' price sticker overlay \u2014 the Fullstar chopper and the Mueller Pro mandoline.",
+      "on_screen_text": "Same price. Different job.",
+      "voiceover": "These two tools are both $24.97. They are not the same tool."
+    },
+    {
+      "n": 2,
+      "duration_sec": 3,
+      "visual_prompt": "Split screen: left shows diced onion dropping from the chopper, right shows thin even potato rounds falling from the mandoline.",
+      "on_screen_text": "Dice vs. slice.",
+      "voiceover": "One dices for stuffing and gravy. The other slices thin, even rounds for a gratin."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "A sweet potato gratin being layered in a baking dish using the uniform mandoline-cut rounds, close-up of the even layering.",
+      "on_screen_text": "34,070 ratings. 4.5 stars.",
+      "voiceover": "If your menu has a layered side \u2014 sweet potato gratin, scalloped potatoes \u2014 the mandoline earns its spot."
+    },
+    {
+      "n": 4,
+      "duration_sec": 3,
+      "visual_prompt": "Extreme close-up of the mandoline blade glinting under light, with the plastic finger guard sitting unused on the counter beside it.",
+      "on_screen_text": "The guard isn't optional.",
+      "voiceover": "Reviewers warn this blade cuts a fingertip as easily as a potato \u2014 skip the guard and regret it."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Hand correctly using the finger guard over the mandoline, clean uniform potato slices falling steadily below.",
+      "on_screen_text": "Use the guard. Every time.",
+      "voiceover": "During a week the kitchen moves faster than usual, that guard is the line between prep and urgent care."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Simple decision-tree graphic: 'Mostly dicing? Skip it.' on one side, 'Layered dish? Buy it.' on the other, blog icon at bottom.",
+      "on_screen_text": "Which one does your menu need?",
+      "voiceover": "I broke down both tools against five Thanksgiving prep tasks \u2014 link in bio."
+    }
+  ],
+  "caption": "Two $24.97 tools, two completely different jobs. One dices your stuffing base, the other slices gratin-thin rounds \u2014 and only one of them needs a safety lecture. I compared both against what Thanksgiving prep actually requires. Full writeup on the blog (link in bio).",
+  "hashtags": [
+    "#MandolineSlicer",
+    "#ThanksgivingSides",
+    "#SweetPotatoGratin",
+    "#KitchenTools",
+    "#HolidayPrep",
+    "#AmazonKitchen",
+    "#ScallopedPotatoes"
+  ]
+}

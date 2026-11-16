@@ -10212,5 +10212,95 @@
     "keyword": "TURNTABLE",
     "queued_at": "2026-11-16T16:37:44.531026Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_repurpose_2026-11-16_901",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-16-901.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Thanksgiving is 12 days out and my cutting board is already a crime scene. I pulled the actual Amazon numbers on the $24.97 chopper with 95,851 ratings before deciding if it earns counter space \u2014 plus 4 more under-$25 prep tools I compared against it. Full breakdown on the blog (link in bio).",
+    "hashtags": [
+      "#ThanksgivingPrep",
+      "#VegetableChopper",
+      "#KitchenGadgets",
+      "#AmazonFinds",
+      "#HolidayCooking",
+      "#MealPrepTips",
+      "#BudgetKitchen"
+    ],
+    "hook": "95,851 people already solved your onion problem for $25."
+  },
+  {
+    "name": "reel_repurpose_2026-11-16_902",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-16-902.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Two $24.97 tools, two completely different jobs. One dices your stuffing base, the other slices gratin-thin rounds \u2014 and only one of them needs a safety lecture. I compared both against what Thanksgiving prep actually requires. Full writeup on the blog (link in bio).",
+    "hashtags": [
+      "#MandolineSlicer",
+      "#ThanksgivingSides",
+      "#SweetPotatoGratin",
+      "#KitchenTools",
+      "#HolidayPrep",
+      "#AmazonKitchen",
+      "#ScallopedPotatoes"
+    ],
+    "hook": "The $25 chopper and the $25 slicer solve different problems."
+  },
+  {
+    "name": "reel_repurpose_2026-11-16_903",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-16-903.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "The chopper fixes your cutting board. This $19.99 set fixes the second mess \u2014 four burners going, oven full, and one spatula doing everything. 33 pieces, 30,314 ratings, priced to replace your whole mismatched drawer. Full comparison on the blog (link in bio).",
+    "hashtags": [
+      "#KitchenUtensils",
+      "#ThanksgivingCooking",
+      "#SiliconeUtensils",
+      "#HolidayKitchen",
+      "#AmazonFinds",
+      "#MealPrep",
+      "#CookingTools"
+    ],
+    "hook": "A $20 set that ends the dirty-spatula scramble mid-turkey."
+  },
+  {
+    "name": "reel_repurpose_2026-11-16_904",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-16-904.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "This is the cheapest thing on my Thanksgiving prep list at $6.98 \u2014 and it has the highest star rating of anything I checked. Stuffing and pie crust ratios are written in weight for a reason your measuring cups can't fix. Full comparison on the blog (link in bio).",
+    "hashtags": [
+      "#KitchenScale",
+      "#ThanksgivingBaking",
+      "#PieCrustTips",
+      "#StuffingRecipe",
+      "#BakingTools",
+      "#AmazonKitchenFinds",
+      "#HolidayBaking"
+    ],
+    "hook": "The $7 tool stuffing ratios actually need this year."
+  },
+  {
+    "name": "reel_repurpose_2026-11-16_905",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-16-905.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "The highest-rated tool on my entire Thanksgiving prep list isn't the chopper \u2014 it's this $12.31 thermometer with a 4.8-star average across 91,526 ratings. A 1-2 second read is the difference between a turkey pulled at the right moment and one guessed at. Full comparison on the blog (link in bio).",
+    "hashtags": [
+      "#TurkeyThermometer",
+      "#ThanksgivingTurkey",
+      "#MeatThermometer",
+      "#HolidayCooking",
+      "#KitchenGadgets",
+      "#TurkeyTips",
+      "#AmazonFinds"
+    ],
+    "hook": "A $12 thermometer reads your turkey in 2 seconds."
   }
 ]
