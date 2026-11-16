@@ -1,0 +1,136 @@
+{
+  "generated_at": "2026-11-16T13:19:44.405647Z",
+  "date": "2026-11-16",
+  "opportunities": [
+    {
+      "rank": 1,
+      "product_category": "couch/sofa covers",
+      "specific_product": "Mamma Mia waterproof stretch sofa cover",
+      "brand": "Mamma Mia Covers",
+      "target_price": "$42",
+      "transformation_hook": "Cover a stained, pet-hair couch for $42 and make it look brand new",
+      "before_state": "Worn, stained couch covered in pet hair and faded, mismatched fabric",
+      "after_state": "Sleek, uniform slipcovered sofa that looks freshly reupholstered",
+      "buyer_intent_keywords": [
+        "couch cover for pets",
+        "stretch sofa slipcover",
+        "waterproof couch cover",
+        "dog hair proof couch cover",
+        "denim look sofa cover"
+      ],
+      "scores": {
+        "trend": 8,
+        "transformation": 9,
+        "affiliate": 9,
+        "intent": 9
+      },
+      "composite_score": 35,
+      "why_now": "Apartment Therapy's denim-sofa mood board pin signals a cozy-living-room aesthetic wave right as holiday guests and pets drive stained-couch searches."
+    },
+    {
+      "rank": 2,
+      "product_category": "Christmas garland & ribbon decor",
+      "specific_product": "Lighted faux pine garland with velvet ribbon bows",
+      "brand": "Amazon generic",
+      "target_price": "$29",
+      "transformation_hook": "Turn a bare staircase into a magazine-worthy holiday scene for under $30",
+      "before_state": "Plain, undecorated staircase, mantel, or doorway with no holiday touches",
+      "after_state": "Lush lighted garland draped with velvet ribbon swags and oversized bows",
+      "buyer_intent_keywords": [
+        "christmas garland with lights",
+        "velvet ribbon for tree",
+        "staircase garland decor",
+        "mantel christmas decor ideas",
+        "holiday ribbon bows"
+      ],
+      "scores": {
+        "trend": 9,
+        "transformation": 8,
+        "affiliate": 9,
+        "intent": 8
+      },
+      "composite_score": 34,
+      "why_now": "HGTV and BHG are both pushing ribbon, garland, and porch wreath content simultaneously; mid-November is peak shopping before Thanksgiving/Christmas decorating."
+    },
+    {
+      "rank": 3,
+      "product_category": "kitchen backsplash",
+      "specific_product": "Peel-and-stick subway tile backsplash wallpaper",
+      "brand": "Amazon generic",
+      "target_price": "$22",
+      "transformation_hook": "Cover a dated, grease-stained backsplash for $22 in one afternoon",
+      "before_state": "Dingy, outdated tile or bare wall behind the stove with grease stains",
+      "after_state": "Clean, bright white subway-tile look backsplash installed in under an hour",
+      "buyer_intent_keywords": [
+        "peel and stick backsplash",
+        "removable kitchen backsplash",
+        "subway tile wallpaper",
+        "diy backsplash update",
+        "renter friendly backsplash"
+      ],
+      "scores": {
+        "trend": 6,
+        "transformation": 9,
+        "affiliate": 9,
+        "intent": 7
+      },
+      "composite_score": 31,
+      "why_now": "BHG's 'avoid these backsplash faux pas' piece and HGTV's colorful-kitchen pins show kitchen-refresh content trending into year-end home projects."
+    },
+    {
+      "rank": 4,
+      "product_category": "entryway / mudroom organization",
+      "specific_product": "Wall-mounted shoe & coat organizer bench with bins",
+      "brand": "Best Choice Products",
+      "target_price": "$65",
+      "transformation_hook": "Turn a cluttered coat-and-shoe pile into an organized mudroom for $65",
+      "before_state": "Shoes, coats, and bags piled haphazardly by the front door",
+      "after_state": "Organized bench with labeled bins, coat hooks, and shoe cubbies",
+      "buyer_intent_keywords": [
+        "entryway organizer bench",
+        "mudroom storage bins",
+        "shoe cubby organizer",
+        "coat hook rack with shelf",
+        "small entryway storage ideas"
+      ],
+      "scores": {
+        "trend": 6,
+        "transformation": 9,
+        "affiliate": 8,
+        "intent": 7
+      },
+      "composite_score": 30,
+      "why_now": "HGTV's mudroom/laundry-combo pin is gaining traction as households tackle winter coat and boot clutter before holiday guests arrive."
+    },
+    {
+      "rank": 5,
+      "product_category": "kitchen prep tools",
+      "specific_product": "Syruvia multi-function kitchen gadget set",
+      "brand": "Syruvia",
+      "target_price": "$24",
+      "transformation_hook": "Swap 5 junk-drawer gadgets for 1 $24 tool and prep Thanksgiving dinner twice as fast",
+      "before_state": "Cluttered drawer of mismatched, dull, single-use kitchen gadgets",
+      "after_state": "One streamlined multi-tool prep station ready for holiday cooking",
+      "buyer_intent_keywords": [
+        "kitchen prep tools set",
+        "thanksgiving cooking gadgets",
+        "multi-function kitchen tool",
+        "vegetable prep tool",
+        "holiday cooking must haves"
+      ],
+      "scores": {
+        "trend": 7,
+        "transformation": 6,
+        "affiliate": 8,
+        "intent": 8
+      },
+      "composite_score": 29,
+      "why_now": "BHG's Friendsgiving casserole and pork loin roast pins show holiday-cooking content surging as Thanksgiving (Nov 26) approaches."
+    }
+  ],
+  "raw_signal_count": 85,
+  "sources_used": [
+    "google_trends_daily_us",
+    "pinterest"
+  ]
+}
