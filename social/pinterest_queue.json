@@ -8899,14 +8899,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-30-B0028JURDQ.png",
     "queued_at": "2026-10-30T10:15:13.665308Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "Custom-Size Bags, Zero Waste",
     "recharted": true,
     "variant": "A",
-    "ai_image": true
+    "ai_image": true,
+    "posted_at": "2026-11-16T02:16:31Z"
   },
   {
     "id": "pin-2026-10-30-B011CBJGZK",
