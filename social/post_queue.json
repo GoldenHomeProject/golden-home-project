@@ -10149,10 +10149,10 @@
   },
   {
     "name": "reel_2026-11-16_002",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-11-16-002.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-16-002.mp4",
     "caption": "Your old dial scale is basically a guessing game.\n\nDial scales have a needle that swings past the number you're trying to read, and the glass fogs or shifts after years of use. Most people just round to the nearest five pounds and call it good.\n\nThis is a digital bathroom scale, so instead of squinting at a needle you get a number straight on the display. It's rated 4.7 stars across more than three hundred thousand reviews.\n\nYou get a clear readout each time you step on, no guessing involved, and it runs about $17.\n\nComment BODY and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -10169,14 +10169,15 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "Your old dial scale is basically a guessing game."
+    "hook": "Your old dial scale is basically a guessing game.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-16-002.mp4"
   },
   {
     "name": "reel_2026-11-16_003",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-11-16-003.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-16-003.mp4",
     "caption": "Your washcloth never actually dries before the next shower.\n\nBathrooms stay humid long after the water's off, so a folded, damp washcloth just sits there instead of drying out. Hung on a hook or balled up in a cabinet, thick cotton traps moisture and starts to smell sour by the next use.\n\nThese Amazon Basics washcloths are cotton built to dry fast, so they're not still damp the next time you reach for one. Over seventy thousand people have rated them, averaging 4.6 stars.\n\nA set like this means a dry, ready washcloth every time you shower, for about $14.\n\nComment COTTON and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -10193,7 +10194,8 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "Your washcloth never actually dries before the next shower."
+    "hook": "Your washcloth never actually dries before the next shower.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-16-003.mp4"
   },
   {
     "id": "carousel-2026-11-16-B0B3WSZ3QP",
