@@ -7032,6 +7032,23 @@
       "verified_stars": "4.6",
       "verified_reviews": 16265,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B07CGXZFW6",
+      "product_name": "Handy Laundry Mesh Pop-Up Hamper Collapsible with Side Pocket 2-Pack",
+      "categories": [
+        "dorm",
+        "college",
+        "organization"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B07CGXZFW6?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-11-16",
+      "verified_method": "source_dorm/search+dp",
+      "verified_price": "$13.99",
+      "verified_stars": "4.7",
+      "verified_reviews": 61267,
+      "discovery_source": "back_to_college_2026"
     }
   ]
 }
