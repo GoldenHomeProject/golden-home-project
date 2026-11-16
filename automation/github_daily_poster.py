@@ -21,6 +21,7 @@ import sys
 import time
 import requests
 from datetime import datetime, timedelta, timezone
+from zoneinfo import ZoneInfo
 from pathlib import Path
 from content_quality_gate import fabrication_match
 
@@ -40,15 +41,43 @@ def pick_v2_entry(date_str):
     """Ian-approved v2 trend reels (2026-11-07), one per scheduled date. They take the
     daily slot on alternate days so v1 and v2 run at the same hour for the comparison."""
     try:
-        e = json.loads(V2_SCHEDULE.read_text()).get(date_str)
+        sched = json.loads(V2_SCHEDULE.read_text())
     except (OSError, ValueError):
         return None
-    if not e or e.get("source") in already_posted_sources():
-        return None
-    if not (REELS_DIR / e["video_file"]).exists():
-        print(f"  [v2] {e['video_file']} missing - falling back to v1")
-        return None
-    return e
+    posted = already_posted_sources()
+    # earliest approved reel that is due and not yet out (a missed day catches up)
+    for day in sorted(d for d in sched if d <= date_str):
+        e = sched[day]
+        if e.get("source") in posted:
+            continue
+        if not (REELS_DIR / e["video_file"]).exists():
+            print(f"  [v2] {e['video_file']} missing - skipping")
+            continue
+        return dict(e, date=date_str)
+    return None
+
+
+def _recently_posted(date_str, days=14):
+    """Titles and ASINs this poster shipped in the last `days` days. 11/14 and 11/15 both
+    posted "A cup of flour isn't a measurement..." from two different script files."""
+    cut = (datetime.strptime(date_str, "%Y-%m-%d") - timedelta(days=days)).strftime("%Y-%m-%d")
+    titles, asins = set(), set()
+    for log in LOGS_DIR.glob("gh_post_*.json"):
+        try:
+            d = json.loads(log.read_text())
+        except (json.JSONDecodeError, OSError):
+            continue
+        if str(d.get("date", "")) < cut or not d.get("title"):
+            continue
+        titles.add(d["title"].strip().lower().rstrip("."))
+        try:
+            src = json.loads((REPO_ROOT / d.get("source", "")).read_text())
+            a = (src.get("affiliate_strategy") or {}).get("amazon_asin")
+            if a:
+                asins.add(a)
+        except (OSError, ValueError, TypeError):
+            pass
+    return titles, asins
 
 
 def already_posted_sources():
@@ -109,6 +138,7 @@ def pick_dynamic_entry(date_str, lookback_days=7):
     # glob could essentially never match, and the run exited green having posted
     # nothing. That silent miss cost 4 of the last 6 days.
     posted = already_posted_sources()
+    recent_titles, recent_asins = _recently_posted(date_str)
     base = datetime.strptime(date_str, "%Y-%m-%d")
     candidates = []
     for back in range(lookback_days + 1):
@@ -143,6 +173,9 @@ def pick_dynamic_entry(date_str, lookback_days=7):
             continue
         title = (data.get("hook") or data.get("title") or "").strip().rstrip(".")
         if not title:
+            continue
+        if title.lower()[:95] in recent_titles or asin in recent_asins:
+            print(f"  [dynamic] {script_path.name} repeats a reel/product from the last 14 days - skipping")
             continue
         # Last gate before anything reaches YouTube or Instagram. Reels rendered from
         # scripts written before the 2026-08-26 honesty rules are still in the queue -
@@ -368,7 +401,10 @@ def amazon(asin, tag, channel=None, date=None):
 
 
 def today_str():
-    return datetime.now().strftime("%Y-%m-%d")
+    # Eastern date, not the runner's UTC date. GitHub starts the "noon" cron 3-7 h late;
+    # the 11/09 run began 00:30 UTC on 11/10, so it posted 11/10's reel and the
+    # Ian-approved WINDOW reel scheduled for 11/09 never went out.
+    return datetime.now(ZoneInfo("America/New_York")).strftime("%Y-%m-%d")
 
 
 def refresh_yt_token(token_path):
