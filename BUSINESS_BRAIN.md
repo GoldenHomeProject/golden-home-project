@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-11-17 (Strategy & Outreach 9am)
+# Last updated: 2026-11-17 (Affiliate Optimizer 10am)
 # ============================================================
 
 ---
@@ -5235,3 +5235,79 @@ Mamma Mia 24-30% DAY 69 ($12.69/sale, BFCM 3 days + Thanksgiving 10 days = DUAL-
 - **Mamma Mia couch cover — DAY 70 UNBREAKABLE. Trend Scout Nov 16 #1 confirmed ("Cover a stained, pet-hair couch for $42").** 24-30% ACTIVE commission. After-first format = confirmed 6,037-view average. Thanksgiving 9 DAYS = most urgent Mamma Mia hook of the year: "Thanksgiving guests arrive in 9 days. Same couch. After. Before." BFCM opens NOV 19 = 2 DAYS. This is now a TRIPLE hook (pet hair + Thanksgiving guests + BFCM deal price). UNBREAKABLE MANDATE.
 - **Amazon picks for Pinterest pipeline (Nov 17) — categories with real August sales:** (1) KITCHEN/BFCM: OXO Good Grips POP container set OR Rubbermaid Brilliance food storage set ~$25-45 — Amazon BF opens 2 DAYS, 30-60% off confirmed BF storage picks (Overeview 2026), "sells out in hours" hook format, fridge org trending NOW on TikTok; IAN: search "OXO Good Grips POP container set" or "Rubbermaid Brilliance storage set" in Associates; https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20. (2) HOME ORG/THANKSGIVING: Clear fridge organizer bins set ~$18-22 — TikTok trending NOW (Reviewed Nov 2026), Pinterest "fridge organization aesthetic" +375%, "before your in-laws open the fridge" Thanksgiving hook, BFCM sale-eligible; IAN: search "clear fridge organizer bins set" in Associates; goldenhomep0a-20 tag. (3) HOME ORG/GIFT: Under-bed storage containers 2-pack ~$25-32 — Yahoo Shopping confirms pair of under-bed storage containers for $30 with Prime ahead of BF, dual winter storage + gift guide format, renter-safe, stocking stuffer curation angle; IAN: search "under bed storage containers with lids 2-pack" in Associates; goldenhomep0a-20 tag.
 - **Competitor watch (Nov 17):** Alexandra Gater: CONFIRMED last video Oct 17 Mid-Century Modern studio (VidIQ Oct 2026, ~985K subs). DAY 31 of no upload — LONGEST 2026 GAP EVER at 2× her confirmed 0.5/week cadence. Expected return window: Nov 10-24 (overdue 10+ days). All slots uncovered: fridge org, BFCM haul, stocking stuffer guide, Mamma Mia, LED kitchen, honeycomb drawer org, botanical Thanksgiving centerpiece — ZERO competitor coverage as of Nov 17. Nest With Me: crafts/pregnancy. DIY Creators: woodworking only. Renter + dollar-specificity moat fully intact.
+
+### November 2026 Affiliate Updates (updated 2026-11-17 Affiliate Optimizer 10am)
+
+**GMAIL POST-STRATEGY SCAN (post-14:09 UTC Nov 17):** 1 new email after Strategy & Outreach run:
+- **Google Gemini "Important updates in Gemini Apps"** (google-gemini-noreply@google.com, Nov 17 12:47 UTC, thread 1a1e98be0f6fca9b) — Google platform notification re: privacy settings and safety measures. NOT GHP home-content email. No reply sent. → FOR MARKETING DEPT / IAN.
+
+**PLATFORM STATUS (Nov 17, Affiliate Optimizer 10am ET):**
+
+- **AMAZON goldenhomep0a-20 ACTIVE:**
+  - **BFCM opens NOV 19 = 2 DAYS.** Thanksgiving NOV 26 = 9 DAYS. TikTok Shop BFCM DAY 7 (Nov 11-30 campaign active). Christmas = 38 DAYS.
+  - **Amazon BF Week elevated bounties CONFIRMED** (store-news@amazon.com, Nov 16 22:02 UTC — arrived after Affiliate Optimizer ran Nov 16, logged by Email Monitor Nov 17): Prime + Audible elevated bounties active for limited time during BF Week; early BF deals LIVE NOW at amazon.com/blackfriday. IAN: build goldenhomep0a-20 links for LED kitchen lighting, honeycomb drawer org, fridge bins, botanical centerpiece BEFORE Nov 19 traffic spike.
+  - Google Analytics Oct 20–Nov 16 report available (analytics-noreply@google.com, Nov 16 19:06 UTC): IAN review recommended — 5+ months of blog performance data.
+  - 3 new content slots from Strategy Nov 17 (all zero GHP): BFCM Amazon haul "sells out in hours" under $45 (highest search-intent window of Q4), fridge org clear bins "before your in-laws open the fridge" Thanksgiving dual hook under $22, "gifts nobody thinks to give" home org stocking stuffer format under $20 (Christmas 38 days, peak Pinterest gift save window opens TODAY).
+
+- **IMPACT:**
+  - **Mamma Mia 24-30% — DAY 70 UNBREAKABLE.** $12.69/sale vs $1.88 Amazon. ZERO content ever. TRIPLE hook: pet hair + Thanksgiving guests 9 DAYS + BFCM opens 2 DAYS = most urgent version in 70 days. Script IMMEDIATELY. After-first format = confirmed 6,037-view average. Hook: "Thanksgiving guests arrive in 9 days. Same couch. After. Before."
+  - **SmartWings BF Sale — 15% OFF LIVE.** $30-60/sale ACTIVE. IAN: Impact dashboard (Publisher ID 7104029) → SmartWings → build tracking links. Do NOT reply to notifications@outreach.impact.com.
+  - **Dreame 5%+ — IAN build BFCM tracking links (opens Nov 19 = 2 DAYS).** $6.45+/sale. Last window before BFCM opens.
+  - **YEEDI 57605 — DAY 15. BFCM opens 2 DAYS = FINAL JOIN WINDOW.** Impact → join → build links TODAY.
+  - **Syruvia 20% — DAY 19. ZERO tracking links. ZERO scripts.** **$110.20 TOTAL FORFEITED** ($5.80 × 19 days). IAN: build Syruvia tracking link in Impact NOW — 2 days before BFCM, 9 days before Thanksgiving.
+  - **Promeed 12% — DAY 44 OVERDUE.** $7.20/sale vs $2.40 Amazon. BFCM bedding gift window OPEN.
+  - **Best Choice Products 10-15% — 1-click pre-approved, unactioned.** BFCM window OPEN.
+  - **Nanoleaf — NEW marketplace brand (Nov 10).** Smart LED lighting, $60-200+ AOV. Directly relevant to LED kitchen lighting viral slot. IAN: Impact marketplace → Nanoleaf → commission → join.
+  - **Riley Home LLC — NEW marketplace brand (Nov 10).** Home brand, niche/commission TBD. IAN: Impact marketplace → check niche + commission → join if home decor.
+  - **Sealogix Corp — contract expired midnight 11/6 (Impact 6590154).** IAN: verify niche.
+
+- **CJ AFFILIATE — AliExpress dormancy DAY 46 of 90** (44 days remain, ~Dec 30 deadline). No new invitations.
+
+- **AWIN:**
+  - **Rewarx 50% recurring (ID 129153): DAY 64 IAN-BLOCKED.** Highest commission in portfolio. BFCM 2 days to open.
+  - **Homary 12%/$96/sale (ID 91447): DAY 51.** BFCM premium window OPEN. IAN: Awin signup → affiliate ID to Lauren at affiliate@homary.com.
+  - **Promeed HerbalRX (ID 100833): 20% CPA ACTIVE.** IAN: browser accept via Awin dashboard.
+  - ON-NICHE browser accepts still pending: Tribesigns, SimpleProject (99013, 10%+), OKUN, CozySpiritStudio (130331, 20% wall art).
+
+**KEY DELTAS vs Nov 16 Affiliate Optimizer:**
+  - Amazon BFCM opens NOV 19: **2 DAYS** (was 3)
+  - Thanksgiving: **9 DAYS** (was 10)
+  - TikTok Shop BFCM: **DAY 7** (was 6)
+  - Mamma Mia: **DAY 70** (was 69) — TRIPLE hook now live (pet hair + Thanksgiving 9 days + BFCM 2 days)
+  - Syruvia: **DAY 19 — $110.20 total forfeited** (was DAY 18, $104.40)
+  - YEEDI: **DAY 15, BFCM 2 DAYS = FINAL JOIN WINDOW** (was 14)
+  - Promeed 12%: **DAY 44** (was 43)
+  - Rewarx: **DAY 64 IAN-BLOCKED** (was 63)
+  - Homary: **DAY 51** (was 50)
+  - CJ AliExpress: **DAY 46 of 90** (44 days remain)
+  - 🆕 Amazon BF Week elevated bounties confirmed (arrived Nov 16 22:02 UTC after Affiliate Optimizer ran, now logged)
+  - 🆕 Google Analytics Oct 20–Nov 16 report available (IAN: review)
+  - 🆕 BFCM Amazon haul "sells out in hours" format — highest Q4 search-intent window, zero GHP
+  - 🆕 Fridge org clear bins — TikTok trending NOW, Thanksgiving "in-laws open the fridge" dual hook, zero GHP
+  - 🆕 "Gifts nobody thinks to give" home org stocking stuffer — Christmas 38 days, peak gift save window TODAY, zero GHP
+
+**REVENUE PRIORITY STACK (Nov 17, Affiliate Optimizer):**
+Mamma Mia 24-30% DAY 70 UNBREAKABLE ($12.69/sale, TRIPLE hook: pet hair + Thanksgiving 9 days + BFCM 2 days = MAXIMUM URGENCY EVER) > Syruvia 20% DAY 19 ($110.20 total forfeited, BFCM 2 DAYS FINAL WINDOW) > SmartWings BF 15% LIVE ($30-60/sale, build tracking links now) > Dreame BFCM 2 DAYS FINAL > YEEDI 57605 DAY 15 (BFCM 2 DAYS = FINAL JOIN WINDOW) > Nanoleaf NEW Impact LED ($60-200+ AOV, on-niche) > Promeed 12% DAY 44 > Rewarx 50% DAY 64 IAN-BLOCKED > Homary $96/sale DAY 51 > CJ AliExpress DAY 46.
+
+**IAN PRIORITY ACTIONS — NOV 17:**
+  1. 🚨🚨🚨 **SCRIPT MAMMA MIA COUCH COVER — DAY 70 UNBREAKABLE.** TRIPLE hook: Thanksgiving guests 9 DAYS + BFCM opens 2 DAYS + pet hair. Must be live before BFCM (Nov 19). Hook: "Thanksgiving guests arrive in 9 days. Same couch. After. Before."
+  2. 🚨🚨🚨 **BUILD SYRUVIA 20% TRACKING LINK IN IMPACT — TODAY.** $110.20 total forfeited. BFCM opens in 2 DAYS — this is the final window to have links ready for traffic spike.
+  3. 🚨🚨🚨 **BUILD DREAME BFCM TRACKING LINKS — 2 DAYS REMAINING.** Impact → Dreame → build links before Nov 19.
+  4. 🚨🚨🚨 **JOIN YEEDI (Impact 57605) + BUILD LINK — TODAY = FINAL WINDOW.** BFCM opens 2 DAYS.
+  5. 🚨🚨🚨 **BUILD SMARTWINGS BF TRACKING LINKS — 15% OFF LIVE.** Impact Publisher ID 7104029 → SmartWings. $30-60/sale active NOW.
+  6. 🚨🚨 **CHECK NANOLEAF on Impact marketplace + JOIN.** $60-200+ AOV, LED on-niche, BFCM 2 days.
+  7. 🚨🚨 **BUILD PROMEED 12% TRACKING LINK — DAY 44 OVERDUE.** $7.20 vs $2.40 Amazon.
+  8. 🚨🚨 **Brief Content Engine:** BFCM Amazon haul "sells out in hours" + fridge org Thanksgiving hook + "gifts nobody thinks to give" stocking stuffer — all Strategy Nov 17, all zero GHP.
+  9. 🚨🚨 **BUILD goldenhomep0a-20 LINKS for LED kitchen lighting, honeycomb drawer org, fridge bins** BEFORE Amazon BF opens Nov 19 traffic spike.
+  10. 🚨 Accept REWARX Awin ID 129153 — DAY 64. Awin browser → accept → reply studio@rewarx.com.
+  11. 🚨 Accept PROMEED HerbalRX Awin ID 100833 — 20% CPA active. Awin browser dashboard.
+  12. Accept BEST CHOICE PRODUCTS on Impact — 1-click pre-approved 15%, BFCM window OPEN.
+  13. Complete HOMARY Awin express signup (ID 91447) — affiliate ID to Lauren at affiliate@homary.com (DAY 51, BFCM 2 days).
+  14. Check RILEY HOME LLC on Impact marketplace — home brand, TBD commission.
+  15. CJ portal audit — AliExpress dormancy DAY 46 (44 days remain).
+  16. Accept ON-NICHE Awin browser invites: Tribesigns, SimpleProject, OKUN, CozySpiritStudio.
+  17. Verify SEALOGIX CORP — Impact 6590154 expired 11/6.
+  18. Review Google Analytics Oct 20–Nov 16 report — 5+ months of blog performance data, check in GA.
+
+**FOR MARKETING DEPT / IAN — not GHP (Nov 17, Affiliate Optimizer 10am):**
+- **Google Gemini "Important updates in Gemini Apps"** (google-gemini-noreply@google.com, Nov 17 12:47 UTC, thread 1a1e98be0f6fca9b) — Google platform privacy/safety update notification. NOT GHP. No reply sent. IAN: review if relevant to any Google account used by GHP LLC.
