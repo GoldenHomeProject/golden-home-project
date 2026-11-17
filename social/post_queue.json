@@ -10269,7 +10269,7 @@
   },
   {
     "name": "reel_repurpose_2026-11-16_904",
-    "status": "ready",
+    "status": "held_not_trending",
     "script_path": "automation/scripts/reel-2026-11-16-904.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-16-904.mp4",
@@ -10288,7 +10288,7 @@
   },
   {
     "name": "reel_repurpose_2026-11-16_905",
-    "status": "ready",
+    "status": "held_not_trending",
     "script_path": "automation/scripts/reel-2026-11-16-905.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-16-905.mp4",
