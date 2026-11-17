@@ -5367,6 +5367,58 @@
         ],
         "reel_format": "versus"
       }
+    ],
+    "CUSHION": [
+      {
+        "hook_category": "mistake",
+        "hook": "Stop stuffing new pillow covers with your old flat inserts",
+        "beat1": "Covers look full in the package, then go limp the second they're on the couch. The problem usually isn't the cover at all. It's an insert that's already lost its shape.",
+        "turn": "An 18x18 insert sized to match your cover, not squeezed from a different size, is what keeps corners square instead of round. This pair sits at over 220,000 reviews and a 4.6 rating.",
+        "result": "Two 18x18 inserts with 100% virgin filling for about $17, so both sides of the couch match.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "A hand pulling a slightly deflated, lumpy throw pillow out from behind a couch cushion, natural living room light",
+            "on_screen_text": "This isn't a cover problem",
+            "voiceover": "Stop stuffing new pillow covers with your old flat inserts.",
+            "label": ""
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Close up of someone squeezing a worn, thin pillow insert, fibers clumped and corners rounded",
+            "on_screen_text": "Old inserts lose their shape",
+            "voiceover": "An insert that's already collapsed in the middle will never fill out a crisp new cover, no matter how nice the fabric is.",
+            "label": "The mistake"
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Hands holding a plump, square white pillow insert next to a decorative cover on a bed or couch",
+            "on_screen_text": "Match the insert to the cover size",
+            "voiceover": "The fix is matching the insert size to the cover, so the corners stay square instead of rounding off.",
+            "label": "Instead"
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "Someone unpacking two white square pillow inserts from plastic packaging on a couch",
+            "on_screen_text": "18x18, two inserts, virgin filling",
+            "voiceover": "These come as an 18 by 18 pair with 100% virgin filling, made to sit inside a cover, not peek out of it.",
+            "label": "The fix"
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "Two full, square white throw pillows propped against each other on a neutral couch, soft daylight",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "Comment {KEYWORD} and I'll send the link.",
+            "label": "Save this"
+          }
+        ],
+        "reel_format": "mistake"
+      }
     ]
   },
   "hashtag_pools": {
