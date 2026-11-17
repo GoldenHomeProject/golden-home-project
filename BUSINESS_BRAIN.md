@@ -5210,3 +5210,20 @@ Mamma Mia 24-30% DAY 69 ($12.69/sale, BFCM 3 days + Thanksgiving 10 days = DUAL-
 
 **FOR MARKETING DEPT / IAN — not GHP (Nov 16, Affiliate Optimizer 10am):**
 - **Instagram "Someone started following you on Instagram"** (noreply@mail.instagram.com, Nov 16 08:01 UTC, thread 1a1e3604c1c9f086) — platform follow notification for @golden_home_project. NOT GHP brand email. No reply sent.
+
+### November 2026 Email Monitor Update (updated 2026-11-17 Email Monitor 8am ET)
+
+**BFCM COUNTDOWN: 2 DAYS (NOV 19). Thanksgiving: 9 DAYS (NOV 26).**
+
+**Gmail scan: 5 new emails since Nov 16. 0 replies sent. All items classified.**
+
+**🔴 AMAZON BF WEEK ELEVATED BOUNTIES CONFIRMED (store-news@amazon.com, Nov 16 22:02 UTC, AFTER Affiliate Optimizer ran):**
+- Black Friday Week deals officially start November 19 (2 DAYS)
+- **Elevated bounties on Prime, Audible, and more** confirmed for limited time (historically $40 Prime, $20 Audible during BF Week)
+- Early BF deals ALREADY LIVE at amazon.com/blackfriday — affiliate links work now with goldenhomep0a-20
+- NOTE: Amazon email is CONFIDENTIAL — no public sharing per Operating Agreement
+- IAN: Use goldenhomep0a-20 tag. For LED kitchen lighting, honeycomb drawer org, botanical centerpiece — build links and schedule BF-angle content NOW before Nov 19 traffic spike.
+
+**Google Analytics performance report (Oct 20 – Nov 16) arrived:** analytics-noreply@google.com, Nov 16 19:06 UTC. IAN: Review this report — it covers the period since GSC was last checked (June 2026, 5+ months blind on blog performance). This is an automated report, no agent reply needed.
+
+**All other Nov 16 emails already fully processed by Affiliate Optimizer 10am:** Impact.com digest (Nanoleaf, Riley Home LLC, Fetch Rewards, etc.), Smartwings BF live email, Instagram follow — all logged in the Affiliate Optimizer section above. No new on-niche brand partnership emails required a reply today.
