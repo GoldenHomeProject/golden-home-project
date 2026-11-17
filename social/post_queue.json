@@ -10331,10 +10331,10 @@
   },
   {
     "name": "reel_2026-11-17_002",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-11-17-002.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-17-002.mp4",
     "caption": "Your throw pillows look flat for one dumb reason.\n\nPillow covers are usually cut generous, but the insert that ships with them is often a size down or just thin. That mismatch means the corners never fill out, so the pillow looks sunken even right after you fluff it.\n\nThese are 18 by 18 inserts, matched to the standard cover size, so they push fabric into every corner instead of leaving slack. Shoppers rate them 4.6 stars across roughly two hundred thousand reviews.\n\nCovers hold their square shape on the couch or bed instead of caving in at the edges, and a set runs about $16.\n\nComment INSERTS and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -10351,7 +10351,8 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "Your throw pillows look flat for one dumb reason."
+    "hook": "Your throw pillows look flat for one dumb reason.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-17-002.mp4"
   },
   {
     "name": "reel_2026-11-17_003",
