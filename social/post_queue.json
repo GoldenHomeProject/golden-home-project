@@ -10304,5 +10304,77 @@
     ],
     "hook": "A $12 thermometer reads your turkey in 2 seconds.",
     "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-16-905.mp4"
+  },
+  {
+    "name": "reel_2026-11-17_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-17-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "You run out of clean washcloths halfway through the week.\n\nMost bathrooms only have a handful of washcloths in rotation, so between laundry loads they run out fast. People end up reaching for a towel, a paper towel, or the same damp one two days in a row.\n\nThis is a twenty-four pack, so one load of laundry keeps every sink and shower stocked for weeks. It's rated 4.6 stars by around seventy-five thousand people, mostly for having enough to actually stop running out.\n\nYour linen closet stays stocked instead of scraped bare, for about $20.\n\nComment PACK and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Utopia Towels 24 Pack Washcloths",
+      "dm_keyword": "PACK",
+      "amazon_asin": "B007JCHA6E",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B007JCHA6E?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "You run out of clean washcloths halfway through the week."
+  },
+  {
+    "name": "reel_2026-11-17_002",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-17-002.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Your throw pillows look flat for one dumb reason.\n\nPillow covers are usually cut generous, but the insert that ships with them is often a size down or just thin. That mismatch means the corners never fill out, so the pillow looks sunken even right after you fluff it.\n\nThese are 18 by 18 inserts, matched to the standard cover size, so they push fabric into every corner instead of leaving slack. Shoppers rate them 4.6 stars across roughly two hundred thousand reviews.\n\nCovers hold their square shape on the couch or bed instead of caving in at the edges, and a set runs about $16.\n\nComment INSERTS and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Utopia Bedding 18x18 Pillow Inserts",
+      "dm_keyword": "INSERTS",
+      "amazon_asin": "B01NBNDC1T",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01NBNDC1T?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Your throw pillows look flat for one dumb reason."
+  },
+  {
+    "name": "reel_2026-11-17_003",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-17-003.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Stop using the green scrubber on your nonstick pans.\n\nRegular scouring pads look tough but they bite into a coated pan's surface a tiny bit every wash. Those scratches add up quietly, and a pan that used to release food easily starts sticking and looking dull months before it should.\n\nThis sponge is designed to scrub stuck-on food without scratching the surface underneath, so it works on pans, counters, and bathroom fixtures alike. It's rated 4.8 stars from over sixty thousand reviews, and it comes as a six pack.\n\nThat means a fresh sponge at every sink without re-ordering constantly, and pans and surfaces that stay looking newer longer. It's about six dollars for the whole pack.\n\nComment SCOTCH and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Scotch-Brite Zero Scratch Scrub Sponge, 6 Pack | Kitchen Sponges for Cleaning Home, Bathroom, Effective + Gentle Dish Sc",
+      "dm_keyword": "SCOTCH",
+      "amazon_asin": "B0043P0IAK",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B0043P0IAK?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B0043P0IAK?tag=goldenhomep0a-20"
+    },
+    "hook": "Stop using the green scrubber on your nonstick pans."
   }
 ]
