@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T08:15",
+ "updated": "2026-11-17T08:15",
  "note": "watch_pct = avg watch time / reel length (IG has no 3-second-hold metric). Clicks and orders: Associates report by ascsubtag.",
  "summary": {
   "v1": {
@@ -9,7 +9,7 @@
    "link_replies": null
   },
   "v2": {
-   "reels": 2,
+   "reels": 3,
    "like_count": 0.0,
    "comments_count": 0.0,
    "link_replies": 0.0
@@ -224,6 +224,24 @@
    "comments_count": 0,
    "like_count": 0,
    "permalink": "https://www.instagram.com/reel/DfxvsV6gd0U/",
+   "plays": null,
+   "saves": null,
+   "shares": null,
+   "avg_watch_s": null,
+   "watch_pct": null,
+   "keyword": null,
+   "link_replies": null
+  },
+  {
+   "date": "2026-11-16",
+   "variant": "v2",
+   "title": "Tell me you have bad curtains without telling me",
+   "ig_media": "18056181566810090",
+   "youtube": "fsn2DV0l56k",
+   "length_s": 16.7,
+   "comments_count": 0,
+   "like_count": 0,
+   "permalink": "https://www.instagram.com/reel/Df0qSC_JXUT/",
    "plays": null,
    "saves": null,
    "shares": null,
