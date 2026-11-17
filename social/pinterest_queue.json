@@ -10204,11 +10204,12 @@
     "image_path": "social/pinterest/gift_guide-2026-11-09.png",
     "image_url": "https://goldenhomeproject.com/social/pinterest/gift_guide-2026-11-09.png",
     "queued_at": "2026-11-09T11:20:02.422735Z",
-    "posted": false,
+    "posted": true,
     "source": "generate_format_pins",
     "format": "gift_guide",
     "variant": "A",
-    "guide": "stocking-stuffers-for-the-home-under-15"
+    "guide": "stocking-stuffers-for-the-home-under-15",
+    "posted_at": "2026-11-17T02:16:21Z"
   },
   {
     "id": "versus-2026-11-09",
