@@ -6391,3 +6391,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** automation/scripts/reel-2026-11-17-*.json, social/post_queue.json
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: scene: You run out of clean washcloths halfway through th | mistake: Your throw pillows look flat for one dumb reason. | mistake: Stop using the green scrubber on your nonstick pan
+
+## 2026-11-17T16:35:31Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B0CVVVNB9L (MIULEE Boho Farmhouse Sage Green Throw P)
+**Changed:** social/carousels/2026-11-17-B0CVVVNB9L/slide-1.png, social/carousels/2026-11-17-B0CVVVNB9L/slide-2.png, social/carousels/2026-11-17-B0CVVVNB9L/slide-3.png, social/carousels/2026-11-17-B0CVVVNB9L/slide-4.png, social/carousels/2026-11-17-B0CVVVNB9L/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B0CVVVNB9L carousel.
