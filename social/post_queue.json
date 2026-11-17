@@ -10269,10 +10269,10 @@
   },
   {
     "name": "reel_repurpose_2026-11-16_904",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-11-16-904.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-16-904.mp4",
     "caption": "This is the cheapest thing on my Thanksgiving prep list at $6.98 \u2014 and it has the highest star rating of anything I checked. Stuffing and pie crust ratios are written in weight for a reason your measuring cups can't fix. Full comparison on the blog (link in bio).",
     "hashtags": [
       "#KitchenScale",
@@ -10283,14 +10283,15 @@
       "#AmazonKitchenFinds",
       "#HolidayBaking"
     ],
-    "hook": "The $7 tool stuffing ratios actually need this year."
+    "hook": "The $7 tool stuffing ratios actually need this year.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-16-904.mp4"
   },
   {
     "name": "reel_repurpose_2026-11-16_905",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-11-16-905.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-16-905.mp4",
     "caption": "The highest-rated tool on my entire Thanksgiving prep list isn't the chopper \u2014 it's this $12.31 thermometer with a 4.8-star average across 91,526 ratings. A 1-2 second read is the difference between a turkey pulled at the right moment and one guessed at. Full comparison on the blog (link in bio).",
     "hashtags": [
       "#TurkeyThermometer",
@@ -10301,6 +10302,7 @@
       "#TurkeyTips",
       "#AmazonFinds"
     ],
-    "hook": "A $12 thermometer reads your turkey in 2 seconds."
+    "hook": "A $12 thermometer reads your turkey in 2 seconds.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-16-905.mp4"
   }
 ]
