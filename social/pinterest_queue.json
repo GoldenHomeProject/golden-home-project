@@ -10728,14 +10728,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-11-16-B007JCHA6E.png",
     "queued_at": "2026-11-16T11:11:36.775495Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "Stock Up Your Linen Closet",
     "recharted": true,
     "variant": "A",
-    "ai_image": true
+    "ai_image": true,
+    "posted_at": "2026-11-17T02:17:27Z"
   },
   {
     "id": "pin-2026-11-16-B01CS31R94",
