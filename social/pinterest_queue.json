@@ -10844,14 +10844,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-11-17-B0D1VMFWYN.png",
     "queued_at": "2026-11-17T11:13:46.897842Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "Silk Pillowcases, Less Hair Frizz",
     "recharted": true,
     "variant": "A",
-    "ai_image": true
+    "ai_image": true,
+    "posted_at": "2026-11-17T14:43:39Z"
   },
   {
     "id": "pin-2026-11-17-B0GCMVLG75",
