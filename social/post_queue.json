@@ -10239,10 +10239,10 @@
   },
   {
     "name": "reel_repurpose_2026-11-16_903",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-11-16-903.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-16-903.mp4",
     "caption": "The chopper fixes your cutting board. This $19.99 set fixes the second mess \u2014 four burners going, oven full, and one spatula doing everything. 33 pieces, 30,314 ratings, priced to replace your whole mismatched drawer. Full comparison on the blog (link in bio).",
     "hashtags": [
       "#KitchenUtensils",
@@ -10253,7 +10253,8 @@
       "#MealPrep",
       "#CookingTools"
     ],
-    "hook": "A $20 set that ends the dirty-spatula scramble mid-turkey."
+    "hook": "A $20 set that ends the dirty-spatula scramble mid-turkey.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-16-903.mp4"
   },
   {
     "name": "reel_repurpose_2026-11-16_904",
