@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-11-17 (Affiliate Optimizer 10am)
+# Last updated: 2026-11-18 (Email Monitor 8am)
 # ============================================================
 
 ---
@@ -5311,3 +5311,19 @@ Mamma Mia 24-30% DAY 70 UNBREAKABLE ($12.69/sale, TRIPLE hook: pet hair + Thanks
 
 **FOR MARKETING DEPT / IAN — not GHP (Nov 17, Affiliate Optimizer 10am):**
 - **Google Gemini "Important updates in Gemini Apps"** (google-gemini-noreply@google.com, Nov 17 12:47 UTC, thread 1a1e98be0f6fca9b) — Google platform privacy/safety update notification. NOT GHP. No reply sent. IAN: review if relevant to any Google account used by GHP LLC.
+
+### November 2026 Email Monitor (updated 2026-11-18 Email Monitor 8am)
+
+**GMAIL SCAN (since 2026-11-17T13:00:00Z):** 4 inbox emails found — 1 on-niche Awin invitation, 3 non-GHP.
+
+**🆕 ON-NICHE — BIG WALL DECOR (US) — Awin Invitation (Nov 17 16:07 UTC, thread 1a1ea439544a4b7e)**
+- **Brand:** Big Wall Decor — oversized wall art from independent artists
+- **Commission:** ~10% standard rate (~$40/qualifying order at $400 AOV)
+- **Holiday season:** bonus commission available; brand wants to partner for holiday gift guides, home décor features, deal roundups
+- **Category:** ON-NICHE home decor — wall art perfectly fits GHP home transformation niche
+- **Action required:** IAN — accept via Awin browser dashboard. No email reply sent (Awin automated system, no human reply address).
+
+**FOR MARKETING DEPT / IAN — not GHP (Nov 18, Email Monitor 8am):**
+- **Meta Early Access Black Friday — AI glasses promo** (email@marketing.metamail.com, Nov 17 17:35 UTC, thread 1a1ea95699283863) — "Up to 25% off AI glasses." NOT GHP home-content. No reply sent.
+- **Google Maps Platform geospatial AI webinar** (google-maps-platform-noreply@google.com, Nov 17 15:14 UTC, thread 1a1ea12711e4a067) — "What happens when generative AI meets the physical world?" Dec 10 webinar invite. NOT GHP. No reply sent.
+- **Google Gemini "Important updates in Gemini Apps"** (google-gemini-noreply@google.com, Nov 17 12:47 UTC, thread 1a1e98be0f6fca9b) — carry-forward from Affiliate Optimizer Nov 17; already logged. NOT GHP. No action needed.
