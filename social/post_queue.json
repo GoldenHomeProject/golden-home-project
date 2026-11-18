@@ -10233,10 +10233,10 @@
   },
   {
     "name": "reel_repurpose_2026-11-16_902",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-11-16-902.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-16-902.mp4",
     "caption": "Two $24.97 tools, two completely different jobs. One dices your stuffing base, the other slices gratin-thin rounds \u2014 and only one of them needs a safety lecture. I compared both against what Thanksgiving prep actually requires. Full writeup on the blog (link in bio).",
     "hashtags": [
       "#MandolineSlicer",
@@ -10247,7 +10247,8 @@
       "#AmazonKitchen",
       "#ScallopedPotatoes"
     ],
-    "hook": "The $25 chopper and the $25 slicer solve different problems."
+    "hook": "The $25 chopper and the $25 slicer solve different problems.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-16-902.mp4"
   },
   {
     "name": "reel_repurpose_2026-11-16_903",
