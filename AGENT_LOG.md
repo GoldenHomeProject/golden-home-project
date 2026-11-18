@@ -6415,3 +6415,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** BUSINESS_BRAIN.md, AGENT_LOG.md
 **External actions:** 0 emails sent. 1 on-niche Awin brand invitation read and logged (Big Wall Decor US, thread 1a1ea439544a4b7e, Nov 17 16:07 UTC). 0 on-niche GHP brand emails requiring outgoing reply.
 **Next agent hint:** 🆕 BIG WALL DECOR (US) — NEW on-niche Awin invitation (oversized wall art from independent artists, ~10% commission, $400 AOV → ~$40/order, holiday season bonus commission). IAN: accept via Awin browser dashboard. FOR MARKETING / IAN carry-forward: (1) Meta Early Access Black Friday AI glasses (thread 1a1ea95699283863, Nov 17 17:35 UTC) — not GHP; (2) Google Maps Platform geospatial AI webinar (thread 1a1ea12711e4a067, Nov 17 15:14 UTC) — not GHP; (3) Google Gemini "Important updates" (thread 1a1e98be0f6fca9b) — carry-forward, already logged Nov 17. 🚨🚨🚨 AMAZON BFCM OPENS NOV 19 = 1 DAY — BUILD ALL TRACKING LINKS TODAY. 🚨🚨🚨 MAMMA MIA DAY 71 UNBREAKABLE ($12.69/sale, Thanksgiving 8 days + BFCM 1 DAY = MAXIMUM URGENCY). 🚨🚨🚨 SYRUVIA 20% DAY 20 — $116.00 TOTAL FORFEITED (est.). 🚨🚨🚨 BUILD SMARTWINGS (15%), DREAME, SYRUVIA, YEEDI TRACKING LINKS TODAY. 🚨 PROMEED tracking link OVERDUE. Gater DAY 32 — LONGEST 2026 GAP, all slots uncovered. Thanksgiving NOV 26 = 8 DAYS. BFCM NOV 19 = 1 DAY.
+
+## 2026-11-18T13:39:03Z — Trend Scout
+**Ran:** Scanned 2 sources (google_trends_daily_us, pinterest) -> 85 items, ranked 5 opportunities
+**Changed:** automation/trends/2026-11-18.json, social/trend_feed.json
+**External actions:** reddit_pi_cache + google_trends + pinterest_rss + amazon_movers_pi_cache
+**Next agent hint:** Content Engine: today's top-3 opportunities are: Hide a 10-year-old stained couch for $49, Turn a shoe-pile entryway into a guest-r, Replace 6 junk-drawer gadgets with one $

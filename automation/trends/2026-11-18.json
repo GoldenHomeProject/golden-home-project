@@ -1,0 +1,136 @@
+{
+  "generated_at": "2026-11-18T13:39:03.350818Z",
+  "date": "2026-11-18",
+  "opportunities": [
+    {
+      "rank": 1,
+      "product_category": "couch/sofa covers",
+      "specific_product": "Mamma Mia waterproof stretch sofa cover",
+      "brand": "Mamma Mia Covers",
+      "target_price": "$49",
+      "transformation_hook": "Hide a 10-year-old stained couch for $49 before holiday guests show up",
+      "before_state": "Faded, pet-hair-covered, stained sofa with worn arms",
+      "after_state": "Crisp, hotel-like slipcovered couch ready for holiday photos",
+      "buyer_intent_keywords": [
+        "couch cover for pets",
+        "waterproof sofa slipcover",
+        "stretch couch cover",
+        "pet hair proof couch cover",
+        "sofa cover for dogs"
+      ],
+      "scores": {
+        "trend": 8,
+        "transformation": 9,
+        "affiliate": 10,
+        "intent": 9
+      },
+      "composite_score": 36,
+      "why_now": "Thanksgiving-week guest-hosting search spike plus Mamma Mia's 24-30% commission make this the highest-margin before/after play right now."
+    },
+    {
+      "rank": 2,
+      "product_category": "entryway/mudroom storage",
+      "specific_product": "Freestanding shoe storage bench with coat hooks and cubbies",
+      "brand": "Amazon generic",
+      "target_price": "$89",
+      "transformation_hook": "Turn a shoe-pile entryway into a guest-ready mudroom for $89",
+      "before_state": "Shoes, coats, and bags dumped in a chaotic pile by the door",
+      "after_state": "Organized bench with hooks, labeled cubbies, and baskets",
+      "buyer_intent_keywords": [
+        "entryway storage bench",
+        "mudroom organization ideas",
+        "shoe storage bench with hooks",
+        "small entryway organizer",
+        "coat and shoe rack"
+      ],
+      "scores": {
+        "trend": 7,
+        "transformation": 9,
+        "affiliate": 9,
+        "intent": 8
+      },
+      "composite_score": 33,
+      "why_now": "HGTV's mudroom/laundry combo pin is actively circulating and pre-holiday guest traffic is driving entryway-organization searches."
+    },
+    {
+      "rank": 3,
+      "product_category": "kitchen tool organization",
+      "specific_product": "Syruvia all-in-one prep tool set",
+      "brand": "Syruvia",
+      "target_price": "$34",
+      "transformation_hook": "Replace 6 junk-drawer gadgets with one $34 tool before Thanksgiving prep",
+      "before_state": "Cluttered drawer of mismatched peelers, graters, and cutters",
+      "after_state": "Single multi-tool kitchen station on a clean counter",
+      "buyer_intent_keywords": [
+        "kitchen prep tool set",
+        "multi tool kitchen gadget",
+        "thanksgiving kitchen tools",
+        "kitchen drawer organizer gadgets",
+        "best kitchen gadgets 2026"
+      ],
+      "scores": {
+        "trend": 7,
+        "transformation": 7,
+        "affiliate": 9,
+        "intent": 8
+      },
+      "composite_score": 31,
+      "why_now": "Thanksgiving is 8 days out, driving peak kitchen-tool purchase intent, and Syruvia carries a 20% commission."
+    },
+    {
+      "rank": 4,
+      "product_category": "bathroom accent makeover",
+      "specific_product": "Peel-and-stick marble-look tile and moody paint kit",
+      "brand": "Amazon generic",
+      "target_price": "$68",
+      "transformation_hook": "A $68 tile and paint refresh made this 43-sq-ft bathroom look like a $1,825 remodel",
+      "before_state": "Dated, boring builder-grade bathroom with plain walls",
+      "after_state": "Moody, grand-feeling bathroom with a tiled accent wall",
+      "buyer_intent_keywords": [
+        "peel and stick bathroom tile",
+        "small bathroom makeover budget",
+        "moody bathroom paint ideas",
+        "renter friendly bathroom upgrade",
+        "bathroom accent wall tile"
+      ],
+      "scores": {
+        "trend": 6,
+        "transformation": 10,
+        "affiliate": 7,
+        "intent": 7
+      },
+      "composite_score": 30,
+      "why_now": "Apartment Therapy's viral $1,825 moody bathroom renovation pin is driving renter-friendly DIY bathroom searches right now."
+    },
+    {
+      "rank": 5,
+      "product_category": "cervical support pillow",
+      "specific_product": "Eli & Elm Side Sleeper Cervical Pillow",
+      "brand": "Eli & Elm",
+      "target_price": "$59",
+      "transformation_hook": "Fix neck pain from a flat pillow for $59 \u2014 side sleepers wake up pain-free",
+      "before_state": "Flat, lumpy pillow causing neck and shoulder pain",
+      "after_state": "Contoured cervical pillow with proper spinal alignment",
+      "buyer_intent_keywords": [
+        "side sleeper neck pain pillow",
+        "cervical pillow for neck pain",
+        "best pillow for side sleepers",
+        "shoulder pain pillow",
+        "contour pillow side sleeper"
+      ],
+      "scores": {
+        "trend": 5,
+        "transformation": 6,
+        "affiliate": 9,
+        "intent": 8
+      },
+      "composite_score": 28,
+      "why_now": "Evergreen high-intent sleep-health searches stay steady, and Eli & Elm's 20% commission plus a clean pain-before/relief-after framing keeps it worth the funnel slot despite lower seasonal buzz."
+    }
+  ],
+  "raw_signal_count": 85,
+  "sources_used": [
+    "google_trends_daily_us",
+    "pinterest"
+  ]
+}
