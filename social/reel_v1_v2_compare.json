@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-17T08:15",
+ "updated": "2026-11-18T08:15",
  "note": "watch_pct = avg watch time / reel length (IG has no 3-second-hold metric). Clicks and orders: Associates report by ascsubtag.",
  "summary": {
   "v1": {
-   "reels": 10,
+   "reels": 11,
    "like_count": 0.0,
    "comments_count": 0.0,
    "link_replies": null
@@ -242,6 +242,24 @@
    "comments_count": 0,
    "like_count": 0,
    "permalink": "https://www.instagram.com/reel/Df0qSC_JXUT/",
+   "plays": null,
+   "saves": null,
+   "shares": null,
+   "avg_watch_s": null,
+   "watch_pct": null,
+   "keyword": null,
+   "link_replies": null
+  },
+  {
+   "date": "2026-11-17",
+   "variant": "v1",
+   "title": "Your throw pillows look flat for one dumb reason",
+   "ig_media": "18077903069483253",
+   "youtube": "ZjiIdvnKawk",
+   "length_s": 20.0,
+   "comments_count": 0,
+   "like_count": 0,
+   "permalink": "https://www.instagram.com/reel/Df3I8p9mbeB/",
    "plays": null,
    "saves": null,
    "shares": null,
