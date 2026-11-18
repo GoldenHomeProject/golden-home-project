@@ -3914,6 +3914,20 @@
       "pin_id": "pin-2026-11-09-B0D89V1RX1",
       "board": "Kitchen Organization Ideas",
       "link": "https://goldenhomeproject.com/blog/posts/best-home-decor-finds.html?v=B"
+    },
+    {
+      "ts": "2026-11-18T02:17:24Z",
+      "action": "board_fallback",
+      "pin_id": "pin-2026-11-01-B073H8STZ7",
+      "wanted": "Bedroom Storage & Bedding",
+      "used": "Home Organization Finds"
+    },
+    {
+      "ts": "2026-11-18T02:17:36Z",
+      "action": "pin_published",
+      "pin_id": "pin-2026-11-01-B073H8STZ7",
+      "board": "Bedroom Storage & Bedding",
+      "link": "https://www.amazon.com/dp/B073H8STZ7?tag=ghpbranda-20&ascsubtag=pinterest_brandA"
     }
   ]
 }
