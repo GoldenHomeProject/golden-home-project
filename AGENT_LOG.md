@@ -6433,3 +6433,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** automation/scripts/reel-2026-11-18-*.json, social/post_queue.json
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: mistake: Stop eyeballing flour, it's wrecking your baking.
+
+## 2026-11-18T16:04:34Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B06X9NQ8GX (Amazon Basics Digital Kitchen Scale with)
+**Changed:** social/carousels/2026-11-18-B06X9NQ8GX/slide-1.png, social/carousels/2026-11-18-B06X9NQ8GX/slide-2.png, social/carousels/2026-11-18-B06X9NQ8GX/slide-3.png, social/carousels/2026-11-18-B06X9NQ8GX/slide-4.png, social/carousels/2026-11-18-B06X9NQ8GX/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B06X9NQ8GX carousel.
