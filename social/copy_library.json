@@ -5419,6 +5419,53 @@
         ],
         "reel_format": "mistake"
       }
+    ],
+    "KITCHEN": [
+      {
+        "hook_category": "mistake",
+        "hook": "Stop eyeballing flour, it's wrecking your baking.",
+        "beat1": "Scooping flour straight into a measuring cup packs it down differently every time. The same recipe comes out dense one day and dry the next, and it's rarely the recipe's fault.",
+        "turn": "This digital kitchen scale has a tare button that zeros out the bowl and an LCD that switches between units, and it's sitting at 4.7 stars across more than 120,000 reviews.",
+        "result": "Weigh ingredients the way the recipe actually meant, for about $11.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close-up of hands scooping flour into a measuring cup over a kitchen counter, flour dusting the surface",
+            "on_screen_text": "POV: your cup never matches",
+            "voiceover": "Stop eyeballing flour, it's wrecking your baking."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Two baked loaves side by side on a cooling rack, one noticeably denser and shorter than the other",
+            "on_screen_text": "Same recipe, different loaf again",
+            "voiceover": "Packed flour, loose flour, same cup, totally different result."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Hand placing a glass mixing bowl onto a slim digital kitchen scale on a counter, LCD display resetting to zero",
+            "on_screen_text": "Tare zeroes out the bowl",
+            "voiceover": "This scale has a tare button, so the bowl doesn't count."
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "Close-up of a finger pressing a unit button on the scale's display as the numbers switch between grams and ounces while dough sits on top",
+            "on_screen_text": "Grams, ounces, pounds, your choice",
+            "voiceover": "Switch units, read the display, measure what the recipe wrote."
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "Overhead shot of flour, sugar, and a bowl arranged neatly around the kitchen scale on a countertop",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "Comment {KEYWORD} and I'll send the link."
+          }
+        ],
+        "reel_format": "pov"
+      }
     ]
   },
   "hashtag_pools": {

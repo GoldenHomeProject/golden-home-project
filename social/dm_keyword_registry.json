@@ -1581,6 +1581,21 @@
       "source": "chart",
       "keyword": "CUSHION",
       "promoted_at": "2026-11-17T13:20:20Z"
+    },
+    {
+      "asin": "B06X9NQ8GX",
+      "product_name": "Amazon Basics Digital Kitchen Scale with LCD Display, Tare Function, Multiple Units, Weighs up to 11 Pounds, Batteries I",
+      "categories": [
+        "home",
+        "Kitchen"
+      ],
+      "status": "live",
+      "verified_price": "$11.14",
+      "verified_stars": "4.7",
+      "verified_reviews": 120509,
+      "source": "chart",
+      "keyword": "KITCHEN",
+      "promoted_at": "2026-11-18T13:22:15Z"
     }
   ],
   "_vetted_doc": "Verified-live Amazon ASINs cleared for blog/SEO/IG-caption use but NOT yet wired to a Meta comment-to-DM automation. Promote to `entries` (with a unique keyword) only AFTER creating the matching Meta Business Suite automation. Always use https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20 \u2014 never search URLs.",
@@ -3461,22 +3476,6 @@
       "verified_price": "$12.31",
       "verified_stars": "4.8",
       "verified_reviews": 91526,
-      "discovery_source": "harvest_catalogue"
-    },
-    {
-      "asin": "B06X9NQ8GX",
-      "product_name": "Amazon Basics Digital Kitchen Scale with LCD Display, Tare Function, Multiple Units, Weighs up to 11 Pounds, Batteries I",
-      "categories": [
-        "kitchen",
-        "Kitchen Storage"
-      ],
-      "affiliate_url": "https://www.amazon.com/dp/B06X9NQ8GX?tag=goldenhomep0a-20",
-      "status": "live",
-      "verified_at": "2026-08-26",
-      "verified_method": "best_seller_grid",
-      "verified_price": "$9.89",
-      "verified_stars": "4.7",
-      "verified_reviews": 118259,
       "discovery_source": "harvest_catalogue"
     },
     {
