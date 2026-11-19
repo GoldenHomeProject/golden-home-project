@@ -5466,6 +5466,53 @@
         ],
         "reel_format": "pov"
       }
+    ],
+    "WEAVE": [
+      {
+        "hook_category": "question",
+        "hook": "Why does your dish rag always smell by Wednesday?",
+        "beat1": "It happens because one damp cloth ends up wiping the counter, the stove, and the dishes, with no time to actually dry out between uses. Bacteria love that trapped moisture, which is why it starts smelling before you've even noticed.",
+        "turn": "Homaxy's waffle weave cotton cloths come as a six-pack, so there's always a dry one ready while another is in the wash. The textured weave is made to scrub counters and dishes without reaching for a sponge, and it holds a 4.5-star rating from over 41,000 reviewers.",
+        "result": "With six in rotation, you're never stuck grabbing a sour rag off the faucet again, and it runs about $8.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close-up real photo of a damp, slightly discolored dish rag draped over a kitchen faucet, blurred counter clutter in the background",
+            "on_screen_text": "That smell isn't the drain",
+            "voiceover": "Why does your dish rag always smell by Wednesday?"
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Hands wringing out a wet sponge over a kitchen sink, water dripping onto a counter with crumbs nearby",
+            "on_screen_text": "One damp cloth, used for everything",
+            "voiceover": "It happens because one damp cloth wipes the counter, the stove, and the dishes, with no time to dry out. Bacteria love that trapped moisture."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "A hand pulling a folded stack of dark grey waffle-textured dish cloths out of a kitchen drawer",
+            "on_screen_text": "A dry one, every time",
+            "voiceover": "Homaxy's waffle weave cotton cloths come as a six-pack, so there's always a dry one ready, and the texture scrubs without needing a sponge."
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "Hands wiping down a kitchen counter with a grey waffle weave cloth, close enough to see the woven texture",
+            "on_screen_text": "4.5 stars, over 40,000 reviews",
+            "voiceover": "They're rated 4.5 stars by over forty-one thousand people who've already put them to work."
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "A tidy stack of folded dish cloths sitting in a kitchen drawer organizer as a hand slides the drawer shut",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "With six in rotation, you're never stuck grabbing a sour rag again, and it's about eight dollars. Comment {KEYWORD} and I'll send the link."
+          }
+        ],
+        "reel_format": "problem_fix"
+      }
     ]
   },
   "hashtag_pools": {
