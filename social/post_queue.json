@@ -10113,10 +10113,10 @@
   },
   {
     "name": "reel_2026-11-16_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-11-16-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-16-001.mp4",
     "caption": "Stop buying shower liners that reek of chemicals.\n\nMost cheap vinyl liners come out of the package with a sharp plastic smell that lingers for days. They also tend to cling straight to your arms and legs the second the water runs, which is its own small daily annoyance.\n\nThis one is Oeko-tex certified, meaning it's tested against a long list of harmful substances before it ever reaches your bathroom. It's a standard size, so it drops right onto a regular shower or tub rod without any guesswork.\n\nYou get a liner that isn't off-gassing next to you in a hot shower, for about $9. Over a hundred thousand people have rated it 4.5 stars.\n\nComment CERTIFIED and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -10133,7 +10133,8 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "Stop buying shower liners that reek of chemicals."
+    "hook": "Stop buying shower liners that reek of chemicals.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-16-001.mp4"
   },
   {
     "name": "reel_2026-11-16_002",
@@ -10203,10 +10204,10 @@
   },
   {
     "name": "reel_repurpose_2026-11-16_901",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-11-16-901.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-16-901.mp4",
     "caption": "Thanksgiving is 12 days out and my cutting board is already a crime scene. I pulled the actual Amazon numbers on the $24.97 chopper with 95,851 ratings before deciding if it earns counter space \u2014 plus 4 more under-$25 prep tools I compared against it. Full breakdown on the blog (link in bio).",
     "hashtags": [
       "#ThanksgivingPrep",
@@ -10217,7 +10218,8 @@
       "#MealPrepTips",
       "#BudgetKitchen"
     ],
-    "hook": "95,851 people already solved your onion problem for $25."
+    "hook": "95,851 people already solved your onion problem for $25.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-16-901.mp4"
   },
   {
     "name": "reel_repurpose_2026-11-16_902",
