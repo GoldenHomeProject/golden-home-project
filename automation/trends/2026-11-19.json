@@ -1,0 +1,136 @@
+{
+  "generated_at": "2026-11-19T14:07:58.128406Z",
+  "date": "2026-11-19",
+  "opportunities": [
+    {
+      "rank": 1,
+      "product_category": "holiday string lights",
+      "specific_product": "smart app-controlled LED string lights (warm white + color-changing icicle/globe sets)",
+      "brand": "Amazon generic / smart lighting brands",
+      "target_price": "$34",
+      "transformation_hook": "Dark porch to magazine-worthy glow for $34 \u2014 plug in, done before dinner",
+      "before_state": "Bare, dark front porch and eaves with no holiday lighting as guests start arriving for Thanksgiving week",
+      "after_state": "App-controlled warm-white icicle and globe lights framing the roofline and doorway, synced to a timer",
+      "buyer_intent_keywords": [
+        "best outdoor christmas lights 2026",
+        "app controlled string lights",
+        "warm white icicle lights amazon",
+        "smart holiday lights outdoor",
+        "gma deals and steals christmas lights"
+      ],
+      "scores": {
+        "trend": 10,
+        "transformation": 9,
+        "affiliate": 10,
+        "intent": 9
+      },
+      "composite_score": 38,
+      "why_now": "Thanksgiving week is the universal 'lights go up' trigger and Real Simple's Pinterest feed + GMA Deals and Steals are both actively pushing Amazon holiday light roundups right now."
+    },
+    {
+      "rank": 2,
+      "product_category": "couch/sofa covers",
+      "specific_product": "Mamma Mia waterproof stretch sofa cover",
+      "brand": "Mamma Mia Covers",
+      "target_price": "$52",
+      "transformation_hook": "$52 cover turns a worn, pet-hair couch into a cozy denim-look sofa before guests arrive",
+      "before_state": "Faded, pet-hair-covered, stained couch that looks outdated next to the rest of the living room",
+      "after_state": "Smooth, cozy textured cover (riding the denim-sofa trend) that looks like a brand-new piece of furniture in under 10 minutes",
+      "buyer_intent_keywords": [
+        "couch cover for pets",
+        "waterproof stretch sofa cover",
+        "cheap way to update old couch",
+        "pet hair proof sofa cover",
+        "sofa cover before holidays"
+      ],
+      "scores": {
+        "trend": 7,
+        "transformation": 10,
+        "affiliate": 9,
+        "intent": 8
+      },
+      "composite_score": 34,
+      "why_now": "Apartment Therapy's trending denim-sofa living room pin plus pre-Thanksgiving hosting pressure makes a fast, high-commission sofa refresh an easy sell this week."
+    },
+    {
+      "rank": 3,
+      "product_category": "entryway/mudroom storage",
+      "specific_product": "storage bench with cubbies and hooks",
+      "brand": "Best Choice Products",
+      "target_price": "$89",
+      "transformation_hook": "$89 bench turned our shoe-pile entryway into a HGTV-style mudroom before company came",
+      "before_state": "Cluttered entryway floor piled with shoes, bags, and coats with nowhere organized to put them",
+      "after_state": "A single storage bench with cubbies and hooks that corrals shoes, bags, and coats into one tidy landing zone",
+      "buyer_intent_keywords": [
+        "entryway storage bench",
+        "mudroom organization ideas",
+        "shoe storage bench with hooks",
+        "small entryway makeover",
+        "laundry mudroom combo storage"
+      ],
+      "scores": {
+        "trend": 7,
+        "transformation": 9,
+        "affiliate": 8,
+        "intent": 8
+      },
+      "composite_score": 32,
+      "why_now": "HGTV's mudroom/laundry storage pin is actively circulating and holiday-guest season makes entryway chaos a top-of-mind pain point right now."
+    },
+    {
+      "rank": 4,
+      "product_category": "kitchen produce/herb storage",
+      "specific_product": "fresh-herb and produce keeper container",
+      "brand": "Syruvia",
+      "target_price": "$19",
+      "transformation_hook": "$19 herb keeper stopped my $4 cilantro from dying in the fridge before Thanksgiving cooking even starts",
+      "before_state": "Wilted, slimy cilantro and herbs tossed out days after buying them, wasting money every grocery trip",
+      "after_state": "Crisp, fresh herbs still usable two weeks later, stored upright in a clear fridge-door keeper",
+      "buyer_intent_keywords": [
+        "how to keep cilantro fresh",
+        "herb keeper container fridge",
+        "produce saver for fridge",
+        "stop herbs going bad",
+        "best herb storage container amazon"
+      ],
+      "scores": {
+        "trend": 6,
+        "transformation": 7,
+        "affiliate": 9,
+        "intent": 8
+      },
+      "composite_score": 30,
+      "why_now": "Real Simple's cilantro/herb-storage pin is surfacing right as Thanksgiving grocery shopping and heavy herb use peaks for the week."
+    },
+    {
+      "rank": 5,
+      "product_category": "kitchen backsplash/counter update",
+      "specific_product": "peel-and-stick tile backsplash sheets",
+      "brand": "Amazon generic",
+      "target_price": "$28",
+      "transformation_hook": "$28 in peel-and-stick tile gave our rental kitchen a $2,000-look backsplash in one afternoon",
+      "before_state": "Plain, dated builder-grade kitchen wall with no backsplash and bare drywall behind the stove",
+      "after_state": "A textured tile-look backsplash installed with no drilling or landlord permission needed, instantly modernizing the kitchen",
+      "buyer_intent_keywords": [
+        "peel and stick backsplash",
+        "renter friendly kitchen makeover",
+        "cheap kitchen update rental",
+        "removable tile backsplash",
+        "diy kitchen makeover under $50"
+      ],
+      "scores": {
+        "trend": 6,
+        "transformation": 9,
+        "affiliate": 8,
+        "intent": 6
+      },
+      "composite_score": 29,
+      "why_now": "Apartment Therapy's renter-friendly kitchen makeover pins (laminate/floor DIY angle) are trending, and budget kitchen refreshes spike alongside Thanksgiving hosting prep."
+    }
+  ],
+  "raw_signal_count": 85,
+  "sources_used": [
+    "google_trends_daily_us",
+    "pinterest"
+  ]
+}
