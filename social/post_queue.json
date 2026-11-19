@@ -10437,5 +10437,77 @@
     "keyword": "KITCHEN",
     "queued_at": "2026-11-18T16:04:34.576829Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_2026-11-19_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-19-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "A cup of flour isn't a measurement. It's a guess with a lid on it.\n\nScoop the cup and pack it, or spoon the flour in loose \u2014 the amount that lands in the bowl shifts either way, which is why two people can follow the same recipe and pull two different loaves out of the oven. Weight settles the argument: 120 grams is 120 grams no matter how it got there. The same scale also portions coffee, splits dough into equal pieces, and confirms a package's weight before a trip to the post office.\n\nThe Etekcity Food Kitchen Scale is a compact digital scale that reads exactly what's placed on it, so a recipe stops being an estimate. It carries 176,516 reviews at a 4.6-star average \u2014 a sample large enough that the score reflects how it performs across kitchens, not just one.\n\nRecipes you already make turn out the same way twice, without changing anything else about how you cook. It's $10.99.\n\nComment FOOD and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Etekcity Food Kitchen Scale",
+      "dm_keyword": "FOOD",
+      "amazon_asin": "B0113UZJE2",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B0113UZJE2?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "A cup of flour isn't a measurement. It's a guess with a lid on it."
+  },
+  {
+    "name": "reel_2026-11-19_002",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-19-002.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Your kitchen always has one overworked towel doing everything.\n\nIt hangs on the oven handle and gets used for spills, hands, dishes, and the counter, all in the same shift. By evening it is damp and a little grim, and it never really gets the chance to dry out before the next job.\n\nThese Homaxy waffle weave cotton cloths come six to a pack, so there is always a dry, clean one instead of reaching for that same towel again. They are rated 4.5 stars with over 41,000 reviews.\n\nSix in rotation means spills, counters, and dishes each get their own cloth instead of one towel doing it all, for about $9.\n\nComment HOMAXY and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Homaxy 100% Cotton Waffle Weave Kitchen Dish Cloths 6-Pack, Dark Grey | 12 x 12 Inches, Ultra Soft Absorbent Dish Towels",
+      "dm_keyword": "HOMAXY",
+      "amazon_asin": "B07WMQP4SF",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B07WMQP4SF?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Your kitchen always has one overworked towel doing everything."
+  },
+  {
+    "name": "reel_2026-11-19_003",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-19-003.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Stop eyeballing flour, it's wrecking your baking.\n\nScooping flour straight into a measuring cup packs it down differently every time. The same recipe comes out dense one day and dry the next, and it's rarely the recipe's fault.\n\nThis digital kitchen scale has a tare button that zeros out the bowl and an LCD that switches between units, and it's sitting at 4.7 stars across more than 120,000 reviews.\n\nWeigh ingredients the way the recipe actually meant, for about $11.\n\nComment KITCHEN and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Amazon Basics Digital Kitchen Scale with LCD Display, Tare Function, Multiple Units, Weighs up to 11 Pounds, Batteries I",
+      "dm_keyword": "KITCHEN",
+      "amazon_asin": "B06X9NQ8GX",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B06X9NQ8GX?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Stop eyeballing flour, it's wrecking your baking."
   }
 ]
