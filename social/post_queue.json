@@ -10488,10 +10488,10 @@
   },
   {
     "name": "reel_2026-11-19_003",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-11-19-003.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-19-003.mp4",
     "caption": "Stop eyeballing flour, it's wrecking your baking.\n\nScooping flour straight into a measuring cup packs it down differently every time. The same recipe comes out dense one day and dry the next, and it's rarely the recipe's fault.\n\nThis digital kitchen scale has a tare button that zeros out the bowl and an LCD that switches between units, and it's sitting at 4.7 stars across more than 120,000 reviews.\n\nWeigh ingredients the way the recipe actually meant, for about $11.\n\nComment KITCHEN and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -10508,22 +10508,7 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "Stop eyeballing flour, it's wrecking your baking."
-  },
-  {
-    "id": "carousel-2026-11-19-B0BXSMJK86",
-    "media_type": "CAROUSEL_ALBUM",
-    "image_urls": [
-      "https://goldenhomeproject.com/social/carousels/2026-11-19-B0BXSMJK86/slide-1.png",
-      "https://goldenhomeproject.com/social/carousels/2026-11-19-B0BXSMJK86/slide-2.png",
-      "https://goldenhomeproject.com/social/carousels/2026-11-19-B0BXSMJK86/slide-3.png",
-      "https://goldenhomeproject.com/social/carousels/2026-11-19-B0BXSMJK86/slide-4.png",
-      "https://goldenhomeproject.com/social/carousels/2026-11-19-B0BXSMJK86/slide-5.png"
-    ],
-    "caption": "Renting? Here's how to line shelves without losing your deposit.\n\nShelf liner that's non-slip but doesn't stick means no sticky residue, no ripped paper when you move out, and no more sliding spice jars every time you open a cabinet.\n\nSave this for later \u2014 then comment LINER or DM me LINER for the link.\n\n#homeorganization #kitchenorganization #shelfliner #rentalfriendly #organizedhome",
-    "asin": "B0BXSMJK86",
-    "keyword": "LINER",
-    "queued_at": "2026-11-19T16:12:29.298744Z",
-    "source": "carousel_generator"
+    "hook": "Stop eyeballing flour, it's wrecking your baking.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-19-003.mp4"
   }
 ]

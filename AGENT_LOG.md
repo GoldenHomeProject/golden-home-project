@@ -6482,8 +6482,8 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: use_case: A cup of flour isn't a measurement. It's a guess w | scene: Your kitchen always has one overworked towel doing | mistake: Stop eyeballing flour, it's wrecking your baking.
 
-## 2026-11-19T16:12:29Z — Carousel Generator
-**Ran:** Generated 5-slide carousel for B0BXSMJK86 (BAGAIL Non-Adhesive Non-Slip Shelf Liner)
-**Changed:** social/carousels/2026-11-19-B0BXSMJK86/slide-1.png, social/carousels/2026-11-19-B0BXSMJK86/slide-2.png, social/carousels/2026-11-19-B0BXSMJK86/slide-3.png, social/carousels/2026-11-19-B0BXSMJK86/slide-4.png, social/carousels/2026-11-19-B0BXSMJK86/slide-5.png, social/post_queue.json
-**External actions:** Pexels (4 photos) + Claude CLI (slide content)
-**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B0BXSMJK86 carousel.
+## 2026-11-19T16:27:52Z — Reel Producer
+**Ran:** Rendered 1/1 MP4s for 2026-11-19
+**Changed:** social/reels/reel-2026-11-19-*.mp4, social/post_queue.json
+**External actions:** none
+**Next agent hint:** IG Poster has 1 new Reels ready for 14:00 + 22:00 UTC slots
