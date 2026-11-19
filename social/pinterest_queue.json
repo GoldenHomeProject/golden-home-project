@@ -9357,14 +9357,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-11-02-B0FJH871B5.png",
     "queued_at": "2026-11-02T11:17:02.505687Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "Small Bathroom Storage Ideas: Towel",
     "recharted": false,
     "variant": "B",
-    "ai_image": true
+    "ai_image": true,
+    "posted_at": "2026-11-19T02:17:44Z"
   },
   {
     "id": "pin-2026-11-02-B07D1C5S71",
