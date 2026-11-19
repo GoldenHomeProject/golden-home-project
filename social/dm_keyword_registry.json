@@ -7196,6 +7196,54 @@
       "verified_stars": "4.7",
       "verified_reviews": 507,
       "discovery_source": "back_to_college_2026"
+    },
+    {
+      "asin": "B00MUEHPGQ",
+      "product_name": "PriorityChef Large 15oz Potato Ricer, Heavy Duty Stainless Steel Potato Masher and Ricer Kitchen Tool, Press and Mash Ki",
+      "categories": [
+        "kitchen",
+        "Kitchen"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B00MUEHPGQ?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-11-19",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$27.99",
+      "verified_stars": "4.6",
+      "verified_reviews": 15084,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B003OAJGJO",
+      "product_name": "Crock-Pot Oval Manual Slow Cooker, Stainless Steel, 7-Quart | 7-Quart Capacity, Serves 8+ People, High/Low Cook Settings",
+      "categories": [
+        "kitchen",
+        "Kitchen"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B003OAJGJO?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-11-19",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$31.99",
+      "verified_stars": "4.6",
+      "verified_reviews": 63226,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B07X3XTCHW",
+      "product_name": "Rubbermaid Brilliance Plastic Food Storage Containerss, 9.6-Cup, 2-Count | Airtight and Leakproof, Shatter-Resistant and",
+      "categories": [
+        "kitchen",
+        "Kitchen"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B07X3XTCHW?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-11-19",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$19.99",
+      "verified_stars": "4.7",
+      "verified_reviews": 7292,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
