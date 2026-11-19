@@ -11088,5 +11088,21 @@
   "source": "generate_howto_pins",
   "format": "howto",
   "variant": "B"
+ },
+ {
+  "id": "gift_guide-2026-11-19",
+  "asin": "B0DZFGTCLR",
+  "board": "Gifts Under $25 for the Home",
+  "title": "First Apartment Gifts Under $30",
+  "description": "First Apartment Gifts Under $30: Candle Warmer Lamp, Insulated Tumbler, Fleece Bed Blanket, Silicone Pot Holder Set, Throw Pillow Covers, Hair Towel Wrap. Each one rated 4.5 stars or higher across thousands of ratings. Tap through to see it on Amazon. Amazon affiliate \u2014 small commission at no extra cost to you.",
+  "link": "https://goldenhomeproject.com/blog/posts/first-apartment-gifts-under-30.html?v=A",
+  "image_path": "social/pinterest/gift_guide-2026-11-19.png",
+  "image_url": "https://goldenhomeproject.com/social/pinterest/gift_guide-2026-11-19.png",
+  "queued_at": "2026-11-19T11:20:02.269814Z",
+  "posted": false,
+  "source": "generate_format_pins",
+  "format": "gift_guide",
+  "variant": "A",
+  "guide": "first-apartment-gifts-under-30"
  }
 ]
