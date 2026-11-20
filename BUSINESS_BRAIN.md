@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-11-19 (Strategy & Outreach 9am)
+# Last updated: 2026-11-20 (Affiliate Optimizer 10am)
 # ============================================================
 
 ---
@@ -5423,3 +5423,81 @@ Mamma Mia 24-30% DAY 71 UNBREAKABLE ($12.69/sale, TRIPLE hook: pet hair + Thanks
 **FOR MARKETING DEPT / IAN — not GHP (Nov 19, Strategy & Outreach 9am):**
 - **Google Search Console — New indexing issues on goldenhomeproject.com** (sc-noreply@google.com, Nov 19 08:24 UTC, thread 1a1f2e8063f1df6d) — "Not found (404) + Alternate page" reasons preventing indexing. NOT a GHP brand/affiliate email. No reply sent. IAN: URGENT — check Google Search Console TODAY. 404s on BFCM Day 1 = potential lost affiliate traffic. Already logged by Email Monitor.
 - **Pinterest Predicts 2027 live training invite** (pinmail@marketing.pinterest.com, Nov 18 20:46 UTC, thread 1a1f07333cece427) — marketing platform invitation, NOT an inbound brand partnership. No reply sent by this agent. IAN: register for training via Pinterest.
+
+### November 2026 Affiliate Updates (updated 2026-11-20 Affiliate Optimizer 10am)
+
+**NOTE: Affiliate Optimizer DID NOT RUN NOV 19 — confirmed gap in AGENT_LOG.md. Today's run builds directly on Nov 18 Affiliate Optimizer + Nov 19 Strategy & Outreach + Nov 20 Email Monitor.**
+
+**GMAIL POST-STRATEGY SCAN (post-12:07 UTC Nov 20):** 0 new emails after Email Monitor's 12:07 UTC triage. Gmail CLEAN. No inbound on-niche GHP partnership emails. Cold outreach PAUSED per Ian Sep 3 directive. 0 emails sent.
+
+**PLATFORM STATUS (Nov 20, Affiliate Optimizer 10am ET):**
+
+- **AMAZON goldenhomep0a-20 ACTIVE:**
+  - **🚨🚨🚨 BFCM DAY 2 (NOV 20) — LIVE.** Amazon Black Friday Week active. Thanksgiving NOV 26 = 6 DAYS. TikTok Shop BFCM DAY 10 (Nov 11-30 campaign active). Christmas = 36 DAYS.
+  - Amazon BF Week elevated bounties CONFIRMED ACTIVE (Prime + Audible). All BF deals LIVE at amazon.com/blackfriday. IAN: build goldenhomep0a-20 links for LED kitchen lighting, honeycomb drawer org, fridge bins, botanical centerpiece — BFCM traffic is LIVE NOW.
+  - 3 content slots from Strategy Nov 19 (all zero GHP): BFCM Day 1 "sells out by noon" Amazon home format, "cluttered kitchen aesthetic" reversal transformation, "7 days to Thanksgiving" daily countdown series (all episode slots Day 7→1 open).
+  - **🚨 Google Search Console 404 errors on goldenhomeproject.com** (thread 1a1f2e8063f1df6d, flagged Nov 19 by Email Monitor) — UNRESOLVED as of this run. BFCM Day 2 traffic is LIVE. 404s kill affiliate link traffic. IAN: check GSC immediately.
+
+- **IMPACT:**
+  - **Mamma Mia 24-30% — DAY 73 UNBREAKABLE.** $12.69/sale vs $1.88 Amazon (6.75× multiplier). ZERO content ever. BFCM DAY 2 LIVE + Thanksgiving 6 DAYS = maximum dual urgency. Script IMMEDIATELY. After-first format = confirmed 6,037-view average. Hook: "Thanksgiving guests arrive in 6 days. Same couch. After. Before."
+  - **SmartWings BF Sale — 15% OFF LIVE.** $30-60/sale ACTIVE. IAN: Impact dashboard (Publisher ID 7104029) → SmartWings → build tracking links. Do NOT reply to notifications@outreach.impact.com (bounced confirmed).
+  - **Dreame 5%+ — BFCM LIVE DAY 2.** $6.45+/sale. IAN: Impact → Dreame → build tracking links.
+  - **YEEDI 57605 — DAY 18. BFCM LIVE.** Impact → join → build links.
+  - **Syruvia 20% — DAY 22. ZERO tracking links. ZERO scripts.** **$127.60 TOTAL FORFEITED** ($5.80 × 22 days). BFCM LIVE — every day without a link is both forfeited commission AND missed BFCM traffic. IAN: build Syruvia tracking link in Impact NOW.
+  - **Promeed 12% — DAY 47 OVERDUE.** $7.20/sale vs $2.40 Amazon. BFCM bedding gift window LIVE.
+  - **Best Choice Products 10-15% — 1-click pre-approved, unactioned.** BFCM LIVE. Impact dashboard → JOIN.
+  - **Nanoleaf — NEW marketplace brand (Nov 10).** Smart LED lighting, $60-200+ AOV. Directly relevant to LED kitchen lighting viral slot (zero GHP). IAN: Impact marketplace → Nanoleaf → commission → join.
+  - **Riley Home LLC — NEW marketplace brand (Nov 10).** Home brand, niche/commission TBD. IAN: Impact marketplace → check niche + commission → join if home decor.
+  - **Sealogix Corp — contract expired midnight 11/6 (Impact 6590154).** IAN: verify niche.
+
+- **CJ AFFILIATE — AliExpress dormancy DAY 49 of 90** (41 days remain, ~Dec 30 deadline). No new invitations.
+
+- **AWIN:**
+  - **Rewarx 50% recurring (ID 129153): DAY 67 IAN-BLOCKED.** Highest commission in portfolio. BFCM traffic LIVE NOW.
+  - **Homary 12%/$96/sale (ID 91447): DAY 54.** BFCM premium window LIVE. IAN: Awin signup → affiliate ID to Lauren at affiliate@homary.com.
+  - **Promeed HerbalRX (ID 100833): 20% CPA ACTIVE.** IAN: browser accept via Awin dashboard.
+  - **Big Wall Decor US — invitation pending IAN acceptance** (~10%, $400 AOV, ~$40/order, holiday bonus, ON-NICHE wall art). First logged Nov 17, still unactioned. IAN: accept via Awin browser dashboard.
+  - ON-NICHE browser accepts still pending: Tribesigns, SimpleProject (99013, 10%+), OKUN, CozySpiritStudio (130331, 20% wall art).
+
+**KEY DELTAS vs Nov 18 Affiliate Optimizer (2-day gap — Affiliate Optimizer DID NOT RUN NOV 19):**
+  - Amazon BFCM: **DAY 2 LIVE** (was "1 day away")
+  - Thanksgiving: **6 DAYS** (was 8)
+  - TikTok Shop BFCM: **DAY 10** (was 8)
+  - Christmas: **36 DAYS** (was 37)
+  - Mamma Mia: **DAY 73** (was 71)
+  - Syruvia: **DAY 22 — $127.60 total forfeited** (was DAY 20, $116.00, +$11.60)
+  - YEEDI: **DAY 18** (was 16)
+  - Promeed 12%: **DAY 47 OVERDUE** (was 45)
+  - Rewarx: **DAY 67 IAN-BLOCKED** (was 65)
+  - Homary: **DAY 54** (was 52)
+  - CJ AliExpress: **DAY 49 of 90** (41 days remain, was 47)
+  - 🆕 **Google Search Console 404 errors on goldenhomeproject.com** (flagged Nov 19 by Email Monitor, thread 1a1f2e8063f1df6d — URGENT: BFCM Day 2 traffic LIVE, 404s = lost affiliate revenue right now)
+  - 🆕 **Pinterest Predicts 2027 live training invite** (thread 1a1f07333cece427, Nov 18 20:46 UTC — IAN: register for forward-planning signal)
+  - FOR MARKETING / IAN: Meta BF "Ends tonight: Black Friday early access" (email@marketing.metamail.com, Nov 20, thread 1a1f52395968524e) — NOT GHP, already logged by Email Monitor.
+
+**REVENUE PRIORITY STACK (Nov 20, Affiliate Optimizer):**
+Mamma Mia 24-30% DAY 73 UNBREAKABLE ($12.69/sale, BFCM DAY 2 LIVE + Thanksgiving 6 days) > Syruvia 20% DAY 22 ($127.60 total forfeited, BFCM LIVE daily loss $5.80) > SmartWings BF 15% LIVE ($30-60/sale) > Dreame BFCM LIVE > YEEDI DAY 18 BFCM LIVE > Big Wall Decor US NEW Awin ~$40/order + holiday bonus > Nanoleaf NEW Impact LED ($60-200+ AOV, on-niche) > Promeed 12% DAY 47 > Rewarx 50% DAY 67 IAN-BLOCKED > Homary $96/sale DAY 54 > CJ AliExpress DAY 49.
+
+**IAN PRIORITY ACTIONS — NOV 20 (ranked by urgency × revenue):**
+  1. 🚨🚨🚨 **CHECK GOOGLE SEARCH CONSOLE — 404 ERRORS ON goldenhomeproject.com.** Thread 1a1f2e8063f1df6d, flagged Nov 19, UNRESOLVED. BFCM Day 2 traffic LIVE — every 404 is a lost affiliate click RIGHT NOW. Fix immediately.
+  2. 🚨🚨🚨 **SCRIPT MAMMA MIA COUCH COVER — DAY 73 UNBREAKABLE.** BFCM DAY 2 LIVE + Thanksgiving 6 days. After-first format. Hook: "Thanksgiving guests arrive in 6 days. Same couch. After. Before." $12.69/sale at 24-30% Impact. Zero content in 73 days.
+  3. 🚨🚨🚨 **BUILD SYRUVIA 20% TRACKING LINK IN IMPACT.** $127.60 total forfeited (DAY 22, $5.80/day). BFCM traffic LIVE — zero links = zero revenue on live traffic.
+  4. 🚨🚨🚨 **BUILD SMARTWINGS BF TRACKING LINKS — 15% OFF LIVE.** Impact Publisher ID 7104029. $30-60/sale active NOW.
+  5. 🚨🚨🚨 **BUILD DREAME TRACKING LINKS — BFCM LIVE.** Impact → Dreame → build links. $6.45+/sale.
+  6. 🚨🚨 **BUILD YEEDI (Impact 57605) TRACKING LINK — DAY 18, BFCM LIVE.** Impact → YEEDI → build link.
+  7. 🚨🚨 **CHECK NANOLEAF on Impact marketplace + JOIN.** Smart LED on-niche for LED kitchen lighting viral slot. $60-200+ AOV. BFCM LIVE.
+  8. 🚨🚨 **ACCEPT BIG WALL DECOR US on Awin** — pending since Nov 17. ~10% commission, $400 AOV (~$40/order), holiday bonus active. ON-NICHE home decor.
+  9. 🚨🚨 **BUILD PROMEED 12% TRACKING LINK — DAY 47 OVERDUE.** $7.20 vs $2.40 Amazon.
+  10. 🚨 Accept REWARX Awin ID 129153 — DAY 67. 50% recurring = highest commission in portfolio. Awin browser → accept → reply studio@rewarx.com for Golden10 promo code.
+  11. 🚨 Accept PROMEED HerbalRX Awin ID 100833 — 20% CPA active. Awin browser dashboard.
+  12. Accept BEST CHOICE PRODUCTS on Impact — 1-click pre-approved 15%, BFCM LIVE.
+  13. Complete HOMARY Awin express signup (ID 91447) — DAY 54. Affiliate ID to Lauren at affiliate@homary.com.
+  14. Check RILEY HOME LLC on Impact marketplace — home brand, TBD commission.
+  15. CJ portal audit — AliExpress dormancy DAY 49 (41 days remain, ~Dec 30 deadline).
+  16. Accept ON-NICHE Awin browser invites: Tribesigns, SimpleProject, OKUN, CozySpiritStudio.
+  17. Verify SEALOGIX CORP — Impact 6590154 expired 11/6.
+  18. Review Google Analytics Oct 20–Nov 16 report — 5+ months of blog performance data.
+  19. Register for Pinterest Predicts 2027 live training (thread 1a1f07333cece427) — first look at 2027 not-yet-trending home trends, key Q1 2027 planning signal.
+
+**FOR MARKETING DEPT / IAN — not GHP (Nov 20, Affiliate Optimizer 10am):**
+- **Meta BF "Ends tonight: Black Friday early access"** (email@marketing.metamail.com, Nov 20, thread 1a1f52395968524e) — NOT GHP home-content. No reply sent. Already logged by Email Monitor. IAN: check if relevant to Meta ad platform or AI glasses.
