@@ -11025,14 +11025,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-11-19-B00MUEHPGQ.png",
     "queued_at": "2026-11-19T11:11:00.352867Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "Stainless Steel Ricer, No Lumps",
     "recharted": false,
     "variant": "A",
-    "ai_image": true
+    "ai_image": true,
+    "posted_at": "2026-11-20T14:41:25Z"
   },
   {
     "id": "pin-2026-11-19-B07531HM8Q",
