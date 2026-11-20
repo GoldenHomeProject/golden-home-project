@@ -5513,6 +5513,53 @@
         ],
         "reel_format": "problem_fix"
       }
+    ],
+    "SQUARE": [
+      {
+        "hook_category": "mistake",
+        "hook": "Stop scrubbing your air fryer basket every single night.",
+        "beat1": "Grease and crumbs settle into every ridge of a non-stick basket, and just rinsing it doesn't lift them out. Scrubbing those ridges with a brush or sponge night after night slowly wears down the coating. Most of that mess never touches the food, it just sits between the basket and the heating element.",
+        "turn": "These are precut 8 inch square parchment liners made for 5 to 8 quart baskets, so grease and crumbs land on the paper instead of the basket. They're rated 4.6 stars across roughly 34,000 reviews, which points to a lot of people using them the same way.",
+        "result": "One liner goes in, the mess comes out with it, and the basket underneath stays the way it was before. The pack runs about $8.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close-up of hands at a kitchen sink scrubbing a greasy air fryer basket with a sponge, slightly frustrated expression",
+            "on_screen_text": "Stop scrubbing that basket",
+            "voiceover": "Stop scrubbing your air fryer basket every single night."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Macro shot of grease pooled in the ridges of an air fryer basket under kitchen light",
+            "on_screen_text": "Grease hides in every ridge",
+            "voiceover": "Grease works its way into every ridge of that basket."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Overhead shot of crumbs and crispy bits scattered across the bottom of an empty air fryer basket",
+            "on_screen_text": "Crumbs stuck to the bottom",
+            "voiceover": "And crumbs just sit there, stuck to the bottom."
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "Hands placing a square white parchment paper liner into an air fryer basket before adding food",
+            "on_screen_text": "A liner catches it all",
+            "voiceover": "A parchment liner sits under the food and catches it all instead."
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "Hands lifting a used parchment liner out of an air fryer basket, basket underneath still clean",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "The mess lifts out with the paper, basket stays clean. Comment {KEYWORD} and I'll send the link."
+          }
+        ],
+        "reel_format": "countdown"
+      }
     ]
   },
   "hashtag_pools": {
