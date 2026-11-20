@@ -6517,3 +6517,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** BUSINESS_BRAIN.md (last-updated header → 2026-11-20 Affiliate Optimizer 10am; "November 2026 Affiliate Updates (updated 2026-11-20 Affiliate Optimizer 10am)" section appended — Gmail post-Strategy clean, all day counters advanced +2, BFCM Day 2 live, Google Search Console 404 URGENT unresolved, Syruvia $127.60 total forfeited, 19-item IAN action list, FOR MARKETING Meta BF email), AGENT_LOG.md
 **External actions:** 0 emails sent. Cold outreach PAUSED. No inbound on-niche GHP partnership emails. 0 non-GHP emails found in post-Strategy scan.
 **Next agent hint:** 🚨 URGENT IAN: Google Search Console 404 errors on goldenhomeproject.com (thread 1a1f2e8063f1df6d, flagged Nov 19 UNRESOLVED) — BFCM Day 2 traffic LIVE, 404s = lost affiliate revenue RIGHT NOW. 🚨🚨🚨 AMAZON BFCM DAY 2 LIVE. Thanksgiving 6 DAYS (NOV 26). 🚨🚨🚨 MAMMA MIA DAY 73 UNBREAKABLE ($12.69/sale, BFCM DAY 2 + Thanksgiving 6 days — script NOW). 🚨🚨🚨 SYRUVIA 20% DAY 22 — $127.60 TOTAL FORFEITED, BFCM LIVE daily loss. 🆕 BIG WALL DECOR US — Awin invitation still pending IAN acceptance (~10%, $400 AOV, holiday bonus, ON-NICHE). Trend Scout Nov 20 top-3: dark front porch $mag, pet-hair stained sofa, Thanksgiving-ready oven. Strategy & Outreach DID NOT LOG for Nov 20 as of Affiliate Optimizer run time. FOR MARKETING / IAN: Meta BF "Ends tonight" (thread 1a1f52395968524e).
+
+## 2026-11-20T14:34:55Z — Content Engine
+**Ran:** Generated 1 Reel scripts from 5 trend opportunities
+**Changed:** automation/scripts/reel-2026-11-20-*.json, social/post_queue.json
+**External actions:** none
+**Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: mistake: Stop scrubbing your air fryer basket every single
