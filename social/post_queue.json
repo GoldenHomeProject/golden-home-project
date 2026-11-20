@@ -10489,7 +10489,7 @@
   },
   {
     "name": "reel_2026-11-19_003",
-    "status": "ready",
+    "status": "held_not_trending",
     "script_path": "automation/scripts/reel-2026-11-19-003.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-19-003.mp4",
