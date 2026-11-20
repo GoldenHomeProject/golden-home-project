@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-11-19 (Strategy & Outreach 9am)
+# Last updated: 2026-11-20 (Strategy & Outreach 9am)
 # ============================================================
 
 ---
@@ -5422,4 +5422,23 @@ Mamma Mia 24-30% DAY 71 UNBREAKABLE ($12.69/sale, TRIPLE hook: pet hair + Thanks
 
 **FOR MARKETING DEPT / IAN — not GHP (Nov 19, Strategy & Outreach 9am):**
 - **Google Search Console — New indexing issues on goldenhomeproject.com** (sc-noreply@google.com, Nov 19 08:24 UTC, thread 1a1f2e8063f1df6d) — "Not found (404) + Alternate page" reasons preventing indexing. NOT a GHP brand/affiliate email. No reply sent. IAN: URGENT — check Google Search Console TODAY. 404s on BFCM Day 1 = potential lost affiliate traffic. Already logged by Email Monitor.
+
+### November 2026 Visual Trend Insights (updated 2026-11-20 Strategy & Outreach 9am)
+
+**🚨🚨🚨 BFCM DAY 2 — AMAZON BLACK FRIDAY LIVE. Thanksgiving: 6 DAYS (NOV 26). Christmas: 35 DAYS.**
+
+**Gmail scan (since Email Monitor 12:07 UTC Nov 20):** 0 new emails — inbox clean. Email Monitor today found 1 non-GHP email (Meta BF "Ends tonight" promo, thread 1a1f52395968524e, NOT GHP, FOR MARKETING). 0 on-niche GHP brand emails. 0 emails sent. Cold outreach PAUSED per Ian Sep 3 directive.
+
+- **BFCM DAY 2 "STILL AVAILABLE THIS MORNING" FORMAT — HIGHEST-CONVERSION Q4 WINDOW CONTINUES.** BFCM Day 2 is the second-highest-traffic day of Amazon BF Week (Day 1 opens the window, Day 2 captures the "did I miss it?" searcher — the person who saw the Day 1 content and is now searching "deals still available"). TikTok Home Supplies BFCM estimated $40M+ in sales week of Nov 11-17 (Kalodata 2026), up 19% YoY. Format: second-person time-scarcity without first-person experience ("These 3 Amazon home things go fast every BFCM. Still here as of this morning."). Lazy susan turntable 2-tier organizer set + bamboo drawer organizer + clear stackable bins = 3-product max affiliate density. All BFCM sale-eligible, all goldenhomep0a-20. ZERO GHP coverage on BFCM Day 2 format. Hooks: scene-first, no numbers in hook per brand rules. Series arc: BFCM Day 2 "still available" → Thanksgiving countdown "6 days to go."
+
+- **THANKSGIVING FRIDGE RESET — "BEFORE YOUR IN-LAWS OPEN IT" (Thanksgiving 6 days + BFCM Day 2).** This is the highest dual-urgency slot of the week: Thanksgiving fridge prep (6 days = TODAY is the natural buy day) + BFCM sale pricing active NOW. TikTok trending confirmed (Reviewed Nov 2026 roundup), Pinterest +375% saves in fridge org category (confirmed Nov 17 Strategy). Clear stackable fridge organizer bins $18-22 — most universally ignored storage category, highest "before/after shock" reveal. After-first format: clean organized fridge → open messy fridge → product walkthrough. The "in-laws" hook drives shares because viewers tag each other. goldenhomep0a-20. Zero GHP coverage. Hook: "What your fridge looks like six days before Thanksgiving. Same fridge. Under $22."
+
+- **THANKSGIVING TABLE "MOODY JEWEL TONE HARVEST" — CONFIRMED 2026 FORMAT, ZERO GHP.** Multiple 2026 sources converge: Homes & Gardens Thanksgiving Table Decor 2026 roundup confirms harvest-toned heirloom tables; oreateai Nov 2026 confirms "moody jewel tones and cozy nostalgia" as the dominant 2026 Thanksgiving design theme; cranberry + plum + dried botanicals + pillar candles in brass holders = the specific visual 2026 audiences are saving on Pinterest. Budget under $35: pillar candle holder set $20-28 + dried botanicals $12-15 + small bundle dried pampas/botanicals already in pipeline. Renter-safe (zero installation). After-first format: styled moody jewel-toned table → bare table before → 3 products. High Pinterest save rate + high share rate (guests photograph the table). goldenhomep0a-20. Zero GHP coverage on this exact format. Hook: "The Thanksgiving table your guests actually photograph. Same table. Under $35."
+
+- **Competitor watch (Nov 20):** Alexandra Gater: last upload confirmed Oct 17 2026 (Mid-Century Modern studio, ~986K subs, vidIQ confirmed). DAY 34 — LONGEST 2026 GAP CONFIRMED (10+ days past her 2-week max cadence). Return is now imminent. ZERO competitor coverage on: BFCM Day 2 format, Thanksgiving fridge reset, Thanksgiving moody jewel-tone table, Mamma Mia couch, fridge org, stocking stuffer guide. Nest With Me: crafts/pregnancy. DIY Creators: woodworking. Renter + dollar-specificity moat fully intact.
+
+- **Amazon picks for Pinterest pipeline (Nov 20, BFCM Day 2 + Thanksgiving 6 days):** (1) HOME ORG/BFCM: Lazy susan cabinet organizer set 2-tier ~$18-24 — BFCM Day 2 LIVE, corner cabinet dead space transformation, TikTok 74M+ views in category (confirmed Sep 2026 Trend Scout recurring slot), confirmed Pinterest click-through, goldenhomep0a-20; IAN: search "lazy susan cabinet organizer set 2-tier" in Associates for top ASIN; `https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20`. (2) KITCHEN/THANKSGIVING: Clear fridge organizer bins stackable set ~$18-22 — TikTok trending NOW (Reviewed Nov 2026) + Pinterest +375% saves (confirmed Nov 17 Strategy), "before your in-laws open the fridge" Thanksgiving 6-day dual hook + BFCM Day 2, goldenhomep0a-20; IAN: search "clear stackable fridge organizer bins set" in Associates for top ASIN; `https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20`. (3) HOME DECOR/THANKSGIVING: Pillar candle holder set brass/gold with taper or pillar candles ~$20-28 — 2026 Thanksgiving table confirmed jewel-toned moody aesthetic (Homes & Gardens Nov 2026, oreateai Nov 2026), "harvest table" Pinterest saves trending, BFCM Day 2 sale-eligible, dual Thanksgiving + Christmas window, goldenhomep0a-20; IAN: search "pillar candle holder set brass gold" in Associates; `https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20`.
+
+**FOR MARKETING DEPT / IAN — not GHP (Nov 20, Strategy & Outreach 9am):**
+- **Meta Black Friday "Ends tonight: Black Friday early access"** (email@marketing.metamail.com, thread 1a1f52395968524e, Nov 20 ~morning) — NOT GHP brand/affiliate. No reply sent. Already logged by Email Monitor today.
 - **Pinterest Predicts 2027 live training invite** (pinmail@marketing.pinterest.com, Nov 18 20:46 UTC, thread 1a1f07333cece427) — marketing platform invitation, NOT an inbound brand partnership. No reply sent by this agent. IAN: register for training via Pinterest.
