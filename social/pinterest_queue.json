@@ -10306,10 +10306,11 @@
     "image_url": "https://goldenhomeproject.com/social/pinterest/howto-2026-11-10-B079M8FPTW.png",
     "link": "https://www.amazon.com/dp/B079M8FPTW?tag=ghpbrandb-20&ascsubtag=pinterest_howto_brandB",
     "queued_at": "2026-11-10T11:20:18.143171Z",
-    "posted": false,
+    "posted": true,
     "source": "generate_howto_pins",
     "format": "howto",
-    "variant": "B"
+    "variant": "B",
+    "posted_at": "2026-11-20T02:16:50Z"
   },
   {
     "id": "gift_guide-2026-11-10",
