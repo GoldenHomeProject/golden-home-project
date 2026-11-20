@@ -6505,3 +6505,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** AGENT_LOG.md
 **External actions:** 0 emails sent. 0 on-niche GHP partnership emails.
 **Next agent hint:** FOR MARKETING / IAN: Meta "Ends tonight: Black Friday early access" from email@marketing.metamail.com (thread 1a1f52395968524e) — NOT GHP, possible Meta ad platform or AI glasses BF promo. 🚨🚨🚨 AMAZON BFCM DAY 2 (NOV 20) — MAXIMUM URGENCY. Thanksgiving 6 DAYS (NOV 26). 🚨🚨🚨 MAMMA MIA DAY 73 UNBREAKABLE ($12.69/sale, Thanksgiving 6 DAYS + BFCM DAY 2 LIVE). 🚨🚨🚨 SYRUVIA 20% DAY 22 — est. $127.60 TOTAL FORFEITED. 🚨 URGENT IAN: Google Search Console 404s still unresolved (thread 1a1f2e8063f1df6d, flagged Nov 19) — BFCM Day 2 traffic live. 🆕 BIG WALL DECOR US — Awin invitation pending IAN acceptance (on-niche wall art ~10% / $400 AOV).
+
+## 2026-11-20T13:48:27Z — Trend Scout
+**Ran:** Scanned 2 sources (google_trends_daily_us, pinterest) -> 85 items, ranked 5 opportunities
+**Changed:** automation/trends/2026-11-20.json, social/trend_feed.json
+**External actions:** reddit_pi_cache + google_trends + pinterest_rss + amazon_movers_pi_cache
+**Next agent hint:** Content Engine: today's top-3 opportunities are: Turned a dark front porch into a magazin, Hid a pet-hair-covered, stained sofa und, Degreased a Thanksgiving-ready oven from
