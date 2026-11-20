@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-19T08:15",
+ "updated": "2026-11-20T08:15",
  "note": "watch_pct = avg watch time / reel length (IG has no 3-second-hold metric). Clicks and orders: Associates report by ascsubtag.",
  "summary": {
   "v1": {
-   "reels": 11,
+   "reels": 12,
    "like_count": 0.0,
    "comments_count": 0.0,
    "link_replies": null
@@ -260,6 +260,24 @@
    "comments_count": 0,
    "like_count": 0,
    "permalink": "https://www.instagram.com/reel/Df3I8p9mbeB/",
+   "plays": null,
+   "saves": null,
+   "shares": null,
+   "avg_watch_s": null,
+   "watch_pct": null,
+   "keyword": null,
+   "link_replies": null
+  },
+  {
+   "date": "2026-11-19",
+   "variant": "v1",
+   "title": "Stop eyeballing flour, it's wrecking your baking",
+   "ig_media": "18037183565672108",
+   "youtube": "qE6QReGfn6Y",
+   "length_s": 16.4,
+   "comments_count": 0,
+   "like_count": 0,
+   "permalink": "https://www.instagram.com/reel/Df8QRzXDvm0/",
    "plays": null,
    "saves": null,
    "shares": null,
