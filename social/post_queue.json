@@ -10514,10 +10514,10 @@
   },
   {
     "name": "reel_2026-11-20_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-11-20-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-20-001.mp4",
     "caption": "Stop scrubbing your air fryer basket every single night.\n\nGrease and crumbs settle into every ridge of a non-stick basket, and just rinsing it doesn't lift them out. Scrubbing those ridges with a brush or sponge night after night slowly wears down the coating. Most of that mess never touches the food, it just sits between the basket and the heating element.\n\nThese are precut 8 inch square parchment liners made for 5 to 8 quart baskets, so grease and crumbs land on the paper instead of the basket. They're rated 4.6 stars across roughly 34,000 reviews, which points to a lot of people using them the same way.\n\nOne liner goes in, the mess comes out with it, and the basket underneath stays the way it was before. The pack runs about $8.\n\nComment SQUARE and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -10534,22 +10534,7 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "Stop scrubbing your air fryer basket every single night."
-  },
-  {
-    "id": "carousel-2026-11-20-B09CSS6YL4",
-    "media_type": "CAROUSEL_ALBUM",
-    "image_urls": [
-      "https://goldenhomeproject.com/social/carousels/2026-11-20-B09CSS6YL4/slide-1.png",
-      "https://goldenhomeproject.com/social/carousels/2026-11-20-B09CSS6YL4/slide-2.png",
-      "https://goldenhomeproject.com/social/carousels/2026-11-20-B09CSS6YL4/slide-3.png",
-      "https://goldenhomeproject.com/social/carousels/2026-11-20-B09CSS6YL4/slide-4.png",
-      "https://goldenhomeproject.com/social/carousels/2026-11-20-B09CSS6YL4/slide-5.png"
-    ],
-    "caption": "The hallway switch you fumble for at night isn't the fix \u2014 this is.\n\nA motion-sensor LED night light plugs straight into any outlet and lights up cool white as soon as it senses movement, no wiring and no switch to find in the dark. The 2-pack covers two trouble spots \u2014 hallway and bedroom, or bathroom and stairs \u2014 at the same time.\n\nSave this for later so you don't lose it.\n\nComment NIGHTLIGHT or DM me NIGHTLIGHT for the link.\n\n#homeorganization #smallspaceliving #bedroomdecor #hallwaydecor #homeorganizing",
-    "asin": "B09CSS6YL4",
-    "keyword": "NIGHTLIGHT",
-    "queued_at": "2026-11-20T15:54:44.200604Z",
-    "source": "carousel_generator"
+    "hook": "Stop scrubbing your air fryer basket every single night.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-20-001.mp4"
   }
 ]
