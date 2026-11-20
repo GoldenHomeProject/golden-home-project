@@ -9958,11 +9958,12 @@
     "image_path": "social/pinterest/gift_guide-2026-11-07.png",
     "image_url": "https://goldenhomeproject.com/social/pinterest/gift_guide-2026-11-07.png",
     "queued_at": "2026-11-07T11:20:02.669011Z",
-    "posted": false,
+    "posted": true,
     "source": "generate_format_pins",
     "format": "gift_guide",
     "variant": "B",
-    "guide": "hostess-gifts-under-20"
+    "guide": "hostess-gifts-under-20",
+    "posted_at": "2026-11-20T02:17:45Z"
   },
   {
     "id": "pin-2026-11-07-reelv2-kitchen",
