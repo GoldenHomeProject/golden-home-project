@@ -7293,6 +7293,38 @@
       "verified_stars": "4.5",
       "verified_reviews": 118031,
       "discovery_source": "back_to_college_2026"
+    },
+    {
+      "asin": "B07H71SBC4",
+      "product_name": "PlushDeluxe Bamboo Waterproof Mattress Protector, King Size, Ultra Soft | Breathable, Noiseless, Hypoallergenic, Washabl",
+      "categories": [
+        "home",
+        "Bedding"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B07H71SBC4?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-11-20",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$33.99",
+      "verified_stars": "4.6",
+      "verified_reviews": 44110,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B00PUZT2A4",
+      "product_name": "WoodWick Fireside Scented Candle, Crackling Wick, 16oz | Up to 100 Hour Burn Time, Premium Soy Wax, Home D\u00e9cor & Gift Ch",
+      "categories": [
+        "home",
+        "Home D\u00e9cor"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B00PUZT2A4?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-11-20",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$19.99",
+      "verified_stars": "4.6",
+      "verified_reviews": 8392,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
