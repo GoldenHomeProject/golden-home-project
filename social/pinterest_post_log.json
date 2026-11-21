@@ -4040,6 +4040,20 @@
       "pin_id": "pin-2026-11-20-B075CVK9HY",
       "board": "Bedroom Storage & Bedding",
       "link": "https://www.amazon.com/dp/B075CVK9HY?tag=ghpbranda-20&ascsubtag=pinterest_brandA"
+    },
+    {
+      "ts": "2026-11-21T14:40:27Z",
+      "action": "board_fallback",
+      "pin_id": "pin-2026-11-21-B08616PS69",
+      "wanted": "Bedroom Storage & Bedding",
+      "used": "Home Organization Finds"
+    },
+    {
+      "ts": "2026-11-21T14:40:37Z",
+      "action": "pin_published",
+      "pin_id": "pin-2026-11-21-B08616PS69",
+      "board": "Bedroom Storage & Bedding",
+      "link": "https://www.amazon.com/dp/B08616PS69?tag=ghpbrandb-20&ascsubtag=pinterest_brandB"
     }
   ]
 }
