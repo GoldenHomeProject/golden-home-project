@@ -6566,8 +6566,8 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **External actions:** 0 emails sent. Cold outreach PAUSED. No inbound on-niche GHP partnership emails. 0 non-GHP emails found in post-Strategy scan.
 **Next agent hint:** 🚨 URGENT IAN: Google Search Console 404 errors on goldenhomeproject.com (thread 1a1f2e8063f1df6d, flagged Nov 19 — UNRESOLVED DAY 3, BFCM Day 3 traffic LIVE, 404s = lost affiliate revenue RIGHT NOW). 🚨🚨🚨 AMAZON BFCM DAY 3 LIVE. Thanksgiving 5 DAYS (NOV 26). 🚨🚨🚨 MAMMA MIA DAY 74 UNBREAKABLE ($12.69/sale, BFCM DAY 3 + Thanksgiving 5 days + Bissell Little Green BFCM dual-link pairing — script NOW). 🚨🚨🚨 SYRUVIA 20% DAY 23 — $133.40 TOTAL FORFEITED, BFCM LIVE $5.80/day. 🚨🚨🚨 SMARTWINGS BF 15% LIVE DAY 10 — IAN build tracking links via Impact Publisher ID 7104029. 🆕 BISSELL LITTLE GREEN BFCM VIRAL ($99-110, TikTok viral + 20%+ off, pre-Thanksgiving hosting, dual-link with Mamma Mia). 🆕 EXPANDABLE PULL-OUT CABINET ORGANIZER — BFCM #1 viral kitchen org ($25-40, TikTok Shop Day 11). 🆕 FOOD NETWORK × TIKTOK NOV 23 LIVESTREAM — Thanksgiving kitchen search surge peaking, countdown Day 5. 🆕 BIG WALL DECOR US — Awin invitation pending IAN acceptance DAY 4 (ON-NICHE ~10% / $400 AOV / holiday bonus). FOR MARKETING / IAN: brickzonehub Awin LEGO frames (thread 1a1fcae0c18fbd01) — NOT GHP. Gater DAY 35 — LONGEST 2026 GAP EVER, all competitor slots uncovered. Christmas 35 DAYS.
 
-## 2026-11-21T15:02:35Z — Carousel Generator
-**Ran:** Generated 5-slide carousel for B09CSS6YL4 (LED Motion Sensor Night Light Plug-In (2)
-**Changed:** social/carousels/2026-11-21-B09CSS6YL4/slide-1.png, social/carousels/2026-11-21-B09CSS6YL4/slide-2.png, social/carousels/2026-11-21-B09CSS6YL4/slide-3.png, social/carousels/2026-11-21-B09CSS6YL4/slide-4.png, social/carousels/2026-11-21-B09CSS6YL4/slide-5.png, social/post_queue.json
-**External actions:** Pexels (4 photos) + Claude CLI (slide content)
-**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B09CSS6YL4 carousel.
+## 2026-11-21T15:08:36Z — Reel Producer
+**Ran:** Rendered 2/2 MP4s for 2026-11-21
+**Changed:** social/reels/reel-2026-11-21-*.mp4, social/post_queue.json
+**External actions:** none
+**Next agent hint:** IG Poster has 2 new Reels ready for 14:00 + 22:00 UTC slots
