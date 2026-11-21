@@ -11167,14 +11167,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-11-20-B0FK4XVVJS.png",
     "queued_at": "2026-11-20T11:18:15.308742Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "Vtopmart 5 PCS Bathroom Countertop Organizer",
     "recharted": false,
     "variant": "B",
-    "ai_image": true
+    "ai_image": true,
+    "posted_at": "2026-11-21T02:16:29Z"
   },
   {
     "id": "gift_guide-2026-11-20",
