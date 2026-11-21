@@ -9037,14 +9037,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-31-B09Y2DFWD5.png",
     "queued_at": "2026-10-31T10:13:59.645236Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "White Sheer Curtains Under $8",
     "recharted": false,
     "variant": "A",
-    "ai_image": false
+    "ai_image": false,
+    "posted_at": "2026-11-21T14:41:31Z"
   },
   {
     "id": "pin-2026-10-31-B07ZH3QVSV",
