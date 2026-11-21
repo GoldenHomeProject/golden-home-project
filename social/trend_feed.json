@@ -1,131 +1,131 @@
 {
-  "generated_at": "2026-11-20T13:48:27.351845Z",
-  "date": "2026-11-20",
+  "generated_at": "2026-11-21T13:13:45.823823Z",
+  "date": "2026-11-21",
   "opportunities": [
     {
       "rank": 1,
-      "product_category": "holiday string lights",
-      "specific_product": "warm white outdoor LED fairy/icicle lights with remote timer",
+      "product_category": "Christmas tree decor & ribbon kits",
+      "specific_product": "velvet ribbon & coordinated ornament bundle",
       "brand": "Amazon generic",
-      "target_price": "$29",
-      "transformation_hook": "Turned a dark front porch into a magazine-worthy display for $29",
-      "before_state": "Bare, dark front porch/eaves with no holiday lighting as neighbors start decorating",
-      "after_state": "Warm-lit porch and roofline with layered icicle + string lights, timer-controlled",
+      "target_price": "$34",
+      "transformation_hook": "Turn a bare $20 tree into a $500-look boutique tree for $34",
+      "before_state": "sparse artificial tree with mismatched, sparse ornaments and bare branches",
+      "after_state": "fully layered tree with velvet ribbon spirals, coordinated ornament clusters, and garland",
       "buyer_intent_keywords": [
-        "best outdoor christmas lights 2026",
-        "warm white icicle lights",
-        "christmas light timer outdoor",
-        "easy hang holiday lights",
-        "cheap christmas lights that look expensive"
+        "christmas tree ribbon ideas",
+        "how to decorate a christmas tree like a pro",
+        "velvet ribbon for christmas tree",
+        "boutique christmas tree look",
+        "cheap christmas tree decor"
       ],
       "scores": {
         "trend": 9,
-        "transformation": 9,
+        "transformation": 10,
         "affiliate": 9,
         "intent": 9
       },
-      "composite_score": 36,
-      "why_now": "HGTV's Pinterest feed is dominated by holiday light display and town roundup pins right as the post-Thanksgiving decorating rush begins."
+      "composite_score": 37,
+      "why_now": "Nov 21 is peak tree-decorating week and HGTV plus Real Simple are both pushing ribbon/ornament trend content right now"
     },
     {
       "rank": 2,
-      "product_category": "sofa/couch covers",
-      "specific_product": "Mamma Mia waterproof stretch couch cover (pet-hair resistant)",
+      "product_category": "couch/sofa covers",
+      "specific_product": "Mamma Mia Covers waterproof stretch sofa cover",
       "brand": "Mamma Mia Covers",
-      "target_price": "$44",
-      "transformation_hook": "Hid a pet-hair-covered, stained sofa under a $44 stretch cover before guests arrived",
-      "before_state": "Worn, pet-hair-matted, stained couch not ready for holiday hosting",
-      "after_state": "Clean, tailored-looking cozy sofa that matches the 'denim/cozy living room' aesthetic",
+      "target_price": "$52",
+      "transformation_hook": "$52 cover makes a pet-hair-covered couch holiday-guest-ready overnight",
+      "before_state": "worn, stained, pet-hair-covered sofa with visible wear",
+      "after_state": "crisp, tailored-looking sofa in a solid color with zero visible pet hair",
       "buyer_intent_keywords": [
-        "couch cover for pets",
-        "waterproof sofa slipcover",
-        "stretch couch cover no wrinkle",
-        "cover pet hair couch",
-        "cozy living room makeover cheap"
-      ],
-      "scores": {
-        "trend": 8,
-        "transformation": 10,
-        "affiliate": 9,
-        "intent": 8
-      },
-      "composite_score": 35,
-      "why_now": "Apartment Therapy's cozy-sofa/living-room pins are trending into the holiday hosting season when people scramble to make living rooms guest-ready fast, and Mamma Mia pays the highest commission in our catalog."
-    },
-    {
-      "rank": 3,
-      "product_category": "oven cleaning kit",
-      "specific_product": "heavy-duty oven cleaner + grill/rack scrub kit",
-      "brand": "Amazon generic",
-      "target_price": "$18",
-      "transformation_hook": "Degreased a Thanksgiving-ready oven from caked-on grime for $18",
-      "before_state": "Grease-caked oven interior and racks, dreaded before the big cooking day",
-      "after_state": "Sparkling, streak-free oven interior ready for the turkey",
-      "buyer_intent_keywords": [
-        "how to clean oven fast",
-        "best oven cleaner",
-        "clean oven before thanksgiving",
-        "degrease oven racks",
-        "oven cleaning hacks"
-      ],
-      "scores": {
-        "trend": 7,
-        "transformation": 8,
-        "affiliate": 8,
-        "intent": 9
-      },
-      "composite_score": 32,
-      "why_now": "Real Simple's Pinterest feed is actively pushing 'how to clean an oven' content with Thanksgiving explicitly called out as 'right around the corner,' creating a hard deadline for purchase."
-    },
-    {
-      "rank": 4,
-      "product_category": "mudroom/entryway storage",
-      "specific_product": "shoe storage bench with coat hooks and cubbies",
-      "brand": "Best Choice Products",
-      "target_price": "$89",
-      "transformation_hook": "Turned a shoe-and-coat pile-up entryway into an organized mudroom for $89",
-      "before_state": "Cluttered entryway with shoes, boots, and coats piled on the floor",
-      "after_state": "Organized bench-cubby system with hooks, matching HGTV's 'pretty and practical' mudroom look",
-      "buyer_intent_keywords": [
-        "entryway shoe storage bench",
-        "mudroom organization ideas",
-        "coat and shoe storage small space",
-        "laundry mudroom combo storage",
-        "entryway bench with hooks"
-      ],
-      "scores": {
-        "trend": 7,
-        "transformation": 8,
-        "affiliate": 8,
-        "intent": 7
-      },
-      "composite_score": 30,
-      "why_now": "HGTV is spotlighting a mudroom/laundry combo as a top design-and-storage pin right as winter boots and holiday guest coats start piling up at the door, and Best Choice Products furniture fits the higher-commission list."
-    },
-    {
-      "rank": 5,
-      "product_category": "decorative throw pillows",
-      "specific_product": "Eli & Elm set of 2 velvet accent pillows (supportive insert)",
-      "brand": "Eli & Elm",
-      "target_price": "$32",
-      "transformation_hook": "Refreshed a tired sofa for holiday guests with a $32 pillow swap",
-      "before_state": "Flat, mismatched, outdated throw pillows on an otherwise fine couch",
-      "after_state": "Plush, color-coordinated pillows that elevate the cozy-living-room look for company",
-      "buyer_intent_keywords": [
-        "accent pillows for couch",
-        "cozy living room throw pillows",
-        "velvet pillow set",
-        "neck support pillow insert",
-        "holiday living room refresh"
+        "pet hair proof couch cover",
+        "stretch sofa cover",
+        "waterproof couch cover",
+        "couch cover for dogs",
+        "sofa cover before holiday guests"
       ],
       "scores": {
         "trend": 6,
-        "transformation": 7,
+        "transformation": 9,
+        "affiliate": 10,
+        "intent": 8
+      },
+      "composite_score": 33,
+      "why_now": "Holiday hosting season drives urgent living-room-presentable searches, and Mamma Mia's pet-hair angle (24-30% commission) matches Thanksgiving/Christmas guest prep"
+    },
+    {
+      "rank": 3,
+      "product_category": "entryway/mudroom storage",
+      "specific_product": "stackable labeled shoe & boot storage bins",
+      "brand": "Amazon generic",
+      "target_price": "$28",
+      "transformation_hook": "$28 bin system turns a shoe-pile entryway into a hotel-style mudroom",
+      "before_state": "pile of shoes, coats, and bags dumped by the front door",
+      "after_state": "labeled bins, hooks, and a clean bench-style mudroom station",
+      "buyer_intent_keywords": [
+        "mudroom storage ideas",
+        "entryway organization",
+        "shoe storage bins",
+        "small mudroom solutions",
+        "laundry room storage"
+      ],
+      "scores": {
+        "trend": 7,
+        "transformation": 9,
         "affiliate": 9,
+        "intent": 7
+      },
+      "composite_score": 32,
+      "why_now": "HGTV just featured a mudroom/laundry combo pin and families are organizing entryways ahead of holiday guest traffic"
+    },
+    {
+      "rank": 4,
+      "product_category": "bathroom accent wall covering",
+      "specific_product": "peel-and-stick moody plum/green wallpaper",
+      "brand": "Amazon generic",
+      "target_price": "$38",
+      "transformation_hook": "$38 of peel-and-stick wallpaper makes a boring bathroom 'grand and moody' like the $1,825 reno",
+      "before_state": "plain white builder-grade bathroom with no focal point",
+      "after_state": "dramatic moody-toned accent wall in plum or deep green",
+      "buyer_intent_keywords": [
+        "moody bathroom makeover",
+        "peel and stick wallpaper bathroom",
+        "green bathroom paint ideas",
+        "small bathroom accent wall",
+        "IKEA 2027 color of the year"
+      ],
+      "scores": {
+        "trend": 8,
+        "transformation": 9,
+        "affiliate": 7,
         "intent": 6
       },
-      "composite_score": 28,
-      "why_now": "Apartment Therapy's cozy-sofa and guest-blanket pins (plus the plush minkycouture gift pin) signal a seasonal push toward soft-texture living room upgrades before holiday guests arrive, and Eli & Elm carries strong commission."
+      "composite_score": 30,
+      "why_now": "IKEA just named its moody plum 'Wild Fig' the 2027 color of the year, and Apartment Therapy's $1,825 moody bathroom reno pin is actively circulating"
+    },
+    {
+      "rank": 5,
+      "product_category": "washing machine cleaning",
+      "specific_product": "washing machine deep-clean descaling tablets",
+      "brand": "Amazon generic",
+      "target_price": "$14",
+      "transformation_hook": "$14 tablets turn a moldy-smelling washer drum spotless before holiday laundry overload",
+      "before_state": "grimy, mildew-ringed washing machine drum and gasket with musty smell",
+      "after_state": "clean, fresh-smelling washer drum with visible gunk and residue removed",
+      "buyer_intent_keywords": [
+        "washing machine cleaner tablets",
+        "how to clean washing machine",
+        "remove mold from washer",
+        "washer smells musty fix",
+        "deep clean front load washer"
+      ],
+      "scores": {
+        "trend": 6,
+        "transformation": 6,
+        "affiliate": 10,
+        "intent": 8
+      },
+      "composite_score": 30,
+      "why_now": "Real Simple's washing machine cleaning content is live right as holiday guest laundry volume spikes"
     }
   ],
   "raw_signal_count": 85,
