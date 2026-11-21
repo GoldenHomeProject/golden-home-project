@@ -7330,6 +7330,38 @@
       "verified_stars": "4.6",
       "verified_reviews": 8392,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B08KSDJWC3",
+      "product_name": "MAGNA-TILES Storage Bin & Interactive Play-Mat, The Original Magnetic Building Brand",
+      "categories": [
+        "home",
+        "Home Storage"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B08KSDJWC3?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-11-21",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$16.99",
+      "verified_stars": "4.8",
+      "verified_reviews": 7179,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0HLG4L7ZS",
+      "product_name": "5 Pack Closet Organizers and Storage, Reinforced Stackable Closet 16.73\" in | Foldable Closet Storage Bins for Clothes, ",
+      "categories": [
+        "home",
+        "Home Storage"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0HLG4L7ZS?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-11-21",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$34.18",
+      "verified_stars": "4.5",
+      "verified_reviews": 5516,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
