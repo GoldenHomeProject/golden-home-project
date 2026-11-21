@@ -5560,6 +5560,58 @@
         ],
         "reel_format": "countdown"
       }
+    ],
+    "POLYESTER": [
+      {
+        "hook_category": "question",
+        "hook": "Silk pillowcase, or something that just feels like one?",
+        "beat1": "Most pillowcases in a sheet set are plain cotton, because that's what ships as the default. Cotton fibers are rougher than they look, and over a full night they catch on hair strands and press creases into skin.",
+        "turn": "This set swaps in satin instead, built to feel similar to silk, and it's rated 4.5 stars across roughly 323,803 reviews. The idea is less grip on hair and skin while you sleep, without the usual silk price.",
+        "result": "A queen set of two runs about $7, which is a low bar for trying the swap.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close-up of a hand smoothing a shiny pillowcase on a bed in soft morning light, fabric catching a gentle sheen",
+            "on_screen_text": "Not all shine is silk",
+            "voiceover": "Silk pillowcase, or something that just feels like one?",
+            "label": ""
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Hands pulling a plain white cotton pillowcase over a pillow on an unmade bed",
+            "on_screen_text": "Cotton is the default pick",
+            "voiceover": "Most people just use the plain cotton pillowcase that came with the sheet set.",
+            "label": "The usual way"
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Extreme close-up of hair strands resting against woven cotton pillowcase fabric, morning light through a window",
+            "on_screen_text": "Fibers grip hair overnight",
+            "voiceover": "Cotton fibers catch on hair and skin while you sleep, and that friction is where frizz and creases come from.",
+            "label": "The problem"
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "Hands smoothing a satin pillowcase onto a pillow, light reflecting off the smooth surface, two pillows on a made bed",
+            "on_screen_text": "Satin stands in for silk",
+            "voiceover": "This set swaps in satin instead, similar to silk, and it's rated 4.5 stars across over three hundred thousand reviews.",
+            "label": "The swap"
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "Wide shot of a made bed with two pillows in satin pillowcases, soft natural light across the room",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "Worth it if you want that silk feel without the silk price, a set of two for about seven dollars. Comment {KEYWORD} and I'll send the link.",
+            "label": "Worth it if"
+          }
+        ],
+        "reel_format": "versus"
+      }
     ]
   },
   "hashtag_pools": {
