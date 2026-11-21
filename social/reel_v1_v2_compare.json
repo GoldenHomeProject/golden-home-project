@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-20T08:15",
+ "updated": "2026-11-21T08:15",
  "note": "watch_pct = avg watch time / reel length (IG has no 3-second-hold metric). Clicks and orders: Associates report by ascsubtag.",
  "summary": {
   "v1": {
-   "reels": 12,
+   "reels": 13,
    "like_count": 0.0,
    "comments_count": 0.0,
    "link_replies": null
@@ -278,6 +278,24 @@
    "comments_count": 0,
    "like_count": 0,
    "permalink": "https://www.instagram.com/reel/Df8QRzXDvm0/",
+   "plays": null,
+   "saves": null,
+   "shares": null,
+   "avg_watch_s": null,
+   "watch_pct": null,
+   "keyword": null,
+   "link_replies": null
+  },
+  {
+   "date": "2026-11-20",
+   "variant": "v1",
+   "title": "Stop scrubbing your air fryer basket every single night",
+   "ig_media": "18150047368573383",
+   "youtube": "Yv4L1byVTkM",
+   "length_s": 19.4,
+   "comments_count": 0,
+   "like_count": 0,
+   "permalink": "https://www.instagram.com/reel/Df-x19lkhJO/",
    "plays": null,
    "saves": null,
    "shares": null,
