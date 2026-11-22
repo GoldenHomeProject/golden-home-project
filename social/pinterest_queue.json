@@ -11226,14 +11226,15 @@
     "fallback_image_path": "social/pinterest/pin-2026-11-21-B00PUZT2A4-gift.png",
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-11-21-B00PUZT2A4-gift.png",
     "queued_at": "2026-11-21T11:11:17.930005Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": "woodwick fireside scented candle, crackl",
     "overlay_hook": "100-hour burn, crackling wick",
     "recharted": false,
     "variant": "B",
-    "ai_image": false
+    "ai_image": false,
+    "posted_at": "2026-11-22T14:41:53Z"
   },
   {
     "id": "pin-2026-11-21-B08616PS69",
