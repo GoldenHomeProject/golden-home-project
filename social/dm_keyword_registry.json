@@ -7377,6 +7377,22 @@
       "verified_stars": "4.5",
       "verified_reviews": 5516,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B01N4FZZU3",
+      "product_name": "Utopia Towels 12 Pack Premium Wash Cloths, 12x12 In, 100% Cotton, Grey | Highly Absorbent Soft Feel Lightweight Washclot",
+      "categories": [
+        "home",
+        "Bath Linens"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B01N4FZZU3?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-11-22",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$13.72",
+      "verified_stars": "4.6",
+      "verified_reviews": 15434,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
