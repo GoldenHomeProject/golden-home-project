@@ -1,0 +1,140 @@
+{
+  "generated_at": "2026-11-22T13:01:33.312330Z",
+  "date": "2026-11-22",
+  "opportunities": [
+    {
+      "rank": 1,
+      "product_category": "peel-and-stick countertop & wallpaper",
+      "specific_product": "Peel-and-stick marble-look countertop contact paper + matching removable wallpaper roll",
+      "brand": "Amazon generic (Yenhome / RoyalWallSkins style)",
+      "target_price": "$22",
+      "transformation_hook": "$22 contact paper makes a rental kitchen look like a $20k remodel",
+      "before_state": "Dated laminate countertop and builder-beige backsplash in a rented kitchen",
+      "after_state": "Marble-look counters and a styled accent wall, fully removable for move-out",
+      "buyer_intent_keywords": [
+        "peel and stick countertop",
+        "removable wallpaper kitchen",
+        "rental kitchen makeover",
+        "contact paper countertop marble",
+        "renter friendly backsplash"
+      ],
+      "scores": {
+        "trend": 8,
+        "transformation": 10,
+        "affiliate": 9,
+        "intent": 8
+      },
+      "composite_score": 35,
+      "why_now": "Apartment Therapy is actively pinning renter-friendly kitchen and countertop DIYs this week, signaling the aesthetic is about to break into mainstream search."
+    },
+    {
+      "rank": 2,
+      "product_category": "couch/sofa covers",
+      "specific_product": "Mamma Mia Covers waterproof stretch sofa slipcover",
+      "brand": "Mamma Mia Covers",
+      "target_price": "$47",
+      "transformation_hook": "$47 cover turns a pet-hair couch into a guest-ready sofa before Thanksgiving",
+      "before_state": "Worn, stained, pet-hair-covered couch nobody wants guests to see",
+      "after_state": "Crisp, tailored-looking slipcover that matches the holiday decor",
+      "buyer_intent_keywords": [
+        "waterproof couch cover",
+        "pet hair sofa cover",
+        "stretch slipcover for couch",
+        "sofa cover for Thanksgiving guests",
+        "best couch cover for dogs"
+      ],
+      "scores": {
+        "trend": 7,
+        "transformation": 9,
+        "affiliate": 9,
+        "intent": 8
+      },
+      "composite_score": 33,
+      "why_now": "Thanksgiving hosting (Nov 26) is this week and apttherapy/HGTV pins are surfacing denim-sofa and living-room refresh content, plus this brand carries a 24-30% commission.",
+      "brand_commission_note": "24-30% commission \u2014 prioritize"
+    },
+    {
+      "rank": 3,
+      "product_category": "kitchen tool organization",
+      "specific_product": "Syruvia stainless steel utensil crock + in-drawer organizer set",
+      "brand": "Syruvia",
+      "target_price": "$29",
+      "transformation_hook": "$29 organizer fixes the junk-drawer chaos before Thanksgiving cooking marathon",
+      "before_state": "Overflowing utensil drawer and cluttered counter during holiday meal prep",
+      "after_state": "Grouped, labeled utensil zones with counter space freed for cooking",
+      "buyer_intent_keywords": [
+        "kitchen utensil organizer",
+        "drawer organizer for kitchen tools",
+        "Thanksgiving kitchen prep hacks",
+        "countertop declutter kitchen",
+        "best kitchen gadget organizer"
+      ],
+      "scores": {
+        "trend": 8,
+        "transformation": 7,
+        "affiliate": 8,
+        "intent": 8
+      },
+      "composite_score": 31,
+      "why_now": "Real Simple's Thanksgiving-prep content is spiking right now, and holiday cooking volume drives a predictable surge in kitchen-organization searches; Syruvia carries 20% commission.",
+      "brand_commission_note": "20% commission \u2014 prioritize"
+    },
+    {
+      "rank": 4,
+      "product_category": "entryway/mudroom storage",
+      "specific_product": "Best Choice Products storage bench with coat hooks and shoe cubbies",
+      "brand": "Best Choice Products",
+      "target_price": "$129",
+      "transformation_hook": "$129 bench turns a shoe-pile entryway into a Pinterest mudroom before guests arrive",
+      "before_state": "Pile of shoes, coats, and bags dumped by the front door",
+      "after_state": "Organized bench with hooks and cubbies that greets holiday guests",
+      "buyer_intent_keywords": [
+        "entryway storage bench with hooks",
+        "mudroom organization ideas",
+        "shoe storage bench",
+        "small entryway makeover",
+        "coat hook bench"
+      ],
+      "scores": {
+        "trend": 7,
+        "transformation": 8,
+        "affiliate": 8,
+        "intent": 7
+      },
+      "composite_score": 30,
+      "why_now": "HGTV just pinned a mudroom/laundry storage combo this week, and entryways get the most pre-holiday-guest scrutiny of any room; Best Choice Products carries 15% commission.",
+      "brand_commission_note": "15% commission \u2014 prioritize"
+    },
+    {
+      "rank": 5,
+      "product_category": "cervical/side-sleeper pillows",
+      "specific_product": "Eli & Elm contour cervical pillow for side sleepers",
+      "brand": "Eli & Elm",
+      "target_price": "$45",
+      "transformation_hook": "$45 pillow fixes neck pain and finally makes the headboard wall look styled",
+      "before_state": "Mismatched flat pillows and an empty, unstyled wall above the headboard",
+      "after_state": "Layered contour pillows that both relieve neck pain and complete the bed styling",
+      "buyer_intent_keywords": [
+        "pillow for side sleeper neck pain",
+        "cervical support pillow",
+        "bedroom headboard styling ideas",
+        "best pillow for neck pain 2026",
+        "above headboard decor"
+      ],
+      "scores": {
+        "trend": 6,
+        "transformation": 7,
+        "affiliate": 9,
+        "intent": 7
+      },
+      "composite_score": 29,
+      "why_now": "HGTV's 'above the headboard' styling pin is gaining traction and dovetails with evergreen neck-pain search intent; Eli & Elm carries 20% commission.",
+      "brand_commission_note": "20% commission \u2014 prioritize"
+    }
+  ],
+  "raw_signal_count": 85,
+  "sources_used": [
+    "google_trends_daily_us",
+    "pinterest"
+  ]
+}

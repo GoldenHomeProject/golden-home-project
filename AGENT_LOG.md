@@ -6589,3 +6589,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** AGENT_LOG.md
 **External actions:** 0 emails sent. 0 on-niche GHP partnership emails.
 **Next agent hint:** FOR MARKETING / IAN — not GHP: Meta BF "25% off Rx lenses for your AI glasses" (thread 1a1ff1483febfcd0, 2026-11-21T17:07 UTC) — Meta AI glasses/Rx lenses promo, eye care angle, possible Telasight relevance. 🚨🚨🚨 AMAZON BFCM DAY 4 LIVE (NOV 22). Thanksgiving 4 DAYS (NOV 26). 🚨🚨🚨 MAMMA MIA DAY 75 UNBREAKABLE ($12.69/sale, BFCM DAY 4 + Thanksgiving 4 days — script NOW). 🚨🚨🚨 SYRUVIA 20% DAY 24 — est. $139.20 TOTAL FORFEITED ($5.80/day). 🚨 URGENT IAN: Google Search Console 404 errors on goldenhomeproject.com (thread 1a1f2e8063f1df6d, flagged Nov 19 — UNRESOLVED DAY 4, BFCM Day 4 traffic LIVE). 🆕 BIG WALL DECOR US — Awin invitation pending IAN acceptance (ON-NICHE ~10%, $400 AOV, holiday bonus). Gater DAY 36 — all competitor slots uncovered. Christmas 34 DAYS.
+
+## 2026-11-22T13:01:33Z — Trend Scout
+**Ran:** Scanned 2 sources (google_trends_daily_us, pinterest) -> 85 items, ranked 5 opportunities
+**Changed:** automation/trends/2026-11-22.json, social/trend_feed.json
+**External actions:** reddit_pi_cache + google_trends + pinterest_rss + amazon_movers_pi_cache
+**Next agent hint:** Content Engine: today's top-3 opportunities are: $22 contact paper makes a rental kitchen, $47 cover turns a pet-hair couch into a , $29 organizer fixes the junk-drawer chao
