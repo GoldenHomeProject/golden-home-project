@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-11-22T13:47:30.409485Z",
+  "date": "2026-11-22",
+  "seq": 1,
+  "hook_category": "mistake",
+  "hook": "Stop lining your air fryer basket with foil.",
+  "reel_format": "mistake",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of hands tearing a sheet of foil and pressing it into an air fryer basket on a kitchen counter.",
+      "on_screen_text": "Stop using foil in here",
+      "voiceover": "Stop lining your air fryer basket with foil.",
+      "label": ""
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Overhead shot of an air fryer basket with foil crinkled against the sides, steam rising unevenly from food inside.",
+      "on_screen_text": "Foil blocks the airflow",
+      "voiceover": "It can trap hot air in spots instead of letting it circulate, so parts of your food cook faster than others, and loose edges can flake off into the meal.",
+      "label": "The mistake"
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Hands laying a flat square parchment sheet into the ridges of an empty air fryer basket.",
+      "on_screen_text": "Use a liner made for the basket",
+      "voiceover": "Instead, use a liner shaped for the basket itself, something that sits flat and lets air still move around the food the way the fryer is built for.",
+      "label": "Instead"
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Close-up of a stack of square parchment paper liners on a kitchen counter next to an open air fryer, basket visible in the background.",
+      "on_screen_text": "125 liners, fits 5 to 8 quart",
+      "voiceover": "These are square, unbleached parchment liners sized for 5 to 8 quart fryers, non-stick and waterproof, a hundred twenty five to a box, rated 4.6 stars.",
+      "label": "The fix"
+    },
+    {
+      "n": 5,
+      "duration_sec": 5,
+      "visual_prompt": "Hands placing a food item onto a parchment liner inside the air fryer basket, about to close the lid.",
+      "on_screen_text": "Comment FRYER for the link",
+      "voiceover": "A box like this runs about $8.49. Comment FRYER and I'll send the link.",
+      "label": "Save this"
+    }
+  ],
+  "caption": "Stop lining your air fryer basket with foil.\n\nFoil can block airflow in a basket, so hot spots show up and food cooks unevenly. It can also react with acidic or salty food, and bits of it tend to flake off into whatever you're cooking.\n\nParchment liners made for the basket shape sit flat under the food instead of wrapping around it, so air still moves the way the fryer needs. Shoppers rate this pack 4.6 stars across roughly 34,000 reviews.\n\nA box of 125 square liners works out to pennies a round of cooking, for about $8.49.\n\nComment FRYER and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "Parchment liners made for the basket shape sit flat under the food instead of wrapping around it, so air still moves the way the fryer needs. Shoppers rate this pack 4.6 stars across roughly 34,000 re",
+  "affiliate_strategy": {
+    "primary_product": "125Pcs 8 Inch Square Air Fryer Liners Disposable for 5-8QT, Parchment Paper | Non-Stick, Unbleached Food Grade, Waterpro",
+    "dm_keyword": "FRYER",
+    "amazon_asin": "B0B6PLG6G2",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B0B6PLG6G2?tag=goldenhomep0a-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": null
+  }
+}
