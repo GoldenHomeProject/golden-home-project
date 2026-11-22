@@ -6614,8 +6614,8 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **External actions:** 0 emails sent. 0 on-niche GHP partnership emails. Cold outreach PAUSED per Ian Sep 3 directive.
 **Next agent hint:** FOR MARKETING / IAN — not GHP: Meta BF "25% off Rx lenses for your AI glasses" (thread 1a1ff1483febfcd0, 2026-11-21T17:07 UTC) — Meta AI glasses/Rx lenses promo, eye care angle, possible Telasight relevance. 🚨🚨🚨 AMAZON BFCM DAY 4 LIVE (NOV 22). Thanksgiving 4 DAYS (NOV 26). 🚨🚨🚨 MAMMA MIA DAY 75 UNBREAKABLE ($12.69/sale, BFCM DAY 4 + Thanksgiving 4 days — script NOW). 🚨🚨🚨 SYRUVIA 20% DAY 24 — $139.20 TOTAL FORFEITED ($5.80/day). 🚨🚨🚨 Google Search Console 404 errors on goldenhomeproject.com (thread 1a1f2e8063f1df6d, flagged Nov 19 — UNRESOLVED DAY 4, BFCM Day 4 traffic LIVE — fix immediately). 🆕 SMARTWINGS BF 15% LIVE DAY 11 ($30-60/sale, Impact ID 7104029 — build tracking links). 🆕 BIG WALL DECOR US — Awin invitation pending IAN acceptance (ON-NICHE ~10%, $400 AOV, holiday bonus, DAY 5). 🆕 NANOLEAF + RILEY HOME LLC — new Impact marketplace brands (Nov 10, unactioned). Gater DAY 36 — LONGEST 2026 GAP EVER, all competitor slots uncovered. Christmas 34 DAYS.
 
-## 2026-11-22T15:00:35Z — Carousel Generator
-**Ran:** Generated 5-slide carousel for B09CSS6YL4 (LED Motion Sensor Night Light Plug-In (2)
-**Changed:** social/carousels/2026-11-22-B09CSS6YL4/slide-1.png, social/carousels/2026-11-22-B09CSS6YL4/slide-2.png, social/carousels/2026-11-22-B09CSS6YL4/slide-3.png, social/carousels/2026-11-22-B09CSS6YL4/slide-4.png, social/carousels/2026-11-22-B09CSS6YL4/slide-5.png, social/post_queue.json
-**External actions:** Pexels (4 photos) + Claude CLI (slide content)
-**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B09CSS6YL4 carousel.
+## 2026-11-22T15:06:48Z — Reel Producer
+**Ran:** Rendered 2/2 MP4s for 2026-11-22
+**Changed:** social/reels/reel-2026-11-22-*.mp4, social/post_queue.json
+**External actions:** none
+**Next agent hint:** IG Poster has 2 new Reels ready for 14:00 + 22:00 UTC slots
