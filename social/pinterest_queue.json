@@ -8879,14 +8879,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-30-B078YNC9G9.png",
     "queued_at": "2026-10-30T10:14:10.568427Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "Magnets stop the cling",
     "recharted": true,
     "variant": "A",
-    "ai_image": true
+    "ai_image": true,
+    "posted_at": "2026-11-22T02:17:34Z"
   },
   {
     "id": "pin-2026-10-30-B0028JURDQ",
