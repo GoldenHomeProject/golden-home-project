@@ -6649,3 +6649,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** automation/scripts/reel-2026-11-23-*.json, social/post_queue.json
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: satisfying_fix: Watch the kitchen scissors finally get their own s
+
+## 2026-11-23T18:54:23Z — Carousel Generator
+**Ran:** Generated 5-slide carousel for B07PZF3QS3 (KitchenAid All Purpose Kitchen Shears wi)
+**Changed:** social/carousels/2026-11-23-B07PZF3QS3/slide-1.png, social/carousels/2026-11-23-B07PZF3QS3/slide-2.png, social/carousels/2026-11-23-B07PZF3QS3/slide-3.png, social/carousels/2026-11-23-B07PZF3QS3/slide-4.png, social/carousels/2026-11-23-B07PZF3QS3/slide-5.png, social/post_queue.json
+**External actions:** Pexels (4 photos) + Claude CLI (slide content)
+**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B07PZF3QS3 carousel.
