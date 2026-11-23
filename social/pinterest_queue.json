@@ -9198,14 +9198,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-11-01-B07BYSQ39N.png",
     "queued_at": "2026-11-01T11:13:39.970191Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "Blackout Privacy for Small Windows",
     "recharted": true,
     "variant": "A",
-    "ai_image": true
+    "ai_image": true,
+    "posted_at": "2026-11-23T14:41:46Z"
   },
   {
     "id": "pin-2026-11-01-B0D1BZJSX4",
