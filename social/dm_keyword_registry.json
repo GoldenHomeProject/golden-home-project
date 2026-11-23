@@ -1656,6 +1656,21 @@
       "source": "chart",
       "keyword": "FRYER",
       "promoted_at": "2026-11-22T13:20:19Z"
+    },
+    {
+      "asin": "B07PZF3QS3",
+      "product_name": "KitchenAid All Purpose Kitchen Shears with Protective Sheath Durable Stainless Steel Scissors, Dishwasher Safe, Soft Gri",
+      "categories": [
+        "home",
+        "Kitchen"
+      ],
+      "status": "live",
+      "verified_price": "$6.99",
+      "verified_stars": "4.8",
+      "verified_reviews": 73181,
+      "source": "chart",
+      "keyword": "PURPOSE",
+      "promoted_at": "2026-11-23T13:23:56Z"
     }
   ],
   "_vetted_doc": "Verified-live Amazon ASINs cleared for blog/SEO/IG-caption use but NOT yet wired to a Meta comment-to-DM automation. Promote to `entries` (with a unique keyword) only AFTER creating the matching Meta Business Suite automation. Always use https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20 \u2014 never search URLs.",
@@ -4722,22 +4737,6 @@
       "verified_price": "$6.49",
       "verified_stars": "4.5",
       "verified_reviews": 45418,
-      "discovery_source": "harvest_catalogue"
-    },
-    {
-      "asin": "B07PZF3QS3",
-      "product_name": "KitchenAid All Purpose Kitchen Shears with Protective Sheath Durable Stainless Steel Scissors, Dishwasher Safe, Soft Gri",
-      "categories": [
-        "kitchen",
-        "Kitchen Storage"
-      ],
-      "affiliate_url": "https://www.amazon.com/dp/B07PZF3QS3?tag=goldenhomep0a-20",
-      "status": "live",
-      "verified_at": "2026-09-12",
-      "verified_method": "best_seller_grid",
-      "verified_price": "$9.99",
-      "verified_stars": "4.8",
-      "verified_reviews": 70261,
       "discovery_source": "harvest_catalogue"
     },
     {
