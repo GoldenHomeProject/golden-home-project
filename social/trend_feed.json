@@ -1,135 +1,131 @@
 {
-  "generated_at": "2026-11-22T13:01:33.312330Z",
-  "date": "2026-11-22",
+  "generated_at": "2026-11-23T15:39:45.060566Z",
+  "date": "2026-11-23",
   "opportunities": [
     {
       "rank": 1,
-      "product_category": "peel-and-stick countertop & wallpaper",
-      "specific_product": "Peel-and-stick marble-look countertop contact paper + matching removable wallpaper roll",
-      "brand": "Amazon generic (Yenhome / RoyalWallSkins style)",
-      "target_price": "$22",
-      "transformation_hook": "$22 contact paper makes a rental kitchen look like a $20k remodel",
-      "before_state": "Dated laminate countertop and builder-beige backsplash in a rented kitchen",
-      "after_state": "Marble-look counters and a styled accent wall, fully removable for move-out",
+      "product_category": "bathroom storage",
+      "specific_product": "over-the-toilet storage cabinet/shelf",
+      "brand": "Amazon generic",
+      "target_price": "$45",
+      "transformation_hook": "Turn a boring bathroom wall into $45 of hidden storage in 10 minutes",
+      "before_state": "Small bathroom with cluttered counter and dead\u7a7a\u95f4 above the toilet, towels and toiletries piled wherever they fit",
+      "after_state": "Tall slim cabinet/shelf installed above the toilet holding towels and toiletries, counter clear",
       "buyer_intent_keywords": [
-        "peel and stick countertop",
-        "removable wallpaper kitchen",
-        "rental kitchen makeover",
-        "contact paper countertop marble",
-        "renter friendly backsplash"
-      ],
-      "scores": {
-        "trend": 8,
-        "transformation": 10,
-        "affiliate": 9,
-        "intent": 8
-      },
-      "composite_score": 35,
-      "why_now": "Apartment Therapy is actively pinning renter-friendly kitchen and countertop DIYs this week, signaling the aesthetic is about to break into mainstream search."
-    },
-    {
-      "rank": 2,
-      "product_category": "couch/sofa covers",
-      "specific_product": "Mamma Mia Covers waterproof stretch sofa slipcover",
-      "brand": "Mamma Mia Covers",
-      "target_price": "$47",
-      "transformation_hook": "$47 cover turns a pet-hair couch into a guest-ready sofa before Thanksgiving",
-      "before_state": "Worn, stained, pet-hair-covered couch nobody wants guests to see",
-      "after_state": "Crisp, tailored-looking slipcover that matches the holiday decor",
-      "buyer_intent_keywords": [
-        "waterproof couch cover",
-        "pet hair sofa cover",
-        "stretch slipcover for couch",
-        "sofa cover for Thanksgiving guests",
-        "best couch cover for dogs"
+        "over the toilet storage cabinet",
+        "small bathroom organization ideas",
+        "space saver bathroom shelf",
+        "over toilet shelf",
+        "bathroom storage for small spaces"
       ],
       "scores": {
         "trend": 7,
         "transformation": 9,
+        "affiliate": 10,
+        "intent": 9
+      },
+      "composite_score": 35,
+      "why_now": "HGTV's publisher pins are actively pushing over-toilet storage content right as holiday hosting drives small-bathroom cleanup searches."
+    },
+    {
+      "rank": 2,
+      "product_category": "couch/sofa covers",
+      "specific_product": "Mamma Mia waterproof stretch couch cover",
+      "brand": "Mamma Mia Covers",
+      "target_price": "$47",
+      "transformation_hook": "Hide a pet-hair couch under a $47 stretch cover before holiday guests arrive",
+      "before_state": "Worn, stained couch covered in visible pet hair and loose threads",
+      "after_state": "Smooth, tailored-looking slipcover transforming the couch into a guest-ready centerpiece",
+      "buyer_intent_keywords": [
+        "waterproof couch cover for pets",
+        "sofa cover for dogs",
+        "stretch couch slipcover",
+        "pet hair proof couch cover",
+        "couch cover washable"
+      ],
+      "scores": {
+        "trend": 7,
+        "transformation": 10,
         "affiliate": 9,
         "intent": 8
       },
-      "composite_score": 33,
-      "why_now": "Thanksgiving hosting (Nov 26) is this week and apttherapy/HGTV pins are surfacing denim-sofa and living-room refresh content, plus this brand carries a 24-30% commission.",
-      "brand_commission_note": "24-30% commission \u2014 prioritize"
+      "composite_score": 34,
+      "why_now": "Pre-Thanksgiving and Christmas hosting season spikes demand for fast couch fixes, and the pet-hair angle pairs with Mamma Mia's 24-30% commission tier and HGTV's active living-room styling content."
     },
     {
       "rank": 3,
-      "product_category": "kitchen tool organization",
-      "specific_product": "Syruvia stainless steel utensil crock + in-drawer organizer set",
-      "brand": "Syruvia",
-      "target_price": "$29",
-      "transformation_hook": "$29 organizer fixes the junk-drawer chaos before Thanksgiving cooking marathon",
-      "before_state": "Overflowing utensil drawer and cluttered counter during holiday meal prep",
-      "after_state": "Grouped, labeled utensil zones with counter space freed for cooking",
-      "buyer_intent_keywords": [
-        "kitchen utensil organizer",
-        "drawer organizer for kitchen tools",
-        "Thanksgiving kitchen prep hacks",
-        "countertop declutter kitchen",
-        "best kitchen gadget organizer"
-      ],
-      "scores": {
-        "trend": 8,
-        "transformation": 7,
-        "affiliate": 8,
-        "intent": 8
-      },
-      "composite_score": 31,
-      "why_now": "Real Simple's Thanksgiving-prep content is spiking right now, and holiday cooking volume drives a predictable surge in kitchen-organization searches; Syruvia carries 20% commission.",
-      "brand_commission_note": "20% commission \u2014 prioritize"
-    },
-    {
-      "rank": 4,
-      "product_category": "entryway/mudroom storage",
-      "specific_product": "Best Choice Products storage bench with coat hooks and shoe cubbies",
+      "product_category": "entryway/mudroom organization",
+      "specific_product": "entryway storage bench with shoe cubbies",
       "brand": "Best Choice Products",
-      "target_price": "$129",
-      "transformation_hook": "$129 bench turns a shoe-pile entryway into a Pinterest mudroom before guests arrive",
-      "before_state": "Pile of shoes, coats, and bags dumped by the front door",
-      "after_state": "Organized bench with hooks and cubbies that greets holiday guests",
+      "target_price": "$89",
+      "transformation_hook": "Fix entryway shoe chaos with one $89 storage bench before holiday guests",
+      "before_state": "Pile of shoes and coats dumped by the front door, no clear landing spot for guests",
+      "after_state": "Organized bench with shoe cubbies and hooks, entryway looks styled and guest-ready",
       "buyer_intent_keywords": [
-        "entryway storage bench with hooks",
+        "entryway shoe storage bench",
         "mudroom organization ideas",
-        "shoe storage bench",
-        "small entryway makeover",
-        "coat hook bench"
+        "shoe rack with bench",
+        "small entryway storage solutions",
+        "coat and shoe organizer"
       ],
       "scores": {
         "trend": 7,
         "transformation": 8,
-        "affiliate": 8,
+        "affiliate": 9,
+        "intent": 8
+      },
+      "composite_score": 32,
+      "why_now": "Holiday guest traffic and winter boots are flooding entryways right as HGTV surfaces mudroom/laundry storage content, and Best Choice Products' furniture commission makes this an easy affiliate win."
+    },
+    {
+      "rank": 4,
+      "product_category": "living room wall decor",
+      "specific_product": "floating wall shelf set",
+      "brand": "Amazon generic",
+      "target_price": "$28",
+      "transformation_hook": "Fill that blank wall above your couch for $28 in floating shelves",
+      "before_state": "Large bare wall above the couch, room feels unfinished and empty",
+      "after_state": "Styled floating shelves with books and decor, wall becomes a designed focal point",
+      "buyer_intent_keywords": [
+        "floating shelves for living room wall",
+        "wall decor above couch",
+        "how to decorate empty wall space",
+        "floating wall shelves set",
+        "living room shelf decor ideas"
+      ],
+      "scores": {
+        "trend": 6,
+        "transformation": 8,
+        "affiliate": 9,
         "intent": 7
       },
       "composite_score": 30,
-      "why_now": "HGTV just pinned a mudroom/laundry storage combo this week, and entryways get the most pre-holiday-guest scrutiny of any room; Best Choice Products carries 15% commission.",
-      "brand_commission_note": "15% commission \u2014 prioritize"
+      "why_now": "HGTV is actively pinning 'empty wall above the couch' content, and post-Thanksgiving home-refresh searches are climbing ahead of holiday entertaining."
     },
     {
       "rank": 5,
-      "product_category": "cervical/side-sleeper pillows",
-      "specific_product": "Eli & Elm contour cervical pillow for side sleepers",
+      "product_category": "bedroom pillows",
+      "specific_product": "Eli & Elm side sleeper neck pain pillow",
       "brand": "Eli & Elm",
-      "target_price": "$45",
-      "transformation_hook": "$45 pillow fixes neck pain and finally makes the headboard wall look styled",
-      "before_state": "Mismatched flat pillows and an empty, unstyled wall above the headboard",
-      "after_state": "Layered contour pillows that both relieve neck pain and complete the bed styling",
+      "target_price": "$39",
+      "transformation_hook": "Swap a flat pillow for a $39 side-sleeper pillow and wake up pain-free",
+      "before_state": "Flat, lumpy pillow on a messy, unmade bed, visible neck strain complaints",
+      "after_state": "Supportive contoured pillow on a neatly styled bed, bedroom feels like a refreshed retreat",
       "buyer_intent_keywords": [
-        "pillow for side sleeper neck pain",
+        "side sleeper pillow for neck pain",
+        "best pillow for neck pain",
+        "contour pillow side sleeper",
         "cervical support pillow",
-        "bedroom headboard styling ideas",
-        "best pillow for neck pain 2026",
-        "above headboard decor"
+        "bedroom pillow upgrade"
       ],
       "scores": {
         "trend": 6,
         "transformation": 7,
-        "affiliate": 9,
+        "affiliate": 8,
         "intent": 7
       },
-      "composite_score": 29,
-      "why_now": "HGTV's 'above the headboard' styling pin is gaining traction and dovetails with evergreen neck-pain search intent; Eli & Elm carries 20% commission.",
-      "brand_commission_note": "20% commission \u2014 prioritize"
+      "composite_score": 28,
+      "why_now": "RealSimple's '2027 bedroom decor trends' pin signals an early wave of bedroom-refresh interest, dovetailing with Eli & Elm's higher-commission neck-pain angle."
     }
   ],
   "raw_signal_count": 85,

@@ -1,0 +1,136 @@
+{
+  "generated_at": "2026-11-23T15:39:45.060566Z",
+  "date": "2026-11-23",
+  "opportunities": [
+    {
+      "rank": 1,
+      "product_category": "bathroom storage",
+      "specific_product": "over-the-toilet storage cabinet/shelf",
+      "brand": "Amazon generic",
+      "target_price": "$45",
+      "transformation_hook": "Turn a boring bathroom wall into $45 of hidden storage in 10 minutes",
+      "before_state": "Small bathroom with cluttered counter and dead\u7a7a\u95f4 above the toilet, towels and toiletries piled wherever they fit",
+      "after_state": "Tall slim cabinet/shelf installed above the toilet holding towels and toiletries, counter clear",
+      "buyer_intent_keywords": [
+        "over the toilet storage cabinet",
+        "small bathroom organization ideas",
+        "space saver bathroom shelf",
+        "over toilet shelf",
+        "bathroom storage for small spaces"
+      ],
+      "scores": {
+        "trend": 7,
+        "transformation": 9,
+        "affiliate": 10,
+        "intent": 9
+      },
+      "composite_score": 35,
+      "why_now": "HGTV's publisher pins are actively pushing over-toilet storage content right as holiday hosting drives small-bathroom cleanup searches."
+    },
+    {
+      "rank": 2,
+      "product_category": "couch/sofa covers",
+      "specific_product": "Mamma Mia waterproof stretch couch cover",
+      "brand": "Mamma Mia Covers",
+      "target_price": "$47",
+      "transformation_hook": "Hide a pet-hair couch under a $47 stretch cover before holiday guests arrive",
+      "before_state": "Worn, stained couch covered in visible pet hair and loose threads",
+      "after_state": "Smooth, tailored-looking slipcover transforming the couch into a guest-ready centerpiece",
+      "buyer_intent_keywords": [
+        "waterproof couch cover for pets",
+        "sofa cover for dogs",
+        "stretch couch slipcover",
+        "pet hair proof couch cover",
+        "couch cover washable"
+      ],
+      "scores": {
+        "trend": 7,
+        "transformation": 10,
+        "affiliate": 9,
+        "intent": 8
+      },
+      "composite_score": 34,
+      "why_now": "Pre-Thanksgiving and Christmas hosting season spikes demand for fast couch fixes, and the pet-hair angle pairs with Mamma Mia's 24-30% commission tier and HGTV's active living-room styling content."
+    },
+    {
+      "rank": 3,
+      "product_category": "entryway/mudroom organization",
+      "specific_product": "entryway storage bench with shoe cubbies",
+      "brand": "Best Choice Products",
+      "target_price": "$89",
+      "transformation_hook": "Fix entryway shoe chaos with one $89 storage bench before holiday guests",
+      "before_state": "Pile of shoes and coats dumped by the front door, no clear landing spot for guests",
+      "after_state": "Organized bench with shoe cubbies and hooks, entryway looks styled and guest-ready",
+      "buyer_intent_keywords": [
+        "entryway shoe storage bench",
+        "mudroom organization ideas",
+        "shoe rack with bench",
+        "small entryway storage solutions",
+        "coat and shoe organizer"
+      ],
+      "scores": {
+        "trend": 7,
+        "transformation": 8,
+        "affiliate": 9,
+        "intent": 8
+      },
+      "composite_score": 32,
+      "why_now": "Holiday guest traffic and winter boots are flooding entryways right as HGTV surfaces mudroom/laundry storage content, and Best Choice Products' furniture commission makes this an easy affiliate win."
+    },
+    {
+      "rank": 4,
+      "product_category": "living room wall decor",
+      "specific_product": "floating wall shelf set",
+      "brand": "Amazon generic",
+      "target_price": "$28",
+      "transformation_hook": "Fill that blank wall above your couch for $28 in floating shelves",
+      "before_state": "Large bare wall above the couch, room feels unfinished and empty",
+      "after_state": "Styled floating shelves with books and decor, wall becomes a designed focal point",
+      "buyer_intent_keywords": [
+        "floating shelves for living room wall",
+        "wall decor above couch",
+        "how to decorate empty wall space",
+        "floating wall shelves set",
+        "living room shelf decor ideas"
+      ],
+      "scores": {
+        "trend": 6,
+        "transformation": 8,
+        "affiliate": 9,
+        "intent": 7
+      },
+      "composite_score": 30,
+      "why_now": "HGTV is actively pinning 'empty wall above the couch' content, and post-Thanksgiving home-refresh searches are climbing ahead of holiday entertaining."
+    },
+    {
+      "rank": 5,
+      "product_category": "bedroom pillows",
+      "specific_product": "Eli & Elm side sleeper neck pain pillow",
+      "brand": "Eli & Elm",
+      "target_price": "$39",
+      "transformation_hook": "Swap a flat pillow for a $39 side-sleeper pillow and wake up pain-free",
+      "before_state": "Flat, lumpy pillow on a messy, unmade bed, visible neck strain complaints",
+      "after_state": "Supportive contoured pillow on a neatly styled bed, bedroom feels like a refreshed retreat",
+      "buyer_intent_keywords": [
+        "side sleeper pillow for neck pain",
+        "best pillow for neck pain",
+        "contour pillow side sleeper",
+        "cervical support pillow",
+        "bedroom pillow upgrade"
+      ],
+      "scores": {
+        "trend": 6,
+        "transformation": 7,
+        "affiliate": 8,
+        "intent": 7
+      },
+      "composite_score": 28,
+      "why_now": "RealSimple's '2027 bedroom decor trends' pin signals an early wave of bedroom-refresh interest, dovetailing with Eli & Elm's higher-commission neck-pain angle."
+    }
+  ],
+  "raw_signal_count": 85,
+  "sources_used": [
+    "google_trends_daily_us",
+    "pinterest"
+  ]
+}
