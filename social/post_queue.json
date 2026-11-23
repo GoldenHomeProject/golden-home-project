@@ -10688,10 +10688,10 @@
   },
   {
     "name": "reel_2026-11-23_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-11-23-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-23-001.mp4",
     "caption": "Watch the kitchen scissors finally get their own sheath\n\nMost kitchens don't have scissors meant for the kitchen. It's the mail scissors from a drawer, used on raw chicken packaging one minute and herbs the next, blade exposed next to the forks.\n\nThese are kitchen shears made for that drawer specifically, with a protective sheath over the blades and a soft grip handle, sitting near 73,000 reviews at 4.8 stars.\n\nOne pair, dedicated to the kitchen, blades covered when not in use, for about $7.\n\nComment PURPOSE and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -10708,22 +10708,7 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "Watch the kitchen scissors finally get their own sheath"
-  },
-  {
-    "id": "carousel-2026-11-23-B07PZF3QS3",
-    "media_type": "CAROUSEL_ALBUM",
-    "image_urls": [
-      "https://goldenhomeproject.com/social/carousels/2026-11-23-B07PZF3QS3/slide-1.png",
-      "https://goldenhomeproject.com/social/carousels/2026-11-23-B07PZF3QS3/slide-2.png",
-      "https://goldenhomeproject.com/social/carousels/2026-11-23-B07PZF3QS3/slide-3.png",
-      "https://goldenhomeproject.com/social/carousels/2026-11-23-B07PZF3QS3/slide-4.png",
-      "https://goldenhomeproject.com/social/carousels/2026-11-23-B07PZF3QS3/slide-5.png"
-    ],
-    "caption": "Your junk drawer scissors never actually cut anything right.\n\nDull blades, no protective sheath, and the same pair touching raw chicken and then fresh herbs \u2014 kitchen scissors drama is a storage problem, not a scissors problem. Save this for later so you remember the fix next time you're digging through that drawer.\n\nA dedicated, dishwasher-safe pair with a soft grip and its own sheath solves all three: no nicked fingers, no cross-contamination, no dull cuts on parchment or twine.\n\nComment PURPOSE or DM me PURPOSE for the link.\n\n#kitchenorganization #homeorganizing #kitchenhacks #organizedhome #tidykitchen",
-    "asin": "B07PZF3QS3",
-    "keyword": "PURPOSE",
-    "queued_at": "2026-11-23T18:54:23.393403Z",
-    "source": "carousel_generator"
+    "hook": "Watch the kitchen scissors finally get their own sheath",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-23-001.mp4"
   }
 ]
