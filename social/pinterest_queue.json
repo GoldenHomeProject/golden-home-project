@@ -9340,14 +9340,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-11-02-B0BWDK5RNZ.png",
     "queued_at": "2026-11-02T11:16:32.914187Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "Blocks Light, Fits 84-Inch Windows",
     "recharted": false,
     "variant": "B",
-    "ai_image": true
+    "ai_image": true,
+    "posted_at": "2026-11-23T02:16:38Z"
   },
   {
     "id": "pin-2026-11-02-B0FJH871B5",
