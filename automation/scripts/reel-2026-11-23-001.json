@@ -1,0 +1,62 @@
+{
+  "created_at": "2026-11-23T16:48:22.486911Z",
+  "date": "2026-11-23",
+  "seq": 1,
+  "hook_category": "satisfying_fix",
+  "hook": "Watch the kitchen scissors finally get their own sheath",
+  "reel_format": "pov",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Close-up of a hand digging through a cluttered kitchen junk drawer, scissors blades exposed among rubber bands and twist ties",
+      "on_screen_text": "This drawer again",
+      "voiceover": "Watch the kitchen scissors finally get their own sheath."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Hands using ordinary scissors to cut open raw chicken packaging on a kitchen counter",
+      "on_screen_text": "Same scissors for everything",
+      "voiceover": "One pair of scissors does raw meat, then herbs, then mail, with the blade just sitting there in the drawer."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Hands sliding a pair of stainless steel kitchen shears into a plastic protective sheath on a countertop",
+      "on_screen_text": "A sheath for the blade",
+      "voiceover": "These kitchen shears come with a protective sheath and a soft grip handle, built for this one job."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Hand placing sheathed kitchen shears flat into an open kitchen drawer next to other utensils",
+      "on_screen_text": "Dishwasher safe, drawer ready",
+      "voiceover": "Dishwasher safe stainless steel, and the sheath keeps the blade covered until you grab it again."
+    },
+    {
+      "n": 5,
+      "duration_sec": 5,
+      "visual_prompt": "Overhead shot of hands using kitchen shears to snip fresh herbs into a bowl on a kitchen counter",
+      "on_screen_text": "Comment PURPOSE for the link",
+      "voiceover": "Comment PURPOSE and I'll send the link."
+    }
+  ],
+  "caption": "Watch the kitchen scissors finally get their own sheath\n\nMost kitchens don't have scissors meant for the kitchen. It's the mail scissors from a drawer, used on raw chicken packaging one minute and herbs the next, blade exposed next to the forks.\n\nThese are kitchen shears made for that drawer specifically, with a protective sheath over the blades and a soft grip handle, sitting near 73,000 reviews at 4.8 stars.\n\nOne pair, dedicated to the kitchen, blades covered when not in use, for about $7.\n\nComment PURPOSE and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "These are kitchen shears made for that drawer specifically, with a protective sheath over the blades and a soft grip handle, sitting near 73,000 reviews at 4.8 stars.",
+  "affiliate_strategy": {
+    "primary_product": "KitchenAid All Purpose Kitchen Shears with Protective Sheath Durable Stainless Steel Scissors, Dishwasher Safe, Soft Gri",
+    "dm_keyword": "PURPOSE",
+    "amazon_asin": "B07PZF3QS3",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B07PZF3QS3?tag=goldenhomep0a-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": null
+  }
+}
