@@ -10601,10 +10601,10 @@
   },
   {
     "name": "reel_2026-11-22_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-11-22-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-22-001.mp4",
     "caption": "Stop lining your air fryer basket with foil.\n\nFoil can block airflow in a basket, so hot spots show up and food cooks unevenly. It can also react with acidic or salty food, and bits of it tend to flake off into whatever you're cooking.\n\nParchment liners made for the basket shape sit flat under the food instead of wrapping around it, so air still moves the way the fryer needs. Shoppers rate this pack 4.6 stars across roughly 34,000 reviews.\n\nA box of 125 square liners works out to pennies a round of cooking, for about $8.49.\n\nComment FRYER and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -10621,7 +10621,8 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "Stop lining your air fryer basket with foil."
+    "hook": "Stop lining your air fryer basket with foil.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-22-001.mp4"
   },
   {
     "name": "reel_2026-11-22_002",
