@@ -6631,3 +6631,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** social/pinterest_queue.json
 **External actions:** Pexels (backgrounds) + Claude CLI (pin copy)
 **Next agent hint:** post_pinterest.py (Pi) drains pinterest_queue.json once a Pinterest business account is logged into the Pi Chromium profile.
+
+## 2026-11-23T12:07:32Z — Email Monitor
+**Ran:** Daily Gmail triage (8am ET). Checked all emails since 2026-11-22T13:00:00Z (last Email Monitor). Found 1 new inbox email: (1) Meta "Here's the deal: 15% off select Meta Glasses" from email@marketing.metamail.com (thread 1a2043a4cd62f393) — Meta AI glasses/wearables BF promo, continuation of Meta BF campaign already logged Nov 20-22, NOT GHP per SCOPE GUARD. 0 on-niche GHP brand emails. 0 emails sent. Cold outreach PAUSED per Ian Sep 3 directive.
+**Changed:** AGENT_LOG.md
+**External actions:** 0 emails sent. 0 on-niche GHP partnership emails.
+**Next agent hint:** FOR MARKETING / IAN — not GHP: Meta BF "Here's the deal: 15% off select Meta Glasses" (thread 1a2043a4cd62f393) — Meta AI glasses/wearables BF promo, NOT GHP. 🚨🚨🚨 AMAZON BFCM DAY 5 LIVE (NOV 23). Thanksgiving 3 DAYS (NOV 26). 🚨🚨🚨 MAMMA MIA DAY 76 UNBREAKABLE ($12.69/sale, Thanksgiving 3 DAYS + BFCM DAY 5 — script NOW). 🚨🚨🚨 SYRUVIA 20% DAY 25 — est. $145.00 TOTAL FORFEITED ($5.80/day, BFCM LIVE). 🚨 URGENT IAN: Google Search Console 404 errors on goldenhomeproject.com (thread 1a1f2e8063f1df6d, flagged Nov 19 — UNRESOLVED DAY 5, BFCM Day 5 traffic LIVE). 🆕 BIG WALL DECOR US — Awin invitation pending IAN acceptance (ON-NICHE ~10%, $400 AOV, holiday bonus). Gater DAY 37 — LONGEST 2026 GAP EVER, all competitor slots uncovered. Christmas 33 DAYS.
