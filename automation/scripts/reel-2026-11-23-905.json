@@ -1,0 +1,60 @@
+{
+  "created_at": "2026-11-23T20:47:23.224710Z",
+  "date": "2026-11-23",
+  "seq": 905,
+  "source": "repurpose",
+  "hook": "$19.99 trick that makes my entryway match my tree",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "A fully decorated 7.5-foot tree in the living room, camera pans to a bare entry table nearby",
+      "on_screen_text": "My tree was styled. My entryway wasn't.",
+      "voiceover": "My living room tree looked great. My entryway table looked like an afterthought."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "PEIDUO 2ft birch tree with built-in warm-white LED lights on an entry table, price tag $19.99 visible",
+      "on_screen_text": "$19.99 birch tree, lights built in",
+      "voiceover": "I grabbed a $19.99 birch accent tree that already has warm-white LEDs built into the branches \u2014 no separate light layer needed."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Hands applying leftover velvet ribbon and 2-3 ornament clusters from the same bundle onto the small birch tree",
+      "on_screen_text": "Leftover ribbon + 2-3 clusters",
+      "voiceover": "I used the leftover ribbon and a couple of ornament clusters from the same $34 bundle I already bought for the big tree."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Side-by-side of the mismatched-color accent tree scenario vs. the matching-palette accent tree scenario",
+      "on_screen_text": "Mismatched = two decisions. Matched = one plan.",
+      "voiceover": "A mismatched accent tree in different colors reads as two separate decorating decisions. Repeating the same palette reads as one plan."
+    },
+    {
+      "n": 5,
+      "duration_sec": 3,
+      "visual_prompt": "Wide shot showing both the living room tree and entryway accent tree in the same frame, same color palette",
+      "on_screen_text": "Under $5 extra material cost",
+      "voiceover": "Since most of the bundle's already used on the big tree, this second surface cost me under $5 in extra material."
+    },
+    {
+      "n": 6,
+      "duration_sec": 2,
+      "visual_prompt": "Text card with blog link graphic",
+      "on_screen_text": "Full cost breakdown on the blog",
+      "voiceover": "Full math's on the blog."
+    }
+  ],
+  "caption": "Boutique stagers don't rely on one expensive piece \u2014 they repeat the same 2-3 colors across every surface in a room. Here's how I stretched a $34 bundle into a second styled spot for under $5 more.",
+  "hashtags": [
+    "#christmasdecorideas",
+    "#entrywaydecor",
+    "#birchtree",
+    "#budgetchristmasdecor",
+    "#holidaydecorating",
+    "#boutiquestyle"
+  ]
+}

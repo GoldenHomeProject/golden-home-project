@@ -1,0 +1,60 @@
+{
+  "created_at": "2026-11-23T20:47:23.224640Z",
+  "date": "2026-11-23",
+  "seq": 904,
+  "source": "repurpose",
+  "hook": "I wrapped $34 worth of ribbon wrong for 3 years",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "A tree with ribbon wrapped in a tight single helix, looking like a candy cane",
+      "on_screen_text": "This is the 'candy cane' mistake",
+      "voiceover": "For three years I wrapped ribbon in one tight helix. It always came out looking like a candy cane."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Diagram overlay showing diagonal spiral starting points offset by roughly 30 degrees between each wrap",
+      "on_screen_text": "Offset each spiral by ~30\u00b0",
+      "voiceover": "The fix is offsetting where each spiral starts by about 30 degrees from the one above it."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Close-up of ribbon with a pre-attached floral wire being twisted around a branch to secure it",
+      "on_screen_text": "Secure every 12-18 inches",
+      "voiceover": "Start at the top third, run it diagonally down, and secure it to a branch every 12 to 18 inches with the wire that's already attached to the ribbon."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Side-by-side of wired satin ribbon fraying and catching light vs. velvet ribbon with a clean cut edge",
+      "on_screen_text": "Velvet doesn't fray. Satin does.",
+      "voiceover": "Velvet doesn't fray at a cut edge, so there's no finishing. Wired satin catches light at every hard point and needs the wire reshaped at every loop."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Hands counting out 3-4 full spirals top to base on a 7.5-foot tree",
+      "on_screen_text": "3-4 spirals for 7.5ft, 2 for 5ft and under",
+      "voiceover": "Three to four full spirals cover a 7.5-foot tree. Two is plenty for anything 5 feet or under."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Finished tree with evenly offset diagonal ribbon, no candy-cane pattern visible",
+      "on_screen_text": "No more candy cane tree",
+      "voiceover": "Same ribbon, same tree, completely different result."
+    }
+  ],
+  "caption": "I've been wrapping ribbon wrong since I started decorating my own tree. The spiral technique that actually avoids the candy-cane look, plus the wire-securing math nobody tells you \u2014 full breakdown on the blog.",
+  "hashtags": [
+    "#ribbontechnique",
+    "#christmastreeribbon",
+    "#velvetribbon",
+    "#treedecoratingtips",
+    "#diychristmas",
+    "#boutiquechristmastree"
+  ]
+}

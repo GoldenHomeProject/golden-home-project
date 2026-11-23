@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-11-23T20:47:23.224467Z",
+  "date": "2026-11-23",
+  "seq": 902,
+  "source": "repurpose",
+  "hook": "My $40 ornament box still looked bare. Here's why.",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Overhead shot of an open 40-piece ornament box next to a 7.5-foot tree",
+      "on_screen_text": "40 ornaments. Still looks bare. Why?",
+      "voiceover": "I bought a 40-piece ornament box thinking that would be plenty."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Graphic overlay counting branch tips on the tree, number ticking up to 500+",
+      "on_screen_text": "500+ branch tips on a 7.5ft tree",
+      "voiceover": "Turns out a 7.5-foot tree has over 500 branch tips. 40 ornaments spread across that reads as empty no matter how evenly you hang them."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Side-by-side comparison: ornaments hung one at a time vs. ornaments wired into clusters of three",
+      "on_screen_text": "It's a volume problem, not a taste problem",
+      "voiceover": "It's not that the ornaments are ugly. It's that there aren't enough of them, and there's no mid-layer between the lights and the ornaments."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Hand unspooling a velvet ribbon bundle, measuring tape showing 27 feet laid out",
+      "on_screen_text": "The fix: 27 ft of velvet ribbon",
+      "voiceover": "A $34 bundle ships with about 27 feet of ribbon \u2014 that's the standard length for a 3-to-4-wrap spiral on a tree this size."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Ribbon being wrapped diagonally, filling the visible gaps between ornament clusters",
+      "on_screen_text": "Ribbon fills the gaps the eye catches",
+      "voiceover": "The eye picks up negative space between ornaments faster than it picks up color. Ribbon fills exactly that space."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Finished tree, full and layered, camera slowly zooms out",
+      "on_screen_text": "Same ornaments. Just sequenced right.",
+      "voiceover": "Same ornaments I already owned. I just added the ribbon and clustered them instead of hanging them one at a time."
+    },
+    {
+      "n": 7,
+      "duration_sec": 2,
+      "visual_prompt": "Text card with blog URL style graphic",
+      "on_screen_text": "Full breakdown on the blog",
+      "voiceover": "Full math is on the blog, link in bio."
+    }
+  ],
+  "caption": "If your tree looks sparse, it's not your ornaments' fault. I did the actual branch-tip math on why a 40-piece box can't fill a 7.5-foot tree, and what a $34 ribbon bundle fixes that more ornaments wouldn't.",
+  "hashtags": [
+    "#christmastreehacks",
+    "#treedecoratingtips",
+    "#velvetribbon",
+    "#holidaydecorideas",
+    "#christmastreeideas",
+    "#budgetdecor"
+  ]
+}

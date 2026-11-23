@@ -10710,5 +10710,91 @@
     },
     "hook": "Watch the kitchen scissors finally get their own sheath",
     "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-23-001.mp4"
+  },
+  {
+    "name": "reel_repurpose_2026-11-23_901",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-23-901.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "I almost paid a stylist $500 to fix my tree. Then I did the math on a $34 ribbon bundle instead. Breaking down exactly what's in it, what has to go on first, and why the ornament math actually matters \u2014 full writeup on the blog.",
+    "hashtags": [
+      "#christmastreedecorating",
+      "#ribbontree",
+      "#boutiquechristmastree",
+      "#christmasdecorhacks",
+      "#treestyling",
+      "#diyholidaydecor",
+      "#christmaslights2026"
+    ],
+    "hook": "I spent $34 instead of $500 on my Christmas tree"
+  },
+  {
+    "name": "reel_repurpose_2026-11-23_902",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-23-902.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "If your tree looks sparse, it's not your ornaments' fault. I did the actual branch-tip math on why a 40-piece box can't fill a 7.5-foot tree, and what a $34 ribbon bundle fixes that more ornaments wouldn't.",
+    "hashtags": [
+      "#christmastreehacks",
+      "#treedecoratingtips",
+      "#velvetribbon",
+      "#holidaydecorideas",
+      "#christmastreeideas",
+      "#budgetdecor"
+    ],
+    "hook": "My $40 ornament box still looked bare. Here's why."
+  },
+  {
+    "name": "reel_repurpose_2026-11-23_903",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-23-903.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Everyone skips this step because it's invisible once the tree is done \u2014 but it's the reason some trees look dim under all that ribbon. The light layer that has to go on first, and the exact strand count for a 7.5-foot tree.",
+    "hashtags": [
+      "#christmaslights",
+      "#treedecoratingtips",
+      "#minetom",
+      "#warmwhitelights",
+      "#christmastreehacks",
+      "#holidaydecorideas"
+    ],
+    "hook": "The $8.98 lights everyone skips before ribbon"
+  },
+  {
+    "name": "reel_repurpose_2026-11-23_904",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-23-904.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "I've been wrapping ribbon wrong since I started decorating my own tree. The spiral technique that actually avoids the candy-cane look, plus the wire-securing math nobody tells you \u2014 full breakdown on the blog.",
+    "hashtags": [
+      "#ribbontechnique",
+      "#christmastreeribbon",
+      "#velvetribbon",
+      "#treedecoratingtips",
+      "#diychristmas",
+      "#boutiquechristmastree"
+    ],
+    "hook": "I wrapped $34 worth of ribbon wrong for 3 years"
+  },
+  {
+    "name": "reel_repurpose_2026-11-23_905",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-23-905.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Boutique stagers don't rely on one expensive piece \u2014 they repeat the same 2-3 colors across every surface in a room. Here's how I stretched a $34 bundle into a second styled spot for under $5 more.",
+    "hashtags": [
+      "#christmasdecorideas",
+      "#entrywaydecor",
+      "#birchtree",
+      "#budgetchristmasdecor",
+      "#holidaydecorating",
+      "#boutiquestyle"
+    ],
+    "hook": "$19.99 trick that makes my entryway match my tree"
   }
 ]

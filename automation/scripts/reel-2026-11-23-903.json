@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-11-23T20:47:23.224565Z",
+  "date": "2026-11-23",
+  "seq": 903,
+  "source": "repurpose",
+  "hook": "The $8.98 lights everyone skips before ribbon",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "A fully ribboned and ornamented tree that still looks dim and flat despite the decorations",
+      "on_screen_text": "Why does this tree look flat?",
+      "voiceover": "I almost blamed the ribbon for this. It wasn't the ribbon."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Close-up comparing a 50-bulb light strand (only covering outer tips) to a 100-bulb strand threaded into interior branches",
+      "on_screen_text": "5 bulbs/ft vs. 2.5 bulbs/ft",
+      "voiceover": "It was the lights. A 50-bulb strand only lights the outer third of the tree. These Minetom strands run 5 bulbs per foot, dense enough to reach the interior."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Product shot of Minetom Clear Christmas String Lights box, 100 count, 20 feet, $8.98 price tag visible",
+      "on_screen_text": "$8.98, 4.6 stars, 8,579 ratings",
+      "voiceover": "These run $8.98 for 100 count, 20 feet, and they're sitting at 4.6 stars across more than 8,500 ratings."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Hands threading a warm-white strand from trunk outward through multiple branch layers, 4-5 strands laid out",
+      "on_screen_text": "4-5 strands for a 7.5ft tree",
+      "voiceover": "For a 7.5-foot tree, that's 4 to 5 of these 20-foot strands threaded from the trunk outward, before a single piece of ribbon goes on."
+    },
+    {
+      "n": 5,
+      "duration_sec": 4,
+      "visual_prompt": "Side-by-side of cool-white LED vs warm-white incandescent light under velvet ribbon",
+      "on_screen_text": "Warm-white makes velvet ribbon 'pop'",
+      "voiceover": "Warm-white specifically \u2014 cool-white LED makes velvet ribbon look flat instead of rich."
+    },
+    {
+      "n": 6,
+      "duration_sec": 3,
+      "visual_prompt": "Finished tree glowing warmly under full ribbon and ornament clusters",
+      "on_screen_text": "You can't fix this layer after the fact",
+      "voiceover": "This is the one layer you can't go back and fix without undoing everything you put on top of it."
+    },
+    {
+      "n": 7,
+      "duration_sec": 2,
+      "visual_prompt": "Text card pointing to blog link",
+      "on_screen_text": "Full light layer math on the blog",
+      "voiceover": "Full breakdown's on the blog."
+    }
+  ],
+  "caption": "Everyone skips this step because it's invisible once the tree is done \u2014 but it's the reason some trees look dim under all that ribbon. The light layer that has to go on first, and the exact strand count for a 7.5-foot tree.",
+  "hashtags": [
+    "#christmaslights",
+    "#treedecoratingtips",
+    "#minetom",
+    "#warmwhitelights",
+    "#christmastreehacks",
+    "#holidaydecorideas"
+  ]
+}
