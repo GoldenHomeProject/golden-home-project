@@ -1,12 +1,12 @@
 {
- "captured_at": "2026-11-22T10:41:02+00:00",
+ "captured_at": "2026-11-23T10:40:59+00:00",
  "items": [
   {
    "asin": "B0711RQMNF",
    "name": "Amazon Basics Collapsible Fabric Storage Cubes Organizer with Handles, Sturdy Storage Bins for Organization, 10.5\" x 10.",
    "price": "$15.14",
    "rating": 4.7,
-   "reviews": 120906,
+   "reviews": 120918,
    "rank": 1,
    "category": "Home Storage",
    "source": "bestsellers"
@@ -26,19 +26,9 @@
    "name": "TICONN 6 Pack Extra Large Moving Bags Heavy Duty with Zippers & Carrying Handles, Durable Storage Bags Moving Boxes for ",
    "price": "$20.21",
    "rating": 4.8,
-   "reviews": 47046,
+   "reviews": 47053,
    "rank": 4,
    "category": "Home Storage",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B08J8GZXKZ",
-   "name": "KITCHENAID Ribbed Soft Silicone Oven Mitt 2-Pack Set, 7.5\"x13\", Milkshake Tan",
-   "price": "$11.49",
-   "rating": 4.7,
-   "reviews": 14573,
-   "rank": 7,
-   "category": "Kitchen",
    "source": "bestsellers"
   },
   {
@@ -46,8 +36,18 @@
    "name": "PriorityChef Large 15oz Potato Ricer, Heavy Duty Stainless Steel Potato Masher and Ricer Kitchen Tool, Press and Mash Ki",
    "price": "$27.99",
    "rating": 4.6,
-   "reviews": 15097,
-   "rank": 9,
+   "reviews": 15100,
+   "rank": 7,
+   "category": "Kitchen",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B08J8GZXKZ",
+   "name": "KITCHENAID Ribbed Soft Silicone Oven Mitt 2-Pack Set, 7.5\"x13\", Milkshake Tan",
+   "price": "$11.49",
+   "rating": 4.7,
+   "reviews": 14587,
+   "rank": 8,
    "category": "Kitchen",
    "source": "bestsellers"
   },
@@ -56,8 +56,8 @@
    "name": "KitchenAid Classic Multifunction Can Opener and Bottle Opener Easy to Use, Razor Sharp Stainless Steel Cutting Wheel, So",
    "price": "$11.99",
    "rating": 4.6,
-   "reviews": 92786,
-   "rank": 11,
+   "reviews": 92801,
+   "rank": 10,
    "category": "Kitchen",
    "source": "bestsellers"
   },
@@ -66,7 +66,7 @@
    "name": "KitchenAid All Purpose Kitchen Shears with Protective Sheath Durable Stainless Steel Scissors, Dishwasher Safe, Soft Gri",
    "price": "$6.99",
    "rating": 4.8,
-   "reviews": 73171,
+   "reviews": 73181,
    "rank": 15,
    "category": "Kitchen",
    "source": "bestsellers"
@@ -76,7 +76,17 @@
    "name": "Etekcity Food Kitchen Scale, Digital Grams and Ounces, 11lb | Tare function, ideal for baking, weight loss, keto, meal p",
    "price": "$9.99",
    "rating": 4.6,
-   "reviews": 178571,
+   "reviews": 178584,
+   "rank": 16,
+   "category": "Kitchen",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B0F5X4FM3Q",
+   "name": "0.5 Sec Instant Read Meat Thermometer Digital for Cooking, Red | NIST \u00b10.5\u2109 Precision Food Thermometer, Kitchen Gadgets ",
+   "price": "$15.99",
+   "rating": 4.8,
+   "reviews": 8880,
    "rank": 17,
    "category": "Kitchen",
    "source": "bestsellers"
@@ -86,38 +96,8 @@
    "name": "Crock-Pot Oval Manual Slow Cooker, Stainless Steel, 7-Quart | 7-Quart Capacity, Serves 8+ People, High/Low Cook Settings",
    "price": "$31.99",
    "rating": 4.6,
-   "reviews": 63267,
-   "rank": 21,
-   "category": "Kitchen",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B0F5X4FM3Q",
-   "name": "0.5 Sec Instant Read Meat Thermometer Digital for Cooking, Red | NIST \u00b10.5\u2109 Precision Food Thermometer, Kitchen Gadgets ",
-   "price": "$15.99",
-   "rating": 4.8,
-   "reviews": 8876,
-   "rank": 23,
-   "category": "Kitchen",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B08J8H7BQG",
-   "name": "KitchenAid Ribbed Soft Silicone Pot Holder 2-Pack Set, Milkshake Tan, 7\"x9\"",
-   "price": "$8.10",
-   "rating": 4.6,
-   "reviews": 10993,
-   "rank": 24,
-   "category": "Kitchen",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B0B6PLG6G2",
-   "name": "125Pcs 8 Inch Square Air Fryer Liners Disposable for 5-8QT, Parchment Paper | Non-Stick, Unbleached Food Grade, Waterpro",
-   "price": "$8.49",
-   "rating": 4.6,
-   "reviews": 34359,
-   "rank": 26,
+   "reviews": 63282,
+   "rank": 18,
    "category": "Kitchen",
    "source": "bestsellers"
   },
@@ -126,8 +106,8 @@
    "name": "Geedel Rotary Cheese Grater Hand Crank, Cheese Shredder Vegetable Slicer | 3 Blades, 430 Stainless Steel, 12x Fast Cutti",
    "price": "$23.98",
    "rating": 4.6,
-   "reviews": 39982,
-   "rank": 27,
+   "reviews": 39989,
+   "rank": 26,
    "category": "Kitchen",
    "source": "bestsellers"
   },
@@ -136,9 +116,49 @@
    "name": "SONGMICS Storage Cubes, Set of 6, 11-Inch Foldable Closet Organizers | Non-Woven Fabric Bins with Double Handles, for Sh",
    "price": "$16.13",
    "rating": 4.7,
-   "reviews": 14151,
-   "rank": 27,
+   "reviews": 14153,
+   "rank": 26,
    "category": "Home Storage",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B0CNQRH1K4",
+   "name": "KEOUKE Rotary Cheese Grater, Hand Crank Shredder Slicer | 3 Blades, 430 Stainless Steel, Labor-Saving, Time-saving, Stab",
+   "price": "$22.79",
+   "rating": 4.6,
+   "reviews": 5539,
+   "rank": 27,
+   "category": "Kitchen",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B08J8H7BQG",
+   "name": "KitchenAid Ribbed Soft Silicone Pot Holder 2-Pack Set, Milkshake Tan, 7\"x9\"",
+   "price": "$8.10",
+   "rating": 4.6,
+   "reviews": 11000,
+   "rank": 28,
+   "category": "Kitchen",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B096LQZ99N",
+   "name": "Cambom Rotary Cheese Grater Hand Crank Cheese Shredder, Black | for Fresh Cheese, Vegetable, Nuts,Non-slip Suction Base,",
+   "price": "$22.91",
+   "rating": 4.5,
+   "reviews": 33073,
+   "rank": 29,
+   "category": "Kitchen",
+   "source": "bestsellers"
+  },
+  {
+   "asin": "B0B6PLG6G2",
+   "name": "125Pcs 8 Inch Square Air Fryer Liners Disposable for 5-8QT, Parchment Paper | Non-Stick, Unbleached Food Grade, Waterpro",
+   "price": "$8.49",
+   "rating": 4.6,
+   "reviews": 34366,
+   "rank": 33,
+   "category": "Kitchen",
    "source": "bestsellers"
   },
   {
@@ -146,18 +166,8 @@
    "name": "FoodSaver Custom Length Vacuum Sealer Bags Multipack, 5 Count Rolls for Airtight Food Storage and Sous Vide - Compatible",
    "price": "$27.99",
    "rating": 4.8,
-   "reviews": 62227,
-   "rank": 32,
-   "category": "Kitchen",
-   "source": "bestsellers"
-  },
-  {
-   "asin": "B0CJF94M8J",
-   "name": "TrendPlain 16oz Olive Oil Sprayer for Cooking, Silicone Pad, Black | Olive Oil Dispenser Bottle, Oil Dispenser For Kitch",
-   "price": "$7.59",
-   "rating": 4.6,
-   "reviews": 50490,
-   "rank": 34,
+   "reviews": 59418,
+   "rank": 35,
    "category": "Kitchen",
    "source": "bestsellers"
   },
@@ -166,8 +176,8 @@
    "name": "Rubbermaid Brilliance Plastic Airtight Food Storage Container, 12-Cup | Airtight Seal Keeps Foods Fresh, Shatter-Resista",
    "price": "$10.99",
    "rating": 4.8,
-   "reviews": 30034,
-   "rank": 36,
+   "reviews": 30040,
+   "rank": 37,
    "category": "Kitchen",
    "source": "bestsellers"
   }
