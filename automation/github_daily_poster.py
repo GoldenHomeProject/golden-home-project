@@ -428,8 +428,20 @@ def refresh_yt_token(token_path):
     raise RuntimeError(f"Token refresh failed: {result}")
 
 
+def deals_line(src):
+    """Black Friday - Cyber Monday 2026: one line pointing at /r/deals (deals_page.py, every
+    price drop we verified on today's chart). Empty outside Nov 25-30."""
+    d = today_str()
+    if not ("2026-11-25" <= d <= "2026-11-30"):
+        return ""
+    return f"🏷️ Black Friday: home deals we price-tracked ourselves → goldenhomeproject.com/r/deals?src={src}"
+
+
 def build_description(title, products, tag, channel="yt"):
-    lines = [title, "", "🔥 SHOP THESE PRODUCTS:"]
+    lines = [title, ""]
+    if deals_line("yt"):
+        lines += [deals_line("yt"), ""]
+    lines += ["🔥 SHOP THESE PRODUCTS:"]
     for i, p in enumerate(products):
         lines.append(f"#{i+1} {p['name']} — {p['price']}")
         lines.append(f"   ➡️ {amazon(p['asin'], tag, channel=channel)}")
@@ -678,6 +690,10 @@ def main():
         # "link in bio" led to a page with no product links at all).
         if "From our videos" not in ig_caption:
             note = "\n\n🔗 This product: tap the link in our bio → 'From our videos' at the top."
+            i = ig_caption.find("\n#")
+            ig_caption = ig_caption[:i] + note + ig_caption[i:] if i > 0 else ig_caption + note
+        if deals_line("ig") and "/r/deals" not in ig_caption:
+            note = "\n\n" + deals_line("ig")
             i = ig_caption.find("\n#")
             ig_caption = ig_caption[:i] + note + ig_caption[i:] if i > 0 else ig_caption + note
         ig_id = post_ig_reel(video_file, ig_caption, meta_tokens, video_dir=video_dir)
