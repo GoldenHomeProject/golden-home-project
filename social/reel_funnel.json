@@ -268,5 +268,24 @@
     "band": "Under $10"
    }
   ]
+ },
+ "COOKING": {
+  "date": "2026-11-24",
+  "reel": "v2-deals-20261124-0906.mp4",
+  "page": "https://goldenhomeproject.com/r/cooking",
+  "format": "deals",
+  "posted": false,
+  "items": [
+   {
+    "asin": "B079M8FPTW",
+    "type": "Food Storage Containers",
+    "band": "Under $25"
+   },
+   {
+    "asin": "B0113UZJE2",
+    "type": "Digital Food Scale",
+    "band": "Under $10"
+   }
+  ]
  }
 }
