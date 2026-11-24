@@ -5711,6 +5711,53 @@
         ],
         "reel_format": "pov"
       }
+    ],
+    "GLASS": [
+      {
+        "hook_category": "scene",
+        "hook": "You squint at the scale before your glasses are on.",
+        "beat1": "Bathroom lighting is never great first thing in the morning, and most scales use a small gray screen that disappears against tile. You end up leaning down, squinting, or turning on the bright overhead light just to see two digits.",
+        "turn": "This one has a large blue backlit LCD display, so the number shows up clearly even half-asleep, and a 6mm tempered glass top that holds up to 400 lbs. It has nearly 188,000 reviews at 4.7 stars, mostly people happy they can actually read the thing.",
+        "result": "No more hunting for your glasses or hitting the light switch just to check a number, and it's about $16.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "A barefoot person stepping onto a bathroom scale in dim early morning light, glasses still in hand, bathroom tile floor visible",
+            "on_screen_text": "Can't read the scale yet",
+            "voiceover": "You squint at the scale before your glasses are on."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Close-up of feet on an old dim digital scale display in a shadowy bathroom, the numbers barely visible",
+            "on_screen_text": "Small screens disappear in low light",
+            "voiceover": "Bathroom light is never great in the morning, and a small gray screen just blends into the tile until you lean way down to see it."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Hands placing a sleek glass bathroom scale onto the floor, a bright blue glowing display visible on its surface",
+            "on_screen_text": "Large blue backlit display",
+            "voiceover": "This one has a big blue backlit display and tempered glass built to hold up to four hundred pounds."
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "A person standing fully on the glass scale, the glowing blue number clearly visible even in a dim bathroom",
+            "on_screen_text": "Nearly 188,000 reviews, 4.7 stars",
+            "voiceover": "It's sitting at nearly one hundred eighty eight thousand reviews and 4.7 stars, mostly from people glad they can finally just glance down and read it."
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "Feet stepping off the scale as it sits neatly in the corner of a clean bathroom, soft morning light coming through a window",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "No more hunting for your glasses to check a number, and it's about sixteen dollars. Comment {KEYWORD} and I'll send the link."
+          }
+        ],
+        "reel_format": "problem_fix"
+      }
     ]
   },
   "hashtag_pools": {
