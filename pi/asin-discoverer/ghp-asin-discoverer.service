@@ -10,7 +10,7 @@ Wants=network-online.target
 Type=oneshot
 WorkingDirectory=%h/golden-home-project
 # Pull fresh trend_feed.json from main before discovery. Quiet on success.
-ExecStartPre=/usr/bin/git -C %h/golden-home-project pull --quiet --rebase origin main
+ExecStartPre=-/usr/bin/git -C %h/golden-home-project -c rebase.autoStash=true pull --quiet --rebase origin main
 # xvfb-run gives Playwright a display even when no one is logged into the desktop.
 ExecStart=/usr/bin/xvfb-run -a %h/.ghp-asin-discoverer/venv/bin/python automation/asin_discoverer.py
 # Commit + push only if the registry actually changed. Retry push 3x to absorb

@@ -9,7 +9,7 @@ Wants=network-online.target
 [Service]
 Type=oneshot
 WorkingDirectory=%h/golden-home-project
-ExecStartPre=/usr/bin/git -C %h/golden-home-project pull --quiet --rebase origin main
+ExecStartPre=-/usr/bin/git -C %h/golden-home-project -c rebase.autoStash=true pull --quiet --rebase origin main
 ExecStart=/usr/bin/xvfb-run -a %h/.ghp-engagement/venv/bin/python automation/comment_on_targets.py --max 2
 # Commit + push only if engagement_log actually changed.
 # Stash-pop wrapper around rebase to survive race with other Pi bots.

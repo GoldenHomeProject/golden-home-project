@@ -87,7 +87,27 @@ def check_reels() -> dict:
             "detail": f"{newest.stem.replace('gh_post_', '')} -> {'+'.join(plats) or 'none?'}"}
 
 
+def check_trending() -> dict:
+    """Daily best-seller roundup (ghp-trending) pushed within 36 h. It crashed every day
+    2026-11-05..11-23 (missing Pillow in its venv) while the Blog check stayed green,
+    because other jobs keep adding blog posts."""
+    import subprocess
+    r = subprocess.run(["git", "-C", str(REPO), "log", "-1", "--format=%ct",
+                        "--grep=trending: daily best-seller roundup"],
+                       capture_output=True, text=True)
+    try:
+        ts = int(r.stdout.strip())
+    except ValueError:
+        return {"name": "Trending", "ok": False, "detail": "no roundup commit found"}
+    from datetime import datetime, timezone
+    age = (datetime.now(timezone.utc) - datetime.fromtimestamp(ts, timezone.utc)).total_seconds() / 3600
+    when = datetime.fromtimestamp(ts).strftime("%Y-%m-%d")
+    return {"name": "Trending", "ok": age <= 36, "detail": f"last roundup {when} ({age:.0f}h)"}
+
+
 def check_youtube_bridge() -> dict:
+    """RETIRED 2026-11-24: the presenter -> Shorts bridge stopped in June; Shorts now post
+    daily through the GitHub daily poster, which check_reels covers. Kept for reference."""
     """Presenter reel -> YouTube Shorts upload marker within 48h."""
     qdir = REPO / "social" / "reels" / "presenter"
     marks = sorted(qdir.glob("reel-*.uploaded")) if qdir.exists() else []
@@ -133,7 +153,7 @@ def ntfy(title: str, body: str, priority: str, tags: str) -> None:
 
 
 def main() -> int:
-    checks = [check_pinterest(), check_reels(), check_youtube_bridge(), check_blog()]
+    checks = [check_pinterest(), check_reels(), check_trending(), check_blog()]
     stale = [c for c in checks if not c["ok"]]
     date = NOW.strftime("%Y-%m-%d")
 

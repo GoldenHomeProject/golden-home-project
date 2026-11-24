@@ -225,19 +225,28 @@ def scrape_bestsellers(nodes) -> list[dict]:
                         "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"),
             viewport={"width": 1440, "height": 2400}, locale="en-US")
         page = ctx.new_page()
-        for label, group, url in nodes:
-            try:
-                page.goto(url, timeout=45000, wait_until="domcontentloaded")
-                page.wait_for_timeout(2500)
-                page.mouse.wheel(0, 4000)          # trigger lazy-load of the grid
-                page.wait_for_timeout(1500)
-                recs = page.evaluate(EXTRACT_JS) or []
-                for r in recs:
-                    r["cat_label"], r["cat_group"] = label, group
-                items.extend(recs)
-                print(f"  [scrape] {label}: {len(recs)} items")
-            except Exception as e:  # noqa: BLE001
-                print(f"  [scrape] {label}: FAILED — {e}")
+        # 2026-11-24: back-to-back loads timed out after the 2nd-3rd category (chart scan got
+        # 28 products instead of ~110). A pause between pages and one slower retry keeps
+        # the request rate polite; nothing here hides that it is automated.
+        for n, (label, group, url) in enumerate(nodes):
+            if n:
+                page.wait_for_timeout(8000)
+            for attempt in (1, 2):
+                try:
+                    page.goto(url, timeout=60000, wait_until="domcontentloaded")
+                    page.wait_for_timeout(2500)
+                    page.mouse.wheel(0, 4000)          # trigger lazy-load of the grid
+                    page.wait_for_timeout(1500)
+                    recs = page.evaluate(EXTRACT_JS) or []
+                    for r in recs:
+                        r["cat_label"], r["cat_group"] = label, group
+                    items.extend(recs)
+                    print(f"  [scrape] {label}: {len(recs)} items")
+                    break
+                except Exception as e:  # noqa: BLE001
+                    print(f"  [scrape] {label}: FAILED (try {attempt}) — {str(e)[:80]}")
+                    if attempt == 1:
+                        page.wait_for_timeout(30000)
         browser.close()
     return items
 
@@ -389,7 +398,11 @@ def _benefits(p: dict) -> list[str]:
     count, the chart rank, and a size or count only if the listing title states it."""
     import sys as _sys
     _sys.path.insert(0, str(Path(__file__).resolve().parent))
-    from brand_ab import tape_text
+    try:
+        from brand_ab import tape_text   # imports PIL; the trending venv lacked it 11/05-11/24
+    except ImportError:
+        def tape_text(_t):
+            return ""
     lines = []
     if p.get("rating") and p.get("reviews"):
         lines.append(f"Rated {p['rating']}\u2605 across {int(p['reviews']):,} ratings")
