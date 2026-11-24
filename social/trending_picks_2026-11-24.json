@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-11-24",
+  "category": "Bath",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-bathroom-essentials.html",
+  "picks": [
+    {
+      "asin": "B08QRFZ6TH",
+      "name": "Barossa Design Oeko-tex Certified Shower Curtain Liner Standard Size",
+      "price": "$8.49",
+      "rating": 4.5,
+      "reviews": 103277,
+      "rank": 1
+    },
+    {
+      "asin": "B01HI1W1V4",
+      "name": "Etekcity Digital Body Weight Bathroom Scale",
+      "price": "$15.98",
+      "rating": 4.7,
+      "reviews": 187720,
+      "rank": 19
+    },
+    {
+      "asin": "B08S31RWBK",
+      "name": "Hicober Microfiber Hair Towel Wrap for Women",
+      "price": "$9.49",
+      "rating": 4.6,
+      "reviews": 35549,
+      "rank": 26
+    },
+    {
+      "asin": "B075L81JP5",
+      "name": "Aquabliss SFC100 Daily Revitalize Shower Filter Replacement Cartridge",
+      "price": "$16.14",
+      "rating": 4.7,
+      "reviews": 20904,
+      "rank": 28
+    },
+    {
+      "asin": "B08WPQ12XX",
+      "name": "AquaCare 8-mode High Pressure Handheld Shower Head with 2-mode Power W",
+      "price": "$25.45",
+      "rating": 4.5,
+      "reviews": 51155,
+      "rank": 33
+    },
+    {
+      "asin": "B08CRPWQHB",
+      "name": "BigFoot Clear Shower Curtain",
+      "price": "$9.48",
+      "rating": 4.5,
+      "reviews": 60410,
+      "rank": 2
+    }
+  ]
+}
