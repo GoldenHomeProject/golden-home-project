@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-11-24 (Email Monitor 8am)
+# Last updated: 2026-11-24 (Strategy & Outreach 9am)
 # ============================================================
 
 ---
@@ -5761,3 +5761,19 @@ Mamma Mia 24-30% DAY 75 UNBREAKABLE ($12.69/sale, BFCM DAY 4 + Thanksgiving 4 da
 - Syruvia: **DAY 26 — est. $150.80 total forfeited** (was DAY 25, +$5.80)
 - Google Search Console 404: **UNRESOLVED DAY 6** (was Day 5)
 - Big Wall Decor US Awin: **DAY 7 pending** (was DAY 6)
+
+### November 2026 Visual Trend Insights (updated 2026-11-24 Strategy & Outreach 9am):
+- **Ralph Lauren Christmas aesthetic — DOMINANT TikTok/YouTube trend, confirmed carrying into 2026.** TikTok search volume up 600%+ YoY; Pinterest "DIY christmas decorations easy" up 680%; "vintage Christmas wallpaper" up 900%; "whimsical Christmas decor" up 810%. Core look: forest green tartan/plaid, deep red bows, velvet textures, brass taper candles, pine garlands, old-money warmth. RENTER BUDGET VERSION is completely uncovered by any creator. Budget: plaid throw ($18-24) + velvet wreath ($14-18) + brass taper holders ($12-16) + deep red bow ($8-12) = ~$47. After-first format: styled warm living room AFTER → sterile rental BEFORE → product reveal. Amazon goldenhomep0a-20 ready. Hook: "Same rental apartment. $47. Ralph Lauren would approve." Zero GHP and zero competitor coverage confirmed.
+- **Winter front porch decor — Pinterest searches UP 975% since September, peak save window IS RIGHT NOW.** Renter-safe angle: battery lanterns + seasonal doormat + pine garland, no drilling. Thanksgiving 2 DAYS → seamless pivot to Christmas front porch is live TODAY. Budget: battery LED lanterns ($18-22) + doormat ($13) + wreath/garland ($12) = ~$43-47. After-first transformation: cozy lit porch AFTER → empty plain door BEFORE. Hook: "Same front door. $45. Same apartment building." Zero GHP coverage. Highest Pinterest save momentum of any home category RIGHT NOW.
+- **Christmas jewel tone bedroom reset (velvet textures) — peak Pinterest save window OPENED at start of BFCM, still climbing.** Dark jewel tones (burgundy, emerald, navy) confirmed by 5+ design editors as Christmas 2026 dominant palette (Homes & Gardens, Ideal Home, Country & Town House). Velvet duvet + velvet throw pillows = maximum visual transformation on camera. Budget ~$52-55. After-first: styled dark jewel tone bed AFTER → beige plain bed BEFORE. Hook: "Same bed frame. Same room. $55. Christmas came early." Pairs with ongoing dark cottagecore/dark aesthetics wave — dual-audience reach. Zero GHP coverage.
+- **Competitor watch (Nov 24):** Alexandra Gater: **NO NEW UPLOAD SINCE OCT 17 — CONFIRMED DAY 38, LONGEST 2026 GAP EVER** (prior record was ~25 days). Zero Christmas content from her. Nest With Me: crafts/knitting, not home decor. DIY Creators: woodworking only. Ralph Lauren Christmas renter budget version + winter front porch + Christmas bedroom jewel tone reset = ALL zero competitor coverage. The window is wide open.
+- **KEY BFCM context (Nov 24, Day 6):** Thanksgiving 2 DAYS. Christmas 32 DAYS. The pivot from "Thanksgiving hosting" to "Christmas decorating" happens THIS WEEKEND — content scripted today will catch both audiences.
+- **Amazon picks for Pinterest pipeline (Nov 24) — most likely to sell via Pinterest this BFCM/Christmas week:**
+  1. HOME DECOR: Plaid throw blanket (red/green/black buffalo check or tartan) ~$18-24 — Ralph Lauren Christmas trend exploding, peak Pinterest save velocity for plaid decor NOW, pairs with every living room/bedroom content slot; IAN: search "plaid throw blanket christmas red green tartan" in Associates for top ASIN; https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20
+  2. HOME DECOR: Battery-operated LED lantern outdoor pair ~$18-25 — Winter front porch decor searches up 975% on Pinterest (September → now), renter-safe (no installation), Thanksgiving 2 days → Christmas transition hook live TODAY; IAN: search "battery operated outdoor LED lantern farmhouse christmas" in Associates for top ASIN; https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20
+  3. BEDROOM: Burgundy or forest green velvet duvet cover set queen ~$34-45 — Christmas jewel tone bedroom reset, peak Pinterest save velocity NOW, dark aesthetic/dark cottagecore dual-audience overlap, highest AOV of the three picks; IAN: search "velvet duvet cover set queen burgundy forest green" in Associates for top ASIN; https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20
+
+**Content ideas proposed (Nov 24, Strategy & Outreach):**
+1. **"Ralph Lauren Christmas on a Renter Budget — $47"** — After-first transformation: styled plaid/velvet/brass living room AFTER → white rental BEFORE → product reveal. 4 products, goldenhomep0a-20 links. Hook: "Same rental apartment. $47. Ralph Lauren would approve." Aligns with #1 TikTok Christmas aesthetic, zero competitor coverage, Gater DAY 38 gap.
+2. **"Winter Front Porch Transformation — $45, No Drilling"** — After-first transformation: lit, festive porch AFTER → empty apartment door BEFORE. Battery lanterns + seasonal doormat + pine wreath. Hook: "Same front door. $45." Pinterest searches up 975% — script and pin TODAY.
+3. **"Christmas Bedroom Reset — $55, Same Bed Frame"** — After-first transformation: jewel-tone velvet bed AFTER → beige plain bed BEFORE. Velvet duvet + pillow covers + string lights. Hook: "Same bed frame. Same room. $55. Christmas came early." Peak Pinterest save window open NOW.
