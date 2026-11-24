@@ -24,6 +24,7 @@ import argparse
 import asyncio
 import json
 import math
+import os
 import random
 import re
 import subprocess
@@ -78,7 +79,12 @@ FORMATS = {
     "gift": dict(n=3, promise="Gifts under {band} they'll actually use", ask="giftable items"),
     "stop_doing": dict(n=3, promise="Stop doing this", ask="items that each replace a common "
                        "bad habit in one room"),
+    # BF/CM 2026-11-24: every candidate is on today's chart AND below its own 14-day median
+    # price in our daily snapshots (price_drops.py). The card shows the % from our data.
+    "deals": dict(n=3, promise="Black Friday deals we tracked", ask="items for ONE space that "
+                  "each just dropped in price"),
 }
+DEAL_MIN_PCT = 12
 
 
 # ------------------------------------------------------------------ script
@@ -113,6 +119,28 @@ def candidates(fmt: str) -> list[dict]:
         g = random.choice(list(guides.values()))
         return [dict(p, category="Gift") for p in g["picks"]]
     items = pp.chart_now()
+    if fmt == "deals":
+        drops = pp.price_drops_map()
+        items = [dict(i, pct=round(drops[i["asin"]]["pct"])) for i in items
+                 if i["asin"] in drops and drops[i["asin"]]["pct"] >= DEAL_MIN_PCT
+                 and (i.get("rating") or 0) >= 4.3 and (i.get("reviews") or 0) >= 1000]
+        # by ROOM, not chart category: "Window Treatments" alone gave 11 curtains, and a
+        # reel needs distinct kinds; at most 3 per category keeps the pool mixed
+        room = {"Kitchen": "kitchen", "Bedding": "bedroom", "Window Treatments": "bedroom",
+                "Home Décor": "bedroom", "Seasonal Décor": "living room", "Bath": "bathroom",
+                "Bath Linens": "bathroom", "Cleaning": "bathroom", "Home Storage": "closet",
+                "Home": "closet"}
+        by, per = {}, {}
+        for i in sorted(items, key=lambda i: -i["pct"]):
+            c = i["category"]
+            if per.get(c, 0) < 5:
+                per[c] = per.get(c, 0) + 1
+                by.setdefault(room.get(c, "home"), []).append(i)
+        rooms = [r for r, xs in by.items() if len(xs) >= 5]
+        want = os.environ.get("DEAL_ROOM", "")
+        if want in rooms:
+            return by[want][:12]
+        return by[random.choice(rooms)][:12] if rooms else sorted(items, key=lambda i: -i["pct"])[:12]
     if fmt == "renter":
         # no-install items count too (stock rarely films adhesive hooks; renter failed 11/06)
         items = [i for i in items if re.search(
@@ -171,7 +199,13 @@ def write_script(fmt: str, strict: bool = True) -> dict | None:
         "kind of product, so prefer items that are commonly filmed (hangers, baskets, bins, "
         "jars, towels, blankets, mugs, candles, lamps, plants, rugs, pillows, organizers on a "
         "shelf) over parts rarely filmed (rods, brackets, squeegees, hooks, adapters). "
-        "No first person, no claims beyond the titles, no prices or '$'.")
+        "No first person, no claims beyond the titles, no prices or '$'."
+        + (" This is a BLACK FRIDAY DEALS reel: every product listed really is priced below its "
+           "usual price right now (our own daily price tracking). The onscreen hook may instead "
+           "use the format 'Black Friday ...' (e.g. Black Friday deals your kitchen actually "
+           "needs). Item lines stay outcomes; never state a percentage or a discount in a line "
+           "(the on-screen card shows our tracked number), and never say 'lowest price ever'."
+           if fmt == "deals" else ""))
     if not got or len(got.get("items") or []) < spec["n"]:
         return None
     items, seen, kinds = [], set(), set()
@@ -198,6 +232,8 @@ def write_script(fmt: str, strict: bool = True) -> dict | None:
         items.append({**x, "asin": c["asin"], "name": c["name"], "rating": c.get("rating"),
                       "reviews": c.get("reviews"), "chart_rank": c.get("rank"),
                       "price": c.get("price"), "band": price_band(str(c.get("price") or ""))})
+        if c.get("pct"):                      # deals: the card pill shows our tracked drop
+            items[-1]["deal"] = f"Down {c['pct']}% · {items[-1]['band'].lower()}"
     # more ranked picks than slots: footage decides which ones make it (match_footage)
     if len(items) < spec["n"] + (2 if strict else 0):
         print(f"  [v2] only {len(items)} usable picks ranked")
@@ -265,7 +301,7 @@ def _promise(fmt: str, items: list) -> str:
 def _taken_keywords(days: int = 60, fmt: str = "") -> set:
     """Keywords the comment-reply bot already answers: registry (one product each) and
     reel keywords from the last `days` (each answers with that reel's own page)."""
-    taken = set()
+    taken = {"DEALS"}                         # /r/deals is deals_page.py's daily page
     try:
         reg = json.loads((ROOT / "social" / "dm_keyword_registry.json").read_text())
         taken |= {str(e.get("keyword") or "").upper() for e in reg.get("entries", [])}
@@ -700,7 +736,7 @@ def item_card(it: dict, n: int, out: Path) -> Path:
     for ln in lines:
         d.text((x0 + 130, y), ln, font=tf, fill=(255, 255, 255))
         y += 72
-    band = it["band"]
+    band = it.get("deal") or it["band"]
     bw = d.textlength(band, font=cf)
     d.rounded_rectangle([x0 + 130, y + 10, x0 + 130 + bw + 44, y + 70], radius=30, fill=CORAL)
     d.text((x0 + 152, y + 18), band, font=cf, fill=(255, 255, 255))
@@ -942,6 +978,8 @@ def build(s: dict, out_path: Path, work: Path) -> Path:
         amt = (re.search(r"\$\d+", _promise("fixes3", s["items"])) or [""])[0]
         k = len(s["items"])
         s["cta_note"] = (f"Both under {amt}" if k == 2 else f"Each one's under {amt}") if amt else ""
+        if s["format"] == "deals":            # a deal reel outlives the deal: no "on sale now"
+            s["cta_note"] = "Deal prices move fast"
         s["vo"]["cta"] = " ".join(x for x in (s["vo"].get("close", ""),
                                               f"{s['cta_note']}." if s["cta_note"] else "",
                                               f"Comment {s['keyword']} for the links.") if x)

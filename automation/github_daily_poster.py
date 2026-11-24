@@ -53,8 +53,25 @@ def pick_v2_entry(date_str):
         if not (REELS_DIR / e["video_file"]).exists():
             print(f"  [v2] {e['video_file']} missing - skipping")
             continue
+        if e.get("deal_asins") and not deals_still_live(e["deal_asins"]):
+            print(f"  [v2] {e['video_file']}: a deal price is no longer down - skipping")
+            continue
         return dict(e, date=date_str)
     return None
+
+
+def deals_still_live(asins):
+    """A Black Friday deals reel shows our tracked % on screen. Post it only if this
+    morning's price_drops.json (Pi, 07:20 ET, committed 07:25) still has every product
+    below its 14-day price; otherwise the reel would show a deal that has ended."""
+    try:
+        p = Path(__file__).resolve().parent.parent / "social" / "price_drops.json"
+        drops = {d["asin"]: d for d in json.loads(p.read_text()).get("drops", [])}
+    except (OSError, ValueError, KeyError):
+        return False
+    today = today_str()
+    yday = (datetime.strptime(today, "%Y-%m-%d") - timedelta(days=1)).strftime("%Y-%m-%d")
+    return all(a in drops and drops[a].get("observed_to", "") >= yday for a in asins)
 
 
 def _recently_posted(date_str, days=14):
