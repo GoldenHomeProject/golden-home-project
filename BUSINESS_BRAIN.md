@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-11-22 (Affiliate Optimizer 10am)
+# Last updated: 2026-11-24 (Email Monitor 8am)
 # ============================================================
 
 ---
@@ -5739,3 +5739,25 @@ Mamma Mia 24-30% DAY 75 UNBREAKABLE ($12.69/sale, BFCM DAY 4 + Thanksgiving 4 da
 
 ### Hypothesis to test next week
 **Bet:** the engagement plateau is a CTA/caption problem, not reach — videos at 80–130 views get comparable reach to the curtain winners but almost no likes. **Test:** add an explicit like-bait line ("double tap if this is you") to 3 new scripts and compare like-rate (likes/views) against this week's baseline (~0–1%).
+
+---
+
+### November 2026 Email Monitor (updated 2026-11-24 Email Monitor 8am):
+
+**GMAIL SCAN (since 2026-11-23T12:07:32Z — last Email Monitor):** 3 new inbox emails. 0 on-niche GHP brand emails. 0 emails sent. Cold outreach PAUSED per Ian Sep 3 directive.
+
+- **Impact.com "Updates Digest"** (notifications@app.impact.com, thread 1a208884270a6646, 2026-11-23T13:11Z) — Account ID 7104029. New brand on Impact marketplace: "Campaign Logos is now featured on the marketplace." GHP affiliate platform notification. No reply required. IAN: check if Campaign Logos is on-niche and worth joining on Impact marketplace.
+
+- **Pinterest "Enter the Festive Challenge for a chance to win $300"** (activity@notifications.pinterest.com, thread 1a209955673c608b, 2026-11-23T18:05Z) — Pinterest creator challenge: "Bring your holiday ideas to life, from festive looks and cozy decor to easy recipes, handmade gifts and winter." Prize: $300. Cozy home decor = ON-NICHE for GHP. 🆕 IAN ACTION: Review the Pinterest Festive Challenge — holiday/cozy decor angle is a perfect fit for GHP content and could drive visibility during peak Christmas content season (Christmas 32 DAYS). No reply sent (newsletter from Pinterest platform, not a brand).
+
+**FOR MARKETING DEPT / IAN — not GHP (Nov 24, Email Monitor 8am):**
+- **Meta "25% off Ray-Ban Meta (Gen 2)"** (email@marketing.metamail.com, thread 1a2099b1de834935, 2026-11-23T~18:00Z) — Ray-Ban Meta Gen 2 AI glasses BFCM promotion. Continuation of Meta AI glasses/wearables BFCM campaign (prior threads logged Nov 20–23). NOT GHP. No reply sent. Possible Meta/AI glasses/wearables relevance for other LLC products.
+
+**KEY DELTAS vs Nov 23 Email Monitor (+1 day):**
+- Amazon BFCM: **DAY 6 LIVE** (was Day 5)
+- Thanksgiving: **2 DAYS** (was 3)
+- Christmas: **32 DAYS** (was 33)
+- Mamma Mia: **DAY 77** (was 76)
+- Syruvia: **DAY 26 — est. $150.80 total forfeited** (was DAY 25, +$5.80)
+- Google Search Console 404: **UNRESOLVED DAY 6** (was Day 5)
+- Big Wall Decor US Awin: **DAY 7 pending** (was DAY 6)
