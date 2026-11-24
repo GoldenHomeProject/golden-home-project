@@ -1,47 +1,22 @@
 {
-  "generated_at": "2026-11-23T15:39:45.060566Z",
-  "date": "2026-11-23",
+  "generated_at": "2026-11-24T15:31:31.255194Z",
+  "date": "2026-11-24",
   "opportunities": [
     {
       "rank": 1,
-      "product_category": "bathroom storage",
-      "specific_product": "over-the-toilet storage cabinet/shelf",
-      "brand": "Amazon generic",
-      "target_price": "$45",
-      "transformation_hook": "Turn a boring bathroom wall into $45 of hidden storage in 10 minutes",
-      "before_state": "Small bathroom with cluttered counter and dead\u7a7a\u95f4 above the toilet, towels and toiletries piled wherever they fit",
-      "after_state": "Tall slim cabinet/shelf installed above the toilet holding towels and toiletries, counter clear",
-      "buyer_intent_keywords": [
-        "over the toilet storage cabinet",
-        "small bathroom organization ideas",
-        "space saver bathroom shelf",
-        "over toilet shelf",
-        "bathroom storage for small spaces"
-      ],
-      "scores": {
-        "trend": 7,
-        "transformation": 9,
-        "affiliate": 10,
-        "intent": 9
-      },
-      "composite_score": 35,
-      "why_now": "HGTV's publisher pins are actively pushing over-toilet storage content right as holiday hosting drives small-bathroom cleanup searches."
-    },
-    {
-      "rank": 2,
       "product_category": "couch/sofa covers",
-      "specific_product": "Mamma Mia waterproof stretch couch cover",
+      "specific_product": "Mamma Mia waterproof stretch sofa slipcover",
       "brand": "Mamma Mia Covers",
-      "target_price": "$47",
-      "transformation_hook": "Hide a pet-hair couch under a $47 stretch cover before holiday guests arrive",
-      "before_state": "Worn, stained couch covered in visible pet hair and loose threads",
-      "after_state": "Smooth, tailored-looking slipcover transforming the couch into a guest-ready centerpiece",
+      "target_price": "$42",
+      "transformation_hook": "$42 couch cover makes a stained, pet-hair-covered sofa look brand new",
+      "before_state": "Faded, stained, pet-hair-covered old couch that looks worn out",
+      "after_state": "Sleek, tight-fitting slipcover that looks like a brand new sofa in under 5 minutes",
       "buyer_intent_keywords": [
-        "waterproof couch cover for pets",
-        "sofa cover for dogs",
-        "stretch couch slipcover",
-        "pet hair proof couch cover",
-        "couch cover washable"
+        "couch cover for pets",
+        "stretch sofa slipcover",
+        "waterproof couch cover",
+        "dog proof sofa cover",
+        "cheap couch makeover"
       ],
       "scores": {
         "trend": 7,
@@ -50,82 +25,106 @@
         "intent": 8
       },
       "composite_score": 34,
-      "why_now": "Pre-Thanksgiving and Christmas hosting season spikes demand for fast couch fixes, and the pet-hair angle pairs with Mamma Mia's 24-30% commission tier and HGTV's active living-room styling content."
+      "why_now": "Apartment Therapy's trending denim-sofa aesthetic plus steady pet-hair search demand makes this the highest-commission, highest-drama transformation play right now."
+    },
+    {
+      "rank": 2,
+      "product_category": "kitchen prep tools",
+      "specific_product": "Syruvia stainless steel kitchen utensil & prep tool set",
+      "brand": "Syruvia",
+      "target_price": "$29",
+      "transformation_hook": "$29 tool set turns a chaotic junk drawer into a Thanksgiving-ready prep station",
+      "before_state": "Overflowing, mismatched junk drawer of dull gadgets days before Thanksgiving cooking",
+      "after_state": "Organized hanging prep station with matching utensils ready for holiday cooking",
+      "buyer_intent_keywords": [
+        "thanksgiving kitchen must haves",
+        "kitchen prep tools",
+        "kitchen organization tools",
+        "best kitchen utensils 2026",
+        "colorful kitchen gadgets"
+      ],
+      "scores": {
+        "trend": 8,
+        "transformation": 7,
+        "affiliate": 9,
+        "intent": 9
+      },
+      "composite_score": 33,
+      "why_now": "Thanksgiving lands in 2 days (Nov 26) and Real Simple's oven-rack and turkey-prep content signals peak kitchen-tool shopping urgency this week."
     },
     {
       "rank": 3,
-      "product_category": "entryway/mudroom organization",
-      "specific_product": "entryway storage bench with shoe cubbies",
-      "brand": "Best Choice Products",
-      "target_price": "$89",
-      "transformation_hook": "Fix entryway shoe chaos with one $89 storage bench before holiday guests",
-      "before_state": "Pile of shoes and coats dumped by the front door, no clear landing spot for guests",
-      "after_state": "Organized bench with shoe cubbies and hooks, entryway looks styled and guest-ready",
+      "product_category": "bathroom storage",
+      "specific_product": "over-the-toilet ladder storage shelf with baskets",
+      "brand": "Amazon generic",
+      "target_price": "$38",
+      "transformation_hook": "$38 ladder shelf fills dead space above the toilet with storage and style",
+      "before_state": "Cramped bathroom with wasted wall space above the toilet and clutter piled on the counter",
+      "after_state": "Tiered ladder shelf with baskets, towels, and decor filling the empty wall",
       "buyer_intent_keywords": [
-        "entryway shoe storage bench",
-        "mudroom organization ideas",
-        "shoe rack with bench",
-        "small entryway storage solutions",
-        "coat and shoe organizer"
+        "small bathroom storage ideas",
+        "over the toilet shelf",
+        "bathroom organization rack",
+        "space saving bathroom storage",
+        "over toilet storage ladder"
       ],
       "scores": {
         "trend": 7,
-        "transformation": 8,
+        "transformation": 9,
         "affiliate": 9,
-        "intent": 8
+        "intent": 7
       },
       "composite_score": 32,
-      "why_now": "Holiday guest traffic and winter boots are flooding entryways right as HGTV surfaces mudroom/laundry storage content, and Best Choice Products' furniture commission makes this an easy affiliate win."
+      "why_now": "HGTV's publisher pin directly calling out ways to fill 'the empty space above the toilet' signals this exact storage angle is being pushed into mainstream feeds right now."
     },
     {
       "rank": 4,
-      "product_category": "living room wall decor",
-      "specific_product": "floating wall shelf set",
+      "product_category": "countertop refresh",
+      "specific_product": "marble-look peel-and-stick countertop contact paper",
       "brand": "Amazon generic",
-      "target_price": "$28",
-      "transformation_hook": "Fill that blank wall above your couch for $28 in floating shelves",
-      "before_state": "Large bare wall above the couch, room feels unfinished and empty",
-      "after_state": "Styled floating shelves with books and decor, wall becomes a designed focal point",
+      "target_price": "$19",
+      "transformation_hook": "$19 peel-and-stick cover turns a dated chipped counter into marble-look luxury",
+      "before_state": "Dated, chipped, dingy laminate countertop that drags down the whole kitchen",
+      "after_state": "Glossy marble-look counter achieved renter-friendly in an afternoon with no demo",
       "buyer_intent_keywords": [
-        "floating shelves for living room wall",
-        "wall decor above couch",
-        "how to decorate empty wall space",
-        "floating wall shelves set",
-        "living room shelf decor ideas"
+        "peel and stick countertop",
+        "renter friendly kitchen makeover",
+        "removable countertop cover",
+        "diy laminate countertop",
+        "marble contact paper counter"
       ],
       "scores": {
         "trend": 6,
-        "transformation": 8,
-        "affiliate": 9,
-        "intent": 7
-      },
-      "composite_score": 30,
-      "why_now": "HGTV is actively pinning 'empty wall above the couch' content, and post-Thanksgiving home-refresh searches are climbing ahead of holiday entertaining."
-    },
-    {
-      "rank": 5,
-      "product_category": "bedroom pillows",
-      "specific_product": "Eli & Elm side sleeper neck pain pillow",
-      "brand": "Eli & Elm",
-      "target_price": "$39",
-      "transformation_hook": "Swap a flat pillow for a $39 side-sleeper pillow and wake up pain-free",
-      "before_state": "Flat, lumpy pillow on a messy, unmade bed, visible neck strain complaints",
-      "after_state": "Supportive contoured pillow on a neatly styled bed, bedroom feels like a refreshed retreat",
-      "buyer_intent_keywords": [
-        "side sleeper pillow for neck pain",
-        "best pillow for neck pain",
-        "contour pillow side sleeper",
-        "cervical support pillow",
-        "bedroom pillow upgrade"
-      ],
-      "scores": {
-        "trend": 6,
-        "transformation": 7,
+        "transformation": 9,
         "affiliate": 8,
         "intent": 7
       },
+      "composite_score": 30,
+      "why_now": "Apartment Therapy's renter-DIY laminate countertop pin shows this peel-and-stick kitchen refresh trend surfacing into mainstream decor content."
+    },
+    {
+      "rank": 5,
+      "product_category": "sleep pillows",
+      "specific_product": "Eli & Elm side sleeper contour neck pillow",
+      "brand": "Eli & Elm",
+      "target_price": "$34",
+      "transformation_hook": "$34 contour pillow fixes side-sleeper neck pain and tidies the whole bed",
+      "before_state": "Flat, crumpled pillow with visible neck strain and a messy-looking bed",
+      "after_state": "Supportive contoured pillow with properly aligned neck and a crisp, styled bed",
+      "buyer_intent_keywords": [
+        "pillow for neck pain side sleeper",
+        "best pillow for side sleepers",
+        "cervical support pillow",
+        "neck pain pillow amazon"
+      ],
+      "scores": {
+        "trend": 5,
+        "transformation": 6,
+        "affiliate": 9,
+        "intent": 8
+      },
       "composite_score": 28,
-      "why_now": "RealSimple's '2027 bedroom decor trends' pin signals an early wave of bedroom-refresh interest, dovetailing with Eli & Elm's higher-commission neck-pain angle."
+      "why_now": "Evergreen sleep-wellness demand holds steady into BHG's winter cozy-home content, and Eli & Elm's 20% commission keeps it worth rotating even without a fresh spike."
     }
   ],
   "raw_signal_count": 85,

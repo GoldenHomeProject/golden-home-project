@@ -1,0 +1,135 @@
+{
+  "generated_at": "2026-11-24T15:31:31.255194Z",
+  "date": "2026-11-24",
+  "opportunities": [
+    {
+      "rank": 1,
+      "product_category": "couch/sofa covers",
+      "specific_product": "Mamma Mia waterproof stretch sofa slipcover",
+      "brand": "Mamma Mia Covers",
+      "target_price": "$42",
+      "transformation_hook": "$42 couch cover makes a stained, pet-hair-covered sofa look brand new",
+      "before_state": "Faded, stained, pet-hair-covered old couch that looks worn out",
+      "after_state": "Sleek, tight-fitting slipcover that looks like a brand new sofa in under 5 minutes",
+      "buyer_intent_keywords": [
+        "couch cover for pets",
+        "stretch sofa slipcover",
+        "waterproof couch cover",
+        "dog proof sofa cover",
+        "cheap couch makeover"
+      ],
+      "scores": {
+        "trend": 7,
+        "transformation": 10,
+        "affiliate": 9,
+        "intent": 8
+      },
+      "composite_score": 34,
+      "why_now": "Apartment Therapy's trending denim-sofa aesthetic plus steady pet-hair search demand makes this the highest-commission, highest-drama transformation play right now."
+    },
+    {
+      "rank": 2,
+      "product_category": "kitchen prep tools",
+      "specific_product": "Syruvia stainless steel kitchen utensil & prep tool set",
+      "brand": "Syruvia",
+      "target_price": "$29",
+      "transformation_hook": "$29 tool set turns a chaotic junk drawer into a Thanksgiving-ready prep station",
+      "before_state": "Overflowing, mismatched junk drawer of dull gadgets days before Thanksgiving cooking",
+      "after_state": "Organized hanging prep station with matching utensils ready for holiday cooking",
+      "buyer_intent_keywords": [
+        "thanksgiving kitchen must haves",
+        "kitchen prep tools",
+        "kitchen organization tools",
+        "best kitchen utensils 2026",
+        "colorful kitchen gadgets"
+      ],
+      "scores": {
+        "trend": 8,
+        "transformation": 7,
+        "affiliate": 9,
+        "intent": 9
+      },
+      "composite_score": 33,
+      "why_now": "Thanksgiving lands in 2 days (Nov 26) and Real Simple's oven-rack and turkey-prep content signals peak kitchen-tool shopping urgency this week."
+    },
+    {
+      "rank": 3,
+      "product_category": "bathroom storage",
+      "specific_product": "over-the-toilet ladder storage shelf with baskets",
+      "brand": "Amazon generic",
+      "target_price": "$38",
+      "transformation_hook": "$38 ladder shelf fills dead space above the toilet with storage and style",
+      "before_state": "Cramped bathroom with wasted wall space above the toilet and clutter piled on the counter",
+      "after_state": "Tiered ladder shelf with baskets, towels, and decor filling the empty wall",
+      "buyer_intent_keywords": [
+        "small bathroom storage ideas",
+        "over the toilet shelf",
+        "bathroom organization rack",
+        "space saving bathroom storage",
+        "over toilet storage ladder"
+      ],
+      "scores": {
+        "trend": 7,
+        "transformation": 9,
+        "affiliate": 9,
+        "intent": 7
+      },
+      "composite_score": 32,
+      "why_now": "HGTV's publisher pin directly calling out ways to fill 'the empty space above the toilet' signals this exact storage angle is being pushed into mainstream feeds right now."
+    },
+    {
+      "rank": 4,
+      "product_category": "countertop refresh",
+      "specific_product": "marble-look peel-and-stick countertop contact paper",
+      "brand": "Amazon generic",
+      "target_price": "$19",
+      "transformation_hook": "$19 peel-and-stick cover turns a dated chipped counter into marble-look luxury",
+      "before_state": "Dated, chipped, dingy laminate countertop that drags down the whole kitchen",
+      "after_state": "Glossy marble-look counter achieved renter-friendly in an afternoon with no demo",
+      "buyer_intent_keywords": [
+        "peel and stick countertop",
+        "renter friendly kitchen makeover",
+        "removable countertop cover",
+        "diy laminate countertop",
+        "marble contact paper counter"
+      ],
+      "scores": {
+        "trend": 6,
+        "transformation": 9,
+        "affiliate": 8,
+        "intent": 7
+      },
+      "composite_score": 30,
+      "why_now": "Apartment Therapy's renter-DIY laminate countertop pin shows this peel-and-stick kitchen refresh trend surfacing into mainstream decor content."
+    },
+    {
+      "rank": 5,
+      "product_category": "sleep pillows",
+      "specific_product": "Eli & Elm side sleeper contour neck pillow",
+      "brand": "Eli & Elm",
+      "target_price": "$34",
+      "transformation_hook": "$34 contour pillow fixes side-sleeper neck pain and tidies the whole bed",
+      "before_state": "Flat, crumpled pillow with visible neck strain and a messy-looking bed",
+      "after_state": "Supportive contoured pillow with properly aligned neck and a crisp, styled bed",
+      "buyer_intent_keywords": [
+        "pillow for neck pain side sleeper",
+        "best pillow for side sleepers",
+        "cervical support pillow",
+        "neck pain pillow amazon"
+      ],
+      "scores": {
+        "trend": 5,
+        "transformation": 6,
+        "affiliate": 9,
+        "intent": 8
+      },
+      "composite_score": 28,
+      "why_now": "Evergreen sleep-wellness demand holds steady into BHG's winter cozy-home content, and Eli & Elm's 20% commission keeps it worth rotating even without a fresh spike."
+    }
+  ],
+  "raw_signal_count": 85,
+  "sources_used": [
+    "google_trends_daily_us",
+    "pinterest"
+  ]
+}
