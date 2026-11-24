@@ -10824,10 +10824,10 @@
   },
   {
     "name": "reel_2026-11-24_002",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-11-24-002.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-24-002.mp4",
     "caption": "Stop blaming your hair products for the morning frizz.\n\nMost pillowcases are cotton, and cotton pulls moisture out of hair and skin overnight while gripping onto both as you move. That friction is what turns smooth hair into tangles and presses a crease into your cheek by morning.\n\nThis is a set of two satin pillowcases in queen size, similar to silk, made for hair and skin. It has 323,000 reviews at 4.5 stars.\n\nA smoother surface for hair and skin to glide on overnight, for about $7.\n\nComment SILK and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -10844,14 +10844,15 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "Stop blaming your hair products for the morning frizz."
+    "hook": "Stop blaming your hair products for the morning frizz.",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-24-002.mp4"
   },
   {
     "name": "reel_2026-11-24_003",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-11-24-003.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-24-003.mp4",
     "caption": "Ever kick the blanket off then grab it right back?\n\nMost bedding is either heavy enough to trap you in a sweat or thin enough that one shoulder gets cold by morning. Fall nights make it worse, since the temperature swings from the evening to the middle of the night.\n\nThis is a fleece throw blanket, queen size, in grey, built to add warmth without comforter weight. Close to a hundred and eighty thousand people rate it 4.6 stars.\n\nA lighter layer you can pull up or kick half off without overheating, for about $20.\n\nComment BLANKET and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -10868,7 +10869,8 @@
       "affiliate_network": "amazon",
       "affiliate_url": "https://www.amazon.com/dp/B0157T2ENY?tag=goldenhomep0a-20"
     },
-    "hook": "Ever kick the blanket off then grab it right back?"
+    "hook": "Ever kick the blanket off then grab it right back?",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-24-003.mp4"
   },
   {
     "id": "carousel-2026-11-24-B09CSS6YL4",
