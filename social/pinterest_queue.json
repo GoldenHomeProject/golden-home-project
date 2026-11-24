@@ -11522,14 +11522,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-11-24-B0D4LNZJ5K-gift.png",
     "queued_at": "2026-11-24T11:11:49.234518Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": "lavie home 11x14 picture frame for wall ",
     "overlay_hook": "HD Clarity, Under $6",
     "recharted": false,
     "variant": "B",
-    "ai_image": true
+    "ai_image": true,
+    "posted_at": "2026-11-24T14:41:41Z"
   },
   {
     "id": "pin-2026-11-24-B0F5X4FM3Q",
