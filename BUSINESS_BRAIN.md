@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-11-24 (Strategy & Outreach 9am)
+# Last updated: 2026-11-24 (Affiliate Optimizer 10am)
 # ============================================================
 
 ---
@@ -5777,3 +5777,80 @@ Mamma Mia 24-30% DAY 75 UNBREAKABLE ($12.69/sale, BFCM DAY 4 + Thanksgiving 4 da
 1. **"Ralph Lauren Christmas on a Renter Budget — $47"** — After-first transformation: styled plaid/velvet/brass living room AFTER → white rental BEFORE → product reveal. 4 products, goldenhomep0a-20 links. Hook: "Same rental apartment. $47. Ralph Lauren would approve." Aligns with #1 TikTok Christmas aesthetic, zero competitor coverage, Gater DAY 38 gap.
 2. **"Winter Front Porch Transformation — $45, No Drilling"** — After-first transformation: lit, festive porch AFTER → empty apartment door BEFORE. Battery lanterns + seasonal doormat + pine wreath. Hook: "Same front door. $45." Pinterest searches up 975% — script and pin TODAY.
 3. **"Christmas Bedroom Reset — $55, Same Bed Frame"** — After-first transformation: jewel-tone velvet bed AFTER → beige plain bed BEFORE. Velvet duvet + pillow covers + string lights. Hook: "Same bed frame. Same room. $55. Christmas came early." Peak Pinterest save window open NOW.
+
+---
+
+### November 2026 Affiliate Updates (updated 2026-11-24 Affiliate Optimizer 10am):
+
+**GMAIL POST-STRATEGY SCAN (since Strategy & Outreach ~14:09 UTC Nov 24):** 1 new email.
+- **SmartWings "Smartwings Holiday Sale: Up to 15% Off Smart Shades!"** (notifications@outreach.impact.com, thread 1a20dd3982f298cd, Nov 24) — Impact outreach confirming SmartWings 15% holiday sale is ACTIVE. No-reply address — do NOT reply per directive (bounced confirmed). Confirms SmartWings DAY 13 BF deal still live.
+
+**PLATFORM STATUS (BFCM DAY 6, NOV 24 — Thanksgiving 2 DAYS, Christmas 32 DAYS):**
+
+**Amazon Associates (goldenhomep0a-20):**
+- BFCM DAY 6 LIVE. Thanksgiving 2 DAYS. Christmas 32 DAYS.
+- No new bounty or commission-rate changes observed.
+- Q4 priority products: plaid throw ($18-24), battery LED lanterns ($18-25), velvet duvet ($34-45), under-bed storage (~$30), cheesecloth table runner (under $20).
+
+**Impact.com (Publisher ID 7104029):**
+- **Mamma Mia 24-30% — DAY 77 UNBREAKABLE.** $12.69/sale. Thanksgiving 2 DAYS + BFCM DAY 6 = dual urgency peak. Zero content in 77 days.
+- **Syruvia 20% — DAY 26. ZERO tracking links. $150.80 TOTAL FORFEITED** ($5.80/day, was $139.20 Nov 22). BFCM LIVE. Every additional day = $5.80 lost + BFCM multiplier.
+- **SmartWings BF 15% — DAY 13 LIVE.** $30-60/sale. Email confirmation received today (thread 1a20dd3982f298cd). Tracking links still unbuilt.
+- **Dreame — BFCM LIVE.** Active Impact program. Zero tracking links.
+- **YEEDI 57605 — DAY 22, BFCM LIVE.** Zero tracking links.
+- **Best Choice Products 10-15% — 1-click pre-approved, unactioned.** BFCM LIVE.
+- **Nanoleaf — NEW marketplace brand (Nov 10, unactioned).** Smart LED lighting, $60-200+ AOV. ON-NICHE (LED kitchen/living room lighting).
+- **Riley Home LLC — NEW marketplace brand (Nov 10, unactioned).** Home brand, niche/commission TBD.
+- **Campaign Logos — NEW marketplace brand (Nov 23, featured).** Niche unknown. IAN: check if on-niche.
+
+**CJ Affiliate:**
+- **AliExpress (CID 7711902) — dormancy DAY 53 of 90** (37 days remain, ~Dec 30 deadline). No new invitations.
+
+**Awin:**
+- **Rewarx 50% recurring (ID 129153): DAY 71 IAN-BLOCKED.** Highest commission in portfolio. BFCM traffic LIVE. Golden10 promo code pending accept.
+- **Homary 12%/$96/sale (ID 91447): DAY 58.** Awin express signup still incomplete.
+- **Promeed HerbalRX (ID 100833): 20% CPA ACTIVE.** Pending IAN browser accept.
+- **Big Wall Decor US — invitation pending IAN acceptance (DAY 7).** ~10%, $400 AOV, ~$40/order, holiday bonus. ON-NICHE wall art. First logged Nov 17, unactioned.
+
+**HIGH-AOV OPPORTUNITY SCAN (Nov 24):**
+- **Ralph Lauren Christmas renter budget** (~$47 basket: plaid throw + velvet wreath + brass taper holders + bow) — TikTok Christmas #1 aesthetic, zero GHP + zero competitor coverage, Gater DAY 38 gap. goldenhomep0a-20.
+- **Winter front porch** (~$43-47: battery lanterns + doormat + pine garland) — Pinterest searches up 975%, peak save window NOW. goldenhomep0a-20.
+- **Christmas jewel tone bedroom** (~$52-55: velvet duvet + pillow covers) — peak Pinterest save window open, dark aesthetic overlap audience. goldenhomep0a-20.
+- **Robot vacuums** (Dreame, YEEDI on Impact — $100-350, $6-20/sale at BFCM prices) — zero tracking links built, BFCM window LIVE.
+- **Smart shades / window treatments** (SmartWings 15% BF, $30-60/sale) — email confirmation DAY 13. Impact links unbuilt.
+
+**KEY DELTAS vs Nov 22 Affiliate Optimizer (+2 days):**
+- Mamma Mia: **DAY 77** (was 75)
+- Syruvia: **DAY 26 — $150.80 total forfeited** (was DAY 24, $139.20, +$11.60 more forfeited)
+- SmartWings: **DAY 13 BF LIVE** (was 11) — email confirmation received today
+- YEEDI: **DAY 22** (was 20)
+- Rewarx: **DAY 71 IAN-BLOCKED** (was 69)
+- Homary: **DAY 58** (was 56)
+- CJ AliExpress: **DAY 53 of 90** (was 51, 37 days remain)
+- Big Wall Decor US Awin: **DAY 7 pending** (was 5)
+
+**REVENUE PRIORITY STACK (Nov 24):**
+Mamma Mia 24-30% DAY 77 UNBREAKABLE ($12.69/sale, Thanksgiving 2 DAYS + BFCM DAY 6) > Syruvia 20% DAY 26 ($150.80 total forfeited, BFCM LIVE $5.80/day) > SmartWings BF 15% DAY 13 ($30-60/sale, email confirmed) > Dreame BFCM LIVE > YEEDI DAY 22 BFCM LIVE > Big Wall Decor US Awin DAY 7 ~$40/order holiday bonus > Nanoleaf NEW Impact LED ($60-200+ AOV) > Rewarx 50% DAY 71 IAN-BLOCKED > Homary $96/sale DAY 58 > CJ AliExpress DAY 53.
+
+**NEXT ACTIONS (Ian — ranked by BFCM urgency):**
+  1. 🚨🚨🚨 **FIX Google Search Console 404 errors** — UNRESOLVED DAY 6, BFCM Day 6 traffic LIVE (thread 1a1f2e8063f1df6d). Blocking SEO revenue during peak Q4 traffic.
+  2. 🚨🚨🚨 **SCRIPT MAMMA MIA COUCH COVER — DAY 77 UNBREAKABLE.** Thanksgiving 2 DAYS. Hook: "Thanksgiving guests arrive in 2 days. Same couch. After. Before." $12.69/sale at 24-30% Impact. Zero content in 77 days.
+  3. 🚨🚨🚨 **BUILD SYRUVIA TRACKING LINK on Impact — DAY 26.** $150.80 total forfeited. $5.80/day. BFCM LIVE.
+  4. 🚨🚨🚨 **BUILD SMARTWINGS BF TRACKING LINKS — 15% OFF DAY 13.** Impact Publisher ID 7104029. $30-60/sale. Email confirmation received today.
+  5. 🚨🚨🚨 **BUILD DREAME TRACKING LINKS — BFCM LIVE.** Impact → Dreame → build links.
+  6. 🚨🚨 **BUILD YEEDI (Impact 57605) TRACKING LINK — DAY 22, BFCM LIVE.**
+  7. 🚨🚨 **SCRIPT RALPH LAUREN CHRISTMAS RENTER BUDGET — $47.** Zero competitor coverage. Gater DAY 38 gap. goldenhomep0a-20.
+  8. 🚨🚨 **SCRIPT WINTER FRONT PORCH — $45, NO DRILLING.** Pinterest +975%. Peak save window NOW.
+  9. 🚨🚨 **ACCEPT BIG WALL DECOR US on Awin — DAY 7.** ~10%, $400 AOV, holiday bonus. ON-NICHE.
+  10. 🚨🚨 **CHECK NANOLEAF on Impact marketplace + JOIN.** $60-200+ AOV. BFCM LIVE.
+  11. 🚨 Accept REWARX Awin ID 129153 — DAY 71. 50% recurring. Reply studio@rewarx.com for Golden10 code.
+  12. 🚨 Accept PROMEED HerbalRX Awin ID 100833 — 20% CPA. Awin browser dashboard.
+  13. Accept BEST CHOICE PRODUCTS on Impact — 1-click pre-approved 15%, BFCM LIVE.
+  14. Check CAMPAIGN LOGOS on Impact marketplace — niche unknown (thread 1a208884270a6646).
+  15. Complete HOMARY Awin express signup (ID 91447) — DAY 58. Affiliate ID to Lauren at affiliate@homary.com.
+  16. Check RILEY HOME LLC on Impact marketplace — home brand, TBD commission.
+  17. CJ portal audit — AliExpress dormancy DAY 53 (37 days remain, ~Dec 30 deadline).
+  18. Accept ON-NICHE Awin browser invites: Tribesigns, SimpleProject, OKUN, CozySpiritStudio.
+  19. Verify SEALOGIX CORP — Impact 6590154 expired 11/6.
+  20. Enter PINTEREST FESTIVE CHALLENGE — $300 prize, ON-NICHE holiday/cozy decor (thread 1a209955673c608b).
+  21. Review Google Analytics Oct 20–Nov 16 report.
