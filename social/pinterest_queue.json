@@ -9912,14 +9912,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-11-07-B0BR3STN87.png",
     "queued_at": "2026-11-07T11:13:01.168489Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "100% Blackout, No Drilling",
     "recharted": true,
     "variant": "B",
-    "ai_image": true
+    "ai_image": true,
+    "posted_at": "2026-11-24T02:16:47Z"
   },
   {
     "id": "pin-2026-11-07-B0815BLNX1",

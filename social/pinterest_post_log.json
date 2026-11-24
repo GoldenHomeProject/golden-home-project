@@ -4145,6 +4145,20 @@
       "pin_id": "pin-2026-11-23-B07SPR2HPT",
       "board": "Closet Organization Ideas",
       "link": "https://www.amazon.com/dp/B07SPR2HPT?tag=ghpbrandb-20&ascsubtag=pinterest_brandB"
+    },
+    {
+      "ts": "2026-11-24T02:16:34Z",
+      "action": "board_fallback",
+      "pin_id": "pin-2026-11-07-B0BR3STN87",
+      "wanted": "Bedroom Storage & Bedding",
+      "used": "Home Organization Finds"
+    },
+    {
+      "ts": "2026-11-24T02:16:46Z",
+      "action": "pin_published",
+      "pin_id": "pin-2026-11-07-B0BR3STN87",
+      "board": "Bedroom Storage & Bedding",
+      "link": "https://goldenhomeproject.com/blog/posts/best-home-decor-finds.html?v=B"
     }
   ]
 }
