@@ -8987,7 +8987,7 @@
   },
   {
     "name": "reel_2026-10-27_003",
-    "status": "ready",
+    "status": "held_not_trending",
     "script_path": "automation/scripts/reel-2026-10-27-003.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-10-27-003.mp4",
@@ -9236,7 +9236,7 @@
   },
   {
     "name": "reel_2026-11-03_003",
-    "status": "held_not_trending",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-11-03-003.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-03-003.mp4",
@@ -9286,7 +9286,7 @@
   },
   {
     "name": "reel_2026-11-05_001",
-    "status": "held_not_trending",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-11-05-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-05-001.mp4",
@@ -9449,7 +9449,7 @@
   },
   {
     "name": "reel_2026-11-07_001",
-    "status": "ready",
+    "status": "held_not_trending",
     "script_path": "automation/scripts/reel-2026-11-07-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-07-001.mp4",
@@ -9782,7 +9782,7 @@
   },
   {
     "name": "reel_2026-11-10_002",
-    "status": "held_not_trending",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-11-10-002.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-10-002.mp4",
@@ -9847,7 +9847,7 @@
   },
   {
     "name": "reel_2026-11-11_001",
-    "status": "ready",
+    "status": "held_not_trending",
     "script_path": "automation/scripts/reel-2026-11-11-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-11-001.mp4",
@@ -9913,7 +9913,7 @@
   },
   {
     "name": "reel_2026-11-12_001",
-    "status": "ready",
+    "status": "held_not_trending",
     "script_path": "automation/scripts/reel-2026-11-12-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-12-001.mp4",
@@ -10514,7 +10514,7 @@
   },
   {
     "name": "reel_2026-11-20_001",
-    "status": "ready",
+    "status": "held_not_trending",
     "script_path": "automation/scripts/reel-2026-11-20-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-20-001.mp4",
@@ -10613,7 +10613,7 @@
   },
   {
     "name": "reel_2026-11-22_001",
-    "status": "ready",
+    "status": "held_not_trending",
     "script_path": "automation/scripts/reel-2026-11-22-001.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-22-001.mp4",
@@ -10663,7 +10663,7 @@
   },
   {
     "name": "reel_2026-11-22_003",
-    "status": "ready",
+    "status": "held_not_trending",
     "script_path": "automation/scripts/reel-2026-11-22-003.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-22-003.mp4",
@@ -10748,7 +10748,7 @@
   },
   {
     "name": "reel_repurpose_2026-11-23_903",
-    "status": "ready",
+    "status": "held_not_trending",
     "script_path": "automation/scripts/reel-2026-11-23-903.json",
     "media_type": "REELS",
     "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-23-903.mp4",
