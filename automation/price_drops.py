@@ -25,8 +25,11 @@ Honesty rules baked in:
 from __future__ import annotations
 
 import argparse
+import datetime as dt
 import json
 import re
+import statistics
+import subprocess
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -58,18 +61,74 @@ def load_history() -> dict[str, list[dict]]:
                 "title": pk.get("title") or pk.get("name") or "",
                 "rating": pk.get("rating"), "reviews": pk.get("reviews"),
             })
+    # 2026-11-24: the 6 daily picks above are a thin history (5 drops found on BF week).
+    # chart_scan.py commits the full ~110-product chart to social/chart_now.json every
+    # morning, so git already holds a dated daily price history for every chart product.
+    seen = {(a, r["date"]) for a, rows in hist.items() for r in rows}
+    for date, items in chart_snapshots():
+        for it in items:
+            asin = (it.get("asin") or "").strip()
+            pv = price_val(it.get("price"))
+            if not asin or pv is None or (asin, date) in seen:
+                continue
+            seen.add((asin, date))
+            hist.setdefault(asin, []).append({
+                "date": date, "price": pv, "title": it.get("name") or "",
+                "rating": it.get("rating"), "reviews": it.get("reviews"),
+            })
+    for rows in hist.values():
+        rows.sort(key=lambda r: r["date"])
     return hist
 
 
+def chart_snapshots(days: int = 45) -> list[tuple[str, list]]:
+    """[(date, items)] from the last commit of social/chart_now.json on each day."""
+    try:
+        log = subprocess.run(["git", "-C", str(ROOT), "log", f"--since={days} days ago",
+                              "--format=%H %cs", "--", "social/chart_now.json"],
+                             capture_output=True, text=True, timeout=60).stdout.split("\n")
+    except (OSError, subprocess.SubprocessError):
+        return []
+    by_day: dict[str, str] = {}
+    for line in log:                       # newest first, so the first per day is the last
+        if " " in line:
+            sha, day = line.split()
+            by_day.setdefault(day, sha)
+    out = []
+    for day, sha in sorted(by_day.items()):
+        try:
+            raw = subprocess.run(["git", "-C", str(ROOT), "show", f"{sha}:social/chart_now.json"],
+                                 capture_output=True, text=True, timeout=30).stdout
+            out.append((day, json.loads(raw).get("items") or []))
+        except (OSError, subprocess.SubprocessError, ValueError, AttributeError):
+            continue
+    return out
+
+
 def find_drops(hist: dict, min_pct: float) -> list[dict]:
+    # 2026-11-24: a product that fell off the chart kept its last price as "now" (the top
+    # "drop" was a 11/01 price shown as current on BF week). Only the newest snapshot is now.
+    latest = max((r["date"] for rows in hist.values() for r in rows), default="")
     drops = []
     for asin, rows in hist.items():
-        if len(rows) < 2:
+        if len(rows) < 2 or rows[-1]["date"] != latest:
             continue
-        now, prev = rows[-1], rows[-2]
-        if now["price"] >= prev["price"]:
+        now = rows[-1]
+        # With daily data, "vs yesterday" would show a deal for one day only. The reference
+        # is the MEDIAN of our own observations over the prior 14 days (a typical price, not
+        # the all-time high); with fewer than 3 of those, the most recent prior price.
+        cutoff = (dt.date.fromisoformat(latest) - dt.timedelta(days=14)).isoformat()
+        prior = [r for r in rows[:-1] if r["date"] >= cutoff]
+        if len(prior) >= 3:
+            ref, basis = statistics.median(r["price"] for r in prior), "14-day median"
+            since = prior[0]["date"]
+        elif prior:
+            ref, basis, since = prior[-1]["price"], "last seen", prior[-1]["date"]
+        else:
+            continue                        # nothing in 14 days: too stale to call a drop
+        if now["price"] >= ref:
             continue
-        pct = (prev["price"] - now["price"]) / prev["price"] * 100
+        pct = (ref - now["price"]) / ref * 100
         if pct < min_pct:
             continue
         drops.append({
@@ -77,10 +136,11 @@ def find_drops(hist: dict, min_pct: float) -> list[dict]:
             "title": now["title"],
             "rating": now["rating"],
             "reviews": now["reviews"],
-            "was": round(prev["price"], 2),
+            "was": round(ref, 2),
             "now": round(now["price"], 2),
             "pct": round(pct, 1),
-            "observed_from": prev["date"],
+            "basis": basis,
+            "observed_from": since,
             "observed_to": now["date"],
             "days_tracked": len(rows),
         })

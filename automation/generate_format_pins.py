@@ -431,7 +431,7 @@ def build_deals(items, pin_id, v, out):
         it = on.get(asin)
         if not it:
             continue
-        rows.append({"type": it["name"], "why": "Price dropped this week",
+        rows.append({"type": it["name"], "why": f"About {d['pct']:.0f}% below its 2-week price",
                      "band": f"Now {price_band(str(d.get('now'))).lower()}", "asin": asin})
     if len(rows) < 3:
         print(f"  [fmt] deals: only {len(rows)} verified drops on chart products - skipping")
@@ -450,7 +450,9 @@ def build_deals(items, pin_id, v, out):
                 title="Black Friday Home Organization Deals: Verified Price Drops",
                 desc=("Home organization picks whose Amazon price really dropped this week: "
                       + ", ".join(r["type"] for r in rows[:5]) + ". Prices move fast; check the "
-                      "current price before you buy."), tag="deal", ai=False)
+                      "current price before you buy."), tag="deal", ai=False,
+                # every verified drop, refreshed daily (deals_page.py), not one product page
+                link=f"{SITE}/r/deals?src=pin&v={v}")
 
 BUILDERS = dict(gift_guide=build_gift_guide, deals=build_deals, problem_fix=build_problem_fix, versus=build_versus, mistakes=build_mistakes,
                 size_guide=build_size_guide, room_cart=build_room_cart, checklist=build_checklist)

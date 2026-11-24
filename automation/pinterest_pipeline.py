@@ -523,8 +523,12 @@ def _drop_desc(desc: str, drop: dict | None) -> str:
     if not drop:
         return desc
     # No exact prices in copy (they go stale; Associates requires current prices).
-    note = (f"Tracked daily: about {drop['pct']:.0f}% lower than on {drop['observed_from']}. "
-            f"Amazon prices move, so check the live listing. ")
+    if drop.get("basis") == "14-day median":
+        note = (f"Tracked daily: about {drop['pct']:.0f}% below its typical price over the "
+                f"past two weeks. Amazon prices move, so check the live listing. ")
+    else:
+        note = (f"Tracked daily: about {drop['pct']:.0f}% lower than on {drop['observed_from']}. "
+                f"Amazon prices move, so check the live listing. ")
     return note + desc
 
 
