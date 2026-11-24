@@ -10797,5 +10797,77 @@
       "#boutiquestyle"
     ],
     "hook": "$19.99 trick that makes my entryway match my tree"
+  },
+  {
+    "name": "reel_2026-11-24_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-24-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Your shower curtain screeches every time you pull it shut\n\nPlain plastic hooks grip the rod instead of rolling along it, so the curtain catches, sticks, and drags with every pull. Over time those same hooks rust and leave orange streaks on the rod and curtain.\n\nThese Titanker hooks are metal and rust resistant, built as double glide rings so each one rolls smoothly along the rod instead of catching. Thousands rate them around 4.6 stars for how easily the curtain moves after swapping them in.\n\nYour curtain opens and closes in one smooth pull instead of a fight, and the whole set runs about $7.\n\nComment HOOK and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Titanker Shower Curtain Hooks Rings, Rust Resistant Metal Double Glide Shower Hooks Rings for Bathroom Shower Rods Curta",
+      "dm_keyword": "HOOK",
+      "amazon_asin": "B081YQBPSS",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B081YQBPSS?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B081YQBPSS?tag=goldenhomep0a-20"
+    },
+    "hook": "Your shower curtain screeches every time you pull it shut"
+  },
+  {
+    "name": "reel_2026-11-24_002",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-24-002.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Stop blaming your hair products for the morning frizz.\n\nMost pillowcases are cotton, and cotton pulls moisture out of hair and skin overnight while gripping onto both as you move. That friction is what turns smooth hair into tangles and presses a crease into your cheek by morning.\n\nThis is a set of two satin pillowcases in queen size, similar to silk, made for hair and skin. It has 323,000 reviews at 4.5 stars.\n\nA smoother surface for hair and skin to glide on overnight, for about $7.\n\nComment SILK and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Bedsure Satin Pillowcases Queen Set of 2, Similar to Silk Pillow Cases Grey | Silky Pillowcase for Hair and Skin, Decora",
+      "dm_keyword": "SILK",
+      "amazon_asin": "B0725WFLMB",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B0725WFLMB?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Stop blaming your hair products for the morning frizz."
+  },
+  {
+    "name": "reel_2026-11-24_003",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-24-003.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Ever kick the blanket off then grab it right back?\n\nMost bedding is either heavy enough to trap you in a sweat or thin enough that one shoulder gets cold by morning. Fall nights make it worse, since the temperature swings from the evening to the middle of the night.\n\nThis is a fleece throw blanket, queen size, in grey, built to add warmth without comforter weight. Close to a hundred and eighty thousand people rate it 4.6 stars.\n\nA lighter layer you can pull up or kick half off without overheating, for about $20.\n\nComment BLANKET and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Bedsure GentleSoft Fleece Bed Blankets Queen Size Grey - Soft Cozy Warm Fall Throw Blanket Halloween Decorations Lightwe",
+      "dm_keyword": "BLANKET",
+      "amazon_asin": "B0157T2ENY",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B0157T2ENY?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": "https://www.amazon.com/dp/B0157T2ENY?tag=goldenhomep0a-20"
+    },
+    "hook": "Ever kick the blanket off then grab it right back?"
   }
 ]
