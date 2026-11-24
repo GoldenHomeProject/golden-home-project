@@ -7439,6 +7439,22 @@
       "verified_stars": "4.7",
       "verified_reviews": 16422,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0D4LNZJ5K",
+      "product_name": "LaVie Home 11x14 Picture Frame for Wall Display, 11 x 14 Black Picture Frame with HD Plexiglass, 11 by 14 Poster Frame 1",
+      "categories": [
+        "home",
+        "Home D\u00e9cor"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0D4LNZJ5K?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-11-24",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$5.94",
+      "verified_stars": "4.5",
+      "verified_reviews": 12473,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
