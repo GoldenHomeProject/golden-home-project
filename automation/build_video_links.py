@@ -71,6 +71,18 @@ def recent_videos() -> list[dict]:
     return out
 
 
+def deals_box() -> str:
+    """Nov 25-30 2026: the link-in-bio page leads with /r/deals (deals_page.py)."""
+    d = datetime.now().strftime("%Y-%m-%d")
+    if not ("2026-11-24" <= d <= "2026-11-30"):
+        return ""
+    return ('<a class="vp-card" href="/r/deals?src=ig" style="border-color:#d4a745;margin-bottom:20px">'
+            '<span class="vp-date">Black Friday</span>'
+            '<span class="vp-hook">Home deals we price-tracked ourselves</span>'
+            '<span class="vp-name">Best-sellers below their usual price this week, checked every morning</span>'
+            '<span class="vp-btn">See the deals &rarr;</span></a>\n')
+
+
 def section(videos: list[dict]) -> str:
     cards = []
     for v in videos:
@@ -93,7 +105,7 @@ def section(videos: list[dict]) -> str:
 .vp-name{{display:block;font-size:.85rem;color:var(--text-secondary,#a8a4a0)}}
 .vp-btn{{display:inline-block;margin-top:8px;font-size:.85rem;font-weight:600;color:var(--gold,#d4a745)}}
 </style>
-<section class="vp-wrap" id="from-videos">
+{deals_box()}<section class="vp-wrap" id="from-videos">
 <h2>From our videos &amp; posts</h2>
 <p class="vp-sub">Saw something in a Reel or Short? It's here, newest first. Amazon affiliate links:
 we may earn a small commission at no extra cost to you.</p>
