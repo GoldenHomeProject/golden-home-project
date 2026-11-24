@@ -9082,14 +9082,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-31-B0F24MHHFD.png",
     "queued_at": "2026-10-31T10:15:31.573123Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "dancemoon JustHang Shower Squeegee with",
     "recharted": true,
     "variant": "B",
-    "ai_image": true
+    "ai_image": true,
+    "posted_at": "2026-11-24T02:18:00Z"
   },
   {
     "id": "collage-2026-10-31-best-bathroom-essentials",
