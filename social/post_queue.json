@@ -10748,10 +10748,10 @@
   },
   {
     "name": "reel_repurpose_2026-11-23_903",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-11-23-903.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-23-903.mp4",
     "caption": "Everyone skips this step because it's invisible once the tree is done \u2014 but it's the reason some trees look dim under all that ribbon. The light layer that has to go on first, and the exact strand count for a 7.5-foot tree.",
     "hashtags": [
       "#christmaslights",
@@ -10761,7 +10761,8 @@
       "#christmastreehacks",
       "#holidaydecorideas"
     ],
-    "hook": "The $8.98 lights everyone skips before ribbon"
+    "hook": "The $8.98 lights everyone skips before ribbon",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-23-903.mp4"
   },
   {
     "name": "reel_repurpose_2026-11-23_904",
