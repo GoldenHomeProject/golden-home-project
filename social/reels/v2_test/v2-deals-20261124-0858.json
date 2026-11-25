@@ -1,0 +1,59 @@
+{
+ "format": "deals",
+ "hook": "If your kitchen drawer is full of broken tools, fix it right now",
+ "promise": "the overflowing junk drawer full of dying kitchen tools",
+ "space": "Kitchen",
+ "items": [
+  {
+   "i": 0,
+   "type": "Food Storage Containers",
+   "line": "Stop digging for lids. Grab a set that actually stacks.",
+   "benefit": "airtight stackable food storage",
+   "problem_query": "messy pantry containers",
+   "solution_query": "stacked food storage containers",
+   "asin": "B079M8FPTW",
+   "name": "Rubbermaid Brilliance Tritan Plastic Food Storage Containers BPA Free Airtight Lids Ideal for Lunch Meal Prep & Leftover",
+   "rating": 4.7,
+   "reviews": 19042,
+   "chart_rank": 3,
+   "price": "$21.99",
+   "band": "Under $25",
+   "deal": "Down 32% \u00b7 under $25"
+  },
+  {
+   "i": 2,
+   "type": "Digital Food Scale",
+   "line": "Measure exact portions instead of guessing with your eyes.",
+   "benefit": "precise grams and ounces",
+   "problem_query": "guessing food portions",
+   "solution_query": "digital kitchen scale weighing",
+   "asin": "B0113UZJE2",
+   "name": "Etekcity Food Kitchen Scale, Digital Grams and Ounces, 11lb | Tare function, ideal for baking, weight loss, keto, meal p",
+   "rating": 4.6,
+   "reviews": 178601,
+   "chart_rank": 26,
+   "price": "$9.99",
+   "band": "Under $10",
+   "deal": "Down 29% \u00b7 under $10"
+  }
+ ],
+ "keyword": "COOKING",
+ "onscreen": "Black Friday deals your kitchen actually needs",
+ "vo": {
+  "hook": "If your kitchen drawer is full of broken tools, fix it right now",
+  "tip": "Grab them now. Prices won't last.",
+  "close": "Shop before Black Friday ends.",
+  "cta": "Shop before Black Friday ends. Deal prices move fast. Comment COOKING for the links."
+ },
+ "cta_note": "Deal prices move fast",
+ "clip_ids": {
+  "hook": 5453401,
+  "promise": 35674364,
+  "problem_shot": false,
+  "items": {
+   "B079M8FPTW": 8581131,
+   "B0113UZJE2": 7964597
+  }
+ },
+ "page": "https://goldenhomeproject.com/r/cooking"
+}
