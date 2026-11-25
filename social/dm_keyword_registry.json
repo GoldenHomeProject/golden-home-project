@@ -7487,6 +7487,38 @@
       "verified_stars": "4.5",
       "verified_reviews": 614,
       "discovery_source": "back_to_college_2026"
+    },
+    {
+      "asin": "B07XBTWPVP",
+      "product_name": "Kitsch Microfiber Hair Towel Wrap for Women - Leopard | Ultra Absorbent Microfiber Hair Towels for All Hair Types \u2013 Anti",
+      "categories": [
+        "home",
+        "Bath Linens"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B07XBTWPVP?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-11-25",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$18.38",
+      "verified_stars": "4.5",
+      "verified_reviews": 9272,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B07JW68DMR",
+      "product_name": "Haute Decor Adjustable Length Wreath Hanger - 20 Lb. Capacity (Black) | 1 Wreath Hanger, Extendable, Metal, No-Scratch",
+      "categories": [
+        "home",
+        "Seasonal D\u00e9cor"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B07JW68DMR?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-11-25",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$11.89",
+      "verified_stars": "4.6",
+      "verified_reviews": 9694,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
