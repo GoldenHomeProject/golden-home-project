@@ -9566,10 +9566,11 @@
     "image_path": "social/pinterest/problem_fix-2026-11-03.png",
     "image_url": "https://goldenhomeproject.com/social/pinterest/problem_fix-2026-11-03.png",
     "queued_at": "2026-11-03T16:05:57.391277Z",
-    "posted": false,
+    "posted": true,
     "source": "generate_format_pins",
     "format": "problem_fix",
-    "variant": "B"
+    "variant": "B",
+    "posted_at": "2026-11-25T02:15:40Z"
   },
   {
     "id": "versus-2026-11-03",

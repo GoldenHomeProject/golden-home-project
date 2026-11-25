@@ -4180,6 +4180,20 @@
       "pin_id": "pin-2026-11-24-B0D4LNZJ5K-gift",
       "board": "Gifts Under $25 for the Home",
       "link": "https://www.amazon.com/dp/B0D4LNZJ5K?tag=ghpbrandb-20&ascsubtag=pinterest_brandB"
+    },
+    {
+      "ts": "2026-11-25T02:15:29Z",
+      "action": "board_fallback",
+      "pin_id": "problem_fix-2026-11-03",
+      "wanted": "Bedroom Storage & Bedding",
+      "used": "Home Organization Finds"
+    },
+    {
+      "ts": "2026-11-25T02:15:40Z",
+      "action": "pin_published",
+      "pin_id": "problem_fix-2026-11-03",
+      "board": "Bedroom Storage & Bedding",
+      "link": "https://www.amazon.com/dp/B08DTH86Q2?tag=ghpbrandb-20&ascsubtag=pinterest_pf_brandB"
     }
   ]
 }
