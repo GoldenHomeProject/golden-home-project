@@ -5758,6 +5758,53 @@
         ],
         "reel_format": "problem_fix"
       }
+    ],
+    "GRAMS": [
+      {
+        "hook_category": "mistake",
+        "hook": "Stop guessing portions with measuring cups",
+        "beat1": "Measuring cups show volume, not weight, so a cup of rice, oats, or peanut butter can weigh something different every time. That makes it hard to match a recipe written in grams or keep meal-prep portions consistent from one bowl to the next.",
+        "turn": "This digital scale measures in both grams and ounces, holds up to eleven pounds, and has a tare function to zero out a bowl or plate before you add food. It's rated 4.6 stars from about 178,000 reviews.",
+        "result": "For about $10, portions and recipe measurements come out the same every time instead of a guess.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Hands scooping rice from an open bag into a plastic measuring cup on a kitchen counter.",
+            "on_screen_text": "Stop guessing your portions",
+            "voiceover": "Stop guessing portions with measuring cups."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Close-up of hands leveling off a cup of rolled oats over a mixing bowl on a countertop.",
+            "on_screen_text": "Same cup, different weight",
+            "voiceover": "A measuring cup gives you volume, not weight, so the amount changes every time."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "An open recipe card propped against a bag of flour next to a mixing bowl on the counter.",
+            "on_screen_text": "Recipe says grams, you're stuck",
+            "voiceover": "Baking recipes and meal plans give you grams, and a cup just doesn't convert cleanly."
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "Hands placing a small digital kitchen scale on the counter, setting an empty bowl on top, and pressing a button before adding food.",
+            "on_screen_text": "This one weighs it instead",
+            "voiceover": "This scale reads grams and ounces, holds up to eleven pounds, and tares out the bowl first."
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "Overhead shot of a filled bowl sitting on the digital scale on a kitchen counter, hand reaching for a phone beside it.",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "It's rated 4.6 stars from about 178,000 reviews and runs about $10. Comment {KEYWORD} and I'll send the link."
+          }
+        ],
+        "reel_format": "countdown"
+      }
     ]
   },
   "hashtag_pools": {
