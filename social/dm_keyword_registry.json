@@ -7470,6 +7470,23 @@
       "verified_stars": "4.5",
       "verified_reviews": 12473,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B0BM99FB28",
+      "product_name": "Hanging Shoe Organizer for Closet with Side Mesh Pockets\uff0cHat Racks for Baseball Caps\uff0cShoe and Hat Holder & Storage\uff0c8-Shelf\uff0cBeige\uff0c1 Pack",
+      "categories": [
+        "dorm",
+        "college",
+        "organization"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B0BM99FB28?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-11-25",
+      "verified_method": "source_dorm/search+dp",
+      "verified_price": "$15.99",
+      "verified_stars": "4.5",
+      "verified_reviews": 614,
+      "discovery_source": "back_to_college_2026"
     }
   ]
 }
