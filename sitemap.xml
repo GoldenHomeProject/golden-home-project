@@ -2,32 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://goldenhomeproject.com/</loc>
-    <lastmod>2026-11-24</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://goldenhomeproject.com/blog/</loc>
-    <lastmod>2026-11-24</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://goldenhomeproject.com/links.html</loc>
-    <lastmod>2026-11-24</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://goldenhomeproject.com/about.html</loc>
-    <lastmod>2026-11-24</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://goldenhomeproject.com/contact.html</loc>
-    <lastmod>2026-11-24</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://goldenhomeproject.com/privacy.html</loc>
-    <lastmod>2026-11-24</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <priority>0.4</priority>
   </url>
   <url>
@@ -646,6 +646,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://goldenhomeproject.com/blog/posts/2026-11-25-thanksgiving-junk-drawer-kitchen-tools-under-30.html</loc>
+    <lastmod>2026-11-25</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://goldenhomeproject.com/blog/posts/best-bath-towels-and-linens.html</loc>
     <lastmod>2026-11-04</lastmod>
     <priority>0.9</priority>
@@ -662,7 +667,7 @@
   </url>
   <url>
     <loc>https://goldenhomeproject.com/blog/posts/best-blackout-curtains.html</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
@@ -702,22 +707,22 @@
   </url>
   <url>
     <loc>https://goldenhomeproject.com/blog/posts/first-apartment-gifts-under-30.html</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://goldenhomeproject.com/blog/posts/hostess-gifts-under-20.html</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://goldenhomeproject.com/blog/posts/housewarming-gifts-for-new-homeowners-under-25.html</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://goldenhomeproject.com/blog/posts/stocking-stuffers-for-the-home-under-15.html</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -727,7 +732,7 @@
   </url>
   <url>
     <loc>https://goldenhomeproject.com/blog/posts/white-elephant-gifts-under-25.html</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <priority>0.7</priority>
   </url>
 </urlset>
