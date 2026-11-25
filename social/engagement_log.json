@@ -4,11 +4,11 @@
     "lifetime_follows": 26,
     "lifetime_likes": 33,
     "lifetime_comments": 7,
-    "last_session": "comments-2026-11-25T1406Z",
+    "last_session": "outreach-2026-11-25T1809Z",
     "blocked_at": null,
-    "last_updated": "2026-11-25T14:09:40Z",
-    "total_actions": 792,
-    "lifetime_dms": 35,
+    "last_updated": "2026-11-25T18:10:22Z",
+    "total_actions": 793,
+    "lifetime_dms": 36,
     "lifetime_comments_outbound": 96
   },
   "actions": [
@@ -45075,6 +45075,15 @@
       "post_url": "https://www.instagram.com/lifeinjeneral/p/DdDP3EWFCz0/",
       "text": "I'm an organizing niche affiliate commenting on another creator's post, so I should skip memory/tools here and just write the comment directly.",
       "caption_seen": ""
+    },
+    {
+      "timestamp": "2026-11-25T18:10:22Z",
+      "action": "dm_sent",
+      "target": "iheartorganizing",
+      "session": "outreach-2026-11-25T1809Z",
+      "body_chars": 870,
+      "thread_url": "https://www.instagram.com/iheartorganizing/",
+      "template_tag": "path_c_v2_affiliate_split"
     }
   ]
 }
