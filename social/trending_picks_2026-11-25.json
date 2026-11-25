@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-11-25",
+  "category": "Window Treatments",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-blackout-curtains.html",
+  "picks": [
+    {
+      "asin": "B08SBYPF14",
+      "name": "MIULEE 100% Blackout Linen Curtains for Bedroom 52x84 Inches Natural B",
+      "price": "$22.18",
+      "rating": 4.6,
+      "reviews": 10955,
+      "rank": 2
+    },
+    {
+      "asin": "B01N20YR6B",
+      "name": "rabbitgoo Rainbow Window Privacy Film",
+      "price": "$5.68",
+      "rating": 4.5,
+      "reviews": 81053,
+      "rank": 35
+    },
+    {
+      "asin": "B0BR3STN87",
+      "name": "Linen Total Blackout Curtains for Bedroom Living Room 84 Inch",
+      "price": "$26.37",
+      "rating": 4.5,
+      "reviews": 9414,
+      "rank": 3
+    },
+    {
+      "asin": "B01CS31R94",
+      "name": "NICETOWN Black Blackout Curtains for Bedroom 42\" wide x 63\" Long 2 Pan",
+      "price": "$8.78",
+      "rating": 4.7,
+      "reviews": 134955,
+      "rank": 4
+    },
+    {
+      "asin": "B0F332CCLK",
+      "name": "MIULEE Blackout Curtains for Bedroom 2 Panels 40 x 63 Inch Long Black",
+      "price": "$8.53",
+      "rating": 4.5,
+      "reviews": 8261,
+      "rank": 5
+    },
+    {
+      "asin": "B0881QG5WK",
+      "name": "ChrisDowa Blackout Curtains for Bedroom and Living Room 63 Inches Long",
+      "price": "$9.99",
+      "rating": 4.6,
+      "reviews": 32438,
+      "rank": 6
+    }
+  ]
+}
