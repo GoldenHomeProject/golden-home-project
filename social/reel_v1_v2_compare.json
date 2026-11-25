@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-24T08:15",
+ "updated": "2026-11-25T08:15",
  "note": "watch_pct = avg watch time / reel length (IG has no 3-second-hold metric). Clicks and orders: Associates report by ascsubtag.",
  "summary": {
   "v1": {
-   "reels": 15,
+   "reels": 16,
    "like_count": 0.0,
    "comments_count": 0.0,
    "link_replies": null
@@ -332,6 +332,24 @@
    "comments_count": 0,
    "like_count": 0,
    "permalink": "https://www.instagram.com/reel/DgG9QNWDHe_/",
+   "plays": null,
+   "saves": null,
+   "shares": null,
+   "avg_watch_s": null,
+   "watch_pct": null,
+   "keyword": null,
+   "link_replies": null
+  },
+  {
+   "date": "2026-11-24",
+   "variant": "v1",
+   "title": "Ever kick the blanket off then grab it right back?",
+   "ig_media": "17878435035628480",
+   "youtube": "7XJNUBB9byc",
+   "length_s": 20.0,
+   "comments_count": 0,
+   "like_count": 0,
+   "permalink": "https://www.instagram.com/reel/DgJVFUEhU8G/",
    "plays": null,
    "saves": null,
    "shares": null,
