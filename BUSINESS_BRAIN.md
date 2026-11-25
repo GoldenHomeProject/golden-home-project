@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-11-25 (Strategy & Outreach 9am)
+# Last updated: 2026-11-25 (Affiliate Optimizer 10am)
 # ============================================================
 
 ---
@@ -5865,3 +5865,86 @@ Mamma Mia 24-30% DAY 77 UNBREAKABLE ($12.69/sale, Thanksgiving 2 DAYS + BFCM DAY
   (2) KITCHEN/BFCM: OXO POP container set for kitchen pantry ~$30-45 — BFCM 2026 kitchen deals coverage confirmed, Cyber Monday 5 days out, peak Thanksgiving/meal prep search season, TikTok viral kitchen organizer; IAN: search "OXO POP container set kitchen pantry" in Associates for top ASIN; https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20.
   (3) CHRISTMAS/DECOR: Frosted artificial Christmas tree pre-lit small 4ft ~$25-40 — Cinderella aesthetic confirmed ApartmentTherapy 2026 trend, peak Pinterest save window OPEN (BFCM = start of Christmas decorating), renter-apartment-sized, zero GHP Cinderella coverage; IAN: search "frosted artificial Christmas tree pre-lit 4ft small" in Associates for top ASIN; https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20.
 - **FOR MARKETING / IAN — not GHP:** Gmail post-Email-Monitor scan (since 13:00 UTC Nov 25): 0 new emails — inbox CLEAN. Only email found: Olight gaming collab pitch (thread 1a21296676760304, 2026-11-25T12:02 UTC, ostationrosie@mcn.noxinfluencer.com) — already processed by Nov 25 Email Monitor. Zero on-niche GHP brand emails. Zero emails sent.
+- **FOR MARKETING / IAN — not GHP:** Gmail post-Strategy scan (since 13:08 UTC Nov 25): 0 new emails — inbox CLEAN. Only emails found already processed by Email Monitor: Meta AI glasses holiday promo (thread 1a20f5ac8b037a30) and Olight gaming collab (thread 1a21296676760304). Zero on-niche GHP brand emails. Zero emails sent.
+
+---
+
+### November 2026 Affiliate Updates (updated 2026-11-25 Affiliate Optimizer 10am):
+
+**GMAIL POST-STRATEGY SCAN (since Strategy & Outreach ~13:08 UTC Nov 25):** 0 new emails — inbox CLEAN. Email Monitor today (13:00 UTC) logged 2 non-GHP emails: Meta AI glasses holiday promo (thread 1a20f5ac8b037a30) and Olight gaming collab pitch (thread 1a21296676760304) — both FOR MARKETING/IAN, no action. Zero on-niche GHP brand deal emails. Zero emails sent. Cold outreach PAUSED per Ian Sep 3 directive.
+
+**PLATFORM STATUS (BFCM DAY 7, NOV 25 — Thanksgiving TOMORROW, Christmas 31 DAYS, Cyber Monday 5 DAYS):**
+
+**Amazon Associates (goldenhomep0a-20):**
+- BFCM DAY 7 LIVE. Thanksgiving TOMORROW (Nov 26). Christmas 31 DAYS. Cyber Monday NOV 30 = 5 DAYS.
+- No new bounty or commission-rate changes observed.
+- Q4 priority products: Thanksgiving-eve bathroom reset ($55-60), Cinderella Christmas tree ($55-65), Cyber Monday kitchen org basket ($70-110), plaid throw ($18-24), battery LED lanterns ($18-25), velvet duvet ($34-45), under-bed storage (~$30).
+
+**Impact.com (Publisher ID 7104029):**
+- **Mamma Mia 24-30% — DAY 78 UNBREAKABLE.** $12.69/sale. Thanksgiving TOMORROW + BFCM DAY 7 = single highest-urgency moment of the season. Zero content in 78 days.
+- **Syruvia 20% — DAY 27. ZERO tracking links. $156.60 TOTAL FORFEITED** ($5.80/day, was $150.80 Nov 24). BFCM LIVE.
+- **SmartWings BF 15% — DAY 14 LIVE.** $30-60/sale. Tracking links unbuilt.
+- **Dreame — BFCM LIVE.** Active Impact program. Zero tracking links.
+- **YEEDI 57605 — DAY 23, BFCM LIVE.** Zero tracking links.
+- **Best Choice Products 10-15% — 1-click pre-approved, unactioned.** BFCM LIVE.
+- **Nanoleaf — NEW marketplace brand (Nov 10, unactioned).** Smart LED lighting, $60-200+ AOV. ON-NICHE.
+- **Riley Home LLC — NEW marketplace brand (Nov 10, unactioned).** Home brand, TBD commission.
+- **Campaign Logos — NEW marketplace brand (Nov 23, niche unknown).** IAN: check if on-niche.
+
+**CJ Affiliate:**
+- **AliExpress (CID 7711902) — dormancy DAY 54 of 90** (36 days remain, ~Dec 30 deadline). No new invitations.
+
+**Awin:**
+- **Rewarx 50% recurring (ID 129153): DAY 72 IAN-BLOCKED.** Highest commission in portfolio. BFCM traffic LIVE.
+- **Homary 12%/$96/sale (ID 91447): DAY 59.** Awin express signup incomplete.
+- **Promeed HerbalRX (ID 100833): 20% CPA ACTIVE.** Pending IAN browser accept.
+- **Big Wall Decor US — invitation pending IAN acceptance (DAY 8).** ~10%, $400 AOV, ~$40/order, holiday bonus. ON-NICHE wall art.
+
+**HIGH-AOV OPPORTUNITY SCAN (Nov 25, BFCM Day 7, Thanksgiving TOMORROW):**
+- **Thanksgiving-eve bathroom reset** (~$55-60: freestanding over-toilet rack + white towels + soap dispenser) — highest possible urgency (Thanksgiving TOMORROW), TikTok viral @organizedchaos4 150K+ views this week, zero GHP coverage, goldenhomep0a-20. TONIGHT-ONLY window.
+- **"Cinderella Christmas tree" aesthetic** (~$55-65: frosted pre-lit mini tree 4ft + silver/blue ornaments + iridescent ribbon) — ApartmentTherapy 2026 confirmed "most magical holiday trend," DISTINCT from burgundy (Nov 22) and Ralph Lauren plaid (Nov 24), peak Pinterest save window OPEN, zero GHP, zero competitor coverage.
+- **Cyber Monday kitchen org countdown** (~$70-110: pull-out cabinet organizer + OXO POP containers + bamboo drawer dividers) — Cyber Monday NOV 30 = 5 DAYS, 20-30% off BFCM confirmed, zero GHP Cyber Monday specific content. Script before Cyber Monday loses the preview window.
+- **Robot vacuums** (Dreame, YEEDI on Impact — BFCM LIVE, $100-350, $6-20/sale) — zero tracking links, highest AOV category.
+- **Smart shades** (SmartWings BF 15% DAY 14, $30-60/sale) — email confirmed ACTIVE, Impact links unbuilt.
+- **Silk/linen bedding** (Promeed Impact 12% ACTIVE) — zero content for 20+ days. 12% vs 4% Amazon = 3× revenue per click.
+
+**KEY DELTAS vs Nov 24 Affiliate Optimizer (+1 day):**
+- Mamma Mia: **DAY 78** (was 77)
+- Syruvia: **DAY 27 — $156.60 total forfeited** (was DAY 26, $150.80, +$5.80 more forfeited)
+- SmartWings: **DAY 14 BF LIVE** (was 13)
+- YEEDI: **DAY 23** (was 22)
+- Rewarx: **DAY 72 IAN-BLOCKED** (was 71)
+- Homary: **DAY 59** (was 58)
+- CJ AliExpress: **DAY 54 of 90** (was 53, 36 days remain)
+- Big Wall Decor US Awin: **DAY 8 pending** (was 7)
+- Google Search Console 404: **UNRESOLVED DAY 7** (was 6, Thanksgiving traffic LIVE)
+
+**REVENUE PRIORITY STACK (Nov 25):**
+Mamma Mia 24-30% DAY 78 UNBREAKABLE ($12.69/sale, Thanksgiving TOMORROW + BFCM DAY 7 — SCRIPT NOW) > Syruvia 20% DAY 27 ($156.60 total forfeited, $5.80/day, BFCM LIVE) > SmartWings BF 15% DAY 14 ($30-60/sale) > Dreame BFCM LIVE > YEEDI DAY 23 BFCM LIVE > Thanksgiving-eve bathroom reset ($55-60, GUESTS TOMORROW, TikTok viral, zero GHP — TONIGHT ONLY) > Cyber Monday kitchen countdown ($70-110, Cyber Monday 5 DAYS) > Big Wall Decor US Awin DAY 8 ~$40/order > Nanoleaf NEW Impact LED ($60-200+) > Rewarx 50% DAY 72 IAN-BLOCKED > Homary $96/sale DAY 59 > CJ AliExpress DAY 54.
+
+**NEXT ACTIONS (Ian — ranked by BFCM/Thanksgiving urgency):**
+  1. 🚨🚨🚨 **FIX Google Search Console 404 errors** — UNRESOLVED DAY 7, BFCM Day 7 + Thanksgiving TOMORROW traffic LIVE (thread 1a1f2e8063f1df6d). Blocking SEO revenue during peak Q4 traffic.
+  2. 🚨🚨🚨 **SCRIPT MAMMA MIA COUCH COVER — DAY 78 UNBREAKABLE.** Thanksgiving TOMORROW. Hook: "Thanksgiving guests arrive TOMORROW. Same couch. After. Before." $12.69/sale at 24-30% Impact. Zero content in 78 days.
+  3. 🚨🚨🚨 **SCRIPT THANKSGIVING-EVE BATHROOM RESET — TONIGHT-ONLY WINDOW.** Freestanding over-toilet rack + white towels + soap dispenser, under $60. TikTok viral @organizedchaos4 150K+ views. goldenhomep0a-20.
+  4. 🚨🚨🚨 **BUILD SYRUVIA TRACKING LINK on Impact — DAY 27.** $156.60 total forfeited. BFCM LIVE.
+  5. 🚨🚨🚨 **BUILD SMARTWINGS BF TRACKING LINKS — DAY 14 LIVE.** Impact Publisher 7104029. $30-60/sale.
+  6. 🚨🚨🚨 **BUILD DREAME TRACKING LINKS — BFCM LIVE.** Impact → Dreame → build links.
+  7. 🚨🚨 **BUILD YEEDI (Impact 57605) TRACKING LINK — DAY 23, BFCM LIVE.**
+  8. 🚨🚨 **SCRIPT CYBER MONDAY KITCHEN ORG COUNTDOWN — NOV 30 = 5 DAYS.** Pull-out cabinet organizer + OXO POP containers + bamboo drawer dividers, 20-30% off BFCM. goldenhomep0a-20.
+  9. 🚨🚨 **SCRIPT "CINDERELLA CHRISTMAS TREE" — peak Pinterest save window OPEN NOW.** Frosted pre-lit mini tree 4ft + silver/blue ornaments + iridescent ribbon. ApartmentTherapy 2026 trend. goldenhomep0a-20.
+  10. 🚨🚨 **ACCEPT BIG WALL DECOR US on Awin — DAY 8.** ~10%, $400 AOV, holiday bonus. ON-NICHE.
+  11. 🚨🚨 **CHECK NANOLEAF on Impact marketplace + JOIN.** $60-200+ AOV. BFCM LIVE.
+  12. 🚨 Accept REWARX Awin ID 129153 — DAY 72. 50% recurring. Reply studio@rewarx.com for Golden10 code.
+  13. 🚨 Accept PROMEED HerbalRX Awin ID 100833 — 20% CPA. Awin browser dashboard.
+  14. Accept BEST CHOICE PRODUCTS on Impact — 1-click pre-approved 15%, BFCM LIVE.
+  15. Check CAMPAIGN LOGOS on Impact marketplace — niche unknown (thread 1a208884270a6646).
+  16. Complete HOMARY Awin express signup (ID 91447) — DAY 59. Affiliate ID to Lauren at affiliate@homary.com.
+  17. Check RILEY HOME LLC on Impact marketplace — home brand, TBD commission.
+  18. CJ portal audit — AliExpress dormancy DAY 54 (36 days remain, ~Dec 30 deadline).
+  19. Accept ON-NICHE Awin browser invites: Tribesigns, SimpleProject, OKUN, CozySpiritStudio.
+  20. Enter PINTEREST FESTIVE CHALLENGE — $300 prize, ON-NICHE holiday/cozy decor (thread 1a209955673c608b).
+  21. Review Google Analytics Oct 20–Nov 16 report.
+
+**FOR MARKETING DEPT / IAN — not GHP (Nov 25, Affiliate Optimizer 10am):**
+- **Meta "Up to 25% off your new holiday helper"** (email@marketing.metamail.com, thread 1a20f5ac8b037a30, 2026-11-24T20:57 UTC) — Meta AI glasses holiday promo, possible Telasight relevance. NOT GHP. No reply sent.
+- **Olight "Collab with Olight: Level up your gaming setup"** (ostationrosie@mcn.noxinfluencer.com, thread 1a21296676760304, 2026-11-25T12:02 UTC) — gaming/tech accessories collab pitch. NOT GHP. No reply sent.
