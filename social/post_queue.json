@@ -10887,5 +10887,77 @@
     "keyword": "NIGHTLIGHT",
     "queued_at": "2026-11-24T18:29:57.830673Z",
     "source": "carousel_generator"
+  },
+  {
+    "name": "reel_2026-11-25_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-25-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Stop guessing portions with measuring cups\n\nMeasuring cups show volume, not weight, so a cup of rice, oats, or peanut butter can weigh something different every time. That makes it hard to match a recipe written in grams or keep meal-prep portions consistent from one bowl to the next.\n\nThis digital scale measures in both grams and ounces, holds up to eleven pounds, and has a tare function to zero out a bowl or plate before you add food. It's rated 4.6 stars from about 178,000 reviews.\n\nFor about $10, portions and recipe measurements come out the same every time instead of a guess.\n\nComment GRAMS and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Etekcity Food Kitchen Scale, Digital Grams and Ounces, 11lb | Tare function, ideal for baking, weight loss, keto, meal p",
+      "dm_keyword": "GRAMS",
+      "amazon_asin": "B0113UZJE2",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B0113UZJE2?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Stop guessing portions with measuring cups"
+  },
+  {
+    "name": "reel_2026-11-25_002",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-25-002.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Watch the kitchen scissors finally get their own sheath\n\nMost kitchens don't have scissors meant for the kitchen. It's the mail scissors from a drawer, used on raw chicken packaging one minute and herbs the next, blade exposed next to the forks.\n\nThese are kitchen shears made for that drawer specifically, with a protective sheath over the blades and a soft grip handle, sitting near 73,000 reviews at 4.8 stars.\n\nOne pair, dedicated to the kitchen, blades covered when not in use, for about $7.\n\nComment PURPOSE and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "KitchenAid All Purpose Kitchen Shears with Protective Sheath Durable Stainless Steel Scissors, Dishwasher Safe, Soft Gri",
+      "dm_keyword": "PURPOSE",
+      "amazon_asin": "B07PZF3QS3",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B07PZF3QS3?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Watch the kitchen scissors finally get their own sheath"
+  },
+  {
+    "name": "reel_2026-11-25_003",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-25-003.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "A cup of flour isn't a measurement. It's a guess with a lid on it.\n\nScoop the cup and pack it, or spoon the flour in loose \u2014 the amount that lands in the bowl shifts either way, which is why two people can follow the same recipe and pull two different loaves out of the oven. Weight settles the argument: 120 grams is 120 grams no matter how it got there. The same scale also portions coffee, splits dough into equal pieces, and confirms a package's weight before a trip to the post office.\n\nThe Etekcity Food Kitchen Scale is a compact digital scale that reads exactly what's placed on it, so a recipe stops being an estimate. It carries 176,516 reviews at a 4.6-star average \u2014 a sample large enough that the score reflects how it performs across kitchens, not just one.\n\nRecipes you already make turn out the same way twice, without changing anything else about how you cook. It's $10.99.\n\nComment FOOD and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Etekcity Food Kitchen Scale",
+      "dm_keyword": "FOOD",
+      "amazon_asin": "B0113UZJE2",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B0113UZJE2?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "A cup of flour isn't a measurement. It's a guess with a lid on it."
   }
 ]
