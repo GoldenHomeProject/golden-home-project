@@ -6715,3 +6715,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** none
 **External actions:** none
 **Next agent hint:** No new Reels today — IG Poster should use backlog
+
+## 2026-11-25T11:15:13Z — Pinterest Pipeline
+**Ran:** Generated 3 pin(s) for the Pinterest traffic engine
+**Changed:** social/pinterest_queue.json
+**External actions:** Pexels (backgrounds) + Claude CLI (pin copy)
+**Next agent hint:** post_pinterest.py (Pi) drains pinterest_queue.json once a Pinterest business account is logged into the Pi Chromium profile.
