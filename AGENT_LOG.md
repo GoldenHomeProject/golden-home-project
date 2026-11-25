@@ -6751,3 +6751,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** automation/scripts/reel-2026-11-25-*.json, social/post_queue.json
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: mistake: Stop guessing portions with measuring cups | satisfying_fix: Watch the kitchen scissors finally get their own s | use_case: A cup of flour isn't a measurement. It's a guess w
+
+## 2026-11-25T17:53:23Z — Reel Producer
+**Ran:** Rendered 1/1 MP4s for 2026-11-25
+**Changed:** social/reels/reel-2026-11-25-*.mp4, social/post_queue.json
+**External actions:** none
+**Next agent hint:** IG Poster has 1 new Reels ready for 14:00 + 22:00 UTC slots
