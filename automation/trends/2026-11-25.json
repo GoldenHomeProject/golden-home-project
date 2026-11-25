@@ -1,0 +1,136 @@
+{
+  "generated_at": "2026-11-25T15:18:06.129537Z",
+  "date": "2026-11-25",
+  "opportunities": [
+    {
+      "rank": 1,
+      "product_category": "couch/sofa covers",
+      "specific_product": "Mamma Mia waterproof stretch sofa cover",
+      "brand": "Mamma Mia Covers",
+      "target_price": "$42",
+      "transformation_hook": "$42 cover hides pet hair + stains before holiday guests arrive",
+      "before_state": "Worn, pet-hair-covered couch with visible stains before Thanksgiving/Christmas guests",
+      "after_state": "Couch looks brand-new in under 5 minutes with a tight-fit waterproof stretch cover",
+      "buyer_intent_keywords": [
+        "pet hair couch cover",
+        "waterproof sofa cover",
+        "couch cover for dogs",
+        "stretch sofa slipcover",
+        "stain proof couch cover"
+      ],
+      "scores": {
+        "trend": 9,
+        "transformation": 10,
+        "affiliate": 10,
+        "intent": 9
+      },
+      "composite_score": 38,
+      "why_now": "Holiday-hosting cleaning content (Hoover AllOut Lux pin) and pre-guest home prep searches are peaking the week before Thanksgiving."
+    },
+    {
+      "rank": 2,
+      "product_category": "pantry/kitchen organization",
+      "specific_product": "Syruvia airtight kitchen canister & label set",
+      "brand": "Syruvia",
+      "target_price": "$35",
+      "transformation_hook": "$35 canister set turns Thanksgiving-leftover chaos into a magazine pantry",
+      "before_state": "Cluttered pantry with mismatched bags, boxes, and post-Thanksgiving leftover containers",
+      "after_state": "Uniform labeled canisters and bins create an aesthetic, Pinterest-ready pantry wall",
+      "buyer_intent_keywords": [
+        "pantry organization ideas",
+        "airtight food containers",
+        "pantry canister set",
+        "kitchen organization before after",
+        "leftover storage containers"
+      ],
+      "scores": {
+        "trend": 8,
+        "transformation": 9,
+        "affiliate": 8,
+        "intent": 9
+      },
+      "composite_score": 34,
+      "why_now": "Pinterest's colorful-kitchen pins plus post-Thanksgiving leftover overflow are driving a seasonal spike in pantry-organization searches."
+    },
+    {
+      "rank": 3,
+      "product_category": "bathroom storage",
+      "specific_product": "Over-the-toilet bamboo storage ladder shelf",
+      "brand": "Amazon generic",
+      "target_price": "$55",
+      "transformation_hook": "$55 shelf fills that empty wall and triples guest-bathroom storage",
+      "before_state": "Bare, awkward empty wall space above the toilet with towels piled on the sink",
+      "after_state": "Tall ladder shelf displays towels and baskets, turning dead space into storage",
+      "buyer_intent_keywords": [
+        "over the toilet storage",
+        "small bathroom storage ideas",
+        "bathroom shelf organizer",
+        "guest bathroom makeover",
+        "bathroom storage ladder"
+      ],
+      "scores": {
+        "trend": 7,
+        "transformation": 9,
+        "affiliate": 9,
+        "intent": 8
+      },
+      "composite_score": 33,
+      "why_now": "HGTV's pin on filling the empty space above the toilet is circulating right as hosts prep guest bathrooms for holiday visitors."
+    },
+    {
+      "rank": 4,
+      "product_category": "living room seating",
+      "specific_product": "Best Choice Products tufted ottoman/pouf set",
+      "brand": "Best Choice Products",
+      "target_price": "$89",
+      "transformation_hook": "$89 pouf set adds instant extra seating for holiday house guests",
+      "before_state": "Cramped living room with not enough seating for holiday family gatherings",
+      "after_state": "Stylish ottomans and poufs add flexible extra seating and a cozy layered look",
+      "buyer_intent_keywords": [
+        "extra seating for guests",
+        "ottoman pouf set",
+        "living room seating ideas",
+        "floor pillow seating",
+        "cozy living room decor"
+      ],
+      "scores": {
+        "trend": 6,
+        "transformation": 8,
+        "affiliate": 8,
+        "intent": 7
+      },
+      "composite_score": 29,
+      "why_now": "HGTV's floor-pillow/pouf/ottoman seating roundup is trending as families prep living rooms for a full house over the holidays."
+    },
+    {
+      "rank": 5,
+      "product_category": "throw blankets",
+      "specific_product": "Oversized sherpa knit throw blanket",
+      "brand": "Amazon generic",
+      "target_price": "$29",
+      "transformation_hook": "$29 throw turns a bare couch into a cozy holiday-ready living room",
+      "before_state": "Plain, bare couch with no texture or holiday coziness",
+      "after_state": "Draped oversized sherpa throw instantly adds warmth and a styled, cozy look",
+      "buyer_intent_keywords": [
+        "oversized cozy throw blanket",
+        "sherpa blanket couch",
+        "cozy living room decor",
+        "holiday gift blanket",
+        "soft throw blanket"
+      ],
+      "scores": {
+        "trend": 6,
+        "transformation": 7,
+        "affiliate": 7,
+        "intent": 6
+      },
+      "composite_score": 26,
+      "why_now": "Apartment Therapy's luxury-blanket holiday-gift pin (Minky Couture) signals cozy-throw styling is surging as a low-cost living-room refresh."
+    }
+  ],
+  "raw_signal_count": 85,
+  "sources_used": [
+    "google_trends_daily_us",
+    "pinterest"
+  ]
+}
