@@ -9061,14 +9061,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-31-B07ZH3QVSV.png",
     "queued_at": "2026-10-31T10:14:46.132906Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "No-Drill Blackout for French Doors",
     "recharted": true,
     "variant": "A",
-    "ai_image": true
+    "ai_image": true,
+    "posted_at": "2026-11-25T14:41:45Z"
   },
   {
     "id": "pin-2026-10-31-B0F24MHHFD",
