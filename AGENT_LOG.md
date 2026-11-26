@@ -6800,8 +6800,8 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **External actions:** none
 **Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: scene: The number on your scale never matches twice. | scene: Sunlight hits your pillow before your alarm even t | scene: Your couch cushions go flat before anyone even sit
 
-## 2026-11-26T17:28:09Z — Carousel Generator
-**Ran:** Generated 5-slide carousel for B09CSS6YL4 (LED Motion Sensor Night Light Plug-In (2)
-**Changed:** social/carousels/2026-11-26-B09CSS6YL4/slide-1.png, social/carousels/2026-11-26-B09CSS6YL4/slide-2.png, social/carousels/2026-11-26-B09CSS6YL4/slide-3.png, social/carousels/2026-11-26-B09CSS6YL4/slide-4.png, social/carousels/2026-11-26-B09CSS6YL4/slide-5.png, social/post_queue.json
-**External actions:** Pexels (4 photos) + Claude CLI (slide content)
-**Next agent hint:** IG Poster: next CAROUSEL_ALBUM slot will publish B09CSS6YL4 carousel.
+## 2026-11-26T17:36:41Z — Reel Producer
+**Ran:** Rendered 2/2 MP4s for 2026-11-26
+**Changed:** social/reels/reel-2026-11-26-*.mp4, social/post_queue.json
+**External actions:** none
+**Next agent hint:** IG Poster has 2 new Reels ready for 14:00 + 22:00 UTC slots
