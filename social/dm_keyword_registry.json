@@ -7534,6 +7534,38 @@
       "verified_stars": "4.6",
       "verified_reviews": 9694,
       "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B07DTZMLXD",
+      "product_name": "Kitsch Microfiber Hair Towel Wrap for Women - Pink | Ultra Absorbent Microfiber Hair Towels for All Hair Types \u2013 Anti-Fr",
+      "categories": [
+        "home",
+        "Bath Linens"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B07DTZMLXD?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-11-26",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$18.37",
+      "verified_stars": "4.5",
+      "verified_reviews": 9274,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B01BDEUBKK",
+      "product_name": "NICETOWN White Sheer Curtains 84 inches Long - Home Decoration Grommet Airy & Lightweight Elegant Window Treatments with",
+      "categories": [
+        "home",
+        "Window Treatments"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B01BDEUBKK?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-11-26",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$8.49",
+      "verified_stars": "4.7",
+      "verified_reviews": 28473,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
