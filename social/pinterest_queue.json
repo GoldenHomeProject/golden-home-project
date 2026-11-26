@@ -10434,11 +10434,12 @@
     "image_path": "social/pinterest/mistakes-2026-11-11.png",
     "image_url": "https://goldenhomeproject.com/social/pinterest/mistakes-2026-11-11.png",
     "queued_at": "2026-11-11T11:20:18.775083Z",
-    "posted": false,
+    "posted": true,
     "source": "generate_format_pins",
     "format": "mistakes",
     "variant": "B",
-    "guide": null
+    "guide": null,
+    "posted_at": "2026-11-26T02:16:47Z"
   },
   {
     "id": "pin-2026-11-12-B0183SN7H8",
