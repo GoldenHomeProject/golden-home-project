@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-11-26 (Strategy & Outreach 9am)
+# Last updated: 2026-11-26 (Affiliate Optimizer 10am)
 # ============================================================
 
 ---
@@ -5955,3 +5955,60 @@ Mamma Mia 24-30% DAY 78 UNBREAKABLE ($12.69/sale, Thanksgiving TOMORROW + BFCM D
 - **WHIMSICAL/NOSTALGIC CHRISTMAS AESTHETIC — 810% PINTEREST SEARCH SURGE, ZERO GHP COVERAGE.** Ideal Home Nov 2026 confirms "whimsical Christmas decor" searches are up 810% on Pinterest. Country & Town House says nostalgia is proving to be one of the biggest Christmas decor trends of 2026 — paper garlands, tin stars, collected antiques, retro color palettes (teal, fuchsia, gold), vintage tinsel. This is DISTINCT from every other GHP Christmas idea (all were modern/upscale aesthetics). Budget renter version: vintage-look ornament set $18 + retro paper garland $10 + tinsel garland $8 + ceramic retro figurine $14 = ~$48-55. Zero GHP coverage, zero competitor coverage (Gater: 40 days no upload; Nest With Me: crafts; DIY Creators: woodworking). Peak Pinterest save timing: NOW — Thanksgiving = Day 1 of the Christmas decorating season, and the nostalgia angle is the highest-share format because viewers tag parents and childhood friends. goldenhomep0a-20. Hook: "Whimsical Christmas searches are exploding right now. The look everyone's bringing back. Same living room. Same tree."
 - **Amazon picks for Pinterest pipeline (Nov 26) — categories with real August sales:** (1) HOLIDAY DECOR: Mercury glass ornament set dark silver/gunmetal ~$18-28 — TikTok #Gothmas millions of views, Day 1 of Christmas decorating season, peak Pinterest save window OPENS TODAY, zero GHP; IAN: search "mercury glass ornament set dark silver gunmetal Christmas" in Associates; https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20. (2) BEDDING/GUEST: Heated electric throw blanket fleece ~$28-45 — "Amazon Thanksgiving order for Christmas guests" format, Prime 2-day delivers THIS WEEKEND, hotel-luxury guest upgrade, peak seasonal demand; IAN: search "electric heated throw blanket fleece cozy" in Associates; goldenhomep0a-20 tag. (3) HOLIDAY DECOR/NOSTALGIA: Vintage/retro Christmas paper garland or nostalgic ornament set ~$12-22 — "whimsical Christmas decor" +810% Pinterest (Ideal Home Nov 2026), distinct nostalgia angle zero GHP, peak Pinterest save window OPEN; IAN: search "vintage retro Christmas paper garland" in Associates; goldenhomep0a-20 tag.
 - **Competitor watch (Nov 26, Thanksgiving):** Alexandra Gater: DAY 40 since Oct 17 "Mid-Century Modern 240 sq ft Studio" confirmed via VidIQ Nov 26 — CONFIRMED LONGEST 2026 GAP EVER. No November 2026 upload confirmed. All competitor content slots uncovered. Nest With Me: crafts/pregnancy. DIY Creators: woodworking. Gothmas + Amazon Thanksgiving ordering + Whimsical nostalgia = ALL zero competitor coverage. Pinterest itself signals Cyber 5 → Q5 (Dec 25–Jan) strategy shift: start planning New Year's reset/self-purchase content alongside Christmas gifting.
+
+### November 2026 Affiliate Updates (updated 2026-11-26 Affiliate Optimizer 10am):
+**Gmail post-Strategy scan (since ~14:00 UTC Nov 26):** 1 new email — Google Search Console "New reasons prevent pages from being indexed on site https://goldenhomeproject.com/" (sc-noreply@google.com, thread 1a2181e8f114665d, 2026-11-26T13:49Z). **BRAND NEW CRITICAL: Server error (5xx)** is now a NEW reason preventing pages on goldenhomeproject.com from being indexed — IN ADDITION to the existing 404 errors (flagged Nov 19, DAY 9 UNRESOLVED today). Google Search Console is now detecting 5xx server errors causing pages to drop from the Google index during peak BFCM/Thanksgiving traffic. This is a critical escalation from the ongoing 404 issue. Logged for IAN — urgent technical fix needed immediately. 0 on-niche GHP brand deal emails. 0 emails sent. Cold outreach PAUSED per Ian Sep 3 directive.
+
+**PLATFORM STATUS (BFCM DAY 8, Thanksgiving TODAY Nov 26, Cyber Monday NOV 30 = 4 DAYS, Christmas 30 DAYS):**
+- **Impact — Mamma Mia 24-30% DAY 79 UNBREAKABLE** ($12.69/sale, Thanksgiving TODAY = PEAK shopping intent). Zero content. Script now.
+- **Impact — Syruvia 20% DAY 28 ZERO LINKS** ($5.80/day × 28 days = **$162.40 TOTAL FORFEITED**, BFCM LIVE). Build Impact tracking link immediately.
+- **Impact — SmartWings BF 15% DAY 15 ACTIVE** ($30-60/sale). No tracking link built yet.
+- **Impact — Dreame BFCM LIVE ~DAY 8** zero links. Build Impact tracking link.
+- **Impact — YEEDI DAY 24 BFCM LIVE** zero links. Impact ID 57605.
+- **Impact — Best Choice 15% 1-click pre-approved** — unactioned.
+- **Impact — Nanoleaf NEW** — unactioned. $60-200+ AOV.
+- **Impact — Riley Home LLC NEW** — unactioned. Home brand.
+- **Impact — Campaign Logos NEW** — niche unknown (thread 1a208884270a6646).
+- **CJ — AliExpress dormancy DAY 55 of 90** (35 days remain, ~Dec 30 deadline).
+- **Awin — Rewarx 50% DAY 73 IAN-BLOCKED** (highest % partner in portfolio, unactioned).
+- **Awin — Homary $96/sale DAY 60** (pending express signup completion).
+- **Awin — Promeed HerbalRX 20%** pending acceptance.
+- **Awin — Big Wall Decor US DAY 9** pending IAN acceptance (ON-NICHE ~10%, $400 AOV, holiday bonus).
+- **Awin — Simpletics invitation** received today (thread 1a217322bc6b2c52, Nov 26, OFF-NICHE men's hair/grooming) — no action needed, Email Monitor processed.
+
+**HIGH-AOV OPPORTUNITY SCAN (Nov 26, Thanksgiving — Day 1 of Christmas decorating season):**
+- Gothmas dark Christmas aesthetic (~$55-66): Day 1 of Christmas decorating season TODAY, peak Pinterest save window OPENS NOW, TikTok millions of views, zero GHP and competitor coverage.
+- Amazon Thanksgiving ordering for Christmas guests ($71-113): tonight-only ordering window (Prime 2-day delivers THIS WEEKEND), unique format, zero GHP coverage.
+- Whimsical nostalgia Christmas (~$48-55): +810% Pinterest (Ideal Home Nov 2026), peak save NOW, zero GHP coverage.
+- Cyber Monday kitchen org countdown (NOV 30 = 4 DAYS): pull-out organizer + OXO POP + bamboo dividers, 20-30% off BFCM.
+- Robot vacuums (Dreame/YEEDI BFCM LIVE): $100-350, zero tracking links built.
+- SmartWings smart shades BF 15% DAY 15: $30-60/sale, confirmed active email Nov 24.
+- Mamma Mia couch cover DAY 79: $12.69/sale, Thanksgiving TODAY = peak conversion window.
+
+**NEXT ACTIONS (Ian — ranked by BFCM/Thanksgiving urgency):**
+  1. 🚨🚨🚨 **FIX goldenhomeproject.com SERVER ERRORS — 5xx BRAND NEW (thread 1a2181e8f114665d, Nov 26 13:49Z) + 404 DAY 9 (thread 1a1f2e8063f1df6d).** Two separate indexing problems now active on BFCM/Thanksgiving peak traffic day. Check hosting/server health immediately. 5xx = likely server down or throwing errors; 404s = missing pages. Both must be fixed to stop losing BFCM organic traffic.
+  2. 🚨🚨🚨 **SCRIPT MAMMA MIA COUCH COVER — DAY 79 UNBREAKABLE.** Thanksgiving TODAY = peak shopping intent. $12.69/sale at 24-30% Impact. Zero content in 79 days.
+  3. 🚨🚨🚨 **SCRIPT "AMAZON THANKSGIVING ORDER FOR CHRISTMAS GUESTS" — TONIGHT-ONLY WINDOW.** Heated throw + sheet set + under-sink organizer, $71-113. goldenhomep0a-20.
+  4. 🚨🚨🚨 **BUILD SYRUVIA TRACKING LINK on Impact — DAY 28.** $162.40 total forfeited. BFCM LIVE.
+  5. 🚨🚨🚨 **BUILD SMARTWINGS BF TRACKING LINKS — DAY 15 LIVE.** Impact Publisher 7104029. $30-60/sale.
+  6. 🚨🚨🚨 **BUILD DREAME TRACKING LINKS — BFCM DAY 8 LIVE.** Impact → Dreame → build links.
+  7. 🚨🚨 **BUILD YEEDI (Impact 57605) TRACKING LINK — DAY 24, BFCM LIVE.**
+  8. 🚨🚨 **SCRIPT "GOTHMAS" DARK CHRISTMAS — Day 1 of Christmas decorating season TODAY.** Peak Pinterest save window OPEN NOW. Dark tinsel + mercury glass ornaments + candelabras + dark tree skirt ~$55-66. goldenhomep0a-20.
+  9. 🚨🚨 **SCRIPT CYBER MONDAY KITCHEN ORG COUNTDOWN — NOV 30 = 4 DAYS.** Pull-out organizer + OXO POP + bamboo dividers, 20-30% off BFCM. goldenhomep0a-20.
+  10. 🚨🚨 **SCRIPT WHIMSICAL/NOSTALGIC CHRISTMAS — peak Pinterest save OPEN NOW.** +810% Pinterest (Ideal Home Nov 2026). Vintage ornaments + paper garland + tinsel ~$48-55. goldenhomep0a-20.
+  11. 🚨🚨 **ACCEPT BIG WALL DECOR US on Awin — DAY 9.** ~10%, $400 AOV, holiday bonus. ON-NICHE.
+  12. 🚨🚨 **CHECK NANOLEAF on Impact marketplace + JOIN.** $60-200+ AOV. BFCM LIVE.
+  13. 🚨 Accept REWARX Awin ID 129153 — DAY 73. 50% recurring. Reply studio@rewarx.com for Golden10 code.
+  14. 🚨 Accept PROMEED HerbalRX Awin ID 100833 — 20% CPA. Awin browser dashboard.
+  15. Accept BEST CHOICE PRODUCTS on Impact — 1-click pre-approved 15%, BFCM LIVE.
+  16. Check CAMPAIGN LOGOS on Impact marketplace — niche unknown (thread 1a208884270a6646).
+  17. Complete HOMARY Awin express signup (ID 91447) — DAY 60. Affiliate ID to Lauren at affiliate@homary.com.
+  18. Check RILEY HOME LLC on Impact marketplace — home brand, TBD commission.
+  19. CJ portal audit — AliExpress dormancy DAY 55 (35 days remain, ~Dec 30 deadline).
+  20. Accept ON-NICHE Awin browser invites: Tribesigns, SimpleProject, OKUN, CozySpiritStudio.
+  21. Enter PINTEREST FESTIVE CHALLENGE — $300 prize, ON-NICHE holiday/cozy decor (thread 1a209955673c608b).
+  22. Review Google Analytics Oct 20–Nov 16 report.
+
+**FOR MARKETING DEPT / IAN — not GHP (Nov 26, Affiliate Optimizer 10am):**
+- **Awin Simpletics invitation** (help@awin.com, thread 1a217322bc6b2c52, 2026-11-26T09:31Z) — men's natural hair styling 25% Awin, OFF-NICHE. No reply sent (Email Monitor processed).
+- **Meta "Shop our Gift Guide & spread joy for less"** (email@marketing.metamail.com, thread 1a213ad788de57f5, 2026-11-25T17:07Z) — Meta AI glasses holiday gift guide, NOT GHP. No reply sent (Email Monitor processed Nov 26).
