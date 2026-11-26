@@ -4,11 +4,11 @@
     "lifetime_follows": 26,
     "lifetime_likes": 33,
     "lifetime_comments": 7,
-    "last_session": "comments-2026-11-26T1409Z",
+    "last_session": "outreach-2026-11-26T1810Z",
     "blocked_at": null,
-    "last_updated": "2026-11-26T14:11:33Z",
-    "total_actions": 797,
-    "lifetime_dms": 36,
+    "last_updated": "2026-11-26T18:11:16Z",
+    "total_actions": 798,
+    "lifetime_dms": 37,
     "lifetime_comments_outbound": 98
   },
   "actions": [
@@ -45336,6 +45336,15 @@
       "post_url": "https://www.instagram.com/organizedbyellis/p/DgKtFu1RqfA/",
       "text": "Inner gasket frames always crack before the outer ones in my experience, so I started storing frames flat with the glass face up\u2014cuts down on that a ton. Do you find rotating storage spots seasonally ",
       "caption_seen": ""
+    },
+    {
+      "timestamp": "2026-11-26T18:11:16Z",
+      "action": "dm_sent",
+      "target": "shiragill",
+      "session": "outreach-2026-11-26T1810Z",
+      "body_chars": 787,
+      "thread_url": "https://www.instagram.com/shiragill/",
+      "template_tag": "path_c_v2_affiliate_split"
     }
   ]
 }
