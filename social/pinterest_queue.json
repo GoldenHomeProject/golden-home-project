@@ -11662,14 +11662,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-11-25-B07PZF3QS3.png",
     "queued_at": "2026-11-25T11:15:10.517137Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": "2026-11-24",
     "gift_key": null,
     "overlay_hook": "Sheathed Blade, Tidy Drawer",
     "recharted": false,
     "variant": "B",
-    "ai_image": true
+    "ai_image": true,
+    "posted_at": "2026-11-26T02:15:32Z"
   },
   {
     "id": "deals-2026-11-25",
