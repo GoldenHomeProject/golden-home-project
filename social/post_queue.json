@@ -1,17 +1,5 @@
 [
   {
-    "id": "ig-deals-2026-11-25",
-    "name": "Black Friday Home Organization Deals: Verified Price Drops",
-    "media_type": "IMAGE",
-    "image_url": "https://goldenhomeproject.com/social/instagram/deals-2026-11-25.jpg",
-    "caption": "Black Friday Home Organization Deals: Verified Price Drops\n\nHome organization picks whose Amazon price really dropped this week: Food Storage Containers, Kitchen Shears, Kitchen Scale, Can Opener, Meat Thermometer. Prices move fast; check the current price before you buy.\n\nSave this for later.\n\n\ud83d\udd17 This product: tap the link in our bio \u2192 'From our videos' at the top.\n\nAs an Amazon Associate we earn from qualifying purchases.\n\n#homeorganization #organizedhome #amazonfinds #homefinds",
-    "status": "ready",
-    "source": "generate_format_pins",
-    "format": "deals",
-    "asin": "B079M8FPTW",
-    "queued_at": "2026-11-25T11:20:07.986657+00:00"
-  },
-  {
     "name": "reel_2026-05-26_001",
     "status": "awaiting_video",
     "script_path": "automation/scripts/reel-2026-05-26-001.json",
