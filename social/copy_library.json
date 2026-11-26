@@ -5805,6 +5805,58 @@
         ],
         "reel_format": "countdown"
       }
+    ],
+    "BACKLIGHT": [
+      {
+        "hook_category": "question",
+        "hook": "Dial scale or a screen you can actually read?",
+        "beat1": "Old spring and dial scales get harder to read every year the needle wobbles, the numbers are tiny, and bathroom lighting is never bright enough first thing in the morning. People squint, shift their weight, and still aren't sure what they saw.",
+        "turn": "The Etekcity scale swaps the dial for a large blue backlit LCD display, built on 6mm tempered glass. It's rated 4.7 stars across roughly 344,000 reviews.",
+        "result": "For anyone tired of guessing at a faded dial, a clear glowing number is a simple fix, and it's about $16.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Bare feet stepping onto an old worn analog bathroom scale, person bending slightly to squint at the small dial in dim morning bathroom light",
+            "on_screen_text": "Can you even read that?",
+            "voiceover": "Dial scale, or a screen you can actually read?",
+            "label": ""
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Close up of hands gripping a sink edge for balance while looking down at a worn spring dial scale with a faded needle on a tile bathroom floor",
+            "on_screen_text": "The old dial, every morning",
+            "voiceover": "Most bathrooms still have the same spring or dial scale that's been there for years.",
+            "label": "The usual way"
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "Overhead shot looking down at bare feet on a dial scale in low light, the needle sitting between two faded number markings",
+            "on_screen_text": "Faded numbers, dim light",
+            "voiceover": "The needle wobbles, the print fades, and in low morning light it's hard to tell exactly where it landed.",
+            "label": "The problem"
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "Bare feet stepping onto a sleek glass bathroom scale as a large blue backlit display glows clearly on the floor beneath",
+            "on_screen_text": "Glass top, backlit number",
+            "voiceover": "This one's a digital scale on 6mm tempered glass, with a large blue LCD backlight built for high precision up to 400 pounds.",
+            "label": "The swap"
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "Person stepping off a glass digital bathroom scale onto a bath mat, glancing back at the glowing blue display behind them",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "Worth it if your bathroom could use a number you don't have to squint at. Comment {KEYWORD} and I'll send the link.",
+            "label": "Worth it if"
+          }
+        ],
+        "reel_format": "versus"
+      }
     ]
   },
   "hashtag_pools": {
