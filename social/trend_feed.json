@@ -1,97 +1,122 @@
 {
-  "generated_at": "2026-11-25T15:18:06.129537Z",
-  "date": "2026-11-25",
+  "generated_at": "2026-11-26T14:42:39.693390Z",
+  "date": "2026-11-26",
   "opportunities": [
     {
       "rank": 1,
-      "product_category": "couch/sofa covers",
-      "specific_product": "Mamma Mia waterproof stretch sofa cover",
-      "brand": "Mamma Mia Covers",
-      "target_price": "$42",
-      "transformation_hook": "$42 cover hides pet hair + stains before holiday guests arrive",
-      "before_state": "Worn, pet-hair-covered couch with visible stains before Thanksgiving/Christmas guests",
-      "after_state": "Couch looks brand-new in under 5 minutes with a tight-fit waterproof stretch cover",
+      "product_category": "outdoor holiday string lights",
+      "specific_product": "Warm white LED curtain/icicle string lights, outdoor-rated",
+      "brand": "Amazon generic",
+      "target_price": "$34",
+      "transformation_hook": "Dark porch to holiday-magazine glow for $34 before Black Friday sells out",
+      "before_state": "Bare, dark front porch or exterior with zero holiday character after dusk",
+      "after_state": "Fully lit, warm-glow exterior that looks like a professional holiday display",
       "buyer_intent_keywords": [
-        "pet hair couch cover",
-        "waterproof sofa cover",
-        "couch cover for dogs",
-        "stretch sofa slipcover",
-        "stain proof couch cover"
+        "outdoor christmas string lights",
+        "warm white led house lights",
+        "christmas light installation ideas",
+        "curtain lights for porch",
+        "best outdoor holiday lights 2026"
       ],
       "scores": {
         "trend": 9,
         "transformation": 10,
         "affiliate": 10,
-        "intent": 9
+        "intent": 8
       },
-      "composite_score": 38,
-      "why_now": "Holiday-hosting cleaning content (Hoover AllOut Lux pin) and pre-guest home prep searches are peaking the week before Thanksgiving."
+      "composite_score": 37,
+      "why_now": "HGTV and BHG Pinterest pins are flooding feeds with dazzling light-display content right as Black Friday hits, pushing outdoor light purchases into peak season."
     },
     {
       "rank": 2,
-      "product_category": "pantry/kitchen organization",
-      "specific_product": "Syruvia airtight kitchen canister & label set",
-      "brand": "Syruvia",
-      "target_price": "$35",
-      "transformation_hook": "$35 canister set turns Thanksgiving-leftover chaos into a magazine pantry",
-      "before_state": "Cluttered pantry with mismatched bags, boxes, and post-Thanksgiving leftover containers",
-      "after_state": "Uniform labeled canisters and bins create an aesthetic, Pinterest-ready pantry wall",
+      "product_category": "cordless stick vacuum",
+      "specific_product": "Hoover ONEPWR / AllOut-style cordless stick vacuum",
+      "brand": "Amazon generic (Hoover)",
+      "target_price": "$129",
+      "transformation_hook": "Guest-ready carpets in one pass for $129, done before tomorrow's hosting",
+      "before_state": "Crumb-covered, pet-haired carpet and rugs hours before holiday guests arrive",
+      "after_state": "Freshly vacuumed, hotel-clean floors with visible fresh-pass lines",
       "buyer_intent_keywords": [
-        "pantry organization ideas",
-        "airtight food containers",
-        "pantry canister set",
-        "kitchen organization before after",
-        "leftover storage containers"
+        "best vacuum for pet hair",
+        "cordless vacuum deals",
+        "vacuum for carpet and hardwood",
+        "Hoover AllOut Lux",
+        "clean house before guests"
       ],
       "scores": {
-        "trend": 8,
-        "transformation": 9,
-        "affiliate": 8,
-        "intent": 9
+        "trend": 9,
+        "transformation": 8,
+        "affiliate": 9,
+        "intent": 10
       },
-      "composite_score": 34,
-      "why_now": "Pinterest's colorful-kitchen pins plus post-Thanksgiving leftover overflow are driving a seasonal spike in pantry-organization searches."
+      "composite_score": 36,
+      "why_now": "Real Simple is running 'guest-ready before the holiday rush' cleaning content on Thanksgiving Day itself, with Black Friday vacuum deals peaking tomorrow."
     },
     {
       "rank": 3,
-      "product_category": "bathroom storage",
-      "specific_product": "Over-the-toilet bamboo storage ladder shelf",
-      "brand": "Amazon generic",
-      "target_price": "$55",
-      "transformation_hook": "$55 shelf fills that empty wall and triples guest-bathroom storage",
-      "before_state": "Bare, awkward empty wall space above the toilet with towels piled on the sink",
-      "after_state": "Tall ladder shelf displays towels and baskets, turning dead space into storage",
+      "product_category": "couch/sofa covers",
+      "specific_product": "Mamma Mia waterproof stretch sofa cover",
+      "brand": "Mamma Mia Covers",
+      "target_price": "$47",
+      "transformation_hook": "Pet-haired couch to brand-new denim look for $47, no reupholstering",
+      "before_state": "Worn, stained, pet-hair-covered sofa about to be seen by holiday guests",
+      "after_state": "Tight, tailored slipcover that looks like a brand-new designer sofa",
       "buyer_intent_keywords": [
-        "over the toilet storage",
-        "small bathroom storage ideas",
-        "bathroom shelf organizer",
-        "guest bathroom makeover",
-        "bathroom storage ladder"
+        "couch cover for pets",
+        "waterproof sofa slipcover",
+        "stretch couch cover",
+        "pet hair proof couch cover",
+        "sofa cover for dogs"
       ],
       "scores": {
         "trend": 7,
-        "transformation": 9,
+        "transformation": 10,
         "affiliate": 9,
         "intent": 8
       },
-      "composite_score": 33,
-      "why_now": "HGTV's pin on filling the empty space above the toilet is circulating right as hosts prep guest bathrooms for holiday visitors."
+      "composite_score": 34,
+      "why_now": "Apartment Therapy's denim-sofa trend piece is live right as hosts scramble to cover worn furniture before Thanksgiving/Black Friday guests, and Mamma Mia pays 24-30% commission."
     },
     {
       "rank": 4,
-      "product_category": "living room seating",
-      "specific_product": "Best Choice Products tufted ottoman/pouf set",
+      "product_category": "above-toilet storage",
+      "specific_product": "3-tier bathroom space-saver shelf over toilet",
+      "brand": "Amazon generic",
+      "target_price": "$39",
+      "transformation_hook": "Cluttered bathroom corner to boutique storage wall for $39",
+      "before_state": "Empty, awkward wall space above the toilet with toiletries stacked on the floor",
+      "after_state": "Styled tiered shelving unit turning dead space into functional storage",
+      "buyer_intent_keywords": [
+        "over the toilet storage",
+        "small bathroom storage ideas",
+        "bathroom space saver shelf",
+        "over toilet shelf",
+        "tiny bathroom organization"
+      ],
+      "scores": {
+        "trend": 6,
+        "transformation": 9,
+        "affiliate": 9,
+        "intent": 7
+      },
+      "composite_score": 31,
+      "why_now": "HGTV's Pinterest pin on filling the empty space above the toilet is gaining traction as holiday guests put bathroom storage under a spotlight."
+    },
+    {
+      "rank": 5,
+      "product_category": "entryway/mudroom storage bench",
+      "specific_product": "Best Choice Products storage bench with shoe rack and coat hooks",
       "brand": "Best Choice Products",
       "target_price": "$89",
-      "transformation_hook": "$89 pouf set adds instant extra seating for holiday house guests",
-      "before_state": "Cramped living room with not enough seating for holiday family gatherings",
-      "after_state": "Stylish ottomans and poufs add flexible extra seating and a cozy layered look",
+      "transformation_hook": "Chaotic coat pile to organized mudroom bench for $89 before guests arrive",
+      "before_state": "Pile of coats, shoes, and bags dumped by the door ahead of holiday guests",
+      "after_state": "Organized bench with shoe cubbies and coat hooks for a guest-ready entryway",
       "buyer_intent_keywords": [
-        "extra seating for guests",
-        "ottoman pouf set",
-        "living room seating ideas",
-        "floor pillow seating",
-        "cozy living room decor"
+        "mudroom storage bench",
+        "entryway organizer with shoe storage",
+        "shoe bench with coat hooks",
+        "small entryway storage ideas",
+        "mudroom laundry combo"
       ],
       "scores": {
         "trend": 6,
@@ -100,32 +125,7 @@
         "intent": 7
       },
       "composite_score": 29,
-      "why_now": "HGTV's floor-pillow/pouf/ottoman seating roundup is trending as families prep living rooms for a full house over the holidays."
-    },
-    {
-      "rank": 5,
-      "product_category": "throw blankets",
-      "specific_product": "Oversized sherpa knit throw blanket",
-      "brand": "Amazon generic",
-      "target_price": "$29",
-      "transformation_hook": "$29 throw turns a bare couch into a cozy holiday-ready living room",
-      "before_state": "Plain, bare couch with no texture or holiday coziness",
-      "after_state": "Draped oversized sherpa throw instantly adds warmth and a styled, cozy look",
-      "buyer_intent_keywords": [
-        "oversized cozy throw blanket",
-        "sherpa blanket couch",
-        "cozy living room decor",
-        "holiday gift blanket",
-        "soft throw blanket"
-      ],
-      "scores": {
-        "trend": 6,
-        "transformation": 7,
-        "affiliate": 7,
-        "intent": 6
-      },
-      "composite_score": 26,
-      "why_now": "Apartment Therapy's luxury-blanket holiday-gift pin (Minky Couture) signals cozy-throw styling is surging as a low-cost living-room refresh."
+      "why_now": "HGTV's mudroom-and-laundry storage pin is surfacing as families prep entryways for a flood of Thanksgiving and Black Friday weekend houseguests."
     }
   ],
   "raw_signal_count": 85,
