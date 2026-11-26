@@ -4,12 +4,12 @@
     "lifetime_follows": 26,
     "lifetime_likes": 33,
     "lifetime_comments": 7,
-    "last_session": "2026-11-26-1335-pi",
+    "last_session": "comments-2026-11-26T1409Z",
     "blocked_at": null,
-    "last_updated": "2026-11-26T13:36:22Z",
-    "total_actions": 795,
+    "last_updated": "2026-11-26T14:11:33Z",
+    "total_actions": 797,
     "lifetime_dms": 36,
-    "lifetime_comments_outbound": 96
+    "lifetime_comments_outbound": 98
   },
   "actions": [
     {
@@ -45318,6 +45318,24 @@
       ],
       "untapped_warm": [],
       "dry_run": false
+    },
+    {
+      "timestamp": "2026-11-26T14:10:01Z",
+      "action": "comment_posted",
+      "target": "thehomeedit",
+      "session": "comments-2026-11-26T1409Z",
+      "post_url": "https://www.instagram.com/thehomeedit/p/Df5BKCCm6Zg/",
+      "text": "Organizers love bins that are 6\" deep instead of the usual 10-12\" \u2014 easier to see everything at the front without digging, especially for pantry or bathroom cabinets.",
+      "caption_seen": ""
+    },
+    {
+      "timestamp": "2026-11-26T14:11:33Z",
+      "action": "comment_posted",
+      "target": "organizedbyellis",
+      "session": "comments-2026-11-26T1409Z",
+      "post_url": "https://www.instagram.com/organizedbyellis/p/DgKtFu1RqfA/",
+      "text": "Inner gasket frames always crack before the outer ones in my experience, so I started storing frames flat with the glass face up\u2014cuts down on that a ton. Do you find rotating storage spots seasonally ",
+      "caption_seen": ""
     }
   ]
 }
