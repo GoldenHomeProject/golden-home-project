@@ -10890,10 +10890,10 @@
   },
   {
     "name": "reel_2026-11-25_001",
-    "status": "awaiting_video",
+    "status": "ready",
     "script_path": "automation/scripts/reel-2026-11-25-001.json",
     "media_type": "REELS",
-    "video_url": null,
+    "video_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-25-001.mp4",
     "caption": "Stop guessing portions with measuring cups\n\nMeasuring cups show volume, not weight, so a cup of rice, oats, or peanut butter can weigh something different every time. That makes it hard to match a recipe written in grams or keep meal-prep portions consistent from one bowl to the next.\n\nThis digital scale measures in both grams and ounces, holds up to eleven pounds, and has a tare function to zero out a bowl or plate before you add food. It's rated 4.6 stars from about 178,000 reviews.\n\nFor about $10, portions and recipe measurements come out the same every time instead of a guess.\n\nComment GRAMS and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
     "hashtags": [
       "#amazonhomefinds",
@@ -10910,7 +10910,8 @@
       "affiliate_network": "amazon",
       "affiliate_url": null
     },
-    "hook": "Stop guessing portions with measuring cups"
+    "hook": "Stop guessing portions with measuring cups",
+    "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-25-001.mp4"
   },
   {
     "name": "reel_2026-11-25_002",
