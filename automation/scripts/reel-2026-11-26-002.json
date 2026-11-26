@@ -1,0 +1,62 @@
+{
+  "created_at": "2026-11-26T15:59:58.849852Z",
+  "date": "2026-11-26",
+  "seq": 2,
+  "hook_category": "scene",
+  "hook": "Sunlight hits your pillow before your alarm even tries.",
+  "reel_format": "problem_fix",
+  "scenes": [
+    {
+      "n": 1,
+      "duration_sec": 3,
+      "visual_prompt": "Morning sunlight streaming across a rumpled bed through a bare bedroom window, pillow half-lit",
+      "on_screen_text": "Sunlight beats your alarm",
+      "voiceover": "Sunlight hits your pillow before your alarm even tries."
+    },
+    {
+      "n": 2,
+      "duration_sec": 4,
+      "visual_prompt": "Close-up of hands pinching a thin curtain panel, a bright edge of light bleeding in along the side of the window",
+      "on_screen_text": "Thin curtains leak light",
+      "voiceover": "Most curtains are too thin or too narrow, so light sneaks in around the edges and right through the fabric."
+    },
+    {
+      "n": 3,
+      "duration_sec": 4,
+      "visual_prompt": "Hands pulling a thick dark curtain panel closed across a bedroom window, the room dimming as it slides shut",
+      "on_screen_text": "Two panels, full window coverage",
+      "voiceover": "These are blackout panels, two to a set, wide and long enough to cover the whole window without gaps."
+    },
+    {
+      "n": 4,
+      "duration_sec": 4,
+      "visual_prompt": "Wide shot of a bedroom with the dark curtains fully closed, the room lit only in soft shadow",
+      "on_screen_text": "Rated 4.6 stars by thousands",
+      "voiceover": "People rate it 4.6 stars, and there are over a hundred thousand reviews behind that."
+    },
+    {
+      "n": 5,
+      "duration_sec": 5,
+      "visual_prompt": "Someone sleeping peacefully in a darkened bedroom, faint outline of the closed curtains behind them",
+      "on_screen_text": "Comment CURTAINS for the link",
+      "voiceover": "A room that actually goes dark when you need it to, for about ten dollars. Comment CURTAINS and I'll send the link."
+    }
+  ],
+  "caption": "Sunlight hits your pillow before your alarm even tries.\n\nMost bedroom windows get hit hardest right at sunrise, and thin or short curtains don't stand a chance against it. Light leaks in around the edges and straight through the fabric, so the room never really goes dark.\n\nThese are blackout panels, two to a set, cut wide and long enough to cover a full bedroom window instead of leaving gaps on either side. The idea is simple: less fabric gap, less light getting through.\n\nA room that can actually go dark when you want it to, without swapping out your whole window setup, and it runs about $10.\n\nComment CURTAINS and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+  "hashtags": [
+    "#amazonhomefinds",
+    "#homehacks2026",
+    "#smallspacesolutions"
+  ],
+  "specific_falsifiable_detail": "These are blackout panels, two to a set, cut wide and long enough to cover a full bedroom window instead of leaving gaps on either side. The idea is simple: less fabric gap, less light getting through",
+  "affiliate_strategy": {
+    "primary_product": "NICETOWN Black Blackout Curtains for Bedroom 42\" Wide x 63\" Long 2 Pan",
+    "dm_keyword": "CURTAINS",
+    "amazon_asin": "B01CS31R94",
+    "amazon_affiliate_url": "https://www.amazon.com/dp/B01CS31R94?tag=goldenhomep0a-20",
+    "asin_pending": false,
+    "fallback_brands": [],
+    "affiliate_network": "amazon",
+    "affiliate_url": null
+  }
+}
