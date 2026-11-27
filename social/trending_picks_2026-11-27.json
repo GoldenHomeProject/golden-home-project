@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-11-27",
+  "category": "Seasonal D\u00e9cor",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-seasonal-decor.html",
+  "picks": [
+    {
+      "asin": "B08D9RNB1D",
+      "name": "Leafeon 150 Pack Ornament Hooks for Christmas",
+      "price": "$7.99",
+      "rating": 4.6,
+      "reviews": 6198,
+      "rank": 2
+    },
+    {
+      "asin": "B0070G7IS4",
+      "name": "Brite Star 1000 Strands 18 inch Icicles",
+      "price": "$7.04",
+      "rating": 4.6,
+      "reviews": 8181,
+      "rank": 14
+    },
+    {
+      "asin": "B07H4HHNQK",
+      "name": "Sattiyrch 15 Inch Steel Wreath Hanger for Front Door",
+      "price": "$5.24",
+      "rating": 4.7,
+      "reviews": 30703,
+      "rank": 17
+    },
+    {
+      "asin": "B07TJJTBW8",
+      "name": "The Elf on the Shelf Box Set",
+      "price": "$32.93",
+      "rating": 4.8,
+      "reviews": 41066,
+      "rank": 19
+    },
+    {
+      "asin": "B07X7H7C7V",
+      "name": "PEIDUO Christmas Decorations",
+      "price": "$17.09",
+      "rating": 4.5,
+      "reviews": 6832,
+      "rank": 28
+    },
+    {
+      "asin": "B07F897P1G",
+      "name": "Wreath Hanger,Christmas Decorations Adjustable Wreath Hanger for Front",
+      "price": "$8.49",
+      "rating": 4.6,
+      "reviews": 8175,
+      "rank": 12
+    }
+  ]
+}
