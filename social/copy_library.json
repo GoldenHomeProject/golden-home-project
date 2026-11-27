@@ -5857,6 +5857,58 @@
         ],
         "reel_format": "versus"
       }
+    ],
+    "DISPLAY": [
+      {
+        "hook_category": "mistake",
+        "hook": "Stop squinting at your scale before sunrise.",
+        "beat1": "Most bathroom scales sit low near the floor with a small, dim screen. In early morning light, or a windowless bathroom, the number is nearly impossible to make out. So people glance, guess, and walk away without ever seeing the real number.",
+        "turn": "This digital scale has a large blue LCD backlight display built for exactly that moment, on 6mm tempered glass rated up to 400 lbs. It's rated 4.7 stars from over 201,000 reviews.",
+        "result": "That means pulling up a clear, readable number without hunting for a light switch, for about $16.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "A bare foot stepping onto a bathroom scale in dim early-morning light, the screen glowing faintly on the tile floor.",
+            "on_screen_text": "The early morning scale problem",
+            "voiceover": "Stop squinting at your scale before sunrise.",
+            "label": ""
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Close-up of a person bending down and tilting their head to try to read small numbers on an old bathroom scale in a dim, windowless bathroom.",
+            "on_screen_text": "Tiny screens, bad lighting",
+            "voiceover": "Most scales sit low with a tiny screen, so in low light the number's almost impossible to read.",
+            "label": "The mistake"
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "A clean bathroom floor near the shower, morning light catching the edge of a sleek glass scale sitting on the tile.",
+            "on_screen_text": "Look for a bigger, lit display",
+            "voiceover": "Instead of guessing, look for a scale built with a display you can actually read at a glance.",
+            "label": "Instead"
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "Overhead shot of a foot stepping onto a blue-backlit digital scale with a tempered glass surface, the number glowing clearly against the dark bathroom floor.",
+            "on_screen_text": "Large backlit display, 400 lb capacity",
+            "voiceover": "This one's got a large blue LCD backlight on 6mm tempered glass, rated up to 400 pounds, so the number's easy to see every time.",
+            "label": "The fix"
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "A hand holding a phone over a bathroom scale resting on the floor, thumb hovering near the comment icon.",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "Comment {KEYWORD} and I'll send the link.",
+            "label": "Save this"
+          }
+        ],
+        "reel_format": "mistake"
+      }
     ]
   },
   "hashtag_pools": {
