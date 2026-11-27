@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-11-27 (Strategy & Outreach 9am)
+# Last updated: 2026-11-27 (Affiliate Optimizer 10am)
 # ============================================================
 
 ---
@@ -6084,3 +6084,77 @@ Mamma Mia 24-30% DAY 78 UNBREAKABLE ($12.69/sale, Thanksgiving TOMORROW + BFCM D
 - **Price band:** ~$45-65
 - **IAN: search "rolling kitchen cart 3 tier bamboo with shelves wheels" in Associates, pick highest-reviewed with BFCM deal**
 - **Link format:** `https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20`
+
+---
+
+### November 2026 Affiliate Updates (updated 2026-11-27 Affiliate Optimizer 10am):
+**BFCM DAY 9 — BLACK FRIDAY LIVE. Cyber Monday NOV 30 = 3 DAYS. Christmas = 28 DAYS.**
+
+**Gmail post-Strategy scan (all emails since ~14:00 UTC Nov 27):** 0 new emails — inbox CLEAN. Only the 2 emails already processed by Email Monitor 8am remain in inbox (Meta BF sale + SmartWings BFCM). Zero inbound on-niche GHP partnership emails. Cold outreach PAUSED per Ian Sep 3 directive. 0 emails sent.
+
+**Earlier agents today:**
+- Email Monitor 13:00 UTC Nov 27: 2 emails — (1) Meta "Sale's on: up to 25% off now" (thread 1a21a9ce22365b1d) — NOT GHP, FOR MARKETING; (2) SmartWings "Unlock Holiday Earnings: Smartwings Black Friday Campaign" (thread 1a21c7e9d010e1f6) — BFCM campaign CONFIRMED: 10% OFF Sitewide / 15% OFF $1,500+ / FREE Shipping, existing Impact partner, no reply needed. 0 on-niche GHP brand emails.
+- Strategy & Outreach 14:00 UTC Nov 27: 3 content ideas — Pinkmas (#pinkchristmas +210% TikTok, 55K+ posts), Maximalist Tinsel ("beige Christmas is over" TikTok viral), Christmas Baking Station (Cyber Monday 3-day urgency). Gater DAY 41 confirmed LONGEST 2026 GAP EVER.
+
+**PLATFORM STATUS (BFCM DAY 9, Black Friday LIVE, Nov 27):**
+
+**Amazon — goldenhomep0a-20 ACTIVE:**
+- BFCM Day 9 (Black Friday). Cyber Monday NOV 30 = 3 DAYS. Christmas = 28 DAYS.
+- Amazon BF elevated bounties active. TikTok Shop BFCM Day 17.
+- 🚨🚨🚨 goldenhomeproject.com: 5xx server errors DAY 2 (thread 1a2181e8f114665d, Nov 26 13:49Z) + 404 errors DAY 10 UNRESOLVED (thread 1a1f2e8063f1df6d, flagged Nov 19). TWO indexing problems during peak BFCM/Black Friday/Cyber Monday traffic.
+
+**Impact (Publisher ID 7104029):**
+- Mamma Mia 24-30%: **DAY 80 UNBREAKABLE** — $12.69/sale, BFCM Day 9 + Cyber Monday 3 DAYS, now 80 consecutive Trend Scout appearances, ZERO content ever produced.
+- Syruvia 20%: **DAY 29** ZERO LINKS — **$168.20 TOTAL FORFEITED** ($5.80/day), BFCM LIVE.
+- SmartWings BF: **DAY 16** — BFCM campaign **CONFIRMED LIVE** via Impact email: 10% OFF Sitewide / 15% OFF Orders $1,500+ / FREE Shipping / no coupon needed. Impact tracking links still unbuilt. $30-60+/sale commission.
+- Dreame BFCM: **DAY 9** LIVE — zero tracking links built.
+- YEEDI 57605: **~DAY 25** BFCM LIVE — zero tracking links built.
+- Promeed 12%: **DAY 50 OVERDUE** — zero tracking links built.
+- Best Choice Products 15%: 1-click pre-approved, unactioned. BFCM LIVE.
+- Nanoleaf: NEW marketplace (Nov 10), unactioned. $60-200+ AOV. BFCM LIVE.
+- Riley Home LLC: NEW marketplace (Nov 10), unactioned.
+- Campaign Logos: NEW marketplace (Nov 23, thread 1a208884270a6646), niche unknown.
+
+**CJ Affiliate:**
+- AliExpress: **DAY 56 of 90** dormancy (34 days remain, deadline ~Dec 30, 2026).
+
+**Awin:**
+- Rewarx 50%: **DAY 74 IAN-BLOCKED** — highest commission in portfolio. Accept Advertiser ID 129153.
+- Homary $96/sale: **DAY 61** — IAN-BLOCKED (Awin express signup needed).
+- Promeed HerbalRX 20%: pending IAN browser Awin accept (Advertiser ID 100833).
+- Big Wall Decor US ~10%: **DAY 10** pending IAN Awin accept — ON-NICHE, ~$400 AOV, holiday bonus active.
+- Tribesigns, SimpleProject, OKUN, CozySpiritStudio: pending IAN Awin dashboard accept.
+
+**New Nov 27 Content Slots (from Strategy & Outreach 14:00 UTC):**
+1. "Pinkmas" Pink Christmas — #pinkchristmas +210% TikTok (55K+ posts), pink pencil tree + rose gold ornaments, under $60, goldenhomep0a-20
+2. Maximalist Tinsel Christmas "Beige Christmas Is Over" — TikTok viral, tinsel garland + retro ornaments, under $30-35, goldenhomep0a-20
+3. Christmas Baking Station — Cyber Monday 3-day urgency, rolling bamboo cart + canister set, under $55-65, goldenhomep0a-20
+
+**High-AOV priority stack (Nov 27):** Mamma Mia DAY 80 > Syruvia $168.20 forfeited > SmartWings DAY 16 BFCM CONFIRMED > Pinkmas +210% zero GHP > Maximalist Tinsel viral zero GHP > Christmas Baking Station Cyber Monday 3 days > Dreame/YEEDI BFCM zero links > Big Wall Decor US DAY 10 $400 AOV > Nanoleaf NEW BFCM > Rewarx 50% DAY 74 IAN-BLOCKED > Homary $96 DAY 61 > CJ DAY 56
+
+**NEXT ACTIONS (Ian — ranked by BFCM/Cyber Monday urgency):**
+  1. 🚨🚨🚨 **FIX goldenhomeproject.com — 5xx server errors DAY 2 (thread 1a2181e8f114665d) + 404 errors DAY 10 (thread 1a1f2e8063f1df6d).** Two indexing problems active during BFCM Day 9 / Black Friday + Cyber Monday 3 DAYS.
+  2. 🚨🚨🚨 **SCRIPT MAMMA MIA COUCH COVER — DAY 80 UNBREAKABLE.** BFCM Day 9 + Cyber Monday 3 DAYS. $12.69/sale at 24-30%. Zero content in 80 days.
+  3. 🚨🚨🚨 **BUILD SMARTWINGS TRACKING LINKS — DAY 16, BFCM CONFIRMED.** 10% sitewide / 15% off $1,500+ / free shipping. Impact Publisher ID 7104029. $30-60/sale.
+  4. 🚨🚨🚨 **BUILD SYRUVIA TRACKING LINK on Impact — DAY 29.** $168.20 TOTAL FORFEITED. BFCM LIVE.
+  5. 🚨🚨🚨 **SCRIPT "PINKMAS" PINK CHRISTMAS — #pinkchristmas +210% TikTok (55K+ posts).** Zero GHP, zero competitor coverage. Black Friday + Cyber Monday 3 days. goldenhomep0a-20.
+  6. 🚨🚨🚨 **SCRIPT MAXIMALIST TINSEL CHRISTMAS "BEIGE CHRISTMAS IS OVER."** TikTok viral, zero GHP. Black Friday + Cyber Monday 3 days. goldenhomep0a-20.
+  7. 🚨🚨 **SCRIPT CHRISTMAS BAKING STATION — Cyber Monday 3 DAYS urgency.** Zero GHP kitchen content this season. goldenhomep0a-20.
+  8. 🚨🚨 **BUILD DREAME TRACKING LINKS — BFCM Day 9 LIVE.** Impact dashboard.
+  9. 🚨🚨 **BUILD YEEDI (Impact 57605) TRACKING LINKS — DAY 25, BFCM LIVE.**
+  10. 🚨🚨 **ACCEPT BIG WALL DECOR US on Awin — DAY 10.** ON-NICHE ~10% / $400 AOV / holiday bonus.
+  11. 🚨🚨 **CHECK + JOIN NANOLEAF on Impact marketplace.** $60-200+ AOV. BFCM LIVE.
+  12. 🚨 Accept BEST CHOICE PRODUCTS on Impact — 1-click pre-approved 15%. BFCM LIVE.
+  13. 🚨 Accept REWARX Awin ID 129153 — DAY 74. 50% recurring. studio@rewarx.com for Golden10.
+  14. 🚨 Accept PROMEED HerbalRX Awin ID 100833 — 20% CPA. Awin browser dashboard.
+  15. Contact PROMEED — amelia.avery@promeed.com (IAN2026F3 + SAMPLE-IAN-COOL3-2026). DAY 50.
+  16. Check CAMPAIGN LOGOS on Impact marketplace — niche unknown (thread 1a208884270a6646).
+  17. Complete HOMARY Awin express signup (ID 91447) — DAY 61. Reply to Lauren at affiliate@homary.com.
+  18. Check RILEY HOME LLC on Impact marketplace — home brand, TBD commission.
+  19. CJ portal audit — AliExpress dormancy DAY 56 (34 days remain, ~Dec 30 deadline).
+  20. Accept ON-NICHE Awin browser invites: Tribesigns, SimpleProject, OKUN, CozySpiritStudio.
+  21. Enter PINTEREST FESTIVE CHALLENGE — $300 prize, ON-NICHE holiday/cozy decor (thread 1a209955673c608b).
+  22. Review Google Analytics Oct 20–Nov 16 report.
+
+**FOR MARKETING DEPT / IAN — not GHP (Nov 27, Affiliate Optimizer 10am):**
+- **Meta "Sale's on: up to 25% off now"** (email@marketing.metamail.com, thread 1a21a9ce22365b1d, 2026-11-27T01:07Z) — Meta AI glasses BF sale (Ray-Ban Meta Gen 2, Meta Glasses, Oakley Meta HSTN), NOT GHP. No reply sent.
