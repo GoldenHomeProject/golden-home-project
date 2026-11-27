@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-11-26 (Affiliate Optimizer 10am)
+# Last updated: 2026-11-27 (Strategy & Outreach 9am)
 # ============================================================
 
 ---
@@ -6025,3 +6025,62 @@ Mamma Mia 24-30% DAY 78 UNBREAKABLE ($12.69/sale, Thanksgiving TOMORROW + BFCM D
 
 **FOR MARKETING DEPT / IAN — not GHP (Nov 27, Email Monitor 8am):**
 - **Meta "Sale's on: up to 25% off now"** (email@marketing.metamail.com, thread 1a21a9ce22365b1d, 2026-11-27T01:07Z) — Meta AI glasses BF promo up to 25% off (Ray-Ban Meta Gen 2, Meta Glasses, Oakley Meta HSTN), NOT GHP. No reply sent.
+
+### November 2026 Visual Trend Insights (updated 2026-11-27 Strategy & Outreach 9am):
+**BFCM DAY 9 — BLACK FRIDAY LIVE. Cyber Monday NOV 30 = 3 DAYS. Christmas = 28 DAYS.**
+
+**Sources checked (2026-11-27):** TikTok search, YouTube search, Pinterest search, BestReviews, Apartment Therapy, OSMOZ (Oct 2026), Competitor: Alexandra Gater (DAY 41 no upload — CONFIRMED LONGEST 2026 GAP EVER).
+
+**Gmail (8am ET):** 2 emails — Meta AI glasses BF (NOT GHP, logged Marketing/Ian), SmartWings BFCM confirmed (10%/15%/free shipping — Email Monitor processed). 0 new on-niche GHP emails. 0 emails sent. Cold outreach PAUSED per Ian Sep 3 directive.
+
+#### Content Ideas Proposed (2026-11-27):
+
+**Idea 1 — "Pinkmas" Pink Christmas Transformation**
+- **Platform signal:** TikTok #pinkchristmas 55K+ posts, up ~210% week-over-week (TikTok self-reported); Apartment Therapy confirmed Five Below pink decor went viral 2026; Amazon "pink pre-lit pencil tree" showing BFCM 20-30% off
+- **Concept:** Renter-safe budget pink Christmas corner transformation — pink pre-lit mini pencil tree + rose gold ornaments + iridescent/pearlescent ribbon. Same plain corner → pink aesthetic reveal. Under $60 total.
+- **Why distinct:** ZERO GHP coverage. Zero competitor coverage (Gater DAY 41, Nest With Me + DIY Creators no pinkmas content confirmed). DISTINCT from all prior aesthetics covered this season (Gothmas, whimsical nostalgia, Cinderella tree, jewel tone, burgundy bedroom).
+- **Format:** Transformation (5,779 views avg vs 200 for roundup). Black Friday = peak Christmas tree shopping.
+- **Hook:** "Everyone decorated for a green Christmas. Same corner. Under $55. It's pink. I can't explain why it looks better."
+- **Products:** Pink pre-lit pencil Christmas tree 4ft artificial (~$35-55), rose gold ornament set (~$18-25), iridescent ribbon (~$8-12). `goldenhomep0a-20`
+- **Price band:** Under $60 total
+
+**Idea 2 — Maximalist Tinsel Christmas ("Beige Christmas Is Over")**
+- **Platform signal:** TikTok "beige Christmas is over" viral trend (BestReviews confirmed); Apartment Therapy Nov 2026: paper chain garland "TikTok's favorite holiday DIY this season"; maximalist/retro/tacky aesthetic trending — rainbow lights, tinsel, beads, the more the merrier
+- **Concept:** "Minimum effort, maximum Christmas" — same neutral tree → maximalist makeover with tinsel garland, paper chains, retro bulb ornaments, shiny beads. Under $30 total.
+- **Why distinct:** ZERO GHP coverage. DISTINCT from Gothmas dark/moody (Nov 26) and whimsical nostalgia vintage (Nov 26). Opposite aesthetic = new audience.
+- **Format:** Transformation. Budget angle = broad reach.
+- **Hook:** "Four years of beige Christmas. Same tree. Under $30. It looks like a party now."
+- **Products:** Metallic tinsel garland set (~$12-18), retro rainbow/multi-color bulb ornament set (~$18-25), paper chain garland DIY kit (~$8-12). `goldenhomep0a-20`
+- **Price band:** Under $30-35 total
+
+**Idea 3 — Christmas Baking Station Kitchen Setup**
+- **Platform signal:** OSMOZ October 2026 "12 Christmas fixes under $65"; holiday kitchen station category confirmed; Black Friday = #1 kitchen shopping day on Amazon; Cyber Monday NOV 30 = 3 DAYS (Cyber Monday traditionally strongest for kitchen)
+- **Concept:** Counter chaos → styled Christmas holiday baking station. Bamboo rolling cart or tray station + flour/sugar canister set (red lids or Christmas colors) + kitchen tool organizer. All freestanding = renter-safe. Under $55 total.
+- **Why distinct:** ZERO GHP kitchen content this season. Kitchen category confirmed sales (Aug internal data). Black Friday + Cyber Monday double-window for kitchen purchases.
+- **Format:** Transformation reveal. "Still on sale through Monday" urgency format applicable (Cyber Monday 3 days).
+- **Hook:** "Every December the kitchen becomes chaos. Same counter. Under $55. It looks like a holiday bakery now."
+- **Products:** Rolling bamboo kitchen cart 3-tier (~$45-65), flour/sugar ceramic canister set holiday colors (~$25-35), kitchen tool holder/organizer bamboo (~$18-25). `goldenhomep0a-20`
+- **Price band:** Under $55-65 total
+
+#### Amazon Picks for Pinterest Pipeline (Nov 27 — BFCM DAY 9):
+
+**Pick 1 — SEASONAL CHRISTMAS: Pink Pre-Lit Pencil Christmas Tree 4ft**
+- **Why this week:** #Pinkmas TikTok up ~210%, 55K+ posts, Black Friday 20-30% off LIVE on Amazon, peak Pinterest save velocity OPEN TODAY (Christmas Day 2 of decorating season), ZERO GHP coverage, ZERO competitor coverage
+- **Category:** Seasonal Christmas
+- **Price band:** ~$35-55
+- **IAN: search "pink pre-lit pencil christmas tree 4ft artificial" in Associates console, pick highest-reviewed under $55 with BFCM deal active**
+- **Link format:** `https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20`
+
+**Pick 2 — SEASONAL CHRISTMAS DECOR: Metallic Tinsel Garland Set**
+- **Why this week:** TikTok "beige Christmas is over" viral maximalist trend, Black Friday discounts on Christmas decor LIVE, Apartment Therapy paper chain garland "TikTok's favorite holiday DIY this season", maximalist aesthetic peak week, ZERO GHP coverage
+- **Category:** Christmas Decor
+- **Price band:** ~$12-25 (garland set or retro bulb ornament set)
+- **IAN: search "christmas tinsel garland metallic shiny red green" OR "retro christmas ornament set vintage multicolor" in Associates, pick top result with BFCM pricing**
+- **Link format:** `https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20`
+
+**Pick 3 — KITCHEN/ORGANIZATION: Rolling Bamboo Kitchen Cart 3-Tier**
+- **Why this week:** Christmas baking station transformation format, kitchen category confirmed August sales, renter-safe freestanding, Black Friday kitchen sales PEAK DAY, Cyber Monday NOV 30 = 3 DAYS (kitchen is Cyber Monday's #1 category on Amazon), ZERO GHP kitchen content this season
+- **Category:** Kitchen Organization
+- **Price band:** ~$45-65
+- **IAN: search "rolling kitchen cart 3 tier bamboo with shelves wheels" in Associates, pick highest-reviewed with BFCM deal**
+- **Link format:** `https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20`
