@@ -1,131 +1,131 @@
 {
-  "generated_at": "2026-11-26T14:42:39.693390Z",
-  "date": "2026-11-26",
+  "generated_at": "2026-11-27T14:38:20.503472Z",
+  "date": "2026-11-27",
   "opportunities": [
     {
       "rank": 1,
-      "product_category": "outdoor holiday string lights",
-      "specific_product": "Warm white LED curtain/icicle string lights, outdoor-rated",
-      "brand": "Amazon generic",
-      "target_price": "$34",
-      "transformation_hook": "Dark porch to holiday-magazine glow for $34 before Black Friday sells out",
-      "before_state": "Bare, dark front porch or exterior with zero holiday character after dusk",
-      "after_state": "Fully lit, warm-glow exterior that looks like a professional holiday display",
-      "buyer_intent_keywords": [
-        "outdoor christmas string lights",
-        "warm white led house lights",
-        "christmas light installation ideas",
-        "curtain lights for porch",
-        "best outdoor holiday lights 2026"
-      ],
-      "scores": {
-        "trend": 9,
-        "transformation": 10,
-        "affiliate": 10,
-        "intent": 8
-      },
-      "composite_score": 37,
-      "why_now": "HGTV and BHG Pinterest pins are flooding feeds with dazzling light-display content right as Black Friday hits, pushing outdoor light purchases into peak season."
-    },
-    {
-      "rank": 2,
-      "product_category": "cordless stick vacuum",
-      "specific_product": "Hoover ONEPWR / AllOut-style cordless stick vacuum",
-      "brand": "Amazon generic (Hoover)",
-      "target_price": "$129",
-      "transformation_hook": "Guest-ready carpets in one pass for $129, done before tomorrow's hosting",
-      "before_state": "Crumb-covered, pet-haired carpet and rugs hours before holiday guests arrive",
-      "after_state": "Freshly vacuumed, hotel-clean floors with visible fresh-pass lines",
-      "buyer_intent_keywords": [
-        "best vacuum for pet hair",
-        "cordless vacuum deals",
-        "vacuum for carpet and hardwood",
-        "Hoover AllOut Lux",
-        "clean house before guests"
-      ],
-      "scores": {
-        "trend": 9,
-        "transformation": 8,
-        "affiliate": 9,
-        "intent": 10
-      },
-      "composite_score": 36,
-      "why_now": "Real Simple is running 'guest-ready before the holiday rush' cleaning content on Thanksgiving Day itself, with Black Friday vacuum deals peaking tomorrow."
-    },
-    {
-      "rank": 3,
       "product_category": "couch/sofa covers",
       "specific_product": "Mamma Mia waterproof stretch sofa cover",
       "brand": "Mamma Mia Covers",
-      "target_price": "$47",
-      "transformation_hook": "Pet-haired couch to brand-new denim look for $47, no reupholstering",
-      "before_state": "Worn, stained, pet-hair-covered sofa about to be seen by holiday guests",
-      "after_state": "Tight, tailored slipcover that looks like a brand-new designer sofa",
+      "target_price": "$42",
+      "transformation_hook": "$42 cover hides pet stains before Thanksgiving guests walk in",
+      "before_state": "faded, pet-hair-covered, stained couch cushions that embarrass hosts",
+      "after_state": "crisp, tailored-looking slipcovered sofa that looks brand new in under 10 minutes",
       "buyer_intent_keywords": [
         "couch cover for pets",
-        "waterproof sofa slipcover",
-        "stretch couch cover",
-        "pet hair proof couch cover",
-        "sofa cover for dogs"
+        "waterproof sofa cover",
+        "stretch couch cover black friday",
+        "pet hair couch cover",
+        "slipcover for sectional"
+      ],
+      "scores": {
+        "trend": 9,
+        "transformation": 10,
+        "affiliate": 9,
+        "intent": 9
+      },
+      "composite_score": 37,
+      "why_now": "Black Friday week plus imminent holiday hosting is driving a surge in couch-cover and quick-furniture-fix searches, and Mamma Mia pays the highest commission in the lineup."
+    },
+    {
+      "rank": 2,
+      "product_category": "bathroom storage",
+      "specific_product": "over-the-toilet tiered space-saver storage rack",
+      "brand": "Amazon generic",
+      "target_price": "$39",
+      "transformation_hook": "$39 rack turns a cramped bathroom into a spa-style storage wall",
+      "before_state": "cluttered counter and floor with towels, toiletries, and toilet paper stacked haphazardly",
+      "after_state": "tiered over-toilet shelving with neatly folded towels and baskets for an instant spa look",
+      "buyer_intent_keywords": [
+        "over the toilet storage",
+        "small bathroom organization ideas",
+        "bathroom shelf space saver",
+        "toilet storage rack",
+        "bathroom storage black friday"
       ],
       "scores": {
         "trend": 7,
-        "transformation": 10,
-        "affiliate": 9,
+        "transformation": 9,
+        "affiliate": 10,
+        "intent": 7
+      },
+      "composite_score": 33,
+      "why_now": "HGTV's Pinterest content on filling the empty space above the toilet is surfacing right as Black Friday bathroom-organization deals peak."
+    },
+    {
+      "rank": 3,
+      "product_category": "carpet & upholstery cleaner",
+      "specific_product": "portable carpet and upholstery deep cleaner (Hoover AllOut Lux-style)",
+      "brand": "Amazon generic",
+      "target_price": "$179",
+      "transformation_hook": "$179 machine lifts years of stains before the holiday guests arrive",
+      "before_state": "dingy, stained carpet and furniture with visible tracked-in dirt and pet marks",
+      "after_state": "bright, streak-free carpet and upholstery ready for a house full of holiday guests",
+      "buyer_intent_keywords": [
+        "carpet cleaner black friday deal",
+        "best carpet cleaner for pet stains",
+        "upholstery cleaner machine",
+        "deep clean carpet before holidays",
+        "hoover carpet cleaner sale"
+      ],
+      "scores": {
+        "trend": 8,
+        "transformation": 8,
+        "affiliate": 8,
         "intent": 8
       },
-      "composite_score": 34,
-      "why_now": "Apartment Therapy's denim-sofa trend piece is live right as hosts scramble to cover worn furniture before Thanksgiving/Black Friday guests, and Mamma Mia pays 24-30% commission."
+      "composite_score": 32,
+      "why_now": "Apartment Therapy is actively pushing the Hoover AllOut Lux for pre-holiday hosting cleanup, and Black Friday is the peak week for vacuum and carpet-cleaner deals."
     },
     {
       "rank": 4,
-      "product_category": "above-toilet storage",
-      "specific_product": "3-tier bathroom space-saver shelf over toilet",
-      "brand": "Amazon generic",
-      "target_price": "$39",
-      "transformation_hook": "Cluttered bathroom corner to boutique storage wall for $39",
-      "before_state": "Empty, awkward wall space above the toilet with toiletries stacked on the floor",
-      "after_state": "Styled tiered shelving unit turning dead space into functional storage",
+      "product_category": "kitchen prep tools",
+      "specific_product": "Syruvia multi-use kitchen gadget set",
+      "brand": "Syruvia",
+      "target_price": "$19",
+      "transformation_hook": "$19 tool set turns slow holiday prep into a 10-minute job",
+      "before_state": "cluttered counter with mismatched dull peelers, graters, and prep tools slowing down cooking",
+      "after_state": "streamlined prep station with one sharp multi-tool set speeding through holiday meal prep",
       "buyer_intent_keywords": [
-        "over the toilet storage",
-        "small bathroom storage ideas",
-        "bathroom space saver shelf",
-        "over toilet shelf",
-        "tiny bathroom organization"
+        "best kitchen gadgets 2026",
+        "vegetable peeler amazon favorite",
+        "holiday cooking prep tools",
+        "kitchen gadgets black friday deal",
+        "easy kitchen tools for prep"
       ],
       "scores": {
-        "trend": 6,
-        "transformation": 9,
+        "trend": 7,
+        "transformation": 7,
         "affiliate": 9,
-        "intent": 7
+        "intent": 8
       },
       "composite_score": 31,
-      "why_now": "HGTV's Pinterest pin on filling the empty space above the toilet is gaining traction as holiday guests put bathroom storage under a spotlight."
+      "why_now": "Real Simple is actively pushing viral cheap kitchen gadgets like the Spring Chef peeler right in the Thanksgiving-to-Christmas cooking window."
     },
     {
       "rank": 5,
-      "product_category": "entryway/mudroom storage bench",
-      "specific_product": "Best Choice Products storage bench with shoe rack and coat hooks",
-      "brand": "Best Choice Products",
-      "target_price": "$89",
-      "transformation_hook": "Chaotic coat pile to organized mudroom bench for $89 before guests arrive",
-      "before_state": "Pile of coats, shoes, and bags dumped by the door ahead of holiday guests",
-      "after_state": "Organized bench with shoe cubbies and coat hooks for a guest-ready entryway",
+      "product_category": "bed pillows",
+      "specific_product": "Eli & Elm side sleeper neck-support pillow",
+      "brand": "Eli & Elm",
+      "target_price": "$36",
+      "transformation_hook": "$36 pillow fixed my neck pain and made my bed look hotel-ready",
+      "before_state": "flat, lumpy mismatched pillows and nightly neck and shoulder pain for side sleepers",
+      "after_state": "supportive, fluffed matching pillow stack with visibly better neck alignment and hotel-bed styling",
       "buyer_intent_keywords": [
-        "mudroom storage bench",
-        "entryway organizer with shoe storage",
-        "shoe bench with coat hooks",
-        "small entryway storage ideas",
-        "mudroom laundry combo"
+        "best pillow for side sleepers neck pain",
+        "neck support pillow",
+        "side sleeper pillow black friday",
+        "pillow for shoulder pain",
+        "hotel style bed pillows"
       ],
       "scores": {
         "trend": 6,
-        "transformation": 8,
+        "transformation": 7,
         "affiliate": 8,
-        "intent": 7
+        "intent": 9
       },
-      "composite_score": 29,
-      "why_now": "HGTV's mudroom-and-laundry storage pin is surfacing as families prep entryways for a flood of Thanksgiving and Black Friday weekend houseguests."
+      "composite_score": 30,
+      "why_now": "Side-sleeper neck pain is a steady high-intent search problem, and Black Friday pillow deals are spiking purchase-ready traffic right now."
     }
   ],
   "raw_signal_count": 85,
