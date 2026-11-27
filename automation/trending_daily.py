@@ -238,6 +238,10 @@ def scrape_bestsellers(nodes) -> list[dict]:
                     page.mouse.wheel(0, 4000)          # trigger lazy-load of the grid
                     page.wait_for_timeout(1500)
                     recs = page.evaluate(EXTRACT_JS) or []
+                    # 11/25: pages loaded fine but came back EMPTY from the 3rd category on
+                    # (17 products, 5 deals on BF eve). Empty counts as a failure: wait, retry.
+                    if not recs and attempt == 1:
+                        raise RuntimeError("empty grid")
                     for r in recs:
                         r["cat_label"], r["cat_group"] = label, group
                     items.extend(recs)
@@ -246,7 +250,7 @@ def scrape_bestsellers(nodes) -> list[dict]:
                 except Exception as e:  # noqa: BLE001
                     print(f"  [scrape] {label}: FAILED (try {attempt}) — {str(e)[:80]}")
                     if attempt == 1:
-                        page.wait_for_timeout(30000)
+                        page.wait_for_timeout(90000)
         browser.close()
     return items
 
