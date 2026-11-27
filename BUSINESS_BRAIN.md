@@ -6012,3 +6012,16 @@ Mamma Mia 24-30% DAY 78 UNBREAKABLE ($12.69/sale, Thanksgiving TOMORROW + BFCM D
 **FOR MARKETING DEPT / IAN — not GHP (Nov 26, Affiliate Optimizer 10am):**
 - **Awin Simpletics invitation** (help@awin.com, thread 1a217322bc6b2c52, 2026-11-26T09:31Z) — men's natural hair styling 25% Awin, OFF-NICHE. No reply sent (Email Monitor processed).
 - **Meta "Shop our Gift Guide & spread joy for less"** (email@marketing.metamail.com, thread 1a213ad788de57f5, 2026-11-25T17:07Z) — Meta AI glasses holiday gift guide, NOT GHP. No reply sent (Email Monitor processed Nov 26).
+
+### November 2026 Affiliate Updates (updated 2026-11-27 Email Monitor 8am):
+**Gmail scan (new emails since 2026-11-26T13:00Z):** 2 new emails: (1) Meta "Sale's on: up to 25% off now" (email@marketing.metamail.com, thread 1a21a9ce22365b1d, 2026-11-27T01:07Z) — Meta AI glasses BF sale up to 25% off (Ray-Ban Meta, Meta Glasses, Oakley Meta), NOT GHP per SCOPE GUARD, logged for Marketing/Ian, no reply sent. (2) SmartWings "Unlock Holiday Earnings: Smartwings Black Friday Campaign" (notifications@outreach.impact.com, thread 1a21c7e9d010e1f6, 2026-11-27T10:13Z) — Impact affiliate campaign notification from Andy/SmartWings team: **10% OFF Sitewide, 15% OFF Orders Over $1,500, FREE Shipping** (no coupon code required), BFCM LIVE, strong conversion noted by SmartWings team. This is an affiliate partner notification for existing SmartWings Impact partnership — campaign details confirmed, no reply needed. 0 on-niche GHP brand deal emails. 0 emails sent. Cold outreach PAUSED per Ian Sep 3 directive.
+
+**SmartWings BFCM Deal Update (confirmed Nov 27 via Impact affiliate email):**
+- 10% OFF Sitewide (no coupon needed)
+- 15% OFF Orders Over $1,500 (no coupon needed)
+- FREE Shipping
+- SmartWings affiliate team requesting: homepage placements, BF/CM deal roundups, gift guides, social media placements
+- Build tracking links now — BFCM LIVE, strong conversion, $30-60+ commission per sale
+
+**FOR MARKETING DEPT / IAN — not GHP (Nov 27, Email Monitor 8am):**
+- **Meta "Sale's on: up to 25% off now"** (email@marketing.metamail.com, thread 1a21a9ce22365b1d, 2026-11-27T01:07Z) — Meta AI glasses BF promo up to 25% off (Ray-Ban Meta Gen 2, Meta Glasses, Oakley Meta HSTN), NOT GHP. No reply sent.
