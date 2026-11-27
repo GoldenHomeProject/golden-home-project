@@ -4,11 +4,11 @@
     "lifetime_follows": 26,
     "lifetime_likes": 33,
     "lifetime_comments": 7,
-    "last_session": "comments-2026-11-27T1409Z",
+    "last_session": "outreach-2026-11-27T1811Z",
     "blocked_at": null,
-    "last_updated": "2026-11-27T14:12:34Z",
-    "total_actions": 803,
-    "lifetime_dms": 37,
+    "last_updated": "2026-11-27T18:12:23Z",
+    "total_actions": 804,
+    "lifetime_dms": 38,
     "lifetime_comments_outbound": 100
   },
   "actions": [
@@ -45604,6 +45604,15 @@
       "post_url": "https://www.instagram.com/shiragill/p/DgFw9-Lstim/",
       "text": "Warmer, humid air actually holds more moisture \u2014 so if the room feels stuffy, cracking a window for 10 min while you sort can prevent that musty closet smell from setting back in.",
       "caption_seen": ""
+    },
+    {
+      "timestamp": "2026-11-27T18:12:23Z",
+      "action": "dm_sent",
+      "target": "lifeinjeneral",
+      "session": "outreach-2026-11-27T1811Z",
+      "body_chars": 749,
+      "thread_url": "https://www.instagram.com/lifeinjeneral/",
+      "template_tag": "path_c_v2_affiliate_split"
     }
   ]
 }
