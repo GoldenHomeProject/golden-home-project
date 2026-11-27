@@ -7598,6 +7598,38 @@
       "verified_stars": "4.6",
       "verified_reviews": 2431,
       "discovery_source": "back_to_college_2026"
+    },
+    {
+      "asin": "B07TJJTBW8",
+      "product_name": "The Elf on the Shelf Box Set - Boy Scout Elf with Blue Eyes | Official Elf doll, Christmas tradition storybook, adoption",
+      "categories": [
+        "home",
+        "Seasonal D\u00e9cor"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B07TJJTBW8?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-11-27",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$32.93",
+      "verified_stars": "4.8",
+      "verified_reviews": 41066,
+      "discovery_source": "harvest_catalogue"
+    },
+    {
+      "asin": "B07X3BX7WM",
+      "product_name": "Bedsure Faux Fur Fluffy Fleece Sherpa Blanket Couch Throw Grey 50\"x60\" | Christmas Fuzzy Plush, Thick Warm, Fall, Comfor",
+      "categories": [
+        "home",
+        "Bedding"
+      ],
+      "affiliate_url": "https://www.amazon.com/dp/B07X3BX7WM?tag=goldenhomep0a-20",
+      "status": "live",
+      "verified_at": "2026-11-27",
+      "verified_method": "best_seller_grid",
+      "verified_price": "$16.99",
+      "verified_stars": "4.6",
+      "verified_reviews": 37030,
+      "discovery_source": "harvest_catalogue"
     }
   ]
 }
