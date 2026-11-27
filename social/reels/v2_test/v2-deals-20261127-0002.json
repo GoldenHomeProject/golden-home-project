@@ -1,0 +1,59 @@
+{
+ "format": "deals",
+ "hook": "Two kitchen fixes, both cheaper this week.",
+ "promise": "Black Friday kitchen deals",
+ "space": "Kitchen",
+ "items": [
+  {
+   "i": 0,
+   "type": "Food Storage Containers",
+   "line": "Stop digging for lids. Grab a set that actually stacks.",
+   "benefit": "airtight stackable food storage",
+   "problem_query": "messy pantry containers",
+   "solution_query": "stacked food storage containers",
+   "asin": "B079M8FPTW",
+   "name": "Rubbermaid Brilliance Tritan Plastic Food Storage Containers BPA Free Airtight Lids Ideal for Lunch Meal Prep & Leftover",
+   "rating": 4.7,
+   "reviews": 19042,
+   "chart_rank": 3,
+   "price": "$21.99",
+   "band": "Under $25",
+   "deal": "Down 32% \u00b7 under $25"
+  },
+  {
+   "i": 8,
+   "type": "Sink Sponge Organizer",
+   "benefit": "sponge and brush stored together",
+   "problem_query": "messy sink sponge",
+   "solution_query": "sink organizer sponge holder",
+   "asin": "B0C3QZ7SNF",
+   "name": "Cisily Sponge Holder for Kitchen Sink, Sink Organizer with Brush Holder | Black Kitchen Countertop Organizers and Storag",
+   "rating": 4.6,
+   "reviews": 15668,
+   "chart_rank": 31,
+   "price": "$13.99",
+   "band": "Under $15",
+   "line": "And a home for your sponge that isn\u2019t the sink.",
+   "deal": "Down 15% \u00b7 under $15"
+  }
+ ],
+ "keyword": "COOKING",
+ "onscreen": "Black Friday deals your kitchen actually needs",
+ "vo": {
+  "hook": "Two kitchen fixes, both cheaper this week.",
+  "tip": "Stack it, stash it, counters clear.",
+  "close": "",
+  "cta": "Deal prices move fast. Comment COOKING for the links."
+ },
+ "cta_note": "Deal prices move fast",
+ "clip_ids": {
+  "hook": 5453401,
+  "promise": 5453401,
+  "problem_shot": false,
+  "items": {
+   "B079M8FPTW": 8581131,
+   "B0C3QZ7SNF": 10573366
+  }
+ },
+ "page": "https://goldenhomeproject.com/r/cooking"
+}

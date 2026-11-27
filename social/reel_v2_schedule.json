@@ -75,5 +75,33 @@
   "keyword": "COZY",
   "page": "https://goldenhomeproject.com/r/cozy",
   "variant": "v2"
+ },
+ "2026-11-27": {
+  "date": "2026-11-27",
+  "title": "Black Friday deals your kitchen actually needs",
+  "video_file": "v2_test/v2-deals-20261127-0002.mp4",
+  "video_dir": "reels",
+  "products": [
+   {
+    "name": "Food Storage Containers",
+    "price": "under $25",
+    "asin": "B079M8FPTW"
+   },
+   {
+    "name": "Sink Sponge Organizer",
+    "price": "under $15",
+    "asin": "B0C3QZ7SNF"
+   }
+  ],
+  "caption_override": "Black Friday deals your kitchen actually needs 🏷️\n\nStop digging for lids: stackable food containers, about 32% below their usual price this week.\nAnd a home for your sponge that isn’t the sink, about 15% below its usual price.\n\nDown vs. their typical price over the past two weeks, from our own daily price tracking. Deal prices move fast, so check the live listing.\n\nComment COOKING and we’ll reply with the links, or type goldenhomeproject.com/r/cooking\n\n#ad As an Amazon Associate we earn from qualifying purchases.\n\n#blackfriday #blackfridaydeals #kitchenorganization #amazonhomefinds #mealprep",
+  "ig": true,
+  "source": "social/reels/v2_test/v2-deals-20261127-0002.json",
+  "keyword": "COOKING",
+  "page": "https://goldenhomeproject.com/r/cooking",
+  "variant": "v2",
+  "deal_asins": [
+   "B079M8FPTW",
+   "B0C3QZ7SNF"
+  ]
  }
 }
