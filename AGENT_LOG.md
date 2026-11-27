@@ -6841,3 +6841,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** automation/trends/2026-11-27.json, social/trend_feed.json
 **External actions:** reddit_pi_cache + google_trends + pinterest_rss + amazon_movers_pi_cache
 **Next agent hint:** Content Engine: today's top-3 opportunities are: $42 cover hides pet stains before Thanks, $39 rack turns a cramped bathroom into a, $179 machine lifts years of stains befor
+
+## 2026-11-27T15:48:13Z — Content Engine
+**Ran:** Generated 3 Reel scripts from 5 trend opportunities
+**Changed:** automation/scripts/reel-2026-11-27-*.json, social/post_queue.json
+**External actions:** none
+**Next agent hint:** Quality Gate should review before Reel Producer renders. Hooks: mistake: Stop stuffing new pillow covers with your old flat | mistake: Your old dial scale is basically a guessing game. | mistake: Weak water pressure isn't your pipes. It's your sh

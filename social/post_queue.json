@@ -11035,5 +11035,77 @@
     },
     "hook": "Your couch cushions go flat before anyone even sits down.",
     "image_url": "https://goldenhomeproject.com/social/reels/reel-2026-11-26-003.mp4"
+  },
+  {
+    "name": "reel_2026-11-27_001",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-27-001.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Stop stuffing new pillow covers with your old flat inserts\n\nCovers look full in the package, then go limp the second they're on the couch. The problem usually isn't the cover at all. It's an insert that's already lost its shape.\n\nAn 18x18 insert sized to match your cover, not squeezed from a different size, is what keeps corners square instead of round. This pair sits at over 220,000 reviews and a 4.6 rating.\n\nTwo 18x18 inserts with 100% virgin filling for about $17, so both sides of the couch match.\n\nComment CUSHION and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Utopia Bedding 18x18 pillow inserts, White Throw Pillows for Couch, 2 Pack | 100% Virgin Filling, Indoor Cushion Inserts",
+      "dm_keyword": "CUSHION",
+      "amazon_asin": "B01NBNDC1T",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01NBNDC1T?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Stop stuffing new pillow covers with your old flat inserts"
+  },
+  {
+    "name": "reel_2026-11-27_002",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-27-002.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Your old dial scale is basically a guessing game.\n\nDial scales have a needle that swings past the number you're trying to read, and the glass fogs or shifts after years of use. Most people just round to the nearest five pounds and call it good.\n\nThis is a digital bathroom scale, so instead of squinting at a needle you get a number straight on the display. It's rated 4.7 stars across more than three hundred thousand reviews.\n\nYou get a clear readout each time you step on, no guessing involved, and it runs about $17.\n\nComment BODY and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "Etekcity Digital Body Weight Bathroom Scale",
+      "dm_keyword": "BODY",
+      "amazon_asin": "B01HI1W1V4",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B01HI1W1V4?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Your old dial scale is basically a guessing game."
+  },
+  {
+    "name": "reel_2026-11-27_003",
+    "status": "awaiting_video",
+    "script_path": "automation/scripts/reel-2026-11-27-003.json",
+    "media_type": "REELS",
+    "video_url": null,
+    "caption": "Weak water pressure isn't your pipes. It's your showerhead.\n\nMost bathrooms still have the plain fixed head that came with the house, and it only does one thing: a single steady stream. When the building's water pressure is already low, that one setting is the whole experience, every single day.\n\nThis handheld head gives you eight spray modes plus a 2-mode power wash setting, so you can switch from a wide rinse to a stronger, more focused stream right from your hand. It's rated 4.5 stars by over fifty thousand people.\n\nYou get a shower that actually adjusts to what you want that day, for about $30.\n\nComment AQUACARE and I'll reply with the link.\nAmazon affiliate \u2014 I earn a small commission at no extra cost to you.\n\n#amazonhomefinds #homehacks2026 #smallspacesolutions",
+    "hashtags": [
+      "#amazonhomefinds",
+      "#homehacks2026",
+      "#smallspacesolutions"
+    ],
+    "affiliate": {
+      "primary_product": "AquaCare 8-mode High Pressure Handheld Shower Head with 2-mode Power W",
+      "dm_keyword": "AQUACARE",
+      "amazon_asin": "B08WPQ12XX",
+      "amazon_affiliate_url": "https://www.amazon.com/dp/B08WPQ12XX?tag=goldenhomep0a-20",
+      "asin_pending": false,
+      "fallback_brands": [],
+      "affiliate_network": "amazon",
+      "affiliate_url": null
+    },
+    "hook": "Weak water pressure isn't your pipes. It's your showerhead."
   }
 ]
