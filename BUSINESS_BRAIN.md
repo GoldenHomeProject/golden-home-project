@@ -3,7 +3,7 @@
 # This file is the single source of truth for the business.
 # Every agent reads it at start. Every agent updates it at end.
 # Humans review it weekly. Never delete history — append only.
-# Last updated: 2026-11-27 (Affiliate Optimizer 10am)
+# Last updated: 2026-11-28 (Strategy & Outreach 9am)
 # ============================================================
 
 ---
@@ -6158,3 +6158,67 @@ Mamma Mia 24-30% DAY 78 UNBREAKABLE ($12.69/sale, Thanksgiving TOMORROW + BFCM D
 
 **FOR MARKETING DEPT / IAN — not GHP (Nov 27, Affiliate Optimizer 10am):**
 - **Meta "Sale's on: up to 25% off now"** (email@marketing.metamail.com, thread 1a21a9ce22365b1d, 2026-11-27T01:07Z) — Meta AI glasses BF sale (Ray-Ban Meta Gen 2, Meta Glasses, Oakley Meta HSTN), NOT GHP. No reply sent.
+
+### November 2026 Visual Trend Insights (updated 2026-11-28 Strategy & Outreach 9am):
+**BFCM DAY 10 — CYBER SATURDAY. Cyber Monday NOV 30 = 2 DAYS. Christmas = 27 DAYS.**
+
+**Sources checked (2026-11-28):** TikTok Holiday Report 2026 (via Social Media Today), Homes & Gardens, Ideal Home, Apartment Therapy, YouTube/Pinterest research. Competitor: Alexandra Gater (DAY 42 no upload — VidIQ confirms last video Oct 17 2026, CONFIRMED LONGEST 2026 GAP EVER). Nest With Me: crafts/pregnancy. DIY Creators: woodworking.
+
+**Gmail (8am ET, Nov 28):** 3 inbox threads — 2 already processed by Nov 27 Email Monitor. 1 NEW Meta AI glasses BF email (email@marketing.metamail.com, thread 1a21d8e87c06fd2b, "This is it: up to 25% off AI glasses") — NOT GHP per SCOPE GUARD, logged for Marketing/Ian. SmartWings Impact notification + yesterday's Meta email — both already logged Nov 27. 0 new on-niche GHP emails. 0 emails sent. Cold outreach PAUSED per Ian Sep 3 directive.
+
+#### Content Ideas Proposed (2026-11-28):
+
+**Idea 1 — Cozy Christmas Movie Night Corner**
+- **Platform signal:** TikTok #cozychristmas up 170% week-over-week (TikTok Holiday Report 2026 via Social Media Today); "Cozy Christmas" named as a key TikTok holiday trend centered on movie nights, quiet winter evenings, cozy bedding; Cyber Monday 2 days = peak Amazon bedding/home textile sales
+- **Concept:** Plain couch or living room corner → cozy Christmas movie night setup. Holiday fleece throw blanket + velvet Christmas pillow covers + battery warm-white fairy lights. All renter-safe (no drilling). Under $55 total.
+- **Why distinct:** ZERO GHP coverage. DISTINCT from Pinkmas (aesthetic), Maximalist Tinsel (decorating style), Christmas Baking Station (kitchen Nov 27). Bedding/cozy goods = confirmed GHP August sales category. #cozychristmas is a SEPARATE confirmed trend from #pinkchristmas.
+- **Format:** Transformation (5,779 views avg). Cyber Monday 2-day urgency applicable.
+- **Hook:** "Every December that couch becomes a Christmas movie couch. Same couch. Same room. It looks like it was designed for it now."
+- **Products:** Holiday fleece throw blanket seasonal (~$18-30), velvet Christmas pillow covers 2-pack (~$18-25), battery-operated warm white fairy lights (~$12-18). `goldenhomep0a-20`
+- **Price band:** Under $55 total
+
+**Idea 2 — Oversized Velvet Bow Christmas ("Bow Everything" Renter Version)**
+- **Platform signal:** Homes & Gardens 2026 confirms bows as "2026's biggest Christmas trend"; velvet bows named by multiple outlets (Homes & Gardens, Ideal Home, AOL/Living Etc); Victoria and David Beckham's tree featured bows (Homes & Gardens); Anthropologie bow topper viral; bows go on trees, mantels, wreaths, front doors — all renter-safe angles
+- **Concept:** Plain Christmas tree/front door/wreath → "bow everything" transformation using oversized velvet ribbon bows. No tools, no damage, ties/drapes on. Under $45 total.
+- **Why distinct:** ZERO GHP coverage. DISTINCT from Maximalist Tinsel (Nov 27) — different aesthetic (elegant velvet vs retro/tacky metallic). DISTINCT from Pinkmas. 2026-confirmed biggest bow trend across editorial consensus.
+- **Format:** Transformation reveal. Bow ties onto tree, drapes on door, pins on mantel = truly renter-safe.
+- **Hook:** "The tree gets new ornaments every year. Same tree. Same corner. Three velvet bows. It doesn't look like anyone else's anymore."
+- **Products:** Oversized velvet ribbon bows set gold or burgundy (~$15-25), satin ribbon roll for DIY bows (~$10-14). `goldenhomep0a-20`
+- **Price band:** Under $45 total
+
+**Idea 3 — Cyber Monday Gift Wrapping Station (Urgency Format)**
+- **Platform signal:** Cyber Monday NOV 30 = 2 DAYS (highest Amazon purchase volume day of year); zero-waste gift wrapping trending (Sunset Nov 2026); Pinterest "gift wrapping ideas" saves surge Cyber Monday through Dec 10; gift buyers need a system NOW before packages arrive
+- **Concept:** Messy floor/table gift wrapping chaos → styled gift wrapping station on counter or console table. Kraft paper + washi tape + twine + tags = organized system. Small basket holds supplies. Renter-safe (freestanding).
+- **Why distinct:** ZERO GHP coverage. Pure Cyber Monday 2-day urgency format. DISTINCT from all prior Nov 2026 content. Zero competitor coverage (Gater DAY 42, Nest With Me crafts/pregnancy, DIY Creators woodworking).
+- **Format:** Transformation reveal with Cyber Monday urgency ("still on sale through Monday" format).
+- **Hook:** "Gift wrapping happens on the floor every year. Same counter. Same space. There's a station now. Everything wraps in half the time."
+- **Products:** Kraft paper gift wrap roll recycled (~$12-16), washi tape set colorful (~$8-12), eco twine + gift tags bundle (~$10-14), small basket/organizer for supplies (~$14-18). `goldenhomep0a-20`
+- **Price band:** Under $50 total
+
+#### Amazon Picks for Pinterest Pipeline (Nov 28 — BFCM DAY 10, Cyber Saturday):
+
+**Pick 1 — BEDDING/COZY: Holiday Fleece Throw Blanket Christmas**
+- **Why this week:** TikTok #cozychristmas +170% (confirmed TikTok Holiday Report 2026); bedding = confirmed GHP August sales category; Cyber Monday 2 DAYS (peak Amazon home textile sales); renter-safe; high Pinterest save velocity for cozy Christmas bedding
+- **Category:** Bedding/Cozy Home
+- **Price band:** ~$18-30
+- **IAN: search "fleece throw blanket holiday christmas cozy" in Associates console for top ASIN with BFCM deal active**
+- **Link format:** `https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20`
+
+**Pick 2 — CHRISTMAS DECOR: Oversized Velvet Ribbon Bow Set for Christmas Tree**
+- **Why this week:** Homes & Gardens 2026 "biggest Christmas trend" bow editorial consensus confirmed; velvet bows peak Pinterest save window OPEN (Christmas Day 27); Anthropologie-viral bow look at fraction of the cost; renter-safe no-drill; ZERO GHP coverage
+- **Category:** Christmas Decor
+- **Price band:** ~$15-25
+- **IAN: search "oversized velvet ribbon bow christmas tree decoration set" in Associates for top ASIN**
+- **Link format:** `https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20`
+
+**Pick 3 — HOME ORGANIZATION/GIFTING: Kraft Paper Gift Wrap Roll Bundle with Tags and Twine**
+- **Why this week:** Cyber Monday 2 DAYS = peak Amazon gift purchase day; zero-waste wrapping trending; Pinterest "kraft paper gift wrap aesthetic" saves surge; Cyber Monday buyers need gift wrap NOW; renter-safe; practical + visual transformation format
+- **Category:** Home Organization / Gift Wrapping
+- **Price band:** ~$12-20
+- **IAN: search "kraft paper gift wrap roll eco twine tags" in Associates for top ASIN**
+- **Link format:** `https://www.amazon.com/dp/<ASIN>?tag=goldenhomep0a-20`
+
+- **Competitor watch (Nov 28):** Alexandra Gater: DAY 42 since Oct 17 "Mid-Century Modern 240 sq ft Studio" — CONFIRMED LONGEST 2026 GAP EVER. No November upload confirmed via VidIQ. Zero competitor coverage on Cozy Christmas movie night, Velvet Bow transformation, or Gift Wrapping Station. Renter + dollar-specificity moat fully intact.
+
+**FOR MARKETING DEPT / IAN — not GHP (Nov 28, Strategy & Outreach 9am):**
+- **Meta "This is it: up to 25% off AI glasses"** (email@marketing.metamail.com, thread 1a21d8e87c06fd2b, 2026-11-28) — Meta AI glasses continued BF campaign. NOT GHP per SCOPE GUARD. No reply sent.
