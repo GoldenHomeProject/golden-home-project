@@ -8863,14 +8863,15 @@
     "fallback_image_path": null,
     "image_url": "https://goldenhomeproject.com/social/pinterest/pin-2026-10-30-B0DLWDVZCD.png",
     "queued_at": "2026-10-30T10:13:19.338303Z",
-    "posted": false,
+    "posted": true,
     "source": "pinterest_pipeline",
     "drop_observed_to": null,
     "gift_key": null,
     "overlay_hook": "Shower Curtain Rod",
     "recharted": true,
     "variant": "B",
-    "ai_image": true
+    "ai_image": true,
+    "posted_at": "2026-11-28T02:16:48Z"
   },
   {
     "id": "pin-2026-10-30-B078YNC9G9",
