@@ -4306,6 +4306,20 @@
       "pin_id": "pin-2026-10-19-B09CKSCYF8",
       "board": "Bathroom Storage Ideas",
       "link": "https://www.amazon.com/dp/B09CKSCYF8?tag=ghpbrandb-20&ascsubtag=pinterest_brandB"
+    },
+    {
+      "ts": "2026-11-28T02:15:28Z",
+      "action": "board_fallback",
+      "pin_id": "pin-2026-10-31-B07RZRH662",
+      "wanted": "Bedroom Storage & Bedding",
+      "used": "Home Organization Finds"
+    },
+    {
+      "ts": "2026-11-28T02:15:40Z",
+      "action": "pin_published",
+      "pin_id": "pin-2026-10-31-B07RZRH662",
+      "board": "Bedroom Storage & Bedding",
+      "link": "https://www.amazon.com/dp/B07RZRH662?tag=ghpbranda-20&ascsubtag=pinterest_brandA"
     }
   ]
 }
