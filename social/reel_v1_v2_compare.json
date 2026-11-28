@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T08:15",
+ "updated": "2026-11-28T08:15",
  "note": "watch_pct = avg watch time / reel length (IG has no 3-second-hold metric). Clicks and orders: Associates report by ascsubtag.",
  "summary": {
   "v1": {
@@ -9,7 +9,7 @@
    "link_replies": null
   },
   "v2": {
-   "reels": 3,
+   "reels": 4,
    "like_count": 0.0,
    "comments_count": 0.0,
    "link_replies": 0.0
@@ -375,6 +375,24 @@
    "watch_pct": null,
    "keyword": null,
    "link_replies": null
+  },
+  {
+   "date": "2026-11-27",
+   "variant": "v2",
+   "title": "Black Friday deals your kitchen actually needs",
+   "ig_media": "18149923765586942",
+   "youtube": "0ZjuA_q9W8c",
+   "length_s": 14.7,
+   "comments_count": 0,
+   "like_count": 0,
+   "permalink": "https://www.instagram.com/reel/DgQ9HBUOkd5/",
+   "plays": null,
+   "saves": null,
+   "shares": null,
+   "avg_watch_s": null,
+   "watch_pct": null,
+   "keyword": "COOKING",
+   "link_replies": 0
   }
  ]
 }
