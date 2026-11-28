@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-11-28",
+  "category": "Kitchen",
+  "source": "Amazon Best Sellers (live Pi scrape)",
+  "post": "blog/posts/best-kitchen-gadgets.html",
+  "picks": [
+    {
+      "asin": "B08J8GZXKZ",
+      "name": "KITCHENAID Ribbed Soft Silicone Oven Mitt 2-Pack Set",
+      "price": "$11.49",
+      "rating": 4.7,
+      "reviews": 14631,
+      "rank": 8
+    },
+    {
+      "asin": "B07YP2VH4B",
+      "name": "KitchenAid Classic Multifunction Can Opener and Bottle Opener Easy to",
+      "price": "$11.99",
+      "rating": 4.6,
+      "reviews": 92878,
+      "rank": 9
+    },
+    {
+      "asin": "B079M8FPTW",
+      "name": "Rubbermaid Brilliance Tritan Plastic Food Storage Containers BPA Free",
+      "price": "$21.99",
+      "rating": 4.7,
+      "reviews": 19055,
+      "rank": 13
+    },
+    {
+      "asin": "B0764HS4SL",
+      "name": "Fullstar Pro Original Vegetable Chopper & Spiralizer",
+      "price": "$23.74",
+      "rating": 4.5,
+      "reviews": 122839,
+      "rank": 19
+    },
+    {
+      "asin": "B0F5X4FM3Q",
+      "name": "0.5 Sec Instant Read Meat Thermometer Digital for Cooking",
+      "price": "$15.99",
+      "rating": 4.7,
+      "reviews": 8922,
+      "rank": 27
+    },
+    {
+      "asin": "B00G2XGC88",
+      "name": "Lodge Pre-Seasoned Cast Iron Skillet with Silicone Handle Holder",
+      "price": "$28.99",
+      "rating": 4.7,
+      "reviews": 21559,
+      "rank": 37
+    }
+  ]
+}
