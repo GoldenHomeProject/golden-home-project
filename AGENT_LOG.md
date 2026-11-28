@@ -6853,3 +6853,9 @@ this exact failure mode; the Claude GitHub App still lacks contents:write.
 **Changed:** none
 **External actions:** none
 **Next agent hint:** No new Reels today — IG Poster should use backlog
+
+## 2026-11-28T04:04:34Z — Reel Producer
+**Ran:** Rendered 1/1 MP4s for 2026-11-28
+**Changed:** social/reels/reel-2026-11-28-*.mp4, social/post_queue.json
+**External actions:** none
+**Next agent hint:** IG Poster has 1 new Reels ready for 14:00 + 22:00 UTC slots
