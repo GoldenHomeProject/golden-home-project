@@ -5909,6 +5909,53 @@
         ],
         "reel_format": "mistake"
       }
+    ],
+    "BRITE": [
+      {
+        "hook_category": "mistake",
+        "hook": "Stop scrubbing nonstick pans with the scratchy side.",
+        "beat1": "Most kitchen sponges have one scratchy side made for stuck-on food, but that same side scuffs nonstick coatings, glass cooktops, and stainless finishes. So you either scrub hard and risk the surface, or go gentle and leave food behind.",
+        "turn": "The Scotch-Brite Zero Scratch Scrub Sponge is made to clean without that risk, and it holds about a 4.8 star rating from roughly 67,000 reviews. It comes as a six pack, so there's one for every pan, sink, or counter in the house.",
+        "result": "Nonstick and glass surfaces stay scratch free while stuck-on food still comes off, and the six pack runs about $5.",
+        "scenes": [
+          {
+            "n": 1,
+            "duration_sec": 3,
+            "visual_prompt": "Close-up of a hand scrubbing a nonstick frying pan in a kitchen sink with a yellow dish sponge, the scratchy side pressed into the pan surface.",
+            "on_screen_text": "Stop scrubbing with the scratchy side",
+            "voiceover": "Stop scrubbing nonstick pans with the scratchy side."
+          },
+          {
+            "n": 2,
+            "duration_sec": 4,
+            "visual_prompt": "Overhead close-up of a nonstick pan with faint scratch marks catching the light, soapy water pooled in the sink below.",
+            "on_screen_text": "Scratches never really buff out",
+            "voiceover": "One wrong swipe and that scratch is there for good, especially on nonstick or glass."
+          },
+          {
+            "n": 3,
+            "duration_sec": 4,
+            "visual_prompt": "A hand lifting one sponge from an opened six-pack of scrub sponges set on a kitchen counter next to the sink.",
+            "on_screen_text": "Zero scratch sponge, six in the pack",
+            "voiceover": "This sponge is built to scrub without scratching nonstick, glass, or coated pans."
+          },
+          {
+            "n": 4,
+            "duration_sec": 4,
+            "visual_prompt": "Close-up of a hand scrubbing dried-on food off a pan with the sponge, suds building up around the rim.",
+            "on_screen_text": "Still gentle, still cuts through grime",
+            "voiceover": "It still breaks down stuck-on food, just without the risk to the finish."
+          },
+          {
+            "n": 5,
+            "duration_sec": 5,
+            "visual_prompt": "Wide shot of a clean kitchen sink with the pan drying on a rack and the sponge resting on the edge of the sink.",
+            "on_screen_text": "Comment {KEYWORD} for the link",
+            "voiceover": "Comment {KEYWORD} and I'll send the link."
+          }
+        ],
+        "reel_format": "pov"
+      }
     ]
   },
   "hashtag_pools": {
